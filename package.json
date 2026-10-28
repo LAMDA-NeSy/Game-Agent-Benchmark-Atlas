@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "python3 build_data.py",
-    "test": "node --test checks/*.test.cjs",
+    "build": "python3 scripts/build.py",
+    "test": "node --test tests/*.test.cjs",
+    "check": "npm run build && npm test",
     "preview": "python3 -m http.server 4317 --directory dist"
   },
   "engines": {

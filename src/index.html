@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#203e65">
+  <meta name="description" content="Explore a curated atlas of game agent benchmarks. Discover papers, compare environments, and find the right evaluation for LLM, VLM and RL agents.">
+  <title>Game Agent Benchmark Atlas — Research Index</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css?v=25">
+  <link rel="stylesheet" href="./research-ui.css?v=25">
+  <link rel="stylesheet" href="./arena-suite.css?v=27">
+  <script src="./data.js?v=49" defer></script>
+  <script src="./translations.js?v=48" defer></script>
+  <script src="./i18n.js?v=25" defer></script>
+  <script src="./game-roles-data.js?v=48" defer></script>
+  <script src="./game-roles-model.js?v=37" defer></script>
+  <script src="./model.js?v=36" defer></script>
+  <script src="./arena-data.js?v=48" defer></script>
+  <script src="./arena-selection.js?v=49" defer></script>
+  <script src="./arena-model.js?v=25" defer></script>
+  <script src="./task-coverage-model.js?v=25" defer></script>
+  <script src="./task-coverage.js?v=38" defer></script>
+  <script src="./arena-suite.js?v=25" defer></script>
+  <script src="./library-data.js?v=49" defer></script>
+  <script src="./research-archive-model.js?v=48" defer></script>
+  <script src="./research-archives.js?v=48" defer></script>
+  <script src="./library.js?v=46" defer></script>
+  <link rel="stylesheet" href="./library.css?v=46">
+  <script src="./game-introductions.js?v=47r1" defer></script>
+  <script src="./app.js?v=46" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#collection">Skip to collection</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Game Agent Benchmark Atlas home"><span class="wordmark">Game Agent <b>Benchmark Atlas</b></span></a>
+      <nav aria-label="Main navigation">
+        <button class="nav-link" data-view="explore">全部条目</button>
+        <button class="nav-link" data-view="themes">研究主题</button>
+        <button class="nav-link" data-view="games">游戏索引</button>
+        <button class="nav-link nav-arena" data-view="arena" data-no-i18n>Game Arena</button>
+      </nav>
+      <button class="nav-secondary" data-view="capabilities">分类方法</button>
+      <div class="header-actions"><div class="language-picker" role="group" aria-label="Language / 语言" data-no-i18n><button data-language="zh" lang="zh-CN" aria-pressed="true">中文</button><button data-language="en" lang="en" aria-pressed="false">EN</button></div><button class="header-compare" id="header-compare"><span data-icon="compare"></span><span>条目对比</span><span id="compare-count">0</span></button></div>
+    </div>
+  </header>
+  <main>
+    <section class="wrap question-section" id="questions" aria-labelledby="question-title">
+      <div class="question-heading"><div><h2 id="question-title">研究主题</h2></div><button class="text-button" data-view="explore">全部条目 →</button></div>
+      <p class="theme-page-intro">按研究问题查找评测任务，比较协议与适用边界。</p>
+      <div id="question-grid" class="question-grid"></div>
+
+    </section>
+    <section class="wrap collection" id="collection" tabindex="-1">
+      <div class="section-heading"><div><div class="eyebrow" id="section-eyebrow">THE COLLECTION / 001</div><h2 id="section-title">Explore benchmarks<span class="heading-period">.</span></h2></div><p id="section-description">A considered selection of benchmarks, environments & platforms.</p></div>
+      <div id="library-content" data-no-i18n hidden></div>
+      <div id="explorer">
+        <div id="research-context"></div>
+
+        <div class="explorer-layout">
+          <aside id="filters" class="filters" aria-label="Filter benchmarks">
+            <div class="filter-heading"><strong><span data-icon="sliders"></span> 筛选条件</strong><button class="reset-button" id="reset-filters">清除筛选</button></div>
+            <div id="filter-groups"></div>
+
+          </aside>
+          <div class="results-area">
+            <div class="search-toolbar"><label class="search-box"><span data-icon="search"></span><input id="search" type="search" placeholder="搜索名称、游戏、作者…" aria-label="Search benchmarks, games, authors"><kbd>/</kbd></label><button class="filter-mobile" id="filter-mobile" aria-expanded="false" aria-controls="filters"><span data-icon="sliders"></span>Filters</button><label class="sort-box"><span class="sr-only">Sort results</span><select id="sort"><option value="curated">目录顺序</option><option value="newest">最新发表</option><option value="name">名称 A–Z</option></select></label></div>
+        <div class="explorer-top"><div class="preset-tabs" aria-label="Quick filters"><button class="active" data-preset="all">全部范式 <span>12</span></button><button data-preset="foundation">LLM / VLM</button><button data-preset="rl">强化学习 RL</button></div><button class="text-button export-button" id="export-button"><span data-icon="download"></span>导出记录</button></div>
+            <div class="results-meta"><span id="results-count" role="status" aria-live="polite"></span></div>
+            <div id="active-filters" class="active-filters"></div>
+            <div id="results" class="directory-wrap"></div>
+
+          </div>
+        </div>
+      </div>
+      <div id="method-overview" class="method-overview" hidden><div class="about-points"><section><span>01</span><div><h3>收录对象</h3><p>The indexed entries include benchmark suites, individual benchmarks, environment families and research platforms. Each record keeps its original paper and authors.</p></div></section><section><span>02</span><div><h3>分类依据分层展示</h3><p>“官方定位”对应项目明确的研究目标；“任务文档”对应具体任务机制；“编辑归类”是根据机制整理的研究视角。它们都不自动证明某项能力被独立测量。</p><p>目录按条目检索；游戏页面按本游戏的关联与任务档案筛选。</p></div></section><section><span>03</span><div><h3>来源与核查状态</h3><p>All entries use one research archive structure. Each archive distinguishes bibliographic metadata, reviewed tasks and missing evidence. Inclusion and code availability do not imply installation or reproduction.</p><p>文献核验不代表独立复现；任务的版本、预算与限制在协议中列示。</p></div></section><section><span>04</span><div><h3>使用边界</h3><p>研究路径是编辑整理的候选清单，不提供自动适配或质量排名。对比中的建议指标、控制条件属于研究设计提示；各条目的结果不能直接跨协议合并。</p></div></section></div></div>
+      <div id="topic-content" hidden></div>
+      <div id="arena-content" data-no-i18n hidden></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><a class="footer-brand" href="./">Game Agent Benchmark Atlas</a><p>Game-agent evaluation research</p><button id="footer-about">分类方法</button><span>LAST REVIEWED · 2026-10-26</span></footer>
+  <div id="compare-dock" class="compare-dock" hidden><div><span data-icon="compare"></span><strong id="dock-count"></strong><span id="dock-names"></span></div><div><button class="dock-clear" id="clear-compare">Clear</button><button class="button lime" id="open-compare">Compare selected <span data-icon="arrow-right"></span></button></div></div>
+  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><div id="detail-content"></div></dialog>
+  <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div id="compare-content"></div></dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">Enable JavaScript to search the research index and inspect task protocols.</div></noscript>
+</body>
+</html>
