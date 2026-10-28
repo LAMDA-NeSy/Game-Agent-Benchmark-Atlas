@@ -43,6 +43,17 @@ The build can also be invoked from another directory with the absolute path to
 `scripts/build.py`. All Python modules use `scripts/atlas/paths.py` to resolve
 project paths. Build inputs live entirely in this repository.
 
+## GitHub Pages
+
+`.github/workflows/pages.yml` builds and tests every push to `main`, verifies that
+the tracked `dist/` files are up to date, and publishes only `dist/` through GitHub
+Pages. It can also be run manually from the Actions tab. Pages must use **GitHub
+Actions** as its publishing source in the repository settings. No external
+deployment token is needed; the workflow uses GitHub's deployment identity.
+
+The site uses relative asset links and query-string navigation, so it works under
+the repository's `/Game-Agent-Benchmark-Atlas/` URL prefix without a custom domain.
+
 ## Where to make changes
 
 - **UI and behavior:** edit `src/`. The build flattens source asset paths into
