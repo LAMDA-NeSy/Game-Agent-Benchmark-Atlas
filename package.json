@@ -1,0 +1,13 @@
+{
+  "name": "game-agent-benchmark-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 build_data.py",
+    "test": "node --test checks/*.test.cjs",
+    "preview": "python3 -m http.server 4317 --directory dist"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

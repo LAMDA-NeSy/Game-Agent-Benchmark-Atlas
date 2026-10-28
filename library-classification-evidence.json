@@ -1,0 +1,90 @@
+{
+  "SUP-ale": {
+    "zh": "以 Atari 画面驱动游戏动作；原论文也比较通用规划算法，规划范围依赖所选游戏。",
+    "en": "Atari screen observations drive game actions. Original paper benchmarks domain-independent planning agents; scope depends on selected game."
+  },
+  "SUP-vizdoom": {
+    "zh": "以第一人称画面执行移动和射击；迷宫场景提供导航与探索任务。",
+    "en": "Screen-buffer input and move/shoot actions support first-person visual control. Original maze-navigation scenario supports navigation and exploration studies."
+  },
+  "SUP-smac": {
+    "zh": "各单位依据局部观测独立行动并协同作战；策略标签仅指对固定敌方队伍的战术选择，不代表完整战略运营。",
+    "en": "Each unit is an independent agent acting from local observations in cooperative combat. Teams choose tactical combat actions against a fixed opposing team."
+  },
+  "SUP-sc2le": {
+    "zh": "完整对局涉及资源和军事决策及延迟回报；小游戏可分别研究单位选择与控制，不能把二者合成同一任务。",
+    "en": "Full-game StarCraft II includes resource and military decisions. Main game has delayed credit assignment over thousands of actions. Minigames isolate aspects of unit selection and control."
+  },
+  "SUP-textworld": {
+    "zh": "生成器控制游戏规模与难度，以建立训练和测试集合；文字目标与改变状态的行动序列提供规划研究场景。",
+    "en": "Generator controls game scope and difficulty to construct train/test game sets. Text adventures expose goals and state-changing action sequences."
+  },
+  "SUP-babyai": {
+    "zh": "指令要求按顺序操作网格世界物体；组合式指令支持语言泛化研究，但必须明确数据划分。",
+    "en": "Instructions can require ordered object manipulation in gridworlds. Compositional synthetic instructions support grounded language generalization studies; split must be explicit."
+  },
+  "SUP-openspiel": {
+    "zh": "覆盖完全与不完全信息、零和与一般和博弈，并提供搜索与规划算法。平台本身没有唯一的能力评分协议。",
+    "en": "Perfect/imperfect-information and zero/general-sum games support strategic decision analysis. Framework includes search and planning algorithms for game trees."
+  },
+  "SUP-deepmind-lab": {
+    "zh": "第一人称三维观测驱动移动与交互；导航任务在受限观测世界中提供探索问题。",
+    "en": "First-person 3D observations drive movement and interactions. Navigation tasks expose partially observed worlds."
+  },
+  "SUP-gvgai": {
+    "zh": "未见游戏是多游戏竞赛的一部分；规划赛道提供前向模拟，需与只依赖交互学习的赛道区分。",
+    "en": "Playing previously unseen games is part of the multi-game competition design. Planning tracks provide forward simulation, unlike learning-only tracks."
+  },
+  "SUP-coinrun": {
+    "zh": "固定训练关卡与程序生成测试关卡用于分析过拟合；跳跃和避障属于控制要求。官方测试采样不保证严格排除训练关卡，若需要不重叠测试须另行验证。",
+    "en": "Fixed training levels and procedurally sampled test levels support overfitting analysis; jumping and obstacle avoidance require control. Official test sampling does not strictly exclude training levels; verify disjointness if required."
+  },
+  "SUP-obstacle-tower": {
+    "zh": "未见的程序生成塔楼用于泛化评估；移动平台、障碍与解谜房间结合时机控制和路线决策。",
+    "en": "Evaluation uses unseen procedural tower instances. 3D movement, obstacles and moving platforms require timed control. Puzzle rooms and floor navigation combine low-level control with high-level route/task decisions."
+  },
+  "SUP-minerl-dataset": {
+    "zh": "数据中的 Minecraft 任务涉及层级依赖；演示配对观测与人类动作。数据集需配合具体任务及评分协议，不能独立当作能力测验。",
+    "en": "Related Minecraft tasks have hierarchical dependencies documented by the dataset paper. Demonstrations pair game observations with human actions."
+  },
+  "SUP-griddly": {
+    "zh": "可配置游戏和不同观测方式用于设计受控泛化与观测—动作实验；具体能力依赖用户定义的任务与划分。",
+    "en": "Configurable games and observation modes support controlled generalization experiments. Different symbolic and rendered observers allow controlled observation/action studies."
+  },
+  "SUP-elf": {
+    "zh": "MiniRTS 连接资源收集、单位生产及后续攻防；战争迷雾与侦察带来未知地域的信息获取问题。",
+    "en": "MiniRTS includes resource gathering, building units and attacking/defending. Fog-of-war and scouting expose unseen territories. Full-game training connects resource collection and troop production to later combat."
+  },
+  "SUP-malmo": {
+    "zh": "任务接口支持导航、生存、智能体间与人机合作；建造任务可组合移动、采掘与装配依赖，需具体定义目标。",
+    "en": "Mission API supports navigation and survival scenarios. Platform supports AI-AI and human-AI collaboration tasks. Construction missions can combine navigation, mining and assembly dependencies."
+  },
+  "SUP-spirebench": {
+    "zh": "路线、卡组和战斗的后果跨多个时程；记忆关联依据跨局存储消融。",
+    "en": "Route, deck and combat choices have delayed consequences; cross-run memory is explicitly ablated."
+  },
+  "SUP-pokeagent-challenge": {
+    "zh": "对战中的隐藏状态与阵容变化对应策略和泛化；RPG 里程碑对应长时程规划。",
+    "en": "Hidden state and varied teams probe strategy/generalization; RPG milestones probe long-horizon planning."
+  },
+  "SUP-vgc-bench": {
+    "zh": "未见阵容测试提供直接泛化证据，隐藏数值和同时行动构成策略挑战。",
+    "en": "Held-out teams directly test generalization; hidden stats and simultaneous actions require strategic reasoning."
+  },
+  "SUP-gg-bench": {
+    "zh": "新规则与多回合对抗用于观察规则迁移及连续策略决策。",
+    "en": "Novel rules and multi-turn adversarial play probe transfer and sequential strategy."
+  },
+  "SUP-comrad": {
+    "zh": "合作目标与时空同步对应协作；独立留出布局对应泛化。",
+    "en": "Shared objectives and temporal/spatial synchronization probe coordination; held-out layouts probe generalization."
+  },
+  "SUP-agenticsts": {
+    "zh": "显式移除记忆层提供记忆研究入口，整局策略决策带来长时程依赖。",
+    "en": "Explicit memory-layer ablations support memory studies; full-run choices create long-horizon dependencies."
+  },
+  "SUP-darefightingice-llm-2026": {
+    "zh": "实时动作选择与对手应对符合控制和策略研究；不是 LLM 通用能力结论。",
+    "en": "Real-time action selection and opponent response support control/strategy research, not general LLM capability claims."
+  }
+}

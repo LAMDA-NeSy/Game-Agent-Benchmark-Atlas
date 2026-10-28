@@ -1,0 +1,244 @@
+{
+  "checked": "2026-10-18",
+  "scope": "Official-source task inspection; no installation or execution.",
+  "tasks": [
+    {
+      "id": "vizdoom-deadly-corridor",
+      "benchmark": "SUP-vizdoom",
+      "source": "https://vizdoom.farama.org/environments/default/#deadly-corridor",
+      "docs": "https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/master/scenarios/deadly_corridor.cfg",
+      "evidence": [
+        {
+          "url": "https://vizdoom.farama.org/environments/default/#deadly-corridor",
+          "verified": "Goal, rewards, actions, timeout and difficulty."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/Farama-Foundation/ViZDoom/master/scenarios/deadly_corridor.cfg",
+          "verified": "Official scenario configuration."
+        },
+        {
+          "url": "https://vizdoom.farama.org/api/python/gymnasium_wrapper/",
+          "verified": "Wrapper action variants, frame skip and observation buffers."
+        }
+      ]
+    },
+    {
+      "id": "textworld-cooking-dependencies",
+      "benchmark": "SUP-textworld",
+      "source": "https://raw.githubusercontent.com/microsoft/TextWorld/main/textworld/challenges/tw_cooking/cooking.py",
+      "docs": "https://raw.githubusercontent.com/microsoft/TextWorld/main/textworld/core.py",
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/microsoft/TextWorld/main/textworld/challenges/tw_cooking/cooking.py",
+          "verified": "Official objective, skill parameters, food/preparation splits and max_score construction."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/microsoft/TextWorld/main/textworld/core.py",
+          "verified": "Command interface and evaluator information fields."
+        }
+      ]
+    },
+    {
+      "id": "coinrun-original-500",
+      "benchmark": "SUP-coinrun",
+      "source": "https://raw.githubusercontent.com/openai/coinrun/master/README.md",
+      "docs": "https://raw.githubusercontent.com/openai/coinrun/master/coinrun/config.py",
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/openai/coinrun/master/README.md",
+          "verified": "500-level protocol, separate train/test scripts, test-overlap caveat and archive status."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/coinrun/master/coinrun/config.py",
+          "verified": "SET_SEED=-1 convention and observation/training configuration switches."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/coinrun/master/coinrun/enjoy.py",
+          "verified": "Episode return aggregation and output metric names."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/coinrun/master/coinrun/coinrunenv.py",
+          "verified": "Image observation and discrete-action VecEnv interface."
+        }
+      ]
+    },
+    {
+      "id": "football-academy-3v1",
+      "benchmark": "football",
+      "source": "https://raw.githubusercontent.com/google-research/football/master/gfootball/scenarios/academy_3_vs_1_with_keeper.py",
+      "docs": "https://raw.githubusercontent.com/google-research/football/master/gfootball/doc/scenarios.md",
+      "evidence": [
+        {
+          "url": "https://raw.githubusercontent.com/google-research/football/master/gfootball/scenarios/academy_3_vs_1_with_keeper.py",
+          "verified": "Exact scenario name, positions, duration and termination flags."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research/football/master/gfootball/doc/scenarios.md",
+          "verified": "Official three-attacker/one-defender-plus-keeper task description."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research/football/master/gfootball/env/__init__.py",
+          "verified": "Current create_environment parameter names, representation and reward options."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research/football/master/gfootball/doc/observation.md",
+          "verified": "Raw observation fields and default 19-action set."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research/football/master/gfootball/env/football_env_core.py",
+          "verified": "Reward equals score-difference change and episode termination logic."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research/football/master/gfootball/env/football_env.py",
+          "verified": "MultiDiscrete interface and score_reward field."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-research/football/master/gfootball/doc/multi_agent.md",
+          "verified": "Caller must dispatch individual player actions; multi-policy setup is not implied by player count."
+        }
+      ]
+    },
+    {
+      "id": "spirebench-a20-full-run",
+      "benchmark": "SUP-spirebench",
+      "source": "https://arxiv.org/abs/2610.12596",
+      "docs": "https://arxiv.org/html/2610.12596v1",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.12596v1",
+          "sections": [
+            "3 Methods",
+            "B.1 Game interface",
+            "B.2 Agent harness",
+            "B.3 Notes and memory",
+            "C.2 Seeds and cohort selection",
+            "C.3 Metrics and statistics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vgc-unseen-team-crossplay",
+      "benchmark": "SUP-vgc-bench",
+      "source": "https://arxiv.org/abs/2506.10326",
+      "docs": "https://arxiv.org/html/2506.10326v3",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2506.10326v3",
+          "sections": [
+            "4.1 Infrastructure",
+            "4.2.2 LLM Agent",
+            "4.3 Evaluation Methods",
+            "5.1 Cross-Play Performance",
+            "5.2 Performance and Generalization Evaluations"
+          ]
+        },
+        {
+          "url": "https://github.com/cameronangliss/vgc-bench",
+          "sections": [
+            "README"
+          ]
+        },
+        {
+          "url": "https://github.com/cameronangliss/vgc-bench/blob/main/eval.sh",
+          "sections": [
+            "evaluation launcher"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comrad-ammo-carrier",
+      "benchmark": "SUP-comrad",
+      "source": "https://openreview.net/forum?id=0x7G2k0Hh7",
+      "docs": "https://lmbored.github.io/comrad_site/",
+      "evidence": [
+        {
+          "url": "https://lmbored.github.io/comrad_site/",
+          "sections": [
+            "When centralized training hurts",
+            "Scoreboard",
+            "13 scenarios"
+          ]
+        },
+        {
+          "url": "https://github.com/TTomilin/COMRAD/blob/main/comrad/train_all.py",
+          "sections": [
+            "BENCHMARK_SCENARIOS",
+            "SEEDS",
+            "TRAIN_FOR_ENV_STEPS",
+            "ALGORITHMS"
+          ]
+        },
+        {
+          "url": "https://github.com/TTomilin/COMRAD",
+          "sections": [
+            "Benchmark launchers",
+            "Scenario assets"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "civrealm-settler-build-city",
+      "benchmark": "GAB075",
+      "source": "https://github.com/bigai-ai/civrealm",
+      "docs": "https://bigai-ai.github.io/civrealm/advanced_materials/minigame_setting.html",
+      "evidence": [
+        {
+          "url": "https://bigai-ai.github.io/civrealm/advanced_materials/minigame_setting.html",
+          "section": "Supported Types; Game Status; Victory Status",
+          "supports": [
+            "officialTask",
+            "scope",
+            "metric",
+            "controls"
+          ]
+        },
+        {
+          "url": "https://arxiv.org/html/2401.10568v1",
+          "section": "3.2; A.2 Tables 8–10; C.2",
+          "supports": [
+            "interface",
+            "metric"
+          ]
+        },
+        {
+          "url": "https://github.com/bigai-ai/civrealm",
+          "section": "README",
+          "supports": [
+            "game",
+            "agents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fightladder-ryu-mirror",
+      "benchmark": "GAB076",
+      "source": "https://github.com/wenzhe-li/FightLadder",
+      "docs": "https://arxiv.org/html/2406.02081v1",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2406.02081v1",
+          "section": "4.1–4.4; 5; 7.2–7.3",
+          "supports": [
+            "officialTask",
+            "interface",
+            "metric",
+            "controls"
+          ]
+        },
+        {
+          "url": "https://github.com/wenzhe-li/FightLadder",
+          "section": "Setup; Key concepts; League / PSRO / FSP; Single-Agent RL Exploiters",
+          "supports": [
+            "game",
+            "agents",
+            "pending"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3977 @@
+{
+  "version": "coverage-followup-v24",
+  "checkedAt": "2026-10-19",
+  "previousCommit": "69965e26002d2f06e286f585600053c02d968ddb",
+  "previousAuditSha256": "1537ede113592fa041a8ddcf68e4b1f4784c2772229fd2751a619c07331bf274",
+  "summary": {
+    "reviewed": 54,
+    "reviewedIds": [
+      "GAB083",
+      "REC-2.4",
+      "REC-3.5",
+      "TOP-08",
+      "VLA-29",
+      "TOP-10",
+      "VLA-23",
+      "VLA-21",
+      "TOP-07",
+      "VLA-10",
+      "VLA-09",
+      "TOP-06",
+      "TOP-05",
+      "VLA-03",
+      "VLA-04",
+      "VLA-02",
+      "GAB084",
+      "GAB044",
+      "VLA-13",
+      "AX26-2605.00347",
+      "REC-T08",
+      "TOP-04",
+      "TOP-02",
+      "TOP-01",
+      "GAB111",
+      "TOP-16",
+      "TOP-15",
+      "TOP-14",
+      "TOP-12",
+      "TOP-13",
+      "TOP-11",
+      "GAB093",
+      "GAB046",
+      "GAB012",
+      "TOP-18",
+      "TOP-19",
+      "TOP-25",
+      "TOP-17",
+      "TOP-24",
+      "REC-4.4",
+      "GAB009",
+      "GAB085",
+      "GAB066",
+      "GAB053",
+      "GAB008",
+      "TOP-23",
+      "REC-3.4",
+      "GAB086",
+      "GAB060",
+      "GAB054",
+      "GAB031",
+      "GAB014",
+      "S05",
+      "NATURE298"
+    ],
+    "previouslyMissing": 51,
+    "previouslyUnmapped": 3,
+    "integrated": 47,
+    "mapped": 2,
+    "stillMissing": 5,
+    "outOfScope": 0,
+    "addedUnits": 63,
+    "updatedUnits": 0
+  },
+  "records": [
+    {
+      "id": "GAB083",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v267/tan25h.html",
+          "title": "Cradle: Empowering Foundation Agents towards General Computer Control",
+          "excerpt": "Sections 3.1 and 4 specify screen-video input and keyboard/mouse actions. Four game evaluations use task success, cleared tiles, trading profits and city-service/population metrics, with human-assisted city results separate."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-cradle-rdr2",
+        "v24-cradle-stardew",
+        "v24-cradle-dealers",
+        "v24-cradle-cities"
+      ],
+      "addedUnitIds": [
+        "v24-cradle-cities",
+        "v24-cradle-dealers",
+        "v24-cradle-rdr2",
+        "v24-cradle-stardew"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "REC-2.4",
+      "previousState": "missing",
+      "outcome": "still_missing",
+      "noteZh": "在线 Minecraft 的具体可执行动作格式与执行器尚未公开定位；项目仓库仍把在线环境列为发布计划，论文键绑定表属于数据注释，不能替代在线接口。",
+      "noteEn": "The executable online Minecraft action format and executor remain unlocated. The repository lists online environments in its release roadmap; annotation keybindings do not establish the online interface.",
+      "missing": [
+        {
+          "field": "action",
+          "detail": {
+            "zh": "在线 Minecraft 的具体可执行动作格式与执行器尚未公开定位；项目仓库仍把在线环境列为发布计划，论文键绑定表属于数据注释，不能替代在线接口。",
+            "en": "The executable online Minecraft action format and executor remain unlocated. The repository lists online environments in its release roadmap; annotation keybindings do not establish the online interface."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.25001",
+          "title": "GameHorizon Suite",
+          "excerpt": "The paper specifies twenty Minecraft online tasks and reset-based subtask diagnostics but does not expose the online executor interface in the reviewed sections."
+        },
+        {
+          "url": "https://github.com/TencentARC/GameHorizon",
+          "title": "GameHorizon official repository",
+          "excerpt": "The roadmap lists online task environments; the accessed repository gives task results but no complete online action adapter."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [],
+      "addedUnitIds": [],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "REC-3.5",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/pdf/2609.33115",
+          "title": "Modular Discovery of General Game-Playing Algorithms with Large Language Models",
+          "excerpt": "Section 2 defines information-state legal-action play and terminal utilities. Table 11 identifies held-out games; Appendix I evaluates fixed-time and fixed-simulation tournaments using AlphaRank/SCO."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-modular-heldout-board"
+      ],
+      "addedUnitIds": [
+        "v24-modular-heldout-board"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-08",
+      "previousState": "missing",
+      "outcome": "still_missing",
+      "noteZh": "PMLR 正式 PDF 再次读取失败，OpenReview 两个论文链接均进入验证页；可确认混合高低层动作与既往成功指标，但观测内容及其具体执行映射仍无法核对。",
+      "noteEn": "The official PMLR PDF again failed to load and both OpenReview paper links required browser verification. Mixed hierarchical actions and previously recorded metrics are known, but observations and their executable mapping remain unverifiable.",
+      "missing": [
+        {
+          "field": "observation/action",
+          "detail": {
+            "zh": "PMLR 正式 PDF 再次读取失败，OpenReview 两个论文链接均进入验证页；可确认混合高低层动作与既往成功指标，但观测内容及其具体执行映射仍无法核对。",
+            "en": "The official PMLR PDF again failed to load and both OpenReview paper links required browser verification. Mixed hierarchical actions and previously recorded metrics are known, but observations and their executable mapping remain unverifiable."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26dn/wang26dn.pdf",
+          "title": "DeepHA official PDF",
+          "excerpt": "Access attempted again; the tool could not retrieve the official full text."
+        },
+        {
+          "url": "https://openreview.net/pdf?id=La7HVjveBA",
+          "title": "DeepHA author submission",
+          "excerpt": "Access led to browser verification; this is an access limitation, not evidence that the paper lacks a protocol."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [],
+      "addedUnitIds": [],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-29",
+      "previousState": "missing",
+      "outcome": "still_missing",
+      "noteZh": "已新增核实官方 tasks.js 库存数量成功验证及超时设置；但该文件导入的 commands/index.js 返回 404，未取得完整游戏动作实现。发布任务目录与论文四类任务也尚未逐项对齐，不将代码示例等同论文全部评测。",
+      "noteEn": "The official tasks.js now verifies inventory-quantity success and timeouts, but its imported commands/index.js returned 404, leaving the actual game-action implementation unavailable. Released task directories are not yet reconciled with the four paper families.",
+      "missing": [
+        {
+          "field": "action",
+          "detail": {
+            "zh": "已新增核实官方 tasks.js 库存数量成功验证及超时设置；但该文件导入的 commands/index.js 返回 404，未取得完整游戏动作实现。发布任务目录与论文四类任务也尚未逐项对齐，不将代码示例等同论文全部评测。",
+            "en": "The official tasks.js now verifies inventory-quantity success and timeouts, but its imported commands/index.js returned 404, leaving the actual game-action implementation unavailable. Released task directories are not yet reconciled with the four paper families."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2604.05533v1",
+          "title": "Echo paper",
+          "excerpt": "The paper defines an abstract plan executor and success over early episodes, without a concrete control adapter in the reviewed text."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/CatworldLee/Echo/main/src/agent/tasks/tasks.js",
+          "title": "Echo official task validation code",
+          "excerpt": "Cooking/techtree tasks check target inventory quantities and timeout; this module imports executeCommand from a separate command adapter."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/CatworldLee/Echo/main/src/agent/commands/index.js",
+          "title": "Echo referenced command adapter",
+          "excerpt": "Retrieval returned 404; the missing implementation prevents validating the executor used by the task module."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [],
+      "addedUnitIds": [],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-10",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/df20e06b04dfc499a1a698796abb0856-Paper-Conference.pdf",
+          "title": "Experience-based Knowledge Correction for Robust Planning in Minecraft",
+          "excerpt": "Appendix J.2 specifies MineRL observations, controls including automatic craft/smelt, sixty-seven goals and group-dependent horizons. K.12 reports success by goal and separates learned from oracle dependencies."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-xenon-minerl"
+      ],
+      "addedUnitIds": [
+        "v24-xenon-minerl"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-23",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/392aae924264f2c56d1895b232bb46b6-Abstract-Conference.html",
+          "title": "ADAM: An Embodied Causal Agent in Open-World Environments",
+          "excerpt": "Sections 3.1–3.3 and 4.1 specify anonymous action APIs and visible movements with inventory/visual feedback. Table 4.2 reports item milestone steps and success over three trials capped at two hundred macro steps."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-adam-item-discovery"
+      ],
+      "addedUnitIds": [
+        "v24-adam-item-discovery"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-21",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/2af7168a1f19e0ae61134f89eb238e57-Abstract-Conference.html",
+          "title": "MrSteve: Instruction-Following Agents in Minecraft with What-Where-When Memory",
+          "excerpt": "Sections 4.1–4.3 and Appendix C specify RGB/relative-pose observations and VPT controls, exploration coverage, and ABA sparse-resource tasks. Tools are supplied; crafting is excluded."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-mrsteve-exploration",
+        "v24-mrsteve-aba"
+      ],
+      "addedUnitIds": [
+        "v24-mrsteve-aba",
+        "v24-mrsteve-exploration"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-07",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2504.15785",
+          "title": "WALL-E: World Alignment by NeuroSymbolic Learning Improves World Model-based LLM Agents",
+          "excerpt": "Sections 4.1–4.2 and Appendix C.1 specify Mars rule variants, structured observations, mine/attack/place/make/explore calls, and achievement reward/score."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-walle-mars"
+      ],
+      "addedUnitIds": [
+        "v24-walle-mars"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-10",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/85f1225db986e629289f402c46eff1a4-Abstract-Conference.html",
+          "title": "OmniJARVIS: Unified Vision-Language-Action Tokenization Enables Open-World Instruction Following Agents",
+          "excerpt": "Section 4.3 defines thirty programmatic item tasks from empty inventory and success within time limits. The model observes frames and decodes behavior tokens into control commands; static QA is separate."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-omnijarvis-programmatic"
+      ],
+      "addedUnitIds": [
+        "v24-omnijarvis-programmatic"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-09",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5949a8750a110ce1f0631b1776c500a2-Abstract-Conference.html",
+          "title": "Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks",
+          "excerpt": "Section 3.1 and Appendix B specify sixty-seven tasks in Minecraft 1.16.5, RGB observations, keyboard/mouse plus abstract craft/smelt, night vision, and empty inventory evaluation."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-optimus1-67"
+      ],
+      "addedUnitIds": [
+        "v24-optimus1-67"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-06",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2402.19299",
+          "title": "RL-GPT: Integrating Reinforcement Learning and Code-as-policy",
+          "excerpt": "Sections 4.1–4.3 evaluate selected MineDojo harvesting/crafting tasks and ObtainDiamond with success rates. Code handles navigation, repeated attacks and crafting while PPO handles remaining low-level control."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-rlgpt-obtaindiamond"
+      ],
+      "addedUnitIds": [
+        "v24-rlgpt-obtaindiamond"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-05",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v202/nottingham23a/nottingham23a.pdf",
+          "title": "Do Embodied Agents Dream of Pixelated Sheep?",
+          "excerpt": "Sections 5.3–6.2 specify pixel and inventory observations, camera/keyboard plus instant crafting, seven target items, success limits and training sample efficiency on random seeds."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-deckard-items"
+      ],
+      "addedUnitIds": [
+        "v24-deckard-items"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-03",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Abstract-Conference.html",
+          "title": "Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents",
+          "excerpt": "Sections 4.1–4.2 and Appendix C specify seventy-one item tasks, eight groups, MineDojo RGB/pose/local-block observations and forty-two actions, with thirty trials and group-dependent episode limits."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-deps-minedojo"
+      ],
+      "addedUnitIds": [
+        "v24-deps-minedojo"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-04",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/46c2a9a6f2b2be68682013eb1173c801-Abstract-Conference.html",
+          "title": "SPRING: Studying Papers and Reasoning to Play Games",
+          "excerpt": "Section 3.1 specifies Crafter’s seventeen actions, screen-to-text descriptor and twenty-two achievements. Reward includes achievement and health changes; score aggregates achievement success geometrically."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-spring-crafter"
+      ],
+      "addedUnitIds": [
+        "v24-spring-crafter"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-02",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/dd03f856fc7f2efeec8b1c796284561d-Abstract-Conference.html",
+          "title": "STEVE-1: A Generative Model for Text-to-Behavior in Minecraft",
+          "excerpt": "Sections 3.1 and 3.5 specify frame-conditioned VPT control and programmatic maximum inventory counts and displacement; MineCLIP similarity is separately reported for broader goals."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-steve1-programmatic"
+      ],
+      "addedUnitIds": [
+        "v24-steve1-programmatic"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB084",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2407.03969",
+          "title": "Craftium: Bridging Flexibility and Efficiency for Rich 3D Single- and Multi-Agent Environments",
+          "excerpt": "Appendix G.1 specifies ChopTree RGB frames, eight discrete actions, a steel axe, plus-one reward per tree and two-thousand-step termination. Section 3.5 labels it an illustrative platform example."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-craftium-choptree"
+      ],
+      "addedUnitIds": [
+        "v24-craftium-choptree"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB044",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本轮已核对限定任务的目标、观测/动作与原始指标并接入文献覆盖；保留 partial，具体配置和范围限制见各单元。未复现实验，不代表 Arena 已可运行。",
+      "noteEn": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/9ca22870ae0ba55ee50ce3e2d269e5de-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning",
+          "excerpt": "Appendix B.1 implements DistanceTraveled as clipped group displacement relative to a configurable target, with zero progress when nobody is alive."
+        },
+        {
+          "url": "https://neuralmmo.github.io/_build/html/rst/api.html",
+          "title": "Neural MMO 2.0 environment API",
+          "excerpt": "Agents receive structured observations and submit discrete argument actions through step; task construction is configurable."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/NeuralMMO/environment/master/nmmo/core/action.py",
+          "title": "Neural MMO official movement implementation",
+          "excerpt": "Move takes North, South, East, West or Stay and respects map bounds, impassable terrain and occupancy constraints."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-nmmo-distance"
+      ],
+      "addedUnitIds": [
+        "v24-nmmo-distance"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "VLA-13",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "全文补齐三款游戏的完整流程分数与视觉—执行接口。记录的是 GameSense 系统闭环任务，不把模块控制归因于裸 VLM。",
+      "noteEn": "Full text supplies complete-flow scores and visual/execution interfaces for three games. These are closed-loop GameSense system tasks, not isolated VLM control.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2025.acl-long.643/",
+          "title": "Cultivating Game Sense for Yourself: Making VLMs Gaming Experts",
+          "excerpt": "Sections 3.4 and 4.4.1 describe visual tools, learned/rule-based execution modules and 20 complete-flow runs per game with game-specific scores."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-gamesense-flappy",
+        "v24-gamesense-wukong",
+        "v24-gamesense-doom"
+      ],
+      "addedUnitIds": [
+        "v24-gamesense-doom",
+        "v24-gamesense-flappy",
+        "v24-gamesense-wukong"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "AX26-2605.00347",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "确认具体游戏为 Super Mario Land，接入连续视觉控制和明确训练/测试划分的进度协议。",
+      "noteEn": "Confirmed Super Mario Land and added continuous visual control with explicit training/test progress evaluation.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.00347",
+          "title": "Odysseus: Scaling VLMs to 100+ Turn Decision-Making in Games via Reinforcement Learning",
+          "excerpt": "Sections 3 and 7 specify rendered-frame Super Mario Land control, button-list actions, level progress and held-out levels/off-policy starts."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-odysseus-mario-land"
+      ],
+      "addedUnitIds": [
+        "v24-odysseus-mario-land"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "REC-T08",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "核验实时闭环评测、存活帧指标及每种子尝试次数；不将模型预测误差计作游戏能力任务。",
+      "noteEn": "Verified live control, survival-frame metrics and attempts per seed; world-model prediction error is not counted as a gameplay task.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.40003",
+          "title": "DashVMC: Real-Time Discrete World Model Control in Geometry Dash",
+          "excerpt": "Live evaluation freezes deterministic pixel policies, uses 25 attempts per seed, and measures survival frames on three official levels and specific additional tests."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-dashvmc-live"
+      ],
+      "addedUnitIds": [
+        "v24-dashvmc-live"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-04",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "从全文补入人类模型队友的实际 5v5 协作协议；方法论文也可提供可限定的研究任务。",
+      "noteEn": "Added the actual 5v5 human-model cooperation protocol; the method paper supplies a bounded research task.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/218cd617bd162199a13a5dcdea4a029d-Abstract-Conference.html",
+          "title": "Enhancing Human Experience in Human-Agent Collaboration: A Human-Centered Modeling Approach Based on Positive Human Gain",
+          "excerpt": "Sections 4.1–4.3 and Appendix B describe 5v5 Honor of Kings, a fixed human-model teammate, 10,000-game tests and human-goal indicators."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-rlhg-human-model"
+      ],
+      "addedUnitIds": [
+        "v24-rlhg-human-model"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-02",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "确认 COPA 的修改版 SMAC 实际对局及胜率，限定为团队微操，不向资源采集或救援节点复制该协议。",
+      "noteEn": "Confirmed COPA modified-SMAC matches and win rates, scoped to team micromanagement without copying the protocol to collection/rescue nodes.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v139/liu21m.html",
+          "title": "Coach-Player Multi-Agent Reinforcement Learning for Dynamic Team Composition",
+          "excerpt": "Section 4.3 modifies SMAC 3–8sz and 3–8MMM with randomized groups, sight range three, and win-rate curves over three independent runs."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-copa-smac"
+      ],
+      "addedUnitIds": [
+        "v24-copa-smac"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-01",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "方法论文包含完整闭环比赛，已补入可明确定位的 TvT 人类评测；保留小样本边界。",
+      "noteEn": "The method paper includes full closed-loop games; added the precisely scoped TvT human evaluation with its small-sample limitation.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v139/wang21v.html",
+          "title": "SCC: an Efficient Deep Reinforcement Learning Agent Mastering the Game of StarCraft II",
+          "excerpt": "Section 7 reports full-game Terran mirror human matches on Triton, StarCraft II 4.10.0, via the raw interface with observation/action delays."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-scc-human-tv-t"
+      ],
+      "addedUnitIds": [
+        "v24-scc-human-tv-t"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB111",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "将实际 CWM-MCTS 对局与静态代码/转移质量评测分开；接入井字棋和四子棋的胜和负协议。",
+      "noteEn": "Separated actual CWM-MCTS matches from static code/transition tests; added Tic-Tac-Toe and Connect Four game outcomes.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/d8a12fde9e72444e1b356e8c37e53753-Abstract-Conference.html",
+          "title": "Code World Models for General Game Playing",
+          "excerpt": "Section 5.2 and Appendix D report CWM-MCTS game outcomes by seat against Gemini 2.5 Pro, ground-truth MCTS and random opponents, including forfeits."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-cwm-board-mcts"
+      ],
+      "addedUnitIds": [
+        "v24-cwm-board-mcts"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-16",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "使用作者公开全文确认原目录标题的对应工作及两种 Hanabi 变体；标准 Hanabi 节点仅保留父关联，任务挂到精确变体。",
+      "noteEn": "The author full text confirms the corresponding work and two Hanabi variants; standard Hanabi remains a parent link while tasks target exact variants.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2510.15414",
+          "title": "MARSHAL: Incentivizing Multi-Agent Reasoning via Self-Play with Strategic LLMs",
+          "excerpt": "Section 4 and game prompts specify Mini Hanabi training and Simple Hanabi held-out self-play evaluation, with play/discard/hint actions and shared stack scores."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-marshal-hanabi",
+        "v24-marshal-simple-transfer"
+      ],
+      "addedUnitIds": [
+        "v24-marshal-hanabi",
+        "v24-marshal-simple-transfer"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-15",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "接入论文表 4–5 的真实对局，明确固定对手与专项模型互战的不同；未把数学推理测试计入。",
+      "noteEn": "Added actual matches in Tables 4–5, distinguishing fixed-opponent and specialist matchups; mathematical reasoning tests are excluded.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2506.24119",
+          "title": "SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning",
+          "excerpt": "Algorithm 1 executes parsed text actions in TextArena; Tables 4–5 report Tic-Tac-Toe and Kuhn Poker head-to-head win rates, including a fixed Gemini opponent."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-spiral-training-games"
+      ],
+      "addedUnitIds": [
+        "v24-spiral-training-games"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-14",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "通过正确的作者全文补入标准 Chess 子游戏及平衡执色比赛协议。",
+      "noteEn": "The correct author full text supports the standard Chess child and color-balanced match protocol.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2112.03178",
+          "title": "Student of Games: A Unified Learning Algorithm for Both Perfect and Imperfect Information Games",
+          "excerpt": "Chess tournament details report 200 matches per agent pairing, balanced colors, search budgets and Elo relative to a specified Stockfish configuration."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-student-games-chess"
+      ],
+      "addedUnitIds": [
+        "v24-student-games-chess"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-12",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "明确 HUNL 游戏归属与实际筹码收益指标，并将对手名纠正为 OpenStack（DeepStack 复现）。",
+      "noteEn": "Confirmed HUNL attribution and chip-return metrics, correcting the opponent to OpenStack, a DeepStack reimplementation.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/20394",
+          "title": "AlphaHoldem: High-Performance Artificial Intelligence for Heads-Up No-Limit Poker via End-to-End Reinforcement Learning",
+          "excerpt": "The paper specifies encoded private/public cards and betting histories, betting actions and 100,000-hand comparisons with Slumbot and OpenStack, measured in mbb/h."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-alphaholdem-hunl"
+      ],
+      "addedUnitIds": [
+        "v24-alphaholdem-hunl"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-13",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "确认完整 Stratego 对局及实际人类排位指标；明确历史对手和时间边界。",
+      "noteEn": "Confirmed complete Stratego games and actual ranked-human metrics, with historical opponent/time limits.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2206.15378",
+          "title": "Mastering the Game of Stratego with Model-Free Multiagent Reinforcement Learning",
+          "excerpt": "The paper describes deployment/gameplay actions, partial-information observations with move history, and 50 ranked human matches in April 2022."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-deepnash-stratego"
+      ],
+      "addedUnitIds": [
+        "v24-deepnash-stratego"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-11",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "补齐实际出牌接口、分座位对战和 WP/ADP 指标；将叫牌实验排除于本任务范围。",
+      "noteEn": "Added actual play interface, role-conditioned matches and WP/ADP, excluding the separate bidding experiment.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v139/zha21a.html",
+          "title": "DouZero: Mastering DouDizhu with Self-Play Deep Reinforcement Learning",
+          "excerpt": "Sections 5.1–5.2 evaluate 10,000 random deals by player position, reporting winning percentage and average point difference; actions are legal card combinations or pass."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-douzero-positions"
+      ],
+      "addedUnitIds": [
+        "v24-douzero-positions"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB093",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "补齐八种明确游戏映射，按胜率、回合胜率、麻将排名和 RLCard 原生收益分为四个协议单位。",
+      "noteEn": "Added all eight explicit game mappings and four protocol units separating win rate, round win rate, Mahjong placement and native RLCard rewards.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2341b14df6b4f684a30eb4e99807bea6-Abstract-Conference.html",
+          "title": "Can Large Language Models Master Complex Card Games?",
+          "excerpt": "Sections 3.2 and 4.1 define text observations/legal-action outputs and eight online game evaluations, with per-game counts and distinct outcome/reward metrics."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-llm4card-doudizhu",
+        "v24-llm4card-guandan",
+        "v24-llm4card-riichi",
+        "v24-llm4card-rlcard"
+      ],
+      "addedUnitIds": [
+        "v24-llm4card-doudizhu",
+        "v24-llm4card-guandan",
+        "v24-llm4card-riichi",
+        "v24-llm4card-rlcard"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB046",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "平台论文有真实棋类对局而不只有吞吐量，已接入五个明确定义的棋盘变体及 Elo 协议。",
+      "noteEn": "The platform paper contains real board-game evaluations beyond throughput; added five explicitly defined variants and their Elo protocol.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2303.17503",
+          "title": "Pgx: Hardware-Accelerated Parallel Game Simulators for Reinforcement Learning",
+          "excerpt": "The AlphaZero evaluation trains on five specified board variants and reports pairwise BayesElo, with baseline Elo 1000 and 32 simulations per move."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-pgx-alphazero"
+      ],
+      "addedUnitIds": [
+        "v24-pgx-alphazero"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB012",
+      "previousState": "missing",
+      "outcome": "still_missing",
+      "noteZh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
+      "noteEn": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage.",
+      "missing": [
+        {
+          "field": "agentPerformanceMetric",
+          "detail": {
+            "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
+            "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
+          }
+        },
+        {
+          "field": "evaluationMatchup",
+          "detail": {
+            "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
+            "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1905.05013",
+          "title": "Ludii – The Ludemic General Game System",
+          "excerpt": "Section 6 compares completed random playouts per second on listed games under fixed CPU/time/memory constraints; this is engine throughput, not agent playing strength."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [],
+      "addedUnitIds": [],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-18",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "从 §5 的实际比赛补入语言谈判与军令协议，并按显式 18/34 中心阈值处理正文笔误。",
+      "noteEn": "Added Section 5 match protocols for negotiation and military orders, resolving prose errors using the explicit 18/34-center threshold.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/df2d62b96a4003203450cf89cd338bb7-Abstract-Conference.html",
+          "title": "Richelieu: Self-Evolving LLM-Based Agents for AI Diplomacy",
+          "excerpt": "Section 5 reports repeated Diplomacy matches, negotiation-enabled comparisons, four outcome categories and C-Diplo Argir scores, with explicit 18-of-34-center victory criteria."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-richelieu-press"
+      ],
+      "addedUnitIds": [
+        "v24-richelieu-press"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-19",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "补入精确 ONUW 子游戏；限定为五人固定夜间条件下的讨论—投票闭环，而非多夜狼人杀。",
+      "noteEn": "Added the precise ONUW child, scoped to five-player discussion/voting after fixed night events, not multi-night Werewolf.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/8cea78701eb986f3ec357eb9b7c6badd-Abstract-Conference.html",
+          "title": "Learning to Discuss Strategically: A Case Study on One Night Ultimate Werewolf",
+          "excerpt": "Sections 6.1 and 6.3 evaluate five-player ONUW with predefined easy/hard roles and night actions, 30 repetitions and Team Village win-rate matrices."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-onuw-discussion"
+      ],
+      "addedUnitIds": [
+        "v24-onuw-discussion"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-25",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "Blind Bandits 的左右动作、私有历史和合作约定奖励已核实并纳入；Balance Beam 与人类 Overcooked 试验仍未在本次拆成独立协议。",
+      "noteEn": "Verified and integrated Blind Bandits actions, private histories and convention rewards; Balance Beam and human Overcooked studies are not separate protocols in this pass.",
+      "missing": [
+        {
+          "field": "scope",
+          "detail": {
+            "zh": "Balance Beam 与 Overcooked 的独立动作/指标绑定仍需拆分。",
+            "en": "Separate action/metric bindings remain for Balance Beam and Overcooked."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf",
+          "title": "Diverse Conventions for Human-AI Collaboration",
+          "excerpt": "Section 4.1 and Appendix B.4 define alternating left/right choices, private action histories, convention-dependent terminal rewards and self/cross-play."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-top-25-blind-bandits"
+      ],
+      "addedUnitIds": [
+        "v24-top-25-blind-bandits"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-17",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "有交流 Diplomacy 的私聊、同时指令和补给中心计分已纳入；范围限定于原论文人类 blitz 联赛。",
+      "noteEn": "Integrated private dialogue, simultaneous orders and supply-centre scoring in full-press Diplomacy, limited to the paper’s human blitz league.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://www.science.org/doi/10.1126/science.ade9097",
+          "title": "Human-level play in the game of Diplomacy by combining language models with strategic reasoning",
+          "excerpt": "The paper defines private negotiation followed by simultaneous unit orders and reports supply-centre-based scores in forty human blitz-league games."
+        },
+        {
+          "url": "https://gwern.net/doc/reinforcement-learning/imperfect-information/diplomacy/2022-bakhtin.pdf",
+          "title": "CICERO Science paper — accessible full-paper copy",
+          "excerpt": "The original Science full text describes seven-player negotiation, unit orders, supply-centre scoring and five-minute negotiation turns."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-top-17-diplomacy-human-league"
+      ],
+      "addedUnitIds": [
+        "v24-top-17-diplomacy-human-league"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-24",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "已纳入五布局上的未见伙伴交付评测；将协作和伙伴泛化区分，不混入真实人类试验。",
+      "noteEn": "Integrated held-out-partner delivery evaluation on five layouts, separating coordination and partner transfer from the human study.",
+      "missing": [
+        {
+          "field": "scope",
+          "detail": {
+            "zh": "真实人类实验条件尚未另建协议。",
+            "en": "Human-participant conditions are not separately encoded."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/797134c3e42371bb4979a462eb2f042a-Paper.pdf",
+          "title": "Collaborating with Humans without Human Data",
+          "excerpt": "Sections 2.3 and 4.1 specify egocentric RGB, six chef actions, five layouts, held-out partner populations and deliveries per 540-step episode."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-top-24-heldout-chef-partners"
+      ],
+      "addedUnitIds": [
+        "v24-top-24-heldout-chef-partners"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "REC-4.4",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "附录明确两个实际交互协议，分别建立9人狼人杀与7人文字版 Among Us 节点；胜率对应隐藏身份推断，不代表图形版操作。",
+      "noteEn": "The appendix specifies two interactive protocols, now separated into nine-player Werewolf and seven-player text-adapted Among Us; win rates concern hidden-role play, not graphical control.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2609.06563",
+          "title": "MARBO: Relational Belief Grounding for LLM Agents in Social Deduction Games",
+          "excerpt": "Appendix A specifies nine-player Werewolf and seven-player text-adapted Among Us; Table 2 evaluates win rates against fixed opponents."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-rec-4.4-marbo-werewolf",
+        "v24-rec-4.4-marbo-among-us"
+      ],
+      "addedUnitIds": [
+        "v24-rec-4.4-marbo-among-us",
+        "v24-rec-4.4-marbo-werewolf"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB009",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "Crossroads 已确认移动/转向、团队全员到达奖励及种群排名；只将该竞赛协议纳入，不复制到平台其余游戏。",
+      "noteEn": "Crossroads has verified move/turn actions, team-arrival rewards and population rankings; only that race protocol is integrated.",
+      "missing": [
+        {
+          "field": "scope",
+          "detail": {
+            "zh": "PushBox和其他Unity游戏未补齐逐任务动作接口。",
+            "en": "Per-task action bindings remain for PushBox and other Unity games."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6216/6072",
+          "title": "Arena: A General Evaluation Platform and Building Toolkit for Multi-Agent Intelligence",
+          "excerpt": "The Crossroads case study specifies move/turn actions, target arrival, cooperative or team-competitive rewards, and population ranking against reference agents."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-gab009-crossroads-team-race"
+      ],
+      "addedUnitIds": [
+        "v24-gab009-crossroads-team-race"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB085",
+      "previousState": "unmapped",
+      "outcome": "mapped",
+      "noteZh": "保留34款共同评测协议，新增仅限 Game Cafe Escape 的依赖规划视图；未向其余33款传播规划标签。",
+      "noteEn": "Preserved the 34-game protocol and added a Game Cafe Escape dependency-planning view; no planning label is propagated to the other games.",
+      "missing": [
+        {
+          "field": "capability_scope",
+          "detail": {
+            "zh": "其余游戏的能力需按各自目标另外判定。",
+            "en": "Other games require goal-specific capability review."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2025.emnlp-main.1192.pdf",
+          "title": "FlashAdventure",
+          "excerpt": "Appendix A.5 defines Game Cafe Escape milestones linking a game console, red box, gemstone puzzle, lights, door key and escape."
+        }
+      ],
+      "previousStatus": "verified",
+      "status": "partial",
+      "previousUnitIds": [
+        "GAB085-story-completion"
+      ],
+      "currentUnitIds": [
+        "GAB085-story-completion",
+        "v24-gab085-game-cafe-dependencies"
+      ],
+      "addedUnitIds": [
+        "v24-gab085-game-cafe-dependencies"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB066",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "已核实50剧本竞技场的角色讨论、推理、最终投票与胜率，按互动社会推理纳入；感知QA和链式问答仍在游玩覆盖之外。",
+      "noteEn": "Verified the fifty-script arena’s role discussion, reasoning, voting and win rate, integrating interactive social inference while excluding perception/chain QA.",
+      "missing": [
+        {
+          "field": "script_manifest",
+          "detail": {
+            "zh": "完整剧本名称及逐剧本角色/轮次清单未核实。",
+            "en": "Complete script names and per-script roles/rounds remain unverified."
+          }
+        },
+        {
+          "field": "implementation",
+          "detail": {
+            "zh": "公开README所列启动代码尚未在公开目录中核实。",
+            "en": "The launcher named by the public README was not verified in the public tree."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/9dd4533e7e4e5ed809344280609c5b05-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "WhodunitBench: Evaluating Large Multimodal Agents via Murder Mystery Games",
+          "excerpt": "The arena uses fifty scripted scenarios, private/public multimodal clues, discussion, reasoning and final voting; win rate is distinct from static chain-of-evaluation QA."
+        },
+        {
+          "url": "https://github.com/jun0wanan/WhodunitBench-Murder_Mystery_Games",
+          "title": "WhodunitBench official repository",
+          "excerpt": "The public data schema distinguishes role scripts, image/text clues, murderer identity and separate QA fields; the README documents arena launch."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-gab066-interactive-murder-arena"
+      ],
+      "addedUnitIds": [
+        "v24-gab066-interactive-murder-arena"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB053",
+      "previousState": "unmapped",
+      "outcome": "still_missing",
+      "noteZh": "保留30款测试游戏的叙事选择、成就与伤害协议。当前论文的伦理伤害、权力指标和当前场景提示，不足以将某个具体游戏映射到11条能力轴；不把伦理评价当社会推理。",
+      "noteEn": "Preserved narrative choice, achievement and harm evaluation for thirty test games. Ethical-harm/power metrics and current-scene prompts do not establish a specific game’s eleven-axis capability; ethics is not treated as social inference.",
+      "missing": [
+        {
+          "field": "capability_basis",
+          "detail": {
+            "zh": "缺少某个具体游戏/成就的可核对任务机制及其与11轴的对应依据；已有总奖励和伦理指标不能替代。",
+            "en": "A concrete game/achievement mechanism and traceable mapping to an eleven-axis construct are still needed; aggregate rewards and ethics metrics are insufficient."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v202/pan23a/pan23a.pdf",
+          "title": "Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the Machiavelli Benchmark",
+          "excerpt": "The thirty-game protocol measures achievements and annotated harm; current-scene LM prompts and ethical metrics alone do not establish a particular eleven-axis subtask."
+        }
+      ],
+      "previousStatus": "verified",
+      "status": "partial",
+      "previousUnitIds": [
+        "GAB053-choice-and-harm"
+      ],
+      "currentUnitIds": [
+        "GAB053-choice-and-harm"
+      ],
+      "addedUnitIds": [],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB008",
+      "previousState": "unmapped",
+      "outcome": "mapped",
+      "noteZh": "保留33个ROM的共同协议，并依据§7.2新增 Deephome 首访房间奖励视图，明确其探索得分仍与其他目标奖励混合。",
+      "noteEn": "Preserved the 33-ROM protocol and added Deephome’s first-room-visit view from Section 7.2, explicitly retaining mixed exploration/objective rewards.",
+      "missing": [
+        {
+          "field": "capability_scope",
+          "detail": {
+            "zh": "其余ROM未统一赋予探索或规划。",
+            "en": "Other ROMs are not uniformly tagged exploration or planning."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6297/6153",
+          "title": "Interactive Fiction Games: A Colossal Adventure",
+          "excerpt": "Section 7.2 explicitly identifies Deephome as awarding a point for each newly visited room in addition to objective rewards."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [
+        "GAB008-valid-action-if"
+      ],
+      "currentUnitIds": [
+        "GAB008-valid-action-if",
+        "v24-gab008-deephome-new-rooms"
+      ],
+      "addedUnitIds": [
+        "v24-gab008-deephome-new-rooms"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "TOP-23",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "四个TextWorldExpress实际交互任务分别纳入；算术与排序映射规则推理，地图任务映射空间推理，均保留工具辅助条件。TWC常识不强行套轴。",
+      "noteEn": "Integrated four TextWorldExpress tasks separately: arithmetic/sorting map to rule reasoning and MapReader to spatial reasoning, with tool assistance explicit; TWC commonsense is not force-mapped.",
+      "missing": [],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2401.09334",
+          "title": "Large Language Models Are Neurosymbolic Reasoners",
+          "excerpt": "The paper defines four TextWorldExpress tasks, tool-augmented text actions and mean terminal score/episode steps on 100 unseen test instances."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-top-23-arithmetic",
+        "v24-top-23-mapreader",
+        "v24-top-23-sorting",
+        "v24-top-23-twc"
+      ],
+      "addedUnitIds": [
+        "v24-top-23-arithmetic",
+        "v24-top-23-mapreader",
+        "v24-top-23-sorting",
+        "v24-top-23-twc"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "REC-3.4",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "核实25个公开ARC-AGI-3游戏的互动规则发现、动作接口和RHAE；只将明确共有的未知规则探索归类，不为各游戏复制其他能力标签。",
+      "noteEn": "Verified interactive rule discovery, action interface and RHAE on twenty-five public ARC-AGI-3 games; only the explicitly shared unknown-rule exploration mechanism is mapped.",
+      "missing": [
+        {
+          "field": "scope",
+          "detail": {
+            "zh": "GameWorld、AI GameStore 等其他VISTA试验未在本轮逐任务纳入；静态BabyVision排除。",
+            "en": "Other VISTA GameWorld/AI GameStore experiments are not individually integrated; static BabyVision is excluded."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.02200",
+          "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+          "excerpt": "Section 4 evaluates twenty-five public ARC-AGI-3 games with undisclosed rules/goals, image observations, available actions, level completion and relative human action efficiency."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-rec-3.4-public-arc-discovery"
+      ],
+      "addedUnitIds": [
+        "v24-rec-3.4-public-arc-discovery"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB086",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "补入当前官方 CartPole-v1 平衡控制任务，已有真实动作、状态、回报和终止规则；平台性质不再作为排除理由。",
+      "noteEn": "Added official CartPole-v1 balancing with concrete actions, state, return and termination; platform status is not an exclusion.",
+      "missing": [
+        {
+          "field": "scope",
+          "detail": {
+            "zh": "其他Gymnasium环境不继承本任务覆盖。",
+            "en": "Other Gymnasium environments do not inherit this coverage."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gymnasium.farama.org/environments/classic_control/cart_pole/",
+          "title": "Gymnasium CartPole-v1 documentation",
+          "excerpt": "CartPole-v1 defines two force actions, four state variables, reward per surviving step and termination/truncation conditions."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-gab086-cartpole-v1"
+      ],
+      "addedUnitIds": [
+        "v24-gab086-cartpole-v1"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB060",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "结合论文Navigation实验和官方任务配置，补入VMAS导航。当前配置shared_rew=False，未误写为统一共享奖励。",
+      "noteEn": "Integrated VMAS Navigation using the paper experiment and official task config; shared_rew=False is explicit rather than assuming shared rewards.",
+      "missing": [
+        {
+          "field": "version",
+          "detail": {
+            "zh": "原实验提交版本未固定；Sampling与Balance未独立补齐。",
+            "en": "Original experiment commit is unpinned; Sampling and Balance remain separate work."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jmlr.org/papers/volume25/23-1612/23-1612.pdf",
+          "title": "BenchMARL: Benchmarking Multi-Agent Reinforcement Learning",
+          "excerpt": "Appendix A reports Navigation, Sampling and Balance experiments; Figure 3 separates Navigation reward curves from aggregate benchmark statistics."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/proroklab/VectorizedMultiAgentSimulator/main/vmas/scenarios/navigation.py",
+          "title": "VMAS Navigation official scenario implementation",
+          "excerpt": "Navigation observes position, velocity, relative goal and lidar; reward combines progress, completion and collisions; termination requires all agents on goals."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/facebookresearch/BenchMARL/main/benchmarl/conf/task/vmas/navigation.yaml",
+          "title": "BenchMARL Navigation task configuration",
+          "excerpt": "Current configuration uses three agents, independent goals, collisions enabled, individual progress rewards and a 100-step horizon."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-gab060-vmas-navigation"
+      ],
+      "addedUnitIds": [
+        "v24-gab060-vmas-navigation"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB054",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "论文附录B的MPE Simple Spread是可明确执行和计分的平台示例，按地标覆盖协作纳入；不声称所有平台环境已核验。",
+      "noteEn": "The paper’s MPE Simple Spread example is executable and scored; integrated its landmark-coverage coordination without claiming platform-wide verification.",
+      "missing": [
+        {
+          "field": "version",
+          "detail": {
+            "zh": "原MPE与后续MPE2默认参数不同，不能合并为同一复现实验。",
+            "en": "Original MPE and later MPE2 defaults differ and are not one reproduced experiment."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jmlr.org/papers/volume24/23-0378/23-0378.pdf",
+          "title": "MARLlib: A Scalable and Efficient Multi-agent Reinforcement Learning Library",
+          "excerpt": "Appendix B provides an executable MPE simple_spread training example; this is a concrete library example, separate from broader benchmark claims."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/multiagent-particle-envs/master/multiagent/scenarios/simple_spread.py",
+          "title": "Original MPE Simple Spread implementation",
+          "excerpt": "Three agents cover three landmarks; rewards penalize nearest-agent landmark distances and collisions; observations contain own state and relative positions."
+        },
+        {
+          "url": "https://mpe2.farama.org/environments/simple_spread/",
+          "title": "Simple Spread environment documentation",
+          "excerpt": "The documented task exposes five movement/no-op actions, landmark and peer-relative observations, and distance/collision rewards."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-gab054-mpe-simple-spread-example"
+      ],
+      "addedUnitIds": [
+        "v24-gab054-mpe-simple-spread-example"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB031",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "论文图6除了吞吐还报告Pong实际PPO回报，已按明确控制任务补入；游戏得分与速度指标分开。",
+      "noteEn": "Figure 6 reports actual PPO return on Pong in addition to throughput; integrated the control task while separating gameplay score from speed.",
+      "missing": [
+        {
+          "field": "version",
+          "detail": {
+            "zh": "图6优化参数、随机种子与历史环境提交尚未全部固定。",
+            "en": "Figure 6 tuning, seeds and historical environment commit remain incompletely pinned."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8caaf08e49ddbad6694fae067442ee21-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "EnvPool: A Highly Parallel Reinforcement Learning Environment Execution Engine",
+          "excerpt": "Figure 6 evaluates PPO learning on Pong-v5 by game reward over wall-clock time; raw environment FPS is a separate systems metric."
+        },
+        {
+          "url": "https://envpool.readthedocs.io/en/latest/env/atari.html",
+          "title": "EnvPool Atari documentation",
+          "excerpt": "Atari preprocessing defaults to four stacked 84-square grayscale frames, frame skip four and the game-specific minimal discrete action set."
+        },
+        {
+          "url": "https://ale.farama.org/environments/pong/",
+          "title": "ALE Pong documentation",
+          "excerpt": "Pong controls the right paddle, provides six minimal actions and rewards scoring against the opponent while penalizing conceded points."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-gab031-pong-learning"
+      ],
+      "addedUnitIds": [
+        "v24-gab031-pong-learning"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "GAB014",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "补入官方Pistonball-v6局部视觉、多活塞协作与共享进展奖励；该版本的控制任务已可核对，其他环境不复制标签。",
+      "noteEn": "Added official Pistonball-v6 local vision, coordinated pistons and shared progress rewards; other environments inherit no labels.",
+      "missing": [
+        {
+          "field": "version",
+          "detail": {
+            "zh": "当前v6与2021论文版本不能视为完全相同。",
+            "en": "Current v6 is not assumed identical to the 2021 paper version."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://pettingzoo.farama.org/environments/butterfly/pistonball/",
+          "title": "PettingZoo Pistonball-v6 documentation",
+          "excerpt": "Twenty piston agents see local RGB views and control vertical motion; shared reward measures leftward ball progress minus time penalty."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-gab014-pistonball-v6"
+      ],
+      "addedUnitIds": [
+        "v24-gab014-pistonball-v6"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "S05",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "本地作者全文和官方训练命令共同确认Basic AI任务、左右移动/射击、视听条件与5亿步回报比较，已纳入；人类击杀率不参与该单元。",
+      "noteEn": "The local author full text and official commands verify Basic AI actions, audiovisual conditions and 500-million-step return evaluation; human kill rates are excluded.",
+      "missing": [
+        {
+          "field": "scope",
+          "detail": {
+            "zh": "My Way Home等其余场景的具体代码动作绑定尚未完成；已知完成时间不替代该绑定。",
+            "en": "Code-level action bindings remain for My Way Home and other scenarios; known completion times do not replace them."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://trepo.tuni.fi/bitstream/10024/233997/1/Sonic_Doom_CoG_2025_2_.pdf",
+          "title": "Sonic Doom: Enhanced Sound Design and Accessibility in a First-Person Shooter Game",
+          "excerpt": "The author full text specifies Basic shooting, audiovisual conditions and 500-million-step AI training; human kill-rate experiments are separate. Read from the local author copy."
+        },
+        {
+          "url": "https://github.com/thainv0212/sonic_doom",
+          "title": "Sonic Doom official training repository",
+          "excerpt": "README commands specify doom_basic, APPO, frame skip four, recurrent agents and 500 million steps across vision/audio/aim-support conditions."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-s05-basic-ai-control"
+      ],
+      "addedUnitIds": [
+        "v24-s05-basic-ai-control"
+      ],
+      "updatedUnitIds": []
+    },
+    {
+      "id": "NATURE298",
+      "previousState": "missing",
+      "outcome": "integrated",
+      "noteZh": "将DiscoRL在Crafter重新训练策略的平均回报评测纳入，区分学习规则迁移与策略零样本泛化，也不混用Crafter几何均分。",
+      "noteEn": "Integrated DiscoRL policy retraining on Crafter using average return, distinguishing learning-rule transfer from zero-shot policy transfer and Crafter geometric-mean score.",
+      "missing": [
+        {
+          "field": "scope",
+          "detail": {
+            "zh": "其他5个平台的逐任务动作/观测设置尚未逐一绑定。",
+            "en": "Per-task action/observation settings for the other five platforms remain unbound."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-025-09761-x",
+          "title": "Discovering state-of-the-art reinforcement learning algorithms",
+          "excerpt": "Figure 3 reports Crafter average return versus environment steps; held-out evaluation retrains policies using discovered learning rules, not zero-shot policy transfer."
+        },
+        {
+          "url": "https://github.com/danijar/crafter",
+          "title": "Crafter official environment",
+          "excerpt": "Crafter exposes 64-square RGB observations and seventeen categorical actions; rewards combine first achievements and health changes."
+        }
+      ],
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnitIds": [],
+      "currentUnitIds": [
+        "v24-nature298-crafter-learning-rule"
+      ],
+      "addedUnitIds": [
+        "v24-nature298-crafter-learning-rule"
+      ],
+      "updatedUnitIds": []
+    }
+  ],
+  "previousRecordStates": [
+    {
+      "id": "GAB083",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "AX26-2606.00103",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.00103-task-interactive-query"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2602.17594",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2602.17594-keyboard-suite"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2603.06656",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2603.06656-2048-control"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2604.07429",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2604.07429-task-minecraft-clone-collection",
+        "AX26-2604.07429-task-flappy-timing"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2601.02427",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2601.02427-anonymous-control"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2606.09826",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.09826-task-obstaclerun3d",
+        "AX26-2606.09826-task-obstaclerun2d",
+        "AX26-2606.09826-task-laststand",
+        "AX26-2606.09826-task-monstershoot",
+        "AX26-2606.09826-task-sceneescape",
+        "AX26-2606.09826-task-cuechase",
+        "AX26-2606.09826-task-solocraft",
+        "AX26-2606.09826-task-skyduel",
+        "AX26-2606.09826-task-crystalguard",
+        "AX26-2606.09826-task-midlineclash",
+        "AX26-2606.09826-task-sharedfloor",
+        "AX26-2606.09826-task-handoffrun"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB107",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-2.3",
+      "status": "verified",
+      "unitIds": [
+        "REC-2.3-execution-subset"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-2.4",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "REC-3.5",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB098",
+      "status": "verified",
+      "unitIds": [
+        "GAB098-head-to-head"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB058",
+      "status": "verified",
+      "unitIds": [
+        "GAB058-aquawar"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A1",
+      "status": "verified",
+      "unitIds": [
+        "GAP-A1-chess-imitation"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "VLA-28",
+      "status": "verified",
+      "unitIds": [
+        "VLA-28-openha-cross-level"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "TOP-08",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-29",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-09",
+      "status": "verified",
+      "unitIds": [
+        "TOP-09-minecraft-tasks"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "TOP-10",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-23",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-18",
+      "status": "verified",
+      "unitIds": [
+        "VLA-18-minecraft-instruction-following",
+        "VLA-18-atari-return-steering"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "VLA-27",
+      "status": "verified",
+      "unitIds": [
+        "VLA-27-mcu-acquisition"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "VLA-12",
+      "status": "partial",
+      "unitIds": [
+        "v23-partial-jarvis-mcu"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "VLA-21",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-15",
+      "status": "verified",
+      "unitIds": [
+        "VLA-15-atomic-collection",
+        "VLA-15-long-horizon-67"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "VLA-14",
+      "status": "verified",
+      "unitIds": [
+        "VLA-14-interaction-12",
+        "VLA-14-hierarchical-long-tasks"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "TOP-07",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-07",
+      "status": "verified",
+      "unitIds": [
+        "VLA-07-skillforge-demonstration"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "TOP-22",
+      "status": "verified",
+      "unitIds": [
+        "TOP-22-task-counter-commonsense-worlds"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "VLA-05",
+      "status": "verified",
+      "unitIds": [
+        "VLA-05-context-dependent",
+        "VLA-05-process-dependent"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "VLA-10",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-09",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-06",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-05",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-03",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-04",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "VLA-02",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "AX26-2606.08340",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.08340-task-coordination-achievements"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2601.16690",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2605.30931",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2605.30931-task-hidden-prerequisites"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2607.29218",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2607.29218-task-paired-rules"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2606.15684",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.15684-task-crisis",
+        "AX26-2606.15684-task-vanishing",
+        "AX26-2606.15684-task-boss"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB084",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB089",
+      "status": "verified",
+      "unitIds": [
+        "GAB089-resource-choice"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB087",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB097",
+      "status": "verified",
+      "unitIds": [
+        "GAB097-main-35"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A10",
+      "status": "verified",
+      "unitIds": [
+        "GAP-A10-mixed-initiative-pilot"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB043",
+      "status": "verified",
+      "unitIds": [
+        "GAB043-task-find-cave",
+        "GAB043-task-waterfall",
+        "GAB043-task-animal-pen",
+        "GAB043-task-village-house",
+        "GAB043-diamond-shovel"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB055",
+      "status": "verified",
+      "unitIds": [
+        "GAB055-task-instruction-building"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB042",
+      "status": "verified",
+      "unitIds": [
+        "GAB042-offline-38"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB044",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB056",
+      "status": "verified",
+      "unitIds": [
+        "GAB056-team-competition"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB027",
+      "status": "verified",
+      "unitIds": [
+        "GAB027-task-compositional-generalization"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB036",
+      "status": "verified",
+      "unitIds": [
+        "GAB036-human-preferences"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB037",
+      "status": "verified",
+      "unitIds": [
+        "GAB037-silent-builder"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB029",
+      "status": "verified",
+      "unitIds": [
+        "GAB029-nle-online-evaluation"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB006",
+      "status": "verified",
+      "unitIds": [
+        "GAB006-continuing-foraging"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "VLA-13",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "AX26-2608.09902",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2608.09902-task-dsle-five-bosses"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2607.06514",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2607.06514-fighting-robustness"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2605.00347",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "AX26-2604.08340",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2604.08340-visual-quests"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-T08",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "REC-T09",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB072",
+      "status": "verified",
+      "unitIds": [
+        "GAB072-transfer-splits"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB071",
+      "status": "verified",
+      "unitIds": [
+        "GAB071-task-unseen-procgen-levels"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB074",
+      "status": "verified",
+      "unitIds": [
+        "GAB074-object-centric-ppo"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB002",
+      "status": "verified",
+      "unitIds": [
+        "GAB002-online-imitation"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB005",
+      "status": "verified",
+      "unitIds": [
+        "GAB005-atari-offline"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "TOP-04",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-03",
+      "status": "verified",
+      "unitIds": [
+        "TOP-03-human-agent-mcc"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "TOP-02",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-01",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "AX26-2606.24391",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.24391-task-fog-war-duel"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2604.07733",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2604.07733-task-strategic-control"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2608.18423",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2608.18423-task-twenty-year-management"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2606.18950",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.18950-task-tcp",
+        "AX26-2606.18950-task-mfd",
+        "AX26-2606.18950-task-fs-f",
+        "AX26-2606.18950-task-fs-t",
+        "AX26-2606.18950-task-sp"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-2.5",
+      "status": "verified",
+      "unitIds": [
+        "REC-2.5-task-monitor-and-followthrough"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB110",
+      "status": "verified",
+      "unitIds": [
+        "GAB110-five-levels"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB103",
+      "status": "verified",
+      "unitIds": [
+        "GAB103-dragon-team-combat"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B5",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB045",
+      "status": "verified",
+      "unitIds": [
+        "GAB045-task-1v1",
+        "GAB045-task-3v3"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB038",
+      "status": "verified",
+      "unitIds": [
+        "GAB038-duel-transfer"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB025",
+      "status": "verified",
+      "unitIds": [
+        "GAB025-full-game-bot-pool"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2608.25419",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2608.25419-task-aircraft-transfer"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2606.18786",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.18786-front-goal-team"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2605.31529",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-3.3",
+      "status": "verified",
+      "unitIds": [
+        "REC-3.3-frozen-roster-eval"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB109",
+      "status": "verified",
+      "unitIds": [
+        "GAB109-atari-ram-subset"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB088",
+      "status": "verified",
+      "unitIds": [
+        "GAB088-set-spike-easy"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB069",
+      "status": "verified",
+      "unitIds": [
+        "GAB069-academy-team"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A12",
+      "status": "verified",
+      "unitIds": [
+        "GAP-A12-fighting-mirror"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB030",
+      "status": "verified",
+      "unitIds": [
+        "GAB030-camera-coverage",
+        "GAB030-target-transport"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB111",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-16",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-15",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-14",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-12",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-13",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-11",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "AX26-2602.13214",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2602.13214-graded-anchors"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2605.30100",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2607.29577",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2607.29577-encounter",
+        "AX26-2607.29577-day"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2605.06066",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2605.06066-five-deck-matches"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2602.00676",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2602.00676-pairwise-teams"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2605.29653",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2605.29653-fixed-policy"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2608.25832",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2608.25832-multilingual-selfplay"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2603.03252",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2603.03252-mcts-cardstock"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B9",
+      "status": "verified",
+      "unitIds": [
+        "GAP-B9-short-chess-rollouts"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B1",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB112",
+      "status": "verified",
+      "unitIds": [
+        "GAB112-sc2-macro"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "NEW-2026-LUDO",
+      "status": "verified",
+      "unitIds": [
+        "NEW-2026-LUDO-spot-decisions"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-3.1",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAP-A2",
+      "status": "verified",
+      "unitIds": [
+        "GAP-A2-matchplay"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB081",
+      "status": "verified",
+      "unitIds": [
+        "GAB081-guess-average"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB090",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB093",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAP-A6",
+      "status": "partial",
+      "unitIds": [
+        "GAP-A6-tictactoe"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A5",
+      "status": "partial",
+      "unitIds": [
+        "GAP-A5-strategic-matches",
+        "GAP-A5-abstract-strategy-subset",
+        "GAP-A5-team-coordination-subset",
+        "GAP-A5-hidden-role-social-subset"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB070",
+      "status": "partial",
+      "unitIds": [
+        "GAB070-ipd"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B3",
+      "status": "verified",
+      "unitIds": [
+        "GAP-B3-tool-chess"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B2",
+      "status": "verified",
+      "unitIds": [
+        "GAP-B2-gto-decisions"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B4",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB046",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB012",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-20",
+      "status": "partial",
+      "unitIds": [
+        "TOP-20-hidden-role",
+        "TOP-20-public-goods-five-rounds"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "TOP-18",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-19",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-25",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-21",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "TOP-17",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "TOP-24",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "AX26-2605.04312",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2605.04312-survival-vote"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2608.09638",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2602.12517",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2606.28514",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.28514-defusal"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2601.08462",
+      "status": "partial",
+      "unitIds": [
+        "v23-partial-m3-repeated-pd"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2605.29512",
+      "status": "partial",
+      "unitIds": [
+        "AX26-2605.29512-colonel-blotto"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2601.09017",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2601.09017-five-player-spyfall"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2607.28146",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2607.28146-five-player-government"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2608.09128",
+      "status": "partial",
+      "unitIds": [
+        "v23-partial-socialgym-werewolves"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-4.2",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-4.3",
+      "status": "verified",
+      "unitIds": [
+        "REC-4.3-corrupted-stag-hunt"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-2.1",
+      "status": "verified",
+      "unitIds": [
+        "REC-2.1-chess-roundrobin",
+        "REC-2.1-heads-up-poker",
+        "REC-2.1-eight-player-werewolf"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-4.4",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "REC-4.1",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB092",
+      "status": "verified",
+      "unitIds": [
+        "GAB092-seven-player-deception"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB099",
+      "status": "partial",
+      "unitIds": [
+        "GAB099-collab-pursuit",
+        "GAB099-collaborative-escape"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB101",
+      "status": "partial",
+      "unitIds": [
+        "GAB101-nim-turn-play"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB102",
+      "status": "partial",
+      "unitIds": [
+        "GAB102-minecraft-structure-building"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB062",
+      "status": "partial",
+      "unitIds": [
+        "GAB062-contract-crafting"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B8",
+      "status": "verified",
+      "unitIds": [
+        "GAP-B8-text-among-us"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A8",
+      "status": "verified",
+      "unitIds": [
+        "GAP-A8-role-games"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B6",
+      "status": "verified",
+      "unitIds": [
+        "GAP-B6-two-team-codenames"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB077",
+      "status": "partial",
+      "unitIds": [
+        "GAB077-small-hanabi"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-B7",
+      "status": "verified",
+      "unitIds": [
+        "GAP-B7-definitions"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A9",
+      "status": "verified",
+      "unitIds": [
+        "GAP-A9-welfare-game"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB009",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "AX26-2606.24893",
+      "status": "partial",
+      "unitIds": [
+        "AX26-2606.24893-generated-main-quest"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2603.24621",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2603.24621-novel-environments"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2607.04293",
+      "status": "partial",
+      "unitIds": [
+        "AX26-2607.04293-antenna-interventions"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2607.05185",
+      "status": "partial",
+      "unitIds": [
+        "v23-partial-classiclogic-sudoku"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2608.12593",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2608.12593-rule-discovery"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2608.08160",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2606.19338",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2606.19338-matching-pairs",
+        "AX26-2606.19338-maze"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2607.20767",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB108",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-2.6",
+      "status": "partial",
+      "unitIds": [
+        "v23-partial-s3gym-snake"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB085",
+      "status": "verified",
+      "unitIds": [
+        "GAB085-story-completion"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB066",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB052",
+      "status": "partial",
+      "unitIds": [
+        "GAB052-taboo-grounding"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB053",
+      "status": "verified",
+      "unitIds": [
+        "GAB053-choice-and-harm"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB032",
+      "status": "verified",
+      "unitIds": [
+        "GAB032-science-procedures"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB020",
+      "status": "partial",
+      "unitIds": [
+        "GAB020-text-household"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB022",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB021",
+      "status": "verified",
+      "unitIds": [
+        "GAB021-commonsense-tidying"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB008",
+      "status": "partial",
+      "unitIds": [
+        "GAB008-valid-action-if"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "TOP-23",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "REC-2.7",
+      "status": "verified",
+      "unitIds": [
+        "REC-2.7-native-gui"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-3.4",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "REC-2.2",
+      "status": "verified",
+      "unitIds": [
+        "REC-2.2-rule-discovery"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB082",
+      "status": "verified",
+      "unitIds": [
+        "GAB082-ttt",
+        "GAB082-reversi",
+        "GAB082-gomoku",
+        "GAB082-chess",
+        "GAB082-sudoku",
+        "GAB082-minesweeper"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB096",
+      "status": "verified",
+      "unitIds": [
+        "GAB096-in-context"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB078",
+      "status": "verified",
+      "unitIds": [
+        "GAB078-tic-tac-toe",
+        "GAB078-connect-four",
+        "GAB078-battleship"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB065",
+      "status": "verified",
+      "unitIds": [
+        "GAB065-traversal"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB073",
+      "status": "verified",
+      "unitIds": [
+        "GAB073-black-box",
+        "GAB073-bridges",
+        "GAB073-cube",
+        "GAB073-dominosa",
+        "GAB073-fifteen",
+        "GAB073-filling",
+        "GAB073-flip",
+        "GAB073-flood",
+        "GAB073-galaxies",
+        "GAB073-guess",
+        "GAB073-inertia",
+        "GAB073-keen",
+        "GAB073-light-up",
+        "GAB073-loopy",
+        "GAB073-magnets",
+        "GAB073-map",
+        "GAB073-mines",
+        "GAB073-mosaic",
+        "GAB073-net",
+        "GAB073-netslide",
+        "GAB073-palisade",
+        "GAB073-pattern",
+        "GAB073-pearl",
+        "GAB073-pegs",
+        "GAB073-range",
+        "GAB073-rectangles",
+        "GAB073-same-game",
+        "GAB073-signpost",
+        "GAB073-singles",
+        "GAB073-sixteen",
+        "GAB073-slant",
+        "GAB073-solo",
+        "GAB073-tents",
+        "GAB073-towers",
+        "GAB073-tracks",
+        "GAB073-twiddle",
+        "GAB073-undead",
+        "GAB073-unequal",
+        "GAB073-unruly",
+        "GAB073-untangle",
+        "GAB073-netslide-size-transfer",
+        "GAB073-same-game-size-transfer",
+        "GAB073-untangle-size-transfer"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB051",
+      "status": "partial",
+      "unitIds": [
+        "GAB051-mario-context"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB049",
+      "status": "verified",
+      "unitIds": [
+        "GAB049-mortar",
+        "GAB049-path",
+        "GAB049-spotlights"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB033",
+      "status": "verified",
+      "unitIds": [
+        "GAB033-escape-room"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB016",
+      "status": "verified",
+      "unitIds": [
+        "GAB016-delivery"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB017",
+      "status": "verified",
+      "unitIds": [
+        "GAB017-rtfm",
+        "GAB017-messenger",
+        "GAB017-nethack",
+        "GAB017-alfworld",
+        "GAB017-touchdown"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB003",
+      "status": "partial",
+      "unitIds": [
+        "GAB003-memory-length",
+        "GAB003-deep-sea"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2604.02330",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2608.11216",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2608.24680",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2608.26200",
+      "status": "verified",
+      "unitIds": [
+        "AX26-2608.26200-mcu",
+        "AX26-2608.26200-vizdoom"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "AX26-2604.02648",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2608.19197",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "AX26-2606.11129",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-T05",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-T03",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-T02",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-T01",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-3.2",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAP-C3",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-T07",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-2.8",
+      "status": "partial",
+      "unitIds": [
+        "REC-2.8-asteroids",
+        "REC-2.8-breakout",
+        "REC-2.8-seaquest",
+        "REC-2.8-caveflyer",
+        "REC-2.8-coinrun",
+        "REC-2.8-plunder",
+        "REC-2.8-flappy-bird",
+        "REC-2.8-vvvvvv"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "REC-T06",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "REC-T04",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAP-A7",
+      "status": "verified",
+      "unitIds": [
+        "GAP-A7-symbolic-play",
+        "GAP-A7-box-pushing-spatial-planning"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-C1",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAP-C2",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB086",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB060",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB061",
+      "status": "partial",
+      "unitIds": [
+        "GAB061-smax"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB068",
+      "status": "partial",
+      "unitIds": [
+        "GAB068-offline-smac"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A11",
+      "status": "verified",
+      "unitIds": [
+        "GAP-A11-cooking",
+        "GAP-A11-commonsense",
+        "GAP-A11-coin"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB079",
+      "status": "partial",
+      "unitIds": [
+        "GAB079-rule-discovery"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB054",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB035",
+      "status": "partial",
+      "unitIds": [
+        "GAB035-procgen",
+        "GAB035-minihack"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB031",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB039",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB024",
+      "status": "partial",
+      "unitIds": [
+        "GAB024-lbf",
+        "GAB024-rware"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB014",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "GAB023",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "GAB019",
+      "status": "verified",
+      "unitIds": [
+        "GAB019-walker",
+        "GAB019-quadruped",
+        "GAB019-jaco"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "S01",
+      "status": "partial",
+      "unitIds": [
+        "S01-atari100k",
+        "S01-crafter",
+        "S01-basic",
+        "S01-deadly-corridor",
+        "S01-defend-center",
+        "S01-health-gathering",
+        "S01-predict-position"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "W01",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "W03",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "W02",
+      "status": "partial",
+      "unitIds": [
+        "W02-atari100k"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "A01",
+      "status": "partial",
+      "unitIds": [
+        "A01-coinrun-bc"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "T06",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A04",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A03",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A02",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A05",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "C07",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "C10",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "C11",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "F07",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A07",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A08",
+      "status": "partial",
+      "unitIds": [
+        "A08-diamond"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "S04",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "S08",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A11",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A09",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A10",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "A12",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "S03",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "S02",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "C23",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "S06",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "W05",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "W04",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "W06",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "S07",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "T05",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "S05",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "B01",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "B02",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "B03",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "NATURE295",
+      "status": "partial",
+      "unitIds": [
+        "NATURE295-minecraft-diamond"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "NATURE296",
+      "status": "verified",
+      "unitIds": [
+        "NATURE296-time-trial",
+        "NATURE296-racing"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "NATURE297",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "NATURE298",
+      "status": "partial",
+      "unitIds": [],
+      "eligibilityDecision": "needs_protocol"
+    },
+    {
+      "id": "NATURE299",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "NATURE300",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "NATURE301",
+      "status": "verified",
+      "unitIds": [
+        "NATURE301-pd",
+        "NATURE301-bos"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "CWM302",
+      "status": "not_applicable",
+      "unitIds": [],
+      "eligibilityDecision": "out_of_scope"
+    },
+    {
+      "id": "nethack",
+      "status": "partial",
+      "unitIds": [
+        "v23-nethack-scout"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "rlcard",
+      "status": "partial",
+      "unitIds": [
+        "v23-rlcard-leduc"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB105",
+      "status": "partial",
+      "unitIds": [
+        "v23-lmgame-sokoban"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB059",
+      "status": "partial",
+      "unitIds": [
+        "v23-craftax-dungeon"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A4",
+      "status": "verified",
+      "unitIds": [
+        "v23-teamcraft-building"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB026",
+      "status": "verified",
+      "unitIds": [
+        "v23-crafter-achievements"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB015",
+      "status": "partial",
+      "unitIds": [
+        "v23-minihack-river"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB095",
+      "status": "verified",
+      "unitIds": [
+        "v23-hasard-armament"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB094",
+      "status": "verified",
+      "unitIds": [
+        "v23-kinetix-holdout"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAP-A3",
+      "status": "partial",
+      "unitIds": [
+        "v23-videogamebench-doom-ii"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB050",
+      "status": "verified",
+      "unitIds": [
+        "v23-coom-cross-domain"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB034",
+      "status": "verified",
+      "unitIds": [
+        "v23-levdoom-level-generalization"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB067",
+      "status": "partial",
+      "unitIds": [
+        "v23-textstarcraft-full-game"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB047",
+      "status": "verified",
+      "unitIds": [
+        "v23-memorymaze-repeated-targets"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB064",
+      "status": "partial",
+      "unitIds": [
+        "v23-meltingpot-contest-cleanup"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB013",
+      "status": "verified",
+      "unitIds": [
+        "v23-meltingpot-original-cleanup"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "GAB048",
+      "status": "verified",
+      "unitIds": [
+        "v23-popgym-concentration"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-ale",
+      "status": "verified",
+      "unitIds": [
+        "v23-ale-original-rl"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-smac",
+      "status": "verified",
+      "unitIds": [
+        "v23-smac-micromanagement"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-sc2le",
+      "status": "verified",
+      "unitIds": [
+        "v23-sc2le-buildmarines"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-babyai",
+      "status": "verified",
+      "unitIds": [
+        "v23-babyai-instruction-execution"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-openspiel",
+      "status": "partial",
+      "unitIds": [
+        "v23-openspiel-leduc"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-deepmind-lab",
+      "status": "partial",
+      "unitIds": [
+        "v23-dmlab-random-maze"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-gvgai",
+      "status": "verified",
+      "unitIds": [
+        "v23-gvgai-single-player-planning"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-obstacle-tower",
+      "status": "verified",
+      "unitIds": [
+        "v23-obstacle-tower-generalization"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-minerl-dataset",
+      "status": "verified",
+      "unitIds": [
+        "v23-minerl-treechop",
+        "v23-minerl-navigate"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-griddly",
+      "status": "partial",
+      "unitIds": [
+        "v23-griddly-sokoban-baseline"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-elf",
+      "status": "verified",
+      "unitIds": [
+        "v23-elf-mini-rts"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-malmo",
+      "status": "partial",
+      "unitIds": [
+        "v23-malmo-cliff-walking"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-pokeagent-challenge",
+      "status": "verified",
+      "unitIds": [
+        "v23-pokeagent-battling",
+        "v23-pokeagent-emerald-first-gym"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-gg-bench",
+      "status": "verified",
+      "unitIds": [
+        "v23-gg-bench-generated-game-play"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-agenticsts",
+      "status": "verified",
+      "unitIds": [
+        "v23-agenticsts-fixed-a0"
+      ],
+      "eligibilityDecision": "eligible"
+    },
+    {
+      "id": "SUP-darefightingice-llm-2026",
+      "status": "partial",
+      "unitIds": [
+        "v23-darefightingice-official-llm-mcts"
+      ],
+      "eligibilityDecision": "eligible"
+    }
+  ]
+}

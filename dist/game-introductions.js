@@ -1,0 +1,10930 @@
+window.ATLAS_GAME_INTRODUCTIONS = {
+  "updatedAt": "2026-10-26",
+  "formatVersion": 2,
+  "policy": {
+    "zh": "简介仅写核心玩法，类型由游戏索引分类展示。具体游戏ID对应独立资料；详细介绍使用游戏官网、作者页、游戏百科或官方项目文档。论文仅用于研究出处，不作为游戏详情外链。",
+    "en": "Gameplay copy is curated for exact game IDs. Readable details use game sites, author pages, encyclopedias or official project docs; papers remain research provenance."
+  },
+  "entries": [
+    {
+      "ids": [
+        "2048"
+      ],
+      "zh": "每次移动会让全部数字方块向同一方向滑动，数值相同的方块相碰后合并成更大的数字。玩家要为下一次移动保留空位，安排合并顺序，避免棋盘被无法继续组合的方块塞满。",
+      "en": "Slide the whole board in one direction to combine equal-numbered tiles into larger values. Keep spaces available and arrange useful pairs ahead of time, since each move changes several tiles and a crowded board can leave no workable continuation.",
+      "source": "https://arxiv.org/abs/2505.15146",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ace-attorney"
+      ],
+      "zh": "玩家扮演辩护律师成步堂龙一，在调查中走访现场、收集证据，再到法庭追问证人。需要把证词与手中证据相互对照，指出矛盾，逐步还原案件经过并为委托人辩护。",
+      "en": "As Phoenix Wright, investigate crime scenes and collect evidence before questioning witnesses in court. Compare their accounts with the evidence you hold, identify contradictions and use each discovery to reconstruct the case and defend your client.",
+      "source": "https://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-allelopathic-harvest-open"
+      ],
+      "zh": "采摘红、绿、蓝三种浆果，也可把果丛重新种成其他颜色。某种浆果占比越高，生长就越快；所有玩家都更偏爱红果，但投入种植也意味着暂时放弃采摘。",
+      "en": "Harvest red, green and blue berries, or replant patches in another color. Each color grows faster as its share increases; everyone prefers red berries, but time spent establishing a productive crop is time away from harvesting it.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/allelopathic_harvest__open.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/allelopathic_harvest__open.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-bach-or-stravinsky-in-the-matrix-arena"
+      ],
+      "zh": "在多人场地中移动并收集资源，背包中各类资源的比例决定巴赫或斯特拉文斯基协调博弈中的选择；交互光束会触发两人间的收益结算。双方都希望达成一致，但对协调结果的偏好不同。其他玩家的背包并不直接可见。",
+      "en": "Move through a multiplayer arena and collect resources whose inventory proportions determine a Bach-or-Stravinsky strategy. An interaction beam triggers a two-player payoff; both players want to coordinate, but prefer different coordinated outcomes. Other players’ inventories are hidden.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/bach_or_stravinsky_in_the_matrix__arena.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/bach_or_stravinsky_in_the_matrix__arena.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-bach-or-stravinsky-in-the-matrix-repeated"
+      ],
+      "zh": "两名玩家在场地中收集资源，背包中各类资源的比例决定巴赫或斯特拉文斯基协调博弈中的选择，并用交互光束结算收益。双方都希望达成一致，但对协调结果的偏好不同。双方会反复相遇，可根据此前的交互调整下一次选择。",
+      "en": "Two players collect resources whose inventory proportions determine their Bach-or-Stravinsky strategies, then trigger encounters with an interaction beam. Both players want to coordinate, but prefer different coordinated outcomes. Repeated meetings allow each player to adjust after earlier outcomes.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/bach_or_stravinsky_in_the_matrix__repeated.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/bach_or_stravinsky_in_the_matrix__repeated.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-chemistry-three-metabolic-cycles"
+      ],
+      "zh": "搬运分子并把反应物放到相邻位置，促成三条产食物的代谢循环。循环消耗能量，而不同循环的副产物又能共同再生能量，因此不能只维持其中一条。",
+      "en": "Carry one molecule at a time and bring reactants together to sustain 3 food-producing metabolic cycles. The cycles consume energy, while their byproducts can combine to replenish it, so maintaining food production requires keeping multiple cycles active.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chemistry__three_metabolic_cycles.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chemistry__three_metabolic_cycles.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-chemistry-three-metabolic-cycles-with-plentiful-distractors"
+      ],
+      "zh": "搬运分子并让反应物相遇，维持三条相互依赖的代谢循环，以副产物再生消耗的能量。场地还提供拿在手中即可得分的干扰分子，使即时收益与维持循环发生竞争。",
+      "en": "Carry molecules and bring reactants together to sustain 3 interdependent food-producing cycles, using byproducts to replenish energy. Distractor molecules also reward players simply for holding them, competing with the work needed to keep the cycles running.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chemistry__three_metabolic_cycles_with_plentiful_distractors.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chemistry__three_metabolic_cycles_with_plentiful_distractors.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-chemistry-two-metabolic-cycles"
+      ],
+      "zh": "搬运分子并把反应物放到相邻位置，促成两条产食物的代谢循环。循环消耗能量，而不同循环的副产物又能共同再生能量，因此不能只维持其中一条。",
+      "en": "Carry one molecule at a time and bring reactants together to sustain 2 food-producing metabolic cycles. The cycles consume energy, while their byproducts can combine to replenish it, so maintaining food production requires keeping multiple cycles active.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chemistry__two_metabolic_cycles.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chemistry__two_metabolic_cycles.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-chemistry-two-metabolic-cycles-with-distractors"
+      ],
+      "zh": "搬运分子并让反应物相遇，维持两条相互依赖的代谢循环，以副产物再生消耗的能量。场地还提供拿在手中即可得分的干扰分子，使即时收益与维持循环发生竞争。",
+      "en": "Carry molecules and bring reactants together to sustain 2 interdependent food-producing cycles, using byproducts to replenish energy. Distractor molecules also reward players simply for holding them, competing with the work needed to keep the cycles running.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chemistry__two_metabolic_cycles_with_distractors.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chemistry__two_metabolic_cycles_with_distractors.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-chicken-in-the-matrix-arena"
+      ],
+      "zh": "在多人场地中移动并收集资源，背包中各类资源的比例决定鹰鸽博弈中的选择；交互光束会触发两人间的收益结算。资源选择体现强硬或退让：双方都强硬会承担冲突代价，而单方面退让又会改变收益分配。其他玩家的背包并不直接可见。",
+      "en": "Move through a multiplayer arena and collect resources whose inventory proportions determine a Chicken strategy. An interaction beam triggers a two-player payoff; resource choices encode aggressive or yielding behavior, with mutual aggression carrying a conflict cost. Other players’ inventories are hidden.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chicken_in_the_matrix__arena.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chicken_in_the_matrix__arena.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-chicken-in-the-matrix-repeated"
+      ],
+      "zh": "两名玩家在场地中收集资源，背包中各类资源的比例决定鹰鸽博弈中的选择，并用交互光束结算收益。资源选择体现强硬或退让：双方都强硬会承担冲突代价，而单方面退让又会改变收益分配。双方会反复相遇，可根据此前的交互调整下一次选择。",
+      "en": "Two players collect resources whose inventory proportions determine their Chicken strategies, then trigger encounters with an interaction beam. Resource choices encode aggressive or yielding behavior, with mutual aggression carrying a conflict cost. Repeated meetings allow each player to adjust after earlier outcomes.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chicken_in_the_matrix__repeated.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/chicken_in_the_matrix__repeated.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-clean-up"
+      ],
+      "zh": "在果园采摘苹果，同时留意河流中不断积累的污染。污染超过阈值会让苹果停止再生；玩家必须离开采摘区清理河道，恢复的产量则由所有人共享。",
+      "en": "Harvest apples in an orchard while pollution accumulates in the river. Once pollution passes a threshold, apples stop regrowing; players must leave the harvesting area to clean the river, while the restored harvest benefits everyone.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/clean_up.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/clean_up.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-collaborative-cooking-asymmetric"
+      ],
+      "zh": "把三份番茄放进锅中，等汤煮好后装碗并送到交付点，订单收益由所有玩家共享。双房间的工作条件不对称：一侧更容易交付，另一侧更方便取番茄，需据此分工。",
+      "en": "Place three tomatoes in a pot, wait for the soup to cook, then fill a bowl and deliver it for a shared reward. The two rooms have unequal access to tomatoes, pots and delivery points, encouraging different roles.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__asymmetric.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__asymmetric.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-collaborative-cooking-circuit"
+      ],
+      "zh": "把三份番茄放进锅中，等汤煮好后装碗并送到交付点，订单收益由所有玩家共享。环形通路允许独自完成全流程，但隔着柜台传递番茄能缩短搬运路线。",
+      "en": "Place three tomatoes in a pot, wait for the soup to cook, then fill a bowl and deliver it for a shared reward. A circular route permits solo cooking, but passing tomatoes across counters can shorten the work.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__circuit.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__circuit.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-collaborative-cooking-cramped"
+      ],
+      "zh": "把三份番茄放进锅中，等汤煮好后装碗并送到交付点，订单收益由所有玩家共享。厨房空间紧凑，两人争用同一条通道时容易互相堵住，需要安排取料和交付的先后。",
+      "en": "Place three tomatoes in a pot, wait for the soup to cook, then fill a bowl and deliver it for a shared reward. The cramped kitchen makes players block one another, so ingredient collection and delivery need room to pass.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__cramped.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__cramped.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-collaborative-cooking-crowded"
+      ],
+      "zh": "把三份番茄放进锅中，等汤煮好后装碗并送到交付点，订单收益由所有玩家共享。玩家能在部分区域错身通行，但关键窄口仍会堵塞，利用中央柜台传料可减少绕行。",
+      "en": "Place three tomatoes in a pot, wait for the soup to cook, then fill a bowl and deliver it for a shared reward. Players can pass in some areas, but chokepoints remain; the central counter offers a useful handoff route.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__crowded.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__crowded.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-collaborative-cooking-figure-eight"
+      ],
+      "zh": "把三份番茄放进锅中，等汤煮好后装碗并送到交付点，订单收益由所有玩家共享。八字形通路让不同搬运路线在关键位置交叉，需要协调通过顺序，避免停在路口挡住同伴。",
+      "en": "Place three tomatoes in a pot, wait for the soup to cook, then fill a bowl and deliver it for a shared reward. Figure-eight routes intersect at key crossings, where players must coordinate passage to avoid blocking each other.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__figure_eight.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__figure_eight.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-collaborative-cooking-forced"
+      ],
+      "zh": "把三份番茄放进锅中，等汤煮好后装碗并送到交付点，订单收益由所有玩家共享。两人被分在不同房间，一侧供应番茄与碗，另一侧负责烹煮和交付，必须接力完成订单。",
+      "en": "Place three tomatoes in a pot, wait for the soup to cook, then fill a bowl and deliver it for a shared reward. Separate rooms force a handoff: one side supplies tomatoes and bowls, while the other cooks and delivers.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__forced.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__forced.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-collaborative-cooking-ring"
+      ],
+      "zh": "把三份番茄放进锅中，等汤煮好后装碗并送到交付点，订单收益由所有玩家共享。工作台沿环形通道分布；两人顺着同一方向搬运较顺畅，反向行走则容易迎面堵塞。",
+      "en": "Place three tomatoes in a pot, wait for the soup to cook, then fill a bowl and deliver it for a shared reward. Workstations follow a ring; moving in the same direction keeps traffic flowing, while opposing routes create blockages.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__ring.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/collaborative_cooking__ring.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-commons-harvest-closed"
+      ],
+      "zh": "采摘苹果获得收益，但果区的再生速度取决于附近还剩多少苹果；把局部果实摘光会让该处无法再生。果区被天然墙体分隔，玩家可以守住入口，让保留的果实继续供给生长。",
+      "en": "Collect apples for rewards, but regrowth depends on nearby apples left uneaten; exhausting a local patch can permanently end its regrowth. Natural walls divide the orchard into defensible regions, allowing players to guard entrances and preserve fruit.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/commons_harvest__closed.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/commons_harvest__closed.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-commons-harvest-open"
+      ],
+      "zh": "采摘苹果获得收益，但果区的再生速度取决于附近还剩多少苹果；把局部果实摘光会让该处无法再生。开放果园没有可轻易封守的分区，需要在眼前收益和给共享果区留下再生种子之间取舍。",
+      "en": "Collect apples for rewards, but regrowth depends on nearby apples left uneaten; exhausting a local patch can permanently end its regrowth. The open orchard lacks easily defended partitions, so harvesting competes with leaving fruit to sustain shared patches.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/commons_harvest__open.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/commons_harvest__open.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-commons-harvest-partnership"
+      ],
+      "zh": "采摘苹果获得收益，但果区的再生速度取决于附近还剩多少苹果；把局部果实摘光会让该处无法再生。每个封闭果区有两个入口，需要两名伙伴共同守护，并控制区内采摘量。",
+      "en": "Collect apples for rewards, but regrowth depends on nearby apples left uneaten; exhausting a local patch can permanently end its regrowth. Each enclosed patch has two entrances, requiring partners to defend both while limiting their own harvesting.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/commons_harvest__partnership.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/commons_harvest__partnership.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-coop-mining"
+      ],
+      "zh": "用采矿光束开采铁矿或金矿：铁矿可独自开采，收益较低。金矿需要恰好两名矿工在很短的时间窗内同时开采，人数不足或过多都无法取出，但成功后双方收益更高。",
+      "en": "Use mining beams to extract iron alone or coordinate around gold. Gold requires exactly two miners to strike within a short time window; too few or too many miners fail to extract it, but a successful pair earns more.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/coop_mining.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/coop_mining.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-externality-mushrooms-dense"
+      ],
+      "zh": "在密集蘑菇中选择食用或清除目标；不同颜色会把收益给自己、所有玩家或其他玩家。绿色和蓝色蘑菇还需要停留消化，未采的蘑菇会腐坏，因此收益归属与采食时机会同时影响选择。",
+      "en": "Choose which mushrooms to eat or remove in a densely populated field. Colors distribute rewards to the eater, everyone, or only other players; green and blue mushrooms also immobilize eaters during digestion, while unharvested mushrooms can spoil.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/externality_mushrooms__dense.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/externality_mushrooms__dense.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-fruit-market-concentric-rivers"
+      ],
+      "zh": "等待果树成熟并收集苹果、香蕉，再与附近玩家用报价交换水果。两类农夫各擅长采一种水果，却更偏爱吃另一种；穿过同心河道会消耗体力，还要留意饥饿与库存。",
+      "en": "Wait at trees to harvest apples or bananas, then exchange fruit with nearby players using matching offers. Farmers harvest one fruit efficiently but prefer eating the other; crossing concentric rivers costs stamina, alongside the need to manage hunger.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/fruit_market__concentric_rivers.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/fruit_market__concentric_rivers.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-gift-refinements"
+      ],
+      "zh": "收到原始代币后，可以直接消耗取得收益，也可以把它提炼成三个更高等级的代币送给别人。提炼必须伴随赠送，且最多提升两次，玩家要在眼前收益和不断传递的高价值礼物间取舍。",
+      "en": "Consume raw tokens for an immediate reward, or refine one into three higher-level tokens and give them to another player. Refinement requires gifting and is limited to two upgrades, linking greater value to a chain of exchanges.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/gift_refinements.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/gift_refinements.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-paintball-capture-the-flag"
+      ],
+      "zh": "两队争夺对方旗帜，用光束涂染地面并击退对手。己方颜色提供更高生命值，敌方颜色会限制移动；若脚下被敌队染色，需要先重新涂地才能脱身。",
+      "en": "Two teams compete to capture the opposing flag while painting the arena and zapping rivals. Friendly paint raises health, whereas enemy paint restricts movement; a player caught on newly painted enemy ground must repaint it to escape.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/paintball__capture_the_flag.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/paintball__capture_the_flag.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-paintball-king-of-the-hill"
+      ],
+      "zh": "两队通过涂地和光束交战争夺中央高地，只有一种队色覆盖至少八成区域时才算控制成功。地面颜色同时影响生命值与通行，守住高地也意味着持续维护自己的涂色。",
+      "en": "Paint and fight for the central hill, which counts as controlled only when one team colors at least eighty percent of it. Ground color also affects health and movement, so holding the area requires maintaining paint as well as confronting rivals.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/paintball__king_of_the_hill.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/paintball__king_of_the_hill.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-predator-prey-alley-hunt"
+      ],
+      "zh": "猎物采食，捕食者追捕；吃橡果需要停留，冲刺也会消耗体力，人数占优的猎物群还能抵御攻击。苹果分布在狭窄通道中，猎物取食时可能被逼入死胡同，需要提前选择逃离路线。",
+      "en": "Prey forage while predators hunt them; eating acorns takes time, sprinting consumes stamina, and grouped prey can defend by outnumbering nearby predators. Apples lie along narrow alleys, where prey can become trapped in dead ends while foraging.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/predator_prey__alley_hunt.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/predator_prey__alley_hunt.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-predator-prey-open"
+      ],
+      "zh": "猎物采食，捕食者追捕；吃橡果需要停留，冲刺也会消耗体力，人数占优的猎物群还能抵御攻击。开阔场地中既有苹果也有橡果，猎物可结群防御，或把橡果带到较深的草丛中进食。",
+      "en": "Prey forage while predators hunt them; eating acorns takes time, sprinting consumes stamina, and grouped prey can defend by outnumbering nearby predators. The open field offers apples and acorns; prey can group for defense or carry acorns into deeper grass.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/predator_prey__open.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/predator_prey__open.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-predator-prey-orchard"
+      ],
+      "zh": "猎物采食，捕食者追捕；吃橡果需要停留，冲刺也会消耗体力，人数占优的猎物群还能抵御攻击。北边果园与东侧橡果区提供不同觅食路线，草地位置会影响取食与躲避追击的选择。",
+      "en": "Prey forage while predators hunt them; eating acorns takes time, sprinting consumes stamina, and grouped prey can defend by outnumbering nearby predators. Apples to the north and acorns to the east create different foraging routes around protective grass.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/predator_prey__orchard.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/predator_prey__orchard.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-predator-prey-random-forest"
+      ],
+      "zh": "猎物采食，捕食者追捕；吃橡果需要停留，冲刺也会消耗体力，人数占优的猎物群还能抵御攻击。随机树林只提供橡果，小片草丛不能完全遮护猎物，障碍物还会改变追逐路线。",
+      "en": "Prey forage while predators hunt them; eating acorns takes time, sprinting consumes stamina, and grouped prey can defend by outnumbering nearby predators. Random forest obstacles shape pursuit, while small grass patches cannot fully protect prey carrying the available acorns.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/predator_prey__random_forest.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/predator_prey__random_forest.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-prisoners-dilemma-in-the-matrix-arena"
+      ],
+      "zh": "在多人场地中移动并收集资源，背包中各类资源的比例决定囚徒困境中的选择；交互光束会触发两人间的收益结算。双方合作可共同受益，但单方面背叛又提供额外诱惑，收益取决于两人的资源选择。其他玩家的背包并不直接可见。",
+      "en": "Move through a multiplayer arena and collect resources whose inventory proportions determine a Prisoner’s Dilemma strategy. An interaction beam triggers a two-player payoff; mutual cooperation benefits the pair, while unilateral defection creates an individual temptation. Other players’ inventories are hidden.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/prisoners_dilemma_in_the_matrix__arena.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/prisoners_dilemma_in_the_matrix__arena.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-prisoners-dilemma-in-the-matrix-repeated"
+      ],
+      "zh": "两名玩家在场地中收集资源，背包中各类资源的比例决定囚徒困境中的选择，并用交互光束结算收益。双方合作可共同受益，但单方面背叛又提供额外诱惑，收益取决于两人的资源选择。双方会反复相遇，可根据此前的交互调整下一次选择。",
+      "en": "Two players collect resources whose inventory proportions determine their Prisoner’s Dilemma strategies, then trigger encounters with an interaction beam. Mutual cooperation benefits the pair, while unilateral defection creates an individual temptation. Repeated meetings allow each player to adjust after earlier outcomes.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/prisoners_dilemma_in_the_matrix__repeated.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/prisoners_dilemma_in_the_matrix__repeated.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-pure-coordination-in-the-matrix-arena"
+      ],
+      "zh": "在多人场地中移动并收集资源，背包中各类资源的比例决定纯协调博弈中的选择；交互光束会触发两人间的收益结算。三种选择没有高低之分，只要双方选择匹配就能获得相同的协调收益。其他玩家的背包并不直接可见。",
+      "en": "Move through a multiplayer arena and collect resources whose inventory proportions determine a pure-coordination strategy. An interaction beam triggers a two-player payoff; any of three matching choices gives the same coordinated reward. Other players’ inventories are hidden.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/pure_coordination_in_the_matrix__arena.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/pure_coordination_in_the_matrix__arena.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-pure-coordination-in-the-matrix-repeated"
+      ],
+      "zh": "两名玩家在场地中收集资源，背包中各类资源的比例决定纯协调博弈中的选择，并用交互光束结算收益。三种选择没有高低之分，只要双方选择匹配就能获得相同的协调收益。双方会反复相遇，可根据此前的交互调整下一次选择。",
+      "en": "Two players collect resources whose inventory proportions determine their pure-coordination strategies, then trigger encounters with an interaction beam. Any of three matching choices gives the same coordinated reward. Repeated meetings allow each player to adjust after earlier outcomes.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/pure_coordination_in_the_matrix__repeated.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/pure_coordination_in_the_matrix__repeated.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-rationalizable-coordination-in-the-matrix-arena"
+      ],
+      "zh": "在多人场地中移动并收集资源，背包中各类资源的比例决定分级协调博弈中的选择；交互光束会触发两人间的收益结算。三种匹配结果都能得分，但分别带来一、二、三档收益，达成一致之外还要选择协调目标。其他玩家的背包并不直接可见。",
+      "en": "Move through a multiplayer arena and collect resources whose inventory proportions determine a rationalizable-coordination strategy. An interaction beam triggers a two-player payoff; matching choices coordinate successfully, but the three coordinated outcomes award different amounts. Other players’ inventories are hidden.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/rationalizable_coordination_in_the_matrix__arena.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/rationalizable_coordination_in_the_matrix__arena.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-rationalizable-coordination-in-the-matrix-repeated"
+      ],
+      "zh": "两名玩家在场地中收集资源，背包中各类资源的比例决定分级协调博弈中的选择，并用交互光束结算收益。三种匹配结果都能得分，但分别带来一、二、三档收益，达成一致之外还要选择协调目标。双方会反复相遇，可根据此前的交互调整下一次选择。",
+      "en": "Two players collect resources whose inventory proportions determine their rationalizable-coordination strategies, then trigger encounters with an interaction beam. Matching choices coordinate successfully, but the three coordinated outcomes award different amounts. Repeated meetings allow each player to adjust after earlier outcomes.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/rationalizable_coordination_in_the_matrix__repeated.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/rationalizable_coordination_in_the_matrix__repeated.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-running-with-scissors-in-the-matrix-arena"
+      ],
+      "zh": "在多人场地中移动并收集资源，背包中各类资源的比例决定石头剪刀布中的选择；交互光束会触发两人间的收益结算。三类资源相互克制，收集时暴露的路线也可能让对手推测下一次交互中的选择。其他玩家的背包并不直接可见。",
+      "en": "Move through a multiplayer arena and collect resources whose inventory proportions determine a Rock-Paper-Scissors strategy. An interaction beam triggers a two-player payoff; three resource types counter one another, and visible collection routes can reveal clues about a coming choice. Other players’ inventories are hidden.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/running_with_scissors_in_the_matrix__arena.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/running_with_scissors_in_the_matrix__arena.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-running-with-scissors-in-the-matrix-repeated"
+      ],
+      "zh": "两名玩家在场地中收集资源，背包中各类资源的比例决定石头剪刀布中的选择，并用交互光束结算收益。三类资源相互克制，收集时暴露的路线也可能让对手推测下一次交互中的选择。双方会反复相遇，可根据此前的交互调整下一次选择。",
+      "en": "Two players collect resources whose inventory proportions determine their Rock-Paper-Scissors strategies, then trigger encounters with an interaction beam. Three resource types counter one another, and visible collection routes can reveal clues about a coming choice. Repeated meetings allow each player to adjust after earlier outcomes.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/running_with_scissors_in_the_matrix__repeated.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/running_with_scissors_in_the_matrix__repeated.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-stag-hunt-in-the-matrix-arena"
+      ],
+      "zh": "在多人场地中移动并收集资源，背包中各类资源的比例决定猎鹿博弈中的选择；交互光束会触发两人间的收益结算。选择兔子提供较稳妥的收益，选择鹿则需要对方配合，才能取得更高的共同回报。其他玩家的背包并不直接可见。",
+      "en": "Move through a multiplayer arena and collect resources whose inventory proportions determine a Stag-Hunt strategy. An interaction beam triggers a two-player payoff; the hare offers a safer return, while the higher stag reward requires the partner to coordinate. Other players’ inventories are hidden.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/stag_hunt_in_the_matrix__arena.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/stag_hunt_in_the_matrix__arena.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-stag-hunt-in-the-matrix-repeated"
+      ],
+      "zh": "两名玩家在场地中收集资源，背包中各类资源的比例决定猎鹿博弈中的选择，并用交互光束结算收益。选择兔子提供较稳妥的收益，选择鹿则需要对方配合，才能取得更高的共同回报。双方会反复相遇，可根据此前的交互调整下一次选择。",
+      "en": "Two players collect resources whose inventory proportions determine their Stag-Hunt strategies, then trigger encounters with an interaction beam. The hare offers a safer return, while the higher stag reward requires the partner to coordinate. Repeated meetings allow each player to adjust after earlier outcomes.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/stag_hunt_in_the_matrix__repeated.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/stag_hunt_in_the_matrix__repeated.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-territory-inside-out"
+      ],
+      "zh": "用涂刷或抛洒油漆占领资源墙，颜色保持一段时间并干燥后，墙面会持续产生收益。玩家从迷宫外围进入资源密集区域，逐渐接触他人的领地边界。",
+      "en": "Claim resource walls with a brush or thrown paint; walls begin producing rewards after the color remains undisturbed long enough to dry. Players enter from outside a dense resource maze and gradually encounter neighboring claims.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/territory__inside_out.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/territory__inside_out.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "actionparty-territory-rooms"
+      ],
+      "zh": "用涂刷或抛洒油漆占领资源墙，颜色保持一段时间并干燥后，墙面会持续产生收益。起始房间形成天然分区，拆墙可以入侵邻区，却也会永久损失可产生收益的墙面。",
+      "en": "Claim resource walls with a brush or thrown paint; walls begin producing rewards after the color remains undisturbed long enough to dry. Separate rooms create natural partitions; breaking through into another room permanently removes potentially profitable walls.",
+      "source": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/territory__rooms.py",
+      "basis": "official-substrate-rules",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/territory__rooms.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "adasociety"
+      ],
+      "zh": "玩家先选择共享收益的小组，再让拥有互补工种的成员采集资源、加工并制作物品。各人的生产能力与所得相互关联，需要协调分工及资源流向，才能把采集结果变成共同收益。",
+      "en": "Choose a group whose members share rewards, then gather resources and craft items using complementary occupations. Coordinate who collects and who produces, since each member's available work and the movement of resources affect what the group can achieve together.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3e4d8407cb468850f2f8f4a949e64bf0-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "age-of-empires-definitive-edition"
+      ],
+      "zh": "玩家从城镇发展起步，采集资源、建造设施，并通过时代推进解锁后续发展。经济建设要持续支撑军队生产，同时指挥部队扩张与交战，在发展速度和军事投入之间取得平衡。",
+      "en": "Gather resources, build up a settlement and advance through historical ages to develop your civilization. Keep the economy supporting military production while commanding armies across the map, balancing further growth against the forces needed to defeat your opponents.",
+      "source": "https://store.steampowered.com/app/1017900/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1017900/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "age-of-empires-ii-definitive-edition"
+      ],
+      "zh": "玩家调配村民采集四类资源，建造城镇、生产军队并研究升级。地图侦察与兵种配合决定出兵方式，经济需要不断支撑前线，因此发展基地和争夺战场往往要同时进行。",
+      "en": "Assign villagers to four resources, construct a town and produce armies while researching upgrades. Scout the map and combine unit types to contest important ground, keeping production running so that expansion and battlefield losses do not exhaust the economy.",
+      "source": "https://store.steampowered.com/app/813780/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/813780/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "age-of-llm"
+      ],
+      "zh": "两名玩家在 13×7 网格上轮流行动，围绕基地展开对抗。推进时需要考虑对方下一轮的回应；对局既可通过摧毁敌方基地结束，也可走向规则允许的外交终局。",
+      "en": "Two players take turns contesting a 13×7 grid around their bases. Choose moves with the opponent's response in mind, pursuing destruction of the opposing base or a diplomatic ending when the rules allow that alternative route to conclude play.",
+      "source": "https://arxiv.org/html/2606.24391v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "agent-island-elimination"
+      ],
+      "zh": "玩家通过私下交谈建立关系，再在公开陈述和投票中争取支持，以免遭到淘汰。随着人员减少，联盟与对手立场也会变化，最终阶段还需要争取足够的支持来赢得对局。",
+      "en": "Use private conversations to build relationships, then make public statements and seek support during elimination votes. Staying in the game is only part of the objective: changing alliances and other players' positions also shape your chances of winning the final stage.",
+      "source": "https://arxiv.org/html/2605.04312",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "agentodyssey-remnant"
+      ],
+      "zh": "玩家探索世界、采集并合成物品，通过完成具有前置依赖的步骤推进主线。支线与探索也会占用行动，需要判断当前缺少什么资源、哪些任务尚未解锁，再安排下一段旅程。",
+      "en": "Explore, craft and complete side quests while advancing a main quest with prerequisite dependencies. Check which resources or earlier objectives are still missing before moving on, balancing useful exploration against the sequence of tasks needed to keep the main story progressing.",
+      "source": "https://arxiv.org/html/2606.24893v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "alchemy"
+      ],
+      "zh": "玩家把药水用于石头，观察颜色、形状等属性如何变化，并据此推断当前隐藏的转换规则。后续操作要利用这些发现选择药水与石头的组合，避免只凭外观重复尝试。",
+      "en": "Apply potions to stones and observe how their properties change to infer the current transformation rules. Use those discoveries to select later stone-and-potion combinations, checking whether a new result supports your understanding before committing to another sequence of transformations.",
+      "source": "https://github.com/google-deepmind/dm_alchemy",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/dm_alchemy",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "alem"
+      ],
+      "zh": "队员需要同步采矿、在规定时间内交接资源，再把材料用于共同建造和战斗。采集、传递与使用彼此相接，一个环节的延误会影响其他成员，因此行动节奏和分工需要相互配合。",
+      "en": "Coordinate mining, timed resource handoffs, shared construction and combat. Materials must pass from collection to teammates and then into use, so the timing of one player's work affects the others and requires the team to keep these activities aligned.",
+      "source": "https://arxiv.org/html/2606.08340v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "alfworld"
+      ],
+      "zh": "玩家按文字指令在场景中寻找物体，移动到合适位置后进行取放、清洁、加热或冷却。完成目标既要求把物品送对地方，也可能要求先改变其状态，因此需要安排操作顺序。",
+      "en": "Follow instructions to locate objects, navigate to them and carry out actions such as placing, cleaning, heating or cooling. Arrange these operations to leave each object in both the destination and the state required by the task.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5e772a13ccba5255331240dcd99aa38b-Abstract-Conference.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "amazons"
+      ],
+      "zh": "双方先像国际象棋皇后一样移动一个亚马逊，再从新位置射箭，把一格永久封住。移动与封路共同改变棋盘，玩家要保留自己的活动空间，并逐步让对手失去全部合法行动。",
+      "en": "Move an amazon like a chess queen, then shoot an arrow from its new position to block a square. Each turn changes the available routes, so preserve room for your own pieces while enclosing the opponent until they have no legal move.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Game_of_the_Amazons",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "among-us"
+      ],
+      "zh": "船员一边完成各处任务，一边根据行动和讨论寻找伪装者；伪装者则利用破坏、击杀与伪装阻止船员。会议中的解释、质询和投票会决定谁被驱逐，也会改变下一阶段的信任关系。",
+      "en": "Crewmates complete tasks and investigate suspicious behavior, while impostors sabotage the team and conceal their actions. Meetings turn observations into accusations and votes, so explaining where you were and judging competing accounts matters alongside movement and work around the map.",
+      "source": "https://store.steampowered.com/app/945360/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/945360/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "angry-birds"
+      ],
+      "zh": "玩家选择弹射方向与力度，让不同特性的鸟撞击建筑和其中的猪。结构的支撑、倒塌与碰撞可以形成连锁破坏；这里关联的 Science Birds 是对这一玩法的研究实现。",
+      "en": "Choose a launch angle and strength, using birds with different properties to strike structures and the pigs inside them. Read the supports and resulting collisions to create useful collapses; the associated Science Birds implementation represents a research adaptation of this play loop.",
+      "source": "https://arxiv.org/html/2603.06656v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.rovio.com/games/angry-birds/",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "animal-shogi"
+      ],
+      "zh": "双方在 4×3 棋盘上移动狮、象、长颈鹿和小鸡，吃下的棋子可以重新打入棋盘。目标是吃掉对方狮子，或满足狮子入阵条件；小棋盘使一步移动与重新打入都直接影响攻防。",
+      "en": "Move lions, elephants, giraffes and chicks on a 4×3 board, with captured pieces available to drop back into play. Win by capturing the opposing lion or satisfying its advance condition, weighing immediate threats against the new attacks a dropped piece can create.",
+      "source": "https://arxiv.org/abs/2303.17503",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/D%C5%8Dbutsu_sh%C5%8Dgi",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "another-gentlemans-adventure"
+      ],
+      "zh": "控制角色跑跳、收集金币并避开沿途敌人，穿过高低错落的平台。寻找强化道具后，可以跳上原先难以抵达的位置或打开受阻路线，再利用新获得的通行能力继续探索。",
+      "en": "Run and jump between platforms, collecting coins while avoiding enemies along the route. Find power-ups that let you reach higher areas or pass previously blocked paths, then revisit how those changes affect the way forward through the adventure.",
+      "source": "https://www.coolmathgames.com/0-another-gentlemans-adventure",
+      "detailUrl": "https://www.coolmathgames.com/0-another-gentlemans-adventure",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "apex-legends"
+      ],
+      "zh": "玩家与小队搜集武器和装备，利用各角色技能选择转移、交火与支援的时机。安全区域不断收缩，需要兼顾当前位置、队友行动和敌方威胁，争取让队伍在连续遭遇中存活。",
+      "en": "Loot weapons and equipment with a squad, using each character's abilities to move, fight and support teammates. As the playable area contracts, weigh position and enemy pressure against the squad's needs, choosing when to engage and when to relocate together.",
+      "source": "https://store.steampowered.com/app/1172470/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1172470/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "aquawar"
+      ],
+      "zh": "双方分别控制四条鱼，在对战中选择攻击目标并使用技能，设法取得战斗优势。第二阶段另加入隐藏身份猜测，玩家除了观察交战结果，还要依据已见行动判断对方鱼的身份。",
+      "en": "Each side controls four fish and chooses attacks and skills during combat. A second stage adds hidden-identity guessing, so observed actions and their outcomes also become clues for deciding which fish the opponent has, alongside decisions about how to fight them.",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "arena-breakout-infinite"
+      ],
+      "zh": "玩家带着自选装备进入战区，搜集物资并在交火风险与战利品价值之间作取舍。找到并成功抵达撤离点后，才能保留带出的物品，因此撤离路线与离开的时机同样属于目标的一部分。",
+      "en": "Enter a combat zone with your equipment, search for valuables and decide which fights are worth the risk. A successful extraction preserves what you carry out, making route selection and the timing of departure central to securing the loot.",
+      "source": "https://store.steampowered.com/app/2073620/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/2073620/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "arena-unity-crossroads"
+      ],
+      "zh": "各队的目标是让全部成员穿过交叉路口，到达对侧指定位置。多名成员共用通行区域，需要安排谁先通过、谁暂时等待，让每名队员都能找到抵达目标的路线。",
+      "en": "Guide every member of a team across the intersection to the targets on the opposite side. Coordinate who moves and who waits in the shared passage, keeping routes available until the whole team has reached its destinations.",
+      "source": "https://ojs.aaai.org/index.php/AAAI/article/view/6216/6072",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "assassin-s-creed-revelations"
+      ],
+      "zh": "玩家扮演艾吉奥，在君士坦丁堡攀爬、潜行或交战，寻找推动调查的钥匙。探索城市与执行任务相互穿插，取得线索后还会进入阿泰尔相关记忆，把不同经历连接起来。",
+      "en": "As Ezio, explore Constantinople through climbing, stealth and combat while tracking down keys. Move between investigation and action as new leads emerge, with memories connected to Altaïr providing another strand of the story as you advance through the city.",
+      "source": "https://store.steampowered.com/app/201870/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/201870/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "astray"
+      ],
+      "zh": "玩家通过倾斜迷宫改变小球的运动方向，让它沿通道滚向出口。小球的惯性会延续到下一段路，必须在转角前减速并修正位置，避免一次幅度过大的调整破坏后续路线。",
+      "en": "Tilt the maze to roll a ball through its passages toward the exit. Momentum carries across each adjustment, so controlling speed before corners and correcting the approach determines whether the ball stays on the intended route.",
+      "source": "https://github.com/wwwtyro/Astray",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/wwwtyro/Astray",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-2600"
+      ],
+      "zh": "玩家通过方向、开火等输入游玩 Atari 2600 的不同作品，分别完成清敌、收集、竞速或对弈目标。各游戏沿用自己的计分、生命和结束规则，具体操作与胜负条件需按作品区分。",
+      "en": "Play individual Atari 2600 titles using directional controls, firing and other game-specific inputs. Objectives range from clearing enemies and collecting objects to racing or competing on a board, with each title retaining its own scoring, lives and ending conditions.",
+      "source": "https://arxiv.org/abs/1207.4708",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-research/rliable",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-air-raid"
+      ],
+      "zh": "玩家左右移动飞船，射击从空中接近的飞碟，保护画面两侧的建筑。敌机会向建筑投弹，需要在击落目标的同时兼顾两边防线，阻止轰炸持续破坏城市。",
+      "en": "Move the defending ship from side to side and shoot approaching flying saucers. The attackers drop bombs toward two buildings on opposite sides of the screen, so movement between the two sides is part of keeping both buildings protected.",
+      "source": "https://ale.farama.org/environments/air_raid/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/air_raid/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-alien"
+      ],
+      "zh": "玩家在飞船迷宫中移动，清除散落各处的异形卵，同时避开追逐自己的三只异形。遇险时可用喷火器逼退敌人，收集脉冲强化后则能暂时反击，趁机穿过受阻通道。",
+      "en": "Move through a maze inside a spaceship, destroying scattered alien eggs while avoiding three pursuing aliens. A flamethrower can drive enemies away in tight situations, while a pulsar power-up temporarily lets you kill them and move through otherwise dangerous passages.",
+      "source": "https://ale.farama.org/environments/alien/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/alien/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-amidar"
+      ],
+      "zh": "玩家沿二维网格的路径移动，设法走遍需要覆盖的区域，同时避开在网格上活动的敌人。部分时机会让追逐者暂时变成小鸡，此时可以反过来捕捉它们，改变原本的追逃关系。",
+      "en": "Travel along the paths of a two-dimensional grid and cover the required areas while avoiding enemies moving through the same network. At certain points the pursuers turn into chickens, creating a temporary opportunity to catch the enemies that were pursuing you.",
+      "source": "https://ale.farama.org/environments/amidar/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/amidar/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-assault"
+      ],
+      "zh": "玩家操纵地面载具左右移动，瞄准上方母舰不断释放的小型无人机。击毁来袭敌人可以得分，但还要及时避开它们的攻击，在有限的横向活动范围内持续寻找安全射击位置。",
+      "en": "Move a vehicle horizontally beneath an enemy mothership and shoot the smaller drones it repeatedly deploys. Destroying attackers earns points, but their return fire also forces you to reposition, balancing shots at overhead targets with keeping a safe position below.",
+      "source": "https://ale.farama.org/environments/assault/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/assault/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-asterix"
+      ],
+      "zh": "玩家控制阿斯泰利克斯在不同横行之间移动，接取从画面横向经过的奖励物品。竖琴混在这些物品中，碰到便会损失生命，因此需要辨认目标、选择行列，并及时避开危险物。",
+      "en": "Guide Asterix between rows and across the screen to collect passing reward objects. Lyres travel among the useful items and cost a life when collected, so choosing a row and moving across it must account for both pickups and dangerous objects.",
+      "source": "https://ale.farama.org/environments/asterix/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/asterix/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-asteroids"
+      ],
+      "zh": "玩家通过转向和推进驾驶飞船，在小行星群中开火，将岩石逐步击碎。清除当前所有小行星后进入下一关，还要应对偶尔出现的飞碟，避免飞船在移动和射击时与危险目标碰撞。",
+      "en": "Rotate and thrust a spaceship through an asteroid field, firing to break up the rocks. Clearing every asteroid advances to another wave, while occasional flying saucers add another threat that must be handled alongside movement through the remaining debris.",
+      "source": "https://ale.farama.org/environments/asteroids/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/asteroids/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-atlantis"
+      ],
+      "zh": "玩家使用三座防御炮台拦截逐渐逼近的敌机，保护水下城市的七处设施。所有设施被摧毁便会失败；守住敌人一波进攻并积累足够分数后，可以重建设施，继续维持防线。",
+      "en": "Use three defense posts to intercept enemies descending toward an underwater city. Losing all seven installations ends the game, while surviving a wave and scoring enough points can rebuild installations, making the defense depend on both interception and keeping the city intact.",
+      "source": "https://ale.farama.org/environments/atlantis/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/atlantis/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-bank-heist"
+      ],
+      "zh": "玩家驾驶逃跑汽车穿行于城市迷宫，抢劫银行后摆脱随之出现的警车。可以投放炸药摧毁追兵，但也要避开自己留下的炸药；燃料耗尽会损失生命，进入新城市才能补充油箱。",
+      "en": "Drive a getaway car through maze-like streets and rob banks while police cars pursue you. Dropped dynamite can destroy pursuers but also endangers your own car; running out of fuel costs a life, and entering a new city replenishes the tank.",
+      "source": "https://ale.farama.org/environments/bank_heist/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/bank_heist/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-basic-math"
+      ],
+      "zh": "玩家读取屏幕显示的基础算术题，再用摇杆逐项选择要提交的数值答案。题目给出待计算的数值，玩家先求出结果，再滚动答案选项，停在对应数字上提交。",
+      "en": "Read the arithmetic problem shown on screen and use the joystick to scroll to a numerical answer. Calculate the result from the displayed values, scroll through the possible answers and stop at the matching number to submit your choice.",
+      "source": "https://ale.farama.org/environments/basic_math/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/basic_math/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-battle-zone"
+      ],
+      "zh": "玩家从坦克内的第一人称视角驾驶和射击，寻找并摧毁周围的敌方载具。雷达会显示附近敌人的方位，需要结合前方视野调整朝向；受到攻击会损失坦克，得分可带来额外生命。",
+      "en": "Drive and fire a tank from a first-person viewpoint, locating and destroying enemy vehicles. A radar shows threats around you beyond the forward view, so turning and aiming depend on both displays; sufficiently high scores can provide additional lives.",
+      "source": "https://ale.farama.org/environments/battle_zone/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/battle_zone/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-beamrider"
+      ],
+      "zh": "玩家的飞船保持向前行进，只能在离散轨道之间左右切换。需要击毁迎面的敌舰，同时避开敌方攻击和太空残骸；闪避时可用的位置受轨道限制，射击与换道必须相互配合。",
+      "en": "Your spaceship moves forward at a constant speed while you steer sideways between fixed lanes. Shoot approaching enemy ships and dodge their attacks and space debris, using the limited lane positions to keep firing opportunities open without moving into another hazard.",
+      "source": "https://ale.farama.org/environments/beam_rider/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/beam_rider/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-berzerk"
+      ],
+      "zh": "玩家在布满机器人的迷宫中移动和射击，清除敌人并寻找可通过的路线。迷宫墙壁本身也致命；部分模式还会出现无法击败的 Evil Otto，但默认模式不含该敌人。",
+      "en": "Move through robot-filled mazes and shoot enemies while keeping clear of the walls, which are themselves lethal. Some modes also introduce Evil Otto, an indestructible pursuer that must be avoided; he is absent from the default mode described by ALE.",
+      "source": "https://ale.farama.org/environments/berzerk/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/berzerk/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-bowling"
+      ],
+      "zh": "玩家控制投球，争取在十局比赛中击倒尽可能多的球瓶。每局最多有两次尝试，第一球全倒记为全中，第二球补齐记为补中；投球结果会影响整场累计得分。",
+      "en": "Control your rolls to knock down pins across a ten-frame bowling game. Each frame allows two attempts: clearing every pin on the first roll gives a strike, while clearing the remainder on the second gives a spare and changes the score.",
+      "source": "https://ale.farama.org/environments/bowling/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/bowling/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-boxing"
+      ],
+      "zh": "玩家在拳台中移动和出拳，设法打中对手，同时调整距离以避免自己被连续命中。每次有效击打都会得分，达到一百分可直接击倒对方，因此既要寻找出拳机会，也要保持有利位置。",
+      "en": "Move around the boxing ring and throw punches to land hits on your opponent. Successful strikes add points, and reaching one hundred points knocks the opponent out, so controlling distance and creating repeated openings are central to winning the bout.",
+      "source": "https://ale.farama.org/environments/boxing/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/boxing/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-breakout"
+      ],
+      "zh": "玩家左右移动底部挡板，将小球反弹到上方砖墙，逐块击碎砖块。小球从底部落出会消耗生命；若打通墙面通道，球还可能进入砖墙上方连续反弹，快速清除剩余砖块。",
+      "en": "Move the bottom paddle to keep a ball rebounding into the brick wall above. Missing the ball costs a life; opening a passage through the wall can send it behind the bricks, where repeated rebounds clear blocks without another paddle hit.",
+      "source": "https://ale.farama.org/environments/breakout/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/breakout/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-carnival"
+      ],
+      "zh": "玩家横向移动枪口，射击在画面中横向经过的目标。弹药数量有限，需要减少落空；小鸡若未及时击中，还会偷走子弹，因此射击次序也会影响后续可用的弹药。",
+      "en": "Move the gun horizontally and shoot targets as they pass across the screen. Ammunition is limited, and chickens can steal bullets if left unhit, so choosing which targets to shoot first affects both the score and the shots still available.",
+      "source": "https://ale.farama.org/environments/carnival/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/carnival/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-centipede"
+      ],
+      "zh": "玩家操控底部角色射击蜈蚣、蜘蛛和跳蚤，阻止它们不断接近。被这些敌人咬中会暂时麻痹并失去一根魔杖，魔杖耗尽后结束游戏；积累足够分数则能补充魔杖，延长生存。",
+      "en": "Shoot centipedes, spiders and fleas as they approach the player area. A bite temporarily paralyzes the character and costs a magic wand; losing every wand ends the game, while sufficiently high scores grant replacements and allow the defense to continue.",
+      "source": "https://ale.farama.org/environments/centipede/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/centipede/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-chopper-command"
+      ],
+      "zh": "玩家驾驶直升机巡逻并击落敌机，保护地面正在移动的卡车车队。画面底部的小地图会显示战场情况，需要结合局部视野寻找来袭目标，在空战和车队防护之间及时转移位置。",
+      "en": "Pilot a helicopter and shoot down enemy aircraft to protect truck convoys on the ground. The minimap at the bottom of the screen helps locate threats outside the immediate view, guiding where to fly next while keeping the convoy defended.",
+      "source": "https://ale.farama.org/environments/chopper_command/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/chopper_command/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-crazy-climber"
+      ],
+      "zh": "玩家交替控制攀爬动作，沿大楼外墙向屋顶前进，避开突然关闭的窗户和坠落物。受到这些障碍伤害会跌落并损失生命；到顶后还要抓住直升机，才能前往下一栋大楼。",
+      "en": "Climb the outside of buildings while avoiding closing windows and falling objects. Being struck makes the climber fall and lose a life; at the roof, catching a helicopter advances to the next building, rewarding a quick ascent with little damage.",
+      "source": "https://ale.farama.org/environments/crazy_climber/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/crazy_climber/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-demon-attack"
+      ],
+      "zh": "玩家左右移动并射击一波波恶魔，躲开它们的反击。每次被击中都会失去一座备用掩体，无伤度过一波则能补充掩体；储备耗尽后再中弹便会结束游戏。",
+      "en": "Move sideways and shoot successive waves of demons while dodging return fire. A hit destroys a reserve bunker, whereas surviving an entire wave without damage adds one; once the reserve is exhausted, another hit ends the defense and the game.",
+      "source": "https://ale.farama.org/environments/demon_attack/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/demon_attack/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-double-dunk"
+      ],
+      "zh": "玩家进行二对二篮球比赛，在每次获得球权时先选择进攻或防守战术，再操作队员执行。跑位、传球和投篮需要围绕选定战术配合，既要创造得分机会，也要阻止对方完成进攻。",
+      "en": "Play two-on-two basketball by selecting a play at the start of each possession and then executing it on court. Movement, passing and shooting must work together to create scoring chances, while defensive possessions require stopping the opposing pair from scoring.",
+      "source": "https://ale.farama.org/environments/double_dunk/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/double_dunk/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-elevator-action"
+      ],
+      "zh": "玩家扮演特工，乘电梯或走楼梯逐层下行，进入红门房间取得秘密文件，并射击阻挡的敌方特工。抵达地面后撤离并进入下一关；这里收录的是基于街机作品制作的未发行原型。",
+      "en": "Descend a building using elevators and stairs, entering red-door rooms to retrieve secret documents and shooting hostile agents along the way. Reaching ground level enables escape and the next stage; this Atari version is an unreleased prototype based on the arcade game.",
+      "source": "https://ale.farama.org/environments/elevator_action/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/elevator_action/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-enduro"
+      ],
+      "zh": "玩家驾驶赛车在昼夜变化中持续超车，争取在当天结束前完成规定数量。首日需要超越二百辆车，此后每天三百辆；若当天未达到配额，耐力赛就会结束。",
+      "en": "Drive through changing days and nights, overtaking enough cars before each day ends. The first day requires passing two hundred cars and later days require three hundred; failing the daily quota ends the endurance race regardless of earlier progress.",
+      "source": "https://ale.farama.org/environments/enduro/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/enduro/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-fishing-derby"
+      ],
+      "zh": "玩家控制钓线在鱼群中下钩，设法钓起比对手更多的太阳鱼。双方争夺同一片水域里的渔获，需要把钓线送到鱼活动的位置，并把握收线时机，持续增加己方捕获数量。",
+      "en": "Control a fishing line to catch sunfish while competing against another angler. The objective is to bring in more fish than the opponent, placing the line where fish are moving and timing retrieval to keep increasing your share of the catch.",
+      "source": "https://ale.farama.org/environments/fishing_derby/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/fishing_derby/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-freeway"
+      ],
+      "zh": "玩家引导小鸡向画面上方移动，依次穿过多条繁忙车道，避开来往车辆。每成功穿越整条道路一次便获得一分，因此需要观察各车道空隙，连续完成安全过街来提高总分。",
+      "en": "Guide a chicken upward across successive lanes of busy traffic without being hit. Each successful crossing to the top of the screen earns one point, so the objective is to find gaps between vehicles and complete as many full crossings as possible.",
+      "source": "https://ale.farama.org/environments/freeway/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/freeway/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-frostbite"
+      ],
+      "zh": "玩家控制 Frostbite Bailey 在北极河流的浮冰间来回跳跃，把白色冰块变成蓝色。每次改变冰块颜色都会为岸边冰屋添上一块材料，需要在移动冰面上选择落点，并避开周围危险。",
+      "en": "Hop back and forth across an Arctic river on moving ice floes, changing their color from white to blue. Each color change adds a block to the igloo, so choosing safe landings advances construction while the surrounding hazards threaten the builder.",
+      "source": "https://ale.farama.org/environments/frostbite/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/frostbite/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-gopher"
+      ],
+      "zh": "玩家控制持铲农夫，在地面与地洞附近行动，保护仅有的三根胡萝卜。地鼠会挖掘通道偷取作物，需要及时用铲子处理地洞和来袭地鼠，避免它从防线的空隙接近菜地。",
+      "en": "Control a shovel-wielding farmer protecting a crop of three carrots from a gopher. Respond to its tunnels and approaches with the shovel, filling holes beneath the garden and striking the animal as it emerges near the crop.",
+      "source": "https://ale.farama.org/environments/gopher/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/gopher/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-gravitar"
+      ],
+      "zh": "玩家驾驶小型飞船在太阳系中移动，进入星球后切换到侧面视角的地形。飞行会受到重力影响，需要控制朝向和推力接近地面目标，并在攻击时避免飞船坠落或撞上地形。",
+      "en": "Pilot a small spacecraft around a solar system and enter planets to explore their side-view landscapes. Gravity affects the ship, so rotating and applying thrust must keep it clear of terrain while positioning it to attack targets on the surface.",
+      "source": "https://ale.farama.org/environments/gravitar/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/gravitar/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-hero"
+      ],
+      "zh": "玩家利用旋翼背包深入矿井寻找受困矿工，可用炸药炸开墙壁、激光清除害虫，并借助木筏越过熔岩。行动消耗有限能量，必须在耗尽前完成救援，否则会损失生命。",
+      "en": "Fly into mine shafts with a propeller backpack to rescue trapped miners. Dynamite opens walls, a laser removes vermin and a raft crosses lava, but power is limited, so reaching the miner before it runs out is essential to survival.",
+      "source": "https://ale.farama.org/environments/hero/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/hero/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-human-cannonball"
+      ],
+      "zh": "玩家根据炮口角度、发射速度和水塔距离，把人体炮弹送入水塔。不同模式允许调节的参数不同，部分值由电脑指定；需要先读清当前设定，再判断飞行弧线能否落入目标。",
+      "en": "Send a human projectile from a cannon into a water tower, accounting for launch angle, speed and distance. Which variables you can adjust depends on the selected mode; read the current settings and judge whether the resulting flight arc will reach the target.",
+      "source": "https://ale.farama.org/environments/human_cannonball/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/human_cannonball/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-ice-hockey"
+      ],
+      "zh": "玩家操控冰球队员移动、传球和射门，在三分钟内争取比对手取得更多进球。射门有多种角度可选，也能借助球场侧边反弹传球，利用队员位置寻找通往对方球门的路线。",
+      "en": "Move hockey players, pass the puck and shoot to outscore the opponent within three minutes. Shots allow multiple angles toward the opposing goal, and the rink's sides can be used for rebound passes that create a better route to a scoring position.",
+      "source": "https://ale.farama.org/environments/ice_hockey/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/ice_hockey/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-jamesbond"
+      ],
+      "zh": "玩家驾驶邦德的多用途载具，控制前后移动、跃起和下潜来完成不同阶段任务。武器可向画面下方投掷炸弹，也可向上方进行固定角度射击，需要按目标位置选择行动和攻击方向。",
+      "en": "Control Bond's multipurpose craft through a sequence of missions, moving forward or back and jumping or diving when needed. Attack by lobbing bombs downward or firing a fixed-angle shot upward, choosing movement and weapon direction to suit the target's position.",
+      "source": "https://ale.farama.org/environments/jamesbond/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/jamesbond/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-journey-escape"
+      ],
+      "zh": "玩家带领 JOURNEY 乐队的五名成员穿过后台人群与障碍，在倒计时结束前抵达逃生车辆。追逐的歌迷、摄影师和推广人员还会威胁演出收入，需要在赶路时保护随身现金。",
+      "en": "Guide all five JOURNEY band members through backstage crowds and obstacles to reach the escape vehicle before time runs out. Groupies, photographers and promoters also threaten the concert cash, so navigating the route means protecting money as well as arriving in time.",
+      "source": "https://ale.farama.org/environments/journey_escape/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/journey_escape/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-kangaroo"
+      ],
+      "zh": "玩家控制袋鼠妈妈向上攀登，爬梯、收集奖励水果，并挥拳击退阻拦的猴子。目标是穿过各层障碍救出幼崽；行进时既要判断跳跃和攀爬位置，也要及时处理身边敌人。",
+      "en": "Control Mother Kangaroo as she climbs ladders and works through obstacles to rescue her baby. Pick up bonus fruit and punch monkeys along the route, combining upward movement with close-range attacks so enemies do not interrupt the climb to the child.",
+      "source": "https://ale.farama.org/environments/kangaroo/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/kangaroo/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-klax"
+      ],
+      "zh": "玩家接住不断翻落的彩色方块，再选择位置把它们放入下方槽位。目标是让三个或更多同色块排成连线，放置次序会改变后续可用空间，需要在接取新块时兼顾已有排列。",
+      "en": "Catch tumbling colored tiles and choose where to drop them into the bins below. Form lines of three or more matching tiles, arranging each placement around the existing pattern while keeping enough room and attention available to handle the next falling pieces.",
+      "source": "https://ale.farama.org/environments/klax/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/klax/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-krull"
+      ],
+      "zh": "玩家穿过多个动作场景，寻找并进入野兽的黑色城堡，救出莉莎公主并消灭野兽。城堡的位置会随每次日出改变，前进途中不仅要应对敌人，也要重新确定通往最终目标的路线。",
+      "en": "Work through action scenes to locate and enter the Beast's Black Fortress, rescue Princess Lyssa and destroy the Beast. The fortress changes location with each sunrise on Krull, so reaching it requires finding the destination again as the adventure progresses.",
+      "source": "https://ale.farama.org/environments/krull/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/krull/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-kung-fu-master"
+      ],
+      "zh": "玩家操控武术高手在邪恶巫师的寺庙中前进，以近身攻击击退沿途敌人。目标是一路突破阻拦救出维多利亚公主，需要在狭窄行进路线中掌握与敌人的距离和出手时机。",
+      "en": "Fight through the Evil Wizard's temple as a kung-fu master, using close-range attacks against enemies along the way. The goal is to rescue Princess Victoria, advancing through opposition while choosing when to approach, strike and continue toward the next part of the route.",
+      "source": "https://ale.farama.org/environments/kung_fu_master/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/kung_fu_master/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-montezumas-revenge"
+      ],
+      "zh": "玩家在相互连接的遗迹房间间跳跃和攀爬，寻找宝物以及帮助通行的钥匙、工具。危险生物和机关会阻挡路线，需要先判断落脚点与可达通道，再把收集到的物品用于继续探索。",
+      "en": "Jump and climb through a maze of chambers in Montezuma's fortress, collecting treasure and useful tools. Deadly creatures and traps interrupt the routes between rooms, so each crossing requires judging safe footholds and which collected items can help you proceed or escape.",
+      "source": "https://ale.farama.org/environments/montezuma_revenge/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/montezuma_revenge/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-ms-pacman"
+      ],
+      "zh": "玩家在迷宫中沿通道移动，吃掉画面上的全部豆子，同时避开追逐的幽灵。能量豆可让追逃关系暂时逆转，为清除危险区域创造机会；路线安排需要兼顾剩余豆子和幽灵位置。",
+      "en": "Move through a maze and collect every pellet while avoiding the ghosts that share its corridors. Power pellets temporarily reverse the chase, opening an opportunity to clear dangerous passages; choosing a route depends on both remaining pellets and nearby ghost positions.",
+      "source": "https://ale.farama.org/environments/ms_pacman/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/ms_pacman/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-name-this-game"
+      ],
+      "zh": "玩家在海底守护发现的宝藏，射击并抵御不断靠近的鲨鱼和章鱼。氧气供应也会持续限制停留时间，需要一边处理攻击一边留意氧气，避免只顾保护财宝却失去生存条件。",
+      "en": "Defend treasure on the seabed against a shark and an octopus while watching your oxygen supply. The objective requires handling the approaching attackers without neglecting the air needed to remain underwater, keeping both the treasure and the diver protected.",
+      "source": "https://ale.farama.org/environments/name_this_game/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/name_this_game/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-othello"
+      ],
+      "zh": "双方轮流在棋盘上放置黑白棋子，通过夹住对方的一列或一行棋子将其翻为己色。终局以己方棋子数量较多为目标，每次落子都可能改变多枚棋子的归属，进而影响下一步可选位置。",
+      "en": "Take turns placing black or white discs on the board, bracketing opposing discs to flip them to your color. The aim is to finish with more discs than the opponent, with each placement potentially changing several discs and the moves available afterward.",
+      "source": "https://ale.farama.org/environments/othello/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/othello/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-phoenix"
+      ],
+      "zh": "玩家移动飞船并射击成波鸟形敌机，同时躲开它们投下的炸弹。前面的敌群清除后，继续接近并射击外星驾驶员；需要在连续进攻中维持安全位置，才能到达最后目标。",
+      "en": "Move and fire at waves of bird-like enemy craft while avoiding the bombs they drop. The objective is ultimately to reach and shoot the alien pilot, surviving the preceding waves long enough to bring the final target into your firing path.",
+      "source": "https://ale.farama.org/environments/phoenix/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/phoenix/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-pitfall"
+      ],
+      "zh": "玩家控制哈里在丛林中奔跑、跳跃和摆荡，绕开陷坑等危险并寻找散布的宝藏。全程只有二十分钟和三条生命，必须在时间或生命耗尽前完成收集，穿越路线会影响可取得的宝物数量。",
+      "en": "Run, jump and swing through a jungle as Pitfall Harry, avoiding hazards while gathering treasure. You have twenty minutes and three lives to collect everything; the game ends when the treasures are recovered, the time expires or the remaining lives are lost.",
+      "source": "https://ale.farama.org/environments/pitfall/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/pitfall/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-pong"
+      ],
+      "zh": "玩家控制右侧球拍上下移动，将飞来的小球反弹到电脑控制的左侧场地。需要防止球越过己方底线，同时设法让回球穿过对方防守；双方围绕连续回合中的落点变化争取得分。",
+      "en": "Move the right-hand paddle up and down to return a ball against the computer-controlled paddle on the left. Keep it from passing your own goal while directing returns past the opponent, sustaining rallies until one side misses and concedes a point.",
+      "source": "https://ale.farama.org/environments/pong/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/pong/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-pooyan"
+      ],
+      "zh": "玩家控制母猪沿绳索上下移动，射箭击破狼的气球，阻止它们接近幼崽。狼会投掷石块，安全落地后也会绕到身后攻击；不同场景中还要拦截向上漂浮的狼，选择合适射击时机。",
+      "en": "Move Mother Pig up and down a rope and shoot arrows at the wolves' balloons to protect her piglets. Dodge thrown stones and stop wolves reaching dangerous positions; later scenes reverse their travel as they float upward and must again be intercepted.",
+      "source": "https://ale.farama.org/environments/pooyan/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/pooyan/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-private-eye"
+      ],
+      "zh": "玩家扮演侦探皮埃尔，驾车或步行穿过城市街道、公园和秘密通道，寻找帮派线索。需要收集散落的证据与赃物，并在各案件的时限内完成调查，单行道和死路会影响路线选择。",
+      "en": "Explore city streets, parks and secret passages as detective Pierre Touche, searching for a criminal gang. Gather scattered evidence and stolen goods to complete each case before its deadline, navigating one-way streets and dead ends while deciding where to investigate next.",
+      "source": "https://ale.farama.org/environments/private_eye/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/private_eye/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-qbert"
+      ],
+      "zh": "玩家控制 Q*bert 在金字塔的方块之间逐格跳跃，把全部方块变成指定的目标颜色。敌人也会在这些落脚点附近活动，需要在补齐剩余颜色时避开它们，防止前进路线被封住。",
+      "en": "Hop from cube to cube on a pyramid, changing each one to the required destination color. Creatures move around the same structure, so completing the remaining color changes requires choosing landings that avoid enemies while still reaching every cube that needs attention.",
+      "source": "https://ale.farama.org/environments/qbert/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/qbert/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-riverraid"
+      ],
+      "zh": "玩家驾驶战机沿河流前进，左右移动并发射导弹击毁敌方目标。撞上河岸或敌人会损失飞机，燃料耗尽也会失败；经过油库能够补充燃料，因此射击和补给路线需要同时考虑。",
+      "en": "Fly a jet along a river, steering sideways and firing missiles at enemy targets. Colliding with the banks or enemies loses a jet, and fuel also runs out; flying over depots refills the tank, making refueling part of the route through the defenses.",
+      "source": "https://ale.farama.org/environments/riverraid/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/riverraid/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-road-runner"
+      ],
+      "zh": "玩家控制走鹃奔跑与跳跃，沿途吃种子得分，并甩开紧追的郊狼。卡车、地雷、悬崖和落石都会造成危险，郊狼也会使用火箭和大炮，需要不断根据前方障碍调整移动时机。",
+      "en": "Run and jump as Road Runner, eating seeds along the road while staying ahead of Wile E. Coyote. Trucks, mines, cliffs and falling rocks threaten the route, and the coyote adds rockets and cannon attacks that require timely changes of movement.",
+      "source": "https://ale.farama.org/environments/road_runner/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/road_runner/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-robotank"
+      ],
+      "zh": "玩家驾驶机器人坦克射击敌方中队，同时躲避火箭。中弹可能导致画面出现干扰或仪表报告损伤；摧毁一个中队可补充备用坦克，需要在视野受损时继续作战，直到清除敌军或己方耗尽。",
+      "en": "Drive a robot tank against enemy squadrons while avoiding rocket fire. Hits may scramble the view or damage systems shown on the control panel, while defeating a squadron grants a reserve tank; combat continues until the enemy force or your tanks are exhausted.",
+      "source": "https://ale.farama.org/environments/robotank/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/robotank/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-seaquest"
+      ],
+      "zh": "玩家驾驶潜艇向各方向移动、发射鱼雷，救回潜水员并清除鲨鱼和敌潜艇。氧气会持续减少，必须及时上浮补充；未接满六名潜水员就上浮还会损失一人，需要权衡救援与返航。",
+      "en": "Move a submarine in all directions, fire torpedoes and retrieve divers while avoiding sharks and enemy subs. Oxygen steadily drains and forces surfacing; returning with fewer than six divers also loses one, so rescue attempts must leave enough air for the trip upward.",
+      "source": "https://ale.farama.org/environments/seaquest/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/seaquest/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-skiing"
+      ],
+      "zh": "玩家左右转向控制滑雪者下坡，穿过每组旗杆之间的门，并避开树木。目标是尽快完成整条赛道，漏过一个旗门会追加五秒；路线既要经过全部旗门，也要控制碰撞带来的停顿。",
+      "en": "Steer a skier downhill through the space between each pair of gate poles while avoiding trees. Finish in the shortest total time, accounting for the five-second penalty added for each missed gate and the interruption caused by hitting an obstacle.",
+      "source": "https://ale.farama.org/environments/skiing/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/skiing/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-solaris"
+      ],
+      "zh": "玩家驾驶飞船在星区之间跃迁，消灭 Zylon 敌军并保卫联邦星球。燃料耗尽会损失生命，需要前往联邦星球补给；最终争取抵达 Solaris，同时避免所有飞船在沿途战斗中被摧毁。",
+      "en": "Warp a spaceship between sectors, destroy Zylon forces and defend Federation planets. Fuel must be replenished at friendly planets before it runs out; the journey ends when you reach Solaris or lose every ship, linking navigation, combat and refueling across the sectors.",
+      "source": "https://ale.farama.org/environments/solaris/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/solaris/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-space-invaders"
+      ],
+      "zh": "玩家左右移动地面的激光炮台，射击不断向地球下降的外星方阵。既要及时清除敌人，也要躲避它们的反击；生命耗尽或入侵者抵达地面都会结束游戏，防线会随敌群逼近而收紧。",
+      "en": "Move a ground-based laser cannon sideways and shoot the alien formations before they descend to Earth. Avoid their return fire while reducing the approaching force; the game ends if all lives are lost or the invaders reach the ground despite your defense.",
+      "source": "https://ale.farama.org/environments/space_invaders/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/space_invaders/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-star-gunner"
+      ],
+      "zh": "玩家操纵武器射击来袭飞碟和外星生物，阻止入侵者继续推进。攻击过程中还会受到炸弹威胁，需要在瞄准目标时及时闪避，避免因持续追击同一敌人而留在危险位置。",
+      "en": "Shoot the incoming alien saucers and creatures to stop their invasion. Bombs threaten the player during the attack, so movement and aiming work together as you track the approaching attackers and evade the incoming hazards.",
+      "source": "https://ale.farama.org/environments/star_gunner/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/star_gunner/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-surround"
+      ],
+      "zh": "玩家控制不断移动并留下轨迹的角色，利用自己的路线封住对手的去路。已有轨迹和场地边界都会限制空间，需要在围困对方时为自己保留出口，避免先撞上任何障碍。",
+      "en": "Steer a continuously moving trail to surround the opponent and cut off their available space. Existing trails and the arena boundaries also block your own route, so every attempt to trap the other player must leave room to turn and survive.",
+      "source": "https://ale.farama.org/environments/surround/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/surround/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-tennis"
+      ],
+      "zh": "玩家控制橙色球员，与电脑控制的蓝色球员接发球和对打，争取赢下一局局比赛。至少赢得六局且领先两局才获胜；六比六之后继续比赛，直到一方拉开两局差距。",
+      "en": "Control the orange player against a computer-controlled blue opponent, moving into position and returning shots to win games. A match requires at least six games and a two-game lead; at six-all, play continues until one player opens that two-game margin.",
+      "source": "https://ale.farama.org/environments/tennis/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/tennis/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-time-pilot"
+      ],
+      "zh": "玩家驾驶飞机转向和射击，击落从周围接近的敌方飞行器。随着关卡推进，对手会从较早时代的飞机变成技术更先进的敌人，需要持续调整飞行路线，在包围中寻找射击与脱离的空间。",
+      "en": "Pilot an aircraft and fire at enemies approaching from around the screen. As stages advance, opposing aircraft represent progressively later technologies, bringing different enemy waves into each stage as you maneuver to find firing opportunities around them.",
+      "source": "https://ale.farama.org/environments/time_pilot/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/time_pilot/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-tutankham"
+      ],
+      "zh": "玩家在陵墓迷宫中穿过通道寻找宝藏，利用射击清除挡路的守卫。得分来自探索所得和消灭敌人，需要判断通道的连通关系，在进入新区域时留意怪物位置，避免被困在危险路段。",
+      "en": "Navigate the corridors of a tomb maze, collecting treasure and shooting its guardians. Both recovered valuables and eliminated enemies contribute to the objective, while the branching passages require choosing where to move next without becoming caught among threats in the route.",
+      "source": "https://ale.farama.org/environments/tutankham/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/tutankham/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-upndown"
+      ],
+      "zh": "玩家驾驶越野车沿道路前进，收集旗标和奖励，同时对付占据路线的对手车辆。跳跃既能越过危险，也可用于消灭敌车，需要结合道路走向和车辆位置选择落点，避免在收集时撞车。",
+      "en": "Drive a baja buggy along the roads, collecting flags and prizes while dealing with opposing vehicles. Jumps can help avoid danger or eliminate another car, so landing positions must account for the road ahead as well as the objects you want to collect.",
+      "source": "https://ale.farama.org/environments/up_n_down/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/up_n_down/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-venture"
+      ],
+      "zh": "玩家进入地牢中的各个房间，射击怪物并带走房内宝藏。需要在房间入口、敌人和宝物之间选择移动路线，清除阻挡后继续探索其他房间，争取取得整座地牢的财物。",
+      "en": "Enter the chambers of a dungeon, shoot the monsters inside and recover each room's treasure. Movement must connect entrances, targets and valuables without leaving the character surrounded, allowing you to clear one chamber and continue toward the treasures still waiting elsewhere.",
+      "source": "https://ale.farama.org/environments/venture/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/venture/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-video-pinball"
+      ],
+      "zh": "玩家操作弹球台，让小球在台面上反弹并命中不同目标，持续累积分数。需要尽量防止球从台面失落，在有限操作机会中影响它的运动，使一次发球能够维持更久并触发更多得分。",
+      "en": "Operate a pinball table to keep the ball moving and send it into scoring targets. The objective is to prolong each ball's time in play while accumulating points, using the available controls to influence rebounds before the ball is lost from the table.",
+      "source": "https://ale.farama.org/environments/video_pinball/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/video_pinball/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-wizard-of-wor"
+      ],
+      "zh": "玩家在迷宫中移动，利用激光武器寻找并消灭怪物，最终迎战巫师。雷达扫描能帮助判断敌人方位，需要结合通道布局选择射击位置，避免只盯着前方而忽略从其他方向靠近的威胁。",
+      "en": "Move through a maze and use a laser to fight monsters and the Wizard. The radar scanner helps locate enemies beyond the immediate line of sight, so successful movement combines reading that display with choosing corridors that give a useful firing position.",
+      "source": "https://ale.farama.org/environments/wizard_of_wor/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/wizard_of_wor/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-yars-revenge"
+      ],
+      "zh": "玩家攻击敌方护盾，逐步打通通往 Qotile 的射击路径。真正摧毁目标需要使用强力的 Zorlon Cannon，因此要先处理挡路护盾，再把握炮击位置与时机，完成从破防到终结的连续行动。",
+      "en": "Attack the enemy shield to open a path to the Qotile behind it. Destroying that target requires a blast from the Zorlon Cannon, so breaching the barrier is only the first step before positioning the decisive shot through the opening you created.",
+      "source": "https://ale.farama.org/environments/yars_revenge/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/yars_revenge/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "atari-zaxxon"
+      ],
+      "zh": "玩家驾驶斜视角战机穿越敌方防线，射击沿途设施和敌机，阻止机器人 Zaxxon 的军队。飞行时还要结合斜视角画面判断障碍位置，调整航线，在安全穿越防线的同时寻找射击机会。",
+      "en": "Pilot a fighter through enemy defenses and shoot hostile aircraft and installations to stop Zaxxon's forces. The angled view also requires judging the ship's position relative to obstacles, combining a safe flight path with opportunities to fire at targets along the route.",
+      "source": "https://ale.farama.org/environments/zaxxon/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://ale.farama.org/environments/zaxxon/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ataxx"
+      ],
+      "zh": "玩家可以把棋子复制到邻格，或跳到两格外的空位；落点附近的敌子会转为己方颜色。每步既改变数量也改变分布，需要比较扩张收益与留下空隙的风险，终局以棋子数争胜。",
+      "en": "Clone a piece into a neighboring square or jump to a square two spaces away, converting nearby opponents when you land. Each move changes both numbers and position, so compare immediate gains with the openings left behind while building the final majority.",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Ataxx",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "avalon-board"
+      ],
+      "zh": "玩家提名任务队伍、讨论并投票决定是否出发，随后由队员秘密选择任务结果。善方要取得足够任务成功，同时掩护梅林；恶方既可破坏任务，也可在终局尝试找出并刺杀梅林。",
+      "en": "Propose mission teams, debate their membership and vote before team members secretly resolve the mission. Good players need successful missions while concealing Merlin's identity; evil players can sabotage those efforts and retain a final opportunity to identify and assassinate Merlin.",
+      "source": "https://arxiv.org/abs/2608.09638",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/The_Resistance_%28game%29#Avalon",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "baba-is-ai"
+      ],
+      "zh": "玩家在网格中推动物体和文字，把“主体—关系—属性”的词块重新排列成规则。新的句子会改变哪些东西可推动、可穿越或能够获胜，需要利用这些变化打开原先走不通的路线。",
+      "en": "Push objects and word tiles around a grid, rearranging subject–relation–property statements into working rules. Those rules alter how objects behave and what counts as winning, so changing a sentence can open a route that ordinary movement alone could not solve.",
+      "source": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "baba-is-you"
+      ],
+      "zh": "玩家既移动角色，也推动组成句子的文字，改变场景里正在生效的规则。物体属性与获胜条件可以随词序变化，解题常要先重写规则，再利用改变后的环境走向目标。",
+      "en": "Move your character and push the words that define the current rules of the room. Rearranging those statements changes object properties or victory conditions, so solving a level can require rewriting how the environment works before following the resulting path to the goal.",
+      "source": "https://store.steampowered.com/app/736260/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/736260/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "babyai"
+      ],
+      "zh": "角色按指令寻找指定物体，通过拾取钥匙、开门和摆放物品完成目标。部分任务把多个子目标连在一起，需要分清目标对象与执行先后，避免完成单个操作后遗漏指令中的其他要求。",
+      "en": "Follow instructions to find objects, pick up keys, open doors or place items where requested. Some levels connect several objectives, making the identity of each object and the order of interactions part of completing the instruction.",
+      "source": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "backgammon"
+      ],
+      "zh": "双方按骰点移动棋子，在推进途中阻挡对方，或把落单的敌子击回起点。玩家要根据每次掷骰重新选择行动，在保护棋子与加快进度之间取舍，率先把全部己方棋子移出棋盘。",
+      "en": "Use dice rolls to move your pieces, block opposing routes and send exposed enemy pieces back. Reconsider the available moves after each roll, balancing safe formations against faster progress as you race to bear off every piece before your opponent does.",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d8a12fde9e72444e1b356e8c37e53753-Paper-Conference.pdf",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Backgammon",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "balances"
+      ],
+      "zh": "玩家通过文字命令探索场景，寻找卷轴并学会不同法术，再把法术用于物品和环境。推进取决于发现咒语之间的相互作用，常需要带着新获得的魔法回看先前遇到的谜题。",
+      "en": "Explore through text commands, find scrolls and learn spells that can be applied to objects and the environment. Work out how magical effects interact, returning to earlier obstacles with new possibilities as you combine inventory clues and spell use to advance.",
+      "source": "https://ifdb.org/viewgame?id=x6ne0bbd2oqm6h3a",
+      "detailUrl": "https://ifdb.org/viewgame?id=x6ne0bbd2oqm6h3a",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "balderdash"
+      ],
+      "zh": "玩家先为冷僻问题编写看似可信的解释，再从真实答案与其他人的虚构选项中作出选择。既要让自己的说法足够有说服力，也要辨认别人刻意制造的可信细节，避免被假答案误导。",
+      "en": "Write a plausible explanation for an obscure question, then choose among the real answer and other players' inventions. Try to make your own entry convincing while judging which details in the competing answers are informative and which were written to mislead you.",
+      "source": "https://arxiv.org/abs/2411.10422",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Balderdash",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "battle-of-the-sexes"
+      ],
+      "zh": "两名玩家各自选择行动，只有行动相互协调时才能得到共同收益，但双方偏好的协调结果不同。需要判断对方更可能选择哪一边，在坚持个人偏好与避免无法配合之间作出选择。",
+      "en": "Both players benefit from coordinating their actions, but each prefers a different coordinated outcome. Choose with the other player's likely decision in mind, weighing the outcome you want most against the possibility that insisting on it will prevent coordination altogether.",
+      "source": "https://github.com/google-deepmind/open_spiel/tree/master/open_spiel/games/matrix_games",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/open_spiel/tree/master/open_spiel/games/matrix_games",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "battleship"
+      ],
+      "zh": "双方先把舰船布置在各自隐藏的网格上，再轮流报出坐标攻击。根据命中或落空反馈缩小搜索范围，推断尚未暴露的舰船位置，争取先击沉对方全部舰船。",
+      "en": "Place ships on a hidden grid, then take turns attacking coordinates on the opponent's board. Use hit and miss feedback to narrow the search and follow promising lines, trying to sink the entire opposing fleet before your own ships are found.",
+      "source": "https://arxiv.org/html/2407.11068v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Battleship_%28game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "beyond-all-reason"
+      ],
+      "zh": "玩家经营金属与能源供应，建造生产设施和防御，再实时调动陆海空部队争夺战场。前线扩张需要后方持续供给，部队调遣也要配合基地建设，避免经济停滞或防线出现缺口。",
+      "en": "Manage metal and energy production, build factories and defenses, and command land, sea and air forces in real time. Coordinate the supply behind the front with attacks and protection, keeping expansion from leaving either the economy or an important position exposed.",
+      "source": "https://www.beyondallreason.info/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.beyondallreason.info/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "black-myth-wukong"
+      ],
+      "zh": "玩家以棍术、法术和变身迎战妖怪与首领，观察动作后选择进攻、躲避与能力使用的时机。探索沿途场景并发展技能，可以改变后续战斗的应对方式，再用新的组合挑战更强敌人。",
+      "en": "Fight creatures and bosses using staff techniques, spells and transformations, watching their movements to time attacks and evasions. Explore the surroundings and develop combat skills between encounters, adapting the combination of tools you use when a new opponent demands a different approach.",
+      "source": "https://store.steampowered.com/app/2358720/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/2358720/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "blackjack"
+      ],
+      "zh": "玩家根据当前手牌选择继续要牌或停牌，目标是在不超过 21 点的前提下取得更有利的点数。每次补牌都可能改善手牌，也可能立刻超点，需要在继续追求分数与保留现状之间取舍。",
+      "en": "Choose whether to take another card or stand on the hand you have, aiming for a favorable total without exceeding 21. Each extra card offers improvement but also the risk of busting, making the decision to stop as important as the draw.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "bleeding-edge"
+      ],
+      "zh": "玩家选择武器和技能不同的角色，与队友一起交战，并按模式争夺据点或收集目标资源。不同角色通过火力、移动与支援互相配合，在交战中推进当前地图目标。",
+      "en": "Choose a character with distinct weapons and abilities, then fight alongside teammates to contest locations or collect objective resources. Coordinate support and engagements around the current mode's goal, deciding when a fight helps the team and when it draws attention away from progress.",
+      "source": "https://store.steampowered.com/app/1189800/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1189800/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "blind-bandits"
+      ],
+      "zh": "两名玩家分别选择动作序列，共同争取有收益的终局。双方选择是否兼容决定能否成功，规则区分 S 结果与回报更高的 G 结果，使两人的联合选择成为对局核心。",
+      "en": "Two players choose their own action sequences to reach a rewarded ending together. The selections must be compatible, with the rules distinguishing an S outcome from the higher G payoff and making the combined sequence central to the result.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "bomberman-quest"
+      ],
+      "zh": "玩家在俯视场景中探索、放置炸弹并击败怪物，从中取得物品与新能力。炸弹既用于战斗也影响通路，获得能力后可进入先前受阻的区域，把探索和升级不断连接起来。",
+      "en": "Explore overhead areas, plant bombs and defeat monsters to obtain items and abilities. Bomb placement affects both combat and access, while new capabilities open previously blocked areas, creating a loop of encounters, discoveries and returning to routes that were once inaccessible.",
+      "source": "https://arxiv.org/html/2609.32093",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Bomberman_Quest",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "boxel-rebound"
+      ],
+      "zh": "小方块持续向前移动，玩家只能把握弹跳时机，越过尖刺、平台间隙和其他障碍。每次起跳都会影响接下来的落点，需要观察前方组合，让连续跳跃保持在安全路线之内。",
+      "en": "A small block keeps moving forward while you time its jumps over spikes and gaps. Watch how each obstacle leads into the next, placing takeoffs and landings so that a successful jump also leaves enough room to handle the following section.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "breakout-browser"
+      ],
+      "zh": "左右移动底部挡板，让反弹的小球持续击打顶部砖墙，尽量清除砖块。每次回球都要重新判断落点并调整挡板，避免小球从底部落出；此处对应的是浏览器实现。",
+      "en": "Move the paddle left and right to keep a ball bouncing into the brick wall above. Reposition for each return and work toward clearing the bricks without letting the ball escape below the paddle; this entry concerns the browser implementation.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "reviewed-adaptation",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "bridge"
+      ],
+      "zh": "双方先通过叫牌确定定约，再由同伴配合争取所需牌墩。出牌时要结合花色、将牌与已经出现的牌推断分布，既安排己方赢墩顺序，也设法阻止对方完成定约。",
+      "en": "Bid to establish a contract, then work with your partner to take the required number of tricks. Use suit, trump and previously played cards to judge the remaining distribution, arranging your winners while trying to stop the other side from completing its contract.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "bsuite-deep-sea"
+      ],
+      "zh": "玩家要穿过 N×N 网格，寻找位于远端的稀疏奖励终点。途中多数行动没有即时奖励，连续选择必须组合成能够抵达终点的完整路线。",
+      "en": "Traverse an N×N grid to reach a sparsely rewarded destination. Most intermediate moves provide little immediate confirmation, and progress depends on selecting a connected sequence that takes the player all the way to the rewarding end.",
+      "source": "https://arxiv.org/html/1908.03568",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/bsuite/tree/main/bsuite/experiments",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "caliber"
+      ],
+      "zh": "玩家从突击、支援、医疗和狙击干员中选择角色，利用技能与队友共享敌情并相互掩护。行动围绕合作任务或队伍对抗的目标展开，既要处理前方威胁，也要照顾队友位置和支援需求。",
+      "en": "Choose an assault, support, medic or sniper operator and coordinate abilities, information and protection with teammates. Pursue the objective in cooperative missions or team combat, attending to the squad's positions and support needs alongside the threats immediately in front of you.",
+      "source": "https://store.steampowered.com/app/307950/",
+      "detailUrl": "https://store.steampowered.com/app/307950/",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "candy-crush"
+      ],
+      "zh": "玩家交换相邻糖果，把同色糖果连在一起消除，并利用后续掉落触发连锁。关卡限制与目标决定组合的价值，消除后的新布局又提供下一轮交换机会。",
+      "en": "Swap neighboring candies to create matching lines and trigger cascades as the board changes. Complete the level's objective within its limits, arranging matches so that the falling pieces create further useful combinations.",
+      "source": "https://arxiv.org/abs/2505.15146",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Candy_Crush_Saga",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "captain-callisto"
+      ],
+      "zh": "控制 Callisto 在太空关卡中跳跃，并借助喷气背包穿过难以直接跨越的地形。玩家要在移动中避开障碍、修正落点，找到通往出口的路线，让跳跃与空中调整相互衔接。",
+      "en": "Guide Callisto through space-themed stages using jumps and a jetpack to cross the terrain. Avoid obstacles while correcting the approach to each landing, linking ground movement with airborne adjustments as you work out a safe route toward the exit.",
+      "source": "https://github.com/codyebberson/js13k-callisto",
+      "detailUrl": "https://github.com/codyebberson/js13k-callisto",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "chameleon"
+      ],
+      "zh": "多数玩家知道秘密词，每人用一个词给出线索；不知道答案的变色龙必须听取线索并伪装成知情者。其他人据此判断谁在混淆视听，而变色龙还可以尝试从交流中猜出秘密词。",
+      "en": "Most players know a secret word and contribute one-word clues; the uninformed Chameleon must listen and blend in. Judge which clues suggest real knowledge without revealing too much, while the Chameleon tries to infer the answer from the discussion.",
+      "source": "https://github.com/cathyxl/MAgIC",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/cathyxl/MAgIC",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "chess"
+      ],
+      "zh": "双方利用王、后、车、象、马和兵的不同走法，安排进攻并保护己方国王。目标是让对方国王受到无法解除的将军；交换棋子、控制通路与避免己方被将死需要一起考虑。",
+      "en": "Use the distinct moves of kings, queens, rooks, bishops, knights and pawns to attack while protecting your own king. Aim for checkmate, balancing exchanges and control of the board against the immediate threats that could leave your king without a legal escape.",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Chess",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "chrome-dino"
+      ],
+      "zh": "恐龙持续向前奔跑，玩家通过跳跃和躲避越过仙人掌与飞鸟，争取延长行程。速度上升后反应时间缩短，连续障碍的间距会决定下一次起跳和躲避的时机。",
+      "en": "The dinosaur runs continuously as you jump past cacti and avoid birds to extend the run. Increasing speed leaves less time to respond, requiring you to judge the spacing of successive obstacles and time movements so that one safe passage leads into the next.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "cities-skylines"
+      ],
+      "zh": "玩家规划道路和城市区域，建设公共服务，并利用预算回应居民的持续需求。新增区域会带来交通和服务压力，需要在扩张后继续调整路网与设施，让城市的发展和日常运作相互匹配。",
+      "en": "Plan roads and districts, provide public services and use the budget to meet residents' needs. New development changes traffic and demand, so revisit the network and facilities as the city grows, keeping expansion compatible with the systems that support everyday urban life.",
+      "source": "https://store.steampowered.com/app/255710/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/255710/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "civilization-i"
+      ],
+      "zh": "玩家从早期聚落建立城市，研究科技、探索地图，并以经济、外交或战争扩大文明的影响。每轮发展都会影响后续选择，需要让城市建设、对外关系和军队行动共同服务于长期目标。",
+      "en": "Begin with an early settlement, build cities and research technologies while exploring the map. Expand through economic development, diplomacy and warfare, coordinating what your cities produce with foreign relations and military movement as the civilization develops across successive turns.",
+      "source": "https://arxiv.org/abs/2505.18134",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Civilization_%28video_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "civilization-v"
+      ],
+      "zh": "玩家经营城市、研究科技和社会政策，在探索与外交中决定文明的发展方向。军队可以保卫领土或参与扩张，但不同胜利条件所需的投入不同，需要让城市生产与选定路线持续配合。",
+      "en": "Develop cities, research technologies and adopt policies while exploring and negotiating with other civilizations. Military forces can defend territory or support expansion, but different victory conditions call for different investments, so align city production and diplomatic choices with the route you want to pursue.",
+      "source": "https://arxiv.org/abs/2604.07733",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Civilization_V",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "civilization-vi"
+      ],
+      "zh": "玩家把城市区域安排在合适地形上，发展科技与文化，并与其他文明开展外交或战争。城市布局会影响后续建设，玩家需把地图条件、发展节奏与选定的胜利路线连接起来。",
+      "en": "Place city districts around the terrain, develop science and culture, and manage relations with other civilizations. Your layout shapes later development, so connect local building decisions with diplomacy and military commitments, choosing a victory route that the growing civilization can support.",
+      "source": "https://arxiv.org/html/2603.06656v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Civilization_VI",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "clembench-taboo"
+      ],
+      "zh": "描述者看到目标词后，必须避开目标本身及一组禁词，用其他表达向伙伴传递意思。猜词者依据描述提出答案，双方需要逐步缩小范围，同时防止关键线索触碰规则限制。",
+      "en": "A describer helps a partner identify a target word without saying the word itself or its forbidden terms. The guesser works from the permitted clues, while the describer adjusts the explanation to narrow the possibilities without crossing the restrictions on what can be said.",
+      "source": "https://aclanthology.org/2023.emnlp-main.689.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "codenames"
+      ],
+      "zh": "线索提供者用一个词把棋盘上的若干目标词联系起来，队友据此选择他们认为对应的词。要尽量让线索覆盖多个己方目标，同时避开对方词语与危险选项，兼顾效率和误解风险。",
+      "en": "Give a single-word clue that links several target words on the board, then let teammates choose the words they believe it describes. Seek useful connections without pointing them toward the opposing words or the dangerous option, balancing broad coverage against ambiguity.",
+      "source": "https://arxiv.org/abs/2412.11373",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Codenames_%28board_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "coinrun"
+      ],
+      "zh": "玩家操控角色跨越地形、障碍与敌人，取得关卡末端的金币。起跳位置与落点决定可行路线，需要把连续移动衔接起来，越过最后的阻挡抵达目标。",
+      "en": "Run and jump past terrain and enemies to reach the coin at the end of the level. Takeoff points and landings determine the available route, with the final coin providing the destination for the sequence of movements.",
+      "source": "https://github.com/openai/coinrun",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/openai/coinrun",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "collab-capture"
+      ],
+      "zh": "两个角色在由节点和通道组成的地图上移动，合作围堵并捕捉对手。两人的站位共同限制目标的逃跑方向，需要分配追赶和封路位置，让围堵形成完整覆盖。",
+      "en": "Two players move through a graph of connected locations to capture an opponent together. Their positions determine which routes the target can use, making coordinated approaches and coverage of possible escapes central to the chase.",
+      "source": "https://aclanthology.org/2025.findings-naacl.448.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "collab-escape"
+      ],
+      "zh": "队员探索不同房间，合作启动分散的两个发电机，让出口能够打开。行动中还要避开追捕者，在分头推进、互相支援和前往出口之间安排时机，避免完成机关后仍被困在追逐中。",
+      "en": "Work together across different rooms to activate two separated generators and open the exit. Avoid the pursuer while deciding when to split up or support one another, then connect the completed machinery with a route that actually brings the team to escape.",
+      "source": "https://aclanthology.org/2025.findings-naacl.448.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "colonel-blotto"
+      ],
+      "zh": "双方把固定数量的兵力分配到多个战场，各处的相对投入决定该战场归属。目标是赢得更多战场，因此集中优势与分散覆盖之间需要取舍，单个战场投入过多也可能使其他位置失守。",
+      "en": "Distribute a fixed force across several battlefields, with the relative allocations determining who wins each contest. Seek to win more battlefields overall, balancing concentrated strength against wider coverage so that overwhelming one location does not leave too many others undefended.",
+      "source": "https://arxiv.org/html/2605.29512v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "colossal-cave-adventure"
+      ],
+      "zh": "玩家通过文字命令进入地下洞穴，检查场景、携带与使用物品，并破解阻挡通路的环境谜题。探索中寻找宝藏，新的发现也可能解释先前的障碍，需要把分散线索与随身物品联系起来。",
+      "en": "Explore an underground cave through text commands, examining locations and carrying or using objects to solve obstacles. Search for treasures as new discoveries clarify earlier puzzles, connecting clues across different places with the items available in your inventory to continue the journey.",
+      "source": "https://arxiv.org/html/2601.16690v2",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Colossal_Cave_Adventure",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "command-conquer-3-tiberium-wars"
+      ],
+      "zh": "玩家采集泰伯利亚资源，建设基地、生产设施与科技建筑，再调动阵营单位争夺战场。陆空部队需要经济持续供给，玩家要在扩张生产、保卫基地和发起进攻之间分配资源与注意力。",
+      "en": "Harvest Tiberium, construct a base and develop production and technology facilities before directing faction forces into battle. Coordinate land and air units with the economy that supplies them, dividing resources and attention between expansion, protecting the base and pressing an attack.",
+      "source": "https://store.steampowered.com/app/24790/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/24790/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "concept"
+      ],
+      "zh": "出题者不能直接说出答案，而是在图标棋盘上放置标记，组合出目标词或短语的线索。其他玩家要判断图标之间的关系，出题者则通过调整标记澄清含义，让抽象概念逐渐变得可辨认。",
+      "en": "Place markers on an illustrated board to communicate a target word or phrase without stating it directly. Other players interpret the relationships between the selected icons, while changes to the markers help refine the intended meaning and distinguish it from competing guesses.",
+      "source": "https://aclanthology.org/2026.findings-acl.1219/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Concept_%28board_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "connect-four"
+      ],
+      "zh": "双方轮流选择一列投入棋子，棋子会落到该列最低的空位。目标是率先在横向、纵向或斜向连成四子，需要同时制造自己的连线机会，并阻止对方下一步直接获胜。",
+      "en": "Take turns dropping a disc into a column, where it settles in the lowest available space. Be first to connect four horizontally, vertically or diagonally, building your own opportunities while watching for an opposing line that could be completed on the next turn.",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d8a12fde9e72444e1b356e8c37e53753-Paper-Conference.pdf",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Connect_Four",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "construction-simulator"
+      ],
+      "zh": "玩家接受建筑合同，驾驶挖掘机、起重机等设备，按工序完成挖掘、运输、浇筑与吊装。不同设备承担不同环节，需要把材料、位置和作业顺序衔接起来，逐步把工地推进到交付状态。",
+      "en": "Take construction contracts and operate equipment such as excavators and cranes through digging, transport, pouring and lifting. Match each machine to its part of the work, coordinating materials and the order of operations as the site progresses toward a completed job.",
+      "source": "https://store.steampowered.com/app/1273400/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1273400/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "core-ball"
+      ],
+      "zh": "玩家把小球射向旋转圆盘，使它们附着在圆周上，同时避开已经插入的小球。圆盘转动不断改变可用空隙，每次发射都要对准早先小球之间经过的间隔。",
+      "en": "Shoot small balls onto a rotating wheel without striking those already attached to it. Rotation continually changes the available gaps, requiring each release to line up with the space between earlier shots.",
+      "source": "https://github.com/randomyang/core-ball",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/randomyang/core-ball",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "counter-strike-2"
+      ],
+      "zh": "攻守双方先管理装备经济，再依靠枪械、投掷物和队伍配合争取回合目标。围绕炸弹的安放与拆除，需要控制关键路线、交换敌情并支援队友，让交火结果转化为回合胜利。",
+      "en": "Manage equipment purchases, then use weapons, utility and team coordination to pursue the round objective. In bomb scenarios, control routes and share information to plant the bomb, defend it or make a successful defuse.",
+      "source": "https://store.steampowered.com/app/730/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/730/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "counter-strike-go"
+      ],
+      "zh": "双方通过购买装备、配合交火和控制地图争取回合胜利，目标随场景包括安放或拆除炸弹、解救人质。玩家要让位置与投掷物服务于当前任务，同时兼顾队伍资源和队友的行动。",
+      "en": "Buy equipment and coordinate gunfights, utility and map control around the current round objective. Scenarios include bomb planting or defusal and hostage rescue, requiring players to connect their positions and engagements with the task while keeping the team's resources and movement in view.",
+      "source": "https://blog.counter-strike.net/index.php/about/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://blog.counter-strike.net/index.php/about/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "coup"
+      ],
+      "zh": "玩家声称自己拥有某种角色能力，借此取得金币、攻击或阻挡他人，也可以质疑对方的声明。声明是否可信与挑战的代价相互牵制，目标是在保住己方影响力的同时，让对手逐一出局。",
+      "en": "Claim character abilities to gain coins, attack or block other players, and decide when to challenge their claims. Credibility and the cost of being wrong shape each exchange, as you try to preserve your own influence while removing every opponent's remaining influence.",
+      "source": "https://arxiv.org/html/2608.09128v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Coup_%28card_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "craftax"
+      ],
+      "zh": "玩家采集资源、合成工具与装备，并在探索中维持生存状态、应对敌人。完整版还把冒险延伸到多层地下城，获得的材料与装备支持继续深入，遭遇和机制也随进程增加。",
+      "en": "Gather resources, craft equipment and keep the character alive while exploring and confronting enemies. The full version extends this loop into multiple dungeon layers, requiring discoveries and upgrades to support deeper travel; the exact range of mechanics depends on the version being played.",
+      "source": "https://proceedings.mlr.press/v235/matthews24a.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/MichaelTMatthews/Craftax",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "crafter"
+      ],
+      "zh": "玩家在程序化世界中寻找食物和材料，制作工具并应对敌人，以一系列成就推动进程。采集、制作与生存彼此依赖，需要先取得必要资源，再利用新工具开启后续目标。",
+      "en": "Search a procedural world for food and materials, craft tools and deal with enemies while unlocking achievements. Gathering, production and survival depend on one another, so obtain the resources needed for the next tool and use it to open further opportunities.",
+      "source": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "craftium"
+      ],
+      "zh": "玩家在基于 Minetest 的三维体素世界中移动、挖掘、采集和制作。平台可配置不同世界规则与任务，让这些交互围绕各场景的目标组合成不同的行动流程。",
+      "en": "Move, dig, gather and craft in a three-dimensional voxel world built on Minetest. Configurable tasks and world rules define the objective and how these interactions fit together within each scenario.",
+      "source": "https://proceedings.mlr.press/v267/malagon25a.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "crossfire"
+      ],
+      "zh": "玩家与队友使用武器争夺回合或地图目标，在爆破等模式中分别承担进攻和防守职责。移动、交火与掩护需要围绕目标协同，既要处理可见敌人，也要防止对方利用路线空隙完成任务。",
+      "en": "Use weapons and team coordination to pursue the map or round objective, taking attacking or defending roles in modes such as demolition. Align movement, engagements and cover around that goal while watching for routes the opposing team could exploit to complete its task.",
+      "source": "https://www.usenix.org/conference/usenixsecurity24/presentation/sun-chenxin",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.usenix.org/conference/usenixsecurity24/presentation/sun-chenxin",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "cubefield"
+      ],
+      "zh": "玩家在持续前进的过程中向左右调整方向，穿过由立方体构成的障碍群。随着方块变密，需要提前寻找可用缝隙，把连续转向衔接起来，尽量延长不发生碰撞的行程。",
+      "en": "Steer left and right while moving through a field of cube obstacles. As the gaps become tighter, look ahead for a usable passage and connect successive direction changes, keeping the route open long enough to continue without colliding with a block.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "cyberpunk-2077"
+      ],
+      "zh": "玩家在夜之城接取委托，通过枪械、潜行或黑客手段处理任务，搜集装备并改造义体。不同的角色发展会改变可用办法，需要把战斗与探索中获得的资源投入适合自己的行动方式。",
+      "en": "Take jobs in Night City and approach them through gunplay, stealth or hacking, developing the character with equipment and cyberware. Use resources earned through missions and exploration to support the approach you prefer, adapting your available tools to the situation ahead.",
+      "source": "https://store.steampowered.com/app/1091500/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1091500/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dark-hex"
+      ],
+      "zh": "双方在六角棋盘上争取连接各自对边，但对手的完整落子布局被隐藏。玩家只能结合有限的落子反馈推断阻挡和通路，在不确定的棋局中调整连接路线，同时设法破坏对方的潜在线路。",
+      "en": "Try to connect your assigned edges on a hexagonal board while the opponent's full placement remains hidden. Use limited feedback from attempted moves to infer blocked cells and possible routes, adapting your connection plan as each interaction reveals more of the position.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/open_spiel/blob/master/open_spiel/games/dark_hex/dark_hex.h",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dark-souls"
+      ],
+      "zh": "玩家探索互相连通的区域，观察敌人动作并管理耐力，选择进攻、闪避或防御的时机。装备与篝火系统影响旅途准备，需要把每场高风险交战与继续探索所需的状态一起考虑。",
+      "en": "Explore connected areas, study enemy movements and manage stamina when choosing attacks, evasions or defense. Equipment and bonfires shape preparation for the next stretch, so weigh the demands of each risky encounter against the condition needed to keep exploring afterward.",
+      "source": "https://store.steampowered.com/app/570940/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/570940/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "darkest-dungeon"
+      ],
+      "zh": "玩家组织冒险小队，选择技能与补给进入危险区域，在战斗中管理角色生命和不断累积的压力。队员能否继续推进不只取决于战斗胜负，还取决于资源与状态，因此需要判断何时冒险、何时保全队伍。",
+      "en": "Assemble an adventuring party, choose skills and supplies, and manage health and stress during dangerous expeditions. Winning a fight is only part of keeping the group functional, so judge further progress against dwindling resources and the condition of the characters who must continue.",
+      "source": "https://store.steampowered.com/app/262060/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/262060/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dead-last"
+      ],
+      "zh": "玩家通过秘密商谈建立临时联盟，再同时投票决定淘汰谁。投票前要判断盟友是否会按约定行动，并考虑其他人的结盟变化，尽量让自己避开被集体针对的位置，存活到最后。",
+      "en": "Form private alliances before players simultaneously vote on whom to eliminate. Anticipate whether partners will follow through and how other agreements may change the result, trying to keep yourself out of the group being targeted as the remaining field narrows.",
+      "source": "https://arxiv.org/html/2608.09128v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dead-rising-2-off-the-record"
+      ],
+      "zh": "玩家扮演弗兰克·韦斯特，在限时事件中救援幸存者，搜集物品组合武器，并用摄影记录遭遇。探索娱乐都市时要安排各项行动的先后，避免为了物资或战斗而错过正在推进的事件。",
+      "en": "Play as Frank West, rescuing survivors during timed events while combining items into weapons and photographing encounters. Explore the dangerous entertainment city while ordering these activities carefully, deciding when to search or fight without losing track of events that continue to unfold.",
+      "source": "https://store.steampowered.com/app/45770/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/45770/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dealers-life-2"
+      ],
+      "zh": "玩家评估送到店里的物品，与顾客讨价还价，再决定购入、保留或出售库存。每笔交易都影响可用现金和店铺发展，需要在单次利润、物品价值与后续周转之间安排取舍。",
+      "en": "Appraise items and negotiate with customers before buying, holding or selling stock. Each transaction changes the cash and inventory available to the shop, so weigh an attractive individual deal against the resources needed to keep trading and gradually expand the business.",
+      "source": "https://store.steampowered.com/app/1343670/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1343670/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "deepmind-lab"
+      ],
+      "zh": "玩家在三维迷宫等场景中导航，寻找并收集目标物品，同时避开危险。不同关卡设置不同目标和奖励，行动要根据当前地图要求调整，在探索新路线时也要记住已见通道与目标位置。",
+      "en": "Navigate three-dimensional mazes and other scenes, collecting target items while avoiding hazards. Objectives and rewards differ between levels, so use the current scenario to guide exploration, keeping track of observed passages and useful locations as you decide where to move next.",
+      "source": "https://arxiv.org/abs/1612.03801",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/disco_rl",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "delta-force"
+      ],
+      "zh": "玩家选择干员，利用战术装备和队友配合执行作战目标；不同模式可围绕搜集物资后撤离，或载具参与的据点攻防展开。交火之外还要安排路线与支援，使行动符合当前模式的胜利要求。",
+      "en": "Choose an operator and coordinate tactical equipment with teammates around the selected mode's objective. Some modes involve looting and extraction, while others feature vehicles and large-scale control points, requiring movement and support to serve the particular conditions of the match.",
+      "source": "https://store.steampowered.com/app/2507950/",
+      "detailUrl": "https://store.steampowered.com/app/2507950/",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "diplomacy"
+      ],
+      "zh": "玩家先与其他国家商谈联盟和行动，再提交部队命令，利用移动与支援争夺补给中心。承诺未必会兑现，需要把外交沟通和地图上的力量分布一起判断，防范合作破裂或临时背叛。",
+      "en": "Negotiate alliances and plans with other countries before submitting orders to move and support units. Compete for supply centers while judging whether promises will hold, connecting diplomatic discussions with the actual positions on the board and the possibility of a partner changing sides.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/df2d62b96a4003203450cf89cd338bb7-Abstract-Conference.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Diplomacy_%28game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dishonored"
+      ],
+      "zh": "玩家结合超自然能力、不同移动路线和环境机关完成暗杀任务，可以潜入、非致命处置或正面交战。先观察守卫与场景再选择办法，探索也会揭示可用通路，让同一目标有不同的接近方式。",
+      "en": "Combine supernatural abilities, routes and environmental mechanisms to complete assassination missions through stealth, nonlethal actions or direct combat. Observe the surroundings before choosing an approach, using exploration to discover ways through the space and decide how to reach the target.",
+      "source": "https://store.steampowered.com/app/205100/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/205100/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "doodle-jump"
+      ],
+      "zh": "角色借助平台不断向上弹跳，玩家通过左右移动修正落点，争取攀升得更高。平台的位置、敌人与危险区域会限制路线，需要在追求高度时持续寻找下一处可落脚的位置。",
+      "en": "Guide the character left and right as it bounces upward between platforms, aiming to climb higher. Watch the arrangement of platforms alongside enemies and hazards, selecting the next landing before leaving the current route so that upward progress does not end in a fall.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Doodle_Jump",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "doom"
+      ],
+      "zh": "玩家在地牢式地图中移动和射击，寻找武器、补给、通行道具与出口，并应对沿途敌人。相关 ViZDoom 环境支持自定义地图和奖励，以具体场景设置形成不同的交战与导航目标。",
+      "en": "Move and shoot through dungeon-like maps, finding supplies, useful items and exits while confronting enemies. Associated ViZDoom scenarios define their own maps and rewards, ranging in scope according to the configured task.",
+      "source": "https://vizdoom.farama.org/introduction/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://vizdoom.farama.org/introduction/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "doom-gamesense"
+      ],
+      "zh": "玩家在 GameSense 接入的 DOOM 场景中导航和射击，寻找推进所需的道具或出口。沿途敌人影响路线和交战选择；该接入版本的具体发行版未注明。",
+      "en": "GameSense's DOOM integration, whose release is unspecified, involves navigation and shooting through enemy-filled scenes. Search for useful items and exits while choosing routes through the encounters that block progress.",
+      "source": "https://aclanthology.org/2025.acl-long.643.pdf",
+      "basis": "reviewed-adaptation",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "doom-ii"
+      ],
+      "zh": "玩家在多层地图中探索，搜集钥匙与武器弹药，并寻找通往后续区域的出口。成群恶魔会阻挡路线，需要在移动和射击之间保持配合，把有限补给留给接下来的遭遇。",
+      "en": "Explore multi-level maps, collecting keys, weapons and ammunition while searching for the exit to the next area. Groups of demons obstruct the route, requiring movement and shooting to work together while supplies remain sufficient for the encounters still ahead.",
+      "source": "https://arxiv.org/abs/2505.18134",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Doom_II",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dota-2"
+      ],
+      "zh": "玩家操控拥有不同技能的英雄，通过对线、击杀和资源获取积累等级与装备。队伍需要把个人成长与地图目标连接起来，选择交战和推进时机，最终协作摧毁敌方远古遗迹。",
+      "en": "Control a hero with distinct abilities, gaining levels and equipment through lanes, fights and resource collection. Coordinate that growth with the team's movement and engagements, choosing when to press forward so that local advantages contribute to destroying the opposing Ancient.",
+      "source": "https://store.steampowered.com/app/570/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/570/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "doudizhu"
+      ],
+      "zh": "一名地主对抗两名农民，玩家轮流打出合法牌型压过上一手，也可以选择不出。既要尽快清空自己的手牌，也要考虑同阵营伙伴的出牌顺序，让己方有人率先出完。",
+      "en": "One landlord faces two farmers, with players beating the previous combination or choosing to pass. Try to empty your hand while considering the order of play and your partner's opportunities, since the aim is for your side to produce the first finisher.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dragon-if"
+      ],
+      "zh": "玩家扮演一条从新泽西飞到芝加哥的龙，通过简短的文字指令探索当前处境并采取行动。冒险围绕吃掉 Jarb 这一单一目标展开，需要找出能把故事推进到该结果的指令。",
+      "en": "Play a dragon traveling from New Jersey to Chicago and act through short text commands. The adventure centers on the single objective of eating Jarb, so examine the situation and work out which interactions will move the story toward that specific ending.",
+      "source": "https://ifdb.org/viewgame?id=x3wcrapu08ztd061",
+      "detailUrl": "https://ifdb.org/viewgame?id=x3wcrapu08ztd061",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "associationCaveat": {
+        "zh": "Dragon! 为 Adam Thornton 的 2000 年作品；Jericho 另列的 Dragon Adventure 是 William Stott 的作品。论文标作 dragon.z5，但未提供 ROM 哈希，二者的文件对应仍需作者澄清。简介仅对应已确认的 Dragon! 作品。",
+        "en": "Dragon! is Adam Thornton’s 2000 work, distinct from William Stott’s Dragon Adventure in Jericho. The paper lists dragon.z5 without a ROM hash; that file association still needs clarification. This description concerns the identified Dragon! title only."
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dune-awakening"
+      ],
+      "zh": "玩家在厄拉科斯寻找水源和材料，建造据点，并在沙虫和其他玩家的威胁下求生。获取香料需要走出安全位置，玩家要在采集、准备与返回之间安排路线，避免收益被环境或交战风险吞没。",
+      "en": "Search Arrakis for water and materials, build a base and survive threats from sandworms and other players. Securing spice requires leaving safer positions, so connect resource gathering with preparation and a viable route back, weighing potential gains against the hazards of the trip.",
+      "source": "https://store.steampowered.com/app/1172710/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1172710/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dungeons-dragons"
+      ],
+      "zh": "玩家扮演具有职业、属性和经历的角色，以叙事选择、规则检定与掷骰处理探索、社交和战斗。队伍通过说明意图并回应行动结果推进冒险，具体可用动作和难度由当前规则与场景决定。",
+      "en": "Play a character with a class and attributes, resolving exploration, social encounters and combat through narrative decisions, rules and dice. Describe intentions and respond to their outcomes as the adventure unfolds, with the current scenario and rules shaping what actions are possible.",
+      "source": "https://arxiv.org/abs/2607.29577",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "dying-light-2"
+      ],
+      "zh": "玩家在丧尸城市中跑酷穿行、寻找资源并以近战应对威胁，在移动路线与生存需求之间安排选择。任务中的决定还会影响人物关系和城市局势，使自由探索与故事推进不断交织。",
+      "en": "Traverse a zombie-filled city through parkour, scavenge resources and use close combat to survive. Balance the route ahead with immediate needs while making mission choices that affect relationships and the city's situation, linking movement and exploration with the developing story.",
+      "source": "https://store.steampowered.com/app/534380/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/534380/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "edge-surf"
+      ],
+      "zh": "玩家控制冲浪者左右移动，在滑行中避开障碍和追赶者，尽量延长行程。不同挑战会改变前进要求，需要持续观察路线空隙，决定何时转向，使一次避让不会把自己带入下一处危险。",
+      "en": "Steer a surfer left and right to avoid obstacles and pursuers while extending the ride. Different challenges change what progress requires, so watch for open routes and time direction changes carefully, ensuring that escaping one hazard does not lead straight into another.",
+      "source": "https://www.microsoft.com/en-us/edge/surf",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.microsoft.com/en-us/edge/surf",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "einstein-wurfelt-nicht"
+      ],
+      "zh": "双方依骰点选择可移动的编号棋子，向棋盘对角的目标推进，并可通过吃子改变局面。骰子限制当轮选择，棋子数量又影响后续可用行动，需要把前进路线与将来的掷骰结果一起考虑。",
+      "en": "Use the die to determine which numbered pieces may move toward the opposite corner, capturing along the way. Rolls constrain the current choice while the surviving pieces affect later options, so consider both immediate progress and how a move changes future possibilities.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/EinStein_w%C3%BCrfelt_nicht%21",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "elden-ring"
+      ],
+      "zh": "玩家探索交界地，寻找装备并发展角色，通过近战、法术和闪避应对敌人与首领。探索带来的新工具会改变战斗选择，遇到难以突破的关卡时，也可调整准备和路线再继续挑战。",
+      "en": "Explore the Lands Between, collect equipment and develop a character for encounters using melee, spells and evasions. Discoveries change the tools available for combat, letting you reconsider preparation and travel routes when a difficult enemy or boss blocks further progress.",
+      "source": "https://store.steampowered.com/app/1245620/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1245620/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "elden-ring-nightreign"
+      ],
+      "zh": "玩家在逐渐收缩的地图上搜集装备、提升等级，并在昼夜循环中安排探索和交战。前期获得的资源用于应对后续强敌，需要在剩余时间内决定继续搜寻还是为下一场挑战作好准备。",
+      "en": "Gather equipment and gain levels across a contracting map, organizing exploration and combat around a day-and-night cycle. Use what you obtain to prepare for the stronger encounters ahead, deciding when another search is worthwhile and when the remaining time calls for consolidation.",
+      "source": "https://store.steampowered.com/app/2622380/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/2622380/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "escape-from-tarkov"
+      ],
+      "zh": "玩家带着装备进入战区，搜集物资、应对交火，并处理负重与受伤带来的行动限制。只有找到出口并成功撤离，才能保住携带的战利品，因此拿取物品的决定要和离开的路线一起考虑。",
+      "en": "Enter a combat zone with equipment, search for supplies and manage both encounters and the effects of weight or injury. Find an exit and extract to retain your loot, weighing what to carry against the route and condition needed to bring it out safely.",
+      "source": "https://arxiv.org/html/2609.25001v2",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Escape_from_Tarkov",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "euchre"
+      ],
+      "zh": "玩家确定将牌后，与搭档通过出牌配合争取多数牌墩。J 牌在将牌体系中的特殊顺序会改变牌力判断，需要结合已出的牌选择何时争墩、何时保留较强的牌为之后作准备。",
+      "en": "After trump is determined, work with a partner to win a majority of tricks. The special ranking of jacks changes how strong a hand is, so use previously played cards to judge when to contest a trick and when to preserve a stronger option.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Euchre",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "evaaa"
+      ],
+      "zh": "玩家根据饥饿与缺水状态，在两条通往不同资源的路径之间作出选择。取得资源后需求随之更新，需要再次判断哪种资源更紧迫，继续在两条路线间分配行动。",
+      "en": "Choose between two resource paths according to the character's hunger and thirst. After obtaining a resource, the updated condition determines which need is more urgent and which path offers the useful next destination.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5a33bff12876849137064101232019f1-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "expeditions-a-mudrunner-game"
+      ],
+      "zh": "玩家为勘探选择车辆和装备，在泥地、坡地与水域之间规划行进路线。驾驶时借助绞盘等工具处理受阻地形，需要把车辆能力与路线条件相匹配，避免只顾直线前进而无法继续作业。",
+      "en": "Select a vehicle and equipment for an expedition, then drive across mud, slopes and water. Plan a route suited to the terrain and use tools such as the winch when the ground obstructs further progress.",
+      "source": "https://store.steampowered.com/app/2477340/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/2477340/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "factorio"
+      ],
+      "zh": "玩家开采原料，铺设生产线与物流网络，研究科技并把中间产品送入下一道制造工序。每项产出可能又是其他设备的投入，需要不断调整供应与运力，让相互依赖的流程持续运转。",
+      "en": "Mine raw materials, build production lines and logistics networks, and research technologies that extend what can be manufactured. Products feed into further processes, so keep adjusting supply and transport to prevent one shortage from interrupting the interconnected flow through the factory.",
+      "source": "https://store.steampowered.com/app/427520/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/427520/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "far-cry-6"
+      ],
+      "zh": "玩家在雅拉开展游击行动，通过攻占据点和完成任务逐步推进目标。武器、载具与伙伴提供不同的应对办法，需要结合地形和敌方部署选择接近路线，让准备与实际交战相互配合。",
+      "en": "Carry out guerrilla operations across Yara, completing missions and attacking occupied positions. Weapons, vehicles and companions provide different options, so choose an approach that suits the terrain and opposition, connecting preparation and movement with the demands of the fight itself.",
+      "source": "https://store.steampowered.com/app/2369390/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/2369390/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "farlight84"
+      ],
+      "zh": "玩家组队搜集装备，使用枪械、角色技能和移动机制在战场上转移与交战。队员需要决定何时追击、支援或撤离，避免个人行动脱离队伍，争取在连续遭遇中存活并击败敌队。",
+      "en": "Loot equipment with teammates and combine weapons, character abilities and movement during combat. Decide together when to pursue, support or disengage, keeping individual movement connected to the squad so that surviving an encounter also leaves the team ready for the next one.",
+      "source": "https://store.steampowered.com/app/1928420/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1928420/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "farmquest"
+      ],
+      "zh": "玩家种植作物、采集浆果和蘑菇，再通过烹饪、出售物品与完成委托获得收入，也可以布置房屋。每天的劳动要在多种活动间分配，逐步积攒资金，最终偿清农场贷款。",
+      "en": "Grow crops, gather berries and mushrooms, cook, decorate the house and earn money through sales and requests. Divide your work among these activities to build up income over time, with repaying the farm loan providing a continuing goal for the routine.",
+      "source": "https://ojs.aaai.org/index.php/AIIDE/article/download/31889/34056",
+      "detailUrl": "https://github.com/kristenYu/FarmQuest-Player-Telemetry-Dataset",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "evidenceUrls": [
+        "https://ojs.aaai.org/index.php/AIIDE/article/download/31889/34056",
+        "https://github.com/kristenYu/FarmQuest-Player-Telemetry-Dataset"
+      ],
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "fireboy-and-watergirl"
+      ],
+      "zh": "玩家切换或共同控制火娃与水妹，利用两人对不同元素的适应性通过机关和危险区域。部分路段需要一方操作装置，为另一方创造通路，最终让两个角色分别到达各自出口。",
+      "en": "Control or switch between Fireboy and Watergirl, using their different relationships with elemental hazards to cross each room. Coordinate switches and movement so that one character creates a passage for the other, then bring both characters to their respective exits.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flappy-bird"
+      ],
+      "zh": "玩家通过点击让小鸟短暂上升，再利用下落穿过连续管道之间的空隙。目标是尽可能多地通过障碍，需要把点击节奏与当前高度相配合，避免一次过猛修正导致下一段路线失控。",
+      "en": "Tap to lift the bird and let it descend between taps, guiding it through gaps in successive pipes. Try to pass as many obstacles as possible by matching the rhythm to the current height, avoiding corrections that make the next opening unreachable.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Flappy_Bird",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-camping-room-escape"
+      ],
+      "zh": "玩家被困在露营主题房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a camping-themed room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-chemical-room-escape"
+      ],
+      "zh": "玩家被困在化学主题房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a chemistry-themed room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-community-college-sim"
+      ],
+      "zh": "玩家在校园地点之间行动，安排学习、工作、休息与社交，提升智力和社交属性。时间、精力与金钱相互制约，需要把日常活动带来的成长转化为学期末的考试和社交目标，而不是只重复一种活动。",
+      "en": "Move between campus locations and balance study, work, rest and social activities to improve intelligence and social skills. Time, energy and money constrain the schedule, and progress is reflected in academic and social goals at the end of the semester.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-computer-office-escape"
+      ],
+      "zh": "玩家被困在计算机办公室中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a computer office with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-crimson-room"
+      ],
+      "zh": "玩家被困在陌生的深红色房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a unfamiliar crimson-colored room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-dakota-winchester-s-adventures"
+      ],
+      "zh": "玩家扮演寻宝者 Dakota Winchester，在不同地点与人物交谈、检查物件，寻找 Hilda's Box 缺失的部分。推进旅程需要把得到的物品与古老谜题联系起来，解决当前地点的问题后再继续追踪线索。",
+      "en": "As treasure hunter Dakota Winchester, visit locations, question characters and inspect objects while searching for missing parts of Hilda's Box. Progress depends on connecting acquired objects with ancient puzzles and resolving local obstacles before following the next lead.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-design-house-escape"
+      ],
+      "zh": "玩家被困在设计住宅中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a design house with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-elevator-room-escape"
+      ],
+      "zh": "玩家被困在电梯主题房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a elevator-themed room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-festival-days-sim-date"
+      ],
+      "zh": "玩家在文化节到来之前安排上课、交谈和赠礼，通过日常选择增进与目标人物的关系。可用天数有限，时间需要分配给不同活动；人物回应与关系进展决定最终能否达成恋爱目标。",
+      "en": "Attend classes, talk to characters and choose gifts before the cultural festival arrives. Limited days must be divided between activities, while conversations and relationship progress determine whether the desired romantic outcome can be reached.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-game-cafe-escape"
+      ],
+      "zh": "玩家被困在游戏咖啡馆中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a game cafe with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-geometric-room-escape"
+      ],
+      "zh": "玩家被困在几何主题房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a geometry-themed room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-grim-tales-the-bride"
+      ],
+      "zh": "玩家在与过去记忆有关的复杂场景中寻找隐藏物件，按照屏幕下方清单逐一定位并点击目标。物品可能混在背景或被其他细节遮掩，需要完整检查画面；找齐当前场景的清单物品后才能继续推进调查。",
+      "en": "Search detailed scenes associated with past memories, locating and clicking objects named in the on-screen list. Items can blend into the background, so each scene requires a careful visual search; finding the complete list allows the mystery to move forward.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-grim-tales-the-legacy-collector-s-edition"
+      ],
+      "zh": "玩家依据画面下方的物品清单，在带有悬疑氛围的场景中寻找被隐藏或伪装的目标。玩法以观察细节和准确点击为主，找齐清单中的物件才能完成当前搜索，并逐步推进与往事有关的调查。",
+      "en": "Use the list beneath the screen to locate hidden or disguised objects in atmospheric scenes. Play centers on examining visual details and clicking the correct targets; completing the list finishes the current search and advances the surrounding mystery.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-idol-days-sim-date"
+      ],
+      "zh": "玩家在城市中探索、练习吉他、打工，并与乐队成员交谈和赠礼，为即将到来的演唱会做准备。音乐练习、收入和关系发展需要共享有限时间，日常安排会影响最终的事业与恋爱进展。",
+      "en": "Explore the city, practice guitar, work part-time and build relationships with band members before an upcoming concert. Musical preparation, earnings and conversations compete for limited time, making the daily schedule central to both performance and romantic progress.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-kingdom-days"
+      ],
+      "zh": "玩家扮演刚得知王室身份的公主 Rose，在异国城镇中探索、交谈和赠礼。短暂的停留时间内，需要通过持续互动培养关系，并在不同人物与事件之间安排日程，迎来与自身处境相关的恋爱结局。",
+      "en": "Play Princess Rose, newly aware of her royal heritage, while exploring a foreign kingdom and developing relationships through conversation and gifts. The stay is limited, so repeated interactions and the use of available days shape the romantic outcome.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-machine-room-escape"
+      ],
+      "zh": "玩家被困在机械主题房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a machine-themed room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-mirror-room-escape"
+      ],
+      "zh": "玩家被困在镜子主题房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a mirror-themed room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-nick-bounty-a-case-of-the-crabs"
+      ],
+      "zh": "玩家扮演私家侦探 Nick Bounty，在城市中询问可疑人物、收集古怪物件，追查谋杀与假蟹案件。对话提供线索，物品谜题则要求理解物件的用途；黑色幽默贯穿调查与人物互动。",
+      "en": "As private detective Nick Bounty, question suspicious characters and collect unusual objects while investigating murder and counterfeit crabs. Conversations provide leads, while inventory puzzles require working out how objects can help; comic noir humor runs through the investigation.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-paint-room-escape"
+      ],
+      "zh": "玩家被困在绘画主题房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a painting-themed room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-pico-sim-date"
+      ],
+      "zh": "玩家通过工作、探索和训练提升 Pico 的魅力、智力与力量，并逐步发展与 Nene 的关系。训练会消耗精力，睡眠恢复状态也推进日期，因此需要兼顾自身成长、日常收入和与对方相处的时间。",
+      "en": "Improve Pico's charm, intelligence and strength through work, exploration and training while developing his relationship with Nene. Training consumes energy, and sleeping restores it while advancing the day, so personal growth must be balanced with income and time spent together.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-pierre-hotel"
+      ],
+      "zh": "玩家进入住有吸血鬼的 Pierre Hotel，寻找突然失踪的女友，通过点击场景检查物品并与酒店居民交流。调查需要搜集不寻常的道具、解决物品谜题，把人物说法与环境线索联系起来，逐步接近失踪事件的真相。",
+      "en": "Search the vampire-filled Pierre Hotel for a missing girlfriend by inspecting scenes and speaking with its strange residents. Gather unusual objects and solve inventory puzzles, connecting conversations with environmental clues to uncover what happened.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-ray-and-cooper-2"
+      ],
+      "zh": "玩家扮演侦探 Paul Maxstrong，走访小镇地点、询问居民，寻找失踪的 Ray 与 Cooper。人物提供的消息与现场物件需要相互印证，解决沿途谜题后才能获得新线索并继续调查两人的去向。",
+      "en": "As detective Paul Maxstrong, visit town locations and question residents to investigate the disappearance of Ray and Cooper. Accounts and objects must be connected through puzzles that reveal further leads and gradually clarify where the missing pair went.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-saucy-devil-gordon"
+      ],
+      "zh": "玩家帮助 Gordon 寻找隐藏宝藏，通过鼠标点击检查场景、与人物交谈并搜集沿途线索。推进冒险需要弄清物件与谜题之间的联系，解决阻挡去路的问题，逐步靠近宝藏，而不是靠连续点击直接完成。",
+      "en": "Help Gordon search for hidden treasure by inspecting scenes, talking to characters and following clues with mouse clicks. Moving forward requires understanding how objects relate to puzzles and resolving obstacles along the route toward the treasure.",
+      "source": "https://www.kongregate.com/en/games/esthetix/saucy-devil-gordon",
+      "detailUrl": "https://www.kongregate.com/en/games/esthetix/saucy-devil-gordon",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-sherlock-holmes-2"
+      ],
+      "zh": "玩家通过鼠标点击走访案件地点，检查文件与物证，并从人物和场景中寻找隐藏线索。调查以逐步还原谋杀案为目标，需要把零散信息联系起来，解决阻碍后续线索出现的谜题。",
+      "en": "Investigate a murder by clicking through locations, examining documents and physical objects, and discovering concealed clues. Progress comes from connecting scattered information and solving puzzles that open the way to further evidence.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-sherlock-holmes-the-tea-shop-murder-mystery"
+      ],
+      "zh": "玩家在茶馆中调查谋杀案，通过鼠标点击仔细检查摆设、物品与容易忽略的细节。线索不会直接给出答案，需要把各处发现联系起来，逐步解开谜题并还原案件经过。",
+      "en": "Investigate a tea-shop murder by clicking through objects, furnishings and easily overlooked details. The clues must be connected rather than treated as isolated discoveries, gradually resolving puzzles and reconstructing what happened.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-small-town-detective"
+      ],
+      "zh": "玩家走访看似平静却接连发生犯罪的小镇，检查场景、收集线索并追查可疑事件。需要把不同地点获得的信息串联起来，通过后续调查弄清犯罪之间的联系，以及背后尚未揭开的真相。",
+      "en": "Explore a seemingly quiet town affected by mysterious crimes, inspecting scenes and collecting leads. Information from different locations must be connected through further investigation to understand the events and uncover what lies behind them.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-sort-the-court"
+      ],
+      "zh": "玩家作为君主听取居民和访客的请求，用“是”或“否”作出决定，并观察人口、幸福度与财富的变化。不同请求会带来收益或代价，持续的治理围绕这几项状态的平衡展开，王国的发展由一连串日常决定累积而成。",
+      "en": "Hear petitions as a monarch and answer yes or no, then observe changes in population, happiness and wealth. Requests bring different benefits and costs, so the kingdom develops through the cumulative effects of repeated choices and the balance among these measures.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-space-museum-escape"
+      ],
+      "zh": "玩家被困在太空博物馆中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a space museum with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-vending-machine-room"
+      ],
+      "zh": "玩家被困在售货机主题房间中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a vending-machine room with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-videostudio-escape"
+      ],
+      "zh": "玩家被困在影像工作室中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a video studio with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-vortex-point-1"
+      ],
+      "zh": "玩家在 Vortex Point 小镇调查一宗被认为与超自然现象有关的金条失窃案。通过点击场景、询问居民和收集不寻常的物件，将人物说法与物品谜题联系起来，逐步追查失窃事件的真实经过。",
+      "en": "Investigate a gold-bar theft apparently connected to supernatural events in Vortex Point. Click through scenes, question eccentric residents and collect unusual objects, connecting their accounts with inventory puzzles to uncover what happened.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-vortex-point-2"
+      ],
+      "zh": "玩家在 Vortex Point 调查少女 Selena 的神秘失踪，与小镇居民交流并搜集可疑物件。推进案件需要结合不同地点的线索，解开沿途谜题，分辨超自然传闻与失踪事件之间的关系。",
+      "en": "Investigate Selena's mysterious disappearance in Vortex Point by speaking with residents and collecting suspicious objects. Clues from different locations feed into puzzles that gradually clarify the connection between supernatural rumors and the missing girl.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-vortex-point-3"
+      ],
+      "zh": "玩家在 Vortex Lake Hotel 及周边调查一名游客失踪、疑似被湖怪吞食的事件。通过检查地点、搜集物件和解决谜题，把传闻与实际发现相互对照，逐步揭开酒店与湖泊周围的秘密。",
+      "en": "Explore Vortex Lake Hotel and its surroundings after a tourist reportedly disappears at the jaws of a lake monster. Inspect locations, gather objects and solve puzzles, comparing local rumors with discoveries to uncover the truth behind the disappearance.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "flashadventure-wood-workshop-escape"
+      ],
+      "zh": "玩家被困在木工作坊中，通过鼠标点击检查场景和物品，寻找离开的办法。线索与谜题按步骤相互联系，需要先理解发现的信息，再用它解决后续机关，逐步打开逃离房间的通路。",
+      "en": "Search a wood workshop with mouse clicks, inspecting objects and clues to find a way out. Puzzles build on information discovered along the way, so progress comes from connecting evidence and resolving the intervening steps before the escape route opens.",
+      "source": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "basis": "official-game-instructions",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/ahnjaewoo/FlashAdventure/main/game_agent/coast/json/game_prompt.json",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "fm-bench-football-management"
+      ],
+      "zh": "玩家在竞争市场中经营球队，处理球员合约、设施投入与出场阵容，使有限资源服务于球队发展。每项经营选择都会占用其他计划的资金或人员，需要把眼前阵容与之后的运营需求联系起来。",
+      "en": "Run a football club in a competitive market, handling player contracts, facilities and the lineup. Resources spent on one part of the club affect what remains for the others, linking recruitment and squad choices with ongoing operating needs.",
+      "source": "https://arxiv.org/html/2608.18423v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "football"
+      ],
+      "zh": "受控球员通过跑位、传球与射门争取得分，并在失去球权时组织防守。环境既可设置局部攻防场景，也可安排完整比赛，因此行动要围绕当前场景的目标与队友位置展开。",
+      "en": "Position players, pass and shoot to score, then organize defense when possession changes. The environment supports focused attacking or defending scenarios as well as full matches, so connect individual decisions with teammates' positions and the objective of the particular setup.",
+      "source": "https://github.com/google-research/football",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-research/football",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "footsies"
+      ],
+      "zh": "玩家用少量移动和攻击操作争夺合适距离，诱使对手挥空，再抓住破绽反击。每次靠近、后退与出招都会改变双方可触及的范围，需要在主动施压与等待机会之间调整节奏。",
+      "en": "Use a small set of movement and attack controls to manage distance, bait a missed strike and punish the opening. Every step and attack changes the reachable space between players, requiring you to alternate pressure with patience as the opponent's timing shifts.",
+      "source": "https://store.steampowered.com/app/1344740/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1344740/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "forza-horizon-5"
+      ],
+      "zh": "玩家驾驶不同车辆探索墨西哥，参加公路、越野与特技赛事，并为各类挑战调整车辆。需要根据道路和活动要求选择行车方式，把转向、制动与加速衔接起来，在探索和比赛中完成驾驶目标。",
+      "en": "Drive different vehicles across Mexico, entering road, off-road and stunt events while adjusting cars for the challenge. Adapt braking, steering and acceleration to the route and activity, moving between free exploration and competitions that ask for different kinds of driving.",
+      "source": "https://store.steampowered.com/app/1551360/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1551360/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "freeciv-web"
+      ],
+      "zh": "玩家通过浏览器经营文明，建造城市、发展经济与科技，并与其他势力开展外交或战争。每轮要协调城市建设和军队行动，让有限资源支持选定的发展方向，逐步争取文明胜利。",
+      "en": "Build cities and develop a civilization's economy and technology through a browser interface. Coordinate diplomacy, construction and military orders over successive turns, allocating limited resources so that local decisions support the direction in which you want the civilization to grow.",
+      "source": "https://www.freecivweb.org/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.freecivweb.org/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-ancient-beast"
+      ],
+      "zh": "玩家在六角网格上轮流移动单位、使用技能，并召唤生物参与战斗。目标是击败敌方单位，落位会影响能攻击到的对象，需要把移动、施放技能和补充战力安排在同一套战术中。",
+      "en": "Move units around a hex grid and use their abilities in turn-based battles. Summon creatures to join your forces, choosing how their positions and available actions work together to defeat the opposing units.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-armor-alley"
+      ],
+      "zh": "玩家驾驶直升机实时作战，同时生产地面部队并护送车队推进。空中行动和地面战线会同时变化，需要在攻击敌人与保护运输路线之间切换，避免直升机离开后车队失去掩护。",
+      "en": "Pilot a helicopter in real time while producing ground units and escorting a convoy. Air combat and the ground advance happen together, requiring you to choose when to attack and when to cover the route that your moving convoy must follow.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-asmr-sparkle-shine"
+      ],
+      "zh": "玩家把清洁工具拖过物体表面，擦除覆盖其上的污渍。表面污渍分为多层遮罩，玩家逐层清除后会露出物体原貌，剩余污迹的位置决定接下来要擦拭的区域。",
+      "en": "Drag cleaning tools across an object's surface to remove dirt. The dirt is organized into several mask layers, which are cleared successively; areas still covered show where to continue working as the original surface is gradually revealed.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-astroman"
+      ],
+      "zh": "玩家在开放场景中飞行探索，并在战斗时切换三种不同的超能力。飞行提供在场景中接近或离开敌人的方式，超能力则用于处理遭遇，两者共同构成从探索到交战的连续行动。",
+      "en": "Fly through the open area and engage enemies by switching among three superpowers. Exploration and combat share the same space, with flight providing a way to approach or leave enemies and the selected power providing the attacks used during each encounter.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-barbie-and-kens-puzzles"
+      ],
+      "zh": "玩家从散落的图片碎片中挑选合适一块，拖到网格内对应的位置。目标是逐步还原完整图片，需要对照碎片内容和已有拼图判断落点，让相邻碎片中的线条和图案正确衔接。",
+      "en": "Drag image pieces into their matching positions on a grid. Assemble the complete picture by comparing the lines and visual details on each fragment with its neighbors, using the partly completed image to locate the remaining pieces.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-barbies-pink-dream-wardrobe"
+      ],
+      "zh": "玩家按服装类别挑选单品，组合角色的整体穿搭。部分物品需要金币解锁，可以先参与小游戏赚取金币，再返回衣橱增加选择；搭配过程围绕现有衣物与逐步开放的新物品展开。",
+      "en": "Choose clothing from different wardrobe categories and combine items into an outfit. Some pieces require coins to unlock, so playing minigames earns the currency needed to expand the wardrobe before returning to experiment with more combinations of available clothes.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-bikini-bottom-survivor"
+      ],
+      "zh": "玩家移动角色躲开一波波敌群，攻击由角色自动执行。生存过程中可选择升级卡牌，因此需要一边保持走位空间，一边决定强化方向，依靠移动和升级组合应对持续出现的敌人。",
+      "en": "Move to avoid successive enemy waves while the character attacks automatically. Upgrade cards provide choices during survival, so staying alive combines keeping a clear movement route with selecting improvements that support the attacks already happening around the character.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-capys-flight-adventure"
+      ],
+      "zh": "玩家先用弹弓把角色发射出去，再通过点击控制拍翼，设法飞得更远。发射决定起飞后的初始状态，后续点击则控制持续飞行的高度，玩家根据角色的升降节奏安排下一次拍翼。",
+      "en": "Launch the character with a slingshot, then tap to flap and keep the flight going. The goal is distance, making the timing of later flaps as important as the initial launch because altitude must be maintained throughout the airborne journey.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-city-racer-x-neon-rush"
+      ],
+      "zh": "摩托车会自动向前行进，玩家通过切换车道绕开交通车辆。需要在倒计时耗尽前通过检查点来增加时间，因此需要在前方车流的空隙之间连续变道，并赶到下一处检查点延长行程。",
+      "en": "The motorcycle advances automatically while you change lanes to dodge traffic. Reach checkpoints before the countdown expires to gain more time, finding gaps between the vehicles and linking those openings into a route toward the next checkpoint.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-city-rider"
+      ],
+      "zh": "玩家驾驶摩托车在车流中变道前进，寻找能够安全穿过的空隙。倒计时会持续减少，及时抵达检查点才能延长行程，需要在避让车辆和赶往下一处检查点之间不断选择路线。",
+      "en": "Change the motorcycle's lane to weave through traffic and continue along the road. A countdown limits each part of the run, with checkpoints extending the available time, so every lane choice must support both safe passage and reaching the next checkpoint.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-color-palette"
+      ],
+      "zh": "玩家选择颜色，再点击线稿内的封闭区域，把该区域整体填色。每次填色会作用于所选区域，玩家可为不同形状安排各自颜色，逐步完成整张线稿的配色。",
+      "en": "Select a color and fill an enclosed region of a line drawing with it. Each fill covers the chosen shape, letting you give different areas their own colors as you work across the picture and complete its palette.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-colossal-runner"
+      ],
+      "zh": "玩家在三条跑道之间切换，配合跳跃或滑行穿过不断出现的障碍。角色持续向前跑，前方障碍决定当前应变道、跃过还是从下方通过，需要连续判断，避免一次闪避接上新的危险。",
+      "en": "Switch among three lanes while jumping or sliding past obstacles in an endless run. Forward movement continues, so each approaching barrier calls for a timely lane change or vertical maneuver that also leaves a workable position for whatever comes next.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-cupid-s-tie-dye-studio"
+      ],
+      "zh": "玩家使用自由绘制工具和图章，在物品表面制作扎染图案。手绘痕迹与图章可以组合在同一表面，玩家选择位置和纹样，逐步完成物品的装饰。",
+      "en": "Create tie-dye patterns on an item using freehand drawing and stamp tools. Combine drawn marks with stamped motifs on the same surface, choosing where each addition goes as you build up the item's decorated appearance.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-diner-dasher"
+      ],
+      "zh": "玩家在餐厅内制作食物、收取成品，再把餐食拖给对应顾客。需要在限定时间内处理订单，安排烹饪和交付的先后，避免只顾制作而让已完成的食物未能及时送到客人手中。",
+      "en": "Prepare food, collect finished dishes and drag meals to waiting customers in a diner. Orders must be handled within a time limit, so arranging the sequence of cooking and delivery matters as much as producing the food itself before time runs out.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-dirtbike"
+      ],
+      "zh": "玩家控制摩托车油门和车身前后倾斜，越过连续起伏的地形。腾空时可以完成空翻换取加速，但仍需调整姿态落地；追求助推和保持车辆稳定需要在同一次跳跃中兼顾。",
+      "en": "Control the throttle and lean of a dirt bike while crossing uneven terrain. Aerial flips can grant speed boosts, but the bike still needs a controlled landing, linking decisions about acceleration and stunts to the shape of the ground ahead.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-dragon-ball-merge-heroes"
+      ],
+      "zh": "玩家在 4×4 网格中合并同等级战士，得到更高等级的角色。棋盘上的角色会自动产出金币，需要在有限格子内安排放置与合并，使新角色有空间出现，并持续提高现有阵容的等级。",
+      "en": "Merge warriors of the same level on a four-by-four grid to create stronger characters. They generate coins automatically, so managing the limited board space means deciding which matching pieces to combine while keeping room for the next stages of the merge chain.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-fast-food-tycoon"
+      ],
+      "zh": "玩家在店内走动，收取食物、给顾客供餐，并把获得的收入投入设施升级。随着生产和服务环节增加，需要在不同位置之间安排往返路线，让备餐、交付和扩建设施能够连续运转。",
+      "en": "Walk around the fast-food business to collect food, serve customers and buy facility upgrades. Running the shop links physical movement between work areas with its production and service tasks, making the order of collection, delivery and expansion part of keeping it operating.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-frosting-frenzy"
+      ],
+      "zh": "玩家对照给定蛋糕造型选择糖霜颜色，再添加配料完成装饰。装饰有时间限制，得分取决于成品与目标的匹配程度，糖霜颜色和配料位置都属于要对照完成的内容。",
+      "en": "Choose frosting colors and add toppings to recreate the target cake design. A time limit bounds the decorating task, and the score reflects how closely the finished cake matches the reference, including its colors and arrangement of decorations.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-fruit-smoothie-merge"
+      ],
+      "zh": "玩家选择落点投下水果，让相同的水果在碰撞后合成为更大的水果。落下的物体受到物理运动影响，会改变周围堆叠的位置，需要利用已有空隙和同类水果的距离安排下一次投放。",
+      "en": "Drop fruit into the play area and bring matching fruit into contact so they merge into larger pieces. Physics affects how they fall and settle, so choosing each release position must account for the existing pile and where matching pieces can meet.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-garden-gulp"
+      ],
+      "zh": "玩家移动黑洞，把场景里的物体吞进去，并随着吞食逐渐扩大黑洞。需要在时间耗尽前吸收全部物体，先处理当前尺寸能够吞下的对象，再转向更大的目标，避免在无法吸收的物体旁停留。",
+      "en": "Move a growing black hole around the scene and swallow objects before time runs out. As it expands, larger objects become possible targets, so clearing everything means choosing what the current hole can absorb and then moving on to the remaining pieces.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-grand-theft-astro"
+      ],
+      "zh": "玩家在开放城市中步行探索、驾驶车辆并使用武器射击，也会遭遇通缉追逐。需要根据街道上的敌情切换步行和驾驶，在接近目标、交战或摆脱追兵之间选择下一步行动，安排自己的城市路线。",
+      "en": "Explore the city on foot, drive vehicles and use weapons in an open-world setting. A wanted system adds pursuit to movement and combat, making the choice between walking, driving and fighting depend on what is happening around you in this implementation.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-grow-a-fish"
+      ],
+      "zh": "玩家控制小鱼捕食比自己小的鱼，逐步长大，并避开体型更大的捕食者。每关需要达到规定体型才能完成，因此可吃与不可碰的对象会随成长改变，需要不断重新判断周围鱼群。",
+      "en": "Eat fish smaller than your own to grow while avoiding larger predators. Each level ends when you reach its target size, so growth changes which nearby fish can be eaten and which remain dangerous as you move through the water.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-gungategang"
+      ],
+      "zh": "玩家引导一支奔跑中的队伍穿过数量门，利用门的增减效果改变成员人数。队伍会自动向敌人射击，因此前进路线既影响人数储备，也影响接敌时的火力，需要在不同门之间作出选择。",
+      "en": "Guide a running crowd through gates that add or remove members while the group automatically shoots enemies. Choosing a route through the gates changes the size of the force reaching the next confrontation, connecting movement decisions directly to the crowd's continuing attacks.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-impact-pong"
+      ],
+      "zh": "玩家通过滑动控制球拍，与电脑对手进行乒乓球对打。小球按物理效果运动，需要把球拍移到来球位置并选择回击方向，既防止己方漏球，也设法把球送到对手难以接到的位置。",
+      "en": "Swipe to control a paddle and play table tennis against a computer opponent. The ball follows physics-based motion, so returning it requires meeting its path and directing the rebound, keeping your own side covered while looking for a placement the opponent misses.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-infinite-charms"
+      ],
+      "zh": "玩家按类别挑选面部特征、发型和服饰等外观部件，组合出自己的角色形象。每次选择都会反映在实时预览中，可以对照整体效果继续替换局部，逐步调整各个部件之间的搭配。",
+      "en": "Choose appearance features and clothing from organized categories to build an avatar. A live preview updates as you make selections, letting you compare each change with the whole character and revise individual components until their combination gives the look you want.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-kick-skills"
+      ],
+      "zh": "玩家拖动瞄准任意球的射门方向，并加入旋转让球沿弧线飞行。目标是把球送入球门，需要把初始方向和旋转效果结合起来，判断球的弯曲路线能否绕过防守并到达预期落点。",
+      "en": "Drag to set the direction of a free kick and add spin to curve the ball. Its flight combines that initial aim with the chosen rotation, letting you shape an arcing shot toward the goal.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-knife-blitz-2"
+      ],
+      "zh": "玩家把握时机点击，将刀具射向持续旋转的木桩。新刀必须落在尚未被占据的位置，不能碰到已经插上的刀；随着可用间隙改变，需要观察旋转节奏，等待合适的空位经过发射方向。",
+      "en": "Tap to throw knives into a rotating log without hitting knives already embedded in it. Each successful throw changes the available gaps, so the next shot must be timed around the log's rotation and the positions left open by earlier throws.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-lucky-tran-s-apartment-glow-up"
+      ],
+      "zh": "玩家从家具卡片中选择物品，拖进房间里发光的可放置区域。放好后可长按进入编辑，调整位置和朝向等变换，逐件调整家具与房间其他摆设之间的位置关系。",
+      "en": "Drag furniture cards onto glowing placement areas to arrange the apartment. A long press opens transform editing for placed items, letting you revise position and orientation as you build up the arrangement and compare neighboring pieces of furniture.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-mini-tanks"
+      ],
+      "zh": "双方轮流操控坦克开炮，玩家选择炮弹的发射角度和力度，争取让抛物线落到敌方坦克处。角度和力度共同改变炮弹的飞行高度与距离，每次出手都要把发射参数与对方位置相匹配。",
+      "en": "Take turns firing at the opposing tank by choosing the angle and power of each shot. Shells follow an arc, with angle and power changing the height and distance of the flight toward the other tank's position.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-neon-flow-circuit-connect"
+      ],
+      "zh": "玩家在网格上连接成对的同色节点，为每组端点安排连续路线。不同连接会争用棋盘空间，需要留意尚未连通的颜色，避免先画出的路径把其他端点隔开，导致剩余配对无法完成。",
+      "en": "Connect pairs of matching-colored nodes by drawing continuous routes across a grid. Each path occupies space shared with the other pairs, so the layout must accommodate all the connections as the remaining endpoints are joined.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-park-master"
+      ],
+      "zh": "玩家从俯视视角控制车辆行驶，绕过障碍并进入指定停车位。车辆运动带有物理效果，需要在接近目标时调整方向与移动幅度，既找到通往车位的路线，也避免转向时碰到周围物体。",
+      "en": "Steer a vehicle around obstacles and into its marked parking space from a top-down view. Physics-based movement shapes the turns and final approach, linking the route around nearby objects with the steering adjustments needed to enter the marked space.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-park-pal"
+      ],
+      "zh": "玩家点击车辆，让它们沿可行方向滑出拥挤的网格，目标是把所有车移离场地。车辆会相互阻挡，需要先释放能够离开的车辆，再利用空出的通道依次处理其余车辆。",
+      "en": "Tap vehicles to slide them out of the crowded grid until every vehicle has exited. Cars block one another's routes, making the departure order important as each cleared space opens another possible passage for the cars still inside.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-penalty-king"
+      ],
+      "zh": "玩家与电脑轮流担任点球射手和守门员，射门时锁定方向与力度，防守时选择扑救位置。两种身份的操作目标相反，需要在争取破门后切换到封堵对方射门，累计双方的攻防结果。",
+      "en": "Alternate between taking penalties and playing goalkeeper against a computer opponent. Lock in shot direction and power when attacking, then choose a saving position when defending, switching between finding a way past the keeper and closing down the opponent's attempt.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-perfecto-shot"
+      ],
+      "zh": "玩家用弹弓发射彩色小球，利用场景中的反弹把球送进同色篮筐。需要从篮筐位置倒推发射路线，兼顾第一次碰撞后的方向，避免球虽接近目标却落进错误颜色或偏离篮口。",
+      "en": "Launch colored balls with a slingshot and use rebounds to land them in matching-colored baskets. Choose the release direction with the path after impact in mind, guiding each ball through the opening of the basket that matches its color.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-slice-rush"
+      ],
+      "zh": "玩家点击让刀具翻转，在平台之间向前移动，并切开沿途物品获取分数。翻转同时改变刀具的位置和姿态，玩家把握点击节奏接上下一处平台，同时让刀刃经过可切开的物品。",
+      "en": "Tap to flip a knife between platforms and slice objects for points along the way. Each flip changes its position and orientation, linking the cuts through nearby objects to the landings that carry it onward through the course.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-smash-the-dummy"
+      ],
+      "zh": "玩家把危险物体拖向布娃娃假人，利用碰撞和伤害耗尽它的生命。不同关卡都围绕使假人受损展开，需要选择物体作用的位置与方式，逐步完成总计二十五个关卡的目标。",
+      "en": "Drag hazardous objects into a ragdoll dummy to inflict damage and deplete its health. The game presents twenty-five levels built around this interaction, requiring you to position the available objects so they make effective contact with the dummy and complete the current stage.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-sortie"
+      ],
+      "zh": "玩家观察散落物品的形状与位置，把它们逐一拖到对应槽位完成整理。每次正确放置都会得分，需要辨认物品和槽位之间的对应关系，处理剩余对象，直到场景中的匹配逐步完成。",
+      "en": "Drag scattered objects into their matching slots to organize the scene. Correct placements earn points, with the shapes of the items and their openings indicating the required matches as you work through the objects still waiting to be placed.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-spider-kid-s-halloween-haul"
+      ],
+      "zh": "玩家按住操作发射蛛丝，借助灯柱在场景中摆荡前进，并收集沿途糖果。需要把一次摆荡接到下一处支点，最终抵达终点；路线既要覆盖糖果，也要保持足够的移动空间。",
+      "en": "Hold to fire webs and swing between lampposts while collecting candy along the route. Reaching the finish requires linking successive supports, choosing a path that picks up treats without losing the swinging movement needed to reach the next part of the course.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-stickman-anchor"
+      ],
+      "zh": "玩家拖动调整弓箭的瞄准方向，向站在平台上的敌人射击。箭矢沿弧线飞行，需要根据目标高度和距离选择射角，让预期弹道经过敌人站立的区域。",
+      "en": "Drag to aim a bow and shoot enemies positioned on platforms. Arrows follow a curved flight path; choose the launch angle using the target's height and distance to bring that arc through the enemy's position.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-stickman-archer"
+      ],
+      "zh": "玩家用虚拟摇杆调整弓箭射角，并参考画面中的弹道预览瞄准敌人。预览帮助判断箭矢会经过的位置，需要把预计路线与目标位置对齐，再发射箭矢，持续修正未命中的射击。",
+      "en": "Aim a bow with a virtual joystick and use the trajectory preview to judge where the arrow will travel. Align the predicted arc with an enemy's position before firing, adjusting subsequent shots when the earlier direction fails to pass through the target.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-super-screw"
+      ],
+      "zh": "玩家逐个拧下螺丝并把它们重新安置，让原先固定住的零件脱落。关卡目标是释放全部零件，因此拆卸次序会影响后续可操作位置，需要判断当前哪颗螺丝能为其他部件腾出空间。",
+      "en": "Unscrew and reposition fasteners to release the parts they hold in place. Clearing the level requires every part to be freed, with successive removals changing which screws remain accessible and which pieces are still attached to the structure.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-tadpol-io"
+      ],
+      "zh": "玩家在场地中吞食食物和比自己小的蝌蚪，增加身体尺寸，同时避开更大的对手。冲刺可以改变追逃局面，却会消耗自身大小，需要在短时加速和保留成长成果之间取舍。",
+      "en": "Eat food and smaller tadpoles to grow while surviving among other creatures in the arena. Dashing can change a chase or escape, but it spends body size, so using speed also reduces the growth that determines which opponents you can safely approach.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-tankor-arena"
+      ],
+      "zh": "玩家驾驶坦克在三维战场中自由移动，瞄准并射击电脑控制的敌方坦克。敌人按波次出现，清除当前一波才能继续推进，需要在交战时调整位置，避免为了追击而进入不利射击角度。",
+      "en": "Drive a tank freely through a three-dimensional arena and shoot computer-controlled enemy tanks in real time. Clearing enemy waves advances the fight, requiring movement and aiming to work together as you deal with the opponents currently occupying the battlefield.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-tap-tap-shots"
+      ],
+      "zh": "玩家连续点击让篮球弹起，调整节奏把它送入篮筐。篮筐会出现在不同高度，玩家根据球与篮口的相对位置控制上升过程，改变点击时机，让篮球进入新的目标。",
+      "en": "Tap to bounce a basketball upward and send it through a hoop. Hoops appear at different heights, so the ball's position relative to each new basket determines the timing of the taps used to guide its ascent.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-the-daughter-of-the-sea-before-the-foam"
+      ],
+      "zh": "玩家通过完成图像谜题推进故事，并在关键剧情节点作出 A、B 二选一。选择会把叙事引向不同结局，需要结合当前情节决定下一步；图像交互和分支选择共同构成此实现的游玩过程。",
+      "en": "Progress through the story by completing image puzzles and making A-or-B choices at narrative branches. Those choices lead to different endings, so play alternates between solving the visual interactions and deciding which direction the unfolding story should take next.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-turbo-smash-beast"
+      ],
+      "zh": "玩家按住操作加速，驾驶冲撞体素怪兽，并通过转向避开怪兽攻击。需要在接近目标时选择撞击路线，既让加速转化为有效冲击，也给受击后的闪避和下一次进攻留下空间。",
+      "en": "Hold to accelerate into voxel monsters and steer to avoid their attacks. Each approach must provide a line for a damaging collision while leaving room to evade, connecting the choice of impact route with the space needed for the next attack.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gameasg-william-afton-life"
+      ],
+      "zh": "玩家在开放场景中探索，使用武器与 NPC 交战，并接受和执行 NPC 任务。通缉系统会带来追逐，需要根据当前任务和敌情决定继续战斗还是转移位置，安排探索、交战与脱离的顺序。",
+      "en": "Explore an open world, use weapons in encounters with NPCs and carry out their missions. A wanted system adds pursuit, so the next action depends on whether to continue a task, fight nearby opposition or move away from the current confrontation.",
+      "source": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "basis": "official-task-description",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/areal-project/GameASG-Bench/main/category/results.md",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-abyssal-walker"
+      ],
+      "zh": "在地下楼层中迎战敌人，组合技能宝石与元素伤害，并决定如何处理战利品。精英带有额外词缀，首领会切换阶段并预告强力招式，需要随战况调整走位与出手时机。",
+      "en": "Fight through underground floors, combine skill gems with elemental damage, and handle the resulting loot. Elite enemies carry modifiers, while bosses change phases and telegraph powerful abilities, making positioning and the timing of attacks important throughout an encounter.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_abyssal_enemy_engine/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_abyssal_enemy_engine/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-advanced-movement-system-godot"
+      ],
+      "zh": "这是第三人称角色移动演示，可在行走、跳跃、下落和蹲伏之间切换，穿过带台阶与障碍的场景。角色还可攀越障碍，动作姿态随移动状态调整，重点是连续移动和地形衔接。",
+      "en": "This third-person movement kit lets a character walk, jump, fall and crouch through a scene with steps and obstacles. Mantling and pose adjustments connect the movements, focusing on transitions across terrain rather than a separate story or campaign.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_amsg_movement_engine/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_amsg_movement_engine/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-active-frames"
+      ],
+      "zh": "固定位置的攻击者要把握移动目标进入范围的瞬间，完成起手、有效攻击和收招。只有有效帧内发生的接触才算命中，因此不能只根据目标此刻靠近就立刻出招。",
+      "en": "A stationary attacker times a strike against a moving target through windup, active and recovery phases. Contact counts only during the active window and within reach, so a target being nearby is not enough to guarantee a hit.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_active_frames/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_active_frames/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-attack-cooldown"
+      ],
+      "zh": "多座固定炮塔共用一份能量，各自不断提出开火请求，由统一规则决定是否放行。开火同时受到冷却时间和能量恢复的约束，不能让单座炮塔连续射击或把共享储备提前耗空。",
+      "en": "Several stationary turrets request shots from a shared energy bank, with an arbiter deciding which requests can fire. Individual cooldowns and the bank’s recharge constrain the sequence, so simultaneous demand must be handled without bypassing either limit.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_attack_cooldown/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_attack_cooldown/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-boids"
+      ],
+      "zh": "一群单位跟随同一个移动目标，在目标转向时保持聚集并持续前进。单位既要跟上队伍，又不能彼此重叠或越出边界，路线与队伍规模变化都会改变它们需要保持的间距。",
+      "en": "A group of units follows a moving anchor while trying to remain together and keep pace. Changes in route and group size alter the spacing problem: units must stay inside the arena and avoid overlapping their neighbors as they move.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_boids/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_boids/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-death-trigger"
+      ],
+      "zh": "首领攻击会反击的训练目标，反击会持续消耗它的生命值。生命耗尽时必须立即停止后续动作，并且只触发一次死亡事件，不能在死亡后继续攻击或反复结算同一次死亡。",
+      "en": "A boss attacks training targets that retaliate and deplete its health. When health runs out, the encounter must stop the boss’s actions and emit its death event exactly once, without allowing another attack or repeated death notifications.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_death_trigger/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_death_trigger/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-dice-read"
+      ],
+      "zh": "把一组实体骰子掷入四周有墙的桌面，观察它们弹跳、碰撞并逐渐静止。需要等整组骰子都停稳，再读取每颗朝上的点数；初始朝向和投掷力度会让结果变化。",
+      "en": "A group of physical dice tumbles and collides inside a walled tabletop. Wait until every die has settled before reading its upward face; different starting orientations and flicks change how the dice bounce and where they come to rest.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_dice_read/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_dice_read/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-dodge-hold"
+      ],
+      "zh": "躲避者只能向上或向下冲刺，冲刺一旦开始就要完成固定动作，并等待冷却。投球者会蓄力，也可能取消重来；球沿蓄力开始时瞄准的位置直飞，需要分辨假动作并控制闪避时机。",
+      "en": "The dodger can only dash up or down, committing to the motion before waiting through a cooldown. A thrower aims a fast, straight ball at the position recorded when windup begins, but may cancel and restart the throw.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_dodge_hold/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_dodge_hold/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-group-avoidance"
+      ],
+      "zh": "让多个单位穿过开阔场地，各自抵达指定终点。它们同时移动时不能彼此重叠，也不能越出场地边界，因此接近同一区域的单位需要调整路径和间距，而不是只沿最短直线推进。",
+      "en": "Guide multiple units across an open arena to their individual destinations. They move at the same time but must remain inside the boundaries and avoid overlapping, so routes that converge require spacing adjustments rather than independent straight-line movement.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_group_avoidance/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_group_avoidance/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-hitbox"
+      ],
+      "zh": "随着挥刀动画移动攻击判定区域，逐帧处理目标身体进入和离开的情况。每次挥击对同一目标的命中次数受限，刀刃连续重叠时不能把每一帧都当作一次新的伤害。",
+      "en": "Move a blade’s hitbox through a swing and track when target bodies enter or leave it. Each swing limits how often it can hit the same target, preventing continuous overlap from being counted as fresh damage on every frame.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_hitbox/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_hitbox/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-hitstun-recovery"
+      ],
+      "zh": "角色受到硬直、眩晕或收招影响时暂时不能执行动作，要等对应持续时间结束后恢复。新效果可能刷新剩余时间，因此既要防止提前解除限制，也要避免效果消失后仍无法行动。",
+      "en": "Hitstun, stun and recovery temporarily block a character’s actions until their durations expire. New effects can refresh the remaining time, so the demo must preserve the restriction when needed and restore action once the relevant effect has ended.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_hitstun_recovery/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_hitstun_recovery/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-jump-landing"
+      ],
+      "zh": "从左侧平台起跳并落到目标位置，水平速度只能在站稳地面时调整。离地后不能空中刹车或改变水平推进，因此起跳点与起跳前的速度共同决定能否安全落地。",
+      "en": "Jump from the starting platform to the goal after setting horizontal speed on the ground. That speed remains fixed in the air, without an airborne brake, making the launch position and takeoff velocity determine where the character lands.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_jump_landing/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_jump_landing/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-keeper-arc"
+      ],
+      "zh": "守门员只能沿场地跑动，防守带球者在进攻三区发出的高速直射。对方起脚前会蓄力，也可能取消假射；守门员需要提前调整位置，而不能等看清球路后瞬移补救。",
+      "en": "A goalkeeper runs into position to stop fast, straight shots from an attacker in the final third. The attacker can cancel a windup into a fake, so the keeper must position before the shot instead of relying on teleportation.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_keeper_arc/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_keeper_arc/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-light-occlusion"
+      ],
+      "zh": "在石质房间中调整火把照明，观察光线随距离衰减、被墙体遮挡后形成阴影。火把位置、照射范围和墙体布局都会改变可见区域；这是光照机制场景，没有额外的战斗或通关目标。",
+      "en": "A torch lights a stone chamber, with brightness falling over distance and walls blocking light to form shadows. Changing the torch position, light range or wall layout changes the visible area; the scene demonstrates lighting rather than a separate combat objective.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_light_occlusion/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_light_occlusion/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-move-navigation"
+      ],
+      "zh": "控制单位穿过带墙壁和门洞的场地，到达指定目标点。起点、终点和布局会变化，需要找到真正可通过的路线，并在时限内完成移动，不能穿墙或卡在门口。",
+      "en": "Guide a unit through a walled arena and its doorways to a goal. The start, destination and layout vary, requiring a passable route that reaches the target in time without clipping through walls or becoming stuck at an opening.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_move_navigation/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_move_navigation/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-move-navigation-3d"
+      ],
+      "zh": "在高低不一的三维平台之间移动，沿可通行区域前往目标。场景可能包含断裂地面或分岔路线，持续移动时必须处理高度与边缘，避免掉入空隙或被地形卡住。",
+      "en": "Move across a three-dimensional layout of platforms at different heights toward the goal. Gaps and branching routes can interrupt the terrain, so each movement must respect the available surface without falling into empty space or becoming wedged against geometry.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_move_navigation_3d/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_move_navigation_3d/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-move-slide-3d"
+      ],
+      "zh": "让胶囊体角色在起伏的三维走廊中移动和跳跃，到达终点。行进必须遵守实际碰撞，处理坡面、边缘与障碍接触，而不是把角色直接放到目标位置。",
+      "en": "Move and jump a capsule-shaped character through an uneven three-dimensional corridor to the destination. Progress depends on actual collisions with the terrain, including slopes, edges and obstacles, rather than directly relocating the character past whatever blocks the route.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_move_slide_3d/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_move_slide_3d/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-patrol-edge"
+      ],
+      "zh": "角色在平台上来回巡逻，接近边缘时要及时转身。它不能跳跃，也没有掉落后的自动救援；一旦失去地面接触就已开始下坠，因此必须在走出平台之前识别边缘。",
+      "en": "A character patrols back and forth on a platform and must turn before reaching an edge. It cannot jump or recover automatically from a fall; losing floor contact is already too late, so the edge must be anticipated.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_patrol_edge/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_patrol_edge/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-plan-orchestrator"
+      ],
+      "zh": "在持续变冷、饥饿加重的微型世界中选择行动，维持角色生存并处理不断逼近的威胁。采集和处理资源需要时间，且一次只能做一件事；切换行动会打断当前工作，资源也可能耗尽或变得无法到达。",
+      "en": "Keep a character alive as warmth falls, hunger rises and threats approach. Resource work takes time and only one action runs at once; changing actions interrupts the current job, while supplies may run out or become unreachable.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_plan_orchestrator/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_plan_orchestrator/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-platform-ride"
+      ],
+      "zh": "等待水平移动的平台靠近起点，登上平台后随它跨过缺口，再在合适位置下到终点。平台不会停在每个需要的位置，角色要把登乘、随行和离开的时机衔接起来。",
+      "en": "Wait for a horizontally moving ferry platform, board it, ride across the gap and step off toward the goal. Its movement links the stages: reaching the platform is only useful if boarding, riding and disembarking happen at suitable positions.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_platform_ride/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_platform_ride/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-production-queue"
+      ],
+      "zh": "单座工厂依次生产不断到来的订单，需要用有限资金接受订单，并在截止前交付。队列容量把正在生产的项目也算在内，订单到达时间与起始资金变化时，接单顺序也要相应调整。",
+      "en": "A single factory accepts arriving orders, builds them sequentially and delivers before their deadlines. Money limits acceptance, and queue capacity includes the item currently being built, so the order sequence must fit both the budget and the available production slots.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_production_queue/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_production_queue/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-root-motion-3d"
+      ],
+      "zh": "让三维角色的位置变化跟随动画本身的根运动，把每一帧产生的位移落实到场景中。角色速度需要与动作片段一致，避免脚步仍在播放而身体不动，或额外叠加与动画无关的推进。",
+      "en": "Move a three-dimensional character using the displacement supplied by its animation on each frame. Actual position and velocity must stay consistent with the clip, preventing the character from remaining stationary or gaining unrelated movement while the animation plays.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_root_motion_3d/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_root_motion_3d/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-atom-target-selection"
+      ],
+      "zh": "固定哨兵面对多个目标，需要持续锁定当前威胁最高的对象。威胁值会随时间变化：出现明显更危险的目标时应转火，但相近的数值波动不应让锁定对象不断来回跳变。",
+      "en": "A stationary sentinel tracks several targets and locks onto the most threatening one. Threat changes over time: a clear new leader should draw its attention, while small fluctuations should not make the lock flicker repeatedly between nearly equal targets.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_target_selection/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/atom_target_selection/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-alert-escalation-loop"
+      ],
+      "zh": "守卫根据视野中的动静，从闲置逐步进入怀疑和警戒，并追赶确认可见的入侵者。目标被墙体遮住或逃离后，守卫搜索最后目击位置，待警觉逐渐消退再返回岗位。",
+      "en": "A guard escalates from idle to suspicion and full alert as an intruder becomes visible. It chases a confirmed target, searches the last seen position after losing sight, then gradually calms down and returns to its post.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_alert_escalation_loop/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_alert_escalation_loop/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-anim-events"
+      ],
+      "zh": "近战角色的格挡解除、攻击判定和恢复行动都由动画中的指定帧触发。演示要求把事件与挥击过程严格对齐，避免伤害在刀刃生效前出现，或动作已经结束却仍不能恢复。",
+      "en": "A melee rig drops its guard, activates hits and recovers through events tied to specific animation frames. The scene focuses on matching those events to the swing, preventing damage from starting too early or action restrictions from lasting too long.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_anim_events/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_anim_events/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-boss"
+      ],
+      "zh": "首领在有墙的场地中迎战两名会反击的目标，根据威胁变化选择对手、寻路接近，并在射程和冷却允许时攻击。战斗中还要处理自身生命耗尽后的停机，不能在死亡后继续追击。",
+      "en": "A boss fights two retaliating targets in a walled arena, selecting threats, navigating into range and attacking when its cooldown permits. Target priorities can shift during the fight, and the boss must stop its behavior once its health is depleted.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_boss/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_boss/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-chaser"
+      ],
+      "zh": "守卫从岗位观察周围，只有目标进入视距且没有被墙遮挡时才开始追逐。入侵者沿不同路线移动，守卫需要在追击、放弃和返回岗位之间切换，而不是隔着障碍一直锁定目标。",
+      "en": "A guard watches from its post and chases intruders only when they are within sight and not hidden by walls. Different intruder routes require transitions between pursuit, disengagement and returning to the post as visibility changes.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_chaser/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_chaser/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-corridor-deadlock"
+      ],
+      "zh": "多个单位在狭窄网格通道中分别前往终点，每个时间步只能正交移动。单位不能重叠，也不能迎面交换相邻格；冲突移动会被拒绝，需要让行和安排先后，避免整条通道陷入死锁。",
+      "en": "Move several units through narrow grid corridors to their individual goals using orthogonal steps. Units cannot overlap or swap adjacent positions head-on; conflicting moves are rejected, making yielding and the order of passage necessary to avoid deadlock.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_corridor_deadlock/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_corridor_deadlock/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-crew-slots"
+      ],
+      "zh": "把船员分配到沿走廊排列的房间，再为每人选择实际停靠位置。房间能容纳的人数可能少于可见停靠点，既不能让两人占同一位置，也不能仅因空位存在就超过房间容量。",
+      "en": "Assign crew members to rooms along a corridor and choose an individual docking slot for each. A room may allow fewer occupants than its visible slots suggest, so assignments must respect both slot exclusivity and the separate room capacity.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_crew_slots/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_crew_slots/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-dualgrid-terrain"
+      ],
+      "zh": "在岩石与空地组成的场景中开挖通路，让探测单位前往目标。显示用网格相对实际地形偏移半格，挖掘或坍塌后既要更新边角外观，也要同步改变真实通行区域。",
+      "en": "Excavate paths through rock and open terrain so a survey unit can reach its goal. The visual grid is offset from the terrain grid, so digging or collapse must update both the displayed corners and the actual passable area.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_dualgrid_terrain/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_dualgrid_terrain/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-duelist"
+      ],
+      "zh": "固定位置的剑手面对不断进出攻击范围、并会反击的对手，需要选择何时挥剑。一次攻击包含起手、有效帧和收招，同一挥击只结算一次命中，不能用连续接触重复造成伤害。",
+      "en": "A stationary fencer chooses when to strike an opponent that moves in and out of reach and can counterattack. Each committed swing has windup, active and recovery phases, with only one hit counted for the same swing.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_duelist/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_duelist/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-escort-tow"
+      ],
+      "zh": "控制领队带着较慢的跟随者穿过墙体转角，让两者都安全抵达终点。跟随者只会朝领队直线移动，不会自行绕墙，因此领队必须留出拖带路线，不能只顾自己抢先到达。",
+      "en": "Lead a slower follower around walls until both reach the goal safely. The follower steers directly toward the leader without navigating around obstacles, so the leader must shape a route that keeps the trailing character clear of corners.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_escort_tow/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_escort_tow/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-formation-commit"
+      ],
+      "zh": "开战前从单位池中选择阵容，并把单位放进合法部署区域。确认后战斗按固定规则自动结算，不再接受中途指令；敌方阵容、生命和攻击数值变化时，需要重新安排出场单位与位置。",
+      "en": "Choose units from a pool and place them inside the legal deployment zone before battle. Combat then resolves automatically under fixed rules, with no further commands, so different enemy rosters and unit statistics must be addressed through the initial formation.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_formation_commit/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_formation_commit/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-harvest-gate"
+      ],
+      "zh": "工人到矿点持续工作后才能取得矿石，装载量受容量限制，再运回指挥中心附近卸货。每次采集和交付都要实际完成，不能在远处直接记入收入，卸完后还需继续下一趟运输。",
+      "en": "Workers spend time mining ore, carry it within their load limit and return to the command center to deposit it. Collection and delivery require actual progress and proximity, after which the worker must begin another trip rather than receive remote income.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_harvest_gate/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_harvest_gate/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-interest-ledger"
+      ],
+      "zh": "用共享金库为固定战线抵御来袭波次，购买战斗卡提升火力，也可购买经验增加上场容量。资金还能投向稍后付息的债券，按顺序执行的采购计划必须平衡眼前守备与后续回报。",
+      "en": "Spend a shared treasury to defend a fixed front against incoming waves, buying combat cards or experience that expands field capacity. Bonds return interest later, so the ordered purchase plan must balance immediate defense with money available for subsequent reinvestment.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_interest_ledger/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_interest_ledger/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-jump-reach-graph"
+      ],
+      "zh": "在下方没有安全地面的平台群间选择跳跃路线，抵达绿色目标平台后还要连续站稳一段时间。可达平台并非都能通向终点，路线选择与每次起跳都要避免把角色送入无法挽回的坠落。",
+      "en": "Choose a route through a field of ledges above a bottomless drop, then remain on the green goal ledge for consecutive frames. Each jump must connect reachable surfaces without leaving the character on a route that ends in a fall.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_jump_reach_graph/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_jump_reach_graph/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-jump-x-platform-phase"
+      ],
+      "zh": "从较高的起点跳向移动渡台，随平台跨过缺口，再下到目标区域。渡台的位置随时间改变，相同的跳跃在不同相位会有不同结果，因此起跳和离开的时机需要连在一起考虑。",
+      "en": "Jump from a raised start onto a moving ferry platform, ride it and disembark toward the goal. The platform’s phase changes where it will be during a jump, linking the timing of takeoff with the eventual exit.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_jump_x_platform_phase/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_jump_x_platform_phase/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-kite"
+      ],
+      "zh": "远程单位面对两名近战追兵，在射程内攻击后利用冷却间隔拉开距离。对手的威胁会变化，需要及时调整锁定对象，同时避免一味后退失去攻击机会，或停留射击时被追上。",
+      "en": "A ranged unit faces two melee pursuers, attacking within range and moving away during its cooldown. Threat priorities change between enemies, requiring target switches while maintaining enough distance to avoid contact without giving up every opportunity to shoot.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_kite/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_kite/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-lane-deny"
+      ],
+      "zh": "防守者只能跑动，在进攻三区阻断持球者向两名接应者发出的高速直线传球。两条路线无法同时覆盖，需要根据站位判断优先封堵哪一侧，抢在传球穿过之前进入线路。",
+      "en": "Run a defender into passing lanes between a ball carrier and two receivers in the final third. Fast, straight passes make it impossible to cover both options at once, so positioning must prioritize the more dangerous available lane.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_lane_deny/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_lane_deny/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-magnus-roll-3d"
+      ],
+      "zh": "观察受真实物理影响的旋转球飞行、落地与滚动：风和旋转会改变空中轨迹，碰撞还会产生反弹。球进入坡面或长草后继续受地面影响，这是弹道与滚动机制演示，而非完整比赛。",
+      "en": "A spinning ball flies, bounces and rolls under gravity, wind, drag and the Magnus effect. Sloping ground and long grass alter its later motion, making this a ball-physics demonstration rather than a full match with additional competition rules.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_magnus_roll_3d/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_magnus_roll_3d/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-platform-guard"
+      ],
+      "zh": "守卫在自己的平台上巡逻，发现入侵者后响应并追击。平台边缘下方没有保护地面，跨越缺口还要选好起跳位置，因此追逐目标时仍需避免失足，并保持对原平台的巡查。",
+      "en": "A guard patrols its home platform and responds to visible intruders while respecting gaps and edges. There is no safe floor underneath, so pursuit must account for jump launch positions and falling risk rather than blindly following a distant target.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_platform_guard/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_platform_guard/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-push-commit"
+      ],
+      "zh": "在网格仓库中每步上下左右移动一格，把箱子推到类型匹配的目标区。墙壁会阻挡通路，推箱时还要为后续操作保留站位，避免箱子或自身堵住继续搬运所需的路线。",
+      "en": "Move a worker one orthogonal grid cell at a time and push crates into zones of the matching type. Walls restrict access, and each push changes where the worker can stand for the remaining moves and subsequent crate deliveries.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_push_commit/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_push_commit/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-reverse-dock"
+      ],
+      "zh": "驾驶带有惯性和转动的飞船，朝空间站停靠口完成尾部先入的低速对接。必须从端口外侧接近，在时限内减速并校准朝向，不能让船体提前撞到空间站外壳。",
+      "en": "Bring a ship with momentum and rotation to a station port for a slow, tail-first docking. Approach from outside the port, brake and align before the deadline, while keeping the hull from striking the station during the maneuver.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_reverse_dock/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_reverse_dock/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-search-last-known"
+      ],
+      "zh": "守卫在有限视距内发现未被墙体遮住的目标并开始追逐。目标消失后不再拥有其精确位置，只能前往最后目击点搜索，随后返回岗位，处理从看见到失去线索的完整过程。",
+      "en": "A guard pursues a target visible within range and unobstructed by walls. After losing sight, it searches the last known position instead of retaining the target’s exact location, then returns to its post when that search is over.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_search_last_known/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_search_last_known/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-snake-forage"
+      ],
+      "zh": "控制蛇头寻找场地中唯一的食物，每吃一份就增加一节身体，新的食物随后在别处出现。撞墙或撞到自身都会失败，路线必须考虑尾部移动后才会释放的空间，避免越长越难脱身。",
+      "en": "Guide a snake toward the single available food item, growing one body segment before food appears elsewhere. Hitting a wall or its own body ends the run, so routes must account for occupied cells that clear only when the tail moves.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_snake_forage/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_snake_forage/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-squad"
+      ],
+      "zh": "四名小队成员先移动到各自战斗位置，再协力消灭两名敌人。单位具有实际体积，移动时不能重叠；同一套行为还需适应不同的威胁出现顺序，在站位和集火之间衔接。",
+      "en": "Four squad members move to assigned battle stations and then eliminate two enemies. Their solid bodies must avoid overlap during movement, while the same unit behavior must connect positioning with combat as enemy threat timing changes between encounters.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_squad/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_squad/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-supply-lines"
+      ],
+      "zh": "用共享金库维持据点和运输网络，准备迎接不断来袭的敌人。道路、铁路与补给站影响收入和运送，断线会拖延援军；采购又按队列执行，优先项买不起时会挡住后面的支出。",
+      "en": "Use a shared treasury to maintain strongpoints and their transport network before incoming waves arrive. Roads, rails and depots affect income and deliveries; broken links delay support, while an unaffordable purchase at the front of the queue blocks later spending.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_supply_lines/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_supply_lines/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-sweep-collision"
+      ],
+      "zh": "角色按请求的位移穿过有实体墙壁的场景，碰到障碍时必须停留在合法位置。较大的单步移动也不能直接穿透薄墙，连续贴墙行进时还需避免身体嵌入或被碰撞处理卡住。",
+      "en": "Move a character through solid-walled geometry using requested displacements that must end at legal positions. Even a large step cannot tunnel through a thin wall, and repeated contact must avoid leaving the character embedded in or stuck against obstacles.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_sweep_collision/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_sweep_collision/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-tactics-turn"
+      ],
+      "zh": "指挥小队在网格中按行动预算依次行动，每次只执行一个动作。敌人在本回合中不移动，但被攻击后若仍存活就会反击，因此击杀顺序和伤害分配直接影响小队承受的反击次数。",
+      "en": "Command a small squad on a grid, spending a turn’s action budget one move at a time. Enemies remain stationary during the turn but counterattack if they survive a hit, making attack order and finishing blows affect incoming damage.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_tactics_turn/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_tactics_turn/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-throw-tech"
+      ],
+      "zh": "角色守住位置，迎接靠近的对手，在攻击有效帧内判断距离并完成打击或投技。遭到抓取时只有短暂拆投窗口，过早或过晚都不奏效；出招后还必须完成相应收招。",
+      "en": "A fighter holds position as an opponent approaches, timing strikes or throws to land within reach during active frames. An enemy grab opens only a brief throw-break window, while committed actions must still pass through their recovery before another response.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_throw_tech/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_throw_tech/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-combo-wolfpack"
+      ],
+      "zh": "狼群接近并包围猎物，保持间距后以有节奏的攻击寻找机会。猎物路线、可受攻击的时机和反击会变化，狼不能彼此重叠，也不能全挤在同一侧让围捕失效。",
+      "en": "Wolves approach as a pack, spread around the prey and make paced attacks. Changes in the prey’s route, vulnerability and retaliation require the pack to maintain spacing rather than overlap or crowd onto one side of the target.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_wolfpack/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/combo_wolfpack/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-dothop"
+      ],
+      "zh": "让跳跃棋子沿网格方向移动，收集圆点并抵达终点。场景中可同时出现多个棋子，一次方向输入会联动它们的跳跃；需要结合地形安排移动顺序，必要时利用撤销回看先前状态。",
+      "en": "Move hopping pieces along grid directions, collect dots and reach the goal. Multiple pieces can respond to the same directional move, linking their paths; the puzzle includes undo states so earlier arrangements can be revisited when a sequence fails.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_dothop_move_engine/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_dothop_move_engine/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-eu-war"
+      ],
+      "zh": "在十四至十八世纪的欧洲地图上扩张势力，争夺城市与资源节点。每轮利用领地收入安排国库支出、科技和招募，再通过六角格战斗推进征服，需要把经济准备与前线行动衔接起来。",
+      "en": "Expand across a map of Europe spanning the fourteenth to eighteenth centuries, contesting cities and resource nodes. Each round combines territorial income, treasury spending, technology and recruitment before hex-based battles determine whether the planned conquests can advance.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_euwar_conquest_engine/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_euwar_conquest_engine/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-godot-2d-tactical-space-combat"
+      ],
+      "zh": "管理飞船内部的船员、舱门和氧气，处理火灾与船体破损，同时让武器充能并瞄准敌船舱室。护盾与不同武器改变交火过程，开火后需要重新充能，不能只顾射击而放任内部危机扩大。",
+      "en": "Manage crew, doors and oxygen inside a ship while containing fires and hull breaches. Charge weapons, target enemy rooms and account for shields; firing starts another charging cycle, so the exchange of attacks continues alongside problems within your own ship.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_ftl_weapon_charge/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_ftl_weapon_charge/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-godot-open-rpg"
+      ],
+      "zh": "在回合开始时为队员选择行动和目标，再依次执行攻击、治疗或属性变化。元素相性会改变行动效果，需要结合敌我状态决定先处理谁，以及何时把一个回合用在恢复而不是进攻上。",
+      "en": "Select actions and targets for party members, then execute attacks, healing and stat changes through a turn-based battle. Elemental affinities alter their effects, linking target choice and the current condition of both sides to the value of each action.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_openrpg_battle_ai/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_openrpg_battle_ai/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-godot-open-rts"
+      ],
+      "zh": "安排工人采集两类资源，建设设施并通过生产队列补充部队，与电脑对手交战。建筑要经历两个施工阶段，远程单位还需维持射程、锁定目标并遵守开火冷却，经济与作战会同时推进。",
+      "en": "Send workers to gather two resources, construct buildings and use production queues to field units against an AI opponent. Construction has two stages, while ranged combat requires target tracking, suitable distance and cooldown timing alongside the ongoing economy.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_rts_engagement_chain/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_rts_engagement_chain/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-melt-them-all"
+      ],
+      "zh": "在随机星球上开采矿石，用熔炉产生热量，再经管道送到电厂转化为电力。电力支持炮塔、陷阱和粉碎机抵挡怪物波次，粉碎后的尸体还能回收成矿石，接回生产链。",
+      "en": "Mine ore on a random planet, generate heat in smelters and pipe it to power plants for electricity. Turrets, traps and crushers defend against monster waves, while crushed corpses can return ore to the factory’s production chain.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_factory_grid_lifeline/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_factory_grid_lifeline/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-repo-damage-control"
+      ],
+      "zh": "在由走廊连接的飞船房间中调度船员，修复破损并扑灭火灾。氧气与舱门状态影响安全，房间容量和实际工作位置又限制分配，需要在封舱、通行和维修之间安排合理顺序。",
+      "en": "Move crew through connected ship rooms to repair breaches and fight fires. Oxygen and door states affect safety, while room capacities and docking slots limit assignments, requiring repairs and door sealing to be coordinated with safe access for the crew.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_damage_control/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_damage_control/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-repo-td-income"
+      ],
+      "zh": "固定炮塔抵御沿线路前进的敌人，射击同时消耗弹药和金币。重型敌人不受普通炮塔伤害，需要兵工厂串行生产的攻城炮弹；共享资金、生产顺序和弹丸飞行延迟共同限制防线的反应速度。",
+      "en": "Fixed towers defend a lane using ammunition and gold, while heavy enemies require siege shells instead of ordinary tower fire. An arsenal builds orders sequentially from shared funds, and projectile travel time adds another delay between spending resources and stopping a threat.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_td_income/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_td_income/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-repo-watch-rotation"
+      ],
+      "zh": "两名守卫分守两条通向保护区的走廊，根据视线发现入侵者并逐步升级警戒。追击或搜索会把人带离岗位，因此还要安排轮换，避免两人同时离岗，让另一条路线完全失去看守。",
+      "en": "Two guards cover separate corridors into a protected zone, escalating suspicion and responding to intruders visible around walls. Chasing and searching pull them away from their posts, so rotation must prevent both routes from being left unguarded at once.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_watch_rotation/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_watch_rotation/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-slay-the-robot"
+      ],
+      "zh": "沿分岔地图选择前进路线，用抽取到的卡牌进行回合战斗，并在途中商店调整牌组。生命、格挡、状态效果以及抽牌和洗牌顺序共同影响下一回合；这是独立的卡牌战斗项目框架。",
+      "en": "Choose branches on a map, play drawn cards in turn-based battles and adjust the deck at shops along the route. Health, block and status effects interact with drawing and reshuffling, shaping what can be played on subsequent turns in this project framework.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_slayrobot_action_stack/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_slayrobot_action_stack/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-turbo-fat"
+      ],
+      "zh": "在九列二十行的区域中移动、旋转下落方块，用软降或硬降把它们安放到合适位置。旋转时可借助位置修正穿过窄缝，完成消行并构建盒状组合来取得分数。",
+      "en": "Move and rotate falling pieces inside a nine-by-twenty board, using soft or hard drops to place them. Rotation kicks help pieces fit through tight gaps, while line clears and box-building combinations contribute to the score as the stack develops.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_turbofat_piece_phase/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_turbofat_piece_phase/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-valley-claim"
+      ],
+      "zh": "在六角格土地上经营家庭农场，把有限劳动力安排到田地和其他工作区域。每个回合代表一天，结束时结算劳动、资源和土地变化，需要让每日分配衔接起来，维持家庭跨季节生存。",
+      "en": "Run a household on hex-based land, assigning limited labor to fields and other work zones. Each turn represents a day, with resources and land changes resolved at day’s end, linking successive work allocations to the household’s survival across seasons.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_valley_day_engine/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_valley_day_engine/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-worldwarii-fischer-zhang"
+      ],
+      "zh": "在第二次世界大战背景的区域地图上发展领土、研究科技并招募军队，再按回合推进扩张。交战会进入六角格战术层结算，战略地图上的兵力准备要与局部战斗中的行动相配合。",
+      "en": "Develop territories, research technology and recruit armies on a regional map set during the Second World War. Turn-based expansion leads into hex-based tactical battles, connecting the forces prepared on the strategic map with the outcome of individual conquests.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_worldwarii_conquest/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_worldwarii_conquest/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamelogic-youtd-2"
+      ],
+      "zh": "建造并培养防御塔，阻止敌人一波波穿过传送门路线。元素与装备会改变塔的表现，攻击还受到射程、冷却和目标选择限制，部分攻击可以多目标或弹射；此处展示的是项目改编机制。",
+      "en": "Build and develop towers to stop waves of enemies moving along portal routes. Elements and items change tower behavior, while range, cooldowns and targeting govern attacks, including multi-target or ricochet effects represented in this adapted project’s mechanics.",
+      "source": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_youtd2_attack_cycle/game/README.md",
+      "basis": "official-project-readme",
+      "scope": "development-demo",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_youtd2_attack_cycle/game/README.md",
+      "context": {
+        "zh": "GameLogicBench 机制演示 / 开发任务",
+        "en": "GameLogicBench mechanic demo / development task"
+      },
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-connect-four"
+      ],
+      "zh": "双方轮流把棋子投入竖直棋盘的某一列，棋子会落到该列最低空位。率先横向、纵向或斜向连成四子即可获胜，需要在创造己方连线机会时，阻止对方借下一次落子完成四连。",
+      "en": "Take turns dropping a disc into a column of the vertical board, where it settles into the lowest open space. Win by making four in a row horizontally, vertically or diagonally, while blocking the opponent's immediate opportunities to complete the same pattern.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-futoshiki"
+      ],
+      "zh": "玩家在空格内填数字，使每行每列都不重复，同时满足格子之间给出的大小关系。局部不等式会限制相邻取值，需要把这些限制与整行整列的候选数字结合起来，完成全部网格。",
+      "en": "Fill the grid without repeating a number in any row or column, while obeying the greater-than and less-than signs between cells. Local comparisons restrict neighboring values, and these restrictions must fit together with the possible numbers remaining across the whole board.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-gomoku"
+      ],
+      "zh": "双方轮流在棋盘交叉点落子，率先沿横向、纵向或斜向排成五子者获胜。需要兼顾延长己方棋形与阻断对方连线；具体禁手或长连处理取决于本实现规则，不能直接套用其他五子棋版本。",
+      "en": "Take turns placing stones on intersections and try to make five in a horizontal, vertical or diagonal line before the opponent does. Extend your own threats while blocking theirs; restrictions such as forbidden moves or overlines depend on the particular implementation's rules.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-hanoi"
+      ],
+      "zh": "玩家把一叠大小不同的圆盘移到指定柱，每次只能拿起某柱最上面的一枚。大盘不能放在小盘上，需要借助其他柱暂存圆盘，逐步腾出关键位置，再把整叠按大小顺序重新聚齐。",
+      "en": "Move a stack of differently sized discs to the designated peg, taking only the top disc from a peg at each step. A larger disc cannot rest on a smaller one, so intermediate placements must clear the way before the stack can be rebuilt.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-hashiwokakero"
+      ],
+      "zh": "玩家在数字岛之间画水平或竖直桥，使每座岛连接的桥数等于提示。桥梁不能彼此交叉，全部岛还要连成同一网络，因此满足一处数字时需要给其他岛保留能够接入的通路。",
+      "en": "Draw horizontal or vertical bridges between numbered islands so each island has the required number of connections. Bridges cannot cross, and all islands must form one network, so satisfying a local count must still leave a way for the remaining islands to join.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-kenken"
+      ],
+      "zh": "玩家填写数字，使每行每列不出现重复，并满足各个标记区域的运算符和目标值。需要先确定同一区域中可行的数字组合，再结合它们在行列中的位置排除冲突，完成整张棋盘。",
+      "en": "Fill the grid with nonrepeating numbers in each row and column while meeting every marked cage's arithmetic operation and target value. Find combinations that satisfy each calculation, then place them so the same choices remain compatible with the rows and columns they cross.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-netwalk"
+      ],
+      "zh": "玩家旋转网格中的管线格，使线段的接口相接，最终把所有终端连接到中央节点。一次旋转会同时改变该格各方向的连接关系，需要检查外围线路是否真正接入整体，避免只完成几个孤立片段。",
+      "en": "Rotate the network tiles so their endpoints join and every terminal connects to the central node. Turning one tile changes several potential connections at once, linking each local section to the route that ultimately reaches the central node.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-nonogram"
+      ],
+      "zh": "玩家根据每行每列的连续黑格长度提示，把网格逐步填成黑白图案。数字按顺序规定各段的位置关系，需要让横向和纵向提示在同一格上取得一致，确定哪些格涂黑、哪些必须留白。",
+      "en": "Use the ordered black-run lengths beside each row and above each column to reconstruct a black-and-white pattern. A cell's color must satisfy both directions, so confirmed runs and spaces in one line help determine the possibilities in the lines crossing it.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-reversi"
+      ],
+      "zh": "双方轮流落子，通过沿直线夹住对方棋子，将其中棋子翻为己色。目标是在终局拥有更多棋子，需要兼顾当前翻转数量和后续可落位置，围绕边线、角落以及对方可能的反夹击安排落点。",
+      "en": "Take turns placing discs to bracket opposing discs along a line and flip them to your color. Finish with the larger disc count, considering both immediate gains and future placements around edges and corners, where a move can also create opportunities for an opponent's reply.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-skyscrapers"
+      ],
+      "zh": "玩家填写楼高，使每行每列的高度都不重复，并满足棋盘边缘的可见楼数提示。较高建筑会挡住后方矮楼，需要从两端比较视线，逐步确定同一组高度在行列中的排列。",
+      "en": "Arrange building heights without repetition in any row or column, matching the visibility counts around the board. Taller buildings hide shorter ones behind them, so the same set of heights must be ordered to give the correct view from each indicated side.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-slitherlink"
+      ],
+      "zh": "玩家沿网格边画线，组成一条单独的闭合回路，让每个数字周围被选中的边数符合提示。每段线都必须属于同一条回路，局部计数与整体连通需要共同满足，最终让路线首尾相接。",
+      "en": "Draw grid edges to make one closed loop, matching the number of selected edges around each numbered cell. Every selected segment must belong to the same route, connecting the local edge counts into one uninterrupted circuit across the board.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-sokoban"
+      ],
+      "zh": "玩家在网格仓库中移动，把箱子推到指定目标格。箱子只能推不能拉，推入角落或互相堵住可能无法恢复，需要先安排人物站位与箱子移动次序，再逐步把全部箱子送到目标上。",
+      "en": "Move through the warehouse and push crates onto the marked target squares. Crates can be pushed but not pulled, so corners and blocked routes can create irreversible deadlocks; arrange both the player's access and the order of pushes before committing each crate to a path.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gamereplica-takuzu"
+      ],
+      "zh": "玩家把空格填成黑或白，使每行每列两色数量相等，且横竖都没有连续三个同色格。需要结合已给颜色判断必须填哪一色，避免局部连续性正确却让整行或整列的颜色总数失衡。",
+      "en": "Fill cells black or white so both colors occur equally often in every row and column, with no horizontal or vertical run of three matching cells. Use the given colors to constrain each choice while keeping the final color totals possible in both directions.",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "basis": "official-rule-family",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gardner-chess"
+      ],
+      "zh": "双方在 5×5 棋盘上用王、后、车、象、马和兵展开攻防，以将死对方国王为目标。空间缩小后，棋子更容易直接相遇，需要在每次交换与移动中兼顾自己的威胁和国王安全。",
+      "en": "Play chess with kings, queens, rooks, bishops, knights and pawns on a compact 5×5 board. Aim for checkmate while watching how the reduced space brings pieces into contact, making each exchange or relocation matter for both your attack and the king's safety.",
+      "source": "https://arxiv.org/abs/2303.17503",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Minichess#5%C3%975_chess",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "generation-zero"
+      ],
+      "zh": "玩家探索架空瑞典，搜集武器与补给，通过观察机器敌人的弱点选择伏击和交火方式。战斗准备与资源管理贯穿探索，需要判断何时主动接敌、何时绕行或补充物资，维持继续行动的条件。",
+      "en": "Explore an alternate Sweden, scavenge equipment and study machines for weaknesses before engaging them. Combine ambushes and combat with resource management, deciding when to attack, avoid an encounter or replenish supplies so that the next stretch of exploration remains possible.",
+      "source": "https://store.steampowered.com/app/704270/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/704270/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "genshin-impact"
+      ],
+      "zh": "玩家在提瓦特探索、解谜并完成任务，战斗时切换不同角色，让元素技能相互配合。探索所得支持角色发展，新的队伍组合又改变解谜和交战方式，使旅途在发现与培养之间持续推进。",
+      "en": "Explore Teyvat, solve puzzles and complete quests, switching characters during combat to combine elemental effects. Discoveries support character development, while different party combinations change how you approach encounters and environmental obstacles, linking travel and preparation with the next challenge.",
+      "source": "https://genshin.hoyoverse.com/en/game",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://genshin.hoyoverse.com/en/game",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "geometry-dash"
+      ],
+      "zh": "玩家按关卡节奏点击，控制角色跳跃或飞行，穿过尖刺、平台和固定排列的障碍。动作窗口往往连续相接，需要记住前方变化并保持节奏，让一次成功躲避为下一段操作留下位置。",
+      "en": "Time taps to control jumps or flight through spikes, platforms and patterned obstacles. Successive control windows follow closely, so learn the arrangement ahead and maintain the rhythm, ensuring that clearing one hazard leaves the character properly positioned for the next section.",
+      "source": "https://store.steampowered.com/app/322170/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/322170/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gin-rummy"
+      ],
+      "zh": "双方轮流摸牌、弃牌，把手牌整理成同点数组或同花顺序组，减少无法成组的牌点。取舍一张牌时既要看当前组合，也要考虑它能否补齐后续牌组，逐步改善整手牌的结构。",
+      "en": "Take turns drawing and discarding to organize a hand into matching sets and same-suit runs. Reduce the points left in unmatched cards, judging each draw or discard by both its immediate fit and the combinations it might help complete later.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "go-9x9"
+      ],
+      "zh": "双方在 9×9 棋盘上轮流落子，通过连接棋群、围空和提子争取更多地盘。每次落子既影响局部棋子的存活，也影响其他区域的边界，需要在扩张与保护已有棋形之间取舍。",
+      "en": "Alternate placing stones on a 9×9 board, connecting groups, enclosing territory and capturing opposing stones. Each placement affects local survival and the boundaries of nearby areas, so balance new expansion with protecting formations that are already part of your position.",
+      "source": "https://arxiv.org/abs/2303.17503",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Go_%28game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "goldilocks-is-a-fox"
+      ],
+      "zh": "玩家扮演误入魔法森林的 Goldilocks，通过文字探索童话场景，与熟悉却反常的人物互动。寻找食物与落脚处时，需要检查并使用物品，把对话和环境中的线索组合起来破解谜题。",
+      "en": "As Goldilocks, explore an enchanted forest through text and meet familiar fairy-tale figures behaving in unfamiliar ways. Search for food and shelter by examining and using objects, connecting what characters say with environmental clues to work through the adventure's inventory puzzles.",
+      "source": "https://ifdb.org/viewgame?id=59ztsy9p01avd6wp",
+      "detailUrl": "https://ifdb.org/viewgame?id=59ztsy9p01avd6wp",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gomoku"
+      ],
+      "zh": "双方轮流在棋盘交叉点落子，争取率先横向、纵向或斜向连成五子。每颗新子都可延伸己方威胁或截断对方连线，不同实现也可能设置开局限制和禁手规则。",
+      "en": "Place stones on intersections, trying to be first to make five in a horizontal, vertical or diagonal line. Extend threats and block opposing sequences under the implementation's opening restrictions and forbidden-move rules.",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Gomoku",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "google-snake"
+      ],
+      "zh": "玩家控制不断移动的蛇收集食物，吃到食物后身体增长，留给转向的空间也随之改变。需要一边追逐下一个目标，一边为自己的长身体安排通路，避免撞上障碍或自身。",
+      "en": "Steer a continuously moving snake toward food, which lengthens its body and changes the space available for turning. Pursue the next item while leaving a route for the growing body, avoiding obstacles and the portions of yourself that now occupy the playfield.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gran-turismo-sport"
+      ],
+      "zh": "玩家在赛道中练习制动点、行车线与车辆控制，通过计时或多人比赛争取更快圈速。一个弯道的出弯速度和位置会影响下一段路，整圈节奏由连续的加速、制动和转向共同构成。",
+      "en": "Practice braking points, racing lines and car control in time trials or multiplayer races. Each corner affects the approach to the next section, so connect the whole lap's rhythm, balancing local speed with the position needed to exit a turn cleanly.",
+      "source": "https://www.gran-turismo.com/us/products/gtsport/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.gran-turismo.com/us/products/gtsport/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "griddly-escape-room"
+      ],
+      "zh": "玩家在场景中寻找资源、制作工具，用这些工具清理障碍，逐步打开前往樱桃树的路线。目标不能单靠移动完成，需要先判断通路缺少哪些条件，再把采集、制作和前进衔接起来。",
+      "en": "Gather resources and craft tools to clear a route through the scene toward the cherry tree. Movement alone is insufficient: identify what blocks the next passage, obtain what is needed to remove it, and connect collection and crafting with actual progress toward the destination.",
+      "source": "https://arxiv.org/html/2207.06105",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "griddly-sokoban"
+      ],
+      "zh": "玩家在网格中行走，把箱子逐个推到指定位置，但不能随意把已推走的箱子拉回。需要提前安排推动方向和先后顺序，给人物留下通路，避免箱子卡在角落或互相封堵。",
+      "en": "Walk through the grid and push crates onto their marked destinations, taking care that a push may be irreversible. Plan directions and order in advance, preserving access for the character so that boxes do not trap one another or become stranded in a corner.",
+      "source": "https://arxiv.org/abs/2011.06363",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://griddly.readthedocs.io/en/latest/games/Sokoban/index.html",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gta-v"
+      ],
+      "zh": "玩家在洛圣都切换三位主角，驾驶车辆、参与枪战，推进剧情任务与抢劫行动。自由探索与任务行动交替展开，需要在移动、交战和角色切换之间衔接，完成当前行动所要求的步骤。",
+      "en": "Switch among three protagonists in Los Santos, driving, fighting and carrying out story missions and heists. Move between open exploration and directed operations, connecting travel, combat and changes of character with the steps required by the activity currently underway.",
+      "source": "https://store.steampowered.com/app/271590/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/271590/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "guandan"
+      ],
+      "zh": "四名玩家分成搭档对抗，组合对子、顺子和炸弹等牌型，按规则压过前一手。既要为自己整理出牌顺序，也要为搭档创造机会，以同队整体的出完顺序取得优势。",
+      "en": "Four players compete in partnerships, forming pairs, sequences, bombs and other legal combinations to beat the previous play. Organize the order of your cards and support your partner to secure a favorable finishing order for the pair.",
+      "source": "https://arxiv.org/abs/2602.00676",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Guandan",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "guess-two-thirds-average"
+      ],
+      "zh": "十名玩家在 0–100 之间选择数字，目标是让自己的选择尽量接近全体平均数的三分之二。重复进行时，可以参考之前的群体选择调整估计，但下一轮的目标仍会随着所有人的决定一起变化。",
+      "en": "Ten players choose numbers between 0 and 100, trying to land near two-thirds of the group's mean. In repeated rounds, use earlier choices to revise your estimate, remembering that the next target changes with everyone else's decisions as well as your own.",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2025/file/a46adbe2f0ca0e16ef8857e188991ad7-Paper-Conference.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "gymnasium-cartpole-v1"
+      ],
+      "zh": "控制器只能向左或向右施力移动小车，利用车的位置变化让上方杆保持直立。目标是在轨道边界内持续维持平衡，需要及时修正倾斜，又不能为了扶正杆而把小车推出允许区域。",
+      "en": "Push a cart left or right to balance the pole mounted above it. Keep the pole upright without driving beyond the track bounds, making corrections that address the current tilt while preserving enough space for the adjustments that may be needed next.",
+      "source": "https://gymnasium.farama.org/environments/classic_control/cart_pole/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gymnasium.farama.org/environments/classic_control/cart_pole/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "hanabi"
+      ],
+      "zh": "玩家能看见伙伴的手牌，却看不到自己的牌，需要用有限提示传递颜色或数字信息。每次选择提示、出牌或弃牌，都要结合已知线索，合作按颜色和顺序构建烟花，避免误打破坏进度。",
+      "en": "See your partners' cards but not your own, exchanging limited hints about colors or numbers. Use those clues when deciding to hint, play or discard, coordinating the order of cards so that the group builds its fireworks without wasting progress through a mistaken play.",
+      "source": "https://github.com/google-deepmind/hanabi-learning-environment",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/hanabi-learning-environment",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "her-story"
+      ],
+      "zh": "玩家通过关键词搜索警方访谈录像，观看被检索出的短片段，再依据新发现继续提问和搜索。故事线并非按顺序呈现，需要把零散陈述、人物关系与时间信息拼合起来，理解案件发生了什么。",
+      "en": "Search police interview recordings by keyword, watch short clips and use each discovery to guide another search. The account arrives out of order, requiring you to connect scattered statements, relationships and timing into an understanding of what happened in the case.",
+      "source": "https://store.steampowered.com/app/368370/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/368370/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "hex-11x11"
+      ],
+      "zh": "双方在 11×11 六角棋盘上轮流落子，分别争取连接属于自己的两条对边。每颗棋子既可巩固己方连接，也会压缩对手的通路，需要在局部连接与整盘路线之间作出判断。",
+      "en": "Place stones in turn on an 11×11 hexagonal board, aiming to connect the opposite edges assigned to your color. Each stone can reinforce your own route or restrict the opponent's, so weigh local connections against the path needed across the whole board.",
+      "source": "https://arxiv.org/abs/2303.17503",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "hextris"
+      ],
+      "zh": "玩家旋转中央六边形，让下落彩条落在合适的一侧，再通过连接同色方块进行消除。每次旋转会改变各面的接收位置，需要一边整理已有堆积，一边为随后落下的彩条保留空间。",
+      "en": "Rotate the central hexagon to catch falling colored bars on the side you want, matching colors to clear blocks. Rotation changes the receiving positions, so manage existing stacks while leaving room for incoming pieces before the buildup reaches the boundary.",
+      "source": "https://github.com/Hextris/hextris",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/Hextris/hextris",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "honor-of-kings"
+      ],
+      "zh": "玩家操控分工不同的英雄，通过对线、获取资源和争夺野区发展等级与装备。团队配合推进和防守，争取把交战优势转为地图进展，最终摧毁敌方水晶。",
+      "en": "Control a hero in a five-player team, gaining resources through lanes and jungle objectives to develop levels and equipment. Coordinate attacks and defense, advancing across the map to destroy the opposing crystal.",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/218cd617bd162199a13a5dcdea4a029d-Abstract-Conference.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.honorofkings.com/zh-CN/index.html",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "honor-of-kings-world"
+      ],
+      "zh": "玩家探索王者大陆，运用英雄共鸣和技能组合进行战斗，也可组队挑战秘境与首领。旅途之外还有种植、钓鱼等活动，可以在探索、准备和协作挑战之间安排自己的行动节奏。",
+      "en": "Explore the world and combine hero resonance abilities in combat, with opportunities to team up for dungeons and bosses. Activities such as farming and fishing sit alongside those encounters, letting you alternate exploration and preparation with more focused cooperative challenges.",
+      "source": "https://world.qq.com/",
+      "detailUrl": "https://world.qq.com/",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "incredible-machine"
+      ],
+      "zh": "玩家把各种物件放到场景中，组合出能够运动和相互触发的装置，以完成指定目标。需要观察启动后的碰撞与连锁反应，调整位置或组合，让每个环节都能把作用传递到下一处。",
+      "en": "Arrange objects into a device whose movement and chain reactions accomplish the specified goal. Watch what happens when it runs, then adjust placements or combinations so that one interaction triggers the next and the whole construction reaches the intended result.",
+      "source": "https://arxiv.org/abs/2505.18134",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/The_Incredible_Machine",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "insider"
+      ],
+      "zh": "众人用是非问题逐步猜出目标词，知情的内鬼则在不暴露身份的前提下引导讨论。猜词结束后，大家还要回顾谁提供了异常有效的方向，从参与方式中找出隐藏的内鬼。",
+      "en": "Ask yes-or-no questions to discover a target word while an informed Insider subtly steers the discussion. After solving the word, reconsider who supplied unusually useful direction, separating ordinary participation from guidance that may reveal the person who already knew the answer.",
+      "source": "https://arxiv.org/html/2608.09128v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://oinkgames.com/en/games/analog/insider/",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "iterated-prisoners-dilemma"
+      ],
+      "zh": "双方每轮选择合作或背叛，两人的联合行动决定各自获得的收益。重复交互允许玩家利用之前的选择调整回应，需要在眼前收益与之后可能维持的合作之间作出取舍。",
+      "en": "Choose cooperation or defection each round, with both players' actions determining their payoffs. Repeated interaction lets you respond to earlier behavior, weighing the immediate result of one choice against the cooperation or retaliation it may encourage in the rounds that follow.",
+      "source": "https://github.com/google-deepmind/open_spiel/tree/master/open_spiel/games/iterated_prisoners_dilemma",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/open_spiel/tree/master/open_spiel/games/iterated_prisoners_dilemma",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "jelly-bean-world"
+      ],
+      "zh": "玩家在持续变化的世界中移动，寻找并收集软糖，同时避开不利的洋葱。附近资源逐渐耗尽后，需要继续探索尚未搜集的区域，使眼前采集与寻找下一处资源相互衔接。",
+      "en": "Move through the world collecting jelly beans while avoiding undesirable onions. As nearby resources are depleted, explore new areas to find another supply, connecting immediate collection with a continuing search across the world.",
+      "source": "https://arxiv.org/pdf/2002.06306",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "jewel-of-knowledge"
+      ],
+      "zh": "玩家通过文字探索层层深入的危险洞穴，检查、携带与使用物品来破解挡路谜题。旅程以取得古龙守护的知识宝石为目标，需要把途中发现的线索和工具用到后续障碍上。",
+      "en": "Explore successive layers of dangerous caves through text, examining and using objects to solve obstacles. Work toward recovering the Jewel of Knowledge guarded by ancient dragons, carrying discoveries forward so that clues and tools found earlier can help with later parts of the journey.",
+      "source": "https://ifdb.org/viewgame?id=hu60gp1bgkhlo5yx",
+      "detailUrl": "https://ifdb.org/viewgame?id=hu60gp1bgkhlo5yx",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "keep-talking"
+      ],
+      "zh": "一方看得到炸弹并负责操作模块，另一方只能阅读手册，双方必须靠语言交换信息。需要把装置外观描述清楚，再将手册步骤转为准确操作，在信息分离的条件下共同完成拆弹。",
+      "en": "One player sees and operates the bomb while the others consult a manual without sharing that view. Describe the modules clearly and translate the manual's instructions into precise actions, using conversation to connect information that neither side can fully resolve alone.",
+      "source": "https://store.steampowered.com/app/341800/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/341800/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "kinetix"
+      ],
+      "zh": "玩家控制场景中的电机与推进器，让指定物体发生接触，同时避免规则禁止的碰撞。装置运动会互相影响，需要观察受力后的轨迹，调整控制方式，使整体运动满足当前任务的接触条件。",
+      "en": "Drive motors and thrusters in a two-dimensional rigid-body scene to create required contacts while avoiding forbidden collisions. Watch how the connected objects move under those controls, adjusting the resulting trajectories until the arrangement satisfies the contact conditions of the current task.",
+      "source": "https://arxiv.org/abs/2410.23208",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "kirbys-dream-land"
+      ],
+      "zh": "玩家控制卡比漂浮穿越平台，吸入敌人后再把它们吐出作为攻击，沿关卡向前推进。移动和攻击需要配合，既要越过障碍，也要应对阻挡路线的敌人与最后的首领。",
+      "en": "Float across platforms as Kirby, inhaling enemies and spitting them back out as projectiles. Link movement with attacks while progressing through the stages, finding a way past obstacles and the enemies that obstruct the route before facing the bosses ahead.",
+      "source": "https://arxiv.org/abs/2505.18134",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Kirby%27s_Dream_Land",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "kuhn-poker"
+      ],
+      "zh": "玩家持有隐藏手牌，通过下注、跟注或弃牌争夺底池，并从对方行动推测牌力。Kuhn 使用简化牌组与有限的下注选择，少量信息下的下注和诈唬构成对局核心。",
+      "en": "Play the simplified Kuhn poker variant, using a hidden hand and a limited set of betting decisions to contest the pot. Judge what the opponent's actions suggest about their card, balancing a possible gain against the cost of calling or continuing a bluff.",
+      "source": "https://github.com/thu-nics/MARSHAL",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/thu-nics/MARSHAL",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "leduc-holdem"
+      ],
+      "zh": "玩家根据自己的底牌、公共牌和下注过程决定继续投入或弃牌，争取赢得底池。Leduc 采用简化牌组，公共牌揭示后会改变牌力比较和后续下注选择。",
+      "en": "Use your private card, the public card and the betting history to decide whether to continue or fold in simplified Leduc hold'em. Reassess hand strength as visible information changes, weighing the potential pot against further investment under this variant's own rules.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "level-based-foraging"
+      ],
+      "zh": "多个角色在地图中移动到食物旁，共同执行装载；只有参与者等级之和达到食物要求，才能成功取得。需要协调谁靠近哪一份食物以及何时同时行动，避免单独尝试不足以搬运的目标。",
+      "en": "Move agents next to food and load it together when their combined levels meet the food's requirement. Coordinate who approaches each item and when they act, avoiding isolated attempts on a target that cannot be collected by that agent alone.",
+      "source": "https://arxiv.org/html/2006.07869",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/uoe-agents/epymarl",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "liars-dice"
+      ],
+      "zh": "玩家只看得到自己的骰子，轮流声明全场某个点数至少出现多少次，并选择继续加码或质疑上一声明。判断要结合自身信息与他人的叫价，既不能过早放弃，也要提防不可信的数量。",
+      "en": "See only your own dice while bidding on how many dice of a chosen face exist across all players. Raise the claim or challenge the previous one, using your private information and the sequence of bids to judge whether the total remains plausible.",
+      "source": "https://arxiv.org/html/2608.09128v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Liar%27s_dice",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "limit-holdem"
+      ],
+      "zh": "玩家根据底牌、公共牌与下注历史，选择跟注、按规定额度加注或弃牌，争取赢取底池。固定加注规则限制每轮投入的变化，需要在信息尚不完整时决定继续争取牌局还是及时止损。",
+      "en": "Use private cards, community cards and betting history to call, raise within fixed limits or fold. The prescribed bet sizes constrain how investment changes during a hand, leaving you to judge whether incomplete information justifies continuing to contest the pot.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "links-awakening"
+      ],
+      "zh": "玩家在 Game Boy Color 版本的可湖霖岛上探索，取得新道具并破解地牢谜题，寻找唤醒风之鱼的乐器。新道具会改变能够通过的障碍，需要在地牢挑战与岛屿探索之间连接后续路线。",
+      "en": "Explore Koholint in the Game Boy Color version, collecting items and solving dungeons to find instruments that can awaken the Wind Fish. New equipment changes which obstacles can be crossed, connecting progress inside dungeons with further routes around the island.",
+      "source": "https://arxiv.org/abs/2505.18134",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Link%27s_Awakening",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "llmarena-hanabi-small"
+      ],
+      "zh": "伙伴之间通过规则允许的提示传递手牌信息，协作按颜色与数字顺序打出烟花。玩家需要把提示与自己已知信息结合起来，选择安全的后续行动；本条限于 LLMArena 的小型规则配置。",
+      "en": "Exchange the permitted hints with partners and cooperate to build fireworks in color and number order. Combine those messages with what is already known before choosing the next play, keeping decisions within the small Hanabi configuration used by this particular environment.",
+      "source": "https://aclanthology.org/2024.acl-long.705.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ludicorp-mystery"
+      ],
+      "zh": "玩家通过文字命令调查 Ludicorp 办公楼，逐个检查房间、物品和线索。不同地点的信息共同指向公司迟迟未发布新游戏的原因，需要在调查中将这些发现连接起来。",
+      "en": "Investigate Ludicorp's office through text commands, examining rooms and objects for clues. Connect information from different parts of the building to discover why the company's new game has not been released.",
+      "source": "https://www.ifwiki.org/The_Ludicorp_Mystery",
+      "detailUrl": "https://www.ifwiki.org/The_Ludicorp_Mystery",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ludo"
+      ],
+      "zh": "玩家按掷骰结果选择棋子前进，让各棋子绕过棋盘并进入己方终点区。途中可以击回对手，也可能暴露自己的棋子，需要在推进进度与保护已有位置之间取舍，争取率先全员到达。",
+      "en": "Use dice results to choose which piece advances around the board toward your home area. Send opposing pieces back when possible while protecting your own progress, balancing a faster move with the risk of losing position before all of your pieces reach the finish.",
+      "source": "https://arxiv.org/abs/2604.05681",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Ludo",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-avatar-of-the-wolf"
+      ],
+      "zh": "玩家扮演被谋杀狼神的最后化身，通过文字选项与神祇及其代理人交涉，追查神明死亡的原因。残存的神力让角色成为各方关注的对象，复活狼神、为其复仇或改变神祇秩序构成不同的行动方向。",
+      "en": "Play the murdered Wolf god's last avatar and choose how to deal with other deities and their agents. Your remaining divine power attracts competing interests, with paths involving revival, revenge or an attempt to overturn the pantheon's established order.",
+      "source": "https://store.steampowered.com/app/643570/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/643570/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-battlemage"
+      ],
+      "zh": "玩家从见习骑士的处境出发，通过文字选择修习邮授魔法，在元素、幻术、治疗与死灵等方向发展。参赛、战场表现和宫廷关系提供不同机会，但使用力量也要面对奥术腐化的代价，以及效忠王室或争取自身权力的选择。",
+      "en": "Begin as a squire secretly studying magic by correspondence, choosing among elemental, illusion, healing and necromantic arts. Tournaments, warfare and court relationships offer different opportunities, while arcane corruption creates costs alongside decisions about loyalty and personal power.",
+      "source": "https://store.steampowered.com/app/1663950/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1663950/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-cliffhanger"
+      ],
+      "zh": "玩家扮演复古未来主义世界中的冒险家 Challenger，通过文字选择追查导师被害与自己遭陷害的真相。故事穿梭于三十年代风格的都市、追逐和冒险场景，交涉、行动方式与结盟对象共同决定如何面对阴谋。",
+      "en": "Play Challenger in a retro-futuristic 1930s world, choosing responses after a mentor's murder and an accusation against you. Travel, pursuit and encounters with conspirators turn methods, alliances and personal choices into the means of advancing the adventure.",
+      "source": "https://store.steampowered.com/app/1585050/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1585050/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-death-collector"
+      ],
+      "zh": "玩家作为死亡故事收集者，接触将死之人并获取他们的经历，通过文字选择决定如何使用这些记忆。职业带来的知识可以服务公众，也可以换取名利或权势；故事围绕个人目标、机构要求与历史解释权之间的冲突展开。",
+      "en": "As a Death Collector, acquire the stories of the dying and choose how their memories will be used. Knowledge can serve the public or advance personal ambition, placing professional obligations, institutional power and control over history in conflict.",
+      "source": "https://store.steampowered.com/app/955380/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/955380/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-fate-of-the-storm-gods"
+      ],
+      "zh": "玩家扮演掌管天气的 Weather Builder，运用风、火、土地等自然力量，应对下层人类世界失控的气候。文字选择既涉及如何处置灾害与敌人，也涉及是否修复天气魔法，或利用混乱追求自己的目的。",
+      "en": "As a Weather Builder, wield natural forces while confronting chaotic weather affecting the human world below. Text choices concern disasters, opponents and the use of atmospheric power, including whether to repair the broken magic or exploit its instability.",
+      "source": "https://store.steampowered.com/app/1380120/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1380120/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-hero-of-kendrickstone"
+      ],
+      "zh": "玩家以初出茅庐的冒险者身份进入受邪恶巫师威胁的 Kendrickstone，通过战斗、魔法、潜行或交涉解决问题。名声、伙伴关系与日常开销同时影响旅程，需要在成长、谋生和拯救城市之间安排自己的选择。",
+      "en": "Enter Kendrickstone as a novice adventurer and confront its threats through combat, magic, stealth or diplomacy. Reputation, allies and living expenses all matter, so choices link personal development and making a living with the effort to save the city.",
+      "source": "https://store.steampowered.com/app/356000/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/356000/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-hero-project-open-season"
+      ],
+      "zh": "玩家参加超级英雄真人秀，通过竞赛表现、结盟与公众形象选择争取影响力。随着威胁世界的阴谋显现，节目中的关系与利益又与更大的危机相连，需要决定如何使用能力，以及为谁承担风险。",
+      "en": "Compete in a superhero reality show through performance, alliances and decisions affecting public perception. A wider conspiracy connects the competition to a threat against the world, making the use of powers and obligations toward others part of the story.",
+      "source": "https://store.steampowered.com/app/838050/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/838050/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-hero-project-redemption-season"
+      ],
+      "zh": "玩家参加超级英雄竞赛，利用每天变化的动物特征争取观众支持，并设法帮助自己的妹妹。通过文字选项安排表现与关系，在竞争目标、个人诉求和对其他超能力者的责任之间作出取舍。",
+      "en": "Compete with changing animal traits to gain audience support while pursuing a personal goal involving your sister. Text choices shape performances and relationships, placing competitive success alongside individual needs and responsibilities toward other Powered people.",
+      "source": "https://store.steampowered.com/app/459310/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/459310/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-heroes-of-myth"
+      ],
+      "zh": "玩家扮演曾用幻术伪造救世预言的成名英雄，却发现当年的假预言开始真正应验。需要通过文字选择重新联系伙伴、应对新威胁，并决定继续掩盖秘密，还是尝试成为众人相信的那种英雄。",
+      "en": "Play a celebrated hero whose earlier victory was fabricated with illusions, only to see the false prophecy begin coming true. Choices involve former companions, emerging threats and whether to protect the deception or become the hero others believe you are.",
+      "source": "https://store.steampowered.com/app/1110030/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1110030/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-hollywood-visionary"
+      ],
+      "zh": "玩家经营二十世纪五十年代的电影事业，通过文字选择决定影片方向、演员、合作人员与宣传安排。创作抱负与片厂资源、行业关系和私人生活彼此牵动，可以追求奖项、商业成功或具有个人风格的作品。",
+      "en": "Run a movie career in 1950s Hollywood, choosing a production's genre, cast, collaborators and publicity. Creative ambitions interact with resources, industry relationships and personal life, allowing different priorities such as awards, commercial success or a distinctive film.",
+      "source": "https://store.steampowered.com/app/365210/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/365210/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-i-cyborg"
+      ],
+      "zh": "玩家扮演星际亡命之徒的赛博格复制体，在遭到追捕的同时寻找修复衰退电子大脑的稀有部件。文字选择涵盖逃亡、交涉、能力升级与劫案准备，需要在危险旅程中判断能依赖哪些人和哪些自身能力。",
+      "en": "Play a cyborg copy of an interstellar outlaw seeking a rare part to repair a failing brain while enemies pursue you. Choices connect travel, encounters, upgrades and heist plans, with survival depending on how abilities and relationships are used.",
+      "source": "https://store.steampowered.com/app/868780/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/868780/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-kidnapped"
+      ],
+      "zh": "玩家扮演生日当天被囚禁的王室继承人，不能只等待营救，而要通过文字选择带领并应对前来救援的队伍。逃离高塔、识破夺位阴谋与恢复继承权彼此相连，战斗、魔法、机智与关系选择都能参与解决困境。",
+      "en": "Play a royal heir imprisoned on a birthday and take an active role in directing an imperfect rescue party. Escaping the tower, uncovering the succession plot and reclaiming status involve choices using force, magic, wit and relationships.",
+      "source": "https://store.steampowered.com/app/1356440/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1356440/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-kung-fu"
+      ],
+      "zh": "玩家通过文字选择修炼武学与内在力量，在比试、对手和人际关系中塑造自己的道路。成为帝国冠军可带来向百年才开口一次的神龙圣者求问的机会，故事也允许在功名、政治立场与个人觉悟之间作出不同选择。",
+      "en": "Develop martial skill and inner power through choices involving contests, rivals and relationships. Becoming Imperial Champion offers a chance to question the Dragon Sage, while the story also presents different priorities involving political allegiance, personal achievement and enlightenment.",
+      "source": "https://store.steampowered.com/app/423440/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/423440/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-luminous-underground"
+      ],
+      "zh": "玩家经营一支灵异清除小队，接受闹鬼地铁的工作，用文字选择安排队员、装备与事件处理。竞争公司、资金和市政要求使行动不只涉及驱散怪物，也涉及团队合作、雇佣关系以及如何维持自己的事业。",
+      "en": "Run a spirit-extermination team taking a contract in a haunted subway, choosing how to manage people, equipment and encounters. Rival firms and civic demands complicate the work, linking supernatural threats with teamwork and the practical pressures of running a business.",
+      "source": "https://store.steampowered.com/app/1362520/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1362520/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-metahuman-inc"
+      ],
+      "zh": "玩家作为出售超能力公司的负责人，通过文字选择招聘科学家或术士、研发产品，并应对股东与竞争者。魔法、未来技术和商业手段共同构成经营工具，企业收益、个人权力与公司造成的社会后果之间可能发生冲突。",
+      "en": "Lead a corporation selling superpowers, choosing staff, research and responses to shareholders or rivals. Magic, advanced technology and business tactics provide different tools, while profit, personal power and the consequences of the company's actions can pull in different directions.",
+      "source": "https://store.steampowered.com/app/426330/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/426330/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-midsummer-nights-choice"
+      ],
+      "zh": "玩家为逃离被安排的婚姻而伪装进入魔法森林，遇到身份错置、仙灵和不同的感情纠葛。通过文字对话与行动选择应对追踪和误解，决定信任谁、如何保持伪装，以及要追寻怎样的生活。",
+      "en": "Flee an arranged marriage in disguise and enter an enchanted forest of mistaken identities, fairies and romantic complications. Conversations and choices concern pursuit, trust and maintaining the disguise while determining which relationships and future to pursue.",
+      "source": "https://store.steampowered.com/app/520150/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/520150/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-mysteries-of-baroque"
+      ],
+      "zh": "玩家被疯狂科学从死亡中唤回，却发现复活效果正在逆转，需要在有限生命中追查凶手并保护重要之人。文字选择围绕复仇、正义、关系与禁忌力量展开，调查将角色带往 Baroque 城市的不同阶层与阴暗角落。",
+      "en": "Return from death through mad science, only to learn that the restoration is reversing. Choices guide the search for the killers through Baroque's social layers, linking justice or revenge with relationships, forbidden power and the need to remain alive.",
+      "source": "https://store.steampowered.com/app/944650/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/944650/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-pendragon-rising"
+      ],
+      "zh": "玩家作为 Pendragon 的非婚生后代，率领不列颠军队对抗敌人与黑暗魔法，并争取自己的王位。通过文字选项决定正面作战还是谋略取胜，同时建立盟友、处理亲密关系，影响人民与自身的未来。",
+      "en": "As Pendragon's illegitimate child, lead Britons against enemies and dark magic while pursuing a claim to the throne. Choices guide direct combat or deception, alliances and personal relationships, connecting the campaign to the future of both ruler and people.",
+      "source": "https://store.steampowered.com/app/423320/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/423320/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-ratings-war"
+      ],
+      "zh": "玩家扮演 2061 年配有义眼摄像机的记者，在 New Angeles 一边追查案件，一边记录并争取报道机会。文字选择涉及新闻事实、个人名声、媒体要求与竞争者，揭露阴谋不一定意味着素材就能顺利播出。",
+      "en": "Report from New Angeles in 2061 using cybernetic camera eyes, investigating cases while competing for coverage and influence. Choices place evidence, fame, newsroom demands and rivals in tension; discovering a story and getting it broadcast are separate challenges.",
+      "source": "https://store.steampowered.com/app/406650/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/406650/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-sea-eternal"
+      ],
+      "zh": "玩家进入水下的玻璃城，在看似永生的社会中接触人鱼、秘密与相互冲突的诉求。通过文字选择决定如何面对永生遭到威胁后的局势，并在爱情、记忆、自由与自身愿望之间衡量代价。",
+      "en": "Explore the underwater City of Glass, meeting merfolk whose apparent immortality hides conflicts and secrets. When that gift is threatened, choices concern how to respond and what costs in love, memory or freedom are acceptable for personal desires.",
+      "source": "https://store.steampowered.com/app/463320/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/463320/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-seventh-sea-a-pirates-pact"
+      ],
+      "zh": "玩家通过文字选项参与海上冒险，与伙伴共同面对威胁，在行动与交涉中争取营救朋友的机会。故事围绕自由与不公展开，需要决定为伙伴承担哪些风险，以及为了坚持自己的立场愿意付出什么代价。",
+      "en": "Take part in a sea adventure through text choices, working with companions against threats while attempting to rescue friends. The story centers on freedom and injustice, asking which risks to accept for others and what to sacrifice for personal convictions.",
+      "source": "https://www.choiceofgames.com/seventh-sea-a-pirates-pact/",
+      "detailUrl": "https://www.choiceofgames.com/seventh-sea-a-pirates-pact/",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-slammed"
+      ],
+      "zh": "玩家从追求成名的职业摔跤手起步，通过文字选择发展力量、技巧、空中动作或赛前演说能力。赛场剧本与真实冲突相互交错，观众期待、管理层要求和伙伴关系共同影响职业道路，有时体面的失败也可能服务于更大的目标。",
+      "en": "Build a professional-wrestling career through choices developing power, technique, aerial skills or promos. Scripted performances overlap with real conflicts, and audience expectations, management and relationships complicate success, which does not always mean winning the next match.",
+      "source": "https://store.steampowered.com/app/343370/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/343370/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-t-rex-time-machine"
+      ],
+      "zh": "玩家作为物理学生将车辆改装为时光机，前往恐龙时代探索、拍摄，并证明自己的研究成果。文字选择要同时处理古生物带来的求生危险和竞争者的威胁，在收集记录与设法安全返回之间安排冒险。",
+      "en": "Travel to the age of dinosaurs as a physics student using a converted vehicle to document discoveries and defend a research claim. Choices balance observation and filming against dangerous wildlife, a rival's interference and the need to return safely.",
+      "source": "https://store.steampowered.com/app/763950/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/763950/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-tower-behind-the-moon"
+      ],
+      "zh": "玩家扮演准备飞升不朽的大法师，在天象交会前利用自己的高塔、力量和人际网络完成准备。诸神与宿敌同时介入，文字选择需要决定如何应对要求、保护追随者，并在不朽与毁灭之间寻找道路。",
+      "en": "Prepare for immortality as an archmage before a rare celestial conjunction, using a tower, magical power and relationships. Gods and enemies intervene, turning choices about their demands and the safety of followers into part of the path toward ascension or destruction.",
+      "source": "https://store.steampowered.com/app/1001490/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1001490/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-trials-of-the-thief-taker"
+      ],
+      "zh": "玩家在 1729 年的伦敦充当受雇捕盗者，追索财物、搜寻罪犯，并通过文字选择决定如何处理目标。可以借助武力、诡计或关系推进工作，也要在赏金、宽恕和逐渐卷入犯罪势力的机会之间取舍。",
+      "en": "Work as a hired thief-taker in 1729 London, recovering property and pursuing suspects through text choices. Force, cunning and connections provide different methods, while rewards, mercy and opportunities to enter the criminal world create competing priorities.",
+      "source": "https://store.steampowered.com/app/688000/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/688000/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-undercover-agent"
+      ],
+      "zh": "玩家以企业助理身份潜伏，调查秘密制造的致命生物武器，却发现对方已开始搜寻内鬼。通过文字选择安排窃听、黑客入侵、伪装与脱身，需要在保护身份、处理卧底关系和完成任务之间持续应变。",
+      "en": "Work undercover as a business assistant searching for a deadly biological weapon while a mole hunt begins. Text choices include surveillance, hacking, deception and escape, linking the mission to maintaining cover and deciding how to treat relationships formed during the infiltration.",
+      "source": "https://store.steampowered.com/app/786290/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/786290/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-vampire-the-masquerade-parliament-of-knives"
+      ],
+      "zh": "玩家作为吸血鬼卷入渥太华亲王失踪后的权力争夺，通过文字选择调查、结盟或利用局势挑战上位者。古老氏族的利益与自身创造者的要求彼此交错，政治谋略、忠诚与暴力都可能改变在宫廷中的位置。",
+      "en": "Enter Ottawa's vampire power struggle after its Prince disappears, choosing investigation, alliances or attempts to challenge superiors. Clan interests and obligations to a sire intersect, with political tactics, loyalty and violence offering different routes through the undead court.",
+      "source": "https://store.steampowered.com/app/1266100/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1266100/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-versus-deathscapes"
+      ],
+      "zh": "玩家与盟友在 Versus 星球出现新威胁后进入危险的 Deathscapes，通过文字选择寻找生存与揭开秘密的机会。旅程连接不同世界、势力政治和人物关系，需要在记忆、战斗与个人目标之间决定下一步行动。",
+      "en": "Enter the Deathscapes with allies after a new threat appears on Versus, making choices to survive and uncover its secrets. Journeys connect different worlds, political powers and relationships, linking memories, conflict and personal goals to the next action.",
+      "source": "https://store.steampowered.com/app/1585130/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1585130/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-versus-the-lost-ones"
+      ],
+      "zh": "玩家被带到陌生的 Versus 星球，可以夺取他人的能力并吸收记忆，以应对竞技、生存和派系冲突。文字选择不仅决定战斗方式，也影响与其他囚徒的关系，以及是否能利用获得的知识与力量逃离困境。",
+      "en": "Stranded on Versus, steal powers and absorb memories to face combat, survival pressures and factional conflict. Text choices determine how those abilities are used and how other captives are treated, connecting new knowledge and relationships to hopes of escape.",
+      "source": "https://store.steampowered.com/app/396230/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/396230/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "machiavelli-werewolves-haven-rising"
+      ],
+      "zh": "玩家扮演在收容营中长大的狼人，在一次越界探索后卷入军方与激进族人的冲突。通过文字选择决定战斗、交涉和结盟方式，在争取族群自由、保护伙伴与面对暴力升级之间寻找自己的立场。",
+      "en": "Play a werewolf raised in an internment camp whose expedition brings conflict with the military and radical pack members. Choices guide combat, negotiations and alliances while placing the search for freedom alongside loyalty to companions and responses to escalating violence.",
+      "source": "https://store.steampowered.com/app/885120/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/885120/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "magic-the-gathering"
+      ],
+      "zh": "玩家先构筑牌组，再以地牌提供法术力，施放生物、法术和其他卡牌参与攻防。每回合都要安排资源与出牌顺序，利用卡牌之间的配合建立优势，同时应对对手不断改变的场面。",
+      "en": "Build a deck, use lands to supply mana and cast creatures, spells and other cards during play. Order your resource use and actions to create useful combinations, developing an advantage while responding to the changing board and the options the opponent presents.",
+      "source": "https://arxiv.org/abs/2605.06066",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Magic:_The_Gathering",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "mahjong"
+      ],
+      "zh": "玩家通过摸牌和弃牌整理手牌，结合牌河及其他可见信息判断成型机会与风险。推进牌型和防范对手之间需要不断取舍，不同规则对可用牌型、计分与结束条件有不同规定。",
+      "en": "Draw and discard tiles to develop a hand, using the discards and other visible information to judge both opportunity and risk. Balance improvement of your own shape against helping opponents, following the selected ruleset for legal hands, scoring and how a round ends.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "marbo-among-us"
+      ],
+      "zh": "船员在场景中完成任务，并通过讨论和投票寻找、驱逐内鬼；内鬼则隐藏身份，利用击杀阻止船员达成目标。行动与发言要相互对应，既要处理眼前任务，也要解释自己在地图上的行为。",
+      "en": "Crewmates complete tasks and use discussion and votes to find impostors, while impostors hide their identities and kill to prevent a crew victory. Connect movement with what you say about it, managing immediate objectives alongside the suspicions created by observed behavior.",
+      "source": "https://arxiv.org/html/2609.06563",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "marbo-werewolf"
+      ],
+      "zh": "狼人隐藏身份并争取形成数量优势，好人则需要辨别阵营并淘汰全部狼人。玩家围绕已有信息展开讨论和投票，既判断他人说法，也决定如何披露自己的信息，以推动本阵营接近胜利。",
+      "en": "Werewolves conceal their identities while seeking numerical dominance, and villagers try to eliminate every werewolf. Discuss the available information and vote on suspects, weighing other players' accounts against what you reveal about yourself to move your side toward its victory condition.",
+      "source": "https://arxiv.org/html/2609.06563",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "mars"
+      ],
+      "zh": "玩家在地形、生存规则和任务依赖发生变化的世界中，采集材料、制作物品并解锁成就。熟悉的行动未必仍有相同前提，需要查看当前世界的资源关系，再安排获取工具与维持生存的步骤。",
+      "en": "Gather materials, craft items and unlock achievements in worlds whose terrain, survival rules and task dependencies can change. Check the current relationships between resources and tools before acting, since a familiar action may require different preparation in this particular world.",
+      "source": "https://arxiv.org/html/2504.15785",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "marshal-mini-hanabi"
+      ],
+      "zh": "玩家看得到伙伴的牌，却看不到自己的手牌，依靠受限提示判断何时出牌。MARSHAL 的 Mini Hanabi 配置提供特定牌组与提示限制，大家在这些条件下协作构建有序烟花。",
+      "en": "See your partners' cards while relying on limited hints about your own hidden hand. Work together to build ordered fireworks using the deck and hint restrictions of MARSHAL's Mini Hanabi configuration.",
+      "source": "https://arxiv.org/abs/2510.15414",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "marshal-simple-hanabi"
+      ],
+      "zh": "玩家通过有限提示交换信息，在看不到自己手牌的情况下协作打出有序烟花。MARSHAL 的 Simple Hanabi 配置规定可用出牌、弃牌和提示动作，各次选择与队友已掌握的信息相互关联。",
+      "en": "Coordinate ordered fireworks through limited hints while your own hand remains hidden. MARSHAL's Simple Hanabi configuration sets the available plays, discards and clues, with each action shaped by what teammates have already learned.",
+      "source": "https://arxiv.org/abs/2510.15414",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "marvel-s-spider-man-2"
+      ],
+      "zh": "玩家在两位蜘蛛侠之间切换，摆荡穿越纽约、处理犯罪事件并推进剧情任务。两人不同的能力用于移动和战斗，需要把快速接近目标与现场应对衔接起来，在城市探索和连续任务之间安排节奏。",
+      "en": "Switch between two Spider-Men, swing across New York and respond to crimes and story missions. Use their distinct abilities in movement and combat, connecting rapid travel with the demands of each encounter as exploration and directed tasks alternate throughout the city.",
+      "source": "https://store.steampowered.com/app/2651280/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/2651280/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "mate"
+      ],
+      "zh": "多台摄像机共同跟踪移动目标，通过调整覆盖方向尽量让目标持续处于视野内。彼此重叠过多会浪费可用覆盖范围，需要根据目标移动和其他摄像机的位置分配观察区域，减少遗漏与重复。",
+      "en": "Coordinate several cameras to keep moving targets within their combined fields of view. Excessive overlap wastes coverage, so adjust the areas watched in response to target movement and the other cameras, balancing continued tracking of known targets against gaps elsewhere.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2022/file/b2a1c152f14a4b842a9ddb3bd84c62a1-Paper-Datasets_and_Benchmarks.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "meltingpot-clean-up"
+      ],
+      "zh": "玩家在采集可获得收益的资源与清理公共河流之间分配行动，两者共同影响场景的持续运作。需要观察伙伴是否承担清理工作，再调整自己的投入，使眼前收集与公共环境维护能够衔接。",
+      "en": "Divide actions between harvesting resources and cleaning a shared river, whose upkeep supports the ongoing activity. Observe how co-players distribute that work and adjust your own contribution, balancing immediate collection with the maintenance needed to keep the common environment useful.",
+      "source": "https://github.com/rstrivedi/Melting-Pot-Contest-2023",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/rstrivedi/Melting-Pot-Contest-2023",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "memory-gym"
+      ],
+      "zh": "这些环境包含观察指令序列并按顺序重演等任务，序列可能不断变长。先前出现的内容决定之后的操作，不同场景分别用各自的显示与控制方式组织记忆挑战。",
+      "en": "These environments include observing a sequence of instructions and replaying it in order as the sequence grows. Earlier observations determine later actions, with distinct tasks providing their own controls, displays and memory requirements.",
+      "source": "https://github.com/MarcoMeter/endless-memory-gym",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/MarcoMeter/endless-memory-gym",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "memory-maze"
+      ],
+      "zh": "玩家在迷宫中重复寻找目标，逐渐记住通道、障碍和目标所在位置，再利用这些信息导航。新一轮寻找时，需要把当前看到的局部环境与之前的路线联系起来，减少无目的地重复探索。",
+      "en": "Search repeatedly for targets in a maze, remembering corridors, obstacles and useful locations from earlier visits. Link the current local view with those stored routes when choosing a direction, using familiarity with the layout to avoid unnecessarily exploring the same passages again.",
+      "source": "https://arxiv.org/abs/2210.13383",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/jurgisp/memory-maze",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "messenger"
+      ],
+      "zh": "玩家先在网格中取得信件，再把它送到正确的目标位置，同时避开沿途敌人。场景里的文字说明帮助辨认对象与角色关系，需要把描述对应到当前布局，安排先取信、后送达的路线。",
+      "en": "Collect a message in the grid and deliver it to the correct destination while avoiding enemies. Use the accompanying textual descriptions to identify the relevant objects and roles, connecting that information with the layout to plan collection first and a safe delivery afterward.",
+      "source": "https://github.com/ahjwang/messenger-emma",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/ahjwang/messenger-emma",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "microrts"
+      ],
+      "zh": "玩家安排工人采集资源，建立生产条件并制造部队，再指挥军队攻击敌方基地。采集与战斗会同时争夺单位和资源，需要让后方供应跟上前线行动，逐步把经济投入转化为地图优势。",
+      "en": "Assign workers to gather resources, establish production and create units before directing forces against the opposing base. Gathering and combat compete for attention and resources, so keep the supply behind the front aligned with the units and pressure needed on the map.",
+      "source": "https://github.com/Farama-Foundation/MicroRTS",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/Farama-Foundation/MicroRTS",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "minecraft"
+      ],
+      "zh": "玩家探索由方块组成的世界，采集材料、合成工具并搭建建筑，逐步改变周围环境。生存模式加入生命、饥饿和资源约束，创造模式则提供自由建造空间，支持不同节奏的探索与搭建。",
+      "en": "Explore a block-built world, collect materials, craft tools and build structures that reshape the surroundings. Survival mode adds health, hunger and resource constraints, while Creative supports free construction, so the activities and preparation needed depend on the mode in use.",
+      "source": "https://www.minecraft.net/en-us/article/what-minecraft",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.minecraft.net/en-us/article/what-minecraft",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "minesweeper"
+      ],
+      "zh": "玩家翻开格子，依据数字提示推断周围地雷位置，标记危险并继续寻找安全落点。每次揭示都会带来新的邻接信息，需要把多个数字的约束合在一起判断，最终翻开全部非雷格。",
+      "en": "Reveal squares and use their numbers to infer nearby mines, marking hazards while looking for another safe choice. Each reveal adds information about adjacent cells, so combine the constraints from several clues to uncover every non-mine square without triggering a mine.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Minesweeper_%28video_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "mini-hok"
+      ],
+      "zh": "队员合作对抗黑暗暴君，利用各自行动持续造成伤害，并应对它随机释放的技能。需要根据当前技能和队友状态调整接近、攻击与支援的时机，使队伍在变化的交战过程中保持输出。",
+      "en": "Work together to damage the Dark Dragon while responding to its randomly selected skills. Adjust the timing of approaches, attacks and support to the ability currently being used and teammates' positions, keeping the group effective as the encounter changes around them.",
+      "source": "https://arxiv.org/html/2406.03978v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "mini-metro"
+      ],
+      "zh": "玩家为不断扩张的城市连接车站，安排线路和列车，把乘客送到需要的地点。新站点与乘客增长会改变原有路网的负担，需要重新分配有限运力，避免部分车站长期积压。",
+      "en": "Connect stations and assign routes and trains to transport passengers as a city expands. New stations and growing demand change the load on the network, requiring you to redistribute limited capacity and revise connections before crowded locations overwhelm the service.",
+      "source": "https://store.steampowered.com/app/287980/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/287980/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "mini-rts"
+      ],
+      "zh": "玩家采集资源、建造设施并生产部队，最终摧毁对手基地。这里的对局分别面对 SIMPLE 与 HIT N RUN 规则对手，需要观察其行动方式，在基地发展和部队调遣之间安排相应的攻防节奏。",
+      "en": "Gather resources, construct facilities and produce units to destroy the opposing base. Matches use the SIMPLE and HIT N RUN rule-based opponents, requiring you to observe their behavior and connect base development with the timing and positioning of your own forces.",
+      "source": "https://arxiv.org/abs/1707.01067",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "minigrid"
+      ],
+      "zh": "角色在由钥匙、门、物体和障碍组成的网格中移动、转向、拾取与交互，完成当前关卡目标。行动前要辨认对象和通路，必要时先取得钥匙或处理阻挡，再继续推进到目标位置。",
+      "en": "Move, turn, pick up objects and interact with doors in a grid containing keys, obstacles and goals. Identify the relevant objects and route for the current level, obtaining a key or handling an obstruction when required before continuing toward the destination.",
+      "source": "https://github.com/Farama-Foundation/Minigrid",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/Farama-Foundation/Minigrid",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "minihack"
+      ],
+      "zh": "这些小型地牢把迷宫、河流、巨石、怪物与物品组合成不同挑战，玩家通过移动和物体使用抵达目标。可用工具与障碍的相互作用决定通路，探索和处理阻挡共同推进任务。",
+      "en": "Navigate small dungeons assembled from mazes, rivers, boulders, monsters and items, using movement and object interactions to reach the goal. Some routes require dealing with an obstacle first, so identify the tools available in the current task before simply advancing toward the destination.",
+      "source": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "monkey-mart"
+      ],
+      "zh": "玩家种植和收获商品，把货物补到货架上，再收银并使用收入购买升级。经营规模扩大后，不同工序对行动的需求也会增长，需要在生产、补货和服务之间循环，保持商店持续运转。",
+      "en": "Grow and harvest goods, restock the shelves, serve customers and spend the income on upgrades. As the shop expands, different stages demand more work, requiring you to circulate between production, stocking and service so that growth does not interrupt the flow of business.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "moonlit-tower"
+      ],
+      "zh": "玩家通过文字探索月光中的高塔，检查面具等物品，并尝试找出它们的用途。环境和物品谜题逐渐揭示角色的身份与记忆，需要把新发现带回先前未解的细节，推进对整座塔的理解。",
+      "en": "Explore a moonlit tower through text, examining masks and other objects to discover their uses. Environmental and inventory puzzles gradually reveal the protagonist's identity and memories, asking you to connect new findings with details that were difficult to interpret earlier.",
+      "source": "https://www.ifwiki.org/The_Moonlit_Tower",
+      "detailUrl": "https://www.ifwiki.org/The_Moonlit_Tower",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "mortal-kombat-ii"
+      ],
+      "zh": "玩家在一对一交战中利用普通攻击、特殊招式、跳跃和防御削减对手生命，争取赢得回合。距离与出招时机决定攻守转换，取得胜利后还可以按相应条件施展终结技。",
+      "en": "Fight one-on-one using normal attacks, special moves, jumps and blocks to take the round. Manage distance and timing as offense changes into defense, responding to the opponent's openings before victory creates the opportunity to perform the game's finishing moves.",
+      "source": "https://arxiv.org/html/2510.08928#S3",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat_II",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "mpe-simple-spread"
+      ],
+      "zh": "三个角色需要移动到三个地标附近，同时避免彼此碰撞。共享空间把各人的路线联系在一起，队伍通过分配不同目的地，使地标获得完整覆盖。",
+      "en": "Move three agents to cover three landmarks while avoiding collisions with one another. Shared space connects their routes, and distributing the agents across different destinations determines how well the whole scene is covered.",
+      "source": "https://www.jmlr.org/papers/volume24/23-0378/23-0378.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://mpe2.farama.org/environments/simple_spread/",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "multi-robot-warehouse"
+      ],
+      "zh": "机器人需要找到指定货架，将其运到工作站，再把货架送回仓储区。多台机器人共用狭窄通道，取送任务会相互影响，需要协调路线和通行顺序，避免堵住彼此的后续工作。",
+      "en": "Fetch requested shelves, deliver them to workstations and return them to storage. Multiple robots share the same aisles, so coordinate routes and passage order as tasks overlap, preventing one delivery from blocking the access another robot needs for its own work.",
+      "source": "https://github.com/uoe-agents/robotic-warehouse",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/uoe-agents/robotic-warehouse",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie00"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Jason Bourne，通过自由文本描述对话和行动。故事从海上获救、失去记忆和追查身份线索展开，需要在调查过去的同时应对不断逼近的追捕。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Jason Bourne through free-form dialogue and actions in a narrative adaptation of The Bourne Identity. The story follows an amnesiac rescued at sea who investigates clues to his identity while facing pursuit by people connected to his past. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie00.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie00.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie01"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Ethan Hunt，通过自由文本描述对话和行动。一场布拉格情报任务失败后，角色卷入内鬼疑云，需要通过调查、联络和潜入行动厘清任务背后的真相。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Ethan Hunt through free-form dialogue and actions in a narrative adaptation of Mission Impossible. A failed intelligence operation in Prague leads to suspicions of a mole, with investigation, contacts and infiltration shaping the unfolding espionage story. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie01.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie01.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie02"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Indiana Jones，通过自由文本描述对话和行动。冒险围绕古物争夺展开，既有古庙中的机关与脱险，也有考古线索和竞争者引出的后续调查。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Indiana Jones through free-form dialogue and actions in a narrative adaptation of Raiders of the Lost Ark. The adventure revolves around contested antiquities, combining escapes from temple traps with archaeological clues and interference from rival treasure hunters. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie02.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie02.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie03"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Indiana Jones，通过自由文本描述对话和行动。从上海的一次危险交易出发，故事转向印度村落失去圣物的危机，行动涉及逃脱、探查和帮助遇险者。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Indiana Jones through free-form dialogue and actions in a narrative adaptation of Indiana Jones and the Temple of Doom. An escape from a dangerous Shanghai deal leads to an Indian village's missing sacred objects, with flight, investigation and rescue driving the adventure. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie03.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie03.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie04"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 James Bond，通过自由文本描述对话和行动。角色刚取得双零特工资格，就沿着爆破嫌疑人与资金往来的线索展开调查，并逐步卷入更大的间谍冲突。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play James Bond through free-form dialogue and actions in a narrative adaptation of Casino Royale. A newly appointed double-0 agent follows a bomb-maker and financial connections, turning an initial pursuit into a broader espionage confrontation. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie04.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie04.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie05"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Red Grant，通过自由文本描述对话和行动。局势围绕一台密码设备与针对邦德的陷阱展开，玩家从刺客一方参与接触、伪装与行动安排。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Red Grant through free-form dialogue and actions in a narrative adaptation of From Russia with Love. A cryptographic device becomes bait in a plot against Bond; the player's assassin role participates in contacts, deception and the developing operation. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie05.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie05.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie06"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Jake LaMotta，通过自由文本描述对话和行动。故事在拳击生涯与私人关系之间展开，比赛机会、家庭冲突和人物间的信任共同影响角色处境。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Jake LaMotta through free-form dialogue and actions in a narrative adaptation of Raging Bull. The narrative moves between a boxing career and private relationships, linking opportunities in the ring with family conflict, ambition and trust. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie06.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie06.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie07"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Apollo Creed，通过自由文本描述对话和行动。作为重量级拳王，角色面对原定对手受伤后的比赛安排，需要与一名不被看好的当地拳手共同进入冠军赛故事。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Apollo Creed through free-form dialogue and actions in a narrative adaptation of Rocky. The champion must respond when his scheduled opponent is injured, drawing an overlooked local boxer into a highly publicized heavyweight title fight. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie07.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie07.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie08"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Frank Martin，通过自由文本描述对话和行动。围绕严格守则下的运输委托展开行动，按时送达货物与应对交易中出现的异常，构成故事的主要冲突。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Frank Martin through free-form dialogue and actions in a narrative adaptation of The Transporter. Transport assignments are governed by strict professional rules, with punctual delivery and unexpected complications in the deal forming the central conflict. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie08.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie08.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie09"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Driver，通过自由文本描述对话和行动。角色在机械师、电影特技驾驶和逃逸司机的不同生活之间周旋，邻居关系与危险委托逐渐交织。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Driver through free-form dialogue and actions in a narrative adaptation of Drive. A mechanic and film stunt driver also works as a getaway driver; relationships with his neighbors gradually intersect with increasingly dangerous jobs. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie09.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie09.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie10"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Sheriff Woody，通过自由文本描述对话和行动。安迪收到新玩具巴斯后，胡迪原有的地位受到挑战，玩家围绕玩具之间的相处、冲突和行动推进情节。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Sheriff Woody through free-form dialogue and actions in a narrative adaptation of Toy Story. The arrival of Buzz challenges Woody's place among Andy's toys, making relationships, rivalry and the toys' subsequent actions central to the story. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie10.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie10.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie11"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Charles Muntz，通过自由文本描述对话和行动。作为执意证明自身发现的探险家，角色围绕天堂瀑布与珍稀鸟类展开行动，并与到访者产生冲突。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Charles Muntz through free-form dialogue and actions in a narrative adaptation of Up. An explorer determined to vindicate his discovery pursues a rare bird at Paradise Falls, bringing his ambitions into conflict with unexpected visitors. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie11.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie11.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie12"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Ellen Ripley，通过自由文本描述对话和行动。商用飞船收到未知信号后，船员展开调查，故事由此转向封闭船舱中的危险处置、人员信任和生存。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Ellen Ripley through free-form dialogue and actions in a narrative adaptation of Alien. A commercial spacecraft diverts to investigate an unknown transmission, leading to threats aboard the ship and decisions about trust, containment and survival. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie12.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie12.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie13"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 The Predator，通过自由文本描述对话和行动。故事将外星猎手置于中美洲丛林，与一支执行救援任务的人类小队相遇，追踪与相互试探推动局势。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play The Predator through free-form dialogue and actions in a narrative adaptation of Predator. An alien hunter encounters a human rescue team in the Central American jungle, where tracking, concealment and encounters drive the developing confrontation. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie13.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie13.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie14"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Laurie Strode，通过自由文本描述对话和行动。小镇万圣节的日常逐渐被迈克尔·迈尔斯的威胁打断，玩家需要围绕同伴、环境线索和脱险机会行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Laurie Strode through free-form dialogue and actions in a narrative adaptation of Halloween. An ordinary Halloween in a small town is disrupted by Michael Myers, with companions, environmental clues and opportunities to escape shaping the narrative. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie14.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie14.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie15"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Nancy Thompson，通过自由文本描述对话和行动。梦境中的袭击开始影响现实生活，角色需要联系朋友的遭遇、辨认威胁，并寻找应对梦中追逐的方法。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Nancy Thompson through free-form dialogue and actions in a narrative adaptation of A Nightmare on Elm Street. Attacks in dreams begin to affect waking life, prompting the character to connect friends' experiences, identify the threat and respond to its pursuit. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie15.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie15.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie16"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Ed，通过自由文本描述对话和行动。原本围绕工作、室友与感情的日常遭到僵尸危机打乱，行动转向联系熟人、寻找庇护与共同脱险。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Ed through free-form dialogue and actions in a narrative adaptation of Shaun of the Dead. Tensions involving work, housemates and relationships are overtaken by a zombie crisis, shifting attention to finding companions, shelter and a way through danger. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie16.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie16.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie17"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Tallahassee，通过自由文本描述对话和行动。在僵尸横行的旅途中，角色与其他幸存者同行，需要在互相提防、争取信任和共同应对危险之间行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Tallahassee through free-form dialogue and actions in a narrative adaptation of Zombieland. Travel through a zombie-infested landscape brings the character together with other survivors, linking mutual suspicion and trust to their responses to danger. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie17.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie17.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie18"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Seymour Krelborn，通过自由文本描述对话和行动。花店里的奇异植物带来了顾客和转机，也逐渐提出危险要求，角色的事业、感情与选择由此纠缠。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Seymour Krelborn through free-form dialogue and actions in a narrative adaptation of Little Shop of Horrors. An unusual plant revives a struggling flower shop but develops dangerous demands, entangling the character's livelihood, relationships and increasingly difficult choices. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie18.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie18.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie19"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Marty Mikalski，通过自由文本描述对话和行动。一次偏远木屋度假受到了幕后力量操纵，玩家通过观察、交谈与行动，面对同伴遭遇和环境中的异常。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Marty Mikalski through free-form dialogue and actions in a narrative adaptation of The Cabin in the Woods. A remote-cabin holiday is being manipulated from behind the scenes, confronting the player with companions' experiences and increasingly suspicious environmental events. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie19.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie19.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie20"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Lina Lamont，通过自由文本描述对话和行动。默片向有声电影转型改变了明星的处境，角色围绕表演、名声、搭档关系和片厂安排参与情节。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Lina Lamont through free-form dialogue and actions in a narrative adaptation of Singin' in the Rain. The transition from silent films to sound changes the star's position, making performances, reputation, co-stars and studio decisions central to the narrative. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie20.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie20.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie21"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Sugar Kane Kowalczyk，通过自由文本描述对话和行动。角色随女子乐队旅行，与两位身份另有隐情的新成员相遇，音乐工作、感情和追逐逐步交织。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Sugar Kane Kowalczyk through free-form dialogue and actions in a narrative adaptation of Some Like It Hot. Travel with a women's band brings encounters with two new members hiding their identities, intertwining music, relationships and the pursuit surrounding them. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie21.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie21.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie22"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Mr. Bean，通过自由文本描述对话和行动。一次抽奖带来了去戛纳度假的机会，旅途中接连出现交通与沟通误会，需要通过行动处理不断变化的局面。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Mr. Bean through free-form dialogue and actions in a narrative adaptation of Mr. Bean's Holiday. A raffle win starts a journey to Cannes, but transport mishaps and misunderstandings repeatedly change the situation and demand improvised responses. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie22.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie22.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie23"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Frank N. Furter，通过自由文本描述对话和行动。一对在雨夜求助的访客进入古堡，玩家从古堡主人一方参与古怪聚会、实验以及人物关系的变化。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Frank N. Furter through free-form dialogue and actions in a narrative adaptation of The Rocky Horror Picture Show. Two travelers seeking help enter a castle during a rainy night; the player's host role participates in its unusual gathering, experiment and shifting relationships. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie23.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie23.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie24"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Howard Beale，通过自由文本描述对话和行动。收视率下滑让新闻主播面临离职，直播中的失控发言又改变了局势，故事围绕媒体经营与个人处境展开。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Howard Beale through free-form dialogue and actions in a narrative adaptation of Network. Falling ratings threaten a news anchor's career, while an outburst on live television changes his position and exposes tensions within the media business. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie24.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie24.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie25"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Sidney Young，通过自由文本描述对话和行动。角色进入纽约高档杂志工作，通过与同事、上司和名人圈的接触，在职业野心与社交冲突之间周旋。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Sidney Young through free-form dialogue and actions in a narrative adaptation of How to Lose Friends & Alienate People. Joining an upscale New York magazine brings contact with colleagues, editors and celebrities, placing career ambition alongside repeated professional and social clashes. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie25.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie25.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie26"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Richard Vernon，通过自由文本描述对话和行动。角色作为负责留校学生的校方人员，面对五名不同背景学生之间的交谈、试探和对管束的反应。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Richard Vernon through free-form dialogue and actions in a narrative adaptation of The Breakfast Club. The school authority responsible for Saturday detention faces five students from different social groups, whose conversations and reactions challenge the imposed rules. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie26.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie26.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie27"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Troy Bolton，通过自由文本描述对话和行动。校园生活将篮球、音乐剧试镜和同伴期待放到一起，角色需要通过交谈与行动处理个人兴趣和群体关系。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Troy Bolton through free-form dialogue and actions in a narrative adaptation of High School Musical. School life brings basketball, musical auditions and peer expectations together, linking the character's interests to conversations and relationships across student groups. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie27.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie27.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie28"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Stu Price，通过自由文本描述对话和行动。拉斯维加斯的单身派对后，新郎失踪且同伴失去当晚记忆，行动围绕零散线索和重建前夜经过展开。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Stu Price through free-form dialogue and actions in a narrative adaptation of The Hangover. After a Las Vegas bachelor party, the groom is missing and his companions cannot remember the night, leaving scattered clues to reconstruct what happened. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie28.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie28.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie29"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Harry Dunne，通过自由文本描述对话和行动。一次未能归还的公文包引出跨城旅途，角色与伙伴在误解、谋生困境和沿途事件中继续前进。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Harry Dunne through free-form dialogue and actions in a narrative adaptation of Dumb and Dumber. A failed attempt to return a briefcase begins a cross-country trip, with the companions navigating misunderstandings, precarious livelihoods and unexpected encounters. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie29.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie29.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie30"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Sam Spade，通过自由文本描述对话和行动。看似寻找失踪家属的委托引出凶案与古物争夺，需要通过询问、跟踪线索和判断人物说法推进调查。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Sam Spade through free-form dialogue and actions in a narrative adaptation of The Maltese Falcon. An apparent missing-person commission leads to killings and a contested artifact, with questioning, clues and conflicting accounts driving the detective story. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie30.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie30.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie31"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Philip Marlowe，通过自由文本描述对话和行动。角色受聘处理富裕家庭的债务问题，却逐步接触失踪与犯罪线索，需要梳理不同人物之间的关联。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Philip Marlowe through free-form dialogue and actions in a narrative adaptation of The Big Sleep. A commission concerning a wealthy family's debts leads into disappearances and crime, requiring the detective to untangle connections between competing accounts and characters. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie31.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie31.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie32"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Tommy DeVito，通过自由文本描述对话和行动。角色身处纽约黑帮的人际与利益网络，通过对话和行动参与关系变化、犯罪事务与不断升级的冲突。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Tommy DeVito through free-form dialogue and actions in a narrative adaptation of Goodfellas. Within New York's organized-crime network, conversations and actions involve the character in shifting loyalties, criminal business and escalating personal conflicts. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie32.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie32.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie33"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Sam 'Ace' Rothstein，通过自由文本描述对话和行动。经营拉斯维加斯赌场的职责与黑帮关系交织，角色需要处理生意、同伴和私人生活带来的相互牵制。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Sam 'Ace' Rothstein through free-form dialogue and actions in a narrative adaptation of Casino. Running a Las Vegas casino intertwines with mob obligations, placing business, associates and private relationships in tension throughout the unfolding story. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie33.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie33.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie34"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Neil McCauley，通过自由文本描述对话和行动。一次装甲车劫案引发追查和内部矛盾，角色从职业劫匪一方参与后续交易、应变与团队行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Neil McCauley through free-form dialogue and actions in a narrative adaptation of Heat. An armored-car robbery triggers pursuit and friction within the crew, with the player's professional-robber role taking part in subsequent deals and responses. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie34.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie34.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie35"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Noah Cross，通过自由文本描述对话和行动。洛杉矶水利与开发利益背后出现调查和死亡事件，玩家从权势人物一方参与人物接触与局势变化。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Noah Cross through free-form dialogue and actions in a narrative adaptation of Chinatown. Investigations and a death expose conflicts over Los Angeles water and development, with the player participating from the perspective of a powerful businessman. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie35.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie35.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie36"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Vincent Vega，通过自由文本描述对话和行动。角色为黑帮老板执行事务，公文包、搭档和不同人物的遭遇交错，故事通过对话与行动逐步连接。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Vincent Vega through free-form dialogue and actions in a narrative adaptation of Pulp Fiction. Assignments for a crime boss connect the character, his partner and a briefcase to intersecting encounters, with dialogue and actions linking the story's strands. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie36.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie36.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie37"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Bullet Tooth Tony，通过自由文本描述对话和行动。一颗失窃钻石将拳赛、债务和多方追逐联系起来，角色在交错的交易与人际关系中采取行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Bullet Tooth Tony through free-form dialogue and actions in a narrative adaptation of Snatch. A stolen diamond connects boxing, debts and several competing pursuers, drawing the character into overlapping deals and shifting criminal relationships. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie37.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie37.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie38"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Tony Montana，通过自由文本描述对话和行动。故事从古巴移民抵达迈阿密展开，角色通过危险交易和人际选择进入犯罪世界，并面对地位上升后的冲突。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Tony Montana through free-form dialogue and actions in a narrative adaptation of Scarface. Arriving in Miami as a Cuban refugee leads the character into dangerous deals and criminal alliances, followed by conflicts accompanying his rise in status. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie38.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie38.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie39"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Eric Draven，通过自由文本描述对话和行动。悲剧发生一年后，角色重新出现在底特律，围绕追查凶手、旧日关系和复仇展开这段超自然叙事。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Eric Draven through free-form dialogue and actions in a narrative adaptation of The Crow. Returning to Detroit a year after a tragedy, the character follows those responsible while confronting former relationships and a supernatural story of vengeance. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie39.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie39.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie40"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Margo Channing，通过自由文本描述对话和行动。一位年轻追随者进入百老汇明星的生活，角色需要面对职业地位、信任和舞台内外关系的变化。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Margo Channing through free-form dialogue and actions in a narrative adaptation of All About Eve. A young admirer enters a Broadway star's life, bringing changes to professional status, trust and the relationships surrounding life on and off the stage. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie40.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie40.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie41"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Norma Desmond，通过自由文本描述对话和行动。一位落魄编剧进入昔日默片明星的豪宅后，创作、依赖与重返影坛的愿望逐渐形成紧张的人际局面。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Norma Desmond through free-form dialogue and actions in a narrative adaptation of Sunset Boulevard. A struggling screenwriter's arrival at a former silent star's mansion entangles creative work, dependency and ambitions for a return to the screen. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie41.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie41.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie42"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Lon Hammond Jr.，通过自由文本描述对话和行动。角色卷入一段跨越时间的感情故事，围绕承诺、重逢以及不同人物之间的关系变化参与对话与行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Lon Hammond Jr. through free-form dialogue and actions in a narrative adaptation of The Notebook. The character becomes part of a romance spanning different periods, with commitments, reunions and changing relationships shaping conversations and actions. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie42.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie42.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie43"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Leopold，通过自由文本描述对话和行动。一位十九世纪贵族意外来到现代纽约，角色需要应对陌生环境，并处理身份、社交与感情中的变化。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Leopold through free-form dialogue and actions in a narrative adaptation of Kate & Leopold. A nineteenth-century aristocrat arrives unexpectedly in modern New York, confronting unfamiliar surroundings and changes in identity, social expectations and relationships. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie43.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie43.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie44"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Cher Horowitz，通过自由文本描述对话和行动。角色处于富裕高中生的社交圈，围绕朋友、恋情与撮合他人的尝试，通过对话和行动应对误解与变化。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Cher Horowitz through free-form dialogue and actions in a narrative adaptation of Clueless. Within an affluent high-school social circle, friendships, romance and matchmaking attempts create misunderstandings that develop through conversations and actions. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie44.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie44.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie45"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Elle Woods，通过自由文本描述对话和行动。角色进入哈佛法学院，在学习、同学关系和法律事务中行动，面对他人对自身能力的预期与判断。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Elle Woods through free-form dialogue and actions in a narrative adaptation of Legally Blonde. Entering Harvard Law School brings academic demands, classmates and legal work together, confronting the character with others' expectations and judgments about her abilities. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie45.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie45.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie46"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Ed Bloom - Young，通过自由文本描述对话和行动。角色参与一段夹杂奇遇的青年经历叙事，在旅途、人物相遇和感情发展中行动，并与家庭记忆相互映照。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Ed Bloom - Young through free-form dialogue and actions in a narrative adaptation of Big Fish. A young man's extraordinary experiences unfold through travel, encounters and relationships, within a larger story concerned with family memories and the tales people tell. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie46.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie46.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie47"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Mia Thermopolis，通过自由文本描述对话和行动。普通高中生得知自己的王室身份，日常校园关系与公开身份的变化交织，需要通过行动应对新的期待。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Mia Thermopolis through free-form dialogue and actions in a narrative adaptation of The Princess Diaries. A high-school student discovers her royal identity, bringing ordinary school relationships into contact with a changing public role and new expectations. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie47.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie47.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie48"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Henry Roth，通过自由文本描述对话和行动。在夏威夷的一次相遇中，角色试图与失去近期记忆的对象建立联系，交往需要面对每天重新开始的处境。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Henry Roth through free-form dialogue and actions in a narrative adaptation of 50 First Dates. An encounter in Hawaii leads to a relationship with a woman unable to retain recent memories, forcing the connection to be rebuilt across repeated new beginnings. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie48.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie48.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie49"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Ana Pascal，通过自由文本描述对话和行动。角色作为面包店经营者遇到一名税务稽核员，日常对话与关系发展交织进一个被神秘旁白讲述的故事。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Ana Pascal through free-form dialogue and actions in a narrative adaptation of Stranger Than Fiction. A baker's encounter with a tax auditor develops through everyday conversations and relationships within a larger story influenced by a mysterious narrating voice. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie49.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie49.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie50"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Gandalf，通过自由文本描述对话和行动。中土世界再次受到魔戒威胁，角色参与辨认危险、联系伙伴与护送行动，围绕不同人物的任务推动情节。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Gandalf through free-form dialogue and actions in a narrative adaptation of The Lord of the Rings——The Fellowship of the Ring. The Ring threatens Middle-earth again, drawing the character into recognizing danger, contacting allies and supporting the journey undertaken by its bearers. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie50.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie50.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie51"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Aragorn，通过自由文本描述对话和行动。米那斯提力斯面临进攻，角色需要参与盟友联络与战事行动，同时面对王位责任和护戒任务带来的局势变化。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Aragorn through free-form dialogue and actions in a narrative adaptation of The Lord of the Rings——The Return of the King. An attack threatens Minas Tirith, linking the character's alliances and military actions to royal responsibilities and the wider effort surrounding the Ring. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie51.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie51.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie52"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Tony Stark，通过自由文本描述对话和行动。角色在武器展示后遭到绑架，必须面对囚禁、制造与逃脱的危机，随后逐步处理技术力量和自身责任。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Tony Stark through free-form dialogue and actions in a narrative adaptation of Iron Man. An ambush after a weapons demonstration leads to captivity, invention and an escape attempt, followed by questions about the character's technology and responsibilities. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie52.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie52.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie53"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Bruce Wayne，通过自由文本描述对话和行动。蝙蝠侠隐退后的哥谭出现新威胁，角色在城市安全、旧日秘密和重返行动之间应对不断升级的危机。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Bruce Wayne through free-form dialogue and actions in a narrative adaptation of The Dark Knight Rises. New threats emerge in Gotham after Batman's disappearance, linking the city's safety and old secrets to the character's decision to return to action. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie53.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie53.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie54"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Mad Hatter，通过自由文本描述对话和行动。爱丽丝进入仙境后，玩家从疯帽匠一方参与与来访者及其他角色的接触，围绕王权冲突和救援推进情节。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Mad Hatter through free-form dialogue and actions in a narrative adaptation of Alice in Wonderland. After Alice arrives in Wonderland, the player's Hatter role interacts with her and other inhabitants amid conflicts over rule, danger and rescue. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie54.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie54.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie55"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Prince Nuada，通过自由文本描述对话和行动。人类与魔法生物之间的旧有秩序再次动摇，角色围绕金军与王族之间的冲突，通过对话和行动参与局势。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Prince Nuada through free-form dialogue and actions in a narrative adaptation of Hellboy II——The Golden Army. The old balance between humans and magical creatures is destabilized, placing the prince within conflicts involving the Golden Army, royalty and competing allegiances. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie55.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie55.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie56"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Inigo Montoya，通过自由文本描述对话和行动。故事围绕爱情、绑架与旧日恩怨展开，角色在旅途中与不同人物合作或交锋，追寻与自身过去相关的目标。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Inigo Montoya through free-form dialogue and actions in a narrative adaptation of The Princess Bride. Romance, abduction and old grievances intertwine as the character cooperates or clashes with others while pursuing a goal rooted in his past. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie56.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie56.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie57"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Hellboy，通过自由文本描述对话和行动。一桩与吸血鬼及古堡有关的旧案再度牵动人物，角色需要通过探查、交谈和应对超自然威胁推进故事。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Hellboy through free-form dialogue and actions in a narrative adaptation of Hellboy——Blood and Iron. An old case involving a vampire and a castle draws the characters into renewed events, combining investigation, dialogue and responses to supernatural threats. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie57.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie57.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie58"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Achilles，通过自由文本描述对话和行动。特洛伊与希腊诸王的冲突不断升级，角色参与军队与战士之间的往来，面对荣耀、效忠和个人关系的牵制。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Achilles through free-form dialogue and actions in a narrative adaptation of Troy. Conflict between Troy and the Greek kings escalates, placing the warrior amid military encounters and tensions involving honor, loyalty and personal relationships. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie58.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie58.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie59"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Nizam，通过自由文本描述对话和行动。阿拉穆特的战事牵出特殊匕首与王室阴谋，玩家从尼扎姆一方参与人物接触和围绕权力的行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Nizam through free-form dialogue and actions in a narrative adaptation of Prince of Persia——The Sands of Time. The attack on Alamut connects a distinctive dagger to royal intrigue, with the player acting from Nizam's position in encounters and struggles over power. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie59.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie59.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie60"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Rick Deckard，通过自由文本描述对话和行动。角色重新接手追踪复制人的工作，通过调查、测试与人物接触追查目标，并逐渐接触其生存诉求。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Rick Deckard through free-form dialogue and actions in a narrative adaptation of Blade Runner. Returning to work as a Blade Runner involves investigating and testing suspected replicants, while encounters expose the motives behind their attempts to survive. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie60.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie60.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie61"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Dupont，通过自由文本描述对话和行动。情感受到压制的城市中出现违抗与怀疑，玩家从统治体系人物一方参与审查、人物接触和权力关系的变化。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Dupont through free-form dialogue and actions in a narrative adaptation of Equilibrium. Dissent and suspicion develop within a city suppressing emotion, with the player participating from inside the governing system as investigations and power relationships change. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie61.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie61.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie62"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Darth Vader，通过自由文本描述对话和行动。帝国持续搜寻反抗军基地，角色围绕追踪、指挥与人物对峙采取行动，并与卢克等人的旅程发生联系。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Darth Vader through free-form dialogue and actions in a narrative adaptation of Star Wars——The Empire Strikes Back. The Empire searches for the Rebel base, connecting the character's pursuit, command decisions and confrontations to Luke and the other fugitives' journeys. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie62.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie62.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie63"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Han Solo，通过自由文本描述对话和行动。死星设计图引发帝国追捕，角色作为飞船驾驶员参与运输、营救与作战，并与反抗军的行动逐步交汇。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Han Solo through free-form dialogue and actions in a narrative adaptation of Star Wars——A New Hope. The Death Star plans provoke an Imperial pursuit, drawing the pilot into transport, rescue and combat alongside the developing Rebel mission. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie63.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie63.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie64"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Cobb，通过自由文本描述对话和行动。角色通过进入他人梦境完成任务，需要面对多层梦境的配合、醒来时机，以及个人记忆对行动的干扰。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Cobb through free-form dialogue and actions in a narrative adaptation of Inception. Entering other people's dreams requires coordinating nested dream levels and awakening, while the character's personal memories interfere with the operation. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie64.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie64.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie65"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Biff Tannen，通过自由文本描述对话和行动。一场跨越时代的旅程改变了山谷镇的人物关系，玩家从毕夫一方参与与麦克弗莱一家及周围人的冲突。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Biff Tannen through free-form dialogue and actions in a narrative adaptation of Back to the Future. A journey across time alters relationships in Hill Valley, with the player participating from Biff's perspective in encounters involving the McFly family. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie65.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie65.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie66"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Sarah Connor，通过自由文本描述对话和行动。来自未来的追杀者抵达洛杉矶，角色在保护者的帮助下逃亡，并逐渐了解自己与未来人类命运的联系。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Sarah Connor through free-form dialogue and actions in a narrative adaptation of The Terminator. A pursuer from the future arrives in Los Angeles, forcing the character to flee with a protector while learning why her life matters to humanity's future. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie66.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie66.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie67"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Dick Jones，通过自由文本描述对话和行动。底特律的治安危机催生机器人执法计划，角色从企业高层一方参与项目竞争及其引发的权力冲突。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Dick Jones through free-form dialogue and actions in a narrative adaptation of RoboCop. Detroit's crime crisis produces competing robotic-policing programs, with the player acting from a corporate executive's position within the resulting struggle for control. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie67.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie67.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie68"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Agatha，通过自由文本描述对话和行动。能够预见犯罪的系统面临质疑，角色作为预知者参与追逃与调查，围绕预测、事实和人物隐情推动事件。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Agatha through free-form dialogue and actions in a narrative adaptation of Minority Report. A crime-prediction system comes under scrutiny, drawing the precog character into flight and investigation concerning the relationship between visions, evidence and hidden motives. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie68.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie68.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie69"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 David Lightman，通过自由文本描述对话和行动。角色与军用计算机的意外联系引发核战争警报，需要通过调查和交流理解系统，把局势从模拟对抗中拉回。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play David Lightman through free-form dialogue and actions in a narrative adaptation of WarGames. Unexpected contact with a military computer triggers a nuclear alert, prompting investigation and communication to understand the system and halt the escalating simulation. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie69.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie69.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie70"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Clarice Starling，通过自由文本描述对话和行动。角色受命访问狱中的汉尼拔，利用对话中获得的线索追查连环案件，同时面对对方提出的交换条件。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Clarice Starling through free-form dialogue and actions in a narrative adaptation of The Silence of the Lambs. An assignment to interview the imprisoned Hannibal provides clues to a serial case, while his demands turn each exchange into a difficult negotiation. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie70.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie70.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie71"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Anton Chigurh，通过自由文本描述对话和行动。一笔来自失败毒品交易的现金引来多方追逐，角色从追踪者一方参与寻找目标和应对沿途相遇。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Anton Chigurh through free-form dialogue and actions in a narrative adaptation of No Country for Old Men. Cash taken from a failed drug deal triggers competing pursuits, with the player participating as a tracker seeking a target through successive encounters. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie71.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie71.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie72"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Travis Bickle，通过自由文本描述对话和行动。纽约夜间载客构成角色的日常，孤独、感情尝试和城市中的暴力景象逐渐改变其与他人的接触及行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Travis Bickle through free-form dialogue and actions in a narrative adaptation of Taxi Driver. Night-time taxi work exposes the character to New York's streets, as isolation, attempts at connection and encounters with violence reshape his interactions and actions. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie72.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie72.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie73"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Nina Sayers，通过自由文本描述对话和行动。角色争取《天鹅湖》主角位置，在排练、竞争和人际接触中行动，面对角色要求与不断累积的心理压力。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Nina Sayers through free-form dialogue and actions in a narrative adaptation of Black Swan. Competing for the lead in Swan Lake involves rehearsals and relationships, while the demands of contrasting roles intensify the dancer's psychological pressure. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie73.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie73.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie74"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Leonard Shelby，通过自由文本描述对话和行动。角色无法保存近期记忆，需要借助照片、文字记录和人物说法追索线索，持续判断哪些信息可以信赖。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Leonard Shelby through free-form dialogue and actions in a narrative adaptation of Memento. Unable to retain recent memories, the character relies on photographs, written notes and other people's accounts, repeatedly reconsidering which clues can be trusted. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie74.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie74.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie75"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Donnie Darko，通过自由文本描述对话和行动。一次神秘召唤让角色避开坠落的飞机引擎，兔人关于世界末日的预言随后与校园和家庭生活交织。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Donnie Darko through free-form dialogue and actions in a narrative adaptation of Donnie Darko. A mysterious summons takes the character away before an aircraft engine hits his room, linking a rabbit figure's prediction to events at school and home. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie75.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie75.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie76"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Tony Wendice，通过自由文本描述对话和行动。角色因婚姻与金钱动机策划犯罪，需要面对计划执行、人物反应和调查展开后不断变化的证据局面。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Tony Wendice through free-form dialogue and actions in a narrative adaptation of Dial M for Murder. A crime planned around marriage and money puts the character among accomplices, changing evidence and the investigation that follows its attempted execution. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie76.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie76.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie77"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Danielle Foussard，通过自由文本描述对话和行动。一连串珠宝窃案让退休窃贼重新受到怀疑，玩家从相关人物一方参与接触、追查和围绕真凶的试探。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Danielle Foussard through free-form dialogue and actions in a narrative adaptation of To Catch a Thief. A succession of jewelry thefts renews suspicion of a retired thief, with the player taking part in encounters and attempts to identify who is responsible. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie77.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie77.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie78"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Robert Angier，通过自由文本描述对话和行动。两位魔术师因一次表演事故成为对手，角色围绕舞台技巧、竞争与秘密采取行动，私人关系也卷入其中。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Robert Angier through free-form dialogue and actions in a narrative adaptation of The Prestige. A performance accident turns two magicians into rivals, linking the character's stagecraft and concealed methods to competition and increasingly entangled private relationships. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie78.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie78.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie79"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Max Cady，通过自由文本描述对话和行动。角色出狱后重新接近曾为自己辩护的律师，围绕旧案、报复和对方家庭的反应，推动紧张的故事局势。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Max Cady through free-form dialogue and actions in a narrative adaptation of Cape Fear. After prison, the character approaches the lawyer who once defended him, driving a tense story involving the old case, revenge and the family's responses. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie79.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie79.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie80"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 T. E. Lawrence，通过自由文本描述对话和行动。角色被派往阿拉伯地区了解盟友与战局，通过交涉、行军和共同作战，参与不同部族及军事力量的合作。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play T. E. Lawrence through free-form dialogue and actions in a narrative adaptation of Lawrence of Arabia. An assignment to assess the Arab campaign leads to negotiations, travel and military action, connecting the character with alliances among tribes and armed forces. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie80.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie80.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie81"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Captain Benjamin L. Willard，通过自由文本描述对话和行动。角色奉命沿河深入柬埔寨丛林，寻找脱离指挥体系的上校，航程中的人物与战事不断改变任务处境。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Captain Benjamin L. Willard through free-form dialogue and actions in a narrative adaptation of Apocalypse Now. An assignment sends the captain upriver into Cambodia to locate a rogue colonel, while encounters and warfare repeatedly alter the journey's circumstances. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie81.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie81.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie82"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Cpl. Timothy P. Upham，通过自由文本描述对话和行动。角色加入诺曼底登陆后的搜寻小队，通过交流、行进与战场行动，参与寻找并带回瑞恩的任务。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Cpl. Timothy P. Upham through free-form dialogue and actions in a narrative adaptation of Saving Private Ryan. Joining a search party after the Normandy landings involves communication, travel and battlefield encounters during the mission to locate and bring back Ryan. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie82.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie82.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie83"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 General Kuribayashi，通过自由文本描述对话和行动。角色承担硫磺岛防御指挥，围绕工事、军队部署与士兵处境采取行动，面对进攻逼近后的多重压力。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play General Kuribayashi through free-form dialogue and actions in a narrative adaptation of Letters from Iwo Jima. Responsibility for Iwo Jima's defense links fortifications, troop arrangements and soldiers' circumstances as an approaching invasion places increasing pressure on the command. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie83.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie83.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie84"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Commodus，通过自由文本描述对话和行动。皇位继承与将军马克西穆斯的命运发生冲突，角色从康茂德一方参与政治安排、公开表演和人物对峙。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Commodus through free-form dialogue and actions in a narrative adaptation of Gladiator. Imperial succession conflicts with the fate of Maximus, with the player acting as Commodus amid political arrangements, public spectacle and personal confrontations. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie84.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie84.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie85"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Dilios，通过自由文本描述对话和行动。角色置身斯巴达抵抗波斯的战争故事，通过交流和行动参与出征、守卫地形以及向他人传递战事经历。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Dilios through free-form dialogue and actions in a narrative adaptation of 300. The character participates in the Spartan resistance to Persia through dialogue and action involving departure, defense of terrain and the telling of wartime events. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie85.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie85.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie86"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Gen. Robert E. Lee，通过自由文本描述对话和行动。角色指挥南军进入宾夕法尼亚，围绕葛底斯堡战役中的部队调动、将领意见和战场信息参与决策。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Gen. Robert E. Lee through free-form dialogue and actions in a narrative adaptation of Gettysburg. Leading Confederate forces into Pennsylvania brings the character into Gettysburg's troop movements, officers' competing judgments and changing battlefield information. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie86.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie86.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie87"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Katsumoto，通过自由文本描述对话和行动。日本明治时期的军事变革引发冲突，角色从武士领袖一方参与与军队、同伴及外来者的接触和行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Katsumoto through free-form dialogue and actions in a narrative adaptation of The Last Samurai. Military change in Meiji-era Japan provokes conflict, with the player acting from a samurai leader's perspective in encounters with troops, companions and an outsider. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie87.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie87.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie88"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Jack Aubrey，通过自由文本描述对话和行动。角色指挥英国军舰追击法军私掠舰，需要在突袭、船只损伤和远洋追踪之间处理舰上人员与航程安排。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Jack Aubrey through free-form dialogue and actions in a narrative adaptation of Master and Commander——The Far Side of the World. Command of a British warship pursuing a French privateer requires responding to surprise attacks, ship damage and the demands of a long ocean chase. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie88.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie88.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie89"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Lt. Werner，通过自由文本描述对话和行动。角色作为战地记者登上德国潜艇，通过艇上交谈与行动经历巡航、紧张等待和海上危险带来的变化。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Lt. Werner through free-form dialogue and actions in a narrative adaptation of Das Boot. A war correspondent boards a German submarine, experiencing crew interactions, patrols, tense waiting and the changes produced by danger at sea. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie89.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie89.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie90"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Manco，通过自由文本描述对话和行动。角色与另一位赏金猎人追踪通缉犯，围绕合作、试探与决斗安排采取行动，并逐步接触目标背后的旧事。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Manco through free-form dialogue and actions in a narrative adaptation of For a Few Dollars More. Two bounty hunters pursue a wanted outlaw, with cooperation, mutual testing and confrontations gradually exposing the history behind their target. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie90.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie90.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie91"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Harmonica，通过自由文本描述对话和行动。铁路建设与水源土地的争夺引来暴力，角色带着私人恩怨进入小镇，在不同势力与人物之间周旋。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Harmonica through free-form dialogue and actions in a narrative adaptation of Once Upon a Time in the West. A struggle over railway construction and land with a water source draws the character into a town's competing interests alongside his own grievance. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie91.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie91.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie92"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 William Munny，通过自由文本描述对话和行动。一笔赏金让退隐枪手重新踏上旅途，角色需要面对同伴、追索目标和小镇警长带来的冲突。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play William Munny through free-form dialogue and actions in a narrative adaptation of Unforgiven. A bounty brings a retired gunfighter back onto the road, placing the character among companions, pursued targets and conflicts involving the town's sheriff. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie92.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie92.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie93"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Ben Wade，通过自由文本描述对话和行动。角色作为遭到押送的亡命徒，与牧场主和执法者周旋，围绕前往尤马列车的旅程参与对话与行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Ben Wade through free-form dialogue and actions in a narrative adaptation of 3:10 to Yuma. The captured outlaw deals with a rancher and lawmen during the journey to the Yuma train, with dialogue and encounters shaping the tense escort. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie93.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie93.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie94"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Butch Cassidy，通过自由文本描述对话和行动。角色与搭档带领帮派抢劫列车，追捕压力随后迫使他们改变路线，在伙伴关系和逃亡困境之间行动。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Butch Cassidy through free-form dialogue and actions in a narrative adaptation of Butch Cassidy and the Sundance Kid. Train robberies with a partner draw increasing pursuit, forcing changes of route and bringing the character's loyalties into contact with the pressures of flight. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie94.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie94.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie95"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Pat Garrett，通过自由文本描述对话和行动。角色与比利小子等人的旧日关系被追捕任务改变，在西部亡命故事中通过交谈、追踪与交锋推进情节。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Pat Garrett through free-form dialogue and actions in a narrative adaptation of Young Guns II. A pursuit changes the character's former relationship with Billy the Kid and his companions, creating encounters and confrontations within an outlaw story. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie95.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie95.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie96"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Chico，通过自由文本描述对话和行动。村庄反复遭受劫掠后招募枪手防守，角色加入队伍，通过训练、合作与战斗应对匪帮再次到来的威胁。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Chico through free-form dialogue and actions in a narrative adaptation of The Magnificent Seven. A repeatedly raided village hires gunfighters for protection, drawing the character into training, cooperation and fighting against the expected return of bandits. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie96.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie96.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie97"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Ike Clanton，通过自由文本描述对话和行动。角色置身图姆斯通镇的帮派与执法冲突，在结盟、试探和公开对峙中与厄普兄弟及其他人物相遇。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Ike Clanton through free-form dialogue and actions in a narrative adaptation of Tombstone. Within Tombstone's conflict between outlaws and lawmen, the character encounters the Earp brothers and others through alliances, challenges and public confrontations. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie97.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie97.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie98"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Walt Kowalski，通过自由文本描述对话和行动。角色独居于变化中的底特律社区，在与邻居接触和应对帮派威胁时，逐渐面对自身偏见与家庭关系。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Walt Kowalski through free-form dialogue and actions in a narrative adaptation of Gran Torino. Living alone in a changing Detroit neighborhood, the character's encounters with neighbors and gang threats bring his prejudices and family relationships into focus. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie98.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie98.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-movie99"
+      ],
+      "zh": "玩家在这段互动叙事中扮演 Everett Hitch，通过自由文本描述对话和行动。角色与搭档受聘恢复西部小镇治安，需要通过交谈和行动应对牧场主势力、居民期待与个人关系的牵制。叙述者根据既定人物关系和事件顺序响应，已经发生的事实会约束后续发展。",
+      "en": "Play Everett Hitch through free-form dialogue and actions in a narrative adaptation of Appaloosa. Hired with a partner to restore order in a western town, the character faces a rancher's power, residents' expectations and tensions involving personal relationships. Characters and events respond within the specified story state and sequence.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie99.yaml",
+      "basis": "official-narrative-specification",
+      "scope": "narrative-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/specs/movie99.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ncp-narratives"
+      ],
+      "zh": "玩家进入由电影故事规格构建的场景，以自由文本描述对话和行动，叙述者据此延续故事。不同场景指定不同人物身份、初始事实与事件依赖，后续发展需要与已经发生的内容保持一致。体验围绕角色互动与情节推进展开，而不是在原电影对应的商业游戏中操作。",
+      "en": "Enter scenes defined by film-story specifications and describe dialogue or actions in free text for a narrator to continue. Each scenario specifies a player role, initial facts and event dependencies that constrain subsequent developments. These are interactive narrative adaptations rather than control interfaces for commercial games based on the films.",
+      "source": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/index.yaml",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/index.yaml",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "need-for-speed"
+      ],
+      "zh": "玩家驾驶跑车沿不同道路竞速，通过转向、制动和超车保持速度，应对交通与路况变化。需要提前判断弯道和前车位置，把每次加速与减速衔接起来，尽量以稳定路线完成比赛。",
+      "en": "Race sports cars along varied roads, using steering, braking and overtaking to handle traffic and changing conditions. Read corners and nearby vehicles ahead of time, connecting acceleration and deceleration into a route that preserves speed without sacrificing control of the car.",
+      "source": "https://arxiv.org/abs/2505.18134",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/The_Need_for_Speed",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "nethack"
+      ],
+      "zh": "玩家深入地下城，辨识未知药水与卷轴，利用装备、物品和环境应对危险并维持生存。冒险最终指向取得护符并完成升天，需要在探索收益与当前状态之间判断，保留应对后续遭遇的办法。",
+      "en": "Explore a dungeon, identify unfamiliar potions and scrolls, and use equipment and the environment to survive its dangers. Work toward obtaining the Amulet and ascending, weighing each discovery against your current condition and preserving options for the encounters that still lie ahead.",
+      "source": "https://github.com/facebookresearch/nle",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/facebookresearch/nle",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "neural-mmo"
+      ],
+      "zh": "十六支队伍、共一百二十八个角色在同一世界中竞争，面对资源需求、NPC、敌队以及不断收紧的活动范围。队伍要协调探索和生存，在获取补给的同时防范遭遇，把个体行动与全队存活连接起来。",
+      "en": "Sixteen teams with 128 agents in total compete under pressure from resources, NPCs, enemy teams and a shrinking zone. Coordinate exploration and survival, securing supplies while anticipating encounters so that individual movement contributes to the continued survival of the group.",
+      "source": "https://proceedings.mlr.press/v220/liu23a/liu23a.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "neverness-to-everness"
+      ],
+      "zh": "玩家在海特洛接取异象委托，与伙伴一起探索城市谜团并应对战斗。主线之外可以驾驶车辆、经营店铺或参与都市活动，在调查推进与日常经营之间安排节奏，逐渐熟悉城市中的不同地点。",
+      "en": "Take anomaly-related commissions in Hethereau, exploring urban mysteries and fighting alongside companions. Driving, shop management and everyday activities provide other ways to engage with the city, letting you move between investigation and local routines as you become familiar with its places.",
+      "source": "https://yh.wanmei.com/",
+      "detailUrl": "https://yh.wanmei.com/",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "nim"
+      ],
+      "zh": "双方轮流选择一堆石子，并从该堆中取走若干颗，逐步改变剩余局面。每次只能处理一堆，需要同时考虑所有堆的数量；取得最后一颗是胜利还是失败，取决于所用变体。",
+      "en": "Take turns choosing one pile and removing some of its stones, changing the position left for the opponent. Consider all piles together despite acting on only one at a time, checking whether the chosen variant rewards or penalizes taking the final stone.",
+      "source": "https://arxiv.org/html/2608.25832v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Nim",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "nimby-rails"
+      ],
+      "zh": "玩家在真实地理地图上铺设铁路线和车站，安排班次并运行列车，把客流连接到目的地。线路扩张带来新的服务需求，需要调整时刻与覆盖范围，让列车运力与客流相匹配。",
+      "en": "Lay railway tracks and stations on a map based on real geography, then schedule trains to carry passengers. As the network expands, adjust services and timetables to connect passengers with the places they need to reach.",
+      "source": "https://store.steampowered.com/app/1134710/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1134710/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "nine-mens-morris"
+      ],
+      "zh": "双方先将九枚棋子放上棋盘，再移动它们组成三子连线，借此移除对方棋子。随着空位与剩子减少，需要在制造新连线和阻断对手之间取舍，最终让对方无法行动或剩子不足。",
+      "en": "Place nine pieces and then move them to form three-piece mills that remove opposing pieces. As the available spaces and pieces change, balance creating a new mill against blocking the opponent, aiming to leave them unable to move or with too few pieces remaining.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Nine_men%27s_morris",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "no-limit-holdem"
+      ],
+      "zh": "玩家根据底牌、公共牌与对方下注判断局势，选择跟注、加注或弃牌以争夺底池。无限注规则允许更大幅度地改变投入，需要把下注金额与剩余筹码、可见信息和对手可能的回应一起考虑。",
+      "en": "Use private cards, community cards and betting behavior to decide whether to call, raise or fold. No-limit betting allows large changes in investment, so connect the amount you wager with the chips remaining, available information and the response you expect from the opponent.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ns-shaft"
+      ],
+      "zh": "玩家控制角色在不断滚动的平台间向下移动，寻找安全落点并避开尖刺和危险地板。下降过慢会被带出画面，走得过急又可能错过平台，需要持续比较下方路线与当前滚动节奏。",
+      "en": "Descend between platforms in a scrolling playfield, choosing safe landings while avoiding spikes and dangerous floors. Moving too slowly can carry you out of view, while a rushed drop may miss the next foothold, requiring continual adjustment to the pace of the screen.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "obstacle-tower"
+      ],
+      "zh": "玩家穿越程序生成的塔楼，寻找通路、解锁门和谜题，并避开沿途障碍。目标是在死亡或时间耗尽前完成尽可能多的楼层，探索陌生房间的速度也影响最终攀登高度。",
+      "en": "Climb through procedurally generated floors, opening doors, solving puzzles and avoiding hazards along the way. Complete as many floors as possible before death or the timer ends, maintaining progress while giving each unfamiliar room enough attention to locate a workable route onward.",
+      "source": "https://arxiv.org/abs/1902.01378",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-crystalguard"
+      ],
+      "zh": "双方从各自基地出发，以第一人称发射棒球，争取先摧毁对方水晶。铁门会挡住弹丸且无法被击坏，玩家阵亡可无限重生，因此需要绕过掩护寻找水晶射线，同时保住己方核心。",
+      "en": "Fire baseball projectiles in a first-person attack on the opposing crystal while defending your own. Indestructible iron gates block shots, and defeated players can respawn without limit, leaving the crystals as the decisive targets that each side must reach through the defended arena.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-cuechase"
+      ],
+      "zh": "当前公开实现中，玩家依据 NPC 外观与位置提示寻找交易对象，用手中物品完成一串交换任务。只有走到交互范围内才能交换，每次正确交易推进下一环，需要在倒计时内完成整条任务链。",
+      "en": "In the public implementation, follow NPC appearance and location hints to complete a chain of item exchanges. Approach the correct character until interaction becomes available, trade the required held item and continue to the next exchange before the countdown expires.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-handoffrun"
+      ],
+      "zh": "两名玩家在分工区域内收取、升级并提交食品订单，通过中转点传递物品。每人和每个中转点都只能容纳一件物品，高级订单还要求先加工升级，需要协调交接顺序，在限时内提高团队总分。",
+      "en": "Work with a partner to collect, upgrade and deliver food orders across connected work areas. Each player and transfer point holds only one item, and high-grade orders require upgraded goods, so handoffs must be coordinated to keep deliveries moving before the timer expires.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-laststand"
+      ],
+      "zh": "玩家控制角色留在一片悬空方格平台上，争取活到倒计时结束。地格会逐渐脱落形成缺口，掉下平台或踩进空洞便失败，需要持续观察剩余落脚点，随着地面缩减调整行进路线。",
+      "en": "Stay alive on a floating platform until the countdown ends. Tiles gradually fall away and leave gaps that are fatal to enter, continually changing which sections of solid ground remain available to move across as the platform breaks apart.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-midlineclash"
+      ],
+      "zh": "双方各自收取武器物品、按需升级，再抢先向共享订单列表交货得分。每人只能拿一件，先完成的订单会从列表移除；这里的武器不能用来攻击，需要根据对手进度及时调整下一次交付。",
+      "en": "Race an opponent to collect weapon items, upgrade them when required and submit them against a shared order list. Weapons cannot be used to attack; each player carries one, and a completed order disappears, changing which delivery is still worth pursuing.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-monstershoot"
+      ],
+      "zh": "玩家以第一人称瞄准怪物连续射击，在限时内尽量削减敌人生命并完成击杀。怪物贴身会自爆伤害玩家，而且自爆不计得分，因此需要保持距离持续命中，不能靠诱使敌人撞上自己来清场。",
+      "en": "Aim and fire repeatedly at monsters to score damage and eliminations before time runs out. Monsters require multiple hits; touching one triggers an explosion that damages the player and removes the monster without awarding any points for its destruction.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-obstaclerun2d"
+      ],
+      "zh": "玩家控制角色在横向悬空平台间向右前进，跳过间隙并抵达终点。掉进缺口会直接失败，整条路线还有三分钟时限，需要判断平台边缘和起跳距离，连续完成跨越而不在空中失去落脚点。",
+      "en": "Run right across floating platforms and jump the gaps to reach the finish line. Falling into a gap fails the attempt, and a three-minute countdown limits the course, so each jump must connect to a safe landing while maintaining progress toward the end.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-obstaclerun3d"
+      ],
+      "zh": "玩家从第三人称视角控制角色穿越悬空平台，可转动视角、调整前后左右移动并跳跃。平台大小、高度和横向偏移各不相同，需要在三分钟内判断落脚点并抵达终点，跌落虚空即失败。",
+      "en": "Move and jump across floating platforms from a third-person view, rotating the camera to judge each landing. Platforms vary in size, height and lateral offset; reach the finish within three minutes without falling into the surrounding void or a gap between surfaces.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-sceneescape"
+      ],
+      "zh": "当前公开实现中，玩家在室内寻找与屏幕任务相符的可交互物体，按次序完成任务链。靠近目标后出现黄色交互提示，正确操作才会推进下一项，需要跟踪当前要求并在倒计时结束前完成全部任务。",
+      "en": "In the public implementation, search an indoor scene for the object required by the current task and interact with it to advance the chain. Interaction is available only nearby, indicated by a yellow prompt, and the full sequence must finish before the countdown.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-sharedfloor"
+      ],
+      "zh": "两名玩家共用场地和订单列表，收取零件，必要时在工作台升级后交货。每人同时只能携带一个零件，高级订单不接受普通件，需要分担取料、加工与交付，避免重复处理已由搭档完成的订单。",
+      "en": "Share an arena and order list with a partner, collecting parts and upgrading them at the workbench when needed before delivery. Each player carries only one part, and high-grade orders reject normal versions, making division of collection, preparation and submission central to team scoring.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-skyduel"
+      ],
+      "zh": "双方在高空方形平台上近身决斗，玩家要靠近并面朝对手才能有效攻击。每次命中削减对方生命，跌出平台则立即落败，因此追击时必须兼顾朝向与边缘距离，避免为了补上一击先失足。",
+      "en": "Fight an opponent in melee on a square platform suspended in the sky. Attacks connect only when the enemy is close and in front, while falling off means immediate defeat, so closing distance and facing the opponent must not carry you over an edge.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "omnigamearena-solocraft"
+      ],
+      "zh": "玩家按订单在场地收取零件，必要时到工作台升级，再送到交付柜台得分。一次只能携带一个零件，拿错可到回收处丢弃；高级订单只收升级件，需要安排取料、加工和交货的往返次序。",
+      "en": "Collect parts for the active orders, upgrade them at the workbench when required and deliver them to the order counter. You can carry only one part, and high-grade orders accept only upgraded versions, so each trip must connect the appropriate pickup, preparation and submission.",
+      "source": "https://arxiv.org/html/2606.09826v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "one-night-ultimate-werewolf"
+      ],
+      "zh": "玩家在夜间角色行动之后，通过白天的一轮讨论比较各自掌握的信息，再投票决定怀疑对象。隐藏身份与可能变化的角色信息会造成相互矛盾的说法，需要围绕最终阵营目标判断该信谁、该投谁。",
+      "en": "After the nighttime role actions, compare accounts during a single discussion and vote on a suspect. Hidden identities and potentially changed roles can produce conflicting information, requiring you to judge whom to trust and how the final vote serves your side's objective.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/8cea78701eb986f3ec357eb9b7c6badd-Abstract-Conference.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/One_Night_Ultimate_Werewolf",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "oshi-zumo"
+      ],
+      "zh": "双方暗中用有限筹码同时出价，较高出价的一方把相扑手向对手方向推进。每次争夺都会消耗后续可用筹码，需要在当前推力与之后的竞价能力之间取舍，争取把相扑手推出对方边界。",
+      "en": "Bid secretly and simultaneously with a limited supply of coins, pushing the wrestler toward the opponent when your bid wins. Spending changes what remains for later contests, so balance the current push against future bidding power as you work toward the opposing edge.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/open_spiel/blob/master/open_spiel/games/oshi_zumo/oshi_zumo.h",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "overcooked"
+      ],
+      "zh": "玩家在厨房中分工处理食材、烹饪和上菜，在限时内完成连续到来的订单。狭窄通路、共用设备和厨房变化会打乱流程，需要及时交接或调整站位，避免同伴互相阻挡而耽误出餐。",
+      "en": "Divide ingredient preparation, cooking and serving among players to complete orders before time runs out. Crowded paths, shared equipment and changing kitchen layouts require handoffs and revised positions to keep meals moving through the kitchen.",
+      "source": "https://store.steampowered.com/app/448510/Overcooked/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/448510/Overcooked/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "overwatch-2"
+      ],
+      "zh": "玩家选择坦克、输出或支援英雄，利用各自武器和技能围绕地图目标交战。队伍通过协调站位、进攻与支援，争夺控制点，或推进、守护地图中的载具。",
+      "en": "Choose a tank, damage or support hero and combine weapons and abilities around the map objective. Coordinate positioning, attacks and support to secure control points or advance and defend a payload.",
+      "source": "https://doi.org/10.1109/TG.2026.3710843",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://doi.org/10.1109/TG.2026.3710843",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ovo"
+      ],
+      "zh": "玩家通过奔跑、滑铲和跳跃穿过平台关卡，避开机关并前往旗帜。不同动作可以衔接成连续移动，需要根据障碍位置选择组合，确保越过当前关口后仍有合适的落点与继续前进的空间。",
+      "en": "Run, slide and jump through platform levels toward the flag, avoiding the mechanisms along the route. Combine movements to handle the arrangement of obstacles, making sure that clearing one section also leaves a suitable landing and enough space to continue through the next.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "oware"
+      ],
+      "zh": "玩家取起一坑中的种子，沿后续各坑依次播撒，并在符合数量条件时捕获种子。每步都会改变多个坑的分布，需要判断最后落点及随后可能的捕获，逐步积累比对手更多的种子。",
+      "en": "Pick up the seeds in a pit and sow them one by one into the following pits, capturing seeds when the count conditions are met. Each turn changes several locations, so consider the final landing and the opportunities it leaves for the next player.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Oware",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pac-man-browser"
+      ],
+      "zh": "玩家在浏览器迷宫中清理豆子，绕开追逐的幽灵，并利用能量豆暂时反击。每次转弯都要兼顾剩余豆子与追逐路线，避免为了局部得分被堵住；本条不对应 Atari 版本的具体实现。",
+      "en": "Clear pellets from a browser maze while evading ghosts and using power pellets to reverse the chase. Choose turns with both remaining pellets and pursuit routes in mind, avoiding a trap while working toward a cleared maze; this entry is distinct from the Atari implementation.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "reviewed-adaptation",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "palworld"
+      ],
+      "zh": "玩家探索岛屿、捕捉帕鲁，让它们参与战斗，也可安排在基地采集与生产。搜集材料、建造设施和组织伙伴劳动相互依赖，需要让外出探索的所得不断支持基地扩展与后续旅程。",
+      "en": "Explore islands and capture Pals to assist in combat or work at the base. Gathering materials, constructing facilities and assigning production tasks support one another, linking what you bring back from exploration with the base's development and preparation for another trip.",
+      "source": "https://store.steampowered.com/app/1623730/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1623730/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pentari"
+      ],
+      "zh": "玩家扮演在 Bostwin 休假的连队指挥官，通过文字命令探索城镇、检查环境并与人物交谈。休假中遇到的事件需要依靠发现的信息和互动推进，把各处见闻转化为可以继续采取的行动。",
+      "en": "Play a company commander on leave in Bostwin, exploring the town and speaking with its inhabitants through text commands. Respond to the encounters that interrupt the holiday, using information gathered from places and conversations to work out how to proceed.",
+      "source": "https://ifdb.org/viewgame?id=llchvog0ukwrphih",
+      "detailUrl": "https://ifdb.org/viewgame?id=llchvog0ukwrphih",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pga-tour-2k23"
+      ],
+      "zh": "玩家根据距离、地形和风向选择球杆与击球方式，再通过挥杆控制把球送向球洞。前一杆的落点会改变下一杆的条件，需要兼顾距离与位置，争取用更少杆数完成整段球场。",
+      "en": "Choose a club and shot based on distance, terrain and wind, then control the swing to send the ball toward the hole. Each landing determines the next approach, so weigh position as well as distance while trying to finish the course in fewer strokes.",
+      "source": "https://store.steampowered.com/app/1588010/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1588010/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "phantom-go"
+      ],
+      "zh": "玩家在看不到对方完整布局的围棋棋盘上尝试落子，利用行动反馈推断隐藏棋子。新的反馈不断修正对局面的理解，影响棋群连接、围空和后续可用路线。",
+      "en": "Attempt moves on a Go board without seeing the opponent's complete arrangement, using feedback to infer hidden stones. Combine new information with earlier deductions when deciding where to connect or surround space, adapting to a position that cannot be judged from visible stones alone.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/google-deepmind/open_spiel/blob/master/open_spiel/games/phantom_go/phantom_go.h",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "plants-vs-zombies"
+      ],
+      "zh": "玩家收集阳光，沿多条进攻路线种植功能不同的植物，阻止僵尸走到房屋。植物需要相互配合，资源又限制布置速度，因此要根据各路压力决定先补哪里、何时强化已有防线。",
+      "en": "Collect sunlight and place plants with different functions across the lanes to stop zombies from reaching the house. Coordinate plant roles under limited resources, deciding which route most needs attention and when reinforcing an existing defense matters more than starting another placement.",
+      "source": "https://arxiv.org/html/2603.06656v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Plants_vs._Zombies_%28video_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pocket-bomberman"
+      ],
+      "zh": "玩家通过跳跃跨越平台，在合适位置放置炸弹，消灭敌人并处理阻挡路线的障碍。需要让炸弹位置与后续移动相互配合，清理当前区域后逐层向前推进，避免攻击行动把自己困在危险位置。",
+      "en": "Jump between platforms and place bombs to defeat enemies and clear obstacles from the route. Coordinate where a bomb is set with where you move afterward, clearing each area to advance through the stages without letting the attack leave you trapped in danger.",
+      "source": "https://arxiv.org/html/2609.32093",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Pocket_Bomberman",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pokemon-crystal"
+      ],
+      "zh": "玩家在城都探索、捕捉并培养宝可梦，通过队伍搭配和属性相克处理回合制战斗。旅途中获得的新伙伴与招式会改变可用战术，需要在继续探索和调整队伍之间循环，应对接下来的挑战。",
+      "en": "Travel through Johto, catch and train Pokémon, and use team composition and type matchups in turn-based battles. New partners and moves change the options available, linking exploration with adjustments to the team as you prepare for the encounters further along the journey.",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/pokemon-crystal-version",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.pokemon.com/us/pokemon-video-games/pokemon-crystal-version",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pokemon-emerald"
+      ],
+      "zh": "玩家在丰缘地区探索，捕捉并培养宝可梦，以回合制战斗挑战道馆和联盟。根据对手属性调整队伍与招式，把旅途中的收集转化为战斗准备，再利用逐步成长的队伍推进冒险。",
+      "en": "Explore Hoenn, catch and train Pokémon, and challenge gyms and the League through turn-based battles. Adapt the team and its moves to opposing types, using discoveries during travel to prepare for encounters and the resulting growth to continue the adventure.",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/pokemon-emerald-version",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.pokemon.com/us/pokemon-video-games/pokemon-emerald-version",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pokemon-legends-za"
+      ],
+      "zh": "玩家在密阿雷市探索和捕捉宝可梦，战斗中训练家与宝可梦会同时移动。招式范围、释放时机与替换都影响交战，需要边调整位置边选择动作，不能把战斗简单理解为原地依次交换招式。",
+      "en": "Explore Lumiose City and catch Pokémon, then battle while trainers and Pokémon move around together. Move range, timing, switches and positioning all affect which attacks connect and how the fight unfolds.",
+      "source": "https://www.pokemon.co.jp/ex/legends_z-a/sc/features/250722_01/",
+      "detailUrl": "https://www.pokemon.co.jp/ex/legends_z-a/sc/features/250722_01/",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "evidenceUrls": [
+        "https://www.pokemon.co.jp/ex/legends_z-a/sc/features/250722_01/",
+        "https://www.pokemon.co.jp/ex/legends_z-a/sc/features/250227_01/"
+      ],
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pokemon-red"
+      ],
+      "zh": "玩家在关都旅行，捕捉宝可梦并组建队伍，通过回合制战斗挑战道馆和宝可梦联盟。新的伙伴与成长改变可用的招式组合，需要根据接下来的对手调整队伍，让探索和培养支持后续挑战。",
+      "en": "Travel across Kanto, catching Pokémon and building a team to challenge gyms and the Pokémon League. Turn-based battles test the matchups you have prepared, while newly found partners and continued training provide different options for the opponents encountered later in the journey.",
+      "source": "https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pokemon-showdown"
+      ],
+      "zh": "玩家先组建队伍，再在回合中选择招式或替换宝可梦，利用属性相克、状态与队伍配合击败对方。对手可能的回应影响攻击和换人的价值，保留哪些成员也会改变之后的对局空间。",
+      "en": "Build a team and choose moves or switches during turn-based Pokémon battles. Use type matchups, status effects and team interactions while anticipating the opponent's response, balancing an immediate attack against preserving the teammates and options needed to win the rest of the match.",
+      "source": "https://pokemonshowdown.com/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://pokemonshowdown.com/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pokemon-tcg"
+      ],
+      "zh": "玩家打出宝可梦、附加能量并组织进化，借助训练家卡准备攻击与后续回合。目标包括通过击倒对方取得奖励卡，需要把资源投入和可用招式连接起来，避免只铺出场面却无法持续行动。",
+      "en": "Play Pokémon, attach Energy and develop evolutions, using Trainer cards to prepare attacks and future turns. Take Prize cards by defeating opposing Pokémon, connecting resource use with available attacks so that building the board also leaves a way to keep making progress.",
+      "source": "https://arxiv.org/abs/2605.29653",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Trading_Card_Game",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "poker"
+      ],
+      "zh": "玩家在隐藏手牌与公开信息之间判断局势，通过跟注、加注或弃牌争夺底池。对手的下注历史也是线索，需要权衡继续投入的成本与可能收益；牌组、下注结构和获胜牌型则随扑克变体而异。",
+      "en": "Use hidden cards, public information and betting history to decide whether to call, raise or fold while contesting the pot. Weigh another investment against the possible gain and the opponent's behavior, checking the chosen variant for its deck, betting structure and hand rankings.",
+      "source": "https://ojs.aaai.org/index.php/AAAI/article/view/20394",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Poker",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "popgym-concentration"
+      ],
+      "zh": "玩家翻开牌面，依据点数或颜色寻找匹配，并记住已经看过的位置。牌面随后重新隐藏，先前的观察帮助定位剩余组合，逐步完成全部配对。",
+      "en": "Reveal cards and match them by the required rank or color, remembering the positions seen earlier. When those faces become hidden again, their known locations guide the selection of the remaining matching pairs.",
+      "source": "https://raw.githubusercontent.com/proroklab/popgym/master/popgym/envs/concentration.py",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/proroklab/popgym/master/popgym/envs/concentration.py",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "prisoners-dilemma"
+      ],
+      "zh": "双方反复选择合作或背叛，并可围绕互动进行交流，各轮联合选择决定相应收益。玩家需要结合之前的承诺和实际行动调整回应，在追求当前收益与维持之后的互惠关系之间判断。",
+      "en": "Repeatedly choose cooperation or defection, with opportunities for communication around the interaction and payoffs determined by joint choices. Compare earlier promises with actual behavior when deciding how to respond, balancing a current gain against the reciprocal relationship that may continue afterward.",
+      "source": "https://arxiv.org/html/2601.08462v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/cathyxl/MAgIC",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-bigfish"
+      ],
+      "zh": "玩家控制小鱼捕食宽度比自己小的鱼，逐渐增大体型，并避开更大的鱼。碰到大鱼会被吃掉；成长到比场中所有鱼都大即可完成，因此需要随身体变化重新判断当前可捕食的对象。",
+      "en": "Eat fish narrower than your own to grow, while avoiding contact with any larger fish. A collision with a bigger fish ends the run; becoming larger than every other fish completes the level, changing which nearby creatures are safe targets as you grow.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#bigfish",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#bigfish",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-bossfight"
+      ],
+      "zh": "玩家驾驶小型飞船迎战首领，躲开多种弹幕，也可借陨石掩护。首领护盾会阶段性关闭，只有此时攻击才能造成伤害；需要反复等待和抓住破防窗口，直到累计伤害将其击毁。",
+      "en": "Pilot a small starship against a larger boss, dodging its attacks and using scattered meteors as cover. The boss periodically lowers its shield and becomes vulnerable, so destroying it requires surviving between openings and landing repeated hits when the shield is down.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#bossfight",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#bossfight",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-caveflyer"
+      ],
+      "zh": "玩家转向并沿飞船当前朝向前进或后退，穿过洞穴网络寻找出口。途中可用激光摧毁目标得分，但固定和移动障碍都可能致命，需要控制惯性与航向，避免为了射击偏离安全通道。",
+      "en": "Rotate a ship and move forward or backward along its current axis to navigate a cave network and reach the exit. Lasers can destroy targets for additional reward, while stationary and moving hazards shape the safe passages available through the caves.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#caveflyer",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#caveflyer",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-chaser"
+      ],
+      "zh": "玩家穿过迷宫收集全部绿色球体，同时避开追逐的敌人。吃到星星后敌人会暂时变得可被吞食，但被吃掉的敌人会以蛋的形式重新孵化，因此强化只能打开短时通路，不能永久清空追兵。",
+      "en": "Collect all the green orbs in a maze while avoiding pursuing enemies. Stars temporarily make enemies vulnerable, but eating one creates an egg that later hatches a replacement, restoring the chasing force after the temporary opening provided by the power-up.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#chaser",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#chaser",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-climber"
+      ],
+      "zh": "玩家沿一连串平台向上攀登，收集分布在不同落点的星星。取到全部星星才结束关卡，不只是到达最高处；飞行怪物散布在路线中，需要在选择下一次跳跃时同时考虑收集目标和安全落脚点。",
+      "en": "Climb a sequence of platforms and collect the stars scattered along them while avoiding lethal flying monsters. The level finishes when every star is collected, making the route depend on remaining pickups rather than simply reaching the highest visible point of the course.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#climber",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#climber",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-coinrun"
+      ],
+      "zh": "玩家从关卡最左侧出发，穿越平台地形并取得最右侧的金币。途中有静止锯片、来回移动的敌人和致命深坑，起跳时机和落地位置决定能否安全接上下一段道路。",
+      "en": "Start at the far left and cross the platform course to collect the coin at the far right. Stationary saws, enemies pacing back and forth and deadly chasms interrupt the route, making jump timing and safe landings part of each crossing on the route to the coin.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#coinrun",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#coinrun",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-dodgeball"
+      ],
+      "zh": "玩家在随机墙体和敌人组成的房间中移动，只能朝角色面向投球。需要躲避敌人的投球且不能碰墙；击中全部敌人后，出口平台才会解锁，最后还要走到平台才能完成关卡。",
+      "en": "Move through a room of enemies and walls, throwing balls only in the direction you face. Avoid enemy projectiles and wall contact, which is fatal; after hitting every enemy, reach the newly unlocked exit platform to finish the room and collect the completion reward.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#dodgeball",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#dodgeball",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-fruitbot"
+      ],
+      "zh": "玩家控制机器人穿过滚动场景中的墙体缺口，沿途收集水果，并避开混入的非水果物品。误收会受到比单次收果更大的扣分，部分门还需要钥匙，必须兼顾辨别物品和保持通行路线。",
+      "en": "Guide a robot through gaps in scrolling walls, collecting fruit and avoiding non-fruit objects. Mistaken pickups incur a penalty larger than a fruit's reward, and some gates need keys, so reaching the end requires both selective collection and navigating the openings ahead.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#fruitbot",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#fruitbot",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-games"
+      ],
+      "zh": "玩家在十六款不同游戏中跳跃、射击、搜集或穿过迷宫，按各自规则取得金币、宝石或其他目标。每款游戏会生成不同地形和物体布局，相同操作并不对应同一目标，需要随作品切换玩法与完成条件。",
+      "en": "Play sixteen games with their own movement, shooting, collection and navigation objectives, from reaching a coin to recovering a gem. Each game generates varying layouts and object placements, so the route changes between levels while its particular rules and completion target remain distinct.",
+      "source": "https://github.com/openai/procgen",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/openai/procgen",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-heist"
+      ],
+      "zh": "玩家在迷宫中寻找被多重彩色门锁挡住的宝石，收集相同颜色的钥匙才能通过对应门。钥匙分散在地图各处，需要先判断哪些区域可达，再依次打开后续通路，最后取得宝石。",
+      "en": "Find a gem hidden behind colored locks in a maze, collecting keys that open the matching doors. Keys are scattered through the level, so the route must account for which areas are currently reachable and which key is needed to open the next passage.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#heist",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#heist",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-jumper"
+      ],
+      "zh": "玩家控制兔子在开放式平台关卡中寻找胡萝卜，可用二段跳到达较高位置。指南针显示目标方向和距离，尖刺碰到即死，需要根据提示决定上行或下行路线，取得胡萝卜后才完成关卡。",
+      "en": "Guide a bunny through an open platform layout to find a carrot, using double jumps to reach difficult ledges. A compass shows the target's direction and distance, while spikes are lethal, and the route can involve climbing or descending as you follow that guidance through the platforms.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#jumper",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#jumper",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-leaper"
+      ],
+      "zh": "玩家先穿过需要避让汽车的车道，再借助河面浮木抵达对岸终点。汽车碰撞和落水都会失败，需要分别判断道路上的间隙与浮木的移动位置，把连续几次跨越接成一条安全路线。",
+      "en": "Cross lanes of traffic and then a river to reach the finish line. Avoid cars on the road and hop between moving logs on the water; falling into the river ends the run, so a safe crossing depends on the timing of both sections.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#leaper",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#leaper",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-maze"
+      ],
+      "zh": "玩家控制老鼠向上下左右移动，在随机生成的迷宫里寻找唯一一块奶酪。迷宫大小和通道会变化，需要根据当前布局识别连通路线，绕开走不通的分支，最终到达奶酪位置完成关卡。",
+      "en": "Move a mouse up, down, left or right through a generated maze to find its single piece of cheese. Maze size and corridors vary between levels, so reaching the reward requires following the current layout and finding a connected route to the target.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#maze",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#maze",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-miner"
+      ],
+      "zh": "玩家操控机器人挖开泥土并收集全部钻石，随后进入出口。泥土支撑着岩石和钻石，挖掉后它们会下落或滚动；任何落物砸中都会失败，因此开路和取宝必须同时考虑上方物体的变化。",
+      "en": "Dig through dirt as a robot, collect every diamond and then enter the exit. Dirt supports boulders and diamonds, which fall or roll when space opens beneath them; either can crush the player, making excavation change the hazards as well as the available paths.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#miner",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#miner",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-ninja"
+      ],
+      "zh": "玩家控制忍者在狭窄落脚点间跳跃，可通过持续蓄力增加跳跃幅度，并向多个角度投掷飞镖清除炸弹。目标是取得关卡末端的蘑菇，需要根据平台间距控制蓄力，避免落地时碰到炸弹。",
+      "en": "Charge a ninja's jumps to cross narrow ledges and throw stars at different angles to clear bomb obstacles. Collect the mushroom at the end to finish, judging the charge needed for each gap while keeping the chosen landing spot clear of remaining bombs.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#ninja",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#ninja",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-plunder"
+      ],
+      "zh": "玩家在画面底部操纵船只，用炮弹击毁指定颜色的敌船，不能误伤友船。每次开火都会额外消耗倒计时，击中友船的时间惩罚更大，因此需要先确认目标颜色，再选择值得发射的一炮。",
+      "en": "Fire cannonballs from your ship at the bottom of the screen to destroy vessels of the designated enemy color. Every shot consumes extra time, and hitting a friendly ship brings a larger timer penalty, making target identification and conserving shots part of staying in play.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#plunder",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#plunder",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "procgen-starpilot"
+      ],
+      "zh": "玩家驾驶横向飞行的战机射击敌舰，并躲避会直接瞄准自己的弹丸。敌人包括快慢不同的飞船和耐久较高的炮台，云层会遮挡视野，陨石则无法穿越，需要在攻击时持续调整安全飞行路线。",
+      "en": "Pilot a side-scrolling fighter and destroy enemy ships while dodging projectiles aimed directly at you. Fast and slow enemies, durable turrets, obscuring clouds and impassable meteors create different problems along the route, requiring continued movement to keep a safe path through incoming fire.",
+      "source": "https://raw.githubusercontent.com/openai/procgen/master/README.md#starpilot",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://raw.githubusercontent.com/openai/procgen/master/README.md#starpilot",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pubg-battlegrounds"
+      ],
+      "zh": "玩家搜集武器、弹药与补给，在逐渐缩小的安全区内转移，争取成为最后存活的个人或队伍。每次交战都可能影响后续补给与位置，需要比较主动进攻、隐藏和提前移动的价值。",
+      "en": "Scavenge weapons and supplies while moving within a shrinking safe zone, aiming to be the last player or team alive. Each engagement changes your position and resources for what follows, so weigh attacking, staying concealed and relocating before the next area closes.",
+      "source": "https://store.steampowered.com/app/578080/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/578080/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "pubg-mobile"
+      ],
+      "zh": "玩家搜集装备并利用载具在地图上转移，与队友一起应对交火和不断缩小的安全区。需要让物资搜寻与行进时间相配合，避免停留过久而失去路线，争取让队伍存活到最后。",
+      "en": "Loot equipment and use vehicles to move across the map with teammates, handling opponents and the contracting safe zone. Balance time spent searching against the route still available, keeping the squad prepared for combat without lingering until a safe departure is lost.",
+      "source": "https://github.com/hly1998/ChronoPlay",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/hly1998/ChronoPlay",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "public-goods"
+      ],
+      "zh": "玩家决定把多少点数投入公共池，同时保留其余点数以影响个人收益。公共贡献与私人留存的结果需要一起考虑，既观察群体投入，也判断自己的选择能否在当前规则下带来较高的最终回报。",
+      "en": "Choose how many points to contribute to a shared pool and how many to retain privately. Consider the consequences of both parts of the allocation, observing the group's contributions while deciding how your own investment affects the final payoff under the current rules.",
+      "source": "https://aclanthology.org/2024.emnlp-main.416.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/cathyxl/MAgIC",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "quoridor"
+      ],
+      "zh": "玩家轮流移动棋子或放置有限的墙体，争取先到达棋盘对侧。墙体可以延长对方通路，也会改变自己的可行路线，需要比较绕路成本与阻挡收益，保持己方仍有办法抵达终点。",
+      "en": "Move a pawn or place one of a limited number of walls, trying to reach the opposite side first. A wall can lengthen the opponent's route while changing your own options, so compare the delay it creates with the path you still need to travel.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Quoridor",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "reconnaissance-blind-chess"
+      ],
+      "zh": "玩家每轮先侦察棋盘的一小块区域，再尝试走子，通过侦察与行动反馈推断隐藏的对手布局。需要随新信息修正判断，既安排攻击，也避免把基于过时推测的走法当成确定可行。",
+      "en": "Sense a small region of the board before attempting a chess move, using observations and action feedback to infer the hidden opposing position. Update that picture as information changes, planning attacks without treating a move based on an earlier assumption as certainly valid now.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://rbc.jhuapl.edu/gameRules",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "red-dead-redemption-2"
+      ],
+      "zh": "玩家骑马探索西部地区，与人物互动、狩猎和交战，随着剧情任务推进旅程。自由探索与定向任务交替展开，补给、行进路线和沿途遭遇共同构成日常活动。",
+      "en": "Travel on horseback through a Western world, speaking with characters, hunting and fighting as story missions develop. Manage supplies and travel while moving between free exploration and the encounters that advance the story.",
+      "source": "https://store.steampowered.com/app/1174180/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1174180/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "resistance"
+      ],
+      "zh": "玩家提名行动队伍并投票决定是否接受，队员随后秘密选择让任务成功或遭到破坏。抵抗军要找出可信的搭档，间谍则隐藏身份影响组队，讨论、表决和任务结果不断改变彼此判断。",
+      "en": "Nominate and approve mission teams before members secretly choose whether the mission succeeds or is sabotaged. Resistance players seek trustworthy partners while spies influence selections without exposing themselves, with discussion, votes and outcomes continually changing how players interpret one another.",
+      "source": "https://arxiv.org/html/2608.09128v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/The_Resistance_%28game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "restless-wing-syndrome"
+      ],
+      "zh": "玩家扮演一只会定时自动拍翼的鸽子，观察拍翼计量条安排移动与起落。屋顶缺口和尖刺限制通路，抵达面包需要让路线与不断重复的拍翼节奏相配合。",
+      "en": "Control a pigeon whose wings flap automatically, watching the meter to time movement around that cycle. Cross rooftop gaps and spikes to reach bread, coordinating takeoffs and landings with the recurring flaps.",
+      "source": "https://leko20.itch.io/restless-wing-syndrome",
+      "detailUrl": "https://leko20.itch.io/restless-wing-syndrome",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "reverberations"
+      ],
+      "zh": "玩家扮演卷入犯罪事件的披萨外送员，通过文字探索、对话和使用物品应对不断升级的处境。需要利用发现的线索阻止罪犯并躲避追杀，让各处互动支持继续推进剧情和摆脱危险。",
+      "en": "Play a pizza courier drawn into a crime plot, using text-based exploration, conversations and objects to respond to escalating events. Connect the clues and interactions you find with attempts to foil criminals and evade pursuit, progressing through the story while avoiding the dangers around you.",
+      "source": "https://ifdb.org/viewgame?id=dop7nbjl90r5zmf9",
+      "detailUrl": "https://ifdb.org/viewgame?id=dop7nbjl90r5zmf9",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "reversi"
+      ],
+      "zh": "玩家把棋子落在能够夹住对方棋子的位置，将夹在中间的棋子翻为己方颜色。落子会改变后续合法位置，需要兼顾当前翻转数量、边角控制和终局布局，最终争取保有更多棋子。",
+      "en": "Place a disc to outflank opposing discs and flip them to your color. Each move changes the placements available afterward, so weigh immediate conversions against control of edges and corners and the position that will determine the final disc count.",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Reversi",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "riichi-mahjong"
+      ],
+      "zh": "玩家通过摸牌和弃牌整理手牌，结合可见牌与对手行为判断进攻机会和放铳风险。立直等日式规则影响牌型与计分，玩家在推进和牌和收缩防守之间不断转换。",
+      "en": "Draw and discard to develop a hand while using visible tiles and opponents' behavior to judge opportunity and risk. Japanese rules, including riichi, shape those choices, requiring a balance between pursuing a winning hand and defending according to the applicable scoring and legal-hand conditions.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2341b14df6b4f684a30eb4e99807bea6-Abstract-Conference.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Japanese_mahjong",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "rng-bench-3d-maze"
+      ],
+      "zh": "玩家只能观察迷宫当前位置的局部画面，需要通过移动把分散视图连接成对通路的理解。目标是抵达指定位置，途中要记住转弯与已走路线，避免每次看到新画面都重新从零搜索。",
+      "en": "Navigate to the maze goal using only local visual views. Connect the passages through movement, remembering turns and traveled routes to build a usable picture of where the destination lies.",
+      "source": "https://arxiv.org/html/2606.19338",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "rng-bench-matching-pairs"
+      ],
+      "zh": "玩家翻开卡牌观察其内容，记住它们的位置，再选择两张同类卡牌完成配对。牌面重新隐藏后，要利用之前的观察继续寻找剩余组合，减少无效尝试，直到全部卡牌都被匹配。",
+      "en": "Reveal cards, remember their contents and positions, and select matching pairs. When the faces are hidden again, use what earlier reveals established to locate the remaining combinations, reducing unnecessary trials as you work toward matching every card on the board.",
+      "source": "https://arxiv.org/html/2606.19338",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "robocup-2d"
+      ],
+      "zh": "球员在二维足球仿真中跑位、传球、防守与射门，争取进球并限制对方机会。持球者和无球队员的位置相互配合，球队随着球权变化在进攻组织与球门保护之间切换。",
+      "en": "Position simulated players, pass, defend and shoot in a two-dimensional football match. Coordinate the ball carrier with teammates' movement, switching between creating scoring opportunities and protecting the goal as possession changes.",
+      "source": "https://arxiv.org/abs/2606.18786",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://rcsoccersim.github.io/",
+      "detailKind": "official-game-rules",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "rock-paper-scissors"
+      ],
+      "zh": "双方同时选择石头、剪刀或布，三种动作循环克制，每轮结果由两人的联合选择决定。重复对局时，可以参考之前的出招改变选择，既尝试捕捉对手习惯，也避免自己的顺序过于容易预测。",
+      "en": "Choose rock, paper or scissors simultaneously, with the three actions beating one another in a cycle. Across repeated rounds, adapt to the opponent's earlier selections while varying your own choices, seeking useful patterns without becoming predictable through an easily recognized sequence.",
+      "source": "https://github.com/microsoft/SmartPlay#smartplay",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/microsoft/SmartPlay#smartplay",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "rocket-league-2d"
+      ],
+      "zh": "玩家驾驶车辆追逐足球，通过碰撞、加速和跳跃改变球的运动，把它送入对方球门。需要让车辆位置与触球时机配合，既安排下一次进攻，也避免冲过球后留下难以及时回防的空隙。",
+      "en": "Drive a vehicle into the ball, using acceleration and jumps to send it toward the opposing goal. Coordinate your approach with the moment of contact, preparing another attack while avoiding an overshoot that leaves too much space to recover and defend.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "roco-kingdom-world"
+      ],
+      "zh": "玩家探索开放地图，捕捉与培养精灵，搭配队伍和技能展开对战。孵蛋、采集与社交等活动穿插在冒险之中，可以让收集与养成支持后续挑战，再通过探索寻找新的伙伴和资源。",
+      "en": "Explore the map, capture and develop creatures, and combine team members and skills in battles. Hatching, gathering and social activities accompany the journey, linking collection and preparation with later challenges while further exploration offers new companions and resources to work with.",
+      "source": "https://rocom.qq.com/",
+      "detailUrl": "https://rocom.qq.com/",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "rtfm"
+      ],
+      "zh": "玩家阅读当前规则，判断哪件道具能够克制指定怪物，再移动取得道具并交战。文字中定义的物品与怪物关系决定各对象在本轮的作用，观察、取物和战斗按这一对应关系衔接。",
+      "en": "Read the current rules to determine which item can defeat the specified monster, then collect it and enter combat. Connect the textual relationships to the objects on the map, whose roles depend on the instructions for that round.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2021/file/b3e3e393c77e35a4a3f3cbd1e429b5dc-Paper.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "run-3"
+      ],
+      "zh": "玩家在悬空隧道中奔跑和跳跃，跨过缺口，并利用侧壁改变脚下的行走平面。需要提前选择下一段可落脚的表面，让转向和起跳连续衔接，避免越过一个缺口后又掉入下一个空洞。",
+      "en": "Run and jump through a suspended tunnel, crossing gaps and using the side walls to change the walking surface. Choose the next viable landing ahead of time, connecting turns and jumps so that clearing one opening does not send you into the next.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "scene-investigators"
+      ],
+      "zh": "玩家进入案件现场，观察摆设、检查物品与文字线索，再联系不同证据推断发生过什么。场景不会直接给出完整解释，需要比较细节、形成事件经过，并用这些推断回答案件提出的问题。",
+      "en": "Inspect a crime scene, examining objects and written clues before linking the evidence into an account of events. The scene does not provide a complete explanation, so compare details and build deductions that allow you to answer the questions posed about the case.",
+      "source": "https://store.steampowered.com/app/1159830/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1159830/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "secret-hitler"
+      ],
+      "zh": "玩家通过讨论和投票选出政府，再秘密处理政策卡，让本阵营的政策或特殊胜利条件得到推进。公开的提名与表决、私下的政策选择可能互相矛盾，需要据此判断身份并决定是否信任下一届政府。",
+      "en": "Discuss and elect a government, then process policy cards privately to advance your side's policy track or special victory condition. Compare public nominations and votes with the resulting legislation, judging conflicting accounts when deciding which players to trust with the next government.",
+      "source": "https://arxiv.org/abs/2607.28146",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Secret_Hitler",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "shattered-pixel-dungeon"
+      ],
+      "zh": "玩家选择职业深入随机地牢，与敌人交战、辨识物品，并管理饥饿、药水与其他补给。每层探索所得会影响后续准备，需要在继续深入和维持生存之间取舍，逐步寻找地牢中的护符。",
+      "en": "Choose a class and descend through a changing dungeon, fighting enemies, identifying items and managing hunger and supplies. Each floor alters the options available for the next, requiring you to balance further exploration against survival while working toward the amulet below.",
+      "source": "https://store.steampowered.com/app/1769170/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/1769170/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "sheriff-of-nottingham"
+      ],
+      "zh": "商人秘密把货物装袋并申报，警长判断是否检查，也可以围绕贿赂展开商谈。玩家需要比较合法货物的稳定收益与走私风险，观察他人的申报和态度，在查验与放行之间争取更多得分。",
+      "en": "Merchants secretly pack goods and make a declaration, while the sheriff decides whether to inspect and negotiates over bribes. Weigh lawful sales against smuggling risk, using the declarations and conversation to decide when inspection or passage is likely to produce a better result.",
+      "source": "https://arxiv.org/html/2608.09128v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Sheriff_of_Nottingham_%28board_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "simon-tatham-puzzles"
+      ],
+      "zh": "这套合集包含数独、桥梁、数织、回路等多种单人谜题，每款都有各自的提示与合法操作。玩家将局部约束组合成完整布局，或寻找满足规则的操作序列，完成各自不同的解题目标。",
+      "en": "Solve a collection of single-player puzzles, including number grids, bridges, nonograms and loops. Each game supplies its own clues and legal operations, with local constraints combining into a completed layout or sequence.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e5d1eaadeed651ba1021c09149db4b92-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/ETH-DISCO/rlp",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "skat"
+      ],
+      "zh": "玩家通过叫牌确定庄家，由一人对抗另外两人，再依据所选定约争取足够的牌点。将牌和出牌顺序决定哪些牌能拿到关键牌墩，需要结合搭档关系与已出牌面安排后续争夺。",
+      "en": "Bid to determine a declarer who then plays against the other two participants under the chosen contract. Use trump and the order of play to contest valuable tricks, judging the exposed cards and partnership situation when deciding how to win the points required.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Skat_%28card_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "skull"
+      ],
+      "zh": "玩家轮流暗放花朵或骷髅，再通过竞价声明自己能够安全翻开多少张牌。叫价需要结合已知信息与对他人的判断，既可能用花朵建立可信度，也可能用骷髅诱使对手承担失败风险。",
+      "en": "Place flowers or skulls face down, then bid on how many cards you can reveal safely. Base the claim on what you know and what others may have placed, balancing a credible bid against the chance that a hidden skull makes the attempt fail.",
+      "source": "https://arxiv.org/html/2608.09128v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Skull_%28card_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "slay-the-spire"
+      ],
+      "zh": "玩家用牌组进行回合制战斗，沿途选择新卡、遗物与路线，逐渐形成适合当前旅程的组合。每次选择都会改变后续抽牌和资源状况，需要把单场胜利与整段攀塔所需的准备联系起来。",
+      "en": "Fight turn-based battles with a deck that changes as you choose cards, relics and routes along the climb. Each addition affects later draws and resources, so connect the needs of the current fight with the combinations and preparation required for the remaining journey.",
+      "source": "https://store.steampowered.com/app/646570/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/646570/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "slay-the-spire-2"
+      ],
+      "zh": "玩家在攀塔途中进行回合制卡牌战斗，选择路线、获得卡牌和遗物，并据此调整牌组。需要让新选内容与已有组合相配合，同时顾及连续战斗的消耗，使眼前优势能够延续到下一段旅程。",
+      "en": "Climb through turn-based card battles, choosing routes and acquiring cards and relics that reshape the deck. Match new additions to existing combinations while accounting for the cost of successive encounters, aiming to carry the advantage from one fight into the next part of the run.",
+      "source": "https://store.steampowered.com/app/2868840/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/2868840/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "smallville"
+      ],
+      "zh": "虚拟角色在小镇不同地点活动，安排个人计划、与其他角色交流，并根据经历调整后续行为。互动影响日程和人际关系，许多相互连接的日常活动共同构成不断展开的小镇生活。",
+      "en": "Virtual residents move between locations, follow personal plans and talk with one another, adjusting later behavior in light of their experiences. These interactions shape schedules and relationships, producing a continuing network of daily activities around the town.",
+      "source": "https://research.google/pubs/generative-agents-interactive-simulacra-of-human-behavior/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://research.google/pubs/generative-agents-interactive-simulacra-of-human-behavior/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "snake"
+      ],
+      "zh": "玩家操纵蛇寻找食物，吃到后身体不断变长，既要避开障碍，也不能撞上自身。随着可用空间缩小，需要提前安排转弯和回绕路线，让下一个食物的位置不会把自己引进死路。",
+      "en": "Steer a snake toward food, which makes its body longer, while avoiding obstacles and itself. As the available space shrinks, plan turns and loops ahead of time so that reaching the next item does not leave the growing body without a route onward.",
+      "source": "https://arxiv.org/html/2603.06656v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Snake_%28video_game_genre%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "social-gym-survivor"
+      ],
+      "zh": "玩家通过讨论与结盟争取在多轮淘汰投票中存活，持续判断谁会支持或针对自己。进入最后三人后，目标转为说服已淘汰玩家组成的陪审团，因此早期关系也会影响终局能否获胜。",
+      "en": "Discuss and form alliances to survive successive elimination votes. Reaching the final three leads to a jury vote by eliminated players, making earlier relationships and their view of your conduct part of deciding the winner.",
+      "source": "https://github.com/Keyu-He/Social_Gym_Spartan/blob/main/games/survivor/description.md",
+      "detailUrl": "https://github.com/Keyu-He/Social_Gym_Spartan/blob/main/games/survivor/description.md",
+      "basis": "gameplay-followup-v34",
+      "scope": "research-adaptation",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "sokoban"
+      ],
+      "zh": "玩家在狭窄网格中把箱子推到指定位置，但错误推动可能把箱子永远卡住。需要为角色保留移动通道，先判断箱子该从哪一侧接近，再安排整个推动顺序，让所有目标都能完成。",
+      "en": "Push crates onto their target squares in a confined grid, where a bad move can leave a box permanently stuck. Preserve routes for the character and identify which side each crate must be approached from before committing to the sequence needed to place them all.",
+      "source": "https://arxiv.org/abs/2505.15146",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Sokoban",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "sonic-doom-basic"
+      ],
+      "zh": "玩家位于矩形房间中，用武器击中对面墙边随机出现的敌人。每次目标换位后重新寻找位置并调整瞄准，持续完成这个基础场景中的定位与射击循环。",
+      "en": "Shoot enemies that appear at random positions near the opposite wall of a rectangular room. Locate each target and adjust aim as its position changes, repeating the aiming-and-shooting loop within this basic scenario.",
+      "source": "https://trepo.tuni.fi/bitstream/10024/233997/1/Sonic_Doom_CoG_2025_2_.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/thainv0212/sonic_doom",
+      "detailKind": "official-project-documentation",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "sorcerer"
+      ],
+      "zh": "玩家通过文字命令探索奇幻场景，寻找物品和法术，再用合适的咒语处理障碍。物品与魔法的组合会打开新线索和路线，需要回顾先前遇到的问题，让探索所得转化为后续解法。",
+      "en": "Explore a fantasy world through text, collecting objects and spells to deal with obstacles. Combine magical effects with inventory clues to reveal routes or information, revisiting earlier problems when a new discovery supplies a different way to approach the next puzzle.",
+      "source": "https://arxiv.org/html/2601.16690v2",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Sorcerer_%28video_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "spyfall"
+      ],
+      "zh": "多数玩家知道同一个地点，通过互相提问寻找不知道地点的间谍；间谍则从回答中寻找线索并掩饰自己的无知。提问要足够区分身份，又不能直接泄露地点，让推理与信息保护同时进行。",
+      "en": "Most players know a shared location and question one another to identify the uninformed spy. The spy listens for clues while hiding that lack of knowledge, so questions must distinguish genuine familiarity without revealing enough for the outsider to infer the location too easily.",
+      "source": "https://arxiv.org/abs/2601.09017",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Spyfall_%28card_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "stack"
+      ],
+      "zh": "玩家选择时机让移动中的方块落下，尽量使它与下层边缘对齐，逐步把塔堆高。伸出的部分会被切掉，失误因此缩小后续的可用面积，需要在越来越窄的平台上保持连续精确落位。",
+      "en": "Stop each moving block so that it lands aligned with the layer below. Overhanging sections are cut away, narrowing the surface for later blocks as the tower grows taller.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "stag-hunt"
+      ],
+      "zh": "玩家在 STAG 与 HARE 之间选择，前者的团队收益取决于是否达到规则设定的参与阈值。需要判断其他成员是否会共同选择，在可能的集体高收益与另一种行动的回报之间作出取舍。",
+      "en": "Choose STAG or HARE under rules where the team benefit from STAG depends on meeting a participation threshold. Estimate whether enough others will join that choice, weighing the possible collective reward against what the alternative action offers in the current configuration.",
+      "source": "https://arxiv.org/html/2609.31704v1",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "starcraft-ii"
+      ],
+      "zh": "玩家采集矿物与瓦斯、建设基地并研发科技，持续生产军队，在侦察后安排攻防。经济发展与实时交战同时进行，需要把资源投入、部队位置和对手动向联系起来，避免一端的操作中断另一端。",
+      "en": "Gather minerals and gas, construct a base, research technologies and produce an army while scouting the opponent. Economic development continues during real-time engagements, requiring resource choices and unit positioning to remain connected as attention shifts between the base and the battlefield.",
+      "source": "https://news.blizzard.com/en-us/article/4488900/game-guide-resources",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://news.blizzard.com/en-us/article/4488900/game-guide-resources",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "stardew-valley"
+      ],
+      "zh": "玩家种植作物、养殖动物，并通过采矿、钓鱼和社区活动获得资源与新机会。每天可用时间有限，需要安排农场维护与外出活动，让收获支持后续投入，同时逐步经营与镇上居民的关系。",
+      "en": "Grow crops and care for animals while mining, fishing and taking part in the community. Divide each day's limited time between maintaining the farm and traveling elsewhere, using the resulting resources for further development while gradually building relationships with the town's residents.",
+      "source": "https://store.steampowered.com/app/413150/",
+      "basis": "publisher-description",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/413150/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "story-of-seasons-friends-of-mineral-town"
+      ],
+      "zh": "玩家耕种、照料动物，也可采矿和钓鱼，以每日劳动逐步发展农场。镇上的活动与赠礼影响人际关系，需要在照顾农场和走访矿石镇之间分配时间，让经营与社区生活共同推进。",
+      "en": "Cultivate crops, care for animals, mine and fish as daily work develops the farm. Activities and gifts also shape relationships in Mineral Town, requiring time to be shared between farm responsibilities and visiting residents so that both business and community life continue to grow.",
+      "source": "https://store.steampowered.com/app/978780/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/978780/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "stratego"
+      ],
+      "zh": "双方先将身份隐藏的棋子布阵，再移动和交战，通过比较等级逐步揭示对手力量。目标是夺取敌方军旗，需要用侦察和试探判断隐藏布局，同时保护己方关键位置，避免只按已见棋子作出判断。",
+      "en": "Arrange pieces with hidden identities, then move and fight to reveal information through rank comparisons. Use scouting and probing encounters to locate the opposing flag while protecting your own position from threats in the partly hidden layout.",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/36454847/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://pubmed.ncbi.nlm.nih.gov/36454847/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "street-fighter-ii"
+      ],
+      "zh": "玩家利用走位、普通攻击、投技与特殊招式削减对手生命，在有限时间内争取回合胜利。不同动作的距离与出招时机相互牵制，需要观察对手选择，在主动进攻和防守反击之间转换。",
+      "en": "Use movement, normal attacks, throws and special moves to reduce the opponent's health and win within the round's time limit. Judge the reach and timing of both players' options, shifting between pressure and defense as an opening appears or disappears.",
+      "source": "https://proceedings.mlr.press/v235/li24q.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Street_Fighter_II:_Champion_Edition",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "street-fighter-iii"
+      ],
+      "zh": "玩家在回合交战中控制距离，衔接普通技与特殊技，并利用格挡系统处理对方攻击。进攻组合与防守时机彼此影响，需要根据对手节奏调整出招，寻找能安全转入反击的机会。",
+      "en": "Manage distance and connect attacks during round-based fights, using special moves and the parry system to answer incoming pressure. Offensive combinations and defensive timing interact, requiring you to adapt to the opponent's rhythm and recognize when a safe opening allows a counterattack.",
+      "source": "https://github.com/krafton-ai/Orak#game-list",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/krafton-ai/Orak#game-list",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "sudoku"
+      ],
+      "zh": "玩家根据已给数字填满网格，使每行、每列和指定区域都满足数字不重复的约束。一次填写会改变相关位置的候选值，需要把多个区域的提示联系起来，逐步排除不可能的选择。",
+      "en": "Fill empty cells using the given digits so that rows, columns and designated regions satisfy the non-repetition rules. Each placement changes the candidates elsewhere, allowing clues from several parts of the grid to combine into further deductions.",
+      "source": "https://arxiv.org/html/2607.05185v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Sudoku",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "super-mario-bros"
+      ],
+      "zh": "玩家控制马力欧奔跑、跳跃并获取强化，跨越平台、敌人与障碍，向每关终点前进。移动速度与起跳位置共同决定落点，强化带来的能力变化也影响后续路段的通过方式。",
+      "en": "Run and jump as Mario, collect power-ups and pass enemies and obstacles on the way to the level's end. Match movement speed to takeoff positions and use the available abilities to handle later sections, linking each landing to the route still ahead.",
+      "source": "https://arxiv.org/abs/2505.15146",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Super_Mario_Bros.",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "super-mario-land"
+      ],
+      "zh": "玩家控制马力欧穿越平台与敌人，搜集强化并推进各个关卡，部分路段转为驾驶载具进行射击。需要根据场景切换移动和攻击方式，既安排安全落点，也处理挡在前进路线上的目标。",
+      "en": "Guide Mario across platforms and enemies, collecting power-ups as the journey alternates with vehicle-based shooting sections. Adapt movement and attacks to the current scene, choosing safe landings or handling targets along the route so that each section leads into the next.",
+      "source": "https://arxiv.org/abs/2605.00347",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Super_Mario_Land",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "super-mario-orak"
+      ],
+      "zh": "玩家在 Orak 接入的马力欧版本中奔跑、跳跃，穿过敌人与机关以推进关卡。前方地形决定起跳和落脚位置，连续动作需要衔接成一条抵达终点的可行路线。",
+      "en": "Run and jump as Mario through enemies and mechanisms to advance across the level. Within the version integrated by Orak, the terrain determines the takeoff points and landings needed to keep a route open toward the end.",
+      "source": "https://github.com/krafton-ai/Orak#game-list",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/krafton-ai/Orak#game-list",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "super-smash-bros-melee"
+      ],
+      "zh": "玩家通过移动、攻击与防御累积对手伤害，再把对方击出场地边界。场地位置同时影响进攻和生存，追击时还要保留回到平台的机会，以应对随时反转的交战。",
+      "en": "Move, attack and defend to build the opponent's damage and launch them beyond the stage boundaries. Position matters for both pressure and survival, requiring you to weigh a pursuit against retaining a route back to the stage if the exchange turns against you.",
+      "source": "https://arxiv.org/abs/2610.02144",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "supertuxkart"
+      ],
+      "zh": "玩家驾驶卡丁车沿赛道竞速，利用漂移、加速与道具争夺位置。弯道路线和其他车手会影响可用空间，需要把行车控制与道具时机配合起来，让一次超车转化为持续的领先。",
+      "en": "Race a kart around the track, using drifting, boosts and items to gain positions. Corners and nearby drivers change the space available, so connect vehicle control with the timing of item use, aiming to turn one successful overtake into an advantage that lasts.",
+      "source": "https://supertuxkart.net/Main_Page",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://supertuxkart.net/Main_Page",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-another-gentleman-s-adventure"
+      ],
+      "zh": "穿过花园与铸造场，跳越缺口、收集金币，并用远程攻击应对敌人。沿途寻找传送装置，在最后一段迎战眼睛首领，完成后可查看各段用时、收集与击杀记录。",
+      "en": "Cross the garden and foundry, jumping gaps, collecting coins and using ranged attacks against enemies. Seek the teleporters along the route, then confront the Eye boss; the ending records stage times, coins collected and enemies defeated.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-apex-circuit"
+      ],
+      "zh": "与四辆对手赛车竞速，每场完成三圈，进弯时选择刹车时机，出弯再加速争取位置。沥青、沙地和路沿带来不同路面条件，部分弯角还有可利用的捷径。",
+      "en": "Race four opponents over three laps, braking into corners and accelerating out to gain places. Asphalt, sand and kerbs create different driving conditions, while selected corners offer shortcuts that alter the line through the circuit.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-arc-wing"
+      ],
+      "zh": "驾驶飞船移动射击，避开敌方弹幕，完成三段战斗并击败最终首领。武器升级会增加子弹列数，部分敌人和首领会在护甲、暴露及不同射击状态之间切换，需要抓住能造成伤害的时机。",
+      "en": "Steer and fire through three combat stages, avoiding enemy barrages and defeating the final boss. Weapon upgrades add bullet columns, while armored enemies and the boss switch between protected, exposed and firing states that change the available attack windows.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-ballast-yard"
+      ],
+      "zh": "用吊车抓起、搬运和放下箱子，填平缺口或压住机关，为滚动的球接通出口路线。后续场景加入玻璃、传送带、定时闸门与爆炸箱，物体运动遵循固定的网格规则。",
+      "en": "Use a crane to lift, move and drop crates, filling gaps or pressing switches to open a rolling ball’s route to the exit. Later scenes combine glass, conveyors, timed shutters and explosive crates within a deterministic grid simulation.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-bannerfall-tiny-kingdoms"
+      ],
+      "zh": "控制指挥官带领部队，花费金币和木材建设、训练单位，再向敌方建筑发起进攻。不同地图要求占领神殿、插下旗帜或攻破红色要塞，同时还要应对来袭波次与补给容量限制。",
+      "en": "Lead troops with a commander, spending gold and wood on construction and unit training before attacking enemy buildings. Maps introduce shrine control, banner placement and an assault on the red keep, alongside incoming waves and limits on army supply.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-beacon-relay"
+      ],
+      "zh": "把不稳定能量电池带过浮空岛，在倒计时结束前送入信标，完成三关共十一枚电池的接力。途中可二段跳和下砸，踩中敌人会反弹并补充运送时间，但接触危险或坠落会扣除护盾。",
+      "en": "Carry unstable cells across floating islands and deposit all eleven across three levels before their fuses expire. Jump, air-jump and stomp through moving hazards; stomping enemies adds delivery time, while collisions or falls cost shields.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-bush-522"
+      ],
+      "zh": "驾驶飞机从跑道起飞，管理油门、姿态与燃油，寻找远处的检查点。抵达后需要降低速度并安全落地，再重新起飞返回起点；单纯飞过标记并不能完成这趟往返。",
+      "en": "Take off from the airfield, managing throttle, attitude and fuel while searching for a distant checkpoint. Slow down for a safe landing there, then take off again and return to land at the starting field to complete the round trip.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-canopy-dash"
+      ],
+      "zh": "在三条林间桥道上奔跑，用换道、跳跃、滑行和路口转向避开箱子、栅栏等障碍。途中收集种子，并可取得磁吸或加速效果；碰撞会引来追击压力，需要撑过追逐继续前进。",
+      "en": "Run along three woodland lanes, switching lanes, jumping, sliding and turning at junctions to avoid obstacles. Collect seeds and temporary magnet or boost effects; collisions trigger pursuit pressure, requiring continued movement until the threat subsides.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-citycab-rush"
+      ],
+      "zh": "根据标记寻找乘客，接上车后赶在车费计时结束前送到目的地。小地图显示街道连接，交通车辆会妨碍行驶；后续关卡扩大区域并提高送客数量，完成后结算车费与总接送次数。",
+      "en": "Find marked passengers, pick them up and deliver them before the fare timer expires. A minimap shows connected streets while traffic obstructs the route; later levels expand the area and delivery quota before the shift totals fares and completed trips.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-deepgrid"
+      ],
+      "zh": "深入六层自动化地下库，与把你视为入侵物的维护机器交战。沿途寻找两张门卡，打开服务通道和核心库区，最终击败监管者并操作出口联锁，逃离这座从内部封闭的设施。",
+      "en": "Descend six floors of an automated data vault whose maintenance machines treat you as contamination. Find two keycards to open the service spine and core vault, defeat the Overseer, then operate the exit interlock to escape the sealed facility.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-dogwalk"
+      ],
+      "zh": "在雪地空地寻找五件装饰，逐件搬回去装点雪人，再带同伴回到雪人旁完成差事。牵绳另一端的同伴会自主行动，绳子还会绕树缠结，需要在探索和搬运途中一起处理。",
+      "en": "Search the snowy clearing for five decorations, carry them back to the snowman, then return with your companion to finish the errand. The leashed companion acts autonomously, and the rope can wrap around trees during exploration and carrying.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-don-t-stop"
+      ],
+      "zh": "从城镇补给区进入科幻战场，一边移动射击，一边收集敌人留下的金币。交战中要关注生命与弹药，升级后可分配强化；完成这一轮战斗目标后进入任务结算。",
+      "en": "Enter the science-fiction battlefield from a town supply area, moving and shooting while collecting coins from defeated enemies. Watch health and ammunition, allocate upgrades after leveling up, and complete the combat objective to reach the mission results.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-dynamo"
+      ],
+      "zh": "在按节拍切换状态的世界里移动，收集水果并打开通往终点的门。状态变化会改变平台的实体性与火盆等危险，还可利用自己创建的地形安排路线，在切换窗口内完成通过。",
+      "en": "Collect fruit to activate the goal while moving through a world that changes state on a beat. Platforms become solid or translucent and hazards change with the phase; player-created terrain provides additional ways to connect the route through those timed windows.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-ember-tide"
+      ],
+      "zh": "一人用两套按键控制火、水两名角色，穿过十个单屏房间，操作机关并安排彼此路线。角色能安全进入自己的元素，却会被另一种元素和腐蚀液杀死；两人必须同时站到各自出口才算完成。",
+      "en": "Control both elemental characters with separate keys through ten puzzle chambers, using mechanisms to connect their routes. Each survives its own element but dies in the other’s or in corrosive fluid; both must stand at their own exits simultaneously.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-gunfire-dungeon"
+      ],
+      "zh": "穿过相连房间清除敌人，花金币购买枪械，并管理弹药和治疗物品。每层击败首领后进入传送门，向后续楼层推进；首领会切换战斗阶段，生命归零则清除本局临时进度。",
+      "en": "Clear connected rooms, spend coins on weapons and manage ammunition and healing items. Defeat each floor’s boss and enter its portal to advance; bosses change combat phases, while losing all health ends the run and clears its temporary progress.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-harvest-ledger"
+      ],
+      "zh": "购买种子、翻整土地并种植浇水，成熟后收获作物，再送到农场仓库出售。玉米与番茄等作物有不同的种植成本和照料时间，需要在限定天数内同时完成收入与作物销售目标。",
+      "en": "Buy seeds, prepare plots, plant and water crops, then harvest and sell them at the farm depot. Crops such as corn and tomatoes differ in cost and care time, while each scenario sets revenue and crop-sales goals within a limited number of days.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-hazard-circuit"
+      ],
+      "zh": "跑跳穿过八段障碍路线，利用检查点逐步抵达各段出口。后续区域加入冰面、贴墙、滑铲、水池、锯片与钥匙门，最后还要启动断路器；机关按固定规则运行，可根据周期安排通过时机。",
+      "en": "Run and jump through eight hazard courses, using checkpoints to reach each exit. Later acts add ice, wall movement, slides, water, saws and key gates before a final circuit-breaker objective, with deterministic hazards allowing their cycles to be anticipated.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-hive-flight"
+      ],
+      "zh": "穿过林地接近蜂巢，惊动蜂群后向安全点逃跑，跳越路上的缺口。三段路线逐渐加长、坑隙也变宽，需要在追逐中维持距离，抵达各段安全点并最终回到安全处。",
+      "en": "Run through the forest toward a hive, then escape the disturbed swarm by jumping gaps on the way to safety. Three stages lengthen the route and widen its pits, with each ending at a marked safe point.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-hurry-curry"
+      ],
+      "zh": "在 Junior Kitchen 中取用食材，准备沙拉、煎制牛排等餐食，再端盘送到客人身边。参考关卡要求在倒计时内上齐三道菜，得分和已交付数量随取料、烹饪与送餐过程变化。",
+      "en": "Take ingredients, prepare dishes such as salad and steak, and carry the plates to customers in Junior Kitchen. The reference scenario requires three dishes before time runs out, tracking the score and delivered meals throughout preparation and service.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-kindle-relay"
+      ],
+      "zh": "扮演最后一位点灯人，提着逐渐衰弱的灯探索球形星球，寻找六座熄灭的信标。通过呼唤回应辨认路径，沿海岸、谷地和峰顶接近并点燃它们，全部完成后让世界迎来日出。",
+      "en": "Carry a fading lantern as the last lamplighter on a spherical planet, searching for six dark beacons. Use calls and their responses to find paths through the coast, valley and summit; lighting the full set restores sunrise.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-lantern-vigil"
+      ],
+      "zh": "控制忍者在明暗交替的场景中战斗，清除敌人并收集卷轴，连续通过三处殿堂。每个区域都有自己的敌人与收集目标，过关时还可选择赐福，为接下来的战斗提供不同强化。",
+      "en": "Fight as a ninja through three chambers whose lighting alternates between lit and dark states, clearing enemies and collecting scrolls. Each chamber introduces its own opponents and collection target, with a choice of boons offering different benefits before continuing.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-last-cat-on-the-wall"
+      ],
+      "zh": "操控猫射击来敌，花金币部署、升级炮塔并修复路障，守住两条进攻路线。清完区块的敌人后道路开放，需要亲自穿过带火焰等危险的路段，到达旗帜再进入下一处防守。",
+      "en": "Shoot approaching enemies, spend coins to deploy or upgrade turrets, and repair the barricade across two lanes. Clearing a sector opens the road, after which the cat must traverse hazards such as fire and reach the flag for the next defense.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-manifest-run"
+      ],
+      "zh": "驾驶货车同时处理多笔订单，在重叠的时间窗口内决定先取哪件、先送哪处。货物可能融化、易碎或过重，交通碰撞还会损伤车体；速度、刹车与路线安排都会影响准时送达。",
+      "en": "Drive a delivery van while scheduling multiple orders with overlapping time windows. Cargo can melt, break under late braking or add heavy weight, while traffic collisions damage the van, linking the next delivery choice with speed, braking and route planning.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-neon-lockdown"
+      ],
+      "zh": "驾驶机体进入敌对设施，射击敌人、补充弹药并利用护盾抵挡伤害。三个区域各有需要取得的节点钥匙，完成节点上传后开启升降撤离通道，最终集齐三把钥匙离开设施。",
+      "en": "Pilot a machine through a hostile facility, shooting enemies and managing ammunition, hull health and shields. Secure node keys across three sectors and complete uploads to activate their lifts, then extract after collecting all three keys.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-pixel-platformer"
+      ],
+      "zh": "依次穿过庭院、管道、工业区与农场四个房间，找到钥匙、开门并抵达旗帜。路线包含尖刺、蝙蝠、传送带和升降结构，金币与宝石分布在途中，需要在跳跃与机关移动间选择落点。",
+      "en": "Find keys, open doors and reach flags across four rooms themed around a yard, pipeworks, ironworks and a farm. Spikes, bats, conveyors and lifting structures interrupt the route, with coins and gems placed along the platforming paths.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-pixel-sabotage"
+      ],
+      "zh": "潜入警卫把守的设施，寻找装有病毒的存储器和门卡，逐步接近主服务器。可蹲下减少噪音、利用箱子遮掩并等待守卫经过，最后对服务器实施破坏；被警卫发现会面临枪击。",
+      "en": "Infiltrate a guarded facility, find a virus drive and keycard, and work toward the main server. Crouch to reduce noise, shelter behind crates and wait for guards to pass before sabotaging the server; being spotted exposes the intruder to gunfire.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-pulse-lane"
+      ],
+      "zh": "按 D、F、J、K 对应的四条轨道击中下落音符，并处理需要持续按住的长音。三首关卡逐步增加音符数量与组合，失误会消耗生命，结算同时记录得分、准确率和漏击数。",
+      "en": "Hit falling notes on four lanes using D, F, J and K, including long notes that require sustained inputs. Three stages expand the note patterns; misses cost life, while the results record score, accuracy and missed notes.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-relic-runner"
+      ],
+      "zh": "在三层地牢清除怪物、寻找钥匙并开箱，把每层遗物搬到对应祭坛。角色手中会显示当前携带的钥匙或遗物，后续楼层要求更多钥匙，搬运途中还要躲开会损耗生命的战斗。",
+      "en": "Clear monsters, find keys and open chests across three dungeon levels, carrying each relic to its altar. The carried key or relic is shown above the character, and later floors require more keys while enemies threaten health during the deliveries.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-sands-of-the-restless"
+      ],
+      "zh": "以第一人称在沙地与室内区域抵挡亡灵波次，射击、装填并购买战斗升级。清除一段攻势后通路开启，继续进入下一处场景；弹药和生命会持续受到来敌压力，需要设法撑到胜利。",
+      "en": "Fight waves of undead across outdoor sand and indoor spaces, reloading weapons and buying combat upgrades. Clearing the first area opens the way onward, while later waves continue to pressure health and ammunition until the run is won.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-scrapline-siege"
+      ],
+      "zh": "在废料竞技场中移动射击，切换不同武器并管理弹药与武器热量。清除进攻波次后到撤离垫上坚守，敌人仍会来袭，需要在交火中维持撤离进度，最终离开三处场地。",
+      "en": "Move and shoot through scrapyard arenas, switching between repeater and breacher weapons while managing ammunition and heat. After clearing the initial pushes, hold the extraction pad under continuing attacks, maintaining evacuation progress to complete the three-arena run.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-shadow-walker"
+      ],
+      "zh": "操控没有武器的潜入者避开守卫视野，取走宝箱后再前往出口。三个场景从单守卫庭院扩展到多守卫的墙隙和柱廊，需要借助遮挡与等待穿过巡逻路线，无法通过战斗清除守卫。",
+      "en": "Move an unarmed infiltrator past guards, take the treasure chest and then reach the exit. Three scenes expand from a single-guard courtyard to wall gaps and pillared corridors with several patrols, using cover and waiting without a combat option.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-soccer-course"
+      ],
+      "zh": "控制法国队的一名场上球员，抢断、传球并射门，把球送进实际球门区域得分。参考内容包含八支国家队和三轮淘汰赛，每场限时两分钟；进球后重新开球，比赛结束保留最终比分。",
+      "en": "Control one French outfield player, tackling, passing and shooting into the goal to score. The reference content includes eight national teams and a three-round knockout tournament with two-minute matches; goals trigger a restart before play continues toward the final score.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-sprout-market"
+      ],
+      "zh": "在田地与商店之间生产、搬运和出售货物，及时为排队顾客服务。八个营业班次各有收入目标，顾客久等会离开；班次之间可花金币购买升级，扩大经营并控制累计流失人数。",
+      "en": "Produce goods, carry them between field and shop, and serve waiting customers before they walk out. Eight shifts set increasing revenue quotas, with a build phase between shifts for spending coins on upgrades and a limit on accumulated customer departures.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-super-dungeon-delve"
+      ],
+      "zh": "扮演骑士在未知地牢中寻找出口，用剑对付怪物，拾取金币、战利品与恢复物品。连续深入四层时生命会随交战减少，需要在探索宝物和保留生存余量之间取舍，最终带着战利品通关。",
+      "en": "Guide a knight through an unfamiliar dungeon, using a sword against monsters and collecting coins, loot and restorative items. Find exits through four floors while health is depleted by combat, balancing further exploration against reaching the end alive with the treasure.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-terraforge"
+      ],
+      "zh": "破坏和放置体素方块，先伐木制作木板、木杆与工作台，再开采矿脉组装神器。指定种子的制作路线共有七步，最终把神器安放到基座；探索地下时还要留意光照与潜伏生物。",
+      "en": "Break and place voxel blocks, cutting wood for planks, rods and a forge bench before mining ore to assemble an artifact. The seeded objective has seven steps ending at its pedestal, with light and lurking creatures affecting underground exploration.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-the-ember-key"
+      ],
+      "zh": "在三层地牢寻找钥匙、打开封闭通道，并用战斗清出通往楼梯的路线。途中可收集余烬碎片和恢复生命的物品，从蓄水池逐步进入档案室与圣所，最终经楼梯逃离。",
+      "en": "Find keys, unlock passages and fight toward the stairs across three dungeon floors. Collect ember shards and health pickups while moving from the cistern through the flooded archive and sanctum, then escape through the final stairway.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-twin-holds"
+      ],
+      "zh": "在六角格地图上建设矿场、伐木场与水井，逐回合获得金币、木材和食物，对抗按脚本行动的敌方势力。不同关卡可要求达到产出目标或攻下城堡，人口、粮食消耗与回合上限共同限制扩张。",
+      "en": "Build mines, lumbermills and wells on a hex map to generate gold, wood and food each turn against a scripted rival. Scenario goals include production targets or capturing a castle, with population, food upkeep and round limits constraining expansion.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-vaultline"
+      ],
+      "zh": "利用助跑、跳跃、贴墙、滑铲和下砸穿过十四段平台路线，衔接弹跳垫与移动平台。尖刺等机关按固定规则运行；死亡后立即回到检查点，但整趟流程共用三十次死亡预算。",
+      "en": "Use run-ups, jumps, wall movement, slides and stomps across fourteen platforming sections, linking springboards and moving platforms. Hazards follow fixed rules; death respawns the character at the last checkpoint while consuming a shared allowance of thirty deaths for the run.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-volley-break"
+      ],
+      "zh": "操控底部球拍与上方对手回球，击碎中间的砖墙并设法让球越过对手得分。可选择回球方向和扣杀时机，挥空会短暂锁定；三盘采用不同砖墙，后续还会落下碎片和金币。",
+      "en": "Return the ball with a paddle, break the wall between opponents and score by sending the ball past the rival. Aim returns and time spikes while avoiding a whiff lockout; three sets change the bricks and add falling shards and coins.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-where-the-dead-lie"
+      ],
+      "zh": "用手电探索地下墓穴，在有限时间内依次启动两台发电机、解开控制台谜题，再寻找两把钥匙。钥匙收齐后出口才会启用，玩家需要穿过原场景中的走廊和装置区前往撤离点。",
+      "en": "Explore the catacombs with a flashlight, activating two generators, solving a control-panel puzzle and finding two keys before time expires. Collecting both keys arms the exit, opening the final objective of navigating back through the corridors to escape.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "swe-game-wizard-chase"
+      ],
+      "zh": "操控法师在五张越来越危险的迷宫中收集金币，收齐当前房间的金币才会打开出口。四类敌人和两类定时机关阻挡路线，法师有一种防御法术可用，连续通过五个房间即可获胜。",
+      "en": "Guide a wizard through five increasingly hostile mazes, collecting every coin in a room to open its exit. Four enemy types and two timed-hazard families obstruct the route, with one defensive spell available; clearing all five rooms wins the run.",
+      "source": "https://arxiv.org/html/2609.33678v3",
+      "basis": "paper-game-specification",
+      "scope": "reference-game",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "sword-of-hope"
+      ],
+      "zh": "玩家扮演王子 Theo，在固定场景之间移动，通过观察、打开和敲击等命令调查物品与环境。冒险同时包含武器和法术战斗，需要把探索所得用于破解障碍，逐步寻找解救王国的道路。",
+      "en": "As Prince Theo, move between fixed scenes and investigate with commands such as look, open and hit. Fight using weapons and magic while putting discoveries to use against environmental obstacles, connecting investigation with the journey to find a way to save the kingdom.",
+      "source": "https://strategywiki.org/wiki/The_Sword_of_Hope",
+      "detailUrl": "https://strategywiki.org/wiki/The_Sword_of_Hope",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "sword-of-hope-ii"
+      ],
+      "zh": "玩家扮演 Theo 寻回失窃的希望之剑，探索各地并招募同伴，组成三人队伍。冒险中需要协调各成员的行动应对战斗，同时继续寻找推进旅程的道路与线索，让队伍成长支持后续挑战。",
+      "en": "Play Theo on a journey to recover the stolen Sword of Hope, exploring places and recruiting companions for a three-person party. Coordinate the group's actions in combat while continuing to find routes and clues that move the adventure toward its objective.",
+      "source": "https://www.nintendo.com/en-gb/Games/Virtual-Console-Nintendo-3DS-/The-Sword-of-Hope-II-523822.html",
+      "detailUrl": "https://www.nintendo.com/en-gb/Games/Virtual-Console-Nintendo-3DS-/The-Sword-of-Hope-II-523822.html",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-black-box"
+      ],
+      "zh": "玩家从棋盘边缘发射激光，根据光束被吸收、反射或从另一位置射出的结果，推断隐藏球的位置。球会按相邻关系改变光路，需要把多次探测的反馈合并起来，再提交整组位置猜测。",
+      "en": "Fire lasers from the edges of a hidden arena and infer where balls are placed. Beams may be absorbed, reflected or deflected to another exit, so locating the whole set requires combining several entry-and-exit observations before submitting a proposed arrangement.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/blackbox.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/blackbox.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-bridges"
+      ],
+      "zh": "玩家在带数字的岛之间画水平或竖直桥梁，使每座岛接到的桥数等于标记。默认同一对岛最多连接两座平行桥，桥梁不能交叉，所有岛还必须属于同一连通网络，不能各自成组。",
+      "en": "Draw horizontal or vertical bridges between numbered islands, matching the number at every island. Under the default rules, at most two parallel bridges join a pair; bridges cannot cross, and every island must belong to the same connected network when the puzzle is complete.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/bridges.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/bridges.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-cube"
+      ],
+      "zh": "玩家让立方体滚到相邻格子，每次接触时，底面与地格会交换颜色。目标是把六个蓝色地格转移到立方体六个面上，已染蓝的面也可能把颜色放回地面，因此路线需要兼顾位置和朝向。",
+      "en": "Roll a cube between neighboring squares, swapping the colors of its contacting face and the ground at each move. Collect all six blue squares onto the cube's faces at once, remembering that a blue face can also deposit its color back onto the board.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/cube.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/cube.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-dominosa"
+      ],
+      "zh": "玩家把相邻的两格数字划成一枚骨牌，重建覆盖整张网格的骨牌排列。每一种无序数字组合只能使用一次，需要让所有格子成对，并让整套骨牌中的数字组合各出现一次。",
+      "en": "Pair adjacent numbered cells into dominoes to reconstruct a covering of the entire grid. Every unordered number pair must occur exactly once, so choosing a local pair also affects which combinations remain available for completing the uncovered cells elsewhere on the board.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/dominosa.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/dominosa.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-fifteen"
+      ],
+      "zh": "玩家利用唯一空格滑动相邻数字块，在默认 4×4 棋盘上恢复从一到十五的顺序，并让空格留在右下角。每次只能借空位调换相邻位置，整理局部时还要避免破坏已经排好的行列。",
+      "en": "Slide numbered tiles into the single empty space to restore numerical order, leaving the gap at the bottom right. On the default four-by-four board, moving one tile also relocates the gap, so arranging a row changes the moves available to organize the others.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/fifteen.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/fifteen.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-filling"
+      ],
+      "zh": "玩家为网格空白处填数字，使相同数字按上下左右连接成区域，区域格数恰好等于该数字。对角接触不算相连，两个同数区域一旦相接就会合并，因此填数时需要同时控制区域大小与边界。",
+      "en": "Fill empty cells with digits so each orthogonally connected region of equal digits has exactly that many cells. Diagonal contact does not join regions, while touching matching digits do merge, so every placement affects both a region's size and where its boundary can lie.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/filling.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/filling.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-flip"
+      ],
+      "zh": "玩家点击格子，使它和图示指定的邻格同时在明暗之间翻转，目标是让全部格子同时亮起。不同格子的联动范围由小图标说明，需要安排一组互相配合的翻转，避免修好一处又熄灭其他格。",
+      "en": "Click a square to toggle it together with the neighboring squares indicated by its small diagram. Light every square simultaneously, combining the different toggle patterns into a sequence whose effects leave the whole grid in the lit state.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/flip.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/flip.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-flood"
+      ],
+      "zh": "玩家反复为左上角连通区域选择新颜色，把同色相邻格逐步并入这一区域。目标是在规定步数内让整张棋盘成为同一颜色，需要比较不同换色能接入的区域，避免把步数浪费在狭小分支。",
+      "en": "Change the color of the region connected to the top-left square, absorbing adjacent areas of the chosen color. Make the whole board one color within the move limit, comparing which choices expand the connected area before spending another of the available moves.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/flood.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/flood.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-galaxies"
+      ],
+      "zh": "玩家沿格边画线，把整张棋盘划成若干连通区域，每区恰好包含一个给定圆点。区域必须以该圆点为中心旋转一百八十度后保持一致，需要把中心两侧的格子成对安排，并让所有区域共同铺满棋盘。",
+      "en": "Draw boundaries along cell edges to divide the board into connected regions, each containing exactly one marked dot. Every region must have half-turn symmetry around its dot, so adding cells on one side also constrains the matching cells required on the other.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/galaxies.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/galaxies.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-guess"
+      ],
+      "zh": "玩家提交一组有顺序的彩色棋子，猜测电脑隐藏的颜色密码。反馈分别标出颜色和位置都正确、以及颜色正确但位置错误的数量，需要在限定猜测次数内利用这些信息缩小可能排列。",
+      "en": "Submit ordered sequences of colored pegs to discover a hidden code within a limited number of guesses. Feedback separates colors in the correct positions from correct colors placed elsewhere, allowing each attempt to narrow the remaining combinations before the next sequence is chosen.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/guess.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/guess.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-inertia"
+      ],
+      "zh": "玩家选择方向让小球直线滑行，直到碰到墙壁或停止格，沿途收集宝石。宝石不会让球停下，地雷则会直接结束游戏，即使同一步已取得最后一颗宝石也不能获胜，必须先判断整段滑行轨迹。",
+      "en": "Send a ball sliding in an orthogonal or diagonal direction until a wall or stopping square halts it. Collect every gem without touching mines; gems do not stop motion, and even collecting the last one does not save a move that ends in a mine.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/inertia.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/inertia.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-keen"
+      ],
+      "zh": "玩家在方格内填入数字，使每行每列都不重复，并让每个标记区域满足给定算式。加减乘除提示限制同区数字的组合，既要核对运算结果，也要检查这些数字放入行列后是否造成重复。",
+      "en": "Fill a grid with digits that appear only once in each row and column while satisfying the arithmetic clue in every cage. Addition, subtraction, multiplication or division restricts each group, so valid totals must also fit the row-and-column arrangement around them.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/keen.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/keen.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-light-up"
+      ],
+      "zh": "玩家在白格放灯泡，让光线沿横竖方向传播，直到被黑格阻挡，最终照亮全部白格。带数字黑格周围的灯泡数必须吻合提示，且任何两盏灯不能相互照射，需要同时满足照明和相邻计数。",
+      "en": "Place bulbs to illuminate every white cell along horizontal and vertical lines, with black cells blocking the light. Numbered black cells require an exact count of adjacent bulbs, and no bulb may shine on another, linking full coverage with local placement constraints.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/lightup.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/lightup.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-loopy"
+      ],
+      "zh": "玩家沿允许连接的网格边画线，把它们组成一条连续闭合回路。数字表示围绕该区域的边中有多少条属于回路，所有提示必须同时满足；线不能分裂成多个独立小圈来分别完成局部要求。",
+      "en": "Select grid edges to form one continuous closed loop. A number specifies how many of the edges surrounding its area belong to that loop, linking each local count to the shape of the single complete route that satisfies all the clues together.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/loopy.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/loopy.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-magnets"
+      ],
+      "zh": "玩家在双格骨牌位置放置正负磁极，或把整枚骨牌留为空白，满足行列的正负极数量提示。相同磁极不能上下左右相邻，空白端不受此限，因此要同时安排磁铁朝向与哪些位置不放磁铁。",
+      "en": "Assign positive and negative ends to domino-shaped magnets, or leave a domino neutral, to match the row and column counts. Like poles cannot touch orthogonally, while neutral ends can, so solving the board requires choosing both magnet positions and their orientations.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/magnets.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/magnets.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-map"
+      ],
+      "zh": "玩家用四种颜色给地图区域着色，使共享一段边界的相邻区域颜色不同。部分颜色已经给定且不能修改，只在一个点上接触的区域可以同色，需要依据真正的边界关系完成其余区域。",
+      "en": "Color map regions with four colors so any two sharing a length of boundary have different colors. Some regions are fixed clues that cannot be changed, while regions touching at only one point may match, making border relationships the basis for the remaining choices.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/map.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/map.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-mines"
+      ],
+      "zh": "玩家依据已翻开格子的周边雷数标记危险位置，并翻开所有不含地雷的格子，点到地雷便失败。此版本默认生成可由逻辑推断完成的棋盘，目标是结合重叠数字信息逐步确定安全格，而非依赖最后猜测。",
+      "en": "Use the adjacent mine counts revealed by opened cells to identify hazards and uncover every safe square. Opening a mine loses the game; by default, this version generates boards that can be solved through deduction rather than forcing a final guess between indistinguishable cells.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/mines.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/mines.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-mosaic"
+      ],
+      "zh": "玩家把格子涂成黑色或白色，使每个数字等于其周围 3×3 范围内的黑格总数，数字所在格也计入。相邻提示的统计区域会重叠，同一格可能被多条提示计数，玩家据此共同确定各格颜色。",
+      "en": "Color cells black or white so each clue equals the black-cell count in its surrounding three-by-three area, including the clue's own cell. Neighboring clue areas overlap, with shared cells contributing to several counts that must all hold at once.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/mosaic.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/mosaic.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-net"
+      ],
+      "zh": "玩家旋转各格里的线段，让打乱的管网重新接通。完成时所有格子必须接入同一个没有闭环的网络，与中央格连通的部分会高亮显示；旋转某一格也会改变其周围线段能否继续相接。",
+      "en": "Rotate tiles to restore a scrambled network, joining every tile into one connected structure without closed loops. Tiles linked to the central tile are highlighted, helping track connectivity while each rotation changes how that tile can connect to the pieces beside it.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/net.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/net.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-netslide"
+      ],
+      "zh": "玩家通过整体滑动一行或一列来恢复被打乱的管网，越过边缘的格子会从另一侧回到该行或列。与直接旋转单格不同，一次操作会同时移动多个线段，需要协调各行列的位移才能重新接通网络。",
+      "en": "Slide complete rows or columns to restore a scrambled network, with tiles wrapping from one edge to the other. Unlike rotating an individual tile, each move relocates several pieces together, so reconnecting one part of the network can alter alignments elsewhere on the board.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/netslide.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/netslide.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-palisade"
+      ],
+      "zh": "玩家沿格边画围栏，把棋盘分成面积相等的连通区域。数字提示规定该格周围必须有多少条边界，棋盘外边缘也计入；需要让局部围栏数量与整片区域的面积限制同时成立。",
+      "en": "Draw fences along cell edges to divide the board into connected regions of the same specified size. Numbered cells require an exact count of bordering edges, including the outer boundary, so local fence placements must still allow every completed region to have the right area.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/palisade.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/palisade.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-pattern"
+      ],
+      "zh": "玩家依据每行每列给出的黑格连续段长度，把全部格子确定为黑或白。提示的顺序决定各段排列，需要让横向和纵向约束相互吻合；此版本自动生成图案，完成后不一定呈现可辨认的物体。",
+      "en": "Fill every cell black or white using the ordered run lengths beside each row and above each column. Horizontal and vertical clues must agree on shared cells; because this version generates puzzles automatically, a completed pattern need not depict a recognizable picture.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/pattern.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/pattern.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-pearl"
+      ],
+      "zh": "玩家画一条经过全部黑白圆点的闭合回路。黑点处必须转弯且前后相邻路径都直行；白点处必须直行，但前后至少一处要转弯，需要同时处理圆点所在格与其连接方向上的邻格。",
+      "en": "Draw a single closed loop through the black and white pearls. Turn at a black pearl but go straight immediately before and after it; pass straight through a white pearl while turning on at least one neighboring square along the loop.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/pearl.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/pearl.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-pegs"
+      ],
+      "zh": "玩家让棋子横向或纵向跳过相邻棋子，落入其后的空洞，并移除被跳过的一枚。目标是最后只剩一枚棋子，每次消除也会改变可跳的组合，需要保留后续能继续相互跨越的位置。",
+      "en": "Jump a peg horizontally or vertically over an adjacent peg into an empty hole, removing the jumped piece. Finish with just one peg, choosing jumps that leave usable arrangements for later removals as each removal changes which neighboring pegs can still jump into an empty hole.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/pegs.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/pegs.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-range"
+      ],
+      "zh": "玩家把部分格子涂黑，使每个数字沿横竖方向能看到的白格总数与提示一致，数字格本身也计入。数字不能涂黑，黑格不能直接相邻，所有白格还须连通，因此遮挡视线不能把白色区域切断。",
+      "en": "Shade cells so each number sees the required total of white cells along straight horizontal and vertical lines, counting itself once. Numbered cells remain white, black cells cannot touch orthogonally, and all white cells must stay connected while these sight-line counts are satisfied.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/range.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/range.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-rectangles"
+      ],
+      "zh": "玩家把网格划分成互不重叠的矩形，每个矩形恰好包含一个数字，面积等于该数字。需要根据数字的位置选择矩形的长宽，让所有矩形共同铺满棋盘，不能留下空格或把两条提示圈进同一区域。",
+      "en": "Partition the whole grid into rectangles, each containing exactly one numbered cell and having an area equal to that number. Choose the dimensions around each clue so the pieces cover the board without overlap, gaps or a rectangle containing more than one clue.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/rect.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/rect.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-same-game"
+      ],
+      "zh": "玩家点击相连的同色方块群将其移除，剩余方块会下落，空出的列也会合拢。目标是尽量清空棋盘，需要考虑消除后颜色如何重新相邻，避免最后留下无法组成可消除群组的零散方块。",
+      "en": "Remove connected groups of matching blocks, letting the remaining blocks fall and empty columns close up. Aim to clear the board by considering how each removal rearranges later groups, and whether the new arrangement contains another removable cluster.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/samegame.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/samegame.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-signpost"
+      ],
+      "zh": "玩家按各格箭头指向建立连接，把全部格子串成从一到终点的连续数字序列。下一格可以位于箭头方向上的远处，而不一定紧邻，需要结合已给数字确定连接次序，确保整条序列没有遗漏或分支。",
+      "en": "Link cells in the directions shown by their arrows to form one consecutive sequence through the entire grid. A successor can lie at any distance along the indicated line, so fixed numbers help determine which links make a complete uninterrupted chain.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/signpost.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/signpost.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-singles"
+      ],
+      "zh": "玩家涂黑部分数字，让每行每列剩下的数字都不重复。黑格不能上下左右相邻，所有白格必须连成一片，因此删除重复值时不能一味多涂，还要为棋盘其他位置保留连通路径。",
+      "en": "Shade selected numbers so no unshaded value repeats in any row or column. Black cells cannot touch horizontally or vertically, and all remaining white cells must form one connected region, so removing duplicates must also preserve a route through the unshaded board.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/singles.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/singles.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-sixteen"
+      ],
+      "zh": "玩家整体推动数字棋盘的一行或一列，移出边缘的方块从另一端返回。目标是把数字恢复为规定顺序；棋盘没有空格，一次调整会影响整行或整列，需要通过多次循环位移协调位置。",
+      "en": "Shift an entire row or column, wrapping the tile pushed off one edge back onto the other. Restore the numbers to their target order on a board with no empty square, coordinating several shifts because every move changes more than one tile's position.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/sixteen.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/sixteen.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-slant"
+      ],
+      "zh": "玩家为每格选择一条左斜或右斜对角线，让带数字顶点连接的线数恰好符合提示。所有线段都不能形成闭环，需要在满足局部计数的同时检查远处已连起的路径，避免最终围成一圈。",
+      "en": "Place one of two diagonal orientations in every cell, matching the number of lines meeting each numbered vertex. The lines must never form a cycle, so a locally valid diagonal still needs to fit the wider network without closing a loop.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/slant.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/slant.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-solo"
+      ],
+      "zh": "玩家根据预填数字补全方格，使每行、每列和每个指定宫格中的数字都不重复。默认是九宫格数独，也可配置不同宫形或附加规则；填写时需要同时核对所在行、列与区域的可用数字。",
+      "en": "Complete the grid from its given digits so each row, column and designated block contains every required value once. The default is a nine-by-nine Sudoku, while configurable layouts and variants alter the regions or add constraints that each placement must also respect.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/solo.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/solo.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-tents"
+      ],
+      "zh": "玩家在每棵树的上下左右安排一顶对应帐篷，使行列中的帐篷数量符合边缘提示。任意两顶帐篷连对角也不能接触，需要在树木配对、计数和间隔限制之间找到同一套放置方案。",
+      "en": "Place one tent for each tree on an orthogonally adjacent square, matching the tent counts for every row and column. No two tents may touch, even diagonally, so each tree's pairing must fit both the spacing restrictions and the counts around the board.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/tents.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/tents.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-towers"
+      ],
+      "zh": "玩家在每格填楼高，使每行每列包含全部高度且不重复。边缘数字表示从该方向能看到几栋楼，矮楼会被前方高楼遮住，需要结合不同视线的可见数量确定同一行列中的排列。",
+      "en": "Fill each row and column with every tower height once, then satisfy the visibility clues around the edges. Taller towers hide shorter ones behind them, so a valid arrangement must produce the correct number of visible buildings from each indicated direction.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/towers.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/towers.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-tracks"
+      ],
+      "zh": "玩家把已有轨道补成从 A 到 B 的一条铁路，并满足每行每列规定的轨道格数。轨道只有直行与直角转弯，不能自交，需要在确定走向时兼顾计数，避免走出一条无法接到终点的路线。",
+      "en": "Complete a railway from A to B while matching the required number of track cells in every row and column. Only straight and right-angle pieces are available, and the route cannot cross itself, so each turn must fit both the counts and a continuous path.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/tracks.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/tracks.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-twiddle"
+      ],
+      "zh": "玩家旋转选中的小方块区域，带动其中所有数字同时换位，逐步恢复升序排列。基本模式每次旋转 2×2 四格，也可选择更大的区域；整理一格会连带移动周围数字，需要安排一系列旋转。",
+      "en": "Rotate a square group of tiles to restore the board's numbers to ascending order. The basic move turns a two-by-two block, with larger blocks available in other settings, so positioning one number also rearranges its neighbors and affects the next rotation.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/twiddle.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/twiddle.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-undead"
+      ],
+      "zh": "玩家在镜面之间放置幽灵、吸血鬼和僵尸，满足边缘视线所见的怪物数量及各类总数。幽灵只在镜中可见，吸血鬼只可直接看见，僵尸两种情况下都可见，需要沿折射视线逐段核对。",
+      "en": "Place ghosts, vampires and zombies among mirrors to satisfy the edge sight-line counts and each monster's total. Ghosts are visible only in reflections, vampires only directly, and zombies both ways, so following a line around mirrors changes which occupied cells are counted.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/undead.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/undead.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-unequal"
+      ],
+      "zh": "玩家填入每行每列不重复的数字，并满足相邻格之间标出的大小关系。默认模式使用大于号提示，还可切换到相邻数模式；格间比较与行列取值共同限制每个空格中的数字。",
+      "en": "Fill each row and column without repeating a digit, satisfying the signs between neighboring cells. The default mode uses greater-than clues, while an alternative marks consecutive values, so each local relation must also fit the complete row-and-column arrangement being constructed.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/unequal.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/unequal.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-unruly"
+      ],
+      "zh": "玩家把未定格子填为黑或白，使每行每列两种颜色数量相等，并且横竖都不能出现连续三个同色格。部分颜色已作为线索给出，需要在这些固定位置之间完成其余格子，兼顾数量和连续性。",
+      "en": "Fill the remaining cells black or white so each row and column contains equal numbers of both colors. No row or column may contain three consecutive cells of one color, so the supplied clues constrain both the totals and the patterns between them.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/unruly.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/unruly.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tatham-untangle"
+      ],
+      "zh": "玩家拖动图中的顶点，改变与之相连的线段位置，目标是让所有连线互不交叉。顶点之间的连接关系保持不变，只能重新安排布局；移动一处可能同时解除或制造多条交叉，需要逐步整理整张图。",
+      "en": "Drag the graph's vertices to new positions until none of its connecting lines cross. Connections stay attached to their original vertices, so moving a point changes several edges at once and can remove one crossing while creating another elsewhere in the layout.",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/untangle.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/doc/untangle.html",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "team-fortress-2"
+      ],
+      "zh": "玩家从九种职业中选择角色，与队友完成夺旗、控制点或护送载具等地图目标。不同职业承担的作用互补，需要让火力、移动和支援围绕当前目标配合，随战线变化调整自己的位置。",
+      "en": "Choose from nine classes and work with teammates on flag capture, control points or payload escort. Combine the classes' roles around the current map objective, adjusting position, firepower and support as the front line moves.",
+      "source": "https://store.steampowered.com/app/440/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/440/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "temple-run-2"
+      ],
+      "zh": "角色会自动向前奔跑，玩家负责转弯、跳跃、滑行和切换路线，避开陷阱并收集沿途金币。连续障碍要求提前观察，把当前操作与下一次反应衔接起来，尽量让奔跑持续下去。",
+      "en": "The character runs forward automatically while you turn, jump, slide and change lanes to avoid traps and collect coins. Successive obstacles require linked responses that keep the character on a usable route through the run.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Temple_Run_2",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tetris"
+      ],
+      "zh": "玩家旋转和摆放不同形状的下落方块，填满水平行使其消除，并避免堆到顶部。每次放置都会改变后续空隙，需要在当前得分与保持可整理的堆叠之间取舍，为接下来的方块留下空间。",
+      "en": "Rotate and place falling shapes to complete horizontal lines and clear them before the stack reaches the top. Each placement changes the gaps available later, so balance an immediate clear against preserving a manageable surface and space for the pieces that follow.",
+      "source": "https://arxiv.org/abs/2505.15146",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Tetris",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "texas-holdem"
+      ],
+      "zh": "玩家结合两张底牌与逐步公开的公共牌，选择过牌、下注、跟注、加注或弃牌以争夺底池。随着牌面和下注变化，需要重新估计自己与对手的牌力；具体下注额度遵循所用的德州扑克规则。",
+      "en": "Combine two private cards with the community cards, choosing checks, bets, calls, raises or folds to contest the pot. Reassess your hand and the opponent's possible holdings as cards and wagers appear, following the selected hold'em rules for the amounts that can be bet.",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Texas_hold_%27em",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "textworld"
+      ],
+      "zh": "玩家阅读房间和物品描述，通过文字命令探索、拾取物品、操作开关或组合对象。可配置目标将这些交互连成不同任务，部分目标需要先完成若干前置步骤，再执行最终操作。",
+      "en": "Read descriptions of rooms and objects, then explore, collect items and interact through text commands. Configured goals connect the available objects and actions into tasks that can require several steps in a particular order.",
+      "source": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "textworldexpress-mapreader"
+      ],
+      "zh": "玩家利用房间之间的连接信息寻找目标位置，并按要求完成物品取放。需要把地图关系与实际移动相对应，判断接下来该进入哪个房间，再让找到路线与完成目标操作衔接起来。",
+      "en": "Use the connections between rooms to reach a target location and carry out the required object pickup or placement. Match the map relationships to actual movement, selecting the next room while ensuring that finding the route also leads to completing the requested interaction.",
+      "source": "https://arxiv.org/html/2401.09334",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "textworldexpress-sorting"
+      ],
+      "zh": "玩家查看三到五个物体的量值，并按指定升序或降序将它们放入盒子。需要先比较大小、确定整组顺序，再依次执行取放，避免只处理眼前一个物体却打乱已经形成的排列。",
+      "en": "Inspect the quantities attached to three to five objects and place them in boxes in the requested order. Compare the values to establish the sequence, then carry out the pickups and placements that produce the required arrangement.",
+      "source": "https://arxiv.org/html/2401.09334",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "textworldexpress-twc"
+      ],
+      "zh": "玩家在房间中寻找散放物品，将它们收集起来并送回通常存放的位置。物品用途提示可能的目的地，搜索与搬运把发现地点和归属位置连接起来，逐步完成整理。",
+      "en": "Search for scattered objects, collect them and return each to its usual location. The objects' uses help identify their destinations, with exploration and transport linking the places where they are found to where they belong.",
+      "source": "https://arxiv.org/html/2401.09334",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "the-ascent"
+      ],
+      "zh": "玩家在巨型都市中执行任务，用枪械、掩体和增强技能应对不同敌人，并收集战利品升级装备。前进时需要让站位与攻击方式相配合，再用新获得的资源调整准备，继续处理后续遭遇。",
+      "en": "Carry out missions in a vast city, combining guns, cover and augmentations to deal with enemies. Collect loot and upgrade equipment between encounters, connecting positioning and attacks with the resources gained so that preparation continues to evolve as the journey moves onward.",
+      "source": "https://store.steampowered.com/app/979690/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/979690/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "the-awakening"
+      ],
+      "zh": "玩家在暴风雨中的墓穴醒来，通过文字探索墓地与废弃教堂，检查物品和线索。目标是弄清自己的处境并脱离危险，需要把不同场景中的发现联系起来，为后续行动找到可行的办法。",
+      "en": "Awaken in a tomb during a storm and explore the graveyard and abandoned church through text. Examine objects and clues to understand the situation, connecting discoveries across locations to find actions that can move you toward escape from the surrounding danger.",
+      "source": "https://ifdb.org/viewgame?id=12pkmwaekw4suh7g",
+      "detailUrl": "https://ifdb.org/viewgame?id=12pkmwaekw4suh7g",
+      "basis": "gameplay-followup-v34",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tic-tac-toe"
+      ],
+      "zh": "玩家轮流落子，争取形成规定连线，并阻止对方完成自己的连线。不同变体的棋盘大小、连线要求和落子限制，会改变进攻威胁与防守回应的组合方式。",
+      "en": "Take turns placing marks to complete the required line while blocking the opponent. The current variant defines the board, line length and placement restrictions, which shape how attacking threats and defensive replies fit together.",
+      "source": "https://arxiv.org/html/2603.06656v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Tic-tac-toe",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "tower-of-hanoi"
+      ],
+      "zh": "玩家把圆盘从一根柱子移到目标柱，每次只能拿走最上面的一片，并且大盘不能放在小盘上。需要借助其余柱子临时周转，让局部移动服从整叠迁移的顺序，避免为了空出一盘而堵住后续步骤。",
+      "en": "Move a stack of discs to the target peg, taking only the uppermost disc and never placing a larger one on a smaller one. Use the other pegs for temporary arrangements, ordering local moves so that they support transferring the entire stack.",
+      "source": "https://github.com/microsoft/SmartPlay#smartplay",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/microsoft/SmartPlay#smartplay",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "towermind"
+      ],
+      "zh": "玩家建造、升级防御设施，并调遣单位阻止敌人沿路线抵达基地。敌方推进压力决定防线何处需要补强，建设投入与现场调遣一起延缓或消灭正在接近的威胁。",
+      "en": "Build and upgrade defenses and direct units to stop enemies from reaching the base. The route and pressure on the defensive line shape where reinforcements are needed, connecting construction spending with the threats currently advancing.",
+      "source": "https://ojs.aaai.org/index.php/AAAI/article/download/39818/43779",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "trackmania"
+      ],
+      "zh": "玩家在设计精确的赛道上控制转向、加速和漂移，以尽可能短的时间完成路线。反复尝试中可以比较入弯位置和速度衔接，逐段修正操作，让局部改进真正转化为更快的完整成绩。",
+      "en": "Steer, accelerate and drift through precisely designed tracks to complete the route as quickly as possible. Repeated attempts let you compare corner entries and the flow between sections, refining local choices so that they improve the time of the complete run.",
+      "source": "https://store.steampowered.com/app/2225070/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/2225070/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "twixt"
+      ],
+      "zh": "双方放置柱子，并在骑士步距离的己方柱子之间搭桥，争取连接属于自己的两条对边。桥不能与既有连线交叉，需要预留可继续延伸的位置，在构建通路时也阻断对手的连接机会。",
+      "en": "Place posts and link your own posts at knight-move distances, trying to connect your assigned opposite edges. Bridges cannot cross existing links, so preserve useful extensions while building the route and considering where a placement can obstruct the opponent's connection.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/TwixT",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "two-armed-bandit"
+      ],
+      "zh": "玩家反复从两个选项中选择，观察获得的回报，逐步了解各选项的收益情况。尝试较少使用的选项可能补充信息，继续选择已知较好的选项则争取眼前收益，需要随新反馈调整分配。",
+      "en": "Repeatedly choose between two options and observe the rewards to learn about their returns. Trying a less-used option may provide useful information, while selecting the currently better one pursues an immediate payoff, requiring the balance to change as new outcomes arrive.",
+      "source": "https://github.com/microsoft/SmartPlay#smartplay",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/microsoft/SmartPlay#smartplay",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "ultimate-tic-tac-toe"
+      ],
+      "zh": "九个小棋盘组成一个大棋盘，玩家在小棋盘内落子，而落子位置会指定对手下一步进入哪一盘。赢下小盘后还要争取大盘连线，需要把局部攻防与送给对手的下一处机会一起考虑。",
+      "en": "Play within nine small boards arranged as one larger board, with each move determining the small board the opponent must enter next. Win local boards to pursue a line on the larger one, weighing a local threat against the destination your move gives away.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "undercover"
+      ],
+      "zh": "多数玩家持有相同词语，少数人拿到近义词或空白身份，通过轮流描述和投票寻找异类。描述需要说明自己理解的词，又不能过于直接泄露答案；玩家再根据差异判断谁可能不在同一阵营。",
+      "en": "Most players receive the same word, while others hold a related word or a blank identity, and everyone describes it before voting. Explain enough to appear consistent without giving the answer away, then compare differences to judge who may be working from another word.",
+      "source": "https://github.com/cathyxl/MAgIC",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/cathyxl/MAgIC",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "universal-poker"
+      ],
+      "zh": "玩家根据隐藏手牌、公开牌面和下注历史选择跟注、加注或弃牌，目标是在具体规则下赢取底池。Universal Poker 用可配置规则表达不同牌局，因此牌组、回合和下注范围需要按当前配置理解，不能假定固定变体。",
+      "en": "Use private cards, public information and betting history to call, raise or fold while seeking the pot. Universal Poker expresses configurable poker rules, with the chosen deck, rounds and betting limits defining the play of each setup.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "uno"
+      ],
+      "zh": "玩家按颜色或数字匹配上一张牌，借助功能牌改变出牌节奏，争取率先清空手牌。需要根据手中可用牌决定保留和打出的顺序，既推进自己的出牌，也应对其他玩家造成的行动变化。",
+      "en": "Match the previous card by color or number and use action cards to change the flow of play. Try to empty your hand first, choosing what to keep and what to play while responding to the changes other players introduce into the sequence.",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/datamllab/rlcard#available-environments",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "valheim"
+      ],
+      "zh": "玩家采集材料、制作工具并建造营地，航海探索不同生态区，寻找更进一步的资源。挑战首领会推动装备与资源获取，需要把外出探索、基地准备和战斗安排连接起来，逐步拓展能够应对的区域。",
+      "en": "Gather materials, craft tools and build a camp before sailing to explore different biomes. Boss challenges advance access to equipment and resources, connecting expeditions and preparation at the base with the fights that allow the journey to extend into new areas.",
+      "source": "https://store.steampowered.com/app/892970/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/892970/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "valorant"
+      ],
+      "zh": "攻守双方安排回合经济，利用枪械和角色技能争夺爆能器的安放与拆除目标。队伍协调路线、敌情和技能时机，为进入场地、守住安放点或夺回控制创造交战窗口。",
+      "en": "Manage the team's round economy and combine gunplay with character abilities to plant or defuse the spike. Coordinate routes, information and ability timing to create openings, hold the site or recover control for the objective.",
+      "source": "https://playvalorant.com/en-us/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://playvalorant.com/en-us/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "vex-3"
+      ],
+      "zh": "玩家控制角色奔跑、跳跃并攀越障碍，穿过尖刺等机关，到达检查点和关卡终点。需要观察连续障碍的排列，把当前动作与下一次落脚连接起来，在失败后利用检查点继续修正路线。",
+      "en": "Run, jump and climb through obstacle courses, passing spikes and other hazards to reach checkpoints and the finish. Read how the obstacles are arranged in sequence, connecting movements and landings while using checkpoints as a basis for correcting the remaining route.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "vmas-navigation"
+      ],
+      "zh": "多个角色需要到达各自指定的目标点，同时避免彼此碰撞。目标虽然分别属于个人，移动空间却相互共享，需要依据其他成员的路线调整速度和方向，让每个角色都能完成自己的导航任务。",
+      "en": "Guide multiple agents to their respective targets without colliding. Although the destinations are individual, the movement space is shared, requiring direction and timing to account for other agents so that one successful route does not prevent the others from reaching their own goals.",
+      "source": "https://www.jmlr.org/papers/volume25/23-1612/23-1612.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "volleybots"
+      ],
+      "zh": "二传角色先触球，将球送给攻击者，再由攻击者向下扣入目标区域。两个阶段通过位置和时机相接，传球的轨迹会决定攻击者下一次触球的条件。",
+      "en": "A setter contacts the ball and passes it to an attacker, who spikes downward into the target area. Positions and timing connect the two stages, with the pass shaping the trajectory available for the attacker's next contact.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2025/file/39f7f65b5a0c3a82cacdffd68955d829-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "basis": "reviewed-single-game-protocol",
+      "scope": "research-environment",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "watch-dogs-2"
+      ],
+      "zh": "玩家操纵联网设施、无人机与车辆，先侦察环境，再用潜行或战斗完成任务。不同设备能改变接近目标的方式，需要把远程观察得到的信息用于现场行动，让移动、入侵和交互形成可行路线。",
+      "en": "Manipulate connected infrastructure, drones and vehicles to scout an area before completing tasks through stealth or combat. Different devices change how a target can be approached, requiring information gathered remotely to guide movement, hacking and interactions at the location itself.",
+      "source": "https://store.steampowered.com/app/447040/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/447040/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "werewolf"
+      ],
+      "zh": "狼人隐藏身份并在夜间行动，其他玩家白天通过发言、质询与投票淘汰嫌疑人。各阵营要把不完整信息转化为行动，既判断他人是否可信，也选择何时透露线索，争取达成自己的胜利条件。",
+      "en": "Werewolves act at night while players discuss, question and vote on suspects during the day. Pursue your side's victory condition through incomplete information, judging whom to trust and deciding when to reveal clues while hidden identities shape how each account is interpreted.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/8cea78701eb986f3ec357eb9b7c6badd-Abstract-Conference.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Mafia_%28party_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "witcher-3"
+      ],
+      "zh": "玩家扮演猎魔人杰洛特，调查委托、追踪怪物，并用剑术、法印和炼金准备应对交战。先搜集线索再选择装备与行动方式，让调查结果帮助处理目标，探索和人物互动也推动旅途中的选择。",
+      "en": "As Geralt, investigate contracts and track monsters before using swordplay, signs and alchemical preparation in combat. Turn clues into choices about equipment and approach, connecting the investigation with the encounter while exploration and conversations shape the decisions made along the journey.",
+      "source": "https://store.steampowered.com/app/292030/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/292030/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "wolfenstein-3d"
+      ],
+      "zh": "玩家在第一人称迷宫中寻找钥匙和出口，沿途搜集弹药并射击守卫。探索路线与战斗互相影响，需要在打开新通道前留意补给与敌情，逐步把当前区域连接到能够继续前进的位置。",
+      "en": "Search a first-person maze for keys and the exit, collecting ammunition and shooting guards encountered along the route. Connect exploration with the demands of combat, watching supplies and threats as new passages open and lead toward the next part of the area.",
+      "source": "https://github.com/jseidelin/wolf3d",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://github.com/jseidelin/wolf3d",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "wordle"
+      ],
+      "zh": "玩家输入猜测，根据字母是否出现以及位置是否正确的反馈，逐次缩小候选单词。次数有限，需要让每次猜测既有机会命中答案，也能验证仍不确定的字母组合，避免忽略之前已经得到的限制。",
+      "en": "Enter guesses and use feedback about letter presence and position to narrow the possible word. With only a limited number of attempts, choose each guess to test remaining uncertainties or identify the answer while respecting the constraints established by earlier feedback.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Wordle",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "worlds-hardest-game"
+      ],
+      "zh": "玩家移动红色方块，躲开持续运动的蓝色障碍，收集黄色目标后抵达安全终点。需要观察障碍周期，选择何时穿过通路；一次移动的终点也要足够安全，才能等待下一次前进机会。",
+      "en": "Move a red square around moving blue obstacles, collecting yellow targets before reaching the safe finish. Watch the timing of the hazards and choose when to cross, ensuring that the next stopping place is safe enough to wait for another opening.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "worlds-hardest-game-2"
+      ],
+      "zh": "玩家控制红色方块穿过复杂的移动障碍，收集目标，并在安全区之间逐步推进。需要把障碍的运动节奏与自身路线对应起来，先确定可等待的位置，再选择一段段穿越的时机。",
+      "en": "Guide a red square through complex moving obstacles, collecting targets and progressing between safe zones. Relate the rhythm of the hazards to the route you intend to take, finding places where you can wait before committing to the next timed passage.",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://gameworld-project.github.io/#games",
+      "detailKind": "official-game-gallery",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "wuthering-waves"
+      ],
+      "zh": "玩家探索场景、解开环境谜题并收集声骸，在实时战斗中利用闪避、反击与角色切换应对敌人。探索获得的资源支持队伍发展，新组合又改变战斗办法，需要让准备与现场操作持续衔接。",
+      "en": "Explore, solve environmental puzzles and collect Echoes while using dodges, counters and character switches in real-time combat. Resources from exploration support the team's development, while new combinations change the tools available when deciding how to handle the next enemy encounter.",
+      "source": "https://store.steampowered.com/app/3513350/",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://store.steampowered.com/app/3513350/",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "xland"
+      ],
+      "zh": "这些程序生成的三维世界要求玩家导航、操作物体并触发当前场景定义的规则，以满足目标条件。布局和要求可以变化，需要先观察对象关系，再尝试行动，把反馈用于修正接下来处理物体的方式。",
+      "en": "Navigate procedurally generated three-dimensional worlds and manipulate objects to trigger the rules associated with the current goal. Layouts and conditions vary, requiring you to observe relationships, try actions and use their outcomes to revise how you interact with the scene.",
+      "source": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/04c0c541d936f7cbfbb21085116236cd-Abstract-Datasets_and_Benchmarks_Track.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "xland-minigrid"
+      ],
+      "zh": "玩家在带可变规则的网格中移动，与物体交互并观察转换结果，发现当前环境的规律。各回合目标在这些规则下完成，先前尝试得到的信息不断改变后续行动的选择。",
+      "en": "Move and interact with objects in a grid whose transformation rules can vary. Use the observed changes to discover the current rules and complete each round's goal, carrying information from an earlier attempt into the next action.",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/b0a34e3c64f7e842f20ec10479c32b35-Abstract-Conference.html",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": null,
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "yacht"
+      ],
+      "zh": "玩家掷出五颗骰子，在有限次数内选择保留哪些骰子、重掷哪些，再把最终结果填入某个组合计分栏。每栏的使用会影响后续选择，需要比较当前分数与未来机会，逐步完成整张计分表。",
+      "en": "Roll five dice, keep selected dice and reroll the rest within the allowed attempts before assigning the result to a scoring category. Each category choice affects later options, so compare the current score with future opportunities while working through the score sheet.",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "basis": "official-rules",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Yacht_%28dice_game%29",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "zelda-oracle-of-seasons"
+      ],
+      "zh": "玩家探索霍洛德拉姆，使用四季之杖改变季节，让道路和场景呈现不同状态。需要比较季节变化后的可行通路，利用新状态解开环境与地牢谜题，把探索获得的能力带回先前受阻的地方。",
+      "en": "Explore Holodrum and use the Rod of Seasons to change the season and the state of the landscape. Compare the resulting routes, using those changes to solve environmental and dungeon puzzles and revisit places where an earlier condition prevented further progress.",
+      "source": "https://arxiv.org/html/2609.32093",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons_and_Oracle_of_Ages",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "zork-i"
+      ],
+      "zh": "玩家通过文字命令探索地下帝国，检查场景、搜集宝物并管理随身物品，破解阻挡探索的谜题。物品的用途未必立即可见，需要把不同地点的线索相互联系，让发现转化为下一步可执行的行动。",
+      "en": "Explore an underground empire through text commands, collecting treasures and managing inventory while solving environmental puzzles. Connect clues from different locations to discover uses for objects and open routes through the adventure.",
+      "source": "https://arxiv.org/html/2601.16690v2",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Zork_I",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "zork-ii"
+      ],
+      "zh": "玩家继续深入地下帝国，寻找并使用物品破解谜题，同时应对巫师带来的干扰。需要把各处发现与当前障碍联系起来，在计划被扰动后重新安排物品和行动顺序，逐步打开后续区域。",
+      "en": "Travel deeper into the underground empire, collecting and using objects to solve puzzles while coping with interference from a wizard. Relate discoveries to current obstacles and reconsider the order of actions when plans are disrupted, gradually opening a way into further areas.",
+      "source": "https://arxiv.org/html/2601.16690v2",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Zork_II",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "zork-iii"
+      ],
+      "zh": "玩家通过文字探索地下城主的领域，破解相互关联的环境与物品谜题，走向最终考验。一个地点的发现可能解释另一个遭遇，分散线索逐渐组成穿越领域的完整路线。",
+      "en": "Explore the Dungeon Master's domain through text commands, solving interconnected environmental and object puzzles before the final test. Discoveries in one location help explain encounters elsewhere, gradually revealing a way through the domain.",
+      "source": "https://arxiv.org/html/2601.16690v2",
+      "basis": "primary-game-reference",
+      "scope": "gameplay",
+      "checkedAt": "2026-10-19",
+      "detailUrl": "https://en.wikipedia.org/wiki/Zork_III",
+      "detailKind": "encyclopedia",
+      "copyEditedAt": "2026-10-26"
+    },
+    {
+      "ids": [
+        "besiege"
+      ],
+      "zh": "玩家把木块、轮轴和机械部件组合成载具或装置，运行物理仿真，观察它能否越过障碍、运送物品或摧毁目标。根据运动与结构表现修改搭建和控制方式，再次测试，让设计逐步符合当前关卡要求。",
+      "en": "Assemble wooden blocks, axles and mechanical parts into a vehicle or device, then run the physics simulation to test it against obstacles, transport goals or destruction targets. Revise the structure and controls from what happens, repeating the build-and-test cycle until the design fits the level.",
+      "source": "https://store.steampowered.com/app/346010/Besiege/?l=schinese",
+      "detailUrl": "https://store.steampowered.com/app/346010/Besiege/?l=schinese",
+      "basis": "primary-game-description",
+      "checkedAt": "2026-10-19",
+      "copyEditedAt": "2026-10-26"
+    }
+  ],
+  "stats": {
+    "described": 809,
+    "reviewedNodes": 1260,
+    "officialNamesAdded": 16,
+    "officialNamesCorrected": 1,
+    "followup": {
+      "reviewedGames": 26,
+      "describedGames": 24,
+      "remainingGames": 2,
+      "officialNamesAdded": 5
+    }
+  },
+  "copyRevision": {
+    "version": "gameplay-copy-v47",
+    "editedAt": "2026-10-26",
+    "expanded": 809,
+    "retained": 0
+  }
+};

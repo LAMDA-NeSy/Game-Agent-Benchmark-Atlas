@@ -1,0 +1,64 @@
+'use strict';
+(()=>{
+ const data=window.ATLAS_DATA;
+ const roles=window.AtlasGameRolesModel.create(data,window.ATLAS_GAME_ROLES);
+ const model=window.AtlasResearchArchiveModel.create(data,window.AtlasLibraryData,roles);
+ const t=(zh,en)=>window.AtlasLanguage.current()==='zh'?zh:en;
+ const tr=x=>typeof x==='string'?(window.AtlasLanguage.current()==='en'?window.ATLAS_TRANSLATIONS?.[x]||x:window.ATLAS_EN_TO_ZH?.[x]||x):x?.[window.AtlasLanguage.current()]||x?.en||'';
+ const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const text=x=>esc(tr(x)),section=(title,body)=>body?`<section class="detail-section"><h3>${title}</h3>${body}</section>`:'';
+ const p=x=>tr(x)?`<p>${text(x)}</p>`:'';
+ const gameName=g=>t(g.nameZh||g.name,g.name);
+ const roleName=id=>t(...({data:['数据来源','Data source'],offline:['离线评测','Offline evaluation'],online:['在线任务（文档）','Online tasks (documented)'],related:['其他研究','Related research'],unverified:['用途待核验','Use unverified']}[id]||[id,id]));
+ const capName=id=>tr(data.taskDimensions.find(d=>d.id===id)?.label)||id;
+ const reviewLabel=a=>a.taskReview?window.AtlasTaskCoverage.status(a.taskReview.status):a.tasks.length?t('已整理任务协议','Documented task protocols'):a.profile.detailLevel==='profile'?t('已整理条目文档','Entry documentation organized'):t('任务资料待核验','Task evidence not reviewed');
+ const fieldNames=[['observation','观测接口','Observation interface'],['action','动作接口','Action interface'],['protocol','评估设置','Evaluation setup']];
+ const paradigmStatus=id=>t(...({confirmed:['已核验','Confirmed'],pending:['待核验','Pending review'],not_applicable:['不适用','Not applicable']}[id]||['待核验','Pending review']));
+ const paradigmRole=id=>t(...({evaluated_agent:['被评测智能体','Evaluated agent'],trained_policy:['训练策略','Trained policy'],documented_interface:['文档明确的接口','Documented interface'],developer_agent:['开发智能体','Developer agent'],offline_evaluation_model:['离线评测模型','Offline evaluation model'],environment_engine:['环境引擎 / 叙述模型','Environment engine / narrator'],trained_social_policy:['社会机制策略','Social-mechanism policy'],evaluated_baseline:['实验对比基线','Evaluated baseline'],other:['其他角色（见依据）','Other role (see evidence)']}[id]||[id,id]));
+ function paradigms(a){const ar=a.bibliography.agentReview;if(!ar)return '';
+  const grouped=new Map();for(const c of ar.claims){const key=JSON.stringify([c.basis,c.sources]);if(!grouped.has(key))grouped.set(key,{...c,labels:[]});grouped.get(key).labels.push({agent:c.agent,role:c.role});}
+  return section(t('智能体范式核验','Agent paradigm review'),`<p class="archive-review-status">${paradigmStatus(ar.status)} · ${esc(ar.checkedAt)}</p>${ar.claims.some(c=>tr(c.basis)===t(ar.noteZh,ar.noteEn))?'':p({zh:ar.noteZh,en:ar.noteEn})}${ar.claims.length?`<dl class="profile-fields paradigm-claims">${[...grouped.values()].map(c=>`<div><dt>${c.labels.map(l=>`<b>${esc(l.agent)}</b><span>${esc(paradigmRole(l.role))}</span>`).join('') }</dt><dd>${p(c.basis)}${c.sources.map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${t('依据','Source')} ${i+1} ↗</a>`).join(' · ')}</dd></div>`).join('')}</dl>`:''}${ar.evidence.map(e=>`<div class="paradigm-source"><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title||e.url)} ↗</a><span>${esc(e.locator||'')}</span></div>`).join('')}${ar.missing.some(m=>tr(m.detail)!==t(ar.noteZh,ar.noteEn))?`<ul class="archive-missing">${ar.missing.filter(m=>tr(m.detail)!==t(ar.noteZh,ar.noteEn)).map(m=>`<li>${text(m.detail)}</li>`).join('')}</ul>`:''}<p class="editorial-caption">${t('LLM / VLM / VLA 描述模型类型，IL / RL 描述学习方式，标签可重叠。核验限于文中明确的角色；不代表全部兼容性或已独立运行。纯裁判、数据采集器及文献引用不据此计入。','LLM / VLM / VLA describe model types; IL / RL describe learning methods. Labels may overlap. Review is limited to documented roles, not exhaustive compatibility or independent execution. Judge-only, collection-only and cited-only uses do not qualify.')}</p>`);
+ }
+ function missingHTML(a){return a.missing.length?section(t('待补充信息','Information still needed'),`<ul class="archive-missing">${a.missing.map(m=>`<li>${text(m.detail)}</li>`).join('')}</ul>`):'';}
+ function overview(a){const b=a.bibliography,r=a.profile;
+  let html=section(t('研究概览','Research overview'),p(b.scope||(r.summary!==b.title&&r.summary!==b.name?r.summary:null)||r.zh));
+  html+=`<dl class="detail-facts"><div><dt>${t('游戏类型','Game genres')}</dt><dd>${b.genres.map(id=>window.AtlasLibrary?.genreLabel?.(id)||tr(id)).map(esc).join(' · ')||'—'}</dd></div><div><dt>${t('已核验范式','Reviewed paradigms')}</dt><dd>${b.agents.map(esc).join(' / ')||paradigmStatus(b.agentReview?.status)}</dd></div></dl>`;
+  html+=section(t('已核验的任务范围','Reviewed task scope'),p(a.taskReview?.reviewedScope));
+  if(r.research)html+=section(t('研究用途与选型建议','Research use & selection notes'),p(r.research.fit)+p(r.research.scope));
+  const linkedGames=a.gameLinks.filter(g=>!['non-game','unresolved'].includes(g.kind));
+  const counts=['data','offline','online'].map(id=>({id,n:linkedGames.filter(g=>g.roles.includes(id)).length}));
+  html+=`<div class="archive-summary"><span>${a.tasks.length} ${t('组已整理任务','documented task units')}</span><span>${linkedGames.length} ${t('个游戏 / 环境关联','game / environment links')}</span>${counts.filter(x=>x.n).map(x=>`<span>${roleName(x.id)} · ${x.n} ${t('个关联','links')}</span>`).join('')}</div>`;
+  const gameRows=games=>`<div class="archive-game-list">${games.map(g=>`<div><button class="text-button" data-game-open="${esc(g.id)}">${esc(gameName(g))} ↗</button><span>${g.roles.map(roleName).join(' · ')}</span></div>`).join('')}</div>`;
+  if(linkedGames.length)html+=section(t('关联游戏与研究用途','Linked games & research uses'),gameRows(linkedGames.slice(0,12))+(linkedGames.length>12?`<details class="archive-more-games"><summary>${t(`其余 ${linkedGames.length-12} 个关联`,`${linkedGames.length-12} more linked games / environments`)}</summary>${gameRows(linkedGames.slice(12))}</details>`:''));
+  html+=section(t('适用边界','Limitations'),p(b.limits||r.limit));
+  if(a.taskReview?.status==='not_applicable')html+=section(t('研究对象','Research scope'),p({zh:a.taskReview.noteZh,en:a.taskReview.noteEn}));
+  html+=missingHTML(a);
+  return html;
+ }
+ function protocol(a){const r=a.profile,b=a.bibliography;
+  let html='';
+  if(a.taskReview)html+=`<p class="archive-review-status">${window.AtlasTaskCoverage.status(a.taskReview.status)}</p>`+p(a.taskReview.reviewedScope);
+  if(a.tasks.length)html+=`<div class="archive-task-list">${a.tasks.map(u=>window.AtlasTaskCoverage.unitDetail(u)).join('')}</div>`;
+  if(r.detailLevel==='profile')html+=section(t('条目级接口与评估设置','Entry-level interfaces & evaluation'),`<dl class="profile-fields">${fieldNames.map(([k,zh,en])=>`<div><dt>${t(zh,en)}</dt><dd>${p(r[k])}</dd></div>`).join('')}</dl>`);
+  if(b.metrics)html+=section(t('评估指标','Evaluation metrics'),p(b.metrics));
+  if(r.research)html+=section(t('选型与对比建议（编辑整理）','Selection & comparison notes (editorial)'),`<dl class="profile-fields">${[['metrics',t('建议关注的评估信息','Suggested evaluation information')],['controls',t('对比需控制的条件','Conditions to control')],['setup',t('接入边界','Integration limits')]].map(([key,label])=>`<div><dt>${label}</dt><dd>${p(r.research[key])}</dd></div>`).join('')}</dl>`);
+  const gameProfiles=a.gameLinks.filter(g=>g.profile);
+  if(gameProfiles.length)html+=section(t('游戏专属接入档案','Game-specific integration profiles'),gameProfiles.map(g=>`<details class="documented-task"><summary>${esc(gameName(g))}</summary><dl class="profile-fields">${[['environment','环境 / 适配层','Environment / adapter'],['scope','任务与设置','Task & setup'],['observation','观测接口','Observation'],['action','动作接口','Actions'],['metrics','原始指标','Original metrics'],['integration','接入方式','Integration'],['controls','对比条件','Comparison controls'],['unknown','待核验项','Unverified fields']].map(([key,zh,en])=>`<div><dt>${t(zh,en)}</dt><dd>${p(g.profile[key].text)}<a href="${esc(g.profile[key].source)}" target="_blank" rel="noopener noreferrer">${t('来源','Source')} ↗</a></dd></div>`).join('')}</dl></details>`).join(''));
+  if(!a.tasks.length&&a.taskReview)html+=p({zh:a.taskReview.noteZh,en:a.taskReview.noteEn});
+  return html+missingHTML(a);
+ }
+ function evidence(a){const b=a.bibliography,r=a.profile;let html=paradigms(a);
+  if(b.caps.length)html+=section(t('检索标签','Discovery tags'),`<p>${b.caps.map(capName).map(esc).join(' · ')}</p><p class="editorial-caption">${b.classification==='title-screen'?t('以上标签来自题录初筛，不作为已核验能力证据。','These tags come from bibliographic screening and are not verified capability evidence.'):t('以上是研究检索标签；逐任务关联依据见下方。','These are discovery tags. Task-level association evidence follows below.')}</p>`);
+  if(r.evidence?.length)html+=r.evidence.map(e=>`<article class="classification-evidence"><h3>${esc(capName(e.cap))} · ${text(e.basis)}</h3>${p(e.mechanism)}${p(e.scope)}<a href="${esc(e.source)}" target="_blank" rel="noopener noreferrer">${text(e.locator)} ↗</a></article>`).join('');
+  if(r.sourceRationale)html+=section(t('来源关联依据','Source association evidence'),p(r.sourceRationale));
+  if(a.tasks.length)html+=section(t('任务级能力依据','Task-level capability evidence'),a.tasks.map(u=>window.AtlasTaskCoverage.unitDetail(u)).join(''));
+  if(b.gameAttribution)html+=section(t('游戏归属依据','Game attribution evidence'),p({zh:b.gameAttribution.noteZh,en:b.gameAttribution.noteEn}));
+  if(b.verificationDetail)html+=section(t('核验范围','Review scope'),p(b.verificationDetail));
+  if(!html)html=p(t('尚无逐项能力映射依据，不能仅凭档案收录推断能力覆盖。','No itemized capability evidence is available; archive inclusion does not establish capability coverage.'));
+  return html;
+ }
+ function citation(a){const b=a.bibliography;return `@misc{${a.sourceId.replace(/[^a-zA-Z0-9]/g,'')},\n  title = {${b.title}},\n  author = {${(Array.isArray(b.authors)?b.authors.join(' and '):b.authors).replace(/;\s*/g,' and ')}},\n  year = {${b.year}},\n  howpublished = {${b.venue||''}},\n  url = {${b.paper||''}}\n}`;}
+ function sources(a){return section(t('论文与核验来源','Paper & reviewed sources'),`<div class="source-list">${a.sources.map(e=>`<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title||e.url)} ↗</a>`).join('')}</div>`)+section(t('引用','Citation'),`<pre class="bibtex">${esc(citation(a))}</pre>`);}
+ function render(a,{tab='overview',selected=false}={}){const b=a.bibliography;return `<div class="detail-hero"><button class="modal-close" data-close="detail-dialog" aria-label="${t('关闭档案','Close archive')}">×</button></div><div class="detail-main research-archive" data-no-i18n data-research-archive="${esc(a.id)}">${window.AtlasLanguage.picker()}<div class="detail-overline"><span>${t('研究档案','Research archive')} · ${esc(b.venue||b.year)}</span><span>${reviewLabel(a)}</span></div><h2 id="detail-title">${esc(b.name)}</h2><p class="detail-paper-title">${esc(b.title)}</p><p class="detail-authors">${esc(Array.isArray(b.authors)?b.authors.join(' · '):b.authors)}</p><div class="detail-buttons">${b.paper?`<a class="button dark" href="${esc(b.paper)}" target="_blank" rel="noopener noreferrer">${t('论文','Paper')} ↗</a>`:''}${b.repo?`<a class="button light" href="${esc(b.repo)}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>`:''}<button class="button light" data-compare="${esc(a.id)}">${selected?t('已加入对比','In comparison'):t('加入对比','Add to compare')}</button><button class="button light" id="copy-citation">${t('复制引用','Copy citation')}</button><button class="button light" data-save-archive="${esc(a.id)}">${t('保存档案','Save archive')} ↓</button></div><div class="detail-tabs" role="tablist" aria-label="${t('研究档案内容','Research archive sections')}">${[['overview',t('选型概览','Overview')],['evidence',t('分类依据','Classification evidence')],['protocol',t('任务与评估','Tasks & evaluation')],['sources',t('来源与引用','Sources & citation')]].map(([id,label])=>`<button role="tab" aria-selected="${id===tab}" tabindex="${id===tab?'0':'-1'}" data-detail-tab="${id}" class="${id===tab?'active':''}">${label}</button>`).join('')}</div><div role="tabpanel">${({overview,evidence,protocol,sources}[tab]||overview)(a)}${['overview','protocol'].includes(tab)?section('Game Arena',window.ArenaCatalog.tasks.filter(u=>u.benchmark===a.id).map(u=>`<p><button class="text-button" data-arena-task="${esc(u.id)}">${text(u.title)} →</button></p>`).join('')):''}</div></div>`;}
+ window.AtlasResearchArchives={...model,render,evidence,citation};
+})();

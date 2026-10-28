@@ -1,0 +1,10 @@
+.DS_Store
+.openai/
+output/
+outputs/
+node_modules/
+__pycache__/
+*.py[cod]
+*.tar.gz
+.env
+.env.*

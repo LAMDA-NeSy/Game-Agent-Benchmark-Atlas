@@ -1,0 +1,3422 @@
+{
+  "version": "game-use-followup-v37",
+  "checkedAt": "2026-10-19",
+  "countUnit": "game-source association; use categories overlap",
+  "sourcesReviewed": 40,
+  "associationsReviewed": 327,
+  "remainingUseUnverified": 0,
+  "reviewedAssociationsWithGaps": 13,
+  "allAssociationsWithGaps": 14,
+  "before": {
+    "data": 151,
+    "offline": 105,
+    "online": 868,
+    "related": 479,
+    "unverified": 327
+  },
+  "after": {
+    "data": 217,
+    "offline": 124,
+    "online": 1189,
+    "related": 482,
+    "unverified": 0
+  },
+  "executionVerified": 0,
+  "capabilityUnitsAdded": 0,
+  "corpusHash": "94d4c15ed29ec1b73ec2158956b651a027b4ca81f3d6fcaa3c851cbaa6a95a43",
+  "pairs": [
+    {
+      "benchmark": "TOP-08",
+      "gameId": "minecraft",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "observation_action",
+        "episode_budget"
+      ]
+    },
+    {
+      "benchmark": "VLA-29",
+      "gameId": "minecraft",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "action_adapter",
+        "task_version_alignment"
+      ]
+    },
+    {
+      "benchmark": "smartplay",
+      "gameId": "crafter",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "smartplay",
+      "gameId": "messenger",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "smartplay",
+      "gameId": "rock-paper-scissors",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB024",
+      "gameId": "starcraft-ii",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB024",
+      "gameId": "multi-agent-particle",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB024",
+      "gameId": "matrix-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-25",
+      "gameId": "overcooked",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-25",
+      "gameId": "balance-beam",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB099",
+      "gameId": "overcooked",
+      "roles": [
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB099",
+      "gameId": "hanabi",
+      "roles": [
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "hanabi",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "openspiel-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "blackjack",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "modular-discovery-generated-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "yacht",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "einstein-wurfelt-nicht",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "universal-poker",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "skat",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "euchre",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "dark-hex",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "reconnaissance-blind-chess",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "phantom-go",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "oshi-zumo",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "sky-blocks",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "variant_rules"
+      ]
+    },
+    {
+      "benchmark": "REC-3.5",
+      "gameId": "solitaire-unspecified",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "variant_rules"
+      ]
+    },
+    {
+      "benchmark": "balrog",
+      "gameId": "nethack",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "balrog",
+      "gameId": "minihack",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "balrog",
+      "gameId": "babyai",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "balrog",
+      "gameId": "baba-is-ai",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "balrog",
+      "gameId": "textworld",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "NATURE298",
+      "gameId": "nethack",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "suite-adapter/config"
+      ]
+    },
+    {
+      "benchmark": "NATURE298",
+      "gameId": "procgen-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "suite-adapter/config"
+      ]
+    },
+    {
+      "benchmark": "NATURE298",
+      "gameId": "atari-2600",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "suite-adapter/config"
+      ]
+    },
+    {
+      "benchmark": "NATURE298",
+      "gameId": "deepmind-lab",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "suite-adapter/config"
+      ]
+    },
+    {
+      "benchmark": "NATURE298",
+      "gameId": "sokoban",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "suite-adapter/config"
+      ]
+    },
+    {
+      "benchmark": "S01",
+      "gameId": "minigrid",
+      "roles": [
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "control_configuration"
+      ]
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "baba-is-you",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "slay-the-spire",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "2048",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "ace-attorney",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "street-fighter-iii",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "pokemon-red",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "super-mario-orak",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "her-story",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "darkest-dungeon",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "stardew-valley",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "baba-is-you",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "slay-the-spire",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "ace-attorney",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "red-dead-redemption-2",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "tic-tac-toe",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "gameverse-maze",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "angry-birds",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "civilization-vi",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "scene-investigators",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "snake",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "plants-vs-zombies",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "forza-horizon-5",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "mini-metro",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2603.06656",
+      "gameId": "genshin-impact",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "rlcard-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "blackjack",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "limit-holdem",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "no-limit-holdem",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "doudizhu",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "mahjong",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "uno",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "gin-rummy",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "rlcard",
+      "gameId": "bridge",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-bigfish",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-bossfight",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-caveflyer",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-chaser",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-climber",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-fruitbot",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-heist",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-jumper",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-leaper",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-maze",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-miner",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-ninja",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-plunder",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "procgen",
+      "gameId": "procgen-starpilot",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "NATURE295",
+      "gameId": "procgen-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "NATURE295",
+      "gameId": "atari-2600",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "NATURE295",
+      "gameId": "deepmind-lab",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "rock-paper-scissors",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "bargaining",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "prisoners-dilemma",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "chameleon",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "undercover",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "public-goods",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "spyfall",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "chicken",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "battle-of-the-sexes",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "stag-hunt",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "minority-game",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "centipede",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "liars-dice",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "skull",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "coup",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "sheriff-of-nottingham",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "insider",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "resistance",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "social-gym-survivor",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2608.09128",
+      "gameId": "dead-last",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB035",
+      "gameId": "atari-2600",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB035",
+      "gameId": "chores",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB105",
+      "gameId": "tetris",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB105",
+      "gameId": "2048",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB105",
+      "gameId": "candy-crush",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB105",
+      "gameId": "super-mario-bros",
+      "roles": [
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB105",
+      "gameId": "ace-attorney",
+      "roles": [
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "tetris",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "2048",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "another-gentlemans-adventure",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "astray",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "boxel-rebound",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "breakout-browser",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "captain-callisto",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "chrome-dino",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "core-ball",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "cubefield",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "doodle-jump",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "edge-surf",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "fireboy-and-watergirl",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "geodash",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "google-snake",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "hextris",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "gameworld-mario",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "minesweeper",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "monkey-mart",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "ns-shaft",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "ovo",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "pac-man-browser",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "restless-wing-syndrome",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "rocket-league-2d",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "run-3",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "stack",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "temple-run-2",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "vex-3",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "wolfenstein-3d",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "wordle",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "worlds-hardest-game",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2604.07429",
+      "gameId": "worlds-hardest-game-2",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.6",
+      "gameId": "tetris",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.6",
+      "gameId": "minesweeper",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.6",
+      "gameId": "s3gym-piece-prediction",
+      "roles": [
+        "offline"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "action_to_transition"
+      ]
+    },
+    {
+      "benchmark": "REC-2.6",
+      "gameId": "nullify",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.6",
+      "gameId": "s3gym-pvz",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.6",
+      "gameId": "trust-evolution",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "tetris",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "2048",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "collection-ax26-2602.17594",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "another-gentlemans-adventure",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "astray",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "boxel-rebound",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "breakout-browser",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "captain-callisto",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "chrome-dino",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "core-ball",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "cubefield",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "doodle-jump",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "edge-surf",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "fireboy-and-watergirl",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "flappy-bird",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "geodash",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "google-snake",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "hextris",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "gameworld-mario",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "gameworld-minecraft-clone",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "minesweeper",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "monkey-mart",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "ns-shaft",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "ovo",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "pac-man-browser",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "restless-wing-syndrome",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "rocket-league-2d",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "run-3",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "stack",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "temple-run-2",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "vex-3",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "wolfenstein-3d",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "wordle",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "worlds-hardest-game",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "worlds-hardest-game-2",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-3.4",
+      "gameId": "gameworld-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAP-A3",
+      "gameId": "pokemon-crystal",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAP-A3",
+      "gameId": "links-awakening",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAP-A3",
+      "gameId": "civilization-i",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAP-A3",
+      "gameId": "need-for-speed",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAP-A3",
+      "gameId": "kirbys-dream-land",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAP-A3",
+      "gameId": "incredible-machine",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "leduc-holdem",
+      "roles": [
+        "data",
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "gin-rummy",
+      "roles": [
+        "data",
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "backgammon",
+      "roles": [
+        "data",
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "cwm-generalized-tic-tac-toe",
+      "roles": [
+        "data",
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "cwm-generalized-chess",
+      "roles": [
+        "data",
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "bargaining",
+      "roles": [
+        "data",
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "quadranto",
+      "roles": [
+        "data",
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "hand-of-war",
+      "roles": [
+        "data",
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-16",
+      "gameId": "leduc-holdem",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-16",
+      "gameId": "tic-tac-toe",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-16",
+      "gameId": "connect-four",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-16",
+      "gameId": "kuhn-poker",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-07",
+      "gameId": "alfworld",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "VLA-03",
+      "gameId": "alfworld",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-02",
+      "gameId": "copa-resource-collection",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-02",
+      "gameId": "copa-rescue",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-alien",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-assault",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-asterix",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-atlantis",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-bank-heist",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-battle-zone",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-beamrider",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-boxing",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-chopper-command",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-crazy-climber",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-double-dunk",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-gopher",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-ice-hockey",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-jamesbond",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-kangaroo",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-krull",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-name-this-game",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-phoenix",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-pong",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-road-runner",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-robotank",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-seaquest",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-tutankham",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-upndown",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-yars-revenge",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-cowboy",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-coinrun",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-spaceship",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-pong",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-bird-attack",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-highway",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-landing",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-air-hockey",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-rocket-collect",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-chase-evade",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-coconut-dodge",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-cartpole",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "miniarcade-point-maze",
+      "roles": [
+        "data",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-20",
+      "gameId": "prisoners-dilemma",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "TOP-20",
+      "gameId": "cost-sharing",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB101",
+      "gameId": "prisoners-dilemma",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB101",
+      "gameId": "undercover",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB101",
+      "gameId": "trust-game",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB101",
+      "gameId": "dictator-game",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB012",
+      "gameId": "ludii-games",
+      "roles": [
+        "related"
+      ],
+      "outcome": "other_research_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB102",
+      "gameId": "werewolf",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-airhockey",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-billiards",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-blowblow",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-boomer",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-crawlerpush",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-offtheground",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-fighter",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-kickboxing",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-minipubg-village",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-minipubg-windridge",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-minipubg-forest",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-minipubg-floodedground",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-minipubg-suntemple",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-pingpong",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-realrace-lakes",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-realrace-night",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-battlecity-fp",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-realrace-drift",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-fightforfood",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-soccers",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-battlecity-tp",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-tennis",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-destroypyramid",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-pushbox",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-transportbricks",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-runtogoal",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-youshallnotpass",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-sumo",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-pushball",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-towerdefense",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-reacher",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-liftball",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-gobang",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-captureflag",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB009",
+      "gameId": "arena-unity-runner",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "AX26-2606.24893",
+      "gameId": "agentodyssey-mark",
+      "roles": [
+        "offline",
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.2",
+      "gameId": "witness-medallion-mirage",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "split-membership"
+      ]
+    },
+    {
+      "benchmark": "REC-2.2",
+      "gameId": "witness-bastion-leagues",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": [
+        "split-membership"
+      ]
+    },
+    {
+      "benchmark": "REC-2.2",
+      "gameId": "witness-squares-stars",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.2",
+      "gameId": "witness-stars-triangles",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB078",
+      "gameId": "childplay-shapes",
+      "roles": [
+        "offline"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "GAB078",
+      "gameId": "childplay-lcl",
+      "roles": [
+        "offline"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-bigfish",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-bossfight",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-chaser",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-climber",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-dodgeball",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-freeway",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-frostbite",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-fruitbot",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-heist",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-jumper",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-leaper",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-maze",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-miner",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-ninja",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-pong",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-qbert",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-space-invaders",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-starpilot",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-downwell",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-breakout-multiball",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-qbert-bigmap",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-flappy-bird-hoop",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "REC-2.8",
+      "gameId": "playtrain-frostbite-jungle",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "W02",
+      "gameId": "counter-strike-go",
+      "roles": [
+        "data",
+        "related"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "A08",
+      "gameId": "shattered-pixel-dungeon",
+      "roles": [
+        "related"
+      ],
+      "outcome": "other_research_confirmed",
+      "missingFields": []
+    },
+    {
+      "benchmark": "NATURE301",
+      "gameId": "repeated-matrix-games",
+      "roles": [
+        "online"
+      ],
+      "outcome": "use_confirmed",
+      "missingFields": []
+    }
+  ],
+  "existingAssociationsEnriched": [
+    {
+      "benchmark": "orak",
+      "gameId": "minecraft",
+      "addedRoles": [
+        "data"
+      ]
+    },
+    {
+      "benchmark": "orak",
+      "gameId": "starcraft-ii",
+      "addedRoles": [
+        "data"
+      ]
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "tic-tac-toe",
+      "addedRoles": [
+        "data",
+        "offline"
+      ]
+    },
+    {
+      "benchmark": "GAB111",
+      "gameId": "connect-four",
+      "addedRoles": [
+        "data",
+        "offline"
+      ]
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-2600",
+      "addedRoles": [
+        "data"
+      ]
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-ms-pacman",
+      "addedRoles": [
+        "data"
+      ]
+    },
+    {
+      "benchmark": "GAB109",
+      "gameId": "atari-space-invaders",
+      "addedRoles": [
+        "data"
+      ]
+    }
+  ],
+  "gaps": [
+    {
+      "benchmark": "REC-3.5",
+      "gameIds": [
+        "sky-blocks",
+        "solitaire-unspecified"
+      ],
+      "note": {
+        "zh": "用途已确认，下列范围或协议细节仍缺证据。",
+        "en": "Use is confirmed; the following scope or protocol details remain unverified."
+      },
+      "missing": [
+        {
+          "field": "variant_rules",
+          "detail": {
+            "zh": "Sky Blocks与Solitaire的具体规则/环境注册ID尚未逐项复核；此缺口限制玩法介绍与任务细分，不否定表11已明示的交互评测用途。",
+            "en": "Exact rules and registry IDs for Sky Blocks and Solitaire have not been individually verified; this limits gameplay descriptions and task subdivisions, not the interactive use explicitly stated in Table 11."
+          },
+          "label": {
+            "zh": "具体变体与规则",
+            "en": "Exact variant and rules"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://arxiv.org/pdf/2609.33115",
+          "title": "Modular Discovery, Appendix F/Table 11 and Appendix G",
+          "excerpt": "The paper names the held-out games and describes state-transition/action-mask evaluation of generated OpenSpiel environments."
+        }
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "benchmark": "REC-2.6",
+      "gameIds": [
+        "s3gym-piece-prediction"
+      ],
+      "note": {
+        "zh": "用途已确认，下列范围或协议细节仍缺证据。",
+        "en": "Use is confirmed; the following scope or protocol details remain unverified."
+      },
+      "missing": [
+        {
+          "field": "action_to_transition",
+          "detail": {
+            "zh": "未核实坐标预测是否影响棋盘的下一状态；如要计在线控制，需核对该环境step实现或作者的明确说明。",
+            "en": "Whether coordinate predictions alter the next board state is unverified; an environment step implementation or explicit author clarification is required before counting online control."
+          },
+          "label": {
+            "zh": "动作是否改变环境",
+            "en": "Action-to-transition effect"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2608.31100v1#A1.SS2",
+          "title": "S3Gym Appendix A.2: Chess-style state prediction",
+          "excerpt": "The prompt supplies observed board states and asks for the next coordinates of labeled pieces, with END as an optional stop."
+        }
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "benchmark": "NATURE298",
+      "gameIds": [
+        "nethack",
+        "procgen-games",
+        "atari-2600",
+        "deepmind-lab",
+        "sokoban"
+      ],
+      "note": {
+        "zh": "交互评测用途已确认；公开仓库是最小 harness，不能据此声称五套完整评测适配器均已可运行。",
+        "en": "Interactive purpose is confirmed; the public repository is a minimal harness and does not establish runnable adapters for all five suites."
+      },
+      "missing": [
+        {
+          "field": "suite-adapter/config",
+          "detail": {
+            "zh": "仍需逐套确认与论文一致的环境适配器、评测配置及依赖版本；当前 README 明示提供的环境实现是 Catch。",
+            "en": "Per-suite environment adapters, paper-matched evaluation configurations and dependency versions still need confirmation; the README identifies Catch as the included implementation."
+          },
+          "label": {
+            "zh": "环境适配与配置",
+            "en": "Environment adapter and configuration"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/google-deepmind/disco_rl",
+          "title": "DiscoRL official code — meta-evaluation",
+          "excerpt": "Meta-evaluation trains an interacting agent with the discovered update rule; the released minimal harness includes Catch implementations."
+        }
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "benchmark": "REC-2.2",
+      "gameIds": [
+        "witness-medallion-mirage",
+        "witness-bastion-leagues"
+      ],
+      "note": {
+        "zh": "已确认交互示例；训练/验证/测试的具体成员归属仍不能从图示确定。",
+        "en": "Interactive examples are confirmed; their exact membership in training, validation or test sets cannot be determined from the illustrations."
+      },
+      "missing": [
+        {
+          "field": "split-membership",
+          "detail": {
+            "zh": "需官方逐游戏清单或代码配置，指明 Medallion Mirage 和 Bastion Leagues 所属 split；目前不得据示例把二者计作训练数据来源。",
+            "en": "An official per-game manifest or configuration must identify the split for Medallion Mirage and Bastion Leagues; illustrations do not establish training-data membership."
+          },
+          "label": {
+            "zh": "训练 / 验证 / 测试归属",
+            "en": "Train / validation / test membership"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://arxiv.org/pdf/2609.32208",
+          "title": "WITNESS — §§2.1–2.5; Figures 2, 4–5",
+          "excerpt": "Figures 2/4 show Medallion Mirage and Bastion Leagues interaction; Figure 5 shows Squares+Stars and Stars+Triangles validation action traces."
+        }
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "benchmark": "TOP-08",
+      "gameIds": [
+        "minecraft"
+      ],
+      "note": {
+        "zh": "在线用途已确认，具体协议仍待补全。",
+        "en": "Online use is confirmed; protocol details remain incomplete."
+      },
+      "missing": [
+        {
+          "field": "observation_action",
+          "detail": {
+            "zh": "本轮正式 PDF 未能读取，尚缺可直接定位的观测字段与动作执行映射；这属于本轮访问限制，不证明论文没有这些内容。",
+            "en": "The official PDF was inaccessible in this pass, leaving observation fields and executable action mappings unlocated; this is an access limit, not proof that the paper omits them."
+          },
+          "label": {
+            "zh": "观测与动作映射",
+            "en": "Observation and action mapping"
+          }
+        },
+        {
+          "field": "episode_budget",
+          "detail": {
+            "zh": "尚未核定逐任务动作链长度、重试次数与终止配额。",
+            "en": "Per-task action-chain limits, retries and termination allocations remain unverified."
+          },
+          "label": {
+            "zh": "回合预算与终止",
+            "en": "Episode budget and termination"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://proceedings.mlr.press/v306/wang26dn.html",
+          "title": "DeepHA — official proceedings abstract",
+          "excerpt": "The abstract explicitly describes hierarchical semantic/motor actions and evaluation on over 800 Minecraft tasks."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26dn/wang26dn.pdf",
+          "title": "DeepHA official PDF",
+          "excerpt": "The official full-text request failed in this pass."
+        }
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "benchmark": "VLA-29",
+      "gameIds": [
+        "minecraft"
+      ],
+      "note": {
+        "zh": "用途可归为在线任务，但还不能据此复现论文全部评测。",
+        "en": "This is documented online evaluation, but the full paper protocol cannot yet be reproduced from these materials."
+      },
+      "missing": [
+        {
+          "field": "action_adapter",
+          "detail": {
+            "zh": "tasks.js 依赖的完整 commands 执行适配尚未核实；缺少论文所用动作的具体实现与版本定位。",
+            "en": "The complete command executor imported by tasks.js remains unverified; the concrete action implementation and version used by the paper are missing."
+          },
+          "label": {
+            "zh": "动作执行适配器",
+            "en": "Action executor adapter"
+          }
+        },
+        {
+          "field": "task_version_alignment",
+          "detail": {
+            "zh": "公开任务目录尚未逐项对应论文四类任务、世界划分及回合配置。",
+            "en": "Released task directories have not been reconciled with the four paper task families, world splits and episode configurations."
+          },
+          "label": {
+            "zh": "任务与版本对应",
+            "en": "Task/version alignment"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2604.05533v1#S4",
+          "title": "Echo — experiment and executor",
+          "excerpt": "The paper defines an executor that runs plans and reports Success at ten/thirty episodes for four Minecraft task families."
+        },
+        {
+          "url": "https://raw.githubusercontent.com/CatworldLee/Echo/main/src/agent/tasks/tasks.js",
+          "title": "Echo official task module",
+          "excerpt": "The module validates target inventory quantities and timeouts, while importing the executor from a separate command adapter."
+        }
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "benchmark": "S01",
+      "gameIds": [
+        "minigrid"
+      ],
+      "note": {
+        "zh": "用途已确认，尚未形成可复现的本游戏完整任务档案。",
+        "en": "Uses are confirmed, but a complete reproducible game-specific task profile is still missing."
+      },
+      "missing": [
+        {
+          "field": "control_configuration",
+          "detail": {
+            "zh": "尚缺表 8 实验对应的 MiniGrid 动作封装、观测模式、回合步数和测试种子配置定位，不能沿用 Atari/ViZDoom 配置。",
+            "en": "Action wrappers, observation mode, episode steps and test seeds for the Table 8 MiniGrid experiments remain unlocated; Atari/ViZDoom settings cannot be reused."
+          },
+          "label": {
+            "zh": "控制与回合配置",
+            "en": "Controls and episode configuration"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2502.00466#S3",
+          "title": "EDELINE — MiniGrid prediction diagnostic",
+          "excerpt": "The main-text MiniGrid experiment predicts states after fixed turns/no-ops."
+        },
+        {
+          "url": "https://arxiv.org/html/2502.00466#A4.SS9.SSS4",
+          "title": "EDELINE — Appendix D.9.4 Table 8",
+          "excerpt": "The appendix additionally reports success rates for MiniGrid MemoryS7 and MemoryS9, distinct from frame-prediction examples."
+        }
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "benchmark": "REC-2.4",
+      "gameIds": [
+        "minecraft"
+      ],
+      "note": {
+        "zh": "已有在线轨道文档，完整执行接口仍未定位。",
+        "en": "The online track is documented, but its complete executor interface remains unlocated."
+      },
+      "missing": [
+        {
+          "field": "action_adapter",
+          "detail": {
+            "zh": "仍需可直接定位的在线动作格式、执行器和发布版本。论文的数据注释键位表不能替代在线接口，其他20款录像来源游戏也不能继承此在线任务。",
+            "en": "An identifiable online action schema, executor and release version are still needed. Annotation keybindings are not an online adapter, and the other twenty video-source games do not inherit this task."
+          },
+          "label": {
+            "zh": "动作执行适配器",
+            "en": "Action executor adapter"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/TencentARC/GameHorizon",
+          "title": "GameHorizon official release roadmap"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.25001v2#S3.SS4",
+          "title": "GameHorizon documented tracks"
+        }
+      ],
+      "checkedAt": "2026-10-19"
+    }
+  ]
+}

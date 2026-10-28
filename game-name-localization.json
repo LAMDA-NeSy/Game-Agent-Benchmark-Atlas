@@ -1,0 +1,632 @@
+{
+  "checkedAt": "2026-10-19",
+  "method": {
+    "zh": "官方中文名依据发行方或官方商店；通用玩法名与中文说明名分别标注，不将研究适配版等同商业原作。原始英文名称与游戏ID保留。",
+    "en": "Official names follow publishers or official stores; generic and descriptive translations are labeled separately. Research adaptations remain distinct from commercial originals. English names and canonical IDs are preserved."
+  },
+  "names": [
+    {
+      "id": "factorio",
+      "nameZh": "异星工厂",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/427520/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "slay-the-spire",
+      "nameZh": "杀戮尖塔",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/646570/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "slay-the-spire-2",
+      "nameZh": "杀戮尖塔2",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/2868840/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "cyberpunk-2077",
+      "nameZh": "赛博朋克2077",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/1091500/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "elden-ring",
+      "nameZh": "艾尔登法环",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/1245620/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "witcher-3",
+      "nameZh": "巫师3：狂猎",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/292030/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "palworld",
+      "nameZh": "幻兽帕鲁",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/1623730/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "forza-horizon-5",
+      "nameZh": "极限竞速：地平线5",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/1551360/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "black-myth-wukong",
+      "nameZh": "黑神话：悟空",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/2358720/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "the-ascent",
+      "nameZh": "上行战场",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/979690/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "mini-metro",
+      "nameZh": "迷你地铁",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/287980/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "civilization-vi",
+      "nameZh": "文明VI",
+      "type": "official",
+      "source": "https://store.2k.com/zh-CN/game/buy-civilization-6",
+      "aliases": [
+        "文明6",
+        "席德·梅尔的文明VI"
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "civilization-v",
+      "nameZh": "文明V",
+      "type": "official",
+      "source": "https://civilization.2k.com/zh-CN/",
+      "aliases": [
+        "文明5"
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "stardew-valley",
+      "nameZh": "星露谷物语",
+      "type": "official",
+      "source": "https://www.playstation.com/zh-hans-cn/support/account/games-tested-online-id-change/",
+      "aliases": [
+        "星露谷物語"
+      ],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "watch-dogs-2",
+      "nameZh": "看门狗2",
+      "type": "official",
+      "source": "https://zh-cn.ubisoft.com/games/wd2",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "genshin-impact",
+      "nameZh": "原神",
+      "type": "official",
+      "source": "https://ys.mihoyo.com/main/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "wuthering-waves",
+      "nameZh": "鸣潮",
+      "type": "official",
+      "source": "https://mc.kurogames.com/main/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "sokoban",
+      "nameZh": "推箱子",
+      "type": "generic",
+      "source": "https://arxiv.org/abs/2505.15146",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "tetris",
+      "nameZh": "俄罗斯方块",
+      "type": "generic",
+      "source": "https://arxiv.org/abs/2505.15146",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "blackjack",
+      "nameZh": "二十一点",
+      "type": "generic",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "leduc-holdem",
+      "nameZh": "Leduc 扑克",
+      "type": "generic",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "limit-holdem",
+      "nameZh": "限注德州扑克",
+      "type": "generic",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "no-limit-holdem",
+      "nameZh": "无限注德州扑克",
+      "type": "generic",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "doudizhu",
+      "nameZh": "斗地主",
+      "type": "generic",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "mahjong",
+      "nameZh": "麻将",
+      "type": "generic",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gin-rummy",
+      "nameZh": "金拉米",
+      "type": "generic",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "bridge",
+      "nameZh": "桥牌",
+      "type": "generic",
+      "source": "https://github.com/datamllab/rlcard#available-environments",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "tic-tac-toe",
+      "nameZh": "井字棋",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2603.06656v1",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "snake",
+      "nameZh": "贪吃蛇",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2603.06656v1",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "minesweeper",
+      "nameZh": "扫雷",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2604.07429v1",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "game-rl-tetris",
+      "nameZh": "俄罗斯方块（GameQA）",
+      "type": "generic",
+      "source": "https://github.com/tongjingqi/Game-RL",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "game-rl-sokoban",
+      "nameZh": "推箱子（GameQA）",
+      "type": "generic",
+      "source": "https://github.com/tongjingqi/Game-RL",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "game-rl-sudoku",
+      "nameZh": "数独（GameQA）",
+      "type": "generic",
+      "source": "https://github.com/tongjingqi/Game-RL",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "game-rl-minesweeper",
+      "nameZh": "扫雷（GameQA）",
+      "type": "generic",
+      "source": "https://github.com/tongjingqi/Game-RL",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "game-rl-snake",
+      "nameZh": "贪吃蛇（GameQA）",
+      "type": "generic",
+      "source": "https://github.com/tongjingqi/Game-RL",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "ultimate-tic-tac-toe",
+      "nameZh": "终极井字棋",
+      "type": "generic",
+      "source": "https://arxiv.org/pdf/2609.33115",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "backgammon",
+      "nameZh": "西洋双陆棋",
+      "type": "generic",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d8a12fde9e72444e1b356e8c37e53753-Paper-Conference.pdf",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "connect-four",
+      "nameZh": "四子连线",
+      "type": "generic",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2026/file/d8a12fde9e72444e1b356e8c37e53753-Paper-Conference.pdf",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "kuhn-poker",
+      "nameZh": "Kuhn 扑克",
+      "type": "generic",
+      "source": "https://github.com/thu-nics/MARSHAL",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gomoku",
+      "nameZh": "五子棋",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "reversi",
+      "nameZh": "黑白棋",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "chess",
+      "nameZh": "国际象棋",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "texas-holdem",
+      "nameZh": "德州扑克",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2602.13214v1",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "guandan",
+      "nameZh": "掼蛋",
+      "type": "generic",
+      "source": "https://arxiv.org/abs/2602.00676",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "nim",
+      "nameZh": "尼姆游戏",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2608.25832v1",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "arena-unity-billiards",
+      "nameZh": "台球（Arena Unity）",
+      "type": "generic",
+      "source": "https://arxiv.org/pdf/1905.08085",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "autoworld-snake",
+      "nameZh": "贪吃蛇（AutoWorldModel）",
+      "type": "generic",
+      "source": "https://arxiv.org/html/2608.11216v2",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-sokoban",
+      "nameZh": "推箱子（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-hanoi",
+      "nameZh": "汉诺塔（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-water-jug",
+      "nameZh": "倒水问题（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-river-crossing",
+      "nameZh": "渡河问题（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-nonogram",
+      "nameZh": "数织（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-lights-out",
+      "nameZh": "熄灯游戏（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-reversi",
+      "nameZh": "黑白棋（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-connect-four",
+      "nameZh": "四子连线（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "gamereplica-gomoku",
+      "nameZh": "五子棋（GameReplica）",
+      "type": "generic",
+      "source": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "simon-tatham-puzzles",
+      "nameZh": "Simon Tatham 益智游戏合集",
+      "type": "descriptive",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "tatham-mines",
+      "nameZh": "扫雷（Simon Tatham）",
+      "type": "generic",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "tatham-solo",
+      "nameZh": "数独（Simon Tatham）",
+      "type": "generic",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "tatham-pattern",
+      "nameZh": "数织（Simon Tatham）",
+      "type": "generic",
+      "source": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "sudoku",
+      "nameZh": "数独",
+      "type": "generic",
+      "source": "https://proceedings.iclr.cc/paper_files/paper/2025/file/27881a19f100fdbf57f0ba1c3d499b08-Paper-Conference.pdf",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "farlight84",
+      "nameZh": "远光84",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/1928420/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "arena-breakout-infinite",
+      "nameZh": "暗区突围：无限",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/2073620/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "construction-simulator",
+      "nameZh": "建筑模拟器",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/1273400/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "dune-awakening",
+      "nameZh": "沙丘：觉醒",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/1172710/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "assassin-s-creed-revelations",
+      "nameZh": "刺客信条：启示录",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/201870/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "dealers-life-2",
+      "nameZh": "当铺人生2",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/1343670/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "command-conquer-3-tiberium-wars",
+      "nameZh": "命令与征服3：泰伯利亚战争",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/24790/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "darkest-dungeon",
+      "nameZh": "暗黑地牢",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/262060/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "valheim",
+      "nameZh": "英灵神殿",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/892970/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "elden-ring-nightreign",
+      "nameZh": "艾尔登法环 黑夜君临",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/2622380/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "expeditions-a-mudrunner-game",
+      "nameZh": "远征：泥泞奔驰游戏",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/2477340/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "delta-force",
+      "nameZh": "三角洲行动",
+      "type": "official",
+      "source": "https://store.steampowered.com/app/2507950/?l=schinese",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "roco-kingdom-world",
+      "nameZh": "洛克王国：世界",
+      "type": "official",
+      "source": "https://rocom.qq.com/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "neverness-to-everness",
+      "nameZh": "异环",
+      "type": "official",
+      "source": "https://yh.wanmei.com/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "honor-of-kings-world",
+      "nameZh": "王者荣耀世界",
+      "type": "official",
+      "source": "https://world.qq.com/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "pokemon-legends-za",
+      "nameZh": "宝可梦传说 Z-A",
+      "type": "official",
+      "source": "https://www.pokemon.co.jp/ex/legends_z-a/sc/",
+      "aliases": [],
+      "checkedAt": "2026-10-19"
+    }
+  ]
+}

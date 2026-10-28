@@ -1,0 +1,90 @@
+{
+  "version": "coverage-policy-v38",
+  "checkedAt": "2026-10-19",
+  "principles": [
+    {
+      "zh": "按实际任务、动作与评价指标判断，不按论文是 benchmark 还是方法论文排除。",
+      "en": "Judge tasks, actions and metrics, not whether the paper proposes a benchmark or a method."
+    },
+    {
+      "zh": "有来源的代表任务可以接入；缺失预算、种子或复现设置单列为限制，不等于没有任务。",
+      "en": "Source-backed representative tasks may be included; missing budgets, seeds or reproduction settings remain explicit limitations."
+    },
+    {
+      "zh": "合集仅汇总已核验成员；子游戏不继承其他成员的任务或能力。",
+      "en": "Collections aggregate confirmed members only; child games never inherit sibling tasks or capabilities."
+    },
+    {
+      "zh": "同一维度按研究来源去重，主要与次要关联分开；不代表独立 benchmark 数量、模型成绩或 Arena 可运行状态。",
+      "en": "Deduplicate research sources per axis and separate primary from secondary associations; counts are not independent benchmark families, model scores or Arena readiness."
+    }
+  ],
+  "reasons": {
+    "non_game_control": {
+      "zh": "机器人或扫描控制，不是游戏玩家任务",
+      "en": "Robot or scanning control, not a game-player task"
+    },
+    "protocol_missing": {
+      "zh": "尚缺可核对的任务协议",
+      "en": "Task protocol not yet documented"
+    },
+    "scope_not_reviewed": {
+      "zh": "已核验其他游戏，当前游戏尚缺协议",
+      "en": "Protocols documented elsewhere, not for this game"
+    },
+    "capability_unmapped": {
+      "zh": "任务已确认，能力尚无充分映射依据",
+      "en": "Task documented; capability mapping insufficient"
+    },
+    "infrastructure_only": {
+      "zh": "平台或工具，需落实到具体评测协议",
+      "en": "Platform or tool; concrete evaluation protocol needed"
+    },
+    "static_diagnostic": {
+      "zh": "问答、预测或求解器诊断，不是玩家行动评测",
+      "en": "QA, prediction or solver diagnostics, not player actions"
+    },
+    "development_generation": {
+      "zh": "游戏开发、生成或渲染评测",
+      "en": "Game development, generation or rendering evaluation"
+    },
+    "human_behavior": {
+      "zh": "人类行为或体验研究",
+      "en": "Human behavior or experience research"
+    },
+    "survey_analysis": {
+      "zh": "综述或统计分析",
+      "en": "Survey or statistical analysis"
+    },
+    "security_diagnostic": {
+      "zh": "安全检测研究",
+      "en": "Security detection research"
+    }
+  },
+  "supplementalDimensions": [
+    {
+      "id": "rule-reasoning",
+      "label": {
+        "zh": "规则与约束推理",
+        "en": "Rule & constraint reasoning"
+      },
+      "definition": {
+        "zh": "根据显式规则、逻辑或数值约束构造并验证有效解；仅有游戏规则不构成依据。",
+        "en": "Construct and validate solutions under explicit logical or numerical constraints; merely having game rules is insufficient."
+      },
+      "supplemental": true
+    },
+    {
+      "id": "spatial-reasoning",
+      "label": {
+        "zh": "空间推理",
+        "en": "Spatial reasoning"
+      },
+      "definition": {
+        "zh": "任务目标直接要求处理位置、连通、几何变换或布局；仅有像素输入不构成依据。",
+        "en": "The objective directly requires positions, connectivity, geometric transformations or layouts; pixel input alone is insufficient."
+      },
+      "supplemental": true
+    }
+  ]
+}

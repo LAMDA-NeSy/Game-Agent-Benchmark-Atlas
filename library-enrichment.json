@@ -1,0 +1,581 @@
+[
+  {
+    "existingId": "GAB059",
+    "genres": [
+      "Sandbox",
+      "Roguelike"
+    ],
+    "games": [
+      "Craftax",
+      "Craftax-Classic"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "JAX 实现的生存制作与地下城探索；Classic 复现 Crafter，完整版本扩展规则与世界。",
+      "en": "JAX survival-crafting and dungeon exploration; Classic recreates Crafter while full Craftax extends its mechanics."
+    },
+    "limits": {
+      "zh": "必须区分 Classic 与完整版本，以及观测类型、环境版本和训练预算。",
+      "en": "Separate Classic from full Craftax and record observations, environment version and training budget."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/MichaelTMatthews/Craftax",
+    "paper": "https://proceedings.mlr.press/v235/matthews24a.html",
+    "caps": [
+      "exploration",
+      "long-horizon",
+      "planning",
+      "memory"
+    ],
+    "evidence": [
+      "https://github.com/MichaelTMatthews/Craftax",
+      "https://proceedings.mlr.press/v235/matthews24a.html"
+    ]
+  },
+  {
+    "existingId": "GAB026",
+    "genres": [
+      "Sandbox"
+    ],
+    "games": [
+      "Crafter"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "随机二维生存世界，用成就成功率及其几何平均衡量探索与制作进展。",
+      "en": "Procedural 2D survival worlds evaluate exploration and crafting progress through achievement success rates and their geometric mean."
+    },
+    "limits": {
+      "zh": "原生接口是图像与离散动作；语言代理需说明封装。外部知识成绩与从零 RL 预算不能直接混比。",
+      "en": "Native observations are images with discrete actions; language agents require an explicit wrapper. External-knowledge results are not budget-matched to from-scratch RL."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/danijar/crafter",
+    "paper": "https://openreview.net/forum?id=76iypkcozLU",
+    "caps": [
+      "exploration",
+      "long-horizon",
+      "generalization"
+    ],
+    "evidence": [
+      "https://github.com/danijar/crafter",
+      "https://openreview.net/forum?id=76iypkcozLU"
+    ]
+  },
+  {
+    "existingId": "GAB015",
+    "genres": [
+      "Roguelike"
+    ],
+    "games": [
+      "MiniHack (NetHack engine)"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "以 NetHack 引擎构造可控的导航、物体交互和技能组合任务，并支持程序化关卡。",
+      "en": "Builds controlled navigation, object interaction and skill-composition tasks on the NetHack engine, with procedural levels."
+    },
+    "limits": {
+      "zh": "是任务生成框架，不能把某一任务结果视为完整 NetHack 能力；旧 Meta 仓库已迁移。",
+      "en": "A task-design framework: success on one task does not establish full NetHack competence. The old Meta repository has moved."
+    },
+    "kind": "environment",
+    "repo": "https://github.com/NetHack-LE/minihack",
+    "paper": "https://openreview.net/forum?id=skFwlyefkWJ",
+    "caps": [
+      "exploration",
+      "generalization",
+      "planning"
+    ],
+    "evidence": [
+      "https://github.com/NetHack-LE/minihack",
+      "https://openreview.net/forum?id=skFwlyefkWJ"
+    ]
+  },
+  {
+    "existingId": "GAB048",
+    "genres": [
+      "Multi-genre",
+      "Abstract task"
+    ],
+    "games": [
+      "Battleship",
+      "Concentration",
+      "Minesweeper",
+      "Labyrinth Escape",
+      "Labyrinth Explore",
+      "POPGym diagnostic and control tasks"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "结合纸牌、棋盘、迷宫及诊断任务，以不同难度比较强化学习记忆模型。",
+      "en": "Combines card, board, maze and diagnostic tasks at different difficulties to compare RL memory models."
+    },
+    "limits": {
+      "zh": "不是单一游戏类型；部分任务是控制或序列诊断。应逐任务解释记忆需求。",
+      "en": "Not a single genre; some tasks are control or sequence diagnostics. Interpret memory demands per task."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/proroklab/popgym",
+    "paper": "https://openreview.net/forum?id=chDrutUTs0K",
+    "caps": [
+      "memory",
+      "partial-observability"
+    ],
+    "evidence": [
+      "https://github.com/proroklab/popgym",
+      "https://openreview.net/forum?id=chDrutUTs0K"
+    ]
+  },
+  {
+    "existingId": "GAB047",
+    "genres": [
+      "Abstract task"
+    ],
+    "games": [
+      "Memory Maze"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "三维迷宫中反复寻找指定颜色目标，要求保持位置、墙体和目标位置的记忆。",
+      "en": "Repeatedly retrieves requested colored targets in a 3D maze, requiring memory of layout, targets and agent position."
+    },
+    "limits": {
+      "zh": "在线 RL 与离线表征探针是不同协议；额外真值观测只用于分析，不能混入标准像素评测。",
+      "en": "Online RL and offline probing are different protocols; extra ground-truth observations must not be mixed into standard pixel evaluation."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/jurgisp/memory-maze",
+    "paper": "https://arxiv.org/abs/2210.13383",
+    "caps": [
+      "memory",
+      "spatial-reasoning"
+    ],
+    "evidence": [
+      "https://github.com/jurgisp/memory-maze",
+      "https://arxiv.org/abs/2210.13383"
+    ]
+  },
+  {
+    "existingId": "GAB013",
+    "genres": [
+      "Multi-genre",
+      "Abstract task"
+    ],
+    "games": [
+      "Melting Pot substrates"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "在多智能体小游戏及未见伙伴群体中评估社会互动泛化，涵盖合作与竞争。",
+      "en": "Evaluates social generalization across multi-agent games and unfamiliar partner populations, including cooperation and competition."
+    },
+    "limits": {
+      "zh": "2021 论文与当前 2.0 仓库的任务集不同；固定 substrate、背景群体与评测版本。",
+      "en": "The 2021 paper and current 2.0 repository use different suites; pin substrates, background populations and evaluation version."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/google-deepmind/meltingpot",
+    "paper": "https://proceedings.mlr.press/v139/leibo21a.html",
+    "caps": [
+      "coordination",
+      "generalization",
+      "social"
+    ],
+    "evidence": [
+      "https://github.com/google-deepmind/meltingpot",
+      "https://proceedings.mlr.press/v139/leibo21a.html"
+    ]
+  },
+  {
+    "existingId": "GAB064",
+    "genres": [
+      "Abstract task"
+    ],
+    "games": [
+      "Allelopathic Harvest",
+      "Clean Up",
+      "Prisoners Dilemma in the Matrix",
+      "Territory"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "竞赛协议在四种社会互动任务中检验对未见社会情境和伙伴的适应。",
+      "en": "Contest protocol evaluates adaptation to unfamiliar social situations and partners across four social-interaction substrates."
+    },
+    "limits": {
+      "zh": "属于 Melting Pot 的竞赛评测协议；不应把竞赛版本和底层环境重复计为独立游戏。",
+      "en": "A contest protocol over Melting Pot; do not count the contest and base environment as separate games."
+    },
+    "kind": "protocol",
+    "repo": "https://github.com/rstrivedi/Melting-Pot-Contest-2023",
+    "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/1d3ea22480873b389a3365d711eb1e91-Abstract-Datasets_and_Benchmarks_Track.html",
+    "caps": [
+      "coordination",
+      "generalization",
+      "social"
+    ],
+    "evidence": [
+      "https://github.com/rstrivedi/Melting-Pot-Contest-2023",
+      "https://proceedings.neurips.cc/paper_files/paper/2024/hash/1d3ea22480873b389a3365d711eb1e91-Abstract-Datasets_and_Benchmarks_Track.html"
+    ]
+  },
+  {
+    "existingId": "GAP-A4",
+    "genres": [
+      "Sandbox"
+    ],
+    "games": [
+      "Minecraft"
+    ],
+    "agents": [
+      "VLM",
+      "VLA",
+      "IL"
+    ],
+    "scope": {
+      "zh": "Minecraft 中以多模态指令协作完成建造、拆除、种植和冶炼，并提供集中式与分布式模型。",
+      "en": "Multimodal cooperative Minecraft tasks cover building, breaking, farming and smelting, with centralized and decentralized models."
+    },
+    "limits": {
+      "zh": "核心基线为模仿学习的视觉语言动作模型；不能将接口直接宣称为已提供 RL 基线。",
+      "en": "Core baselines are imitation-trained vision-language-action models; do not imply that RL baselines are supplied."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/teamcraft-bench/teamcraft",
+    "paper": "https://arxiv.org/abs/2412.05255",
+    "caps": [
+      "coordination",
+      "generalization",
+      "planning"
+    ],
+    "evidence": [
+      "https://github.com/teamcraft-bench/teamcraft",
+      "https://arxiv.org/abs/2412.05255"
+    ]
+  },
+  {
+    "existingId": "GAB075",
+    "genres": [
+      "TBS"
+    ],
+    "games": [
+      "Freeciv-web"
+    ],
+    "agents": [
+      "LLM",
+      "RL"
+    ],
+    "scope": {
+      "zh": "Freeciv-web 上的回合制文明经营与对抗，同时提供张量 RL 和语言代理接口。",
+      "en": "Turn-based civilization management and competition in Freeciv-web, with tensor RL and language-agent interfaces."
+    },
+    "limits": {
+      "zh": "底层是 Freeciv-web，不是商业 Civilization；完整游戏与小游戏的成绩需分开。",
+      "en": "Uses Freeciv-web, not the commercial Civilization game; separate full-game and minigame results."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/bigai-ai/civrealm",
+    "paper": "https://openreview.net/forum?id=UBVNwD3hPN",
+    "caps": [
+      "strategy",
+      "long-horizon",
+      "planning"
+    ],
+    "evidence": [
+      "https://github.com/bigai-ai/civrealm",
+      "https://openreview.net/forum?id=UBVNwD3hPN"
+    ]
+  },
+  {
+    "existingId": "GAB067",
+    "genres": [
+      "RTS"
+    ],
+    "games": [
+      "StarCraft II"
+    ],
+    "agents": [
+      "LLM"
+    ],
+    "scope": {
+      "zh": "将星际争霸 II 状态转为文本，并通过高层命令与规则脚本执行战略决策。",
+      "en": "Converts StarCraft II state into text and executes strategic decisions through high-level commands and rule-based scripts."
+    },
+    "limits": {
+      "zh": "语言接口和脚本承担部分控制；不能与像素键鼠或纯微操基准直接比较。",
+      "en": "The text interface and scripts handle part of control; results are not directly comparable to pixel-keyboard or pure micromanagement benchmarks."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/sc2musa/Large-Language-Models-play-StarCraftII",
+    "paper": "https://arxiv.org/abs/2312.11865",
+    "caps": [
+      "strategy",
+      "long-horizon",
+      "planning"
+    ],
+    "evidence": [
+      "https://github.com/sc2musa/Large-Language-Models-play-StarCraftII",
+      "https://arxiv.org/abs/2312.11865"
+    ]
+  },
+  {
+    "existingId": "GAB105",
+    "genres": [
+      "Multi-genre",
+      "Puzzle",
+      "Platformer",
+      "Adventure"
+    ],
+    "games": [
+      "Sokoban",
+      "Tetris",
+      "2048",
+      "Candy Crush",
+      "Super Mario Bros.",
+      "Ace Attorney: Phoenix Wright"
+    ],
+    "agents": [
+      "LLM",
+      "VLM"
+    ],
+    "scope": {
+      "zh": "在解谜、平台与剧情游戏中比较单模型和带 GamingAgent 辅助框架的表现。",
+      "en": "Compares single-model and GamingAgent-harness settings across puzzle, platform and narrative games."
+    },
+    "limits": {
+      "zh": "必须分开有无 harness；仓库另有 Pokémon Red 接入说明，但运行列表与论文评测集不能混同。",
+      "en": "Separate harness and no-harness conditions. Pokémon Red integration is documented separately and should not be conflated with the listed benchmark runner or paper test set."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/lmgame-org/GamingAgent",
+    "paper": "https://arxiv.org/abs/2505.15146",
+    "caps": [
+      "planning",
+      "control"
+    ],
+    "evidence": [
+      "https://github.com/lmgame-org/GamingAgent",
+      "https://arxiv.org/abs/2505.15146"
+    ]
+  },
+  {
+    "existingId": "GAP-A3",
+    "genres": [
+      "Multi-genre",
+      "FPS",
+      "RPG",
+      "TBS",
+      "Racing",
+      "Platformer",
+      "Puzzle",
+      "Action"
+    ],
+    "games": [
+      "Doom II",
+      "Pokémon Crystal",
+      "The Legend of Zelda: Links Awakening DX",
+      "Civilization I",
+      "The Need for Speed",
+      "Kirbys Dream Land",
+      "The Incredible Machine"
+    ],
+    "agents": [
+      "VLM"
+    ],
+    "scope": {
+      "zh": "通过屏幕输入与游戏控制评估完成经典游戏的能力，区分开发集和测试集。",
+      "en": "Evaluates completion of classic games through screen observations and game controls, with separate development and test sets."
+    },
+    "limits": {
+      "zh": "所列为公开测试游戏；另有保留测试游戏，部分资源需自行提供。实时与暂停推理模式不可混比。",
+      "en": "Listed games are the public test set; additional held-out games exist and some assets must be supplied. Do not mix real-time and paused-inference settings."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/alexzhang13/videogamebench",
+    "paper": "https://arxiv.org/abs/2505.18134",
+    "caps": [
+      "control",
+      "long-horizon",
+      "planning"
+    ],
+    "evidence": [
+      "https://github.com/alexzhang13/videogamebench",
+      "https://arxiv.org/abs/2505.18134"
+    ]
+  },
+  {
+    "existingId": "GAB076",
+    "genres": [
+      "Fighting"
+    ],
+    "games": [
+      "Street Fighter II: Special Champion Edition"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "在街头霸王 II 的实时对战中训练和比较竞争型多智能体 RL，考察胜负与可被利用程度。",
+      "en": "Trains and compares competitive MARL in real-time Street Fighter II matches, including performance and exploitability."
+    },
+    "limits": {
+      "zh": "官方实现以指定 Genesis 版本为主；角色、动作变换、自博弈对手与评测配置需固定。",
+      "en": "The official implementation centers on a specific Genesis version; pin characters, action transforms, self-play opponents and evaluation settings."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/wenzhe-li/FightLadder",
+    "paper": "https://proceedings.mlr.press/v235/li24q.html",
+    "caps": [
+      "control",
+      "strategy",
+      "opponent-adaptation"
+    ],
+    "evidence": [
+      "https://github.com/wenzhe-li/FightLadder",
+      "https://proceedings.mlr.press/v235/li24q.html"
+    ]
+  },
+  {
+    "existingId": "GAB095",
+    "genres": [
+      "FPS"
+    ],
+    "games": [
+      "Doom / ViZDoom custom scenarios"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "第一人称 Doom 场景中同时追踪回报与成本，研究安全约束下的视觉决策。",
+      "en": "Tracks rewards and costs in first-person Doom scenarios to study visual decision-making under safety constraints."
+    },
+    "limits": {
+      "zh": "安全是任务中定义的成本约束；不是对现实世界安全的证明。固定难度、动作空间及预算。",
+      "en": "Safety means task-defined cost constraints, not demonstrated real-world safety. Pin difficulty, action space and budget."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/TTomilin/HASARD",
+    "paper": "https://arxiv.org/abs/2503.08241",
+    "caps": [
+      "safety",
+      "control",
+      "strategy"
+    ],
+    "evidence": [
+      "https://github.com/TTomilin/HASARD",
+      "https://arxiv.org/abs/2503.08241"
+    ]
+  },
+  {
+    "existingId": "GAB050",
+    "genres": [
+      "FPS"
+    ],
+    "games": [
+      "Doom / ViZDoom custom scenarios"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "按序学习视觉或目标变化的 Doom 场景，以性能、遗忘和前向迁移衡量持续学习。",
+      "en": "Sequentially learns Doom scenarios with changing visuals or objectives, measuring performance, forgetting and forward transfer."
+    },
+    "limits": {
+      "zh": "任务边界已知的 task-incremental 协议；不能泛化为未知边界的持续适应。",
+      "en": "Uses task-incremental learning with known task boundaries; this does not establish boundary-free continual adaptation."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/TTomilin/COOM",
+    "paper": "https://papers.nips.cc/paper_files/paper/2023/hash/d61d9f4fe4357296cb658795fd7999f0-Abstract-Datasets_and_Benchmarks.html",
+    "caps": [
+      "continual-learning",
+      "generalization",
+      "control"
+    ],
+    "evidence": [
+      "https://github.com/TTomilin/COOM",
+      "https://papers.nips.cc/paper_files/paper/2023/hash/d61d9f4fe4357296cb658795fd7999f0-Abstract-Datasets_and_Benchmarks.html"
+    ]
+  },
+  {
+    "existingId": "GAB034",
+    "genres": [
+      "FPS"
+    ],
+    "games": [
+      "Doom / ViZDoom custom scenarios"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "在四类 Doom 场景中逐步组合环境修改，测量视觉与难度变化下的泛化。",
+      "en": "Combines environment modifications across four Doom scenarios to test generalization under visual and difficulty shifts."
+    },
+    "limits": {
+      "zh": "这里的难度与修改组合相关；不代表通用 FPS 难度等级。",
+      "en": "Difficulty is tied to combinations of modifications, not a universal FPS difficulty scale."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/TTomilin/LevDoom",
+    "paper": "https://ieee-cog.org/2022/assets/papers/paper_30.pdf",
+    "caps": [
+      "generalization",
+      "control"
+    ],
+    "evidence": [
+      "https://github.com/TTomilin/LevDoom",
+      "https://ieee-cog.org/2022/assets/papers/paper_30.pdf"
+    ]
+  },
+  {
+    "existingId": "GAB094",
+    "genres": [
+      "Abstract task",
+      "Puzzle"
+    ],
+    "games": [
+      "Kinetix physics tasks"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "scope": {
+      "zh": "程序化二维刚体物理任务通过马达与推进器控制物体，并评估对未见关卡的迁移。",
+      "en": "Procedural 2D rigid-body tasks control objects with motors and thrusters and evaluate transfer to unseen levels."
+    },
+    "limits": {
+      "zh": "包含机器人与游戏式任务，不是单一商业游戏；复现论文需固定环境与物理版本。",
+      "en": "Includes robotics and game-like tasks rather than one commercial game; paper reproduction requires pinned environment and physics versions."
+    },
+    "kind": "benchmark",
+    "repo": "https://github.com/FLAIROx/Kinetix",
+    "paper": "https://arxiv.org/abs/2410.23208",
+    "caps": [
+      "generalization",
+      "physical-reasoning",
+      "control"
+    ],
+    "evidence": [
+      "https://github.com/FLAIROx/Kinetix",
+      "https://arxiv.org/abs/2410.23208"
+    ]
+  }
+]

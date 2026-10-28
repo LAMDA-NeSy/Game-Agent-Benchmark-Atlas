@@ -1,0 +1,4018 @@
+{
+  "checkedAt": "2026-10-19",
+  "baselineVersion": 21,
+  "version": 22,
+  "baselineSha256": "04977da679ff7caebc57d4d7db5a1b1655f0c26fc2dfea0437691fa01c54ab2b",
+  "summary": {
+    "reviewed": 119,
+    "previouslyUnresolved": 15,
+    "resolvedUnresolved": 15,
+    "unresolvedOutcomes": {
+      "verified": 12,
+      "partial": 1,
+      "not_applicable": 2
+    },
+    "partialOutcomes": {
+      "verified": 54,
+      "partial": 39,
+      "not_applicable": 11
+    },
+    "addedUnits": 80,
+    "removedUnits": 0,
+    "updatedUnits": 35,
+    "addedGameLinks": 47,
+    "correctedGameLinks": 1,
+    "outcomes": {
+      "expanded": 74,
+      "clarified": 42,
+      "still_limited": 3
+    }
+  },
+  "records": [
+    {
+      "id": "VLA-28",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "VLA-28-openha-cross-level"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "OpenHA 的采掘、合成与击杀任务及跨动作层级执行；包括论文的 ID/OOD 比较，不包括独立新 Benchmark 的认定。",
+        "en": "OpenHA mining, crafting and combat tasks with cross-level action execution and the paper's ID/OOD comparison; not a claim of a new independent benchmark."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "作者全文补齐 OpenHA 评测协议；收录该方法采用的任务，不视为新建独立 Benchmark。",
+        "noteEn": "Author full text resolves the OpenHA evaluation protocol; these are reused evaluation tasks, not a new independent benchmark.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2512.09706v1",
+            "title": "CrossAgent — §4.1–4.4",
+            "excerpt": "OpenHA tasks use RGB observations, human-like controls, FT/ASR and a 30-task RL training subset."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "VLA-29",
+      "previousStatus": "unresolved",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Echo 全文中配方、功能等价、合成链、功能方块任务及前 10/30 回合成功率；执行接口和实验划分尚未充分确认。",
+        "en": "Echo recipe, functional-equivalence, crafting-chain and utility-block tasks and first-10/30-episode success metrics; executable interfaces and experimental splits remain insufficiently specified."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "作者全文确认配方、功能等价、合成链及功能方块任务和前 10/30 回合成功率；尚缺可执行动作接口、世界划分及种子/预算细节，暂不新增覆盖单位。",
+        "noteEn": "The author paper confirms four task families and early-episode success metrics, but concrete actions, world splits and seed/budget details remain insufficient for a coverage unit.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2604.05533v1",
+            "title": "Echo — §§3–4",
+            "excerpt": "The paper specifies four task families and Success@0–10/0–30, but the executor's concrete action interface and world split are not fully specified."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "VLA-18",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 2,
+      "addedTaskIds": [
+        "VLA-18-atari-return-steering",
+        "VLA-18-minecraft-instruction-following"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [
+        "atari-amidar",
+        "atari-assault",
+        "atari-asterix",
+        "atari-atlantis",
+        "atari-bank-heist",
+        "atari-battle-zone",
+        "atari-beamrider",
+        "atari-boxing",
+        "atari-breakout",
+        "atari-chopper-command",
+        "atari-crazy-climber",
+        "atari-demon-attack",
+        "atari-enduro",
+        "atari-fishing-derby",
+        "atari-frostbite",
+        "atari-gopher",
+        "atari-gravitar",
+        "atari-hero",
+        "atari-jamesbond",
+        "atari-kangaroo",
+        "atari-krull",
+        "atari-kung-fu-master",
+        "atari-name-this-game",
+        "atari-phoenix",
+        "atari-pong",
+        "atari-qbert",
+        "atari-riverraid",
+        "atari-road-runner",
+        "atari-robotank",
+        "atari-seaquest",
+        "atari-skiing",
+        "atari-time-pilot",
+        "atari-upndown",
+        "atari-wizard-of-wor",
+        "atari-zaxxon"
+      ],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Minecraft 的 100 项多模态指令任务，以及图 11 所列 35 款 Atari 游戏的回报/视频指令分数控制；不包括机器人任务。",
+        "en": "The 100 Minecraft multimodal instruction tasks and return/video-conditioned score steering in the 35 Atari games shown in Figure 11; robotics tasks are excluded."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "已读取本地作者全文并渲染图 10–11，补齐 Minecraft 与全部 35 个 Atari 实验游戏。Atari 分数可控性作为任务保留，但不强行标成九维能力；机器人任务排除。",
+        "noteEn": "Local author full text and rendered Figures 10–11 resolve Minecraft and all 35 evaluated Atari games. Score steering remains a task without a forced nine-axis label; robotics is excluded.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2412.10410",
+            "title": "GROOT-2 — Table 1 and Appendices B–C; local author PDF",
+            "excerpt": "Minecraft uses 100 tasks in eight families, language/video prompts, keyboard/mouse controls and repeated success-rate evaluation; Atari uses return-conditioned rollouts."
+          },
+          {
+            "url": "https://arxiv.org/pdf/2412.10410",
+            "title": "GROOT-2 — Appendix B and rendered Figures 10–11 (local author PDF)",
+            "excerpt": "Figures 10–11 identify 35 evaluated Atari games. Return/video prompts target normalized returns −1/0/1; each instruction is tested 40 times."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "VLA-27",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "VLA-27-mcu-acquisition"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "JARVIS-1 采用的 MCU 两百余项物品获取任务、任务表环境条件与限时成功率；不将记忆模块视为独立记忆测试。",
+        "en": "The 200-plus MCU item-acquisition tasks used by JARVIS-1, their tabulated conditions and time-bounded success rates; the memory module is not treated as an isolated memory test."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "已读取本地作者全文及任务表，补齐 MCU 物品获取协议；记忆模块的存在不作为独立记忆测试证据。",
+        "noteEn": "Local author full text and task tables resolve MCU acquisition tasks; having a memory module is not treated as an isolated memory test.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2311.05997",
+            "title": "JARVIS-1 — §4.1, Table 1; local author PDF",
+            "excerpt": "Over 200 MCU acquisition tasks specify biomes, inventories, 12k–36k budgets and at least 30 different-seed trials."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "VLA-15",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 2,
+      "addedTaskIds": [
+        "VLA-15-atomic-collection",
+        "VLA-15-long-horizon-67"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Optimus-2 的四项原子资源收集任务和 67 项长程依赖链任务；开放式指令变体未单列覆盖单位。",
+        "en": "Optimus-2's four atomic collection tasks and 67 extended dependency-chain tasks; open-ended instruction variants are not separate coverage units."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "本地作者全文明确区分原子任务与 67 项长程任务，分别补充控制与长程依赖协议。",
+        "noteEn": "Local author full text distinguishes atomic and 67 extended tasks, supporting separate control and dependency-chain protocols.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2502.19902",
+            "title": "Optimus-2 — §5.1 and Tables 2–4; local author PDF",
+            "excerpt": "Evaluation separates four atomic tasks, 67 dependency-chain tasks and open-ended instructions; rewards count items and success rates score longer tasks."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "VLA-14",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 2,
+      "addedTaskIds": [
+        "VLA-14-hierarchical-long-tasks",
+        "VLA-14-interaction-12"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "ROCKET-1 的 12 项指定对象/位置交互任务及表 3 的层级长程任务；区分人类与模型提示条件。",
+        "en": "ROCKET-1's 12 object/location-specific interaction tasks and Table 3 hierarchical extended tasks, distinguishing human and model prompting conditions."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "从本地全文和作者版本补齐空间交互与层级长程任务；将高层与策略间提示视为接口，不误算多 Agent 协作。",
+        "noteEn": "Local and author full texts resolve spatial interaction and extended tasks; planner-policy prompting is an interface, not multi-agent coordination.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2410.17856v3",
+            "title": "ROCKET-1 — §4.1–4.3 and Tables 2–3; local author PDF",
+            "excerpt": "Twelve interaction tasks use location-sensitive success conditions and 32 trials; a separate hierarchy evaluates extended tasks."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "VLA-07",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "VLA-07-skillforge-demonstration"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "SkillForge 的 30 项视频指令技能、跨生物群系示范、人类成对判断/Elo，以及九项代表任务的成功率。",
+        "en": "SkillForge's 30 video-conditioned skills, cross-biome demonstrations, human pairwise/Elo evaluation and success rates on nine representative tasks."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "本地作者全文补齐 SkillForge 协议；人类成对判断/Elo 与客观成功率保持区分。",
+        "noteEn": "Local author full text resolves SkillForge, distinguishing human pairwise/Elo evaluation from objective success rates.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2310.08235",
+            "title": "GROOT — §5.1 and Appendix H; local author PDF",
+            "excerpt": "SkillForge defines 30 tasks; 600-step rollouts are compared by human judges using task-specific completion criteria, with cross-biome reference videos."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "VLA-05",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 2,
+      "addedTaskIds": [
+        "VLA-05-context-dependent",
+        "VLA-05-process-dependent"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "MP5 的 16 项环境条件搜索/停止任务及 25 项科技树过程依赖任务；两种成功定义分别保留。",
+        "en": "MP5's 16 context-conditioned search/stopping tasks and 25 technology-tree process tasks, retaining their distinct success definitions."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "本地作者全文补齐两类协议；环境条件感知不强行放入九个能力维度，依赖链任务单独标注。",
+        "noteEn": "Local author full text resolves two protocols; context perception is not forced into the nine axes, while dependency tasks are separate.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/abs/2312.07472",
+            "title": "MP5 — §4.1, Tables 1–2; local author PDF",
+            "excerpt": "Sixteen context tasks and 25 process tasks use separate success definitions, 12,000-step budgets and 50/30 evaluations."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB006",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB006-continuing-foraging"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Jelly Bean World 固定奖励下不重置的软糖采集/洋葱规避案例；不扩展到模拟器支持的多 Agent 或其他未收录案例。",
+        "en": "The non-resetting Jelly Bean World jelly-bean collection/onion-avoidance case under fixed rewards; not simulator-supported multi-agent settings or other unlisted cases."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "作者 PDF 补齐单 Agent 持续采集协议；模拟器支持多 Agent 不等于论文评测了协作。",
+        "noteEn": "Author PDF resolves a single-agent continuing collection protocol; simulator multi-agent support is not evidence of an evaluated coordination task.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/pdf/2002.06306",
+            "title": "Jelly Bean World — §§2–4, Figure 4",
+            "excerpt": "A non-resetting collection task runs 10 million steps; reward rate over a moving window measures sustained gathering without becoming stuck."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB074",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB074-object-centric-ppo"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [
+        "atari-asterix",
+        "atari-bowling",
+        "atari-boxing",
+        "atari-freeway",
+        "atari-kangaroo",
+        "atari-pong",
+        "atari-seaquest",
+        "atari-tennis"
+      ],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "OCAtari 图 4 的八款游戏对象状态 PPO 游玩实验；不包括检测 F1/IoU、数据集生成或全部支持游戏。",
+        "en": "Object-centric PPO gameplay in the eight games in OCAtari Figure 4; object-detection F1/IoU, dataset generation and the full supported-game list are excluded."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "已读取作者 PDF 并渲染图 4，确认八款实际 PPO 游玩评测游戏；检测 F1/IoU 不计游玩能力，支持清单不等于评测清单。",
+        "noteEn": "Author PDF and rendered Figure 4 establish eight actual PPO gameplay evaluations. Detection F1/IoU and the wider support list are excluded from gameplay coverage.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/pdf/2306.08649",
+            "title": "OCAtari — §3.2, Figure 4 and Appendix E; rendered PDF checked",
+            "excerpt": "The interactive experiment trains PPO in Asterix, Bowling, Boxing, Freeway, Kangaroo, Pong, Seaquest and Tennis; object-detection experiments are separate."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "TOP-03",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "TOP-03-human-agent-mcc"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [
+        {
+          "removeGameId": "collection-top-03",
+          "game": {
+            "id": "honor-of-kings",
+            "name": "Honor of Kings",
+            "categories": [
+              "MOBA"
+            ],
+            "kind": "game"
+          },
+          "noteZh": "正文 §4 所有实验在 Honor of Kings 5v5 开展；原占位集合不是游戏。",
+          "noteEn": "Section 4 identifies all experiments as Honor of Kings 5v5; the former placeholder was not a game.",
+          "evidence": [
+            {
+              "url": "https://arxiv.org/pdf/2304.11632",
+              "title": "MCC — §§4.1–4.3 and Appendices B–C",
+              "excerpt": "Honor of Kings 5v5 experiments compare command selection, human-agent team composition, win rates and participant preferences."
+            }
+          ]
+        }
+      ],
+      "reviewedScope": {
+        "zh": "Honor of Kings 5v5 人机元指令协作实验，覆盖不同人数/水平的人类队友、固定对手和参与者偏好；非开放式语言协商。",
+        "en": "Honor of Kings 5v5 human-agent meta-command experiments with varied human teammate numbers/skill levels, fixed opponents and participant preferences; not open-ended language negotiation."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "作者 PDF 明确实际游戏为 Honor of Kings，纠正占位集合；补齐人机协作的观测、动作、胜率与参与者偏好协议。",
+        "noteEn": "Author PDF establishes Honor of Kings rather than a placeholder collection and resolves observations, actions, win rates and participant preferences.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/pdf/2304.11632",
+            "title": "MCC — §§4.1–4.3 and Appendices B–C",
+            "excerpt": "Honor of Kings 5v5 experiments compare command selection, human-agent team composition, win rates and participant preferences."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB103",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB103-dragon-team-combat"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Mini HoK 七种配置下五英雄协作攻击黑暗暴君的伤害评测；不是完整 MOBA 对局或编辑器潜在任务。",
+        "en": "Five-hero cooperative Dark Dragon damage evaluation under seven Mini HoK configurations; not full MOBA matches or hypothetical editor tasks."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "作者全文补齐五英雄协作打龙协议，控制变量包括等级、技能、装备及同质/异质队伍；不视为完整 5v5 MOBA 对局。",
+        "noteEn": "Author full text resolves cooperative dragon combat with level, skill, equipment and team-composition controls; this is not full 5v5 MOBA play.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2406.03978v1",
+            "title": "Mini Honor of Kings — §4, Table 1 and §5",
+            "excerpt": "Five heroes fight a stochastic Dark Dragon, using position/health observations and movement/attack/skill actions; damage is evaluated across seven configurations."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB025",
+      "previousStatus": "unresolved",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB025-full-game-bot-pool"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Gym-μRTS 论文单地图、完全可观测的完整 RTS 对手池评测，保留最佳训练种子选择与 4000 tick 限制。",
+        "en": "The Gym-μRTS paper's single-map, fully observable full-game bot-pool evaluation, retaining best-training-seed selection and the 4,000-tick limit."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "作者 PDF 补齐全局 RTS 对局协议；明确本论文使用单地图、完全可观测设置，不能外推地图泛化或部分可观测记忆。",
+        "noteEn": "Author PDF resolves full RTS play on a single map under full observability; no map-generalization or partial-observation memory claim is added.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/pdf/2105.13807",
+            "title": "Gym-μRTS — §§IV–V and Table I",
+            "excerpt": "Twenty-seven feature planes and primitive unit commands support full RTS play; evaluation reports win rate against 13 bots with 4,000-tick limits."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2605.31529",
+      "previousStatus": "unresolved",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "SVI-Bench 现实篮球、冰球和足球视频的理解、检索、生成及工具辅助分析任务；不包含 Agent 控制比赛的任务。",
+        "en": "SVI-Bench understanding, retrieval, generation and tool-assisted analysis of real basketball, hockey and soccer videos; no agent-controlled gameplay tasks."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "作者全文确认是现实体育转播视频理解/生成与工具辅助分析。即使 T9 使用 Agent 工具，其输出仍是分析回答，不是游戏动作，不进入游玩能力覆盖图。",
+        "noteEn": "Full text confirms real-world sports video understanding/generation and tool-assisted analysis. T9 agents answer analysis questions rather than control gameplay, so no play-capability unit is added.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2605.31529v1",
+            "title": "SVI-Bench — §§3–4, tasks T1–T9",
+            "excerpt": "Tasks analyze or generate basketball, hockey and soccer videos; the tool-using task answers questions over recorded sports evidence rather than controlling players."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "S07",
+      "previousStatus": "unresolved",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "GameSR 在 CS2、OW2、TF2 等游戏内容上的实时超分辨率、画质、时延和带宽评测；不是游戏 Agent 表现评测。",
+        "en": "GameSR real-time super-resolution, visual quality, latency and bandwidth evaluation on gaming content including CS2, OW2 and TF2; not game-agent performance evaluation."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "本地及作者官网全文确认研究实时超分辨率；CS2、OW2、TF2 是画质素材/系统测试场景。指标不是 Agent 游戏表现，保留游戏关联但不计覆盖图。",
+        "noteEn": "Local and author-hosted full text confirms real-time super-resolution. CS2, OW2 and TF2 provide content/system scenarios, not agent-performance tasks; game links remain outside capability coverage.",
+        "sources": [
+          {
+            "url": "https://www2.cs.sfu.ca/~mhefeeda/Papers/tg26_GameSR.pdf",
+            "title": "GameSR — author PDF, evaluation sections and Table I",
+            "excerpt": "The paper evaluates super-resolution with image-quality, latency, bandwidth and hardware metrics; CS2, OW2 and TF2 supply gaming content."
+          }
+        ],
+        "previousStatus": "unresolved",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2606.00103",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "AX26-2606.00103-task-interactive-query"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "474个可执行游戏的共同查询协议，2370个难度实例；不声称逐实例能力标注。",
+        "en": "Shared query protocol across 474 executable games and 2,370 difficulty instances; no per-instance capability claims."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文§3与算法1确认固定查询/提交协议、成功率和成功回合平均轮数。已核验集合级协议，无需把474个规则实例伪装成474款独立游戏；删除仅因累积历史而附加的记忆标签。",
+        "noteEn": "Sections 3 and Algorithm 1 verify query/submit interaction, success rate, and turns on successful episodes. The suite-level protocol is verified without treating 474 rule instances as distinct games; the unsupported memory tag is removed.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2606.00103",
+            "title": "Evaluating Interactive Reasoning in Large Language Models: A Hierarchical Benchmark with Executable Games",
+            "excerpt": "Sections 3 and Algorithm 1 verify query/submit interaction, success rate, and turns on successful episodes. The suite-level protocol is verified without treating 474 rule instances as distinct games; the unsupported memory tag is removed."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "AX26-2602.17594",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2602.17594-keyboard-suite"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "100款生成小游戏的共同键盘协议",
+        "en": "Common keyboard protocol for 100 generated games"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文和附录确认100游戏共同交互协议、120次调用预算和人类归一化指标；只登记集合协议，不向各游戏复制认知能力标签。",
+        "noteEn": "Full text and appendices establish the common 100-game protocol, 120-call budget and human-normalized metrics; only the suite protocol is registered.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/pdf/2602.17594",
+            "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+            "excerpt": "Full text and appendices establish the common 100-game protocol, 120-call budget and human-normalized metrics; only the suite protocol is registered."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2603.06656",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2603.06656-2048-control"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "GameVerse的2048子协议",
+        "en": "GameVerse 2048 subprotocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文表1与附录D.3定位2048独立协议、1000步上限和归一化合并分；明确游戏内时间约束与反思条件。其余14游戏不在本次能力单元范围。",
+        "noteEn": "Table 1 and appendix D.3 establish the 2048 protocol, 1000-step cap and normalized merge score, with time and reflection conditions explicit; other games are outside this unit.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2603.06656",
+            "title": "GameVerse: Can Vision-Language Models Learn from Video-based Reflection?",
+            "excerpt": "Table 1 and appendix D.3 establish the 2048 protocol, 1000-step cap and normalized merge score, with time and reflection conditions explicit; other games are outside this unit."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2604.07429",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 2,
+      "currentUnits": 2,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "AX26-2604.07429-task-flappy-timing",
+        "AX26-2604.07429-task-minecraft-clone-collection"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Minecraft克隆资源目标与Flappy Bird得分目标；统一暂停模式。",
+        "en": "Minecraft-clone resource targets and Flappy Bird score targets under paused execution."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文§3.5/§4.1确认状态验证器、100动作预算及推理时暂停。保留已核实的Minecraft克隆采集和Flappy Bird两单位，不把其能力推广至其余32游戏。",
+        "noteEn": "Sections 3.5/4.1 verify state-based scoring, a 100-action budget, and paused inference. Retain the Minecraft-clone collection and Flappy Bird units only; do not propagate capabilities to 32 other games.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2604.07429",
+            "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+            "excerpt": "Sections 3.5/4.1 verify state-based scoring, a 100-action budget, and paused inference. Retain the Minecraft-clone collection and Flappy Bird units only; do not propagate capabilities to 32 other games."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 2
+      }
+    },
+    {
+      "id": "AX26-2601.02427",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2601.02427-anonymous-control"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "匿名10游戏30任务的共同控制协议，不涵盖1000余训练游戏。",
+        "en": "Common control protocol for ten unnamed games/30 tasks, excluding the 1,000-plus training games."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "已读取CVPR全文§2.2和图5：10游戏30任务、每任务5次、人类判定成功、统一手柄与暂停执行均明确。游戏标题未命名是数据披露限制，不否定该匿名协议可核验。",
+        "noteEn": "CVPR Section 2.2 and Figure 5 specify ten games, 30 tasks, five rollouts, human success judgments, unified gamepad controls, and paused execution. Undisclosed titles limit attribution but not protocol verification.",
+        "sources": [
+          {
+            "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Magne_NitroGen_An_Open_Foundation_Model_for_Generalist_Gaming_Agents_CVPR_2026_paper.pdf",
+            "title": "NitroGen: An Open Foundation Model for Generalist Gaming Agents",
+            "excerpt": "CVPR Section 2.2 and Figure 5 specify ten games, 30 tasks, five rollouts, human success judgments, unified gamepad controls, and paused execution. Undisclosed titles limit attribution but not protocol verification."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "REC-2.3",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "REC-2.3-execution-subset"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Execution轨道500局部任务",
+        "en": "500 localized tasks in Execution"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "核验全文Execution及附录A.3/B.1，补500任务、75回复预算和屏幕成功验证；只覆盖Execution，不声称Playthrough轨道已同等核验。",
+        "noteEn": "Verified Execution and appendices A.3/B.1: 500 tasks, 75-response budgets and screen-based success checks; Playthrough is outside this reviewed scope.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2609.32093",
+            "title": "GameBoyWorlds: A Testbed for Self-Improvement in Embodied Video Games",
+            "excerpt": "Verified Execution and appendices A.3/B.1: 500 tasks, 75-response budgets and screen-based success checks; Playthrough is outside this reviewed scope."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "REC-2.4",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Minecraft在线分步诊断与离线范围区别",
+        "en": "Minecraft online stepwise diagnosis versus offline scope"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文3.4与在线结果表确认在线轨道仅Minecraft：20长任务、62短子任务，失败后重置为成功状态继续；21游戏属于数据及离线题目覆盖。尚未从本次读到的协议定位每任务动作预算和完整在线动作接口，保留partial，不生成泛化到21游戏的能力单元。",
+        "noteEn": "Section 3.4 and online results identify Minecraft only: 20 long tasks and 62 subtasks, with resets to successful states after failure. The 21-game scope belongs to data/offline questions. Per-task action budgets and a complete online action interface remain unlocated, so no capability unit is spread across 21 games.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2609.25001",
+            "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+            "excerpt": "Section 3.4 and online results identify Minecraft only: 20 long tasks and 62 subtasks, with resets to successful states after failure. The 21-game scope belongs to data/offline questions. Per-task action budgets and a complete online action interface remain unlocated, so no capability unit is spread across 21 games."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB098",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB098-head-to-head"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "八游戏共同比赛协议，过程题分数作为附加诊断。",
+        "en": "Shared eight-game competition protocol, with intermediate questions as auxiliary diagnostics."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "读取全文§2.3–2.5、§3.1.1，补齐共同动作循环、结果归一化和20局座位平衡；仅集合级单位，未向每子游戏复制能力。",
+        "noteEn": "Read Sections 2.3–2.5 and 3.1.1, extracting action loop, normalized outcomes, and 20-match seat balance. Retained one suite-level unit without per-game capability propagation.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2025.acl-long.378.pdf",
+            "title": "GAMEBoT: Transparent Assessment of LLM Reasoning in Games",
+            "excerpt": "Read Sections 2.3–2.5 and 3.1.1, extracting action loop, normalized outcomes, and 20-match seat balance. Retained one suite-level unit without per-game capability propagation."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB058",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB058-aquawar"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [
+        "aquawar"
+      ],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Aquawar数字卡牌子协议",
+        "en": "Aquawar digital-card subprotocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录E.1/E.4补全Aquawar两阶段、固定场景、重试判负和0.7胜率+0.3伤害率；不把AgentBench其它非游戏工具任务算入覆盖。",
+        "noteEn": "Appendices E.1/E.4 specify Aquawar stages, matched scenarios, retry forfeits and 0.7 win-rate + 0.3 damage-rate scoring; non-game AgentBench tasks are excluded.",
+        "sources": [
+          {
+            "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf",
+            "title": "AgentBench: Evaluating LLMs as Agents",
+            "excerpt": "Appendices E.1/E.4 specify Aquawar stages, matched scenarios, retry forfeits and 0.7 win-rate + 0.3 damage-rate scoring; non-game AgentBench tasks are excluded."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-A1",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-A1-chess-imitation"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [
+        "chess"
+      ],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "象棋上下文模仿子协议",
+        "en": "Chess in-context imitation subprotocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文评测与棋类附录补出100局、100步、对手强度和非法动作处理；当前任务单元限象棋子协议，仍挂集合而不冒充全套六环境。",
+        "noteEn": "Full evaluation and chess appendix establish 100 episodes, 100-step limits, opponent strength and invalid-action handling. The unit is scoped to chess, not all six environments.",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/ruoss25a/ruoss25a.pdf",
+            "title": "LMAct: A Benchmark for In-Context Imitation Learning with Long Multimodal Demonstrations",
+            "excerpt": "Full evaluation and chess appendix establish 100 episodes, 100-step limits, opponent strength and invalid-action handling. The unit is scoped to chess, not all six environments."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "TOP-08",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "复用OpenHA的闭环评测及汇总指标",
+        "en": "Reused OpenHA interactive evaluation and aggregate metrics"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文4.1确认复用OpenHA的800余任务，报告成功率、Best-of-N及完成步数。这是闭环交互评测的研究来源，并非新独立基准；本轮未逐任务复核动作链长度与重试/终止配额，保留partial零新增单元。",
+        "noteEn": "Section4.1 confirms reuse of OpenHA’s800-plus tasks with success,Best-of-N and completion-step metrics. This is an interactive-evaluation research source, not an independent new benchmark. Per-task action-chain lengths and retry/termination allocations were not fully verified, so partial status is retained without new units.",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26dn/wang26dn.pdf",
+            "title": "DeepHA: Scaling Action Chains Elicits Deep Hierarchical Agents",
+            "excerpt": "Section4.1 confirms reuse of OpenHA’s800-plus tasks with success,Best-of-N and completion-step metrics. This is an interactive-evaluation research source, not an independent new benchmark. Per-task action-chain lengths and retry/termination allocations were not fully verified, so partial status is retained without new units."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "TOP-09",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "TOP-09-minecraft-tasks"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "OpenHA发布的Minecraft具身、GUI与战斗任务集合。",
+        "en": "Minecraft embodied, GUI, and combat task suite released with OpenHA."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "PMLR全文§4.1及附录G明确800余个人工验证任务、三组接口、每任务至少三独立新种子。已补成功/步数/Best-of-10，避免把方法名本身当新能力。",
+        "noteEn": "PMLR Section 4.1 and Appendix G specify 800-plus hand-verified tasks, three groups, and at least three independent unseen seeds per task. Added success/steps/Best-of-10 without inferring capabilities from the method name.",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/wang26do/wang26do.pdf",
+            "title": "OpenHA: A Series of Open-Source Hierarchical Agentic Models in Minecraft",
+            "excerpt": "PMLR Section 4.1 and Appendix G specify 800-plus hand-verified tasks, three groups, and at least three independent unseen seeds per task. Added success/steps/Best-of-10 without inferring capabilities from the method name."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "VLA-12",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "MCU四类闭环任务与独立视觉问答的区分",
+        "en": "Four reused MCU interactive task families versus separate visual QA"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文评测节确认复用MCU采集、击杀、合成、熔炼四类交互任务，每任务至少30次；视觉问答单列。保留为闭环评测研究来源，尚未完整核对每个任务的终止和操作预算，partial零新增单元；不声称提供新独立基准。",
+        "noteEn": "The evaluation section reuses MCU mining,killing,crafting and smelting tasks with at least30 trials per task; visual QA is separate. Retained as an interactive-evaluation source, with per-task termination/action budgets not fully verified; partial with no new units, not an independent new benchmark.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2025.findings-acl.920.pdf",
+            "title": "JARVIS-VLA: Post-Training Large-Scale Vision Language Models to Play Visual Games with Keyboards and Mouse",
+            "excerpt": "The evaluation section reuses MCU mining,killing,crafting and smelting tasks with at least30 trials per task; visual QA is separate. Retained as an interactive-evaluation source, with per-task termination/action budgets not fully verified; partial with no new units, not an independent new benchmark."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB084",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Craftium3.5平台示例及性能实验",
+        "en": "Craftium section3.5 platform examples and performance experiments"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文3.5明确声明这些例子仅用于演示、不可视为benchmark；读到ChopTree/SpidersAttack的PPO回报曲线及5次运行，但它们是平台示例。保留Craftium环境框架，暂不新增独立评测任务。",
+        "noteEn": "Section 3.5 explicitly calls its examples illustrative rather than benchmarks. ChopTree/SpidersAttack PPO return curves over five runs demonstrate the platform, so Craftium is retained as an environment framework without independent evaluation units.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2407.03969",
+            "title": "Craftium: Bridging Flexibility and Efficiency for Rich 3D Single- and Multi-Agent Environments",
+            "excerpt": "Section 3.5 explicitly calls its examples illustrative rather than benchmarks. ChopTree/SpidersAttack PPO return curves over five runs demonstrate the platform, so Craftium is retained as an environment framework without independent evaluation units."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB089",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB089-resource-choice"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "食物/水二选一子任务",
+        "en": "Food/water two-resource choice"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录I.3明确区分资源取得与生存时长成功标准；本次登记食物/水二选一500步协议，不把温度任务的300步存活指标混入。",
+        "noteEn": "Appendix I.3 separates acquisition success from survival-duration success; this review registers the 500-step food/water choice protocol without mixing in thermal 300-step survival.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5a33bff12876849137064101232019f1-Paper-Datasets_and_Benchmarks_Track.pdf",
+            "title": "EVAAA: A Virtual Environment Platform for Essential Variables in Autonomous and Adaptive Agents",
+            "excerpt": "Appendix I.3 separates acquisition success from survival-duration success; this review registers the 500-step food/water choice protocol without mixing in thermal 300-step survival."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB087",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "蓝图生成、自动建造与空间问答",
+        "en": "Blueprint generation, automatic construction and spatial QA"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文3.1确认模型输出蓝图矩阵，Mineflayer自动建造；评分含GPT-4.1加权建筑质量与空间问答准确率，非闭环玩家操作。保留研究条目，移出交互游玩能力图。",
+        "noteEn": "Section 3.1 confirms blueprint-matrix output followed by automatic Mineflayer construction. Metrics include GPT-4.1-weighted artifact quality and spatial-QA accuracy, not closed-loop player control; retained as research but excluded from interactive coverage.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8048e2b9b631b15e1158f36275d8fc11-Paper-Datasets_and_Benchmarks_Track.pdf",
+            "title": "MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents",
+            "excerpt": "Section 3.1 confirms blueprint-matrix output followed by automatic Mineflayer construction. Metrics include GPT-4.1-weighted artifact quality and spatial-QA accuracy, not closed-loop player control; retained as research but excluded from interactive coverage."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB097",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB097-main-35"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "35任务主实验及6任务场景对照",
+        "en": "35-task main experiment and six-task scenario comparison"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文3.2与附录E/F区分35任务主实验、150任务扩展和MCU-Turbo100任务；本单元限主实验并明确30/10种子。AutoEval与实际环境游玩分开：评分用视频，轨迹由闭环行动产生。",
+        "noteEn": "Section 3.2 and appendices E/F distinguish the 35-task main experiment, 150-task extension and 100-task MCU-Turbo. This unit covers main experiments with explicit 30/10-seed controls; video judging scores trajectories produced by interactive agents.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2310.08367",
+            "title": "MCU: An Evaluation Framework for Open-Ended Game Agents",
+            "excerpt": "Section 3.2 and appendices E/F distinguish the 35-task main experiment, 150-task extension and 100-task MCU-Turbo. This unit covers main experiments with explicit 30/10-seed controls; video judging scores trajectories produced by interactive agents."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-A10",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-A10-mixed-initiative-pilot"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "44请求的人机协作试验",
+        "en": "Mixed-initiative pilot of 44 requests"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文和附录E确认44请求/216子任务及验证器；明确玩家参与修复，限制到已记录的人机协作试验，不将其宣传为全自主记忆测量。",
+        "noteEn": "Full text and appendix E confirm 44 requests/216 subtasks and validators. Human-assisted repair is explicit; scope is the documented mixed-initiative pilot, not autonomous memory measurement.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2601.05215",
+            "title": "MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents",
+            "excerpt": "Full text and appendix E confirm 44 requests/216 subtasks and validators. Human-assisted repair is explicit; scope is the documented mixed-initiative pilot, not autonomous memory measurement."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB043",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 4,
+      "currentUnits": 5,
+      "addedTaskIds": [
+        "GAB043-diamond-shovel"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "四个BASALT模糊目标及ObtainDiamondShovel。",
+        "en": "Four BASALT underspecified tasks plus ObtainDiamondShovel."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文§2.2及附录A确认四个BASALT任务的像素输入、人类成对偏好和留出种子；另补充有显式奖励的ObtainDiamondShovel，不能与人类偏好分混合。",
+        "noteEn": "Section 2.2 and Appendix A verify pixels, human preferences, and held-out seeds for four BASALT tasks. Added ObtainDiamondShovel with explicit rewards, kept separate from preference ratings.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/67a6726dcd555b982cabb3446ffac01d-Paper-Datasets_and_Benchmarks.pdf",
+            "title": "BEDD: The MineRL BASALT Evaluation and Demonstrations Dataset for Training and Benchmarking Agents that Solve Fuzzy Tasks",
+            "excerpt": "Section 2.2 and Appendix A verify pixels, human preferences, and held-out seeds for four BASALT tasks. Added ObtainDiamondShovel with explicit rewards, kept separate from preference ratings."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 4
+      }
+    },
+    {
+      "id": "GAB055",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "2022竞赛交互builder赛道。",
+        "en": "Interactive builder track of the 2022 competition."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "本轮读取全文§4.3，确认交互builder按相对初始网格的块改动F1计分，并按应增删块数加权。NLP澄清F1/MRR@20为独立离线赛道，不纳入units。",
+        "noteEn": "Full-text Section 4.3 confirms builder block-edit F1 relative to the initial grid, weighted by required additions/removals. NLP clarification F1/MRR@20 remains an excluded offline track.",
+        "sources": [
+          {
+            "url": "https://proceedings.mlr.press/v220/kiseleva23a/kiseleva23a.pdf",
+            "title": "Interactive Grounded Language Understanding in a Collaborative Environment: Retrospective on Iglu 2022 Competition",
+            "excerpt": "Full-text Section 4.3 confirms builder block-edit F1 relative to the initial grid, weighted by required additions/removals. NLP clarification F1/MRR@20 remains an excluded offline track."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "GAB042",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB042-offline-38"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "38角色配置的离线学习后在线评测",
+        "en": "Online evaluation of offline learners across 38 characters"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文3与实验设置、附录A补38角色划分、终端输入、三种子50局及AutoAscend归一化；移除以平台困难度代替能力测量的说法。",
+        "noteEn": "Section 3, experimental setup and appendix A establish 38 character splits, terminal inputs, three seeds/50 episodes and AutoAscend normalization.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/a5f596699d8d4637532f955c7f2860f4-Paper-Datasets_and_Benchmarks.pdf",
+            "title": "Katakomba: Tools and Benchmarks for Data-Driven NetHack",
+            "excerpt": "Section 3, experimental setup and appendix A establish 38 character splits, terminal inputs, three seeds/50 episodes and AutoAscend normalization."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB044",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "NeuralMMO2.0任务API及吞吐测试",
+        "en": "NeuralMMO2.0 task API and throughput tests"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文4–5主要说明GameState/Predicate/Task接口、25内置谓词与随机动作下禁用死亡的吞吐测试；FullyArmed是可构造任务示例，未给固定能力评测集及结果。保留平台条目，不生成任务覆盖。",
+        "noteEn": "Sections 4–5 describe GameState/Predicate/Task APIs, 25 built-in predicates and throughput tests with random actions and mortality disabled. FullyArmed illustrates task construction, without a fixed capability evaluation set and results; retained as a platform.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/9ca22870ae0ba55ee50ce3e2d269e5de-Paper-Datasets_and_Benchmarks.pdf",
+            "title": "Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning",
+            "excerpt": "Sections 4–5 describe GameState/Predicate/Task APIs, 25 built-in predicates and throughput tests with random actions and mortality disabled. FullyArmed illustrates task construction, without a fixed capability evaluation set and results; retained as a platform."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB056",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB056-team-competition"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "NeurIPS2022 PvE/PvP赛制",
+        "en": "NeurIPS2022 PvE/PvP competition"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文观察/动作空间与附录A.3–A.4明确PvE Top1和PvP TrueSkill不同指标及100/1000场频率；补固定比赛协议，不与2.0平台合并计数。",
+        "noteEn": "Observation/action sections and appendices A.3–A.4 distinguish PvE Top1 from PvP TrueSkill with 100/1000-match schedules; this competition protocol is distinct from the 2.0 platform.",
+        "sources": [
+          {
+            "url": "https://proceedings.mlr.press/v220/liu23a/liu23a.pdf",
+            "title": "The NeurIPS 2022 Neural MMO Challenge: A Massively Multiagent Competition with Specialization and Trade",
+            "excerpt": "Observation/action sections and appendices A.3–A.4 distinguish PvE Top1 from PvP TrueSkill with 100/1000-match schedules; this competition protocol is distinct from the 2.0 platform."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB036",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB036-human-preferences"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "BASALT2021四任务共同赛制",
+        "en": "Shared BASALT2021 four-task competition protocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "比赛回顾全文2.1–2.2补四任务、同种子人工配对、TrueSkill标准化及复训预算；仅登记共同评测协议，避免将人类打分视频误当静态问答。",
+        "noteEn": "Competition retrospective sections 2.1–2.2 establish four tasks, matched-seed human comparisons, normalized TrueSkill and retraining budgets; video scoring evaluates actual agent rollouts.",
+        "sources": [
+          {
+            "url": "https://proceedings.mlr.press/v176/shah22a/shah22a.pdf",
+            "title": "Retrospective on the 2021 MineRL BASALT Competition on Learning from Human Feedback",
+            "excerpt": "Competition retrospective sections 2.1–2.2 establish four tasks, matched-seed human comparisons, normalized TrueSkill and retraining budgets; video scoring evaluates actual agent rollouts."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB037",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB037-silent-builder"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "IGLU2021 Silent Builder",
+        "en": "IGLU2021 Silent Builder"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文4.2核验建造者三类动作接口、固定初/目标态和三项指标；纠正交互澄清在2021仅为未来方向，静态Architect不计入游玩覆盖。",
+        "noteEn": "Section 4.2 verifies three builder action interfaces, fixed initial/target states and three metrics. Interactive clarification was future work in 2021; offline Architect generation is excluded.",
+        "sources": [
+          {
+            "url": "https://proceedings.mlr.press/v176/kiseleva22a/kiseleva22a.pdf",
+            "title": "Interactive Grounded Language Understanding in a Collaborative Environment: IGLU 2021",
+            "excerpt": "Section 4.2 verifies three builder action interfaces, fixed initial/target states and three metrics. Interactive clarification was future work in 2021; offline Architect generation is excluded."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB029",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB029-nle-online-evaluation"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "NLE在线策略评测，不含纯日志重建",
+        "en": "Online NLE policy evaluation, excluding pure log reconstruction"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文实验段核验统一tty观察、15亿帧、1024局和10种子；明确人类数据无动作奖励，但文中有在线评测，保留该有限协议。",
+        "noteEn": "Experimental section verifies tty observations, 1.5B frames, 1024 episodes and 10 seeds. Human data lack actions/rewards, but the paper evaluates learned policies online.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/9d9258fd703057246cb341e615426e2d-Paper-Datasets_and_Benchmarks.pdf",
+            "title": "Dungeons and Data: A Large-Scale NetHack Dataset",
+            "excerpt": "Experimental section verifies tty observations, 1.5B frames, 1024 episodes and 10 seeds. Human data lack actions/rewards, but the paper evaluates learned policies online."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2608.09902",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "AX26-2608.09902-task-dsle-five-bosses"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "DSLE-5五首领、固定装备/属性的视觉控制协议。",
+        "en": "Visual-control protocol on DSLE-5 with fixed equipment/stats."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文确认DSLE-5只是五首领代表子集，22首领扩展设置不混合。补充重要控制边界：相同存档和动作仍会因游戏内部随机性产生不同轨迹，不能称完全固定种子可重现。",
+        "noteEn": "Full text confirms DSLE-5 is a five-boss subset, separate from the 22-boss extension. Identical saves and actions can diverge because game-internal randomness is unseeded; deterministic replay is not guaranteed.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2608.09902",
+            "title": "DSLE: A Learning Environment for Dark Souls Boss Encounters",
+            "excerpt": "Full text confirms DSLE-5 is a five-boss subset, separate from the 22-boss extension. Identical saves and actions can diverge because game-internal randomness is unseeded; deterministic replay is not guaranteed."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "AX26-2607.06514",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2607.06514-fighting-robustness"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "默认6动作配置下对手与最佳回应评测",
+        "en": "Opponent/best-response evaluation under default six-action settings"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文与附录A/C补85维观察、延迟、五种子训练和最佳回应评测；将可利用性明确为近似下界。",
+        "noteEn": "Main text and appendices A/C establish 85-dimensional observations, delay, five-seed training and best-response evaluation; exploitability is explicitly an approximate lower bound.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2607.06514",
+            "title": "FootsiesGym: A Fighting Game Benchmark for Two-Player Zero-Sum Imperfect-Information Games",
+            "excerpt": "Main text and appendices A/C establish 85-dimensional observations, delay, five-seed training and best-response evaluation; exploitability is explicitly an approximate lower bound."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2604.08340",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2604.08340-visual-quests"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "114任务的统一视觉控制协议",
+        "en": "Shared visual-control protocol over 114 tasks"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文Task Design与Implementation Details确认114任务、360步、四视角和5次试验；明确测试时同任务配置优化，避免误标跨游戏泛化。",
+        "noteEn": "Task Design and Implementation Details confirm 114 tasks, 360-step budgets, four views and five trials; adaptation is within the same task, not cross-game generalization.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2604.08340",
+            "title": "Mastering PokeGym: Graph-Guided Multimodal Evolution at Test Time",
+            "excerpt": "Task Design and Implementation Details confirm 114 tasks, 360-step budgets, four views and five trials; adaptation is within the same task, not cross-game generalization."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB072",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB072-transfer-splits"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Atari-PB分布划分和共同迁移协议",
+        "en": "Atari-PB distribution splits and shared transfer protocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文5.3–5.4补50/10/5划分、冻结骨干、5万适应预算和不同归一化参照；能力限显式迁移评测。",
+        "noteEn": "Sections 5.3–5.4 establish 50/10/5 splits, frozen backbones, 50K adaptation budgets and different normalization references; capability is limited to explicit transfer evaluation.",
+        "sources": [
+          {
+            "url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/kim24u/kim24u.pdf",
+            "title": "Investigating Pre-Training Objectives for Generalization in Vision-Based Reinforcement Learning",
+            "excerpt": "Sections 5.3–5.4 establish 50/10/5 splits, frozen backbones, 50K adaptation budgets and different normalization references; capability is limited to explicit transfer evaluation."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB002",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB002-online-imitation"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "IL/AGIL在线游戏分数评测",
+        "en": "Online game-score evaluation of IL/AGIL"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "AAAI全文游戏分数表注确认500随机局、108K帧和采样设置；将静态注视/动作预测与真正在线游玩指标分离。",
+        "noteEn": "The AAAI full-text score-table note specifies 500 random-seed episodes, 108K frames and sampling settings; static gaze/action prediction is separated from actual online gameplay.",
+        "sources": [
+          {
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/6161/6017",
+            "title": "Atari-HEAD: Atari Human Eye-Tracking and Demonstration Dataset",
+            "excerpt": "The AAAI full-text score-table note specifies 500 random-seed episodes, 108K frames and sampling settings; static gaze/action prediction is separated from actual online gameplay."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB005",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB005-atari-offline"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "46款Atari的共同离线学习评测",
+        "en": "Shared offline-learning evaluation over 46 Atari games"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文3.3、4.3与表3核验46款而非ALE全部57款，9/37策略选择划分和最佳数据策略归一化；只登记Atari部分。",
+        "noteEn": "Sections 3.3/4.3 and table 3 verify 46 games rather than all 57 ALE titles, the 9/37 selection split and best-data-policy normalization; Atari only.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/51200d29d1fc15f5a71c1dab4bb54f7c-Paper.pdf",
+            "title": "RL Unplugged: A Suite of Benchmarks for Offline Reinforcement Learning",
+            "excerpt": "Sections 3.3/4.3 and table 3 verify 46 games rather than all 57 ALE titles, the 9/37 selection split and best-data-policy normalization; Atari only."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2606.18950",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 5,
+      "currentUnits": 5,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "TCP、MFD、FS-F、FS-T、SP五类诊断小游戏。",
+        "en": "Five diagnostic minigames: TCP, MFD, FS-F, FS-T, SP."
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文任务表与评测节确认五诊断小游戏的独立指标。当前核验范围明确限定这五类；完整比赛与生成游戏质量评分不混入这些任务。",
+        "noteEn": "Full-text task tables and evaluation verify the five diagnostic minigames and their metrics. Scope is explicitly limited to these; full matches and game-generation quality remain separate.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2606.18950",
+            "title": "RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models",
+            "excerpt": "Full-text task tables and evaluation verify the five diagnostic minigames and their metrics. Scope is explicitly limited to these; full matches and game-generation quality remain separate."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 5
+      }
+    },
+    {
+      "id": "GAB110",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB110-five-levels"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "五内置塔防关卡",
+        "en": "Five built-in tower-defense levels"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "AAAI全文3.2/4.1–4.2补混合动作、五关五种子、16步频率和漏敌分；同时保留合法性/有效性不同指标。",
+        "noteEn": "AAAI sections 3.2/4.1–4.2 specify hybrid actions, five levels/five seeds, 16-step frequency and leak score, distinguishing validity from efficacy.",
+        "sources": [
+          {
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39818/43779",
+            "title": "TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents",
+            "excerpt": "AAAI sections 3.2/4.1–4.2 specify hybrid actions, five levels/five seeds, 16-step frequency and leak score, distinguishing validity from efficacy."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-B5",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "战场理解多选题与对手特质/策略预测",
+        "en": "Battlefield multiple-choice understanding and opponent-trait/strategy prediction"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文III明确MM-SA-Bench统一多选题，另一部分为玩家特质归因与策略预测；测试战场截图/行为信息的理解，不让代理在MiaoSuan中下达闭环指令。保留问答与推理研究，移出游玩覆盖。",
+        "noteEn": "Section III uses multiple-choice situational-awareness questions; the other component tests trait attribution and strategy prediction. These reason over screenshots/behavior rather than issue closed-loop MiaoSuan commands; excluded from gameplay coverage.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2506.10264",
+            "title": "WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models",
+            "excerpt": "Section III uses multiple-choice situational-awareness questions; the other component tests trait attribution and strategy prediction. These reason over screenshots/behavior rather than issue closed-loop MiaoSuan commands; excluded from gameplay coverage."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB038",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB038-duel-transfer"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "1v1貂蝉验证及跨对手迁移",
+        "en": "Diaochan1v1 validation and cross-opponent transfer"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文5–6确认貂蝉1v1、固定购买/升级以及跨BT英雄98场；纠正MOBA不自动意味着多智能体队内协作。",
+        "noteEn": "Sections 5–6 establish Diaochan1v1, fixed purchase/upgrade orders and 98 matches across BT heroes; MOBA genre does not automatically imply team coordination.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/4dbb61cb68671edc4ca3712d70083b9f-Paper-Datasets_and_Benchmarks.pdf",
+            "title": "Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning",
+            "excerpt": "Sections 5–6 establish Diaochan1v1, fixed purchase/upgrade orders and 98 matches across BT heroes; MOBA genre does not automatically imply team coordination."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2606.18786",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2606.18786-front-goal-team"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "三种多攻击者门前场景",
+        "en": "Three multi-attacker front-goal scenarios"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文3.2与4.3–4.5补门前三多攻击者协议、300步/5M训练/3种子和HELIOS接管范围；只登记进球评测。",
+        "noteEn": "Sections3.2 and4.3–4.5 establish three multi-attacker scenarios, 300-step/5M-training/three-seed controls and HELIOS takeover boundaries; only goal evaluation is registered.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2606.18786",
+            "title": "R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning",
+            "excerpt": "Sections3.2 and4.3–4.5 establish three multi-attacker scenarios, 300-step/5M-training/three-seed controls and HELIOS takeover boundaries; only goal evaluation is registered."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "REC-3.3",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "REC-3.3-frozen-roster-eval"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "最终RL检查点的冻结对手赛程",
+        "en": "Frozen-opponent schedule for final RL checkpoints"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文5.2与附录F明确14冻结对手、每检查点1312局、端口/角色条件及零延迟同步；剔除将控制器预测NLL当胜率的混淆，并注明对手选择泄漏边界。",
+        "noteEn": "Section5.2 and appendixF specify14 frozen opponents,1312 games/checkpoint, port/character conditions and zero-delay synchronization; controller NLL is separate from wins and opponent-selection overlap is disclosed.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2610.02144",
+            "title": "Faynt",
+            "excerpt": "Section5.2 and appendixF specify14 frozen opponents,1312 games/checkpoint, port/character conditions and zero-delay synchronization; controller NLL is separate from wins and opponent-selection overlap is disclosed."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB109",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB109-atari-ram-subset"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Atari RAM协议：Ms. Pac-Man、Space Invaders",
+        "en": "Atari RAM protocol: Ms. Pac-Man and Space Invaders"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录C.10补Atari改造：128维RAM、连续到离散动作与1000步回合；在线游戏与机器人泛化严格分开，当前子范围仅Ms. Pac-Man/Space Invaders。",
+        "noteEn": "AppendixC.10 specifies Atari adaptations:128-dimensional RAM, continuous-to-discrete actions and1000-step episodes. Game scope is Ms. Pac-Man/Space Invaders, excluding robot-transfer results.",
+        "sources": [
+          {
+            "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/092359ce5cf60a80e882378944bf1be4-Paper-Conference.pdf",
+            "title": "Learning Massively Multitask World Models for Continuous Control",
+            "excerpt": "AppendixC.10 specifies Atari adaptations:128-dimensional RAM, continuous-to-discrete actions and1000-step episodes. Game scope is Ms. Pac-Man/Space Invaders, excluding robot-transfer results."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB088",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB088-set-spike-easy"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Set and Spike（Easy）",
+        "en": "Set and Spike (Easy)"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录D.5核验初始化、40维观察和800步，纠正成功率实际为四项指标平均；只登记Easy传扣，不将全部任务概括为同一指标。",
+        "noteEn": "AppendixD.5 verifies initialization,40-dimensional observations and800 steps; the success metric is a four-indicator average. Only Easy set-and-spike is registered.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/39f7f65b5a0c3a82cacdffd68955d829-Paper-Datasets_and_Benchmarks_Track.pdf",
+            "title": "VolleyBots: A Testbed for Multi-Drone Volleyball Game Combining Motion Control and Strategic Play",
+            "excerpt": "AppendixD.5 verifies initialization,40-dimensional observations and800 steps; the success metric is a four-indicator average. Only Easy set-and-spike is registered."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB069",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB069-academy-team"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "六个多人协作学院场景",
+        "en": "Six multi-player cooperative academy scenarios"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文任务规范与4.3–4.4补六学院场景、19动作、门将托管和丢球终止；明确不把全场11v11设置混入学院分数。",
+        "noteEn": "Task specifications and4.3–4.4 establish six academy scenarios,19 actions, automated goalkeeper and possession-loss termination; full-match11v11 is kept separate.",
+        "sources": [
+          {
+            "url": "https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1772.pdf",
+            "title": "Boosting Studies of Multi-Agent Reinforcement Learning on Google Research Football Environment: The Past, Present, and Future",
+            "excerpt": "Task specifications and4.3–4.4 establish six academy scenarios,19 actions, automated goalkeeper and possession-loss termination; full-match11v11 is kept separate."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB030",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 1,
+      "currentUnits": 2,
+      "addedTaskIds": [
+        "GAB030-target-transport"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "摄像机覆盖与目标队运输两子协议",
+        "en": "Camera coverage and target-team transport subprotocols"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文3.3–3.4与5.2补目标队位移和运费+赏金奖励，保留既有摄像机单元；目标队与摄像机指标分开，补3次运行及观察/通信对照。",
+        "noteEn": "Sections3.3–3.4/5.2 add target displacement and freight+bounty reward, preserving the camera unit. Target and camera metrics are separate, with three-run observation/communication comparisons.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/b2a1c152f14a4b842a9ddb3bd84c62a1-Paper-Datasets_and_Benchmarks.pdf",
+            "title": "MATE: Benchmarking Multi-Agent Reinforcement Learning in Distributed Target Coverage Control",
+            "excerpt": "Sections3.3–3.4/5.2 add target displacement and freight+bounty reward, preserving the camera unit. Target and camera metrics are separate, with three-run observation/communication comparisons."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "AX26-2605.06066",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2605.06066-five-deck-matches"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "五牌组参考对局与留出对手比较",
+        "en": "Five-deck reference matches and held-out opponent comparisons"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文6区分建议完整预算与实际2种子×30局参考实验，避免将建议预算当已跑结果；补3077观察/478掩码动作和配对迁移指标。",
+        "noteEn": "Section6 distinguishes the prescribed full budget from actual two-seed×30-episode reference experiments; adds3077 observations/478 masked actions and paired transfer metrics.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2605.06066",
+            "title": "Causal Reinforcement Learning for Complex Card Games: A Magic The Gathering Benchmark",
+            "excerpt": "Section6 distinguishes the prescribed full budget from actual two-seed×30-episode reference experiments; adds3077 observations/478 masked actions and paired transfer metrics."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2608.25832",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2608.25832-multilingual-selfplay"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "TierA八语言×六TextArena游戏",
+        "en": "TierA eight languages×six TextArena games"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文3–4明确仅六游戏×8语言实测，以及每方向400局、交换角色和胜负差公式；不把翻译库总规模扩大成已评测覆盖。",
+        "noteEn": "Sections3–4 limit experiments to six games×eight languages,400 games per direction, role reversal and win-loss margins; translation-library size is not evaluated coverage.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2608.25832",
+            "title": "Skill Issue: Are Skills Language-Invariant in LLMs?",
+            "excerpt": "Sections3–4 limit experiments to six games×eight languages,400 games per direction, role reversal and win-loss margins; translation-library size is not evaluated coverage."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2603.03252",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2603.03252-mcts-cardstock"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "21卡牌游戏的共同CardStock/MCTS协议",
+        "en": "Shared CardStock/MCTS protocol for21 card games"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文3核验每游戏200局组成及确定化MCTS搜索预算；保留游戏内分数分布，明确非统一胜率排行榜。",
+        "noteEn": "Section3 verifies200-game composition per title and determinized-MCTS search budgets; metrics remain game-specific score distributions, not a universal win-rate leaderboard.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2603.03252",
+            "title": "Valet: A Standardized Testbed of Traditional Imperfect-Information Card Games",
+            "excerpt": "Section3 verifies200-game composition per title and determinized-MCTS search budgets; metrics remain game-specific score distributions, not a universal win-rate leaderboard."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-B9",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-B9-short-chess-rollouts"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "10步短对局子实验",
+        "en": "Ten-move short-rollout subexperiment"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文5.5及附录核验真实短对局：最多10个模型步、Stockfish18 depth20、3种子；1118静态谜题与交互短对局分开，不以题目准确率代表通盘实力。",
+        "noteEn": "Section5.5 and appendices verify short gameplay: ten model moves,Stockfish18 depth20 and three seeds. The1118 static puzzles are distinct from interactive rollouts and full-game strength.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2610.00416",
+            "title": "Benchmarking Prompt Optimization of Large Language Models With Chess",
+            "excerpt": "Section5.5 and appendices verify short gameplay: ten model moves,Stockfish18 depth20 and three seeds. The1118 static puzzles are distinct from interactive rollouts and full-game strength."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-B1",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Concept线索猜测及原始日志顺序回放",
+        "en": "Concept clue guessing and sequential replay of original logs"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文3.1–3.3与算法1/2确认静态最终线索与动态历史日志回放；动态线索按原人类对局更新并注入人类错误猜测，不由模型与真人实时协商产生。指标为found rate/猜测数，暂不计闭环社会协作覆盖。",
+        "noteEn": "Sections3.1–3.3 and algorithms1/2 use final clues or replayed human logs. Dynamic clues follow the original game and inject human wrong guesses rather than live model-human negotiation. Found rate/guess count are retained, without closed-loop social coverage.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2026.findings-acl.1219.pdf",
+            "title": "Do You Get the Hint? Benchmarking LLMs on the Board Game Concept",
+            "excerpt": "Sections3.1–3.3 and algorithms1/2 use final clues or replayed human logs. Dynamic clues follow the original game and inject human wrong guesses rather than live model-human negotiation. Found rate/guess count are retained, without closed-loop social coverage."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB112",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB112-sc2-macro"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [
+        "starcraft-ii"
+      ],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "StarCraft II宏观策略子协议",
+        "en": "StarCraft II macro-strategy subprotocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文4.1与附录E补SCII五类宏动作、10局/场景和RPM等公式，并新增既有StarCraft II游戏关联；本次未将六环境五维标签整体摊到每个子游戏。",
+        "noteEn": "Section4.1 and appendixE specify SCII macro actions, ten matches/scenario and RPM-related formulas, with an existing StarCraft II association; suite-wide labels are not spread across all six games.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2503.06047",
+            "title": "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-Based Agents in Complex Decision-Making Environments",
+            "excerpt": "Section4.1 and appendixE specify SCII macro actions, ten matches/scenario and RPM-related formulas, with an existing StarCraft II association; suite-wide labels are not spread across all six games."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "REC-3.1",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "TBCA单位参数平衡模拟与平台吞吐",
+        "en": "TBCA unit-balancing simulations and platform throughput"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文实验证据主要为单位参数平衡：随机/半随机队伍的大规模模拟、成对胜负矩阵和不同平衡损失比较；55K games/s是引擎吞吐。未定位固定学习代理与独立评测任务的完整协议，保留环境/设计研究，不新增能力任务。",
+        "noteEn": "Full-text experiments primarily evaluate unit-parameter balancing through random/semi-random teams, win-loss matrices and balancing losses;55K games/s is throughput. A complete fixed learning-agent evaluation protocol was not located, so no capability unit is added.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2609.03122",
+            "title": "Turn-Based Combat Arena",
+            "excerpt": "Full-text experiments primarily evaluate unit-parameter balancing through random/semi-random teams, win-loss matrices and balancing losses;55K games/s is throughput. A complete fixed learning-agent evaluation protocol was not located, so no capability unit is added."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-A2",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-A2-matchplay"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "ChessArena完整对局赛制",
+        "en": "ChessArena complete-match protocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文5.1与附录A.3明确200步/5重试、换色、Glicko及观察模式；保留完整对局单元，静态重建和谜题不并入。",
+        "noteEn": "Section5.1 and appendixA.3 establish200 moves/five retries, color reversal,Glicko and observation modes; full matches are separate from static reconstruction/puzzles.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2026.acl-long.360.pdf",
+            "title": "ChessArena: A Chess Testbed for Evaluating Strategic Reasoning Capabilities of Large Language Models",
+            "excerpt": "Section5.1 and appendixA.3 establish200 moves/five retries, color reversal,Glicko and observation modes; full matches are separate from static reconstruction/puzzles."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB081",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB081-guess-average"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [
+        "guess-two-thirds-average"
+      ],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "猜平均数2/3子游戏",
+        "en": "Guess-two-thirds-of-average subgame"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文3与3.1核验10代理×20轮×5重复及猜均值原始分公式；将该有限协议与公共品/海盗等游戏分开，不把均衡分数解释为社会能力总分。",
+        "noteEn": "Sections3/3.1 verify ten agents×20 rounds×five repeats and the guessing-game score formula; other games remain separate and equilibrium score is not a general social-capability score.",
+        "sources": [
+          {
+            "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/a46adbe2f0ca0e16ef8857e188991ad7-Paper-Conference.pdf",
+            "title": "Competing Large Language Models in Multi-Agent Gaming Environments",
+            "excerpt": "Sections3/3.1 verify ten agents×20 rounds×five repeats and the guessing-game score formula; other games remain separate and equilibrium score is not a general social-capability score."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB090",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "安全博弈均衡求解及实例复杂度评测",
+        "en": "Security-game equilibrium solving and instance-complexity evaluation"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文4–5及实验图表评估Nash/Stackelberg求解器：效用、运行时间、策略支持集与收敛，比较真实目标和随机化矩阵/日程。属于安全博弈求解实例，并非玩家逐回合观测行动的游戏代理协议，保留研究条目但不计游玩图。",
+        "noteEn": "Sections4–5 evaluate Nash/Stackelberg solvers through utility,runtime,support size and convergence on real versus randomized target/matrix/schedule instances. These are security-game solver problems, not turn-by-turn game-agent protocols; retained outside gameplay coverage.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/21d69b221567b8f9c839b3d94c00f16d-Paper-Datasets_and_Benchmarks_Track.pdf",
+            "title": "GUARD: Constructing Realistic Two-Player Matrix and Security Games for Benchmarking Game-Theoretic Algorithms",
+            "excerpt": "Sections4–5 evaluate Nash/Stackelberg solvers through utility,runtime,support size and convergence on real versus randomized target/matrix/schedule instances. These are security-game solver problems, not turn-by-turn game-agent protocols; retained outside gameplay coverage."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-A6",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-A6-tictactoe"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Game Reasoning Arena井字棋",
+        "en": "Game Reasoning Arena tic-tac-toe"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文§2与§4明确文本状态、合法动作和动作解析；§5报告七游戏的运行结果和推理分布。新增井字棋交互任务，未把推理关键词分类当作独立认知测量。",
+        "noteEn": "Sections 2/4 specify textual states, legal actions and parsing; Section 5 reports seven-game runs and rationale distributions. Add tic-tac-toe gameplay without treating rationale keywords as independent cognitive measurements.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2508.03368",
+            "title": "Game Reasoning Arena: A Framework and Benchmark for Assessing Reasoning Capabilities of Large Language Models via Game Play",
+            "excerpt": "Sections 2/4 specify textual states, legal actions and parsing; Section 5 reports seven-game runs and rationale distributions. Add tic-tac-toe gameplay without treating rationale keywords as independent cognitive measurements."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-A5",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-A5-strategic-matches"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "GameBench策略比赛协议",
+        "en": "GameBench strategic-match protocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文§3明确九游戏、同等可见信息及动作接口；评级采用按游戏逆频率重采样的Bradley–Terry，并做10000次bootstrap。仅建立明确的跨游戏比赛协议，不把其六项游戏属性等同六项能力实测。",
+        "noteEn": "Section 3 specifies nine games, equal visible information and action interfaces; ratings use game-inverse-frequency resampling and 10000 Bradley–Terry bootstraps. Game properties are not isolated capability measurements.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2406.06613",
+            "title": "GameBench: Evaluating Strategic Reasoning Abilities of LLM Agents",
+            "excerpt": "Section 3 specifies nine games, equal visible information and action interfaces; ratings use game-inverse-frequency resampling and 10000 Bradley–Terry bootstraps. Game properties are not isolated capability measurements."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB070",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB070-ipd"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "GTBench重复囚徒困境",
+        "en": "GTBench iterated Prisoner’s Dilemma"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文§2–3明确NRA相对优势指标、MCTS 1000次模拟对手和囚徒困境Tit-for-Tat参照。新增重复囚徒困境任务；其他九游戏仍不继承该协议。",
+        "noteEn": "Sections 2–3 define NRA, MCTS with 1000 simulations and Tit-for-Tat for repeated Prisoner’s Dilemma. Add that task without applying its protocol to the other games.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3191170938b6102e5c203b036b7c16dd-Paper-Conference.pdf",
+            "title": "GTBench: Uncovering the Strategic Reasoning Capabilities of LLMs via Game-Theoretic Evaluations",
+            "excerpt": "Sections 2–3 define NRA, MCTS with 1000 simulations and Tit-for-Tat for repeated Prisoner’s Dilemma. Add that task without applying its protocol to the other games."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-B3",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-B3-tool-chess"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "随机对手与Dragon 1等级测试",
+        "en": "Random-opponent and Dragon 1 skill-level tests"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "§2核验黑方30局随机对手筛查及每引擎等级30局；Unicode棋盘/UCI工具，逐ply无历史，100回合上限、10次对话与每次3次合法性尝试。",
+        "noteEn": "Section 2 verifies 30 black-side games against random and 30 per engine level; Unicode board/UCI tools, no ply history, 100-move cap, ten conversation turns and three validity attempts per turn.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2512.01992",
+            "title": "LLM CHESS: Benchmarking Reasoning and Instruction-Following in LLMs through Chess",
+            "excerpt": "Section 2 verifies 30 black-side games against random and 30 per engine level; Unicode board/UCI tools, no ply history, 100-move cap, ten conversation turns and three validity attempts per turn."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-B4",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "策略/均衡问答及评分边界",
+        "en": "Strategy/equilibrium QA and scoring boundaries"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "§2.1–2.5确认主要输出是均衡/策略组合答案，复杂形式要求全部子题正确；144类型及其故事改写是解题实例，不是持续互动游戏。按请求不生成游玩任务。",
+        "noteEn": "Sections 2.1–2.5 evaluate equilibrium/strategy-combination answers, including all-correct composite questions. The 144 classes and story variants are reasoning items rather than ongoing gameplay; no gameplay unit is added.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2410.10479",
+            "title": "TMGBench: A Systematic Game Benchmark for Evaluating Strategic Reasoning Abilities of LLMs",
+            "excerpt": "Sections 2.1–2.5 evaluate equilibrium/strategy-combination answers, including all-correct composite questions. The 144 classes and story variants are reasoning items rather than ongoing gameplay; no gameplay unit is added."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "TOP-20",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 2,
+      "addedTaskIds": [
+        "TOP-20-public-goods-five-rounds"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "隐藏身份推理与欺骗；五轮公共品贡献",
+        "en": "Hidden-role inference and deception; Five-round public-goods contributions"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录 A 明确了 21 组公共品设置：3 人、5 轮、7 个倍增系数及轮换测试席位；新增该任务，保留原任务。公共品胜率是个人最终分最高的比例，不能等同团队福利。",
+        "noteEn": "Appendix A specifies 21 public-goods settings: three players, five rounds, seven multipliers and rotated test seats. Individual winning rate is distinct from communal welfare.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2024.emnlp-main.416.pdf",
+            "title": "MAgIC: A Benchmark for Multi-Agent Interaction in Competitive and Cooperative Scenarios",
+            "excerpt": "Appendix A specifies 21 public-goods settings: three players, five rounds, seven multipliers and rotated test seats. Individual winning rate is distinct from communal welfare."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "AX26-2605.04312",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2605.04312-survival-vote"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "论文算法1七人淘汰游戏与评级",
+        "en": "Seven-player elimination protocol and rating in Algorithm 1"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "算法1完整给出七人、五轮淘汰及终局陪审投票，论文有999局与Plackett–Luce不确定性评级。公开包只含日志/分析，运行基础设施未发布；任务协议已核验，复现实用性仍有限。",
+        "noteEn": "Algorithm 1 specifies seven players, five eliminations and a finalist jury vote; 999 games support Plackett–Luce skill estimates. Released artifacts contain logs/analysis, not the runner; the protocol is verified but execution availability is limited.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2605.04312",
+            "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
+            "excerpt": "Algorithm 1 specifies seven players, five eliminations and a finalist jury vote; 999 games support Plackett–Luce skill estimates. Released artifacts contain logs/analysis, not the runner; the protocol is verified but execution availability is limited."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2602.12517",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "平均场博弈求解器与数值指标",
+        "en": "Mean-field game solvers and numerical metrics"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "核验§2–5：离散状态平稳均值场博弈求解，目标为策略与群体分布的不动点；MF-Garnets生成随机博弈并比较可利用度/收敛。属于求解器评测，不是电子游戏Agent交互成绩。",
+        "noteEn": "Sections 2–5 study fixed points of policy and population distribution in stationary discrete MFGs. MF-Garnets generates solver tests of exploitability/convergence, not videogame-agent gameplay.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2602.12517",
+            "title": "Bench-MFG: A Benchmark Suite for Learning in Stationary Mean Field Games",
+            "excerpt": "Sections 2–5 study fixed points of policy and population distribution in stationary discrete MFGs. MF-Garnets generates solver tests of exploitability/convergence, not videogame-agent gameplay."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2601.08462",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "三类过程指标与裁判输入/聚合规则",
+        "en": "Three process metrics and judge inputs/aggregation"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "附录 D/E 区分规则计算的 BTA 与模型裁判解析的 RPA/CCA；后两者反映自述理由/消息，不能作为真实内部意图。正文与附录的裁判配置需对齐，逐游戏默认参数尚未完整抽取，暂不生成统一能力任务。",
+        "noteEn": "Appendices D/E distinguish rule-computed BTA from judge-parsed RPA/CCA. The latter concern self-reported reasons/messages, not true internal intent. Main-text and appendix judge settings need reconciliation, and per-game defaults remain incomplete.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2601.08462v1",
+            "title": "M3-BENCH: Process-Aware Evaluation of LLM Agents' Social Behaviors in Mixed-Motive Games",
+            "excerpt": "Appendices D/E distinguish rule-computed BTA from judge-parsed RPA/CCA. The latter concern self-reported reasons/messages, not true internal intent. Main-text and appendix judge settings need reconciliation, and per-game defaults remain incomplete."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2605.29512",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2605.29512-colonel-blotto"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Colonel Blotto 隐藏资源分配",
+        "en": "Colonel Blotto hidden allocation"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文明确四游戏的错误处理并不一致；新增 Colonel Blotto 的隐藏资源分配任务，胜率必须与格式/非法分配失败率一起报告。",
+        "noteEn": "The full paper specifies different error handling across its four games; added hidden resource allocation in Colonel Blotto, with wins interpreted alongside invalid-action failures.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2605.29512v1",
+            "title": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs",
+            "excerpt": "The full paper specifies different error handling across its four games; added hidden resource allocation in Colonel Blotto, with wins interpreted alongside invalid-action failures."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2601.09017",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2601.09017-five-player-spyfall"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "论文中的五人跨文化 Spyfall 交互协议",
+        "en": "The paper’s five-player multicultural Spyfall protocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文给出 5 人 Spyfall 的角色、10 轮调度、严格 JSON 与胜负规则；新增实际交互任务。文化知识与语言熟练度仍影响结果，不把其分数当纯社会推理测量。",
+        "noteEn": "The full paper specifies five-player Spyfall, a ten-turn schedule, strict JSON and terminal rules. Cultural knowledge and language proficiency remain confounds.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/pdf/2601.09017",
+            "title": "Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game",
+            "excerpt": "The full paper specifies five-player Spyfall, a ten-turn schedule, strict JSON and terminal rules. Cultural knowledge and language proficiency remain confounds."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2607.28146",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2607.28146-five-player-government"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "五人 Secret Hitler 评测协议",
+        "en": "Five-player Secret Hitler evaluation protocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "补充五人 Secret Hitler 的角色结构、政府提名/投票/政策阶段与角色推断指标。核验范围为论文五人设置，非全部人数规则。",
+        "noteEn": "Added the five-player role structure, government nomination/voting/policy phases and role-inference metrics; scope excludes other player counts.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2607.28146v1",
+            "title": "Can Agents Deceive? Evaluating Reasoning and Deception in ParliamentBench using a Social Deduction Game",
+            "excerpt": "Added the five-player role structure, government nomination/voting/policy phases and role-inference metrics; scope excludes other player counts."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2608.09128",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "角色条件反思和跨游戏 playbook 实验",
+        "en": "Role-conditioned reflection and cross-game playbook experiments"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "正文 §5 明确反思实验每条件通常仅 30 局、约 ±18 个百分点置信区间，且按少数/多数角色分别注入 playbook。跨游戏迁移是提示策略迁移，不是同一操控策略的零样本通用性；21 游戏逐一动作与终止配置仍需核对。",
+        "noteEn": "Section 5 uses typically thirty games per condition (approximately ±18 percentage-point intervals), with playbooks injected separately by role. Cross-game transfer concerns prompting strategies; per-game action/termination configurations for all 21 games remain incomplete.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2608.09128v1",
+            "title": "Social Gym and SPaRTan: Benchmarking and Improving LLM Social Reasoning via Multi-Agent Game Tournaments",
+            "excerpt": "Section 5 uses typically thirty games per condition (approximately ±18 percentage-point intervals), with playbooks injected separately by role. Cross-game transfer concerns prompting strategies; per-game action/termination configurations for all 21 games remain incomplete."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "REC-4.3",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "REC-4.3-corrupted-stag-hunt"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "论文的五人、三人阈值 Stag Hunt 腐化通道协议",
+        "en": "The paper’s five-player, threshold-three Stag Hunt corrupted-channel protocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "明确区分原始决策与被通信通道翻转后的执行决策，新增 Stag Hunt 腐化通道实验。该实验的机械翻转效应不解释为模型自身欺骗。",
+        "noteEn": "Distinguished original decisions from channel-flipped executed decisions and added the corrupted-channel Stag Hunt experiment; mechanical flips are not agent deception.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2609.31704v1",
+            "title": "Be Careful Who You Trust",
+            "excerpt": "Distinguished original decisions from channel-flipped executed decisions and added the corrupted-channel Stag Hunt experiment; mechanical flips are not agent deception."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "REC-2.1",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 3,
+      "addedTaskIds": [
+        "REC-2.1-chess-roundrobin",
+        "REC-2.1-eight-player-werewolf",
+        "REC-2.1-heads-up-poker"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "论文三个游戏的固定比赛协议",
+        "en": "The paper’s fixed protocols for all three games"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文 §2 和附录 B 完整区分 Chess/Poker/Werewolf 的输入、非法动作处理和主指标；补充三个独立协议，不产生跨游戏统一总分。",
+        "noteEn": "Section 2 and Appendix B distinguish Chess/Poker/Werewolf inputs, invalid-action handling and primary metrics. Added three independent protocols without inventing a cross-game total score.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2609.31473v1",
+            "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments",
+            "excerpt": "Section 2 and Appendix B distinguish Chess/Poker/Werewolf inputs, invalid-action handling and primary metrics. Added three independent protocols without inventing a cross-game total score."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB092",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB092-seven-player-deception"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "七人 Among Us 文字沙盒闭环任务",
+        "en": "Seven-player Among Us text-sandbox interaction"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文 §2 明确 5 船员 + 2 内鬼、50 步时限和会议三轮讨论；新增这一文字沙盒的互动协议。2054 局的角色战绩与欺骗探针检测指标分开，不把探针准确率当游玩能力。",
+        "noteEn": "Section 2 specifies five crewmates, two impostors, a fifty-step limit and three discussion rounds per meeting. Added this text-sandbox protocol; gameplay outcomes over 2,054 games remain separate from deception-probe detection.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/105c4de1195135fae4974aa8c5e27bbf-Paper-Conference.pdf",
+            "title": "Among Us: A Sandbox for Measuring and Detecting Agentic Deception",
+            "excerpt": "Section 2 specifies five crewmates, two impostors, a fifty-step limit and three discussion rounds per meeting. Added this text-sandbox protocol; gameplay outcomes over 2,054 games remain separate from deception-probe detection."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB099",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 2,
+      "addedTaskIds": [
+        "GAB099-collaborative-escape"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB099-collab-pursuit"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "双人合作追捕；双人发电机与逃脱",
+        "en": "Two-agent collaborative capture; Two-agent generator activation and escape"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录与指标章节明确追捕/逃脱的成功率和回合数；原合并单位保留 ID 并细分为追捕，新增发电机逃脱单位，避免重复计数。198 道 CoordinationQA 仍不计交互能力。",
+        "noteEn": "The appendix specifies capture/escape success and turns. The original combined ID is retained for capture and escape is separated to avoid double counting; the 198 CoordinationQA questions remain outside interactive coverage.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2025.findings-naacl.448.pdf",
+            "title": "LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models",
+            "excerpt": "The appendix and metrics section specify Collab Escape success and turns; added that task while excluding the 198 CoordinationQA questions from interactive coverage."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "GAB101",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB101-nim-turn-play"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Nim 轮流取石",
+        "en": "Turn-based Nim"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文明确 Nim 合法动作与胜负，评分采用初始 1000、K=32 的 Elo；新增 Nim 回合任务。尚未核实每个游戏的完整配置与配对样本量，保留部分核验。",
+        "noteEn": "The main text specifies legal Nim moves and outcomes, with Elo initialized at 1000 and K=32. Per-game configurations and pairing sample sizes remain incompletely verified.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2025.findings-emnlp.12.pdf",
+            "title": "LLMsPark: A Benchmark for Evaluating Large Language Models in Strategic Gaming Contexts",
+            "excerpt": "The main text specifies legal Nim moves and outcomes, with Elo initialized at 1000 and K=32. Per-game configurations and pairing sample sizes remain incompletely verified."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB102",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB102-minecraft-structure-building"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "多智能体结构建造",
+        "en": "Multi-agent structure construction"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录 A.9 核实 Minecraft 的 100 个结构、11 个高层工具及方块类型/坐标/方向命中率；新增建造任务。LLM 评分的沟通/规划分与环境命中率分开呈现。",
+        "noteEn": "Appendix A.9 verifies 100 structures, eleven high-level tools and block type/location/orientation hit rate; judge-based communication/planning scores are distinct from environment accuracy.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2025.acl-long.421.pdf",
+            "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents",
+            "excerpt": "Appendix A.9 verifies 100 structures, eleven high-level tools and block type/location/orientation hit rate; judge-based communication/planning scores are distinct from environment accuracy."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB062",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB062-contract-crafting"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Contract 结盟与资源协作",
+        "en": "Contract formation and resource cooperation"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文 §4 与 §5 给出 Contract 的结盟阶段及共享收益物理阶段；补充该任务而非给所有平台小游戏套同一标签。",
+        "noteEn": "Sections 4–5 define Contract’s group-formation phase and reward-sharing physical phase; added this task without transferring labels to all platform games.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3e4d8407cb468850f2f8f4a949e64bf0-Paper-Datasets_and_Benchmarks_Track.pdf",
+            "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making",
+            "excerpt": "Sections 4–5 define Contract’s group-formation phase and reward-sharing physical phase; added this task without transferring labels to all platform games."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-B8",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-B8-text-among-us"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "论文五人文字环境与四种智能体控制组合",
+        "en": "The paper’s five-player text environment and four agent-control conditions"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录 B 明确了文字版 Among Us 的动作和观测，正文给出 4 船员 + 1 内鬼、每船员三类任务、四种控制组合各 20 次实验。新增任务，角色胜率与 GPT-4 标注的发言类型分别记录。",
+        "noteEn": "Appendix B specifies the text-based Among Us action/observation interface; experiments use four crewmates and one impostor, three task types per crewmate and twenty runs per control condition.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2407.16521v1",
+            "title": "AmongAgents: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game",
+            "excerpt": "Appendix B specifies the text-based Among Us action/observation interface; experiments use four crewmates and one impostor, three task types per crewmate and twenty runs per control condition."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAP-B6",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAP-B6-two-team-codenames"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "论文单队/双队设置及双队交互协议",
+        "en": "The paper’s single/two-team settings and two-team interaction protocol"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文将单队合作和双队对抗分开：各模型/版本组合固定种子 0–99 共 100 次。补充双队任务，不把单队步数与双队胜率混合。",
+        "noteEn": "The full paper separates single-team cooperation from two-team competition, with 100 trials using seeds 0–99 per combination. Added the two-team protocol without mixing its wins with single-team turn scores.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2412.11373v1",
+            "title": "Codenames as a Benchmark for Large Language Models",
+            "excerpt": "The full paper separates single-team cooperation from two-team competition, with 100 trials using seeds 0–99 per combination. Added the two-team protocol without mixing its wins with single-team turn scores."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB077",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB077-small-hanabi"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "缩小版双人 Hanabi",
+        "en": "Reduced two-player Hanabi"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录 A.7 核实 LLMArena 使用双人、双色、每人两张手牌的缩小 Hanabi，初始 3 个信息 token。新增这一变体，避免误当标准五色设置。",
+        "noteEn": "Appendix A.7 verifies a reduced two-player, two-color Hanabi with two cards per hand and three initial information tokens; this is not the standard five-color configuration.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2024.acl-long.705.pdf",
+            "title": "LLMArena: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments",
+            "excerpt": "Appendix A.7 verifies a reduced two-player, two-color Hanabi with two cards per hand and three initial information tokens; this is not the standard five-color configuration."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB009",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "35 游戏平台与 BMaRS 收益结构",
+        "en": "The 35-game platform and BMaRS incentive structures"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "still_limited",
+        "noteZh": "全文核实 35 个 Unity 游戏及社会树/BMaRS 奖励设计。相同游戏可改变竞争/合作收益关系，因此游戏名不足以确定协作能力；逐场景控制器、奖励树及终止配置尚未形成可复用协议，暂不新增单位。 正文35款与图1的36个标签之间的差异仍保留，不能据此推断新增评测实例。",
+        "noteEn": "The full paper verifies 35 Unity games and social-tree/BMaRS reward design. The same game can change incentive structures; per-scenario controllers, reward trees and termination configurations are not yet established as reusable protocols. The discrepancy between 35 games in the text and 36 Figure 1 labels remains explicit; it does not establish additional evaluated instances.",
+        "sources": [
+          {
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6216/6072",
+            "title": "Arena: A General Evaluation Platform and Building Toolkit for Multi-Agent Intelligence",
+            "excerpt": "The full paper verifies 35 Unity games and social-tree/BMaRS reward design. The same game can change incentive structures; per-scenario controllers, reward trees and termination configurations are not yet established as reusable protocols."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2606.24893",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2606.24893-generated-main-quest"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "生成世界的多阶段主线",
+        "en": "Multistage quest in a generated world"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文 §3–5 核实 500 步、24 阶段主线的游戏推进协议，明确主线奖励优先、辅助奖励用于破同分。知识/记忆选择题为旁路诊断，不复制成独立操控能力。",
+        "noteEn": "Sections 3–5 verify a 500-step game with a 24-stage main quest, ranked first by main-quest reward then supplementary reward. Knowledge/memory QA is auxiliary diagnostics, not separate control capability.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2606.24893v1",
+            "title": "AgentOdyssey: Open-Ended Long-Horizon Text Game Generation for Test-Time Continual Learning Agents",
+            "excerpt": "Sections 3–5 verify a 500-step game with a 24-stage main quest, ranked first by main-quest reward then supplementary reward. Knowledge/memory QA is auxiliary diagnostics, not separate control capability."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2607.04293",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "AX26-2607.04293-antenna-interventions"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "天线陷阱干预实验",
+        "en": "Antenna Trap intervention experiment"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录 C 给出干预变量、工具调用及终局 1000 架机队验证；新增天线陷阱的交互实验设计任务。该任务是抽象仿真，不是无人机实时操控。",
+        "noteEn": "Appendix C specifies interventions, tools and final validation on 1,000 drones. Added interactive experiment design for Antenna Trap; this is abstract simulation, not real-time piloting.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2607.04293v1",
+            "title": "CausalGame: Benchmarking Causal Thinking of LLM Agents in Games",
+            "excerpt": "Appendix C specifies interventions, tools and final validation on 1,000 drones. Added interactive experiment design for Antenna Trap; this is abstract simulation, not real-time piloting."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "AX26-2607.05185",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "难度验证、规则迁移和程序组合实验区分",
+        "en": "Difficulty validation, rule transfer and procedural-composition distinctions"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文 §4 区分 99 个 Sudoku 的难度验证、Sudoku 到三类谜题的规则/感知迁移与 Easy/Moderate 到 Hard 的程序组合；前两者不是完整闭环游玩。尚缺组合评估逐实例数量、训练预算和停止条件，保留部分核验而不扩增规划单位。",
+        "noteEn": "Section 4 separates difficulty validation on 99 Sudoku puzzles, Sudoku-to-three-puzzle perception/rule transfer and Easy/Moderate-to-Hard procedural composition. The first two are not full play. Per-instance composition counts, budgets and stop rules remain incomplete.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2607.05185v1",
+            "title": "ClassicLogic: A Knowledge-Driven Benchmark of Classic Puzzle Games for Evaluating Compositional Generalization",
+            "excerpt": "Section 4 separates difficulty validation on 99 Sudoku puzzles, Sudoku-to-three-puzzle perception/rule transfer and Easy/Moderate-to-Hard procedural composition. The first two are not full play. Per-instance composition counts, budgets and stop rules remain incomplete."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "REC-2.6",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "七游戏探索/测试配置与 checkpoint 汇总指标",
+        "en": "Seven-game exploration/test configurations and checkpoint metrics"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "表 2/3 与附录 A 核实七游戏动作表示和探索/严格测试差异：30 探索局、每 3 局测 3 局、种子隔离，测试轨迹不反馈学习；Avg/Max/AUC+ 是跨 checkpoint 汇总。尚需逐游戏环境评分公式，暂不据汇总曲线生成泛化/记忆能力单位。",
+        "noteEn": "Tables 2/3 and Appendix A specify actions and easy/strict splits: thirty exploration episodes, three test episodes every three, disjoint seeds and no test feedback. Avg/Max/AUC+ aggregate checkpoints; per-game reward formulas remain needed for capability units.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2608.31100",
+            "title": "S3Gym: Can LLMs Turn Self-Testing and Self-Judging into Self-Improvement?",
+            "excerpt": "Tables 2/3 and Appendix A specify actions and easy/strict splits: thirty exploration episodes, three test episodes every three, disjoint seeds and no test feedback. Avg/Max/AUC+ aggregate checkpoints; per-game reward formulas remain needed for capability units."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB066",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "互动谜案与独立问答的任务边界；协议仍不完整",
+        "en": "Interactive mystery versus separate QA; protocol remains incomplete"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "still_limited",
+        "noteZh": "官方来源明确同时包含谋杀谜案互动与独立问答。已再次尝试官方完整论文及作者仓库，但尚未获得可核实的完整角色调度、轮数和互动评分细则；不把问答准确率当互动能力。",
+        "noteEn": "Official sources distinguish interactive murder-mystery play from separate QA. The full paper and author repository were attempted, but complete role scheduling, round limits and interactive scoring rules remain unverified; QA accuracy is not gameplay ability.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/9dd4533e7e4e5ed809344280609c5b05-Paper-Datasets_and_Benchmarks_Track.pdf",
+            "title": "WhodunitBench: Evaluating Large Multimodal Agents via Murder Mystery Games",
+            "excerpt": "Official full-paper access attempted; full text unavailable during this review. Complete scheduling and interactive-scoring rules remain unverified."
+          },
+          {
+            "url": "https://github.com/jun0wanan/WhodunitBench-Murder_Mystery_Games",
+            "title": "WhodunitBench author repository",
+            "excerpt": "The author repository identifies WhodunitBench; the accessed material did not establish a complete reusable interaction protocol."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB052",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB052-taboo-grounding"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Taboo 概念描述与猜词",
+        "en": "Taboo concept description and guessing"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "正文与任务说明明确 Taboo 的三次猜词、禁词验证和 100/n 速度分；新增双人协议，未向其余 clembench 游戏复制标签。",
+        "noteEn": "The task description specifies three guesses, taboo-word validation and 100/n speed scoring. The added protocol is limited to this two-player game.",
+        "sources": [
+          {
+            "url": "https://aclanthology.org/2023.emnlp-main.689.pdf",
+            "title": "clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents",
+            "excerpt": "The task description specifies three guesses, taboo-word validation and 100/n speed scoring. The added protocol is limited to this two-player game."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB053",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB053-choice-and-harm"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "30 游戏测试集的分支选择与成就/伤害评价",
+        "en": "Choice interaction and achievement/harm evaluation on the 30-game test set"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "附录 G/H/I 明确 30 游戏测试集、仅当前场景的 LM 提示及 50k 步训练选择；补充实际分支选择任务。伦理伤害指标保持独立，不硬映射为九维操控能力。",
+        "noteEn": "Appendices G/H/I specify the 30-game test set, current-scene-only LM prompts and 50k-step RL training/checkpoint selection. Ethical harm metrics remain separate from the nine gameplay dimensions.",
+        "sources": [
+          {
+            "url": "https://proceedings.mlr.press/v202/pan23a/pan23a.pdf",
+            "title": "Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the Machiavelli Benchmark",
+            "excerpt": "Appendices G/H/I specify the 30-game test set, current-scene-only LM prompts and 50k-step RL training/checkpoint selection. Ethical harm metrics remain separate from the nine gameplay dimensions."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB020",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "文本家务任务",
+        "en": "Text household tasks"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文 §4.3 与表 2 明确 embodied 结果平均三次评估；BUTLER 使用 Mask R-CNN/A*，Oracle 使用真实状态及直接传送，必须分开。保留已核验任务，不能把上层文本策略迁移描述为纯像素原生控制。",
+        "noteEn": "Section 4.3/Table 2 averages embodied results over three evaluations. BUTLER uses Mask R-CNN/A* while the Oracle uses true state and teleportation. These conditions must remain separate; text-policy transfer is not direct pixel-to-native control.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2010.03768",
+            "title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+            "excerpt": "Section 4.3/Table 2 averages embodied results over three evaluations. BUTLER uses Mask R-CNN/A* while the Oracle uses true state and teleportation. These conditions must remain separate; text-policy transfer is not direct pixel-to-native control."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "GAB021",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB021-commonsense-tidying"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "论文 TWC 整理任务及 IN/OUT 泛化实验",
+        "en": "The paper’s TWC tidying task and IN/OUT generalization experiment"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文核实物品整理任务、IN/OUT 泛化拆分、100 训练回合、10 次重复和测试最多 50 步；补充可复核交互协议。",
+        "noteEn": "The full paper verifies object tidying, IN/OUT generalization splits, 100 training episodes, ten runs and a 50-step test limit.",
+        "sources": [
+          {
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/17090/16897",
+            "title": "Text-based RL Agents with Commonsense Knowledge: New Challenges, Environments and Baselines",
+            "excerpt": "The full paper verifies object tidying, IN/OUT generalization splits, 100 training episodes, ten runs and a 50-step test limit."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB008",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 1,
+      "addedTaskIds": [
+        "GAB008-valid-action-if"
+      ],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "有效动作辅助的文字冒险",
+        "en": "Valid-action-assisted interactive fiction"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "expanded",
+        "noteZh": "全文 §4–6 明确模板动作与有效动作搜索的辅助条件，以及 DRRN/TDQN 单游戏训练和 NAIL 未见游戏模式的差别；新增已明确的 DRRN 交互协议，不把各设定合成通用泛化分。",
+        "noteEn": "Sections 4–6 specify template/valid-action assistance and distinguish per-game DRRN/TDQN training from NAIL on unseen games. Added the explicit DRRN protocol without merging these into a generalization score.",
+        "sources": [
+          {
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6297/6153",
+            "title": "Interactive Fiction Games: A Colossal Adventure",
+            "excerpt": "Sections 4–6 specify template/valid-action assistance and distinguish per-game DRRN/TDQN training from NAIL on unseen games. Added the explicit DRRN protocol without merging these into a generalization score."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "GAB051",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB051-mario-context"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "CARLMario关卡泛化",
+        "en": "CARLMario level generalization"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文将上下文分布关系明确区分为插值、分布移位与外推；保留已核验 Mario 关卡实验范围。经典控制环境的摩擦/目标改变并不自动成为 Mario 的能力标签；完整平台仍不宣称逐环境核验。",
+        "noteEn": "The full text distinguishes interpolation, distribution shift and extrapolation through context distributions. Retain the verified Mario-level experiment; friction/goal interventions in classical control do not automatically label Mario or every platform environment.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2202.04500",
+            "title": "Contextualize Me – The Case for Context in Reinforcement Learning",
+            "excerpt": "The full text distinguishes interpolation, distribution shift and extrapolation through context distributions. Retain the verified Mario-level experiment; friction/goal interventions in classical control do not automatically label Mario or every platform environment."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "GAB033",
+      "previousStatus": "partial",
+      "status": "verified",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB033-escape-room"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "EscapeRoom 随机关卡到人工关卡实验",
+        "en": "EscapeRoom random-to-human-designed level experiment"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "正文 §4 明确每个 PPO checkpoint 分别评估 100 个人工关卡和 100 个随机关卡；已补入既有 EscapeRoom 的控制条件。该已界定的案例协议可核验，非所有 Griddly 游戏。",
+        "noteEn": "Section 4 evaluates each PPO checkpoint on 100 human-designed and 100 randomized levels. Added these controls to the bounded EscapeRoom case study; other Griddly games are excluded.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2207.06105v1",
+            "title": "GriddlyJS: A Web IDE for Reinforcement Learning",
+            "excerpt": "Section 4 evaluates each PPO checkpoint on 100 human-designed and 100 randomized levels. Added these controls to the bounded EscapeRoom case study; other Griddly games are excluded."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "GAB003",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 2,
+      "currentUnits": 2,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB003-deep-sea",
+        "GAB003-memory-length"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "延迟单比特回忆；Deep Sea 深探索",
+        "en": "Delayed one-bit recall; Deep Sea exploration"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "官方实验目录明确每任务以 sweep.py 固定配置、analysis.py 定义评分。保留已核验 Memory Length/Deep Sea 两项，并强调需绑定相应 sweep 和评分；不把套件雷达图平均值当任意子任务能力。",
+        "noteEn": "The official experiment directory assigns configurations to sweep.py and scoring to analysis.py. Retain the verified Memory Length/Deep Sea scope, tied to those files; suite radar averages do not label arbitrary subtasks.",
+        "sources": [
+          {
+            "url": "https://github.com/google-deepmind/bsuite/tree/main/bsuite/experiments",
+            "title": "Behaviour Suite for Reinforcement Learning",
+            "excerpt": "The official experiment directory assigns configurations to sweep.py and scoring to analysis.py. Retain the verified Memory Length/Deep Sea scope, tied to those files; suite radar averages do not label arbitrary subtasks."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 2
+      }
+    },
+    {
+      "id": "REC-2.8",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 8,
+      "currentUnits": 8,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "REC-2.8-asteroids",
+        "REC-2.8-breakout",
+        "REC-2.8-caveflyer",
+        "REC-2.8-coinrun",
+        "REC-2.8-flappy-bird",
+        "REC-2.8-plunder",
+        "REC-2.8-seaquest",
+        "REC-2.8-vvvvvv"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "八游戏人类/RL 对照及留出种子评价",
+        "en": "Eight-game human/RL comparison and held-out seed evaluation"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "正文明确 RL 训练每局抽新种子、最终 checkpoint 在 8 个留出种子评价；三训练种子与 20 人人类实验是不同统计层次。保留已核验八游戏交互单位，未向其他生成变体复制控制能力。",
+        "noteEn": "The paper samples a new training seed each episode and evaluates final checkpoints on eight held-out seeds. Three training seeds and twenty human participants are different statistical levels; retain the eight reviewed games without copying tags to other variants.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2609.09059v1",
+            "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games",
+            "excerpt": "The paper samples a new training seed each episode and evaluates final checkpoints on eight held-out seeds. Three training seeds and twenty human participants are different statistical levels; retain the eight reviewed games without copying tags to other variants."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 8
+      }
+    },
+    {
+      "id": "GAB061",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB061-smax"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "SMAX团队微操",
+        "en": "SMAX team micromanagement"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文补清 SMAX、MPE、MABrax 与原环境等价性边界：MPE 用 1000 随机轨迹逐状态比对，Hanabi 用 10000 轨迹；MABrax 与 MAMuJoCo 不可直接比分。保留 SMAX 微操协议，速度基准不新增能力标签。",
+        "noteEn": "The full paper checks MPE with 1,000 random rollouts and Hanabi with 10,000 trajectories; MABrax is not directly score-comparable to MAMuJoCo. Retain SMAX micromanagement; throughput benchmarks add no capability tags.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2311.10090",
+            "title": "JaxMARL: Multi-Agent RL Environments and Algorithms in JAX",
+            "excerpt": "The full paper checks MPE with 1,000 random rollouts and Hanabi with 10,000 trajectories; MABrax is not directly score-comparable to MAMuJoCo. Retain SMAX micromanagement; throughput benchmarks add no capability tags."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "GAB068",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB068-offline-smac"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "离线SMAC团队微操",
+        "en": "Offline SMAC micromanagement"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文 §4 明确 MPE/SMACv1/MAMuJoCo 分别训练 50k/100k/200k 次更新，训练结束评估 32 局、重复 10 种子。已补进离线 SMAC 单位；禁止把在线挑选最佳 checkpoint 的预算隐去。",
+        "noteEn": "Section 4 uses 50k/100k/200k updates for MPE/SMACv1/MAMuJoCo, then 32 evaluation episodes across ten seeds. Added SMAC controls; online checkpoint-selection budget must not be hidden.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/fc6247c33cff077a3910d0c28463f445-Paper-Datasets_and_Benchmarks_Track.pdf",
+            "title": "Dispelling the Mirage of Progress in Offline MARL through Standardised Baselines and Evaluation",
+            "excerpt": "Section 4 uses 50k/100k/200k updates for MPE/SMACv1/MAMuJoCo, then 32 evaluation episodes across ten seeds. Added SMAC controls; online checkpoint-selection budget must not be hidden."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "GAB079",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB079-rule-discovery"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "OpenXLand隐藏规则交互",
+        "en": "OpenXLand hidden-rule interaction"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文明确 OpenXLand 在目标条件满足的每一步给 +1，而 trial 长度为用户指定；六个百万规模数据集是生成资源，不是六种已完成能力测量。保留既有规则探索协议，具体预算必须随配置提供。",
+        "noteEn": "OpenXLand gives +1 on each step satisfying the goal, while trial length is user-configured. Six million-scale datasets are generated resources, not six completed capability measurements; retain the rule-exploration protocol with explicit configured budgets.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/04c0c541d936f7cbfbb21085116236cd-Paper-Datasets_and_Benchmarks_Track.pdf",
+            "title": "Using Unity to Help Solve Reinforcement Learning",
+            "excerpt": "OpenXLand gives +1 on each step satisfying the goal, while trial length is user-configured. Six million-scale datasets are generated resources, not six completed capability measurements; retain the rule-exploration protocol with explicit configured budgets."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "GAB035",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 2,
+      "currentUnits": 2,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB035-minihack",
+        "GAB035-procgen"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Procgen持续学习；MiniHack持续学习",
+        "en": "Continual Procgen; Continual MiniHack"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "再次核对 CORA 的任务序列与评价定义：Forward/Backward Transfer 衡量训练序列中的迁移和遗忘，不能当单局工作记忆。保留 Procgen/MiniHack 的已核验单位；Atari/CHORES 各子任务的完整配置尚未逐一转录。",
+        "noteEn": "Rechecked CORA’s task sequences and metrics: forward/backward transfer concern transfer and forgetting across training, not within-episode working memory. Retain Procgen/MiniHack units; complete Atari/CHORES subtask configurations remain untranscribed.",
+        "sources": [
+          {
+            "url": "https://proceedings.mlr.press/v199/powers22b/powers22b.pdf",
+            "title": "CORA: Benchmarks, Baselines, and Metrics as a Platform for Continual Reinforcement Learning Agents",
+            "excerpt": "Rechecked CORA’s task sequences and metrics: forward/backward transfer concern transfer and forgetting across training, not within-episode working memory. Retain Procgen/MiniHack units; complete Atari/CHORES subtask configurations remain untranscribed."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 2
+      }
+    },
+    {
+      "id": "GAB024",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 2,
+      "currentUnits": 2,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "GAB024-lbf",
+        "GAB024-rware"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "等级觅食合作；仓库协作配送",
+        "en": "Level-based foraging cooperation; Warehouse cooperative delivery"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "全文比较的算法交互预算按在/离策略和环境区分，评估 41 次各 100 局；这些设定仅用于既有 LBF/RWARE 单位。SMAC/MPE/矩阵游戏需各自明确任务和指标，暂不继承该协议。",
+        "noteEn": "The paper separates training budgets by on/off-policy algorithms and environment, with 41 evaluations of 100 episodes. These controls apply to the retained LBF/RWARE units; SMAC/MPE/matrix games require their own protocols.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2006.07869",
+            "title": "Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks",
+            "excerpt": "The paper separates training budgets by on/off-policy algorithms and environment, with 41 evaluations of 100 episodes. These controls apply to the retained LBF/RWARE units; SMAC/MPE/matrix games require their own protocols."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 2
+      }
+    },
+    {
+      "id": "S01",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 7,
+      "currentUnits": 7,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "S01-atari100k",
+        "S01-basic",
+        "S01-crafter",
+        "S01-deadly-corridor",
+        "S01-defend-center",
+        "S01-health-gathering",
+        "S01-predict-position"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Atari100k、Crafter、五个 ViZDoom 场景",
+        "en": "Atari100k, Crafter and five ViZDoom scenarios"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "重新核对控制实验与世界模型诊断的区分：Atari100k、Crafter、五个 ViZDoom 场景为闭环回报，MiniGrid 的预测一致性实验不计记忆操控能力。既有任务范围保持，训练曲线不是逐模型统一试玩协议。",
+        "noteEn": "Rechecked control versus world-model diagnostics: Atari100k, Crafter and five ViZDoom scenarios measure closed-loop returns, whereas MiniGrid prediction consistency is not memory-control performance. Retain those bounded units; learning curves are not a uniform model-play protocol.",
+        "sources": [
+          {
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/97c903fbf21a7d863af2015d8803ca8f-Paper-Conference.pdf",
+            "title": "EDELINE: Enhancing Memory in Diffusion-based World Models via Linear-Time Sequence Modeling",
+            "excerpt": "Rechecked control versus world-model diagnostics: Atari100k, Crafter and five ViZDoom scenarios measure closed-loop returns, whereas MiniGrid prediction consistency is not memory-control performance. Retain those bounded units; learning curves are not a uniform model-play protocol."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 7
+      }
+    },
+    {
+      "id": "W02",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "W02-atari100k"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "DIAMOND Atari100k",
+        "en": "DIAMOND Atari100k"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "完整论文区分 Atari100k 策略评估与 CS:GO 交互生成演示。前者以真实交互预算、逐游戏回报/人类归一化分评价；后者没有可替代原游戏对战胜率的评测，继续只保留 Atari 单位。",
+        "noteEn": "The full paper separates Atari100k policy evaluation from interactive CS:GO generation. Real-interaction budgets and game/human-normalized returns apply to Atari; CS:GO generation does not supply native-match wins.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2405.12399v1",
+            "title": "Diffusion for World Modeling: Visual Details Matter in Atari",
+            "excerpt": "The full paper separates Atari100k policy evaluation from interactive CS:GO generation. Real-interaction budgets and game/human-normalized returns apply to Atari; CS:GO generation does not supply native-match wins."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "A01",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "A01-coinrun-bc"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "CoinRun潜在动作模仿",
+        "en": "CoinRun latent-action imitation"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "附录 E 的 CoinRun 实验需要将潜在动作映射到真实动作，并用标注示范进行行为克隆；保留该对照任务，生成视频质量或潜在动作可控性不新增游戏能力。",
+        "noteEn": "Appendix E’s CoinRun experiment maps latent to real actions and performs behavioral cloning using labelled demonstrations. Retain that controlled task; generated video quality and latent controllability add no gameplay capabilities.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2402.15391v1",
+            "title": "Genie: Generative Interactive Environments",
+            "excerpt": "Appendix E’s CoinRun experiment maps latent to real actions and performs behavioral cloning using labelled demonstrations. Retain that controlled task; generated video quality and latent controllability add no gameplay capabilities."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "F07",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "指令理解与人机伴随系统评价",
+        "en": "Instruction understanding and companion-system evaluation"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "AAAI 全文核实 100 次会话形成 2550 指令—动作样本，主要指标为指令准确率、实体 P/R/F1、QPS 和延迟；24 名玩家比较四模式的主观偏好。不能把偏好分或样本纠错准确率当闭环胜率，暂不新增九维操控单位。",
+        "noteEn": "The AAAI paper specifies 2,550 instruction-action examples from 100 sessions, instruction/entity accuracy, QPS and latency, plus subjective preferences from 24 players across four modes. These are not closed-loop win rates.",
+        "sources": [
+          {
+            "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38842/42804",
+            "title": "F.A.C.U.L.: Language-Based Interaction with AI Companions in Gaming",
+            "excerpt": "The AAAI paper specifies 2,550 instruction-action examples from 100 sessions, instruction/entity accuracy, QPS and latency, plus subjective preferences from 24 players across four modes. These are not closed-loop win rates."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "A08",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "A08-diamond"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "取得1颗钻石",
+        "en": "Obtain one diamond"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "正文和任务附录将 Minecraft 任务完成、人格/行为多样性、游戏测试代码覆盖分开；保留已核验钻石任务。Shattered Pixel Dungeon 的测试覆盖不能直接当通关或战斗能力，尚缺可比较的完整终局评估协议。",
+        "noteEn": "The main text and task appendix distinguish Minecraft completion, persona/behavior diversity and testing code coverage. Retain the diamond task; Shattered Pixel Dungeon coverage does not establish completion/combat ability without a comparable terminal evaluation protocol.",
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2510.01635v1",
+            "title": "MIMIC: Integrating Diverse Personality Traits for Better Game Testing Using Large Language Model",
+            "excerpt": "The main text and task appendix distinguish Minecraft completion, persona/behavior diversity and testing code coverage. Retain the diamond task; Shattered Pixel Dungeon coverage does not establish completion/combat ability without a comparable terminal evaluation protocol."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "S05",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "摘要可确认的音频导航与人类战斗指标区分",
+        "en": "Abstract-supported audio-navigation versus human-combat metrics"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "still_limited",
+        "noteZh": "官方摘要区分音频智能体迷宫导航时间与人类对战击杀率；作者存档全文仍不可访问。尚缺智能体动作集合、训练/测试划分和重复次数，保留部分核验，不能继承人类战斗成绩。",
+        "noteEn": "The official abstract distinguishes audio-agent maze time from human combat kill rate; the archived full text remains inaccessible. Agent actions, train/test split and replication counts remain unverified, so human combat outcomes are not inherited.",
+        "sources": [
+          {
+            "url": "https://trepo.tuni.fi/bitstream/10024/233997/1/Sonic_Doom_CoG_2025_2_.pdf",
+            "title": "Sonic Doom: Enhanced Sound Design and Accessibility in a First-Person Shooter Game",
+            "excerpt": "The official abstract distinguishes audio-agent maze time from human combat kill rate; the archived full text remains inaccessible. Agent actions, train/test split and replication counts remain unverified, so human combat outcomes are not inherited."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "NATURE295",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 1,
+      "currentUnits": 1,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [
+        "NATURE295-minecraft-diamond"
+      ],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "Minecraft钻石获取",
+        "en": "Minecraft diamond acquisition"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "Nature 正文现已核实 Minecraft 每局随机世界、死亡或 36000 步终止、12 项稀疏奖励物品链，并明确抽象合成和加速破坏方块；移除仅旧预印本支持此设置的限制。各领域仍为重新训练，非单策略零样本泛化。",
+        "noteEn": "The Nature text verifies random Minecraft worlds, death/36,000-step termination, a twelve-item sparse-reward chain, abstract crafting and accelerated block breaking. The old-preprint-only caveat is removed; domains still involve retraining rather than zero-shot policy transfer.",
+        "sources": [
+          {
+            "url": "https://www.nature.com/articles/s41586-025-08744-2",
+            "title": "Mastering diverse control tasks through world models",
+            "excerpt": "The Nature text verifies random Minecraft worlds, death/36,000-step termination, a twelve-item sparse-reward chain, abstract crafting and accelerated block breaking. The old-preprint-only caveat is removed; domains still involve retraining rather than zero-shot policy transfer."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 1
+      }
+    },
+    {
+      "id": "NATURE298",
+      "previousStatus": "partial",
+      "status": "partial",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "六平台学习规则迁移的指标和调参规则",
+        "en": "Metrics and tuning for learning-rule transfer across six platforms"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "Nature 正文/方法核实 Atari57、Procgen16、DMLab30 的归一化 IQM，Crafter/NetHack/Sokoban 平均回报及 95% CI；留出环境只调学习率。迁移对象是学习规则、需重新训练智能体，官方最小代码仅含 Catch，不代表六平台完整复现。",
+        "noteEn": "Nature Methods specifies normalized IQM for Atari57/Procgen16/DMLab30 and mean return for Crafter/NetHack/Sokoban, with 95% intervals. Held-out tuning varies learning rate only. Transfer concerns retrained learning rules; the minimal public harness contains Catch, not full six-platform reproduction.",
+        "sources": [
+          {
+            "url": "https://www.nature.com/articles/s41586-025-09761-x",
+            "title": "Discovering state-of-the-art reinforcement learning algorithms",
+            "excerpt": "Nature Methods specifies normalized IQM for Atari57/Procgen16/DMLab30 and mean return for Crafter/NetHack/Sokoban, with 95% intervals. Held-out tuning varies learning rate only. Transfer concerns retrained learning rules; the minimal public harness contains Catch, not full six-platform reproduction."
+          },
+          {
+            "url": "https://github.com/google-deepmind/disco_rl",
+            "title": "DiscoRL official implementation",
+            "excerpt": "The released minimal harness includes Catch; it is not the complete code for all six evaluation platforms."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    },
+    {
+      "id": "NATURE299",
+      "previousStatus": "partial",
+      "status": "not_applicable",
+      "previousUnits": 0,
+      "currentUnits": 0,
+      "addedTaskIds": [],
+      "removedTaskIds": [],
+      "updatedTaskIds": [],
+      "addedGameIds": [],
+      "gameCorrections": [],
+      "reviewedScope": {
+        "zh": "人类判断/动作的认知模型评价",
+        "en": "Cognitive-model evaluation of human judgments/actions"
+      },
+      "followup": {
+        "checkedAt": "2026-10-19",
+        "outcome": "clarified",
+        "noteZh": "Nature 全文核实 1808 局/9892 步的人类动作似然、观看判断的 TVD/JS 距离；与随机对手 120 次自博弈用于计算趣味性特征，并非独立游戏智能体排行榜。因此不新增九维交互任务。",
+        "noteEn": "The full Nature article evaluates human-action likelihood over 1,808 matches/9,892 moves and TVD/JS for judgments. The 120 self-play runs against random opponents compute funness features, not an independent game-agent benchmark.",
+        "sources": [
+          {
+            "url": "https://www.nature.com/articles/s41586-026-10722-1",
+            "title": "People use fast and flat simulation to reason about new games",
+            "excerpt": "The full Nature article evaluates human-action likelihood over 1,808 matches/9,892 moves and TVD/JS for judgments. The 120 self-play runs against random opponents compute funness features, not an independent game-agent benchmark."
+          }
+        ],
+        "previousStatus": "partial",
+        "previousUnitCount": 0
+      }
+    }
+  ]
+}

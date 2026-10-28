@@ -1,0 +1,1155 @@
+[
+  {
+    "id": "SUP-ale",
+    "name": "Arcade Learning Environment (ALE)",
+    "title": "The Arcade Learning Environment: An Evaluation Platform for General Agents",
+    "authors": [
+      "Marc G. Bellemare",
+      "Yavar Naddaf",
+      "Joel Veness",
+      "Michael Bowling"
+    ],
+    "year": 2013,
+    "venue": "Journal of Artificial Intelligence Research (JAIR), 47:253–279, 2013",
+    "kind": "platform",
+    "genres": [
+      "Multi-genre"
+    ],
+    "games": [
+      "Atari 2600 game collection"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "control",
+      "planning"
+    ],
+    "paper": "https://arxiv.org/abs/1207.4708",
+    "repo": "https://github.com/Farama-Foundation/Arcade-Learning-Environment",
+    "scope": {
+      "zh": "面向通用智能体的 Atari 2600 游戏接口及评估方法。",
+      "en": "Atari 2600 interface and evaluation methodology for general agents."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "正式论文发表于 JAIR 2013，预印本始于 2012 年。跨游戏评估本身并不构成未见任务泛化协议；需明确游戏、动作重复次数及评测版本。",
+      "en": "JAIR 2013; first preprint 2012. Multi-game evaluation is not by itself a held-out generalization protocol; specify games, action repeat and evaluation version."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1207.4708",
+      "https://github.com/Farama-Foundation/Arcade-Learning-Environment"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-vizdoom",
+    "name": "ViZDoom",
+    "title": "ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning",
+    "authors": [
+      "Michał Kempka",
+      "Marek Wydmuch",
+      "Grzegorz Runc",
+      "Jakub Toczek",
+      "Wojciech Jaśkowski"
+    ],
+    "year": 2016,
+    "venue": "IEEE Conference on Computational Intelligence and Games (CIG), 2016",
+    "kind": "platform",
+    "genres": [
+      "FPS"
+    ],
+    "games": [
+      "Doom"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "control",
+      "exploration"
+    ],
+    "paper": "https://arxiv.org/abs/1605.02097",
+    "repo": "https://github.com/Farama-Foundation/ViZDoom",
+    "scope": {
+      "zh": "可定制的 Doom 场景，提供视觉强化学习基线。",
+      "en": "Customizable Doom scenarios with visual RL baselines."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "属于研究平台，不对应唯一总分；死亡竞赛与导航任务应分别制定协议。",
+      "en": "A research platform rather than one fixed score; deathmatch and navigation require separate protocols."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1605.02097",
+      "https://github.com/Farama-Foundation/ViZDoom"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-smac",
+    "name": "SMAC",
+    "title": "The StarCraft Multi-Agent Challenge",
+    "authors": [
+      "Mikayel Samvelyan",
+      "Tabish Rashid",
+      "Christian Schroeder de Witt",
+      "Gregory Farquhar",
+      "Nantas Nardelli",
+      "Tim G. J. Rudner",
+      "Chia-Man Hung",
+      "Philip H. S. Torr",
+      "Jakob Foerster",
+      "Shimon Whiteson"
+    ],
+    "year": 2019,
+    "venue": "AAMAS 2019 — Extended Abstract",
+    "kind": "benchmark",
+    "genres": [
+      "RTS"
+    ],
+    "games": [
+      "StarCraft II"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "coordination",
+      "strategy"
+    ],
+    "paper": "https://arxiv.org/abs/1902.04043",
+    "repo": "https://github.com/oxwhirl/smac",
+    "scope": {
+      "zh": "原版合作式、去中心化多智能体微操场景。",
+      "en": "Original cooperative decentralized micromanagement scenarios."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "与 SMACv2 分开收录；不评估完整游戏的宏观经济、建造顺序或外交。",
+      "en": "Distinct from SMACv2; does not evaluate full-game macroeconomy, build orders or diplomacy."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1902.04043",
+      "https://github.com/oxwhirl/smac"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-sc2le",
+    "name": "SC2LE / PySC2",
+    "title": "StarCraft II: A New Challenge for Reinforcement Learning",
+    "authors": [
+      "Oriol Vinyals",
+      "Timo Ewalds",
+      "Sergey Bartunov",
+      "Petko Georgiev",
+      "Alexander Sasha Vezhnevets",
+      "Michelle Yeo",
+      "Alireza Makhzani",
+      "Heinrich Küttler",
+      "John Agapiou",
+      "Julian Schrittwieser",
+      "John Quan",
+      "Stephen Gaffney",
+      "Stig Petersen",
+      "Karen Simonyan",
+      "Tom Schaul",
+      "Hado van Hasselt",
+      "David Silver",
+      "Timothy Lillicrap",
+      "Kevin Calderone",
+      "Paul Keet",
+      "Anthony Brunasso",
+      "David Lawrence",
+      "Anders Ekermo",
+      "Jacob Repp",
+      "Rodney Tsing"
+    ],
+    "year": 2017,
+    "venue": null,
+    "kind": "environment",
+    "genres": [
+      "RTS"
+    ],
+    "games": [
+      "StarCraft II"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "strategy",
+      "long-horizon",
+      "control"
+    ],
+    "paper": "https://arxiv.org/abs/1708.04782",
+    "repo": "https://github.com/google-deepmind/pysc2",
+    "scope": {
+      "zh": "支持《星际争霸 II》完整对局与小游戏的学习接口，并提供回放数据。",
+      "en": "StarCraft II full-game and minigame learning interface with replay data."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "完整对局与小游戏应分别报告；控制多个单位不自动构成去中心化多智能体强化学习。",
+      "en": "Full game and minigames must be reported separately; controlling many units does not automatically make the agent decentralized MARL."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1708.04782",
+      "https://github.com/google-deepmind/pysc2"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-textworld",
+    "name": "TextWorld",
+    "title": "TextWorld: A Learning Environment for Text-based Games",
+    "authors": [
+      "Marc-Alexandre Côté",
+      "Ákos Kádár",
+      "Xingdi Yuan",
+      "Ben Kybartas",
+      "Tavian Barnes",
+      "Emery Fine",
+      "James Moore",
+      "Ruo Yu Tao",
+      "Matthew Hausknecht",
+      "Layla El Asri",
+      "Mahmoud Adada",
+      "Wendy Tay",
+      "Adam Trischler"
+    ],
+    "year": 2018,
+    "venue": null,
+    "kind": "environment",
+    "genres": [
+      "Text adventure"
+    ],
+    "games": [
+      "TextWorld generated text adventures"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "generalization",
+      "planning"
+    ],
+    "paper": "https://arxiv.org/abs/1806.11532",
+    "repo": "https://github.com/microsoft/TextWorld",
+    "scope": {
+      "zh": "支持手工编写和自动生成文字游戏的生成器与运行环境，包含原始 RL 评测任务集。",
+      "en": "Generator and runtime for handcrafted and generated text games; original RL benchmark set."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "基础 TextWorld 与 TextWorldExpress、TextWorld Commonsense 分开收录；需固定数据划分与任务设置。",
+      "en": "Base TextWorld is distinct from TextWorldExpress and TextWorld Commonsense; fixed split and task settings are needed."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1806.11532",
+      "https://github.com/microsoft/TextWorld"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-babyai",
+    "name": "BabyAI",
+    "title": "BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning",
+    "authors": [
+      "Maxime Chevalier-Boisvert",
+      "Dzmitry Bahdanau",
+      "Salem Lahlou",
+      "Lucas Willems",
+      "Chitwan Saharia",
+      "Thien Huu Nguyen",
+      "Yoshua Bengio"
+    ],
+    "year": 2019,
+    "venue": "ICLR 2019",
+    "kind": "platform",
+    "genres": [
+      "Puzzle"
+    ],
+    "games": [
+      "BabyAI instruction-following gridworlds"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "planning",
+      "generalization"
+    ],
+    "paper": "https://arxiv.org/abs/1810.08272",
+    "repo": "https://github.com/mila-iqia/babyai",
+    "scope": {
+      "zh": "面向高效语言学习的指令跟随网格世界关卡及启发式专家示范。",
+      "en": "Instruction-following gridworld levels and heuristic demonstrations for sample-efficient language learning."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "正式论文发表于 ICLR 2019，预印本始于 2018 年。合成语言的具身理解不意味着已提供原生 LLM 支持；默认观测为局部符号编码。",
+      "en": "ICLR 2019; first preprint 2018. Synthetic language grounding is not evidence of native LLM support; default observations are symbolic partial encodings."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1810.08272",
+      "https://github.com/mila-iqia/babyai"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-openspiel",
+    "name": "OpenSpiel",
+    "title": "OpenSpiel: A Framework for Reinforcement Learning in Games",
+    "authors": [
+      "Marc Lanctot",
+      "Edward Lockhart",
+      "Jean-Baptiste Lespiau",
+      "Vinicius Zambaldi",
+      "Satyaki Upadhyay",
+      "Julien Pérolat",
+      "Sriram Srinivasan",
+      "Finbarr Timbers",
+      "Karl Tuyls",
+      "Shayegan Omidshafiei",
+      "Daniel Hennes",
+      "Dustin Morrill",
+      "Paul Muller",
+      "Timo Ewalds",
+      "Ryan Faulkner",
+      "János Kramár",
+      "Bart De Vylder",
+      "Brennan Saeta",
+      "James Bradbury",
+      "David Ding",
+      "Sebastian Borgeaud",
+      "Matthew Lai",
+      "Julian Schrittwieser",
+      "Thomas Anthony",
+      "Edward Hughes",
+      "Ivo Danihelka",
+      "Jonah Ryan-Davis"
+    ],
+    "year": 2019,
+    "venue": null,
+    "kind": "platform",
+    "genres": [
+      "Multi-genre",
+      "Cards"
+    ],
+    "games": [
+      "Kuhn poker",
+      "Leduc poker",
+      "Goofspiel"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "strategy",
+      "planning"
+    ],
+    "paper": "https://arxiv.org/abs/1908.09453",
+    "repo": "https://github.com/google-deepmind/open_spiel",
+    "scope": {
+      "zh": "涵盖轮流行动、同时行动、合作与竞争博弈的游戏及算法框架。",
+      "en": "Game and algorithm framework spanning turn-taking, simultaneous, cooperative and competitive games."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "没有唯一通用评测总分；需明确游戏规则、对手以及可利用度或回报指标。所列游戏为已核验示例，并非完整游戏列表。",
+      "en": "No single canonical benchmark score; game rules, opponents and exploitability/return metrics must be specified. Games listed are verified examples, not exhaustive."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1908.09453",
+      "https://github.com/google-deepmind/open_spiel"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-deepmind-lab",
+    "name": "DeepMind Lab",
+    "title": "DeepMind Lab",
+    "authors": [
+      "Charles Beattie",
+      "Joel Z. Leibo",
+      "Denis Teplyashin",
+      "Tom Ward",
+      "Marcus Wainwright",
+      "Heinrich Küttler",
+      "Andrew Lefrancq",
+      "Simon Green",
+      "Víctor Valdés",
+      "Amir Sadik",
+      "Julian Schrittwieser",
+      "Keith Anderson",
+      "Sarah York",
+      "Max Cant",
+      "Adam Cain",
+      "Adrian Bolton",
+      "Stephen Gaffney",
+      "Helen King",
+      "Demis Hassabis",
+      "Shane Legg",
+      "Stig Petersen"
+    ],
+    "year": 2016,
+    "venue": null,
+    "kind": "platform",
+    "genres": [
+      "Multi-genre"
+    ],
+    "games": [
+      "DeepMind Lab 3D navigation and puzzle tasks"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "control",
+      "exploration"
+    ],
+    "paper": "https://arxiv.org/abs/1612.03801",
+    "repo": "https://github.com/google-deepmind/lab",
+    "scope": {
+      "zh": "基于 Quake III 引擎、可配置的三维导航与解谜任务平台。",
+      "en": "Configurable 3D navigation and puzzle task platform built on the Quake III engine."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "使用第一人称射击游戏引擎，不意味着所有任务都是射击评测；记忆与泛化研究需落实到具体关卡与协议。",
+      "en": "Using an FPS engine does not make every task a shooter benchmark. Memory and generalization depend on the chosen level and protocol."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1612.03801",
+      "https://github.com/google-deepmind/lab"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-gvgai",
+    "name": "GVGAI",
+    "title": "General Video Game AI: a Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms",
+    "authors": [
+      "Diego Perez-Liebana",
+      "Jialin Liu",
+      "Ahmed Khalifa",
+      "Raluca D. Gaina",
+      "Julian Togelius",
+      "Simon M. Lucas"
+    ],
+    "year": 2018,
+    "venue": "IEEE Transactions on Games",
+    "kind": "platform",
+    "genres": [
+      "Multi-genre"
+    ],
+    "games": [
+      "VGDL game collection"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "generalization",
+      "planning"
+    ],
+    "paper": "https://arxiv.org/abs/1802.10363",
+    "repo": "https://github.com/GAIGResearch/GVGAI",
+    "scope": {
+      "zh": "面向电子游戏游玩、学习及程序化内容生成的多赛道框架。",
+      "en": "Multi-track framework for video-game playing, learning and procedural generation."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "平台始于 2014 年，所引综述首次发表于 2018 年预印本。与 GVGAI-LLM 分开收录；不同赛道的条件和前向模拟访问权限不同。",
+      "en": "Platform dates to 2014; cited overview first appeared in 2018. Distinct from GVGAI-LLM. Track conditions and simulation access differ."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1802.10363",
+      "https://github.com/GAIGResearch/GVGAI",
+      "https://arxiv.org/abs/1806.02448",
+      "https://diego-perez.net/projects/gvgai/"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-coinrun",
+    "name": "CoinRun",
+    "title": "Quantifying Generalization in Reinforcement Learning",
+    "authors": [
+      "Karl Cobbe",
+      "Oleg Klimov",
+      "Chris Hesse",
+      "Taehoon Kim",
+      "John Schulman"
+    ],
+    "year": 2019,
+    "venue": "ICML 2019, PMLR 97:1282–1289",
+    "kind": "benchmark",
+    "genres": [
+      "Platformer"
+    ],
+    "games": [
+      "CoinRun"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "generalization",
+      "control"
+    ],
+    "paper": "https://proceedings.mlr.press/v97/cobbe19a.html",
+    "repo": "https://github.com/openai/coinrun",
+    "scope": {
+      "zh": "面向强化学习泛化评估的原版 CoinRun 基准。",
+      "en": "Original CoinRun benchmark for generalization in RL."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "正式论文发表于 ICML 2019，预印本始于 2018 年。原版 CoinRun 与 Procgen CoinRun 的协议不可混用；仓库已归档，本次未验证实际运行。 官方测试采样不保证排除训练关卡；严格不重叠评测需另行核验。",
+      "en": "ICML 2019; preprint 2018. Do not merge original CoinRun and Procgen CoinRun protocols. Repository is archived; runtime not verified. Official test sampling does not guarantee exclusion of training levels; strictly disjoint evaluation requires verification."
+    },
+    "evidence": [
+      "https://proceedings.mlr.press/v97/cobbe19a.html",
+      "https://github.com/openai/coinrun",
+      "https://arxiv.org/abs/1812.02341",
+      "https://openai.com/index/quantifying-generalization-in-reinforcement-learning/",
+      "https://github.com/openai/coinrun/blob/master/coinrun/enjoy.py"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-obstacle-tower",
+    "name": "Obstacle Tower",
+    "title": "Obstacle Tower: A Generalization Challenge in Vision, Control, and Planning",
+    "authors": [
+      "Arthur Juliani",
+      "Ahmed Khalifa",
+      "Vincent-Pierre Berges",
+      "Jonathan Harper",
+      "Ervin Teng",
+      "Hunter Henry",
+      "Adam Crespi",
+      "Julian Togelius",
+      "Danny Lange"
+    ],
+    "year": 2019,
+    "venue": "IJCAI 2019",
+    "kind": "benchmark",
+    "genres": [
+      "Platformer",
+      "Puzzle"
+    ],
+    "games": [
+      "Obstacle Tower"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "generalization",
+      "control",
+      "planning"
+    ],
+    "paper": "https://arxiv.org/abs/1902.01378",
+    "repo": "https://github.com/Unity-Technologies/obstacle-tower-source",
+    "scope": {
+      "zh": "程序化生成的第三人称三维高塔评测环境，包含强化学习与人类基线。",
+      "en": "Procedurally generated third-person 3D tower benchmark with RL and human baselines."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "需报告随机种子划分、视觉主题与环境版本；原始基准与比赛设置可能不同。",
+      "en": "Report seed split, visual theme and environment version; original benchmark and challenge settings may differ."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1902.01378",
+      "https://github.com/Unity-Technologies/obstacle-tower-source"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-minerl-dataset",
+    "name": "MineRL dataset",
+    "title": "MineRL: A Large-Scale Dataset of Minecraft Demonstrations",
+    "authors": [
+      "William H. Guss",
+      "Brandon Houghton",
+      "Nicholay Topin",
+      "Phillip Wang",
+      "Cayden Codel",
+      "Manuela Veloso",
+      "Ruslan Salakhutdinov"
+    ],
+    "year": 2019,
+    "venue": "IJCAI 2019",
+    "kind": "dataset",
+    "genres": [
+      "Sandbox"
+    ],
+    "games": [
+      "Minecraft"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "long-horizon",
+      "control"
+    ],
+    "paper": "https://arxiv.org/abs/1907.13440",
+    "repo": "https://github.com/minerllabs/minerl",
+    "scope": {
+      "zh": "与模拟器配套的人类示范数据，用于研究 Minecraft 中的样本高效学习。",
+      "en": "Simulator-paired human demonstrations for sample-efficient Minecraft learning."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "本条为数据集，并非完整评测协议；应区分原始数据发布、ObtainDiamond 比赛与 BASALT 模糊目标任务。",
+      "en": "Dataset entry, not a complete benchmark protocol. Distinguish dataset release from ObtainDiamond competition and BASALT fuzzy-goal tasks."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1907.13440",
+      "https://github.com/minerllabs/minerl"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-griddly",
+    "name": "Griddly",
+    "title": "Griddly: A platform for AI research in games",
+    "authors": [
+      "Chris Bamford",
+      "Shengyi Huang",
+      "Simon Lucas"
+    ],
+    "year": 2020,
+    "venue": null,
+    "kind": "platform",
+    "genres": [
+      "Multi-genre"
+    ],
+    "games": [
+      "Configurable Griddly games"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "generalization",
+      "control"
+    ],
+    "paper": "https://arxiv.org/abs/2011.06363",
+    "repo": "https://github.com/Bam4d/Griddly",
+    "scope": {
+      "zh": "可配置的游戏引擎，支持单智能体、多智能体及即时战略环境接口。",
+      "en": "Configurable game engine with single-agent, multi-agent and RTS interfaces."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "本条年份对应 2020 年预印本，与 GriddlyJS 网页开发环境分开收录。YAML 游戏引擎本身不对应唯一标准评测或单一游戏类型。",
+      "en": "2020 preprint; distinct from GriddlyJS web IDE. A YAML engine does not imply one standardized benchmark or one genre."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/2011.06363",
+      "https://github.com/Bam4d/Griddly"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-elf",
+    "name": "ELF / MiniRTS",
+    "title": "ELF: An Extensive, Lightweight and Flexible Research Platform for Real-time Strategy Games",
+    "authors": [
+      "Yuandong Tian",
+      "Qucheng Gong",
+      "Wenling Shang",
+      "Yuxin Wu",
+      "C. Lawrence Zitnick"
+    ],
+    "year": 2017,
+    "venue": "NeurIPS 2017 (published as NIPS 2017)",
+    "kind": "platform",
+    "genres": [
+      "RTS"
+    ],
+    "games": [
+      "MiniRTS",
+      "Capture the Flag",
+      "Tower Defense"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "strategy",
+      "exploration",
+      "long-horizon"
+    ],
+    "paper": "https://arxiv.org/abs/1707.01067",
+    "repo": "https://github.com/facebookresearch/ELF",
+    "scope": {
+      "zh": "提供 MiniRTS、夺旗与塔防环境的即时战略引擎及强化学习平台。",
+      "en": "RTS engine and RL platform with MiniRTS, Capture the Flag and Tower Defense."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "MiniRTS 是自定义的简化游戏，并非《星际争霸 II》。即时战略分类对应原论文环境，不扩展至后续 ELF 围棋或 ALE 集成。",
+      "en": "MiniRTS is a miniature custom game, not StarCraft II. RTS-specific mapping applies to paper environments, not later ELF Go or ALE integrations."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/1707.01067",
+      "https://github.com/facebookresearch/ELF"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-malmo",
+    "name": "Project Malmo",
+    "title": "The Malmo Platform for Artificial Intelligence Experimentation",
+    "authors": [
+      "Matthew Johnson",
+      "Katja Hofmann",
+      "Tim Hutton",
+      "David Bignell"
+    ],
+    "year": 2016,
+    "venue": "IJCAI 2016 — Demonstration",
+    "kind": "platform",
+    "genres": [
+      "Sandbox"
+    ],
+    "games": [
+      "Minecraft"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "exploration",
+      "coordination",
+      "planning"
+    ],
+    "paper": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/johnson-malmo-platform-camera-ready.pdf",
+    "repo": "https://github.com/microsoft/malmo",
+    "scope": {
+      "zh": "Minecraft 实验平台，提供可配置任务及智能体观测、动作接口。",
+      "en": "Minecraft experimentation platform with configurable missions and agent observation/action interfaces."
+    },
+    "metrics": null,
+    "limits": {
+      "zh": "平台可支持某项能力研究，不等于已定义固定评测协议；需明确任务、奖励、观测及多智能体配置。",
+      "en": "Platform capability does not establish a fixed assessment protocol. Specify mission, reward, observations and multi-agent setup."
+    },
+    "evidence": [
+      "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/johnson-malmo-platform-camera-ready.pdf",
+      "https://github.com/microsoft/malmo",
+      "https://www.microsoft.com/en-us/research/project/project-malmo/"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-spirebench",
+    "name": "SpireBench",
+    "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+    "authors": [
+      "Scott C. Lowe",
+      "Sander W. Keemink"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "kind": "benchmark",
+    "genres": [
+      "Cards",
+      "Roguelike"
+    ],
+    "games": [
+      "Slay the Spire"
+    ],
+    "agents": [
+      "LLM"
+    ],
+    "caps": [
+      "long-horizon",
+      "strategy",
+      "planning",
+      "memory"
+    ],
+    "paper": "https://arxiv.org/abs/2610.12596",
+    "repo": null,
+    "scope": {
+      "zh": "在原版《杀戮尖塔》中完成整局决策，以术语重命名和记忆消融区分先验知识与长期策略。",
+      "en": "Full-run decisions in the original Slay the Spire, with renamed game terminology and memory ablations."
+    },
+    "metrics": {
+      "zh": "分幕通关率、完成幕数、终止楼层、每局与每层成本。",
+      "en": "Act win rates, acts cleared, final floor, cost per run and floor."
+    },
+    "limits": {
+      "zh": "A20、Ironclad 与十个固定测试种子的结果不能直接推广到全部角色；未核实官方代码仓库。",
+      "en": "A20 Ironclad results on ten test seeds do not establish performance across every character; official repository not verified."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/2610.12596",
+      "https://arxiv.org/html/2610.12596v1"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-pokeagent-challenge",
+    "name": "PokéAgent Challenge",
+    "title": "The PokeAgent Challenge: Competitive and Long-Context Learning at Scale",
+    "authors": [
+      "Seth Karten",
+      "Jake Grigsby",
+      "Tersoo Upaa Jr",
+      "Junik Bae",
+      "Seonghun Hong",
+      "Hyunyoung Jeong",
+      "Jaeyoon Jung",
+      "Kun Kerdthaisong",
+      "Gyungbo Kim",
+      "Hyeokgi Kim",
+      "Yujin Kim",
+      "Eunju Kwon",
+      "Dongyu Liu",
+      "Patrick Mariglia",
+      "Sangyeon Park",
+      "Benedikt Schink",
+      "Xianwei Shi",
+      "Anthony Sistilli",
+      "Joseph Twin",
+      "Arian Urdu",
+      "Matin Urdu",
+      "Qiao Wang",
+      "Ling Wu",
+      "Wenli Zhang",
+      "Kunsheng Zhou",
+      "Stephanie Milani",
+      "Kiran Vodrahalli",
+      "Amy Zhang",
+      "Fei Fang",
+      "Yuke Zhu",
+      "Chi Jin"
+    ],
+    "year": 2026,
+    "venue": "NeurIPS 2025 Competition Track (reported by authors)",
+    "kind": "benchmark",
+    "genres": [
+      "RPG",
+      "TBS"
+    ],
+    "games": [
+      "Pokémon Showdown",
+      "Pokémon Emerald"
+    ],
+    "agents": [
+      "LLM",
+      "VLM",
+      "RL"
+    ],
+    "caps": [
+      "strategy",
+      "long-horizon",
+      "planning",
+      "generalization",
+      "partial-observability"
+    ],
+    "paper": "https://arxiv.org/abs/2603.15563",
+    "repo": "https://github.com/sethkarten/continual-harness",
+    "scope": {
+      "zh": "战斗赛道测试宝可梦不完全信息对战；速通赛道测试 Pokémon Emerald 的长期推进。",
+      "en": "Competitive battling tests imperfect-information Pokémon play; speedrunning tests long-horizon progress in Pokémon Emerald."
+    },
+    "metrics": {
+      "zh": "当前战斗官网主指标为 FH-BT 技能评分；速通采用里程碑、耗时和动作数。",
+      "en": "Current battle leaderboard: FH-BT skill rating. Speedrunning: milestones, time and action count."
+    },
+    "limits": {
+      "zh": "固定规则、计时器、状态访问和脚手架后比较；2025 速通竞赛只评到首个道馆。",
+      "en": "Match ruleset, timers, state access and scaffolding; the 2025 speedrun competition evaluated only the first gym."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/2603.15563",
+      "https://pokeagentchallenge.com/battling.html",
+      "https://pokeagentchallenge.com/speedrunning.html",
+      "https://github.com/sethkarten/pokeagent-speedrun"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-vgc-bench",
+    "name": "VGC-Bench",
+    "title": "VGC-Bench: Towards Mastering Diverse Team Strategies in Competitive Pokémon",
+    "authors": [
+      "Cameron Angliss",
+      "Jiaxun Cui",
+      "Jiaheng Hu",
+      "Arrasy Rahman",
+      "Peter Stone"
+    ],
+    "year": 2025,
+    "venue": "AAMAS 2026 (arXiv v3 manuscript)",
+    "kind": "benchmark",
+    "genres": [
+      "TBS",
+      "RPG"
+    ],
+    "games": [
+      "Pokémon Showdown (VGC doubles)"
+    ],
+    "agents": [
+      "LLM",
+      "RL",
+      "IL"
+    ],
+    "caps": [
+      "strategy",
+      "generalization",
+      "partial-observability"
+    ],
+    "paper": "https://arxiv.org/abs/2506.10326",
+    "repo": "https://github.com/cameronangliss/vgc-bench",
+    "scope": {
+      "zh": "在 VGC 双打中检验智能体使用不同阵容的能力，提供 RL、行为克隆、LLM 与启发式基线。",
+      "en": "Evaluates piloting diverse VGC doubles teams with RL, behavior-cloning, LLM and heuristic baselines."
+    },
+    "metrics": {
+      "zh": "交叉对战胜率、Alpha-Rank、未见阵容泛化、训练对手得到的可利用性估计。",
+      "en": "Cross-play win rates, Alpha-Rank, unseen-team generalization and trained-exploiter estimates."
+    },
+    "limits": {
+      "zh": "研究已有阵容的使用而非完整构筑；LLM 基线较基础，评测局数少于 RL。",
+      "en": "Studies team usage rather than full team construction; the basic LLM baseline has fewer evaluation games than RL."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/2506.10326",
+      "https://arxiv.org/html/2506.10326v3",
+      "https://github.com/cameronangliss/vgc-bench"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-gg-bench",
+    "name": "gg-bench",
+    "title": "Measuring General Intelligence with Generated Games",
+    "authors": [
+      "Vivek Verma",
+      "David Huang",
+      "William Chen",
+      "Dan Klein",
+      "Nicholas Tomlin"
+    ],
+    "year": 2025,
+    "venue": "arXiv preprint",
+    "kind": "benchmark",
+    "genres": [
+      "Multi-genre"
+    ],
+    "games": [
+      "Generated two-player game environments"
+    ],
+    "agents": [
+      "LLM",
+      "RL"
+    ],
+    "caps": [
+      "strategy",
+      "generalization",
+      "planning"
+    ],
+    "paper": "https://arxiv.org/abs/2505.07215",
+    "repo": "https://github.com/vivek3141/gg-bench",
+    "scope": {
+      "zh": "自动生成新游戏并训练 RL 对手，用游戏说明、棋盘状态和合法动作评测 LLM 下棋。",
+      "en": "Generates novel games and RL opponents; LLMs play from rules, board state and legal actions."
+    },
+    "metrics": {
+      "zh": "对 RL 对手的平均胜率、成本及失败类型。",
+      "en": "Average win rate against RL opponents, cost and failure categories."
+    },
+    "limits": {
+      "zh": "生成规则与实现可能不一致；胜率依赖对手强度。属于游戏对战评测，不是游戏开发质量评测。",
+      "en": "Generated rules and implementations may disagree; win rate depends on opponent strength. This evaluates gameplay, not game-development quality."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/2505.07215",
+      "https://arxiv.org/html/2505.07215v1",
+      "https://github.com/vivek3141/gg-bench"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-comrad",
+    "name": "COMRAD",
+    "title": "COMRAD: A Benchmark for Embodied Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Khoi H.B. Nguyen",
+      "Dimitar Zhivkov Zhekov",
+      "Tristan Tomilin"
+    ],
+    "year": 2026,
+    "venue": "Nineteenth European Workshop on Reinforcement Learning (project citation)",
+    "kind": "benchmark",
+    "genres": [
+      "FPS"
+    ],
+    "games": [
+      "ViZDoom / Doom cooperative scenarios"
+    ],
+    "agents": [
+      "RL"
+    ],
+    "caps": [
+      "coordination",
+      "generalization",
+      "partial-observability",
+      "control"
+    ],
+    "paper": "https://openreview.net/forum?id=0x7G2k0Hh7",
+    "repo": "https://github.com/TTomilin/COMRAD",
+    "scope": {
+      "zh": "13 个第一人称合作场景，以局部视觉、角色差异、同步行为与程序化地图研究 MARL。",
+      "en": "Thirteen first-person cooperative scenarios combine local vision, asymmetric roles, synchronization and generated layouts."
+    },
+    "metrics": {
+      "zh": "场景原始得分与归一化得分、留出地图表现、学习曲线及多种子置信区间。",
+      "en": "Scenario raw/normalized scores, held-out-layout performance, learning curves and multi-seed confidence intervals."
+    },
+    "limits": {
+      "zh": "官方基线是 RL；未核实原生 LLM 接口。OpenReview 正文受浏览器验证限制，论文身份来自官方项目页。",
+      "en": "Official baselines are RL; native LLM support is unverified. OpenReview access was challenged; identity comes from the authors' project page."
+    },
+    "evidence": [
+      "https://lmbored.github.io/comrad_site/",
+      "https://github.com/TTomilin/COMRAD"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-agenticsts",
+    "name": "AgenticSTS",
+    "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+    "authors": [
+      "Xiangchen Cheng",
+      "Yunwei Jiang",
+      "Jianwen Sun",
+      "Zizhen Li",
+      "Chuanhao Li",
+      "Xiangcheng Cao",
+      "Yihao Liu",
+      "Fanrui Zhang",
+      "Li Jin",
+      "Kaipeng Zhang"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint",
+    "kind": "environment",
+    "genres": [
+      "Cards",
+      "Roguelike"
+    ],
+    "games": [
+      "Slay the Spire 2"
+    ],
+    "agents": [
+      "LLM"
+    ],
+    "caps": [
+      "memory",
+      "long-horizon",
+      "strategy"
+    ],
+    "paper": "https://arxiv.org/abs/2607.02255",
+    "repo": "https://github.com/AlayaLab/AgenticSTS",
+    "scope": {
+      "zh": "将每步上下文拆为可消融的有界记忆层，在《杀戮尖塔 2》中研究长期决策，发布 298 条轨迹。",
+      "en": "Ablatable bounded memory layers support long-horizon decisions in Slay the Spire 2; 298 trajectories are released."
+    },
+    "metrics": {
+      "zh": "固定难度胜率及置信区间、进度与难度阶梯结果、token 和成本。",
+      "en": "Fixed-difficulty win rates with confidence intervals, progress/difficulty-ladder results, tokens and cost."
+    },
+    "limits": {
+      "zh": "关键 A0 消融每条件十局，差异未达统计决定性；跨脚手架比较不是严格受控的记忆因果检验。",
+      "en": "Key A0 cells have ten runs and inconclusive differences; cross-harness comparisons do not isolate memory causally."
+    },
+    "evidence": [
+      "https://arxiv.org/abs/2607.02255",
+      "https://arxiv.org/html/2607.02255v1",
+      "https://github.com/AlayaLab/AgenticSTS"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false
+  },
+  {
+    "id": "SUP-darefightingice-llm-2026",
+    "name": "DareFightingICE LLM AI Competition 2026",
+    "title": "2026 DareFightingICE LLM AI Competition",
+    "authors": [],
+    "year": 2026,
+    "venue": "IEEE CoG 2026 competition",
+    "kind": "competition",
+    "genres": [
+      "Fighting"
+    ],
+    "games": [
+      "DareFightingICE"
+    ],
+    "agents": [
+      "LLM"
+    ],
+    "caps": [
+      "control",
+      "strategy"
+    ],
+    "paper": null,
+    "repo": "https://github.com/TeamFightingICE/FightingICE",
+    "scope": {
+      "zh": "面向实时格斗的 LLM 竞赛，限定提示工程或最多 7B 模型微调。",
+      "en": "A real-time fighting competition using prompt engineering or fine-tuned LLMs up to 7B parameters."
+    },
+    "metrics": {
+      "zh": "2026 完整计分规则待补充，不能沿用网站旧版 2013–2021 规则。",
+      "en": "Full 2026 scoring protocol remains unverified; do not reuse legacy 2013–2021 rules."
+    },
+    "limits": {
+      "zh": "竞赛身份和结果已核实，2026 规则包链接未成功读取；作为协议待补充条目。",
+      "en": "Competition identity/results are verified, but the 2026 rule-package link failed; protocol details are pending."
+    },
+    "evidence": [
+      "https://cog2026.org/competitions",
+      "https://www.ice.ci.ritsumei.ac.jp/~ftgaic/index-R.html",
+      "https://github.com/TeamFightingICE/FightingICE"
+    ],
+    "checked": "2026-10-18",
+    "runtimeVerified": false,
+    "verificationDetail": {
+      "zh": "仅核实 2026 竞赛身份和官方结果；当届计分协议尚待核验。",
+      "en": "Only the 2026 competition identity and official results were checked; its scoring protocol remains unverified."
+    }
+  }
+]
