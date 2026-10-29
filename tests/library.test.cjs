@@ -9,9 +9,9 @@ for(const r of d.records){assert(kinds.includes(r.kind),r.id+': '+r.kind);assert
 assert.equal(d.records.find(r=>r.id==='SUP-spirebench').repo,null);assert(d.records.some(r=>r.id==='GAB040')&&d.records.some(r=>r.id==='SUP-smac'));
 assert.equal(d.records.find(r=>r.id==='GAB075').genres[0],'TBS');assert.equal(d.records.find(r=>r.id==='GAB095').repo,'https://github.com/TTomilin/HASARD');
 let language='en';const c={window:{AtlasLibraryData:d,AtlasLanguage:{current:()=>language}},URLSearchParams};
-vm.runInNewContext(fs.readFileSync('dist/library.js','utf8'),c);const results=c.window.AtlasLibrary.filtered();assert.equal(results.length,385);assert.equal(results.filter(r=>!['method','survey','review'].includes(r.kind)).length,212+increment.records.filter(r=>!['method','survey','review'].includes(r.kind)).length);assert(results.some(r=>r.id==='SUP-spirebench'));assert(results.some(r=>r.kind==='method'));
+vm.runInNewContext(fs.readFileSync('dist/library.js','utf8'),c);const defaults=c.window.AtlasLibrary.filtered();assert(defaults.every(r=>!['method','survey','review'].includes(r.kind)));const results=c.window.AtlasLibrary.filtered({scope:'all'});assert.equal(results.length,385);assert.equal(results.filter(r=>!['method','survey','review'].includes(r.kind)).length,212+increment.records.filter(r=>!['method','survey','review'].includes(r.kind)).length);assert(results.some(r=>r.id==='SUP-spirebench'));assert(results.some(r=>r.kind==='method'));
 console.log('Library: 385 identities, preserved discovery additions and prior source reviews plus scoped collection increment, provenance, unknown-code handling and private-field exclusion pass.');
-const browse=c.window.AtlasLibrary.filtered;
+const browse=(overrides={},ignore=null)=>c.window.AtlasLibrary.filtered({scope:'all',...overrides},ignore);
 const ids=rows=>Array.from(rows,r=>r.id).sort();
 assert.deepEqual(ids(browse({agent:'LLM,RL'})),ids(d.records.filter(r=>r.agents.includes('LLM')||r.agents.includes('RL'))),'sidebar choices within a facet use OR');
 assert.deepEqual(ids(browse({agent:'LLM,RL',cap:'planning,memory'})),ids(d.records.filter(r=>(r.agents.includes('LLM')||r.agents.includes('RL'))&&(r.caps.includes('planning')||r.caps.includes('memory')))),'different sidebar facets combine with AND');
@@ -19,3 +19,11 @@ assert.deepEqual(ids(browse({agent:'LLM',genre:'RTS'},'agent')),ids(d.records.fi
 assert.equal(browse({q:'BALROG'})[0].profileId,'balrog');
 assert.equal(browse({agent:'LLM',cap:'planning',q:'no-such-research-record'}).length,0);
 console.log('Sidebar filters: complete archive scope, OR within facets, AND across facets, conditional counts and search pass.');
+
+for(const scope of ['resources','related','references','pending']){
+ const actual=c.window.AtlasLibrary.filtered({scope});
+ assert.deepEqual(ids(actual),ids(d.records.filter(r=>c.window.AtlasLibrary.scopeOf(r)===scope)));
+}
+assert.equal(c.window.AtlasLibrary.filtered({scope:'references'}).length,3);
+assert(!c.window.AtlasLibrary.filtered({scope:'resources'}).some(r=>r.kind==='survey'));
+console.log('Directory scopes: default resources, independent related/reference/pending views, complete all-archive access.');

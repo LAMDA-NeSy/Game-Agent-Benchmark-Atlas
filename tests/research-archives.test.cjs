@@ -47,3 +47,30 @@ for(language of ['zh','en'])for(const a of ctx.window.AtlasResearchArchives.entr
 console.log('Research archives: 385 saved identities, original deep profiles, 417 scoped tasks, source status, aliases, uses and public-only fields preserved.');
 
 assert.equal(model.get('SUP-generalist-game-players-survey'),undefined,'withdrawn survey must not remain in public archives');
+
+for(language of ['zh','en'])for(const a of ctx.window.AtlasResearchArchives.entries){
+ const overview=ctx.window.AtlasResearchArchives.render(a,{tab:'overview'});
+ const evidence=ctx.window.AtlasResearchArchives.render(a,{tab:'evidence'});
+ const protocol=ctx.window.AtlasResearchArchives.render(a,{tab:'protocol'});
+ assert(!evidence.includes('data-task-unit='),'classification must not repeat full protocols');
+ assert(!overview.includes('class="archive-missing"'),'missing details have one home');
+ assert.equal(a.taskGroups.documented.length+a.taskGroups.arenaProposals.length,a.tasks.length);
+ for(const u of a.tasks){assert.equal(protocol.split('data-task-unit="'+u.id+'"').length-1,1);}
+ if(a.taskGroups.arenaProposals.length)assert(protocol.includes('archive-proposals'));
+}
+const crafter=model.get('balrog').tasks.find(u=>u.id==='existing-crafter-progress');
+const split=ctx.window.AtlasTaskCoverage.metricParts(crafter);
+assert(split.documented.en.includes('achievement'));
+assert(!split.documented.en.includes('Proposed'));
+assert(split.editorial.en.includes('Proposed Arena diagnostics'));
+const card=ctx.window.AtlasTaskCoverage.unitDetail(crafter);
+assert(card.includes('documented-metrics')&&card.includes('editorial-metrics'));
+assert.equal(model.entries.reduce((n,a)=>n+a.taskGroups.arenaProposals.length,0),24);
+console.log('Archives: proposal/source separation, explicit metric boundaries, single protocol rendering, and evidence-only classification verified.');
+
+const separated=model.entries.flatMap(a=>a.tasks).filter(u=>ctx.window.AtlasTaskCoverage.metricParts(u));
+assert.equal(separated.length,13);
+for(const u of separated)for(const lang of ['zh','en']){
+ const parts=ctx.window.AtlasTaskCoverage.metricParts(u);
+ assert.equal((parts.documented[lang]+parts.editorial[lang]).replace(/\s/g,''),u.metrics[lang].replace(/\s/g,''),'metric separation preserves source wording');
+}

@@ -89,3 +89,16 @@
 
 /* Field-level paradigm evidence; compact academic annotations. */
 .paradigm-filter-note{font-size:11px;line-height:1.6;color:#888;margin:0 0 13px}.paradigm-evidence{margin-top:7px;font-size:11px}.paradigm-claims dt span{display:block;font-size:12px;font-weight:400;color:#888;margin-top:5px}.paradigm-source{font-size:12px;margin:12px 0}.paradigm-source span{display:block;color:#888;margin-top:4px}.paradigm-claims dd a{font-size:12px}
+
+/* Research archive scope and task provenance. */
+.archive-results .archive-scope-tabs{flex-wrap:wrap;white-space:normal;gap:0 14px}
+.archive-directory-actions{display:flex;justify-content:space-between;gap:20px;padding:10px 0;font-size:12px}
+.archive-directory-actions [aria-pressed=true]{font-weight:650;color:#563e32}
+.archive-proposals{border-left:2px solid #9a7961;padding-left:18px}
+.archive-proposal-label{font-size:12px;font-weight:600;color:#795a43}
+.archive-capability-summary{border-bottom:1px solid #e8e5df;padding:12px 0}
+.archive-capability-summary h4{font-size:14px;margin:0 0 10px}
+.archive-capability-summary h4 small{font-size:11px;color:#795a43;margin-left:10px;font-weight:400}
+.archive-capability-summary p{font-size:13px;line-height:1.8}
+.archive-capability-summary .source-list{font-size:12px}
+.archive-gap-link{margin-top:15px}

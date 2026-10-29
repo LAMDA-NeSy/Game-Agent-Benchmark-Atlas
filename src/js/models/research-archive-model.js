@@ -20,7 +20,7 @@
    for(const k of ['detailLevel','summary','zh','observation','action','protocol','limit','why','note','research','evidence','sourceChecked','sourceScope','sourceRationale','access'])if(r[k]!==undefined)profile[k]=r[k];
    const bibliography={};
    for(const k of ['id','name','title','authors','year','venue','paper','repo','kind','domain','genres','caps','agents','agentReview','games','review','classification','scope','metrics','limits','verificationDetail','gameAttribution'])if(b[k]!==undefined)bibliography[k]=b[k];
-   return {id,sourceId:b.id,bibliography,profile,tasks,gameLinks,taskReview:review,missing,sources:[...new Map(sources.map(e=>[e.url,e])).values()],executionVerified:tasks.some(u=>u.executionVerified===true)};
+   return {id,sourceId:b.id,bibliography,profile,tasks,taskGroups:{documented:tasks.filter(u=>u.origin!=='arena-documented-candidate').map(u=>u.id),arenaProposals:tasks.filter(u=>u.origin==='arena-documented-candidate').map(u=>u.id)},gameLinks,taskReview:review,missing,sources:[...new Map(sources.map(e=>[e.url,e])).values()],executionVerified:tasks.some(u=>u.executionVerified===true)};
   });
   const byId=new Map(entries.flatMap(e=>[[e.id,e],[e.sourceId,e]]));
   return {entries,get:id=>byId.get(id),canonical:id=>byId.get(id)?.id||null};

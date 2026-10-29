@@ -32,8 +32,10 @@ const pending=audit.records.find(r=>r.id==='OMIT320');assert.equal(pending.statu
 for(const id of ['OMIT328','OMIT329'])assert(!audit.records.find(r=>r.id===id).agents.includes('VLM'),'judge-only VLM does not classify the generator');
 Object.assign(ctx.window,{AtlasLibraryData:library,AtlasLanguage:{current:()=> 'zh'}});
 vm.runInNewContext(fs.readFileSync('dist/library.js','utf8'),ctx);
-assert.equal(ctx.window.AtlasLibrary.filtered({agent:'pending'}).length,1);
-assert.equal(ctx.window.AtlasLibrary.filtered({agent:'not_applicable'}).length,50);
-assert.equal(ctx.window.AtlasLibrary.filtered({agent:'VLA'}).length,18);
-assert.equal(ctx.window.AtlasLibrary.filtered({agent:'IL'}).length,68);
+assert.equal(ctx.window.AtlasLibrary.filtered({scope:'all',agent:'pending'}).length,1);
+assert.equal(ctx.window.AtlasLibrary.filtered({scope:'all',agent:'not_applicable'}).length,50);
+assert.equal(ctx.window.AtlasLibrary.filtered({scope:'all',agent:'VLA'}).length,18);
+assert.equal(ctx.window.AtlasLibrary.filtered({scope:'all',agent:'IL'}).length,68);
 console.log('Paradigm review: all 385 sources, direct claims, status filters, aliases and exports agree; tasks/game associations remain scoped.');
+
+for(const agent of ['VLA','IL','pending','not_applicable'])assert.equal(ctx.window.AtlasLibrary.filtered({agent}).length,ctx.window.AtlasLibrary.filtered({scope:'all',agent}).filter(r=>ctx.window.AtlasLibrary.scopeOf(r)==='resources').length);

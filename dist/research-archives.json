@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "research-archives-v1",
+  "schemaVersion": "research-archives-v2",
   "sourceHash": "450f5af986069ff4b949d632425dc78a8c47adcda9ccef4863a7d5fc46cd5995",
   "count": 385,
   "records": [
@@ -336,6 +336,15 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-cradle-rdr2",
+          "v24-cradle-stardew",
+          "v24-cradle-dealers",
+          "v24-cradle-cities"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "stardew-valley",
@@ -768,6 +777,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.00103-task-interactive-query"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2606.00103",
@@ -1046,6 +1061,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2602.17594-keyboard-suite"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2602.17594",
@@ -1343,6 +1364,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2603.06656-2048-control"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "baba-is-you",
@@ -2744,6 +2771,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2604.07429-task-minecraft-clone-collection",
+          "AX26-2604.07429-task-flappy-timing"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tetris",
@@ -5984,6 +6018,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2601.02427-anonymous-control"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "nitrogen-evaluation-games",
@@ -6933,6 +6973,23 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.09826-task-obstaclerun3d",
+          "AX26-2606.09826-task-obstaclerun2d",
+          "AX26-2606.09826-task-laststand",
+          "AX26-2606.09826-task-monstershoot",
+          "AX26-2606.09826-task-sceneescape",
+          "AX26-2606.09826-task-cuechase",
+          "AX26-2606.09826-task-solocraft",
+          "AX26-2606.09826-task-skyduel",
+          "AX26-2606.09826-task-crystalguard",
+          "AX26-2606.09826-task-midlineclash",
+          "AX26-2606.09826-task-sharedfloor",
+          "AX26-2606.09826-task-handoffrun"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "omnigamearena-obstaclerun3d",
@@ -7753,6 +7810,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "game-rl-3d-maze",
@@ -10650,6 +10711,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "REC-2.3-execution-subset"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "pokemon-crystal",
@@ -11288,6 +11355,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -13350,6 +13421,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-lmgame-sokoban"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "sokoban",
@@ -13879,6 +13956,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-modular-heldout-board"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "hanabi",
@@ -15846,6 +15929,16 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "profile-minecraft-orak",
+          "profile-starcraft-ii-orak"
+        ],
+        "arenaProposals": [
+          "existing-sc2-match",
+          "existing-minecraft-crafting"
+        ]
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -16953,6 +17046,12 @@
           "arenaTaskId": "crafter-progress"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-crafter-progress"
+        ]
+      },
       "gameLinks": [
         {
           "id": "crafter",
@@ -17451,6 +17550,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB098-head-to-head"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tic-tac-toe",
@@ -18020,6 +18125,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB058-aquawar"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gab058",
@@ -18328,6 +18439,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A1-chess-imitation"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gap-a1",
@@ -18813,6 +18930,15 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "profile-minecraft-smartplay"
+        ],
+        "arenaProposals": [
+          "existing-hanoi-order",
+          "existing-bandit-learning"
+        ]
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -19364,6 +19490,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "VLA-28-openha-cross-level"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -19628,6 +19760,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -19960,6 +20096,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -20367,6 +20507,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "TOP-09-minecraft-tasks"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -20615,6 +20761,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-xenon-minerl"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -20895,6 +21047,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-adam-item-discovery"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -21321,6 +21479,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "VLA-18-minecraft-instruction-following",
+          "VLA-18-atari-return-steering"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -23567,6 +23732,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "VLA-27-mcu-acquisition"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -23850,6 +24021,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-partial-jarvis-mcu"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -24232,6 +24409,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-mrsteve-exploration",
+          "v24-mrsteve-aba"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -24581,6 +24765,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "VLA-15-atomic-collection",
+          "VLA-15-long-horizon-67"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -24942,6 +25133,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "VLA-14-interaction-12",
+          "VLA-14-hierarchical-long-tasks"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -25230,6 +25428,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-walle-mars"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "mars",
@@ -25600,6 +25804,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "VLA-07-skillforge-demonstration"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -25889,6 +26099,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "TOP-22-task-counter-commonsense-worlds"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "mars",
@@ -26185,6 +26401,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "VLA-05-context-dependent",
+          "VLA-05-process-dependent"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -26479,6 +26702,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-omnijarvis-programmatic"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -26784,6 +27013,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-optimus1-67"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -27072,6 +27307,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-rlgpt-obtaindiamond"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -27360,6 +27601,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-deckard-items"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -27661,6 +27908,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-deps-minedojo"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -27991,6 +28244,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-spring-crafter"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "crafter",
@@ -28279,6 +28538,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-steve1-programmatic"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -28560,6 +28825,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.08340-task-coordination-achievements"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "alem",
@@ -28785,6 +29056,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "crafter",
@@ -30064,6 +30339,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2605.30931-task-hidden-prerequisites"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -30289,6 +30570,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2607.29218-task-paired-rules"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -30642,6 +30929,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.15684-task-crisis",
+          "AX26-2606.15684-task-vanishing",
+          "AX26-2606.15684-task-boss"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -30867,6 +31162,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-craftium-choptree"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "craftium",
@@ -31173,6 +31474,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB089-resource-choice"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "evaaa",
@@ -31371,6 +31678,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -31670,6 +31981,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB097-main-35"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -32018,6 +32335,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-craftax-dungeon"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "craftax",
@@ -32261,6 +32584,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A10-mixed-initiative-pilot"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -32604,6 +32933,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-teamcraft-building"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -33047,6 +33382,16 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB043-task-find-cave",
+          "GAB043-task-waterfall",
+          "GAB043-task-animal-pen",
+          "GAB043-task-village-house",
+          "GAB043-diamond-shovel"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -33329,6 +33674,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB055-task-instruction-building"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -33580,6 +33931,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB042-offline-38"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "nethack",
@@ -33855,6 +34212,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-nmmo-distance"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "neural-mmo",
@@ -34169,6 +34532,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB056-team-competition"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "neural-mmo",
@@ -34423,6 +34792,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB027-task-compositional-generalization"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "avalon-worlds",
@@ -34651,6 +35026,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB036-human-preferences"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -34966,6 +35347,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-crafter-achievements"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "crafter",
@@ -35178,6 +35565,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB037-silent-builder"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -35504,6 +35897,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "profile-minecraft-minedojo"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -35790,6 +36189,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB029-nle-online-evaluation"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "nethack",
@@ -36126,6 +36531,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-minihack-river"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minihack",
@@ -36372,6 +36783,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB006-continuing-foraging"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "jelly-bean-world",
@@ -36672,6 +37089,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-nethack-scout"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "nethack",
@@ -37052,6 +37475,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-gamesense-flappy",
+          "v24-gamesense-wukong",
+          "v24-gamesense-doom"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "flappy-bird",
@@ -37405,6 +37836,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2608.09902-task-dsle-five-bosses"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "dark-souls",
@@ -37653,6 +38090,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2607.06514-fighting-robustness"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "footsies",
@@ -37932,6 +38375,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-odysseus-mario-land"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2605.00347",
@@ -38238,6 +38687,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2604.08340-visual-quests"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "pokemon-legends-za",
@@ -38527,6 +38982,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-dashvmc-live"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "geometry-dash",
@@ -38719,6 +39180,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "cyberpunk-2077",
@@ -39057,6 +39522,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-hasard-armament"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -39332,6 +39803,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-kinetix-holdout"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "kinetix",
@@ -39712,6 +40189,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB072-transfer-splits"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -42895,6 +43378,12 @@
           "arenaTaskId": "fightladder-ryu-mirror"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-fightladder-ryu-mirror"
+        ]
+      },
       "gameLinks": [
         {
           "id": "street-fighter-ii",
@@ -43161,6 +43650,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB071-task-unseen-procgen-levels"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "procgen-games",
@@ -45000,6 +45495,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB074-object-centric-ppo"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -45623,6 +46124,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-videogamebench-doom-ii"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom-ii",
@@ -46211,6 +46718,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-coom-cross-domain"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -46479,6 +46992,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-levdoom-level-generalization"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -46741,6 +47260,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB002-online-imitation"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -48831,6 +49356,13 @@
           "arenaTaskId": "dodgeball-control"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-coinrun-heldout",
+          "existing-dodgeball-control"
+        ]
+      },
       "gameLinks": [
         {
           "id": "procgen-games",
@@ -50190,6 +50722,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB005-atari-offline"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gab005",
@@ -55825,6 +56363,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-rlhg-human-model"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "honor-of-kings",
@@ -56083,6 +56627,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "TOP-03-human-agent-mcc"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "honor-of-kings",
@@ -56346,6 +56896,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-copa-smac"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -56726,6 +57282,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-scc-human-tv-t"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -56971,6 +57533,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.24391-task-fog-war-duel"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "age-of-llm",
@@ -57200,6 +57768,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2604.07733-task-strategic-control"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "civilization-v",
@@ -57450,6 +58024,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2608.18423-task-twenty-year-management"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "fm-bench-football-management",
@@ -57923,6 +58503,16 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.18950-task-tcp",
+          "AX26-2606.18950-task-mfd",
+          "AX26-2606.18950-task-fs-f",
+          "AX26-2606.18950-task-fs-t",
+          "AX26-2606.18950-task-sp"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "beyond-all-reason",
@@ -58202,6 +58792,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "REC-2.5-task-monitor-and-followthrough"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "civilization-vi",
@@ -58459,6 +59055,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB110-five-levels"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "towermind",
@@ -58767,6 +59369,12 @@
           "arenaTaskId": "factorio-production"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-factorio-production"
+        ]
+      },
       "gameLinks": [
         {
           "id": "factorio",
@@ -58959,6 +59567,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB103-dragon-team-combat"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "mini-hok",
@@ -59280,6 +59894,12 @@
           "arenaTaskId": "civrealm-settler-build-city"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-civrealm-settler-build-city"
+        ]
+      },
       "gameLinks": [
         {
           "id": "freeciv-web",
@@ -59545,6 +60165,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-textstarcraft-full-game"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -59727,6 +60353,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "miaosuan-wargame",
@@ -60057,6 +60687,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB045-task-1v1",
+          "GAB045-task-3v3"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "honor-of-kings",
@@ -60433,6 +61070,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "profile-starcraft-ii-smacv2"
+        ],
+        "arenaProposals": [
+          "existing-smac-team"
+        ]
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -60696,6 +61341,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB038-duel-transfer"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "honor-of-kings",
@@ -60942,6 +61593,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB025-full-game-bot-pool"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "microrts",
@@ -61192,6 +61849,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2608.25419-task-aircraft-transfer"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "bvr-sim",
@@ -61413,6 +62076,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.18786-front-goal-team"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "robocup-2d",
@@ -61612,6 +62281,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -61902,6 +62575,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "REC-3.3-frozen-roster-eval"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "super-smash-bros-melee",
@@ -62261,6 +62940,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB109-atari-ram-subset"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -67133,6 +67818,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB088-set-spike-easy"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "volleybots",
@@ -67378,6 +68069,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB069-academy-team"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "football",
@@ -67636,6 +68333,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A12-fighting-mirror"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "mortal-kombat-ii",
@@ -67899,6 +68602,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-memorymaze-repeated-targets"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "memory-maze",
@@ -68187,6 +68896,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB030-camera-coverage",
+          "GAB030-target-transport"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "mate",
@@ -68495,6 +69211,12 @@
           "arenaTaskId": "alchemy-discovery"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-alchemy-discovery"
+        ]
+      },
       "gameLinks": [
         {
           "id": "alchemy",
@@ -68748,6 +69470,12 @@
           "arenaTaskId": "football-academy-3v1"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-football-academy-3v1"
+        ]
+      },
       "gameLinks": [
         {
           "id": "football",
@@ -68968,6 +69696,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-cwm-board-mcts"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "leduc-holdem",
@@ -69979,6 +70713,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-marshal-hanabi",
+          "v24-marshal-simple-transfer"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "hanabi",
@@ -70620,6 +71361,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-spiral-training-games"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tic-tac-toe",
@@ -70942,6 +71689,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-student-games-chess"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-top-14",
@@ -71229,6 +71982,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-alphaholdem-hunl"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "no-limit-holdem",
@@ -71504,6 +72263,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-deepnash-stratego"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "stratego",
@@ -71749,6 +72514,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-douzero-positions"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doudizhu",
@@ -72014,6 +72785,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2602.13214-graded-anchors"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doudizhu",
@@ -72539,6 +73316,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "chess",
@@ -72833,6 +73614,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2607.29577-encounter",
+          "AX26-2607.29577-day"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "dungeons-dragons",
@@ -73063,6 +73851,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2605.06066-five-deck-matches"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "magic-the-gathering",
@@ -73324,6 +74118,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2602.00676-pairwise-teams"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "guandan",
@@ -73543,6 +74343,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2605.29653-fixed-policy"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "pokemon-tcg",
@@ -73798,6 +74604,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2608.25832-multilingual-selfplay"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tic-tac-toe",
@@ -74348,6 +75160,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2603.03252-mcts-cardstock"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2603.03252",
@@ -75418,6 +76236,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-B9-short-chess-rollouts"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "chess",
@@ -75606,6 +76430,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "concept",
@@ -75865,6 +76693,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB112-sc2-macro"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -76155,6 +76989,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "NEW-2026-LUDO-spot-decisions"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "ludo",
@@ -76330,6 +77170,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "turn-based-combat-arena",
@@ -76600,6 +77444,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A2-matchplay"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "chess",
@@ -76856,6 +77706,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB081-guess-average"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gab081",
@@ -77064,6 +77920,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "guard-games",
@@ -77518,6 +78378,15 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-llm4card-doudizhu",
+          "v24-llm4card-guandan",
+          "v24-llm4card-riichi",
+          "v24-llm4card-rlcard"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "leduc-holdem",
@@ -78091,6 +78960,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A6-tictactoe"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tic-tac-toe",
@@ -78579,6 +79454,15 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A5-strategic-matches",
+          "GAP-A5-abstract-strategy-subset",
+          "GAP-A5-team-coordination-subset",
+          "GAP-A5-hidden-role-social-subset"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gap-a5",
@@ -79214,6 +80098,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB070-ipd"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gab070",
@@ -79506,6 +80396,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-B3-tool-chess"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "chess",
@@ -79763,6 +80659,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-B2-gto-decisions"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "poker",
@@ -79951,6 +80853,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gap-b4",
@@ -80208,6 +81114,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-pgx-alphazero"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "reversi",
@@ -80705,6 +81617,12 @@
           "arenaTaskId": "hanabi-partner"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-hanabi-partner"
+        ]
+      },
       "gameLinks": [
         {
           "id": "hanabi",
@@ -80842,6 +81760,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "ludii-games",
@@ -81151,6 +82073,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-rlcard-leduc"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "rlcard-games",
@@ -82004,6 +82932,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "TOP-20-hidden-role",
+          "TOP-20-public-goods-five-rounds"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "prisoners-dilemma",
@@ -82489,6 +83424,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-richelieu-press"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "diplomacy",
@@ -82736,6 +83677,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-onuw-discussion"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "werewolf",
@@ -83029,6 +83976,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-top-25-blind-bandits"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "overcooked",
@@ -83356,6 +84309,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "smallville",
@@ -83604,6 +84561,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-top-17-diplomacy-human-league"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "diplomacy",
@@ -83909,6 +84872,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-top-24-heldout-chef-partners"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "overcooked",
@@ -84192,6 +85161,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2605.04312-survival-vote"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2605.04312",
@@ -84424,6 +85399,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "avalon-board",
@@ -84584,6 +85563,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2602.12517",
@@ -84836,6 +85819,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.28514-defusal"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "keep-talking",
@@ -85061,6 +86050,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-partial-m3-repeated-pd"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "prisoners-dilemma",
@@ -85367,6 +86362,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2605.29512-colonel-blotto"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "colonel-blotto",
@@ -85666,6 +86667,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2601.09017-five-player-spyfall"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "spyfall",
@@ -85932,6 +86939,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2607.28146-five-player-government"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "secret-hitler",
@@ -86234,6 +87247,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-partial-socialgym-werewolves"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "rock-paper-scissors",
@@ -88042,6 +89061,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "hanabi",
@@ -88291,6 +89314,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "REC-4.3-corrupted-stag-hunt"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "stag-hunt",
@@ -88684,6 +89713,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "REC-2.1-chess-roundrobin",
+          "REC-2.1-heads-up-poker",
+          "REC-2.1-eight-player-werewolf"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "poker",
@@ -89139,6 +90176,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-rec-4.4-marbo-werewolf",
+          "v24-rec-4.4-marbo-among-us"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-rec-4.4",
@@ -89409,6 +90453,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "werewolf",
@@ -89625,6 +90673,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB092-seven-player-deception"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "among-us",
@@ -90022,6 +91076,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "profile-overcooked-collab-overcooked"
+        ],
+        "arenaProposals": [
+          "existing-overcooked-team"
+        ]
+      },
       "gameLinks": [
         {
           "id": "overcooked",
@@ -90375,6 +91437,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB099-collab-pursuit",
+          "GAB099-collaborative-escape"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "overcooked",
@@ -90824,6 +91893,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB101-nim-turn-play"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "nim",
@@ -91323,6 +92398,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB102-minecraft-structure-building"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -91651,6 +92732,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB062-contract-crafting"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "adasociety",
@@ -91900,6 +92987,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-B8-text-among-us"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "among-us",
@@ -92157,6 +93250,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A8-role-games"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "avalon-board",
@@ -92377,6 +93476,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-B6-two-team-codenames"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "codenames",
@@ -92637,6 +93742,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB077-small-hanabi"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gab077",
@@ -93004,6 +94115,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-meltingpot-contest-cleanup"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "melting-pot",
@@ -93302,6 +94419,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-B7-definitions"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "balderdash",
@@ -93533,6 +94656,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A9-welfare-game"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "diplomacy",
@@ -93818,6 +94947,12 @@
           "arenaTaskId": "overcooked-zsc"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-overcooked-zsc"
+        ]
+      },
       "gameLinks": [
         {
           "id": "overcooked",
@@ -94091,6 +95226,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-meltingpot-original-cleanup"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "melting-pot",
@@ -94443,6 +95584,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-gab009-crossroads-team-race"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "arena-unity-games",
@@ -98349,6 +99496,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.24893-generated-main-quest"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "agentodyssey-games",
@@ -98812,6 +99965,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2603.24621-novel-environments"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "arc-agi-3",
@@ -99064,6 +100223,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2607.04293-antenna-interventions"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2607.04293",
@@ -99354,6 +100519,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-partial-classiclogic-sudoku"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2607.05185",
@@ -99660,6 +100831,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2608.12593-rule-discovery"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2608.12593",
@@ -99957,6 +101134,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "ncp-narratives",
@@ -105791,6 +106972,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2606.19338-matching-pairs",
+          "AX26-2606.19338-maze"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-ax26-2606.19338",
@@ -106069,6 +107257,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "rushes-narratives",
@@ -106306,6 +107498,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "dune-awakening",
@@ -106700,6 +107896,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-partial-s3gym-snake"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tetris",
@@ -107516,6 +108718,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB085-story-completion",
+          "v24-gab085-game-cafe-dependencies"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gab085",
@@ -109119,6 +110328,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-gab066-interactive-murder-arena"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gab066",
@@ -109450,6 +110665,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB052-taboo-grounding"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gab052",
@@ -109807,6 +111028,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB053-choice-and-harm"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "machiavelli-games",
@@ -111297,6 +112524,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB032-science-procedures"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "scienceworld",
@@ -111532,6 +112765,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB020-text-household"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "alfworld",
@@ -111701,6 +112940,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "jericho-games",
@@ -111943,6 +113186,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB021-commonsense-tidying"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "textworld",
@@ -112301,6 +113550,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB008-valid-action-if",
+          "v24-gab008-deephome-new-rooms"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "jericho-games",
@@ -114061,6 +115317,15 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-top-23-arithmetic",
+          "v24-top-23-mapreader",
+          "v24-top-23-sorting",
+          "v24-top-23-twc"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "textworldexpress-arithmetic",
@@ -114524,6 +115789,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "REC-2.7-native-gui"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "longpuzzle-bolt-unscrew",
@@ -115155,6 +116426,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-rec-3.4-public-arc-discovery"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tetris",
@@ -120828,6 +122105,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "REC-2.2-rule-discovery"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "witness-puzzle-env",
@@ -121670,6 +122953,17 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB082-ttt",
+          "GAB082-reversi",
+          "GAB082-gomoku",
+          "GAB082-chess",
+          "GAB082-sudoku",
+          "GAB082-minesweeper"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tic-tac-toe",
@@ -122330,6 +123624,12 @@
           "arenaTaskId": "memorygym-sequence"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-memorygym-sequence"
+        ]
+      },
       "gameLinks": [
         {
           "id": "memory-gym",
@@ -122539,6 +123839,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB096-in-context"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "xland-minigrid",
@@ -122914,6 +124220,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB078-tic-tac-toe",
+          "GAB078-connect-four",
+          "GAB078-battleship"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "tic-tac-toe",
@@ -123390,6 +124704,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB065-traversal"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gtb-grid-maps",
@@ -126467,6 +127787,54 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB073-black-box",
+          "GAB073-bridges",
+          "GAB073-cube",
+          "GAB073-dominosa",
+          "GAB073-fifteen",
+          "GAB073-filling",
+          "GAB073-flip",
+          "GAB073-flood",
+          "GAB073-galaxies",
+          "GAB073-guess",
+          "GAB073-inertia",
+          "GAB073-keen",
+          "GAB073-light-up",
+          "GAB073-loopy",
+          "GAB073-magnets",
+          "GAB073-map",
+          "GAB073-mines",
+          "GAB073-mosaic",
+          "GAB073-net",
+          "GAB073-netslide",
+          "GAB073-palisade",
+          "GAB073-pattern",
+          "GAB073-pearl",
+          "GAB073-pegs",
+          "GAB073-range",
+          "GAB073-rectangles",
+          "GAB073-same-game",
+          "GAB073-signpost",
+          "GAB073-singles",
+          "GAB073-sixteen",
+          "GAB073-slant",
+          "GAB073-solo",
+          "GAB073-tents",
+          "GAB073-towers",
+          "GAB073-tracks",
+          "GAB073-twiddle",
+          "GAB073-undead",
+          "GAB073-unequal",
+          "GAB073-unruly",
+          "GAB073-untangle",
+          "GAB073-netslide-size-transfer",
+          "GAB073-same-game-size-transfer",
+          "GAB073-untangle-size-transfer"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "simon-tatham-puzzles",
@@ -129330,6 +130698,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB051-mario-context"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "carl-envs",
@@ -129722,6 +131096,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB049-mortar",
+          "GAB049-path",
+          "GAB049-spotlights"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "memory-gym",
@@ -129998,6 +131380,12 @@
           "arenaTaskId": "minigrid-memory"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-minigrid-memory"
+        ]
+      },
       "gameLinks": [
         {
           "id": "minigrid",
@@ -130243,6 +131631,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-popgym-concentration"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "popgym",
@@ -130520,6 +131914,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB033-escape-room"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "griddly-games",
@@ -130827,6 +132227,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB016-delivery"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "messenger",
@@ -131279,6 +132685,16 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB017-rtfm",
+          "GAB017-messenger",
+          "GAB017-nethack",
+          "GAB017-alfworld",
+          "GAB017-touchdown"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "nethack",
@@ -131789,6 +133205,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB003-memory-length",
+          "GAB003-deep-sea"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "bsuite",
@@ -132129,6 +133552,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "melting-pot",
@@ -135105,6 +136532,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "autoworld-snake",
@@ -135634,6 +137065,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "game2world-videos",
@@ -135999,6 +137434,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "AX26-2608.26200-mcu",
+          "AX26-2608.26200-vizdoom"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -136255,6 +137697,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gbqa-games",
@@ -136513,6 +137959,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "spade-synthetic-games",
@@ -137048,6 +138498,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "ogamedata-games",
@@ -137270,6 +138724,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -137460,6 +138918,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -137715,6 +139177,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gameasg-games",
@@ -140581,6 +142047,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gamelogic-godot-games",
@@ -144447,6 +145917,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gamereplica-games",
@@ -146214,6 +147688,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gamexpert-gold-games",
@@ -148503,6 +149981,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -149289,6 +150771,19 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "REC-2.8-asteroids",
+          "REC-2.8-breakout",
+          "REC-2.8-seaquest",
+          "REC-2.8-caveflyer",
+          "REC-2.8-coinrun",
+          "REC-2.8-plunder",
+          "REC-2.8-flappy-bird",
+          "REC-2.8-vvvvvv"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "playtrain-js-clones",
@@ -152022,6 +153517,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "prowbench-scenes",
@@ -152494,6 +153993,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "swe-game-reference",
@@ -155073,6 +156576,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A7-symbolic-play",
+          "GAP-A7-box-pushing-spatial-planning"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "collection-gap-a7",
@@ -155519,6 +157029,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "rpgbench-worlds",
@@ -155880,6 +157394,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "videogameqa-media",
@@ -157215,6 +158733,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-gab086-cartpole-v1"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gymnasium-envs",
@@ -157537,6 +159061,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-gab060-vmas-navigation"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "benchmarl-envs",
@@ -157891,6 +159421,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB061-smax"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "jaxmarl-envs",
@@ -158211,6 +159747,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB068-offline-smac"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -158711,6 +160253,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAP-A11-cooking",
+          "GAP-A11-commonsense",
+          "GAP-A11-coin"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "textworld",
@@ -158937,6 +160487,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB079-rule-discovery"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "xland",
@@ -159197,6 +160753,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-gab054-mpe-simple-spread-example"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "marllib-envs",
@@ -159640,6 +161202,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB035-procgen",
+          "GAB035-minihack"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "nethack",
@@ -160392,6 +161961,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-gab031-pong-learning"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-pong",
@@ -160686,6 +162261,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -160993,6 +162572,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB024-lbf",
+          "GAB024-rware"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -161517,6 +163103,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-gab014-pistonball-v6"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "pettingzoo-games",
@@ -161815,6 +163407,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "procgen-games",
@@ -163330,6 +164926,14 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "GAB019-walker",
+          "GAB019-quadruped",
+          "GAB019-jaco"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "urlb-envs",
@@ -164434,6 +166038,18 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "S01-atari100k",
+          "S01-crafter",
+          "S01-basic",
+          "S01-deadly-corridor",
+          "S01-defend-center",
+          "S01-health-gathering",
+          "S01-predict-position"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "crafter",
@@ -165811,6 +167427,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -165951,6 +167571,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minigrid",
@@ -166261,6 +167885,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "W02-atari100k"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -167603,6 +169233,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "A01-coinrun-bc"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "procgen-coinrun",
@@ -167811,6 +169447,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "project-arena",
@@ -167990,6 +169630,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -168137,6 +169781,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -168281,6 +169929,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "super-mario-bros",
@@ -168458,6 +170110,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -168613,6 +170269,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -168755,6 +170415,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -168892,6 +170556,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -169050,6 +170718,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "arena-breakout-infinite",
@@ -169270,6 +170942,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "animegamer-worlds",
@@ -169515,6 +171191,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "A08-diamond"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -169733,6 +171415,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-go",
@@ -169879,6 +171565,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-2",
@@ -170056,6 +171746,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "farmquest",
@@ -170228,6 +171922,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "pending-source-review",
@@ -170383,6 +172081,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "angry-birds",
@@ -170520,6 +172222,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "dota-2",
@@ -170660,6 +172366,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-go",
@@ -170803,6 +172513,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-go",
@@ -171024,6 +172738,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -171174,6 +172892,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-2",
@@ -171315,6 +173037,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-2",
@@ -171487,6 +173213,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-go",
@@ -171640,6 +173370,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -171789,6 +173523,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-2",
@@ -172051,6 +173789,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "olive-spaceshooter",
@@ -172292,6 +174034,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-s05-basic-ai-control"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -172583,6 +174331,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -172747,6 +174499,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -172897,6 +174653,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -173127,6 +174887,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "NATURE295-minecraft-diamond"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -173594,6 +175360,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "NATURE296-time-trial",
+          "NATURE296-racing"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gran-turismo-sport",
@@ -173738,6 +175511,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "bleeding-edge",
@@ -173965,6 +175742,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v24-nature298-crafter-learning-rule"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "crafter",
@@ -174671,6 +176454,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "intuitive-gamer-board",
@@ -175703,6 +177490,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "ai2-thor",
@@ -176031,6 +177822,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "NATURE301-pd",
+          "NATURE301-bos"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "battle-of-the-sexes",
@@ -176310,6 +178108,10 @@
         "zh": ""
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gta-v",
@@ -176648,6 +178450,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-buildarena-construction",
+          "v38-buildarena-feedback"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "besiege",
@@ -177102,6 +178911,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-worldcoder-grid",
+          "v38-worldcoder-alfworld"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minigrid",
@@ -177661,6 +179477,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-cwmb-blackjack",
+          "v38-gif-rtfm"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "blackjack",
@@ -178185,6 +180008,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-iris-atari100k"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -180859,6 +182688,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-twm-atari100k"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -183491,6 +185326,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-r2i-memory"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -184093,6 +185934,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-storm-atari100k"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -186635,6 +188482,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "red-dead-redemption-2",
@@ -186877,6 +188728,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -187194,6 +189049,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-poe-planning"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-pong",
@@ -187619,6 +189480,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-dicode-craftax"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "craftax",
@@ -187842,6 +189709,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "cyberpunk-2077",
@@ -188052,6 +189923,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -188247,6 +190122,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -188540,6 +190419,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-mindstudio-lookahead"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-alien",
@@ -189108,6 +190993,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "hanabi",
@@ -191237,6 +193126,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-playadequacy-rule"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "leduc-holdem",
@@ -192071,6 +193966,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gta-v",
@@ -192617,6 +194516,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-arc-code-model"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "arc-agi-3",
@@ -195096,6 +197001,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -195377,6 +197286,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-besiegefield-refinement"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "besiege",
@@ -195637,6 +197552,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -195848,6 +197767,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -196038,6 +197961,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -196234,6 +198161,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -196448,6 +198379,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -196668,6 +198603,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -196888,6 +198827,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -197102,6 +199045,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -197366,6 +199313,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-scicrafter-redstone"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -197759,6 +199712,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-wise-sparse",
+          "v38-wise-exploration"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -198093,6 +200053,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-gated-minecraft-coordination"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -198388,6 +200354,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-doom-defend-center"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -198690,6 +200662,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-argon-dragon-run"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -198899,6 +200877,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "counter-strike-2",
@@ -199116,6 +201098,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -199473,6 +201459,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-recapa-minecraft"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -199891,6 +201883,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-mcevo-paired-transfer",
+          "v38-mcevo-direct-chains"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -200122,6 +202121,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -200315,6 +202318,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -200641,6 +202648,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-gog-crafting"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -200875,6 +202888,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "four-in-a-row-4x9",
@@ -201105,6 +203122,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "graphnet-network-cooperation",
@@ -201330,6 +203351,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "democratic-ai-public-investment",
@@ -201532,6 +203557,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "go-19x19",
@@ -201762,6 +203791,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "chess",
@@ -202058,6 +204091,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-chessbench-matches"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "chess",
@@ -202383,6 +204422,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v38-chessformer-matches"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "chess",
@@ -202632,6 +204677,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "four-in-a-row-4x9",
@@ -202820,6 +204869,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -203019,6 +205072,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -203240,6 +205297,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "sokoban",
@@ -203429,6 +205490,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "overwatch",
@@ -203649,6 +205714,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -203868,6 +205937,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -204081,6 +206154,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -204285,6 +206362,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -204497,6 +206578,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -204717,6 +206802,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -204944,6 +207033,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "research-without-specific-game",
@@ -205153,6 +207246,10 @@
         }
       },
       "tasks": [],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "artifactarena-last-bot-standing",
@@ -205446,6 +207543,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-ale-original-rl"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "atari-2600",
@@ -205856,6 +207959,12 @@
           "arenaTaskId": "vizdoom-deadly-corridor"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-vizdoom-deadly-corridor"
+        ]
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -206114,6 +208223,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-smac-micromanagement"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -206424,6 +208539,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-sc2le-buildmarines"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "starcraft-ii",
@@ -206720,6 +208841,12 @@
           "arenaTaskId": "textworld-cooking-dependencies"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-textworld-cooking-dependencies"
+        ]
+      },
       "gameLinks": [
         {
           "id": "textworld",
@@ -206988,6 +209115,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-babyai-instruction-execution"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "babyai",
@@ -207279,6 +209412,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-openspiel-leduc"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "openspiel-games",
@@ -207618,6 +209757,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-dmlab-random-maze"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "deepmind-lab",
@@ -207894,6 +210039,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-gvgai-single-player-planning"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gvgai-games",
@@ -208182,6 +210333,12 @@
           "arenaTaskId": "coinrun-original-500"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-coinrun-original-500"
+        ]
+      },
       "gameLinks": [
         {
           "id": "coinrun",
@@ -208470,6 +210627,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-obstacle-tower-generalization"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "obstacle-tower",
@@ -208819,6 +210982,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-minerl-treechop",
+          "v23-minerl-navigate"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -209120,6 +211290,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-griddly-sokoban-baseline"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "griddly-games",
@@ -209446,6 +211622,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-elf-mini-rts"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "mini-rts",
@@ -209735,6 +211917,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-malmo-cliff-walking"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "minecraft",
@@ -210063,6 +212251,12 @@
           "arenaTaskId": "spirebench-a20-full-run"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-spirebench-a20-full-run"
+        ]
+      },
       "gameLinks": [
         {
           "id": "slay-the-spire",
@@ -210469,6 +212663,13 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-pokeagent-battling",
+          "v23-pokeagent-emerald-first-gym"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "pokemon-showdown",
@@ -210831,6 +213032,12 @@
           "arenaTaskId": "vgc-unseen-team-crossplay"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-vgc-unseen-team-crossplay"
+        ]
+      },
       "gameLinks": [
         {
           "id": "pokemon-showdown",
@@ -211112,6 +213319,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-gg-bench-generated-game-play"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "gg-games",
@@ -211403,6 +213616,12 @@
           "arenaTaskId": "comrad-ammo-carrier"
         }
       ],
+      "taskGroups": {
+        "documented": [],
+        "arenaProposals": [
+          "existing-comrad-ammo-carrier"
+        ]
+      },
       "gameLinks": [
         {
           "id": "doom",
@@ -211683,6 +213902,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-agenticsts-fixed-a0"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "slay-the-spire-2",
@@ -211966,6 +214191,12 @@
           "executionVerified": false
         }
       ],
+      "taskGroups": {
+        "documented": [
+          "v23-darefightingice-official-llm-mcts"
+        ],
+        "arenaProposals": []
+      },
       "gameLinks": [
         {
           "id": "darefightingice",
