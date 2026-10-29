@@ -5,7 +5,7 @@ const ctx={window:{}};
 for(const file of ['data.js','game-images-data.js','game-images.js']) vm.runInNewContext(fs.readFileSync('dist/'+file,'utf8'),ctx);
 const images=ctx.window.ATLAS_GAME_IMAGES.entries,ui=ctx.window.AtlasGameImages;
 
-test('Screenshots retain exact identities, source evidence and verified local assets',()=>{
+test('Screenshots retain explicit identities, source evidence and verified local assets',()=>{
   const gameIds=new Set(ctx.window.ATLAS_DATA.gameIndex.map(g=>g.id));
   assert.equal(new Set(images.map(x=>x.gameId)).size,images.length);
   assert(images.length>=30);
@@ -18,12 +18,17 @@ test('Screenshots retain exact identities, source evidence and verified local as
       assert(e.sourceUrl.includes('/blob/'+e.commit+'/'));
       assert(e.originalPath && e.originalBlob);
     }else{
-      assert(['official-store','official-site'].includes(e.sourceType));
-      assert.match(e.originalUrl,/^https:\/\//);
+      assert(['official-store','official-site','encyclopedia'].includes(e.sourceType));
+      if(e.captureMethod==='browser-screenshot'){
+        assert.match(e.captureUrl,/^https:\/\//);
+        assert.equal(e.capture.method,'browser-screenshot');
+        assert.equal(e.capture.url,e.captureUrl);
+      }else assert.match(e.originalUrl,/^https:\/\//);
       assert(e.identityEvidence,`Missing image-to-game identity evidence: ${e.gameId}`);
     }
     assert.match(e.originalSha256,/^[a-f0-9]{64}$/);
     assert(e.credit && e.verifiedAt);
+    if(e.sourceType==='encyclopedia')assert(e.rightsNote,`Missing image rights attribution: ${e.gameId}`);
     assert(e.width>0 && e.height>0);
     for(const lang of ['zh','en']) assert(e.caption[lang]&&e.alt[lang]);
     assert.equal(e.thumbnail,undefined);
@@ -35,6 +40,34 @@ test('Screenshots retain exact identities, source evidence and verified local as
     }
     if(e.licenseFile)assert(fs.existsSync('dist/'+e.licenseFile));
   }
+});
+
+test('Reference imagery identifies actual versions and never silently impersonates the target environment',()=>{
+  const reference=images.filter(e=>e.imageMatch && e.imageMatch!=='exact');
+  assert(reference.length>0);
+  for(const e of reference){
+    assert(['related-environment','different-version','collection-example'].includes(e.imageMatch));
+    for(const lang of ['zh','en']){
+      assert(e.imageNote[lang]);
+      const html=ui.figure(e.gameId,lang);
+      assert(html.includes(lang==='zh'?'参考画面':'Reference image'));
+      assert(html.includes(e.imageNote[lang].replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))));
+      assert.equal((html.match(/<img /g)||[]).length,1);
+    }
+    if(e.referenceGameId){
+      const original=ui.get(e.referenceGameId);
+      assert(original);
+      for(const key of ['image','originalSha256','sourceUrl','credit'])assert.equal(e[key],original[key],`${e.gameId}: ${key}`);
+      assert(e.relationshipEvidence && /^https:\/\//.test(e.relationshipSource));
+    }
+  }
+  for(const lang of ['zh','en']){
+    const html=ui.figure('supertuxkart',lang);
+    assert(html.includes('QwertyChouskie'));
+    assert(html.includes('https://creativecommons.org/licenses/by-sa/4.0/'));
+    assert(html.includes(lang==='zh'?'已缩放并转为 WebP':'Resized and converted to WebP'));
+  }
+  assert.equal(ui.figure('playtrain-not-a-real-game'),'');
 });
 
 test('Images are bilingual, attributed, lazy-loaded and never inherited by unrelated games',()=>{
