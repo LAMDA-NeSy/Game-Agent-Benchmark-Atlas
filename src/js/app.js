@@ -29,7 +29,7 @@
   function gameIndexItemHTML(game,selectedId){
     const links=game.links.filter(gameScopeLink);
     const online=gameRoles.summary(game.id,{benchmarkIds:links.map(l=>l.benchmark)}).counts.online;
-    return `<button class="game-index-item${window.AtlasGameImages.get(game.id)?' has-game-image':''}" data-game-open="${escape(game.id)}" aria-pressed="${selectedId===game.id}">${window.AtlasGameImages.thumbnail(game.id,window.AtlasLanguage.current())}${gameNameHTML(game)}${game.kind!=='game'?`<em class="game-index-kind">${gameKind[game.kind]}</em>`:''}<span class="game-index-counts" data-no-i18n><span><b>${links.length}</b> ${bilingual('条研究','research')}</span><span><b>${online}</b> ${bilingual('在线来源（文档）','online sources (docs)')}</span></span></button>`;
+    return `<button class="game-index-item" data-game-open="${escape(game.id)}" aria-pressed="${selectedId===game.id}">${gameNameHTML(game)}${game.kind!=='game'?`<em class="game-index-kind">${gameKind[game.kind]}</em>`:''}<span class="game-index-counts" data-no-i18n><span><b>${links.length}</b> ${bilingual('条研究','research')}</span><span><b>${online}</b> ${bilingual('在线来源（文档）','online sources (docs)')}</span></span></button>`;
   }
   const namedGame=label=>gameIndex.find(g=>g.name===label);
   const gameSearchTerms=r=>gameIndex.filter(g=>g.links.some(x=>x.benchmark===r.id)).flatMap(g=>[g.name,g.nameZh||'',...(g.aliases||[])]);

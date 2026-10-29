@@ -25,7 +25,7 @@ def main():
     if len(ids) != len(set(ids)):
         raise ValueError('Game images must map to unique, exact game IDs.')
     for entry in images['entries']:
-        for kind in ('image', 'thumbnail'):
+        for kind in ('image',):
             asset = DIST / entry[kind]
             if asset.parent != DIST or hashlib.sha256(asset.read_bytes()).hexdigest() != entry['sha256'][kind]:
                 raise ValueError(f'Game image asset mismatch: {entry["gameId"]} / {kind}')

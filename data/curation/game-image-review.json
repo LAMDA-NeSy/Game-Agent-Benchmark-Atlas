@@ -1,0 +1,67 @@
+{
+  "verifiedAt": "2026-10-29",
+  "added": 150,
+  "totalWithImage": 180,
+  "totalIndexEntries": 1289,
+  "notYetIllustrated": 1109,
+  "layout": "One detail screenshot per game; no list thumbnails.",
+  "reviewedNotSelected": [
+    {
+      "gameId": "ace-attorney",
+      "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+    },
+    {
+      "gameId": "red-dead-redemption-2",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "forza-horizon-5",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "gta-v",
+      "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+    },
+    {
+      "gameId": "witcher-3",
+      "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+    },
+    {
+      "gameId": "wuthering-waves",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "watch-dogs-2",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "dark-souls",
+      "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+    },
+    {
+      "gameId": "valheim",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "dead-rising-2-off-the-record",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "pga-tour-2k23",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "counter-strike-2",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "team-fortress-2",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    },
+    {
+      "gameId": "bleeding-edge",
+      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+    }
+  ],
+  "remainingScope": "Unillustrated entries are not claimed to have been exhaustively searched. Prioritize source-verified gameplay and exact environment identity; no family-level image inheritance."
+}

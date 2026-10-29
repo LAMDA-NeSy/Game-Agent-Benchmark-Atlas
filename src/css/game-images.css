@@ -1,8 +1,4 @@
-/* Small, full-frame previews preserve the four-column research index. */
-.game-selector>.game-index-item.has-game-image{position:relative;padding-left:88px;min-height:78px}
-.game-index-thumbnail{position:absolute;left:8px;top:10px;width:72px;height:54px;object-fit:contain;background:#f2f1ee;border:1px solid #e4e1db}
-.game-selector>.game-index-item.has-game-image .game-name{font-size:13px;line-height:1.45}
-.game-selector>.game-index-item.has-game-image .game-index-counts{gap:1px 9px;line-height:1.5}
+/* One sourced screenshot in the detail; the four-column index stays text-only. */
 .game-overview{margin:0 0 24px}
 .game-overview.has-game-image{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,38%);gap:28px;align-items:start}
 .game-overview-copy{min-width:0}
@@ -13,6 +9,7 @@
 .game-screenshot{margin:0;min-width:0}
 .game-screenshot-open{display:block;position:relative;background:#f4f3ef;border:1px solid #dedbd5;text-decoration:none}
 .game-screenshot-open>img{display:block;width:100%;height:250px;object-fit:contain}
+.game-screenshot.pixel-art img{image-rendering:pixelated}
 .game-screenshot-open>span{position:absolute;right:7px;bottom:7px;background:#fffef4ee;color:#444;font-size:10px;padding:3px 6px;opacity:0;transition:opacity .12s}
 .game-screenshot-open:hover>span,.game-screenshot-open:focus-visible>span{opacity:1}
 .game-screenshot figcaption{padding-top:8px;font-size:11px;line-height:1.6;color:#777}

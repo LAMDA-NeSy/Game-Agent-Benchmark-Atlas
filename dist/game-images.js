@@ -3,16 +3,9 @@
   const entries = new Map((window.ATLAS_GAME_IMAGES?.entries || []).map(entry => [entry.gameId, entry]));
   const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const text = (value, lang) => value[lang] || value.en;
-  const localAsset = value => /^game-[a-z0-9-]+(?:-thumb)?\.webp$/.test(value) ? './' + value : '';
+  const localAsset = value => /^game-[a-z0-9-]+\.webp$/.test(value) ? './' + value : '';
   const safeSource = value => /^https:\/\//.test(value) ? value : '';
   const get = id => entries.get(id);
-
-  function thumbnail(id, lang = 'zh') {
-    const entry = get(id);
-    if (!entry || !localAsset(entry.thumbnail)) return '';
-    // The visible game name labels the parent button; the detail figure carries the full credit.
-    return `<img class="game-index-thumbnail" data-game-image src="${escape(localAsset(entry.thumbnail))}" width="72" height="54" alt="" title="${escape(text(entry.caption, lang))}" loading="lazy" decoding="async">`;
-  }
 
   function figure(id, lang = 'zh') {
     const entry = get(id);
@@ -20,7 +13,7 @@
     const caption = text(entry.caption, lang);
     const open = lang === 'zh' ? '查看大图' : 'View full image';
     const source = lang === 'zh' ? '图片来源' : 'Image source';
-    return `<figure class="game-screenshot" data-no-i18n>
+    return `<figure class="game-screenshot${entry.pixelArt ? ' pixel-art' : ''}" data-no-i18n>
       <a class="game-screenshot-open" href="${escape(localAsset(entry.image))}" target="_blank" rel="noopener noreferrer" aria-label="${escape(open + ' · ' + caption)}"><img data-game-image src="${escape(localAsset(entry.image))}" width="${entry.width}" height="${entry.height}" alt="${escape(text(entry.alt, lang))}" loading="lazy" decoding="async"><span>${open} ↗</span></a>
       <figcaption><span class="game-screenshot-caption">${escape(caption)}</span><a href="${escape(safeSource(entry.sourceUrl))}" target="_blank" rel="noopener noreferrer">${source} · ${escape(entry.sourceLabel)} ↗</a><small>${escape(entry.credit)}</small></figcaption>
     </figure>`;
@@ -30,13 +23,8 @@
   if (typeof document !== 'undefined') document.addEventListener('error', event => {
     const image = event.target;
     if (!image.matches?.('img[data-game-image]')) return;
-    if (image.classList.contains('game-index-thumbnail')) {
-      image.closest('.game-index-item')?.classList.remove('has-game-image');
-      image.remove();
-    } else {
-      image.closest('.game-overview')?.classList.remove('has-game-image');
-      image.closest('.game-screenshot')?.remove();
-    }
+    image.closest('.game-overview')?.classList.remove('has-game-image');
+    image.closest('.game-screenshot')?.remove();
   }, true);
-  window.AtlasGameImages = { get, thumbnail, figure };
+  window.AtlasGameImages = { get, figure };
 })();
