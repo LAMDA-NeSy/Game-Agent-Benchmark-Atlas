@@ -72,7 +72,7 @@ test('Reference imagery identifies actual versions and never silently impersonat
 
 test('Images are bilingual, attributed, lazy-loaded and never inherited by unrelated games',()=>{
   assert.equal(ui.figure('unknown'),'');
-  assert.equal(ui.figure('procgen-games'),'');
+  assert(ui.get('procgen-games').representatives.length>1);
   assert.notEqual(ui.get('gameworld-minecraft-clone').originalSha256,ui.get('minecraft').originalSha256);
   assert.match(ui.figure('overcooked','zh'),/Overcooked-AI 研究环境/);
   assert.match(ui.figure('overcooked','en'),/Overcooked-AI research environment/);
@@ -83,6 +83,45 @@ test('Images are bilingual, attributed, lazy-loaded and never inherited by unrel
   assert.match(ui.figure('minecraft'),/alt="第一人称/);
   assert(!ui.figure('nethack').includes('src="https:'));
   assert.match(ui.figure('crafter','zh'),/生成地形示例/);
+});
+
+test('Collection scene selection switches one image together with its source and version note',()=>{
+  const galleries=images.filter(e=>e.representatives?.length);
+  assert(galleries.length>0);
+  const escaped=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  for(const gallery of galleries){
+    assert(gallery.representatives.length<=3);
+    assert.equal(gallery.referenceGameId,gallery.representatives[0].referenceGameId);
+    assert.equal(new Set(gallery.representatives.map(s=>s.referenceGameId)).size,gallery.representatives.length);
+    for(const [index,sample] of gallery.representatives.entries()){
+      const original=ui.get(sample.referenceGameId);
+      assert(original && sample.relationshipEvidence);
+      assert.match(sample.relationshipSource,/^https:\/\//);
+      for(const lang of ['zh','en']){
+        const html=ui.figure(gallery.gameId,lang,index);
+        assert.equal((html.match(/<img /g)||[]).length,1);
+        assert(html.includes('src="./'+original.image+'"'));
+        assert(html.includes(escaped(original.sourceUrl)));
+        assert(html.includes(escaped(sample.imageNote[lang])));
+        if(original.imageNote)assert(html.includes(escaped(original.imageNote[lang])));
+        if(gallery.representatives.length>1){
+          assert(html.includes(escaped(sample.label[lang])));
+          assert(html.includes(`data-image-sample="${index}" aria-pressed="true"`));
+          assert.equal((html.match(/aria-pressed="true"/g)||[]).length,1);
+        }
+      }
+    }
+    assert.equal(ui.figure(gallery.gameId,'en',-1),ui.figure(gallery.gameId,'en',0));
+  }
+  const listeners={},domContext={window:{},document:{addEventListener:(name,fn)=>{listeners[name]=fn;}}};
+  for(const file of ['game-images-data.js','game-images.js'])vm.runInNewContext(fs.readFileSync('dist/'+file,'utf8'),domContext);
+  let replaced='',focused=false,prevented=false;
+  const current={dataset:{gameImageId:'procgen-games',imageLang:'en'},parentElement:{querySelector:()=>({focus:()=>{focused=true;}})},set outerHTML(value){replaced=value;}};
+  const button={dataset:{imageSample:'1'},closest:()=>current};
+  listeners.click({target:{closest:()=>button},preventDefault:()=>{prevented=true;}});
+  assert(prevented && focused);
+  assert.equal(replaced,domContext.window.AtlasGameImages.figure('procgen-games','en',1));
+  assert.notEqual(replaced,domContext.window.AtlasGameImages.figure('procgen-games','en',0));
 });
 
 test('Each game has one detail image, with no repeated list thumbnail or data changes',()=>{
@@ -106,7 +145,7 @@ test('Expanded images retain version boundaries and record omitted candidates ho
   assert.equal(audit.totalIndexEntries,ctx.window.ATLAS_DATA.gameIndex.length);
   assert.equal(audit.notYetIllustrated,audit.totalIndexEntries-images.length);
   for(const e of audit.reviewedNotSelected)assert(!ui.get(e.gameId),e.gameId);
-  assert.equal(images.filter(e=>e.gameId.startsWith('atari-')).length,65);
+  assert.equal(images.filter(e=>e.gameId.startsWith('atari-')&&e.gameId!=='atari-2600').length,65);
   assert.match(ui.figure('atari-pong','en'),/Atari 2600/);
   assert.match(ui.figure('atari-pong'),/pixel-art/);
   assert.match(ui.figure('neural-mmo'),/1\.2/);

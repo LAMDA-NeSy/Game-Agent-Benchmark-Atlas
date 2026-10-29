@@ -7,6 +7,13 @@
 .game-overview.has-game-image .game-total{white-space:nowrap}
 .game-overview.has-game-image .game-introduction{margin-bottom:0}
 .game-screenshot{margin:0;min-width:0}
+.game-screenshot-choices{margin-bottom:8px;font-size:11px;color:#777}
+.game-screenshot-choices>span{display:block;margin-bottom:5px}
+.game-screenshot-choices>div{display:flex;gap:5px;flex-wrap:wrap}
+.game-screenshot-choices button{font:inherit;line-height:1.5;padding:4px 8px;border:1px solid #dedbd5;background:#fff;color:#555;cursor:pointer}
+.game-screenshot-choices button[aria-pressed="true"]{background:#f4f0e9;border-color:#9a7761;color:#634c3c}
+.game-screenshot-choices button:hover{border-color:#9a7761}
+.game-screenshot-choices button:focus-visible{outline:2px solid #74553f;outline-offset:2px}
 .game-screenshot-open{display:block;position:relative;background:#f4f3ef;border:1px solid #dedbd5;text-decoration:none}
 .game-screenshot-open>img{display:block;width:100%;height:250px;object-fit:contain}
 .game-screenshot.pixel-art img{image-rendering:pixelated}
