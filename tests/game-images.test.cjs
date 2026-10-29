@@ -40,7 +40,7 @@ test('Screenshots retain exact identities, source evidence and verified local as
 test('Images are bilingual, attributed, lazy-loaded and never inherited by unrelated games',()=>{
   assert.equal(ui.figure('unknown'),'');
   assert.equal(ui.figure('procgen-games'),'');
-  assert.equal(ui.figure('gameworld-minecraft-clone'),'');
+  assert.notEqual(ui.get('gameworld-minecraft-clone').originalSha256,ui.get('minecraft').originalSha256);
   assert.match(ui.figure('overcooked','zh'),/Overcooked-AI 研究环境/);
   assert.match(ui.figure('overcooked','en'),/Overcooked-AI research environment/);
   assert.match(ui.figure('minecraft','zh'),/图片来源/);
@@ -67,9 +67,9 @@ test('Each game has one detail image, with no repeated list thumbnail or data ch
 
 test('Expanded images retain version boundaries and record omitted candidates honestly',()=>{
   const audit=JSON.parse(fs.readFileSync('data/curation/game-image-review.json'));
-  assert.equal(images.length,180);
+  assert.equal(images.length,audit.previousTotal+audit.added);
   assert.equal(audit.totalWithImage,images.length);
-  assert.equal(audit.added,150);
+  assert.equal(audit.added,Object.values(audit.batchCounts).reduce((a,b)=>a+b,0));
   assert.equal(audit.totalIndexEntries,ctx.window.ATLAS_DATA.gameIndex.length);
   assert.equal(audit.notYetIllustrated,audit.totalIndexEntries-images.length);
   for(const e of audit.reviewedNotSelected)assert(!ui.get(e.gameId),e.gameId);
@@ -81,4 +81,29 @@ test('Expanded images retain version boundaries and record omitted candidates ho
   assert.match(ui.figure('baba-is-you'),/Baba Is You/);
   assert.notEqual(ui.get('baba-is-ai').originalSha256,ui.get('baba-is-you').originalSha256);
   assert.notEqual(ui.get('craftium').originalSha256,ui.get('craftium-chop-tree').originalSha256);
+});
+
+
+test('New official environment images preserve exact variants and real rollout provenance',()=>{
+  for(const id of ['tatham-bridges','game-rl-minecraft','gameworld-minecraft-clone','miniarcade-coinrun','omnigamearena-solocraft']) {
+    assert(ui.get(id),id);
+    assert.equal((ui.figure(id).match(/<img /g)||[]).length,1);
+  }
+  assert.notEqual(ui.get('miniarcade-coinrun').originalSha256,ui.get('procgen-coinrun').originalSha256);
+  const gt=images.filter(e=>e.gameId.startsWith('actionparty-'));
+  assert.equal(gt.length,46);
+  for(const e of gt){
+    assert.match(e.originalUrl,/\/gt_examples\/.*_gt\.mp4$/);
+    assert.match(e.caption.en,/ground-truth/);
+    assert.match(e.frameSha256,/^[a-f0-9]{64}$/);
+    assert.equal(e.processing.frameTimeSeconds,1);
+    assert.deepEqual(Array.from(e.processing.crop),[0,0,512,540]);
+  }
+  assert.equal(images.filter(e=>e.gameId.startsWith('tatham-')).length,40);
+  assert.match(ui.figure('tatham-bridges'),/small-preview/);
+  assert.match(fs.readFileSync('src/css/game-images.css','utf8'),/small-preview img\{object-fit:scale-down\}/);
+  for(const e of images){
+    assert(!JSON.stringify(e).includes('/Users/'),e.gameId);
+    if(e.processing?.frameTimeSeconds!=null)assert.match(e.frameSha256,/^[a-f0-9]{64}$/);
+  }
 });

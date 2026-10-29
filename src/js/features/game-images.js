@@ -11,9 +11,9 @@
     const entry = get(id);
     if (!entry || !localAsset(entry.image)) return '';
     const caption = text(entry.caption, lang);
-    const open = lang === 'zh' ? '查看大图' : 'View full image';
+    const open = lang === 'zh' ? '查看原图' : 'View image';
     const source = lang === 'zh' ? '图片来源' : 'Image source';
-    return `<figure class="game-screenshot${entry.pixelArt ? ' pixel-art' : ''}" data-no-i18n>
+    return `<figure class="game-screenshot${entry.pixelArt ? ' pixel-art' : ''}${entry.smallPreview ? ' small-preview' : ''}" data-no-i18n>
       <a class="game-screenshot-open" href="${escape(localAsset(entry.image))}" target="_blank" rel="noopener noreferrer" aria-label="${escape(open + ' · ' + caption)}"><img data-game-image src="${escape(localAsset(entry.image))}" width="${entry.width}" height="${entry.height}" alt="${escape(text(entry.alt, lang))}" loading="lazy" decoding="async"><span>${open} ↗</span></a>
       <figcaption><span class="game-screenshot-caption">${escape(caption)}</span><a href="${escape(safeSource(entry.sourceUrl))}" target="_blank" rel="noopener noreferrer">${source} · ${escape(entry.sourceLabel)} ↗</a><small>${escape(entry.credit)}</small></figcaption>
     </figure>`;

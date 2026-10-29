@@ -1,67 +1,277 @@
 {
   "verifiedAt": "2026-10-29",
-  "added": 150,
-  "totalWithImage": 180,
+  "added": 214,
+  "totalWithImage": 394,
   "totalIndexEntries": 1289,
-  "notYetIllustrated": 1109,
+  "notYetIllustrated": 895,
   "layout": "One detail screenshot per game; no list thumbnails.",
   "reviewedNotSelected": [
     {
       "gameId": "ace-attorney",
-      "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+      "reason": "Official Steam screenshots are from Phoenix Wright: Ace Attorney Trilogy; exact original-game platform/version has not been isolated."
     },
     {
-      "gameId": "red-dead-redemption-2",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "blackjack",
+      "reason": "RLCard has no complete Blackjack screenshot in reviewed official assets. Gymnasium Blackjack animation exists but is a different implementation from current RLCard-associated entry, so not substituted."
     },
     {
-      "gameId": "forza-horizon-5",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "bridge",
+      "reason": "No exact Bridge game screenshot found in reviewed RLCard official sources; Dou Dizhu/poker renderers not substituted."
     },
     {
-      "gameId": "gta-v",
-      "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+      "gameId": "bsuite",
+      "reason": "Official repository image files are result plots rather than environment renderings."
     },
     {
-      "gameId": "witcher-3",
-      "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+      "gameId": "bsuite-deep-sea",
+      "reason": "No exact Deep Sea renderer screenshot verified; result plots excluded."
     },
     {
-      "gameId": "wuthering-waves",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "bsuite-memory-length",
+      "reason": "No exact Memory Length renderer screenshot verified; result plots excluded."
     },
     {
-      "gameId": "watch-dogs-2",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "darefightingice",
+      "reason": "Repository GIF candidates E_GIF_09.gif and E_GIF_10.gif are Sustainable Development Goal graphics, not gameplay; no verified screenshot adopted."
     },
     {
       "gameId": "dark-souls",
-      "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+      "reason": "Official store available image set is DARK SOULS REMASTERED, not original Dark Souls."
     },
     {
-      "gameId": "valheim",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "forza-horizon-5",
+      "reason": "All sixteen official Steam gallery images reviewed; promotional photography/scenery or cinematic racing angles, no clear player-view screenshot selected."
     },
     {
-      "gameId": "dead-rising-2-off-the-record",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "gamereplica-connect-four",
+      "reason": "GameReplica implementation screenshot not verified; general Connect Four image not inherited."
+    },
+    {
+      "gameId": "gin-rummy",
+      "reason": "No exact Gin Rummy gameplay image found in reviewed RLCard/PettingZoo official assets; poker screenshots not substituted."
+    },
+    {
+      "gameId": "griddly-escape-room",
+      "reason": "Reviewed repository has Grafter Escape Rooms trajectory/model assets but no verified exact EscapeRoom screenshot; general Griddly screen not inherited."
+    },
+    {
+      "gameId": "gta-v",
+      "reason": "Current official store labels the app GTA V Legacy; benchmark edition is not established for image association."
+    },
+    {
+      "gameId": "gvgai-aliens",
+      "reason": "No exact Aliens gameplay screenshot verified; family art not inherited."
+    },
+    {
+      "gameId": "gvgai-boulderdash",
+      "reason": "No exact Boulderdash gameplay screenshot verified; family art not inherited."
+    },
+    {
+      "gameId": "gvgai-escape",
+      "reason": "No exact Escape gameplay screenshot verified; family art not inherited."
+    },
+    {
+      "gameId": "gvgai-games",
+      "reason": "Official GVGAI repository reviewed; available artwork did not establish a verified complete gameplay screenshot."
+    },
+    {
+      "gameId": "gvgai-realsokoban",
+      "reason": "No exact XSokoban-level screenshot verified; other Sokoban renderer not reused."
+    },
+    {
+      "gameId": "gvgai-sokoban",
+      "reason": "No exact procedural Sokoban screenshot verified; other Sokoban renderer not reused."
+    },
+    {
+      "gameId": "gvgai-zelda",
+      "reason": "No exact GVGAI Zelda screenshot verified; commercial Zelda not reused."
+    },
+    {
+      "gameId": "llmarena-hanabi-small",
+      "reason": "LLMArena Hanabi Small variant screenshot not verified; full Hanabi image not inherited."
+    },
+    {
+      "gameId": "mahjong",
+      "reason": "Official RLCard repository/docs provide game rules and code but no verified complete Mahjong screenshot; individual tile assets are not gameplay screenshots."
+    },
+    {
+      "gameId": "marshal-mini-hanabi",
+      "reason": "Mini Hanabi variant screenshot not verified; full Hanabi image not inherited."
+    },
+    {
+      "gameId": "marshal-simple-hanabi",
+      "reason": "Simple Hanabi variant screenshot not verified; full Hanabi image not inherited."
+    },
+    {
+      "gameId": "messenger",
+      "reason": "Official messenger-emma repository has no game screenshot assets; source game can be played in terminal, but no new runtime rendering was produced."
     },
     {
       "gameId": "pga-tour-2k23",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "reason": "All ten official Steam gallery images reviewed; golfer portraits and scenic views, one course editor but no representative golf-play interface selected."
     },
     {
-      "gameId": "counter-strike-2",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "pig",
+      "reason": "No exact Pig benchmark implementation screenshot verified; generic dice images not substituted."
     },
     {
-      "gameId": "team-fortress-2",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "plants-vs-zombies",
+      "reason": "Official store retrieved is GOTY Edition; exact original-version image not selected in this pass."
     },
     {
-      "gameId": "bleeding-edge",
-      "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+      "gameId": "pokemon-showdown",
+      "reason": "Official repository contains battle assets and backgrounds but no verified complete battle screenshot in reviewed paths; do not compose a simulated screenshot."
+    },
+    {
+      "gameId": "procgen-games",
+      "reason": "All 16 concrete Procgen entries already have exact game screenshots; no generic family screenshot added to repeat those scenes."
+    },
+    {
+      "gameId": "red-dead-redemption-2",
+      "reason": "All five official Steam gallery images reviewed; mostly cinematic camera/portrait or scenic views, no clear gameplay interface selected."
+    },
+    {
+      "gameId": "riichi-mahjong",
+      "reason": "No exact Riichi implementation screenshot verified; general Mahjong images not inherited."
+    },
+    {
+      "gameId": "textworld",
+      "reason": "Repository candidate docs/source/notes/images/TextWorld.png is an architecture diagram, not a game screenshot. The other visible screenshots show Zork rather than a generated TextWorld game; not reused."
+    },
+    {
+      "gameId": "uno",
+      "reason": "No exact complete UNO renderer screenshot found in reviewed RLCard official sources; generic playing-card art not substituted."
+    },
+    {
+      "gameId": "valet-blackjack",
+      "reason": "No exact Valet/CardStock variant screenshot verified; generic Blackjack image not inherited."
+    },
+    {
+      "gameId": "witcher-3",
+      "reason": "Current official store title explicitly says Remastered; an unambiguous original-version screenshot was not verified."
     }
   ],
-  "remainingScope": "Unillustrated entries are not claimed to have been exhaustively searched. Prioritize source-verified gameplay and exact environment identity; no family-level image inheritance."
+  "remainingScope": "Unillustrated entries are not claimed to have been exhaustively searched. Prioritize source-verified gameplay and exact environment identity; no family-level image inheritance.",
+  "history": [
+    {
+      "verifiedAt": "2026-10-29",
+      "added": 150,
+      "totalWithImage": 180,
+      "notYetIllustrated": 1109,
+      "reviewedNotSelected": [
+        {
+          "gameId": "ace-attorney",
+          "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+        },
+        {
+          "gameId": "red-dead-redemption-2",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "forza-horizon-5",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "gta-v",
+          "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+        },
+        {
+          "gameId": "witcher-3",
+          "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+        },
+        {
+          "gameId": "wuthering-waves",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "watch-dogs-2",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "dark-souls",
+          "reason": "Official store edition is a trilogy, Legacy/Online-focused, or Remastered; not treated as an exact current game/environment match."
+        },
+        {
+          "gameId": "valheim",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "dead-rising-2-off-the-record",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "pga-tour-2k23",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "counter-strike-2",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "team-fortress-2",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        },
+        {
+          "gameId": "bleeding-edge",
+          "reason": "Sampled screenshots are promotional, cinematic, scenery-only, or need a clearer gameplay frame."
+        }
+      ]
+    }
+  ],
+  "previousTotal": 180,
+  "batchCounts": {
+    "tatham": 40,
+    "actionparty": 46,
+    "research": 17,
+    "suites": 90,
+    "commercial": 18,
+    "board": 3
+  },
+  "resolvedPreviousExclusions": [
+    "wuthering-waves",
+    "watch-dogs-2",
+    "valheim",
+    "dead-rising-2-off-the-record",
+    "counter-strike-2",
+    "team-fortress-2",
+    "bleeding-edge"
+  ],
+  "reviewedGroupsNotSelected": [
+    {
+      "scope": "GameASG: 47 reference game-generation tasks",
+      "reason": "Official repository contains task specs and tests but zero PNG/JPG/GIF/WebP/MP4 files. A generated output or namesake commercial game would not identify this benchmark instance; no screenshot adopted.",
+      "evidence": "https://github.com/areal-project/GameASG-Bench/tree/6427cb6517ce11ff350ec45fcae17b67c5aec245"
+    },
+    {
+      "scope": "GameXpert GameGen/GameOpt",
+      "reason": "Paper contains collages/results/briefs; no per-game official standalone screenshot established this pass. Generated game briefs are not a fixed screenshot-bearing game instance.",
+      "evidence": "https://arxiv.org/html/2608.21833v1"
+    },
+    {
+      "scope": "Other GameLogic atom/combo/adaptation tasks",
+      "reason": "Tree checked: most images are textures, sprites, icons; only exact screenshot paths for Open RTS and WorldWarII adopted. No inheritance from unrelated Godot games or generated replacement.",
+      "evidence": "https://github.com/NJU-LINK/GameLogicBench-Tasks/tree/18c54e69cf962fd402e245811d4925d129f4b33c"
+    },
+    {
+      "scope": "MiniArcade Reacher",
+      "reason": "Official demo exists but no exact miniarcade-reacher gameIndex ID; not added to a different game.",
+      "evidence": "https://www.nicklashansen.com/NewtWM"
+    },
+    {
+      "scope": "Suite/family-level gameworld-games, miniarcade, gamelogic-godot-games",
+      "reason": "No aggregate collage reused for a family or child entry; exact child games only."
+    },
+    {
+      "scope": "GameReplica reference games",
+      "reason": "Official index and model-demo manifest examined. No standalone source screenshot verified; model-rebuilt games are not substituted for reference screenshots.",
+      "evidence": "https://qqqqqqby.github.io/GameReplica/"
+    }
+  ],
+  "duplicateCandidates": [
+    {
+      "gameId": "wolfenstein-3d",
+      "selected": "Official original-game Steam screenshot",
+      "notSelected": "GameWorld browser version screenshot; one picture retained per exact index ID."
+    }
+  ]
 }
