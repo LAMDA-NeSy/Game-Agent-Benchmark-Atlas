@@ -68,3 +68,18 @@ illustrations, finite-task observations and example diagnostic results.
 `libraryReview=overview-expansion` selects these 20 additions. The 236 evaluation
 resources retain their existing identities and task/capability reviews. Remaining
 resources keep their earlier summaries until subsequent editorial review.
+
+## Completion of the evaluation-resource scope
+
+All 236 current evaluation resources have bilingual sections for task/environment,
+research use, evaluation and scope. The `completion-206` batch preserves the previous
+30 edited overviews and adds the remaining 206. This includes datasets, diagnostic
+evaluations, statistical protocols, development/world-model resources and platforms
+under their actual research object, rather than inheriting gameplay claims.
+
+`libraryReview=overview-structured` selects all 236;
+`libraryReview=overview-completion` selects the new 206.
+`archive-overview-review.json` records the primary identities and source checks for
+this pass. Detailed numerical protocol statements also use the existing source-linked
+reviews; completing descriptions does not promote task or runtime verification.
+Official illustrations and demos retain source captions and representative-task scope.

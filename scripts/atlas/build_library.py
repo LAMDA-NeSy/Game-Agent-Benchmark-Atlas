@@ -128,6 +128,7 @@ def build():
  for r in unique:
   overview=next((o for o in payload['archiveOverviews'] if o['id'] in [r['id'],r.get('profileId')]),None)
   if overview and overview.get('repo'):r['repo']=overview['repo']
+ (ROOT/'dist/archive-overview-review.json').write_text((CURATION/'archive-overview-review.json').read_text())
  payload['agentParadigms']=agent_summary
  (ROOT/'dist/library-data.js').write_text('window.AtlasLibraryData='+json.dumps(payload,ensure_ascii=False,indent=2)+';\n')
  (ROOT/'dist/benchmark-library.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2))

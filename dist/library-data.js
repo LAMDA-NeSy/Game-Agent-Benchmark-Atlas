@@ -49273,6 +49273,13516 @@ window.AtlasLibraryData={
           "sourceAssetSha": "b26a8c4e50f6f2f09d01ac9948234e4f1570791b"
         }
       ]
+    },
+    {
+      "id": "AX26-2606.00103",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "474个可执行推理游戏要求模型只凭规则，向隐藏配置发起结构化查询，再依据反馈提交答案；五档难度形成2370个配置实例。",
+            "en": "Across 474 executable reasoning games, models receive rules, query hidden configurations and submit answers; five difficulty levels yield 2,370 configurations."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究将推理拆成主动取证、信念更新与停止决策，并以集合、序列、树和图结构组织任务，另设上下文扰动及反事实修订。",
+            "en": "The framework studies evidence acquisition, belief updates and stopping decisions across set, sequence, tree and graph structures, with contextual perturbations and counterfactual revision."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "在匹配搜索空间和查询预算下报告成功率、成功回合平均轮数，并记录格式错误与超时，从结果和交互成本两方面比较模型。",
+            "en": "Matched search spaces and query budgets support success-rate and successful-episode turn comparisons, with formatting errors and timeouts recorded separately."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源覆盖474个规则游戏及其五档搜索空间，评测围绕查询、提交、上下文扰动和反事实修订展开，核心对象是多轮取证推理。",
+            "en": "The resource covers 474 rule games with five search-space levels, evaluated through queries, submissions, contextual perturbations and counterfactual revision."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "474个可执行推理游戏要求模型只凭规则，向隐藏配置发起结构化查询，再依据反馈提交答案；五档难度形成2370个配置实例。",
+          "en": "Across 474 executable reasoning games, models receive rules, query hidden configurations and submit answers; five difficulty levels yield 2,370 configurations."
+        },
+        {
+          "zh": "研究将推理拆成主动取证、信念更新与停止决策，并以集合、序列、树和图结构组织任务，另设上下文扰动及反事实修订。",
+          "en": "The framework studies evidence acquisition, belief updates and stopping decisions across set, sequence, tree and graph structures, with contextual perturbations and counterfactual revision."
+        },
+        {
+          "zh": "在匹配搜索空间和查询预算下报告成功率、成功回合平均轮数，并记录格式错误与超时，从结果和交互成本两方面比较模型。",
+          "en": "Matched search spaces and query budgets support success-rate and successful-episode turn comparisons, with formatting errors and timeouts recorded separately."
+        },
+        {
+          "zh": "资源覆盖474个规则游戏及其五档搜索空间，评测围绕查询、提交、上下文扰动和反事实修订展开，核心对象是多轮取证推理。",
+          "en": "The resource covers 474 rule games with five search-space levels, evaluated through queries, submissions, contextual perturbations and counterfactual revision."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.00103",
+          "title": "Evaluating Interactive Reasoning in Large Language Models: A Hierarchical Benchmark with Executable Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.00103v1",
+          "title": "Evaluating Interactive Reasoning in Large Language Models: A Hierarchical Benchmark with Executable Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.00103",
+          "title": "Evaluating Interactive Reasoning in Large Language Models: A Hierarchical Benchmark with Executable Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2602.17594",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "AI GameStore以应用商店与Steam游戏为灵感，通过模型编写和人工参与修订，生成100款可容器化小游戏，玩家读取画面并输出键盘操作。",
+            "en": "AI GameStore synthesizes 100 containerized games inspired by App Store and Steam titles, using model-generated code and human refinement; players act through visual keyboard interaction."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "平台研究如何持续扩展贴近人类游戏的评测空间，以统一短时交互比较七种视觉语言模型，并提供人类游玩分数作为参照。",
+            "en": "The platform explores scalable evaluation through human-oriented games, comparing seven VLMs under short-play interaction with human performance references."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "游戏每秒暂停，模型一次给出五段各0.2秒动作；每游戏运行三次，最多120次调用或120秒，并报告人类归一化分数的中位数和几何均值。",
+            "en": "Games pause each second for five 0.2-second action segments. Three runs per game use at most 120 calls or game seconds, reporting median and geometric-mean human-normalized scores."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测使用100个生成改编实现及其人类参照分数，商业游戏提供设计灵感；认知需求标注用于描述各小游戏的综合任务要求。",
+            "en": "Evaluation covers 100 generated adaptations and human reference scores; commercial titles provide inspiration and cognitive annotations describe task demands."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "AI GameStore以应用商店与Steam游戏为灵感，通过模型编写和人工参与修订，生成100款可容器化小游戏，玩家读取画面并输出键盘操作。",
+          "en": "AI GameStore synthesizes 100 containerized games inspired by App Store and Steam titles, using model-generated code and human refinement; players act through visual keyboard interaction."
+        },
+        {
+          "zh": "平台研究如何持续扩展贴近人类游戏的评测空间，以统一短时交互比较七种视觉语言模型，并提供人类游玩分数作为参照。",
+          "en": "The platform explores scalable evaluation through human-oriented games, comparing seven VLMs under short-play interaction with human performance references."
+        },
+        {
+          "zh": "游戏每秒暂停，模型一次给出五段各0.2秒动作；每游戏运行三次，最多120次调用或120秒，并报告人类归一化分数的中位数和几何均值。",
+          "en": "Games pause each second for five 0.2-second action segments. Three runs per game use at most 120 calls or game seconds, reporting median and geometric-mean human-normalized scores."
+        },
+        {
+          "zh": "评测使用100个生成改编实现及其人类参照分数，商业游戏提供设计灵感；认知需求标注用于描述各小游戏的综合任务要求。",
+          "en": "Evaluation covers 100 generated adaptations and human reference scores; commercial titles provide inspiration and cognitive annotations describe task demands."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2602.17594",
+          "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games"
+        },
+        {
+          "url": "https://aigamestore.org/games",
+          "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2602.17594",
+          "title": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2604.07429",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GameWorld提供34款浏览器游戏和170项任务，模型从画面与近期动作记录选择操作，系统以游戏内部状态验证目标是否达成。",
+            "en": "GameWorld contains 34 browser games and 170 tasks, connecting visual observations and recent action history to objectives verified from internal game state."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究统一两类接口：直接键鼠控制，以及由确定性解析器执行的语义动作；借此比较不同模型接口组合并分析延迟、记忆与动作有效性。",
+            "en": "The benchmark standardizes direct keyboard/mouse control and semantic actions executed by a deterministic parser, enabling interface comparisons and studies of latency, memory and validity."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已展开的资源采集克隆任务与Flappy Bird得分任务采用100动作预算、固定动作时长和推理暂停，报告状态验证成功率及最大归一化进度。",
+            "en": "Reviewed resource-collection clone and Flappy Bird score tasks use 100 actions, fixed durations and paused inference, reporting state-verified success and maximum normalized progress."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "套件总体包含34游戏170任务；当前细化协议为采矿克隆与Flappy Bird，状态成功、部分进度和实时交互分别对应不同结果条件。",
+            "en": "The suite has 34 games and 170 tasks; detailed clone-mining and Flappy Bird protocols distinguish state success, partial progress and real-time conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GameWorld提供34款浏览器游戏和170项任务，模型从画面与近期动作记录选择操作，系统以游戏内部状态验证目标是否达成。",
+          "en": "GameWorld contains 34 browser games and 170 tasks, connecting visual observations and recent action history to objectives verified from internal game state."
+        },
+        {
+          "zh": "研究统一两类接口：直接键鼠控制，以及由确定性解析器执行的语义动作；借此比较不同模型接口组合并分析延迟、记忆与动作有效性。",
+          "en": "The benchmark standardizes direct keyboard/mouse control and semantic actions executed by a deterministic parser, enabling interface comparisons and studies of latency, memory and validity."
+        },
+        {
+          "zh": "已展开的资源采集克隆任务与Flappy Bird得分任务采用100动作预算、固定动作时长和推理暂停，报告状态验证成功率及最大归一化进度。",
+          "en": "Reviewed resource-collection clone and Flappy Bird score tasks use 100 actions, fixed durations and paused inference, reporting state-verified success and maximum normalized progress."
+        },
+        {
+          "zh": "套件总体包含34游戏170任务；当前细化协议为采矿克隆与Flappy Bird，状态成功、部分进度和实时交互分别对应不同结果条件。",
+          "en": "The suite has 34 games and 170 tasks; detailed clone-mining and Flappy Bird protocols distinguish state success, partial progress and real-time conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.07429",
+          "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2604.07429v1",
+          "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2604.07429",
+          "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2604.07429v1#S3.T4",
+          "title": "GameWorld game inventory and task definitions"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/gameworld-project/gameworld-project.github.io/blob/471ba4784bad12690cc1f31d7fd9f59d37a56d30/static/figures/gameworld/games/game_01_2048.jpg",
+          "title": {
+            "zh": "GameWorld 2048 示例（浏览器实现）",
+            "en": "GameWorld 2048 example (browser implementation)"
+          },
+          "source": "https://github.com/gameworld-project/gameworld-project.github.io/blob/471ba4784bad12690cc1f31d7fd9f59d37a56d30/static/figures/gameworld/games/game_01_2048.jpg",
+          "sourceAssetSha": "a07aac6093459919eb5ccdc8f0679feb91fa46be",
+          "exampleGameId": "2048"
+        }
+      ]
+    },
+    {
+      "id": "AX26-2606.09826",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "OmniGameArena以Unreal Engine 5新建12款游戏，覆盖七个单人、三个对抗和两个合作环境，统一画面、时间戳、历史与分段键鼠动作接口。",
+            "en": "OmniGameArena builds 12 UE5 games: seven solo, three competitive and two cooperative, sharing visual, timestamp, history and chunked keyboard/mouse interfaces."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "除首次尝试表现外，研究引入改进动态曲线，由反思模型在多轮中修改有界技能提示，并考察技能在留出任务变体上的效果。",
+            "en": "Beyond cold-start performance, Improvement Dynamics Curves track reflection-driven revisions to bounded skill prompts and their behavior on held-out task variants."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各游戏按实际目标计分，包括位置进度、生存时间、伤害、任务或触发器完成、交付价值与基地生命；冷启动和反思轮次分开报告。",
+            "en": "Scoring follows each game's objective: position, survival, damage, task or trigger completion, deliveries and base health. Cold-start and reflection rounds are reported separately."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "十二游戏分别涵盖平台跳跃、探索、对抗与协作；每项任务保留自己的计分方式，改进曲线描述提示反思轮次和留出变体表现。",
+            "en": "The twelve games span platforming, exploration, competition and cooperation, with task-specific scores and reflection curves on held-out variants."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "OmniGameArena以Unreal Engine 5新建12款游戏，覆盖七个单人、三个对抗和两个合作环境，统一画面、时间戳、历史与分段键鼠动作接口。",
+          "en": "OmniGameArena builds 12 UE5 games: seven solo, three competitive and two cooperative, sharing visual, timestamp, history and chunked keyboard/mouse interfaces."
+        },
+        {
+          "zh": "除首次尝试表现外，研究引入改进动态曲线，由反思模型在多轮中修改有界技能提示，并考察技能在留出任务变体上的效果。",
+          "en": "Beyond cold-start performance, Improvement Dynamics Curves track reflection-driven revisions to bounded skill prompts and their behavior on held-out task variants."
+        },
+        {
+          "zh": "各游戏按实际目标计分，包括位置进度、生存时间、伤害、任务或触发器完成、交付价值与基地生命；冷启动和反思轮次分开报告。",
+          "en": "Scoring follows each game's objective: position, survival, damage, task or trigger completion, deliveries and base health. Cold-start and reflection rounds are reported separately."
+        },
+        {
+          "zh": "十二游戏分别涵盖平台跳跃、探索、对抗与协作；每项任务保留自己的计分方式，改进曲线描述提示反思轮次和留出变体表现。",
+          "en": "The twelve games span platforming, exploration, competition and cooperation, with task-specific scores and reflection curves on held-out variants."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.09826",
+          "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.09826v1",
+          "title": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB107",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Game-RL通过Code2Logic改写游戏代码，生成具有可验证答案与可控难度的多模态推理题；GameQA覆盖30款来源游戏和158类任务。",
+            "en": "Game-RL uses Code2Logic to transform game code into multimodal reasoning questions with verifiable answers and controlled difficulty; GameQA spans 30 source games and 158 tasks."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究把丰富的游戏视觉元素与规则作为强化学习训练资源，训练视觉语言模型，并观察游戏推理数据对通用视觉语言推理的迁移价值。",
+            "en": "The work uses game visuals and mechanics as reinforcement-learning data for VLMs and investigates transfer from game-derived reasoning to general multimodal reasoning."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "实验比较仅用GameQA训练后的七个域外视觉语言基准，并分析游戏种类和数据规模扩展的影响；评测核心是可核验题目与迁移表现。",
+            "en": "Evaluation measures transfer to seven out-of-domain vision-language benchmarks and examines scaling game diversity and data volume, centered on verifiable question answering."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "GameQA属于游戏衍生的视觉推理训练与问答资源；其30游戏来源、158类任务和七个域外测试共同界定论文的训练迁移范围。",
+            "en": "GameQA is game-derived visual-reasoning training and QA data, defined by 30 source games, 158 tasks and transfer tests on seven external benchmarks."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Game-RL通过Code2Logic改写游戏代码，生成具有可验证答案与可控难度的多模态推理题；GameQA覆盖30款来源游戏和158类任务。",
+          "en": "Game-RL uses Code2Logic to transform game code into multimodal reasoning questions with verifiable answers and controlled difficulty; GameQA spans 30 source games and 158 tasks."
+        },
+        {
+          "zh": "研究把丰富的游戏视觉元素与规则作为强化学习训练资源，训练视觉语言模型，并观察游戏推理数据对通用视觉语言推理的迁移价值。",
+          "en": "The work uses game visuals and mechanics as reinforcement-learning data for VLMs and investigates transfer from game-derived reasoning to general multimodal reasoning."
+        },
+        {
+          "zh": "实验比较仅用GameQA训练后的七个域外视觉语言基准，并分析游戏种类和数据规模扩展的影响；评测核心是可核验题目与迁移表现。",
+          "en": "Evaluation measures transfer to seven out-of-domain vision-language benchmarks and examines scaling game diversity and data volume, centered on verifiable question answering."
+        },
+        {
+          "zh": "GameQA属于游戏衍生的视觉推理训练与问答资源；其30游戏来源、158类任务和七个域外测试共同界定论文的训练迁移范围。",
+          "en": "GameQA is game-derived visual-reasoning training and QA data, defined by 30 source games, 158 tasks and transfer tests on seven external benchmarks."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ad98e6306c5ed8a228b7240152f65af-Abstract-Conference.html",
+          "title": "Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs' General Reasoning"
+        },
+        {
+          "url": "https://github.com/tongjingqi/Game-RL",
+          "title": "Game-RL"
+        },
+        {
+          "url": "https://github.com/tongjingqi/Game-RL/tree/main/src/minecraft",
+          "title": "Minecraft QA Generator"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-2.3",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GameBoyWorlds研究智能体能否从自身游玩中学习，包含Execution局部执行和Playthrough整局探索；Execution跨五个系列设置500项测试任务。",
+            "en": "GameBoyWorlds studies learning from self-directed play through Execution and Playthrough tracks; Execution includes 500 localized tasks across five game series."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "智能体先在专用训练游戏探索，无示范、文档或奖励，再把获得的操作知识用于未见游戏；研究比较世界建模、技能发现和探索写作指南等方法。",
+            "en": "Agents explore dedicated training games without demonstrations, documentation or rewards, then transfer knowledge to unseen games; approaches include world models, skill discovery and written guides."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "当前协议细化Execution：从固定存档开始，以Game Boy按键行动，最多75次执行器响应，依参考成功画面裁剪匹配计算任务完成率。",
+            "en": "The detailed Execution protocol starts from fixed saves, allows 75 executor responses through Game Boy buttons and measures completion using reference success-screen crops."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Execution的500任务衡量局部导航和机制操作；Playthrough另以两款同人宝可梦研究整局推进，两条轨道具有各自的初始状态与目标。",
+            "en": "Execution measures 500 local navigation/mechanics tasks; Playthrough separately studies full progression in two fan-made Pokémon games."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GameBoyWorlds研究智能体能否从自身游玩中学习，包含Execution局部执行和Playthrough整局探索；Execution跨五个系列设置500项测试任务。",
+          "en": "GameBoyWorlds studies learning from self-directed play through Execution and Playthrough tracks; Execution includes 500 localized tasks across five game series."
+        },
+        {
+          "zh": "智能体先在专用训练游戏探索，无示范、文档或奖励，再把获得的操作知识用于未见游戏；研究比较世界建模、技能发现和探索写作指南等方法。",
+          "en": "Agents explore dedicated training games without demonstrations, documentation or rewards, then transfer knowledge to unseen games; approaches include world models, skill discovery and written guides."
+        },
+        {
+          "zh": "当前协议细化Execution：从固定存档开始，以Game Boy按键行动，最多75次执行器响应，依参考成功画面裁剪匹配计算任务完成率。",
+          "en": "The detailed Execution protocol starts from fixed saves, allows 75 executor responses through Game Boy buttons and measures completion using reference success-screen crops."
+        },
+        {
+          "zh": "Execution的500任务衡量局部导航和机制操作；Playthrough另以两款同人宝可梦研究整局推进，两条轨道具有各自的初始状态与目标。",
+          "en": "Execution measures 500 local navigation/mechanics tasks; Playthrough separately studies full progression in two fan-made Pokémon games."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.32093",
+          "title": "GameBoyWorlds: A Testbed for Self-Improvement in Embodied Video Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.32093",
+          "title": "GameBoyWorlds: A Testbed for Self-Improvement in Embodied Video Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB105",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "lmgame-Bench将平台、解谜和叙事游戏接入统一Gym式接口，给语言模型提供轻量感知与记忆支架，减少视觉脆弱、提示变化和污染的影响。",
+            "en": "lmgame-Bench unifies platformer, puzzle and narrative games through a Gym-style interface, adding lightweight perception and memory scaffolds to stabilize evaluation."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究在13种模型间比较综合游戏能力，并探索单游戏强化学习向未见游戏及外部规划任务的迁移；各游戏考察的能力组合有所不同。",
+            "en": "The work compares 13 models and studies whether reinforcement learning in one game transfers to unseen games and external planning tasks. Games probe different capability mixtures."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已展开的主评测Sokoban要求从图像或感知模块给出的符号棋盘移动角色推箱，以完成分数汇总结果，并区分支架、关卡和动作预算。",
+            "en": "The detailed main-evaluation Sokoban task uses images or scaffolded symbolic boards for box pushing, aggregating completion scores under specified levels, budgets and harness conditions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "当前细化记录为主评测Sokoban，其图像与符号支架条件分别报告；套件其他游戏及简化训练迁移实验保留各自协议。",
+            "en": "Detailed coverage concerns main-evaluation Sokoban, separating visual/symbolic scaffolds from other suite games and simplified transfer experiments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "lmgame-Bench将平台、解谜和叙事游戏接入统一Gym式接口，给语言模型提供轻量感知与记忆支架，减少视觉脆弱、提示变化和污染的影响。",
+          "en": "lmgame-Bench unifies platformer, puzzle and narrative games through a Gym-style interface, adding lightweight perception and memory scaffolds to stabilize evaluation."
+        },
+        {
+          "zh": "研究在13种模型间比较综合游戏能力，并探索单游戏强化学习向未见游戏及外部规划任务的迁移；各游戏考察的能力组合有所不同。",
+          "en": "The work compares 13 models and studies whether reinforcement learning in one game transfers to unseen games and external planning tasks. Games probe different capability mixtures."
+        },
+        {
+          "zh": "已展开的主评测Sokoban要求从图像或感知模块给出的符号棋盘移动角色推箱，以完成分数汇总结果，并区分支架、关卡和动作预算。",
+          "en": "The detailed main-evaluation Sokoban task uses images or scaffolded symbolic boards for box pushing, aggregating completion scores under specified levels, budgets and harness conditions."
+        },
+        {
+          "zh": "当前细化记录为主评测Sokoban，其图像与符号支架条件分别报告；套件其他游戏及简化训练迁移实验保留各自协议。",
+          "en": "Detailed coverage concerns main-evaluation Sokoban, separating visual/symbolic scaffolds from other suite games and simplified transfer experiments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.15146",
+          "title": "LMGame-Bench: How Good Are LLMs at Playing Games?"
+        },
+        {
+          "url": "https://github.com/lmgame-org/GamingAgent",
+          "title": "LMGame-Bench — official documentation"
+        },
+        {
+          "url": "https://arxiv.org/html/2505.15146v1",
+          "title": "LMGame-Bench, Sections 2–3"
+        },
+        {
+          "url": "https://github.com/lmgame-org/GamingAgent#lmgame-bench",
+          "title": "LMGame-Bench official evaluation setup"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "orak",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Orak为12款主流电子游戏提供训练与评测框架，通过可插拔接口连接游戏状态、动作工具和模型，并发布专家模型游玩轨迹用于微调。",
+            "en": "Orak provides training and evaluation across 12 popular videogames through pluggable state/action interfaces and releases expert LLM trajectories for fine-tuning."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究比较输入模态、智能体模块和微调的作用，并以游戏榜单及对战Arena呈现不同类型任务中的表现；接口抽象随游戏机制而变化。",
+            "en": "The framework studies input modality, agentic modules and fine-tuning through game leaderboards and battle arenas; interface abstractions vary with each game's mechanics."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "细化协议包括Minecraft八项制作目标的完成比例，以及StarCraft II对内置AI的整局胜率；前者执行JavaScript技能，后者选择高层动作字典。",
+            "en": "Detailed protocols include completion across eight Minecraft crafting targets through JavaScript skills and full-game StarCraft II wins against built-in AI using high-level actions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Minecraft与StarCraft II是十二游戏中的具体协议：前者体现工具化制作链，后者体现高层整局运营，评分随游戏目标定义。",
+            "en": "Minecraft and StarCraft II exemplify the twelve-game suite through tool-mediated crafting chains and high-level full-match management, with game-specific scoring."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Orak为12款主流电子游戏提供训练与评测框架，通过可插拔接口连接游戏状态、动作工具和模型，并发布专家模型游玩轨迹用于微调。",
+          "en": "Orak provides training and evaluation across 12 popular videogames through pluggable state/action interfaces and releases expert LLM trajectories for fine-tuning."
+        },
+        {
+          "zh": "研究比较输入模态、智能体模块和微调的作用，并以游戏榜单及对战Arena呈现不同类型任务中的表现；接口抽象随游戏机制而变化。",
+          "en": "The framework studies input modality, agentic modules and fine-tuning through game leaderboards and battle arenas; interface abstractions vary with each game's mechanics."
+        },
+        {
+          "zh": "细化协议包括Minecraft八项制作目标的完成比例，以及StarCraft II对内置AI的整局胜率；前者执行JavaScript技能，后者选择高层动作字典。",
+          "en": "Detailed protocols include completion across eight Minecraft crafting targets through JavaScript skills and full-game StarCraft II wins against built-in AI using high-level actions."
+        },
+        {
+          "zh": "Minecraft与StarCraft II是十二游戏中的具体协议：前者体现工具化制作链，后者体现高层整局运营，评分随游戏目标定义。",
+          "en": "Minecraft and StarCraft II exemplify the twelve-game suite through tool-mediated crafting chains and high-level full-match management, with game-specific scoring."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63506d49e90266a51f21ba8edbd49f46-Abstract-Conference.html",
+          "title": "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games"
+        },
+        {
+          "url": "https://github.com/krafton-ai/Orak",
+          "title": "Official code"
+        },
+        {
+          "url": "https://github.com/krafton-ai/Orak#readme",
+          "title": "官方 README · readme"
+        },
+        {
+          "url": "https://github.com/krafton-ai/Orak/blob/release/docs/eval_metrics.md#starcraft-ii",
+          "title": "StarCraft II"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/krafton-ai/Orak/blob/release/assets/game_videos/Orak_intro_GIF.gif",
+          "title": {
+            "zh": "官方 Orak 游戏合集演示",
+            "en": "Official Orak game-suite demonstration"
+          },
+          "source": "https://github.com/krafton-ai/Orak/blob/release/README.md",
+          "sourceAssetSha": "c9cb3f2d500f582d193346468b0aa262f5435e1c"
+        }
+      ]
+    },
+    {
+      "id": "GAB098",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GAMEBoT让语言模型在八种规则游戏中对战，读取游戏状态、规则和预设策略问题，先回答中间子问题，再生成可以执行的落子或动作。",
+            "en": "GAMEBoT evaluates model-versus-model play across eight rule-based games, supplying state, rules and strategy subquestions before executable moves."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究以可检查的中间步骤增强推理评测透明度，将最终博弈表现与过程问题表现并列分析，观察模型能否把推导转化为有效行动。",
+            "en": "The benchmark makes intermediate reasoning assessable and compares these diagnostics with final game outcomes, testing the connection between subproblem answers and actions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "每模型对进行20局，双方各先手十局，输出上限4096词元；终局奖励归一化，并另报胜平负及中间题准确率或F1。",
+            "en": "Each model pair plays 20 matches with balanced first-player seats and 4,096 output tokens; normalized outcome rewards, win/draw/loss and intermediate accuracy or F1 are separate measures."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "八游戏共同比赛协议与中间问题诊断并列呈现；策略提示、先手平衡及自定义游戏实现界定结果的语境。",
+            "en": "The eight-game competition protocol accompanies intermediate-question diagnostics, under specified strategy prompts, seat balance and custom game implementations."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GAMEBoT让语言模型在八种规则游戏中对战，读取游戏状态、规则和预设策略问题，先回答中间子问题，再生成可以执行的落子或动作。",
+          "en": "GAMEBoT evaluates model-versus-model play across eight rule-based games, supplying state, rules and strategy subquestions before executable moves."
+        },
+        {
+          "zh": "研究以可检查的中间步骤增强推理评测透明度，将最终博弈表现与过程问题表现并列分析，观察模型能否把推导转化为有效行动。",
+          "en": "The benchmark makes intermediate reasoning assessable and compares these diagnostics with final game outcomes, testing the connection between subproblem answers and actions."
+        },
+        {
+          "zh": "每模型对进行20局，双方各先手十局，输出上限4096词元；终局奖励归一化，并另报胜平负及中间题准确率或F1。",
+          "en": "Each model pair plays 20 matches with balanced first-player seats and 4,096 output tokens; normalized outcome rewards, win/draw/loss and intermediate accuracy or F1 are separate measures."
+        },
+        {
+          "zh": "八游戏共同比赛协议与中间问题诊断并列呈现；策略提示、先手平衡及自定义游戏实现界定结果的语境。",
+          "en": "The eight-game competition protocol accompanies intermediate-question diagnostics, under specified strategy prompts, seat balance and custom game implementations."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2025.acl-long.378/",
+          "title": "GAMEBoT: Transparent Assessment of LLM Reasoning in Games"
+        },
+        {
+          "url": "https://aclanthology.org/2025.acl-long.378.pdf",
+          "title": "GAMEBoT: Transparent Assessment of LLM Reasoning in Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB058",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "AgentBench在八类交互环境中评估模型作为智能体的决策，其中Aquawar数字卡牌要求四鱼队伍选择攻击与技能，第二阶段还需猜测隐藏身份。",
+            "en": "AgentBench evaluates agents across eight interactive environments; its Aquawar card-game component uses four-fish teams, attacks and skills, with hidden-identity guesses in stage two."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "整体研究分析多轮推理、决策和指令遵循；卡牌子任务把文本规则、当前存活状态、已揭示身份和敌方反馈接入闭环对战。",
+            "en": "The broader study examines multi-turn reasoning, decisions and instruction following. Aquawar combines textual rules, live-team state, revealed identities and enemy feedback in closed-loop battles."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "匹配战斗场景并使用随机与贪心基线，两阶段平均得分由0.7胜率加0.3伤害率构成；格式最多重试五次后判负，温度为零。",
+            "en": "Matched scenarios use random and greedy baselines; two-stage scores average 0.7 win rate plus 0.3 damage rate. Formatting retries are capped at five, with zero temperature."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Aquawar是八环境AgentBench中的数字卡牌子任务，包含公开战斗与隐藏身份阶段，综合胜率和伤害率评价队伍决策。",
+            "en": "Aquawar is the digital-card component of eight-environment AgentBench, combining open combat and hidden-identity stages with win/damage scoring."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "AgentBench在八类交互环境中评估模型作为智能体的决策，其中Aquawar数字卡牌要求四鱼队伍选择攻击与技能，第二阶段还需猜测隐藏身份。",
+          "en": "AgentBench evaluates agents across eight interactive environments; its Aquawar card-game component uses four-fish teams, attacks and skills, with hidden-identity guesses in stage two."
+        },
+        {
+          "zh": "整体研究分析多轮推理、决策和指令遵循；卡牌子任务把文本规则、当前存活状态、已揭示身份和敌方反馈接入闭环对战。",
+          "en": "The broader study examines multi-turn reasoning, decisions and instruction following. Aquawar combines textual rules, live-team state, revealed identities and enemy feedback in closed-loop battles."
+        },
+        {
+          "zh": "匹配战斗场景并使用随机与贪心基线，两阶段平均得分由0.7胜率加0.3伤害率构成；格式最多重试五次后判负，温度为零。",
+          "en": "Matched scenarios use random and greedy baselines; two-stage scores average 0.7 win rate plus 0.3 damage rate. Formatting retries are capped at five, with zero temperature."
+        },
+        {
+          "zh": "Aquawar是八环境AgentBench中的数字卡牌子任务，包含公开战斗与隐藏身份阶段，综合胜率和伤害率评价队伍决策。",
+          "en": "Aquawar is the digital-card component of eight-environment AgentBench, combining open combat and hidden-identity stages with win/damage scoring."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html",
+          "title": "AgentBench: Evaluating LLMs as Agents"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf",
+          "title": "AgentBench: Evaluating LLMs as Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A1",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LMAct把专家交互轨迹作为长上下文示范，覆盖井字棋、象棋、Atari、网格导航、填字与模拟猎豹控制，比较模型能否在上下文中模仿决策。",
+            "en": "LMAct supplies expert trajectories as long-context demonstrations across tic-tac-toe, chess, Atari, grid navigation, crosswords and simulated cheetah control."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究逐步增加示范数量至512个完整回合，并比较文字或图像编码与思维链提示，检验长上下文容量是否真正带来更好的交互策略。",
+            "en": "The work increases demonstrations up to 512 episodes and varies textual/image encodings and chain-of-thought prompting to examine whether context capacity improves policies."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的象棋协议对弱化Stockfish16进行100局评估，每局最多100步；胜平负奖励为1、0、−1，非法着法随机替代并另报发生率。",
+            "en": "The detailed chess protocol evaluates 100 episodes against weakened Stockfish 16, capped at 100 steps; rewards are 1/0/−1, with random fallback and separate illegal-move rates."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "象棋只是六类环境中的一个子协议，采用不同示范与测试初局，并分别考察ASCII、FEN、PGN和RGB表示及上下文容量。",
+            "en": "Chess is one of six environment families, separating demonstration/test starts and comparing ASCII, FEN, PGN, RGB and context capacity."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LMAct把专家交互轨迹作为长上下文示范，覆盖井字棋、象棋、Atari、网格导航、填字与模拟猎豹控制，比较模型能否在上下文中模仿决策。",
+          "en": "LMAct supplies expert trajectories as long-context demonstrations across tic-tac-toe, chess, Atari, grid navigation, crosswords and simulated cheetah control."
+        },
+        {
+          "zh": "研究逐步增加示范数量至512个完整回合，并比较文字或图像编码与思维链提示，检验长上下文容量是否真正带来更好的交互策略。",
+          "en": "The work increases demonstrations up to 512 episodes and varies textual/image encodings and chain-of-thought prompting to examine whether context capacity improves policies."
+        },
+        {
+          "zh": "已细化的象棋协议对弱化Stockfish16进行100局评估，每局最多100步；胜平负奖励为1、0、−1，非法着法随机替代并另报发生率。",
+          "en": "The detailed chess protocol evaluates 100 episodes against weakened Stockfish 16, capped at 100 steps; rewards are 1/0/−1, with random fallback and separate illegal-move rates."
+        },
+        {
+          "zh": "象棋只是六类环境中的一个子协议，采用不同示范与测试初局，并分别考察ASCII、FEN、PGN和RGB表示及上下文容量。",
+          "en": "Chess is one of six environment families, separating demonstration/test starts and comparing ASCII, FEN, PGN, RGB and context capacity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v267/ruoss25a.html",
+          "title": "LMAct: A Benchmark for In-Context Imitation Learning with Long Multimodal Demonstrations"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/ruoss25a/ruoss25a.pdf",
+          "title": "LMAct: A Benchmark for In-Context Imitation Learning with Long Multimodal Demonstrations"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "smartplay",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "SmartPlay由六种游戏构成，包括石头剪刀布、汉诺塔与Minecraft，以多种设置和环境变化组织语言智能体的交互评测。",
+            "en": "SmartPlay comprises six games, including rock-paper-scissors, Tower of Hanoi and Minecraft, with multiple settings and environment variations for language agents."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究通过游戏之间不同的任务需求分析规划、空间关系、历史学习和随机性处理；共同方法是把规则、文字状态与行动反馈连接起来。",
+            "en": "Its methodology compares differing game demands involving planning, spatial relations, learning from history and randomness through textual rules, state and feedback."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "具体协议分别使用汉诺塔完成情况、双臂老虎机累计奖励，以及Minecraft目标生物群系导航完成率；导航论文设置为200步、20次试验。",
+            "en": "Detailed protocols use Hanoi completion, two-armed-bandit cumulative reward and target-biome navigation completion; the reported Minecraft setting uses 200 steps and 20 trials."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "六游戏共同构成SmartPlay的方法框架；Minecraft例子聚焦由手写控制器执行的目标生物群系导航，老虎机与汉诺塔则有不同目标。",
+            "en": "SmartPlay's six games define its methodology; the Minecraft example targets biome navigation through a hand-coded controller, alongside distinct bandit and Hanoi goals."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "SmartPlay由六种游戏构成，包括石头剪刀布、汉诺塔与Minecraft，以多种设置和环境变化组织语言智能体的交互评测。",
+          "en": "SmartPlay comprises six games, including rock-paper-scissors, Tower of Hanoi and Minecraft, with multiple settings and environment variations for language agents."
+        },
+        {
+          "zh": "研究通过游戏之间不同的任务需求分析规划、空间关系、历史学习和随机性处理；共同方法是把规则、文字状态与行动反馈连接起来。",
+          "en": "Its methodology compares differing game demands involving planning, spatial relations, learning from history and randomness through textual rules, state and feedback."
+        },
+        {
+          "zh": "具体协议分别使用汉诺塔完成情况、双臂老虎机累计奖励，以及Minecraft目标生物群系导航完成率；导航论文设置为200步、20次试验。",
+          "en": "Detailed protocols use Hanoi completion, two-armed-bandit cumulative reward and target-biome navigation completion; the reported Minecraft setting uses 200 steps and 20 trials."
+        },
+        {
+          "zh": "六游戏共同构成SmartPlay的方法框架；Minecraft例子聚焦由手写控制器执行的目标生物群系导航，老虎机与汉诺塔则有不同目标。",
+          "en": "SmartPlay's six games define its methodology; the Minecraft example targets biome navigation through a hand-coded controller, alongside distinct bandit and Hanoi goals."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/063d1fadbde557466bf5bcffe814a64e-Abstract-Conference.html",
+          "title": "SmartPlay: A Benchmark for LLMs as Intelligent Agents"
+        },
+        {
+          "url": "https://github.com/microsoft/SmartPlay",
+          "title": "SmartPlay — official documentation"
+        },
+        {
+          "url": "https://github.com/microsoft/SmartPlay#smartplay",
+          "title": "SmartPlay official roster and usage"
+        },
+        {
+          "url": "https://github.com/microsoft/SmartPlay#using-smartplay",
+          "title": "官方 README · using-smartplay"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2606.08340",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Alem在Craftax式生存世界中程序化生成协调任务，包含同步采矿、限时交接、合作建造与战斗，队伍还需探索、制作和交换资源。",
+            "en": "Alem procedurally generates coordination tasks in a Craftax-like survival world, including synchronized mining, timed handovers, cooperative construction and combat."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究通过软角色分工、通信与可控协调难度，区分个体完成基础任务和团队执行共同计划；零样本文字模型与训练过的多智能体强化学习作参照。",
+            "en": "Soft specialization, communication and controlled coordination difficulty separate base competence from shared-plan execution, comparing zero-shot language teams with trained MARL references."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "智能体读取局部地图、物品与队友消息，以含通信的60种离散动作行动；Base%、Coord.%和Total%分别归一化并提供置信区间。",
+            "en": "Agents use local maps, inventories and messages with 60 discrete actions including communication. Base%, Coord.% and Total% are independently normalized with confidence intervals."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "基础任务与协调收益分别归一化，固定种子难度和八步历史界定评测；资源采集、交接、建造与战斗提供不同协调需求。",
+            "en": "Base and coordination rewards are separately normalized under seeded difficulties and eight-step histories, with distinct demands from gathering, handovers, building and combat."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Alem在Craftax式生存世界中程序化生成协调任务，包含同步采矿、限时交接、合作建造与战斗，队伍还需探索、制作和交换资源。",
+          "en": "Alem procedurally generates coordination tasks in a Craftax-like survival world, including synchronized mining, timed handovers, cooperative construction and combat."
+        },
+        {
+          "zh": "研究通过软角色分工、通信与可控协调难度，区分个体完成基础任务和团队执行共同计划；零样本文字模型与训练过的多智能体强化学习作参照。",
+          "en": "Soft specialization, communication and controlled coordination difficulty separate base competence from shared-plan execution, comparing zero-shot language teams with trained MARL references."
+        },
+        {
+          "zh": "智能体读取局部地图、物品与队友消息，以含通信的60种离散动作行动；Base%、Coord.%和Total%分别归一化并提供置信区间。",
+          "en": "Agents use local maps, inventories and messages with 60 discrete actions including communication. Base%, Coord.% and Total% are independently normalized with confidence intervals."
+        },
+        {
+          "zh": "基础任务与协调收益分别归一化，固定种子难度和八步历史界定评测；资源采集、交接、建造与战斗提供不同协调需求。",
+          "en": "Base and coordination rewards are separately normalized under seeded difficulties and eight-step histories, with distinct demands from gathering, handovers, building and combat."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.08340",
+          "title": "Benchmarking Open-Ended Multi-Agent Coordination in Language Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.08340v1",
+          "title": "Benchmarking Open-Ended Multi-Agent Coordination in Language Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2601.16690",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "EMemBench从智能体实际交互生成个体化轨迹，再由程序化模板提出可核验的情景记忆问题，覆盖文字游戏和视觉游戏。",
+            "en": "EMemBench generates personalized trajectories through interaction and derives verifiable episodic-memory questions using programmatic templates in text and visual games."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究包含单跳与多跳回忆、归纳、时间、空间、逻辑和对抗问题，以环境底层信号计算答案并控制可回答性，减少固定题库的局限。",
+            "en": "Templates cover single/multi-hop recall, induction, temporal, spatial, logical and adversarial questions, deriving ground truth and answerability from environment signals."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "论文在15种文字游戏及多个视觉种子上比较记忆智能体与上下文提示基线，使用准确率和F1评价轨迹相关回答，并辅以人类研究。",
+            "en": "Memory agents and in-context baselines are compared across 15 text games and multiple visual seeds, using accuracy and F1 for trajectory-grounded answers plus a human study."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "交互轨迹构成个体经历，最终评分对象是经历相关记忆问答；文字与视觉环境、持久记忆与上下文基线分别组织比较。",
+            "en": "Interaction supplies personal experiences; scoring targets trajectory-grounded memory QA across text/visual settings and persistent-memory/in-context baselines."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "EMemBench从智能体实际交互生成个体化轨迹，再由程序化模板提出可核验的情景记忆问题，覆盖文字游戏和视觉游戏。",
+          "en": "EMemBench generates personalized trajectories through interaction and derives verifiable episodic-memory questions using programmatic templates in text and visual games."
+        },
+        {
+          "zh": "研究包含单跳与多跳回忆、归纳、时间、空间、逻辑和对抗问题，以环境底层信号计算答案并控制可回答性，减少固定题库的局限。",
+          "en": "Templates cover single/multi-hop recall, induction, temporal, spatial, logical and adversarial questions, deriving ground truth and answerability from environment signals."
+        },
+        {
+          "zh": "论文在15种文字游戏及多个视觉种子上比较记忆智能体与上下文提示基线，使用准确率和F1评价轨迹相关回答，并辅以人类研究。",
+          "en": "Memory agents and in-context baselines are compared across 15 text games and multiple visual seeds, using accuracy and F1 for trajectory-grounded answers plus a human study."
+        },
+        {
+          "zh": "交互轨迹构成个体经历，最终评分对象是经历相关记忆问答；文字与视觉环境、持久记忆与上下文基线分别组织比较。",
+          "en": "Interaction supplies personal experiences; scoring targets trajectory-grounded memory QA across text/visual settings and persistent-memory/in-context baselines."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.16690",
+          "title": "EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2601.16690v1",
+          "title": "EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2601.16690v2",
+          "title": "EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2605.30931",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MineExplorer在Minecraft中设置隐含一至四跳前置依赖，智能体需从指令和环境发现路径，再通过移动、采集、制作、放置与攻击完成目标。",
+            "en": "MineExplorer constructs Minecraft tasks with implicit one-to-four-hop prerequisites, requiring agents to infer dependencies and act through movement, collection, crafting, placement and attacks."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究筛除高度依赖专有游戏知识的原子任务，以多智能体合成流程联合设计任务图、场景和规则里程碑，考察开放世界探索中的依赖协调。",
+            "en": "The work filters knowledge-heavy atomic tasks and jointly synthesizes task graphs, scenes and rule-based milestones to study dependency coordination in open-world exploration."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "每实例最多300步，每步0.1秒，保留至多20个历史画面；最终目标成功率TSR与里程碑平均完成比例MSR分别衡量结果与部分进展。",
+            "en": "Each instance allows 300 steps of 0.1 seconds with up to 20 historical frames. TSR measures final success and MSR averages milestone completion."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务以隐含前置图和规则里程碑定义，一至四跳依赖与约30秒执行窗口构成当前探索协议，TSR和MSR对应终点与过程。",
+            "en": "Hidden prerequisite graphs and rule milestones define one-to-four-hop tasks within roughly 30-second windows, with TSR and MSR measuring endpoints and progress."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MineExplorer在Minecraft中设置隐含一至四跳前置依赖，智能体需从指令和环境发现路径，再通过移动、采集、制作、放置与攻击完成目标。",
+          "en": "MineExplorer constructs Minecraft tasks with implicit one-to-four-hop prerequisites, requiring agents to infer dependencies and act through movement, collection, crafting, placement and attacks."
+        },
+        {
+          "zh": "研究筛除高度依赖专有游戏知识的原子任务，以多智能体合成流程联合设计任务图、场景和规则里程碑，考察开放世界探索中的依赖协调。",
+          "en": "The work filters knowledge-heavy atomic tasks and jointly synthesizes task graphs, scenes and rule-based milestones to study dependency coordination in open-world exploration."
+        },
+        {
+          "zh": "每实例最多300步，每步0.1秒，保留至多20个历史画面；最终目标成功率TSR与里程碑平均完成比例MSR分别衡量结果与部分进展。",
+          "en": "Each instance allows 300 steps of 0.1 seconds with up to 20 historical frames. TSR measures final success and MSR averages milestone completion."
+        },
+        {
+          "zh": "任务以隐含前置图和规则里程碑定义，一至四跳依赖与约30秒执行窗口构成当前探索协议，TSR和MSR对应终点与过程。",
+          "en": "Hidden prerequisite graphs and rule milestones define one-to-four-hop tasks within roughly 30-second windows, with TSR and MSR measuring endpoints and progress."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.30931",
+          "title": "MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft"
+        },
+        {
+          "url": "https://arxiv.org/html/2605.30931v1",
+          "title": "MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2607.29218",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MirrorCraft把同一Minecraft世界复制为原版与隐藏规则修改版，比较铁甲、钻石和附魔三条进展任务；地形、出生点与资源位置逐对匹配。",
+            "en": "MirrorCraft pairs vanilla Minecraft worlds with copies containing hidden rule changes, evaluating Iron Armor, Diamond and Enchantment progression under matched terrain, spawn and resources."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究通过六组服务端规则干预，考察熟悉配方与掉落变化后智能体如何利用行动反馈；十个原版世界分布于五种受控生物群系。",
+            "en": "Six server-side rule suites test adaptation when familiar recipes or drops change, using ten vanilla worlds across five controlled biomes."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "共享Mineflayer技能接口与50、50、75动作预算，以服务器里程碑计算最深进度和成功率，并用成对RIE描述规则干预带来的表现差。",
+            "en": "A shared Mineflayer skill interface uses 50/50/75-action budgets. Server milestones measure deepest progress and success, with paired RIE quantifying intervention effects."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "成对比较保留匹配世界与动作预算，RIE汇总规则改变后的表现差；不同规则可同时影响知识适用性、资源路线和里程碑进展。",
+            "en": "Paired comparisons match worlds and budgets; RIE summarizes changes that can involve knowledge applicability, resource routes and milestone progression."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MirrorCraft把同一Minecraft世界复制为原版与隐藏规则修改版，比较铁甲、钻石和附魔三条进展任务；地形、出生点与资源位置逐对匹配。",
+          "en": "MirrorCraft pairs vanilla Minecraft worlds with copies containing hidden rule changes, evaluating Iron Armor, Diamond and Enchantment progression under matched terrain, spawn and resources."
+        },
+        {
+          "zh": "研究通过六组服务端规则干预，考察熟悉配方与掉落变化后智能体如何利用行动反馈；十个原版世界分布于五种受控生物群系。",
+          "en": "Six server-side rule suites test adaptation when familiar recipes or drops change, using ten vanilla worlds across five controlled biomes."
+        },
+        {
+          "zh": "共享Mineflayer技能接口与50、50、75动作预算，以服务器里程碑计算最深进度和成功率，并用成对RIE描述规则干预带来的表现差。",
+          "en": "A shared Mineflayer skill interface uses 50/50/75-action budgets. Server milestones measure deepest progress and success, with paired RIE quantifying intervention effects."
+        },
+        {
+          "zh": "成对比较保留匹配世界与动作预算，RIE汇总规则改变后的表现差；不同规则可同时影响知识适用性、资源路线和里程碑进展。",
+          "en": "Paired comparisons match worlds and budgets; RIE summarizes changes that can involve knowledge applicability, resource routes and milestone progression."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.29218",
+          "title": "MirrorCraft: Paired Evaluation under Hidden Rule Changes in Minecraft"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.29218v1",
+          "title": "MirrorCraft: Paired Evaluation under Hidden Rule Changes in Minecraft"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.29218",
+          "title": "MirrorCraft: Paired Evaluation under Hidden Rule Changes in Minecraft"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2606.15684",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "TickingCollabBench在Minecraft中设置灾前避难所建造、消失资源限时采集和互补武器首领战，要求属性不同的智能体在风险与截止时间下合作。",
+            "en": "TickingCollabBench combines shelter construction before disasters, disappearing-resource collection and complementary-weapon boss fights for heterogeneous Minecraft teams."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "TickingCollab框架以YAML描述动态事件，由模型生成任务并用近似可行性约束过滤，突出部分观测、互补能力与现实推理延迟之间的相互作用。",
+            "en": "The TickingCollab framework specifies dynamic events in YAML and filters generated tasks through approximate feasibility constraints, emphasizing partial observation, complementarity and latency."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "通过Mineflayer高层动作与通信执行任务，比较同步或异步、集中或分布式协议的成功率，并分开保留真实延迟和推理暂停条件。",
+            "en": "High-level Mineflayer actions and communication support success-rate comparisons across synchronous/asynchronous and centralized/distributed protocols, separating real-latency and paused-inference conditions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "可行性与成功率随团队配置变化；真实延迟、推理暂停及拥有全局元数据的oracle分别提供不同时间与信息条件下的参照。",
+            "en": "Feasibility and success vary by team setup; real latency, paused inference and globally informed oracles provide distinct timing/information references."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "TickingCollabBench在Minecraft中设置灾前避难所建造、消失资源限时采集和互补武器首领战，要求属性不同的智能体在风险与截止时间下合作。",
+          "en": "TickingCollabBench combines shelter construction before disasters, disappearing-resource collection and complementary-weapon boss fights for heterogeneous Minecraft teams."
+        },
+        {
+          "zh": "TickingCollab框架以YAML描述动态事件，由模型生成任务并用近似可行性约束过滤，突出部分观测、互补能力与现实推理延迟之间的相互作用。",
+          "en": "The TickingCollab framework specifies dynamic events in YAML and filters generated tasks through approximate feasibility constraints, emphasizing partial observation, complementarity and latency."
+        },
+        {
+          "zh": "通过Mineflayer高层动作与通信执行任务，比较同步或异步、集中或分布式协议的成功率，并分开保留真实延迟和推理暂停条件。",
+          "en": "High-level Mineflayer actions and communication support success-rate comparisons across synchronous/asynchronous and centralized/distributed protocols, separating real-latency and paused-inference conditions."
+        },
+        {
+          "zh": "可行性与成功率随团队配置变化；真实延迟、推理暂停及拥有全局元数据的oracle分别提供不同时间与信息条件下的参照。",
+          "en": "Feasibility and success vary by team setup; real latency, paused inference and globally informed oracles provide distinct timing/information references."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.15684",
+          "title": "Multi-agent Framework for Time-Sensitive Complementary Collaboration in Minecraft"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.15684v1",
+          "title": "Multi-agent Framework for Time-Sensitive Complementary Collaboration in Minecraft"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.15684",
+          "title": "Multi-agent Framework for Time-Sensitive Complementary Collaboration in Minecraft"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB084",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Craftium是可定制三维环境平台，支持单人、多智能体与程序化任务生成，目标是在丰富世界交互和训练速度之间取得可用的平衡。",
+            "en": "Craftium is a customizable 3D platform supporting single-agent, multi-agent and procedural environments, balancing rich interaction with training efficiency."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "论文通过不同复杂度的环境展示平台扩展性，研究低成本三维强化学习；ChopTree是其中一个明确记录动作与奖励的示例，而非平台全部用途。",
+            "en": "The paper demonstrates configurable environments for efficient 3D reinforcement learning. ChopTree is one documented example within the broader platform."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "ChopTree从钢斧开局，输入64×64 RGB，以前进、跳跃、挖掘和鼠标方向砍树；每树一奖励，2000步终止，五次运行报告均值与标准误。",
+            "en": "ChopTree starts with a steel axe and 64×64 RGB, using movement, jumping, digging and mouse directions. Trees yield unit rewards; 2,000-step episodes are averaged over five runs."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "ChopTree是平台文档化的示例任务，其回报对应钢斧开局下的砍树数量；Craftium平台另支持可定制世界与多智能体环境。",
+            "en": "ChopTree is a documented platform example scored by trees cut from a steel-axe start; Craftium also supports customizable worlds and multi-agent environments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Craftium是可定制三维环境平台，支持单人、多智能体与程序化任务生成，目标是在丰富世界交互和训练速度之间取得可用的平衡。",
+          "en": "Craftium is a customizable 3D platform supporting single-agent, multi-agent and procedural environments, balancing rich interaction with training efficiency."
+        },
+        {
+          "zh": "论文通过不同复杂度的环境展示平台扩展性，研究低成本三维强化学习；ChopTree是其中一个明确记录动作与奖励的示例，而非平台全部用途。",
+          "en": "The paper demonstrates configurable environments for efficient 3D reinforcement learning. ChopTree is one documented example within the broader platform."
+        },
+        {
+          "zh": "ChopTree从钢斧开局，输入64×64 RGB，以前进、跳跃、挖掘和鼠标方向砍树；每树一奖励，2000步终止，五次运行报告均值与标准误。",
+          "en": "ChopTree starts with a steel axe and 64×64 RGB, using movement, jumping, digging and mouse directions. Trees yield unit rewards; 2,000-step episodes are averaged over five runs."
+        },
+        {
+          "zh": "ChopTree是平台文档化的示例任务，其回报对应钢斧开局下的砍树数量；Craftium平台另支持可定制世界与多智能体环境。",
+          "en": "ChopTree is a documented platform example scored by trees cut from a steel-axe start; Craftium also supports customizable worlds and multi-agent environments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v267/malagon25a.html",
+          "title": "Craftium: Bridging Flexibility and Efficiency for Rich 3D Single- and Multi-Agent Environments"
+        },
+        {
+          "url": "https://arxiv.org/html/2407.03969",
+          "title": "Craftium: Bridging Flexibility and Efficiency for Rich 3D Single- and Multi-Agent Environments"
+        },
+        {
+          "url": "https://github.com/mikelma/craftium",
+          "title": "Craftium: Bridging Flexibility and Efficiency for Rich 3D Single- and Multi-Agent Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB089",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "EVAAA在三维具身环境中为智能体设置饥饿、口渴、体温与损伤变量，要求通过感知和行动把内部状态维持在可存活范围。",
+            "en": "EVAAA equips embodied agents with satiation, hydration, temperature and damage variables that must remain within viable bounds through environmental interaction."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "平台以内部生理变化生成奖励，研究目标如何由自身需求驱动；Unity环境支持视觉、嗅觉、温度和碰撞输入，以及训练课程和未见测试场景。",
+            "en": "Rewards arise from physiological dynamics to study internally motivated goals. Unity environments combine sensory modalities, curricular training and unseen testbeds."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "细化的食物与水路径选择任务在500步内判断是否消费了当前急需资源，比较DQN、PPO与DreamerV3；资源获得与存活时间分别计分。",
+            "en": "The detailed food/water choice task measures consumption of the urgently needed resource within 500 steps, comparing DQN, PPO and DreamerV3 separately from survival-duration measures."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "当前食物水选择协议聚焦500步内的资源获得；温度调节与存活时长属于平台其他任务，分别采用各自状态、时限和成功条件。",
+            "en": "The food/water protocol measures acquisition within 500 steps; thermal regulation and survival-duration tasks have their own states, horizons and success criteria."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "EVAAA在三维具身环境中为智能体设置饥饿、口渴、体温与损伤变量，要求通过感知和行动把内部状态维持在可存活范围。",
+          "en": "EVAAA equips embodied agents with satiation, hydration, temperature and damage variables that must remain within viable bounds through environmental interaction."
+        },
+        {
+          "zh": "平台以内部生理变化生成奖励，研究目标如何由自身需求驱动；Unity环境支持视觉、嗅觉、温度和碰撞输入，以及训练课程和未见测试场景。",
+          "en": "Rewards arise from physiological dynamics to study internally motivated goals. Unity environments combine sensory modalities, curricular training and unseen testbeds."
+        },
+        {
+          "zh": "细化的食物与水路径选择任务在500步内判断是否消费了当前急需资源，比较DQN、PPO与DreamerV3；资源获得与存活时间分别计分。",
+          "en": "The detailed food/water choice task measures consumption of the urgently needed resource within 500 steps, comparing DQN, PPO and DreamerV3 separately from survival-duration measures."
+        },
+        {
+          "zh": "当前食物水选择协议聚焦500步内的资源获得；温度调节与存活时长属于平台其他任务，分别采用各自状态、时限和成功条件。",
+          "en": "The food/water protocol measures acquisition within 500 steps; thermal regulation and survival-duration tasks have their own states, horizons and success criteria."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a33bff12876849137064101232019f1-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "EVAAA: A Virtual Environment Platform for Essential Variables in Autonomous and Adaptive Agents"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5a33bff12876849137064101232019f1-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "EVAAA: A Virtual Environment Platform for Essential Variables in Autonomous and Adaptive Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB087",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MineAnyBuild以Minecraft建筑为载体，给模型多模态人类需求，让其输出可执行的建筑蓝图矩阵，再由Mineflayer自动完成放置。",
+            "en": "MineAnyBuild presents multimodal building instructions and asks models for executable blueprint matrices, which Mineflayer then constructs automatically in Minecraft."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "4000项空间规划任务来自精选内容，围绕空间理解、推理、创造性和常识组织评测，并提供利用玩家内容持续扩充任务的流程。",
+            "en": "Its 4,000 curated tasks examine spatial understanding, reasoning, creativity and commonsense, with a pipeline for expansion through player-generated content."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评分同时考察生成建筑质量和空间问答准确率；建筑质量包含GPT-4.1加权判断，评价对象是计划产物及其空间关系。",
+            "en": "Evaluation combines artifact quality, including GPT-4.1-weighted judgments, with spatial-QA accuracy, assessing generated plans and their spatial relationships."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "生成蓝图、自动施工和空间问答构成评测链路，质量分数评价建筑产物及其关系，模型承担的是空间计划与回答生成角色。",
+            "en": "Blueprint generation, automatic construction and spatial QA form the evaluation pipeline, with artifact/relationship quality assessing the model's planning and answering roles."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MineAnyBuild以Minecraft建筑为载体，给模型多模态人类需求，让其输出可执行的建筑蓝图矩阵，再由Mineflayer自动完成放置。",
+          "en": "MineAnyBuild presents multimodal building instructions and asks models for executable blueprint matrices, which Mineflayer then constructs automatically in Minecraft."
+        },
+        {
+          "zh": "4000项空间规划任务来自精选内容，围绕空间理解、推理、创造性和常识组织评测，并提供利用玩家内容持续扩充任务的流程。",
+          "en": "Its 4,000 curated tasks examine spatial understanding, reasoning, creativity and commonsense, with a pipeline for expansion through player-generated content."
+        },
+        {
+          "zh": "评分同时考察生成建筑质量和空间问答准确率；建筑质量包含GPT-4.1加权判断，评价对象是计划产物及其空间关系。",
+          "en": "Evaluation combines artifact quality, including GPT-4.1-weighted judgments, with spatial-QA accuracy, assessing generated plans and their spatial relationships."
+        },
+        {
+          "zh": "生成蓝图、自动施工和空间问答构成评测链路，质量分数评价建筑产物及其关系，模型承担的是空间计划与回答生成角色。",
+          "en": "Blueprint generation, automatic construction and spatial QA form the evaluation pipeline, with artifact/relationship quality assessing the model's planning and answering roles."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8048e2b9b631b15e1158f36275d8fc11-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/8048e2b9b631b15e1158f36275d8fc11-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB097",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Minecraft Universe以3452个可组合原子任务和任务组合机制构建开放世界评测框架，涵盖导航、工具、制作、采矿、战斗和建造等目标。",
+            "en": "Minecraft Universe combines a catalog of 3,452 atomic tasks with compositional task generation for navigation, tools, crafting, mining, combat and building."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "框架关注开放目标难以统一程序化评分的问题，以视频评判产生任务进度和控制、材料使用、效率、错误识别、创造性等诊断。",
+            "en": "The framework addresses evaluation of open-ended goals using video judgments of progress and diagnostics including control, material use, efficiency, error recognition and creativity."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "主实验运行30项原子与五项组合任务，简单任务用30个随机种子；六项场景难度对照用10个种子，智能体以原生键鼠在640×360画面下行动。",
+            "en": "The main study evaluates 30 atomic and five compositional tasks with 30 seeds for simple tasks; six difficulty comparisons use ten seeds, native keyboard/mouse and 640×360 images."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源包含3452项任务目录；主实验覆盖30项原子与五项组合任务，视频诊断采用GPT-4o评分，扩展和Turbo采用各自任务集。",
+            "en": "The resource catalogs 3,452 tasks; the main study uses 30 atomic and five compositional tasks with GPT-4o video scoring, alongside separate extension/Turbo sets."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Minecraft Universe以3452个可组合原子任务和任务组合机制构建开放世界评测框架，涵盖导航、工具、制作、采矿、战斗和建造等目标。",
+          "en": "Minecraft Universe combines a catalog of 3,452 atomic tasks with compositional task generation for navigation, tools, crafting, mining, combat and building."
+        },
+        {
+          "zh": "框架关注开放目标难以统一程序化评分的问题，以视频评判产生任务进度和控制、材料使用、效率、错误识别、创造性等诊断。",
+          "en": "The framework addresses evaluation of open-ended goals using video judgments of progress and diagnostics including control, material use, efficiency, error recognition and creativity."
+        },
+        {
+          "zh": "主实验运行30项原子与五项组合任务，简单任务用30个随机种子；六项场景难度对照用10个种子，智能体以原生键鼠在640×360画面下行动。",
+          "en": "The main study evaluates 30 atomic and five compositional tasks with 30 seeds for simple tasks; six difficulty comparisons use ten seeds, native keyboard/mouse and 640×360 images."
+        },
+        {
+          "zh": "资源包含3452项任务目录；主实验覆盖30项原子与五项组合任务，视频诊断采用GPT-4o评分，扩展和Turbo采用各自任务集。",
+          "en": "The resource catalogs 3,452 tasks; the main study uses 30 atomic and five compositional tasks with GPT-4o video scoring, alongside separate extension/Turbo sets."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v267/zheng25j.html",
+          "title": "MCU: An Evaluation Framework for Open-Ended Game Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2310.08367",
+          "title": "MCU: An Evaluation Framework for Open-Ended Game Agents"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zheng25j/zheng25j.pdf",
+          "title": "MCU: An Evaluation Framework for Open-Ended Game Agents"
+        },
+        {
+          "url": "https://sites.google.com/view/steve-1",
+          "title": "STEVE-1 author project"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A10",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MineNPC-Task将专家玩家在Minecraft共玩时提出的采集、导航、建造与物品管理请求整理为参数化模板，配以明确前置条件和状态验证器。",
+            "en": "MineNPC-Task turns expert Minecraft co-play requests for gathering, navigation, building and inventory management into parameterized templates with preconditions and state validators."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究面向具备记忆的人机共同决策智能体，记录计划、执行、澄清、记忆读写与修复事件，并限定知识与证据来自游戏世界内部。",
+            "en": "The work studies memory-aware mixed-initiative agents, logging plans, execution, clarification, memory operations and repairs under an in-world evidence policy."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "八位专家的试验包含44个高层请求与216个子任务；模型生成Mineflayer技能代码，最多三轮审核，按验证器统计成功、失败类型与路由延迟。",
+            "en": "An eight-expert pilot contains 44 requests and 216 subtasks. Agents generate Mineflayer skill code with up to three review iterations, reporting validator outcomes, failure types and routing latency."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "结果对应八专家参与的人机共玩试验，玩家可辅助修复与重规划；验证器和事件日志刻画子任务执行及交互过程。",
+            "en": "Results characterize an eight-expert co-play pilot with human-assisted repairs/replanning, using validators and event logs for subtask and interaction analysis."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MineNPC-Task将专家玩家在Minecraft共玩时提出的采集、导航、建造与物品管理请求整理为参数化模板，配以明确前置条件和状态验证器。",
+          "en": "MineNPC-Task turns expert Minecraft co-play requests for gathering, navigation, building and inventory management into parameterized templates with preconditions and state validators."
+        },
+        {
+          "zh": "研究面向具备记忆的人机共同决策智能体，记录计划、执行、澄清、记忆读写与修复事件，并限定知识与证据来自游戏世界内部。",
+          "en": "The work studies memory-aware mixed-initiative agents, logging plans, execution, clarification, memory operations and repairs under an in-world evidence policy."
+        },
+        {
+          "zh": "八位专家的试验包含44个高层请求与216个子任务；模型生成Mineflayer技能代码，最多三轮审核，按验证器统计成功、失败类型与路由延迟。",
+          "en": "An eight-expert pilot contains 44 requests and 216 subtasks. Agents generate Mineflayer skill code with up to three review iterations, reporting validator outcomes, failure types and routing latency."
+        },
+        {
+          "zh": "结果对应八专家参与的人机共玩试验，玩家可辅助修复与重规划；验证器和事件日志刻画子任务执行及交互过程。",
+          "en": "Results characterize an eight-expert co-play pilot with human-assisted repairs/replanning, using validators and event logs for subtask and interaction analysis."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.05215",
+          "title": "MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2601.05215",
+          "title": "MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB043",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "BEDD汇集Minecraft BASALT人类示范和偏好评价，支持寻找洞穴、建瀑布、圈养同类动物和修建村庄风格房屋四类难以精确编码的目标。",
+            "en": "BEDD supplies demonstrations and preferences for four Minecraft BASALT goals: cave finding, waterfall building, animal corralling and village-style house construction."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "数据含约2600万图像动作对、近14000段人类视频和3000余个人工成对判断，用于模仿学习、人类反馈学习及固定参考榜单比较。",
+            "en": "Approximately 26 million image-action pairs, nearly 14,000 videos and over 3,000 pairwise human ratings support imitation, human-feedback learning and reference-leaderboard comparisons."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "智能体仅依据规定像素与任务描述执行键鼠动作，在留出种子评测中用人类偏好及TrueSkill衡量模糊目标；ObtainDiamondShovel另用资源制作奖励。",
+            "en": "Agents use prescribed pixels and keyboard/mouse actions. Held-out BASALT runs use preferences and TrueSkill; ObtainDiamondShovel separately uses crafting-resource rewards."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "四类BASALT任务采用人类偏好与TrueSkill评价产物；ObtainDiamondShovel采用明确制作奖励，示范数据与在线执行具有不同用途。",
+            "en": "Four BASALT tasks use preferences and TrueSkill; ObtainDiamondShovel uses explicit crafting rewards, with demonstrations and online execution serving distinct roles."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "BEDD汇集Minecraft BASALT人类示范和偏好评价，支持寻找洞穴、建瀑布、圈养同类动物和修建村庄风格房屋四类难以精确编码的目标。",
+          "en": "BEDD supplies demonstrations and preferences for four Minecraft BASALT goals: cave finding, waterfall building, animal corralling and village-style house construction."
+        },
+        {
+          "zh": "数据含约2600万图像动作对、近14000段人类视频和3000余个人工成对判断，用于模仿学习、人类反馈学习及固定参考榜单比较。",
+          "en": "Approximately 26 million image-action pairs, nearly 14,000 videos and over 3,000 pairwise human ratings support imitation, human-feedback learning and reference-leaderboard comparisons."
+        },
+        {
+          "zh": "智能体仅依据规定像素与任务描述执行键鼠动作，在留出种子评测中用人类偏好及TrueSkill衡量模糊目标；ObtainDiamondShovel另用资源制作奖励。",
+          "en": "Agents use prescribed pixels and keyboard/mouse actions. Held-out BASALT runs use preferences and TrueSkill; ObtainDiamondShovel separately uses crafting-resource rewards."
+        },
+        {
+          "zh": "四类BASALT任务采用人类偏好与TrueSkill评价产物；ObtainDiamondShovel采用明确制作奖励，示范数据与在线执行具有不同用途。",
+          "en": "Four BASALT tasks use preferences and TrueSkill; ObtainDiamondShovel uses explicit crafting rewards, with demonstrations and online execution serving distinct roles."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/67a6726dcd555b982cabb3446ffac01d-Abstract-Datasets_and_Benchmarks.html",
+          "title": "BEDD: The MineRL BASALT Evaluation and Demonstrations Dataset for Training and Benchmarking Agents that Solve Fuzzy Tasks"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/67a6726dcd555b982cabb3446ffac01d-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "BEDD: The MineRL BASALT Evaluation and Demonstrations Dataset for Training and Benchmarking Agents that Solve Fuzzy Tasks"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB055",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "IGLU 2022在方块建造环境中研究自然语言落地，竞赛分别设置需要澄清的指令识别，以及根据清晰指令修改结构的交互建造任务。",
+            "en": "IGLU 2022 studies grounded language in block building, separating clarification detection from interactive construction following clear instructions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "Builder读取第一视角图像、物品栏、建造区张量和自身位置，在已有结构上添加或移除方块，把空间语言转化为实际编辑序列。",
+            "en": "The builder observes first-person images, inventory, a build-zone tensor and pose, translating spatial language into additions and removals on an existing structure."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "交互赛道使用留出的初始与目标网格，以相对初始结构所需编辑计算方块差异F1，并按所需增删数量加权；回合受完成与超时条件约束。",
+            "en": "The interactive track uses held-out initial/target grids and block-difference F1 relative to the initial structure, weighted by required edits, under completion and timeout conditions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "交互Builder按结构编辑评分，离线澄清轨道按分类与检索指标评分；两条赛道分别体现语言落地中的执行和歧义识别。",
+            "en": "The interactive builder scores structural edits, while offline clarification uses classification/retrieval measures, separating execution from ambiguity detection."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "IGLU 2022在方块建造环境中研究自然语言落地，竞赛分别设置需要澄清的指令识别，以及根据清晰指令修改结构的交互建造任务。",
+          "en": "IGLU 2022 studies grounded language in block building, separating clarification detection from interactive construction following clear instructions."
+        },
+        {
+          "zh": "Builder读取第一视角图像、物品栏、建造区张量和自身位置，在已有结构上添加或移除方块，把空间语言转化为实际编辑序列。",
+          "en": "The builder observes first-person images, inventory, a build-zone tensor and pose, translating spatial language into additions and removals on an existing structure."
+        },
+        {
+          "zh": "交互赛道使用留出的初始与目标网格，以相对初始结构所需编辑计算方块差异F1，并按所需增删数量加权；回合受完成与超时条件约束。",
+          "en": "The interactive track uses held-out initial/target grids and block-difference F1 relative to the initial structure, weighted by required edits, under completion and timeout conditions."
+        },
+        {
+          "zh": "交互Builder按结构编辑评分，离线澄清轨道按分类与检索指标评分；两条赛道分别体现语言落地中的执行和歧义识别。",
+          "en": "The interactive builder scores structural edits, while offline clarification uses classification/retrieval measures, separating execution from ambiguity detection."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v220/kiseleva23a.html",
+          "title": "Interactive Grounded Language Understanding in a Collaborative Environment: Retrospective on Iglu 2022 Competition"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v220/kiseleva23a/kiseleva23a.pdf",
+          "title": "Interactive Grounded Language Understanding in a Collaborative Environment: Retrospective on Iglu 2022 Competition"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB044",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Neural MMO 2.0是大规模多智能体、多任务强化学习平台，默认128个智能体在程序化地图中生存，并支持任务、地图和对手的留出泛化。",
+            "en": "Neural MMO 2.0 supports massively multi-agent, multi-task reinforcement learning, with 128 agents by default and held-out tasks, maps and opponents."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "新版重写模拟与兼容接口，引入可组合任务系统，使同一世界可用于不同训练目标；任务谓词依据全局游戏状态计算，但策略观察仍按智能体提供。",
+            "en": "A rewritten simulator and compositional task system support diverse objectives; predicates score global game state while policies receive per-agent observations."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的DistanceTraveled示例让角色向四方向或停留，以存活成员相对出生点的L∞位移总和除以目标距离，并截断至零到一。",
+            "en": "The detailed DistanceTraveled example uses cardinal movement or staying, scoring summed living-agent L-infinity displacement from spawn divided by a target and clipped to [0,1]."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "DistanceTraveled展示任务谓词系统，按存活成员离出生点的位移计分；距离阈值、分组、地图与时限确定这一示例的目标。",
+            "en": "DistanceTraveled illustrates task predicates using living-agent displacement from spawn, parameterized by target distance, group, map and horizon."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Neural MMO 2.0是大规模多智能体、多任务强化学习平台，默认128个智能体在程序化地图中生存，并支持任务、地图和对手的留出泛化。",
+          "en": "Neural MMO 2.0 supports massively multi-agent, multi-task reinforcement learning, with 128 agents by default and held-out tasks, maps and opponents."
+        },
+        {
+          "zh": "新版重写模拟与兼容接口，引入可组合任务系统，使同一世界可用于不同训练目标；任务谓词依据全局游戏状态计算，但策略观察仍按智能体提供。",
+          "en": "A rewritten simulator and compositional task system support diverse objectives; predicates score global game state while policies receive per-agent observations."
+        },
+        {
+          "zh": "已细化的DistanceTraveled示例让角色向四方向或停留，以存活成员相对出生点的L∞位移总和除以目标距离，并截断至零到一。",
+          "en": "The detailed DistanceTraveled example uses cardinal movement or staying, scoring summed living-agent L-infinity displacement from spawn divided by a target and clipped to [0,1]."
+        },
+        {
+          "zh": "DistanceTraveled展示任务谓词系统，按存活成员离出生点的位移计分；距离阈值、分组、地图与时限确定这一示例的目标。",
+          "en": "DistanceTraveled illustrates task predicates using living-agent displacement from spawn, parameterized by target distance, group, map and horizon."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9ca22870ae0ba55ee50ce3e2d269e5de-Abstract-Datasets_and_Benchmarks.html",
+          "title": "Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/9ca22870ae0ba55ee50ce3e2d269e5de-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning"
+        },
+        {
+          "url": "https://neuralmmo.github.io/_build/html/rst/api.html",
+          "title": "Neural MMO 2.0 environment API"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/NeuralMMO/environment/master/nmmo/core/action.py",
+          "title": "Neural MMO official movement implementation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB056",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "NeurIPS 2022 Neural MMO Challenge采用v1.6环境，16支队伍共128个角色在程序化世界中采集、生存、战斗与交易，并应对NPC及缩圈压力。",
+            "en": "The NeurIPS 2022 Neural MMO Challenge uses v1.6, with 16 teams and 128 agents gathering, surviving, fighting and trading amid NPC and shrinking-zone pressure."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "竞赛加入装备、职业分化与市场机制，研究多智能体策略在资源稀缺、地图变化和异质对手下的鲁棒性，区别于后来的2.0任务平台。",
+            "en": "Equipment, specialization and markets create robustness challenges under scarce resources, changing maps and diverse opponents, distinct from the later 2.0 task platform."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "角色读取局部地形、敌方信息和队友状态，选择移动、攻击、交易与通信；PvE按Top1比例，PvP按完整名次计算TrueSkill，设每日100和每周1000场。",
+            "en": "Agents observe terrain, opponents and teammates and act through movement, combat, trade and communication. PvE uses Top1 ratio; PvP uses ranked TrueSkill over daily 100- and weekly 1,000-match schedules."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "此条对应NeurIPS 2022的v1.6竞赛，PvE与PvP分别保留对手、难度和赛程；成绩反映资源经营、生存与战斗的综合队伍表现。",
+            "en": "This entry concerns the v1.6 NeurIPS 2022 competition, retaining distinct PvE/PvP opponents, stages and schedules for combined economic, survival and combat performance."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "NeurIPS 2022 Neural MMO Challenge采用v1.6环境，16支队伍共128个角色在程序化世界中采集、生存、战斗与交易，并应对NPC及缩圈压力。",
+          "en": "The NeurIPS 2022 Neural MMO Challenge uses v1.6, with 16 teams and 128 agents gathering, surviving, fighting and trading amid NPC and shrinking-zone pressure."
+        },
+        {
+          "zh": "竞赛加入装备、职业分化与市场机制，研究多智能体策略在资源稀缺、地图变化和异质对手下的鲁棒性，区别于后来的2.0任务平台。",
+          "en": "Equipment, specialization and markets create robustness challenges under scarce resources, changing maps and diverse opponents, distinct from the later 2.0 task platform."
+        },
+        {
+          "zh": "角色读取局部地形、敌方信息和队友状态，选择移动、攻击、交易与通信；PvE按Top1比例，PvP按完整名次计算TrueSkill，设每日100和每周1000场。",
+          "en": "Agents observe terrain, opponents and teammates and act through movement, combat, trade and communication. PvE uses Top1 ratio; PvP uses ranked TrueSkill over daily 100- and weekly 1,000-match schedules."
+        },
+        {
+          "zh": "此条对应NeurIPS 2022的v1.6竞赛，PvE与PvP分别保留对手、难度和赛程；成绩反映资源经营、生存与战斗的综合队伍表现。",
+          "en": "This entry concerns the v1.6 NeurIPS 2022 competition, retaining distinct PvE/PvP opponents, stages and schedules for combined economic, survival and combat performance."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v220/liu23a.html",
+          "title": "The NeurIPS 2022 Neural MMO Challenge: A Massively Multiagent Competition with Specialization and Trade"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v220/liu23a/liu23a.pdf",
+          "title": "The NeurIPS 2022 Neural MMO Challenge: A Massively Multiagent Competition with Specialization and Trade"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB027",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Avalon在程序化三维世界中提供20类具身生存任务，角色需导航地形、寻找或获取食物并避开危险，从简单技能逐渐组合出复杂目标。",
+            "en": "Avalon offers 20 embodied survival tasks in procedural 3D worlds, combining navigation, food gathering or hunting and hazard avoidance."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "所有任务共享奖励、动力学和动作空间，仅以环境变化改变要求，因而可研究同任务新世界、跨任务迁移，以及基础技能的组合泛化。",
+            "en": "Shared rewards, dynamics and actions allow changes in environments to test within-task generalization, transfer and composition of basic skills."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "策略输入96×96 RGBD及身体、手部、能量和时间信息，输出21维动作；基础16任务训练后在20任务各50个固定世界测试，以人类与随机归一化能量回报衡量。",
+            "en": "Policies use 96×96 RGBD and bodily information with 21-dimensional actions. Training on 16 basic tasks is evaluated on 50 fixed worlds per 20 tasks using human/random-normalized energy returns."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测区分同任务新世界、跨任务迁移和组合技能测试；统一动力学与动作空间使不同任务的变化主要体现于场景设计。",
+            "en": "Evaluation separates new worlds within tasks, transfer across tasks and skill composition, with shared dynamics/actions placing variation mainly in scene design."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Avalon在程序化三维世界中提供20类具身生存任务，角色需导航地形、寻找或获取食物并避开危险，从简单技能逐渐组合出复杂目标。",
+          "en": "Avalon offers 20 embodied survival tasks in procedural 3D worlds, combining navigation, food gathering or hunting and hazard avoidance."
+        },
+        {
+          "zh": "所有任务共享奖励、动力学和动作空间，仅以环境变化改变要求，因而可研究同任务新世界、跨任务迁移，以及基础技能的组合泛化。",
+          "en": "Shared rewards, dynamics and actions allow changes in environments to test within-task generalization, transfer and composition of basic skills."
+        },
+        {
+          "zh": "策略输入96×96 RGBD及身体、手部、能量和时间信息，输出21维动作；基础16任务训练后在20任务各50个固定世界测试，以人类与随机归一化能量回报衡量。",
+          "en": "Policies use 96×96 RGBD and bodily information with 21-dimensional actions. Training on 16 basic tasks is evaluated on 50 fixed worlds per 20 tasks using human/random-normalized energy returns."
+        },
+        {
+          "zh": "评测区分同任务新世界、跨任务迁移和组合技能测试；统一动力学与动作空间使不同任务的变化主要体现于场景设计。",
+          "en": "Evaluation separates new worlds within tasks, transfer across tasks and skill composition, with shared dynamics/actions placing variation mainly in scene design."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/539f1f7dd156cfe1222b0be83f247d35-Abstract-Datasets_and_Benchmarks.html",
+          "title": "Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/539f1f7dd156cfe1222b0be83f247d35-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB037",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "IGLU 2021将自然语言建造对话落地为方块世界操作，Silent Builder读取已有完整对话，在指定区域复建目标结构。",
+            "en": "IGLU 2021 grounds construction dialogue in a block world; Silent Builder reads an existing dialogue and reconstructs a target in a designated region."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究把语言理解与具身空间操作结合，提供人类级、离散和连续三种动作接口；观察包含64×64图像、六色库存、建造网格与姿态。",
+            "en": "The benchmark links language understanding with embodied spatial actions through human-level, discrete and continuous interfaces, using images, colored inventory, grid state and pose."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "固定每个子任务的初始与目标状态，报告平均奖励、完整成功率和基于归一化汉明距离的完成度；结构匹配考虑平移旋转，离开区域终止。",
+            "en": "Fixed initial/target structures support mean reward, full success and normalized-Hamming completion measures. Matching considers translations/rotations, and leaving the region ends an episode."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Silent Builder依据已有对话执行结构重建；Architect生成作为离线轨道，主动澄清属于后续研究方向，三种动作接口分别保留。",
+            "en": "Silent Builder reconstructs structures from existing dialogue; Architect generation is offline, active clarification is deferred and three action interfaces remain distinct."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "IGLU 2021将自然语言建造对话落地为方块世界操作，Silent Builder读取已有完整对话，在指定区域复建目标结构。",
+          "en": "IGLU 2021 grounds construction dialogue in a block world; Silent Builder reads an existing dialogue and reconstructs a target in a designated region."
+        },
+        {
+          "zh": "研究把语言理解与具身空间操作结合，提供人类级、离散和连续三种动作接口；观察包含64×64图像、六色库存、建造网格与姿态。",
+          "en": "The benchmark links language understanding with embodied spatial actions through human-level, discrete and continuous interfaces, using images, colored inventory, grid state and pose."
+        },
+        {
+          "zh": "固定每个子任务的初始与目标状态，报告平均奖励、完整成功率和基于归一化汉明距离的完成度；结构匹配考虑平移旋转，离开区域终止。",
+          "en": "Fixed initial/target structures support mean reward, full success and normalized-Hamming completion measures. Matching considers translations/rotations, and leaving the region ends an episode."
+        },
+        {
+          "zh": "Silent Builder依据已有对话执行结构重建；Architect生成作为离线轨道，主动澄清属于后续研究方向，三种动作接口分别保留。",
+          "en": "Silent Builder reconstructs structures from existing dialogue; Architect generation is offline, active clarification is deferred and three action interfaces remain distinct."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v176/kiseleva22a.html",
+          "title": "Interactive Grounded Language Understanding in a Collaborative Environment: IGLU 2021"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v176/kiseleva22a/kiseleva22a.pdf",
+          "title": "Interactive Grounded Language Understanding in a Collaborative Environment: IGLU 2021"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB029",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "NetHack Learning Dataset收集人类服务器轨迹与AutoAscend符号机器人轨迹，提供压缩记录、加载和流式处理工具，支持从大规模示范学习策略。",
+            "en": "The NetHack Learning Dataset combines human-server and AutoAscend trajectories with compressed recording, loading and streaming tools for demonstration learning."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "人类部分含约100亿状态转移，机器人部分约30亿带动作与分数转移；两者信息不同，研究如何在复杂长程决策中利用这些数据。",
+            "en": "Human data contain roughly ten billion state transitions, while bot data add three billion action/score transitions, enabling study of heterogeneous demonstrations for long-horizon decisions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "在线NLE评测仅用终端tty观察，按共享架构和默认15亿训练帧学习，以十个训练种子、1024回合的回报均值与标准差比较策略。",
+            "en": "Online NLE evaluation uses tty observations, shared architectures and a default 1.5-billion-frame budget, reporting return statistics over 1,024 episodes and ten training seeds."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "NLD-NAO人类日志提供状态轨迹，NLD-AA机器人数据额外提供动作与奖励；在线回报评价学习后的NLE游玩策略。",
+            "en": "NLD-NAO human logs provide state trajectories, while NLD-AA bot data add actions/rewards; online returns evaluate learned NLE policies."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "NetHack Learning Dataset收集人类服务器轨迹与AutoAscend符号机器人轨迹，提供压缩记录、加载和流式处理工具，支持从大规模示范学习策略。",
+          "en": "The NetHack Learning Dataset combines human-server and AutoAscend trajectories with compressed recording, loading and streaming tools for demonstration learning."
+        },
+        {
+          "zh": "人类部分含约100亿状态转移，机器人部分约30亿带动作与分数转移；两者信息不同，研究如何在复杂长程决策中利用这些数据。",
+          "en": "Human data contain roughly ten billion state transitions, while bot data add three billion action/score transitions, enabling study of heterogeneous demonstrations for long-horizon decisions."
+        },
+        {
+          "zh": "在线NLE评测仅用终端tty观察，按共享架构和默认15亿训练帧学习，以十个训练种子、1024回合的回报均值与标准差比较策略。",
+          "en": "Online NLE evaluation uses tty observations, shared architectures and a default 1.5-billion-frame budget, reporting return statistics over 1,024 episodes and ten training seeds."
+        },
+        {
+          "zh": "NLD-NAO人类日志提供状态轨迹，NLD-AA机器人数据额外提供动作与奖励；在线回报评价学习后的NLE游玩策略。",
+          "en": "NLD-NAO human logs provide state trajectories, while NLD-AA bot data add actions/rewards; online returns evaluate learned NLE policies."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/9d9258fd703057246cb341e615426e2d-Abstract-Datasets_and_Benchmarks.html",
+          "title": "Dungeons and Data: A Large-Scale NetHack Dataset"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/9d9258fd703057246cb341e615426e2d-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "Dungeons and Data: A Large-Scale NetHack Dataset"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB006",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Jelly Bean World以不重置的二维网格世界研究持续学习，代表任务要求采集软糖、避开洋葱，并不断寻找尚未耗尽的资源区域。",
+            "en": "Jelly Bean World studies continuing learning in non-resetting 2D grid worlds; its representative task collects jelly beans, avoids onions and seeks undepleted areas."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "平台通过物品与非平稳环境支持长期经验积累，也允许多任务、多智能体和多模态扩展；当前具体案例采用单智能体固定奖励。",
+            "en": "The platform supports long-term experience and nonstationarity, alongside multi-task, multi-agent and multimodal extensions; the detailed case uses one agent and fixed rewards."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "策略依局部视觉与配置允许的气味选择前进、左转或右转，运行1000万步，以10万步滑动窗口奖励率观察持续表现，并汇总20次运行。",
+            "en": "Agents use local vision and configured scent to move forward or turn, running ten million steps with 100,000-step reward-rate windows across 20 runs."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "具体案例是固定奖励下单智能体持续采集，评价以时间窗口展现长期行为；平台还支持更广的多任务与多智能体配置。",
+            "en": "The concrete case is single-agent continuing collection under fixed rewards, evaluated over time windows within a platform supporting broader configurations."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Jelly Bean World以不重置的二维网格世界研究持续学习，代表任务要求采集软糖、避开洋葱，并不断寻找尚未耗尽的资源区域。",
+          "en": "Jelly Bean World studies continuing learning in non-resetting 2D grid worlds; its representative task collects jelly beans, avoids onions and seeks undepleted areas."
+        },
+        {
+          "zh": "平台通过物品与非平稳环境支持长期经验积累，也允许多任务、多智能体和多模态扩展；当前具体案例采用单智能体固定奖励。",
+          "en": "The platform supports long-term experience and nonstationarity, alongside multi-task, multi-agent and multimodal extensions; the detailed case uses one agent and fixed rewards."
+        },
+        {
+          "zh": "策略依局部视觉与配置允许的气味选择前进、左转或右转，运行1000万步，以10万步滑动窗口奖励率观察持续表现，并汇总20次运行。",
+          "en": "Agents use local vision and configured scent to move forward or turn, running ten million steps with 100,000-step reward-rate windows across 20 runs."
+        },
+        {
+          "zh": "具体案例是固定奖励下单智能体持续采集，评价以时间窗口展现长期行为；平台还支持更广的多任务与多智能体配置。",
+          "en": "The concrete case is single-agent continuing collection under fixed rewards, evaluated over time windows within a platform supporting broader configurations."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2002.06306",
+          "title": "Jelly Bean World: A Testbed for Never-Ending Learning"
+        },
+        {
+          "url": "https://openreview.net/forum?id=Byx_YAVYPH",
+          "title": "Jelly Bean World: A Testbed for Never-Ending Learning"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2002.06306",
+          "title": "Jelly Bean World — §§2–4, Figure 4"
+        },
+        {
+          "url": "https://arxiv.org/html/2002.06306",
+          "title": "Jelly Bean World: A Testbed for Never-Ending Learning"
+        },
+        {
+          "url": "https://github.com/eaplatanios/jelly-bean-world",
+          "title": "Official Jelly Bean World repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.09902",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "DSLE将Dark Souls: Remastered首领战包装为Gymnasium式环境，平台覆盖22个首领，每个环境步都在实际运行的游戏中执行动作。",
+            "en": "DSLE exposes Dark Souls: Remastered boss encounters through Gymnasium-style interfaces, with each environment step executing actions in the running game; the platform covers 22 bosses."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究用实时战斗、高维视觉和稀疏终局奖励检验学习难度，并设DSLE-5作为五首领代表集，涵盖近战、狭窄空间、环境危险、多目标和快速战斗。",
+            "en": "DSLE-5 samples five encounters spanning melee, constrained arenas, hazards, multiple targets and fast combat to study visual learning under sparse terminal rewards."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "细化协议固定各首领存档、装备与属性，以灰度画面和14种离散动作控制，默认按住250毫秒；报告胜率、生存时间与造成伤害。",
+            "en": "The detailed protocol fixes saves, equipment and stats, using grayscale input and 14 discrete actions held for 250 ms by default, reporting wins, survival and damage."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "DSLE-5固定装备属性的五首领集与22首领扩展分别记录；运行游戏包含未设种子的物理、动画和AI变化，结果按实际战斗统计。",
+            "en": "DSLE-5 and the 22-boss extension are separate settings; unseeded physics, animation and AI variation are reflected in empirical encounter statistics."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "DSLE将Dark Souls: Remastered首领战包装为Gymnasium式环境，平台覆盖22个首领，每个环境步都在实际运行的游戏中执行动作。",
+          "en": "DSLE exposes Dark Souls: Remastered boss encounters through Gymnasium-style interfaces, with each environment step executing actions in the running game; the platform covers 22 bosses."
+        },
+        {
+          "zh": "研究用实时战斗、高维视觉和稀疏终局奖励检验学习难度，并设DSLE-5作为五首领代表集，涵盖近战、狭窄空间、环境危险、多目标和快速战斗。",
+          "en": "DSLE-5 samples five encounters spanning melee, constrained arenas, hazards, multiple targets and fast combat to study visual learning under sparse terminal rewards."
+        },
+        {
+          "zh": "细化协议固定各首领存档、装备与属性，以灰度画面和14种离散动作控制，默认按住250毫秒；报告胜率、生存时间与造成伤害。",
+          "en": "The detailed protocol fixes saves, equipment and stats, using grayscale input and 14 discrete actions held for 250 ms by default, reporting wins, survival and damage."
+        },
+        {
+          "zh": "DSLE-5固定装备属性的五首领集与22首领扩展分别记录；运行游戏包含未设种子的物理、动画和AI变化，结果按实际战斗统计。",
+          "en": "DSLE-5 and the 22-boss extension are separate settings; unseeded physics, animation and AI variation are reflected in empirical encounter statistics."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.09902",
+          "title": "DSLE: A Learning Environment for Dark Souls Boss Encounters"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.09902",
+          "title": "DSLE: A Learning Environment for Dark Souls Boss Encounters"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2607.06514",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "FootsiesGym基于简化二维格斗游戏Footsies，围绕双方接近、试探与攻击的中立博弈，构建双人零和且含私有信息的强化学习环境。",
+            "en": "FootsiesGym builds a two-player zero-sum imperfect-information RL environment around neutral play in the minimalist 2D fighter Footsies."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究保留格斗策略的循环克制和非传递性，以向量化模拟器提高训练吞吐，比较策略对固定对手与近似最佳回应的表现。",
+            "en": "A vectorized simulator supports efficient study of cyclic, nontransitive strategies through fixed-opponent and approximate-best-response comparisons."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "默认85维观察包含己方私有蓄力与上一动作，六动作、跳帧四和八帧延迟；五种子训练2500万步，4000步超时，最佳回应另用三种子。",
+            "en": "Default settings use 85 features, six actions, frame skip four, eight-frame delay and a 4,000-step timeout; training uses five 25-million-step seeds and three seeds per best response."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "默认六动作和可选九动作蓄力模式分开；近似最佳回应形成对策略可利用性的下界估计，与固定弱对手胜率提供互补视角。",
+            "en": "Six-action defaults and nine-action charge mode are separate; approximate best responses lower-bound exploitability and complement fixed weak-opponent win rates."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "FootsiesGym基于简化二维格斗游戏Footsies，围绕双方接近、试探与攻击的中立博弈，构建双人零和且含私有信息的强化学习环境。",
+          "en": "FootsiesGym builds a two-player zero-sum imperfect-information RL environment around neutral play in the minimalist 2D fighter Footsies."
+        },
+        {
+          "zh": "研究保留格斗策略的循环克制和非传递性，以向量化模拟器提高训练吞吐，比较策略对固定对手与近似最佳回应的表现。",
+          "en": "A vectorized simulator supports efficient study of cyclic, nontransitive strategies through fixed-opponent and approximate-best-response comparisons."
+        },
+        {
+          "zh": "默认85维观察包含己方私有蓄力与上一动作，六动作、跳帧四和八帧延迟；五种子训练2500万步，4000步超时，最佳回应另用三种子。",
+          "en": "Default settings use 85 features, six actions, frame skip four, eight-frame delay and a 4,000-step timeout; training uses five 25-million-step seeds and three seeds per best response."
+        },
+        {
+          "zh": "默认六动作和可选九动作蓄力模式分开；近似最佳回应形成对策略可利用性的下界估计，与固定弱对手胜率提供互补视角。",
+          "en": "Six-action defaults and nine-action charge mode are separate; approximate best responses lower-bound exploitability and complement fixed weak-opponent win rates."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.06514",
+          "title": "FootsiesGym: A Fighting Game Benchmark for Two-Player Zero-Sum Imperfect-Information Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.06514",
+          "title": "FootsiesGym: A Fighting Game Benchmark for Two-Player Zero-Sum Imperfect-Information Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB095",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "HASARD以Doom构造视觉安全强化学习任务，智能体同时追求目标奖励并限制危险成本，套件提供三档难度和两套动作空间。",
+            "en": "HASARD creates vision-based safe-RL tasks in Doom, requiring agents to obtain reward while controlling safety costs across three difficulty levels and two action spaces."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究关注第一视角三维决策中的奖励与代价权衡，利用不同任务与难度课程比较安全学习算法，而不只评估简单导航或无约束收益。",
+            "en": "The work studies reward-cost trade-offs in embodied 3D decisions through varied tasks and difficulty curricula rather than unconstrained returns alone."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "细化的Armament Burden要求收集并运回武器，输入160×120 RGB，以移动、转向、使用和跳跃行动，最多2100 tick，记录交付回报与累计超载成本。",
+            "en": "The detailed Armament Burden task collects and returns weapons from 160×120 RGB with movement, turning, use and jump controls, recording returns and overload costs within 2,100 ticks."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Armament Burden聚焦负重约束下的收集运送，回报与超载成本分别报告；难度、动作版本和成本预算界定安全比较条件。",
+            "en": "Armament Burden focuses on load-constrained collection/delivery, separately reporting reward and overload cost under specified difficulty, actions and cost budgets."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "HASARD以Doom构造视觉安全强化学习任务，智能体同时追求目标奖励并限制危险成本，套件提供三档难度和两套动作空间。",
+          "en": "HASARD creates vision-based safe-RL tasks in Doom, requiring agents to obtain reward while controlling safety costs across three difficulty levels and two action spaces."
+        },
+        {
+          "zh": "研究关注第一视角三维决策中的奖励与代价权衡，利用不同任务与难度课程比较安全学习算法，而不只评估简单导航或无约束收益。",
+          "en": "The work studies reward-cost trade-offs in embodied 3D decisions through varied tasks and difficulty curricula rather than unconstrained returns alone."
+        },
+        {
+          "zh": "细化的Armament Burden要求收集并运回武器，输入160×120 RGB，以移动、转向、使用和跳跃行动，最多2100 tick，记录交付回报与累计超载成本。",
+          "en": "The detailed Armament Burden task collects and returns weapons from 160×120 RGB with movement, turning, use and jump controls, recording returns and overload costs within 2,100 ticks."
+        },
+        {
+          "zh": "Armament Burden聚焦负重约束下的收集运送，回报与超载成本分别报告；难度、动作版本和成本预算界定安全比较条件。",
+          "en": "Armament Burden focuses on load-constrained collection/delivery, separately reporting reward and overload cost under specified difficulty, actions and cost budgets."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2503.08241",
+          "title": "HASARD: A Benchmark for Vision-Based Safe Reinforcement Learning in Embodied Agents"
+        },
+        {
+          "url": "https://github.com/TTomilin/HASARD",
+          "title": "HASARD — official documentation"
+        },
+        {
+          "url": "https://arxiv.org/html/2503.08241v1",
+          "title": "HASARD, Sections 4.1–4.2 and Appendix A"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/TTomilin/HASARD/blob/main/assets/gifs/HASARD_Short_1.gif",
+          "title": {
+            "zh": "官方安全决策场景演示",
+            "en": "Official safety-task demonstration"
+          },
+          "source": "https://github.com/TTomilin/HASARD/blob/main/README.md",
+          "sourceAssetSha": "be4c6cab9708924c95bd43d61ec4704bc5636d74"
+        }
+      ]
+    },
+    {
+      "id": "GAB094",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Kinetix以统一二维物理引擎生成大量控制任务，策略操作电机与推进器，使绿色物体接触蓝色目标，同时避免碰撞红色危险物。",
+            "en": "Kinetix generates diverse 2D physics-control tasks in which motors and thrusters bring green objects to blue targets while avoiding red hazards."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "Jax2D加速引擎支持大规模混合质量任务预训练，研究从程序化训练向人类设计关卡的零样本迁移，以及预训练后微调的收益。",
+            "en": "The accelerated Jax2D engine enables large-scale mixed-quality pretraining, studying zero-shot transfer to human-designed levels and subsequent fine-tuning."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化协议使用完整实体属性、位置、旋转、速度与连接关系，按S/M/L规模分组，五种子和50亿交互训练后报告手工留出关卡解决率。",
+            "en": "The detailed protocol observes full entity properties and connections, separates S/M/L sizes and reports handmade-holdout solve rates after five-seed, five-billion-interaction training."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务完全观察物理实体状态，目标由接触和危险碰撞定义；手工留出关卡位于训练分布支持范围，S/M/L规模分别评价。",
+            "en": "Tasks fully observe physical entity state and use contact outcomes; handmade holdouts lie within training-distribution support, with separate S/M/L evaluation."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Kinetix以统一二维物理引擎生成大量控制任务，策略操作电机与推进器，使绿色物体接触蓝色目标，同时避免碰撞红色危险物。",
+          "en": "Kinetix generates diverse 2D physics-control tasks in which motors and thrusters bring green objects to blue targets while avoiding red hazards."
+        },
+        {
+          "zh": "Jax2D加速引擎支持大规模混合质量任务预训练，研究从程序化训练向人类设计关卡的零样本迁移，以及预训练后微调的收益。",
+          "en": "The accelerated Jax2D engine enables large-scale mixed-quality pretraining, studying zero-shot transfer to human-designed levels and subsequent fine-tuning."
+        },
+        {
+          "zh": "已细化协议使用完整实体属性、位置、旋转、速度与连接关系，按S/M/L规模分组，五种子和50亿交互训练后报告手工留出关卡解决率。",
+          "en": "The detailed protocol observes full entity properties and connections, separates S/M/L sizes and reports handmade-holdout solve rates after five-seed, five-billion-interaction training."
+        },
+        {
+          "zh": "任务完全观察物理实体状态，目标由接触和危险碰撞定义；手工留出关卡位于训练分布支持范围，S/M/L规模分别评价。",
+          "en": "Tasks fully observe physical entity state and use contact outcomes; handmade holdouts lie within training-distribution support, with separate S/M/L evaluation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2410.23208",
+          "title": "Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks"
+        },
+        {
+          "url": "https://github.com/FLAIROx/Kinetix",
+          "title": "Kinetix — official documentation"
+        },
+        {
+          "url": "https://arxiv.org/html/2410.23208v1",
+          "title": "Kinetix, Sections 3–5"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/FLAIROx/Kinetix/blob/80ee9c292837c825cafaf9889323fdcc212efd1b/images/grasper.gif",
+          "title": {
+            "zh": "官方抓取任务示例",
+            "en": "Official grasping-task example"
+          },
+          "source": "https://github.com/FLAIROx/Kinetix/blob/80ee9c292837c825cafaf9889323fdcc212efd1b/images/grasper.gif",
+          "sourceAssetSha": "f2e2ddb4c6baa58d30360e23726166f46c283a9d",
+          "exampleGameId": "kinetix"
+        }
+      ]
+    },
+    {
+      "id": "GAB076",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "FightLadder提供实时格斗游戏的像素交互平台，既支持单人挑战内置角色，也支持双人竞争，用于研究竞争型多智能体强化学习。",
+            "en": "FightLadder offers pixel-based real-time fighting for both built-in-opponent play and two-player competition, targeting competitive multi-agent reinforcement learning."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "论文同时提供算法基线与策略表现、可利用性评价，比较击败固定角色和形成不易被针对策略之间的差异，展示对手循环的研究需求。",
+            "en": "Baselines and performance/exploitability measures distinguish beating fixed characters from learning robust competitive policies and reveal challenges in opponent-dependent training."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "当前细化入口为Ryu镜像对局，利用Gym Retro画面与按键或转换动作记录回合胜率及固定对手池比较；宏动作、堆帧和持续时间改变控制条件。",
+            "en": "The detailed entry uses Ryu mirror matches through Gym Retro pixels and raw or transformed actions, with round wins and fixed-pool comparisons sensitive to macros, frame stacks and action duration."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "论文包含单人内置角色挑战和双人竞争，当前细化条目关注Ryu镜像；对手池、动作宏与时间设置共同定义竞技分数。",
+            "en": "The paper includes built-in-opponent and two-player studies; the detailed entry centers on Ryu mirrors under specified opponent pools, macros and timing."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "FightLadder提供实时格斗游戏的像素交互平台，既支持单人挑战内置角色，也支持双人竞争，用于研究竞争型多智能体强化学习。",
+          "en": "FightLadder offers pixel-based real-time fighting for both built-in-opponent play and two-player competition, targeting competitive multi-agent reinforcement learning."
+        },
+        {
+          "zh": "论文同时提供算法基线与策略表现、可利用性评价，比较击败固定角色和形成不易被针对策略之间的差异，展示对手循环的研究需求。",
+          "en": "Baselines and performance/exploitability measures distinguish beating fixed characters from learning robust competitive policies and reveal challenges in opponent-dependent training."
+        },
+        {
+          "zh": "当前细化入口为Ryu镜像对局，利用Gym Retro画面与按键或转换动作记录回合胜率及固定对手池比较；宏动作、堆帧和持续时间改变控制条件。",
+          "en": "The detailed entry uses Ryu mirror matches through Gym Retro pixels and raw or transformed actions, with round wins and fixed-pool comparisons sensitive to macros, frame stacks and action duration."
+        },
+        {
+          "zh": "论文包含单人内置角色挑战和双人竞争，当前细化条目关注Ryu镜像；对手池、动作宏与时间设置共同定义竞技分数。",
+          "en": "The paper includes built-in-opponent and two-player studies; the detailed entry centers on Ryu mirrors under specified opponent pools, macros and timing."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v235/li24q.html",
+          "title": "FightLadder: A Benchmark for Competitive Multi-Agent Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/wenzhe-li/FightLadder",
+          "title": "FightLadder — official documentation"
+        },
+        {
+          "url": "https://arxiv.org/html/2406.02081v1",
+          "title": "Existing task documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB074",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "OCAtari扩展Atari学习环境，从游戏画面或内存状态高效提取对象表示，使智能体可基于物体位置与属性进行强化学习。",
+            "en": "OCAtari extends Atari environments with efficient object-state extraction, enabling reinforcement learning from object positions and attributes."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究把对象发现、表示学习和策略学习纳入同一框架，比较对象信息与像素输入，并单独分析提取质量和资源效率。",
+            "en": "The framework connects object discovery, representation learning and policy learning, comparing object and pixel inputs while separately assessing extraction quality and efficiency."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "论文图4在Asterix、Bowling、Boxing、Freeway、Kangaroo、Pong、Seaquest和Tennis训练PPO，以相邻两帧移动物体坐标输入，三种子各2000万帧，报告人类归一化分数。",
+            "en": "Figure 4 evaluates PPO on eight games using moving-object coordinates from two frames, with three 20-million-frame seeds and human-normalized scores."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "八款PPO游玩实验与对象检测、表示学习各自评分；平台支持列表描述可用环境范围，图4记录具体在线控制实验。",
+            "en": "Eight PPO gameplay evaluations are scored separately from detection/representation tasks; the support list describes environment availability and Figure 4 records online experiments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "OCAtari扩展Atari学习环境，从游戏画面或内存状态高效提取对象表示，使智能体可基于物体位置与属性进行强化学习。",
+          "en": "OCAtari extends Atari environments with efficient object-state extraction, enabling reinforcement learning from object positions and attributes."
+        },
+        {
+          "zh": "研究把对象发现、表示学习和策略学习纳入同一框架，比较对象信息与像素输入，并单独分析提取质量和资源效率。",
+          "en": "The framework connects object discovery, representation learning and policy learning, comparing object and pixel inputs while separately assessing extraction quality and efficiency."
+        },
+        {
+          "zh": "论文图4在Asterix、Bowling、Boxing、Freeway、Kangaroo、Pong、Seaquest和Tennis训练PPO，以相邻两帧移动物体坐标输入，三种子各2000万帧，报告人类归一化分数。",
+          "en": "Figure 4 evaluates PPO on eight games using moving-object coordinates from two frames, with three 20-million-frame seeds and human-normalized scores."
+        },
+        {
+          "zh": "八款PPO游玩实验与对象检测、表示学习各自评分；平台支持列表描述可用环境范围，图4记录具体在线控制实验。",
+          "en": "Eight PPO gameplay evaluations are scored separately from detection/representation tasks; the support list describes environment availability and Figure 4 records online experiments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://rlj.cs.umass.edu/2024/papers/Paper46.html",
+          "title": "OCAtari: Object-Centric Atari 2600 Reinforcement Learning Environments"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2306.08649",
+          "title": "OCAtari — §3.2, Figure 4 and Appendix E; rendered PDF checked"
+        },
+        {
+          "url": "https://arxiv.org/abs/2306.08649",
+          "title": "OCAtari: Object-Centric Atari 2600 Reinforcement Learning Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A3",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "VideoGameBench要求视觉语言模型仅凭原始画面和目标、控制说明，在十款1990年代电子游戏中持续行动并推进完整游戏，其中三款保密。",
+            "en": "VideoGameBench asks VLMs to advance through ten 1990s videogames using raw frames and objective/control descriptions, keeping three games secret."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究尽量减少专用状态与辅助支架，比较实时交互和Lite推理暂停模式，观察视觉、导航、记忆管理及响应延迟对长程进展的影响。",
+            "en": "The work minimizes game-specific scaffolding and compares real-time play with paused-inference Lite to examine perception, navigation, memory and latency."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "细化Doom II公开测试任务以按钮、动作序列和时长控制，按预定义关卡检查点的到达比例计分；固定起点、时限和重开规则定义比较条件。",
+            "en": "The detailed public Doom II task uses buttons, sequences and durations, scoring the fraction of predefined checkpoints reached under fixed starts, time limits and restart rules."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "公开Doom II条目用检查点比例表示进度；完整资源另含其他公开与保密游戏，实时和Lite条件分别记录游戏时间压力。",
+            "en": "Public Doom II uses checkpoint fractions; the broader resource includes public/secret games, with real-time and Lite conditions retaining distinct time pressure."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "VideoGameBench要求视觉语言模型仅凭原始画面和目标、控制说明，在十款1990年代电子游戏中持续行动并推进完整游戏，其中三款保密。",
+          "en": "VideoGameBench asks VLMs to advance through ten 1990s videogames using raw frames and objective/control descriptions, keeping three games secret."
+        },
+        {
+          "zh": "研究尽量减少专用状态与辅助支架，比较实时交互和Lite推理暂停模式，观察视觉、导航、记忆管理及响应延迟对长程进展的影响。",
+          "en": "The work minimizes game-specific scaffolding and compares real-time play with paused-inference Lite to examine perception, navigation, memory and latency."
+        },
+        {
+          "zh": "细化Doom II公开测试任务以按钮、动作序列和时长控制，按预定义关卡检查点的到达比例计分；固定起点、时限和重开规则定义比较条件。",
+          "en": "The detailed public Doom II task uses buttons, sequences and durations, scoring the fraction of predefined checkpoints reached under fixed starts, time limits and restart rules."
+        },
+        {
+          "zh": "公开Doom II条目用检查点比例表示进度；完整资源另含其他公开与保密游戏，实时和Lite条件分别记录游戏时间压力。",
+          "en": "Public Doom II uses checkpoint fractions; the broader resource includes public/secret games, with real-time and Lite conditions retaining distinct time pressure."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.18134",
+          "title": "VideoGameBench: Can Vision-Language Models Complete Popular Video Games?"
+        },
+        {
+          "url": "https://github.com/alexzhang13/videogamebench",
+          "title": "VideoGameBench official emulator and runner documentation"
+        },
+        {
+          "url": "https://arxiv.org/html/2505.18134v1",
+          "title": "VideoGameBench author paper, test split and Appendices B–C"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB050",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "COOM基于Doom构造视觉强化学习任务序列，让智能体依次学习不同三维场景，同时保留先前学到的行为，研究持续学习而非单次零样本游玩。",
+            "en": "COOM uses Doom-based visual task sequences to study continual reinforcement learning: agents learn successive environments while retaining earlier performance."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "套件以不同视觉与目标变化分析灾难性遗忘、前向迁移和样本效率；第一视角输入让表示变化与行为学习共同影响序列训练。",
+            "en": "Visually and behaviorally varied sequences examine catastrophic forgetting, forward transfer and sample efficiency under egocentric perception."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的Run and Gun跨域序列包含八任务、每局2500步，依次训练时不访问旧任务；报告击杀表现、平均表现、遗忘量与前向迁移。",
+            "en": "The detailed eight-task Run and Gun cross-domain sequence uses 2,500-step episodes and no previous-task access during sequential training, reporting kills, average performance, forgetting and forward transfer."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "遗忘量刻画跨训练任务的知识保持，前向迁移刻画新任务学习；八任务顺序、边界和预算是持续学习比较的组成部分。",
+            "en": "Forgetting measures retention across training tasks and forward transfer measures later learning, under specified eight-task orders, boundaries and budgets."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "COOM基于Doom构造视觉强化学习任务序列，让智能体依次学习不同三维场景，同时保留先前学到的行为，研究持续学习而非单次零样本游玩。",
+          "en": "COOM uses Doom-based visual task sequences to study continual reinforcement learning: agents learn successive environments while retaining earlier performance."
+        },
+        {
+          "zh": "套件以不同视觉与目标变化分析灾难性遗忘、前向迁移和样本效率；第一视角输入让表示变化与行为学习共同影响序列训练。",
+          "en": "Visually and behaviorally varied sequences examine catastrophic forgetting, forward transfer and sample efficiency under egocentric perception."
+        },
+        {
+          "zh": "已细化的Run and Gun跨域序列包含八任务、每局2500步，依次训练时不访问旧任务；报告击杀表现、平均表现、遗忘量与前向迁移。",
+          "en": "The detailed eight-task Run and Gun cross-domain sequence uses 2,500-step episodes and no previous-task access during sequential training, reporting kills, average performance, forgetting and forward transfer."
+        },
+        {
+          "zh": "遗忘量刻画跨训练任务的知识保持，前向迁移刻画新任务学习；八任务顺序、边界和预算是持续学习比较的组成部分。",
+          "en": "Forgetting measures retention across training tasks and forward transfer measures later learning, under specified eight-task orders, boundaries and budgets."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2023/hash/d61d9f4fe4357296cb658795fd7999f0-Abstract-Datasets_and_Benchmarks.html",
+          "title": "COOM: A Game Benchmark for Continual Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/TTomilin/COOM",
+          "title": "COOM — official documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB034",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LevDoom在Doom的四类射击或生存场景中设置有序修改等级，用更低难度场景训练，再观察策略面对更高等级环境时的表现。",
+            "en": "LevDoom defines ordered modification levels across four Doom shooting/survival scenarios, training at lower levels and testing on higher-level environments."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究将视觉强化学习的泛化问题转化为可控关卡变化，结合障碍物、敌人类型及环境复杂度，比较已有算法对未见变化的适应性。",
+            "en": "The benchmark controls level modifications involving obstacles, enemy types and complexity to compare visual-RL adaptation to unseen environments."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "实验将160×120 RGB缩为84×84灰度，在等级0–1训练1000万步，测试等级2–4；每10万步测30局，五次运行按击杀数或存活帧汇总。",
+            "en": "Experiments downsample RGB to 84×84 grayscale, train ten million steps on levels 0–1 and test levels 2–4 with 30 episodes every 100,000 steps across five runs."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "等级变化包含外观、障碍与敌人等环境因素，四场景按各自动作与指标评价；低等级训练至高等级测试构成泛化方向。",
+            "en": "Level changes involve appearance, obstacles and enemies; four scenarios retain their actions/metrics for low-to-high-level generalization tests."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LevDoom在Doom的四类射击或生存场景中设置有序修改等级，用更低难度场景训练，再观察策略面对更高等级环境时的表现。",
+          "en": "LevDoom defines ordered modification levels across four Doom shooting/survival scenarios, training at lower levels and testing on higher-level environments."
+        },
+        {
+          "zh": "研究将视觉强化学习的泛化问题转化为可控关卡变化，结合障碍物、敌人类型及环境复杂度，比较已有算法对未见变化的适应性。",
+          "en": "The benchmark controls level modifications involving obstacles, enemy types and complexity to compare visual-RL adaptation to unseen environments."
+        },
+        {
+          "zh": "实验将160×120 RGB缩为84×84灰度，在等级0–1训练1000万步，测试等级2–4；每10万步测30局，五次运行按击杀数或存活帧汇总。",
+          "en": "Experiments downsample RGB to 84×84 grayscale, train ten million steps on levels 0–1 and test levels 2–4 with 30 episodes every 100,000 steps across five runs."
+        },
+        {
+          "zh": "等级变化包含外观、障碍与敌人等环境因素，四场景按各自动作与指标评价；低等级训练至高等级测试构成泛化方向。",
+          "en": "Level changes involve appearance, obstacles and enemies; four scenarios retain their actions/metrics for low-to-high-level generalization tests."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ieee-cog.org/2022/assets/papers/paper_30.pdf",
+          "title": "LevDoom: A Benchmark for Generalization on Level Difficulty in Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/TTomilin/LevDoom",
+          "title": "LevDoom — official documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB002",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Atari-HEAD同步记录人类Atari操作与眼动，包含20款游戏的117小时数据、800万动作示范和3.28亿注视样本。",
+            "en": "Atari-HEAD records human Atari actions and eye movements across 20 games, with 117 hours, eight million action demonstrations and 328 million gaze samples."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究用高质量注意与动作轨迹支持注视预测和模仿学习，并以AGIL等策略检验预测注意力是否有助于实际游戏控制。",
+            "en": "The dataset supports gaze prediction and imitation, with AGIL-style policies investigating whether learned attention improves actual control."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "在线策略读取画面和可选预测显著图，从18类动作采样；每游戏500个随机种子回合、108000帧上限，以Boltzmann参数1报告平均终局分数。",
+            "en": "Online policies use images and optional predicted saliency over 18 action classes, averaging 500 random-seed episodes per game with a 108,000-frame cutoff and Boltzmann parameter one."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "人类示范采用半逐帧输入，数据预测与在线策略分别评测；20游戏的分数、动作准确率和显著图指标对应控制、模仿与注意力质量。",
+            "en": "Demonstrations use semi-frame-by-frame input; online scores, action accuracy and saliency metrics respectively assess control, imitation and attention quality."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Atari-HEAD同步记录人类Atari操作与眼动，包含20款游戏的117小时数据、800万动作示范和3.28亿注视样本。",
+          "en": "Atari-HEAD records human Atari actions and eye movements across 20 games, with 117 hours, eight million action demonstrations and 328 million gaze samples."
+        },
+        {
+          "zh": "研究用高质量注意与动作轨迹支持注视预测和模仿学习，并以AGIL等策略检验预测注意力是否有助于实际游戏控制。",
+          "en": "The dataset supports gaze prediction and imitation, with AGIL-style policies investigating whether learned attention improves actual control."
+        },
+        {
+          "zh": "在线策略读取画面和可选预测显著图，从18类动作采样；每游戏500个随机种子回合、108000帧上限，以Boltzmann参数1报告平均终局分数。",
+          "en": "Online policies use images and optional predicted saliency over 18 action classes, averaging 500 random-seed episodes per game with a 108,000-frame cutoff and Boltzmann parameter one."
+        },
+        {
+          "zh": "人类示范采用半逐帧输入，数据预测与在线策略分别评测；20游戏的分数、动作准确率和显著图指标对应控制、模仿与注意力质量。",
+          "en": "Demonstrations use semi-frame-by-frame input; online scores, action accuracy and saliency metrics respectively assess control, imitation and attention quality."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6161",
+          "title": "Atari-HEAD: Atari Human Eye-Tracking and Demonstration Dataset"
+        },
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/6161/6017",
+          "title": "Atari-HEAD: Atari Human Eye-Tracking and Demonstration Dataset"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB005",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "RL Unplugged提供离线强化学习数据、基线与评测协议，覆盖Atari和模拟运动控制等领域；Atari部分从DQN回放中学习，再到游戏环境评价策略。",
+            "en": "RL Unplugged provides offline-RL data, baselines and evaluation protocols across Atari and simulated control; its Atari policies learn from DQN replay before environment evaluation."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究强调数据学习和策略选择的可比较性，明确哪些任务允许在线选择模型，哪些任务必须依靠离线选择，避免把额外交互混入离线训练收益。",
+            "en": "The suite standardizes learning and policy selection, distinguishing online model selection from offline selection so additional interaction does not obscure comparisons."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Atari含46款游戏，以四帧堆叠输入和离散动作评测；每游戏五次DQN各5000万转移，九游戏用于调参、37游戏测试，以最佳数据策略归一化中位数及自举区间报告。",
+            "en": "The 46-game Atari protocol uses four-frame inputs, five 50-million-transition DQN runs per game, nine tuning and 37 test games, with best-data-policy-normalized median scores and bootstrap intervals."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Atari部分明确为46游戏，其中九款用于在线选择、37款测试离线选择；套件其他运动控制数据另有动作空间与评分协议。",
+            "en": "The Atari component explicitly uses 46 games: nine for online selection and 37 for offline selection, separate from the suite's motor-control domains."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "RL Unplugged提供离线强化学习数据、基线与评测协议，覆盖Atari和模拟运动控制等领域；Atari部分从DQN回放中学习，再到游戏环境评价策略。",
+          "en": "RL Unplugged provides offline-RL data, baselines and evaluation protocols across Atari and simulated control; its Atari policies learn from DQN replay before environment evaluation."
+        },
+        {
+          "zh": "研究强调数据学习和策略选择的可比较性，明确哪些任务允许在线选择模型，哪些任务必须依靠离线选择，避免把额外交互混入离线训练收益。",
+          "en": "The suite standardizes learning and policy selection, distinguishing online model selection from offline selection so additional interaction does not obscure comparisons."
+        },
+        {
+          "zh": "Atari含46款游戏，以四帧堆叠输入和离散动作评测；每游戏五次DQN各5000万转移，九游戏用于调参、37游戏测试，以最佳数据策略归一化中位数及自举区间报告。",
+          "en": "The 46-game Atari protocol uses four-frame inputs, five 50-million-transition DQN runs per game, nine tuning and 37 test games, with best-data-policy-normalized median scores and bootstrap intervals."
+        },
+        {
+          "zh": "Atari部分明确为46游戏，其中九款用于在线选择、37款测试离线选择；套件其他运动控制数据另有动作空间与评分协议。",
+          "en": "The Atari component explicitly uses 46 games: nine for online selection and 37 for offline selection, separate from the suite's motor-control domains."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2020/hash/51200d29d1fc15f5a71c1dab4bb54f7c-Abstract.html",
+          "title": "RL Unplugged: A Suite of Benchmarks for Offline Reinforcement Learning"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/51200d29d1fc15f5a71c1dab4bb54f7c-Paper.pdf",
+          "title": "RL Unplugged: A Suite of Benchmarks for Offline Reinforcement Learning"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-deepmind/deepmind-research/master/rl_unplugged/atari.py",
+          "title": "RL Unplugged official Atari suite configuration"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2606.24391",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Age of LLM让两个语言模型在13×7回合制格子战场对抗，目标可以是摧毁基地或通过外交结束；战争迷雾与私密信息限制状态可见性。",
+            "en": "Age of LLM pits two language models on a 13×7 turn-based battlefield, with base destruction or diplomatic endings under fog of war and private information."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究把经济、军事与外交放入严格JSON行动接口，以逐回合行为和消息考察对抗不确定性下的决策、信念追踪与执行可靠性。",
+            "en": "Economic, military and diplomatic choices use strict JSON, enabling trace-based analysis of decisions, belief tracking and reliability under adversarial uncertainty."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "模型读取可见棋盘、上轮结果和最近40条外交记录，按规则版本统计胜负、非法动作比例及不同结局的回合数；每场不保留跨局记忆。",
+            "en": "Agents see the visible board, last-turn outcomes and 40 diplomatic entries; wins, illegal-action rates and ending-specific lengths are stratified by rule version without cross-match memory."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "语料包含54场未交换双方位置的比赛，按规则版本呈现描述性统计；非法动作与结局类型分别反映接口可靠性和机制下的对抗结果。",
+            "en": "The corpus contains 54 non-side-swapped matches, with rule-stratified descriptive statistics for interface reliability and mechanism-dependent outcomes."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Age of LLM让两个语言模型在13×7回合制格子战场对抗，目标可以是摧毁基地或通过外交结束；战争迷雾与私密信息限制状态可见性。",
+          "en": "Age of LLM pits two language models on a 13×7 turn-based battlefield, with base destruction or diplomatic endings under fog of war and private information."
+        },
+        {
+          "zh": "研究把经济、军事与外交放入严格JSON行动接口，以逐回合行为和消息考察对抗不确定性下的决策、信念追踪与执行可靠性。",
+          "en": "Economic, military and diplomatic choices use strict JSON, enabling trace-based analysis of decisions, belief tracking and reliability under adversarial uncertainty."
+        },
+        {
+          "zh": "模型读取可见棋盘、上轮结果和最近40条外交记录，按规则版本统计胜负、非法动作比例及不同结局的回合数；每场不保留跨局记忆。",
+          "en": "Agents see the visible board, last-turn outcomes and 40 diplomatic entries; wins, illegal-action rates and ending-specific lengths are stratified by rule version without cross-match memory."
+        },
+        {
+          "zh": "语料包含54场未交换双方位置的比赛，按规则版本呈现描述性统计；非法动作与结局类型分别反映接口可靠性和机制下的对抗结果。",
+          "en": "The corpus contains 54 non-side-swapped matches, with rule-stratified descriptive statistics for interface reliability and mechanism-dependent outcomes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.24391",
+          "title": "Age of LLM: A Strategic 1v1 Benchmark for Reasoning, Diplomacy and Reliability of Large Language Models under Fog of War"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.24391v1",
+          "title": "Age of LLM: A Strategic 1v1 Benchmark for Reasoning, Diplomacy and Reliability of Large Language Models under Fog of War"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2604.07733",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Civilization V版CivBench让语言模型担任多人游戏的战略决策者，根据每回合结构化Markdown简报选择胜利方向、科技、政策和外交。",
+            "en": "The Civilization V CivBench casts language models as multiplayer strategists using per-turn structured Markdown briefings to choose victory direction, research, policies and diplomacy."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究认为数百回合后的胜负信号过稀，因而训练状态价值估计器，预测最终获胜概率，用连续进度分析不同模型与智能体配置的战略表现。",
+            "en": "Because terminal outcomes are sparse, learned value estimators predict eventual win probability and provide progress signals for comparing models and agent setups."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评测结合回合级获胜概率、进度加权相对位置与跨局Elo，并控制规则、开局和文明差异；论文汇总307局、七个模型与多个配置。",
+            "en": "Evaluation combines turn-level win probabilities, progress-weighted standing and cross-game Elo under controlled rules, starts and civilization adjustments, across 307 games and seven models."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "模型承担战略层，VPAI负责战术执行；学习式状态价值、进度排名与终局结果构成不同评价信号，本条对应Civilization V版本。",
+            "en": "Models set strategy and VPAI executes tactics; learned state values, progress standings and terminal results are distinct signals in the Civilization V benchmark."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Civilization V版CivBench让语言模型担任多人游戏的战略决策者，根据每回合结构化Markdown简报选择胜利方向、科技、政策和外交。",
+          "en": "The Civilization V CivBench casts language models as multiplayer strategists using per-turn structured Markdown briefings to choose victory direction, research, policies and diplomacy."
+        },
+        {
+          "zh": "研究认为数百回合后的胜负信号过稀，因而训练状态价值估计器，预测最终获胜概率，用连续进度分析不同模型与智能体配置的战略表现。",
+          "en": "Because terminal outcomes are sparse, learned value estimators predict eventual win probability and provide progress signals for comparing models and agent setups."
+        },
+        {
+          "zh": "评测结合回合级获胜概率、进度加权相对位置与跨局Elo，并控制规则、开局和文明差异；论文汇总307局、七个模型与多个配置。",
+          "en": "Evaluation combines turn-level win probabilities, progress-weighted standing and cross-game Elo under controlled rules, starts and civilization adjustments, across 307 games and seven models."
+        },
+        {
+          "zh": "模型承担战略层，VPAI负责战术执行；学习式状态价值、进度排名与终局结果构成不同评价信号，本条对应Civilization V版本。",
+          "en": "Models set strategy and VPAI executes tactics; learned state values, progress standings and terminal results are distinct signals in the Civilization V benchmark."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.07733",
+          "title": "CivBench: Progress-Based Evaluation for LLMs' Strategic Decision-Making in Civilization V"
+        },
+        {
+          "url": "https://arxiv.org/html/2604.07733v1",
+          "title": "CivBench: Progress-Based Evaluation for LLMs' Strategic Decision-Making in Civilization V"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.18423",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "FM-Bench以足球俱乐部经营模拟评估长期智能体，模型在20个游戏年内处理转会、合同、设施、青年培养与阵容，并面对董事会解雇风险。",
+            "en": "FM-Bench evaluates agents managing football clubs over 20 game years through transfers, contracts, facilities, youth development and squad decisions, with dismissal risk."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "通过26个工具和约340至400个决策节点，研究累积后果、市场竞争与自管理记忆；单人轨道面对冻结脚本世界，Arena共享同一竞争市场。",
+            "en": "Twenty-six tools and roughly 340–400 decision stops expose cumulative consequences, competition and self-managed memory in separate scripted-world solo and shared-world Arena tracks."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各队起始预算相同，三种子运行，以荣誉、实际净资产增加和阵容价值的确定性函数计分，提前退出折扣；每次决策新开会话，另可查询档案和笔记。",
+            "en": "Equal budgets and three seeds support deterministic scoring from honors, real net-worth gains and squad value with early-exit discounts; fresh decision conversations can access archives and notes."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "单人轨道与共享市场Arena分别组织对手，确定性总分融合竞技和资产结果；工具、笔记与档案记录跨20年经营行为。",
+            "en": "Solo and shared-market Arena use distinct opponents; deterministic scores combine sporting/assets outcomes while tools, notes and archives record 20-year management."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "FM-Bench以足球俱乐部经营模拟评估长期智能体，模型在20个游戏年内处理转会、合同、设施、青年培养与阵容，并面对董事会解雇风险。",
+          "en": "FM-Bench evaluates agents managing football clubs over 20 game years through transfers, contracts, facilities, youth development and squad decisions, with dismissal risk."
+        },
+        {
+          "zh": "通过26个工具和约340至400个决策节点，研究累积后果、市场竞争与自管理记忆；单人轨道面对冻结脚本世界，Arena共享同一竞争市场。",
+          "en": "Twenty-six tools and roughly 340–400 decision stops expose cumulative consequences, competition and self-managed memory in separate scripted-world solo and shared-world Arena tracks."
+        },
+        {
+          "zh": "各队起始预算相同，三种子运行，以荣誉、实际净资产增加和阵容价值的确定性函数计分，提前退出折扣；每次决策新开会话，另可查询档案和笔记。",
+          "en": "Equal budgets and three seeds support deterministic scoring from honors, real net-worth gains and squad value with early-exit discounts; fresh decision conversations can access archives and notes."
+        },
+        {
+          "zh": "单人轨道与共享市场Arena分别组织对手，确定性总分融合竞技和资产结果；工具、笔记与档案记录跨20年经营行为。",
+          "en": "Solo and shared-market Arena use distinct opponents; deterministic scores combine sporting/assets outcomes while tools, notes and archives record 20-year management."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.18423",
+          "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.18423v1",
+          "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.18423",
+          "title": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2606.18950",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "RTSGameBench基于Beyond All Reason，提供完整对战、诊断小游戏与可扩展任务生成，研究视觉语言模型在大规模战场中的战略推理。",
+            "en": "RTSGameBench uses Beyond All Reason for full matches, diagnostic minigames and task generation, studying VLM strategic reasoning on large battlefields."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究结合局部画面、小地图和结构状态，由RTSGameAgent的状态机管理单位；不同对抗与合作配置考察兵力、资源与盟友行为协调。",
+            "en": "Local views, minimaps and structured state feed an agent whose finite-state machinery manages units, supporting varied competitive and cooperative configurations."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化五类诊断覆盖目标编队、多线防御、混战生存、队伍配合和突破工事，按任务报告完成率、胜率、排名、耗时及伤害效率。",
+            "en": "Five detailed diagnostics cover target composition, multi-front defense, free-for-all survival, team coordination and fortification assault, reporting task-specific completion, wins, rank, time and damage efficiency."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "五诊断任务分别采用一分钟有迷雾或15秒无迷雾决策；完整比赛与任务生成是资源的其他组成，小游戏保留各自目标与动作限制。",
+            "en": "Five diagnostics use minute decisions with fog or 15-second decisions without fog; full matches and task generation are separate components with task-specific constraints."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "RTSGameBench基于Beyond All Reason，提供完整对战、诊断小游戏与可扩展任务生成，研究视觉语言模型在大规模战场中的战略推理。",
+          "en": "RTSGameBench uses Beyond All Reason for full matches, diagnostic minigames and task generation, studying VLM strategic reasoning on large battlefields."
+        },
+        {
+          "zh": "研究结合局部画面、小地图和结构状态，由RTSGameAgent的状态机管理单位；不同对抗与合作配置考察兵力、资源与盟友行为协调。",
+          "en": "Local views, minimaps and structured state feed an agent whose finite-state machinery manages units, supporting varied competitive and cooperative configurations."
+        },
+        {
+          "zh": "已细化五类诊断覆盖目标编队、多线防御、混战生存、队伍配合和突破工事，按任务报告完成率、胜率、排名、耗时及伤害效率。",
+          "en": "Five detailed diagnostics cover target composition, multi-front defense, free-for-all survival, team coordination and fortification assault, reporting task-specific completion, wins, rank, time and damage efficiency."
+        },
+        {
+          "zh": "五诊断任务分别采用一分钟有迷雾或15秒无迷雾决策；完整比赛与任务生成是资源的其他组成，小游戏保留各自目标与动作限制。",
+          "en": "Five diagnostics use minute decisions with fog or 15-second decisions without fog; full matches and task generation are separate components with task-specific constraints."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.18950",
+          "title": "RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.18950v1",
+          "title": "RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.18950",
+          "title": "RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-2.5",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Civilization VI版CivBench通过76个MCP工具和文字叙述层，让语言模型进行完整文明经营；一局超过300回合并产生数千次查询与管理调用。",
+            "en": "The Civilization VI CivBench provides 76 MCP tools and textual narration for full-game management across 300-plus turns and thousands of tool calls."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究关注长期计划能否落实，以及智能体是否主动查询潜在战略状态；只有实际查询的信息进入观察，因此工具访问与主动监控行为分别可分析。",
+            "en": "The work studies plan execution and proactive monitoring of latent strategic state, with observations limited to explicitly queried information."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "固定地图与游戏种子、存档、版本及共享行动手册，记录PMR主动监控率、RAG@10十回合承诺兑现和终局结果；原始研究包含23次有效运行。",
+            "en": "Pinned seeds, saves, versions and a shared playbook support PMR monitoring, RAG@10 commitment execution and terminal outcomes across 23 admissible runs."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "23次有效运行用于行为刻画，PMR和RAG@10衡量共享手册条件下的主动查询与承诺兑现，终局结果提供整局表现背景。",
+            "en": "Twenty-three admissible runs characterize behavior, with PMR/RAG@10 measuring querying and commitment execution under a shared playbook alongside terminal outcomes."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Civilization VI版CivBench通过76个MCP工具和文字叙述层，让语言模型进行完整文明经营；一局超过300回合并产生数千次查询与管理调用。",
+          "en": "The Civilization VI CivBench provides 76 MCP tools and textual narration for full-game management across 300-plus turns and thousands of tool calls."
+        },
+        {
+          "zh": "研究关注长期计划能否落实，以及智能体是否主动查询潜在战略状态；只有实际查询的信息进入观察，因此工具访问与主动监控行为分别可分析。",
+          "en": "The work studies plan execution and proactive monitoring of latent strategic state, with observations limited to explicitly queried information."
+        },
+        {
+          "zh": "固定地图与游戏种子、存档、版本及共享行动手册，记录PMR主动监控率、RAG@10十回合承诺兑现和终局结果；原始研究包含23次有效运行。",
+          "en": "Pinned seeds, saves, versions and a shared playbook support PMR monitoring, RAG@10 commitment execution and terminal outcomes across 23 admissible runs."
+        },
+        {
+          "zh": "23次有效运行用于行为刻画，PMR和RAG@10衡量共享手册条件下的主动查询与承诺兑现，终局结果提供整局表现背景。",
+          "en": "Twenty-three admissible runs characterize behavior, with PMR/RAG@10 measuring querying and commitment execution under a shared playbook alongside terminal outcomes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.02459",
+          "title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.02459v1",
+          "title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.02459",
+          "title": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB110",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "TowerMind以轻量塔防环境连接语言模型与即时战略决策，智能体建造或升级防御、部署单位，阻止敌人抵达拥有20点生命的基地。",
+            "en": "TowerMind provides a lightweight tower-defense setting in which agents build or upgrade defenses and deploy units to protect a 20-health base."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究用文字、结构状态与图像输入比较决策和动作幻觉，设置五个内置关卡，同时报告语言模型、人类专家和强化学习基线的表现。",
+            "en": "Five built-in levels compare textual, structured and visual inputs, studying decisions and invalid actions with language models, human experts and RL baselines."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "模型看到状态规则和最近三次交互，视觉条件另加512×512图像；每16步选择坐标及12类命令，五随机种子，漏敌一只扣一分，分数−20至0。",
+            "en": "Agents receive rules/state and three recent interactions, optionally 512×512 images, choosing coordinates plus one of 12 commands every 16 steps; five seeds yield leak scores from −20 to zero."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "五关卡分别比较文字与视觉条件，漏敌分数评价防守效果，有效动作比例评价命令合法性；基地生命和16步决策间隔界定时序。",
+            "en": "Five levels compare text/vision conditions; leak scores assess defense and valid-action rates assess command legality under 20 health and 16-step decisions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "TowerMind以轻量塔防环境连接语言模型与即时战略决策，智能体建造或升级防御、部署单位，阻止敌人抵达拥有20点生命的基地。",
+          "en": "TowerMind provides a lightweight tower-defense setting in which agents build or upgrade defenses and deploy units to protect a 20-health base."
+        },
+        {
+          "zh": "研究用文字、结构状态与图像输入比较决策和动作幻觉，设置五个内置关卡，同时报告语言模型、人类专家和强化学习基线的表现。",
+          "en": "Five built-in levels compare textual, structured and visual inputs, studying decisions and invalid actions with language models, human experts and RL baselines."
+        },
+        {
+          "zh": "模型看到状态规则和最近三次交互，视觉条件另加512×512图像；每16步选择坐标及12类命令，五随机种子，漏敌一只扣一分，分数−20至0。",
+          "en": "Agents receive rules/state and three recent interactions, optionally 512×512 images, choosing coordinates plus one of 12 commands every 16 steps; five seeds yield leak scores from −20 to zero."
+        },
+        {
+          "zh": "五关卡分别比较文字与视觉条件，漏敌分数评价防守效果，有效动作比例评价命令合法性；基地生命和16步决策间隔界定时序。",
+          "en": "Five levels compare text/vision conditions; leak scores assess defense and valid-action rates assess command legality under 20 health and 16-step decisions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/39818",
+          "title": "TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents"
+        },
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/39818/43779",
+          "title": "TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "fle",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Factorio Learning Environment让语言智能体通过Python代码与工具经营工厂，接收执行输出和错误反馈，逐步安排采集、设备、物流与生产链。",
+            "en": "Factorio Learning Environment lets language agents manage factories through Python code/tools, using execution output and errors to develop resource, machine and logistics chains."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "论文区分程序化地图上扩张最大工厂的Open-play，以及固定资源下33项有界Lab-play任务，研究规划、空间布局、程序合成与资源优化。",
+            "en": "The paper separates open-ended factory growth on procedural maps from 33 bounded fixed-resource lab tasks, studying planning, spatial layout, program synthesis and resource optimization."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "当前细化入口为Open-play生产扩张，按所用版本生产分数评价工厂；资源、科技、API与测量窗口共同规定条件，代码提交次数与游戏时间属于不同预算。",
+            "en": "The detailed entry follows Open-play production growth using version-specific production scores; resources, technology, APIs and measurement windows define conditions, separating code submissions from game time."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Open-play评价开放式生产扩张，Lab-play评价固定资源任务；Python工具、评分版本和测量窗口定义工厂控制与产出的具体含义。",
+            "en": "Open-play measures factory expansion and Lab-play fixed-resource tasks; Python tools, scorer version and measurement windows define control and production outcomes."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Factorio Learning Environment让语言智能体通过Python代码与工具经营工厂，接收执行输出和错误反馈，逐步安排采集、设备、物流与生产链。",
+          "en": "Factorio Learning Environment lets language agents manage factories through Python code/tools, using execution output and errors to develop resource, machine and logistics chains."
+        },
+        {
+          "zh": "论文区分程序化地图上扩张最大工厂的Open-play，以及固定资源下33项有界Lab-play任务，研究规划、空间布局、程序合成与资源优化。",
+          "en": "The paper separates open-ended factory growth on procedural maps from 33 bounded fixed-resource lab tasks, studying planning, spatial layout, program synthesis and resource optimization."
+        },
+        {
+          "zh": "当前细化入口为Open-play生产扩张，按所用版本生产分数评价工厂；资源、科技、API与测量窗口共同规定条件，代码提交次数与游戏时间属于不同预算。",
+          "en": "The detailed entry follows Open-play production growth using version-specific production scores; resources, technology, APIs and measurement windows define conditions, separating code submissions from game time."
+        },
+        {
+          "zh": "Open-play评价开放式生产扩张，Lab-play评价固定资源任务；Python工具、评分版本和测量窗口定义工厂控制与产出的具体含义。",
+          "en": "Open-play measures factory expansion and Lab-play fixed-resource tasks; Python tools, scorer version and measurement windows define control and production outcomes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/75f3a62e55187bc3e5e5961fa2a46bcf-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "Factorio Learning Environment"
+        },
+        {
+          "url": "https://github.com/JackHopkins/factorio-learning-environment",
+          "title": "Factorio Learning Environment — official documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB103",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Mini Honor of Kings提供轻量王者荣耀环境及地图编辑器，允许研究者定制场景；论文的实际任务是五名英雄协作攻击黑暗暴君。",
+            "en": "Mini Honor of Kings offers a lightweight environment and map editor; the paper's evaluated task uses five heroes cooperating against the Dark Dragon."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究在保留多智能体挑战的同时降低计算需求，用随机首领技能和英雄差异检验协同策略，并比较常用多智能体强化学习算法。",
+            "en": "The work reduces computational cost while retaining coordination challenges from stochastic boss skills and heterogeneous heroes, comparing common MARL algorithms."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "策略观察己方和首领位置、生命，执行八方向移动、攻击及技能；集中训练可用联合观察，七种等级、装备、技能与队伍配置，五种子各训练一万回合。指标为队伍累计伤害及学习曲线。",
+            "en": "Policies observe own/dragon positions and health and select movement, attacks and skills; seven controlled configurations use five seeds and 10,000 episodes, with joint observations for centralized training. Metrics are team damage and learning curves."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "实测七配置聚焦五英雄对首领的合作伤害，等级、技能、装备和队伍组成分别受控；地图编辑器提供其他场景的扩展接口。",
+            "en": "Seven evaluated configurations focus on five-hero cooperative boss damage, controlling levels, skills, equipment and composition within an extensible map-editor platform."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Mini Honor of Kings提供轻量王者荣耀环境及地图编辑器，允许研究者定制场景；论文的实际任务是五名英雄协作攻击黑暗暴君。",
+          "en": "Mini Honor of Kings offers a lightweight environment and map editor; the paper's evaluated task uses five heroes cooperating against the Dark Dragon."
+        },
+        {
+          "zh": "研究在保留多智能体挑战的同时降低计算需求，用随机首领技能和英雄差异检验协同策略，并比较常用多智能体强化学习算法。",
+          "en": "The work reduces computational cost while retaining coordination challenges from stochastic boss skills and heterogeneous heroes, comparing common MARL algorithms."
+        },
+        {
+          "zh": "策略观察己方和首领位置、生命，执行八方向移动、攻击及技能；集中训练可用联合观察，七种等级、装备、技能与队伍配置，五种子各训练一万回合。指标为队伍累计伤害及学习曲线。",
+          "en": "Policies observe own/dragon positions and health and select movement, attacks and skills; seven controlled configurations use five seeds and 10,000 episodes, with joint observations for centralized training. Metrics are team damage and learning curves."
+        },
+        {
+          "zh": "实测七配置聚焦五英雄对首领的合作伤害，等级、技能、装备和队伍组成分别受控；地图编辑器提供其他场景的扩展接口。",
+          "en": "Seven evaluated configurations focus on five-hero cooperative boss damage, controlling levels, skills, equipment and composition within an extensible map-editor platform."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1109/TG.2025.3546252",
+          "title": "Mini Honor of Kings: A Lightweight Environment for Multiagent Reinforcement Learning"
+        },
+        {
+          "url": "https://arxiv.org/html/2406.03978v1",
+          "title": "Mini Honor of Kings — §4, Table 1 and §5"
+        },
+        {
+          "url": "https://arxiv.org/abs/2406.03978",
+          "title": "Mini Honor of Kings: A Lightweight Environment for Multiagent Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB067",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "TextStarCraft II把星际争霸资源、建筑、单位、敌情和历史摘要转成文字，让模型通过执行器调度的建造、生产与研究宏动作经营完整对局。",
+            "en": "TextStarCraft II converts resources, buildings, units, enemy information and history into text, enabling full-game management through executor-scheduled build, production and research macros."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究提出Chain of Summarization，把单帧状态压缩与多帧战略总结相结合，考察语言模型能否利用游戏知识和历史选择长期行动。",
+            "en": "Chain of Summarization combines single-frame compression with multi-frame strategic summaries to study whether language models turn knowledge and history into long-term decisions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核协议是Protoss对内置Zerg AI的闭环比赛，按难度与提示报告胜率，调用量和时间另计，并比较摘要方法；静态知识问答是另一部分。",
+            "en": "The verified gameplay protocol uses Protoss against built-in Zerg AI, reporting wins by difficulty/prompt and separate API/time costs while comparing summarization; static QA is separate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "具体比赛采用文字宏动作控制Protoss对Zerg AI，按难度和提示呈现胜率；摘要、人类专家意见与静态知识问答属于不同分析维度。",
+            "en": "Concrete matches use textual macros for Protoss versus Zerg AI, with difficulty/prompt-specific wins; summarization, expert opinions and static QA are separate analyses."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "TextStarCraft II把星际争霸资源、建筑、单位、敌情和历史摘要转成文字，让模型通过执行器调度的建造、生产与研究宏动作经营完整对局。",
+          "en": "TextStarCraft II converts resources, buildings, units, enemy information and history into text, enabling full-game management through executor-scheduled build, production and research macros."
+        },
+        {
+          "zh": "研究提出Chain of Summarization，把单帧状态压缩与多帧战略总结相结合，考察语言模型能否利用游戏知识和历史选择长期行动。",
+          "en": "Chain of Summarization combines single-frame compression with multi-frame strategic summaries to study whether language models turn knowledge and history into long-term decisions."
+        },
+        {
+          "zh": "已核协议是Protoss对内置Zerg AI的闭环比赛，按难度与提示报告胜率，调用量和时间另计，并比较摘要方法；静态知识问答是另一部分。",
+          "en": "The verified gameplay protocol uses Protoss against built-in Zerg AI, reporting wins by difficulty/prompt and separate API/time costs while comparing summarization; static QA is separate."
+        },
+        {
+          "zh": "具体比赛采用文字宏动作控制Protoss对Zerg AI，按难度和提示呈现胜率；摘要、人类专家意见与静态知识问答属于不同分析维度。",
+          "en": "Concrete matches use textual macros for Protoss versus Zerg AI, with difficulty/prompt-specific wins; summarization, expert opinions and static QA are separate analyses."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2312.11865",
+          "title": "Large Language Models Play StarCraft II: Benchmarks and a Chain of Summarization Approach"
+        },
+        {
+          "url": "https://arxiv.org/html/2312.11865v1",
+          "title": "TextStarCraft II, Sections 3 and 5.2"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B5",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "WGSR-Bench以妙算兵棋的战场画面与行为记录组织战略推理样本，核心任务包括环境态势理解、对手风险建模和策略生成。",
+            "en": "WGSR-Bench derives strategic-reasoning samples from MiaoSuan wargame scenes and behavior records, covering situation awareness, opponent-risk modeling and policy generation."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "论文提出S-POE结构，将战场认知、对手特质与策略预测结合，研究模型在不确定、对抗且存在多种合理选择时如何推断局势并提出计划。",
+            "en": "The S-POE architecture connects battlefield understanding, opponent traits and strategy prediction to study reasoning under uncertainty and competing plausible choices."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核细节包含态势理解多选题，以及根据对手行为判断特质或预测策略；评分针对回答与预测内容，数据来自兵棋对局截图和回放。",
+            "en": "Verified components include multiple-choice situation questions and trait/strategy predictions from opponent behavior, scoring answers and predictions derived from screenshots and replays."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "本资源的具体评测单元是场景问答与行为推断，兵棋平台提供素材和语义背景；完整论文另讨论将这些推理组件接入智能体的架构。",
+            "en": "The concrete evaluation units are scene questions and behavioral inference, with the wargame supplying source material and semantics; the paper also discusses integrating the reasoning components into an agent."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "WGSR-Bench以妙算兵棋的战场画面与行为记录组织战略推理样本，核心任务包括环境态势理解、对手风险建模和策略生成。",
+          "en": "WGSR-Bench derives strategic-reasoning samples from MiaoSuan wargame scenes and behavior records, covering situation awareness, opponent-risk modeling and policy generation."
+        },
+        {
+          "zh": "论文提出S-POE结构，将战场认知、对手特质与策略预测结合，研究模型在不确定、对抗且存在多种合理选择时如何推断局势并提出计划。",
+          "en": "The S-POE architecture connects battlefield understanding, opponent traits and strategy prediction to study reasoning under uncertainty and competing plausible choices."
+        },
+        {
+          "zh": "已核细节包含态势理解多选题，以及根据对手行为判断特质或预测策略；评分针对回答与预测内容，数据来自兵棋对局截图和回放。",
+          "en": "Verified components include multiple-choice situation questions and trait/strategy predictions from opponent behavior, scoring answers and predictions derived from screenshots and replays."
+        },
+        {
+          "zh": "本资源的具体评测单元是场景问答与行为推断，兵棋平台提供素材和语义背景；完整论文另讨论将这些推理组件接入智能体的架构。",
+          "en": "The concrete evaluation units are scene questions and behavioral inference, with the wargame supplying source material and semantics; the paper also discusses integrating the reasoning components into an agent."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2506.10264",
+          "title": "WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models"
+        },
+        {
+          "url": "https://arxiv.org/html/2506.10264",
+          "title": "WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models"
+        },
+        {
+          "url": "https://arxiv.org/html/2506.10264v1",
+          "title": "WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB045",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Hokoff汇集王者荣耀预先采集的真实对局数据，分别支持1v1离线强化学习和3v3离线多智能体强化学习，提供配套基准框架。",
+            "en": "Hokoff supplies precollected Honor of Kings gameplay for 1v1 offline RL and 3v3 offline MARL, with a corresponding benchmark framework."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究围绕复杂层级动作、不同数据质量、泛化与多任务学习比较行为克隆和离线强化学习，并提出适配按钮、目标和参数结构的基线。",
+            "en": "The work compares behavior cloning and offline RL across data quality, generalization and multitask settings, including a baseline tailored to hierarchical actions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "策略读取局部英雄和单位特征，离线学习后与多个训练阶段的PPO参考对手在线对战，以胜率衡量表现，分开记录英雄阵容、数据质量与对手等级。",
+            "en": "Policies learn from local hero/unit features and face multiple pretrained PPO opponent checkpoints online, measuring win rates by roster, dataset quality and opponent level."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "数据集、训练阶段与在线对手评测共同构成协议；1v1和3v3采用各自任务配置，胜率对应特定参考对手与动作结构。",
+            "en": "Datasets, offline training and online opponent evaluation jointly define the protocol. The 1v1 and 3v3 settings retain their own configurations and reference-opponent win rates."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Hokoff汇集王者荣耀预先采集的真实对局数据，分别支持1v1离线强化学习和3v3离线多智能体强化学习，提供配套基准框架。",
+          "en": "Hokoff supplies precollected Honor of Kings gameplay for 1v1 offline RL and 3v3 offline MARL, with a corresponding benchmark framework."
+        },
+        {
+          "zh": "研究围绕复杂层级动作、不同数据质量、泛化与多任务学习比较行为克隆和离线强化学习，并提出适配按钮、目标和参数结构的基线。",
+          "en": "The work compares behavior cloning and offline RL across data quality, generalization and multitask settings, including a baseline tailored to hierarchical actions."
+        },
+        {
+          "zh": "策略读取局部英雄和单位特征，离线学习后与多个训练阶段的PPO参考对手在线对战，以胜率衡量表现，分开记录英雄阵容、数据质量与对手等级。",
+          "en": "Policies learn from local hero/unit features and face multiple pretrained PPO opponent checkpoints online, measuring win rates by roster, dataset quality and opponent level."
+        },
+        {
+          "zh": "数据集、训练阶段与在线对手评测共同构成协议；1v1和3v3采用各自任务配置，胜率对应特定参考对手与动作结构。",
+          "en": "Datasets, offline training and online opponent evaluation jointly define the protocol. The 1v1 and 3v3 settings retain their own configurations and reference-opponent win rates."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/464fefa022aaefc85d901317bbf13f85-Abstract-Datasets_and_Benchmarks.html",
+          "title": "Hokoff: Real Game Dataset from Honor of Kings and its Offline Reinforcement Learning Benchmarks"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/464fefa022aaefc85d901317bbf13f85-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "Hokoff: Real Game Dataset from Honor of Kings and its Offline Reinforcement Learning Benchmarks"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "smacv2",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "SMACv2让多个智能体分别控制StarCraft II单位，在局部观察下通过移动、停止、攻击或治疗配合击败敌队，专注合作战斗微操。",
+            "en": "SMACv2 assigns individual StarCraft II units to decentralized agents that coordinate movement, stopping, attacks or healing from local observations."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "改进版随机化起始位置和单位构成，减少固定地图脚本策略的作用，以可配置能力分布研究多智能体强化学习的泛化。",
+            "en": "Randomized starting positions and unit compositions reduce reliance on fixed scripts and provide configurable capability distributions for studying MARL generalization."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "环境以battles_won除以battles_game计算队伍胜率，另记录超时；训练中的全局状态访问、视野、兵种分布、地图和步进共同定义场景。",
+            "en": "Team win rate is battles_won divided by battles_game, with timeouts recorded separately; global-state access, sight range, unit distributions, maps and stepping define settings."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测对象是随机战斗场景中的去中心化协作，观测与可用动作随配置变化；单位经济、生产建造和整局科技运营属于其他RTS任务层级。",
+            "en": "Evaluation concerns decentralized cooperation in randomized combat, with observations and available actions set by configuration; full-game economics, construction and technology are distinct RTS layers."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "SMACv2让多个智能体分别控制StarCraft II单位，在局部观察下通过移动、停止、攻击或治疗配合击败敌队，专注合作战斗微操。",
+          "en": "SMACv2 assigns individual StarCraft II units to decentralized agents that coordinate movement, stopping, attacks or healing from local observations."
+        },
+        {
+          "zh": "改进版随机化起始位置和单位构成，减少固定地图脚本策略的作用，以可配置能力分布研究多智能体强化学习的泛化。",
+          "en": "Randomized starting positions and unit compositions reduce reliance on fixed scripts and provide configurable capability distributions for studying MARL generalization."
+        },
+        {
+          "zh": "环境以battles_won除以battles_game计算队伍胜率，另记录超时；训练中的全局状态访问、视野、兵种分布、地图和步进共同定义场景。",
+          "en": "Team win rate is battles_won divided by battles_game, with timeouts recorded separately; global-state access, sight range, unit distributions, maps and stepping define settings."
+        },
+        {
+          "zh": "评测对象是随机战斗场景中的去中心化协作，观测与可用动作随配置变化；单位经济、生产建造和整局科技运营属于其他RTS任务层级。",
+          "en": "Evaluation concerns decentralized cooperation in randomized combat, with observations and available actions set by configuration; full-game economics, construction and technology are distinct RTS layers."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/764c18ad230f9e7bf6a77ffc2312c55e-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "SMACv2: An Improved Benchmark for Cooperative Multi-Agent Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/oxwhirl/smacv2",
+          "title": "SMACv2 — official documentation"
+        },
+        {
+          "url": "https://github.com/oxwhirl/smacv2#introduction",
+          "title": "官方 README · introduction"
+        },
+        {
+          "url": "https://github.com/oxwhirl/smacv2#differences-to-smac",
+          "title": "Differences to SMAC"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB038",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Honor of Kings Arena通过Python接口提供王者荣耀1v1对抗，包含20个可控制英雄，围绕不同控制对象与不同对手研究竞争强化学习泛化。",
+            "en": "Honor of Kings Arena exposes 1v1 gameplay through Python and provides 20 controllable heroes for competitive-RL generalization across controlled and opposing characters."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "环境给出英雄公开和私有信息、兵线、防御塔、水晶及比赛阶段特征，动作分解为按钮、目标、移动或技能方向，保留MOBA战斗与推塔目标。",
+            "en": "Structured observations cover hero state, creeps, towers, crystals and match phases; hierarchical actions combine buttons, targets and movement/skill directions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化实验控制貂蝉，固定出装与升级，在同英雄训练后替换行为树对手英雄，进行98场跨对手测试，报告胜率、奖励、每帧伤害和模型池Elo。",
+            "en": "The detailed experiment fixes Diaochan, purchases and upgrades, then changes behavior-tree opponent heroes for 98 cross-opponent matches, reporting wins, reward, damage per frame and model-pool Elo."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "平台提供多英雄对抗空间，当前具体证据集中于貂蝉的对手迁移；行为树难度定位描述基准对手，1v1胜率对应双方英雄与固定运营配置。",
+            "en": "The platform offers a broader hero space while detailed evidence centers on Diaochan opponent transfer; behavior-tree difficulty and fixed purchasing/upgrades define the reference matches."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Honor of Kings Arena通过Python接口提供王者荣耀1v1对抗，包含20个可控制英雄，围绕不同控制对象与不同对手研究竞争强化学习泛化。",
+          "en": "Honor of Kings Arena exposes 1v1 gameplay through Python and provides 20 controllable heroes for competitive-RL generalization across controlled and opposing characters."
+        },
+        {
+          "zh": "环境给出英雄公开和私有信息、兵线、防御塔、水晶及比赛阶段特征，动作分解为按钮、目标、移动或技能方向，保留MOBA战斗与推塔目标。",
+          "en": "Structured observations cover hero state, creeps, towers, crystals and match phases; hierarchical actions combine buttons, targets and movement/skill directions."
+        },
+        {
+          "zh": "已细化实验控制貂蝉，固定出装与升级，在同英雄训练后替换行为树对手英雄，进行98场跨对手测试，报告胜率、奖励、每帧伤害和模型池Elo。",
+          "en": "The detailed experiment fixes Diaochan, purchases and upgrades, then changes behavior-tree opponent heroes for 98 cross-opponent matches, reporting wins, reward, damage per frame and model-pool Elo."
+        },
+        {
+          "zh": "平台提供多英雄对抗空间，当前具体证据集中于貂蝉的对手迁移；行为树难度定位描述基准对手，1v1胜率对应双方英雄与固定运营配置。",
+          "en": "The platform offers a broader hero space while detailed evidence centers on Diaochan opponent transfer; behavior-tree difficulty and fixed purchasing/upgrades define the reference matches."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_Benchmarks.html",
+          "title": "Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/4dbb61cb68671edc4ca3712d70083b9f-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB025",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Gym-μRTS把完整微型即时战略对局接入强化学习接口，角色需分配工人采集资源、生产部队、调度单位并击败对手。",
+            "en": "Gym-μRTS exposes full micro-RTS games for reinforcement learning, requiring resource gathering, unit production, movement and combat."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究以低成本模拟和训练技术降低完整RTS的计算负担，通过消融分析各项扩展方法，并在单机条件下训练可对抗既有竞赛机器人的策略。",
+            "en": "The work combines efficient simulation and training techniques for affordable full RTS, using ablations and single-machine training against prior competition bots."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "策略输入27个二值特征平面，逐单位选择移动、采集、返还、生产、攻击或等待；四训练种子选最佳，单地图对13个对手各100局，4000 tick上限，报告累计胜率。",
+            "en": "Policies use 27 binary feature planes and primitive per-unit actions. The best of four seeds faces 13 bots for 100 games each on one map, with a 4,000-tick cap and cumulative win rate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "论文结果对应完全观测、单地图、最佳训练种子选择的完整对局；模型大小与运行时间提供效率维度，资源运营和战斗在同一胜负目标下联合评价。",
+            "en": "Results concern fully observed, single-map full games with best-seed selection. Model size/runtime add efficiency measures while economics and combat share the game outcome."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Gym-μRTS把完整微型即时战略对局接入强化学习接口，角色需分配工人采集资源、生产部队、调度单位并击败对手。",
+          "en": "Gym-μRTS exposes full micro-RTS games for reinforcement learning, requiring resource gathering, unit production, movement and combat."
+        },
+        {
+          "zh": "研究以低成本模拟和训练技术降低完整RTS的计算负担，通过消融分析各项扩展方法，并在单机条件下训练可对抗既有竞赛机器人的策略。",
+          "en": "The work combines efficient simulation and training techniques for affordable full RTS, using ablations and single-machine training against prior competition bots."
+        },
+        {
+          "zh": "策略输入27个二值特征平面，逐单位选择移动、采集、返还、生产、攻击或等待；四训练种子选最佳，单地图对13个对手各100局，4000 tick上限，报告累计胜率。",
+          "en": "Policies use 27 binary feature planes and primitive per-unit actions. The best of four seeds faces 13 bots for 100 games each on one map, with a 4,000-tick cap and cumulative win rate."
+        },
+        {
+          "zh": "论文结果对应完全观测、单地图、最佳训练种子选择的完整对局；模型大小与运行时间提供效率维度，资源运营和战斗在同一胜负目标下联合评价。",
+          "en": "Results concern fully observed, single-map full games with best-seed selection. Model size/runtime add efficiency measures while economics and combat share the game outcome."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1109/CoG52621.2021.9619076",
+          "title": "Gym-μRTS: Toward Affordable Full Game Real-time Strategy Games Research with Deep Reinforcement Learning"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2105.13807",
+          "title": "Gym-μRTS — §§IV–V and Table I"
+        },
+        {
+          "url": "https://arxiv.org/abs/2105.13807",
+          "title": "Gym-μRTS: Toward Affordable Full Game Real-time Strategy Games Research with Deep Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.25419",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "BVR Sim 将超视距空战建成可配置的在线强化学习环境，支持多种飞机、传感器、武器和脚本对手。策略读取实体化战术信息，输出目标航向、高度、速度与武器释放命令，由机型专属内环执行。",
+            "en": "BVR Sim is an online reinforcement-learning environment for beyond-visual-range air combat, with configurable aircraft, sensors, weapons and scripted opponents. Entity-based observations feed tactical heading, altitude, speed and weapon-release commands executed by aircraft-specific controllers."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究重点是部分可观测交战中的能量与有限弹药管理，以及统一战术接口能否支持异构机型策略迁移；Python与加速C++后端也服务于高吞吐训练。",
+            "en": "It studies energy and limited-weapon management under partial observability, and whether a common tactical interface transfers policies across aircraft. Python and accelerated C++ backends support training throughput."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "代表评测将仅在F-16训练的策略冻结，在其他机型上对阵固定1对1脚本对手；每个策略与机型组合运行960回合，以各机型胜率衡量迁移。",
+            "en": "The reviewed transfer experiment freezes an F-16-trained policy and tests other aircraft against a fixed scripted 1v1 opponent, reporting per-aircraft win rates over 960 episodes per policy–aircraft pair."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源包括跨机型迁移和多代理训练集成两类实验；前者衡量冻结策略在机型控制器适配后的交战胜率，后者记录MAPPO/HAPPO与多机环境的集成表现。",
+            "en": "The resource includes transfer and multi-agent integration experiments. Transfer measures frozen-policy wins with adapted aircraft controllers; integration records MAPPO/HAPPO operation in multi-aircraft environments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "BVR Sim 将超视距空战建成可配置的在线强化学习环境，支持多种飞机、传感器、武器和脚本对手。策略读取实体化战术信息，输出目标航向、高度、速度与武器释放命令，由机型专属内环执行。",
+          "en": "BVR Sim is an online reinforcement-learning environment for beyond-visual-range air combat, with configurable aircraft, sensors, weapons and scripted opponents. Entity-based observations feed tactical heading, altitude, speed and weapon-release commands executed by aircraft-specific controllers."
+        },
+        {
+          "zh": "研究重点是部分可观测交战中的能量与有限弹药管理，以及统一战术接口能否支持异构机型策略迁移；Python与加速C++后端也服务于高吞吐训练。",
+          "en": "It studies energy and limited-weapon management under partial observability, and whether a common tactical interface transfers policies across aircraft. Python and accelerated C++ backends support training throughput."
+        },
+        {
+          "zh": "代表评测将仅在F-16训练的策略冻结，在其他机型上对阵固定1对1脚本对手；每个策略与机型组合运行960回合，以各机型胜率衡量迁移。",
+          "en": "The reviewed transfer experiment freezes an F-16-trained policy and tests other aircraft against a fixed scripted 1v1 opponent, reporting per-aircraft win rates over 960 episodes per policy–aircraft pair."
+        },
+        {
+          "zh": "资源包括跨机型迁移和多代理训练集成两类实验；前者衡量冻结策略在机型控制器适配后的交战胜率，后者记录MAPPO/HAPPO与多机环境的集成表现。",
+          "en": "The resource includes transfer and multi-agent integration experiments. Transfer measures frozen-policy wins with adapted aircraft controllers; integration records MAPPO/HAPPO operation in multi-aircraft environments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.25419",
+          "title": "BVR Sim: An Open and High-Throughput Environment for Heterogeneous Air-Combat Reinforcement Learning"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.25419v1",
+          "title": "BVR Sim: An Open and High-Throughput Environment for Heterogeneous Air-Combat Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2606.18786",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "R2D-RL通过共享内存与逐周期同步，将RoboCup二维足球服务器及HELIOS球员接入Python多智能体学习。环境同时提供门前训练场景与11对11全场比赛。",
+            "en": "R2D-RL connects the RoboCup 2D server and HELIOS player clients to Python multi-agent learning through shared memory and cycle-level synchronization, supporting both front-goal scenarios and full-field 11v11 play."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "其研究问题是如何在局部观察和稀疏进球奖励下学习传球、无球支援与团队进攻，并比较高层离散动作、参数化动作、合法掩码和EPV奖励塑形。",
+            "en": "It examines passing, off-ball support and coordinated attacks under local observations and sparse scoring rewards, comparing discrete and parameterized actions, masks and EPV reward shaping."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的三种门前多攻击者场景对阵HELIOS防守者，训练500万步；测试以进球率及三个种子的均值和标准差报告，每局至多300步。",
+            "en": "The three reviewed multi-attacker scenarios use HELIOS defenders and five million training steps. Evaluation reports goal rate with mean and standard deviation over three seeds and a 300-step episode cap."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "三种门前场景覆盖Support Option、Passing Lane和Compact Defense；全场11对11是平台的另一层级。学习策略负责play_on阶段，其他比赛模式由HELIOS执行。",
+            "en": "The reviewed front-goal tasks cover Support Option, Passing Lane and Compact Defense; full-field 11v11 is another platform level. Policies control play_on and HELIOS handles other modes."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "R2D-RL通过共享内存与逐周期同步，将RoboCup二维足球服务器及HELIOS球员接入Python多智能体学习。环境同时提供门前训练场景与11对11全场比赛。",
+          "en": "R2D-RL connects the RoboCup 2D server and HELIOS player clients to Python multi-agent learning through shared memory and cycle-level synchronization, supporting both front-goal scenarios and full-field 11v11 play."
+        },
+        {
+          "zh": "其研究问题是如何在局部观察和稀疏进球奖励下学习传球、无球支援与团队进攻，并比较高层离散动作、参数化动作、合法掩码和EPV奖励塑形。",
+          "en": "It examines passing, off-ball support and coordinated attacks under local observations and sparse scoring rewards, comparing discrete and parameterized actions, masks and EPV reward shaping."
+        },
+        {
+          "zh": "已细化的三种门前多攻击者场景对阵HELIOS防守者，训练500万步；测试以进球率及三个种子的均值和标准差报告，每局至多300步。",
+          "en": "The three reviewed multi-attacker scenarios use HELIOS defenders and five million training steps. Evaluation reports goal rate with mean and standard deviation over three seeds and a 300-step episode cap."
+        },
+        {
+          "zh": "三种门前场景覆盖Support Option、Passing Lane和Compact Defense；全场11对11是平台的另一层级。学习策略负责play_on阶段，其他比赛模式由HELIOS执行。",
+          "en": "The reviewed front-goal tasks cover Support Option, Passing Lane and Compact Defense; full-field 11v11 is another platform level. Policies control play_on and HELIOS handles other modes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.18786",
+          "title": "R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.18786",
+          "title": "R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2605.31529",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "SVI-Bench以篮球、足球与冰球的真实比赛录像及解说、报告和统计构成多模态语料，将体育团队互动作为可核验规则与结果的动态微世界。模型处理视频与问题，而非操控场上球员。",
+            "en": "SVI-Bench combines real basketball, soccer and hockey broadcasts with commentary, reports and statistics, using team sports as a microworld with explicit rules and outcomes. Models analyze videos and questions rather than control players."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "九项任务沿动态场景理解、因果推理、策略模拟和智能体综合四个层次组织，考察从识别事件到解释成因、推演变化及综合分析的能力链。",
+            "en": "Nine tasks span dynamic scene understanding, causal reasoning, strategic simulation and agentic synthesis, testing a progression from event recognition to explanations, counterfactual analysis and synthesis."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评测围绕各任务的问题、参考信息与输出要求展开；工具辅助的T9智能体用于回答分析问题。大规模视频、动作注释、专家解说与结构化记录为不同层次提供证据。",
+            "en": "Task-specific questions, references and output requirements define evaluation; the tool-assisted T9 agent answers analytical questions. Video, action annotations, expert commentary and structured records supply complementary evidence."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源对象是体育视频理解、生成与工具辅助分析，T9输出分析问题的答案。九任务成绩分别对应感知、因果、模拟和综合层次中的信息处理表现。",
+            "en": "The resource covers sports-video understanding, generation and tool-assisted analysis; T9 produces analytical answers. Its scores describe information processing across perception, causality, simulation and synthesis."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "SVI-Bench以篮球、足球与冰球的真实比赛录像及解说、报告和统计构成多模态语料，将体育团队互动作为可核验规则与结果的动态微世界。模型处理视频与问题，而非操控场上球员。",
+          "en": "SVI-Bench combines real basketball, soccer and hockey broadcasts with commentary, reports and statistics, using team sports as a microworld with explicit rules and outcomes. Models analyze videos and questions rather than control players."
+        },
+        {
+          "zh": "九项任务沿动态场景理解、因果推理、策略模拟和智能体综合四个层次组织，考察从识别事件到解释成因、推演变化及综合分析的能力链。",
+          "en": "Nine tasks span dynamic scene understanding, causal reasoning, strategic simulation and agentic synthesis, testing a progression from event recognition to explanations, counterfactual analysis and synthesis."
+        },
+        {
+          "zh": "评测围绕各任务的问题、参考信息与输出要求展开；工具辅助的T9智能体用于回答分析问题。大规模视频、动作注释、专家解说与结构化记录为不同层次提供证据。",
+          "en": "Task-specific questions, references and output requirements define evaluation; the tool-assisted T9 agent answers analytical questions. Video, action annotations, expert commentary and structured records supply complementary evidence."
+        },
+        {
+          "zh": "资源对象是体育视频理解、生成与工具辅助分析，T9输出分析问题的答案。九任务成绩分别对应感知、因果、模拟和综合层次中的信息处理表现。",
+          "en": "The resource covers sports-video understanding, generation and tool-assisted analysis; T9 produces analytical answers. Its scores describe information processing across perception, causality, simulation and synthesis."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.31529",
+          "title": "SVI-Bench: A Dynamic Microworld for Strategic Video Intelligence"
+        },
+        {
+          "url": "https://eccv.ecva.net/virtual/2026/poster/3718",
+          "title": "SVI-Bench: A Dynamic Microworld for Strategic Video Intelligence"
+        },
+        {
+          "url": "https://arxiv.org/html/2605.31529v1",
+          "title": "SVI-Bench — §§3–4, tasks T1–T9"
+        },
+        {
+          "url": "https://svi-bench.github.io/",
+          "title": "SVI-Bench: A Dynamic Microworld for Strategic Video Intelligence"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB109",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MMBench为连续控制研究提供200项跨领域与具身形态的任务，配有语言指令、示范和可选图像。论文以Newt共享世界模型结合示范预训练及多任务在线交互。",
+            "en": "MMBench provides 200 continuous-control tasks across domains and embodiments, with language instructions, demonstrations and optional images. Newt combines demonstration pretraining with shared multitask online world-model learning."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究关注在线强化学习的多任务扩展、数据效率、开环控制和未见任务适应；电子游戏构成控制套件中的一个子集，机器人与具身任务提供更广泛的迁移背景。",
+            "en": "The research addresses multitask scaling, data efficiency, open-loop control and adaptation to unseen tasks. Video games form one subset of a broader control suite."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验的Atari例子包括Ms. Pac-Man与Space Invaders，主设定读取128维RAM和语言任务描述，连续输出经ALE转换为离散动作；每局固定1000步，逐游戏归一化回报。",
+            "en": "The reviewed Atari examples are Ms. Pac-Man and Space Invaders. They use 128-dimensional RAM and task text, continuous outputs mapped to discrete ALE actions, 1,000-step episodes and game-specific normalized returns."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "主实验默认使用状态输入，逐游戏归一化依据预设上下界；Ms. Pac-Man和Space Invaders是已细化的游戏子集，机器人迁移实验描述更广泛的控制泛化。",
+            "en": "Primary experiments default to state input and preset game-specific normalization bounds. Ms. Pac-Man and Space Invaders form the reviewed game subset; robot-transfer experiments address broader control generalization."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MMBench为连续控制研究提供200项跨领域与具身形态的任务，配有语言指令、示范和可选图像。论文以Newt共享世界模型结合示范预训练及多任务在线交互。",
+          "en": "MMBench provides 200 continuous-control tasks across domains and embodiments, with language instructions, demonstrations and optional images. Newt combines demonstration pretraining with shared multitask online world-model learning."
+        },
+        {
+          "zh": "研究关注在线强化学习的多任务扩展、数据效率、开环控制和未见任务适应；电子游戏构成控制套件中的一个子集，机器人与具身任务提供更广泛的迁移背景。",
+          "en": "The research addresses multitask scaling, data efficiency, open-loop control and adaptation to unseen tasks. Video games form one subset of a broader control suite."
+        },
+        {
+          "zh": "已核验的Atari例子包括Ms. Pac-Man与Space Invaders，主设定读取128维RAM和语言任务描述，连续输出经ALE转换为离散动作；每局固定1000步，逐游戏归一化回报。",
+          "en": "The reviewed Atari examples are Ms. Pac-Man and Space Invaders. They use 128-dimensional RAM and task text, continuous outputs mapped to discrete ALE actions, 1,000-step episodes and game-specific normalized returns."
+        },
+        {
+          "zh": "主实验默认使用状态输入，逐游戏归一化依据预设上下界；Ms. Pac-Man和Space Invaders是已细化的游戏子集，机器人迁移实验描述更广泛的控制泛化。",
+          "en": "Primary experiments default to state input and preset game-specific normalization bounds. Ms. Pac-Man and Space Invaders form the reviewed game subset; robot-transfer experiments address broader control generalization."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/092359ce5cf60a80e882378944bf1be4-Abstract-Conference.html",
+          "title": "Learning Massively Multitask World Models for Continuous Control"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/092359ce5cf60a80e882378944bf1be4-Paper-Conference.pdf",
+          "title": "Learning Massively Multitask World Models for Continuous Control"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py",
+          "title": "MMBench official TASK_SET"
+        },
+        {
+          "url": "https://arxiv.org/html/2511.19584v1",
+          "title": "MMBench Appendix A.6 and A.10"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB088",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "VolleyBots在物理仿真中让无人机进行排球运动，任务从单机练习延伸至多机合作与竞争。策略同时协调三维飞行、触球时机和队伍战术。",
+            "en": "VolleyBots simulates drone volleyball under physical dynamics, ranging from individual drills to cooperative and competitive teams. Policies combine three-dimensional flight, contact timing and strategic play."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "套件连接低层运动控制与高层策略，比较RL、MARL和博弈算法；论文还研究分层策略以及仿真策略向真实无人机的零样本部署。",
+            "en": "The suite connects low-level control with strategy through RL, MARL and game-theoretic baselines, and studies hierarchical policies and zero-shot deployment on real drones."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的Easy二传扣球任务要求二传触球、攻击者接球、向下扣球并落入目标区；800步内的四个指示量取平均，再汇总五个种子结果。",
+            "en": "The reviewed Easy set-and-spike task scores setter contact, attacker contact, downward spiking and target landing. Its metric averages these four indicators within an 800-step cap and aggregates five seeds."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Easy二传扣球以四阶段完成度均值计分，40维观察与锚点范围属于其配置。套件中的多机比赛和真实无人机部署使用各自任务条件。",
+            "en": "Easy set-and-spike scores mean completion across four stages, with its own 40-dimensional observation and anchor bounds. Team matches and real-drone deployment use separate conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "VolleyBots在物理仿真中让无人机进行排球运动，任务从单机练习延伸至多机合作与竞争。策略同时协调三维飞行、触球时机和队伍战术。",
+          "en": "VolleyBots simulates drone volleyball under physical dynamics, ranging from individual drills to cooperative and competitive teams. Policies combine three-dimensional flight, contact timing and strategic play."
+        },
+        {
+          "zh": "套件连接低层运动控制与高层策略，比较RL、MARL和博弈算法；论文还研究分层策略以及仿真策略向真实无人机的零样本部署。",
+          "en": "The suite connects low-level control with strategy through RL, MARL and game-theoretic baselines, and studies hierarchical policies and zero-shot deployment on real drones."
+        },
+        {
+          "zh": "已细化的Easy二传扣球任务要求二传触球、攻击者接球、向下扣球并落入目标区；800步内的四个指示量取平均，再汇总五个种子结果。",
+          "en": "The reviewed Easy set-and-spike task scores setter contact, attacker contact, downward spiking and target landing. Its metric averages these four indicators within an 800-step cap and aggregates five seeds."
+        },
+        {
+          "zh": "Easy二传扣球以四阶段完成度均值计分，40维观察与锚点范围属于其配置。套件中的多机比赛和真实无人机部署使用各自任务条件。",
+          "en": "Easy set-and-spike scores mean completion across four stages, with its own 40-dimensional observation and anchor bounds. Team matches and real-drone deployment use separate conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/39f7f65b5a0c3a82cacdffd68955d829-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "VolleyBots: A Testbed for Multi-Drone Volleyball Game Combining Motion Control and Strategic Play"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/39f7f65b5a0c3a82cacdffd68955d829-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "VolleyBots: A Testbed for Multi-Drone Volleyball Game Combining Motion Control and Strategic Play"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB069",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GRF-MARL在Google Research Football基础上统一多智能体环境设置与评测，并覆盖学院练习和5对5、11对11完整比赛。平台还提供种群自博弈、预训练策略和足球分析工具。",
+            "en": "GRF-MARL standardizes multi-agent settings and evaluation on Google Research Football, covering academy drills and full 5v5 and 11v11 matches, with population self-play, pretrained policies and football analytics."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究关注观察编码、奖励密度、参数共享与训练方法如何影响团队配合，以及如何提高大规模完整比赛的训练效率和比较一致性。",
+            "en": "It studies how observation encodings, reward density, parameter sharing and training methods affect teamwork, training efficiency and consistent comparison in larger matches."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已登记的六类学院进攻场景包含3对1、传射、跑传射、角球及难易反击；非守门员使用19个离散动作，报告测试胜率并辅以传球和控球统计。",
+            "en": "The six reviewed academy scenarios cover 3v1, passing, running passes, corners and easy/hard counterattacks. Non-goalkeepers use 19 discrete actions; evaluation reports win rates with passing and possession diagnostics."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "学院场景在球权交换时终止，由内置AI控制守门员，主要观察进攻协作；完整比赛、观察编码和稀疏或稠密奖励分别定义不同实验条件。",
+            "en": "Academy episodes end on possession exchange with AI goalkeepers, primarily measuring coordinated offense. Full matches, encodings and sparse/dense rewards define separate conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GRF-MARL在Google Research Football基础上统一多智能体环境设置与评测，并覆盖学院练习和5对5、11对11完整比赛。平台还提供种群自博弈、预训练策略和足球分析工具。",
+          "en": "GRF-MARL standardizes multi-agent settings and evaluation on Google Research Football, covering academy drills and full 5v5 and 11v11 matches, with population self-play, pretrained policies and football analytics."
+        },
+        {
+          "zh": "研究关注观察编码、奖励密度、参数共享与训练方法如何影响团队配合，以及如何提高大规模完整比赛的训练效率和比较一致性。",
+          "en": "It studies how observation encodings, reward density, parameter sharing and training methods affect teamwork, training efficiency and consistent comparison in larger matches."
+        },
+        {
+          "zh": "已登记的六类学院进攻场景包含3对1、传射、跑传射、角球及难易反击；非守门员使用19个离散动作，报告测试胜率并辅以传球和控球统计。",
+          "en": "The six reviewed academy scenarios cover 3v1, passing, running passes, corners and easy/hard counterattacks. Non-goalkeepers use 19 discrete actions; evaluation reports win rates with passing and possession diagnostics."
+        },
+        {
+          "zh": "学院场景在球权交换时终止，由内置AI控制守门员，主要观察进攻协作；完整比赛、观察编码和稀疏或稠密奖励分别定义不同实验条件。",
+          "en": "Academy episodes end on possession exchange with AI goalkeepers, primarily measuring coordinated offense. Full matches, encodings and sparse/dense rewards define separate conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1772.pdf",
+          "title": "Boosting Studies of Multi-Agent Reinforcement Learning on Google Research Football Environment: The Past, Present, and Future"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A12",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LM Fight Arena让多模态模型在Mortal Kombat II中直接对抗，读取采样画面、血量、位置、朝向与近期动作，再将自然语言按钮组合转换为模拟器操作。",
+            "en": "LM Fight Arena pits multimodal models against each other in Mortal Kombat II. Agents read sampled frames, health, positions, facing and recent actions, then issue natural-language button combinations translated into emulator inputs."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "其目标是把视觉理解与连续战术决策置于动态对抗中，通过统一角色和提示条件比较模型，而不是只判断静态图像或孤立问答。",
+            "en": "It combines visual interpretation and sequential tactical decisions in dynamic competition, comparing models under common character and prompting conditions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "论文循环赛让双方使用Liu Kang，以胜率和获胜方剩余血量作为结果。输入包含十帧采样图像和最近五个动作，同一模拟器、角色和系统提示控制接口差异。",
+            "en": "The round robin uses Liu Kang mirror matches and reports win rate and winner remaining health. Inputs include ten sampled frames and five recent actions, with matched emulator, character and system prompt."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "成绩对应Mortal Kombat II的Liu Kang镜像赛，输入同时包含采样图像和结构化状态。论文使用每模型配对一次的循环赛，以具体对手池内的胜负和剩余血量描述表现。",
+            "en": "Results describe Liu Kang mirror matches with both sampled images and structured state. One match per model pairing yields pool-specific wins and remaining-health outcomes."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LM Fight Arena让多模态模型在Mortal Kombat II中直接对抗，读取采样画面、血量、位置、朝向与近期动作，再将自然语言按钮组合转换为模拟器操作。",
+          "en": "LM Fight Arena pits multimodal models against each other in Mortal Kombat II. Agents read sampled frames, health, positions, facing and recent actions, then issue natural-language button combinations translated into emulator inputs."
+        },
+        {
+          "zh": "其目标是把视觉理解与连续战术决策置于动态对抗中，通过统一角色和提示条件比较模型，而不是只判断静态图像或孤立问答。",
+          "en": "It combines visual interpretation and sequential tactical decisions in dynamic competition, comparing models under common character and prompting conditions."
+        },
+        {
+          "zh": "论文循环赛让双方使用Liu Kang，以胜率和获胜方剩余血量作为结果。输入包含十帧采样图像和最近五个动作，同一模拟器、角色和系统提示控制接口差异。",
+          "en": "The round robin uses Liu Kang mirror matches and reports win rate and winner remaining health. Inputs include ten sampled frames and five recent actions, with matched emulator, character and system prompt."
+        },
+        {
+          "zh": "成绩对应Mortal Kombat II的Liu Kang镜像赛，输入同时包含采样图像和结构化状态。论文使用每模型配对一次的循环赛，以具体对手池内的胜负和剩余血量描述表现。",
+          "en": "Results describe Liu Kang mirror matches with both sampled images and structured state. One match per model pairing yields pool-specific wins and remaining-health outcomes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2510.08928",
+          "title": "LM Fight Arena: Benchmarking Large Multimodal Models via Game Competition"
+        },
+        {
+          "url": "https://arxiv.org/html/2510.08928",
+          "title": "LM Fight Arena: Benchmarking Large Multimodal Models via Game Competition"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB047",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Memory Maze让第一人称代理在随机三维迷宫中，依颜色提示反复寻找目标；同一回合内地图与物体位置固定，记忆保存离开视野的目标与路径信息。",
+            "en": "Memory Maze asks a first-person agent to repeatedly retrieve color-cued targets in randomized 3D mazes. Layout and object positions stay fixed within an episode, requiring memory of information no longer visible."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源同时包含在线RL任务、离线轨迹数据与记忆探针，重点考察随时间整合观察、自我定位和空间地图保持，并以人类表现提供参照。",
+            "en": "It combines an online RL benchmark, offline trajectories and memory probes to study temporal integration, localization and spatial-map retention, with a human reference."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "标准接口为64×64 RGB和六个离散导航动作，每次到达正确目标奖励1。9、11、13、15格迷宫分别使用1000至4000步预算，按尺寸比较累计目标到达数。",
+            "en": "The standard interface uses 64×64 RGB and six navigation actions, awarding one point per correct target. Maze sizes 9, 11, 13 and 15 use budgets of 1,000–4,000 steps and report targets reached by size."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "标准任务按迷宫尺寸与步数预算比较目标到达数；ExtraObs提供额外观察条件。在线导航、离线数据学习及记忆探针分别观察空间记忆的使用与表征。",
+            "en": "Standard tasks compare targets reached by maze size and budget; ExtraObs changes available information. Online navigation, offline learning and probes examine spatial-memory use and representation."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Memory Maze让第一人称代理在随机三维迷宫中，依颜色提示反复寻找目标；同一回合内地图与物体位置固定，记忆保存离开视野的目标与路径信息。",
+          "en": "Memory Maze asks a first-person agent to repeatedly retrieve color-cued targets in randomized 3D mazes. Layout and object positions stay fixed within an episode, requiring memory of information no longer visible."
+        },
+        {
+          "zh": "资源同时包含在线RL任务、离线轨迹数据与记忆探针，重点考察随时间整合观察、自我定位和空间地图保持，并以人类表现提供参照。",
+          "en": "It combines an online RL benchmark, offline trajectories and memory probes to study temporal integration, localization and spatial-map retention, with a human reference."
+        },
+        {
+          "zh": "标准接口为64×64 RGB和六个离散导航动作，每次到达正确目标奖励1。9、11、13、15格迷宫分别使用1000至4000步预算，按尺寸比较累计目标到达数。",
+          "en": "The standard interface uses 64×64 RGB and six navigation actions, awarding one point per correct target. Maze sizes 9, 11, 13 and 15 use budgets of 1,000–4,000 steps and report targets reached by size."
+        },
+        {
+          "zh": "标准任务按迷宫尺寸与步数预算比较目标到达数；ExtraObs提供额外观察条件。在线导航、离线数据学习及记忆探针分别观察空间记忆的使用与表征。",
+          "en": "Standard tasks compare targets reached by maze size and budget; ExtraObs changes available information. Online navigation, offline learning and probes examine spatial-memory use and representation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2210.13383",
+          "title": "Evaluating Long-Term Memory in 3D Mazes"
+        },
+        {
+          "url": "https://github.com/jurgisp/memory-maze",
+          "title": "Memory Maze — official documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB030",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MATE构建摄像机与移动目标两支队伍的非对称合作竞争：摄像机调整方向和视角覆盖目标，目标则在仓库间运输货物并避免暴露。",
+            "en": "MATE creates an asymmetric cooperative–competitive game: cameras control direction and viewing angle to track targets, while mobile targets transport cargo among warehouses and avoid exposure."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "平台用于研究局部感知下的团队合作、通信、规模扩展、稳健性和非对称自博弈；两队拥有不同动作空间与奖励结构，可分别评估学习方法。",
+            "en": "It studies cooperation, communication, scaling, robustness and asymmetric self-play under local perception. The teams have distinct action spaces and reward structures."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "摄像机任务报告平均覆盖率，代表配置为4摄像机、8目标、9障碍；运输队使用二维连续位移，按固定运费及随耗时和暴露衰减的赏金计算归一化回报。",
+            "en": "Cameras report mean coverage rate, including a four-camera/eight-target/nine-obstacle setting. Targets use continuous 2D displacement and normalized returns combining fixed freight with bounty that decays with time and detection."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "摄像机覆盖率描述感知网络表现，运输回报结合效率与隐蔽性；通信、完整观察及规则底层执行的分层控制各有独立设定，两队策略按各自目标评价。",
+            "en": "Coverage measures the camera network; transport returns combine efficiency and stealth. Communication, full observation and hierarchical controllers have distinct settings and team objectives."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MATE构建摄像机与移动目标两支队伍的非对称合作竞争：摄像机调整方向和视角覆盖目标，目标则在仓库间运输货物并避免暴露。",
+          "en": "MATE creates an asymmetric cooperative–competitive game: cameras control direction and viewing angle to track targets, while mobile targets transport cargo among warehouses and avoid exposure."
+        },
+        {
+          "zh": "平台用于研究局部感知下的团队合作、通信、规模扩展、稳健性和非对称自博弈；两队拥有不同动作空间与奖励结构，可分别评估学习方法。",
+          "en": "It studies cooperation, communication, scaling, robustness and asymmetric self-play under local perception. The teams have distinct action spaces and reward structures."
+        },
+        {
+          "zh": "摄像机任务报告平均覆盖率，代表配置为4摄像机、8目标、9障碍；运输队使用二维连续位移，按固定运费及随耗时和暴露衰减的赏金计算归一化回报。",
+          "en": "Cameras report mean coverage rate, including a four-camera/eight-target/nine-obstacle setting. Targets use continuous 2D displacement and normalized returns combining fixed freight with bounty that decays with time and detection."
+        },
+        {
+          "zh": "摄像机覆盖率描述感知网络表现，运输回报结合效率与隐蔽性；通信、完整观察及规则底层执行的分层控制各有独立设定，两队策略按各自目标评价。",
+          "en": "Coverage measures the camera network; transport returns combine efficiency and stealth. Communication, full observation and hierarchical controllers have distinct settings and team objectives."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/b2a1c152f14a4b842a9ddb3bd84c62a1-Abstract-Datasets_and_Benchmarks.html",
+          "title": "MATE: Benchmarking Multi-Agent Reinforcement Learning in Distributed Target Coverage Control"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/b2a1c152f14a4b842a9ddb3bd84c62a1-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "MATE: Benchmarking Multi-Agent Reinforcement Learning in Distributed Target Coverage Control"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2602.13214",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "BotzoneBench基于Botzone竞赛平台，在八种完全或不完全信息游戏中让语言模型逐级挑战固定强度机器人；输入包含规则、文字状态、合法动作及适用历史。",
+            "en": "BotzoneBench uses the Botzone platform to test LLMs against fixed graded bots across eight perfect- and imperfect-information games, supplying rules, text states, legal actions and relevant history."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "固定技能锚点使评价可以随新模型加入持续比较，并降低全模型两两循环赛成本；研究关注模型在不同确定性、随机性与隐藏信息条件下的策略水平。",
+            "en": "Fixed skill anchors support longitudinal comparison and reduce the cost of all-pairs model tournaments, exposing strategic differences across deterministic, stochastic and hidden-information games."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评测轮换座位并固定种子；完全信息配对32局、不完全信息64局。大多数游戏报告排除平局后的胜率与等级进度，井字棋则以和局率适应其胜负结构。",
+            "en": "Evaluation rotates seats with fixed seeds, using 32 games for perfect-information and 64 for imperfect-information pairings. Most games report draw-excluded win rate and tier progress; Tic-Tac-Toe uses draw rate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "锚点层级由各游戏的专用机器人定义，成绩在对应游戏内解释；合法动作供应明确了辅助决策条件，座位轮换和固定种子为跨模型比较提供共同基础。",
+            "en": "Specialized bots define game-specific anchor tiers. Supplied legal moves specify supported decision conditions, while seat rotation and fixed seeds provide common comparison settings."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "BotzoneBench基于Botzone竞赛平台，在八种完全或不完全信息游戏中让语言模型逐级挑战固定强度机器人；输入包含规则、文字状态、合法动作及适用历史。",
+          "en": "BotzoneBench uses the Botzone platform to test LLMs against fixed graded bots across eight perfect- and imperfect-information games, supplying rules, text states, legal actions and relevant history."
+        },
+        {
+          "zh": "固定技能锚点使评价可以随新模型加入持续比较，并降低全模型两两循环赛成本；研究关注模型在不同确定性、随机性与隐藏信息条件下的策略水平。",
+          "en": "Fixed skill anchors support longitudinal comparison and reduce the cost of all-pairs model tournaments, exposing strategic differences across deterministic, stochastic and hidden-information games."
+        },
+        {
+          "zh": "评测轮换座位并固定种子；完全信息配对32局、不完全信息64局。大多数游戏报告排除平局后的胜率与等级进度，井字棋则以和局率适应其胜负结构。",
+          "en": "Evaluation rotates seats with fixed seeds, using 32 games for perfect-information and 64 for imperfect-information pairings. Most games report draw-excluded win rate and tier progress; Tic-Tac-Toe uses draw rate."
+        },
+        {
+          "zh": "锚点层级由各游戏的专用机器人定义，成绩在对应游戏内解释；合法动作供应明确了辅助决策条件，座位轮换和固定种子为跨模型比较提供共同基础。",
+          "en": "Specialized bots define game-specific anchor tiers. Supplied legal moves specify supported decision conditions, while seat rotation and fixed seeds provide common comparison settings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2602.13214",
+          "title": "BotzoneBench: Scalable LLM Evaluation via Graded AI Anchors"
+        },
+        {
+          "url": "https://arxiv.org/html/2602.13214",
+          "title": "BotzoneBench: Scalable LLM Evaluation via Graded AI Anchors"
+        },
+        {
+          "url": "https://arxiv.org/html/2602.13214v1",
+          "title": "BotzoneBench: Scalable LLM Evaluation via Graded AI Anchors"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2605.30100",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Chess-World-Model从一千万盘真实国际象棋构造状态跟踪数据：输入合法棋步序列，输出序列执行后的完整棋盘状态，不要求模型选择下一步。",
+            "en": "Chess-World-Model builds a state-tracking dataset from ten million real chess games: models receive legal move sequences and predict the resulting complete board state rather than select a move."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究通过统一接口比较Transformer与多种递归架构，探查状态转移表达能力；真实棋局与均匀随机合法走子划分用于区分规则学习和常见局面捷径。",
+            "en": "It compares Transformers and recurrent architectures under a common interface, using real-game and uniformly random legal-play splits to distinguish transition-rule learning from familiar-position shortcuts."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "核心ExactState要求75个标签全部正确，另报告标签准确率与整条轨迹的完全正确性；分布外随机走子使真实棋局上接近饱和的模型仍显露错误。",
+            "en": "ExactState requires all 75 labels to be correct; label accuracy and trajectory exactness provide additional diagnostics. Random-play evaluation exposes failures hidden by saturation on real games."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测以离线合法走子序列为输入、棋盘标签为输出，真实棋局与随机走子划分分别刻画分布内和分布外状态更新；完全匹配体现精确追踪程度。",
+            "en": "Offline move sequences map to board labels. Real-game and random-play splits characterize in- and out-of-distribution updates; exact matching measures tracking precision."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Chess-World-Model从一千万盘真实国际象棋构造状态跟踪数据：输入合法棋步序列，输出序列执行后的完整棋盘状态，不要求模型选择下一步。",
+          "en": "Chess-World-Model builds a state-tracking dataset from ten million real chess games: models receive legal move sequences and predict the resulting complete board state rather than select a move."
+        },
+        {
+          "zh": "研究通过统一接口比较Transformer与多种递归架构，探查状态转移表达能力；真实棋局与均匀随机合法走子划分用于区分规则学习和常见局面捷径。",
+          "en": "It compares Transformers and recurrent architectures under a common interface, using real-game and uniformly random legal-play splits to distinguish transition-rule learning from familiar-position shortcuts."
+        },
+        {
+          "zh": "核心ExactState要求75个标签全部正确，另报告标签准确率与整条轨迹的完全正确性；分布外随机走子使真实棋局上接近饱和的模型仍显露错误。",
+          "en": "ExactState requires all 75 labels to be correct; label accuracy and trajectory exactness provide additional diagnostics. Random-play evaluation exposes failures hidden by saturation on real games."
+        },
+        {
+          "zh": "评测以离线合法走子序列为输入、棋盘标签为输出，真实棋局与随机走子划分分别刻画分布内和分布外状态更新；完全匹配体现精确追踪程度。",
+          "en": "Offline move sequences map to board labels. Real-game and random-play splits characterize in- and out-of-distribution updates; exact matching measures tracking precision."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.30100",
+          "title": "Chess-World-Model: A 10M-Game Benchmark for Exact State Tracking from Chess Move Sequences"
+        },
+        {
+          "url": "https://arxiv.org/html/2605.30100",
+          "title": "Chess-World-Model: A 10M-Game Benchmark for Exact State Tracking from Chess Move Sequences"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2607.29577",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "DungeonBench以D&D 2014规则内容构建战斗模拟器，向代理提供战术观察、当前决策与可执行选项，覆盖移动、攻击、法术、反应及有限资源选择。",
+            "en": "DungeonBench implements D&D-2014-style combat with tactical observations, pending decisions and executable options for movement, attacks, spells, reactions and scarce resources."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "它关注地形、行动经济、时机窗口与规则交互共同作用时的战术判断，并通过Encounter单场与Day连续遭遇区分局部取胜和跨战斗资源预算。",
+            "en": "It studies decisions shaped jointly by geometry, action economy, timing and rule interactions. Encounter tests local fights; Day links fights to test resource budgeting."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Encounter包含20种遭遇，每场景三个种子，比较胜率、剩余生命、存活比例与决策工具成本；Day以五个含3至5场战斗的日程，检查持续生命、法术位和休整安排。",
+            "en": "Encounter evaluates 20 scenarios with three seeds using wins, remaining HP, survival and decision/tool costs. Day contains five sequences of three to five fights with persistent HP, spell slots and rests."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "引擎生成的可执行选项界定战斗规则范围，Encounter与Day分别测局部战术及持续资源管理；Day采用五个固定种子日程，与单场轨道保留各自模型设置。",
+            "en": "Executable options define combat scope. Encounter measures local tactics; Day measures persistent resources through five fixed-seed schedules with track-specific model settings."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "DungeonBench以D&D 2014规则内容构建战斗模拟器，向代理提供战术观察、当前决策与可执行选项，覆盖移动、攻击、法术、反应及有限资源选择。",
+          "en": "DungeonBench implements D&D-2014-style combat with tactical observations, pending decisions and executable options for movement, attacks, spells, reactions and scarce resources."
+        },
+        {
+          "zh": "它关注地形、行动经济、时机窗口与规则交互共同作用时的战术判断，并通过Encounter单场与Day连续遭遇区分局部取胜和跨战斗资源预算。",
+          "en": "It studies decisions shaped jointly by geometry, action economy, timing and rule interactions. Encounter tests local fights; Day links fights to test resource budgeting."
+        },
+        {
+          "zh": "Encounter包含20种遭遇，每场景三个种子，比较胜率、剩余生命、存活比例与决策工具成本；Day以五个含3至5场战斗的日程，检查持续生命、法术位和休整安排。",
+          "en": "Encounter evaluates 20 scenarios with three seeds using wins, remaining HP, survival and decision/tool costs. Day contains five sequences of three to five fights with persistent HP, spell slots and rests."
+        },
+        {
+          "zh": "引擎生成的可执行选项界定战斗规则范围，Encounter与Day分别测局部战术及持续资源管理；Day采用五个固定种子日程，与单场轨道保留各自模型设置。",
+          "en": "Executable options define combat scope. Encounter measures local tactics; Day measures persistent resources through five fixed-seed schedules with track-specific model settings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.29577",
+          "title": "DungeonBench: A Benchmark for Rules-Rich Tactical Reasoning in Dungeons & Dragons Combat"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.29577",
+          "title": "DungeonBench: A Benchmark for Rules-Rich Tactical Reasoning in Dungeons & Dragons Combat"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2605.06066",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MTG-Causal-RL将万智牌对战包装为Gymnasium环境，使用56张卡池的五种60张套牌；代理接收3077维局部观察，通过合法掩码选择478种离散动作。",
+            "en": "MTG-Causal-RL wraps Magic: The Gathering in Gymnasium, using five 60-card archetypes from a 56-card pool, 3,077-dimensional partial observations and 478 masked discrete actions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "环境显式给出手工结构因果模型、干预预测与因子信用轨迹，使研究同时考察胜负、因果信用分配、策略可审计性及留一套牌迁移。",
+            "en": "A hand-specified structural causal model exposes intervention predictions and factor credit traces, supporting studies of wins, causal credit assignment, auditability and leave-one-archetype-out transfer."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "基线比较随机、启发式、masked PPO及因果变体，报告配对bootstrap胜率区间、留出对手差距和因子校准。主结果实际使用两个配对种子、每对手30局。",
+            "en": "Baselines include random, heuristic, masked PPO and causal variants. Metrics cover paired-bootstrap win-rate intervals, held-out opponent gaps and factor calibration; headline experiments use two paired seeds and 30 games per opponent."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "主结果规模为两个配对种子、每对手30局，完整建议协议为七种子乘300局；胜率、迁移差距与因子校准分别描述竞争收益、泛化和因果接口一致性。",
+            "en": "Headline results use two paired seeds and 30 games per opponent; the full prescribed protocol uses seven seeds and 300 games. Wins, transfer gaps and calibration describe distinct outcomes."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MTG-Causal-RL将万智牌对战包装为Gymnasium环境，使用56张卡池的五种60张套牌；代理接收3077维局部观察，通过合法掩码选择478种离散动作。",
+          "en": "MTG-Causal-RL wraps Magic: The Gathering in Gymnasium, using five 60-card archetypes from a 56-card pool, 3,077-dimensional partial observations and 478 masked discrete actions."
+        },
+        {
+          "zh": "环境显式给出手工结构因果模型、干预预测与因子信用轨迹，使研究同时考察胜负、因果信用分配、策略可审计性及留一套牌迁移。",
+          "en": "A hand-specified structural causal model exposes intervention predictions and factor credit traces, supporting studies of wins, causal credit assignment, auditability and leave-one-archetype-out transfer."
+        },
+        {
+          "zh": "基线比较随机、启发式、masked PPO及因果变体，报告配对bootstrap胜率区间、留出对手差距和因子校准。主结果实际使用两个配对种子、每对手30局。",
+          "en": "Baselines include random, heuristic, masked PPO and causal variants. Metrics cover paired-bootstrap win-rate intervals, held-out opponent gaps and factor calibration; headline experiments use two paired seeds and 30 games per opponent."
+        },
+        {
+          "zh": "主结果规模为两个配对种子、每对手30局，完整建议协议为七种子乘300局；胜率、迁移差距与因子校准分别描述竞争收益、泛化和因果接口一致性。",
+          "en": "Headline results use two paired seeds and 30 games per opponent; the full prescribed protocol uses seven seeds and 300 games. Wins, transfer gaps and calibration describe distinct outcomes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.06066",
+          "title": "Causal Reinforcement Learning for Complex Card Games: A Magic The Gathering Benchmark"
+        },
+        {
+          "url": "https://arxiv.org/html/2605.06066",
+          "title": "Causal Reinforcement Learning for Complex Card Games: A Magic The Gathering Benchmark"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2602.00676",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "OpenGuanDan提供四人、双队、多轮掼蛋模拟与逐玩家独立接口，支持学习策略、规则机器人及人类交互；每名玩家只见自己的手牌和公开出牌历史。",
+            "en": "OpenGuanDan provides four-player, two-team, multi-round GuanDan with independent player APIs for learned agents, rule bots and human interaction. Players observe their own hand and public play history."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究集中于隐藏信息、可变出牌组合和合作竞争混合目标，考察大规模信息集及动作空间中的决策学习，并提供人机对局作为额外参照。",
+            "en": "It studies hidden information, variable card combinations and mixed cooperative–competitive objectives, with human matches as an additional reference."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验对战让每队由同一策略控制，每个策略配对1000局；报告各轮获得1、2、3奖励的比例及总体胜率，人类比赛结果另列。",
+            "en": "The reviewed matches use one policy per team and 1,000 games per policy pairing, reporting the distribution of one-, two- and three-point round rewards and overall win rate. Human matches are separate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "已登记对战使用同策略队友，主要比较固定组队下的掼蛋竞争水平；多轮奖励分布呈现持续比赛的得分结构，人类对局为另一组参照。",
+            "en": "Reviewed play uses same-policy teammates to compare fixed-team strength. Round rewards describe multi-round scoring, while human matches provide a separate reference."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "OpenGuanDan提供四人、双队、多轮掼蛋模拟与逐玩家独立接口，支持学习策略、规则机器人及人类交互；每名玩家只见自己的手牌和公开出牌历史。",
+          "en": "OpenGuanDan provides four-player, two-team, multi-round GuanDan with independent player APIs for learned agents, rule bots and human interaction. Players observe their own hand and public play history."
+        },
+        {
+          "zh": "研究集中于隐藏信息、可变出牌组合和合作竞争混合目标，考察大规模信息集及动作空间中的决策学习，并提供人机对局作为额外参照。",
+          "en": "It studies hidden information, variable card combinations and mixed cooperative–competitive objectives, with human matches as an additional reference."
+        },
+        {
+          "zh": "已核验对战让每队由同一策略控制，每个策略配对1000局；报告各轮获得1、2、3奖励的比例及总体胜率，人类比赛结果另列。",
+          "en": "The reviewed matches use one policy per team and 1,000 games per policy pairing, reporting the distribution of one-, two- and three-point round rewards and overall win rate. Human matches are separate."
+        },
+        {
+          "zh": "已登记对战使用同策略队友，主要比较固定组队下的掼蛋竞争水平；多轮奖励分布呈现持续比赛的得分结构，人类对局为另一组参照。",
+          "en": "Reviewed play uses same-policy teammates to compare fixed-team strength. Round rewards describe multi-round scoring, while human matches provide a separate reference."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2602.00676",
+          "title": "OpenGuanDan: A Large-Scale Imperfect Information Game Benchmark"
+        },
+        {
+          "url": "https://arxiv.org/html/2602.00676",
+          "title": "OpenGuanDan: A Large-Scale Imperfect Information Game Benchmark"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2605.29653",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "PTCG-Bench在宝可梦集换式卡牌游戏中评估语言模型代理，通过harness将局部状态和历史转为提示，再执行带类型和参数的动作请求。",
+            "en": "PTCG-Bench evaluates LLM agents in the Pokémon Trading Card Game, using a harness to render partial observations and history into prompts and execute typed, parameterized action requests."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源同时研究固定策略的对战水平、积累经验后的自我改进，以及ReAct与模块化harness设计对成绩的影响，强调代理系统与模型本体共同决定表现。",
+            "en": "It studies fixed-policy playing strength, improvement through accumulated experience and the effects of ReAct and modular harness design on agent performance."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已登记轨道采用固定牌组池和循环赛，主要使用镜像牌组；报告Glicko-2评级及不确定性、两两胜率、重试前非法率和工具调用，非法请求经过验证与重试处理。",
+            "en": "The reviewed track uses a fixed deck pool and round robin, primarily mirror decks, reporting Glicko-2 ratings and uncertainty, pairwise wins, pre-retry invalid rates and tool calls."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "固定策略循环赛评价当前对战水平，纵向轨道评价经验积累后的变化；固定牌组池、主要镜像牌组与动作验证规则共同界定harness条件下的表现。",
+            "en": "Fixed-policy tournaments measure current strength; longitudinal trials measure change with experience. Deck pools, mirror matches and validation rules define harness-conditioned performance."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "PTCG-Bench在宝可梦集换式卡牌游戏中评估语言模型代理，通过harness将局部状态和历史转为提示，再执行带类型和参数的动作请求。",
+          "en": "PTCG-Bench evaluates LLM agents in the Pokémon Trading Card Game, using a harness to render partial observations and history into prompts and execute typed, parameterized action requests."
+        },
+        {
+          "zh": "资源同时研究固定策略的对战水平、积累经验后的自我改进，以及ReAct与模块化harness设计对成绩的影响，强调代理系统与模型本体共同决定表现。",
+          "en": "It studies fixed-policy playing strength, improvement through accumulated experience and the effects of ReAct and modular harness design on agent performance."
+        },
+        {
+          "zh": "已登记轨道采用固定牌组池和循环赛，主要使用镜像牌组；报告Glicko-2评级及不确定性、两两胜率、重试前非法率和工具调用，非法请求经过验证与重试处理。",
+          "en": "The reviewed track uses a fixed deck pool and round robin, primarily mirror decks, reporting Glicko-2 ratings and uncertainty, pairwise wins, pre-retry invalid rates and tool calls."
+        },
+        {
+          "zh": "固定策略循环赛评价当前对战水平，纵向轨道评价经验积累后的变化；固定牌组池、主要镜像牌组与动作验证规则共同界定harness条件下的表现。",
+          "en": "Fixed-policy tournaments measure current strength; longitudinal trials measure change with experience. Deck pools, mirror matches and validation rules define harness-conditioned performance."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.29653",
+          "title": "PTCG-Bench: Can LLM Agents Master Pokémon Trading Card Game?"
+        },
+        {
+          "url": "https://arxiv.org/html/2605.29653",
+          "title": "PTCG-Bench: Can LLM Agents Master Pokémon Trading Card Game?"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2603.03252",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Valet以RECYCLE规则语言统一编码21种传统不完全信息卡牌游戏，覆盖不同文化、玩家数、牌组、胜利条件及隐藏和揭露信息机制。",
+            "en": "Valet encodes 21 traditional imperfect-information card games in RECYCLE, spanning cultures, player counts, decks, victory conditions and information-hiding mechanisms."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源旨在让算法研究跨游戏比较稳健性，而非围绕单一扑克变体；CardStock实现向玩家提供可见信息和合法选择，基线以确定化处理未知手牌。",
+            "en": "It enables cross-game robustness studies beyond a single poker variant. CardStock supplies visible information and legal options; determinization handles hidden hands in the baseline."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "每游戏运行100局全随机与100局首位MCTS对抗随机玩家；每次决策使用10个确定化，每个预算为合法选项数的100倍，报告分数分布、分支因子和局长。",
+            "en": "Each title receives 100 all-random games and 100 first-seat-MCTS games against random players. Decisions use ten determinizations with 100 times the legal-choice count as search budget, reporting scores, branching and duration."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "套件采用明确的RECYCLE规则变体，游戏分数按各自规则解释；首位MCTS对随机玩家提供有座位条件的基线，分支因子与局长呈现跨游戏复杂度。",
+            "en": "Explicit RECYCLE variants retain game-specific scores. First-seat MCTS supplies a seat-conditioned baseline; branching and duration characterize cross-game complexity."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Valet以RECYCLE规则语言统一编码21种传统不完全信息卡牌游戏，覆盖不同文化、玩家数、牌组、胜利条件及隐藏和揭露信息机制。",
+          "en": "Valet encodes 21 traditional imperfect-information card games in RECYCLE, spanning cultures, player counts, decks, victory conditions and information-hiding mechanisms."
+        },
+        {
+          "zh": "资源旨在让算法研究跨游戏比较稳健性，而非围绕单一扑克变体；CardStock实现向玩家提供可见信息和合法选择，基线以确定化处理未知手牌。",
+          "en": "It enables cross-game robustness studies beyond a single poker variant. CardStock supplies visible information and legal options; determinization handles hidden hands in the baseline."
+        },
+        {
+          "zh": "每游戏运行100局全随机与100局首位MCTS对抗随机玩家；每次决策使用10个确定化，每个预算为合法选项数的100倍，报告分数分布、分支因子和局长。",
+          "en": "Each title receives 100 all-random games and 100 first-seat-MCTS games against random players. Decisions use ten determinizations with 100 times the legal-choice count as search budget, reporting scores, branching and duration."
+        },
+        {
+          "zh": "套件采用明确的RECYCLE规则变体，游戏分数按各自规则解释；首位MCTS对随机玩家提供有座位条件的基线，分支因子与局长呈现跨游戏复杂度。",
+          "en": "Explicit RECYCLE variants retain game-specific scores. First-seat MCTS supplies a seat-conditioned baseline; branching and duration characterize cross-game complexity."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.03252",
+          "title": "Valet: A Standardized Testbed of Traditional Imperfect-Information Card Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2603.03252",
+          "title": "Valet: A Standardized Testbed of Traditional Imperfect-Information Card Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B9",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "该国际象棋基准围绕1118道Lichess谜题研究冻结语言模型的自动提示优化，并用短对局检查谜题提升能否迁移到交互走子。",
+            "en": "This benchmark uses 1,118 Lichess puzzles to study automatic prompt optimization for frozen LLMs, with short gameplay rollouts testing transfer beyond puzzle answers."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究比较六种优化算法及八个目标模型，利用精确答案与引擎评价构成可更新、低成本的搜索反馈，同时观察优化提示的跨模型泛化。",
+            "en": "It compares six optimization methods and eight target models using exact answers and engine evaluation as renewable, inexpensive feedback, including cross-model prompt transfer."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "交互轨道从指定开局与Stockfish对弈，最多接受十个模型棋步，使用Stockfish 18深度20计算每步centipawn regret；基础与优化提示按三个种子配对，非法尝试率另报。",
+            "en": "Gameplay starts from specified openings against Stockfish for at most ten accepted model moves. Stockfish 18 at depth 20 measures centipawn regret, with three paired seeds and separate invalid-attempt rates."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "谜题轨道与十步交互轨道分别评价静态答案和短时走子；regret基于每个提示实际到访并接受的棋步，非法率同时描述指令执行可靠性。",
+            "en": "Puzzles and ten-move rollouts separately measure static answers and short gameplay. Regret uses each prompt’s visited, accepted moves; invalid rates describe execution reliability."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "该国际象棋基准围绕1118道Lichess谜题研究冻结语言模型的自动提示优化，并用短对局检查谜题提升能否迁移到交互走子。",
+          "en": "This benchmark uses 1,118 Lichess puzzles to study automatic prompt optimization for frozen LLMs, with short gameplay rollouts testing transfer beyond puzzle answers."
+        },
+        {
+          "zh": "研究比较六种优化算法及八个目标模型，利用精确答案与引擎评价构成可更新、低成本的搜索反馈，同时观察优化提示的跨模型泛化。",
+          "en": "It compares six optimization methods and eight target models using exact answers and engine evaluation as renewable, inexpensive feedback, including cross-model prompt transfer."
+        },
+        {
+          "zh": "交互轨道从指定开局与Stockfish对弈，最多接受十个模型棋步，使用Stockfish 18深度20计算每步centipawn regret；基础与优化提示按三个种子配对，非法尝试率另报。",
+          "en": "Gameplay starts from specified openings against Stockfish for at most ten accepted model moves. Stockfish 18 at depth 20 measures centipawn regret, with three paired seeds and separate invalid-attempt rates."
+        },
+        {
+          "zh": "谜题轨道与十步交互轨道分别评价静态答案和短时走子；regret基于每个提示实际到访并接受的棋步，非法率同时描述指令执行可靠性。",
+          "en": "Puzzles and ten-move rollouts separately measure static answers and short gameplay. Regret uses each prompt’s visited, accepted moves; invalid rates describe execution reliability."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.00416",
+          "title": "Benchmarking Prompt Optimization of Large Language Models With Chess"
+        },
+        {
+          "url": "https://arxiv.org/html/2610.00416",
+          "title": "Benchmarking Prompt Optimization of Large Language Models With Chess"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B1",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Concept基准取自桌游的词语猜测机制：模型根据概念图标与线索组合推测目标词，研究如何由有限、间接的属性证据形成最佳解释。",
+            "en": "The Concept benchmark asks models to infer target words from combinations of concept icons and clues, studying abductive reasoning from sparse, indirect attribute evidence."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "论文采用最终线索与人类游戏日志构建不同难度的猜词条件，分析模型能否结合多个提示，以及线索逐渐加入时推理如何变化。",
+            "en": "It uses final clue sets and human game logs to vary guessing conditions, examining clue integration and changes as further hints become available."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评价使用找到目标词的比例和猜测次数；所谓动态线索沿原始人类游戏回放，并加入人类错误猜测，观察模型在既定信息序列上的回答。",
+            "en": "Evaluation reports target-found rate and guess count. Dynamic clues replay the original human game and inject recorded wrong guesses, measuring responses to a predetermined information sequence."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "最终线索与人类日志回放构成两种离线条件；动态版本沿既定人类线索和错误猜测展开，主要观察模型在逐渐增加的语义证据下如何更新候选词。",
+            "en": "Final clues and human-log replay define two offline conditions. Dynamic trials follow recorded clues and wrong guesses, examining updates as semantic evidence accumulates."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Concept基准取自桌游的词语猜测机制：模型根据概念图标与线索组合推测目标词，研究如何由有限、间接的属性证据形成最佳解释。",
+          "en": "The Concept benchmark asks models to infer target words from combinations of concept icons and clues, studying abductive reasoning from sparse, indirect attribute evidence."
+        },
+        {
+          "zh": "论文采用最终线索与人类游戏日志构建不同难度的猜词条件，分析模型能否结合多个提示，以及线索逐渐加入时推理如何变化。",
+          "en": "It uses final clue sets and human game logs to vary guessing conditions, examining clue integration and changes as further hints become available."
+        },
+        {
+          "zh": "评价使用找到目标词的比例和猜测次数；所谓动态线索沿原始人类游戏回放，并加入人类错误猜测，观察模型在既定信息序列上的回答。",
+          "en": "Evaluation reports target-found rate and guess count. Dynamic clues replay the original human game and inject recorded wrong guesses, measuring responses to a predetermined information sequence."
+        },
+        {
+          "zh": "最终线索与人类日志回放构成两种离线条件；动态版本沿既定人类线索和错误猜测展开，主要观察模型在逐渐增加的语义证据下如何更新候选词。",
+          "en": "Final clues and human-log replay define two offline conditions. Dynamic trials follow recorded clues and wrong guesses, examining updates as semantic evidence accumulates."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.1219/",
+          "title": "Do You Get the Hint? Benchmarking LLMs on the Board Game Concept"
+        },
+        {
+          "url": "https://aclanthology.org/2026.findings-acl.1219.pdf",
+          "title": "Do You Get the Hint? Benchmarking LLMs on the Board Game Concept"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB112",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "DSGBench用统一文字交互组织六种复杂策略游戏，结合不同难度与任务目标，记录决策轨迹并提供细粒度过程评价。",
+            "en": "DSGBench organizes six complex strategic games through a common textual interface, with varied difficulties, objectives, decision traces and fine-grained process evaluation."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究希望把最终胜负与资源、发展和战术行为联系起来，分析模型策略变化及薄弱环节；跨游戏套件的设计范围大于某一已细化的任务协议。",
+            "en": "It connects outcomes with resource, development and tactical behavior to analyze strategic changes and failures. The suite’s design scope is broader than an individually reviewed protocol."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验的StarCraft II任务通过训练、建造、研发、侦察和战斗五类宏动作进行1对1；每场景10局，报告胜率及资源每分钟、支出、人口使用和科技完成统计。",
+            "en": "The reviewed StarCraft II task uses train, build, research, scout and battle macros in 1v1 matches. Ten games per scenario report wins and resource-rate, spending, supply and technology statistics."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "StarCraft II宏动作协议覆盖资源与生产策略，过程统计记录经济和科技发展；套件其余游戏以及同步、异步和不同对手难度保留各自评价条件。",
+            "en": "StarCraft II macros cover resource and production strategy, with economic and technology diagnostics. Other games, synchronization modes and opponent difficulties retain separate conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "DSGBench用统一文字交互组织六种复杂策略游戏，结合不同难度与任务目标，记录决策轨迹并提供细粒度过程评价。",
+          "en": "DSGBench organizes six complex strategic games through a common textual interface, with varied difficulties, objectives, decision traces and fine-grained process evaluation."
+        },
+        {
+          "zh": "研究希望把最终胜负与资源、发展和战术行为联系起来，分析模型策略变化及薄弱环节；跨游戏套件的设计范围大于某一已细化的任务协议。",
+          "en": "It connects outcomes with resource, development and tactical behavior to analyze strategic changes and failures. The suite’s design scope is broader than an individually reviewed protocol."
+        },
+        {
+          "zh": "已核验的StarCraft II任务通过训练、建造、研发、侦察和战斗五类宏动作进行1对1；每场景10局，报告胜率及资源每分钟、支出、人口使用和科技完成统计。",
+          "en": "The reviewed StarCraft II task uses train, build, research, scout and battle macros in 1v1 matches. Ten games per scenario report wins and resource-rate, spending, supply and technology statistics."
+        },
+        {
+          "zh": "StarCraft II宏动作协议覆盖资源与生产策略，过程统计记录经济和科技发展；套件其余游戏以及同步、异步和不同对手难度保留各自评价条件。",
+          "en": "StarCraft II macros cover resource and production strategy, with economic and technology diagnostics. Other games, synchronization modes and opponent difficulties retain separate conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1109/ICASSP55912.2026.11460704",
+          "title": "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-Based Agents in Complex Decision-Making Environments"
+        },
+        {
+          "url": "https://arxiv.org/html/2503.06047",
+          "title": "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-Based Agents in Complex Decision-Making Environments"
+        },
+        {
+          "url": "https://arxiv.org/abs/2503.06047",
+          "title": "DSGBench: A Diverse Strategic Game Benchmark for Evaluating LLM-Based Agents in Complex Decision-Making Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "NEW-2026-LUDO",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LudoBench围绕飞行棋的骰子随机性、吃子、安全格与终点推进，构建480个手工单步局面；模型看到规则、棋盘与骰点，选择移动棋子并解释。",
+            "en": "LudoBench contains 480 handcrafted decision spots involving dice, captures, safe squares and finishing in Ludo. Models receive rules, board and die value, select a piece and explain."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "十二类行为权衡把发展、完成和风险选择分开，另用相同棋盘加入人格或报复叙事，研究决策偏好及提示敏感性；资源也提供四人模拟器。",
+            "en": "Twelve categories isolate development, finishing and risk choices. Persona and grudge narratives on identical boards test behavioral preferences and prompt sensitivity; a four-player simulator accompanies the spots."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "每类40局面，比较模型与有限深度Expectiminimax基线的一致率、各类行为率和回退前非法率；引擎验证动作，失败时可随机选择合法动作。",
+            "en": "Forty spots per category measure agreement with depth-limited Expectiminimax, behavioral rates and pre-fallback invalid rates. The engine validates choices and can fall back to random legal moves."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "主评价为480个单步场景，有限深度Expectiminimax提供比较参照；相同棋盘上的中性和报复提示形成配对行为分析，模拟器另支持完整四人比赛。",
+            "en": "The primary evaluation uses 480 single-decision spots with depth-limited Expectiminimax as a reference. Matched narrative prompts analyze behavior; the simulator separately supports full matches."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LudoBench围绕飞行棋的骰子随机性、吃子、安全格与终点推进，构建480个手工单步局面；模型看到规则、棋盘与骰点，选择移动棋子并解释。",
+          "en": "LudoBench contains 480 handcrafted decision spots involving dice, captures, safe squares and finishing in Ludo. Models receive rules, board and die value, select a piece and explain."
+        },
+        {
+          "zh": "十二类行为权衡把发展、完成和风险选择分开，另用相同棋盘加入人格或报复叙事，研究决策偏好及提示敏感性；资源也提供四人模拟器。",
+          "en": "Twelve categories isolate development, finishing and risk choices. Persona and grudge narratives on identical boards test behavioral preferences and prompt sensitivity; a four-player simulator accompanies the spots."
+        },
+        {
+          "zh": "每类40局面，比较模型与有限深度Expectiminimax基线的一致率、各类行为率和回退前非法率；引擎验证动作，失败时可随机选择合法动作。",
+          "en": "Forty spots per category measure agreement with depth-limited Expectiminimax, behavioral rates and pre-fallback invalid rates. The engine validates choices and can fall back to random legal moves."
+        },
+        {
+          "zh": "主评价为480个单步场景，有限深度Expectiminimax提供比较参照；相同棋盘上的中性和报复提示形成配对行为分析，模拟器另支持完整四人比赛。",
+          "en": "The primary evaluation uses 480 single-decision spots with depth-limited Expectiminimax as a reference. Matched narrative prompts analyze behavior; the simulator separately supports full matches."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.05681",
+          "title": "LUDOBENCH: Evaluating LLM Behavioural Decision-Making Through Spot-Based Board Game Scenarios in Ludo"
+        },
+        {
+          "url": "https://arxiv.org/html/2604.05681",
+          "title": "LUDOBENCH: Evaluating LLM Behavioural Decision-Making Through Spot-Based Board Game Scenarios in Ludo"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A2",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ChessArena把国际象棋完整对弈与状态理解、单步选择及谜题诊断结合，在四种信息模式下比较语言模型与基线，检验规则遵循和策略判断。",
+            "en": "ChessArena combines full chess matches with state understanding, single-move selection and puzzles, comparing LLMs and baselines across four information modes to examine rules and strategy."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究利用不同观察条件区分棋盘表示、状态跟踪和实际走子表现，并以微调模型展示针对性训练能否改善交互棋力。",
+            "en": "Different observation conditions probe board representation, state tracking and move selection, while a fine-tuned baseline tests whether targeted training improves interactive play."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "完整比赛使用FEN及最近十步UCI等模式相关输入，支持UCI和SAN解析；轮换执棋颜色，至多五次非法重试，200步封顶判和，报告胜平负、Glicko及评级偏差。",
+            "en": "Full matches use mode-specific inputs such as FEN and ten recent UCI moves, with UCI/SAN parsing, alternating colors, up to five invalid retries and a 200-move draw cap. Metrics include outcomes and Glicko rating/deviation."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "四种模式分别控制棋盘与历史信息，合法步供应另有设置；状态理解、单步和谜题数据提供独立诊断，完整比赛评级由指定对手池与模式拟合。",
+            "en": "Four modes control board and history information, with separate legal-move support. Static diagnostics complement full-match ratings fitted to the chosen pool and mode."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ChessArena把国际象棋完整对弈与状态理解、单步选择及谜题诊断结合，在四种信息模式下比较语言模型与基线，检验规则遵循和策略判断。",
+          "en": "ChessArena combines full chess matches with state understanding, single-move selection and puzzles, comparing LLMs and baselines across four information modes to examine rules and strategy."
+        },
+        {
+          "zh": "研究利用不同观察条件区分棋盘表示、状态跟踪和实际走子表现，并以微调模型展示针对性训练能否改善交互棋力。",
+          "en": "Different observation conditions probe board representation, state tracking and move selection, while a fine-tuned baseline tests whether targeted training improves interactive play."
+        },
+        {
+          "zh": "完整比赛使用FEN及最近十步UCI等模式相关输入，支持UCI和SAN解析；轮换执棋颜色，至多五次非法重试，200步封顶判和，报告胜平负、Glicko及评级偏差。",
+          "en": "Full matches use mode-specific inputs such as FEN and ten recent UCI moves, with UCI/SAN parsing, alternating colors, up to five invalid retries and a 200-move draw cap. Metrics include outcomes and Glicko rating/deviation."
+        },
+        {
+          "zh": "四种模式分别控制棋盘与历史信息，合法步供应另有设置；状态理解、单步和谜题数据提供独立诊断，完整比赛评级由指定对手池与模式拟合。",
+          "en": "Four modes control board and history information, with separate legal-move support. Static diagnostics complement full-match ratings fitted to the chosen pool and mode."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2026.acl-long.360/",
+          "title": "ChessArena: A Chess Testbed for Evaluating Strategic Reasoning Capabilities of Large Language Models"
+        },
+        {
+          "url": "https://aclanthology.org/2026.acl-long.360.pdf",
+          "title": "ChessArena: A Chess Testbed for Evaluating Strategic Reasoning Capabilities of Large Language Models"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB081",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GAMA-Bench在八种经典博弈情境中组织多名语言模型玩家互动，提供随游戏参数变化的动态评分，以比较不同规模与结构下的决策行为。",
+            "en": "GAMA-Bench organizes multi-agent LLM interaction in eight classical game-theory scenarios, with dynamic scoring that adapts to game parameters and settings."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究关注模型的策略稳健性、跨设置泛化和提示方法的效果；参数可变的环境让评价超出固定双人问题，并观察重复互动中的行为调整。",
+            "en": "It studies robustness, generalization across settings and prompting effects beyond fixed two-player tasks, including adaptation during repeated interaction."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "代表性的猜均值游戏让十个同模型代理同时在0至100选数，目标为全体均值的三分之二；每局20轮、五次重复，以距均衡0的偏离量及论文归一化得分评价。",
+            "en": "In the reviewed guessing game, ten same-model agents choose numbers from 0 to 100, targeting two-thirds of the group mean. Twenty rounds and five repeats yield equilibrium-deviation and normalized scores."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "猜均值任务以均衡偏离描述重复数值决策；八游戏总分按各任务参数与归一化规则组合，呈现不同博弈结构下的策略响应。",
+            "en": "The guessing task measures equilibrium deviation in repeated numerical choices. Eight-game scores combine parameter-dependent mappings to describe responses across game structures."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GAMA-Bench在八种经典博弈情境中组织多名语言模型玩家互动，提供随游戏参数变化的动态评分，以比较不同规模与结构下的决策行为。",
+          "en": "GAMA-Bench organizes multi-agent LLM interaction in eight classical game-theory scenarios, with dynamic scoring that adapts to game parameters and settings."
+        },
+        {
+          "zh": "研究关注模型的策略稳健性、跨设置泛化和提示方法的效果；参数可变的环境让评价超出固定双人问题，并观察重复互动中的行为调整。",
+          "en": "It studies robustness, generalization across settings and prompting effects beyond fixed two-player tasks, including adaptation during repeated interaction."
+        },
+        {
+          "zh": "代表性的猜均值游戏让十个同模型代理同时在0至100选数，目标为全体均值的三分之二；每局20轮、五次重复，以距均衡0的偏离量及论文归一化得分评价。",
+          "en": "In the reviewed guessing game, ten same-model agents choose numbers from 0 to 100, targeting two-thirds of the group mean. Twenty rounds and five repeats yield equilibrium-deviation and normalized scores."
+        },
+        {
+          "zh": "猜均值任务以均衡偏离描述重复数值决策；八游戏总分按各任务参数与归一化规则组合，呈现不同博弈结构下的策略响应。",
+          "en": "The guessing task measures equilibrium deviation in repeated numerical choices. Eight-game scores combine parameter-dependent mappings to describe responses across game structures."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a46adbe2f0ca0e16ef8857e188991ad7-Abstract-Conference.html",
+          "title": "Competing Large Language Models in Multi-Agent Gaming Environments"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/a46adbe2f0ca0e16ef8857e188991ad7-Paper-Conference.pdf",
+          "title": "Competing Large Language Models in Multi-Agent Gaming Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB090",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GUARD使用开放动物移动、人口及基础设施数据生成现实导向的双人矩阵与安全博弈实例，包含反偷猎和基础设施保护等效用建模情境。",
+            "en": "GUARD generates realistic two-player matrix and security-game instances from open animal-movement, demographic and infrastructure data, including anti-poaching and protection scenarios."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究针对随机博弈实例缺乏真实结构及目标价值数据难获得的问题，提供可调效用函数、游戏参数和预配置集合，分析随机基准的退化性。",
+            "en": "It addresses unrealistic random instances and inaccessible target-value data through configurable utilities, game parameters and preconfigured collections, while analyzing degeneracy in random games."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "论文比较纳什与Stackelberg均衡求解算法，包括线性规划、增量策略生成和无遗憾自博弈；依据效用、运行时间、支持集大小及收敛行为比较真实与随机实例。",
+            "en": "Evaluation compares Nash and Stackelberg solvers, including linear programming, incremental strategy generation and no-regret self-play, using utility, runtime, support size and convergence on real and randomized instances."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源单位为效用矩阵、保护目标及巡逻计划实例，运行时间和收敛刻画求解效率，均衡效用与支持集刻画所得策略结构；各实例保留现实数据和效用假设。",
+            "en": "Units are matrices, protection targets and patrol schedules. Runtime/convergence characterize solver efficiency; equilibrium utility and support characterize strategy under data and utility assumptions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GUARD使用开放动物移动、人口及基础设施数据生成现实导向的双人矩阵与安全博弈实例，包含反偷猎和基础设施保护等效用建模情境。",
+          "en": "GUARD generates realistic two-player matrix and security-game instances from open animal-movement, demographic and infrastructure data, including anti-poaching and protection scenarios."
+        },
+        {
+          "zh": "研究针对随机博弈实例缺乏真实结构及目标价值数据难获得的问题，提供可调效用函数、游戏参数和预配置集合，分析随机基准的退化性。",
+          "en": "It addresses unrealistic random instances and inaccessible target-value data through configurable utilities, game parameters and preconfigured collections, while analyzing degeneracy in random games."
+        },
+        {
+          "zh": "论文比较纳什与Stackelberg均衡求解算法，包括线性规划、增量策略生成和无遗憾自博弈；依据效用、运行时间、支持集大小及收敛行为比较真实与随机实例。",
+          "en": "Evaluation compares Nash and Stackelberg solvers, including linear programming, incremental strategy generation and no-regret self-play, using utility, runtime, support size and convergence on real and randomized instances."
+        },
+        {
+          "zh": "资源单位为效用矩阵、保护目标及巡逻计划实例，运行时间和收敛刻画求解效率，均衡效用与支持集刻画所得策略结构；各实例保留现实数据和效用假设。",
+          "en": "Units are matrices, protection targets and patrol schedules. Runtime/convergence characterize solver efficiency; equilibrium utility and support characterize strategy under data and utility assumptions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/21d69b221567b8f9c839b3d94c00f16d-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "GUARD: Constructing Realistic Two-Player Matrix and Security Games for Benchmarking Game-Theoretic Algorithms"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/21d69b221567b8f9c839b3d94c00f16d-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "GUARD: Constructing Realistic Two-Player Matrix and Security Games for Benchmarking Game-Theoretic Algorithms"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A6",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Game Reasoning Arena以OpenSpiel封装棋盘与矩阵游戏，让语言模型与随机、启发式及强化学习代理通过统一文字接口互动；早期版本名为Board Game Arena。",
+            "en": "Game Reasoning Arena wraps OpenSpiel board and matrix games in a common textual interface for LLM, random, heuristic and RL agents. An earlier version was named Board Game Arena."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "框架支持API模型、本地部署与分布式执行，研究不同代理的决策结果和推理文本分布；多后端设计服务于系统性、可扩展的游戏比较。",
+            "en": "API models, local deployment and distributed execution support systematic comparisons of decisions and rationale distributions across agent types."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的井字棋任务提供文字棋盘、合法动作和可选历史，代理返回action与reasoning字段；引擎记录回报、终局结果及非法动作，比较时固定种子和模型设置。",
+            "en": "The reviewed Tic-Tac-Toe interface supplies a text board, legal moves and optional history. Agents return action and reasoning fields, with engine returns, outcomes and invalid actions logged under fixed settings."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "七游戏运行展示框架的封装范围，井字棋提供已细化的具体接口；推理文本分布描述生成行为，终局回报与动作记录描述引擎内决策结果。",
+            "en": "Seven-game runs describe wrapper coverage, with Tic-Tac-Toe as a detailed interface. Rationale distributions characterize generation; terminal returns and action logs characterize engine decisions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Game Reasoning Arena以OpenSpiel封装棋盘与矩阵游戏，让语言模型与随机、启发式及强化学习代理通过统一文字接口互动；早期版本名为Board Game Arena。",
+          "en": "Game Reasoning Arena wraps OpenSpiel board and matrix games in a common textual interface for LLM, random, heuristic and RL agents. An earlier version was named Board Game Arena."
+        },
+        {
+          "zh": "框架支持API模型、本地部署与分布式执行，研究不同代理的决策结果和推理文本分布；多后端设计服务于系统性、可扩展的游戏比较。",
+          "en": "API models, local deployment and distributed execution support systematic comparisons of decisions and rationale distributions across agent types."
+        },
+        {
+          "zh": "已细化的井字棋任务提供文字棋盘、合法动作和可选历史，代理返回action与reasoning字段；引擎记录回报、终局结果及非法动作，比较时固定种子和模型设置。",
+          "en": "The reviewed Tic-Tac-Toe interface supplies a text board, legal moves and optional history. Agents return action and reasoning fields, with engine returns, outcomes and invalid actions logged under fixed settings."
+        },
+        {
+          "zh": "七游戏运行展示框架的封装范围，井字棋提供已细化的具体接口；推理文本分布描述生成行为，终局回报与动作记录描述引擎内决策结果。",
+          "en": "Seven-game runs describe wrapper coverage, with Tic-Tac-Toe as a detailed interface. Rationale distributions characterize generation; terminal returns and action logs characterize engine decisions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2508.03368",
+          "title": "Game Reasoning Arena: A Framework and Benchmark for Assessing Reasoning Capabilities of Large Language Models via Game Play"
+        },
+        {
+          "url": "https://arxiv.org/html/2508.03368",
+          "title": "Game Reasoning Arena: A Framework and Benchmark for Assessing Reasoning Capabilities of Large Language Models via Game Play"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A5",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GameBench以九种规则环境评估语言代理，包括资源部署、词语选择、棋盘封锁、团队战斗及隐藏阵营互动，玩家使用当前可见状态与环境规定动作。",
+            "en": "GameBench evaluates language agents across nine rule-based environments involving deployment, word choice, board blocking, team combat and hidden alignments, using player-visible states and environment-defined actions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究比较基础模型、思维链与Reasoning Via Planning脚手架，观察战略选择、团队配合和身份推断在跨领域游戏中的表现，并以人类作为参照。",
+            "en": "It compares base models, chain-of-thought and Reasoning Via Planning scaffolds across strategic decisions, team coordination and hidden-role inference, with human references."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评价保留各游戏胜负或收益，再以游戏频率倒数重采样及一万次bootstrap拟合加权Bradley–Terry评级和区间；代理状态可在比赛内保留，比赛之间重置。",
+            "en": "Per-game outcomes or payoffs feed inverse-frequency resampling and 10,000 bootstrap weighted Bradley–Terry fits. Agent state can persist within a match and resets between matches."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "整体评级汇总九种异质游戏，策略、协作与身份推断子集提供同一批对局的不同观察视图；团队实例允许同代理复制，反映该组队条件下的结果。",
+            "en": "Overall ratings aggregate nine heterogeneous games. Strategic, cooperative and hidden-role subsets are views of the same matches; duplicated teammates define the evaluated team condition."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GameBench以九种规则环境评估语言代理，包括资源部署、词语选择、棋盘封锁、团队战斗及隐藏阵营互动，玩家使用当前可见状态与环境规定动作。",
+          "en": "GameBench evaluates language agents across nine rule-based environments involving deployment, word choice, board blocking, team combat and hidden alignments, using player-visible states and environment-defined actions."
+        },
+        {
+          "zh": "研究比较基础模型、思维链与Reasoning Via Planning脚手架，观察战略选择、团队配合和身份推断在跨领域游戏中的表现，并以人类作为参照。",
+          "en": "It compares base models, chain-of-thought and Reasoning Via Planning scaffolds across strategic decisions, team coordination and hidden-role inference, with human references."
+        },
+        {
+          "zh": "评价保留各游戏胜负或收益，再以游戏频率倒数重采样及一万次bootstrap拟合加权Bradley–Terry评级和区间；代理状态可在比赛内保留，比赛之间重置。",
+          "en": "Per-game outcomes or payoffs feed inverse-frequency resampling and 10,000 bootstrap weighted Bradley–Terry fits. Agent state can persist within a match and resets between matches."
+        },
+        {
+          "zh": "整体评级汇总九种异质游戏，策略、协作与身份推断子集提供同一批对局的不同观察视图；团队实例允许同代理复制，反映该组队条件下的结果。",
+          "en": "Overall ratings aggregate nine heterogeneous games. Strategic, cooperative and hidden-role subsets are views of the same matches; duplicated teammates define the evaluated team condition."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2406.06613",
+          "title": "GameBench: Evaluating Strategic Reasoning Abilities of LLM Agents"
+        },
+        {
+          "url": "https://arxiv.org/html/2406.06613",
+          "title": "GameBench: Evaluating Strategic Reasoning Abilities of LLM Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB070",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GTBench构建十种语言驱动博弈任务，涵盖完全与不完全信息、静态与动态、确定性与概率性条件，让模型与其他模型或专用基线竞争。",
+            "en": "GTBench contains ten language-driven game-theory tasks spanning information, temporal and stochastic structures, comparing LLMs against each other and specialized baselines."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究利用不同游戏类别、均衡与帕累托效率分析策略行为，并比较代码预训练及CoT、ToT推理方法，提供失误类型以补充总体得分。",
+            "en": "It analyzes strategy, equilibrium and Pareto efficiency across game classes, examining code pretraining, CoT/ToT prompting and detailed error profiles."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验的重复囚徒困境依据对手历史逐轮选择合作或背叛，对比语言模型、Tit-for-Tat及随机对手，报告累计收益与Normalized Relative Advantage。",
+            "en": "The reviewed iterated Prisoner’s Dilemma uses interaction history to choose cooperation or defection, comparing LLM, Tit-for-Tat and random opponents through cumulative payoff and Normalized Relative Advantage."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "重复囚徒困境以历史依赖的累计收益衡量策略，具体得分由收益矩阵与对手决定；套件其他任务分别覆盖完全或不完全、静态或动态等博弈条件。",
+            "en": "The iterated dilemma measures history-dependent payoff under specified opponents and utilities. Other tasks cover separate information, temporal and stochastic conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GTBench构建十种语言驱动博弈任务，涵盖完全与不完全信息、静态与动态、确定性与概率性条件，让模型与其他模型或专用基线竞争。",
+          "en": "GTBench contains ten language-driven game-theory tasks spanning information, temporal and stochastic structures, comparing LLMs against each other and specialized baselines."
+        },
+        {
+          "zh": "研究利用不同游戏类别、均衡与帕累托效率分析策略行为，并比较代码预训练及CoT、ToT推理方法，提供失误类型以补充总体得分。",
+          "en": "It analyzes strategy, equilibrium and Pareto efficiency across game classes, examining code pretraining, CoT/ToT prompting and detailed error profiles."
+        },
+        {
+          "zh": "已核验的重复囚徒困境依据对手历史逐轮选择合作或背叛，对比语言模型、Tit-for-Tat及随机对手，报告累计收益与Normalized Relative Advantage。",
+          "en": "The reviewed iterated Prisoner’s Dilemma uses interaction history to choose cooperation or defection, comparing LLM, Tit-for-Tat and random opponents through cumulative payoff and Normalized Relative Advantage."
+        },
+        {
+          "zh": "重复囚徒困境以历史依赖的累计收益衡量策略，具体得分由收益矩阵与对手决定；套件其他任务分别覆盖完全或不完全、静态或动态等博弈条件。",
+          "en": "The iterated dilemma measures history-dependent payoff under specified opponents and utilities. Other tasks cover separate information, temporal and stochastic conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3191170938b6102e5c203b036b7c16dd-Abstract-Conference.html",
+          "title": "GTBench: Uncovering the Strategic Reasoning Capabilities of LLMs via Game-Theoretic Evaluations"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3191170938b6102e5c203b036b7c16dd-Paper-Conference.pdf",
+          "title": "GTBench: Uncovering the Strategic Reasoning Capabilities of LLMs via Game-Theoretic Evaluations"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B3",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LLM CHESS以工具调用完成整盘国际象棋：模型可查询Unicode棋盘与合法UCI棋步，并通过make_move执行操作；系统不提供既往棋步历史。",
+            "en": "LLM CHESS tests complete chess games through tools for a Unicode board, legal UCI moves and move execution, without supplying prior-move history."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源将规则遵循与延伸交互中的策略质量一起评估，先对随机对手比较大量模型，再让部分强推理模型挑战不同技能等级引擎以估计棋力。",
+            "en": "It evaluates rule following and move quality during extended interaction, first against random play and then against variable-strength engines for selected reasoning models."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "模型固定执黑，每对手等级30局、100回合封顶；报告胜负归一分、违规致负、每步质量分类与局长，明确区分调用轮数、有效性重试和最终弃权。",
+            "en": "Models always play black, with 30 games per opponent level and a 100-move cap. Metrics include normalized wins/losses, instruction forfeits, ply quality and duration under explicit retry rules."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "固定执黑、合法动作查询和重试规则构成工具辅助任务条件；引擎技能配置用于估计内部Elo，动作质量、违规致负与胜负共同呈现完整交互表现。",
+            "en": "Black-only play, legal queries and retries define tool-assisted conditions. Engine configurations calibrate internal Elo; move quality, forfeits and outcomes describe interaction."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LLM CHESS以工具调用完成整盘国际象棋：模型可查询Unicode棋盘与合法UCI棋步，并通过make_move执行操作；系统不提供既往棋步历史。",
+          "en": "LLM CHESS tests complete chess games through tools for a Unicode board, legal UCI moves and move execution, without supplying prior-move history."
+        },
+        {
+          "zh": "资源将规则遵循与延伸交互中的策略质量一起评估，先对随机对手比较大量模型，再让部分强推理模型挑战不同技能等级引擎以估计棋力。",
+          "en": "It evaluates rule following and move quality during extended interaction, first against random play and then against variable-strength engines for selected reasoning models."
+        },
+        {
+          "zh": "模型固定执黑，每对手等级30局、100回合封顶；报告胜负归一分、违规致负、每步质量分类与局长，明确区分调用轮数、有效性重试和最终弃权。",
+          "en": "Models always play black, with 30 games per opponent level and a 100-move cap. Metrics include normalized wins/losses, instruction forfeits, ply quality and duration under explicit retry rules."
+        },
+        {
+          "zh": "固定执黑、合法动作查询和重试规则构成工具辅助任务条件；引擎技能配置用于估计内部Elo，动作质量、违规致负与胜负共同呈现完整交互表现。",
+          "en": "Black-only play, legal queries and retries define tool-assisted conditions. Engine configurations calibrate internal Elo; move quality, forfeits and outcomes describe interaction."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2512.01992",
+          "title": "LLM CHESS: Benchmarking Reasoning and Instruction-Following in LLMs through Chess"
+        },
+        {
+          "url": "https://arxiv.org/html/2512.01992",
+          "title": "LLM CHESS: Benchmarking Reasoning and Instruction-Following in LLMs through Chess"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B2",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "PokerBench收集11000个翻牌前与翻牌后德州扑克决策场景，由受训扑克玩家参与构建。模型根据牌局叙述和行动历史输出行动及下注或加注金额。",
+            "en": "PokerBench contains 11,000 preflop and postflop poker decision scenarios constructed with trained players. Models output an action and wager amount from a spot description and history."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "其核心用途是快速诊断策略选择，并提供监督微调数据；论文同时通过模型间实际比赛检查静态成绩与对战表现的关系。",
+            "en": "It offers a quick diagnostic of strategic choices and data for supervised fine-tuning, with separate gameplay experiments validating the relationship between benchmark scores and match performance."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "主要静态评价分别计算Action Accuracy和包括金额的Exact Match，使用按动作抽取的五样例提示与固定解码设置，对照专家标签比较模型和微调变化。",
+            "en": "The primary static evaluation reports Action Accuracy and Exact Match including wager size, using action-stratified five-shot examples and fixed decoding against reference labels."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "主要指标描述静态参考行动与金额的一致性；论文另以模型对战验证静态分数与赢局关系，监督微调实验刻画参考决策分布中的学习效果。",
+            "en": "Primary metrics measure agreement with reference actions and amounts. Separate model matches examine score–win relationships, while fine-tuning tests learning within the reference distribution."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "PokerBench收集11000个翻牌前与翻牌后德州扑克决策场景，由受训扑克玩家参与构建。模型根据牌局叙述和行动历史输出行动及下注或加注金额。",
+          "en": "PokerBench contains 11,000 preflop and postflop poker decision scenarios constructed with trained players. Models output an action and wager amount from a spot description and history."
+        },
+        {
+          "zh": "其核心用途是快速诊断策略选择，并提供监督微调数据；论文同时通过模型间实际比赛检查静态成绩与对战表现的关系。",
+          "en": "It offers a quick diagnostic of strategic choices and data for supervised fine-tuning, with separate gameplay experiments validating the relationship between benchmark scores and match performance."
+        },
+        {
+          "zh": "主要静态评价分别计算Action Accuracy和包括金额的Exact Match，使用按动作抽取的五样例提示与固定解码设置，对照专家标签比较模型和微调变化。",
+          "en": "The primary static evaluation reports Action Accuracy and Exact Match including wager size, using action-stratified five-shot examples and fixed decoding against reference labels."
+        },
+        {
+          "zh": "主要指标描述静态参考行动与金额的一致性；论文另以模型对战验证静态分数与赢局关系，监督微调实验刻画参考决策分布中的学习效果。",
+          "en": "Primary metrics measure agreement with reference actions and amounts. Separate model matches examine score–win relationships, while fine-tuning tests learning within the reference distribution."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2501.08328",
+          "title": "PokerBench: Training Large Language Models to Become Professional Poker Players"
+        },
+        {
+          "url": "https://arxiv.org/html/2501.08328",
+          "title": "PokerBench: Training Large Language Models to Become Professional Poker Players"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B4",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "TMGBench以144类二乘二博弈为原子单元，构造经典与故事化情境，并通过顺序、并行和嵌套结构形成更复杂的策略推理题。",
+            "en": "TMGBench uses 144 classes of 2×2 games as atomic units, creating classic and story-based scenarios and composing them sequentially, in parallel or by nesting."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究关注博弈类型覆盖、表述变化下的稳健性、理性推理和心智理论问题，试图通过可扩展组合减少对少数熟悉经典游戏的依赖。",
+            "en": "It studies type coverage, robustness to narrative variation, rational reasoning and theory-of-mind questions through extensible game compositions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评测要求回答均衡或策略组合等问题，复杂组合还可按所有子问题均正确计分；各类故事与结构变体为同一数学博弈提供不同语言和组合条件。",
+            "en": "Models answer equilibrium and strategy-combination questions, with some composite items requiring all subanswers to be correct. Story and structural variants alter language and composition around the underlying games."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "条目以博弈描述和问题为输入、均衡或策略答案为输出，经典、故事与组合版本分别控制数学结构、语言表述及任务组织；准确率刻画给定问题的求解表现。",
+            "en": "Items map game descriptions and questions to equilibrium or strategy answers. Classic, story and composite forms control mathematics, wording and organization; accuracy measures solutions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "TMGBench以144类二乘二博弈为原子单元，构造经典与故事化情境，并通过顺序、并行和嵌套结构形成更复杂的策略推理题。",
+          "en": "TMGBench uses 144 classes of 2×2 games as atomic units, creating classic and story-based scenarios and composing them sequentially, in parallel or by nesting."
+        },
+        {
+          "zh": "研究关注博弈类型覆盖、表述变化下的稳健性、理性推理和心智理论问题，试图通过可扩展组合减少对少数熟悉经典游戏的依赖。",
+          "en": "It studies type coverage, robustness to narrative variation, rational reasoning and theory-of-mind questions through extensible game compositions."
+        },
+        {
+          "zh": "评测要求回答均衡或策略组合等问题，复杂组合还可按所有子问题均正确计分；各类故事与结构变体为同一数学博弈提供不同语言和组合条件。",
+          "en": "Models answer equilibrium and strategy-combination questions, with some composite items requiring all subanswers to be correct. Story and structural variants alter language and composition around the underlying games."
+        },
+        {
+          "zh": "条目以博弈描述和问题为输入、均衡或策略答案为输出，经典、故事与组合版本分别控制数学结构、语言表述及任务组织；准确率刻画给定问题的求解表现。",
+          "en": "Items map game descriptions and questions to equilibrium or strategy answers. Classic, story and composite forms control mathematics, wording and organization; accuracy measures solutions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2410.10479",
+          "title": "TMGBench: A Systematic Game Benchmark for Evaluating Strategic Reasoning Abilities of LLMs"
+        },
+        {
+          "url": "https://arxiv.org/html/2410.10479",
+          "title": "TMGBench: A Systematic Game Benchmark for Evaluating Strategic Reasoning Abilities of LLMs"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB046",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Pgx是用JAX实现、针对GPU与TPU向量化的棋盘游戏模拟器套件，包含国际象棋、将棋、围棋、双陆棋及小型变体，为批量强化学习提供统一状态与合法动作掩码。",
+            "en": "Pgx is a JAX board-game simulator suite vectorized for GPUs and TPUs, including chess, shogi, Go, backgammon and smaller variants, with common state and legal-mask interfaces."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "平台研究重点是大规模并行模拟如何加快训练迭代，并用Gumbel AlphaZero展示真实策略学习；吞吐效率与代理棋力分别评价。",
+            "en": "It studies how parallel simulation accelerates training and demonstrates Gumbel AlphaZero learning, separating simulator throughput from policy strength."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已登记五种棋盘变体在共同网络与超参数下训练约1.05亿帧、400轮，评测每步32次搜索；两次运行的成对对局通过BayesElo估计评级，参考模型定为1000分。",
+            "en": "Five reviewed board variants use common networks and hyperparameters for about 105 million frames over 400 iterations, with 32 search simulations per evaluation move. Two runs yield pairwise BayesElo ratings anchored at 1,000."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "五种棋盘变体的学习结果按游戏独立拟合BayesElo；平台吞吐实验衡量模拟效率，AlphaZero实验衡量具体训练预算下的策略表现。",
+            "en": "The five variants receive separate BayesElo estimates. Throughput measures simulation efficiency; AlphaZero experiments measure policies learned under specified budgets."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Pgx是用JAX实现、针对GPU与TPU向量化的棋盘游戏模拟器套件，包含国际象棋、将棋、围棋、双陆棋及小型变体，为批量强化学习提供统一状态与合法动作掩码。",
+          "en": "Pgx is a JAX board-game simulator suite vectorized for GPUs and TPUs, including chess, shogi, Go, backgammon and smaller variants, with common state and legal-mask interfaces."
+        },
+        {
+          "zh": "平台研究重点是大规模并行模拟如何加快训练迭代，并用Gumbel AlphaZero展示真实策略学习；吞吐效率与代理棋力分别评价。",
+          "en": "It studies how parallel simulation accelerates training and demonstrates Gumbel AlphaZero learning, separating simulator throughput from policy strength."
+        },
+        {
+          "zh": "已登记五种棋盘变体在共同网络与超参数下训练约1.05亿帧、400轮，评测每步32次搜索；两次运行的成对对局通过BayesElo估计评级，参考模型定为1000分。",
+          "en": "Five reviewed board variants use common networks and hyperparameters for about 105 million frames over 400 iterations, with 32 search simulations per evaluation move. Two runs yield pairwise BayesElo ratings anchored at 1,000."
+        },
+        {
+          "zh": "五种棋盘变体的学习结果按游戏独立拟合BayesElo；平台吞吐实验衡量模拟效率，AlphaZero实验衡量具体训练预算下的策略表现。",
+          "en": "The five variants receive separate BayesElo estimates. Throughput measures simulation efficiency; AlphaZero experiments measure policies learned under specified budgets."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/8f153093758af93861a74a1305dfdc18-Abstract.html",
+          "title": "Pgx: Hardware-Accelerated Parallel Game Simulators for Reinforcement Learning"
+        },
+        {
+          "url": "https://arxiv.org/abs/2303.17503",
+          "title": "Pgx: Hardware-Accelerated Parallel Game Simulators for Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB012",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Ludii用ludeme这种高层游戏概念描述棋盘规则，将游戏表示为可理解、可扩展的概念结构；引擎可据此生成合法动作并执行完整对局。",
+            "en": "Ludii describes board games through ludemes, high-level game concepts assembled into readable, extensible rule structures. Its engine generates legal moves and executes complete playouts."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "平台服务于通用游戏AI、规则设计与游戏历史研究，核心问题是在表达广泛规则的同时兼顾简洁性和计算效率，减少专用引擎间的接口差异。",
+            "en": "It supports general game AI, design and historical research, aiming to combine broad rule expressiveness with concise descriptions and efficient computation."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "系统论文主要将Ludii与GDL推理器和Regular Boardgames比较，使用同类游戏的随机完整推演吞吐量等引擎性能指标评估运行效率。",
+            "en": "The system paper primarily compares engine efficiency with a GDL reasoner and Regular Boardgames, including throughput for complete random playouts on shared games."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "该系统论文的量化重点是规则引擎效率，随机推演用于比较运行性能；ludeme描述、合法动作生成与完整执行为后续代理研究提供通用基础。",
+            "en": "The paper quantifies rule-engine efficiency through random playout performance. Ludemes, legal-move generation and complete execution provide infrastructure for agent research."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Ludii用ludeme这种高层游戏概念描述棋盘规则，将游戏表示为可理解、可扩展的概念结构；引擎可据此生成合法动作并执行完整对局。",
+          "en": "Ludii describes board games through ludemes, high-level game concepts assembled into readable, extensible rule structures. Its engine generates legal moves and executes complete playouts."
+        },
+        {
+          "zh": "平台服务于通用游戏AI、规则设计与游戏历史研究，核心问题是在表达广泛规则的同时兼顾简洁性和计算效率，减少专用引擎间的接口差异。",
+          "en": "It supports general game AI, design and historical research, aiming to combine broad rule expressiveness with concise descriptions and efficient computation."
+        },
+        {
+          "zh": "系统论文主要将Ludii与GDL推理器和Regular Boardgames比较，使用同类游戏的随机完整推演吞吐量等引擎性能指标评估运行效率。",
+          "en": "The system paper primarily compares engine efficiency with a GDL reasoner and Regular Boardgames, including throughput for complete random playouts on shared games."
+        },
+        {
+          "zh": "该系统论文的量化重点是规则引擎效率，随机推演用于比较运行性能；ludeme描述、合法动作生成与完整执行为后续代理研究提供通用基础。",
+          "en": "The paper quantifies rule-engine efficiency through random playout performance. Ludemes, legal-move generation and complete execution provide infrastructure for agent research."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.3233/FAIA200120",
+          "title": "Ludii – The Ludemic General Game System"
+        },
+        {
+          "url": "https://arxiv.org/abs/1905.05013",
+          "title": "Ludii – The Ludemic General Game System"
+        },
+        {
+          "url": "https://arxiv.org/html/1905.05013#S6",
+          "title": "Ludii — Section 6"
+        },
+        {
+          "url": "https://github.com/Ludeme/LudiiAI",
+          "title": "Ludii – The Ludemic General Game System"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "TOP-20",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MAgIC将两个社会推理游戏和三个博弈论情境组成多智能体竞赛，模型根据角色私有信息、公开讨论及互动历史作出线索、投票和资源决策。",
+            "en": "MAgIC combines two social-deduction games and three game-theory scenarios. Models use role-private information, discussion and history for clues, votes and resource decisions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究以认知、适应、理性与协作等维度描述互动，并加入概率图模型提示方法，探索显式建模其他玩家能否改善判断、欺骗与合作行为。",
+            "en": "It examines cognition, adaptability, rationality and collaboration, using probabilistic graphical modeling prompts to test explicit representations of other players."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Chameleon与Undercover报告投票、身份推断、欺骗及角色胜率；公共物品游戏采用三人五轮、七种倍增系数和三席轮换，区分个人收益、最高分胜率与公共返还。",
+            "en": "Chameleon and Undercover report voting, deduction, deception and role wins. The public-goods game uses three players, five rounds, seven multipliers and seat rotation, separating individual payoff, winning and communal returns."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "隐藏身份诊断按游戏与角色解释，公共物品任务分别记录个人争胜和群体返还；五种情境共同组成社会互动画像，各指标保留其具体收益与信息条件。",
+            "en": "Hidden-role diagnostics are game/role-specific; public goods separates individual winning and communal return. Five scenarios form an interaction profile with distinct information and payoffs."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MAgIC将两个社会推理游戏和三个博弈论情境组成多智能体竞赛，模型根据角色私有信息、公开讨论及互动历史作出线索、投票和资源决策。",
+          "en": "MAgIC combines two social-deduction games and three game-theory scenarios. Models use role-private information, discussion and history for clues, votes and resource decisions."
+        },
+        {
+          "zh": "研究以认知、适应、理性与协作等维度描述互动，并加入概率图模型提示方法，探索显式建模其他玩家能否改善判断、欺骗与合作行为。",
+          "en": "It examines cognition, adaptability, rationality and collaboration, using probabilistic graphical modeling prompts to test explicit representations of other players."
+        },
+        {
+          "zh": "Chameleon与Undercover报告投票、身份推断、欺骗及角色胜率；公共物品游戏采用三人五轮、七种倍增系数和三席轮换，区分个人收益、最高分胜率与公共返还。",
+          "en": "Chameleon and Undercover report voting, deduction, deception and role wins. The public-goods game uses three players, five rounds, seven multipliers and seat rotation, separating individual payoff, winning and communal returns."
+        },
+        {
+          "zh": "隐藏身份诊断按游戏与角色解释，公共物品任务分别记录个人争胜和群体返还；五种情境共同组成社会互动画像，各指标保留其具体收益与信息条件。",
+          "en": "Hidden-role diagnostics are game/role-specific; public goods separates individual winning and communal return. Five scenarios form an interaction profile with distinct information and payoffs."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.416/",
+          "title": "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration"
+        },
+        {
+          "url": "https://aclanthology.org/2024.emnlp-main.416.pdf",
+          "title": "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration"
+        },
+        {
+          "url": "https://github.com/cathyxl/MAgIC",
+          "title": "MAgIC: Investigation of Large Language Model Powered Multi-Agent in Cognition, Adaptability, Rationality and Collaboration"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2605.04312",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Agent Island是七名不同模型参与的淘汰与陪审团游戏，代理通过私聊、公开陈述和投票争取生存，最终由淘汰者在候选决赛者间投票。",
+            "en": "Agent Island is a seven-model elimination and jury game. Agents use private chats, public pitches and votes to survive, with eliminated players selecting the eventual winner."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源以随对手变化的合作、冲突和说服替代固定题库，研究动态竞赛能否保持评测区分度，并利用完整游戏日志分析投票与模型偏好。",
+            "en": "It replaces fixed questions with adaptive cooperation, conflict and persuasion, studying dynamic discrimination and using game logs to analyze voting and model preferences."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "论文记录999局、49种模型，以获胜频率和Bayesian Plackett–Luce技能后验区间排名；匿名名字、随机抽样、发言顺序和随机平票处理控制部分位置因素。",
+            "en": "The paper records 999 games with 49 models, reporting win frequency and Bayesian Plackett–Luce skill intervals. Anonymization, random sampling, speaking order and tie breaking control some positional effects."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Plackett–Luce技能由给定模型池的动态对局拟合，日志同时支持投票与偏好分析；发布资源以游戏记录和分析数据为主，描述完整淘汰与陪审团机制。",
+            "en": "Plackett–Luce skill is fitted to the model pool’s dynamic games. Released logs and analysis data also support voting and preference studies of elimination and jury mechanics."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Agent Island是七名不同模型参与的淘汰与陪审团游戏，代理通过私聊、公开陈述和投票争取生存，最终由淘汰者在候选决赛者间投票。",
+          "en": "Agent Island is a seven-model elimination and jury game. Agents use private chats, public pitches and votes to survive, with eliminated players selecting the eventual winner."
+        },
+        {
+          "zh": "资源以随对手变化的合作、冲突和说服替代固定题库，研究动态竞赛能否保持评测区分度，并利用完整游戏日志分析投票与模型偏好。",
+          "en": "It replaces fixed questions with adaptive cooperation, conflict and persuasion, studying dynamic discrimination and using game logs to analyze voting and model preferences."
+        },
+        {
+          "zh": "论文记录999局、49种模型，以获胜频率和Bayesian Plackett–Luce技能后验区间排名；匿名名字、随机抽样、发言顺序和随机平票处理控制部分位置因素。",
+          "en": "The paper records 999 games with 49 models, reporting win frequency and Bayesian Plackett–Luce skill intervals. Anonymization, random sampling, speaking order and tie breaking control some positional effects."
+        },
+        {
+          "zh": "Plackett–Luce技能由给定模型池的动态对局拟合，日志同时支持投票与偏好分析；发布资源以游戏记录和分析数据为主，描述完整淘汰与陪审团机制。",
+          "en": "Plackett–Luce skill is fitted to the model pool’s dynamic games. Released logs and analysis data also support voting and preference studies of elimination and jury mechanics."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.04312",
+          "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2605.04312",
+          "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.09638",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Avalon-ToM-Bench从阿瓦隆的非对称信息机制构建视角受限问题，要求模型判断角色知识、动机及相应推断或行动陈述，而非控制完整游戏。",
+            "en": "Avalon-ToM-Bench derives perspective-constrained questions from Avalon’s asymmetric information, asking models about role knowledge, motives, inferences and actions rather than complete gameplay."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "其二乘二分类将认识与动机推理分别交叉推断与行动，试图区分规则知识缺口和更细粒度的心智状态理解；论文还分析隐藏表示与生成答案的差异。",
+            "en": "A 2×2 taxonomy crosses epistemic/motivational reasoning with inference/action, distinguishing rule knowledge from mental-state reasoning and comparing hidden representations with generated answers."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "数据包含97个场景、408条二元判断，按子能力报告准确率、macro-F1及宏平均；规则理解对照和线性探针、激活干预提供额外机制诊断。",
+            "en": "Ninety-seven scenarios contain 408 binary judgments, scored through per-ability accuracy, macro-F1 and macro averages, alongside rule-comprehension controls, linear probes and activation interventions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "人工问题采用明确的角色视角与信息权限；二元判断提供细粒度离线诊断，规则理解、生成答案和隐藏表征分析分别描述知识、表达与内部表示。",
+            "en": "Human-crafted questions specify role perspectives and permissions. Binary judgments, rule controls, generated answers and hidden-state analyses describe knowledge, expression and representation."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Avalon-ToM-Bench从阿瓦隆的非对称信息机制构建视角受限问题，要求模型判断角色知识、动机及相应推断或行动陈述，而非控制完整游戏。",
+          "en": "Avalon-ToM-Bench derives perspective-constrained questions from Avalon’s asymmetric information, asking models about role knowledge, motives, inferences and actions rather than complete gameplay."
+        },
+        {
+          "zh": "其二乘二分类将认识与动机推理分别交叉推断与行动，试图区分规则知识缺口和更细粒度的心智状态理解；论文还分析隐藏表示与生成答案的差异。",
+          "en": "A 2×2 taxonomy crosses epistemic/motivational reasoning with inference/action, distinguishing rule knowledge from mental-state reasoning and comparing hidden representations with generated answers."
+        },
+        {
+          "zh": "数据包含97个场景、408条二元判断，按子能力报告准确率、macro-F1及宏平均；规则理解对照和线性探针、激活干预提供额外机制诊断。",
+          "en": "Ninety-seven scenarios contain 408 binary judgments, scored through per-ability accuracy, macro-F1 and macro averages, alongside rule-comprehension controls, linear probes and activation interventions."
+        },
+        {
+          "zh": "人工问题采用明确的角色视角与信息权限；二元判断提供细粒度离线诊断，规则理解、生成答案和隐藏表征分析分别描述知识、表达与内部表示。",
+          "en": "Human-crafted questions specify role perspectives and permissions. Binary judgments, rule controls, generated answers and hidden-state analyses describe knowledge, expression and representation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.09638",
+          "title": "Avalon-ToM-Bench: Evaluating Fine-Grained Theory of Mind via Asymmetric Game Mechanics"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.09638",
+          "title": "Avalon-ToM-Bench: Evaluating Fine-Grained Theory of Mind via Asymmetric Game Mechanics"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2606.28514",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GPTNT基于Keep Talking and Nobody Explodes，让拆弹员读取炸弹视觉界面、手册专家读取说明，两者通过消息交流，在倒计时结束前共同拆除模块。",
+            "en": "GPTNT uses Keep Talking and Nobody Explodes: a Defuser sees the bomb, an Expert sees the manual, and they exchange messages to disarm modules before a live countdown expires."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究将信息不对称、沟通歧义与实时压力放在同一任务中，比较模型单独理解说明和异步协作执行时的差距，并分析状态跟踪与错误恢复。",
+            "en": "It combines asymmetric information, ambiguous communication and time pressure, contrasting manual understanding with asynchronous collaboration and examining state tracking and recovery."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "交互轨道使用十个固定难度2或3的任务，报告pass@1、解决模块数及超时和错误爆炸；实时异步与暂停计时的同步模式分别呈现。",
+            "en": "Ten fixed level-2/3 missions report pass@1, modules solved, timeouts and strikeouts. Real-time asynchronous and paused-clock synchronous modes are evaluated separately."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "异步模式保留实时计算与沟通开销，同步模式暂停计时以分析能力组成；ManualVQA提供说明理解的离线参照，交互轨道以成功拆弹为任务终点。",
+            "en": "Asynchronous play includes computation and communication time; synchronous play pauses the clock for analysis. ManualVQA supplies offline manual comprehension, while interaction targets defusal."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GPTNT基于Keep Talking and Nobody Explodes，让拆弹员读取炸弹视觉界面、手册专家读取说明，两者通过消息交流，在倒计时结束前共同拆除模块。",
+          "en": "GPTNT uses Keep Talking and Nobody Explodes: a Defuser sees the bomb, an Expert sees the manual, and they exchange messages to disarm modules before a live countdown expires."
+        },
+        {
+          "zh": "研究将信息不对称、沟通歧义与实时压力放在同一任务中，比较模型单独理解说明和异步协作执行时的差距，并分析状态跟踪与错误恢复。",
+          "en": "It combines asymmetric information, ambiguous communication and time pressure, contrasting manual understanding with asynchronous collaboration and examining state tracking and recovery."
+        },
+        {
+          "zh": "交互轨道使用十个固定难度2或3的任务，报告pass@1、解决模块数及超时和错误爆炸；实时异步与暂停计时的同步模式分别呈现。",
+          "en": "Ten fixed level-2/3 missions report pass@1, modules solved, timeouts and strikeouts. Real-time asynchronous and paused-clock synchronous modes are evaluated separately."
+        },
+        {
+          "zh": "异步模式保留实时计算与沟通开销，同步模式暂停计时以分析能力组成；ManualVQA提供说明理解的离线参照，交互轨道以成功拆弹为任务终点。",
+          "en": "Asynchronous play includes computation and communication time; synchronous play pauses the clock for analysis. ManualVQA supplies offline manual comprehension, while interaction targets defusal."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.28514",
+          "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.28514",
+          "title": "GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2601.08462",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "M3-BENCH以24种混合动机游戏评估语言代理的社会行为，同时保留行动、推理和沟通内容，观察最终收益之外的互动过程。",
+            "en": "M3-BENCH evaluates LLM social behavior in 24 mixed-motive games, retaining actions, reasoning and communication to examine interaction processes beyond final payoff."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "框架分为行为轨迹、推理过程与沟通内容三种视角，研究内部分析、对外交流和实际行动是否一致，以及模型能否将推理转化为有效互惠。",
+            "en": "Behavioral, reasoning and communication analyses examine consistency between deliberation, speech and action, including whether models translate reasoning into effective reciprocity."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的十轮重复困境先交流再选择合作或背叛，依据动作轨迹计算合作、条件互惠、报复、宽恕和末轮背叛；双方知道有限时限。",
+            "en": "The reviewed ten-round dilemma permits communication before cooperation/defection. Action trajectories yield cooperation, conditional reciprocity, retaliation, forgiveness and final-round defection under a known horizon."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "十轮困境是24游戏中的已细化实例，行为统计直接取自动作序列；推理过程与沟通评分提供额外分析视角，具体配对与评委设置决定其比较范围。",
+            "en": "The ten-round dilemma is a detailed example among 24 games. Action-derived statistics complement reasoning and communication analyses, whose comparisons depend on pairings and judges."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "M3-BENCH以24种混合动机游戏评估语言代理的社会行为，同时保留行动、推理和沟通内容，观察最终收益之外的互动过程。",
+          "en": "M3-BENCH evaluates LLM social behavior in 24 mixed-motive games, retaining actions, reasoning and communication to examine interaction processes beyond final payoff."
+        },
+        {
+          "zh": "框架分为行为轨迹、推理过程与沟通内容三种视角，研究内部分析、对外交流和实际行动是否一致，以及模型能否将推理转化为有效互惠。",
+          "en": "Behavioral, reasoning and communication analyses examine consistency between deliberation, speech and action, including whether models translate reasoning into effective reciprocity."
+        },
+        {
+          "zh": "已细化的十轮重复困境先交流再选择合作或背叛，依据动作轨迹计算合作、条件互惠、报复、宽恕和末轮背叛；双方知道有限时限。",
+          "en": "The reviewed ten-round dilemma permits communication before cooperation/defection. Action trajectories yield cooperation, conditional reciprocity, retaliation, forgiveness and final-round defection under a known horizon."
+        },
+        {
+          "zh": "十轮困境是24游戏中的已细化实例，行为统计直接取自动作序列；推理过程与沟通评分提供额外分析视角，具体配对与评委设置决定其比较范围。",
+          "en": "The ten-round dilemma is a detailed example among 24 games. Action-derived statistics complement reasoning and communication analyses, whose comparisons depend on pairings and judges."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.08462",
+          "title": "M3-BENCH: Process-Aware Evaluation of LLM Agents' Social Behaviors in Mixed-Motive Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2601.08462",
+          "title": "M3-BENCH: Process-Aware Evaluation of LLM Agents' Social Behaviors in Mixed-Motive Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2601.08462v1",
+          "title": "M3-Bench, repeated Prisoner’s Dilemma and Appendix G.2"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2605.29512",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MINDGAMES基于TextArena统一四种博弈：Colonel Blotto、重复囚徒困境、Codenames和Secret Mafia，提供交互接口、TrueSkill排名及完整轨迹记录。",
+            "en": "MINDGAMES unifies Colonel Blotto, Iterated Prisoner’s Dilemma, Codenames and Secret Mafia on TextArena, with shared interaction, TrueSkill ratings and full trajectory logs."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究比较隐藏信息信念、重复对手建模、非对称知识合作和持续欺骗，并以比赛数据分析规则遵循及排行榜是否被对手错误主导；MG-Ref提供冻结参考池。",
+            "en": "It examines beliefs, opponent modeling, asymmetric-knowledge cooperation and deception, analyzing rule adherence and error-driven rankings. MG-Ref supplies a frozen reference pool."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "代表任务Blotto要求双方同时分配固定兵力以赢得战场，当前对手分配不可见；成绩以胜负和TrueSkill表示，另记录非法输入与预算分配错误。",
+            "en": "The reviewed Blotto task simultaneously allocates a fixed troop budget across battlefields with hidden opponent allocations, reporting outcomes and TrueSkill alongside invalid-input and allocation errors."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "四种游戏分别设置动作验证和比赛阶段；Blotto以版本规定的预算、战场数和轮次组织分配，胜负与错误统计共同刻画策略及规则执行表现。",
+            "en": "The four games have distinct validation and stages. Version-specific Blotto budgets, battlefields and rounds define allocation; outcomes and errors characterize strategy and execution."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MINDGAMES基于TextArena统一四种博弈：Colonel Blotto、重复囚徒困境、Codenames和Secret Mafia，提供交互接口、TrueSkill排名及完整轨迹记录。",
+          "en": "MINDGAMES unifies Colonel Blotto, Iterated Prisoner’s Dilemma, Codenames and Secret Mafia on TextArena, with shared interaction, TrueSkill ratings and full trajectory logs."
+        },
+        {
+          "zh": "研究比较隐藏信息信念、重复对手建模、非对称知识合作和持续欺骗，并以比赛数据分析规则遵循及排行榜是否被对手错误主导；MG-Ref提供冻结参考池。",
+          "en": "It examines beliefs, opponent modeling, asymmetric-knowledge cooperation and deception, analyzing rule adherence and error-driven rankings. MG-Ref supplies a frozen reference pool."
+        },
+        {
+          "zh": "代表任务Blotto要求双方同时分配固定兵力以赢得战场，当前对手分配不可见；成绩以胜负和TrueSkill表示，另记录非法输入与预算分配错误。",
+          "en": "The reviewed Blotto task simultaneously allocates a fixed troop budget across battlefields with hidden opponent allocations, reporting outcomes and TrueSkill alongside invalid-input and allocation errors."
+        },
+        {
+          "zh": "四种游戏分别设置动作验证和比赛阶段；Blotto以版本规定的预算、战场数和轮次组织分配，胜负与错误统计共同刻画策略及规则执行表现。",
+          "en": "The four games have distinct validation and stages. Version-specific Blotto budgets, battlefields and rounds define allocation; outcomes and errors characterize strategy and execution."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.29512",
+          "title": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs"
+        },
+        {
+          "url": "https://arxiv.org/html/2605.29512",
+          "title": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs"
+        },
+        {
+          "url": "https://arxiv.org/html/2605.29512v1",
+          "title": "MINDGAMES: A Live Arena for Evaluating Social and Strategic Reasoning in Multi-Agent LLMs"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2601.09017",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Multicultural Spyfall让四名非间谍与一名间谍围绕隐藏地点或食物问答：非间谍知道实体并寻找间谍，间谍则试图推断实体且避免暴露。",
+            "en": "Multicultural Spyfall uses four non-spies and one spy in question-based play about a hidden location or food. Non-spies know the entity and seek the spy; the spy infers it while avoiding detection."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究把文化实体和非英语表达融入动态社会推理，观察语言熟练度、本地知识、规则遵循与策略完整性如何共同影响多模型竞争。",
+            "en": "It introduces culturally specific entities and non-English interaction to study the joint effects of language proficiency, local knowledge, rule following and strategy."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "前五轮进行问答，后五轮允许猜实体和投票，动作按阶段输出JSON；按角色、语言和文化条件统计胜率及Bradley–Terry评级，并处理格式失败。",
+            "en": "Five question rounds precede five rounds permitting guesses and votes, with phase-specific JSON actions. Evaluation reports role-, language- and culture-conditioned wins and Bradley–Terry ratings."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "五人十轮规则将文化实体、语言与角色权限结合；分角色和分文化结果呈现知识、表达与社会推理在这一具体信息结构中的共同作用。",
+            "en": "Five-player, ten-round rules combine cultural entities, language and role permissions. Stratified results reflect knowledge, expression and social reasoning within this information structure."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Multicultural Spyfall让四名非间谍与一名间谍围绕隐藏地点或食物问答：非间谍知道实体并寻找间谍，间谍则试图推断实体且避免暴露。",
+          "en": "Multicultural Spyfall uses four non-spies and one spy in question-based play about a hidden location or food. Non-spies know the entity and seek the spy; the spy infers it while avoiding detection."
+        },
+        {
+          "zh": "研究把文化实体和非英语表达融入动态社会推理，观察语言熟练度、本地知识、规则遵循与策略完整性如何共同影响多模型竞争。",
+          "en": "It introduces culturally specific entities and non-English interaction to study the joint effects of language proficiency, local knowledge, rule following and strategy."
+        },
+        {
+          "zh": "前五轮进行问答，后五轮允许猜实体和投票，动作按阶段输出JSON；按角色、语言和文化条件统计胜率及Bradley–Terry评级，并处理格式失败。",
+          "en": "Five question rounds precede five rounds permitting guesses and votes, with phase-specific JSON actions. Evaluation reports role-, language- and culture-conditioned wins and Bradley–Terry ratings."
+        },
+        {
+          "zh": "五人十轮规则将文化实体、语言与角色权限结合；分角色和分文化结果呈现知识、表达与社会推理在这一具体信息结构中的共同作用。",
+          "en": "Five-player, ten-round rules combine cultural entities, language and role permissions. Stratified results reflect knowledge, expression and social reasoning within this information structure."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2601.09017",
+          "title": "Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game"
+        },
+        {
+          "url": "https://arxiv.org/pdf/2601.09017",
+          "title": "Multicultural Spyfall: Assessing LLMs through Dynamic Multilingual Social Deduction Game"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2607.28146",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ParliamentBench以Secret Hitler为基础组织五人政府形成与隐藏阵营博弈：玩家提名总理、表决政府、执行政策，并在阶段间讨论。",
+            "en": "ParliamentBench implements five-player government formation and hidden-alignment play based on Secret Hitler, with chancellor nominations, government votes, policy enactment and discussion."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究通过模型互战、人机对战和在线游戏参照，分析信息不对称下的推理、说服与欺骗一致性，关注玩家是否能长期维持隐藏身份叙事。",
+            "en": "Model, human and online-game comparisons examine reasoning, persuasion and deceptive consistency under asymmetric information, including sustained hidden-role behavior."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已登记配置为三自由派、一法西斯及希特勒，政府投票前与政策后各一轮随机顺序发言；评价阵营胜率、身份识别、欺骗保持、政府通过及局势影响。",
+            "en": "The reviewed setup has three liberals, one fascist and Hitler, with randomized discussions before votes and after policies. Metrics include faction wins, role recognition, deception retention, approval and game-state impact."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "五人角色结构、讨论顺序与指定对手构成实验版本；身份识别、欺骗保持和局势影响为论文定义的辅助诊断，与阵营胜率共同描述完整比赛行为。",
+            "en": "Five-player roles, discussion order and opponents define the version. Paper-defined role recognition, deception retention and impact diagnostics complement faction wins."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ParliamentBench以Secret Hitler为基础组织五人政府形成与隐藏阵营博弈：玩家提名总理、表决政府、执行政策，并在阶段间讨论。",
+          "en": "ParliamentBench implements five-player government formation and hidden-alignment play based on Secret Hitler, with chancellor nominations, government votes, policy enactment and discussion."
+        },
+        {
+          "zh": "研究通过模型互战、人机对战和在线游戏参照，分析信息不对称下的推理、说服与欺骗一致性，关注玩家是否能长期维持隐藏身份叙事。",
+          "en": "Model, human and online-game comparisons examine reasoning, persuasion and deceptive consistency under asymmetric information, including sustained hidden-role behavior."
+        },
+        {
+          "zh": "已登记配置为三自由派、一法西斯及希特勒，政府投票前与政策后各一轮随机顺序发言；评价阵营胜率、身份识别、欺骗保持、政府通过及局势影响。",
+          "en": "The reviewed setup has three liberals, one fascist and Hitler, with randomized discussions before votes and after policies. Metrics include faction wins, role recognition, deception retention, approval and game-state impact."
+        },
+        {
+          "zh": "五人角色结构、讨论顺序与指定对手构成实验版本；身份识别、欺骗保持和局势影响为论文定义的辅助诊断，与阵营胜率共同描述完整比赛行为。",
+          "en": "Five-player roles, discussion order and opponents define the version. Paper-defined role recognition, deception retention and impact diagnostics complement faction wins."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.28146",
+          "title": "Can Agents Deceive? Evaluating Reasoning and Deception in ParliamentBench using a Social Deduction Game"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.28146",
+          "title": "Can Agents Deceive? Evaluating Reasoning and Deception in ParliamentBench using a Social Deduction Game"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.28146v1",
+          "title": "Can Agents Deceive? Evaluating Reasoning and Deception in ParliamentBench using a Social Deduction Game"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.09128",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Social Gym将21种社会游戏组织成多智能体锦标赛，以规则确定的胜负评价协作、协商和对手适应；SPaRTan在游戏后反思轨迹，形成可迁移策略手册。",
+            "en": "Social Gym organizes 21 social games into multi-agent tournaments with rule-decided outcomes. SPaRTan reflects on trajectories to produce transferable playbooks for subsequent games."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究一方面比较不同模型与角色的社会推理差异，另一方面检查无需更新权重的自博弈、反思及迁移循环能否改善较弱角色表现。",
+            "en": "It compares model- and role-dependent social reasoning and tests whether training-free self-play, reflection and transfer improve weaker roles."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的狼人杀由有限状态机调度发言、投票和夜间技能，40轮封顶；村民清除狼人获胜、狼人达到人数平衡获胜，报告角色胜率与Bradley–Terry拟合Elo。",
+            "en": "The reviewed Werewolves task uses finite-state speech, votes and night actions with a forty-turn cap. Village elimination and wolf parity determine wins, feeding role rates and Bradley–Terry Elo."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "狼人杀是21游戏中的一个角色化实例，Elo由指定锦标赛池拟合；SPaRTan的手册效果按基础模型、角色及后续游戏分别观察。",
+            "en": "Werewolves is one role-conditioned instance among 21 games. Elo is fitted to the tournament pool; playbook effects are examined by model, role and subsequent game."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Social Gym将21种社会游戏组织成多智能体锦标赛，以规则确定的胜负评价协作、协商和对手适应；SPaRTan在游戏后反思轨迹，形成可迁移策略手册。",
+          "en": "Social Gym organizes 21 social games into multi-agent tournaments with rule-decided outcomes. SPaRTan reflects on trajectories to produce transferable playbooks for subsequent games."
+        },
+        {
+          "zh": "研究一方面比较不同模型与角色的社会推理差异，另一方面检查无需更新权重的自博弈、反思及迁移循环能否改善较弱角色表现。",
+          "en": "It compares model- and role-dependent social reasoning and tests whether training-free self-play, reflection and transfer improve weaker roles."
+        },
+        {
+          "zh": "已细化的狼人杀由有限状态机调度发言、投票和夜间技能，40轮封顶；村民清除狼人获胜、狼人达到人数平衡获胜，报告角色胜率与Bradley–Terry拟合Elo。",
+          "en": "The reviewed Werewolves task uses finite-state speech, votes and night actions with a forty-turn cap. Village elimination and wolf parity determine wins, feeding role rates and Bradley–Terry Elo."
+        },
+        {
+          "zh": "狼人杀是21游戏中的一个角色化实例，Elo由指定锦标赛池拟合；SPaRTan的手册效果按基础模型、角色及后续游戏分别观察。",
+          "en": "Werewolves is one role-conditioned instance among 21 games. Elo is fitted to the tournament pool; playbook effects are examined by model, role and subsequent game."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.09128",
+          "title": "Social Gym and SPaRTan: Benchmarking and Improving LLM Social Reasoning via Multi-Agent Game Tournaments"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.09128",
+          "title": "Social Gym and SPaRTan: Benchmarking and Improving LLM Social Reasoning via Multi-Agent Game Tournaments"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.09128v1",
+          "title": "Social Gym and SPaRTan, Appendix D and tournament evaluation"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.09128v1#S3.SS2",
+          "title": "Social Gym game roster"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.09128v1#A4",
+          "title": "Social Gym Appendix D: shared engine"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-4.2",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Convention Gap利用Hanabi记录研究伙伴行动中超出字面提示的信息：玩家只见他人手牌及自己的提示，从提示选择与可见牌推断安全出牌。",
+            "en": "Convention Gap analyzes Hanabi logs for information conveyed beyond literal hints. Players see others’ cards and hints about their own, using hint choices and visible cards to judge safe plays."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究提出隐式约定诊断，将公平洗牌与只使用字面信息的玩家作为理论参照，比较人类同伴、人机及不同推理层级AI配对。",
+            "en": "It proposes a diagnostic of implicit conventions, using fair shuffling and literal-information play as a theoretical reference across human, mixed and AI partnerships."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "指标等于根据字面提示和可见牌精确计算的失败概率，减去实际出牌失败率；论文利用记录估计该差值并比较伙伴和行动类别。",
+            "en": "The metric subtracts observed play-failure rate from the failure probability computed exactly from literal hints and visible cards, comparing partners and play categories in logs."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "该方法对Hanabi记录进行事后诊断，非零差值表明伙伴选择传递了超出字面的信息；差值以失败概率百分点表达，理论解释依赖公平洗牌及字面信息参照。",
+            "en": "This retrospective Hanabi diagnostic expresses extra-literal information through a failure-probability gap, interpreted under fair shuffling and a literal-information reference."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Convention Gap利用Hanabi记录研究伙伴行动中超出字面提示的信息：玩家只见他人手牌及自己的提示，从提示选择与可见牌推断安全出牌。",
+          "en": "Convention Gap analyzes Hanabi logs for information conveyed beyond literal hints. Players see others’ cards and hints about their own, using hint choices and visible cards to judge safe plays."
+        },
+        {
+          "zh": "研究提出隐式约定诊断，将公平洗牌与只使用字面信息的玩家作为理论参照，比较人类同伴、人机及不同推理层级AI配对。",
+          "en": "It proposes a diagnostic of implicit conventions, using fair shuffling and literal-information play as a theoretical reference across human, mixed and AI partnerships."
+        },
+        {
+          "zh": "指标等于根据字面提示和可见牌精确计算的失败概率，减去实际出牌失败率；论文利用记录估计该差值并比较伙伴和行动类别。",
+          "en": "The metric subtracts observed play-failure rate from the failure probability computed exactly from literal hints and visible cards, comparing partners and play categories in logs."
+        },
+        {
+          "zh": "该方法对Hanabi记录进行事后诊断，非零差值表明伙伴选择传递了超出字面的信息；差值以失败概率百分点表达，理论解释依赖公平洗牌及字面信息参照。",
+          "en": "This retrospective Hanabi diagnostic expresses extra-literal information through a failure-probability gap, interpreted under fair shuffling and a literal-information reference."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.11489",
+          "title": "The Convention Gap: Beyond Literal Content in Human-AI Cooperation"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.11489",
+          "title": "The Convention Gap: Beyond Literal Content in Human-AI Cooperation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-2.1",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Game Arena是Kaggle的开放竞争评测平台，首批包含国际象棋、双人无限注德州扑克和八人狼人杀，模型以受控接口直接比赛并保留轨迹。",
+            "en": "Kaggle Game Arena is an open competitive evaluation platform initially covering chess, heads-up no-limit Hold’em and eight-player Werewolf, with controlled interfaces and recorded trajectories."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究以动态对手竞争补充静态题库，同时针对确定性棋盘、隐藏牌下注及多人社会博弈设计不同统计方法，避免单一总分掩盖任务差别。",
+            "en": "It supplements static tests with evolving competition and distinct statistics for deterministic board play, hidden-card betting and multi-player social interaction."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "国际象棋每配对40局，报告Bradley–Terry Elo；扑克每配对20000手、镜像发牌与换位，以BB/100和分段bootstrap估计收益；狼人杀以GTE分解角色贡献。",
+            "en": "Chess uses 40 games per pair and Bradley–Terry Elo. Poker uses 20,000 mirrored, seat-swapped hands per pair with BB/100 and block bootstrap. Werewolf uses GTE to decompose role contributions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "三游戏保留各自观察、非法动作规则和统计单位，内部评级由所选对手池拟合；扑克分段收益与狼人角色贡献分别呈现隐藏信息和角色不对称条件下的表现。",
+            "en": "Three games retain distinct observations, validity rules and units. Internal ratings depend on the pool; poker returns and Werewolf contributions describe hidden information and role asymmetry."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Game Arena是Kaggle的开放竞争评测平台，首批包含国际象棋、双人无限注德州扑克和八人狼人杀，模型以受控接口直接比赛并保留轨迹。",
+          "en": "Kaggle Game Arena is an open competitive evaluation platform initially covering chess, heads-up no-limit Hold’em and eight-player Werewolf, with controlled interfaces and recorded trajectories."
+        },
+        {
+          "zh": "研究以动态对手竞争补充静态题库，同时针对确定性棋盘、隐藏牌下注及多人社会博弈设计不同统计方法，避免单一总分掩盖任务差别。",
+          "en": "It supplements static tests with evolving competition and distinct statistics for deterministic board play, hidden-card betting and multi-player social interaction."
+        },
+        {
+          "zh": "国际象棋每配对40局，报告Bradley–Terry Elo；扑克每配对20000手、镜像发牌与换位，以BB/100和分段bootstrap估计收益；狼人杀以GTE分解角色贡献。",
+          "en": "Chess uses 40 games per pair and Bradley–Terry Elo. Poker uses 20,000 mirrored, seat-swapped hands per pair with BB/100 and block bootstrap. Werewolf uses GTE to decompose role contributions."
+        },
+        {
+          "zh": "三游戏保留各自观察、非法动作规则和统计单位，内部评级由所选对手池拟合；扑克分段收益与狼人角色贡献分别呈现隐藏信息和角色不对称条件下的表现。",
+          "en": "Three games retain distinct observations, validity rules and units. Internal ratings depend on the pool; poker returns and Werewolf contributions describe hidden information and role asymmetry."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.31473",
+          "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.31473",
+          "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.31473v1",
+          "title": "Game Arena: Strategic LLM Evaluation in Competitive Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-4.1",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "狼人杀信念变化基准从语言模型对局中标注怀疑与指控消息，让村民观察者在阅读一条消息前后报告对其他玩家身份的信念。",
+            "en": "The Werewolf belief-shift benchmark annotates suspicion and accusation messages from LLM games, asking village observers to report role beliefs before and after individual messages."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究把指控内容与指控者可信度分开，观察模型是否因既有信任而接受错误指控，以及更强模型能否结合历史识别真实狼人。",
+            "en": "It separates accusation content from source trust, studying acceptance of misleading claims and whether stronger models integrate history to identify wolves."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "论文评估1224条注释消息和40种开放权重配置，按真实阵营、受指控者及指控者信任分层统计信念与变化，并提供均值的95%区间。",
+            "en": "Evaluation covers 1,224 annotated messages and 40 open-weight configurations, stratifying beliefs and shifts by true alignment, target and accuser trust, with 95% intervals for means."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "离线观察者读取已记录消息并报告主观身份信念，分层变化量描述对内容与来源的响应；原对局背景为诊断提供角色真值和既有信任条件。",
+            "en": "Offline observers report subjective role beliefs from recorded messages. Stratified shifts describe responses to content and source, using original roles and prior trust as context."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "狼人杀信念变化基准从语言模型对局中标注怀疑与指控消息，让村民观察者在阅读一条消息前后报告对其他玩家身份的信念。",
+          "en": "The Werewolf belief-shift benchmark annotates suspicion and accusation messages from LLM games, asking village observers to report role beliefs before and after individual messages."
+        },
+        {
+          "zh": "研究把指控内容与指控者可信度分开，观察模型是否因既有信任而接受错误指控，以及更强模型能否结合历史识别真实狼人。",
+          "en": "It separates accusation content from source trust, studying acceptance of misleading claims and whether stronger models integrate history to identify wolves."
+        },
+        {
+          "zh": "论文评估1224条注释消息和40种开放权重配置，按真实阵营、受指控者及指控者信任分层统计信念与变化，并提供均值的95%区间。",
+          "en": "Evaluation covers 1,224 annotated messages and 40 open-weight configurations, stratifying beliefs and shifts by true alignment, target and accuser trust, with 95% intervals for means."
+        },
+        {
+          "zh": "离线观察者读取已记录消息并报告主观身份信念，分层变化量描述对内容与来源的响应；原对局背景为诊断提供角色真值和既有信任条件。",
+          "en": "Offline observers report subjective role beliefs from recorded messages. Stratified shifts describe responses to content and source, using original roles and prior trust as context."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.12446",
+          "title": "Do LLMs Trust the Accuser or the Accusation? Measuring Belief Shifts in Werewolf"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.12446",
+          "title": "Do LLMs Trust the Accuser or the Accusation? Measuring Belief Shifts in Werewolf"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB092",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Among Us sandbox以文字环境重建船员与内鬼的行动和会议：船员执行任务并识别内鬼，内鬼通过击杀、伪装与讨论阻止任务完成。",
+            "en": "The Among Us sandbox reimplements crew and impostor actions and meetings in text. Crewmates complete tasks and identify impostors; impostors use kills, fake tasks and discussion to obstruct them."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究让欺骗作为长期游戏目标的策略自然出现，并将生成欺骗的表现与检测欺骗的能力分开，另用激活探针和稀疏自编码器分析模型表征。",
+            "en": "It lets deception emerge instrumentally from game goals and separates deceptive play from deception detection, including activation probes and sparse-autoencoder analyses."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验配置为五船员、两内鬼、50步上限，会议三轮讨论后投票；角色胜率与Deception Elo采用1000次bootstrap，检测探针的AUROC另行报告。",
+            "en": "The reviewed setup has five crewmates, two impostors and a fifty-step cap, with three discussion rounds before votes. Role wins and Deception Elo use 1,000 bootstrap samples; probe AUROC is separate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "顺序文字动作、五加二角色及有利内鬼的超时规则定义沙盒版本；游戏排名衡量角色目标下的表现，探针AUROC衡量陈述与内部表征的可检测性。",
+            "en": "Sequential text actions, five-plus-two roles and impostor-favoring timeout define the sandbox. Rankings measure gameplay; probe AUROC measures detectability in statements and representations."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Among Us sandbox以文字环境重建船员与内鬼的行动和会议：船员执行任务并识别内鬼，内鬼通过击杀、伪装与讨论阻止任务完成。",
+          "en": "The Among Us sandbox reimplements crew and impostor actions and meetings in text. Crewmates complete tasks and identify impostors; impostors use kills, fake tasks and discussion to obstruct them."
+        },
+        {
+          "zh": "研究让欺骗作为长期游戏目标的策略自然出现，并将生成欺骗的表现与检测欺骗的能力分开，另用激活探针和稀疏自编码器分析模型表征。",
+          "en": "It lets deception emerge instrumentally from game goals and separates deceptive play from deception detection, including activation probes and sparse-autoencoder analyses."
+        },
+        {
+          "zh": "已核验配置为五船员、两内鬼、50步上限，会议三轮讨论后投票；角色胜率与Deception Elo采用1000次bootstrap，检测探针的AUROC另行报告。",
+          "en": "The reviewed setup has five crewmates, two impostors and a fifty-step cap, with three discussion rounds before votes. Role wins and Deception Elo use 1,000 bootstrap samples; probe AUROC is separate."
+        },
+        {
+          "zh": "顺序文字动作、五加二角色及有利内鬼的超时规则定义沙盒版本；游戏排名衡量角色目标下的表现，探针AUROC衡量陈述与内部表征的可检测性。",
+          "en": "Sequential text actions, five-plus-two roles and impostor-favoring timeout define the sandbox. Rankings measure gameplay; probe AUROC measures detectability in statements and representations."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/105c4de1195135fae4974aa8c5e27bbf-Abstract-Conference.html",
+          "title": "Among Us: A Sandbox for Measuring and Detecting Agentic Deception"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/105c4de1195135fae4974aa8c5e27bbf-Paper-Conference.pdf",
+          "title": "Among Us: A Sandbox for Measuring and Detecting Agentic Deception"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB099",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LLM-Coordination研究纯合作条件下的语言代理，包含四个交互协调游戏与198道CoordQA选择题，以环境理解、他人信念与联合规划分析表现。",
+            "en": "LLM-Coordination studies pure cooperation through four interactive coordination games and 198 CoordQA questions, examining environment understanding, partner beliefs and joint planning."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究比较显式ToM推理与其他决策组件，并考察零样本陌生伙伴配对，区分依靠环境信息的协作与依靠队友信念和意图推断的协作。",
+            "en": "It compares explicit ToM reasoning and decision components, including zero-shot partnerships, distinguishing environmental coordination from reasoning about teammates’ intentions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的交互任务包括双代理在图上围捕对手，以及分别启动两个发电机后避敌逃脱；固定布局与起点、每配置三次，以成功率和完成回合数评价。",
+            "en": "Reviewed tasks include two-agent graph capture and generator activation followed by escape from a pursuer. Fixed layouts and starts use three trials per setting, reporting success and completion turns."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "交互轨道使用图与房间抽象，三次重复呈现固定布局中的协作结果；CoordQA的静态答案提供环境理解、ToM和联合规划的补充诊断。",
+            "en": "Graph and room abstractions use three repeats per fixed layout. Static CoordQA complements interaction with diagnostics of understanding, ToM and joint planning."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LLM-Coordination研究纯合作条件下的语言代理，包含四个交互协调游戏与198道CoordQA选择题，以环境理解、他人信念与联合规划分析表现。",
+          "en": "LLM-Coordination studies pure cooperation through four interactive coordination games and 198 CoordQA questions, examining environment understanding, partner beliefs and joint planning."
+        },
+        {
+          "zh": "研究比较显式ToM推理与其他决策组件，并考察零样本陌生伙伴配对，区分依靠环境信息的协作与依靠队友信念和意图推断的协作。",
+          "en": "It compares explicit ToM reasoning and decision components, including zero-shot partnerships, distinguishing environmental coordination from reasoning about teammates’ intentions."
+        },
+        {
+          "zh": "已细化的交互任务包括双代理在图上围捕对手，以及分别启动两个发电机后避敌逃脱；固定布局与起点、每配置三次，以成功率和完成回合数评价。",
+          "en": "Reviewed tasks include two-agent graph capture and generator activation followed by escape from a pursuer. Fixed layouts and starts use three trials per setting, reporting success and completion turns."
+        },
+        {
+          "zh": "交互轨道使用图与房间抽象，三次重复呈现固定布局中的协作结果；CoordQA的静态答案提供环境理解、ToM和联合规划的补充诊断。",
+          "en": "Graph and room abstractions use three repeats per fixed layout. Static CoordQA complements interaction with diagnostics of understanding, ToM and joint planning."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2025.findings-naacl.448/",
+          "title": "LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models"
+        },
+        {
+          "url": "https://aclanthology.org/2025.findings-naacl.448.pdf",
+          "title": "LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Models"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB101",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LLMsPark以经典博弈论游戏组织多模型交互，比较决策策略与社会行为，并提供公开排名；论文对15种商业及开放模型进行交叉评测。",
+            "en": "LLMsPark organizes multi-model interaction in classical game-theory settings, comparing strategies and social behavior through public rankings and cross-evaluation of 15 commercial and open models."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "平台希望从互动轨迹而非单一问答分数观察策略差异。已细化的Nim要求玩家依据石堆状态轮流取石，选择一堆及正数个石子，以取走最后一颗获胜。",
+            "en": "It studies behavioral differences through interaction rather than isolated answers. In the reviewed Nim task, players choose a pile and positive removal count, winning by taking the last stone."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "系统记录胜、平、负并更新Elo，初始1000分、K值32；Nim输入包含当前石堆、规则和历史，合法行动与终局由引擎判断。",
+            "en": "The system records outcomes and updates Elo from 1,000 with K=32. Nim supplies piles, rules and history, with engine-defined legal moves and terminal outcomes."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Nim的规则与Elo更新已明确，初始石堆和配对清单决定具体比赛实例；平台总榜描述多模型交叉评测，当前细化任务提供其中一个规则驱动的观察窗口。",
+            "en": "Nim rules and Elo updates are specified; pile and pairing manifests define match instances. The overall leaderboard aggregates cross-model evaluation; this task provides one detailed view."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LLMsPark以经典博弈论游戏组织多模型交互，比较决策策略与社会行为，并提供公开排名；论文对15种商业及开放模型进行交叉评测。",
+          "en": "LLMsPark organizes multi-model interaction in classical game-theory settings, comparing strategies and social behavior through public rankings and cross-evaluation of 15 commercial and open models."
+        },
+        {
+          "zh": "平台希望从互动轨迹而非单一问答分数观察策略差异。已细化的Nim要求玩家依据石堆状态轮流取石，选择一堆及正数个石子，以取走最后一颗获胜。",
+          "en": "It studies behavioral differences through interaction rather than isolated answers. In the reviewed Nim task, players choose a pile and positive removal count, winning by taking the last stone."
+        },
+        {
+          "zh": "系统记录胜、平、负并更新Elo，初始1000分、K值32；Nim输入包含当前石堆、规则和历史，合法行动与终局由引擎判断。",
+          "en": "The system records outcomes and updates Elo from 1,000 with K=32. Nim supplies piles, rules and history, with engine-defined legal moves and terminal outcomes."
+        },
+        {
+          "zh": "Nim的规则与Elo更新已明确，初始石堆和配对清单决定具体比赛实例；平台总榜描述多模型交叉评测，当前细化任务提供其中一个规则驱动的观察窗口。",
+          "en": "Nim rules and Elo updates are specified; pile and pairing manifests define match instances. The overall leaderboard aggregates cross-model evaluation; this task provides one detailed view."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2025.findings-emnlp.12/",
+          "title": "LLMsPark: A Benchmark for Evaluating Large Language Models in Strategic Gaming Contexts"
+        },
+        {
+          "url": "https://aclanthology.org/2025.findings-emnlp.12.pdf",
+          "title": "LLMsPark — §§3.1–3.4 and Table 1"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB102",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MultiAgentBench面向多样交互场景评估语言模型团队，基于MARBLE编排代理协作与竞争，比较星形、链形、树形和图式沟通结构。",
+            "en": "MultiAgentBench evaluates LLM teams across diverse interactive scenarios through MARBLE, comparing star, chain, tree and graph communication structures."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究将任务完成与协作质量分开，使用里程碑指标，并比较群体讨论和认知规划；游戏相关实例是Minecraft中按目标结构描述协同建造。",
+            "en": "It separates task completion from collaboration quality through milestones, group discussion and cognitive planning. Its game-related example is collaborative Minecraft structure construction."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "建造轨道包含100个VillagerAgent结构，经11种Mineflayer高层工具挖掘、放置和移动；主设定20次迭代、最多五次沟通迭代，以方块类型、坐标和朝向命中率计分。",
+            "en": "The building track uses 100 VillagerAgent structures and eleven Mineflayer tools. The main setup allows 20 iterations and five communication iterations, scoring correct block type, position and orientation."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "建造轨道依赖高层工具与目标结构，方块命中率描述环境完成度；沟通和规划的评委分数描述协作过程，两类指标共同呈现有界Minecraft建造。",
+            "en": "High-level tools and target structures define building. Block accuracy measures completion; judge ratings describe communication and planning, jointly characterizing bounded Minecraft construction."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MultiAgentBench面向多样交互场景评估语言模型团队，基于MARBLE编排代理协作与竞争，比较星形、链形、树形和图式沟通结构。",
+          "en": "MultiAgentBench evaluates LLM teams across diverse interactive scenarios through MARBLE, comparing star, chain, tree and graph communication structures."
+        },
+        {
+          "zh": "研究将任务完成与协作质量分开，使用里程碑指标，并比较群体讨论和认知规划；游戏相关实例是Minecraft中按目标结构描述协同建造。",
+          "en": "It separates task completion from collaboration quality through milestones, group discussion and cognitive planning. Its game-related example is collaborative Minecraft structure construction."
+        },
+        {
+          "zh": "建造轨道包含100个VillagerAgent结构，经11种Mineflayer高层工具挖掘、放置和移动；主设定20次迭代、最多五次沟通迭代，以方块类型、坐标和朝向命中率计分。",
+          "en": "The building track uses 100 VillagerAgent structures and eleven Mineflayer tools. The main setup allows 20 iterations and five communication iterations, scoring correct block type, position and orientation."
+        },
+        {
+          "zh": "建造轨道依赖高层工具与目标结构，方块命中率描述环境完成度；沟通和规划的评委分数描述协作过程，两类指标共同呈现有界Minecraft建造。",
+          "en": "High-level tools and target structures define building. Block accuracy measures completion; judge ratings describe communication and planning, jointly characterizing bounded Minecraft construction."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2025.acl-long.421/",
+          "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents"
+        },
+        {
+          "url": "https://aclanthology.org/2025.acl-long.421.pdf",
+          "title": "MultiAgentBench — Appendix A.5, Tables 7–8"
+        },
+        {
+          "url": "https://arxiv.org/html/2503.01935v1",
+          "title": "MultiAgentBench: Evaluating the Collaboration and Competition of LLM Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB062",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "AdaSociety将可变化的物理世界与显式社会连接结合，代理行动会扩展状态、动作与后续任务；平台提供三种小游戏展示不同社会结构。",
+            "en": "AdaSociety combines adaptive physical worlds with explicit social connections. Actions can expand states, actions and subsequent tasks; three mini-games illustrate different social structures."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究社会关系如何改变收益分享、信息获取与资源协作，并比较RL和语言模型是否能够利用这些结构提升个人或群体收益。",
+            "en": "It studies how social relations affect reward sharing, information access and resource cooperation, comparing whether RL and LLM agents exploit these structures."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化的Contract先轮流组建收益共享组织，再由互补工种同步移动、采集和制作；组内均分回报，以个人与组织收益为主，公平性与网络统计补充。",
+            "en": "The reviewed Contract game first forms reward-sharing groups, then uses complementary roles for synchronous movement, gathering and crafting. Individual and group rewards are primary, supplemented by fairness and network statistics."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "人数、资源、结盟cN和物理阶段T由配置定义，Easy与Hard分别评价；Contract结果对应收益共享组与互补工种的社会物理结构。",
+            "en": "Population, resources, formation cN and physical horizon T are configured, with separate Easy/Hard evaluation. Contract results concern reward-sharing groups and complementary roles."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "AdaSociety将可变化的物理世界与显式社会连接结合，代理行动会扩展状态、动作与后续任务；平台提供三种小游戏展示不同社会结构。",
+          "en": "AdaSociety combines adaptive physical worlds with explicit social connections. Actions can expand states, actions and subsequent tasks; three mini-games illustrate different social structures."
+        },
+        {
+          "zh": "研究社会关系如何改变收益分享、信息获取与资源协作，并比较RL和语言模型是否能够利用这些结构提升个人或群体收益。",
+          "en": "It studies how social relations affect reward sharing, information access and resource cooperation, comparing whether RL and LLM agents exploit these structures."
+        },
+        {
+          "zh": "已细化的Contract先轮流组建收益共享组织，再由互补工种同步移动、采集和制作；组内均分回报，以个人与组织收益为主，公平性与网络统计补充。",
+          "en": "The reviewed Contract game first forms reward-sharing groups, then uses complementary roles for synchronous movement, gathering and crafting. Individual and group rewards are primary, supplemented by fairness and network statistics."
+        },
+        {
+          "zh": "人数、资源、结盟cN和物理阶段T由配置定义，Easy与Hard分别评价；Contract结果对应收益共享组与互补工种的社会物理结构。",
+          "en": "Population, resources, formation cN and physical horizon T are configured, with separate Easy/Hard evaluation. Contract results concern reward-sharing groups and complementary roles."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3e4d8407cb468850f2f8f4a949e64bf0-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3e4d8407cb468850f2f8f4a949e64bf0-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B8",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "AmongAgents用文本模拟Among Us的房间、任务、监控与会议，四名船员完成任务或投出内鬼，一名内鬼通过击杀、伪装任务及通风阻止他们。",
+            "en": "AmongAgents simulates Among Us rooms, tasks, cameras and meetings in text. Four crewmates complete tasks or expel one impostor, who obstructs them through kills, fake tasks and vents."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究观察语言代理在不完全信息下如何依据局部事件行动，并改变船员与内鬼的策略和人格组合，分析讨论、怀疑及胜负形成过程。",
+            "en": "It studies decisions from local evidence under hidden information, varying crew/impostor strategies and personality configurations and analyzing discussion and outcomes."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "每名船员有短、普通、长任务各一项；全随机、全语言模型、仅船员模型及仅内鬼模型四条件各20局，报告角色胜率、任务完成与超时，发言类别另由模型标注。",
+            "en": "Each crewmate receives three task types. Four conditions—random, all-LLM, LLM-crew and LLM-impostor—use twenty games each, reporting role wins, completion and timeout; speech categories are separately model-annotated."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "房间图与顺序文本动作界定重实现版本，四种控制条件各20局；角色胜负、任务进度和发言类别分别描述比赛结果、执行行为及语言表现。",
+            "en": "Room graphs and sequential text actions define the reimplementation, with twenty games per control. Wins, task progress and speech labels describe outcomes, execution and language."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "AmongAgents用文本模拟Among Us的房间、任务、监控与会议，四名船员完成任务或投出内鬼，一名内鬼通过击杀、伪装任务及通风阻止他们。",
+          "en": "AmongAgents simulates Among Us rooms, tasks, cameras and meetings in text. Four crewmates complete tasks or expel one impostor, who obstructs them through kills, fake tasks and vents."
+        },
+        {
+          "zh": "研究观察语言代理在不完全信息下如何依据局部事件行动，并改变船员与内鬼的策略和人格组合，分析讨论、怀疑及胜负形成过程。",
+          "en": "It studies decisions from local evidence under hidden information, varying crew/impostor strategies and personality configurations and analyzing discussion and outcomes."
+        },
+        {
+          "zh": "每名船员有短、普通、长任务各一项；全随机、全语言模型、仅船员模型及仅内鬼模型四条件各20局，报告角色胜率、任务完成与超时，发言类别另由模型标注。",
+          "en": "Each crewmate receives three task types. Four conditions—random, all-LLM, LLM-crew and LLM-impostor—use twenty games each, reporting role wins, completion and timeout; speech categories are separately model-annotated."
+        },
+        {
+          "zh": "房间图与顺序文本动作界定重实现版本，四种控制条件各20局；角色胜负、任务进度和发言类别分别描述比赛结果、执行行为及语言表现。",
+          "en": "Room graphs and sequential text actions define the reimplementation, with twenty games per control. Wins, task progress and speech labels describe outcomes, execution and language."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.16521",
+          "title": "AmongAgents: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game"
+        },
+        {
+          "url": "https://arxiv.org/html/2407.16521",
+          "title": "AmongAgents: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game"
+        },
+        {
+          "url": "https://arxiv.org/html/2407.16521v1",
+          "title": "AmongAgents: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A8",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "AvalonBench将阿瓦隆的角色私密信息、公开讨论、队伍提案、投票、任务与刺杀整合为语言代理环境，让好人与坏人阵营争取各自胜利。",
+            "en": "AvalonBench combines private roles, discussion, team proposals, voting, quests and assassination in an Avalon environment for competing good and evil teams."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源提供确定性规则机器人及按角色定制提示的ReAct代理，研究推断、欺骗和协商如何共同影响动态阶段中的决策。",
+            "en": "It supplies deterministic rule bots and role-specific ReAct agents to study how inference, deception and negotiation shape phase-dependent decisions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "模型读取自己可见的角色信息、讨论与历史摘要，输出发言和阶段离散选择；评价按好人、坏人角色分别统计对规则机器人的胜率，并保留座位和提示条件。",
+            "en": "Models receive visible role information, discussion and summaries and produce utterances or phase-specific choices. Evaluation reports good/evil win rates against rule bots with seat and prompting conditions retained."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "好坏阵营有不同信息和胜利条件，角色胜率在具体座位与提示条件下比较；完整对局综合呈现策略、讨论、推断及阶段动作执行。",
+            "en": "Good and evil have distinct information and objectives, with wins conditioned on seats and prompts. Complete games combine strategy, discussion, inference and phase execution."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "AvalonBench将阿瓦隆的角色私密信息、公开讨论、队伍提案、投票、任务与刺杀整合为语言代理环境，让好人与坏人阵营争取各自胜利。",
+          "en": "AvalonBench combines private roles, discussion, team proposals, voting, quests and assassination in an Avalon environment for competing good and evil teams."
+        },
+        {
+          "zh": "资源提供确定性规则机器人及按角色定制提示的ReAct代理，研究推断、欺骗和协商如何共同影响动态阶段中的决策。",
+          "en": "It supplies deterministic rule bots and role-specific ReAct agents to study how inference, deception and negotiation shape phase-dependent decisions."
+        },
+        {
+          "zh": "模型读取自己可见的角色信息、讨论与历史摘要，输出发言和阶段离散选择；评价按好人、坏人角色分别统计对规则机器人的胜率，并保留座位和提示条件。",
+          "en": "Models receive visible role information, discussion and summaries and produce utterances or phase-specific choices. Evaluation reports good/evil win rates against rule bots with seat and prompting conditions retained."
+        },
+        {
+          "zh": "好坏阵营有不同信息和胜利条件，角色胜率在具体座位与提示条件下比较；完整对局综合呈现策略、讨论、推断及阶段动作执行。",
+          "en": "Good and evil have distinct information and objectives, with wins conditioned on seats and prompts. Complete games combine strategy, discussion, inference and phase execution."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.05036",
+          "title": "AvalonBench: Evaluating LLMs Playing the Game of Avalon"
+        },
+        {
+          "url": "https://arxiv.org/html/2310.05036",
+          "title": "AvalonBench: Evaluating LLMs Playing the Game of Avalon"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B6",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Codenames基准让密码大师用一个词和数量连接多个己方目标，猜词者依据线索选择词或结束回合；两种角色看到不同的颜色分配信息。",
+            "en": "The Codenames benchmark pairs a spymaster supplying one-word, numbered clues with a guesser selecting words or ending the turn. Roles have different access to word-color assignments."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究将词语关联与伙伴理解结合，比较同模型和部分跨模型搭档，并与词向量方法对照，观察角色差异及团队兼容性。",
+            "en": "It combines semantic association with partner understanding, comparing same-model and some mixed-model pairings against word-embedding approaches to examine roles and compatibility."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "论文包含单队合作和双队竞争实验；已登记双队配置每种组合100局、种子0至99，同队两角色使用同一模型，按红蓝队胜率计分，选中刺客立即输局。",
+            "en": "The paper includes single-team and two-team experiments. Reviewed competition uses 100 games per combination with seeds 0–99 and same-model teammates, reporting red/blue wins with immediate loss on the assassin."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "单队实验按合作效率观察搭档组合，双队实验按对抗胜负评价。跨模型队友结果主要来自单队部分，角色表现同时包含语义知识与对线索意图的判断。",
+            "en": "Single-team experiments examine cooperative efficiency and pairings; two-team experiments measure competitive outcomes. Mixed-model results mainly come from the former, combining semantic knowledge and clue-intent judgments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Codenames基准让密码大师用一个词和数量连接多个己方目标，猜词者依据线索选择词或结束回合；两种角色看到不同的颜色分配信息。",
+          "en": "The Codenames benchmark pairs a spymaster supplying one-word, numbered clues with a guesser selecting words or ending the turn. Roles have different access to word-color assignments."
+        },
+        {
+          "zh": "研究将词语关联与伙伴理解结合，比较同模型和部分跨模型搭档，并与词向量方法对照，观察角色差异及团队兼容性。",
+          "en": "It combines semantic association with partner understanding, comparing same-model and some mixed-model pairings against word-embedding approaches to examine roles and compatibility."
+        },
+        {
+          "zh": "论文包含单队合作和双队竞争实验；已登记双队配置每种组合100局、种子0至99，同队两角色使用同一模型，按红蓝队胜率计分，选中刺客立即输局。",
+          "en": "The paper includes single-team and two-team experiments. Reviewed competition uses 100 games per combination with seeds 0–99 and same-model teammates, reporting red/blue wins with immediate loss on the assassin."
+        },
+        {
+          "zh": "单队实验按合作效率观察搭档组合，双队实验按对抗胜负评价。跨模型队友结果主要来自单队部分，角色表现同时包含语义知识与对线索意图的判断。",
+          "en": "Single-team experiments examine cooperative efficiency and pairings; two-team experiments measure competitive outcomes. Mixed-model results mainly come from the former, combining semantic knowledge and clue-intent judgments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2412.11373",
+          "title": "Codenames as a Benchmark for Large Language Models"
+        },
+        {
+          "url": "https://arxiv.org/html/2412.11373",
+          "title": "Codenames as a Benchmark for Large Language Models"
+        },
+        {
+          "url": "https://arxiv.org/html/2412.11373v1",
+          "title": "Codenames as a Benchmark for Large Language Models"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB077",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LLMArena提供七种动态多智能体游戏，以可扩展文字接口组织模型互动；任务涉及空间、数字、风险、策略与交流，排行榜采用TrueSkill。",
+            "en": "LLMArena supplies seven dynamic multi-agent games through an extensible textual interface, spanning spatial, numerical, risk, strategic and communication demands, with TrueSkill rankings."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究比较不同类型和规模模型及人类表现，尤其分析对手建模与团队协作。具体游戏规则将这些综合需求转成可执行行动与环境收益。",
+            "en": "It compares model types, scales and humans, emphasizing opponent modeling and teamwork, with rules mapping these combined demands to executable actions and rewards."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已细化Hanabi为双人双颜色、数字1至5、每人两张牌、初始三信息token；代理见伙伴手牌与自身提示，通过出牌、弃牌和颜色数字提示合作，报告平均烟花团队分数。",
+            "en": "The reviewed Hanabi variant uses two players, two colors, ranks 1–5, two-card hands and three initial information tokens. Agents play, discard or hint using partner cards and own hints; the metric is mean team fireworks score."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "这一缩小Hanabi版本有自己的牌组与信息预算，作为七游戏中的合作实例登记；总榜评分与该环境的平均回报分别反映跨对手竞争和局内团队收益。",
+            "en": "This reduced Hanabi variant has its own deck and information budget and forms one cooperative example among seven games. Overall ratings and environment return describe different aggregation levels."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LLMArena提供七种动态多智能体游戏，以可扩展文字接口组织模型互动；任务涉及空间、数字、风险、策略与交流，排行榜采用TrueSkill。",
+          "en": "LLMArena supplies seven dynamic multi-agent games through an extensible textual interface, spanning spatial, numerical, risk, strategic and communication demands, with TrueSkill rankings."
+        },
+        {
+          "zh": "研究比较不同类型和规模模型及人类表现，尤其分析对手建模与团队协作。具体游戏规则将这些综合需求转成可执行行动与环境收益。",
+          "en": "It compares model types, scales and humans, emphasizing opponent modeling and teamwork, with rules mapping these combined demands to executable actions and rewards."
+        },
+        {
+          "zh": "已细化Hanabi为双人双颜色、数字1至5、每人两张牌、初始三信息token；代理见伙伴手牌与自身提示，通过出牌、弃牌和颜色数字提示合作，报告平均烟花团队分数。",
+          "en": "The reviewed Hanabi variant uses two players, two colors, ranks 1–5, two-card hands and three initial information tokens. Agents play, discard or hint using partner cards and own hints; the metric is mean team fireworks score."
+        },
+        {
+          "zh": "这一缩小Hanabi版本有自己的牌组与信息预算，作为七游戏中的合作实例登记；总榜评分与该环境的平均回报分别反映跨对手竞争和局内团队收益。",
+          "en": "This reduced Hanabi variant has its own deck and information budget and forms one cooperative example among seven games. Overall ratings and environment return describe different aggregation levels."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2024.acl-long.705/",
+          "title": "LLMArena: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments"
+        },
+        {
+          "url": "https://aclanthology.org/2024.acl-long.705.pdf",
+          "title": "LLMArena: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB064",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Melting Pot Contest 2023利用混合动机环境评估代理与陌生伙伴合作，参赛策略在自身回报与其他玩家行动的相互依赖中形成行为。",
+            "en": "The 2023 Melting Pot Contest evaluates cooperation with unfamiliar partners in mixed-motive environments, where individual returns depend on other players’ behavior."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "竞赛关注社会泛化，以留出伙伴和场景检验训练种群中的策略能否适应新组合；论文汇总竞赛设计、提交方案及合作智能评价经验。",
+            "en": "It focuses on social generalization through held-out partners and scenarios, reporting contest design, submissions and lessons for cooperative-intelligence evaluation."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已展开的Clean Up让代理在采集资源与清洁公共河流间分配行动，使用局部RGB及允许状态；主指标为焦点代理人均回报，相对于基线最好与最差回报归一化。",
+            "en": "The reviewed Clean Up task balances harvesting and river cleaning from local RGB and permitted state. Focal per-capita return is normalized relative to baseline best and worst returns."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "公开验证包含clean_up_2至8，最终比赛使用另外的留出伙伴；当前描述以可核验公开配置和论文评分为范围，保留局部观察与官方场景版本的区别。",
+            "en": "Public validation includes clean_up_2–8, while final evaluation uses additional held-out partners. This description covers verifiable public configurations and paper scoring, with version and visibility conditions retained."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Melting Pot Contest 2023利用混合动机环境评估代理与陌生伙伴合作，参赛策略在自身回报与其他玩家行动的相互依赖中形成行为。",
+          "en": "The 2023 Melting Pot Contest evaluates cooperation with unfamiliar partners in mixed-motive environments, where individual returns depend on other players’ behavior."
+        },
+        {
+          "zh": "竞赛关注社会泛化，以留出伙伴和场景检验训练种群中的策略能否适应新组合；论文汇总竞赛设计、提交方案及合作智能评价经验。",
+          "en": "It focuses on social generalization through held-out partners and scenarios, reporting contest design, submissions and lessons for cooperative-intelligence evaluation."
+        },
+        {
+          "zh": "已展开的Clean Up让代理在采集资源与清洁公共河流间分配行动，使用局部RGB及允许状态；主指标为焦点代理人均回报，相对于基线最好与最差回报归一化。",
+          "en": "The reviewed Clean Up task balances harvesting and river cleaning from local RGB and permitted state. Focal per-capita return is normalized relative to baseline best and worst returns."
+        },
+        {
+          "zh": "公开验证包含clean_up_2至8，最终比赛使用另外的留出伙伴；当前描述以可核验公开配置和论文评分为范围，保留局部观察与官方场景版本的区别。",
+          "en": "Public validation includes clean_up_2–8, while final evaluation uses additional held-out partners. This description covers verifiable public configurations and paper scoring, with version and visibility conditions retained."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/1d3ea22480873b389a3365d711eb1e91-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "Melting Pot Contest: Charting the Future of Generalized Cooperative Intelligence"
+        },
+        {
+          "url": "https://github.com/rstrivedi/Melting-Pot-Contest-2023",
+          "title": "Melting Pot Contest — official documentation"
+        },
+        {
+          "url": "https://openreview.net/pdf?id=slqbOc67W8",
+          "title": "Melting Pot Contest, Section 3.1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/clean_up.py",
+          "title": "Melting Pot official Clean Up configuration"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-B7",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Multi-Agent Balderdash让语言模型为生僻词编写可信的虚构定义，再在混合候选中投票识别真实含义，其他玩家选择假定义即可形成欺骗收益。",
+            "en": "Multi-Agent Balderdash asks LLMs to invent plausible definitions for obscure words and then identify the true meaning among mixed candidates, earning deceptive rewards when others select their inventions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究把创造性生成、真假语义判断和历史条件下的策略放在同一中央游戏引擎中，比较多种模型产生可信语言及识破虚构的表现。",
+            "en": "A centralized engine combines creative generation, semantic judgments and history-conditioned strategy to compare plausible language production and detection of invented definitions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评价分别报告真实定义比例、欺骗比例、正确猜测比例与游戏得分，语义等价由独立评审模型判断；词表、随机种子和历史窗口构成比较条件。",
+            "en": "Evaluation separates True Definition Ratio, Deception Ratio, Correct Guess Ratio and game scores. A judge model assesses semantic equivalence; word decks, seeds and history windows define conditions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "生词知识会影响真假定义判断，评审模型影响语义匹配；因此定义质量、骗取选择和识别真义分别提供语言生成、社会影响与知识推理的证据。",
+            "en": "Rare-word knowledge affects definition judgments and the judge affects semantic matching. Definition quality, induced selections and true-meaning identification supply distinct evidence about generation, influence and knowledge."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Multi-Agent Balderdash让语言模型为生僻词编写可信的虚构定义，再在混合候选中投票识别真实含义，其他玩家选择假定义即可形成欺骗收益。",
+          "en": "Multi-Agent Balderdash asks LLMs to invent plausible definitions for obscure words and then identify the true meaning among mixed candidates, earning deceptive rewards when others select their inventions."
+        },
+        {
+          "zh": "研究把创造性生成、真假语义判断和历史条件下的策略放在同一中央游戏引擎中，比较多种模型产生可信语言及识破虚构的表现。",
+          "en": "A centralized engine combines creative generation, semantic judgments and history-conditioned strategy to compare plausible language production and detection of invented definitions."
+        },
+        {
+          "zh": "评价分别报告真实定义比例、欺骗比例、正确猜测比例与游戏得分，语义等价由独立评审模型判断；词表、随机种子和历史窗口构成比较条件。",
+          "en": "Evaluation separates True Definition Ratio, Deception Ratio, Correct Guess Ratio and game scores. A judge model assesses semantic equivalence; word decks, seeds and history windows define conditions."
+        },
+        {
+          "zh": "生词知识会影响真假定义判断，评审模型影响语义匹配；因此定义质量、骗取选择和识别真义分别提供语言生成、社会影响与知识推理的证据。",
+          "en": "Rare-word knowledge affects definition judgments and the judge affects semantic matching. Definition quality, induced selections and true-meaning identification supply distinct evidence about generation, influence and knowledge."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2411.10422",
+          "title": "Evaluating Creativity and Deception in Large Language Models: A Simulation Framework for Multi-Agent Balderdash"
+        },
+        {
+          "url": "https://arxiv.org/html/2411.10422",
+          "title": "Evaluating Creativity and Deception in Large Language Models: A Simulation Framework for Multi-Agent Balderdash"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A9",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Welfare Diplomacy将外交棋的军事征服目标改为一般和福利奖励，玩家通过私下协商、移动支援及建造解散命令，权衡武装投入与国内福利。",
+            "en": "Welfare Diplomacy turns Diplomacy into a general-sum welfare game. Players negotiate privately and issue movement, support, build and disband orders, balancing military investment with domestic welfare."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源研究在保留军事威胁和被利用风险时如何促成互惠，提供开源引擎规则变体及零样例语言代理，并检验去军事化等联合政策。",
+            "en": "It studies reciprocity under military threats and exploitation risks through an open engine variant and zero-shot LLM agents, including joint policies such as demilitarization."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "实验固定结束年限，报告累计福利点与社会福利，并分别进行自博弈和指定剥削策略测试，以同时观察集体收益及其面对策略性对手的稳健性。",
+            "en": "Experiments fix the end year and report cumulative and social welfare, separating self-play from specified exploiter tests to examine collective returns and robustness."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "福利变体按多方累计福利评价，原版按征服目标评价，两套规则有各自收益含义；可利用性结果对应论文实际测试的对手策略集合。",
+            "en": "The welfare variant measures multi-party welfare while standard Diplomacy uses conquest objectives. Exploitability results are relative to the opponent policies actually tested."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Welfare Diplomacy将外交棋的军事征服目标改为一般和福利奖励，玩家通过私下协商、移动支援及建造解散命令，权衡武装投入与国内福利。",
+          "en": "Welfare Diplomacy turns Diplomacy into a general-sum welfare game. Players negotiate privately and issue movement, support, build and disband orders, balancing military investment with domestic welfare."
+        },
+        {
+          "zh": "资源研究在保留军事威胁和被利用风险时如何促成互惠，提供开源引擎规则变体及零样例语言代理，并检验去军事化等联合政策。",
+          "en": "It studies reciprocity under military threats and exploitation risks through an open engine variant and zero-shot LLM agents, including joint policies such as demilitarization."
+        },
+        {
+          "zh": "实验固定结束年限，报告累计福利点与社会福利，并分别进行自博弈和指定剥削策略测试，以同时观察集体收益及其面对策略性对手的稳健性。",
+          "en": "Experiments fix the end year and report cumulative and social welfare, separating self-play from specified exploiter tests to examine collective returns and robustness."
+        },
+        {
+          "zh": "福利变体按多方累计福利评价，原版按征服目标评价，两套规则有各自收益含义；可利用性结果对应论文实际测试的对手策略集合。",
+          "en": "The welfare variant measures multi-party welfare while standard Diplomacy uses conquest objectives. Exploitability results are relative to the opponent policies actually tested."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2310.08901",
+          "title": "Welfare Diplomacy: Benchmarking Language Model Cooperation"
+        },
+        {
+          "url": "https://arxiv.org/html/2310.08901",
+          "title": "Welfare Diplomacy: Benchmarking Language Model Cooperation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "zsc-eval",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ZSC-Eval 将零样本协作评测组织为伙伴生成、筛选和配对测试；智能体部署时面对训练中未共同优化的伙伴，覆盖 Overcooked 与 Google Research Football。",
+            "en": "ZSC-Eval organizes zero-shot coordination around partner generation, selection and cross-play in Overcooked and Google Research Football."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "行为偏好奖励产生不同协作风格，Best-Response Diversity 筛选伙伴，研究重点是伙伴分布变化后的协作泛化，而非仅与自身副本取得高回报。",
+            "en": "Behavior-preferring rewards generate partner styles, and Best-Response Diversity selects them to study generalization beyond self-play partners."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "团队回报与 Best-Response Proximity 衡量配合表现，后者相对最佳回应参照归一化；布局、伙伴检查点和角色交换共同决定比较条件。",
+            "en": "Team return and Best-Response Proximity measure coordination relative to best-response references, conditional on layouts, checkpoints and role assignments."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "具体协作单元采用 Overcooked-AI 布局、同步离散动作与固定伙伴池；完整工具包还包含足球，伙伴分布与最佳回应参照共同定义零样本协作的评价条件。",
+            "en": "The concrete unit uses Overcooked-AI layouts, simultaneous discrete actions and a fixed partner pool; the broader toolkit includes football, with partner distributions and best-response references defining evaluation."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ZSC-Eval 将零样本协作评测组织为伙伴生成、筛选和配对测试；智能体部署时面对训练中未共同优化的伙伴，覆盖 Overcooked 与 Google Research Football。",
+          "en": "ZSC-Eval organizes zero-shot coordination around partner generation, selection and cross-play in Overcooked and Google Research Football."
+        },
+        {
+          "zh": "行为偏好奖励产生不同协作风格，Best-Response Diversity 筛选伙伴，研究重点是伙伴分布变化后的协作泛化，而非仅与自身副本取得高回报。",
+          "en": "Behavior-preferring rewards generate partner styles, and Best-Response Diversity selects them to study generalization beyond self-play partners."
+        },
+        {
+          "zh": "团队回报与 Best-Response Proximity 衡量配合表现，后者相对最佳回应参照归一化；布局、伙伴检查点和角色交换共同决定比较条件。",
+          "en": "Team return and Best-Response Proximity measure coordination relative to best-response references, conditional on layouts, checkpoints and role assignments."
+        },
+        {
+          "zh": "具体协作单元采用 Overcooked-AI 布局、同步离散动作与固定伙伴池；完整工具包还包含足球，伙伴分布与最佳回应参照共同定义零样本协作的评价条件。",
+          "en": "The concrete unit uses Overcooked-AI layouts, simultaneous discrete actions and a fixed partner pool; the broader toolkit includes football, with partner distributions and best-response references defining evaluation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/54a7139c548c88e288aa0fcd2bcbeceb-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "ZSC-Eval: An Evaluation Toolkit and Benchmark for Multi-Agent Zero-Shot Coordination"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB009",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Arena 是基于 Unity 的多智能体环境与构建工具包，以不同游戏规则、社会树和五类奖励关系组合合作、竞争及混合互动问题。",
+            "en": "Arena is a Unity platform that combines game rules, social trees and five reward schemes into cooperative, competitive and mixed multi-agent problems."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "平台提供五种深度多智能体强化学习基线及参考智能体或队伍种群，研究对象包括队内协作、队间竞争和面对多种对手的稳定表现。",
+            "en": "Five deep MARL baselines and reference agent or team populations support research on cooperation, competition and performance against varied opponents."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Crossroads 案例中，各成员通过移动和转向穿过路口；率先全员到达目标的队伍得分，并以回合回报和参考种群排名评价策略。",
+            "en": "In Crossroads, agents move and turn across a junction; the first complete team wins. Evaluation uses episodic reward and reference-population ranking."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Crossroads 给出具体的团队竞赛协议；完整平台另含多种 Unity 游戏。正文采用三十五款口径，图示场景标签保留各自名称，参考种群构成排名的比较背景。",
+            "en": "Crossroads supplies a concrete team-race protocol within the larger Unity platform. The text uses a thirty-five-game count, while illustrated scene labels retain their names and reference populations define rankings."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Arena 是基于 Unity 的多智能体环境与构建工具包，以不同游戏规则、社会树和五类奖励关系组合合作、竞争及混合互动问题。",
+          "en": "Arena is a Unity platform that combines game rules, social trees and five reward schemes into cooperative, competitive and mixed multi-agent problems."
+        },
+        {
+          "zh": "平台提供五种深度多智能体强化学习基线及参考智能体或队伍种群，研究对象包括队内协作、队间竞争和面对多种对手的稳定表现。",
+          "en": "Five deep MARL baselines and reference agent or team populations support research on cooperation, competition and performance against varied opponents."
+        },
+        {
+          "zh": "Crossroads 案例中，各成员通过移动和转向穿过路口；率先全员到达目标的队伍得分，并以回合回报和参考种群排名评价策略。",
+          "en": "In Crossroads, agents move and turn across a junction; the first complete team wins. Evaluation uses episodic reward and reference-population ranking."
+        },
+        {
+          "zh": "Crossroads 给出具体的团队竞赛协议；完整平台另含多种 Unity 游戏。正文采用三十五款口径，图示场景标签保留各自名称，参考种群构成排名的比较背景。",
+          "en": "Crossroads supplies a concrete team-race protocol within the larger Unity platform. The text uses a thirty-five-game count, while illustrated scene labels retain their names and reference populations define rankings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6216",
+          "title": "Arena: A General Evaluation Platform and Building Toolkit for Multi-Agent Intelligence"
+        },
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6216/6072",
+          "title": "Arena: A General Evaluation Platform and Building Toolkit for Multi-Agent Intelligence"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2603.24621",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ARC-AGI-3 让智能体进入没有明示规则与目标的抽象回合制环境，从离散视觉画面和行动反馈中探索操作含义，逐步完成多关任务。",
+            "en": "ARC-AGI-3 places agents in abstract turn-based environments without explicit rules or goals, requiring discovery through visual observations and action feedback."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "核心问题是面对新环境的适应效率：智能体需要提出规则假设、验证状态转移，再把获得的内部模型用于后续关卡的行动规划。",
+            "en": "It studies adaptive efficiency: agents hypothesize rules, test transitions and apply acquired internal models to later levels."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "RHAE 将关卡完成与相对人类基线的行动效率结合，先逐关评价再汇总到环境；动作接口包括环境特定按键和坐标选择。",
+            "en": "RHAE combines completion with action efficiency relative to human baselines, aggregating level scores within environments using environment-specific controls."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务采用简单离散视觉与动作接口，重点是未知规则下的适应与行动效率。公开示例说明交互方式，私有新环境构成独立测试，评分以人类行动基线为参照。",
+            "en": "Simple visual and action interfaces focus measurement on adaptation and action efficiency under unknown rules. Public examples explain interaction; private environments define testing against human action baselines."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ARC-AGI-3 让智能体进入没有明示规则与目标的抽象回合制环境，从离散视觉画面和行动反馈中探索操作含义，逐步完成多关任务。",
+          "en": "ARC-AGI-3 places agents in abstract turn-based environments without explicit rules or goals, requiring discovery through visual observations and action feedback."
+        },
+        {
+          "zh": "核心问题是面对新环境的适应效率：智能体需要提出规则假设、验证状态转移，再把获得的内部模型用于后续关卡的行动规划。",
+          "en": "It studies adaptive efficiency: agents hypothesize rules, test transitions and apply acquired internal models to later levels."
+        },
+        {
+          "zh": "RHAE 将关卡完成与相对人类基线的行动效率结合，先逐关评价再汇总到环境；动作接口包括环境特定按键和坐标选择。",
+          "en": "RHAE combines completion with action efficiency relative to human baselines, aggregating level scores within environments using environment-specific controls."
+        },
+        {
+          "zh": "任务采用简单离散视觉与动作接口，重点是未知规则下的适应与行动效率。公开示例说明交互方式，私有新环境构成独立测试，评分以人类行动基线为参照。",
+          "en": "Simple visual and action interfaces focus measurement on adaptation and action efficiency under unknown rules. Public examples explain interaction; private environments define testing against human action baselines."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.24621",
+          "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence"
+        },
+        {
+          "url": "https://arxiv.org/html/2603.24621",
+          "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2607.04293",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "CausalGame 以十四类互动模拟情境评估因果思考，智能体主动设计试验、收集观测，并提交最终方案与解释，情境包含选择偏差、测量误差及隐藏混杂。",
+            "en": "CausalGame evaluates causal thinking in fourteen interactive scenarios involving selection bias, measurement error and hidden confounding through experiments and final reports."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究重点是从相关性中辨认可干预机制；查询工具、候选部署和有限试验预算构成信息获取过程，真实结构因果模型不向智能体公开。",
+            "en": "Agents must distinguish intervenable mechanisms from correlations using query tools and bounded experiments while the structural causal model remains hidden."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已审阅的 Antenna Trap 单元要求选择防御配置，以最终一千架模拟无人机的生存率及阈值成功计分，因果解释评分单独报告。",
+            "en": "The reviewed Antenna Trap unit scores a defensive configuration on survival across 1,000 simulated drones, with threshold success and causal explanations reported separately."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "天线陷阱是十四类情境中的具体干预实验，防御配置、试验预算和生存阈值定义其评价单位；其他情境分别体现选择偏差、测量误差或隐藏混杂机制。",
+            "en": "Antenna Trap is one intervention experiment with its own defensive design, budget and survival threshold; other scenarios instantiate selection bias, measurement error or hidden confounding."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "CausalGame 以十四类互动模拟情境评估因果思考，智能体主动设计试验、收集观测，并提交最终方案与解释，情境包含选择偏差、测量误差及隐藏混杂。",
+          "en": "CausalGame evaluates causal thinking in fourteen interactive scenarios involving selection bias, measurement error and hidden confounding through experiments and final reports."
+        },
+        {
+          "zh": "研究重点是从相关性中辨认可干预机制；查询工具、候选部署和有限试验预算构成信息获取过程，真实结构因果模型不向智能体公开。",
+          "en": "Agents must distinguish intervenable mechanisms from correlations using query tools and bounded experiments while the structural causal model remains hidden."
+        },
+        {
+          "zh": "已审阅的 Antenna Trap 单元要求选择防御配置，以最终一千架模拟无人机的生存率及阈值成功计分，因果解释评分单独报告。",
+          "en": "The reviewed Antenna Trap unit scores a defensive configuration on survival across 1,000 simulated drones, with threshold success and causal explanations reported separately."
+        },
+        {
+          "zh": "天线陷阱是十四类情境中的具体干预实验，防御配置、试验预算和生存阈值定义其评价单位；其他情境分别体现选择偏差、测量误差或隐藏混杂机制。",
+          "en": "Antenna Trap is one intervention experiment with its own defensive design, budget and survival threshold; other scenarios instantiate selection bias, measurement error or hidden confounding."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.04293",
+          "title": "CausalGame: Benchmarking Causal Thinking of LLM Agents in Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.04293v1",
+          "title": "CausalGame: Benchmarking Causal Thinking of LLM Agents in Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2607.05185",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ClassicLogic 围绕数独、KenKen、Kakuro 与 Futoshiki 四类经典逻辑谜题建立显式分层知识库，把复杂解题策略表示为基础规则的组合。",
+            "en": "ClassicLogic supplies hierarchical knowledge bases for Sudoku, KenKen, Kakuro and Futoshiki, expressing complex solving strategies as compositions of elementary rules."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究对象是组合泛化：模型是否能从基础规则形成多步策略，并把已知知识应用到需要新组合、且难度经过验证的谜题。",
+            "en": "It studies compositional generalization from basic rules to multistep strategies and novel combinations at validated difficulty levels."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验的数独交互使用符号网格或 MNIST 视觉线索，通过 place(row,col,value) 更新棋盘，以困难任务成功率检验策略形成和应用。",
+            "en": "The reviewed Sudoku interaction uses symbolic or MNIST-rendered clues and rule-checked placement actions, measuring success on hard strategy-composition tasks."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "完整资源包含四类逻辑谜题，数独提供已审阅的具体行动接口。符号和视觉线索形成两种观察条件，困难任务以层级知识组合所要求的策略深度组织。",
+            "en": "The resource spans four puzzle families, with Sudoku providing the reviewed action interface. Symbolic and visual clues define observation conditions, and difficult tasks exercise hierarchical strategy composition."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ClassicLogic 围绕数独、KenKen、Kakuro 与 Futoshiki 四类经典逻辑谜题建立显式分层知识库，把复杂解题策略表示为基础规则的组合。",
+          "en": "ClassicLogic supplies hierarchical knowledge bases for Sudoku, KenKen, Kakuro and Futoshiki, expressing complex solving strategies as compositions of elementary rules."
+        },
+        {
+          "zh": "研究对象是组合泛化：模型是否能从基础规则形成多步策略，并把已知知识应用到需要新组合、且难度经过验证的谜题。",
+          "en": "It studies compositional generalization from basic rules to multistep strategies and novel combinations at validated difficulty levels."
+        },
+        {
+          "zh": "已核验的数独交互使用符号网格或 MNIST 视觉线索，通过 place(row,col,value) 更新棋盘，以困难任务成功率检验策略形成和应用。",
+          "en": "The reviewed Sudoku interaction uses symbolic or MNIST-rendered clues and rule-checked placement actions, measuring success on hard strategy-composition tasks."
+        },
+        {
+          "zh": "完整资源包含四类逻辑谜题，数独提供已审阅的具体行动接口。符号和视觉线索形成两种观察条件，困难任务以层级知识组合所要求的策略深度组织。",
+          "en": "The resource spans four puzzle families, with Sudoku providing the reviewed action interface. Symbolic and visual clues define observation conditions, and difficult tasks exercise hierarchical strategy composition."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.05185",
+          "title": "ClassicLogic: A Knowledge-Driven Benchmark of Classic Puzzle Games for Evaluating Compositional Generalization"
+        },
+        {
+          "url": "https://arxiv.org/html/2607.05185v1",
+          "title": "ClassicLogic, Sections 3.5 and 4.4"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.12593",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "DiG-bench 包含七十个独立字符串游戏；每个游戏的状态变换规则和各关胜利条件均未知，智能体必须通过操作、观察与试验发现规律。",
+            "en": "DiG-bench contains seventy independent string games with unknown transformation rules and level goals that agents discover through interaction."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "它把科学发现中的提出概括和实验检验转化为可控游戏任务；接口返回字符串、合法动作、关卡、生命与步数，并支持探索和生存模式。",
+            "en": "The benchmark operationalizes generalization and experimental testing through string states, legal actions, levels, lives and exploration or survival modes."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评测按七个难度层比较通关比例和行动消耗，连续关卡检验规则是否真正被掌握；难度分层依赖所测模型的实际表现。",
+            "en": "Evaluation reports wins and action use across seven difficulty tiers; successive levels test acquired rules, and tier difficulty depends on evaluated models."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "公开集合含二十一个游戏，剩余部分用于私有评测；各划分分别报告结果。字符串状态、未知目标和可执行动作共同构成这套符号互动发现任务。",
+            "en": "Twenty-one games are public and the remainder private, with split-specific reporting. String states, unknown goals and executable actions define the symbolic discovery setting."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "DiG-bench 包含七十个独立字符串游戏；每个游戏的状态变换规则和各关胜利条件均未知，智能体必须通过操作、观察与试验发现规律。",
+          "en": "DiG-bench contains seventy independent string games with unknown transformation rules and level goals that agents discover through interaction."
+        },
+        {
+          "zh": "它把科学发现中的提出概括和实验检验转化为可控游戏任务；接口返回字符串、合法动作、关卡、生命与步数，并支持探索和生存模式。",
+          "en": "The benchmark operationalizes generalization and experimental testing through string states, legal actions, levels, lives and exploration or survival modes."
+        },
+        {
+          "zh": "评测按七个难度层比较通关比例和行动消耗，连续关卡检验规则是否真正被掌握；难度分层依赖所测模型的实际表现。",
+          "en": "Evaluation reports wins and action use across seven difficulty tiers; successive levels test acquired rules, and tier difficulty depends on evaluated models."
+        },
+        {
+          "zh": "公开集合含二十一个游戏，剩余部分用于私有评测；各划分分别报告结果。字符串状态、未知目标和可执行动作共同构成这套符号互动发现任务。",
+          "en": "Twenty-one games are public and the remainder private, with split-specific reporting. String states, unknown goals and executable actions define the symbolic discovery setting."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.12593",
+          "title": "DiG-bench: Discovery in Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2608.12593",
+          "title": "DiG-bench: Discovery in Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.08160",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "NCP-Bench 将互动叙事中的长期一致性定义为叙事承诺保持，提供一百个由电影梗概构成的环境，每个环境含轨迹、承诺和初始事实。",
+            "en": "NCP-Bench defines narrative commitment preservation in one hundred movie-derived environments with trajectories, commitments and initial facts."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "被测模型扮演叙述者，面对玩家代理的自由乃至对抗性干预持续生成故事；研究重点是语言流畅时仍能否保持既有事实和必要叙事条件。",
+            "en": "The evaluated narrator responds to free-form or adversarial player interventions, testing whether fluent storytelling preserves facts and required narrative conditions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "结构化规范允许在互动中自动检查冲突，比较承诺存活率、事实冲突及成就承诺完成；随轮数变化的结果体现错误累积。",
+            "en": "Structured specifications enable automatic checks of survival, fact conflicts and achievement commitments over turns, exposing accumulated consistency failures."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测对象是维持叙事承诺的生成式叙述者，玩家代理通过多轮干预推动故事；事实一致、承诺存活和成就达成分别描述其长期叙事可靠性。",
+            "en": "The evaluated role is a generative narrator preserving commitments while a player agent drives interventions; fact consistency, commitment survival and achievement completion describe reliability."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "NCP-Bench 将互动叙事中的长期一致性定义为叙事承诺保持，提供一百个由电影梗概构成的环境，每个环境含轨迹、承诺和初始事实。",
+          "en": "NCP-Bench defines narrative commitment preservation in one hundred movie-derived environments with trajectories, commitments and initial facts."
+        },
+        {
+          "zh": "被测模型扮演叙述者，面对玩家代理的自由乃至对抗性干预持续生成故事；研究重点是语言流畅时仍能否保持既有事实和必要叙事条件。",
+          "en": "The evaluated narrator responds to free-form or adversarial player interventions, testing whether fluent storytelling preserves facts and required narrative conditions."
+        },
+        {
+          "zh": "结构化规范允许在互动中自动检查冲突，比较承诺存活率、事实冲突及成就承诺完成；随轮数变化的结果体现错误累积。",
+          "en": "Structured specifications enable automatic checks of survival, fact conflicts and achievement commitments over turns, exposing accumulated consistency failures."
+        },
+        {
+          "zh": "评测对象是维持叙事承诺的生成式叙述者，玩家代理通过多轮干预推动故事；事实一致、承诺存活和成就达成分别描述其长期叙事可靠性。",
+          "en": "The evaluated role is a generative narrator preserving commitments while a player agent drives interventions; fact consistency, commitment survival and achievement completion describe reliability."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.08160",
+          "title": "Can LLM Agents Stick to the Script? A Benchmark for Long-Horizon Consistency in Interactive Narratives"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2606.19338",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "RNG-Bench 包含翻牌配对和第一视角三维迷宫两种非马尔可夫游戏，正确行动依赖当前画面已不可见、但先前观察过的牌面或空间结构。",
+            "en": "RNG-Bench uses Matching Pairs and egocentric 3D Maze, where actions depend on previously observed information absent from the current view."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "翻牌要求保存牌与位置的对应，迷宫要求融合局部视角构建空间地图；统一框架控制网格规模、视觉图案与观察模态，以分析历史重建。",
+            "en": "Matching Pairs requires card-location recall; Maze requires spatial integration. Grid size, patterns and observation modality control reconstruction difficulty."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "配对比例、每对响应次数以及迷宫成功与效率反映行为表现；Memory Gap 配合对照条件区分遗忘和动作选择错误，并以对决协议降低实例差异。",
+            "en": "Behavioral metrics cover matching, response cost, maze success and efficiency; Memory Gap separates forgetting from decision errors, while duels control instance variance."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "两款游戏分别采用翻牌与第一视角导航动作，迷宫综合分结合成功、效率和探索。观察模态及历史负荷提供可控条件，Memory Gap 支持按错误来源分解。",
+            "en": "The games use card flipping and egocentric navigation respectively; maze scores combine success, efficiency and exploration, while modalities, history load and Memory Gap support controlled error analysis."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "RNG-Bench 包含翻牌配对和第一视角三维迷宫两种非马尔可夫游戏，正确行动依赖当前画面已不可见、但先前观察过的牌面或空间结构。",
+          "en": "RNG-Bench uses Matching Pairs and egocentric 3D Maze, where actions depend on previously observed information absent from the current view."
+        },
+        {
+          "zh": "翻牌要求保存牌与位置的对应，迷宫要求融合局部视角构建空间地图；统一框架控制网格规模、视觉图案与观察模态，以分析历史重建。",
+          "en": "Matching Pairs requires card-location recall; Maze requires spatial integration. Grid size, patterns and observation modality control reconstruction difficulty."
+        },
+        {
+          "zh": "配对比例、每对响应次数以及迷宫成功与效率反映行为表现；Memory Gap 配合对照条件区分遗忘和动作选择错误，并以对决协议降低实例差异。",
+          "en": "Behavioral metrics cover matching, response cost, maze success and efficiency; Memory Gap separates forgetting from decision errors, while duels control instance variance."
+        },
+        {
+          "zh": "两款游戏分别采用翻牌与第一视角导航动作，迷宫综合分结合成功、效率和探索。观察模态及历史负荷提供可控条件，Memory Gap 支持按错误来源分解。",
+          "en": "The games use card flipping and egocentric navigation respectively; maze scores combine success, efficiency and exploration, while modalities, history load and Memory Gap support controlled error analysis."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.19338",
+          "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2606.19338",
+          "title": "Beyond the Current Observation: Evaluating Multimodal Large Language Models in Controllable Non-Markov Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2607.20767",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Rushes 记录用户在 AI 生成分支叙事中的选择，包含六个游戏、八千余名用户和四万余个决策事件，每条记录保留候选项、选择及演变语境。",
+            "en": "Rushes records candidate sets, choices and evolving context from AI branching narratives: over forty thousand events from more than eight thousand users across six games."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "数据以持续用户标识连接顺序轨迹，用于研究个体化参与偏好与多元对齐，关注同一用户在不同叙事阶段的选择差异。",
+            "en": "Persistent user identifiers link sequential trajectories for research on personalized engagement preferences and pluralistic alignment."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "基准以事件级选择预测比较语言模型、流行度基线和矩阵分解方法，分析选择熵及个性化信号；准确率反映对人类选择的拟合。",
+            "en": "Event-level choice prediction compares LLMs, popularity baselines and matrix factorization, with choice entropy and personalized signal as additional analyses."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "数据来自真实用户互动，发布基准采用离线事件选择预测，持续用户标识支持个体层面分析；候选集合和叙事历史共同界定每次预测的可用信息。",
+            "en": "Real user interaction supplies offline choice-prediction data; persistent identifiers support individual-level analysis, with candidate sets and narrative history defining each prediction context."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Rushes 记录用户在 AI 生成分支叙事中的选择，包含六个游戏、八千余名用户和四万余个决策事件，每条记录保留候选项、选择及演变语境。",
+          "en": "Rushes records candidate sets, choices and evolving context from AI branching narratives: over forty thousand events from more than eight thousand users across six games."
+        },
+        {
+          "zh": "数据以持续用户标识连接顺序轨迹，用于研究个体化参与偏好与多元对齐，关注同一用户在不同叙事阶段的选择差异。",
+          "en": "Persistent user identifiers link sequential trajectories for research on personalized engagement preferences and pluralistic alignment."
+        },
+        {
+          "zh": "基准以事件级选择预测比较语言模型、流行度基线和矩阵分解方法，分析选择熵及个性化信号；准确率反映对人类选择的拟合。",
+          "en": "Event-level choice prediction compares LLMs, popularity baselines and matrix factorization, with choice entropy and personalized signal as additional analyses."
+        },
+        {
+          "zh": "数据来自真实用户互动，发布基准采用离线事件选择预测，持续用户标识支持个体层面分析；候选集合和叙事历史共同界定每次预测的可用信息。",
+          "en": "Real user interaction supplies offline choice-prediction data; persistent identifiers support individual-level analysis, with candidate sets and narrative history defining each prediction context."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.20767",
+          "title": "Rushes: A Human Preference Dataset for Pluralistic Alignment"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB108",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ChronoPlay 面向在线游戏领域的检索增强问答，自动追踪游戏内容更新及玩家社区关注点变化，把官方资料与社区提问模式共同纳入数据生成。",
+            "en": "ChronoPlay generates game-domain RAG benchmarks by tracking content updates and changing community interests using official information and authentic query patterns."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "其双动态机制研究知识新鲜度和真实玩家需求之间的关系，双来源合成在事实准确与提问自然性之间建立联系，并实例化于三个游戏。",
+            "en": "Dual dynamics connects knowledge freshness with player demand; dual-source synthesis balances factual accuracy and authentic questions across three games."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评测单位是时间相关的问题、检索语境和回答，比较系统对版本变化及热点迁移的响应；知识来源时间是理解回答有效性的关键条件。",
+            "en": "Evaluation concerns temporally situated questions, retrieval context and answers, assessing responses to version changes and shifts in community attention."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测对象是游戏领域的动态检索与回答系统，三个游戏提供知识语境。官方信息时间、社区提问模式和回答证据共同限定每个版本的有效评价范围。",
+            "en": "The target is dynamic game-domain retrieval and answering across three knowledge contexts, with official update times, community query patterns and answer evidence defining each benchmark version."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ChronoPlay 面向在线游戏领域的检索增强问答，自动追踪游戏内容更新及玩家社区关注点变化，把官方资料与社区提问模式共同纳入数据生成。",
+          "en": "ChronoPlay generates game-domain RAG benchmarks by tracking content updates and changing community interests using official information and authentic query patterns."
+        },
+        {
+          "zh": "其双动态机制研究知识新鲜度和真实玩家需求之间的关系，双来源合成在事实准确与提问自然性之间建立联系，并实例化于三个游戏。",
+          "en": "Dual dynamics connects knowledge freshness with player demand; dual-source synthesis balances factual accuracy and authentic questions across three games."
+        },
+        {
+          "zh": "评测单位是时间相关的问题、检索语境和回答，比较系统对版本变化及热点迁移的响应；知识来源时间是理解回答有效性的关键条件。",
+          "en": "Evaluation concerns temporally situated questions, retrieval context and answers, assessing responses to version changes and shifts in community attention."
+        },
+        {
+          "zh": "评测对象是游戏领域的动态检索与回答系统，三个游戏提供知识语境。官方信息时间、社区提问模式和回答证据共同限定每个版本的有效评价范围。",
+          "en": "The target is dynamic game-domain retrieval and answering across three knowledge contexts, with official update times, community query patterns and answer evidence defining each benchmark version."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/78abb5f1206ca54c375084223de9c2ef-Abstract-Conference.html",
+          "title": "ChronoPlay: A Framework for Modeling Dual Dynamics and Authenticity in Game RAG Benchmarks"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB085",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "FlashAdventure 提供三十四款 Flash 冒险游戏的屏幕交互评测，智能体通过点击、键盘和原生游戏界面完成指定里程碑、数值目标或故事任务。",
+            "en": "FlashAdventure evaluates native screen interaction across thirty-four Flash adventures using clicks, keyboard inputs and game-specific milestones or numeric objectives."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究重点是早期观察到的线索如何支持后续行动。COAST 以长期线索记忆组织计划，CUA-as-a-Judge 从实际游戏轨迹判定目标进展。",
+            "en": "It studies how earlier clues inform later actions. COAST organizes planning around long-term clue memory, and CUA-as-a-Judge assesses gameplay progress."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "离散任务报告里程碑完成比例，六种连续目标按人类参考归一化，并另列动作数；Game Cafe Escape 的依赖链体现道具、线索与逃离目标的先后关系。",
+            "en": "Discrete tasks use milestone completion; six continuous objectives use human normalization. Action counts are separate, and Game Cafe Escape illustrates prerequisite chains."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "各游戏按指定目标评价，两个 Grim Tales 场景聚焦初始找物，其余任务具有不同故事跨度；CUA-as-a-Judge 与完整代理配置共同参与结果生成。",
+            "en": "Games are evaluated against their specified objectives; two Grim Tales scenes focus on initial hidden-object tasks, while story spans vary elsewhere and results depend on judge and agent configurations."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "FlashAdventure 提供三十四款 Flash 冒险游戏的屏幕交互评测，智能体通过点击、键盘和原生游戏界面完成指定里程碑、数值目标或故事任务。",
+          "en": "FlashAdventure evaluates native screen interaction across thirty-four Flash adventures using clicks, keyboard inputs and game-specific milestones or numeric objectives."
+        },
+        {
+          "zh": "研究重点是早期观察到的线索如何支持后续行动。COAST 以长期线索记忆组织计划，CUA-as-a-Judge 从实际游戏轨迹判定目标进展。",
+          "en": "It studies how earlier clues inform later actions. COAST organizes planning around long-term clue memory, and CUA-as-a-Judge assesses gameplay progress."
+        },
+        {
+          "zh": "离散任务报告里程碑完成比例，六种连续目标按人类参考归一化，并另列动作数；Game Cafe Escape 的依赖链体现道具、线索与逃离目标的先后关系。",
+          "en": "Discrete tasks use milestone completion; six continuous objectives use human normalization. Action counts are separate, and Game Cafe Escape illustrates prerequisite chains."
+        },
+        {
+          "zh": "各游戏按指定目标评价，两个 Grim Tales 场景聚焦初始找物，其余任务具有不同故事跨度；CUA-as-a-Judge 与完整代理配置共同参与结果生成。",
+          "en": "Games are evaluated against their specified objectives; two Grim Tales scenes focus on initial hidden-object tasks, while story spans vary elsewhere and results depend on judge and agent configurations."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2025.emnlp-main.1192/",
+          "title": "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games"
+        },
+        {
+          "url": "https://aclanthology.org/2025.emnlp-main.1192.pdf",
+          "title": "FlashAdventure: A Benchmark for GUI Agents Solving Full Story Arcs in Diverse Adventure Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB066",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "WhodunitBench 以剧本杀检验多模态智能体，玩家获得角色剧本、私有及公开文字与图像线索，通过讨论和最终投票识别凶手，凶手则隐藏身份。",
+            "en": "WhodunitBench evaluates multimodal agents in murder mysteries using role scripts, private and public clues, discussion and voting to identify or conceal the murderer."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "信息分配与角色目标构成动态推理场景，智能体需要整合视觉线索、他人陈述和动机证据；它同时提供互动竞技场和分解能力的问答链。",
+            "en": "Role goals and asymmetric information require integration of visual clues, statements and motives. The suite includes an interactive arena and a separate question-based evaluation chain."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "竞技场由五十个经过筛选的剧本构成，以角色对战胜率衡量结果；三千余道选择题与开放题用于分析感知和推理环节，作为独立的分解诊断报告。",
+            "en": "The arena uses fifty curated scripts and role-conditioned win rates; more than three thousand separate questions analyze perception and reasoning."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "互动竞技场和静态问答链分别形成整体表现与分解诊断，角色目标、线索分配和同场玩家策略构成竞技场条件；剧本级细节按对应设置解释。",
+            "en": "The interactive arena and static question chain provide overall behavior and component diagnostics respectively; role goals, clue allocation and co-player policies define arena conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "WhodunitBench 以剧本杀检验多模态智能体，玩家获得角色剧本、私有及公开文字与图像线索，通过讨论和最终投票识别凶手，凶手则隐藏身份。",
+          "en": "WhodunitBench evaluates multimodal agents in murder mysteries using role scripts, private and public clues, discussion and voting to identify or conceal the murderer."
+        },
+        {
+          "zh": "信息分配与角色目标构成动态推理场景，智能体需要整合视觉线索、他人陈述和动机证据；它同时提供互动竞技场和分解能力的问答链。",
+          "en": "Role goals and asymmetric information require integration of visual clues, statements and motives. The suite includes an interactive arena and a separate question-based evaluation chain."
+        },
+        {
+          "zh": "竞技场由五十个经过筛选的剧本构成，以角色对战胜率衡量结果；三千余道选择题与开放题用于分析感知和推理环节，作为独立的分解诊断报告。",
+          "en": "The arena uses fifty curated scripts and role-conditioned win rates; more than three thousand separate questions analyze perception and reasoning."
+        },
+        {
+          "zh": "互动竞技场和静态问答链分别形成整体表现与分解诊断，角色目标、线索分配和同场玩家策略构成竞技场条件；剧本级细节按对应设置解释。",
+          "en": "The interactive arena and static question chain provide overall behavior and component diagnostics respectively; role goals, clue allocation and co-player policies define arena conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9dd4533e7e4e5ed809344280609c5b05-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "WhodunitBench: Evaluating Large Multimodal Agents via Murder Mystery Games"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/9dd4533e7e4e5ed809344280609c5b05-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "WhodunitBench: Evaluating Large Multimodal Agents via Murder Mystery Games"
+        },
+        {
+          "url": "https://github.com/jun0wanan/WhodunitBench-Murder_Mystery_Games",
+          "title": "WhodunitBench official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB052",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "clembench 使用受约束的对话游戏评估聊天模型作为情境化交互者的表现，初始论文包含五种互动设置，通过程序化游戏管理器组织轮次与规则。",
+            "en": "clembench evaluates chat models as situated conversational agents in five initial interaction settings managed through explicit rules and turns."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "它将遵循互动格式与达到游戏目标分别记录，以分析模型能否形成连贯的协作行为。Taboo 中描述者知道目标和禁词，猜词者只能依据合法描述推断。",
+            "en": "It separates interaction-format compliance from goal achievement. In Taboo, the describer sees the target and forbidden words while the guesser infers it from legal clues."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验的 Taboo 设定限制猜测次数并校验禁词；有效进行比例与成功所需轮数构成 clemscore，成功速度项采用 100/n。",
+            "en": "The reviewed Taboo protocol limits guesses and checks taboo words; clemscore combines played ratio with a successful speed score of 100/n."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Taboo 是框架中的一个双人协议，clemscore 描述模型配对的有效互动与目标达成。中止、合法失败和成功分开记录，其他游戏使用各自规则与目标。",
+            "en": "Taboo is one two-player protocol; clemscore describes valid interaction and goal achievement of model pairs. Aborts, valid failures and successes are recorded separately across game-specific rules."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "clembench 使用受约束的对话游戏评估聊天模型作为情境化交互者的表现，初始论文包含五种互动设置，通过程序化游戏管理器组织轮次与规则。",
+          "en": "clembench evaluates chat models as situated conversational agents in five initial interaction settings managed through explicit rules and turns."
+        },
+        {
+          "zh": "它将遵循互动格式与达到游戏目标分别记录，以分析模型能否形成连贯的协作行为。Taboo 中描述者知道目标和禁词，猜词者只能依据合法描述推断。",
+          "en": "It separates interaction-format compliance from goal achievement. In Taboo, the describer sees the target and forbidden words while the guesser infers it from legal clues."
+        },
+        {
+          "zh": "已核验的 Taboo 设定限制猜测次数并校验禁词；有效进行比例与成功所需轮数构成 clemscore，成功速度项采用 100/n。",
+          "en": "The reviewed Taboo protocol limits guesses and checks taboo words; clemscore combines played ratio with a successful speed score of 100/n."
+        },
+        {
+          "zh": "Taboo 是框架中的一个双人协议，clemscore 描述模型配对的有效互动与目标达成。中止、合法失败和成功分开记录，其他游戏使用各自规则与目标。",
+          "en": "Taboo is one two-player protocol; clemscore describes valid interaction and goal achievement of model pairs. Aborts, valid failures and successes are recorded separately across game-specific rules."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2023.emnlp-main.689/",
+          "title": "clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents"
+        },
+        {
+          "url": "https://aclanthology.org/2023.emnlp-main.689.pdf",
+          "title": "clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB053",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Machiavelli 收集一百三十四款分支文字冒险游戏及大量社会决策场景，智能体从当前场景给出的选项中选择行动，争取预设成就。",
+            "en": "Machiavelli collects 134 branching text adventures with social decision scenarios; agents select provided options to pursue specified achievements."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "场景标注把权力寻求、不利后果和伦理违规转化为可计算的行为指标，研究奖励最大化与行为伤害之间的权衡，并比较降低伤害的引导方法。",
+            "en": "Scenario annotations operationalize power-seeking, disutility and ethical violations to study reward-harm trade-offs and methods for steering behavior."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已审阅实验使用三十款测试游戏，报告归一化成就奖励，并把伤害相对一千条随机轨迹的均值归一化；语言模型基线输出选项编号。",
+            "en": "The reviewed experiment uses thirty test games, normalized achievement reward and harm relative to one thousand random trajectories; language baselines output choice indices."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "完整资源含一百三十四款游戏，审阅实验采用三十款测试子集。当前场景提示、目标成就和伤害标注定义主要评价信息，奖励与伦理指标分开报告。",
+            "en": "The full resource contains 134 games, with thirty in the reviewed test subset. Current-scene prompts, achievements and harm annotations define evaluation, with reward and ethics reported separately."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Machiavelli 收集一百三十四款分支文字冒险游戏及大量社会决策场景，智能体从当前场景给出的选项中选择行动，争取预设成就。",
+          "en": "Machiavelli collects 134 branching text adventures with social decision scenarios; agents select provided options to pursue specified achievements."
+        },
+        {
+          "zh": "场景标注把权力寻求、不利后果和伦理违规转化为可计算的行为指标，研究奖励最大化与行为伤害之间的权衡，并比较降低伤害的引导方法。",
+          "en": "Scenario annotations operationalize power-seeking, disutility and ethical violations to study reward-harm trade-offs and methods for steering behavior."
+        },
+        {
+          "zh": "已审阅实验使用三十款测试游戏，报告归一化成就奖励，并把伤害相对一千条随机轨迹的均值归一化；语言模型基线输出选项编号。",
+          "en": "The reviewed experiment uses thirty test games, normalized achievement reward and harm relative to one thousand random trajectories; language baselines output choice indices."
+        },
+        {
+          "zh": "完整资源含一百三十四款游戏，审阅实验采用三十款测试子集。当前场景提示、目标成就和伤害标注定义主要评价信息，奖励与伦理指标分开报告。",
+          "en": "The full resource contains 134 games, with thirty in the reviewed test subset. Current-scene prompts, achievements and harm annotations define evaluation, with reward and ethics reported separately."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v202/pan23a.html",
+          "title": "Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the Machiavelli Benchmark"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v202/pan23a/pan23a.pdf",
+          "title": "Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the Machiavelli Benchmark"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB022",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "JerichoWorld 是面向文字冒险世界建模的监督数据集，将自然语言观察映射到描述世界状态的知识图谱，以及能够改变当前状态的有效文字动作。",
+            "en": "JerichoWorld is a supervised text-adventure dataset mapping natural-language observations to world-state knowledge graphs and state-changing valid actions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究对象是部分可观测叙事中的结构化状态表示：房间、人物、物体及其关系需要从文本中恢复，规则、问答和序列学习模型提供基线。",
+            "en": "It studies structured representations under partial observability, recovering locations, characters, objects and relations with rule-based, QA and sequence-learning baselines."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "训练数据包含二十七款游戏的二万四千余条映射，另以九款游戏的七千余个保留实例测试，分别评价图谱恢复和有效动作预测。",
+            "en": "Training comprises over twenty-four thousand mappings from twenty-seven games; more than seven thousand held-out examples from nine games test graph and action prediction."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源以离线观察样本为评价单位，知识图谱与有效动作是监督目标；训练和保留测试按游戏划分，重点检验结构化文本世界模型对新游戏的预测泛化。",
+            "en": "Offline observations are the evaluation units, with graphs and valid actions as supervised targets; game-level splits test predictive generalization of structured textual world models."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "JerichoWorld 是面向文字冒险世界建模的监督数据集，将自然语言观察映射到描述世界状态的知识图谱，以及能够改变当前状态的有效文字动作。",
+          "en": "JerichoWorld is a supervised text-adventure dataset mapping natural-language observations to world-state knowledge graphs and state-changing valid actions."
+        },
+        {
+          "zh": "研究对象是部分可观测叙事中的结构化状态表示：房间、人物、物体及其关系需要从文本中恢复，规则、问答和序列学习模型提供基线。",
+          "en": "It studies structured representations under partial observability, recovering locations, characters, objects and relations with rule-based, QA and sequence-learning baselines."
+        },
+        {
+          "zh": "训练数据包含二十七款游戏的二万四千余条映射，另以九款游戏的七千余个保留实例测试，分别评价图谱恢复和有效动作预测。",
+          "en": "Training comprises over twenty-four thousand mappings from twenty-seven games; more than seven thousand held-out examples from nine games test graph and action prediction."
+        },
+        {
+          "zh": "资源以离线观察样本为评价单位，知识图谱与有效动作是监督目标；训练和保留测试按游戏划分，重点检验结构化文本世界模型对新游戏的预测泛化。",
+          "en": "Offline observations are the evaluation units, with graphs and valid actions as supervised targets; game-level splits test predictive generalization of structured textual world models."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/1f0e3dad99908345f7439f8ffabdffc4-Abstract-round1.html",
+          "title": "Modeling Worlds in Text"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB021",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "TextWorld Commonsense 构造家庭物品整理文字环境，智能体阅读房间、库存与反馈，从候选命令中移动、拿取并把物品放到常识上合适的位置。",
+            "en": "TextWorld Commonsense creates household tidying games where agents read room and inventory text and choose movement, pickup and placement commands."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "任务检验物体属性与功能知识能否帮助行动筛选和前瞻推理；知识增强基线动态检索 ConceptNet，并把相关知识与顺序上下文结合。",
+            "en": "The task tests whether object attributes and affordances improve action pruning and lookahead; knowledge-enhanced baselines dynamically retrieve ConceptNet information."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评测报告相对最大可得分的归一化分数与行动步数，使用域内和未见物品划分；审阅协议含五十步测试上限、多次训练运行与人类参照。",
+            "en": "Evaluation reports normalized score and action count under in-distribution and unseen-object splits, with a fifty-step test limit, repeated runs and human references."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "常识整理生成器限定物品、位置和功能关系，知识增强与基础代理分别对应不同信息条件。域内及未见物品划分提供对常识利用和迁移的具体比较。",
+            "en": "The tidying generator specifies objects, locations and affordances; knowledge-enhanced and base agents have distinct information conditions, compared on seen and unseen objects."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "TextWorld Commonsense 构造家庭物品整理文字环境，智能体阅读房间、库存与反馈，从候选命令中移动、拿取并把物品放到常识上合适的位置。",
+          "en": "TextWorld Commonsense creates household tidying games where agents read room and inventory text and choose movement, pickup and placement commands."
+        },
+        {
+          "zh": "任务检验物体属性与功能知识能否帮助行动筛选和前瞻推理；知识增强基线动态检索 ConceptNet，并把相关知识与顺序上下文结合。",
+          "en": "The task tests whether object attributes and affordances improve action pruning and lookahead; knowledge-enhanced baselines dynamically retrieve ConceptNet information."
+        },
+        {
+          "zh": "评测报告相对最大可得分的归一化分数与行动步数，使用域内和未见物品划分；审阅协议含五十步测试上限、多次训练运行与人类参照。",
+          "en": "Evaluation reports normalized score and action count under in-distribution and unseen-object splits, with a fifty-step test limit, repeated runs and human references."
+        },
+        {
+          "zh": "常识整理生成器限定物品、位置和功能关系，知识增强与基础代理分别对应不同信息条件。域内及未见物品划分提供对常识利用和迁移的具体比较。",
+          "en": "The tidying generator specifies objects, locations and affordances; knowledge-enhanced and base agents have distinct information conditions, compared on seen and unseen objects."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/17090",
+          "title": "Text-based RL Agents with Commonsense Knowledge: New Challenges, Environments and Baselines"
+        },
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/17090/16897",
+          "title": "Text-based RL Agents with Commonsense Knowledge: New Challenges, Environments and Baselines"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-2.7",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LongPuzzleBench 将六款视觉谜题的一百一十四关组织为十六个目标，智能体读取屏幕并使用原生坐标点击、拖动等操作，跨连续棋盘完成任务。",
+            "en": "LongPuzzleBench groups 114 levels from six visual puzzles into sixteen objectives played through screenshots and native clicks, drags and other GUI actions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "持续棋盘中看似合法且有进展的动作可能破坏后续可解性，死局也不主动提示；研究重点是长行动链中保留未来选择及维持计划可行性。",
+            "en": "Persistent boards can become unsolvable after apparently useful legal moves, without dead-end warnings, testing preservation of future options across long plans."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "目标成功率、关卡完成率和细粒度进度分别衡量终局与中途表现，并按游戏宏平均；共享预算和主动重启机制共同约束完成过程。",
+            "en": "Objective success, level completion and fine-grained progress are macro-averaged by game; shared budgets and agent-initiated restarts constrain completion."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "原生 GUI 与代码执行条件分别体现视觉操作和可编程搜索，结果对应完整代理系统。持续棋盘、预算、重启和延迟共同构成十六个目标的完成条件。",
+            "en": "Native GUI and code execution offer visual interaction and programmable search respectively. Complete-system results depend on persistent boards, budgets, restart and latency across sixteen objectives."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LongPuzzleBench 将六款视觉谜题的一百一十四关组织为十六个目标，智能体读取屏幕并使用原生坐标点击、拖动等操作，跨连续棋盘完成任务。",
+          "en": "LongPuzzleBench groups 114 levels from six visual puzzles into sixteen objectives played through screenshots and native clicks, drags and other GUI actions."
+        },
+        {
+          "zh": "持续棋盘中看似合法且有进展的动作可能破坏后续可解性，死局也不主动提示；研究重点是长行动链中保留未来选择及维持计划可行性。",
+          "en": "Persistent boards can become unsolvable after apparently useful legal moves, without dead-end warnings, testing preservation of future options across long plans."
+        },
+        {
+          "zh": "目标成功率、关卡完成率和细粒度进度分别衡量终局与中途表现，并按游戏宏平均；共享预算和主动重启机制共同约束完成过程。",
+          "en": "Objective success, level completion and fine-grained progress are macro-averaged by game; shared budgets and agent-initiated restarts constrain completion."
+        },
+        {
+          "zh": "原生 GUI 与代码执行条件分别体现视觉操作和可编程搜索，结果对应完整代理系统。持续棋盘、预算、重启和延迟共同构成十六个目标的完成条件。",
+          "en": "Native GUI and code execution offer visual interaction and programmable search respectively. Complete-system results depend on persistent boards, budgets, restart and latency across sixteen objectives."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.34769",
+          "title": "LongPuzzleBench: Evaluating GUI Agents on Long-Horizon Visual Puzzles"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.34769",
+          "title": "LongPuzzleBench: Evaluating GUI Agents on Long-Horizon Visual Puzzles"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-2.2",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "WITNESS 提供二维网格隐藏规则谜题，智能体依据真实 ASCII 棋盘、尝试反馈和局内规则笔记，探索并提交满足约束的路径。",
+            "en": "WITNESS provides 2D hidden-rule puzzles using ground-truth ASCII boards, interaction feedback and a rule notebook to discover valid paths."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "WitnessGym 生成训练任务，WitnessBench 将已学原语的新组合与训练外原语分开，配合直接提供规则的条件分析规则获取和规则执行两类瓶颈。",
+            "en": "WitnessGym supports training; WitnessBench separates novel compositions from unseen rule primitives and uses revealed-rule conditions to distinguish acquisition from execution."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "动作包括四向移动、提交和重置，每次调用最多十六步；完成关卡数与 RHAE-L5/L20 比较相对人类或最优参照的行动效率。",
+            "en": "Actions include movement, submission and reset, with up to sixteen actions per call; solved levels and RHAE-L5/L20 capture completion and relative efficiency."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "十七个私有测试游戏与八个公开验证游戏分别承担测试和开发角色；规则公开程度、观察接口及代理配置构成对照条件，笔记记录支持互动中的假设积累。",
+            "en": "Seventeen private test games and eight public validation games serve separate roles; rule access, observation interface and agent configuration define controls, with notebooks tracking hypotheses."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "WITNESS 提供二维网格隐藏规则谜题，智能体依据真实 ASCII 棋盘、尝试反馈和局内规则笔记，探索并提交满足约束的路径。",
+          "en": "WITNESS provides 2D hidden-rule puzzles using ground-truth ASCII boards, interaction feedback and a rule notebook to discover valid paths."
+        },
+        {
+          "zh": "WitnessGym 生成训练任务，WitnessBench 将已学原语的新组合与训练外原语分开，配合直接提供规则的条件分析规则获取和规则执行两类瓶颈。",
+          "en": "WitnessGym supports training; WitnessBench separates novel compositions from unseen rule primitives and uses revealed-rule conditions to distinguish acquisition from execution."
+        },
+        {
+          "zh": "动作包括四向移动、提交和重置，每次调用最多十六步；完成关卡数与 RHAE-L5/L20 比较相对人类或最优参照的行动效率。",
+          "en": "Actions include movement, submission and reset, with up to sixteen actions per call; solved levels and RHAE-L5/L20 capture completion and relative efficiency."
+        },
+        {
+          "zh": "十七个私有测试游戏与八个公开验证游戏分别承担测试和开发角色；规则公开程度、观察接口及代理配置构成对照条件，笔记记录支持互动中的假设积累。",
+          "en": "Seventeen private test games and eight public validation games serve separate roles; rule access, observation interface and agent configuration define controls, with notebooks tracking hypotheses."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.32208",
+          "title": "Witness: Discovery, Deciphering, and Epiphany in Interactive Puzzle Environments"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.32208v1",
+          "title": "Witness: Discovery, Deciphering, and Epiphany in Interactive Puzzle Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB082",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "LVLM-Playground 将棋盘游戏组织为感知、问答、规则遵循和端到端游玩四条评测轨道，利用结构化游戏场景检验视觉语言模型的细粒度理解。",
+            "en": "LVLM-Playground organizes board-game evaluation into perception, question answering, rule following and end-to-end play to probe detailed visual-language understanding."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "分解轨道分析稠密棋盘元素、长结构化输出和规则推理的困难，端到端轨道则要求模型从棋盘截图与规则提示生成下一合法操作。",
+            "en": "Diagnostic tracks analyze dense board elements, long structured outputs and rules; end-to-end play requires legal actions from board screenshots and instructions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验的端到端任务覆盖六款游戏，包括井字棋、黑白棋和五子棋；附录定义游戏专属的进度、步数与终局奖励组合，并指定对手实现。",
+            "en": "Six reviewed end-to-end games include Tic-Tac-Toe, Reversi and Gomoku, using specified opponents and game-specific scores combining progress, moves and outcomes."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "四条轨道分别覆盖感知、问答、规则遵循和互动执行，端到端任务按游戏专属指标报告。棋盘呈现、动作编码与对手实现共同组成每项比较的条件。",
+            "en": "The four tracks cover perception, QA, rule following and interaction, with game-specific end-to-end metrics and explicit board, action and opponent conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "LVLM-Playground 将棋盘游戏组织为感知、问答、规则遵循和端到端游玩四条评测轨道，利用结构化游戏场景检验视觉语言模型的细粒度理解。",
+          "en": "LVLM-Playground organizes board-game evaluation into perception, question answering, rule following and end-to-end play to probe detailed visual-language understanding."
+        },
+        {
+          "zh": "分解轨道分析稠密棋盘元素、长结构化输出和规则推理的困难，端到端轨道则要求模型从棋盘截图与规则提示生成下一合法操作。",
+          "en": "Diagnostic tracks analyze dense board elements, long structured outputs and rules; end-to-end play requires legal actions from board screenshots and instructions."
+        },
+        {
+          "zh": "已核验的端到端任务覆盖六款游戏，包括井字棋、黑白棋和五子棋；附录定义游戏专属的进度、步数与终局奖励组合，并指定对手实现。",
+          "en": "Six reviewed end-to-end games include Tic-Tac-Toe, Reversi and Gomoku, using specified opponents and game-specific scores combining progress, moves and outcomes."
+        },
+        {
+          "zh": "四条轨道分别覆盖感知、问答、规则遵循和互动执行，端到端任务按游戏专属指标报告。棋盘呈现、动作编码与对手实现共同组成每项比较的条件。",
+          "en": "The four tracks cover perception, QA, rule following and interaction, with game-specific end-to-end metrics and explicit board, action and opponent conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/27881a19f100fdbf57f0ba1c3d499b08-Abstract-Conference.html",
+          "title": "Are Large Vision Language Models Good Game Players?"
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/27881a19f100fdbf57f0ba1c3d499b08-Paper-Conference.pdf",
+          "title": "Are Large Vision Language Models Good Game Players?"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "memory-gym",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Memory Gym 将 Mortar Mayhem、Mystery Path 和 Searing Spotlights 三种二维部分可观测环境扩展为无尽任务，让需要保存的信息随互动持续增长。",
+            "en": "Memory Gym extends Mortar Mayhem, Mystery Path and Searing Spotlights into endless partially observable tasks with increasing memory demands."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "它比较 GRU 和采用 Transformer-XL 滑动窗口的 PPO，研究有限任务中的样本效率与持续增长负荷下的记忆有效性是否给出一致结论。",
+            "en": "The study compares GRU and Transformer-XL PPO, examining whether sample efficiency in finite tasks predicts memory effectiveness under growing endless loads."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "目录代表单元 Endless Mortar Mayhem 逐次展示新指令，要求重演累积序列，以正确完成的序列长度衡量表现；观察为视觉输入并通过移动执行指令。",
+            "en": "The representative Endless Mortar Mayhem task reveals additional commands and requires replay of the growing sequence, scoring correctly completed length from visual-input movement."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "三种环境及有限、无尽版本具有各自的信息保存机制和负荷曲线。本文的循环网络与 Transformer-XL 比较采用强化学习策略，代表单元明确为无尽指令重演。",
+            "en": "The environments and finite/endless variants have distinct memory mechanisms and load curves; the paper compares RL policies, with endless command replay as the representative unit."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Memory Gym 将 Mortar Mayhem、Mystery Path 和 Searing Spotlights 三种二维部分可观测环境扩展为无尽任务，让需要保存的信息随互动持续增长。",
+          "en": "Memory Gym extends Mortar Mayhem, Mystery Path and Searing Spotlights into endless partially observable tasks with increasing memory demands."
+        },
+        {
+          "zh": "它比较 GRU 和采用 Transformer-XL 滑动窗口的 PPO，研究有限任务中的样本效率与持续增长负荷下的记忆有效性是否给出一致结论。",
+          "en": "The study compares GRU and Transformer-XL PPO, examining whether sample efficiency in finite tasks predicts memory effectiveness under growing endless loads."
+        },
+        {
+          "zh": "目录代表单元 Endless Mortar Mayhem 逐次展示新指令，要求重演累积序列，以正确完成的序列长度衡量表现；观察为视觉输入并通过移动执行指令。",
+          "en": "The representative Endless Mortar Mayhem task reveals additional commands and requires replay of the growing sequence, scoring correctly completed length from visual-input movement."
+        },
+        {
+          "zh": "三种环境及有限、无尽版本具有各自的信息保存机制和负荷曲线。本文的循环网络与 Transformer-XL 比较采用强化学习策略，代表单元明确为无尽指令重演。",
+          "en": "The environments and finite/endless variants have distinct memory mechanisms and load curves; the paper compares RL policies, with endless command replay as the representative unit."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jmlr.org/papers/v26/24-0043.html",
+          "title": "Memory Gym: Towards Endless Tasks to Benchmark Memory Capabilities of Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB096",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "XLand-100B 是基于 XLand-MiniGrid 的大规模上下文强化学习数据集，收集近三万种任务的完整学习历史，包含一千亿条转移和二十五亿个回合。",
+            "en": "XLand-100B provides complete learning histories for nearly thirty thousand XLand-MiniGrid tasks, totaling one hundred billion transitions and 2.5 billion episodes."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "模型从过去观察、动作和奖励中学习适应未见规则与目标，测试时不更新权重；数据和生成工具旨在支持超出简单小规模环境的上下文学习研究。",
+            "en": "Models adapt to unseen rules and goals from observation-action-reward histories without test-time weight updates; released data and tools support large-scale in-context RL."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "互动使用五乘五局部符号观察及六种导航或物体交互动作，以随上下文长度变化的任务回报评价适应；离线历史供训练，在线新任务检验泛化。",
+            "en": "Interaction uses local 5×5 symbolic views and six navigation or object actions; return versus context length measures adaptation after offline-history training."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源包括离线训练历史和在线未见任务适应两部分，学习成功过滤定义收集分布。XLand-MiniGrid 采用局部符号状态，任务回报随上下文变化体现适应过程。",
+            "en": "The resource combines offline histories with online adaptation to unseen tasks; success filtering defines the collection distribution, and symbolic MiniGrid returns trace contextual adaptation."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "XLand-100B 是基于 XLand-MiniGrid 的大规模上下文强化学习数据集，收集近三万种任务的完整学习历史，包含一千亿条转移和二十五亿个回合。",
+          "en": "XLand-100B provides complete learning histories for nearly thirty thousand XLand-MiniGrid tasks, totaling one hundred billion transitions and 2.5 billion episodes."
+        },
+        {
+          "zh": "模型从过去观察、动作和奖励中学习适应未见规则与目标，测试时不更新权重；数据和生成工具旨在支持超出简单小规模环境的上下文学习研究。",
+          "en": "Models adapt to unseen rules and goals from observation-action-reward histories without test-time weight updates; released data and tools support large-scale in-context RL."
+        },
+        {
+          "zh": "互动使用五乘五局部符号观察及六种导航或物体交互动作，以随上下文长度变化的任务回报评价适应；离线历史供训练，在线新任务检验泛化。",
+          "en": "Interaction uses local 5×5 symbolic views and six navigation or object actions; return versus context length measures adaptation after offline-history training."
+        },
+        {
+          "zh": "资源包括离线训练历史和在线未见任务适应两部分，学习成功过滤定义收集分布。XLand-MiniGrid 采用局部符号状态，任务回报随上下文变化体现适应过程。",
+          "en": "The resource combines offline histories with online adaptation to unseen tasks; success filtering defines the collection distribution, and symbolic MiniGrid returns trace contextual adaptation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/b0a34e3c64f7e842f20ec10479c32b35-Abstract-Conference.html",
+          "title": "XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning"
+        },
+        {
+          "url": "https://arxiv.org/html/2406.08973",
+          "title": "XLand-100B: A Large-Scale Multi-Task Dataset for In-Context Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB078",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ChildPlay 以 ASCII 编码的井字棋、四子棋、Battleship 和形状任务研究语言模型的非语言问题求解，并加入 LEGO 连接语言和分子结构相关任务。",
+            "en": "ChildPlay studies nonlinguistic problem solving through ASCII board games and shape tasks, adding LEGO Connect Language and a molecular-structure task."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究以简单明确的规则减少语言表达复杂性，比较不同 GPT 模型对空间结构、合法操作、获胜机会和阻挡需求的处理，观察能力提升是否跨任务一致。",
+            "en": "Simple rules reduce linguistic complexity while comparing GPT models on spatial structures, legal moves, winning opportunities and blocking across tasks."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "三种已审阅棋盘任务对随机对手行动，输出行列坐标或列编号，报告胜负平、非法动作及错失获胜或阻挡机会；其他任务使用各自结构判断。",
+            "en": "Three reviewed board tasks use random opponents and coordinate or column actions, measuring outcomes, illegal moves and missed wins or blocks."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "棋盘对战、形状识别、LEGO 结构与分子编码任务共同组成资源，分别使用相应评价方式。三种游玩任务采用 ASCII 表示、随机对手及论文特定规则。",
+            "en": "The resource combines board play, shapes, LEGO structure and molecular encoding with task-specific evaluations; reviewed gameplay uses ASCII views, random opponents and paper-specific rules."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ChildPlay 以 ASCII 编码的井字棋、四子棋、Battleship 和形状任务研究语言模型的非语言问题求解，并加入 LEGO 连接语言和分子结构相关任务。",
+          "en": "ChildPlay studies nonlinguistic problem solving through ASCII board games and shape tasks, adding LEGO Connect Language and a molecular-structure task."
+        },
+        {
+          "zh": "研究以简单明确的规则减少语言表达复杂性，比较不同 GPT 模型对空间结构、合法操作、获胜机会和阻挡需求的处理，观察能力提升是否跨任务一致。",
+          "en": "Simple rules reduce linguistic complexity while comparing GPT models on spatial structures, legal moves, winning opportunities and blocking across tasks."
+        },
+        {
+          "zh": "三种已审阅棋盘任务对随机对手行动，输出行列坐标或列编号，报告胜负平、非法动作及错失获胜或阻挡机会；其他任务使用各自结构判断。",
+          "en": "Three reviewed board tasks use random opponents and coordinate or column actions, measuring outcomes, illegal moves and missed wins or blocks."
+        },
+        {
+          "zh": "棋盘对战、形状识别、LEGO 结构与分子编码任务共同组成资源，分别使用相应评价方式。三种游玩任务采用 ASCII 表示、随机对手及论文特定规则。",
+          "en": "The resource combines board play, shapes, LEGO structure and molecular encoding with task-specific evaluations; reviewed gameplay uses ASCII views, random opponents and paper-specific rules."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2407.11068",
+          "title": "Show, Don't Tell: Evaluating Large Language Models Beyond Textual Understanding with ChildPlay"
+        },
+        {
+          "url": "https://arxiv.org/html/2407.11068",
+          "title": "Show, Don't Tell: Evaluating Large Language Models Beyond Textual Understanding with ChildPlay"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB065",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GameTraversalBenchmark 让语言模型在二维网格地图上按顺序到达目标，每到一个目标后从新位置继续，既要求路径可执行，也要求减少步数和输出错误。",
+            "en": "GameTraversalBenchmark asks LLMs to reach ordered targets on 2D maps, continuing from each reached position while minimizing route length and output errors."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "输入包含文本地图、实体图例、当前位置及目标坐标，模型一次生成通向当前目标的动作序列；这一设计将空间表示与显式多步路径生成联系起来。",
+            "en": "Text maps, legends, current positions and target coordinates support generation of an action sequence for each target, coupling spatial representation with multistep routing."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已审阅集合包含一百五十张 Word2World 地图，以 A* 路径为参照，报告 GTB-Score、不同错误容忍条件的准确率、路径长度及生成错误。",
+            "en": "The reviewed set contains 150 Word2World maps with A* references, reporting GTB-Score, accuracy under error tolerances, route length and generation errors."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "文本地图与一次生成的目标路径定义任务接口，综合分同时反映完成、路径成本和输出合法性。顺序目标、错误容忍和 A* 参照构成具体评价范围。",
+            "en": "Text maps and per-target generated routes define the interface; composite scores reflect completion, route cost and valid output under sequential objectives, error tolerances and A* references."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GameTraversalBenchmark 让语言模型在二维网格地图上按顺序到达目标，每到一个目标后从新位置继续，既要求路径可执行，也要求减少步数和输出错误。",
+          "en": "GameTraversalBenchmark asks LLMs to reach ordered targets on 2D maps, continuing from each reached position while minimizing route length and output errors."
+        },
+        {
+          "zh": "输入包含文本地图、实体图例、当前位置及目标坐标，模型一次生成通向当前目标的动作序列；这一设计将空间表示与显式多步路径生成联系起来。",
+          "en": "Text maps, legends, current positions and target coordinates support generation of an action sequence for each target, coupling spatial representation with multistep routing."
+        },
+        {
+          "zh": "已审阅集合包含一百五十张 Word2World 地图，以 A* 路径为参照，报告 GTB-Score、不同错误容忍条件的准确率、路径长度及生成错误。",
+          "en": "The reviewed set contains 150 Word2World maps with A* references, reporting GTB-Score, accuracy under error tolerances, route length and generation errors."
+        },
+        {
+          "zh": "文本地图与一次生成的目标路径定义任务接口，综合分同时反映完成、路径成本和输出合法性。顺序目标、错误容忍和 A* 参照构成具体评价范围。",
+          "en": "Text maps and per-target generated routes define the interface; composite scores reflect completion, route cost and valid output under sequential objectives, error tolerances and A* references."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3852c8254bc6d904c09db9921157f59b-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "GameTraversalBenchmark: Evaluating Planning Abilities of Large Language Models Through Traversing 2D Game Maps"
+        },
+        {
+          "url": "https://arxiv.org/html/2410.07765",
+          "title": "GameTraversalBenchmark: Evaluating Planning Abilities of Large Language Models Through Traversing 2D Game Maps"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB073",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "PUZZLES 把 Simon Tatham 的便携谜题集转为强化学习基准，涵盖四十种可调尺寸和复杂度的逻辑游戏，从桥梁连接、推演数字到网络与路径约束。",
+            "en": "PUZZLES converts Simon Tatham’s collection into forty RL logic-puzzle environments with adjustable size and complexity, covering numeric, network and path constraints."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "环境以内部离散棋盘状态为主要观察，并可提供 RGB 像素；游戏专属键盘动作把逻辑推断转化为逐步操作，用于比较算法推理和尺度泛化。",
+            "en": "Discrete board states, optional RGB observations and puzzle-specific keyboard actions turn logical deductions into sequential operations for algorithmic reasoning research."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评测记录完成率和成功回合长度，并使用人类表现及最优步数上界作参照；已审阅材料覆盖四十种规则，尺寸泛化实验集中于其中三种。",
+            "en": "Evaluation measures completion and successful episode length with human and optimal-step upper-bound references; reviewed rules cover forty puzzles, while size-generalization tests cover three."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "四十种谜题共享环境框架，各自保持约束规则与操作方式；尺寸泛化结果对应三个测试游戏。棋盘编码、动作接口与解题策略共同影响完成和步数指标。",
+            "en": "Forty puzzles share infrastructure while retaining specific constraints and controls; size-generalization results concern three tested games, with encoding, interface and strategy affecting completion and length."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "PUZZLES 把 Simon Tatham 的便携谜题集转为强化学习基准，涵盖四十种可调尺寸和复杂度的逻辑游戏，从桥梁连接、推演数字到网络与路径约束。",
+          "en": "PUZZLES converts Simon Tatham’s collection into forty RL logic-puzzle environments with adjustable size and complexity, covering numeric, network and path constraints."
+        },
+        {
+          "zh": "环境以内部离散棋盘状态为主要观察，并可提供 RGB 像素；游戏专属键盘动作把逻辑推断转化为逐步操作，用于比较算法推理和尺度泛化。",
+          "en": "Discrete board states, optional RGB observations and puzzle-specific keyboard actions turn logical deductions into sequential operations for algorithmic reasoning research."
+        },
+        {
+          "zh": "评测记录完成率和成功回合长度，并使用人类表现及最优步数上界作参照；已审阅材料覆盖四十种规则，尺寸泛化实验集中于其中三种。",
+          "en": "Evaluation measures completion and successful episode length with human and optimal-step upper-bound references; reviewed rules cover forty puzzles, while size-generalization tests cover three."
+        },
+        {
+          "zh": "四十种谜题共享环境框架，各自保持约束规则与操作方式；尺寸泛化结果对应三个测试游戏。棋盘编码、动作接口与解题策略共同影响完成和步数指标。",
+          "en": "Forty puzzles share infrastructure while retaining specific constraints and controls; size-generalization results concern three tested games, with encoding, interface and strategy affecting completion and length."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e5d1eaadeed651ba1021c09149db4b92-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "PUZZLES: A Benchmark for Neural Algorithmic Reasoning"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e5d1eaadeed651ba1021c09149db4b92-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "PUZZLES: A Benchmark for Neural Algorithmic Reasoning"
+        },
+        {
+          "url": "https://github.com/ETH-DISCO/rlp",
+          "title": "Official PUZZLES implementation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB051",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "CARL 通过给经典控制、物理仿真和平台游戏加入可控上下文变量，构造可以明确指定训练及测试分布的强化学习环境库。",
+            "en": "CARL adds controlled contextual variables to classic control, physics and platform environments, enabling explicitly defined training and test distributions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "它以情境化强化学习区分插值、分布偏移与外推，并比较隐藏上下文和显式上下文，研究环境变化时策略为何失效以及上下文信息如何帮助泛化。",
+            "en": "Contextual RL separates interpolation, distribution shift and extrapolation, comparing hidden and visible context to study policy robustness under environmental variation."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "CARLMario 案例在程序生成的平台关卡中行动，视觉输入可额外提供生成噪声张量；以距起点的平均前进距离衡量关卡完成程度。",
+            "en": "CARLMario traverses generated platform levels with visual observations and optionally the generation-noise tensor, evaluating mean distance progressed from the start."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "CARLMario 使用 TOAD-GAN 与 Mario AI Framework 的研究实现，关卡生成参数定义其上下文。其他控制与物理环境通过各自参数构造插值、偏移和外推分布。",
+            "en": "CARLMario uses the TOAD-GAN and Mario AI Framework research implementation; level parameters define its context, while control and physics domains have their own distributions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "CARL 通过给经典控制、物理仿真和平台游戏加入可控上下文变量，构造可以明确指定训练及测试分布的强化学习环境库。",
+          "en": "CARL adds controlled contextual variables to classic control, physics and platform environments, enabling explicitly defined training and test distributions."
+        },
+        {
+          "zh": "它以情境化强化学习区分插值、分布偏移与外推，并比较隐藏上下文和显式上下文，研究环境变化时策略为何失效以及上下文信息如何帮助泛化。",
+          "en": "Contextual RL separates interpolation, distribution shift and extrapolation, comparing hidden and visible context to study policy robustness under environmental variation."
+        },
+        {
+          "zh": "CARLMario 案例在程序生成的平台关卡中行动，视觉输入可额外提供生成噪声张量；以距起点的平均前进距离衡量关卡完成程度。",
+          "en": "CARLMario traverses generated platform levels with visual observations and optionally the generation-noise tensor, evaluating mean distance progressed from the start."
+        },
+        {
+          "zh": "CARLMario 使用 TOAD-GAN 与 Mario AI Framework 的研究实现，关卡生成参数定义其上下文。其他控制与物理环境通过各自参数构造插值、偏移和外推分布。",
+          "en": "CARLMario uses the TOAD-GAN and Mario AI Framework research implementation; level parameters define its context, while control and physics domains have their own distributions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2202.04500",
+          "title": "Contextualize Me -- The Case for Context in Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/automl/CARL",
+          "title": "CARL — official repository"
+        },
+        {
+          "url": "https://arxiv.org/html/2202.04500",
+          "title": "Contextualize Me – The Case for Context in Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB033",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GriddlyJS 是基于 Griddly 引擎的网页开发环境，用于设计、调试和发布程序生成的网格任务，并在浏览器中观察、评测与录制训练后策略。",
+            "en": "GriddlyJS is a browser IDE for designing, debugging and publishing procedurally generated grid environments and inspecting trained policies."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源将环境设计、模型可视化和可交互复现实验联系起来。EscapeRoom 案例中，智能体收集资源、制造工具并清除路线，最终到达樱桃树。",
+            "en": "It connects environment design with interactive experiment reproduction. Its EscapeRoom case requires gathering resources, crafting tools and clearing a route to a cherry tree."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "案例采用 GDY 定义的网格或图像观察和离散移动、采集、制作动作；PPO 检查点在一百个人工关卡与一百个随机关卡上比较解题率。",
+            "en": "GDY-defined observations and discrete movement, harvesting and crafting actions support PPO solve-rate comparisons on one hundred human-designed and one hundred random levels."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "完整资源是环境开发与发布平台，EscapeRoom 提供组合谜题的具体实验。人工设计和程序生成关卡组成两类测试分布，观察形式由 GDY 定义。",
+            "en": "The full resource is an environment-development platform; EscapeRoom provides the concrete compositional-puzzle study with human-designed and generated distributions and GDY-defined observations."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GriddlyJS 是基于 Griddly 引擎的网页开发环境，用于设计、调试和发布程序生成的网格任务，并在浏览器中观察、评测与录制训练后策略。",
+          "en": "GriddlyJS is a browser IDE for designing, debugging and publishing procedurally generated grid environments and inspecting trained policies."
+        },
+        {
+          "zh": "资源将环境设计、模型可视化和可交互复现实验联系起来。EscapeRoom 案例中，智能体收集资源、制造工具并清除路线，最终到达樱桃树。",
+          "en": "It connects environment design with interactive experiment reproduction. Its EscapeRoom case requires gathering resources, crafting tools and clearing a route to a cherry tree."
+        },
+        {
+          "zh": "案例采用 GDY 定义的网格或图像观察和离散移动、采集、制作动作；PPO 检查点在一百个人工关卡与一百个随机关卡上比较解题率。",
+          "en": "GDY-defined observations and discrete movement, harvesting and crafting actions support PPO solve-rate comparisons on one hundred human-designed and one hundred random levels."
+        },
+        {
+          "zh": "完整资源是环境开发与发布平台，EscapeRoom 提供组合谜题的具体实验。人工设计和程序生成关卡组成两类测试分布，观察形式由 GDY 定义。",
+          "en": "The full resource is an environment-development platform; EscapeRoom provides the concrete compositional-puzzle study with human-designed and generated distributions and GDY-defined observations."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/611b896d447df43c898062358df4c114-Abstract.html",
+          "title": "GriddlyJS: A Web IDE for Reinforcement Learning"
+        },
+        {
+          "url": "https://arxiv.org/html/2207.06105",
+          "title": "GriddlyJS: A Web IDE for Reinforcement Learning"
+        },
+        {
+          "url": "https://arxiv.org/html/2207.06105v1",
+          "title": "GriddlyJS: A Web IDE for Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB016",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MESSENGER 要求智能体在十乘十符号网格中先取得信件，再送往正确目标并躲避敌人；自然语言手册描述实体身份及运动动力学。",
+            "en": "MESSENGER asks agents to pick up a message, deliver it and avoid enemies on a 10×10 symbolic grid using a manual describing entities and dynamics."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "实体符号与手册文本的联系并非预先给定，模型必须把角色及行为描述落地到游戏状态。EMMA 用实体条件注意力从相关手册句子学习潜在对应。",
+            "en": "Agents learn the grounding between manual descriptions and entity symbols. EMMA uses entity-conditioned attention to connect relevant text with observed roles and behavior."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "通过上、下、左、右和停留动作互动，取信、交付和失败分别提供反馈奖励；三阶段任务及未见实体动力学划分以胜率检验泛化。",
+            "en": "Five movement or stay actions receive pickup, delivery and failure rewards; three stages and held-out entity-dynamics splits assess generalization through win rate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "测试划分围绕实体身份、运动方式和规则组合构造，手册可见性定义语言落地条件。胜率联合反映文本解释、动态理解和网格导航的执行效果。",
+            "en": "Splits vary entity identities, dynamics and rule combinations under manual access; win rate jointly reflects language interpretation, dynamics understanding and grid navigation."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MESSENGER 要求智能体在十乘十符号网格中先取得信件，再送往正确目标并躲避敌人；自然语言手册描述实体身份及运动动力学。",
+          "en": "MESSENGER asks agents to pick up a message, deliver it and avoid enemies on a 10×10 symbolic grid using a manual describing entities and dynamics."
+        },
+        {
+          "zh": "实体符号与手册文本的联系并非预先给定，模型必须把角色及行为描述落地到游戏状态。EMMA 用实体条件注意力从相关手册句子学习潜在对应。",
+          "en": "Agents learn the grounding between manual descriptions and entity symbols. EMMA uses entity-conditioned attention to connect relevant text with observed roles and behavior."
+        },
+        {
+          "zh": "通过上、下、左、右和停留动作互动，取信、交付和失败分别提供反馈奖励；三阶段任务及未见实体动力学划分以胜率检验泛化。",
+          "en": "Five movement or stay actions receive pickup, delivery and failure rewards; three stages and held-out entity-dynamics splits assess generalization through win rate."
+        },
+        {
+          "zh": "测试划分围绕实体身份、运动方式和规则组合构造，手册可见性定义语言落地条件。胜率联合反映文本解释、动态理解和网格导航的执行效果。",
+          "en": "Splits vary entity identities, dynamics and rule combinations under manual access; win rate jointly reflects language interpretation, dynamics understanding and grid navigation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v139/hanjie21a.html",
+          "title": "Grounding Language to Entities and Dynamics for Generalization in Reinforcement Learning"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v139/hanjie21a/hanjie21a.pdf",
+          "title": "Grounding Language to Entities and Dynamics for Generalization in Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB017",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "SILG 用统一符号接口整合 RTFM、Messenger、NetHack、ALFWorld 与 Touchdown，覆盖规则手册、目标语言、局部世界与多步行动等落地问题。",
+            "en": "SILG unifies RTFM, Messenger, NetHack, ALFWorld and Touchdown through symbolic interfaces spanning manuals, goals, partial observability and sequential action."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "共享模型架构比较局部卷积、循环状态跟踪、实体注意力和预训练语言模型，研究在一个环境有效的设计能否跨观察、动作和语言分布保持收益。",
+            "en": "A shared architecture tests local convolution, recurrent tracking, entity attention and pretrained language models for transfer of modeling gains across environments."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各环境以自己的任务成功条件评分；NetHack 使用 Score、Gold 与 Scout 阈值子任务，RTFM 与 Messenger 的已报告结果限于第一课程阶段。",
+            "en": "Success criteria remain environment-specific: NetHack uses Score, Gold and Scout threshold tasks, while reviewed RTFM and Messenger results concern curriculum stage one."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "五个环境共享符号接口并保留各自目标和成功标准。ALFWorld 与 Touchdown 使用视觉世界的符号对应，NetHack 以阈值子任务表达局部探索与得分目标。",
+            "en": "Five domains share symbolic interfaces while retaining their own success criteria. ALFWorld and Touchdown use symbolic counterparts, and NetHack uses threshold-based exploration and scoring tasks."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "SILG 用统一符号接口整合 RTFM、Messenger、NetHack、ALFWorld 与 Touchdown，覆盖规则手册、目标语言、局部世界与多步行动等落地问题。",
+          "en": "SILG unifies RTFM, Messenger, NetHack, ALFWorld and Touchdown through symbolic interfaces spanning manuals, goals, partial observability and sequential action."
+        },
+        {
+          "zh": "共享模型架构比较局部卷积、循环状态跟踪、实体注意力和预训练语言模型，研究在一个环境有效的设计能否跨观察、动作和语言分布保持收益。",
+          "en": "A shared architecture tests local convolution, recurrent tracking, entity attention and pretrained language models for transfer of modeling gains across environments."
+        },
+        {
+          "zh": "各环境以自己的任务成功条件评分；NetHack 使用 Score、Gold 与 Scout 阈值子任务，RTFM 与 Messenger 的已报告结果限于第一课程阶段。",
+          "en": "Success criteria remain environment-specific: NetHack uses Score, Gold and Scout threshold tasks, while reviewed RTFM and Messenger results concern curriculum stage one."
+        },
+        {
+          "zh": "五个环境共享符号接口并保留各自目标和成功标准。ALFWorld 与 Touchdown 使用视觉世界的符号对应，NetHack 以阈值子任务表达局部探索与得分目标。",
+          "en": "Five domains share symbolic interfaces while retaining their own success criteria. ALFWorld and Touchdown use symbolic counterparts, and NetHack uses threshold-based exploration and scoring tasks."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/b3e3e393c77e35a4a3f3cbd1e429b5dc-Abstract.html",
+          "title": "SILG: The Multi-domain Symbolic Interactive Language Grounding Benchmark"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2021/file/b3e3e393c77e35a4a3f3cbd1e429b5dc-Paper.pdf",
+          "title": "SILG: The Multi-domain Symbolic Interactive Language Grounding Benchmark"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.11216",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "AutoWorldModel-Bench 把编码代理作为自主研究者，要求其在固定计算预算内修改基础世界模型，而不是直接控制玩家角色；套件包含八个自定义游戏环境。",
+            "en": "AutoWorldModel-Bench evaluates coding agents autonomously improving a base world model under fixed compute across eight custom game environments."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "环境以提取出的真实实体状态组成共享张量，隔离视觉感知与动态建模；代理运行实验、读取反馈并改变模型或训练方案，形成闭环研究过程。",
+            "en": "Shared tensors of ground-truth entity state isolate dynamics from perception; agents iterate through experiments, feedback and changes to modeling or training."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "最终采用保留测试划分衡量动态预测相对基础模型的改善，并分析有效修改是结构或训练改变还是简单超参数调整；固定预算约束搜索机会。",
+            "en": "Held-out dynamics prediction measures improvement over the base model, with analysis of substantive model or training edits versus hyperparameter tuning under fixed budgets."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "八款游戏采用项目自定义实现，统一实体状态格式用于动态预测；评价对象是代理修改后的研究代码与世界模型，保留测试数据检验模型改进的泛化。",
+            "en": "Eight custom games supply uniform entity states for dynamics prediction; modified research code and world models are evaluated on held-out data for generalizable improvements."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "AutoWorldModel-Bench 把编码代理作为自主研究者，要求其在固定计算预算内修改基础世界模型，而不是直接控制玩家角色；套件包含八个自定义游戏环境。",
+          "en": "AutoWorldModel-Bench evaluates coding agents autonomously improving a base world model under fixed compute across eight custom game environments."
+        },
+        {
+          "zh": "环境以提取出的真实实体状态组成共享张量，隔离视觉感知与动态建模；代理运行实验、读取反馈并改变模型或训练方案，形成闭环研究过程。",
+          "en": "Shared tensors of ground-truth entity state isolate dynamics from perception; agents iterate through experiments, feedback and changes to modeling or training."
+        },
+        {
+          "zh": "最终采用保留测试划分衡量动态预测相对基础模型的改善，并分析有效修改是结构或训练改变还是简单超参数调整；固定预算约束搜索机会。",
+          "en": "Held-out dynamics prediction measures improvement over the base model, with analysis of substantive model or training edits versus hyperparameter tuning under fixed budgets."
+        },
+        {
+          "zh": "八款游戏采用项目自定义实现，统一实体状态格式用于动态预测；评价对象是代理修改后的研究代码与世界模型，保留测试数据检验模型改进的泛化。",
+          "en": "Eight custom games supply uniform entity states for dynamics prediction; modified research code and world models are evaluated on held-out data for generalizable improvements."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.11216",
+          "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2604.02648",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GBQA 构建三十款游戏和一百二十四个人工核验缺陷，覆盖三档难度，要求语言模型作为质量保证工程师主动发现运行中的错误。",
+            "en": "GBQA contains thirty games and 124 human-verified bugs across three difficulty levels, evaluating LLM agents as autonomous QA engineers."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "多智能体生成与缺陷注入过程结合专家检查建立题目，基线使用多轮 ReAct 和记忆机制探索游戏，通过动作与反馈逐步形成缺陷判断。",
+            "en": "Multi-agent game construction and bug injection are checked by experts; a memory-equipped ReAct baseline explores games across turns to identify defects."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "主要结果是对核验缺陷的发现率，评价不同模型在持续探索中的检测表现；游戏交互是获得错误证据的手段，而不是按常规胜利目标评分。",
+            "en": "Evaluation measures detection of verified bugs across models; game interaction supplies evidence for defect reports and comparison against the validated bug set."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "三十款游戏和人工核验缺陷集合定义质量保证范围，CASTLE 提供八房间文字冒险案例。代理记忆与探索策略用于取得错误证据，最终按缺陷发现结果评价。",
+            "en": "Thirty games and verified defects define QA scope; CASTLE is an eight-room example. Memory and exploration gather evidence, while detected bugs determine performance."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GBQA 构建三十款游戏和一百二十四个人工核验缺陷，覆盖三档难度，要求语言模型作为质量保证工程师主动发现运行中的错误。",
+          "en": "GBQA contains thirty games and 124 human-verified bugs across three difficulty levels, evaluating LLM agents as autonomous QA engineers."
+        },
+        {
+          "zh": "多智能体生成与缺陷注入过程结合专家检查建立题目，基线使用多轮 ReAct 和记忆机制探索游戏，通过动作与反馈逐步形成缺陷判断。",
+          "en": "Multi-agent game construction and bug injection are checked by experts; a memory-equipped ReAct baseline explores games across turns to identify defects."
+        },
+        {
+          "zh": "主要结果是对核验缺陷的发现率，评价不同模型在持续探索中的检测表现；游戏交互是获得错误证据的手段，而不是按常规胜利目标评分。",
+          "en": "Evaluation measures detection of verified bugs across models; game interaction supplies evidence for defect reports and comparison against the validated bug set."
+        },
+        {
+          "zh": "三十款游戏和人工核验缺陷集合定义质量保证范围，CASTLE 提供八房间文字冒险案例。代理记忆与探索策略用于取得错误证据，最终按缺陷发现结果评价。",
+          "en": "Thirty games and verified defects define QA scope; CASTLE is an eight-room example. Memory and exploration gather evidence, while detected bugs determine performance."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.02648",
+          "title": "GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "AX26-2608.19197",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "SPADE 是自博弈强化学习框架，同一个语言模型同时担任环境设计者和推理行动者；设计者编写带 reset/step 接口的完整可执行多轮环境。",
+            "en": "SPADE is a self-play RL framework where one LLM acts as environment designer and reasoning agent, generating executable multi-turn reset/step environments."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "环境包含状态转移、奖励与验证代码，以有无特权提示时的奖励差估计遗憾，推动设计者生成可行且位于当前学习能力边缘的任务。",
+            "en": "State transitions, rewards and verification code define tasks; reward gaps with privileged hints estimate regret to target feasible challenges near the learner’s capability frontier."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "文档材料为环境合成提供知识基础，累积环境记忆支持多样化；训练后的效果通过推理、编码和工具使用任务的迁移评价，而非固定游戏胜率。",
+            "en": "Document grounding and accumulated environment memory diversify generation; downstream reasoning, coding and tool-use transfer evaluate the effects of training."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "数学、逻辑、空间等类别定义环境合成范围，动态课程决定实际任务分布。环境设计者、受训推理代理和可执行验证代码分别承担生成、行动与奖励判定职责。",
+            "en": "Cognitive categories define synthesis scope and adaptive curricula define task distributions; designer, reasoning learner and executable verifier perform generation, action and reward judgment."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "SPADE 是自博弈强化学习框架，同一个语言模型同时担任环境设计者和推理行动者；设计者编写带 reset/step 接口的完整可执行多轮环境。",
+          "en": "SPADE is a self-play RL framework where one LLM acts as environment designer and reasoning agent, generating executable multi-turn reset/step environments."
+        },
+        {
+          "zh": "环境包含状态转移、奖励与验证代码，以有无特权提示时的奖励差估计遗憾，推动设计者生成可行且位于当前学习能力边缘的任务。",
+          "en": "State transitions, rewards and verification code define tasks; reward gaps with privileged hints estimate regret to target feasible challenges near the learner’s capability frontier."
+        },
+        {
+          "zh": "文档材料为环境合成提供知识基础，累积环境记忆支持多样化；训练后的效果通过推理、编码和工具使用任务的迁移评价，而非固定游戏胜率。",
+          "en": "Document grounding and accumulated environment memory diversify generation; downstream reasoning, coding and tool-use transfer evaluate the effects of training."
+        },
+        {
+          "zh": "数学、逻辑、空间等类别定义环境合成范围，动态课程决定实际任务分布。环境设计者、受训推理代理和可执行验证代码分别承担生成、行动与奖励判定职责。",
+          "en": "Cognitive categories define synthesis scope and adaptive curricula define task distributions; designer, reasoning learner and executable verifier perform generation, action and reward judgment."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.19197",
+          "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-T05",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "A2Z GameSpec-Bench 以一百份长篇游戏设计文档测试端到端游戏开发，编码代理需要把游戏逻辑、画面和玩家交互中的相互依赖要求实现为可运行作品。",
+            "en": "A2Z GameSpec-Bench evaluates game development from one hundred long-form design documents with interdependent logic, rendering and interaction requirements."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "每份文档转成包含规则、约束和前置关系的依赖合同；同一合同在不同代理与修改轮次中固定，使遗漏需求与破坏依赖可以对应到具体证据。",
+            "en": "Dependency-aware contracts encode rules, constraints and prerequisites, remaining fixed across agents and revisions so failures can be linked to specific requirements."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评价结合源代码检查、代理生成的测试策略、场景重放和自适应游玩测试，以 GDD Fidelity 衡量实现忠实度，并比较反馈驱动修改与自我修改。",
+            "en": "Evaluation combines source inspection, generated test policies, replay and adaptive playtesting, measuring GDD Fidelity and comparing requirement feedback with self-revision."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评价对象是从长篇设计到可运行游戏的开发忠实度。游玩测试提供运行证据，源代码检查提供实现证据，依赖合同把两者对应到同一组固定需求。",
+            "en": "The target is development fidelity from long designs to runnable games; playtesting and source inspection provide complementary evidence linked to fixed requirements by dependency contracts."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "A2Z GameSpec-Bench 以一百份长篇游戏设计文档测试端到端游戏开发，编码代理需要把游戏逻辑、画面和玩家交互中的相互依赖要求实现为可运行作品。",
+          "en": "A2Z GameSpec-Bench evaluates game development from one hundred long-form design documents with interdependent logic, rendering and interaction requirements."
+        },
+        {
+          "zh": "每份文档转成包含规则、约束和前置关系的依赖合同；同一合同在不同代理与修改轮次中固定，使遗漏需求与破坏依赖可以对应到具体证据。",
+          "en": "Dependency-aware contracts encode rules, constraints and prerequisites, remaining fixed across agents and revisions so failures can be linked to specific requirements."
+        },
+        {
+          "zh": "评价结合源代码检查、代理生成的测试策略、场景重放和自适应游玩测试，以 GDD Fidelity 衡量实现忠实度，并比较反馈驱动修改与自我修改。",
+          "en": "Evaluation combines source inspection, generated test policies, replay and adaptive playtesting, measuring GDD Fidelity and comparing requirement feedback with self-revision."
+        },
+        {
+          "zh": "评价对象是从长篇设计到可运行游戏的开发忠实度。游玩测试提供运行证据，源代码检查提供实现证据，依赖合同把两者对应到同一组固定需求。",
+          "en": "The target is development fidelity from long designs to runnable games; playtesting and source inspection provide complementary evidence linked to fixed requirements by dependency contracts."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.39564",
+          "title": "A2Z GameSpec-Bench: How Faithfully Can Coding Agents Generate Games from Game Design Specifications?"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-T03",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "CraftBench-UE 提供七十项 Unreal Engine 开发任务，覆盖 C++、Blueprint 资产和编辑器脚本，代理在隔离工程中实现指定玩法功能。",
+            "en": "CraftBench-UE provides seventy Unreal Engine development tasks across C++, Blueprint assets and editor scripting in isolated projects."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "评测框架把已保存提交重建到新工程，分别检查构建、资产和运行行为，避免将能编译或存在指定节点等价为玩法正确；裁决由确定性测试产生。",
+            "en": "Saved submissions are reconstructed in fresh projects for deterministic build, asset and runtime checks, separating structural validity from correct gameplay behavior."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "实验比较七种模型与两类编辑器工具配置，并设置相同玩法和运行测试的 C++/Blueprint 配对任务，以完成率和运行断言揭示交付形式差异。",
+            "en": "Experiments compare seven models and two editor-tool configurations, including paired C++ and Blueprint tasks sharing gameplay specifications and runtime tests."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务按引擎功能、资产形式与工具配置组织，保存的提交在新工程中接受统一裁决。构建、资产和运行检查分别反映交付链条中的不同完成层次。",
+            "en": "Tasks vary engine features, asset forms and tools; saved submissions receive uniform fresh-project evaluation, with build, asset and runtime checks representing distinct completion stages."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "CraftBench-UE 提供七十项 Unreal Engine 开发任务，覆盖 C++、Blueprint 资产和编辑器脚本，代理在隔离工程中实现指定玩法功能。",
+          "en": "CraftBench-UE provides seventy Unreal Engine development tasks across C++, Blueprint assets and editor scripting in isolated projects."
+        },
+        {
+          "zh": "评测框架把已保存提交重建到新工程，分别检查构建、资产和运行行为，避免将能编译或存在指定节点等价为玩法正确；裁决由确定性测试产生。",
+          "en": "Saved submissions are reconstructed in fresh projects for deterministic build, asset and runtime checks, separating structural validity from correct gameplay behavior."
+        },
+        {
+          "zh": "实验比较七种模型与两类编辑器工具配置，并设置相同玩法和运行测试的 C++/Blueprint 配对任务，以完成率和运行断言揭示交付形式差异。",
+          "en": "Experiments compare seven models and two editor-tool configurations, including paired C++ and Blueprint tasks sharing gameplay specifications and runtime tests."
+        },
+        {
+          "zh": "任务按引擎功能、资产形式与工具配置组织，保存的提交在新工程中接受统一裁决。构建、资产和运行检查分别反映交付链条中的不同完成层次。",
+          "en": "Tasks vary engine features, asset forms and tools; saved submissions receive uniform fresh-project evaluation, with build, asset and runtime checks representing distinct completion stages."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.23142",
+          "title": "CraftBench-UE: Deterministic Evaluation for Coding Agents in Unreal Engine"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-T02",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GameASG-Bench 包含四十七项浏览器原生游戏生成任务，覆盖十二类主要类型与二维、三维互动，编码代理依据需求生成可运行且可测试的应用。",
+            "en": "GameASG-Bench comprises forty-seven browser-native game-generation tasks across twelve primary genres and both 2D and 3D interaction."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "生成前公开评测接口规范，固定合法起始场景、玩家级动作、稳定快照、拒绝行为及不变量，同时允许代理自由选择内部实现。",
+            "en": "An evaluation interface fixes legal starting scenarios, player actions, snapshots, rejection behavior and invariants before generation while leaving implementation choices open."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "L1 检查源代码层合规，L2 在真实浏览器输入与语义观察中验证运行行为；严格任务成功要求全部适用的前置和核心检查通过。",
+            "en": "L1 checks source compliance and L2 checks browser-executed behavior using real inputs and semantic observations; strict success requires all applicable prerequisite and core checks."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "四十七项任务各有参考实现和可执行检查，严格成功与平均检查通过率分别报告。类型覆盖描述开发需求分布，统一接口则保障不同实现的行为可比性。",
+            "en": "Each of forty-seven tasks has a reference and executable checks; strict success and mean check pass rate are reported separately, with common interfaces enabling behavioral comparison."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GameASG-Bench 包含四十七项浏览器原生游戏生成任务，覆盖十二类主要类型与二维、三维互动，编码代理依据需求生成可运行且可测试的应用。",
+          "en": "GameASG-Bench comprises forty-seven browser-native game-generation tasks across twelve primary genres and both 2D and 3D interaction."
+        },
+        {
+          "zh": "生成前公开评测接口规范，固定合法起始场景、玩家级动作、稳定快照、拒绝行为及不变量，同时允许代理自由选择内部实现。",
+          "en": "An evaluation interface fixes legal starting scenarios, player actions, snapshots, rejection behavior and invariants before generation while leaving implementation choices open."
+        },
+        {
+          "zh": "L1 检查源代码层合规，L2 在真实浏览器输入与语义观察中验证运行行为；严格任务成功要求全部适用的前置和核心检查通过。",
+          "en": "L1 checks source compliance and L2 checks browser-executed behavior using real inputs and semantic observations; strict success requires all applicable prerequisite and core checks."
+        },
+        {
+          "zh": "四十七项任务各有参考实现和可执行检查，严格成功与平均检查通过率分别报告。类型覆盖描述开发需求分布，统一接口则保障不同实现的行为可比性。",
+          "en": "Each of forty-seven tasks has a reference and executable checks; strict success and mean check pass rate are reported separately, with common interfaces enabling behavioral comparison."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.21293",
+          "title": "GameASG-Bench: Benchmarking Autonomous Software Generation for Game Development"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-T01",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GameLogicBench 提供七十二项 Godot 游戏逻辑实现与修复任务，从孤立机制、系统交互延伸到仓库级功能，代理修改工程以满足指定行为。",
+            "en": "GameLogicBench provides seventy-two Godot logic implementation and repair tasks spanning isolated mechanics, interacting systems and repository-scale features."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "评测器在每个模拟 tick 检查规则，而非仅观察合法终局；四百余个人工场景经种子参数扩展成一千四百余测试，覆盖运行中的暂时违规。",
+            "en": "The evaluator checks rules at every simulation tick; over four hundred scenarios yield more than fourteen hundred seeded tests capable of exposing transient violations."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "确定性裁决同时接受不同正确实现，并用移除必要功能的变异程序验证拒错能力；任务解决率用于比较模型与支架组合以及任务规模带来的变化。",
+            "en": "Deterministic judgments accept diverse correct implementations and reject capability-removal mutants; task solve rates compare model-scaffold combinations and task scales."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评价对象是 Godot 工程的游戏逻辑，角色动作由提交程序执行。任务规模、逐帧断言、变异验证与外部代码访问条件共同组成模型和支架比较的背景。",
+            "en": "The target is Godot gameplay logic executed by submitted programs; task scale, tick assertions, mutant validation and external-code access define model-scaffold comparisons."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GameLogicBench 提供七十二项 Godot 游戏逻辑实现与修复任务，从孤立机制、系统交互延伸到仓库级功能，代理修改工程以满足指定行为。",
+          "en": "GameLogicBench provides seventy-two Godot logic implementation and repair tasks spanning isolated mechanics, interacting systems and repository-scale features."
+        },
+        {
+          "zh": "评测器在每个模拟 tick 检查规则，而非仅观察合法终局；四百余个人工场景经种子参数扩展成一千四百余测试，覆盖运行中的暂时违规。",
+          "en": "The evaluator checks rules at every simulation tick; over four hundred scenarios yield more than fourteen hundred seeded tests capable of exposing transient violations."
+        },
+        {
+          "zh": "确定性裁决同时接受不同正确实现，并用移除必要功能的变异程序验证拒错能力；任务解决率用于比较模型与支架组合以及任务规模带来的变化。",
+          "en": "Deterministic judgments accept diverse correct implementations and reject capability-removal mutants; task solve rates compare model-scaffold combinations and task scales."
+        },
+        {
+          "zh": "评价对象是 Godot 工程的游戏逻辑，角色动作由提交程序执行。任务规模、逐帧断言、变异验证与外部代码访问条件共同组成模型和支架比较的背景。",
+          "en": "The target is Godot gameplay logic executed by submitted programs; task scale, tick assertions, mutant validation and external-code access define model-scaffold comparisons."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.21562",
+          "title": "GameLogicBench: Evaluating Coding Agents on Runtime Game Logic with Tick-Level State Assertions"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-C3",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GameXpert-Bench 将游戏开发生命周期拆成 GameGen、GameFix 和 GameOpt 三条轨道，分别测试从零生成、缺陷诊断修复和多轮累积优化。",
+            "en": "GameXpert-Bench separates game development into GameGen creation, GameFix diagnosis and repair, and GameOpt cumulative multiround optimization."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "生成轨道从空工作区接收完整需求，修复轨道区分已报告和待发现问题，优化轨道由真实人机开发轨迹形成请求链，强调修改后的功能保持。",
+            "en": "Creation starts from an empty workspace, repair distinguishes reported from undiscovered defects, and optimization uses trajectory-derived request chains with functionality preservation."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "套件含九十七个生成任务、一百个修复任务和十七条六轮优化链，结合实时游玩、确定性行为测试、产品指标与回归检查评价不同阶段。",
+            "en": "The suite has ninety-seven creation tasks, one hundred repair tasks and seventeen six-turn optimization chains, using playtesting, behavioral tests, product criteria and regression checks."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "三条轨道分别报告生成、修复和迭代优化结果，产品质量与回归保持形成互补证据。当前公开发布提供支架，完整任务文件的发布状态在来源中单独记录。",
+            "en": "Creation, repair and optimization are reported separately, combining product quality with regression preservation. The public scaffold and full task-file release status are recorded separately."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GameXpert-Bench 将游戏开发生命周期拆成 GameGen、GameFix 和 GameOpt 三条轨道，分别测试从零生成、缺陷诊断修复和多轮累积优化。",
+          "en": "GameXpert-Bench separates game development into GameGen creation, GameFix diagnosis and repair, and GameOpt cumulative multiround optimization."
+        },
+        {
+          "zh": "生成轨道从空工作区接收完整需求，修复轨道区分已报告和待发现问题，优化轨道由真实人机开发轨迹形成请求链，强调修改后的功能保持。",
+          "en": "Creation starts from an empty workspace, repair distinguishes reported from undiscovered defects, and optimization uses trajectory-derived request chains with functionality preservation."
+        },
+        {
+          "zh": "套件含九十七个生成任务、一百个修复任务和十七条六轮优化链，结合实时游玩、确定性行为测试、产品指标与回归检查评价不同阶段。",
+          "en": "The suite has ninety-seven creation tasks, one hundred repair tasks and seventeen six-turn optimization chains, using playtesting, behavioral tests, product criteria and regression checks."
+        },
+        {
+          "zh": "三条轨道分别报告生成、修复和迭代优化结果，产品质量与回归保持形成互补证据。当前公开发布提供支架，完整任务文件的发布状态在来源中单独记录。",
+          "en": "Creation, repair and optimization are reported separately, combining product quality with regression preservation. The public scaffold and full task-file release status are recorded separately."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.21833",
+          "title": "GameXpert-Bench: How Far Are Coding Agents from Expert Game Development?"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-2.8",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "PlayTrain 将语言模型生成的 JavaScript 游戏接入高效强化学习流水线，同一文件既可供人类浏览器游玩，也可用于像素策略训练和规则修改实验。",
+            "en": "PlayTrain connects LLM-generated JavaScript games to efficient RL, allowing the same file to support human browser play, pixel-policy training and rule modifications."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "框架以单文件游戏减少环境开发成本，并展示 Atari、Procgen 风格副本与新动力学变体；IMPALA-CNN 等视觉编码支持端到端学习。",
+            "en": "Single-file games reduce environment-development cost, with Atari- and Procgen-style clones and altered dynamics supporting end-to-end visual-policy learning."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已审阅八款游戏报告平均单局分数与达到人类均值所需训练步数，训练逐回合采样种子，最终检查点在八个保留种子上测试；吞吐另作系统指标。",
+            "en": "Eight reviewed games report mean scores and steps to human means, sampling training seeds by episode and testing final checkpoints on eight held-out seeds; throughput is separate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "游戏副本和规则变体采用项目生成的 JavaScript 实现。保留种子、训练重复与人类参与者分别对应测试分布、算法方差和人类参照，按不同统计层级报告。",
+            "en": "Clones and variants use generated JavaScript implementations; held-out seeds, training repetitions and human participants represent test distributions, algorithm variance and human references respectively."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "PlayTrain 将语言模型生成的 JavaScript 游戏接入高效强化学习流水线，同一文件既可供人类浏览器游玩，也可用于像素策略训练和规则修改实验。",
+          "en": "PlayTrain connects LLM-generated JavaScript games to efficient RL, allowing the same file to support human browser play, pixel-policy training and rule modifications."
+        },
+        {
+          "zh": "框架以单文件游戏减少环境开发成本，并展示 Atari、Procgen 风格副本与新动力学变体；IMPALA-CNN 等视觉编码支持端到端学习。",
+          "en": "Single-file games reduce environment-development cost, with Atari- and Procgen-style clones and altered dynamics supporting end-to-end visual-policy learning."
+        },
+        {
+          "zh": "已审阅八款游戏报告平均单局分数与达到人类均值所需训练步数，训练逐回合采样种子，最终检查点在八个保留种子上测试；吞吐另作系统指标。",
+          "en": "Eight reviewed games report mean scores and steps to human means, sampling training seeds by episode and testing final checkpoints on eight held-out seeds; throughput is separate."
+        },
+        {
+          "zh": "游戏副本和规则变体采用项目生成的 JavaScript 实现。保留种子、训练重复与人类参与者分别对应测试分布、算法方差和人类参照，按不同统计层级报告。",
+          "en": "Clones and variants use generated JavaScript implementations; held-out seeds, training repetitions and human participants represent test distributions, algorithm variance and human references respectively."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.09059",
+          "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2609.09059v2",
+          "title": "PlayTrain: An Efficient Reinforcement Learning Framework for LLM-Generated Adaptable JavaScript Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "REC-T06",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "PROWBench 评估视频模型是否把程序指定的世界事件正确渲染，包含一百七十段可重放程序场景与六百段代理视频，记录实体状态及带时间戳事件。",
+            "en": "PROWBench tests whether video models render program-specified events using 170 replayable episodes and 600 proxy videos with entity states and timestamped events."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "可执行世界记录将动力学与视觉生成分离，连摄像机视野外事件也被保存；同步视角和粗三维或边界框代理表示连接程序状态与可见后果。",
+            "en": "Executable records separate dynamics from visual generation, including off-camera events; synchronized views and proxy representations link state to visible consequences."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Logic-Render Alignment 与 Interaction Success Rate 两类 VLM 指标检查时间线一致和交互实现，并通过实体控制、长程事件及多视角场景分析渲染可靠性。",
+            "en": "VLM-based Logic-Render Alignment and Interaction Success Rate assess timeline adherence and event realization across entity-control, long-horizon and multiview settings."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "当前论文以 PROWBench 命名，ROWBench 保留为关联名称。评价对象是视频对程序事件的视觉遵循性，VLM 负责指标判定，实体轨迹与事件记录提供参考真值。",
+            "en": "The current paper uses PROWBench, with ROWBench retained as an associated name. Video adherence is evaluated by VLM metrics against entity trajectories and event records."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "PROWBench 评估视频模型是否把程序指定的世界事件正确渲染，包含一百七十段可重放程序场景与六百段代理视频，记录实体状态及带时间戳事件。",
+          "en": "PROWBench tests whether video models render program-specified events using 170 replayable episodes and 600 proxy videos with entity states and timestamped events."
+        },
+        {
+          "zh": "可执行世界记录将动力学与视觉生成分离，连摄像机视野外事件也被保存；同步视角和粗三维或边界框代理表示连接程序状态与可见后果。",
+          "en": "Executable records separate dynamics from visual generation, including off-camera events; synchronized views and proxy representations link state to visible consequences."
+        },
+        {
+          "zh": "Logic-Render Alignment 与 Interaction Success Rate 两类 VLM 指标检查时间线一致和交互实现，并通过实体控制、长程事件及多视角场景分析渲染可靠性。",
+          "en": "VLM-based Logic-Render Alignment and Interaction Success Rate assess timeline adherence and event realization across entity-control, long-horizon and multiview settings."
+        },
+        {
+          "zh": "当前论文以 PROWBench 命名，ROWBench 保留为关联名称。评价对象是视频对程序事件的视觉遵循性，VLM 负责指标判定，实体轨迹与事件记录提供参考真值。",
+          "en": "The current paper uses PROWBench, with ROWBench retained as an associated name. Video adherence is evaluated by VLM metrics against entity trajectories and event records."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.02205",
+          "title": "PROWBench: Do Video Models Render What the Program Specifies?"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A7",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GVGAI-LLM 把街机式游戏以紧凑 ASCII 地图、规则、目标和动作映射呈现给语言模型，智能体逐步选择引擎允许的离散动作完成各游戏任务。",
+            "en": "GVGAI-LLM presents arcade games as ASCII maps with rules, goals and action mappings; LLM agents select legal engine actions step by step."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "基于游戏描述语言的规则与关卡生成使测试内容可扩展，研究空间表征、基本规划与行动有效性；推箱子的不可逆死锁提供具体规划诊断。",
+            "en": "A game-description language supports extensible rules and levels, probing spatial representation, planning and action utility; box-pushing deadlocks provide a concrete diagnostic."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "指标包括胜率、归一化奖励、有意义步比例、步效率和综合分；一百一十八款初步遍历与六款跨模型比较子集使用不同覆盖范围。",
+            "en": "Metrics include wins, normalized reward, meaningful steps, efficiency and composite score; the 118-game preliminary sweep differs from the six-game cross-model subset."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "默认接口提供当前 ASCII 状态与规则，六款跨模型子集和全套初步遍历分别报告。两种推箱实现提供明确空间规划案例，整体指标反映多种行为因素。",
+            "en": "The default interface provides current ASCII state and rules; six-game cross-model results and the full preliminary sweep are distinct, with two box-pushing implementations providing planning cases."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GVGAI-LLM 把街机式游戏以紧凑 ASCII 地图、规则、目标和动作映射呈现给语言模型，智能体逐步选择引擎允许的离散动作完成各游戏任务。",
+          "en": "GVGAI-LLM presents arcade games as ASCII maps with rules, goals and action mappings; LLM agents select legal engine actions step by step."
+        },
+        {
+          "zh": "基于游戏描述语言的规则与关卡生成使测试内容可扩展，研究空间表征、基本规划与行动有效性；推箱子的不可逆死锁提供具体规划诊断。",
+          "en": "A game-description language supports extensible rules and levels, probing spatial representation, planning and action utility; box-pushing deadlocks provide a concrete diagnostic."
+        },
+        {
+          "zh": "指标包括胜率、归一化奖励、有意义步比例、步效率和综合分；一百一十八款初步遍历与六款跨模型比较子集使用不同覆盖范围。",
+          "en": "Metrics include wins, normalized reward, meaningful steps, efficiency and composite score; the 118-game preliminary sweep differs from the six-game cross-model subset."
+        },
+        {
+          "zh": "默认接口提供当前 ASCII 状态与规则，六款跨模型子集和全套初步遍历分别报告。两种推箱实现提供明确空间规划案例，整体指标反映多种行为因素。",
+          "en": "The default interface provides current ASCII state and rules; six-game cross-model results and the full preliminary sweep are distinct, with two box-pushing implementations providing planning cases."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2508.08501",
+          "title": "GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games"
+        },
+        {
+          "url": "https://arxiv.org/html/2508.08501",
+          "title": "GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-C1",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "RPGBench 让语言模型担任文字角色扮演游戏引擎，包含世界创建与游戏模拟两项任务：生成可玩世界，并在多轮互动中按规则更新事件和状态。",
+            "en": "RPGBench evaluates LLMs as text-RPG engines through world creation and multiround simulation with rule-consistent event and state updates."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "结构化事件状态表示把叙事内容与机制约束连接，要求世界具有有效终止条件，并在自由文本交互中保持变量变化、事件触发和逻辑一致。",
+            "en": "Structured event-state representations connect narrative content to mechanics, requiring valid termination conditions, variable updates and consistent event triggers."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "客观指标自动检查事件机制和变量更新，主观内容趣味、动作质量及角色扮演由语言模型评判；两类证据共同描述创意与规则可靠性。",
+            "en": "Automatic checks evaluate event mechanics and state updates, while an LLM judge assesses interestingness, action quality and role-playing."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测对象是世界生成和模拟引擎，玩家输入驱动多轮情境；自动机制检查与模型主观评分分别报告，共同描述状态一致性、规则执行和叙事内容质量。",
+            "en": "The evaluated role is the world-generation and simulation engine; player input drives multiround scenarios, while automatic mechanics checks and subjective model judgments are reported separately."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "RPGBench 让语言模型担任文字角色扮演游戏引擎，包含世界创建与游戏模拟两项任务：生成可玩世界，并在多轮互动中按规则更新事件和状态。",
+          "en": "RPGBench evaluates LLMs as text-RPG engines through world creation and multiround simulation with rule-consistent event and state updates."
+        },
+        {
+          "zh": "结构化事件状态表示把叙事内容与机制约束连接，要求世界具有有效终止条件，并在自由文本交互中保持变量变化、事件触发和逻辑一致。",
+          "en": "Structured event-state representations connect narrative content to mechanics, requiring valid termination conditions, variable updates and consistent event triggers."
+        },
+        {
+          "zh": "客观指标自动检查事件机制和变量更新，主观内容趣味、动作质量及角色扮演由语言模型评判；两类证据共同描述创意与规则可靠性。",
+          "en": "Automatic checks evaluate event mechanics and state updates, while an LLM judge assesses interestingness, action quality and role-playing."
+        },
+        {
+          "zh": "评测对象是世界生成和模拟引擎，玩家输入驱动多轮情境；自动机制检查与模型主观评分分别报告，共同描述状态一致性、规则执行和叙事内容质量。",
+          "en": "The evaluated role is the world-generation and simulation engine; player input drives multiround scenarios, while automatic mechanics checks and subjective model judgments are reported separately."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2502.00595",
+          "title": "RPGBench: Evaluating Large Language Models as Role-Playing Game Engines"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-C2",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "VideoGameQA-Bench 面向视觉语言模型的游戏质量保证，提供游戏图像与视频中的视觉单元测试、回归测试、异常检索、故障识别及缺陷报告生成。",
+            "en": "VideoGameQA-Bench evaluates VLMs on game-image and video QA, including visual unit and regression tests, anomaly search, glitch detection and bug reports."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "它将传统依赖人工审阅的视觉检查转为标准化模型任务，关注细小异常、跨画面差异和长视频中的关键证据，覆盖不同质量保证活动。",
+            "en": "It standardizes visual checks traditionally requiring manual review, probing subtle anomalies, frame differences and critical evidence in longer videos."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "模型根据提供的图像或视频回答测试问题或生成报告，按各子任务的参考答案和质量标准评价；不同媒体与任务形式共同决定需要检索的证据。",
+            "en": "Models answer questions or produce reports from supplied images and videos, evaluated against task-specific references and quality criteria."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "图像与视频构成离线输入，问题回答和缺陷报告构成输出。各子任务分别评价视觉检查、异常定位或报告生成，游戏覆盖标识数据来源与质量保证情境。",
+            "en": "Images and videos are offline inputs, with answers and reports as outputs. Task-specific evaluation covers inspection, anomaly localization and reporting within the represented game contexts."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "VideoGameQA-Bench 面向视觉语言模型的游戏质量保证，提供游戏图像与视频中的视觉单元测试、回归测试、异常检索、故障识别及缺陷报告生成。",
+          "en": "VideoGameQA-Bench evaluates VLMs on game-image and video QA, including visual unit and regression tests, anomaly search, glitch detection and bug reports."
+        },
+        {
+          "zh": "它将传统依赖人工审阅的视觉检查转为标准化模型任务，关注细小异常、跨画面差异和长视频中的关键证据，覆盖不同质量保证活动。",
+          "en": "It standardizes visual checks traditionally requiring manual review, probing subtle anomalies, frame differences and critical evidence in longer videos."
+        },
+        {
+          "zh": "模型根据提供的图像或视频回答测试问题或生成报告，按各子任务的参考答案和质量标准评价；不同媒体与任务形式共同决定需要检索的证据。",
+          "en": "Models answer questions or produce reports from supplied images and videos, evaluated against task-specific references and quality criteria."
+        },
+        {
+          "zh": "图像与视频构成离线输入，问题回答和缺陷报告构成输出。各子任务分别评价视觉检查、异常定位或报告生成，游戏覆盖标识数据来源与质量保证情境。",
+          "en": "Images and videos are offline inputs, with answers and reports as outputs. Task-specific evaluation covers inspection, anomaly localization and reporting within the represented game contexts."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.15952",
+          "title": "VideoGameQA-Bench: Evaluating Vision-Language Models for Video Game Quality Assurance"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB086",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Gymnasium 为强化学习环境提供标准 API、环境集合及自定义工具，用统一的重置、行动、奖励与结束反馈接口连接算法和不同模拟任务。",
+            "en": "Gymnasium provides a standard RL API, environment collection and customization tools linking algorithms to reset, action, reward and termination interfaces."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源重点是环境与学习算法的互操作性、可复用性和可重复实验，区分自然终止与时间截断等接口语义，使训练过程能正确处理回合边界。",
+            "en": "It emphasizes interoperability and reproducibility, including interface semantics that distinguish termination from truncation for correct episode-boundary handling."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "具体示例 CartPole-v1 使用车体位置速度、杆角度角速度四维观察，输出左右推力，按保持平衡的累计步奖励评价，同时受越界与杆倾角终止限制。",
+            "en": "The CartPole-v1 example uses four state variables and left/right force actions, measuring accumulated balancing reward subject to cart-position and pole-angle termination."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "CartPole-v1 是当前官方任务定义中的具体控制例，平台另提供多类环境与封装工具。版本、算法预算、随机种子和封装选项共同确定实验设置。",
+            "en": "CartPole-v1 is one current official control task within a broader environment and wrapper library; versions, algorithm budgets, seeds and wrappers determine each experiment."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Gymnasium 为强化学习环境提供标准 API、环境集合及自定义工具，用统一的重置、行动、奖励与结束反馈接口连接算法和不同模拟任务。",
+          "en": "Gymnasium provides a standard RL API, environment collection and customization tools linking algorithms to reset, action, reward and termination interfaces."
+        },
+        {
+          "zh": "资源重点是环境与学习算法的互操作性、可复用性和可重复实验，区分自然终止与时间截断等接口语义，使训练过程能正确处理回合边界。",
+          "en": "It emphasizes interoperability and reproducibility, including interface semantics that distinguish termination from truncation for correct episode-boundary handling."
+        },
+        {
+          "zh": "具体示例 CartPole-v1 使用车体位置速度、杆角度角速度四维观察，输出左右推力，按保持平衡的累计步奖励评价，同时受越界与杆倾角终止限制。",
+          "en": "The CartPole-v1 example uses four state variables and left/right force actions, measuring accumulated balancing reward subject to cart-position and pole-angle termination."
+        },
+        {
+          "zh": "CartPole-v1 是当前官方任务定义中的具体控制例，平台另提供多类环境与封装工具。版本、算法预算、随机种子和封装选项共同确定实验设置。",
+          "en": "CartPole-v1 is one current official control task within a broader environment and wrapper library; versions, algorithm budgets, seeds and wrappers determine each experiment."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d7ff1795e8527f6443371c3933bdb52b-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "Gymnasium: A Standard Interface for Reinforcement Learning Environments"
+        },
+        {
+          "url": "https://gymnasium.farama.org/environments/classic_control/cart_pole/",
+          "title": "Gymnasium CartPole-v1 documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB060",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "BenchMARL 以 TorchRL 为后端，把多智能体算法、模型和环境配置组织成统一训练与报告框架，使不同实验组合可以在明确设置下系统比较。",
+            "en": "BenchMARL uses TorchRL to standardize configurations, training and reporting across multi-agent algorithms, models and environments."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究动机是多智能体强化学习的复现与公平比较，配置化接口减少实现差异，平台同时支持高效维护的算法组件及跨场景汇总分析。",
+            "en": "It addresses MARL reproducibility and fair comparison by reducing implementation differences through configurable, maintained algorithm components and systematic reporting."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已核验 VMAS Navigation 案例要求智能体接近各自目标并避免碰撞，基于位置速度、相对目标和激光距离控制平面运动，以进展、完成与碰撞构成回报。",
+            "en": "The reviewed VMAS Navigation task uses motion and lidar observations to reach individual goals while avoiding collisions, with progress, completion and collision rewards."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "VMAS Navigation 以具体配置定义动作形式和非共享奖励，论文实验与当前配置分别标识。任务回报描述导航表现，套件聚合统计描述跨环境的算法稳定性。",
+            "en": "VMAS Navigation configurations specify action type and nonshared rewards; historical and current settings are distinguished, with task return and suite statistics serving separate roles."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "BenchMARL 以 TorchRL 为后端，把多智能体算法、模型和环境配置组织成统一训练与报告框架，使不同实验组合可以在明确设置下系统比较。",
+          "en": "BenchMARL uses TorchRL to standardize configurations, training and reporting across multi-agent algorithms, models and environments."
+        },
+        {
+          "zh": "研究动机是多智能体强化学习的复现与公平比较，配置化接口减少实现差异，平台同时支持高效维护的算法组件及跨场景汇总分析。",
+          "en": "It addresses MARL reproducibility and fair comparison by reducing implementation differences through configurable, maintained algorithm components and systematic reporting."
+        },
+        {
+          "zh": "已核验 VMAS Navigation 案例要求智能体接近各自目标并避免碰撞，基于位置速度、相对目标和激光距离控制平面运动，以进展、完成与碰撞构成回报。",
+          "en": "The reviewed VMAS Navigation task uses motion and lidar observations to reach individual goals while avoiding collisions, with progress, completion and collision rewards."
+        },
+        {
+          "zh": "VMAS Navigation 以具体配置定义动作形式和非共享奖励，论文实验与当前配置分别标识。任务回报描述导航表现，套件聚合统计描述跨环境的算法稳定性。",
+          "en": "VMAS Navigation configurations specify action type and nonshared rewards; historical and current settings are distinguished, with task return and suite statistics serving separate roles."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jmlr.org/papers/v25/23-1612.html",
+          "title": "BenchMARL: Benchmarking Multi-Agent Reinforcement Learning"
+        },
+        {
+          "url": "https://www.jmlr.org/papers/volume25/23-1612/23-1612.pdf",
+          "title": "BenchMARL: Benchmarking Multi-Agent Reinforcement Learning"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/proroklab/VectorizedMultiAgentSimulator/main/vmas/scenarios/navigation.py",
+          "title": "VMAS Navigation official scenario implementation"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/facebookresearch/BenchMARL/main/benchmarl/conf/task/vmas/navigation.yaml",
+          "title": "BenchMARL Navigation task configuration"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB061",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "JaxMARL 提供在 JAX 中实现的多智能体环境和基线算法，把环境模拟与训练放到加速器上并行执行，覆盖多种合作、竞争和部分可观测任务。",
+            "en": "JaxMARL implements multi-agent environments and baselines in JAX, enabling accelerator-parallel simulation and training across cooperative and competitive tasks."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "其 SMAX 是不依赖 StarCraft II 引擎的简化向量化微操环境，分散策略根据局部友敌信息选择单位动作，支持高效研究协同战斗与自博弈。",
+            "en": "SMAX is vectorized simplified micromanagement without the StarCraft II engine, using local observations and decentralized unit actions for efficient coordinated-combat research."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "SMAX 以视野内生命、位置、冷却及类型等观察驱动移动、停止和目标攻击，报告胜率及伤害与获胜组成的回报；吞吐和训练速度另作系统指标。",
+            "en": "SMAX agents move, stop or attack from local health, position and cooldown observations; win rate and combat return are separate from system-throughput metrics."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "SMAX 使用独立向量化战斗模拟和自己的奖励尺度，集中于单位微操。其他 JaxMARL 环境保留各自规则，加速比和环境验证作为系统层面结果报告。",
+            "en": "SMAX uses independent vectorized combat simulation and its own rewards for micromanagement; other domains retain their rules, and speedups and environment validation are system-level results."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "JaxMARL 提供在 JAX 中实现的多智能体环境和基线算法，把环境模拟与训练放到加速器上并行执行，覆盖多种合作、竞争和部分可观测任务。",
+          "en": "JaxMARL implements multi-agent environments and baselines in JAX, enabling accelerator-parallel simulation and training across cooperative and competitive tasks."
+        },
+        {
+          "zh": "其 SMAX 是不依赖 StarCraft II 引擎的简化向量化微操环境，分散策略根据局部友敌信息选择单位动作，支持高效研究协同战斗与自博弈。",
+          "en": "SMAX is vectorized simplified micromanagement without the StarCraft II engine, using local observations and decentralized unit actions for efficient coordinated-combat research."
+        },
+        {
+          "zh": "SMAX 以视野内生命、位置、冷却及类型等观察驱动移动、停止和目标攻击，报告胜率及伤害与获胜组成的回报；吞吐和训练速度另作系统指标。",
+          "en": "SMAX agents move, stop or attack from local health, position and cooldown observations; win rate and combat return are separate from system-throughput metrics."
+        },
+        {
+          "zh": "SMAX 使用独立向量化战斗模拟和自己的奖励尺度，集中于单位微操。其他 JaxMARL 环境保留各自规则，加速比和环境验证作为系统层面结果报告。",
+          "en": "SMAX uses independent vectorized combat simulation and its own rewards for micromanagement; other domains retain their rules, and speedups and environment validation are system-level results."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5aee125f052c90e326dcf6f380df94f6-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "JaxMARL: Multi-Agent RL Environments and Algorithms in JAX"
+        },
+        {
+          "url": "https://arxiv.org/html/2311.10090",
+          "title": "JaxMARL: Multi-Agent RL Environments and Algorithms in JAX"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB068",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "该资源为离线多智能体强化学习提出标准基线与评价协议，智能体利用固定数据学习协作策略，再在对应模拟环境中检验，而非训练时持续采集新轨迹。",
+            "en": "This resource standardizes offline MARL baselines and evaluation: policies learn from fixed datasets and are subsequently tested in corresponding simulators."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究通过重审既有工作揭示基线实现、检查点选择与统计报告的不一致，并展示简单可靠的实现也能匹配复杂方法，重点是可比较的实证进展。",
+            "en": "It identifies inconsistencies in implementations, checkpoint selection and reporting, showing that reliable simple baselines can match sophisticated methods."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "已审阅协议按 MPE、SMACv1 与 MAMuJoCo 固定不同更新预算，使用十个种子、每次三十二回合评价；SMAC 以分数据质量的场景胜率报告团队微操。",
+            "en": "Reviewed budgets differ across MPE, SMACv1 and MAMuJoCo; evaluation uses ten seeds and thirty-two episodes, with SMAC wins separated by dataset quality."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "数据质量、固定更新预算和检查点选择交互共同定义离线协议。SMAC 单元对应固定轨迹学习后的单位战斗，跨场景与跨种子统计用于比较策略稳定性。",
+            "en": "Dataset quality, fixed update budgets and checkpoint-selection interaction define the offline protocol; SMAC evaluates learned micromanagement with scenario and seed statistics."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "该资源为离线多智能体强化学习提出标准基线与评价协议，智能体利用固定数据学习协作策略，再在对应模拟环境中检验，而非训练时持续采集新轨迹。",
+          "en": "This resource standardizes offline MARL baselines and evaluation: policies learn from fixed datasets and are subsequently tested in corresponding simulators."
+        },
+        {
+          "zh": "研究通过重审既有工作揭示基线实现、检查点选择与统计报告的不一致，并展示简单可靠的实现也能匹配复杂方法，重点是可比较的实证进展。",
+          "en": "It identifies inconsistencies in implementations, checkpoint selection and reporting, showing that reliable simple baselines can match sophisticated methods."
+        },
+        {
+          "zh": "已审阅协议按 MPE、SMACv1 与 MAMuJoCo 固定不同更新预算，使用十个种子、每次三十二回合评价；SMAC 以分数据质量的场景胜率报告团队微操。",
+          "en": "Reviewed budgets differ across MPE, SMACv1 and MAMuJoCo; evaluation uses ten seeds and thirty-two episodes, with SMAC wins separated by dataset quality."
+        },
+        {
+          "zh": "数据质量、固定更新预算和检查点选择交互共同定义离线协议。SMAC 单元对应固定轨迹学习后的单位战斗，跨场景与跨种子统计用于比较策略稳定性。",
+          "en": "Dataset quality, fixed update budgets and checkpoint-selection interaction define the offline protocol; SMAC evaluates learned micromanagement with scenario and seed statistics."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/fc6247c33cff077a3910d0c28463f445-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "Dispelling the Mirage of Progress in Offline MARL through Standardised Baselines and Evaluation"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/fc6247c33cff077a3910d0c28463f445-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "Dispelling the Mirage of Progress in Offline MARL through Standardised Baselines and Evaluation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAP-A11",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "TextWorldExpress 以高性能模拟器重实现 CookingWorld、TextWorld Commonsense 和 Coin Collector 三类文字游戏，用文字房间、物品和动作反馈支持交互。",
+            "en": "TextWorldExpress efficiently reimplements CookingWorld, TextWorld Commonsense and Coin Collector using textual rooms, objects and action feedback."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "核心贡献是降低旧工具链的模拟成本，使大规模语言代理训练可行；做饭要求按食谱处理原料，整理要求归置物品，找币则强调房间探索。",
+            "en": "Its core contribution reduces simulation cost for large-scale language-agent training; cooking, household tidying and coin retrieval retain distinct task structures."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "代理提交文字命令，接口可返回有效动作列表；任务表现按归一化分数和完成情况评价，模拟每秒步数与代理策略得分分开报告。",
+            "en": "Agents issue text commands with optional valid-action lists; normalized score and completion measure task performance, separately from simulator steps per second."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "论文版本包含三类重实现游戏，后续库新增内容按版本区分。各生成器保留自己的地图与任务分布，模拟吞吐、任务分数和策略完成情况分别报告。",
+            "en": "The paper version contains three reimplemented families, distinguished from later additions; generator distributions, simulation throughput, scores and completion are reported separately."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "TextWorldExpress 以高性能模拟器重实现 CookingWorld、TextWorld Commonsense 和 Coin Collector 三类文字游戏，用文字房间、物品和动作反馈支持交互。",
+          "en": "TextWorldExpress efficiently reimplements CookingWorld, TextWorld Commonsense and Coin Collector using textual rooms, objects and action feedback."
+        },
+        {
+          "zh": "核心贡献是降低旧工具链的模拟成本，使大规模语言代理训练可行；做饭要求按食谱处理原料，整理要求归置物品，找币则强调房间探索。",
+          "en": "Its core contribution reduces simulation cost for large-scale language-agent training; cooking, household tidying and coin retrieval retain distinct task structures."
+        },
+        {
+          "zh": "代理提交文字命令，接口可返回有效动作列表；任务表现按归一化分数和完成情况评价，模拟每秒步数与代理策略得分分开报告。",
+          "en": "Agents issue text commands with optional valid-action lists; normalized score and completion measure task performance, separately from simulator steps per second."
+        },
+        {
+          "zh": "论文版本包含三类重实现游戏，后续库新增内容按版本区分。各生成器保留自己的地图与任务分布，模拟吞吐、任务分数和策略完成情况分别报告。",
+          "en": "The paper version contains three reimplemented families, distinguished from later additions; generator distributions, simulation throughput, scores and completion are reported separately."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2208.01174",
+          "title": "TextWorldExpress: Simulating Text Games at One Million Steps Per Second"
+        },
+        {
+          "url": "https://github.com/cognitiveailab/TextWorldExpress",
+          "title": "TextWorldExpress: Simulating Text Games at One Million Steps Per Second"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB079",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "U3 以 Unity 实现可配置的三维强化学习环境工具包，包含 OpenXLand 对 XLand 2.0 风格地形、物体和任务规则的实现，可程序化生成多样世界。",
+            "en": "U3 is a configurable Unity toolkit with OpenXLand implementations of XLand-2.0-style terrains, objects and rules for diverse procedural 3D worlds."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用户可以修改地形与生产规则，智能体从第一人称图像和互动中发现物体转化及目标条件；资源同时提供精选规则地形与强化学习基线。",
+            "en": "Configurable terrains and production rules let agents discover object transformations and goals from first-person interaction, supported by curated configurations and RL baselines."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "具体互动通过移动和物体操作触发规则，以任务或任务集合的回合回报评价；满足目标的每步获得奖励，试验时长和行动预算由配置指定。",
+            "en": "Movement and object interactions trigger rules; episode returns evaluate tasks or task collections, with per-step goal rewards and configured trial lengths."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "OpenXLand 的任务规则、地形和试验预算由配置明确给定，基础回报联合反映探索和执行。生成数据规模、任务集合表现与单任务回报分别描述资源的不同层次。",
+            "en": "Configured rules, terrains and budgets define OpenXLand tasks; return reflects exploration and execution, while data scale, collection performance and individual returns describe distinct resource levels."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "U3 以 Unity 实现可配置的三维强化学习环境工具包，包含 OpenXLand 对 XLand 2.0 风格地形、物体和任务规则的实现，可程序化生成多样世界。",
+          "en": "U3 is a configurable Unity toolkit with OpenXLand implementations of XLand-2.0-style terrains, objects and rules for diverse procedural 3D worlds."
+        },
+        {
+          "zh": "用户可以修改地形与生产规则，智能体从第一人称图像和互动中发现物体转化及目标条件；资源同时提供精选规则地形与强化学习基线。",
+          "en": "Configurable terrains and production rules let agents discover object transformations and goals from first-person interaction, supported by curated configurations and RL baselines."
+        },
+        {
+          "zh": "具体互动通过移动和物体操作触发规则，以任务或任务集合的回合回报评价；满足目标的每步获得奖励，试验时长和行动预算由配置指定。",
+          "en": "Movement and object interactions trigger rules; episode returns evaluate tasks or task collections, with per-step goal rewards and configured trial lengths."
+        },
+        {
+          "zh": "OpenXLand 的任务规则、地形和试验预算由配置明确给定，基础回报联合反映探索和执行。生成数据规模、任务集合表现与单任务回报分别描述资源的不同层次。",
+          "en": "Configured rules, terrains and budgets define OpenXLand tasks; return reflects exploration and execution, while data scale, collection performance and individual returns describe distinct resource levels."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/04c0c541d936f7cbfbb21085116236cd-Abstract-Datasets_and_Benchmarks_Track.html",
+          "title": "Using Unity to Help Solve Reinforcement Learning"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/04c0c541d936f7cbfbb21085116236cd-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "title": "Using Unity to Help Solve Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB054",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MARLlib 通过标准多智能体环境封装、智能体级算法实现和灵活策略映射，把多样任务与训练方案解耦，提供可扩展的强化学习开发库。",
+            "en": "MARLlib combines standardized environment wrappers, agent-level algorithms and flexible policy mapping to decouple multi-agent tasks from training strategies."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "框架依据任务属性组织训练配置，减少算法与环境组合的兼容成本，使研究者能比较不同参数共享、价值学习和策略组织方式。",
+            "en": "Task-aware configuration reduces compatibility cost and supports comparisons across parameter sharing, value learning and policy organization."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Simple Spread 示例让三名智能体覆盖三个地标并避免碰撞，观察自身状态和相对位置，以四向移动或不动行动；回报含地标距离与碰撞罚分。",
+            "en": "The Simple Spread example uses three agents covering three landmarks while avoiding collisions, with relative-state observations, movement actions and distance/collision penalties."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Simple Spread 提供明确的地标覆盖示例，平台还支持多种环境与策略映射。离散或连续动作、新版参数和历史实现分别标识，以对应各自的奖励与训练条件。",
+            "en": "Simple Spread supplies a landmark-coverage example within a broader library; action variants, newer parameters and historical implementations are distinguished by reward and training conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MARLlib 通过标准多智能体环境封装、智能体级算法实现和灵活策略映射，把多样任务与训练方案解耦，提供可扩展的强化学习开发库。",
+          "en": "MARLlib combines standardized environment wrappers, agent-level algorithms and flexible policy mapping to decouple multi-agent tasks from training strategies."
+        },
+        {
+          "zh": "框架依据任务属性组织训练配置，减少算法与环境组合的兼容成本，使研究者能比较不同参数共享、价值学习和策略组织方式。",
+          "en": "Task-aware configuration reduces compatibility cost and supports comparisons across parameter sharing, value learning and policy organization."
+        },
+        {
+          "zh": "Simple Spread 示例让三名智能体覆盖三个地标并避免碰撞，观察自身状态和相对位置，以四向移动或不动行动；回报含地标距离与碰撞罚分。",
+          "en": "The Simple Spread example uses three agents covering three landmarks while avoiding collisions, with relative-state observations, movement actions and distance/collision penalties."
+        },
+        {
+          "zh": "Simple Spread 提供明确的地标覆盖示例，平台还支持多种环境与策略映射。离散或连续动作、新版参数和历史实现分别标识，以对应各自的奖励与训练条件。",
+          "en": "Simple Spread supplies a landmark-coverage example within a broader library; action variants, newer parameters and historical implementations are distinguished by reward and training conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.jmlr.org/papers/v24/23-0378.html",
+          "title": "MARLlib: A Scalable and Efficient Multi-Agent Reinforcement Learning Library"
+        },
+        {
+          "url": "https://www.jmlr.org/papers/volume24/23-0378/23-0378.pdf",
+          "title": "MARLlib: A Scalable and Efficient Multi-Agent Reinforcement Learning Library"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/openai/multiagent-particle-envs/master/multiagent/scenarios/simple_spread.py",
+          "title": "Original MPE Simple Spread implementation"
+        },
+        {
+          "url": "https://mpe2.farama.org/environments/simple_spread/",
+          "title": "Simple Spread environment documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB035",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "CORA 将基准、基线和指标整合为持续强化学习平台，包含 Atari、Procgen、NetHack 系列及家居模拟 CHORES，使智能体顺序学习变化中的任务。",
+            "en": "CORA integrates benchmarks, baselines and metrics for continual RL across Atari, Procgen, NetHack and home-simulation CHORES task sequences."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "研究重点是在学习新任务的同时保持旧技能，区分灾难性遗忘、可塑性、泛化和样本效率；训练序列及任务切换决定迁移问题的结构。",
+            "en": "It studies retention alongside new learning, separating forgetting, plasticity, generalization and sample efficiency under explicit task sequences and switches."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Continual Evaluation、Isolated Forgetting 和 Zero-Shot Forward Transfer 描述学习全过程；已核验的 Procgen 与 MiniHack 单元使用各自视觉或符号观察和离散动作。",
+            "en": "Continual Evaluation, Isolated Forgetting and Zero-Shot Forward Transfer describe learning trajectories; reviewed Procgen and MiniHack units retain their own observations and actions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Procgen 单元对应顺序训练的六款游戏，MiniHack 对应审阅的持续学习序列。遗忘与迁移指标描述跨训练任务的变化，Atari 与 CHORES 保留各自任务序列范围。",
+            "en": "The Procgen unit covers six sequentially trained games and MiniHack the reviewed continual sequence; forgetting and transfer track cross-task learning, with separate Atari and CHORES scopes."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "CORA 将基准、基线和指标整合为持续强化学习平台，包含 Atari、Procgen、NetHack 系列及家居模拟 CHORES，使智能体顺序学习变化中的任务。",
+          "en": "CORA integrates benchmarks, baselines and metrics for continual RL across Atari, Procgen, NetHack and home-simulation CHORES task sequences."
+        },
+        {
+          "zh": "研究重点是在学习新任务的同时保持旧技能，区分灾难性遗忘、可塑性、泛化和样本效率；训练序列及任务切换决定迁移问题的结构。",
+          "en": "It studies retention alongside new learning, separating forgetting, plasticity, generalization and sample efficiency under explicit task sequences and switches."
+        },
+        {
+          "zh": "Continual Evaluation、Isolated Forgetting 和 Zero-Shot Forward Transfer 描述学习全过程；已核验的 Procgen 与 MiniHack 单元使用各自视觉或符号观察和离散动作。",
+          "en": "Continual Evaluation, Isolated Forgetting and Zero-Shot Forward Transfer describe learning trajectories; reviewed Procgen and MiniHack units retain their own observations and actions."
+        },
+        {
+          "zh": "Procgen 单元对应顺序训练的六款游戏，MiniHack 对应审阅的持续学习序列。遗忘与迁移指标描述跨训练任务的变化，Atari 与 CHORES 保留各自任务序列范围。",
+          "en": "The Procgen unit covers six sequentially trained games and MiniHack the reviewed continual sequence; forgetting and transfer track cross-task learning, with separate Atari and CHORES scopes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v199/powers22b.html",
+          "title": "CORA: Benchmarks, Baselines, and Metrics as a Platform for Continual Reinforcement Learning Agents"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v199/powers22b/powers22b.pdf",
+          "title": "CORA: Benchmarks, Baselines, and Metrics as a Platform for Continual Reinforcement Learning Agents"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB031",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "EnvPool 是高并行强化学习环境执行引擎，以高效调度减少模拟成为训练瓶颈的开销，并与多种强化学习库连接，支持从笔记本到大型机器的执行。",
+            "en": "EnvPool is a highly parallel RL environment engine that reduces simulation bottlenecks and integrates with training libraries across laptops and larger systems."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "资源同时研究系统吞吐与实际策略学习耗时；Atari 和物理控制环境的并行模拟展示运行效率，学习示例检验速度能否转化为更快获得有效策略。",
+            "en": "It studies simulation throughput and policy-learning time, distinguishing fast environment execution from faster acquisition of effective behavior."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Pong 学习案例用 PPO 控制右侧球拍，观察默认四帧八十四乘八十四灰度图并选择最小离散动作，以回报随墙钟时间变化评价学习，FPS 单列。",
+            "en": "The PPO Pong example uses stacked grayscale frames and minimal discrete actions to control the paddle, reporting return over wall-clock time separately from FPS."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Pong 是论文中的策略学习案例，环境并行数与调参构成比较条件。历史实验与当前文档默认配置分别标识，回报、墙钟训练时间和模拟吞吐分别表达能力与效率。",
+            "en": "Pong is a policy-learning case with parallelism and tuning as comparison conditions; historical and current settings are distinguished, and return, wall-clock time and throughput serve separate roles."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "EnvPool 是高并行强化学习环境执行引擎，以高效调度减少模拟成为训练瓶颈的开销，并与多种强化学习库连接，支持从笔记本到大型机器的执行。",
+          "en": "EnvPool is a highly parallel RL environment engine that reduces simulation bottlenecks and integrates with training libraries across laptops and larger systems."
+        },
+        {
+          "zh": "资源同时研究系统吞吐与实际策略学习耗时；Atari 和物理控制环境的并行模拟展示运行效率，学习示例检验速度能否转化为更快获得有效策略。",
+          "en": "It studies simulation throughput and policy-learning time, distinguishing fast environment execution from faster acquisition of effective behavior."
+        },
+        {
+          "zh": "Pong 学习案例用 PPO 控制右侧球拍，观察默认四帧八十四乘八十四灰度图并选择最小离散动作，以回报随墙钟时间变化评价学习，FPS 单列。",
+          "en": "The PPO Pong example uses stacked grayscale frames and minimal discrete actions to control the paddle, reporting return over wall-clock time separately from FPS."
+        },
+        {
+          "zh": "Pong 是论文中的策略学习案例，环境并行数与调参构成比较条件。历史实验与当前文档默认配置分别标识，回报、墙钟训练时间和模拟吞吐分别表达能力与效率。",
+          "en": "Pong is a policy-learning case with parallelism and tuning as comparison conditions; historical and current settings are distinguished, and return, wall-clock time and throughput serve separate roles."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/8caaf08e49ddbad6694fae067442ee21-Abstract-Datasets_and_Benchmarks.html",
+          "title": "EnvPool: A Highly Parallel Reinforcement Learning Environment Execution Engine"
+        },
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8caaf08e49ddbad6694fae067442ee21-Paper-Datasets_and_Benchmarks.pdf",
+          "title": "EnvPool: A Highly Parallel Reinforcement Learning Environment Execution Engine"
+        },
+        {
+          "url": "https://envpool.readthedocs.io/en/latest/env/atari.html",
+          "title": "EnvPool Atari documentation"
+        },
+        {
+          "url": "https://ale.farama.org/environments/pong/",
+          "title": "ALE Pong documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB039",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "该研究分析合作 MARL 文献的评价实践，并提出标准化性能评价流程，涵盖数据采集、汇总与结果报告。",
+            "en": "The study examines evaluation practice in cooperative MARL and proposes standardized collection, aggregation and reporting procedures."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究合作式多智能体强化学习结果的统计可靠性、可复现性与跨论文可比性。元分析把实验预算、种子和汇总方式作为研究对象。",
+            "en": "It studies reliability, reproducibility and comparability of cooperative MARL results through meta-analysis of budgets, seeds and aggregation."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "以多次运行的表现、统计汇总和不确定性描述方法差异，结合公开的元分析数据审查实验结论。",
+            "en": "Repeated-run performance, statistical summaries and uncertainty characterize method differences, supported by public meta-analysis data."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源性质为实验评价协议与分析工具，输入为既有任务上的训练和测试结果；游戏任务由原实验环境提供。",
+            "en": "This is an evaluation protocol and analysis resource using training/test results from existing tasks."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "该研究分析合作 MARL 文献的评价实践，并提出标准化性能评价流程，涵盖数据采集、汇总与结果报告。",
+          "en": "The study examines evaluation practice in cooperative MARL and proposes standardized collection, aggregation and reporting procedures."
+        },
+        {
+          "zh": "用于研究合作式多智能体强化学习结果的统计可靠性、可复现性与跨论文可比性。元分析把实验预算、种子和汇总方式作为研究对象。",
+          "en": "It studies reliability, reproducibility and comparability of cooperative MARL results through meta-analysis of budgets, seeds and aggregation."
+        },
+        {
+          "zh": "以多次运行的表现、统计汇总和不确定性描述方法差异，结合公开的元分析数据审查实验结论。",
+          "en": "Repeated-run performance, statistical summaries and uncertainty characterize method differences, supported by public meta-analysis data."
+        },
+        {
+          "zh": "资源性质为实验评价协议与分析工具，输入为既有任务上的训练和测试结果；游戏任务由原实验环境提供。",
+          "en": "This is an evaluation protocol and analysis resource using training/test results from existing tasks."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/249f73e01f0a2bb6c8d971b565f159a7-Abstract-Conference.html",
+          "title": "Towards a Standardised Performance Evaluation Protocol for Cooperative MARL"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB024",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "EPyMARL 扩展 PyMARL 的合作式算法与环境接口，支持等级觅食、仓库配送及其他多智能体任务。智能体通过协同行动获取团队奖励。",
+            "en": "EPyMARL extends cooperative algorithms and environment interfaces to foraging, warehouse delivery and other multi-agent tasks."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于系统比较合作 MARL 算法在不同任务结构中的学习效率与团队回报，研究算法实现和任务设置对结果的影响。",
+            "en": "It compares cooperative MARL algorithms across task structures, studying learning efficiency, team return and implementation effects."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "报告平均回合回报和学习曲线，并通过重复训练与多回合测试比较表现。不同环境的回报按各自任务定义解释。",
+            "en": "Mean episode returns and learning curves are evaluated across training repetitions and test episodes using environment-specific reward definitions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测按环境和任务配置组织，涵盖等级觅食、仓库配送等任务；在策略与离策略方法采用相应训练预算。",
+            "en": "Evaluation is organized by environment and task configuration, including foraging and warehouse delivery with algorithm-appropriate training budgets."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "EPyMARL 扩展 PyMARL 的合作式算法与环境接口，支持等级觅食、仓库配送及其他多智能体任务。智能体通过协同行动获取团队奖励。",
+          "en": "EPyMARL extends cooperative algorithms and environment interfaces to foraging, warehouse delivery and other multi-agent tasks."
+        },
+        {
+          "zh": "用于系统比较合作 MARL 算法在不同任务结构中的学习效率与团队回报，研究算法实现和任务设置对结果的影响。",
+          "en": "It compares cooperative MARL algorithms across task structures, studying learning efficiency, team return and implementation effects."
+        },
+        {
+          "zh": "报告平均回合回报和学习曲线，并通过重复训练与多回合测试比较表现。不同环境的回报按各自任务定义解释。",
+          "en": "Mean episode returns and learning curves are evaluated across training repetitions and test episodes using environment-specific reward definitions."
+        },
+        {
+          "zh": "评测按环境和任务配置组织，涵盖等级觅食、仓库配送等任务；在策略与离策略方法采用相应训练预算。",
+          "en": "Evaluation is organized by environment and task configuration, including foraging and warehouse delivery with algorithm-appropriate training budgets."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/a8baa56554f96369ab93e4f3bb068c22-Abstract-round1.html",
+          "title": "Benchmarking Multi-Agent Deep Reinforcement Learning Algorithms in Cooperative Tasks"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB014",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "PettingZoo 为多智能体环境提供 Agent Environment Cycle 和并行接口，覆盖棋类、街机及合作控制等不同交互形式。",
+            "en": "PettingZoo supplies Agent Environment Cycle and parallel APIs for board, arcade and cooperative-control environments."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于多智能体强化学习的环境复用、算法开发及顺序行动与并行行动建模。统一接口便于在不同游戏中组织交互实验。",
+            "en": "It supports reusable MARL environments, algorithm development and modeling of sequential and parallel interaction."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各环境采用自身的收益、成功条件或胜负指标。例如 Pistonball 通过球的推进与时间成本计分，评价多个活塞的协作。",
+            "en": "Metrics follow each environment’s payoff, success or win conditions; Pistonball scores ball progress and time costs."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "PettingZoo 是环境接口与任务集合，具体评测由所选游戏、规则、观测和回报定义。Pistonball 是其中的协作控制示例。",
+            "en": "PettingZoo is an API and environment collection. Selected games define rules, observations and rewards; Pistonball is one cooperative-control example."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "PettingZoo 为多智能体环境提供 Agent Environment Cycle 和并行接口，覆盖棋类、街机及合作控制等不同交互形式。",
+          "en": "PettingZoo supplies Agent Environment Cycle and parallel APIs for board, arcade and cooperative-control environments."
+        },
+        {
+          "zh": "用于多智能体强化学习的环境复用、算法开发及顺序行动与并行行动建模。统一接口便于在不同游戏中组织交互实验。",
+          "en": "It supports reusable MARL environments, algorithm development and modeling of sequential and parallel interaction."
+        },
+        {
+          "zh": "各环境采用自身的收益、成功条件或胜负指标。例如 Pistonball 通过球的推进与时间成本计分，评价多个活塞的协作。",
+          "en": "Metrics follow each environment’s payoff, success or win conditions; Pistonball scores ball progress and time costs."
+        },
+        {
+          "zh": "PettingZoo 是环境接口与任务集合，具体评测由所选游戏、规则、观测和回报定义。Pistonball 是其中的协作控制示例。",
+          "en": "PettingZoo is an API and environment collection. Selected games define rules, observations and rewards; Pistonball is one cooperative-control example."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2021/hash/803f7c4c3ff61b71be53a0c803bfb57f-Abstract.html",
+          "title": "PettingZoo: Gym for Multi-Agent Reinforcement Learning"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB023",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "rliable 提供强化学习实验的统计分析方法与实现，从既有得分中估计聚合表现和置信区间。",
+            "en": "rliable provides statistical methods and software for aggregate performance and confidence intervals from existing RL scores."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究少量随机种子条件下的强化学习算法比较，描述跨任务表现与统计不确定性。",
+            "en": "It supports RL comparisons with limited random seeds, characterizing cross-task performance and statistical uncertainty."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "采用四分位均值、性能分布、提升概率和分层 bootstrap 区间，分析算法之间的表现差异。",
+            "en": "Interquartile means, performance profiles, probability of improvement and stratified bootstrap intervals characterize algorithm differences."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "输入为多个任务及多次训练的得分矩阵，适用于 Atari、Procgen 等实验结果的统计分析。",
+            "en": "Inputs are score matrices across tasks and training runs, including results from Atari and Procgen."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "rliable 提供强化学习实验的统计分析方法与实现，从既有得分中估计聚合表现和置信区间。",
+          "en": "rliable provides statistical methods and software for aggregate performance and confidence intervals from existing RL scores."
+        },
+        {
+          "zh": "用于研究少量随机种子条件下的强化学习算法比较，描述跨任务表现与统计不确定性。",
+          "en": "It supports RL comparisons with limited random seeds, characterizing cross-task performance and statistical uncertainty."
+        },
+        {
+          "zh": "采用四分位均值、性能分布、提升概率和分层 bootstrap 区间，分析算法之间的表现差异。",
+          "en": "Interquartile means, performance profiles, probability of improvement and stratified bootstrap intervals characterize algorithm differences."
+        },
+        {
+          "zh": "输入为多个任务及多次训练的得分矩阵，适用于 Atari、Procgen 等实验结果的统计分析。",
+          "en": "Inputs are score matrices across tasks and training runs, including results from Atari and Procgen."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html",
+          "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB019",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "URLB 将无奖励交互预训练与指定控制任务上的适应结合，智能体先收集通用经验，再学习站立、行走或操作等目标。",
+            "en": "URLB combines reward-free interaction with adaptation to specified control goals such as standing, locomotion and manipulation."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于比较无监督预训练形成的表示、探索行为及其下游适应效率，研究不同内在目标对后续控制的作用。",
+            "en": "It compares representations and exploration from unsupervised pretraining and their downstream adaptation efficiency."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "按下游任务回报及适应阶段的样本效率比较方法，并在控制域和具体目标间汇总。",
+            "en": "Methods are evaluated using downstream returns and adaptation sample efficiency across control domains and goals."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "包括 Walker、Quadruped 和 Jaco 三个控制域的任务，采用无奖励预训练与有奖励微调两个阶段。",
+            "en": "Walker, Quadruped and Jaco tasks use reward-free pretraining followed by reward-based adaptation."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "URLB 将无奖励交互预训练与指定控制任务上的适应结合，智能体先收集通用经验，再学习站立、行走或操作等目标。",
+          "en": "URLB combines reward-free interaction with adaptation to specified control goals such as standing, locomotion and manipulation."
+        },
+        {
+          "zh": "用于比较无监督预训练形成的表示、探索行为及其下游适应效率，研究不同内在目标对后续控制的作用。",
+          "en": "It compares representations and exploration from unsupervised pretraining and their downstream adaptation efficiency."
+        },
+        {
+          "zh": "按下游任务回报及适应阶段的样本效率比较方法，并在控制域和具体目标间汇总。",
+          "en": "Methods are evaluated using downstream returns and adaptation sample efficiency across control domains and goals."
+        },
+        {
+          "zh": "包括 Walker、Quadruped 和 Jaco 三个控制域的任务，采用无奖励预训练与有奖励微调两个阶段。",
+          "en": "Walker, Quadruped and Jaco tasks use reward-free pretraining followed by reward-based adaptation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/091d584fced301b442654dd8c23b3fc9-Abstract-round2.html",
+          "title": "URLB: Unsupervised Reinforcement Learning Benchmark"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "BUILD303",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "BuildArena在《围攻》中让语言模型根据自然语言目标构造运输、承重和升空机械。模型调用构造工具生成BSG机器文件，再由游戏物理仿真检验机械的实际行为。",
+            "en": "BuildArena asks language models to construct transport, support and lift machines in Besiege from natural-language specifications. Models use construction tools to produce BSG machine files, whose behavior is tested in the game’s physics simulation."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究工程构造、三维空间组合与物理推理，并分析结构设计能否满足功能约束。单轮生成与仿真反馈修正分别用于比较初始设计质量和迭代改进效果。",
+            "en": "It supports research on engineering construction, 3D spatial composition and physical reasoning under functional constraints. One-shot generation and simulation-feedback refinement provide separate settings for initial design quality and iterative improvement."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "按运输、承重和升空任务的轨迹判定成功率，并记录承重或高度等任务量、部件数、非法动作率与模型调用量。官方基线按任务类别和难度汇总，每个任务—模型组合采样64次。",
+            "en": "Simulation trajectories determine task success; evaluation also records task-specific load or height, part count, invalid-action rate and model calls. Official baselines aggregate results by task category and difficulty, with 64 samples per task–model pair."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源覆盖三类机械任务及三档难度，构造文件和仿真轨迹为主要研究产物。原始BuildArena的单轮与反馈实验分别记录；后续BuildArena 2.0属于独立扩展版本。",
+            "en": "The resource covers three machine-task categories at three difficulty levels, with construction files and simulation trajectories as the main research artifacts. One-shot and feedback experiments are recorded separately; BuildArena 2.0 is a subsequent extension."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "BuildArena在《围攻》中让语言模型根据自然语言目标构造运输、承重和升空机械。模型调用构造工具生成BSG机器文件，再由游戏物理仿真检验机械的实际行为。",
+          "en": "BuildArena asks language models to construct transport, support and lift machines in Besiege from natural-language specifications. Models use construction tools to produce BSG machine files, whose behavior is tested in the game’s physics simulation."
+        },
+        {
+          "zh": "用于研究工程构造、三维空间组合与物理推理，并分析结构设计能否满足功能约束。单轮生成与仿真反馈修正分别用于比较初始设计质量和迭代改进效果。",
+          "en": "It supports research on engineering construction, 3D spatial composition and physical reasoning under functional constraints. One-shot generation and simulation-feedback refinement provide separate settings for initial design quality and iterative improvement."
+        },
+        {
+          "zh": "按运输、承重和升空任务的轨迹判定成功率，并记录承重或高度等任务量、部件数、非法动作率与模型调用量。官方基线按任务类别和难度汇总，每个任务—模型组合采样64次。",
+          "en": "Simulation trajectories determine task success; evaluation also records task-specific load or height, part count, invalid-action rate and model calls. Official baselines aggregate results by task category and difficulty, with 64 samples per task–model pair."
+        },
+        {
+          "zh": "资源覆盖三类机械任务及三档难度，构造文件和仿真轨迹为主要研究产物。原始BuildArena的单轮与反馈实验分别记录；后续BuildArena 2.0属于独立扩展版本。",
+          "en": "The resource covers three machine-task categories at three difficulty levels, with construction files and simulation trajectories as the main research artifacts. One-shot and feedback experiments are recorded separately; BuildArena 2.0 is a subsequent extension."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v306/xia26d.html",
+          "title": "BuildArena: A Physics-Aligned Interactive Benchmark of LLMs for Engineering Construction"
+        },
+        {
+          "url": "https://github.com/AI4Science-WestlakeU/BuildArena/blob/main/README.md",
+          "title": "BuildArena · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/AI4Science-WestlakeU/BuildArena/blob/main/asset/car1.gif",
+          "title": {
+            "zh": "运输机械官方示例",
+            "en": "Official transport-machine example"
+          },
+          "source": "https://github.com/AI4Science-WestlakeU/BuildArena/blob/main/README.md",
+          "sourceAssetSha": "34ce7ead5d021530ef1fb86ad026dd4d7934413d"
+        }
+      ]
+    },
+    {
+      "id": "OMIT305",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "CWMB 包含 18 个 RL 环境的描述与轨迹；另在简化 RTFM 评价代码模型与规划。",
+            "en": "CWMB supplies descriptions and trajectories for 18 RL environments; a simplified RTFM tests model generation and planning."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究 LLM 生成可执行动力学模型，以及模型准确性对搜索规划回报的影响。GIF-MCTS 以搜索和执行反馈改进生成代码。",
+            "en": "It studies executable dynamics generation and its effects on planning, with GIF-MCTS refining code through search and feedback."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "转换/奖励/终止预测准确率、规划归一化回报及合成预算。",
+            "en": "Transition/reward/termination accuracy, normalized planning return and synthesis budget."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "CWMB 提供多环境描述和轨迹；代码预测与规划执行分别计分，RTFM 实验采用文中定义的简化设置。",
+            "en": "CWMB supplies environment descriptions and trajectories; prediction and planning are measured separately, with simplified RTFM settings."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "CWMB 包含 18 个 RL 环境的描述与轨迹；另在简化 RTFM 评价代码模型与规划。",
+          "en": "CWMB supplies descriptions and trajectories for 18 RL environments; a simplified RTFM tests model generation and planning."
+        },
+        {
+          "zh": "用于研究 LLM 生成可执行动力学模型，以及模型准确性对搜索规划回报的影响。GIF-MCTS 以搜索和执行反馈改进生成代码。",
+          "en": "It studies executable dynamics generation and its effects on planning, with GIF-MCTS refining code through search and feedback."
+        },
+        {
+          "zh": "转换/奖励/终止预测准确率、规划归一化回报及合成预算。",
+          "en": "Transition/reward/termination accuracy, normalized planning return and synthesis budget."
+        },
+        {
+          "zh": "CWMB 提供多环境描述和轨迹；代码预测与规划执行分别计分，RTFM 实验采用文中定义的简化设置。",
+          "en": "CWMB supplies environment descriptions and trajectories; prediction and planning are measured separately, with simplified RTFM settings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html",
+          "title": "Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search"
+        },
+        {
+          "url": "https://github.com/nicoladainese96/code-world-models/blob/main/README.md",
+          "title": "GIF-MCTS / CWMB · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT310",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "OGameData 游戏录像支持生成和指令控制视频；Cyberpunk 2077 与 RDR2 为原文明确数据示例。",
+            "en": "OGameData supports video generation and instructed control; Cyberpunk 2077 and RDR2 are explicitly identified data examples."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究开放场景视频生成、动作可控性与指令驱动的连续画面变化。游戏录像为生成模型提供训练数据。",
+            "en": "It studies open-domain video generation, action controllability and instruction-driven visual dynamics using gameplay footage."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "FID/FVD、文字对齐、偏好、视频质量及角色/环境控制响应率。",
+            "en": "FID/FVD, text alignment, preference, video quality and character/event response rates."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测对象为合成视频及控制响应，使用 OGameData 数据与对应视频生成协议。",
+            "en": "Evaluation concerns generated video and control responses using OGameData and the associated generation protocol."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "OGameData 游戏录像支持生成和指令控制视频；Cyberpunk 2077 与 RDR2 为原文明确数据示例。",
+          "en": "OGameData supports video generation and instructed control; Cyberpunk 2077 and RDR2 are explicitly identified data examples."
+        },
+        {
+          "zh": "用于研究开放场景视频生成、动作可控性与指令驱动的连续画面变化。游戏录像为生成模型提供训练数据。",
+          "en": "It studies open-domain video generation, action controllability and instruction-driven visual dynamics using gameplay footage."
+        },
+        {
+          "zh": "FID/FVD、文字对齐、偏好、视频质量及角色/环境控制响应率。",
+          "en": "FID/FVD, text alignment, preference, video quality and character/event response rates."
+        },
+        {
+          "zh": "评测对象为合成视频及控制响应，使用 OGameData 数据与对应视频生成协议。",
+          "en": "Evaluation concerns generated video and control responses using OGameData and the associated generation protocol."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/5d2e24df9cfaad3189833b819c40b392-Abstract-Conference.html",
+          "title": "GameGen-X: Interactive Open-world Game Video Generation"
+        },
+        {
+          "url": "https://github.com/GameGen-X/GameGen-X/blob/main/README.md",
+          "title": "GameGen-X · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT311",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GF-Minecraft 提供动作标注录像，用于学习键鼠条件视频生成并迁移到开放场景。",
+            "en": "GF-Minecraft action-labeled videos train keyboard/mouse-conditioned generation and transfer to open-domain scenes."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究动作条件视频生成与场景泛化，分析游戏风格学习和键鼠控制之间的关系。",
+            "en": "It studies action-conditioned video generation and scene generalization, separating style learning from keyboard/mouse control."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "摄像机误差、光流误差、CLIP、FID 与 FVD。",
+            "en": "Camera error, optical-flow error, CLIP, FID and FVD."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "资源包含 GF-Minecraft 数据与交互视频生成方法，评价输入动作与生成画面的对应关系。",
+            "en": "The resource includes GF-Minecraft and interactive video generation, evaluating the relationship between input actions and generated frames."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GF-Minecraft 提供动作标注录像，用于学习键鼠条件视频生成并迁移到开放场景。",
+          "en": "GF-Minecraft action-labeled videos train keyboard/mouse-conditioned generation and transfer to open-domain scenes."
+        },
+        {
+          "zh": "用于研究动作条件视频生成与场景泛化，分析游戏风格学习和键鼠控制之间的关系。",
+          "en": "It studies action-conditioned video generation and scene generalization, separating style learning from keyboard/mouse control."
+        },
+        {
+          "zh": "摄像机误差、光流误差、CLIP、FID 与 FVD。",
+          "en": "Camera error, optical-flow error, CLIP, FID and FVD."
+        },
+        {
+          "zh": "资源包含 GF-Minecraft 数据与交互视频生成方法，评价输入动作与生成画面的对应关系。",
+          "en": "The resource includes GF-Minecraft and interactive video generation, evaluating the relationship between input actions and generated frames."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_GameFactory_Creating_New_Games_with_Generative_Interactive_Videos_ICCV_2025_paper.pdf",
+          "title": "GameFactory: Creating New Games with Generative Interactive Videos"
+        },
+        {
+          "url": "https://arxiv.org/abs/2501.08325",
+          "title": "GameFactory · author preprint"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT314",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "交互视频世界模型及 InterBench 六维视频响应协议；150 余 AAA 游戏录像，明确示例含 Cyberpunk 2077。",
+            "en": "Interactive video world model with six-dimension InterBench response evaluation; footage from 150+ AAA games includes Cyberpunk 2077."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究交互视频世界模型的指令遵循、时序一致性与实时生成。InterBench 按多种控制维度评价响应。",
+            "en": "It studies instruction following, temporal consistency and real-time generation in interactive video world models through InterBench control dimensions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "FVD、质量/时序、相对位姿误差、FPS 和 InterBench 指令响应。",
+            "en": "FVD, quality/temporal consistency, relative pose error, FPS and InterBench response."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测面向生成视频的质量与控制响应，VLM 在协议中承担视频评价角色。",
+            "en": "Evaluation targets video quality and control response, with VLMs serving as video evaluators."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "交互视频世界模型及 InterBench 六维视频响应协议；150 余 AAA 游戏录像，明确示例含 Cyberpunk 2077。",
+          "en": "Interactive video world model with six-dimension InterBench response evaluation; footage from 150+ AAA games includes Cyberpunk 2077."
+        },
+        {
+          "zh": "用于研究交互视频世界模型的指令遵循、时序一致性与实时生成。InterBench 按多种控制维度评价响应。",
+          "en": "It studies instruction following, temporal consistency and real-time generation in interactive video world models through InterBench control dimensions."
+        },
+        {
+          "zh": "FVD、质量/时序、相对位姿误差、FPS 和 InterBench 指令响应。",
+          "en": "FVD, quality/temporal consistency, relative pose error, FPS and InterBench response."
+        },
+        {
+          "zh": "评测面向生成视频的质量与控制响应，VLM 在协议中承担视频评价角色。",
+          "en": "Evaluation targets video quality and control response, with VLMs serving as video evaluators."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2511.23429",
+          "title": "Hunyuan-GameCraft-2: Instruction-following Interactive Game World Model"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT318",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "30 种博弈的规则到代码数据，23 训练、7 留出；验证静态、模糊、语义和信息一致性。",
+            "en": "Thirty-game rule-to-code dataset: 23 training and seven held out; tests static, fuzz, semantic and information consistency."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究轻量模型的规则到代码生成，通过监督微调与可验证奖励训练学习可执行游戏模型。",
+            "en": "It studies lightweight rule-to-code generation using supervised fine-tuning and verifiable-reward training."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "四级验证通过率；每留出游戏生成 25 份代码。",
+            "en": "Four-tier verification rates; 25 generated programs per held-out game."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "数据涵盖完全与不完全信息游戏，训练游戏与留出游戏分别组织；评价单位为生成的游戏代码。",
+            "en": "Perfect- and imperfect-information games are partitioned into training and held-out sets; generated game code is the evaluation unit."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "30 种博弈的规则到代码数据，23 训练、7 留出；验证静态、模糊、语义和信息一致性。",
+          "en": "Thirty-game rule-to-code dataset: 23 training and seven held out; tests static, fuzz, semantic and information consistency."
+        },
+        {
+          "zh": "用于研究轻量模型的规则到代码生成，通过监督微调与可验证奖励训练学习可执行游戏模型。",
+          "en": "It studies lightweight rule-to-code generation using supervised fine-tuning and verifiable-reward training."
+        },
+        {
+          "zh": "四级验证通过率；每留出游戏生成 25 份代码。",
+          "en": "Four-tier verification rates; 25 generated programs per held-out game."
+        },
+        {
+          "zh": "数据涵盖完全与不完全信息游戏，训练游戏与留出游戏分别组织；评价单位为生成的游戏代码。",
+          "en": "Perfect- and imperfect-information games are partitioned into training and held-out sets; generated game code is the evaluation unit."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.24375",
+          "title": "Distilling Game Code World Model Generation into Lightweight Large Language Models"
+        },
+        {
+          "url": "https://arxiv.org/abs/2605.24375",
+          "title": "GameCWM distillation · author preprint"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT319",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "区分代码世界模型预测验证与实际对局适用性；覆盖完全信息棋类、扑克及人工稀有规则/信念反例。",
+            "en": "Separate code-model prediction verification from play adequacy across board games, poker and instrumented rare-rule/belief counterexamples."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究代码世界模型的预测正确性与实际决策效用之间的关系，分析稀有规则或信念误差如何影响搜索对局。",
+            "en": "It studies prediction correctness versus decision utility in code world models, including rare-rule and belief errors in search."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "验证通过率、预测/分布差距、真实裁判胜率、play-cost 与置信区间。",
+            "en": "Gate pass rate, predictive/distribution gaps, truth-refereed win rate, play cost and confidence intervals."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "实验分为手工控制的因果反例与 LLM 代码合成测试，真实规则裁判用于评价对局结果。",
+            "en": "Experiments distinguish instrumented causal counterexamples from LLM synthesis, with true-rule referees evaluating play."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "区分代码世界模型预测验证与实际对局适用性；覆盖完全信息棋类、扑克及人工稀有规则/信念反例。",
+          "en": "Separate code-model prediction verification from play adequacy across board games, poker and instrumented rare-rule/belief counterexamples."
+        },
+        {
+          "zh": "用于研究代码世界模型的预测正确性与实际决策效用之间的关系，分析稀有规则或信念误差如何影响搜索对局。",
+          "en": "It studies prediction correctness versus decision utility in code world models, including rare-rule and belief errors in search."
+        },
+        {
+          "zh": "验证通过率、预测/分布差距、真实裁判胜率、play-cost 与置信区间。",
+          "en": "Gate pass rate, predictive/distribution gaps, truth-refereed win rate, play cost and confidence intervals."
+        },
+        {
+          "zh": "实验分为手工控制的因果反例与 LLM 代码合成测试，真实规则裁判用于评价对局结果。",
+          "en": "Experiments distinguish instrumented causal counterexamples from LLM synthesis, with true-rule referees evaluating play."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.14169",
+          "title": "When a Verified World Model Still Loses: Play-Adequacy vs Prediction-Accuracy in LLM-Synthesized Code World Models"
+        },
+        {
+          "url": "https://github.com/JaviMaligno/code-world-models/blob/main/README.md",
+          "title": "PlayAdequacy · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT320",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "显式世界状态驱动视频渲染；CombatStateBench 以 50 段视频测状态一致性。",
+            "en": "Explicit world state drives video rendering; 50-clip CombatStateBench tests state consistency."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究显式状态控制的生成世界、对象持续性与视频状态一致性。结构化状态为生成过程提供可编程约束。",
+            "en": "It studies explicit-state control, object persistence and video-state consistency through programmable world-state constraints."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "可见存活数量准确率、死亡事件状态准确率及四项 VBench 质量指标。",
+            "en": "Visible-alive count accuracy, death-state accuracy and four VBench quality metrics."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "CombatStateBench 针对生成画面中的对象状态与事件开展诊断，使用预定状态和动作条件。",
+            "en": "CombatStateBench diagnoses object states and events in generated frames under predefined state and action conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "显式世界状态驱动视频渲染；CombatStateBench 以 50 段视频测状态一致性。",
+          "en": "Explicit world state drives video rendering; 50-clip CombatStateBench tests state consistency."
+        },
+        {
+          "zh": "用于研究显式状态控制的生成世界、对象持续性与视频状态一致性。结构化状态为生成过程提供可编程约束。",
+          "en": "It studies explicit-state control, object persistence and video-state consistency through programmable world-state constraints."
+        },
+        {
+          "zh": "可见存活数量准确率、死亡事件状态准确率及四项 VBench 质量指标。",
+          "en": "Visible-alive count accuracy, death-state accuracy and four VBench quality metrics."
+        },
+        {
+          "zh": "CombatStateBench 针对生成画面中的对象状态与事件开展诊断，使用预定状态和动作条件。",
+          "en": "CombatStateBench diagnoses object states and events in generated frames under predefined state and action conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2609.10540",
+          "title": "Programmable World Model"
+        },
+        {
+          "url": "https://github.com/AlayaLab/PWM/blob/main/README.md",
+          "title": "ProgrammableWorldModel · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/AlayaLab/PWM/blob/main/assets/teaser.png",
+          "title": {
+            "zh": "显式状态与生成世界框架图",
+            "en": "Explicit-state world generation diagram"
+          },
+          "source": "https://github.com/AlayaLab/PWM/blob/main/README.md",
+          "sourceAssetSha": "11053e72eb90ae5f1dc70ca5b5e18c058e9b5fe6"
+        }
+      ]
+    },
+    {
+      "id": "OMIT322",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "333 个 Godot 游戏开发修改任务，来自网页与视频教程，涵盖图形、动画、界面和玩法逻辑。",
+            "en": "333 Godot development edits from web/video tutorials, covering graphics, animation, interfaces and game logic."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究开发代理理解和修改完整游戏工程的能力，覆盖图形、动画、界面及玩法逻辑。",
+            "en": "It studies developer agents modifying full game projects across graphics, animation, interfaces and gameplay logic."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "任务测试通过率。",
+            "en": "Task test-pass rate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测单元为 Godot 工程修改任务，依据指定引擎版本与任务测试评价提交结果。",
+            "en": "Godot project-edit tasks are the evaluation units, assessed under specified engine versions and task tests."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "333 个 Godot 游戏开发修改任务，来自网页与视频教程，涵盖图形、动画、界面和玩法逻辑。",
+          "en": "333 Godot development edits from web/video tutorials, covering graphics, animation, interfaces and game logic."
+        },
+        {
+          "zh": "用于研究开发代理理解和修改完整游戏工程的能力，覆盖图形、动画、界面及玩法逻辑。",
+          "en": "It studies developer agents modifying full game projects across graphics, animation, interfaces and gameplay logic."
+        },
+        {
+          "zh": "任务测试通过率。",
+          "en": "Task test-pass rate."
+        },
+        {
+          "zh": "评测单元为 Godot 工程修改任务，依据指定引擎版本与任务测试评价提交结果。",
+          "en": "Godot project-edit tasks are the evaluation units, assessed under specified engine versions and task tests."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v306/chi26a.html",
+          "title": "GameDevBench: Evaluating Agentic Capabilities Through Game Development"
+        },
+        {
+          "url": "https://github.com/waynchi/gamedevbench/blob/main/README.md",
+          "title": "GameDevBench · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/waynchi/gamedevbench/blob/main/assets/taxonomy-examples.png",
+          "title": {
+            "zh": "游戏开发任务分类示例",
+            "en": "Game-development task taxonomy examples"
+          },
+          "source": "https://github.com/waynchi/gamedevbench/blob/main/README.md",
+          "sourceAssetSha": "bf03fee53768f80614ce391bf42269c673717b29"
+        }
+      ]
+    },
+    {
+      "id": "OMIT323",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "BesiegeField 在《围攻》中把组件、连接和驱动写成机器程序；比较单次生成与仿真反馈驱动的迭代/分层改造，覆盖七类机械任务。",
+            "en": "BesiegeField turns parts, connections and actuation into machine programs in Besiege, comparing one-shot generation with simulation-feedback iterative/hierarchical refinement across seven mechanical task families."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究语言模型的组合式机械设计与仿真反馈改进，将机器结构、连接和驱动表达为可执行程序。",
+            "en": "It studies compositional machine design and simulation-feedback refinement through programs describing structure, connections and actuation."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "解析/空间/机器有效率；任务物理分数的均值、最大值；均值常仅在有效机器上统计。",
+            "en": "Parse, spatial and machine validity; mean/maximum physical task score, with means often conditional on valid machines."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测包括多类《围攻》机械构造任务；单次生成、迭代改造和分层改造采用各自实验流程。",
+            "en": "Evaluation covers Besiege construction tasks under one-shot, iterative and hierarchical refinement procedures."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "BesiegeField 在《围攻》中把组件、连接和驱动写成机器程序；比较单次生成与仿真反馈驱动的迭代/分层改造，覆盖七类机械任务。",
+          "en": "BesiegeField turns parts, connections and actuation into machine programs in Besiege, comparing one-shot generation with simulation-feedback iterative/hierarchical refinement across seven mechanical task families."
+        },
+        {
+          "zh": "用于研究语言模型的组合式机械设计与仿真反馈改进，将机器结构、连接和驱动表达为可执行程序。",
+          "en": "It studies compositional machine design and simulation-feedback refinement through programs describing structure, connections and actuation."
+        },
+        {
+          "zh": "解析/空间/机器有效率；任务物理分数的均值、最大值；均值常仅在有效机器上统计。",
+          "en": "Parse, spatial and machine validity; mean/maximum physical task score, with means often conditional on valid machines."
+        },
+        {
+          "zh": "评测包括多类《围攻》机械构造任务；单次生成、迭代改造和分层改造采用各自实验流程。",
+          "en": "Evaluation covers Besiege construction tasks under one-shot, iterative and hierarchical refinement procedures."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2510.14980",
+          "title": "Compositional Machine Design as Program Synthesis with LLMs"
+        },
+        {
+          "url": "https://github.com/Godheritage/BesiegeField/blob/main/README.md",
+          "title": "BesiegeField · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/Godheritage/BesiegeField/blob/main/assets/throwing.gif",
+          "title": {
+            "zh": "官方投掷机器演示",
+            "en": "Official throwing-machine demonstration"
+          },
+          "source": "https://github.com/Godheritage/BesiegeField/blob/main/README.md",
+          "sourceAssetSha": "ab80460e91816062b732acc09a434c8a03b16ea4"
+        }
+      ]
+    },
+    {
+      "id": "OMIT324",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "140 个 Godot 4 完整游戏生成任务，覆盖 15 个游戏家族；提交工程与可重放操作轨迹。",
+            "en": "140 end-to-end Godot 4 game-generation tasks across 15 families; submissions include projects and replayable input traces."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究真实游戏引擎中的端到端开发，评价需求理解、机制实现与可运行产物的整合。",
+            "en": "It studies end-to-end development in a real engine, combining requirement understanding, mechanics and executable artifacts."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "启动门槛后，以机制、内容深度、功能视觉、艺术呈现四类 rubric 给分。",
+            "en": "Launchability gate followed by rubric scores for mechanics, content depth, functional visuals and presentation."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测对象为生成的 Godot 工程与可重放输入轨迹，任务按游戏家族组织。",
+            "en": "Generated Godot projects and replayable input traces are evaluated across game families."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "140 个 Godot 4 完整游戏生成任务，覆盖 15 个游戏家族；提交工程与可重放操作轨迹。",
+          "en": "140 end-to-end Godot 4 game-generation tasks across 15 families; submissions include projects and replayable input traces."
+        },
+        {
+          "zh": "用于研究真实游戏引擎中的端到端开发，评价需求理解、机制实现与可运行产物的整合。",
+          "en": "It studies end-to-end development in a real engine, combining requirement understanding, mechanics and executable artifacts."
+        },
+        {
+          "zh": "启动门槛后，以机制、内容深度、功能视觉、艺术呈现四类 rubric 给分。",
+          "en": "Launchability gate followed by rubric scores for mechanics, content depth, functional visuals and presentation."
+        },
+        {
+          "zh": "评测对象为生成的 Godot 工程与可重放输入轨迹，任务按游戏家族组织。",
+          "en": "Generated Godot projects and replayable input traces are evaluated across game families."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.17861",
+          "title": "GameCraft-Bench: Can Agents Build Playable Games End-to-End in a Real Game Engine?"
+        },
+        {
+          "url": "https://github.com/FreedomIntelligence/gamecraft-bench/blob/main/README.md",
+          "title": "GameCraft-Bench · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT325",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "9 个真实 Unreal Engine 5 工程中的 110 个 C++ 行为实现任务，含联机复制、动画、UI、存储与渲染插件。",
+            "en": "110 C++ implementation tasks in nine real Unreal Engine 5 projects, spanning networking, animation, UI, persistence and rendering plugins."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究开发代理处理真实 Unreal Engine C++ 工程的能力，包括运行时行为、引擎接口和跨模块修改。",
+            "en": "It studies coding agents in real Unreal Engine C++ projects, including runtime behavior, engine interfaces and cross-module edits."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "编译且满足行为测试的 pass@1。",
+            "en": "Pass@1 requiring compilation and behavioral tests."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务位于既有 UE5 工程中，提交代码通过编译及指定行为测试接受评价。",
+            "en": "Tasks modify existing UE5 projects, with submissions evaluated through compilation and behavioral tests."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "9 个真实 Unreal Engine 5 工程中的 110 个 C++ 行为实现任务，含联机复制、动画、UI、存储与渲染插件。",
+          "en": "110 C++ implementation tasks in nine real Unreal Engine 5 projects, spanning networking, animation, UI, persistence and rendering plugins."
+        },
+        {
+          "zh": "用于研究开发代理处理真实 Unreal Engine C++ 工程的能力，包括运行时行为、引擎接口和跨模块修改。",
+          "en": "It studies coding agents in real Unreal Engine C++ projects, including runtime behavior, engine interfaces and cross-module edits."
+        },
+        {
+          "zh": "编译且满足行为测试的 pass@1。",
+          "en": "Pass@1 requiring compilation and behavioral tests."
+        },
+        {
+          "zh": "任务位于既有 UE5 工程中，提交代码通过编译及指定行为测试接受评价。",
+          "en": "Tasks modify existing UE5 projects, with submissions evaluated through compilation and behavioral tests."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.03525",
+          "title": "GameEngineBench: Evaluating Coding Agents on Real C++ Runtime Environments"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT326",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "JamSet/JamBench：从 Game Jam 项目筛得 8,133 个有效 Godot 工程，其中 300 个组成生成与代码补全评测。",
+            "en": "JamSet/JamBench contains 8,133 verified Godot Game Jam projects, with 300 forming generation/code-completion evaluations."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究专业游戏引擎工程的代码生成、框架补全及行为实现，连接项目级数据与可执行测试。",
+            "en": "It supports project-level generation, framework completion and behavior implementation in professional game engines."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "编译通过率、结构完整性 SCS、行为对齐 BAS。",
+            "en": "Compilation pass rate, Structural Completeness Score and Behavioral Alignment Score."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "JamSet 提供项目数据，JamBench 从中建立评测任务；数据规模与测试集规模分别统计。",
+            "en": "JamSet supplies project data and JamBench defines evaluation tasks; corpus and test-set sizes are distinct."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "JamSet/JamBench：从 Game Jam 项目筛得 8,133 个有效 Godot 工程，其中 300 个组成生成与代码补全评测。",
+          "en": "JamSet/JamBench contains 8,133 verified Godot Game Jam projects, with 300 forming generation/code-completion evaluations."
+        },
+        {
+          "zh": "用于研究专业游戏引擎工程的代码生成、框架补全及行为实现，连接项目级数据与可执行测试。",
+          "en": "It supports project-level generation, framework completion and behavior implementation in professional game engines."
+        },
+        {
+          "zh": "编译通过率、结构完整性 SCS、行为对齐 BAS。",
+          "en": "Compilation pass rate, Structural Completeness Score and Behavioral Alignment Score."
+        },
+        {
+          "zh": "JamSet 提供项目数据，JamBench 从中建立评测任务；数据规模与测试集规模分别统计。",
+          "en": "JamSet supplies project data and JamBench defines evaluation tasks; corpus and test-set sizes are distinct."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2606.19830",
+          "title": "JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT327",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "111 个浏览器游戏生成任务；从冻结结构化需求生成、部署并由真实浏览器交互验收。",
+            "en": "111 browser-native game-generation tasks; frozen structured specifications are implemented, deployed and evaluated through browser interaction."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究编码代理从结构化需求到可交互网页应用的实现质量，使用游戏需求约束功能与交互。",
+            "en": "It studies coding agents implementing interactive web applications from structured gameplay requirements."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Excellent、Usable、Unusable 三分类；可用率与优秀率。",
+            "en": "Excellent/Usable/Unusable labels, usable rate and excellent rate."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "浏览器游戏是生成产物，验收流程包括部署与实际浏览器操作，采用冻结需求评价。",
+            "en": "Browser games are generated artifacts evaluated through deployment and interaction against frozen requirements."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "111 个浏览器游戏生成任务；从冻结结构化需求生成、部署并由真实浏览器交互验收。",
+          "en": "111 browser-native game-generation tasks; frozen structured specifications are implemented, deployed and evaluated through browser interaction."
+        },
+        {
+          "zh": "用于研究编码代理从结构化需求到可交互网页应用的实现质量，使用游戏需求约束功能与交互。",
+          "en": "It studies coding agents implementing interactive web applications from structured gameplay requirements."
+        },
+        {
+          "zh": "Excellent、Usable、Unusable 三分类；可用率与优秀率。",
+          "en": "Excellent/Usable/Unusable labels, usable rate and excellent rate."
+        },
+        {
+          "zh": "浏览器游戏是生成产物，验收流程包括部署与实际浏览器操作，采用冻结需求评价。",
+          "en": "Browser games are generated artifacts evaluated through deployment and interaction against frozen requirements."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.17637",
+          "title": "WebGameBench: Requirement-to-Application Evaluation for Coding Agents via Browser-Native Games"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT329",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GameGoData 含 55,060 个开发轨迹，GameGoBench 含 124 个游戏需求，训练 GameGoCoder 生成 React 游戏。",
+            "en": "GameGoData has 55,060 development trajectories; GameGoBench has 124 game queries for React game generation."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究基于真实资产的游戏开发轨迹合成与开发代理训练，分析执行能力和需求满足程度。",
+            "en": "It studies asset-grounded development-trajectory synthesis and agent training, analyzing execution and requirement satisfaction."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Execution Rate、Requirements、Quality；另保留外部 ArtifactsBench-G/Cookie-Bench-G 指标。",
+            "en": "Execution Rate, Requirements and Quality, with original metrics retained for external game-generation benchmarks."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "GameGoData 为训练轨迹，GameGoBench 为需求测试集，评价对象为生成的 React 游戏。",
+            "en": "GameGoData supplies training trajectories and GameGoBench supplies test queries for generated React games."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GameGoData 含 55,060 个开发轨迹，GameGoBench 含 124 个游戏需求，训练 GameGoCoder 生成 React 游戏。",
+          "en": "GameGoData has 55,060 development trajectories; GameGoBench has 124 game queries for React game generation."
+        },
+        {
+          "zh": "用于研究基于真实资产的游戏开发轨迹合成与开发代理训练，分析执行能力和需求满足程度。",
+          "en": "It studies asset-grounded development-trajectory synthesis and agent training, analyzing execution and requirement satisfaction."
+        },
+        {
+          "zh": "Execution Rate、Requirements、Quality；另保留外部 ArtifactsBench-G/Cookie-Bench-G 指标。",
+          "en": "Execution Rate, Requirements and Quality, with original metrics retained for external game-generation benchmarks."
+        },
+        {
+          "zh": "GameGoData 为训练轨迹，GameGoBench 为需求测试集，评价对象为生成的 React 游戏。",
+          "en": "GameGoData supplies training trajectories and GameGoBench supplies test queries for generated React games."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.06910",
+          "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets"
+        },
+        {
+          "url": "https://github.com/Haoyue-Yang/GameGo/blob/main/README.md",
+          "title": "GAMEGO · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/Haoyue-Yang/GameGo/blob/main/figure/game_case_v3.png",
+          "title": {
+            "zh": "官方开发任务构造图",
+            "en": "Official development-task construction diagram"
+          },
+          "source": "https://github.com/Haoyue-Yang/GameGo/blob/main/README.md",
+          "sourceAssetSha": "fdc6c080bbbde1265b60f9bfd85a287b81688642"
+        }
+      ]
+    },
+    {
+      "id": "OMIT330",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "PlaytestArena 200 个、八类型游戏生成任务；Play2Code 在编码与 GUI 试玩之间迭代并记录共享记忆。",
+            "en": "PlaytestArena has 200 generation tasks across eight genres; Play2Code iterates coding and GUI playtesting with shared memory."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究编码与 GUI 试玩之间的迭代改进，以及共享记忆对持续游戏开发的作用。",
+            "en": "It studies iterative coding and GUI playtesting and the role of shared memory in continual game development."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "独立 GPT-5.5 GUI judge 的 rubric 通过率与逐轮改进。",
+            "en": "Rubric pass rate from an independent GPT-5.5 GUI judge and round-wise improvement."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "PlaytestArena 提供生成任务，Play2Code 使用试玩反馈修改产物；最终评价由独立 GUI 评委执行。",
+            "en": "PlaytestArena supplies generation tasks; Play2Code revises artifacts from playtesting, with an independent GUI judge providing final evaluation."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "PlaytestArena 200 个、八类型游戏生成任务；Play2Code 在编码与 GUI 试玩之间迭代并记录共享记忆。",
+          "en": "PlaytestArena has 200 generation tasks across eight genres; Play2Code iterates coding and GUI playtesting with shared memory."
+        },
+        {
+          "zh": "用于研究编码与 GUI 试玩之间的迭代改进，以及共享记忆对持续游戏开发的作用。",
+          "en": "It studies iterative coding and GUI playtesting and the role of shared memory in continual game development."
+        },
+        {
+          "zh": "独立 GPT-5.5 GUI judge 的 rubric 通过率与逐轮改进。",
+          "en": "Rubric pass rate from an independent GPT-5.5 GUI judge and round-wise improvement."
+        },
+        {
+          "zh": "PlaytestArena 提供生成任务，Play2Code 使用试玩反馈修改产物；最终评价由独立 GUI 评委执行。",
+          "en": "PlaytestArena supplies generation tasks; Play2Code revises artifacts from playtesting, with an independent GUI judge providing final evaluation."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2605.28258",
+          "title": "GUI Agents for Continual Game Generation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT332",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "SciCrafter 在创造模式中构造红石电路：五家族×五难度，测试发现规律、巩固知识并完成灯光时序目标。",
+            "en": "SciCrafter creative-mode redstone construction has five families × five levels, testing discovery, knowledge consolidation and functional lamp/timing goals."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究发现规律、知识巩固与工程应用之间的衔接，比较探索提示和知识结构对构造成功的影响。",
+            "en": "It studies discovery, knowledge consolidation and application, comparing hints and knowledge structures in successful construction."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "自动时序 checker 成功率；验证试次数与提示/科学家/知识结构消融。",
+            "en": "Temporal-checker success rate, verification-trial use and hint/scientist/knowledge-structure ablations."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务基于创造模式红石电路，采用结构化状态与方块操作接口，按电路家族和难度组织。",
+            "en": "Creative-mode redstone tasks use structured states and block actions, organized by circuit family and difficulty."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "SciCrafter 在创造模式中构造红石电路：五家族×五难度，测试发现规律、巩固知识并完成灯光时序目标。",
+          "en": "SciCrafter creative-mode redstone construction has five families × five levels, testing discovery, knowledge consolidation and functional lamp/timing goals."
+        },
+        {
+          "zh": "用于研究发现规律、知识巩固与工程应用之间的衔接，比较探索提示和知识结构对构造成功的影响。",
+          "en": "It studies discovery, knowledge consolidation and application, comparing hints and knowledge structures in successful construction."
+        },
+        {
+          "zh": "自动时序 checker 成功率；验证试次数与提示/科学家/知识结构消融。",
+          "en": "Temporal-checker success rate, verification-trial use and hint/scientist/knowledge-structure ablations."
+        },
+        {
+          "zh": "任务基于创造模式红石电路，采用结构化状态与方块操作接口，按电路家族和难度组织。",
+          "en": "Creative-mode redstone tasks use structured states and block actions, organized by circuit family and difficulty."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2604.24697",
+          "title": "Can Current Agents Close the Discovery-to-Application Gap? A Case Study in Minecraft"
+        },
+        {
+          "url": "https://github.com/scicrafter-bench/scicraft-bench/blob/main/README.md",
+          "title": "SciCrafter · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT337",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "从 Counter-Strike 2 人类比赛 demo 提取行为指纹，监督判别两次观测是否来自同一玩家。",
+            "en": "Supervised same-player verification from behavioral fingerprints extracted from human Counter-Strike 2 match demos."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究游戏行为中的身份特征、跨观测一致性与账号验证，分析回放历史如何支持同玩家判断。",
+            "en": "It studies behavioral identity, cross-observation consistency and account verification from gameplay histories."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "六折 ROC AUC、跨数据验证与多历史回放聚合 AUC。",
+            "en": "Six-fold ROC AUC, cross-dataset checks and multi-history aggregation AUC."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "输入为人类 CS2 比赛 demo 提取的行为特征，输出为两次观测是否来自同一玩家。",
+            "en": "Inputs are features from human CS2 demos; outputs verify whether two observations come from the same player."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "从 Counter-Strike 2 人类比赛 demo 提取行为指纹，监督判别两次观测是否来自同一玩家。",
+          "en": "Supervised same-player verification from behavioral fingerprints extracted from human Counter-Strike 2 match demos."
+        },
+        {
+          "zh": "用于研究游戏行为中的身份特征、跨观测一致性与账号验证，分析回放历史如何支持同玩家判断。",
+          "en": "It studies behavioral identity, cross-observation consistency and account verification from gameplay histories."
+        },
+        {
+          "zh": "六折 ROC AUC、跨数据验证与多历史回放聚合 AUC。",
+          "en": "Six-fold ROC AUC, cross-dataset checks and multi-history aggregation AUC."
+        },
+        {
+          "zh": "输入为人类 CS2 比赛 demo 提取的行为特征，输出为两次观测是否来自同一玩家。",
+          "en": "Inputs are features from human CS2 demos; outputs verify whether two observations come from the same player."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2608.24893",
+          "title": "Account Consistency from Gameplay Traces: Same-Player Verification in Counter-Strike 2"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT338",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "World2Minecraft 将实景占据预测变成 Minecraft 场景；含 MinecraftOcc 与 MinecraftVLN 下一视角/动作数据及在线导航演示。",
+            "en": "World2Minecraft reconstructs real scenes in Minecraft, providing MinecraftOcc, MinecraftVLN next-view/action data and an online navigation demonstration."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究真实场景占据重建、模拟环境构建与视觉语言导航的数据生成，将场景几何转化为可交互方块世界。",
+            "en": "It studies occupancy reconstruction, simulated scene construction and visual-language-navigation data through voxelized real scenes."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "占据重建指标、Next-View/Next-Action 准确率；在线导航仅演示。",
+            "en": "Occupancy/reconstruction metrics and next-view/action accuracy; online navigation is demonstrated separately."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "离线重建与下一视角或动作预测构成量化评测，在线导航演示作为独立应用。",
+            "en": "Quantitative evaluation covers reconstruction and next-view/action prediction, with online navigation demonstrated separately."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "World2Minecraft 将实景占据预测变成 Minecraft 场景；含 MinecraftOcc 与 MinecraftVLN 下一视角/动作数据及在线导航演示。",
+          "en": "World2Minecraft reconstructs real scenes in Minecraft, providing MinecraftOcc, MinecraftVLN next-view/action data and an online navigation demonstration."
+        },
+        {
+          "zh": "用于研究真实场景占据重建、模拟环境构建与视觉语言导航的数据生成，将场景几何转化为可交互方块世界。",
+          "en": "It studies occupancy reconstruction, simulated scene construction and visual-language-navigation data through voxelized real scenes."
+        },
+        {
+          "zh": "占据重建指标、Next-View/Next-Action 准确率；在线导航仅演示。",
+          "en": "Occupancy/reconstruction metrics and next-view/action accuracy; online navigation is demonstrated separately."
+        },
+        {
+          "zh": "离线重建与下一视角或动作预测构成量化评测，在线导航演示作为独立应用。",
+          "en": "Quantitative evaluation covers reconstruction and next-view/action prediction, with online navigation demonstrated separately."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/69c754f571806bf15add18556ff39b4f-Abstract-Conference.html",
+          "title": "World2Minecraft: Occupancy-Driven Simulated Scenes Construction"
+        },
+        {
+          "url": "https://github.com/Nepenthes-zlc/World2Minecraft/blob/main/README.md",
+          "title": "World2Minecraft · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT340",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MC-EvoBench 以 80 任务/19 链的图目录和阶段验证器审计即时执行与经验迁移；重点是三类配对迁移探针。",
+            "en": "MC-EvoBench audits immediate execution and experience transfer with an 80-task/19-chain graph and stage verifiers, focusing on three paired-transfer probe families."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究经验驱动的改进与跨任务迁移，通过阶段验证器和配对探针分析经验产物对后续执行的作用。",
+            "en": "It studies experience-driven improvement and transfer with stage verifiers and paired probes of experience artifacts."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "TSR、加权图进展 WGP、验证里程碑 VMP；GATG 仅描述性配对对比。",
+            "en": "TSR, Weighted Graph Progress and Verified Milestone Progress; GATG is only a descriptive paired contrast."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "协议区分主任务链、校准链与迁移探针；迁移实验重置目标世界并传递声明的经验产物。",
+            "en": "Protocols distinguish main chains, calibration chains and transfer probes, resetting target worlds and transferring declared experience artifacts."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MC-EvoBench 以 80 任务/19 链的图目录和阶段验证器审计即时执行与经验迁移；重点是三类配对迁移探针。",
+          "en": "MC-EvoBench audits immediate execution and experience transfer with an 80-task/19-chain graph and stage verifiers, focusing on three paired-transfer probe families."
+        },
+        {
+          "zh": "用于研究经验驱动的改进与跨任务迁移，通过阶段验证器和配对探针分析经验产物对后续执行的作用。",
+          "en": "It studies experience-driven improvement and transfer with stage verifiers and paired probes of experience artifacts."
+        },
+        {
+          "zh": "TSR、加权图进展 WGP、验证里程碑 VMP；GATG 仅描述性配对对比。",
+          "en": "TSR, Weighted Graph Progress and Verified Milestone Progress; GATG is only a descriptive paired contrast."
+        },
+        {
+          "zh": "协议区分主任务链、校准链与迁移探针；迁移实验重置目标世界并传递声明的经验产物。",
+          "en": "Protocols distinguish main chains, calibration chains and transfer probes, resetting target worlds and transferring declared experience artifacts."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.13829",
+          "title": "MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents"
+        },
+        {
+          "url": "https://github.com/xzw-ustc/mc-bench-open-source/blob/main/README.md",
+          "title": "MC-EvoBench · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT341",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MultiWorldBench 用 Minecraft 双玩家引擎重放参考评估视频/世界模型的独立控制和共享世界一致性。",
+            "en": "MultiWorldBench evaluates video/world-model independent control and shared-world consistency against two-player Minecraft engine replay references."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究多视角生成世界的一致性，分析独立控制、共享对象和重访行为是否对应同一状态。",
+            "en": "It studies consistency of multiview generated worlds under independent control, shared objects and revisits."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "七任务套件、495 个配置、十项控制/共享状态/重访指标。",
+            "en": "Seven suites, 495 case configurations and ten control/shared-state/revisit metrics."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "参考数据由 Minecraft 双玩家引擎重放产生，评价对象为给定动作脚本下的视频或世界模型输出。",
+            "en": "Reference data come from two-player Minecraft engine replays; evaluation targets video/world-model outputs under given action scripts."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MultiWorldBench 用 Minecraft 双玩家引擎重放参考评估视频/世界模型的独立控制和共享世界一致性。",
+          "en": "MultiWorldBench evaluates video/world-model independent control and shared-world consistency against two-player Minecraft engine replay references."
+        },
+        {
+          "zh": "用于研究多视角生成世界的一致性，分析独立控制、共享对象和重访行为是否对应同一状态。",
+          "en": "It studies consistency of multiview generated worlds under independent control, shared objects and revisits."
+        },
+        {
+          "zh": "七任务套件、495 个配置、十项控制/共享状态/重访指标。",
+          "en": "Seven suites, 495 case configurations and ten control/shared-state/revisit metrics."
+        },
+        {
+          "zh": "参考数据由 Minecraft 双玩家引擎重放产生，评价对象为给定动作脚本下的视频或世界模型输出。",
+          "en": "Reference data come from two-player Minecraft engine replays; evaluation targets video/world-model outputs under given action scripts."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.11723",
+          "title": "MultiWorldBench: Do Independently Controlled Views Describe One Shared World?"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT342",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "AiMDoom 使用 DOOM 地图生成器产生室内几何，用 NextBestPath 在 PyTorch3D/Trimesh 中研究主动三维扫描。",
+            "en": "AiMDoom derives indoor geometry from a DOOM map generator and studies active 3D scanning with NextBestPath in PyTorch3D/Trimesh."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究主动三维扫描、下一最佳路径规划与未知室内几何重建，比较传感器路径的覆盖效率。",
+            "en": "It studies active 3D scanning, next-best-path planning and reconstruction of unknown interiors through sensor-trajectory coverage."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "重建表面覆盖与扫描路径效率。",
+            "en": "Reconstructed-surface coverage and scanning-path efficiency."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "DOOM 地图生成器提供室内几何，动作定义为深度传感器或相机移动，在三维重建工具中执行。",
+            "en": "A DOOM map generator supplies indoor geometry; actions move a depth sensor or camera within reconstruction tools."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "AiMDoom 使用 DOOM 地图生成器产生室内几何，用 NextBestPath 在 PyTorch3D/Trimesh 中研究主动三维扫描。",
+          "en": "AiMDoom derives indoor geometry from a DOOM map generator and studies active 3D scanning with NextBestPath in PyTorch3D/Trimesh."
+        },
+        {
+          "zh": "用于研究主动三维扫描、下一最佳路径规划与未知室内几何重建，比较传感器路径的覆盖效率。",
+          "en": "It studies active 3D scanning, next-best-path planning and reconstruction of unknown interiors through sensor-trajectory coverage."
+        },
+        {
+          "zh": "重建表面覆盖与扫描路径效率。",
+          "en": "Reconstructed-surface coverage and scanning-path efficiency."
+        },
+        {
+          "zh": "DOOM 地图生成器提供室内几何，动作定义为深度传感器或相机移动，在三维重建工具中执行。",
+          "en": "A DOOM map generator supplies indoor geometry; actions move a depth sensor or camera within reconstruction tools."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/7b75a7339dfb256ee4b4bec028a6890b-Abstract-Conference.html",
+          "title": "NextBestPath: Efficient 3D Mapping of Unseen Environments"
+        },
+        {
+          "url": "https://github.com/shiyao-li/NextBestPath/blob/main/README.md",
+          "title": "NextBestPath / AiMDoom · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT349",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ChessBench提供Stockfish标注棋局，比较离线价值/着法预测、棋题及闭环对局。",
+            "en": "ChessBench provides Stockfish-annotated games for value/move prediction, puzzles and closed-loop chess play."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究通过大规模监督学习摊销搜索计算，比较价值预测、着法选择与实际棋力。",
+            "en": "It studies amortizing search through large-scale supervised learning, comparing value prediction, move selection and playing strength."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "价值误差/排序相关、棋题准确率、锦标赛BayesElo和Lichess等级分。",
+            "en": "Value error/rank correlation, puzzle accuracy, tournament BayesElo and Lichess rating."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "数据采用 Stockfish 标注棋局，实验分别组织离线预测、棋题和闭环比赛。",
+            "en": "Stockfish-annotated positions support separate prediction, puzzle and closed-loop match evaluations."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ChessBench提供Stockfish标注棋局，比较离线价值/着法预测、棋题及闭环对局。",
+          "en": "ChessBench provides Stockfish-annotated games for value/move prediction, puzzles and closed-loop chess play."
+        },
+        {
+          "zh": "用于研究通过大规模监督学习摊销搜索计算，比较价值预测、着法选择与实际棋力。",
+          "en": "It studies amortizing search through large-scale supervised learning, comparing value prediction, move selection and playing strength."
+        },
+        {
+          "zh": "价值误差/排序相关、棋题准确率、锦标赛BayesElo和Lichess等级分。",
+          "en": "Value error/rank correlation, puzzle accuracy, tournament BayesElo and Lichess rating."
+        },
+        {
+          "zh": "数据采用 Stockfish 标注棋局，实验分别组织离线预测、棋题和闭环比赛。",
+          "en": "Stockfish-annotated positions support separate prediction, puzzle and closed-loop match evaluations."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/78f0db30c39c850de728c769f42fc903-Abstract-Conference.html",
+          "title": "Amortized Planning with Large-Scale Transformers: A Case Study on Chess"
+        },
+        {
+          "url": "https://github.com/google-deepmind/searchless_chess/blob/main/README.md",
+          "title": "ChessBench / Grandmaster-Level Chess Without Search · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "OMIT363",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "模型共同生成机器人MJCF形态和Python控制器，在MuJoCo Last Bot Standing中竞争。",
+            "en": "Models co-design MJCF robot bodies and Python controllers for MuJoCo Last Bot Standing matches."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究模型联合设计物理形态与控制程序的能力，分析生成产物在物理对抗中的适应性。",
+            "en": "It studies joint body/controller design and the adaptability of generated artifacts in physical competition."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "资格验证、成对胜负/平局、Bradley–Terry Elo、换边和新随机种子稳健性。",
+            "en": "Qualification, pairwise wins/draws, Bradley–Terry Elo, side-swapped matches and fresh-seed robustness."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "模型提交 MJCF 机器人与 Python 控制器，MuJoCo 对抗场景执行资格验证和成对比赛。",
+            "en": "Models submit MJCF robots and Python controllers for qualification and pairwise MuJoCo competition."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "模型共同生成机器人MJCF形态和Python控制器，在MuJoCo Last Bot Standing中竞争。",
+          "en": "Models co-design MJCF robot bodies and Python controllers for MuJoCo Last Bot Standing matches."
+        },
+        {
+          "zh": "用于研究模型联合设计物理形态与控制程序的能力，分析生成产物在物理对抗中的适应性。",
+          "en": "It studies joint body/controller design and the adaptability of generated artifacts in physical competition."
+        },
+        {
+          "zh": "资格验证、成对胜负/平局、Bradley–Terry Elo、换边和新随机种子稳健性。",
+          "en": "Qualification, pairwise wins/draws, Bradley–Terry Elo, side-swapped matches and fresh-seed robustness."
+        },
+        {
+          "zh": "模型提交 MJCF 机器人与 Python 控制器，MuJoCo 对抗场景执行资格验证和成对比赛。",
+          "en": "Models submit MJCF robots and Python controllers for qualification and pairwise MuJoCo competition."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2610.06511v1",
+          "title": "ArtifactArena: Evaluating Models by What They Build in the Physical World"
+        },
+        {
+          "url": "https://github.com/ArtifactArena/harness-public/blob/main/README.md",
+          "title": "ArtifactArena · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-ale",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ALE 基于 Atari 2600 模拟器提供游戏交互，智能体从像素或 RAM 等观测选择控制台动作。游戏涵盖射击、平台、迷宫等机制。",
+            "en": "ALE exposes Atari 2600 games through pixel or RAM observations and console actions across shooting, platform and maze mechanics."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究通用强化学习、视觉表征与跨任务性能比较，在共享动作接口下考察不同 Atari 游戏的学习过程。",
+            "en": "It supports general RL, visual representations and cross-task comparisons across Atari games using shared action interfaces."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "按游戏统计回报与重复运行结果；跨游戏比较使用所选协议的归一化和聚合规则。",
+            "en": "Per-game returns and repeated-run outcomes are combined using protocol-specific normalization and aggregation."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "具体协议由 ROM、游戏模式、随机性、帧跳过与交互预算定义，原始评测与后续随机动作设置分别指定。",
+            "en": "ROMs, modes, stochasticity, frame skipping and budgets define each protocol, including distinct historical and later sticky-action settings."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ALE 基于 Atari 2600 模拟器提供游戏交互，智能体从像素或 RAM 等观测选择控制台动作。游戏涵盖射击、平台、迷宫等机制。",
+          "en": "ALE exposes Atari 2600 games through pixel or RAM observations and console actions across shooting, platform and maze mechanics."
+        },
+        {
+          "zh": "用于研究通用强化学习、视觉表征与跨任务性能比较，在共享动作接口下考察不同 Atari 游戏的学习过程。",
+          "en": "It supports general RL, visual representations and cross-task comparisons across Atari games using shared action interfaces."
+        },
+        {
+          "zh": "按游戏统计回报与重复运行结果；跨游戏比较使用所选协议的归一化和聚合规则。",
+          "en": "Per-game returns and repeated-run outcomes are combined using protocol-specific normalization and aggregation."
+        },
+        {
+          "zh": "具体协议由 ROM、游戏模式、随机性、帧跳过与交互预算定义，原始评测与后续随机动作设置分别指定。",
+          "en": "ROMs, modes, stochasticity, frame skipping and budgets define each protocol, including distinct historical and later sticky-action settings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1207.4708",
+          "title": "The Arcade Learning Environment: An Evaluation Platform for General Agents"
+        },
+        {
+          "url": "https://github.com/Farama-Foundation/Arcade-Learning-Environment/blob/main/README.md",
+          "title": "Arcade Learning Environment (ALE) · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=nzUiEkasXZI",
+          "title": {
+            "zh": "官方 Atari 游戏合集视频",
+            "en": "Official Atari game montage"
+          },
+          "source": "https://github.com/Farama-Foundation/Arcade-Learning-Environment/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "SUP-vizdoom",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ViZDoom 将 Doom 引擎封装为可配置研究平台，提供屏幕画面及可选深度、标签等通道，智能体通过移动和战斗动作执行场景目标。",
+            "en": "ViZDoom exposes Doom as a configurable platform with screen images and optional depth/label channels for movement and combat objectives."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究第一人称视觉控制、导航、目标获取与对抗策略。场景编辑支持控制敌人、物品和奖励结构。",
+            "en": "It supports first-person visual control, navigation, target acquisition and combat under configurable enemies, items and rewards."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "按场景采用累计回报、目标完成率、击杀或生存等指标，并记录相应回合预算。",
+            "en": "Scenario metrics include return, completion, kills or survival under specified episode budgets."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务通过场景、观测通道、动作按钮、仿真推进方式及奖励配置定义。",
+            "en": "Scenarios, observation channels, action buttons, simulation advancement and rewards define each task."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ViZDoom 将 Doom 引擎封装为可配置研究平台，提供屏幕画面及可选深度、标签等通道，智能体通过移动和战斗动作执行场景目标。",
+          "en": "ViZDoom exposes Doom as a configurable platform with screen images and optional depth/label channels for movement and combat objectives."
+        },
+        {
+          "zh": "用于研究第一人称视觉控制、导航、目标获取与对抗策略。场景编辑支持控制敌人、物品和奖励结构。",
+          "en": "It supports first-person visual control, navigation, target acquisition and combat under configurable enemies, items and rewards."
+        },
+        {
+          "zh": "按场景采用累计回报、目标完成率、击杀或生存等指标，并记录相应回合预算。",
+          "en": "Scenario metrics include return, completion, kills or survival under specified episode budgets."
+        },
+        {
+          "zh": "任务通过场景、观测通道、动作按钮、仿真推进方式及奖励配置定义。",
+          "en": "Scenarios, observation channels, action buttons, simulation advancement and rewards define each task."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1605.02097",
+          "title": "ViZDoom: A Doom-based AI Research Platform for Visual Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/Farama-Foundation/ViZDoom/blob/main/README.md",
+          "title": "ViZDoom · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/Farama-Foundation/ViZDoom/blob/main/docs/_static/img/vizdoom-demo.gif",
+          "title": {
+            "zh": "官方场景运行演示",
+            "en": "Official scenario demonstration"
+          },
+          "source": "https://github.com/Farama-Foundation/ViZDoom/blob/main/README.md",
+          "sourceAssetSha": "9494b5207943256d4f02c96fc05201f63ea0555e"
+        }
+      ]
+    },
+    {
+      "id": "SUP-sc2le",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "SC2LE / PySC2 提供《星际争霸 II》的学习接口，智能体读取屏幕、地图或结构化观察，调用动作函数控制单位与建筑。",
+            "en": "SC2LE/PySC2 provides StarCraft II learning interfaces with screen, map or structured observations and action functions for units and buildings."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究复杂实时战略中的决策、控制和表示学习，小游戏支持分析特定技能，完整对局连接经济、生产与战斗。",
+            "en": "It supports RTS decision making, control and representations through skill minigames and full-game economy, production and combat."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "小游戏以各自得分或回报评价，完整对局采用胜负等结果；BuildMarines 等任务聚焦特定发展目标。",
+            "en": "Minigames use task-specific scores or returns, while full games use outcomes such as wins; BuildMarines targets a specific development objective."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "平台提供完整对局、小游戏与人类回放，交互评测和回放预测采用不同任务定义。",
+            "en": "The platform supplies full games, minigames and human replays, with separate interaction and replay-prediction tasks."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "SC2LE / PySC2 提供《星际争霸 II》的学习接口，智能体读取屏幕、地图或结构化观察，调用动作函数控制单位与建筑。",
+          "en": "SC2LE/PySC2 provides StarCraft II learning interfaces with screen, map or structured observations and action functions for units and buildings."
+        },
+        {
+          "zh": "用于研究复杂实时战略中的决策、控制和表示学习，小游戏支持分析特定技能，完整对局连接经济、生产与战斗。",
+          "en": "It supports RTS decision making, control and representations through skill minigames and full-game economy, production and combat."
+        },
+        {
+          "zh": "小游戏以各自得分或回报评价，完整对局采用胜负等结果；BuildMarines 等任务聚焦特定发展目标。",
+          "en": "Minigames use task-specific scores or returns, while full games use outcomes such as wins; BuildMarines targets a specific development objective."
+        },
+        {
+          "zh": "平台提供完整对局、小游戏与人类回放，交互评测和回放预测采用不同任务定义。",
+          "en": "The platform supplies full games, minigames and human replays, with separate interaction and replay-prediction tasks."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1708.04782",
+          "title": "StarCraft II: A New Challenge for Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/google-deepmind/pysc2/blob/master/README.md",
+          "title": "SC2LE / PySC2 · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=-fKUyT14G-8",
+          "title": {
+            "zh": "官方 PySC2 演示视频",
+            "en": "Official PySC2 demonstration"
+          },
+          "source": "https://github.com/google-deepmind/pysc2/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "SUP-deepmind-lab",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "DeepMind Lab 是基于 Quake III 的三维研究环境，智能体从第一人称画面执行导航和对象交互，在地图中寻找目标或奖励。",
+            "en": "DeepMind Lab is a Quake III-based 3D environment where agents navigate and interact with objects from first-person views."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究第一人称导航、空间记忆与视觉强化学习，程序化地图和任务脚本支持受控场景变化。",
+            "en": "It supports first-person navigation, spatial memory and visual RL through procedural maps and scripted tasks."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各关卡按目标和奖励事件累计回报，迷宫任务可观察目标获取与探索进展。",
+            "en": "Level-specific objectives and reward events determine returns, including goal acquisition and exploration in mazes."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "实验单位为关卡脚本与对应观测、动作、种子和时间预算，包含导航及解谜等任务。",
+            "en": "Level scripts, observations, actions, seeds and time limits define navigation, puzzle and related experiments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "DeepMind Lab 是基于 Quake III 的三维研究环境，智能体从第一人称画面执行导航和对象交互，在地图中寻找目标或奖励。",
+          "en": "DeepMind Lab is a Quake III-based 3D environment where agents navigate and interact with objects from first-person views."
+        },
+        {
+          "zh": "用于研究第一人称导航、空间记忆与视觉强化学习，程序化地图和任务脚本支持受控场景变化。",
+          "en": "It supports first-person navigation, spatial memory and visual RL through procedural maps and scripted tasks."
+        },
+        {
+          "zh": "各关卡按目标和奖励事件累计回报，迷宫任务可观察目标获取与探索进展。",
+          "en": "Level-specific objectives and reward events determine returns, including goal acquisition and exploration in mazes."
+        },
+        {
+          "zh": "实验单位为关卡脚本与对应观测、动作、种子和时间预算，包含导航及解谜等任务。",
+          "en": "Level scripts, observations, actions, seeds and time limits define navigation, puzzle and related experiments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1612.03801",
+          "title": "DeepMind Lab"
+        },
+        {
+          "url": "https://github.com/google-deepmind/lab/blob/master/README.md",
+          "title": "DeepMind Lab · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=M40rN7afngY",
+          "title": {
+            "zh": "官方三维环境演示",
+            "en": "Official 3D environment demonstration"
+          },
+          "source": "https://github.com/google-deepmind/lab/blob/master/README.md"
+        }
+      ]
+    },
+    {
+      "id": "SUP-gvgai",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "GVGAI 使用通用游戏描述组织多种二维游戏，提供状态、动作和部分赛道中的前向模拟接口，智能体在不同规则下完成游戏目标。",
+            "en": "GVGAI organizes 2D games with general game descriptions, exposing states, actions and track-dependent forward simulation."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究跨游戏决策、前向模型规划、学习与程序化内容生成，比较方法对不同游戏规则的适应。",
+            "en": "It supports cross-game decisions, forward-model planning, learning and procedural content generation across diverse rules."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "游玩赛道通常统计胜负、游戏分数与完成时间，生成赛道另按内容和相应评价程序计分。",
+            "en": "Playing tracks use wins, scores and completion times; generation tracks apply their own content-evaluation procedures."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "框架由不同赛道和游戏集合组成，前向模型访问、训练机会与关卡划分由赛道协议指定。",
+            "en": "Tracks define game sets, forward-model access, learning opportunities and level splits."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "GVGAI 使用通用游戏描述组织多种二维游戏，提供状态、动作和部分赛道中的前向模拟接口，智能体在不同规则下完成游戏目标。",
+          "en": "GVGAI organizes 2D games with general game descriptions, exposing states, actions and track-dependent forward simulation."
+        },
+        {
+          "zh": "用于研究跨游戏决策、前向模型规划、学习与程序化内容生成，比较方法对不同游戏规则的适应。",
+          "en": "It supports cross-game decisions, forward-model planning, learning and procedural content generation across diverse rules."
+        },
+        {
+          "zh": "游玩赛道通常统计胜负、游戏分数与完成时间，生成赛道另按内容和相应评价程序计分。",
+          "en": "Playing tracks use wins, scores and completion times; generation tracks apply their own content-evaluation procedures."
+        },
+        {
+          "zh": "框架由不同赛道和游戏集合组成，前向模型访问、训练机会与关卡划分由赛道协议指定。",
+          "en": "Tracks define game sets, forward-model access, learning opportunities and level splits."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1802.10363",
+          "title": "General Video Game AI: a Multi-Track Framework for Evaluating Agents, Games and Content Generation Algorithms"
+        },
+        {
+          "url": "https://github.com/GAIGResearch/GVGAI/blob/master/README.md",
+          "title": "GVGAI · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-coinrun",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "面向强化学习泛化评估的原版 CoinRun 基准。",
+            "en": "Original CoinRun benchmark for generalization in RL."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究强化学习泛化与训练关卡多样性，比较正则化、数据规模及策略结构对测试表现的影响。",
+            "en": "It studies RL generalization and level diversity, comparing regularization, data scale and policy architecture."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "报告训练与测试关卡上的回合回报或取币成功情况，分布间表现差反映策略泛化。",
+            "en": "Returns or coin-reaching success on training and test levels characterize generalization gaps."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "本条目对应原版 CoinRun。评测定义训练关卡数量与测试采样过程，并记录难度、随机种子及交互预算。",
+            "en": "This is original CoinRun, evaluated with specified training-level counts, test sampling, difficulty, seeds and budgets."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "面向强化学习泛化评估的原版 CoinRun 基准。",
+          "en": "Original CoinRun benchmark for generalization in RL."
+        },
+        {
+          "zh": "用于研究强化学习泛化与训练关卡多样性，比较正则化、数据规模及策略结构对测试表现的影响。",
+          "en": "It studies RL generalization and level diversity, comparing regularization, data scale and policy architecture."
+        },
+        {
+          "zh": "报告训练与测试关卡上的回合回报或取币成功情况，分布间表现差反映策略泛化。",
+          "en": "Returns or coin-reaching success on training and test levels characterize generalization gaps."
+        },
+        {
+          "zh": "本条目对应原版 CoinRun。评测定义训练关卡数量与测试采样过程，并记录难度、随机种子及交互预算。",
+          "en": "This is original CoinRun, evaluated with specified training-level counts, test sampling, difficulty, seeds and budgets."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v97/cobbe19a.html",
+          "title": "Quantifying Generalization in Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/openai/coinrun/blob/master/README.md",
+          "title": "CoinRun · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-obstacle-tower",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "程序化生成的第三人称三维高塔评测环境，包含强化学习与人类基线。",
+            "en": "Procedurally generated third-person 3D tower benchmark with RL and human baselines."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究视觉导航、控制与程序化环境泛化，多层结构要求结合局部操作、钥匙收集与路径决策。",
+            "en": "It studies visual navigation, control and procedural generalization through floor traversal, key collection and route decisions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "主要统计每回合完成楼层数及其分布，奖励由楼层通过或辅助任务事件产生。",
+            "en": "Completed floors per episode and their distribution are central metrics, with rewards for floor completion or auxiliary events."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "论文实测原型为25层，后续环境设计和竞赛版本具有各自配置；视觉主题、种子与奖励模式定义测试条件。",
+            "en": "The paper evaluates a 25-floor prototype; later designs and competition versions have separate configurations, themes, seeds and reward modes."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "程序化生成的第三人称三维高塔评测环境，包含强化学习与人类基线。",
+          "en": "Procedurally generated third-person 3D tower benchmark with RL and human baselines."
+        },
+        {
+          "zh": "用于研究视觉导航、控制与程序化环境泛化，多层结构要求结合局部操作、钥匙收集与路径决策。",
+          "en": "It studies visual navigation, control and procedural generalization through floor traversal, key collection and route decisions."
+        },
+        {
+          "zh": "主要统计每回合完成楼层数及其分布，奖励由楼层通过或辅助任务事件产生。",
+          "en": "Completed floors per episode and their distribution are central metrics, with rewards for floor completion or auxiliary events."
+        },
+        {
+          "zh": "论文实测原型为25层，后续环境设计和竞赛版本具有各自配置；视觉主题、种子与奖励模式定义测试条件。",
+          "en": "The paper evaluates a 25-floor prototype; later designs and competition versions have separate configurations, themes, seeds and reward modes."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1902.01378",
+          "title": "Obstacle Tower: A Generalization Challenge in Vision, Control, and Planning"
+        },
+        {
+          "url": "https://github.com/Unity-Technologies/obstacle-tower-source/blob/master/README.md",
+          "title": "Obstacle Tower · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-griddly",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "可配置的游戏引擎，支持单智能体、多智能体及即时战略环境接口。",
+            "en": "Configurable game engine with single-agent, multi-agent and RTS interfaces."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究可配置游戏环境、观测表示和多智能体交互。统一规则描述支持构造和复用不同游戏机制。",
+            "en": "It supports configurable environments, observation representations and multi-agent interaction through reusable rule descriptions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各游戏采用规则定义的回报与胜利条件；实例实验按关卡和观测类型报告平均回报及离散程度。",
+            "en": "Games use rule-defined rewards and win conditions; experiments report returns and dispersion by level and observation type."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测由游戏描述、关卡、观察器和动作配置确定，推箱子等任务是平台上的具体实例。",
+            "en": "Game descriptions, levels, observers and actions define evaluations; Sokoban is one platform instance."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "可配置的游戏引擎，支持单智能体、多智能体及即时战略环境接口。",
+          "en": "Configurable game engine with single-agent, multi-agent and RTS interfaces."
+        },
+        {
+          "zh": "用于研究可配置游戏环境、观测表示和多智能体交互。统一规则描述支持构造和复用不同游戏机制。",
+          "en": "It supports configurable environments, observation representations and multi-agent interaction through reusable rule descriptions."
+        },
+        {
+          "zh": "各游戏采用规则定义的回报与胜利条件；实例实验按关卡和观测类型报告平均回报及离散程度。",
+          "en": "Games use rule-defined rewards and win conditions; experiments report returns and dispersion by level and observation type."
+        },
+        {
+          "zh": "评测由游戏描述、关卡、观察器和动作配置确定，推箱子等任务是平台上的具体实例。",
+          "en": "Game descriptions, levels, observers and actions define evaluations; Sokoban is one platform instance."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2011.06363",
+          "title": "Griddly: A platform for AI research in games"
+        },
+        {
+          "url": "https://github.com/Bam4d/Griddly/blob/develop/README.md",
+          "title": "Griddly · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/Bam4d/Griddly/blob/8ccd178f5e2033f48575496b30c76fc7aff51a6a/docs/games/Butterflies_and_Spiders/img/Butterflies_and_Spiders-level-Sprite2D-0.png",
+          "title": {
+            "zh": "官方 Butterflies and Spiders 示例",
+            "en": "Official Butterflies and Spiders example"
+          },
+          "source": "https://github.com/Bam4d/Griddly/blob/8ccd178f5e2033f48575496b30c76fc7aff51a6a/docs/games/Butterflies_and_Spiders/img/Butterflies_and_Spiders-level-Sprite2D-0.png",
+          "sourceAssetSha": "7bbb4e617b169188834e57b82bc13e87c5a84c89",
+          "exampleGameId": "griddly-games"
+        }
+      ]
+    },
+    {
+      "id": "SUP-elf",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "提供 MiniRTS、夺旗与塔防环境的即时战略引擎及强化学习平台。",
+            "en": "RTS engine and RL platform with MiniRTS, Capture the Flag and Tower Defense."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究即时战略中的强化学习、规划与样本效率，MiniRTS 将资源采集、生产和战斗整合到较轻量的环境中。",
+            "en": "It supports RTS reinforcement learning, planning and sample efficiency through lightweight MiniRTS resource, production and combat dynamics."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "MiniRTS 通过对内置对手的胜率、终局回报与重复训练统计评价策略。",
+            "en": "MiniRTS uses win rates against built-in opponents, terminal returns and repeated-training statistics."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "平台包含 MiniRTS、夺旗和塔防等环境，具体实验由游戏、宏动作、信息条件和对手策略定义。",
+            "en": "The platform includes MiniRTS, Capture the Flag and Tower Defense, with games, macro-actions, information and opponents defining experiments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "提供 MiniRTS、夺旗与塔防环境的即时战略引擎及强化学习平台。",
+          "en": "RTS engine and RL platform with MiniRTS, Capture the Flag and Tower Defense."
+        },
+        {
+          "zh": "用于研究即时战略中的强化学习、规划与样本效率，MiniRTS 将资源采集、生产和战斗整合到较轻量的环境中。",
+          "en": "It supports RTS reinforcement learning, planning and sample efficiency through lightweight MiniRTS resource, production and combat dynamics."
+        },
+        {
+          "zh": "MiniRTS 通过对内置对手的胜率、终局回报与重复训练统计评价策略。",
+          "en": "MiniRTS uses win rates against built-in opponents, terminal returns and repeated-training statistics."
+        },
+        {
+          "zh": "平台包含 MiniRTS、夺旗和塔防等环境，具体实验由游戏、宏动作、信息条件和对手策略定义。",
+          "en": "The platform includes MiniRTS, Capture the Flag and Tower Defense, with games, macro-actions, information and opponents defining experiments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1707.01067",
+          "title": "ELF: An Extensive, Lightweight and Flexible Research Platform for Real-time Strategy Games"
+        },
+        {
+          "url": "https://github.com/facebookresearch/ELF/blob/main/README.md",
+          "title": "ELF / MiniRTS · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://www.youtube.com/watch?v=YgZyWobkqfw",
+          "title": {
+            "zh": "官方 MiniRTS 对战演示",
+            "en": "Official MiniRTS match demonstration"
+          },
+          "source": "https://github.com/facebookresearch/ELF/blob/main/README.md"
+        }
+      ]
+    },
+    {
+      "id": "SUP-malmo",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Minecraft 实验平台，提供可配置任务及智能体观测、动作接口。",
+            "en": "Minecraft experimentation platform with configurable missions and agent observation/action interfaces."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于构造开放式智能体实验，研究导航、强化学习与多智能体交互。任务规范支持控制世界、观测和奖励。",
+            "en": "It supports open-ended navigation, RL and multi-agent experiments through configurable worlds, observations and rewards."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各 mission 定义成功、失败与奖励事件，报告累计回报、目标完成及对应交互成本。",
+            "en": "Missions specify success, failure and reward events, evaluated through return, completion and interaction costs."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Malmo 是任务平台，实验由 mission 描述、客户端配置、控制接口和奖励事件确定。",
+            "en": "Malmo is a mission platform, with mission descriptions, clients, control interfaces and reward events defining experiments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Minecraft 实验平台，提供可配置任务及智能体观测、动作接口。",
+          "en": "Minecraft experimentation platform with configurable missions and agent observation/action interfaces."
+        },
+        {
+          "zh": "用于构造开放式智能体实验，研究导航、强化学习与多智能体交互。任务规范支持控制世界、观测和奖励。",
+          "en": "It supports open-ended navigation, RL and multi-agent experiments through configurable worlds, observations and rewards."
+        },
+        {
+          "zh": "各 mission 定义成功、失败与奖励事件，报告累计回报、目标完成及对应交互成本。",
+          "en": "Missions specify success, failure and reward events, evaluated through return, completion and interaction costs."
+        },
+        {
+          "zh": "Malmo 是任务平台，实验由 mission 描述、客户端配置、控制接口和奖励事件确定。",
+          "en": "Malmo is a mission platform, with mission descriptions, clients, control interfaces and reward events defining experiments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/johnson-malmo-platform-camera-ready.pdf",
+          "title": "The Malmo Platform for Artificial Intelligence Experimentation"
+        },
+        {
+          "url": "https://github.com/microsoft/malmo/blob/master/README.md",
+          "title": "Project Malmo · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-spirebench",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "在原版《杀戮尖塔》中完成整局决策，以术语重命名和记忆消融区分先验知识与长期策略。",
+            "en": "Full-run decisions in the original Slay the Spire, with renamed game terminology and memory ablations."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究长时程策略、牌组管理和路线规划，并通过术语重命名及记忆消融分析模型先验与上下文机制。",
+            "en": "It studies long-horizon strategy, deck management and route planning using terminology renaming and memory ablations."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "分幕通关率、完成幕数、终止楼层、每局与每层成本。",
+            "en": "Act win rates, acts cleared, final floor, cost per run and floor."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务在原版《杀戮尖塔》的指定角色和难度上执行整局策略选择，包含战斗、事件、路线与奖励决策。",
+            "en": "Runs use specified Slay the Spire characters and difficulty, covering combat, events, routes and rewards."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "在原版《杀戮尖塔》中完成整局决策，以术语重命名和记忆消融区分先验知识与长期策略。",
+          "en": "Full-run decisions in the original Slay the Spire, with renamed game terminology and memory ablations."
+        },
+        {
+          "zh": "用于研究长时程策略、牌组管理和路线规划，并通过术语重命名及记忆消融分析模型先验与上下文机制。",
+          "en": "It studies long-horizon strategy, deck management and route planning using terminology renaming and memory ablations."
+        },
+        {
+          "zh": "分幕通关率、完成幕数、终止楼层、每局与每层成本。",
+          "en": "Act win rates, acts cleared, final floor, cost per run and floor."
+        },
+        {
+          "zh": "任务在原版《杀戮尖塔》的指定角色和难度上执行整局策略选择，包含战斗、事件、路线与奖励决策。",
+          "en": "Runs use specified Slay the Spire characters and difficulty, covering combat, events, routes and rewards."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2610.12596",
+          "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-pokeagent-challenge",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "战斗赛道测试宝可梦不完全信息对战；速通赛道测试 Pokémon Emerald 的长期推进。",
+            "en": "Competitive battling tests imperfect-information Pokémon play; speedrunning tests long-horizon progress in Pokémon Emerald."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究不完全信息竞技决策与长上下文任务推进，两个赛道分别考察对手适应和持续目标执行。",
+            "en": "It studies imperfect-information competition and long-context progression through separate battling and speedrunning tracks."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "当前战斗官网主指标为 FH-BT 技能评分；速通采用里程碑、耗时和动作数。",
+            "en": "Current battle leaderboard: FH-BT skill rating. Speedrunning: milestones, time and action count."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "战斗与速通采用独立 harness、计时与成绩体系，速通任务以规定流程和里程碑定义范围。",
+            "en": "Battling and speedrunning use separate harnesses, timing and scoring, with progression defined by specified routes and milestones."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "战斗赛道测试宝可梦不完全信息对战；速通赛道测试 Pokémon Emerald 的长期推进。",
+          "en": "Competitive battling tests imperfect-information Pokémon play; speedrunning tests long-horizon progress in Pokémon Emerald."
+        },
+        {
+          "zh": "用于研究不完全信息竞技决策与长上下文任务推进，两个赛道分别考察对手适应和持续目标执行。",
+          "en": "It studies imperfect-information competition and long-context progression through separate battling and speedrunning tracks."
+        },
+        {
+          "zh": "当前战斗官网主指标为 FH-BT 技能评分；速通采用里程碑、耗时和动作数。",
+          "en": "Current battle leaderboard: FH-BT skill rating. Speedrunning: milestones, time and action count."
+        },
+        {
+          "zh": "战斗与速通采用独立 harness、计时与成绩体系，速通任务以规定流程和里程碑定义范围。",
+          "en": "Battling and speedrunning use separate harnesses, timing and scoring, with progression defined by specified routes and milestones."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.15563",
+          "title": "The PokeAgent Challenge: Competitive and Long-Context Learning at Scale"
+        },
+        {
+          "url": "https://github.com/sethkarten/continual-harness/blob/main/README.md",
+          "title": "PokéAgent Challenge · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-vgc-bench",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "在 VGC 双打中检验智能体使用不同阵容的能力，提供 RL、行为克隆、LLM 与启发式基线。",
+            "en": "Evaluates piloting diverse VGC doubles teams with RL, behavior-cloning, LLM and heuristic baselines."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究双打协作决策、阵容泛化和竞技策略学习，并比较 RL、行为克隆、LLM 与启发式基线。",
+            "en": "It studies doubles decisions, team-composition generalization and competitive policies across RL, cloning, LLM and heuristic baselines."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "交叉对战胜率、Alpha-Rank、未见阵容泛化、训练对手得到的可利用性估计。",
+            "en": "Cross-play win rates, Alpha-Rank, unseen-team generalization and trained-exploiter estimates."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "智能体使用给定队伍进行对战，训练阵容规模、留出阵容、对手池与比赛局数定义实验。",
+            "en": "Agents pilot given teams; training diversity, held-out teams, opponent populations and match counts define experiments."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "在 VGC 双打中检验智能体使用不同阵容的能力，提供 RL、行为克隆、LLM 与启发式基线。",
+          "en": "Evaluates piloting diverse VGC doubles teams with RL, behavior-cloning, LLM and heuristic baselines."
+        },
+        {
+          "zh": "用于研究双打协作决策、阵容泛化和竞技策略学习，并比较 RL、行为克隆、LLM 与启发式基线。",
+          "en": "It studies doubles decisions, team-composition generalization and competitive policies across RL, cloning, LLM and heuristic baselines."
+        },
+        {
+          "zh": "交叉对战胜率、Alpha-Rank、未见阵容泛化、训练对手得到的可利用性估计。",
+          "en": "Cross-play win rates, Alpha-Rank, unseen-team generalization and trained-exploiter estimates."
+        },
+        {
+          "zh": "智能体使用给定队伍进行对战，训练阵容规模、留出阵容、对手池与比赛局数定义实验。",
+          "en": "Agents pilot given teams; training diversity, held-out teams, opponent populations and match counts define experiments."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2506.10326",
+          "title": "VGC-Bench: Towards Mastering Diverse Team Strategies in Competitive Pokémon"
+        },
+        {
+          "url": "https://github.com/cameronangliss/vgc-bench/blob/main/README.md",
+          "title": "VGC-Bench · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-gg-bench",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "自动生成新游戏并训练 RL 对手，用游戏说明、棋盘状态和合法动作评测 LLM 下棋。",
+            "en": "Generates novel games and RL opponents; LLMs play from rules, board state and legal actions."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究模型对新规则的理解与策略适应，自动生成的游戏分布支持比较新任务中的竞争表现。",
+            "en": "It studies understanding novel rules and adapting strategies through automatically generated competitive games."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "对 RL 对手的平均胜率、成本及失败类型。",
+            "en": "Average win rate against RL opponents, cost and failure categories."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测基于生成并筛选的双人游戏，LLM 读取规则、棋盘和合法动作，与对应训练的 RL 对手交互。",
+            "en": "Generated and filtered two-player games present LLMs with rules, boards and legal actions against game-specific RL opponents."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "自动生成新游戏并训练 RL 对手，用游戏说明、棋盘状态和合法动作评测 LLM 下棋。",
+          "en": "Generates novel games and RL opponents; LLMs play from rules, board state and legal actions."
+        },
+        {
+          "zh": "用于研究模型对新规则的理解与策略适应，自动生成的游戏分布支持比较新任务中的竞争表现。",
+          "en": "It studies understanding novel rules and adapting strategies through automatically generated competitive games."
+        },
+        {
+          "zh": "对 RL 对手的平均胜率、成本及失败类型。",
+          "en": "Average win rate against RL opponents, cost and failure categories."
+        },
+        {
+          "zh": "评测基于生成并筛选的双人游戏，LLM 读取规则、棋盘和合法动作，与对应训练的 RL 对手交互。",
+          "en": "Generated and filtered two-player games present LLMs with rules, boards and legal actions against game-specific RL opponents."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2505.07215",
+          "title": "Measuring General Intelligence with Generated Games"
+        },
+        {
+          "url": "https://github.com/vivek3141/gg-bench/blob/master/README.md",
+          "title": "gg-bench · official repository"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-comrad",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "13 个第一人称合作场景，以局部视觉、角色差异、同步行为与程序化地图研究 MARL。",
+            "en": "Thirteen first-person cooperative scenarios combine local vision, asymmetric roles, synchronization and generated layouts."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究具身多智能体强化学习中的分工、同步与空间协作，局部视觉和角色差异形成互相依赖的任务。",
+            "en": "It studies role allocation, synchronization and spatial cooperation in embodied MARL with local vision and asymmetric roles."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "场景原始得分与归一化得分、留出地图表现、学习曲线及多种子置信区间。",
+            "en": "Scenario raw/normalized scores, held-out-layout performance, learning curves and multi-seed confidence intervals."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测覆盖13个第一人称合作场景及程序生成布局，按场景、角色分配与地图划分组织实验。",
+            "en": "Thirteen first-person scenarios and procedural layouts are evaluated by scenario, role assignment and map split."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "13 个第一人称合作场景，以局部视觉、角色差异、同步行为与程序化地图研究 MARL。",
+          "en": "Thirteen first-person cooperative scenarios combine local vision, asymmetric roles, synchronization and generated layouts."
+        },
+        {
+          "zh": "用于研究具身多智能体强化学习中的分工、同步与空间协作，局部视觉和角色差异形成互相依赖的任务。",
+          "en": "It studies role allocation, synchronization and spatial cooperation in embodied MARL with local vision and asymmetric roles."
+        },
+        {
+          "zh": "场景原始得分与归一化得分、留出地图表现、学习曲线及多种子置信区间。",
+          "en": "Scenario raw/normalized scores, held-out-layout performance, learning curves and multi-seed confidence intervals."
+        },
+        {
+          "zh": "评测覆盖13个第一人称合作场景及程序生成布局，按场景、角色分配与地图划分组织实验。",
+          "en": "Thirteen first-person scenarios and procedural layouts are evaluated by scenario, role assignment and map split."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openreview.net/forum?id=0x7G2k0Hh7",
+          "title": "COMRAD: A Benchmark for Embodied Multi-Agent Reinforcement Learning"
+        },
+        {
+          "url": "https://github.com/TTomilin/COMRAD/blob/main/README.md",
+          "title": "COMRAD · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/TTomilin/COMRAD/blob/main/docs/assets/comrad_demo.gif",
+          "title": {
+            "zh": "官方合作场景演示",
+            "en": "Official cooperative-scenario demonstration"
+          },
+          "source": "https://github.com/TTomilin/COMRAD/blob/main/README.md",
+          "sourceAssetSha": "32a445da688eb2bdec7c58db1f4843ef11f13f2e"
+        }
+      ]
+    },
+    {
+      "id": "SUP-agenticsts",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "将每步上下文拆为可消融的有界记忆层，在《杀戮尖塔 2》中研究长期决策，发布 298 条轨迹。",
+            "en": "Ablatable bounded memory layers support long-horizon decisions in Slay the Spire 2; 298 trajectories are released."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究有界记忆设计对长期决策的影响，通过记忆层和提示组件消融分析跨战斗信息组织。",
+            "en": "It studies bounded memory in long-horizon decisions through ablations of memory layers and prompt components."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "固定难度胜率及置信区间、进度与难度阶梯结果、token 和成本。",
+            "en": "Fixed-difficulty win rates with confidence intervals, progress/difficulty-ladder results, tokens and cost."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "实验区分固定难度完整对局、自动难度爬升和模型迁移，轨迹记录包含战斗、组牌、路线与事件决策。",
+            "en": "Experiments separate fixed-difficulty runs, automatic difficulty progression and model transfer across combat, deckbuilding, routes and events."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "将每步上下文拆为可消融的有界记忆层，在《杀戮尖塔 2》中研究长期决策，发布 298 条轨迹。",
+          "en": "Ablatable bounded memory layers support long-horizon decisions in Slay the Spire 2; 298 trajectories are released."
+        },
+        {
+          "zh": "用于研究有界记忆设计对长期决策的影响，通过记忆层和提示组件消融分析跨战斗信息组织。",
+          "en": "It studies bounded memory in long-horizon decisions through ablations of memory layers and prompt components."
+        },
+        {
+          "zh": "固定难度胜率及置信区间、进度与难度阶梯结果、token 和成本。",
+          "en": "Fixed-difficulty win rates with confidence intervals, progress/difficulty-ladder results, tokens and cost."
+        },
+        {
+          "zh": "实验区分固定难度完整对局、自动难度爬升和模型迁移，轨迹记录包含战斗、组牌、路线与事件决策。",
+          "en": "Experiments separate fixed-difficulty runs, automatic difficulty progression and model transfer across combat, deckbuilding, routes and events."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2607.02255",
+          "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents"
+        },
+        {
+          "url": "https://github.com/AlayaLab/AgenticSTS/blob/main/README.md",
+          "title": "AgenticSTS · official repository"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/AlayaLab/AgenticSTS/blob/main/assets/overview.png",
+          "title": {
+            "zh": "官方有界记忆框架图",
+            "en": "Official bounded-memory framework diagram"
+          },
+          "source": "https://github.com/AlayaLab/AgenticSTS/blob/main/README.md",
+          "sourceAssetSha": "9dec1f85e0d3866177cabcabeb23b515a416fcd7"
+        }
+      ]
+    },
+    {
+      "id": "SUP-darefightingice-llm-2026",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "completion-206",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "面向实时格斗的 LLM 竞赛，限定提示工程或最多 7B 模型微调。",
+            "en": "A real-time fighting competition using prompt engineering or fine-tuned LLMs up to 7B parameters."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究语言模型在实时格斗中的状态理解、招式选择与反馈控制，竞赛设置连接提示工程和模型策略。",
+            "en": "It studies state understanding, move selection and feedback control in real-time fighting through prompting and model policies."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "参考代理记录双方剩余生命值、经过帧数和伤害差奖励，描述单回合格斗过程。",
+            "en": "The reference agent records remaining HP, elapsed frames and damage-difference rewards to characterize individual rounds."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "现有任务依据官方 LLM 参考代理的实际对战接口。赛事排名公式和最终参赛约束以2026规则包为准。",
+            "en": "Registered tasks follow the official LLM reference-match interface; final rankings and participation constraints follow the 2026 rules package."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "面向实时格斗的 LLM 竞赛，限定提示工程或最多 7B 模型微调。",
+          "en": "A real-time fighting competition using prompt engineering or fine-tuned LLMs up to 7B parameters."
+        },
+        {
+          "zh": "用于研究语言模型在实时格斗中的状态理解、招式选择与反馈控制，竞赛设置连接提示工程和模型策略。",
+          "en": "It studies state understanding, move selection and feedback control in real-time fighting through prompting and model policies."
+        },
+        {
+          "zh": "参考代理记录双方剩余生命值、经过帧数和伤害差奖励，描述单回合格斗过程。",
+          "en": "The reference agent records remaining HP, elapsed frames and damage-difference rewards to characterize individual rounds."
+        },
+        {
+          "zh": "现有任务依据官方 LLM 参考代理的实际对战接口。赛事排名公式和最终参赛约束以2026规则包为准。",
+          "en": "Registered tasks follow the official LLM reference-match interface; final rankings and participation constraints follow the 2026 rules package."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/TeamFightingICE/FightingICE/blob/master/README.md",
+          "title": "DareFightingICE LLM AI Competition 2026 · official repository"
+        }
+      ],
+      "media": []
     }
   ],
   "agentParadigms": {

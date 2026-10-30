@@ -1,0 +1,2789 @@
+{
+  "version": 1,
+  "checkedAt": "2026-10-30",
+  "records": [
+    {
+      "id": "AX26-2606.00103",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.00103"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2606.00103",
+        "liveTitle": "Evaluating Interactive Reasoning in Large Language Models: A Hierarchical Benchmark with Executable Games",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Sections 3 and Algorithm 1 verify query/submit interaction, success rate, and turns on successful episodes. The suite-level protocol is verified without treating 474 rule instances as distinct games; the unsupported memory tag is removed. Routing review: Retain the shared query protocol for 474 generated reasoning games; four data structures and three inference modes are not discrete videogames."
+      }
+    },
+    {
+      "id": "AX26-2602.17594",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2602.17594"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2602.17594",
+        "liveTitle": "AI Gamestore: Scalable, Open-Ended Evaluation of Machine General Intelligence with Human Games",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Full text and appendices establish the common 100-game protocol, 120-call budget and human-normalized metrics; only the suite protocol is registered. Routing review: Retain the keyboard protocol for 100 generated implementations; App Store/Steam source titles are inspirations, not the evaluated originals."
+      }
+    },
+    {
+      "id": "AX26-2604.07429",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2604.07429"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2604.07429",
+        "liveTitle": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Sections 3.5/4.1 verify state-based scoring, a 100-action budget, and paused inference. Retain the Minecraft-clone collection and Flappy Bird units only; do not propagate capabilities to 32 other games."
+      }
+    },
+    {
+      "id": "AX26-2606.09826",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.09826"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2606.09826",
+        "liveTitle": "OmniGameArena: A Unified UE5 Benchmark for VLM Game Agents with Improvement Dynamics",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Each of the 12 games is mapped to its own Table 1 task and metric; radar-chart dimensions are not copied to every game."
+      }
+    },
+    {
+      "id": "GAB107",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ad98e6306c5ed8a228b7240152f65af-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ad98e6306c5ed8a228b7240152f65af-Abstract-Conference.html",
+        "liveTitle": "Game-RL: Synthesizing Multimodal Verifiable Game Data to Boost VLMs' General Reasoning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "GameQA is verifiable visual-reasoning training data generated from games; transfer gains do not establish interactive play coverage across the 30 source games."
+      }
+    },
+    {
+      "id": "REC-2.3",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.32093"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2609.32093",
+        "liveTitle": "GameBoyWorlds: A Testbed for Self-Improvement in Embodied Video Games",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Verified Execution and appendices A.3/B.1: 500 tasks, 75-response budgets and screen-based success checks; Playthrough is outside this reviewed scope. Routing review: Route only the ten games supporting 500 Execution tasks. Link’s Awakening edition is unspecified and is not merged with the DX node; Playthrough and extra implementations are excluded."
+      }
+    },
+    {
+      "id": "GAB105",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2505.15146"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2505.15146",
+        "liveTitle": "lmgame-Bench: How Good are LLMs at Playing Games?",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Closed-loop inputs and completion objective are verified; the other five games are not expanded in this review."
+      }
+    },
+    {
+      "id": "orak",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63506d49e90266a51f21ba8edbd49f46-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63506d49e90266a51f21ba8edbd49f46-Abstract-Conference.html",
+        "liveTitle": "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": null,
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records."
+      }
+    },
+    {
+      "id": "GAB098",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2025.acl-long.378/"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://aclanthology.org/2025.acl-long.378/",
+        "liveTitle": "GAMEBoT: Transparent Assessment of LLM Reasoning in Games",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Read Sections 2.3–2.5 and 3.1.1, extracting action loop, normalized outcomes, and 20-match seat balance. Retained one suite-level unit without per-game capability propagation. Routing review: Table 1 identifies the eight actual match environments; custom Pong, Surround and Negotiation v2 remain separate from Atari versions."
+      }
+    },
+    {
+      "id": "GAB058",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html",
+        "liveTitle": "AgentBench: Evaluating LLMs as Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Appendices E.1/E.4 specify Aquawar stages, matched scenarios, retry forfeits and 0.7 win-rate + 0.3 damage-rate scoring; non-game AgentBench tasks are excluded."
+      }
+    },
+    {
+      "id": "GAP-A1",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v267/ruoss25a.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.mlr.press/v267/ruoss25a.html",
+        "liveTitle": "LMAct: A Benchmark for In-Context Imitation Learning with Long Multimodal Demonstrations",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Full evaluation and chess appendix establish 100 episodes, 100-step limits, opponent strength and invalid-action handling. The unit is scoped to chess, not all six environments."
+      }
+    },
+    {
+      "id": "smartplay",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/hash/063d1fadbde557466bf5bcffe814a64e-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/063d1fadbde557466bf5bcffe814a64e-Abstract-Conference.html",
+        "liveTitle": "SmartPlay : A Benchmark for LLMs as Intelligent Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": null,
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records."
+      }
+    },
+    {
+      "id": "AX26-2606.08340",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.08340"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2606.08340",
+        "liveTitle": "Benchmarking Open-Ended Multi-Agent Coordination in Language Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Task protocols and metrics were verified from literature; no reproduction was run."
+      }
+    },
+    {
+      "id": "AX26-2601.16690",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2601.16690"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2601.16690",
+        "liveTitle": "EMemBench: Interactive Benchmarking of Episodic Memory for VLM Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Gameplay generates individualized trajectories, but the scored task is memory QA (ACC/F1), not game-goal achievement through actions. Retained as memory research outside the interactive-play capability map."
+      }
+    },
+    {
+      "id": "AX26-2605.30931",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2605.30931"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2605.30931",
+        "liveTitle": "MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Task protocols and metrics verified; not reproduced."
+      }
+    },
+    {
+      "id": "AX26-2607.29218",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2607.29218"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2607.29218",
+        "liveTitle": "MirrorCraft: Paired Evaluation under Hidden Rule Changes in Minecraft",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Task protocols and metrics were verified from literature; no reproduction was run."
+      }
+    },
+    {
+      "id": "AX26-2606.15684",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.15684"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2606.15684",
+        "liveTitle": "Multi-agent Framework for Time-Sensitive Complementary Collaboration in Minecraft",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Paper protocols and metrics verified; not reproduced."
+      }
+    },
+    {
+      "id": "GAB084",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v267/malagon25a.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.mlr.press/v267/malagon25a.html",
+        "liveTitle": "Craftium: Bridging Flexibility and Efficiency for Rich 3D Single- and Multi-Agent Environments",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied."
+      }
+    },
+    {
+      "id": "GAB089",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a33bff12876849137064101232019f1-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a33bff12876849137064101232019f1-Abstract-Datasets_and_Benchmarks_Track.html",
+        "liveTitle": "EVAAA: A Virtual Environment Platform for Essential Variables in Autonomous and Adaptive Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Appendix I.3 separates acquisition success from survival-duration success; this review registers the 500-step food/water choice protocol without mixing in thermal 300-step survival."
+      }
+    },
+    {
+      "id": "GAB087",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8048e2b9b631b15e1158f36275d8fc11-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8048e2b9b631b15e1158f36275d8fc11-Abstract-Datasets_and_Benchmarks_Track.html",
+        "liveTitle": "MineAnyBuild: Benchmarking Spatial Planning for Open-world AI Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Section 3.1 confirms blueprint-matrix output followed by automatic Mineflayer construction. Metrics include GPT-4.1-weighted artifact quality and spatial-QA accuracy, not closed-loop player control; retained as research but excluded from interactive coverage."
+      }
+    },
+    {
+      "id": "GAB097",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v267/zheng25j.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.mlr.press/v267/zheng25j.html",
+        "liveTitle": "MCU: An Evaluation Framework for Open-Ended Game Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Section 3.2 and appendices E/F distinguish the 35-task main experiment, 150-task extension and 100-task MCU-Turbo. This unit covers main experiments with explicit 30/10-seed controls; video judging scores trajectories produced by interactive agents."
+      }
+    },
+    {
+      "id": "GAP-A10",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2601.05215"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2601.05215",
+        "liveTitle": "MineNPC-Task: Task Suite for Memory-Aware Minecraft Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Full text and appendix E confirm 44 requests/216 subtasks and validators. Human-assisted repair is explicit; scope is the documented mixed-initiative pilot, not autonomous memory measurement."
+      }
+    },
+    {
+      "id": "GAB043",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/67a6726dcd555b982cabb3446ffac01d-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/67a6726dcd555b982cabb3446ffac01d-Abstract-Datasets_and_Benchmarks.html",
+        "liveTitle": "BEDD: The MineRL BASALT Evaluation and Demonstrations Dataset for Training and Benchmarking Agents that Solve Fuzzy Tasks",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Section 2.2 and Appendix A verify pixels, human preferences, and held-out seeds for four BASALT tasks. Added ObtainDiamondShovel with explicit rewards, kept separate from preference ratings."
+      }
+    },
+    {
+      "id": "GAB055",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v220/kiseleva23a.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.mlr.press/v220/kiseleva23a.html",
+        "liveTitle": "Interactive Grounded Language Understanding in a Collaborative Environment: Retrospective on Iglu 2022 Competition",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Full-text Section 4.3 confirms builder block-edit F1 relative to the initial grid, weighted by required additions/removals. NLP clarification F1/MRR@20 remains an excluded offline track."
+      }
+    },
+    {
+      "id": "GAB044",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9ca22870ae0ba55ee50ce3e2d269e5de-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9ca22870ae0ba55ee50ce3e2d269e5de-Abstract-Datasets_and_Benchmarks.html",
+        "liveTitle": "Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "This pass verifies bounded task goals, observations/actions and original metrics for literature coverage. Partial status retains the configuration and scope limits in each unit. No experiments were reproduced and Arena runtime availability is not implied."
+      }
+    },
+    {
+      "id": "GAB056",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v220/liu23a.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.mlr.press/v220/liu23a.html",
+        "liveTitle": "The NeurIPS 2022 Neural MMO Challenge: A Massively Multiagent Competition with Specialization and Trade",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Observation/action sections and appendices A.3–A.4 distinguish PvE Top1 from PvP TrueSkill with 100/1000-match schedules; this competition protocol is distinct from the 2.0 platform."
+      }
+    },
+    {
+      "id": "GAB027",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/539f1f7dd156cfe1222b0be83f247d35-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/539f1f7dd156cfe1222b0be83f247d35-Abstract-Datasets_and_Benchmarks.html",
+        "liveTitle": "Avalon: A Benchmark for RL Generalization Using Procedurally Generated Worlds",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Task protocols and metrics verified; not reproduced."
+      }
+    },
+    {
+      "id": "GAB037",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v176/kiseleva22a.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.mlr.press/v176/kiseleva22a.html",
+        "liveTitle": "Interactive Grounded Language Understanding in a Collaborative Environment: IGLU 2021",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Section 4.2 verifies three builder action interfaces, fixed initial/target states and three metrics. Interactive clarification was future work in 2021; offline Architect generation is excluded."
+      }
+    },
+    {
+      "id": "GAB029",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/9d9258fd703057246cb341e615426e2d-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/9d9258fd703057246cb341e615426e2d-Abstract-Datasets_and_Benchmarks.html",
+        "liveTitle": "Dungeons and Data: A Large-Scale NetHack Dataset",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Experimental section verifies tty observations, 1.5B frames, 1024 episodes and 10 seeds. Human data lack actions/rewards, but the paper evaluates learned policies online."
+      }
+    },
+    {
+      "id": "GAB006",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://openreview.net/forum?id=Byx_YAVYPH",
+        "https://arxiv.org/abs/2002.06306"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2002.06306",
+        "liveTitle": "Jelly Bean World: A Testbed for Never-Ending Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "retrievalFallback": "OpenReview displayed a browser-verification challenge; matching author arXiv abstract was read.",
+        "reviewedBoundary": "Author PDF resolves a single-agent continuing collection protocol; simulator multi-agent support is not evidence of an evaluated coordination task."
+      }
+    },
+    {
+      "id": "AX26-2608.09902",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.09902"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2608.09902",
+        "liveTitle": "DSLE: A Learning Environment for Dark Souls Boss Encounters",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Full text confirms DSLE-5 is a five-boss subset, separate from the 22-boss extension. Identical saves and actions can diverge because game-internal randomness is unseeded; deterministic replay is not guaranteed."
+      }
+    },
+    {
+      "id": "AX26-2607.06514",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2607.06514"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2607.06514",
+        "liveTitle": "FootsiesGym: A Fighting Game Benchmark for Two-Player Zero-Sum Imperfect-Information Games",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Main text and appendices A/C establish 85-dimensional observations, delay, five-seed training and best-response evaluation; exploitability is explicitly an approximate lower bound."
+      }
+    },
+    {
+      "id": "GAB095",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2503.08241"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2503.08241",
+        "liveTitle": "HASARD: A Benchmark for Vision-Based Safe Reinforcement Learning in Embodied Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Expands one safe-RL scenario with explicit reward, cost, inputs and actions."
+      }
+    },
+    {
+      "id": "GAB094",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2410.23208"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2410.23208",
+        "liveTitle": "Kinetix: Investigating the Training of General Agents through Open-Ended Physics-Based Control Tasks",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Uses symbolic entities, multi-discrete actions and holdout solve rate; fully observed physics tasks are not labeled memory tests."
+      }
+    },
+    {
+      "id": "GAB076",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v235/li24q.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.mlr.press/v235/li24q.html",
+        "liveTitle": "FightLadder: A Benchmark for Competitive Multi-Agent Reinforcement Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": null,
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records."
+      }
+    },
+    {
+      "id": "GAB074",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://rlj.cs.umass.edu/2024/papers/Paper46.html",
+        "https://arxiv.org/abs/2306.08649"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2306.08649",
+        "liveTitle": "OCAtari: Object-Centric Atari 2600 Reinforcement Learning Environments",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "retrievalFallback": "Canonical RLJ URL redirected to a volume index; matching author arXiv abstract was read.",
+        "reviewedBoundary": "Author PDF and rendered Figure 4 establish eight actual PPO gameplay evaluations. Detection F1/IoU and the wider support list are excluded from gameplay coverage."
+      }
+    },
+    {
+      "id": "GAP-A3",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2505.18134"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2505.18134",
+        "liveTitle": "VideoGameBench: Can Vision-Language Models Complete Popular Video Games?",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Raw frames, timed actions and checkpoint scoring are confirmed; other public games and the hidden set do not inherit these tags."
+      }
+    },
+    {
+      "id": "GAB050",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://papers.nips.cc/paper_files/paper/2023/hash/d61d9f4fe4357296cb658795fd7999f0-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://papers.nips.cc/paper_files/paper/2023/hash/d61d9f4fe4357296cb658795fd7999f0-Abstract-Datasets_and_Benchmarks.html",
+        "liveTitle": "COOM: A Game Benchmark for Continual Reinforcement Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Uses the documented sequence and continual-learning metrics; forgetting is learning retention, not within-episode memory."
+      }
+    },
+    {
+      "id": "GAB034",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://ieee-cog.org/2022/assets/papers/paper_30.pdf"
+      ],
+      "retrieval": "live_primary_pdf_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://ieee-cog.org/2022/assets/papers/paper_30.pdf",
+        "liveTitle": "LevDoom: A Benchmark for Generalization on Level Difficulty in Reinforcement Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "The paper specifies inputs, actions, metrics, holdout levels and repeats; shared evaluation across four scenarios forms one unit."
+      }
+    },
+    {
+      "id": "GAB002",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/6161"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/6161",
+        "liveTitle": "Atari-HEAD: Atari Human Eye-Tracking and Demonstration Dataset",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "The AAAI full-text score-table note specifies 500 random-seed episodes, 108K frames and sampling settings; static gaze/action prediction is separated from actual online gameplay. Routing review: Route the twenty games with actual online scores in Figure 8, separately from gaze/action prediction data."
+      }
+    },
+    {
+      "id": "GAB005",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2020/hash/51200d29d1fc15f5a71c1dab4bb54f7c-Abstract.html",
+        "https://proceedings.neurips.cc/paper_files/paper/2020/file/51200d29d1fc15f5a71c1dab4bb54f7c-Paper.pdf"
+      ],
+      "retrieval": "live_primary_pdf_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2020/file/51200d29d1fc15f5a71c1dab4bb54f7c-Paper.pdf",
+        "liveTitle": "RL Unplugged: A Suite of Benchmarks for Offline Reinforcement Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "retrievalFallback": "NeurIPS abstract retrieval failed; original NeurIPS PDF title/abstract were read.",
+        "reviewedBoundary": "Sections 3.3/4.3 and table 3 verify 46 games rather than all 57 ALE titles, the 9/37 selection split and best-data-policy normalization; Atari only. Routing review: Route forty-six explicit configuration entries: nine tuning and thirty-seven evaluation games. Stale 45/36 comments disagree with the executable lists and paper."
+      }
+    },
+    {
+      "id": "AX26-2606.24391",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.24391"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2606.24391",
+        "liveTitle": "Age of LLM: A Strategic 1v1 Benchmark for Reasoning, Diplomacy and Reliability of Large Language Models under Fog of War",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Paper protocols and metrics verified; not reproduced."
+      }
+    },
+    {
+      "id": "AX26-2604.07733",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2604.07733"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2604.07733",
+        "liveTitle": "CivBench: Progress-Based Evaluation for LLMs' Strategic Decision-Making in Civilization V",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Paper protocols and metrics verified; not reproduced."
+      }
+    },
+    {
+      "id": "AX26-2608.18423",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.18423"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2608.18423",
+        "liveTitle": "FM-Bench: A Benchmark for Long-Horizon Management with Competing Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Paper protocols and metrics verified; not reproduced."
+      }
+    },
+    {
+      "id": "AX26-2606.18950",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.18950"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2606.18950",
+        "liveTitle": "RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Full-text task tables and evaluation verify the five diagnostic minigames and their metrics. Scope is explicitly limited to these; full matches and game-generation quality remain separate."
+      }
+    },
+    {
+      "id": "REC-2.5",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.02459"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2609.02459",
+        "liveTitle": "CivBench: A Long-Horizon Benchmark for Tool-Mediated Agents in Civilization VI",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Paper protocols and metrics verified; not reproduced."
+      }
+    },
+    {
+      "id": "GAB110",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/39818"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://ojs.aaai.org/index.php/AAAI/article/view/39818",
+        "liveTitle": "TowerMind: A Tower Defence Game Learning Environment and Benchmark for LLM as Agents",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "AAAI sections 3.2/4.1–4.2 specify hybrid actions, five levels/five seeds, 16-step frequency and leak score, distinguishing validity from efficacy."
+      }
+    },
+    {
+      "id": "fle",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/75f3a62e55187bc3e5e5961fa2a46bcf-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/75f3a62e55187bc3e5e5961fa2a46bcf-Abstract-Datasets_and_Benchmarks_Track.html",
+        "liveTitle": "Factorio Learning Environment",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": null,
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records."
+      }
+    },
+    {
+      "id": "GAB103",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://doi.org/10.1109/TG.2025.3546252",
+        "https://arxiv.org/abs/2406.03978"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2406.03978",
+        "liveTitle": "Mini Honor of Kings: A Lightweight Environment for Multi-Agent Reinforcement Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "retrievalFallback": "DOI was inaccessible through web retrieval; matching author arXiv abstract was read.",
+        "reviewedBoundary": "Author full text resolves cooperative dragon combat with level, skill, equipment and team-composition controls; this is not full 5v5 MOBA play."
+      }
+    },
+    {
+      "id": "GAB067",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2312.11865"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2312.11865",
+        "liveTitle": "Large Language Models Play StarCraft II: Benchmarks and a Chain of Summarization Approach",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "This method paper includes real games and difficulty-specific win rates; maps, seeds and API budgets are not fully standardized."
+      }
+    },
+    {
+      "id": "GAP-B5",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2506.10264"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2506.10264",
+        "liveTitle": "WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Section III uses multiple-choice situational-awareness questions; the other component tests trait attribution and strategy prediction. These reason over screenshots/behavior rather than issue closed-loop MiaoSuan commands; excluded from gameplay coverage."
+      }
+    },
+    {
+      "id": "GAB045",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/464fefa022aaefc85d901317bbf13f85-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/464fefa022aaefc85d901317bbf13f85-Abstract-Datasets_and_Benchmarks.html",
+        "liveTitle": "Hokoff: Real Game Dataset from Honor of Kings and its Offline Reinforcement Learning Benchmarks",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Paper protocols and metrics verified; not reproduced."
+      }
+    },
+    {
+      "id": "smacv2",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/764c18ad230f9e7bf6a77ffc2312c55e-Paper-Datasets_and_Benchmarks.pdf",
+        "https://github.com/oxwhirl/smacv2"
+      ],
+      "retrieval": "live_official_readme_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://github.com/oxwhirl/smacv2",
+        "liveTitle": "SMACv2 Documentation; citation: SMACv2: An Improved Benchmark for Cooperative Multi-Agent Reinforcement Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": null,
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "retrievalFallback": "Official README was read, including Introduction, Differences to SMAC, Capability Config and title/authors in Citation; paper PDF exceeded web content-size limit."
+      }
+    },
+    {
+      "id": "GAB038",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_Benchmarks.html",
+        "liveTitle": "Honor of Kings Arena: an Environment for Generalization in Competitive Reinforcement Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Sections 5–6 establish Diaochan1v1, fixed purchase/upgrade orders and 98 matches across BT heroes; MOBA genre does not automatically imply team coordination."
+      }
+    },
+    {
+      "id": "GAB025",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://doi.org/10.1109/CoG52621.2021.9619076",
+        "https://arxiv.org/abs/2105.13807"
+      ],
+      "retrieval": "live_primary_abstract_plus_previously_reviewed_protocol",
+      "sourceNotes": {
+        "livePrimaryUrl": "https://arxiv.org/abs/2105.13807",
+        "liveTitle": "Gym-μRTS: Toward Affordable Full Game Real-time Strategy Games Research with Deep Reinforcement Learning",
+        "identity": "Primary title and resource type matched through web retrieval on 2026-10-30.",
+        "protocolBasis": "Detailed mechanics, budgets and metrics are grounded in the supplied reviewed task/evidence records; fresh abstract retrieval confirms identity and overall resource scope.",
+        "priorProtocolReviewDate": "2026-10-19",
+        "scopeEditorial": "Scope states measured object, version and protocol directly; source caveats are retained here and in the supplied audit records.",
+        "reviewedBoundary": "Author PDF resolves full RTS play on a single map under full observability; no map-generalization or partial-observation memory claim is added."
+      }
+    },
+    {
+      "id": "AX26-2608.25419",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.25419"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2606.18786",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.18786"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2605.31529",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://eccv.ecva.net/virtual/2026/poster/3718",
+        "https://arxiv.org/abs/2605.31529"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Official ECCV URL inaccessible in web retrieval; matching arXiv primary title and abstract read live. Offline nine-task scope retained from reviewed full-text evidence."
+    },
+    {
+      "id": "GAB109",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/092359ce5cf60a80e882378944bf1be4-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB088",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/39f7f65b5a0c3a82cacdffd68955d829-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB069",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1772.pdf"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-A12",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2510.08928"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Single match per model pairing limits repeats."
+    },
+    {
+      "id": "GAB047",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2210.13383"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB030",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/b2a1c152f14a4b842a9ddb3bd84c62a1-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2602.13214",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2602.13214"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2605.30100",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2605.30100"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2607.29577",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2607.29577"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Day has five schedules with one seed each and some models differ from Encounter."
+    },
+    {
+      "id": "AX26-2605.06066",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2605.06066"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2602.00676",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2602.00676"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2605.29653",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2605.29653"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2603.03252",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2603.03252"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. First-seat MCTS leaves seat effects."
+    },
+    {
+      "id": "GAP-B9",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2610.00416"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Regret is evaluated on each prompt own accepted, visited positions."
+    },
+    {
+      "id": "GAP-B1",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2026.findings-acl.1219/"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB112",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2503.06047"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live arXiv primary title and six-game scope matched; catalog DOI retained as publication reference, not independently fetched. Detailed SCII protocol uses supplied reviewed evidence."
+    },
+    {
+      "id": "NEW-2026-LUDO",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2604.05681"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-A2",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2026.acl-long.360/"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB081",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a46adbe2f0ca0e16ef8857e188991ad7-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB090",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/21d69b221567b8f9c839b3d94c00f16d-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-A6",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2508.03368"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live arXiv v3 title is Game Reasoning Arena; supplied bibliography preserves earlier Board Game Arena title. Same paper identity confirmed; sources use current title. Only Tic-Tac-Toe interface disaggregated in supplied review; seven-game full protocol not reconstructed."
+    },
+    {
+      "id": "GAP-A5",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2406.06613"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB070",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3191170938b6102e5c203b036b7c16dd-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-B3",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2512.01992"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-B2",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2501.08328"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-B4",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2410.10479"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB046",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/8f153093758af93861a74a1305dfdc18-Abstract.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB012",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/1905.05013"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live arXiv primary identity confirmed; catalog DOI retained as publication reference, not independently fetched. Engine-throughput versus agent-performance boundary retained. System paper quantitative experiment emphasizes throughput; no matching agent-strength evaluation in supplied review."
+    },
+    {
+      "id": "TOP-20",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2024.emnlp-main.416/"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live ACL publication title differs from the supplied descriptive catalog title; authors/resource and five-scenario scope match. Sources use official ACL title; reviewed protocols retained."
+    },
+    {
+      "id": "AX26-2605.04312",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2605.04312"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Released artifacts documented as logs/analysis rather than full runner."
+    },
+    {
+      "id": "AX26-2608.09638",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.09638"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2606.28514",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.28514"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2601.08462",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2601.08462"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Judge/configuration details remain ambiguous; only bounded ten-round action analysis is described."
+    },
+    {
+      "id": "AX26-2605.29512",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2605.29512"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Budget/battlefield/round settings remain version-specific in supplied review."
+    },
+    {
+      "id": "AX26-2601.09017",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2601.09017"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2607.28146",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2607.28146"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "AX26-2608.09128",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.09128"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "REC-4.2",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.11489"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live arXiv v4 title is The Convention Gap: Beyond Literal Content in Human-AI Cooperation; supplied record includes older title. Same Hanabi diagnostic identity confirmed; current title used in sources."
+    },
+    {
+      "id": "REC-2.1",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.31473"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "REC-4.1",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.12446"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary full title includes Measuring Belief Shifts in Werewolf; catalog shortened title denotes same paper. Offline observer scope confirmed."
+    },
+    {
+      "id": "GAB092",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/105c4de1195135fae4974aa8c5e27bbf-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB099",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2025.findings-naacl.448/"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB101",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2025.findings-emnlp.12/"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Initial-pile manifest and pairing counts incompletely verified in supplied review."
+    },
+    {
+      "id": "GAB102",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2025.acl-long.421/"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB062",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3e4d8407cb468850f2f8f4a949e64bf0-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-B8",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2407.16521"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-A8",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2310.05036"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-B6",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2412.11373"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAB077",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2024.acl-long.705/"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Reduced-Hanabi life-token wording is internally inconsistent in the supplied reviewed prompt; overview states only verified two-player/two-color/hand/information-token parameters."
+    },
+    {
+      "id": "GAB064",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/1d3ea22480873b389a3365d711eb1e91-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence. Contest hidden final partners and original version manifest remain incompletely reconstructed; public Clean Up review and normalized scoring are used."
+    },
+    {
+      "id": "GAP-B7",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2411.10422"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "GAP-A9",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2310.08901"
+      ],
+      "retrieval": "live_primary_text_with_reviewed_protocol",
+      "sourceNotes": "Live primary title and abstract matched; detailed protocol retained from supplied reviewed primary evidence."
+    },
+    {
+      "id": "zsc-eval",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/54a7139c548c88e288aa0fcd2bcbeceb-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded."
+      ]
+    },
+    {
+      "id": "GAB009",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/6216"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Crossroads has verified move/turn actions, team-arrival rewards and population rankings; only that race protocol is integrated.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "AX26-2603.24621",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2603.24621"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "ARC-AGI-3 requires exploration of novel environments without explicit goals and scores relative to human action efficiency. Protocols below are verified only for their stated tasks and conditions. Routing review: This unit measures action efficiency on private novel environments; public examples do not substitute for the private leaderboard set.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "AX26-2607.04293",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2607.04293"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Appendix C specifies interventions, tools and final validation on 1,000 drones. Added interactive experiment design for Antenna Trap; this is abstract simulation, not real-time piloting. Routing review: Route only the Antenna Trap family in Appendix C.2.1; deployment-zone and weather families do not inherit this unit.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "AX26-2607.05185",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2607.05185"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "This pass includes a bounded task with explicit observations, actions and metrics; remaining configuration gaps are recorded in limits. Literature reviewed, not reproduced and not an Arena runnable claim.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "AX26-2608.12593",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.12593"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "DiG-bench uses unknown string transformation rules and goals; 21 of 70 games are public, requiring split-specific reporting. Protocols below are verified only for their stated tasks and conditions. Routing review: Retain the shared discovery protocol over seventy string games; twenty-one public games do not represent the private remainder.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "AX26-2608.08160",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.08160"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "NCP-Bench evaluates narrator commitment/fact consistency, not player task-completion ability. No additional independent capability unit is counted."
+      ]
+    },
+    {
+      "id": "AX26-2606.19338",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.19338"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "RNG-Bench separates forgetting from action-selection errors in Matching Pairs and 3D Maze, supporting memory diagnostics. Protocols below are verified only for their stated tasks and conditions. Routing review: Route the explicit Matching Pairs (RNG-Bench) environment in Section 3.3; sizes, patterns and observation modalities are controls, not separate games. Route the explicit 3D Maze (RNG-Bench) environment in Section 3.3; sizes, patterns and observation modalities are controls, not separate games.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "AX26-2607.20767",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2607.20767"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Rushes predicts human interactive-narrative choices and personalized preferences, not agent task completion. No additional independent capability unit is counted."
+      ]
+    },
+    {
+      "id": "GAB108",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/78abb5f1206ca54c375084223de9c2ef-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "ChronoPlay benchmarks game-domain RAG and information freshness, not gameplay control capabilities. No additional independent capability unit is counted."
+      ]
+    },
+    {
+      "id": "GAB085",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2025.emnlp-main.1192/"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Preserved the 34-game protocol and added a Game Cafe Escape dependency-planning view; no planning label is propagated to the other games.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB066",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9dd4533e7e4e5ed809344280609c5b05-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified the fifty-script arena’s role discussion, reasoning, voting and win rate, integrating interactive social inference while excluding perception/chain QA.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB052",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://aclanthology.org/2023.emnlp-main.689/"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "The task description specifies three guesses, taboo-word validation and 100/n speed scoring. The added protocol is limited to this two-player game. Routing review: Route clembench’s constrained clue-and-guess dialogue variant, not all commercial Taboo rules or other dialogue games.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB053",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v202/pan23a.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Preserved narrative choice, achievement and harm evaluation for thirty test games. Ethical-harm/power metrics and current-scene prompts do not establish a specific game’s eleven-axis capability; ethics is not treated as social inference.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB022",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/1f0e3dad99908345f7439f8ffabdffc4-Abstract-round1.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "JerichoWorld is supervised observation-to-graph/valid-action data, not a full text-game completion benchmark. No additional independent capability unit is counted."
+      ]
+    },
+    {
+      "id": "GAB021",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/17090"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "The full paper verifies object tidying, IN/OUT generalization splits, 100 training episodes, ten runs and a 50-step test limit.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "REC-2.7",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.34769"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "LongPuzzleBench organizes 114 levels into 16 objectives, testing future feasibility and sustained completion rather than interaction length alone. Protocols below are verified only for their stated tasks and conditions.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "REC-2.2",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.32208"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified hidden-rule path tasks and held-out-rule evaluation; a rule notebook alone does not establish memory competence. Routing review: Main results concern seventeen private test games, with eight public validation games; training/validation examples cannot replace private test members.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB082",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/27881a19f100fdbf57f0ba1c3d499b08-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified six E2E games and opponent implementations; perception, QA and rule-following tracks are not counted as extra control tasks.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "memory-gym",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://www.jmlr.org/papers/v26/24-0043.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded."
+      ]
+    },
+    {
+      "id": "GAB096",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/b0a34e3c64f7e842f20ec10479c32b35-Abstract-Conference.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified in-context adaptation on XLand-MiniGrid; individual rules are not automatically planning or memory tests.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB078",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2407.11068"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified three ASCII board tasks; Shapes and LCL are symbolic recognition/structure tasks and do not count as gameplay control. Battleship follows the paper-specific representation.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB065",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3852c8254bc6d904c09db9921157f59b-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified sequential traversal of 150 Word2World maps with A* reference and GTB-Score; the collection and its task are not duplicated.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB073",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e5d1eaadeed651ba1021c09149db4b92-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Rules, observations, actions and evaluation protocol are verified for all 40 tasks. Static constraint reasoning is not automatically labelled planning; size generalization is assigned only to the three tested puzzles.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB051",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://openreview.net/forum?id=Y42xVBQusn",
+        "https://arxiv.org/abs/2202.04500",
+        "https://github.com/automl/CARL"
+      ],
+      "retrieval": "canonical OpenReview browser challenge; live matching arXiv abstract and official repository README fallback",
+      "sourceNotes": [
+        "CARL title and authors matched through arXiv; official repository bibliography and README confirm the same resource.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "The full text distinguishes interpolation, distribution shift and extrapolation through context distributions. Retain the verified Mario-level experiment; friction/goal interventions in classical control do not automatically label Mario or every platform environment.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB033",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/611b896d447df43c898062358df4c114-Abstract.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Section 4 evaluates each PPO checkpoint on 100 human-designed and 100 randomized levels. Added these controls to the bounded EscapeRoom case study; other Griddly games are excluded.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB016",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v139/hanjie21a.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified three-stage delivery tasks and entity/dynamics splits; success requires obtaining and delivering the message using the manual.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB017",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2021/hash/b3e3e393c77e35a4a3f3cbd1e429b5dc-Abstract.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified symbolic protocols in five environments; reported RTFM and Messenger results cover curriculum stage one, and NetHack uses Score/Gold/Scout subtasks.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "AX26-2608.11216",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.11216"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Coding agents improve a world model under fixed compute; held-out dynamics prediction is evaluated, not game completion."
+      ]
+    },
+    {
+      "id": "AX26-2604.02648",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2604.02648"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Bug discovery over 30 games and 124 validated bugs; detection rate measures software QA, not gameplay capability."
+      ]
+    },
+    {
+      "id": "AX26-2608.19197",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.19197"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Self-play synthesis of executable training environments; evaluation targets transfer to reasoning, code and tool use, not a fixed gameplay test suite."
+      ]
+    },
+    {
+      "id": "REC-T05",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.39564"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "End-to-end development from 100 long GDDs; dependency-aware contracts measure implementation fidelity."
+      ]
+    },
+    {
+      "id": "REC-T03",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.23142"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Seventy Unreal development tasks evaluated by build, asset and runtime assertion checks."
+      ]
+    },
+    {
+      "id": "REC-T02",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.21293"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Forty-seven browser-game generation tasks; L1/L2 pass rates and strict success assess software implementation."
+      ]
+    },
+    {
+      "id": "REC-T01",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.21562"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Godot logic implementation and repair evaluates program behaviour; character actions are outputs of the implemented software, not the evaluated model’s gameplay policy."
+      ]
+    },
+    {
+      "id": "GAP-C3",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.21833"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "GameGen, GameFix and GameOpt assess creation, repair and iterative optimization fidelity, not player capabilities."
+      ]
+    },
+    {
+      "id": "REC-2.8",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2609.09059"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "The paper samples a new training seed each episode and evaluates final checkpoints on eight held-out seeds. Three training seeds and twenty human participants are different statistical levels; retain the eight reviewed games without copying tags to other variants.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "REC-T06",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2610.02205"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Checks generated-video logic/render alignment and event realization against executable records, not player control or memory.",
+        "Current arXiv v2 title is PROWBench: Do Video Models Render What the Program Specifies? ROWBench retained only as associated catalog identity."
+      ]
+    },
+    {
+      "id": "GAP-A7",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2508.08501"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified textual interaction and behavior metrics across 118 games; the default per-step setup supplies no history and is not labelled a memory evaluation. Routing review: Route the six-game cross-model subset as distinct GVGAI implementations. The 118-game preliminary sweep is not equivalent cross-model coverage; the shared unit remains unlabelled, with box-pushing spatial planning extracted separately.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAP-C1",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2502.00595"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "LLMs act as RPG engines, creating worlds and simulating state updates; mechanics and content quality do not directly assess player planning or social skill."
+      ]
+    },
+    {
+      "id": "GAP-C2",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2505.15952"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Image/video QA covers visual unit/regression tests, glitches and reports; there is no gameplay action loop."
+      ]
+    },
+    {
+      "id": "GAB086",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d7ff1795e8527f6443371c3933bdb52b-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Added official CartPole-v1 balancing with concrete actions, state, return and termination; platform status is not an exclusion.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB060",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://www.jmlr.org/papers/v25/23-1612.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Integrated VMAS Navigation using the paper experiment and official task config; shared_rew=False is explicit rather than assuming shared rewards.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB061",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5aee125f052c90e326dcf6f380df94f6-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "The full paper checks MPE with 1,000 random rollouts and Hanabi with 10,000 trajectories; MABrax is not directly score-comparable to MAMuJoCo. Retain SMAX micromanagement; throughput benchmarks add no capability tags.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB068",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/fc6247c33cff077a3910d0c28463f445-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Section 4 uses 50k/100k/200k updates for MPE/SMACv1/MAMuJoCo, then 32 evaluation episodes across ten seeds. Added SMAC controls; online checkpoint-selection budget must not be hidden.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAP-A11",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2208.01174"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Verified the original CookingWorld, TWC and Coin Collector protocols; later library additions are kept separate.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB079",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/04c0c541d936f7cbfbb21085116236cd-Abstract-Datasets_and_Benchmarks_Track.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "OpenXLand gives +1 on each step satisfying the goal, while trial length is user-configured. Six million-scale datasets are generated resources, not six completed capability measurements; retain the rule-exploration protocol with explicit configured budgets.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB054",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://www.jmlr.org/papers/v24/23-0378.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "The paper’s MPE Simple Spread example is executable and scored; integrated its landmark-coverage coordination without claiming platform-wide verification.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB035",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.mlr.press/v199/powers22b.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Rechecked CORA’s task sequences and metrics: forward/backward transfer concern transfer and forgetting across training, not within-episode working memory. Retain Procgen/MiniHack units; complete Atari/CHORES subtask configurations remain untranscribed. Routing review: Route only the six Procgen games actually trained sequentially in CORA, not all sixteen platform games.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB031",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/8caaf08e49ddbad6694fae067442ee21-Abstract-Datasets_and_Benchmarks.html"
+      ],
+      "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
+      "sourceNotes": [
+        "Primary page title and resource identity matched.",
+        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
+        "Figure 6 reports actual PPO return on Pong in addition to throughput; integrated the control task while separating gameplay score from speed.",
+        "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
+      ]
+    },
+    {
+      "id": "GAB039",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/249f73e01f0a2bb6c8d971b565f159a7-Abstract-Conference.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "GAB024",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/a8baa56554f96369ab93e4f3bb068c22-Abstract-round1.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "GAB014",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2021/hash/803f7c4c3ff61b71be53a0c803bfb57f-Abstract.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "GAB023",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://proceedings.neurips.cc/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "GAB019",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/091d584fced301b442654dd8c23b3fc9-Abstract-round2.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "BUILD303",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/AI4Science-WestlakeU/BuildArena/blob/main/README.md",
+        "https://proceedings.mlr.press/v306/xia26d.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT305",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/nicoladainese96/code-world-models/blob/main/README.md",
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT310",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/GameGen-X/GameGen-X/blob/main/README.md",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/5d2e24df9cfaad3189833b819c40b392-Abstract-Conference.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT311",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_GameFactory_Creating_New_Games_with_Generative_Interactive_Videos_ICCV_2025_paper.pdf"
+      ],
+      "retrieval": "primary-fallback-confirmed",
+      "sourceNotes": "Author arXiv primary source confirmed via web after original URL failure."
+    },
+    {
+      "id": "OMIT314",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2511.23429"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT318",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/tktserapio/internalizing-cwm-sft-grpo",
+        "https://arxiv.org/abs/2605.24375"
+      ],
+      "retrieval": "primary-fallback-confirmed",
+      "sourceNotes": "Author arXiv primary source confirmed via web after original URL failure."
+    },
+    {
+      "id": "OMIT319",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/JaviMaligno/code-world-models/blob/main/README.md",
+        "https://arxiv.org/abs/2607.14169"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT320",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/AlayaLab/PWM/blob/main/README.md",
+        "https://arxiv.org/abs/2609.10540"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT322",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/waynchi/gamedevbench/blob/main/README.md",
+        "https://proceedings.mlr.press/v306/chi26a.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT323",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/Godheritage/BesiegeField/blob/main/README.md",
+        "https://arxiv.org/abs/2510.14980"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT324",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/FreedomIntelligence/gamecraft-bench/blob/main/README.md",
+        "https://arxiv.org/abs/2606.17861"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT325",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2607.03525"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT326",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2606.19830"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT327",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2605.17637"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT329",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/Haoyue-Yang/GameGo/blob/main/README.md",
+        "https://arxiv.org/abs/2610.06910"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT330",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2605.28258"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT332",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/scicrafter-bench/scicraft-bench/blob/main/README.md",
+        "https://arxiv.org/abs/2604.24697"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT337",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2608.24893"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT338",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/Nepenthes-zlc/World2Minecraft/blob/main/README.md",
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/69c754f571806bf15add18556ff39b4f-Abstract-Conference.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT340",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/xzw-ustc/mc-bench-open-source/blob/main/README.md",
+        "https://arxiv.org/abs/2610.13829"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT341",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2610.11723"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT342",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/shiyao-li/NextBestPath/blob/main/README.md",
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/7b75a7339dfb256ee4b4bec028a6890b-Abstract-Conference.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT349",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/google-deepmind/searchless_chess/blob/main/README.md",
+        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/78f0db30c39c850de728c769f42fc903-Abstract-Conference.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "OMIT363",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/ArtifactArena/harness-public/blob/main/README.md",
+        "https://arxiv.org/html/2610.06511v1"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-ale",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/Farama-Foundation/Arcade-Learning-Environment/blob/main/README.md",
+        "https://arxiv.org/abs/1207.4708"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-vizdoom",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/Farama-Foundation/ViZDoom/blob/main/README.md",
+        "https://arxiv.org/abs/1605.02097"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-sc2le",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/google-deepmind/pysc2/blob/master/README.md",
+        "https://arxiv.org/abs/1708.04782"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-deepmind-lab",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/google-deepmind/lab/blob/master/README.md",
+        "https://arxiv.org/abs/1612.03801"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-gvgai",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/GAIGResearch/GVGAI/blob/master/README.md",
+        "https://arxiv.org/abs/1802.10363"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-coinrun",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/openai/coinrun/blob/master/README.md",
+        "https://proceedings.mlr.press/v97/cobbe19a.html"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-obstacle-tower",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/Unity-Technologies/obstacle-tower-source/blob/master/README.md",
+        "https://arxiv.org/abs/1902.01378"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-griddly",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/Bam4d/Griddly/blob/develop/README.md",
+        "https://arxiv.org/abs/2011.06363"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-elf",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/facebookresearch/ELF/blob/main/README.md",
+        "https://arxiv.org/abs/1707.01067"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-malmo",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/microsoft/malmo/blob/master/README.md",
+        "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/johnson-malmo-platform-camera-ready.pdf"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-spirebench",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://arxiv.org/abs/2610.12596"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-pokeagent-challenge",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/sethkarten/continual-harness/blob/main/README.md",
+        "https://arxiv.org/abs/2603.15563"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-vgc-bench",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/cameronangliss/vgc-bench/blob/main/README.md",
+        "https://arxiv.org/abs/2506.10326"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-gg-bench",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/vivek3141/gg-bench/blob/master/README.md",
+        "https://arxiv.org/abs/2505.07215"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-comrad",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/TTomilin/COMRAD/blob/main/README.md",
+        "https://openreview.net/forum?id=0x7G2k0Hh7"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-agenticsts",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/AlayaLab/AgenticSTS/blob/main/README.md",
+        "https://arxiv.org/abs/2607.02255"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    },
+    {
+      "id": "SUP-darefightingice-llm-2026",
+      "checkedAt": "2026-10-30",
+      "primaryIdentityConfirmed": true,
+      "checkedUrls": [
+        "https://github.com/TeamFightingICE/FightingICE/blob/master/README.md"
+      ],
+      "retrieval": "retrieved",
+      "sourceNotes": ""
+    }
+  ],
+  "method": {
+    "zh": "本轮逐项核对主来源身份，并结合既有逐任务及协议证据撰写概述。概述整理与任务协议、范式、能力映射、独立运行验证分别记录。",
+    "en": "Primary identities were checked individually in this pass; descriptions combine these sources with existing task/protocol evidence. Overview editing remains separate from protocol, paradigm, capability and independent-execution reviews."
+  },
+  "counts": {
+    "previous": 30,
+    "added": 206,
+    "total": 236,
+    "newMediaLinks": 17,
+    "totalMediaLinks": 36
+  }
+}

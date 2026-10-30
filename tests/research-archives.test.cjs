@@ -76,7 +76,7 @@ for(const u of separated)for(const lang of ['zh','en']){
 }
 
 const enriched=model.entries.filter(a=>a.overview);
-assert.equal(enriched.length,30);
+assert.equal(enriched.length,236);
 const pilot=enriched.filter(a=>a.overview.sampleBatch==='pilot-10');
 const expansion=enriched.filter(a=>a.overview.sampleBatch==='expansion-20');
 assert.equal(expansion.length,20);
@@ -104,7 +104,7 @@ assert(pilot.every(a=>a.overview.sampleBatch==='pilot-10'&&a.overview.paragraphs
 assert.equal(pilot.flatMap(a=>a.overview.media).length,8);
 assert.equal(expansion.flatMap(a=>a.overview.media).length,11);
 for(language of ['zh','en']){
- for(const a of enriched){const html=ctx.window.AtlasResearchArchives.render(a,{tab:'overview'});for(const para of a.overview.paragraphs)assert(html.includes(para[language].replace(/&/g,'&amp;')));}
+ for(const a of enriched){const html=ctx.window.AtlasResearchArchives.render(a,{tab:'overview'});for(const para of a.overview.paragraphs)assert(html.includes(para[language].replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))));}
  const civ=ctx.window.AtlasResearchArchives.render(model.get('GAB075'),{tab:'overview'});
  assert(civ.includes(language==='zh'?'完整对局':'Full games'));
  const mini=ctx.window.AtlasResearchArchives.render(model.get('minigrid'),{tab:'overview'});
@@ -121,3 +121,14 @@ assert.equal(model.get('GAB049').overview.sections[3].body.en.includes('finite t
 assert.equal(model.get('SUP-minerl-dataset').bibliography.kind,'dataset');
 assert.equal(model.get('GAB036').bibliography.kind,'competition');
 console.log('Expansion: 20 sourced four-part bilingual overviews, 11 official media links, preserved resource identities and task scopes pass.');
+
+const completion=enriched.filter(a=>a.overview.sampleBatch==='completion-206');
+assert.equal(completion.length,206);
+const resources=model.entries.filter(a=>['benchmark','environment','platform','dataset','competition','protocol'].includes(a.bibliography.kind));
+assert(resources.every(a=>a.overview?.sections.length===4),'every evaluation resource has a sourced four-section overview');
+assert.equal(resources.length,236);
+const audit=JSON.parse(fs.readFileSync('dist/archive-overview-review.json'));
+assert.equal(audit.records.length,206);
+assert.deepEqual(audit.records.map(a=>a.id).sort(),completion.map(a=>a.id).sort());
+assert(audit.records.every(a=>a.primaryIdentityConfirmed&&a.checkedUrls.length));
+console.log('Completion: all 236 resources have source-grounded bilingual sections, 206 audited additions, unchanged task/runtime identities.');

@@ -30,5 +30,7 @@ console.log('Directory scopes: default resources, independent related/reference/
 
 assert.equal(browse({review:'overview-pilot'}).length,10,'pilot descriptions are directly discoverable');
 
-assert.equal(browse({review:'overview-structured'}).length,30);
+assert.equal(browse({review:'overview-structured'}).length,236);
 assert.equal(browse({review:'overview-expansion'}).length,20);
+
+assert.equal(browse({review:'overview-completion'}).length,206);
