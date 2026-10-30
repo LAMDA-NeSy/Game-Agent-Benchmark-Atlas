@@ -50,3 +50,8 @@ Katakomba's official repository was confirmed from its paper; this updates code
 availability without changing task, capability or independent-execution reviews.
 
 The pilot is discoverable through `libraryReview=overview-pilot` in the archive directory.
+
+Pilot overviews use four parallel sections: tasks/environment, research use, evaluation,
+and evaluation scope. Scope is descriptive rather than prescriptive; code and runtime
+review statuses remain in their structured fields. The overview omits redundant
+selection/limitation blocks when these four sections are available.

@@ -97,7 +97,7 @@ console.log('Overviews: sourced bilingual descriptions, concrete task/metric pre
 
 const sampleIds=['AX26-2602.12517','balrog','GAP-A4','GAB026','SUP-smac','GAB042','GAB075','collab-overcooked','minigrid','procgen'];
 assert.deepEqual(enriched.map(a=>a.id).sort(),sampleIds.sort());
-assert(enriched.every(a=>a.overview.sampleBatch==='pilot-10'&&a.overview.paragraphs.length===3));
+assert(enriched.every(a=>a.overview.sampleBatch==='pilot-10'&&a.overview.paragraphs.length===4));
 assert.equal(enriched.flatMap(a=>a.overview.media).length,8);
 for(language of ['zh','en']){
  for(const a of enriched){const html=ctx.window.AtlasResearchArchives.render(a,{tab:'overview'});for(const para of a.overview.paragraphs)assert(html.includes(para[language].replace(/&/g,'&amp;')));}
@@ -108,3 +108,6 @@ for(language of ['zh','en']){
 }
 assert.equal(model.get('GAB042').bibliography.repo,'https://github.com/corl-team/katakomba');
 console.log('Pilot ten: resource-wide introductions, scoped examples, evaluation/boundaries, bilingual parity and eight sourced media links verified.');
+
+for(const a of enriched){assert.deepEqual(a.overview.sections.map(s=>s.key),['task','research','evaluation','scope']);assert(a.overview.sections.every(s=>s.body.zh&&s.body.en));}
+for(language of ['zh','en']){const html=ctx.window.AtlasResearchArchives.render(model.get('balrog'),{tab:'overview'});assert(html.includes(language==='zh'?'任务与环境':'Tasks &amp; environment'));assert(html.includes('archive-overview-sections'));}

@@ -23,6 +23,7 @@
  }
  function missingHTML(a){return a.missing.length?section(t('待补充信息','Information still needed'),`<ul class="archive-missing">${a.missing.map(m=>`<li>${text(m.detail)}</li>`).join('')}</ul>`):'';}
  function overviewBody(a,summary){
+  if(a.overview?.sections?.length){const labels={task:['任务与环境','Tasks & environment'],research:['研究用途','Research use'],evaluation:['评价方式','Evaluation'],scope:['评测范围','Evaluation scope']};return `<div class="archive-overview-sections">${a.overview.sections.map(s=>`<section><h4>${esc(t(...labels[s.key]))}</h4>${p(s.body)}</section>`).join('')}</div>`+overviewSources(a.overview.sources);}
   if(a.overview?.paragraphs?.length)return a.overview.paragraphs.map(p).join('')+overviewSources(a.overview.sources);
   const units=a.tasks.filter(u=>u.origin!=='arena-documented-candidate'),r=a.profile;
   let html=p(summary);
@@ -41,13 +42,13 @@
   const summary=b.scope||a.taskReview?.reviewedScope||(r.summary!==b.title&&r.summary!==b.name?r.summary:null)||r.zh;
   let html=section(t('评测与研究概览','Evaluation & research overview'),overviewBody(a,summary))+overviewMedia(a);
   html+=`<dl class="detail-facts"><div><dt>${t('资源性质','Resource type')}</dt><dd>${typeName(b.kind)}</dd></div><div><dt>${t('已核验范式','Reviewed paradigms')}</dt><dd>${b.agents.map(esc).join(' / ')||paradigmStatus(b.agentReview?.status)}</dd></div><div><dt>${t('代码入口','Code availability')}</dt><dd>${b.repo?`<a href="${esc(b.repo)}" target="_blank" rel="noopener noreferrer">${t('已收录官方仓库','Official repository listed')} ↗</a>`:t('地址待核定','Repository URL unconfirmed')}</dd></div><div><dt>${t('独立运行验证','Independent execution')}</dt><dd>${a.executionVerified?t('部分任务已验证，见任务记录','Some tasks verified; see task records'):t('未验证','Not verified')}</dd></div></dl>`;
-  if(r.research?.fit)html+=section(t('选型建议 · 编辑整理','Selection notes · Editorial'),p(r.research.fit));
+  if(r.research?.fit&&!a.overview?.sections)html+=section(t('选型建议 · 编辑整理','Selection notes · Editorial'),p(r.research.fit));
   const linkedGames=a.gameLinks.filter(g=>!['non-game','unresolved'].includes(g.kind));
   const counts=['data','offline','online'].map(id=>({id,n:linkedGames.filter(g=>g.roles.includes(id)).length}));
   html+=`<div class="archive-summary"><span>${a.taskGroups.documented.length} ${t('组文献任务','documented task units')}${a.taskGroups.arenaProposals.length?` · ${a.taskGroups.arenaProposals.length} Arena ${t('候选设计','candidate designs')}`:''}</span><span>${linkedGames.length} ${t('个游戏 / 环境关联','game / environment links')}</span>${counts.filter(x=>x.n).map(x=>`<span>${roleName(x.id)} · ${x.n} ${t('个关联','links')}</span>`).join('')}</div>`;
   const gameRows=games=>`<div class="archive-game-list">${games.map(g=>`<div><button class="text-button" data-game-open="${esc(g.id)}">${esc(gameName(g))} ↗</button><span>${g.roles.map(roleName).join(' · ')}</span></div>`).join('')}</div>`;
   if(linkedGames.length)html+=section(t('关联游戏与研究用途','Linked games & research uses'),gameRows(linkedGames.slice(0,12))+(linkedGames.length>12?`<details class="archive-more-games"><summary>${t(`其余 ${linkedGames.length-12} 个关联`,`${linkedGames.length-12} more linked games / environments`)}</summary>${gameRows(linkedGames.slice(12))}</details>`:''));
-  html+=section(t('适用边界','Limitations'),p(b.limits||r.limit));
+  if(!a.overview?.sections)html+=section(t('适用边界','Limitations'),p(b.limits||r.limit));
   if(a.tasks.length)html+=taskLink(a,t('查看任务、接口与评估指标','Inspect tasks, interfaces & metrics'));
   if(a.missing.length)html+=`<p class="archive-gap-link">${taskLink(a,t(`${a.missing.length} 项资料待补充`,`${a.missing.length} evidence gaps`))}</p>`;
   return html;
