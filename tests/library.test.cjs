@@ -29,3 +29,6 @@ assert(!c.window.AtlasLibrary.filtered({scope:'resources'}).some(r=>r.kind==='su
 console.log('Directory scopes: default resources, independent related/reference/pending views, complete all-archive access.');
 
 assert.equal(browse({review:'overview-pilot'}).length,10,'pilot descriptions are directly discoverable');
+
+assert.equal(browse({review:'overview-structured'}).length,30);
+assert.equal(browse({review:'overview-expansion'}).length,20);

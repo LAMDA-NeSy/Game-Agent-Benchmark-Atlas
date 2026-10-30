@@ -196000,7 +196000,7 @@ window.ATLAS_DATA = {
       "year": 2022,
       "venue": "EMNLP 2022",
       "paper": "https://aclanthology.org/2022.emnlp-main.775/",
-      "repoURL": null,
+      "repoURL": "https://github.com/allenai/ScienceWorld",
       "kind": "Environment family",
       "kinds": [
         "Environment family"
@@ -196125,7 +196125,7 @@ window.ATLAS_DATA = {
       "year": 2021,
       "venue": "ICLR 2021",
       "paper": "https://openreview.net/forum?id=0IOX0YcCdTn",
-      "repoURL": null,
+      "repoURL": "https://github.com/alfworld/alfworld",
       "kind": "Environment family",
       "kinds": [
         "Environment family"
@@ -196466,7 +196466,7 @@ window.ATLAS_DATA = {
       "year": 2020,
       "venue": "AAAI 2020",
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/6297",
-      "repoURL": null,
+      "repoURL": "https://github.com/microsoft/jericho",
       "kind": "Environment family",
       "kinds": [
         "Environment family"
@@ -198094,7 +198094,7 @@ window.ATLAS_DATA = {
       "year": 2023,
       "venue": "ICLR 2023",
       "paper": "https://openreview.net/forum?id=jHc8dCx6DDr",
-      "repoURL": null,
+      "repoURL": "https://github.com/MarcoMeter/endless-memory-gym",
       "kind": "Environment family",
       "kinds": [
         "Environment family"
@@ -198547,7 +198547,7 @@ window.ATLAS_DATA = {
       "year": 2020,
       "venue": "ICLR 2020",
       "paper": "https://arxiv.org/abs/1908.03568",
-      "repoURL": null,
+      "repoURL": "https://github.com/google-deepmind/bsuite",
       "kind": "Benchmark",
       "kinds": [
         "Benchmark"

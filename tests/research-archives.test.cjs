@@ -76,7 +76,10 @@ for(const u of separated)for(const lang of ['zh','en']){
 }
 
 const enriched=model.entries.filter(a=>a.overview);
-assert.equal(enriched.length,10);
+assert.equal(enriched.length,30);
+const pilot=enriched.filter(a=>a.overview.sampleBatch==='pilot-10');
+const expansion=enriched.filter(a=>a.overview.sampleBatch==='expansion-20');
+assert.equal(expansion.length,20);
 for(const a of enriched){
  assert(a.overview.sources.length&&a.overview.checkedAt);
  assert(a.overview.paragraphs.every(p=>p.zh&&p.en));
@@ -96,9 +99,10 @@ for(language of ['zh','en']){
 console.log('Overviews: sourced bilingual descriptions, concrete task/metric previews and attributed official media links pass.');
 
 const sampleIds=['AX26-2602.12517','balrog','GAP-A4','GAB026','SUP-smac','GAB042','GAB075','collab-overcooked','minigrid','procgen'];
-assert.deepEqual(enriched.map(a=>a.id).sort(),sampleIds.sort());
-assert(enriched.every(a=>a.overview.sampleBatch==='pilot-10'&&a.overview.paragraphs.length===4));
-assert.equal(enriched.flatMap(a=>a.overview.media).length,8);
+assert.deepEqual(pilot.map(a=>a.id).sort(),sampleIds.sort());
+assert(pilot.every(a=>a.overview.sampleBatch==='pilot-10'&&a.overview.paragraphs.length===4));
+assert.equal(pilot.flatMap(a=>a.overview.media).length,8);
+assert.equal(expansion.flatMap(a=>a.overview.media).length,11);
 for(language of ['zh','en']){
  for(const a of enriched){const html=ctx.window.AtlasResearchArchives.render(a,{tab:'overview'});for(const para of a.overview.paragraphs)assert(html.includes(para[language].replace(/&/g,'&amp;')));}
  const civ=ctx.window.AtlasResearchArchives.render(model.get('GAB075'),{tab:'overview'});
@@ -111,3 +115,9 @@ console.log('Pilot ten: resource-wide introductions, scoped examples, evaluation
 
 for(const a of enriched){assert.deepEqual(a.overview.sections.map(s=>s.key),['task','research','evaluation','scope']);assert(a.overview.sections.every(s=>s.body.zh&&s.body.en));}
 for(language of ['zh','en']){const html=ctx.window.AtlasResearchArchives.render(model.get('balrog'),{tab:'overview'});assert(html.includes(language==='zh'?'任务与环境':'Tasks &amp; environment'));assert(html.includes('archive-overview-sections'));}
+
+for(const a of expansion){assert.equal(a.overview.paragraphs.length,4);assert(a.overview.sources.length>=1);assert(a.overview.sections.every(s=>s.body.zh.length>20&&s.body.en.length>30));}
+assert.equal(model.get('GAB049').overview.sections[3].body.en.includes('finite tasks'),true);
+assert.equal(model.get('SUP-minerl-dataset').bibliography.kind,'dataset');
+assert.equal(model.get('GAB036').bibliography.kind,'competition');
+console.log('Expansion: 20 sourced four-part bilingual overviews, 11 official media links, preserved resource identities and task scopes pass.');

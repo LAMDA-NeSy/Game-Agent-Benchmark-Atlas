@@ -26056,7 +26056,7 @@
       "year": 2022,
       "venue": "EMNLP 2022",
       "paper": "https://aclanthology.org/2022.emnlp-main.775/",
-      "repo": null,
+      "repo": "https://github.com/allenai/ScienceWorld",
       "kind": "environment",
       "genres": [
         "Abstract task"
@@ -26173,7 +26173,7 @@
       "year": 2021,
       "venue": "ICLR 2021",
       "paper": "https://openreview.net/forum?id=0IOX0YcCdTn",
-      "repo": null,
+      "repo": "https://github.com/alfworld/alfworld",
       "kind": "environment",
       "genres": [
         "Abstract task"
@@ -26493,7 +26493,7 @@
       "year": 2020,
       "venue": "AAAI 2020",
       "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/6297",
-      "repo": null,
+      "repo": "https://github.com/microsoft/jericho",
       "kind": "environment",
       "genres": [
         "Text adventure"
@@ -28141,7 +28141,7 @@
       "year": 2023,
       "venue": "ICLR 2023",
       "paper": "https://openreview.net/forum?id=jHc8dCx6DDr",
-      "repo": null,
+      "repo": "https://github.com/MarcoMeter/endless-memory-gym",
       "kind": "environment",
       "genres": [
         "Abstract task"
@@ -28746,7 +28746,7 @@
       "year": 2020,
       "venue": "ICLR 2020",
       "paper": "https://arxiv.org/abs/1908.03568",
-      "repo": null,
+      "repo": "https://github.com/google-deepmind/bsuite",
       "kind": "benchmark",
       "genres": [
         "Abstract task"
@@ -47870,6 +47870,1407 @@
             "zh": "原始评测套件覆盖16个环境，后续竞赛采用独立协议。关卡划分、难度、环境版本与交互预算确定相应的实验范围。",
             "en": "The original suite covers sixteen environments; subsequent competitions use separate protocols. Level splits, difficulty, versions and interaction budgets define each experimental scope."
           }
+        }
+      ]
+    },
+    {
+      "id": "minedojo",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MineDojo 在 Minecraft 中提供 Programmatic、Creative 与 Playthrough 三类任务，配套可配置的传感器、移动与制作动作，以及互联网视频、百科和社区知识资源。",
+            "en": "MineDojo provides programmatic, creative and playthrough Minecraft tasks, configurable sensors and movement/crafting actions, alongside internet video, wiki and community knowledge resources."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究开放式具身学习、知识迁移与技能组合。任务可以连接资源获取、工具制作和环境探索，支持分析语言知识如何转化为连续行动。",
+            "en": "It supports open-ended embodied learning, knowledge transfer and skill composition, linking resource collection, tool crafting and exploration to study how language knowledge informs sequential action."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "Programmatic 任务通过模拟器状态判定目标完成；Creative 与 Playthrough 任务采用相应任务定义的评价。结果可按任务类型和目标分别汇总。",
+            "en": "Programmatic goals are evaluated from simulator state; creative and playthrough tasks use their respective task-specific evaluation procedures. Results can be grouped by task family and objective."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测单位为所选任务及其初始世界、传感器和动作配置。任务库与知识库分别提供交互目标和外部学习材料。",
+            "en": "Evaluation units are selected tasks with specified initial worlds, sensors and actions. The task suite and knowledge collection provide interaction objectives and external learning material, respectively."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MineDojo 在 Minecraft 中提供 Programmatic、Creative 与 Playthrough 三类任务，配套可配置的传感器、移动与制作动作，以及互联网视频、百科和社区知识资源。",
+          "en": "MineDojo provides programmatic, creative and playthrough Minecraft tasks, configurable sensors and movement/crafting actions, alongside internet video, wiki and community knowledge resources."
+        },
+        {
+          "zh": "用于研究开放式具身学习、知识迁移与技能组合。任务可以连接资源获取、工具制作和环境探索，支持分析语言知识如何转化为连续行动。",
+          "en": "It supports open-ended embodied learning, knowledge transfer and skill composition, linking resource collection, tool crafting and exploration to study how language knowledge informs sequential action."
+        },
+        {
+          "zh": "Programmatic 任务通过模拟器状态判定目标完成；Creative 与 Playthrough 任务采用相应任务定义的评价。结果可按任务类型和目标分别汇总。",
+          "en": "Programmatic goals are evaluated from simulator state; creative and playthrough tasks use their respective task-specific evaluation procedures. Results can be grouped by task family and objective."
+        },
+        {
+          "zh": "评测单位为所选任务及其初始世界、传感器和动作配置。任务库与知识库分别提供交互目标和外部学习材料。",
+          "en": "Evaluation units are selected tasks with specified initial worlds, sensors and actions. The task suite and knowledge collection provide interaction objectives and external learning material, respectively."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html",
+          "title": "MineDojo · original paper"
+        },
+        {
+          "url": "https://github.com/MineDojo/MineDojo",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/MineDojo/MineDojo/blob/main/images/pull.gif",
+          "title": {
+            "zh": "官方项目演示动图",
+            "en": "Official project demonstration"
+          },
+          "source": "https://github.com/MineDojo/MineDojo",
+          "sourceAssetSha": "c2f81402f64006a9405521913b576d5b3eda2022"
+        }
+      ]
+    },
+    {
+      "id": "SUP-minerl-dataset",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MineRL 数据集记录人类在 Minecraft 中完成资源采集、导航和制作任务的轨迹，包含与环境接口对齐的观测与动作。数据与配套环境支持从示范学习游戏策略。",
+            "en": "The MineRL dataset records human Minecraft trajectories for resource gathering, navigation and crafting, with observations and actions aligned to its environment interface."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究模仿学习、离线数据利用与样本高效强化学习。分阶段制作和稀疏目标为示范预训练、探索与策略改进提供任务背景。",
+            "en": "It supports imitation learning, offline data use and sample-efficient RL. Crafting dependencies and sparse objectives provide settings for demonstration pretraining, exploration and policy improvement."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "数据驱动方法通过相应环境的任务回报和目标达成情况评价；例如 Treechop 以木材采集进度计分。论文中的在线基线与示范数据统计分别报告。",
+            "en": "Learned policies are evaluated using task returns and goal completion; Treechop, for example, measures wood collection. Online baseline results and demonstration statistics are reported separately."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "数据集、任务环境与竞赛规则构成不同资源层级。实验范围由数据版本、训练数据量、环境任务及交互预算确定。",
+            "en": "Dataset, task environments and competition rules are distinct resource layers. Data version, training-data volume, task selection and interaction budget define the experiment."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MineRL 数据集记录人类在 Minecraft 中完成资源采集、导航和制作任务的轨迹，包含与环境接口对齐的观测与动作。数据与配套环境支持从示范学习游戏策略。",
+          "en": "The MineRL dataset records human Minecraft trajectories for resource gathering, navigation and crafting, with observations and actions aligned to its environment interface."
+        },
+        {
+          "zh": "用于研究模仿学习、离线数据利用与样本高效强化学习。分阶段制作和稀疏目标为示范预训练、探索与策略改进提供任务背景。",
+          "en": "It supports imitation learning, offline data use and sample-efficient RL. Crafting dependencies and sparse objectives provide settings for demonstration pretraining, exploration and policy improvement."
+        },
+        {
+          "zh": "数据驱动方法通过相应环境的任务回报和目标达成情况评价；例如 Treechop 以木材采集进度计分。论文中的在线基线与示范数据统计分别报告。",
+          "en": "Learned policies are evaluated using task returns and goal completion; Treechop, for example, measures wood collection. Online baseline results and demonstration statistics are reported separately."
+        },
+        {
+          "zh": "数据集、任务环境与竞赛规则构成不同资源层级。实验范围由数据版本、训练数据量、环境任务及交互预算确定。",
+          "en": "Dataset, task environments and competition rules are distinct resource layers. Data version, training-data volume, task selection and interaction budget define the experiment."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1907.13440",
+          "title": "MineRL dataset · original paper"
+        },
+        {
+          "url": "https://github.com/minerllabs/minerl",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB036",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "BASALT 在 Minecraft 中设置寻找洞穴、建造瀑布、动物围栏和村庄房屋等开放式目标，提供自然语言任务说明和示范，任务质量由人类判断。",
+            "en": "BASALT specifies open-ended Minecraft goals such as finding caves and constructing waterfalls, animal pens and village houses, using language descriptions, demonstrations and human assessment."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究从人类反馈学习、偏好建模与开放式任务执行，考察智能体如何把定性目标转化为环境中的行为与作品。",
+            "en": "It supports learning from human feedback, preference modeling and open-ended execution, examining how agents translate qualitative objectives into behavior and constructions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "2021 竞赛通过匹配任务与种子的成对人工偏好估计各任务 TrueSkill，再对标准化任务得分进行汇总，评价人类对完成质量的相对判断。",
+            "en": "The 2021 competition derives task-wise TrueSkill from pairwise human preferences at matched tasks and seeds, then aggregates normalized task scores to characterize relative perceived quality."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "本档案对应2021竞赛协议。评测对象为开放式任务完成质量，实验条件包括任务说明、示范使用方式、测试种子与人工比较流程。",
+            "en": "This archive concerns the 2021 competition protocol. It evaluates open-ended task quality under specified descriptions, demonstration use, test seeds and human-comparison procedures."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "BASALT 在 Minecraft 中设置寻找洞穴、建造瀑布、动物围栏和村庄房屋等开放式目标，提供自然语言任务说明和示范，任务质量由人类判断。",
+          "en": "BASALT specifies open-ended Minecraft goals such as finding caves and constructing waterfalls, animal pens and village houses, using language descriptions, demonstrations and human assessment."
+        },
+        {
+          "zh": "用于研究从人类反馈学习、偏好建模与开放式任务执行，考察智能体如何把定性目标转化为环境中的行为与作品。",
+          "en": "It supports learning from human feedback, preference modeling and open-ended execution, examining how agents translate qualitative objectives into behavior and constructions."
+        },
+        {
+          "zh": "2021 竞赛通过匹配任务与种子的成对人工偏好估计各任务 TrueSkill，再对标准化任务得分进行汇总，评价人类对完成质量的相对判断。",
+          "en": "The 2021 competition derives task-wise TrueSkill from pairwise human preferences at matched tasks and seeds, then aggregates normalized task scores to characterize relative perceived quality."
+        },
+        {
+          "zh": "本档案对应2021竞赛协议。评测对象为开放式任务完成质量，实验条件包括任务说明、示范使用方式、测试种子与人工比较流程。",
+          "en": "This archive concerns the 2021 competition protocol. It evaluates open-ended task quality under specified descriptions, demonstration use, test seeds and human-comparison procedures."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v176/shah22a.html",
+          "title": "BASALT · original paper"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB059",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Craftax 是基于 JAX 的程序生成生存与地下城环境。智能体采集资源、制作装备、战斗并推进楼层，任务同时涉及生存约束与多阶段成长。",
+            "en": "Craftax is a JAX-based procedurally generated survival and dungeon environment. Agents gather resources, craft equipment, fight and traverse floors under survival and progression constraints."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究高吞吐强化学习、探索与长期技能组合。并行环境支持在不同训练规模下比较学习效率，复杂制作链提供多阶段决策任务。",
+            "en": "It supports high-throughput RL, exploration and long-horizon skill composition. Parallel simulation enables learning-efficiency comparisons across training scales and multistage crafting decisions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "扩展 Craftax 的官方成绩表以累计奖励占最大值226的百分比报告；成就与楼层进展可用于解释奖励来源。",
+            "en": "The extended Craftax scoreboard reports cumulative reward as a percentage of the maximum of 226. Achievements and floor progression help characterize the sources of reward."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "Craftax 与 Craftax-Classic 是不同版本。评测配置包括任务版本、观测表示、训练步数和环境并行规模。",
+            "en": "Craftax and Craftax-Classic are distinct variants. Evaluation configurations specify the variant, observation representation, training steps and simulation parallelism."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Craftax 是基于 JAX 的程序生成生存与地下城环境。智能体采集资源、制作装备、战斗并推进楼层，任务同时涉及生存约束与多阶段成长。",
+          "en": "Craftax is a JAX-based procedurally generated survival and dungeon environment. Agents gather resources, craft equipment, fight and traverse floors under survival and progression constraints."
+        },
+        {
+          "zh": "用于研究高吞吐强化学习、探索与长期技能组合。并行环境支持在不同训练规模下比较学习效率，复杂制作链提供多阶段决策任务。",
+          "en": "It supports high-throughput RL, exploration and long-horizon skill composition. Parallel simulation enables learning-efficiency comparisons across training scales and multistage crafting decisions."
+        },
+        {
+          "zh": "扩展 Craftax 的官方成绩表以累计奖励占最大值226的百分比报告；成就与楼层进展可用于解释奖励来源。",
+          "en": "The extended Craftax scoreboard reports cumulative reward as a percentage of the maximum of 226. Achievements and floor progression help characterize the sources of reward."
+        },
+        {
+          "zh": "Craftax 与 Craftax-Classic 是不同版本。评测配置包括任务版本、观测表示、训练步数和环境并行规模。",
+          "en": "Craftax and Craftax-Classic are distinct variants. Evaluation configurations specify the variant, observation representation, training steps and simulation parallelism."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v235/matthews24a.html",
+          "title": "Craftax · original paper"
+        },
+        {
+          "url": "https://github.com/MichaelTMatthews/Craftax",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/MichaelTMatthews/Craftax/blob/main/images/dungeon_crawling.gif",
+          "title": {
+            "zh": "Craftax 地下城演示",
+            "en": "Craftax dungeon demonstration"
+          },
+          "source": "https://github.com/MichaelTMatthews/Craftax",
+          "sourceAssetSha": "36cb344007cf9d53ad2dedf56ed518c82c1c07a2"
+        }
+      ]
+    },
+    {
+      "id": "nethack",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "NetHack Learning Environment（NLE）将 NetHack 接入标准强化学习接口，提供地图符号、角色状态、消息与物品栏等观测，并支持移动、搜索和物品操作。",
+            "en": "The NetHack Learning Environment exposes NetHack through an RL interface with glyph maps, character statistics, messages and inventory, supporting movement, search and item interaction."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究部分可观测决策、探索和长期策略。程序生成地牢、复杂物品机制与角色成长形成持续变化的决策过程。",
+            "en": "It supports partial observability, exploration and long-term policies through procedural dungeons, rich item mechanics and character progression."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评价随任务定义变化：得分任务采用游戏分数，探索任务按新发现区域提供回报。各任务通过回合累计回报和相关进展统计描述表现。",
+            "en": "Evaluation is task-specific: score tasks use game score, while exploration tasks reward newly revealed areas. Episode returns and progress statistics characterize performance within each task."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "NLE 是环境接口，具体协议由任务类、角色配置、观测字段、动作集与终止条件确定。完整游戏目标与专项奖励任务具有不同评价层级。",
+            "en": "NLE is an environment interface. Task class, character configuration, observation fields, action set and termination define the protocol, with full-game objectives and targeted reward tasks forming distinct levels."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "NetHack Learning Environment（NLE）将 NetHack 接入标准强化学习接口，提供地图符号、角色状态、消息与物品栏等观测，并支持移动、搜索和物品操作。",
+          "en": "The NetHack Learning Environment exposes NetHack through an RL interface with glyph maps, character statistics, messages and inventory, supporting movement, search and item interaction."
+        },
+        {
+          "zh": "用于研究部分可观测决策、探索和长期策略。程序生成地牢、复杂物品机制与角色成长形成持续变化的决策过程。",
+          "en": "It supports partial observability, exploration and long-term policies through procedural dungeons, rich item mechanics and character progression."
+        },
+        {
+          "zh": "评价随任务定义变化：得分任务采用游戏分数，探索任务按新发现区域提供回报。各任务通过回合累计回报和相关进展统计描述表现。",
+          "en": "Evaluation is task-specific: score tasks use game score, while exploration tasks reward newly revealed areas. Episode returns and progress statistics characterize performance within each task."
+        },
+        {
+          "zh": "NLE 是环境接口，具体协议由任务类、角色配置、观测字段、动作集与终止条件确定。完整游戏目标与专项奖励任务具有不同评价层级。",
+          "en": "NLE is an environment interface. Task class, character configuration, observation fields, action set and termination define the protocol, with full-game objectives and targeted reward tasks forming distinct levels."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.neurips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html",
+          "title": "NLE · original paper"
+        },
+        {
+          "url": "https://github.com/facebookresearch/nle",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/facebookresearch/nle/blob/main/dat/nle/example_run.gif",
+          "title": {
+            "zh": "官方智能体运行示例",
+            "en": "Official agent rollout example"
+          },
+          "source": "https://github.com/facebookresearch/nle",
+          "sourceAssetSha": "b9739f8455e4d6a26b34187b9ab56d21a2e8c464"
+        }
+      ]
+    },
+    {
+      "id": "GAB015",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "MiniHack 利用 NetHack 引擎构造可配置的小型任务，涵盖导航、物体操作和技能组合。例如 River 任务要求推动巨石跨越河流并到达终点。",
+            "en": "MiniHack builds configurable small tasks on the NetHack engine, spanning navigation, manipulation and skill composition. River tasks, for example, require pushing boulders to cross a river and reach a goal."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于受控研究探索、空间推理与组合泛化。关卡描述和奖励接口支持调整地图、对象和行为依赖，形成不同复杂度的任务族。",
+            "en": "It supports controlled exploration, spatial reasoning and compositional generalization through level descriptions and rewards that vary layouts, objects and action dependencies."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "指标由任务奖励与终止事件定义，常见导航任务以到达目标的成功率或终点奖励计分；复杂任务可通过奖励管理器组合事件。",
+            "en": "Metrics follow task rewards and terminal events. Navigation commonly uses goal-reaching success or terminal reward, while reward managers combine events for more complex tasks."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测围绕指定关卡族、观测模式、动作空间和地图分布展开。单关卡、程序生成任务与跨任务迁移对应不同实验设置。",
+            "en": "Evaluation specifies level families, observation modes, actions and map distributions. Fixed levels, procedural tasks and cross-task transfer define different experimental settings."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "MiniHack 利用 NetHack 引擎构造可配置的小型任务，涵盖导航、物体操作和技能组合。例如 River 任务要求推动巨石跨越河流并到达终点。",
+          "en": "MiniHack builds configurable small tasks on the NetHack engine, spanning navigation, manipulation and skill composition. River tasks, for example, require pushing boulders to cross a river and reach a goal."
+        },
+        {
+          "zh": "用于受控研究探索、空间推理与组合泛化。关卡描述和奖励接口支持调整地图、对象和行为依赖，形成不同复杂度的任务族。",
+          "en": "It supports controlled exploration, spatial reasoning and compositional generalization through level descriptions and rewards that vary layouts, objects and action dependencies."
+        },
+        {
+          "zh": "指标由任务奖励与终止事件定义，常见导航任务以到达目标的成功率或终点奖励计分；复杂任务可通过奖励管理器组合事件。",
+          "en": "Metrics follow task rewards and terminal events. Navigation commonly uses goal-reaching success or terminal reward, while reward managers combine events for more complex tasks."
+        },
+        {
+          "zh": "评测围绕指定关卡族、观测模式、动作空间和地图分布展开。单关卡、程序生成任务与跨任务迁移对应不同实验设置。",
+          "en": "Evaluation specifies level families, observation modes, actions and map distributions. Fixed levels, procedural tasks and cross-task transfer define different experimental settings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openreview.net/forum?id=skFwlyefkWJ",
+          "title": "MiniHack · original paper"
+        },
+        {
+          "url": "https://github.com/NetHack-LE/minihack",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/NetHack-LE/minihack/blob/main/docs/imgs/minihack_gameplay_collage.gif",
+          "title": {
+            "zh": "官方任务合集演示",
+            "en": "Official task-suite montage"
+          },
+          "source": "https://github.com/NetHack-LE/minihack",
+          "sourceAssetSha": "6b9d4f0453e3d645b6e73526ea9839bf8b607965"
+        }
+      ]
+    },
+    {
+      "id": "SUP-textworld",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "TextWorld 是文字游戏生成与交互平台，可构造房间、物品和任务目标。智能体阅读文字反馈并提交命令，通过导航、取物和对象操作完成目标。",
+            "en": "TextWorld generates and runs text games with rooms, objects and goals. Agents read textual feedback and submit navigation, retrieval and interaction commands."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究语言理解、任务规划与跨游戏泛化。游戏生成参数支持控制地图规模、任务长度和对象组合，从而分析策略对环境复杂度的响应。",
+            "en": "It supports language understanding, planning and cross-game generalization, with generation parameters controlling map size, quest length and object combinations."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "环境提供当前分数、最高可达分数、胜负标记与动作次数；具体实验采用任务成功率、任务进度或达到目标所需动作数。",
+            "en": "The environment exposes score, maximum score, win/loss flags and move counts. Experiments use task success, progress or actions required to reach the objective."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "TextWorld 提供平台能力，任务集合、生成种子、命令接口和可用辅助信息共同构成评测协议。不同任务族采用各自的得分定义。",
+            "en": "TextWorld supplies platform functionality; task collections, generation seeds, command interfaces and auxiliary information define evaluation protocols, with task-specific scoring."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "TextWorld 是文字游戏生成与交互平台，可构造房间、物品和任务目标。智能体阅读文字反馈并提交命令，通过导航、取物和对象操作完成目标。",
+          "en": "TextWorld generates and runs text games with rooms, objects and goals. Agents read textual feedback and submit navigation, retrieval and interaction commands."
+        },
+        {
+          "zh": "用于研究语言理解、任务规划与跨游戏泛化。游戏生成参数支持控制地图规模、任务长度和对象组合，从而分析策略对环境复杂度的响应。",
+          "en": "It supports language understanding, planning and cross-game generalization, with generation parameters controlling map size, quest length and object combinations."
+        },
+        {
+          "zh": "环境提供当前分数、最高可达分数、胜负标记与动作次数；具体实验采用任务成功率、任务进度或达到目标所需动作数。",
+          "en": "The environment exposes score, maximum score, win/loss flags and move counts. Experiments use task success, progress or actions required to reach the objective."
+        },
+        {
+          "zh": "TextWorld 提供平台能力，任务集合、生成种子、命令接口和可用辅助信息共同构成评测协议。不同任务族采用各自的得分定义。",
+          "en": "TextWorld supplies platform functionality; task collections, generation seeds, command interfaces and auxiliary information define evaluation protocols, with task-specific scoring."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1806.11532",
+          "title": "TextWorld · original paper"
+        },
+        {
+          "url": "https://github.com/microsoft/TextWorld",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB008",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Jericho 为人工编写的交互小说提供统一接口。智能体从叙事文本、场景描述和物品信息中推断状态，并通过文字命令探索世界、使用物品和解决谜题。",
+            "en": "Jericho interfaces with human-authored interactive fiction. Agents infer state from narrative, locations and inventory, then issue text commands to explore, use objects and solve puzzles."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究自然语言动作选择、探索与知识状态维护。环境支持动作模板、状态保存和有效动作分析，便于比较不同的搜索与策略方法。",
+            "en": "It supports language-based action selection, exploration and knowledge-state tracking, with action templates, state saving and valid-action analysis for policy and search comparisons."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "常用评价为逐游戏得分及相对于最高分的归一化成绩，并按交互预算记录进展。游戏间差异通过分游戏结果呈现。",
+            "en": "Common measures are per-game score and score normalized by the game maximum, with progress tracked under interaction budgets and results reported by game."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "协议包含游戏版本、训练方式、命令候选生成和状态辅助接口。自由生成命令与环境辅助动作选择属于不同动作条件。",
+            "en": "Protocols specify game versions, training regimes, command-candidate generation and state-access tools. Free-form commands and environment-assisted action selection use different action conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Jericho 为人工编写的交互小说提供统一接口。智能体从叙事文本、场景描述和物品信息中推断状态，并通过文字命令探索世界、使用物品和解决谜题。",
+          "en": "Jericho interfaces with human-authored interactive fiction. Agents infer state from narrative, locations and inventory, then issue text commands to explore, use objects and solve puzzles."
+        },
+        {
+          "zh": "用于研究自然语言动作选择、探索与知识状态维护。环境支持动作模板、状态保存和有效动作分析，便于比较不同的搜索与策略方法。",
+          "en": "It supports language-based action selection, exploration and knowledge-state tracking, with action templates, state saving and valid-action analysis for policy and search comparisons."
+        },
+        {
+          "zh": "常用评价为逐游戏得分及相对于最高分的归一化成绩，并按交互预算记录进展。游戏间差异通过分游戏结果呈现。",
+          "en": "Common measures are per-game score and score normalized by the game maximum, with progress tracked under interaction budgets and results reported by game."
+        },
+        {
+          "zh": "协议包含游戏版本、训练方式、命令候选生成和状态辅助接口。自由生成命令与环境辅助动作选择属于不同动作条件。",
+          "en": "Protocols specify game versions, training regimes, command-candidate generation and state-access tools. Free-form commands and environment-assisted action selection use different action conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6297",
+          "title": "Jericho · original paper"
+        },
+        {
+          "url": "https://github.com/microsoft/jericho",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [],
+      "repo": "https://github.com/microsoft/jericho"
+    },
+    {
+      "id": "GAB020",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ALFWorld 将家庭操作任务的文字抽象与 ALFRED 具身环境对齐。智能体依据目标执行取放、清洁、加热、冷却和检查物体等多步操作。",
+            "en": "ALFWorld aligns textual household-task abstractions with ALFRED embodied environments. Agents follow goals through multistep placement, cleaning, heating, cooling and examination tasks."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究高层规划、对象状态推理和文本到具身任务的迁移。对齐的任务结构支持在抽象空间学习策略，再研究其在具身执行中的应用。",
+            "en": "It supports high-level planning, object-state reasoning and text-to-embodied transfer. Aligned task structures enable abstract policy learning and investigation of embodied execution."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "以任务成功率评价目标状态完成情况，并按已见与未见测试划分报告。文字轨道和具身轨道分别对应各自的输入与执行过程。",
+            "en": "Task success measures goal-state completion on seen and unseen splits. Textual and embodied tracks use their respective observation and execution processes."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测设置包括任务类型、场景划分、观测模态、动作接口和交互上限。文本命令执行与视觉低层控制构成不同实验层级。",
+            "en": "Task types, scene splits, observation modality, action interfaces and interaction limits define evaluation, with textual commands and visual low-level control forming distinct experimental levels."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ALFWorld 将家庭操作任务的文字抽象与 ALFRED 具身环境对齐。智能体依据目标执行取放、清洁、加热、冷却和检查物体等多步操作。",
+          "en": "ALFWorld aligns textual household-task abstractions with ALFRED embodied environments. Agents follow goals through multistep placement, cleaning, heating, cooling and examination tasks."
+        },
+        {
+          "zh": "用于研究高层规划、对象状态推理和文本到具身任务的迁移。对齐的任务结构支持在抽象空间学习策略，再研究其在具身执行中的应用。",
+          "en": "It supports high-level planning, object-state reasoning and text-to-embodied transfer. Aligned task structures enable abstract policy learning and investigation of embodied execution."
+        },
+        {
+          "zh": "以任务成功率评价目标状态完成情况，并按已见与未见测试划分报告。文字轨道和具身轨道分别对应各自的输入与执行过程。",
+          "en": "Task success measures goal-state completion on seen and unseen splits. Textual and embodied tracks use their respective observation and execution processes."
+        },
+        {
+          "zh": "评测设置包括任务类型、场景划分、观测模态、动作接口和交互上限。文本命令执行与视觉低层控制构成不同实验层级。",
+          "en": "Task types, scene splits, observation modality, action interfaces and interaction limits define evaluation, with textual commands and visual low-level control forming distinct experimental levels."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openreview.net/forum?id=0IOX0YcCdTn",
+          "title": "ALFWorld · original paper"
+        },
+        {
+          "url": "https://github.com/alfworld/alfworld",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/alfworld/alfworld/blob/master/media/alfworld_teaser.png",
+          "title": {
+            "zh": "文字与具身环境对应图",
+            "en": "Text and embodied environment illustration"
+          },
+          "source": "https://github.com/alfworld/alfworld",
+          "sourceAssetSha": "146f9224fcab01c4ef5d4bc1af84ca02f819310d"
+        }
+      ],
+      "repo": "https://github.com/alfworld/alfworld"
+    },
+    {
+      "id": "GAB032",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "ScienceWorld 是以基础科学实验为主题的文字交互环境。智能体在房间间寻找器材与材料，操作物体并观察变化，完成测量、分类和状态变换等任务。",
+            "en": "ScienceWorld is a text-interaction environment for elementary science experiments. Agents locate equipment and materials, manipulate objects and observe changes to perform measurements, classifications and state transformations."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究科学知识应用、实验规划与反馈驱动推理。任务将知识应用与一系列可执行操作联系起来，支持分析中间步骤的完成情况。",
+            "en": "It studies scientific knowledge in action, experimental planning and feedback-driven reasoning by connecting knowledge application with executable operation sequences and intermediate goals."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "任务评分基于目标及子目标进度，可按任务类型和变体汇总成功或归一化进度。逐步得分体现实验过程中的阶段性完成。",
+            "en": "Scores reflect goal and subgoal progress, aggregated as success or normalized progress by task and variation. Stepwise scores characterize intermediate experimental completion."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。",
+            "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "ScienceWorld 是以基础科学实验为主题的文字交互环境。智能体在房间间寻找器材与材料，操作物体并观察变化，完成测量、分类和状态变换等任务。",
+          "en": "ScienceWorld is a text-interaction environment for elementary science experiments. Agents locate equipment and materials, manipulate objects and observe changes to perform measurements, classifications and state transformations."
+        },
+        {
+          "zh": "用于研究科学知识应用、实验规划与反馈驱动推理。任务将知识应用与一系列可执行操作联系起来，支持分析中间步骤的完成情况。",
+          "en": "It studies scientific knowledge in action, experimental planning and feedback-driven reasoning by connecting knowledge application with executable operation sequences and intermediate goals."
+        },
+        {
+          "zh": "任务评分基于目标及子目标进度，可按任务类型和变体汇总成功或归一化进度。逐步得分体现实验过程中的阶段性完成。",
+          "en": "Scores reflect goal and subgoal progress, aggregated as success or normalized progress by task and variation. Stepwise scores characterize intermediate experimental completion."
+        },
+        {
+          "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。",
+          "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2022.emnlp-main.775/",
+          "title": "ScienceWorld · original paper"
+        },
+        {
+          "url": "https://github.com/allenai/ScienceWorld",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/allenai/ScienceWorld/blob/main/media/scienceworld_environment.png",
+          "title": {
+            "zh": "官方环境与任务示意",
+            "en": "Official environment and task illustration"
+          },
+          "source": "https://github.com/allenai/ScienceWorld",
+          "sourceAssetSha": "bf274e22c6bf20b1b394f228af8c2d62a74a5fed"
+        }
+      ],
+      "repo": "https://github.com/allenai/ScienceWorld"
+    },
+    {
+      "id": "SUP-babyai",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "BabyAI 在网格世界中生成语言指令任务，包括到达物体、开门、拾取和按关系放置。智能体结合指令与局部符号观测执行动作，复杂关卡组合多个指令步骤。",
+            "en": "BabyAI generates grid-world language instructions for reaching objects, opening doors, pickup and relational placement. Agents combine instructions with local symbolic observations, with complex levels composing multiple steps."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究语言落地、组合指令学习与样本效率。平台提供任务验证器和专家策略，支持比较模仿学习与强化学习在不同指令难度上的表现。",
+            "en": "It supports language grounding, compositional instruction learning and sample efficiency through task verifiers and expert policies for imitation-learning and RL comparisons."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "主要指标为指令完成成功率，以及达到目标成功水平所需的示范数或训练回合数。分任务族结果体现不同语法和行为组合的学习难度。",
+            "en": "Measures include instruction success and demonstrations or episodes needed to reach a target success level. Task-family results characterize the difficulty of language and behavioral compositions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务采用程序生成的语言与网格环境。关卡族、语言组合、观测包装器及训练测试划分定义实验条件。",
+            "en": "Tasks use procedurally generated language and grid environments. Level families, language compositions, observation wrappers and train/test splits define the experimental conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "BabyAI 在网格世界中生成语言指令任务，包括到达物体、开门、拾取和按关系放置。智能体结合指令与局部符号观测执行动作，复杂关卡组合多个指令步骤。",
+          "en": "BabyAI generates grid-world language instructions for reaching objects, opening doors, pickup and relational placement. Agents combine instructions with local symbolic observations, with complex levels composing multiple steps."
+        },
+        {
+          "zh": "用于研究语言落地、组合指令学习与样本效率。平台提供任务验证器和专家策略，支持比较模仿学习与强化学习在不同指令难度上的表现。",
+          "en": "It supports language grounding, compositional instruction learning and sample efficiency through task verifiers and expert policies for imitation-learning and RL comparisons."
+        },
+        {
+          "zh": "主要指标为指令完成成功率，以及达到目标成功水平所需的示范数或训练回合数。分任务族结果体现不同语法和行为组合的学习难度。",
+          "en": "Measures include instruction success and demonstrations or episodes needed to reach a target success level. Task-family results characterize the difficulty of language and behavioral compositions."
+        },
+        {
+          "zh": "任务采用程序生成的语言与网格环境。关卡族、语言组合、观测包装器及训练测试划分定义实验条件。",
+          "en": "Tasks use procedurally generated language and grid environments. Level families, language compositions, observation wrappers and train/test splits define the experimental conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1810.08272",
+          "title": "BabyAI · original paper"
+        },
+        {
+          "url": "https://github.com/mila-iqia/babyai",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "hanabi",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Hanabi Challenge 采用合作式不完全信息纸牌游戏。玩家可看到伙伴手牌，却看不到自己的手牌，需要通过有限提示以及出牌、弃牌共同完成按颜色和数字递增的烟花序列。",
+            "en": "The Hanabi Challenge uses a cooperative imperfect-information card game. Players see teammates’ cards rather than their own and use limited hints, plays and discards to build increasing colored sequences."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究隐含信息推理、沟通约定和伙伴适应。有限提示资源与共同回报使行为选择同时承担行动和传递信息的作用。",
+            "en": "It supports hidden-information reasoning, communication conventions and partner adaptation, as limited hints and shared rewards give actions both instrumental and informational roles."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "通常报告团队游戏得分及其分布。自博弈评价训练伙伴间的协作，交叉对战或陌生伙伴设置评价策略之间的配合。",
+            "en": "Evaluation reports team scores and their distribution. Self-play measures coordination among trained partners; cross-play or unfamiliar-partner settings measure compatibility between policies."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "协议由玩家数量、牌组配置、观测编码、提示规则和伙伴分布确定，训练伙伴与评测伙伴的关系构成重要的实验维度。",
+            "en": "Protocols specify player count, decks, observation encoding, hint rules and partner populations. The relationship between training and evaluation partners is a central experimental dimension."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Hanabi Challenge 采用合作式不完全信息纸牌游戏。玩家可看到伙伴手牌，却看不到自己的手牌，需要通过有限提示以及出牌、弃牌共同完成按颜色和数字递增的烟花序列。",
+          "en": "The Hanabi Challenge uses a cooperative imperfect-information card game. Players see teammates’ cards rather than their own and use limited hints, plays and discards to build increasing colored sequences."
+        },
+        {
+          "zh": "用于研究隐含信息推理、沟通约定和伙伴适应。有限提示资源与共同回报使行为选择同时承担行动和传递信息的作用。",
+          "en": "It supports hidden-information reasoning, communication conventions and partner adaptation, as limited hints and shared rewards give actions both instrumental and informational roles."
+        },
+        {
+          "zh": "通常报告团队游戏得分及其分布。自博弈评价训练伙伴间的协作，交叉对战或陌生伙伴设置评价策略之间的配合。",
+          "en": "Evaluation reports team scores and their distribution. Self-play measures coordination among trained partners; cross-play or unfamiliar-partner settings measure compatibility between policies."
+        },
+        {
+          "zh": "协议由玩家数量、牌组配置、观测编码、提示规则和伙伴分布确定，训练伙伴与评测伙伴的关系构成重要的实验维度。",
+          "en": "Protocols specify player count, decks, observation encoding, hint rules and partner populations. The relationship between training and evaluation partners is a central experimental dimension."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://doi.org/10.1016/j.artint.2019.103216",
+          "title": "Hanabi Challenge · original paper"
+        },
+        {
+          "url": "https://github.com/google-deepmind/hanabi-learning-environment",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "football",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Google Research Football 提供完整足球比赛与 Football Academy 局部场景。智能体控制球员移动、传球和射门，可采用像素、特征平面或结构化状态等观测。",
+            "en": "Google Research Football provides full matches and Football Academy scenarios. Agents move players, pass and shoot using pixel, feature-plane or structured observations."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究视觉控制、稀疏奖励学习和多智能体团队配合。局部场景聚焦进攻或控球技能，完整比赛考察更长时间尺度的策略组合。",
+            "en": "It supports visual control, sparse-reward learning and team coordination. Academy scenarios target local attacking or possession skills, while matches combine strategies over longer horizons."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "评价包括比赛比分、胜负和场景回报；scoring 奖励反映比分差变化，checkpoint 等奖励设置提供额外训练信号。",
+            "en": "Measures include scorelines, match outcomes and scenario returns. Scoring rewards track changes in score difference, while checkpoint rewards provide additional training signals."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "实验配置包含场景、对手难度、受控球员数量、观测表示和奖励模式。完整比赛与 Academy 场景分别形成评测单元。",
+            "en": "Configurations specify scenarios, opponent difficulty, controlled-player counts, observations and rewards. Full matches and Academy scenarios form separate evaluation units."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Google Research Football 提供完整足球比赛与 Football Academy 局部场景。智能体控制球员移动、传球和射门，可采用像素、特征平面或结构化状态等观测。",
+          "en": "Google Research Football provides full matches and Football Academy scenarios. Agents move players, pass and shoot using pixel, feature-plane or structured observations."
+        },
+        {
+          "zh": "用于研究视觉控制、稀疏奖励学习和多智能体团队配合。局部场景聚焦进攻或控球技能，完整比赛考察更长时间尺度的策略组合。",
+          "en": "It supports visual control, sparse-reward learning and team coordination. Academy scenarios target local attacking or possession skills, while matches combine strategies over longer horizons."
+        },
+        {
+          "zh": "评价包括比赛比分、胜负和场景回报；scoring 奖励反映比分差变化，checkpoint 等奖励设置提供额外训练信号。",
+          "en": "Measures include scorelines, match outcomes and scenario returns. Scoring rewards track changes in score difference, while checkpoint rewards provide additional training signals."
+        },
+        {
+          "zh": "实验配置包含场景、对手难度、受控球员数量、观测表示和奖励模式。完整比赛与 Academy 场景分别形成评测单元。",
+          "en": "Configurations specify scenarios, opponent difficulty, controlled-player counts, observations and rewards. Full matches and Academy scenarios form separate evaluation units."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/view/5878",
+          "title": "Google Research Football · original paper"
+        },
+        {
+          "url": "https://github.com/google-research/football",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "SUP-openspiel",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "OpenSpiel 汇集不同玩家数量、信息结构和交互形式的游戏，提供状态、信息状态、合法动作及回报接口，并配套搜索与学习算法。",
+            "en": "OpenSpiel collects games with varied player counts, information structures and interaction forms, exposing states, information states, legal actions and returns alongside search and learning algorithms."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究博弈求解、强化学习、搜索规划及不完全信息决策。统一接口便于在不同规则下比较算法与分析学习动态。",
+            "en": "It supports game solving, RL, search, planning and imperfect-information decisions. Shared interfaces enable algorithm comparisons and analysis of learning dynamics across rules."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "指标随游戏与问题定义变化，包括对局回报、胜率及适用设置下的 exploitability 或 NashConv；后两者衡量策略与均衡的偏离。",
+            "en": "Metrics are game- and problem-dependent, including returns, win rates and, where applicable, exploitability or NashConv to characterize deviation from equilibrium."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "OpenSpiel 是研究平台，具体评测由游戏、规则参数、玩家信息、对手和算法预算定义。平台同时覆盖合作、竞争及混合收益设置。",
+            "en": "OpenSpiel is a research platform. Games, rule parameters, player information, opponents and algorithm budgets define each evaluation across cooperative, competitive and mixed-payoff settings."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "OpenSpiel 汇集不同玩家数量、信息结构和交互形式的游戏，提供状态、信息状态、合法动作及回报接口，并配套搜索与学习算法。",
+          "en": "OpenSpiel collects games with varied player counts, information structures and interaction forms, exposing states, information states, legal actions and returns alongside search and learning algorithms."
+        },
+        {
+          "zh": "用于研究博弈求解、强化学习、搜索规划及不完全信息决策。统一接口便于在不同规则下比较算法与分析学习动态。",
+          "en": "It supports game solving, RL, search, planning and imperfect-information decisions. Shared interfaces enable algorithm comparisons and analysis of learning dynamics across rules."
+        },
+        {
+          "zh": "指标随游戏与问题定义变化，包括对局回报、胜率及适用设置下的 exploitability 或 NashConv；后两者衡量策略与均衡的偏离。",
+          "en": "Metrics are game- and problem-dependent, including returns, win rates and, where applicable, exploitability or NashConv to characterize deviation from equilibrium."
+        },
+        {
+          "zh": "OpenSpiel 是研究平台，具体评测由游戏、规则参数、玩家信息、对手和算法预算定义。平台同时覆盖合作、竞争及混合收益设置。",
+          "en": "OpenSpiel is a research platform. Games, rule parameters, player information, opponents and algorithm budgets define each evaluation across cooperative, competitive and mixed-payoff settings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1908.09453",
+          "title": "OpenSpiel · original paper"
+        },
+        {
+          "url": "https://github.com/google-deepmind/open_spiel",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "rlcard",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "RLCard 为 Blackjack、Leduc Hold’em、斗地主等牌类游戏提供强化学习接口，包含状态编码、合法动作、回报及示例策略。智能体从可观察牌局信息中选择行动。",
+            "en": "RLCard provides RL interfaces for games such as Blackjack, Leduc Hold’em and Dou Dizhu, with state encodings, legal actions, payoffs and example policies for acting on observable card-game information."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究不完全信息决策、自博弈与牌类策略学习。不同游戏的牌组规模、动作数量和玩家结构提供可控的复杂度差异。",
+            "en": "It supports imperfect-information decisions, self-play and card-game policies, varying deck size, action spaces and player structure to provide different complexity levels."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "按具体游戏报告回报、胜率或对固定基线的平均收益；例如 Leduc 的净收益采用对应下注单位计算。重复对局统计策略表现。",
+            "en": "Evaluation uses game-specific returns, win rates or average payoffs against fixed baselines; Leduc payoffs follow its betting units. Repeated games characterize policy performance."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "协议包含游戏 ID、状态表示、合法动作处理、对手策略和评估局数。各游戏采用独立的规则与收益定义。",
+            "en": "Protocols specify game IDs, state representations, legal-action handling, opponents and evaluation episodes. Each game retains its own rules and payoff definitions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "RLCard 为 Blackjack、Leduc Hold’em、斗地主等牌类游戏提供强化学习接口，包含状态编码、合法动作、回报及示例策略。智能体从可观察牌局信息中选择行动。",
+          "en": "RLCard provides RL interfaces for games such as Blackjack, Leduc Hold’em and Dou Dizhu, with state encodings, legal actions, payoffs and example policies for acting on observable card-game information."
+        },
+        {
+          "zh": "用于研究不完全信息决策、自博弈与牌类策略学习。不同游戏的牌组规模、动作数量和玩家结构提供可控的复杂度差异。",
+          "en": "It supports imperfect-information decisions, self-play and card-game policies, varying deck size, action spaces and player structure to provide different complexity levels."
+        },
+        {
+          "zh": "按具体游戏报告回报、胜率或对固定基线的平均收益；例如 Leduc 的净收益采用对应下注单位计算。重复对局统计策略表现。",
+          "en": "Evaluation uses game-specific returns, win rates or average payoffs against fixed baselines; Leduc payoffs follow its betting units. Repeated games characterize policy performance."
+        },
+        {
+          "zh": "协议包含游戏 ID、状态表示、合法动作处理、对手策略和评估局数。各游戏采用独立的规则与收益定义。",
+          "en": "Protocols specify game IDs, state representations, legal-action handling, opponents and evaluation episodes. Each game retains its own rules and payoff definitions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.ijcai.org/Proceedings/2020/764",
+          "title": "RLCard · original paper"
+        },
+        {
+          "url": "https://github.com/datamllab/rlcard",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://youtu.be/krK2jmSdKZc",
+          "title": {
+            "zh": "官方项目介绍视频",
+            "en": "Official project introduction"
+          },
+          "source": "https://github.com/datamllab/rlcard"
+        }
+      ]
+    },
+    {
+      "id": "GAB013",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Melting Pot 在一组多智能体游戏中构造合作、竞争和混合动机的社会互动。智能体依据局部视觉行动，例如在 Clean Up 中分配资源采集与河流清理行为。",
+            "en": "Melting Pot constructs cooperative, competitive and mixed-motive interactions across multi-agent games. Agents act from local vision, for example allocating harvesting and river-cleaning behavior in Clean Up."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究社会互动泛化与陌生群体适应。训练和测试伙伴群体的变化支持分析策略对不同约定、合作方式和竞争行为的响应。",
+            "en": "It supports social generalization and adaptation to unfamiliar populations. Changes in training and test partners expose responses to varied conventions, cooperation and competition."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "测试场景通过焦点群体的人均累计回报评价表现，背景智能体用于构造互动条件。分场景结果呈现策略在不同群体中的收益。",
+            "en": "Scenarios evaluate focal per-capita return, with background agents constructing the interaction setting. Scenario-wise results characterize returns across partner populations."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "底层游戏 substrate 与评测 scenario 分别定义规则和测试群体。场景版本、焦点玩家配置、背景策略与回合长度构成协议。",
+            "en": "Substrates define game mechanics and scenarios define test populations. Versions, focal-player configurations, background policies and episode lengths form the protocol."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Melting Pot 在一组多智能体游戏中构造合作、竞争和混合动机的社会互动。智能体依据局部视觉行动，例如在 Clean Up 中分配资源采集与河流清理行为。",
+          "en": "Melting Pot constructs cooperative, competitive and mixed-motive interactions across multi-agent games. Agents act from local vision, for example allocating harvesting and river-cleaning behavior in Clean Up."
+        },
+        {
+          "zh": "用于研究社会互动泛化与陌生群体适应。训练和测试伙伴群体的变化支持分析策略对不同约定、合作方式和竞争行为的响应。",
+          "en": "It supports social generalization and adaptation to unfamiliar populations. Changes in training and test partners expose responses to varied conventions, cooperation and competition."
+        },
+        {
+          "zh": "测试场景通过焦点群体的人均累计回报评价表现，背景智能体用于构造互动条件。分场景结果呈现策略在不同群体中的收益。",
+          "en": "Scenarios evaluate focal per-capita return, with background agents constructing the interaction setting. Scenario-wise results characterize returns across partner populations."
+        },
+        {
+          "zh": "底层游戏 substrate 与评测 scenario 分别定义规则和测试群体。场景版本、焦点玩家配置、背景策略与回合长度构成协议。",
+          "en": "Substrates define game mechanics and scenarios define test populations. Versions, focal-player configurations, background policies and episode lengths form the protocol."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://proceedings.mlr.press/v139/leibo21a.html",
+          "title": "Melting Pot · original paper"
+        },
+        {
+          "url": "https://github.com/google-deepmind/meltingpot",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/google-deepmind/meltingpot/blob/main/docs/images/meltingpot_montage.gif",
+          "title": {
+            "zh": "官方多智能体场景合集",
+            "en": "Official multi-agent scenario montage"
+          },
+          "source": "https://github.com/google-deepmind/meltingpot",
+          "sourceAssetSha": "e2ab413a74638cb088c373e2eb747b42bc9e1d62"
+        }
+      ]
+    },
+    {
+      "id": "GAB049",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Memory Gym 提供 Mortar Mayhem、Mystery Path 和 Searing Spotlights 等二维视觉任务。智能体记住短暂指令、路径或危险区域，并在后续步骤据此控制移动。",
+            "en": "Memory Gym provides 2D visual tasks including Mortar Mayhem, Mystery Path and Searing Spotlights. Agents retain transient instructions, paths or hazards to guide subsequent movement."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究记忆保持、序列执行与历史信息利用。任务参数控制指令长度、可见性和运动条件，支持比较循环网络与其他记忆策略。",
+            "en": "It supports retention, sequence execution and history use through configurable instruction length, visibility and movement, enabling recurrent and other memory-policy comparisons."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "有限任务通过命令执行比例、回报或完整序列成功情况评价。按记忆负荷与任务配置报告结果，可观察性能随信息保持需求的变化。",
+            "en": "Finite tasks use command accuracy, return or full-sequence success. Results by memory load and task configuration characterize sensitivity to information-retention demands."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "本条目对应原始有限任务；当前项目另提供 Endless 变体。环境 ID、可见性、控制方式与序列长度定义具体测试。",
+            "en": "This record concerns the original finite tasks; the current project also provides Endless variants. Environment IDs, visibility, controls and sequence lengths define each test."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Memory Gym 提供 Mortar Mayhem、Mystery Path 和 Searing Spotlights 等二维视觉任务。智能体记住短暂指令、路径或危险区域，并在后续步骤据此控制移动。",
+          "en": "Memory Gym provides 2D visual tasks including Mortar Mayhem, Mystery Path and Searing Spotlights. Agents retain transient instructions, paths or hazards to guide subsequent movement."
+        },
+        {
+          "zh": "用于研究记忆保持、序列执行与历史信息利用。任务参数控制指令长度、可见性和运动条件，支持比较循环网络与其他记忆策略。",
+          "en": "It supports retention, sequence execution and history use through configurable instruction length, visibility and movement, enabling recurrent and other memory-policy comparisons."
+        },
+        {
+          "zh": "有限任务通过命令执行比例、回报或完整序列成功情况评价。按记忆负荷与任务配置报告结果，可观察性能随信息保持需求的变化。",
+          "en": "Finite tasks use command accuracy, return or full-sequence success. Results by memory load and task configuration characterize sensitivity to information-retention demands."
+        },
+        {
+          "zh": "本条目对应原始有限任务；当前项目另提供 Endless 变体。环境 ID、可见性、控制方式与序列长度定义具体测试。",
+          "en": "This record concerns the original finite tasks; the current project also provides Endless variants. Environment IDs, visibility, controls and sequence lengths define each test."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openreview.net/forum?id=jHc8dCx6DDr",
+          "title": "Memory Gym · original paper"
+        },
+        {
+          "url": "https://github.com/MarcoMeter/endless-memory-gym",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/MarcoMeter/endless-memory-gym/blob/main/docs/assets/mortar_mayhem_0.gif",
+          "title": {
+            "zh": "有限 Mortar Mayhem 观测示例",
+            "en": "Finite Mortar Mayhem observation example"
+          },
+          "source": "https://github.com/MarcoMeter/endless-memory-gym",
+          "sourceAssetSha": "d670854fadf6a4ce5d361d2f23c28fcc988d9ad4"
+        }
+      ],
+      "repo": "https://github.com/MarcoMeter/endless-memory-gym"
+    },
+    {
+      "id": "GAB048",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "POPGym 汇集部分可观测的牌类、迷宫、控制与诊断任务，提供统一的 Gymnasium 接口。例如 Concentration 要求利用先前翻开的牌位寻找配对。",
+            "en": "POPGym collects partially observable card, maze, control and diagnostic tasks under Gymnasium interfaces. Concentration, for example, requires remembering previously revealed card positions to find matches."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于比较深度强化学习中的记忆模型。任务对时间顺序、噪声和历史长度的不同需求，支持分析模型保存与更新信息的方式。",
+            "en": "It compares memory models in deep RL. Tasks vary temporal-ordering demands, noise and history length to study information retention and updating."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各环境以自身奖励累计回报计分，并通过不同难度配置比较表现。基线覆盖多种循环与记忆结构，形成跨任务的性能分布。",
+            "en": "Environments score cumulative task-specific reward across difficulty settings. Recurrent and memory-architecture baselines provide cross-task performance profiles."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测对象是原始 POPGym 任务集合；POPGym Arcade 是另一个扩展项目。环境、难度、包装器与训练预算定义具体配置。",
+            "en": "Evaluation concerns the original POPGym collection; POPGym Arcade is a separate extension. Environment, difficulty, wrappers and training budget define each configuration."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "POPGym 汇集部分可观测的牌类、迷宫、控制与诊断任务，提供统一的 Gymnasium 接口。例如 Concentration 要求利用先前翻开的牌位寻找配对。",
+          "en": "POPGym collects partially observable card, maze, control and diagnostic tasks under Gymnasium interfaces. Concentration, for example, requires remembering previously revealed card positions to find matches."
+        },
+        {
+          "zh": "用于比较深度强化学习中的记忆模型。任务对时间顺序、噪声和历史长度的不同需求，支持分析模型保存与更新信息的方式。",
+          "en": "It compares memory models in deep RL. Tasks vary temporal-ordering demands, noise and history length to study information retention and updating."
+        },
+        {
+          "zh": "各环境以自身奖励累计回报计分，并通过不同难度配置比较表现。基线覆盖多种循环与记忆结构，形成跨任务的性能分布。",
+          "en": "Environments score cumulative task-specific reward across difficulty settings. Recurrent and memory-architecture baselines provide cross-task performance profiles."
+        },
+        {
+          "zh": "评测对象是原始 POPGym 任务集合；POPGym Arcade 是另一个扩展项目。环境、难度、包装器与训练预算定义具体配置。",
+          "en": "Evaluation concerns the original POPGym collection; POPGym Arcade is a separate extension. Environment, difficulty, wrappers and training budget define each configuration."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openreview.net/forum?id=chDrutUTs0K",
+          "title": "POPGym · original paper"
+        },
+        {
+          "url": "https://github.com/proroklab/popgym",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "GAB003",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "bsuite 通过一组小型受控实验诊断强化学习智能体。任务覆盖延迟信息回忆、奖励噪声与尺度变化，以及 Deep Sea 等需要连续探索选择的环境。",
+            "en": "bsuite diagnoses RL agents through small controlled experiments, including delayed recall, reward noise and scale changes, and environments such as Deep Sea requiring coordinated exploratory choices."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于分析算法的探索、记忆、学习效率和对实验条件的敏感性。每组实验改变特定因素，便于将总体表现分解为可解释的行为特征。",
+            "en": "It analyzes exploration, memory, learning efficiency and sensitivity to experimental conditions. Controlled factors expose interpretable behavioral characteristics of algorithms."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "各实验记录回报、regret 或特定诊断量，再映射为统一分析分数。跨设置的得分与图表共同描述不同能力维度的表现。",
+            "en": "Experiments log return, regret or diagnostic quantities and map them to analysis scores. Scores and plots across settings characterize performance along different behavioral dimensions."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "评测由实验族、具体配置和运行预算定义，重点是算法在受控任务中的行为诊断。单比特记忆与多步探索分别对应独立实验。",
+            "en": "Experiment families, configurations and budgets define evaluation. The focus is behavioral diagnosis in controlled tasks, with single-bit memory and multistep exploration assessed separately."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "bsuite 通过一组小型受控实验诊断强化学习智能体。任务覆盖延迟信息回忆、奖励噪声与尺度变化，以及 Deep Sea 等需要连续探索选择的环境。",
+          "en": "bsuite diagnoses RL agents through small controlled experiments, including delayed recall, reward noise and scale changes, and environments such as Deep Sea requiring coordinated exploratory choices."
+        },
+        {
+          "zh": "用于分析算法的探索、记忆、学习效率和对实验条件的敏感性。每组实验改变特定因素，便于将总体表现分解为可解释的行为特征。",
+          "en": "It analyzes exploration, memory, learning efficiency and sensitivity to experimental conditions. Controlled factors expose interpretable behavioral characteristics of algorithms."
+        },
+        {
+          "zh": "各实验记录回报、regret 或特定诊断量，再映射为统一分析分数。跨设置的得分与图表共同描述不同能力维度的表现。",
+          "en": "Experiments log return, regret or diagnostic quantities and map them to analysis scores. Scores and plots across settings characterize performance along different behavioral dimensions."
+        },
+        {
+          "zh": "评测由实验族、具体配置和运行预算定义，重点是算法在受控任务中的行为诊断。单比特记忆与多步探索分别对应独立实验。",
+          "en": "Experiment families, configurations and budgets define evaluation. The focus is behavioral diagnosis in controlled tasks, with single-bit memory and multistep exploration assessed separately."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1908.03568",
+          "title": "bsuite · original paper"
+        },
+        {
+          "url": "https://github.com/google-deepmind/bsuite",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/google-deepmind/bsuite/blob/main/reports/standalone/images/radar_plot.png",
+          "title": {
+            "zh": "官方诊断图示例（结果展示）",
+            "en": "Official diagnostic plot example (results)"
+          },
+          "source": "https://github.com/google-deepmind/bsuite",
+          "sourceAssetSha": "b3b003f1674f690b0f48f6abfffe1f438b3123aa"
+        }
+      ],
+      "repo": "https://github.com/google-deepmind/bsuite"
+    },
+    {
+      "id": "alchemy",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "expansion-20",
+      "sections": [
+        {
+          "key": "task",
+          "body": {
+            "zh": "Alchemy 是具有隐含结构的元强化学习环境。智能体操作石块与药水，通过尝试变换推断当前规则，并将石块转化为更有价值的状态。",
+            "en": "Alchemy is a structured meta-RL environment. Agents manipulate stones and potions, experiment with transformations to infer current rules and produce more valuable stone states."
+          }
+        },
+        {
+          "key": "research",
+          "body": {
+            "zh": "用于研究潜在状态推断、主动实验与快速适应。一个 episode 内多个 trial 共享规则，使早期探索获得的信息能够影响后续决策。",
+            "en": "It supports latent-state inference, active experimentation and rapid adaptation. Trials within an episode share rules, allowing information gathered early to guide later decisions."
+          }
+        },
+        {
+          "key": "evaluation",
+          "body": {
+            "zh": "以提交石块获得的回报及 episode 总回报评价表现，逐 trial 的回报变化刻画规则学习与利用的过程。",
+            "en": "Stone-deposit rewards and episode return measure performance. Return changes across trials characterize the progression from rule discovery to exploitation."
+          }
+        },
+        {
+          "key": "scope",
+          "body": {
+            "zh": "任务分布定义规则、感知映射与结构变化，实验可采用视觉环境或符号接口。观测形式、规则分布与 trial 预算构成评测条件。",
+            "en": "Task distributions specify rules, perceptual mappings and structural variation. Visual and symbolic interfaces, rule distributions and trial budgets define evaluation conditions."
+          }
+        }
+      ],
+      "paragraphs": [
+        {
+          "zh": "Alchemy 是具有隐含结构的元强化学习环境。智能体操作石块与药水，通过尝试变换推断当前规则，并将石块转化为更有价值的状态。",
+          "en": "Alchemy is a structured meta-RL environment. Agents manipulate stones and potions, experiment with transformations to infer current rules and produce more valuable stone states."
+        },
+        {
+          "zh": "用于研究潜在状态推断、主动实验与快速适应。一个 episode 内多个 trial 共享规则，使早期探索获得的信息能够影响后续决策。",
+          "en": "It supports latent-state inference, active experimentation and rapid adaptation. Trials within an episode share rules, allowing information gathered early to guide later decisions."
+        },
+        {
+          "zh": "以提交石块获得的回报及 episode 总回报评价表现，逐 trial 的回报变化刻画规则学习与利用的过程。",
+          "en": "Stone-deposit rewards and episode return measure performance. Return changes across trials characterize the progression from rule discovery to exploitation."
+        },
+        {
+          "zh": "任务分布定义规则、感知映射与结构变化，实验可采用视觉环境或符号接口。观测形式、规则分布与 trial 预算构成评测条件。",
+          "en": "Task distributions specify rules, perceptual mappings and structural variation. Visual and symbolic interfaces, rule distributions and trial budgets define evaluation conditions."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/a3f390d88e4c41f2747bfa2f1b5f87db-Abstract-round2.html",
+          "title": "Alchemy · original paper"
+        },
+        {
+          "url": "https://github.com/google-deepmind/dm_alchemy",
+          "title": "Official repository · tasks and evaluation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/google-deepmind/dm_alchemy/blob/39c74512c420565b2668774d000e18ccdaac70e7/docs/gameplay.gif",
+          "title": {
+            "zh": "官方交互演示（项目说明所引历史版本）",
+            "en": "Official interaction demo (historical version linked by README)"
+          },
+          "source": "https://github.com/google-deepmind/dm_alchemy",
+          "sourceAssetSha": "b26a8c4e50f6f2f09d01ac9948234e4f1570791b"
         }
       ]
     }

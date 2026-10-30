@@ -55,3 +55,16 @@ Pilot overviews use four parallel sections: tasks/environment, research use, eva
 and evaluation scope. Scope is descriptive rather than prescriptive; code and runtime
 review statuses remain in their structured fields. The overview omits redundant
 selection/limitation blocks when these four sections are available.
+
+## First expansion batch
+
+Twenty further resources have source-reviewed four-section descriptions in both
+languages, covering Minecraft learning, language interaction, memory/exploration,
+and multi-agent games. Eleven additional media links point to official repository
+assets or an author-linked video. Captions distinguish gameplay, environment
+illustrations, finite-task observations and example diagnostic results.
+
+`libraryReview=overview-structured` selects all 30 structured overviews;
+`libraryReview=overview-expansion` selects these 20 additions. The 236 evaluation
+resources retain their existing identities and task/capability reviews. Remaining
+resources keep their earlier summaries until subsequent editorial review.
