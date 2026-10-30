@@ -38,3 +38,15 @@ metrics in the overview. Candidate Arena designs remain on the task tab and are
 not used to synthesize descriptions of original protocols. Source wording and
 protocol versions retain their original review scope. The archive export includes
 the curated overview and media metadata.
+
+## Ten-archive editorial pilot
+
+The `pilot-10` batch covers Bench-MFG, BALROG, TeamCraft, Crafter, SMAC, Katakomba,
+CivRealm, Collab-Overcooked, MiniGrid & MiniWorld, and Procgen. Each has three
+bilingual paragraphs covering task mechanism, research use, evaluation and scope.
+Examples are identified as subsets of the full resource. Eight media links retain
+official provenance and distinguish architecture diagrams from gameplay demos.
+Katakomba's official repository was confirmed from its paper; this updates code
+availability without changing task, capability or independent-execution reviews.
+
+The pilot is discoverable through `libraryReview=overview-pilot` in the archive directory.

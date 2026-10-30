@@ -7960,7 +7960,7 @@
       "year": "2023",
       "venue": "NeurIPS Datasets and Benchmarks",
       "paper": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/a5f596699d8d4637532f955c7f2860f4-Abstract-Datasets_and_Benchmarks.html",
-      "repo": null,
+      "repo": "https://github.com/corl-team/katakomba",
       "kind": "benchmark",
       "genres": [
         "Roguelike"
@@ -47151,16 +47151,16 @@
       "repo": "https://github.com/lorenzomagnino/Bench-MFG",
       "paragraphs": [
         {
-          "zh": "Bench-MFG 用于比较平稳平均场博弈的学习与求解算法。它研究大量个体的策略与群体分布如何相互影响，在离散时间、离散状态的设置下寻找均衡。",
-          "en": "Bench-MFG compares learning and solution algorithms for stationary mean-field games. It studies the interaction between individual policies and population distributions in discrete-time, discrete-state settings."
+          "zh": "Bench-MFG 用于比较平稳平均场博弈的学习与求解算法。在离散时间与状态空间中，个体回报或转移受群体分布影响，算法需要同时求出策略和与之相容的群体分布。它提供不同交互性质的问题类别及随机 MF-Garnet 实例。",
+          "en": "Bench-MFG compares algorithms for stationary mean-field games. Individual rewards or transitions depend on a population distribution, and solvers must find compatible policies and population distributions. It provides contrasting interaction classes and random MF-Garnet instances."
         },
         {
-          "zh": "研究者可在无交互、单调、势博弈及动力学耦合等问题类别中比较算法，并用 MF-Garnets 随机实例考察鲁棒性。评测关注可利用度、收敛和不同实例上的表现，适合研究均衡求解及算法失效条件。",
-          "en": "Researchers can compare algorithms across no-interaction, monotone, potential and dynamics-coupled problems, using random MF-Garnet instances for robustness tests. Evaluation examines exploitability, convergence and variation across instances."
+          "zh": "它适合研究均衡求解、算法收敛和对问题结构变化的鲁棒性。主要观察可利用度：在固定群体分布下，个体改用最佳回应还能获得多少收益；配合收敛曲线与多实例比较，可以分析何时接近均衡、何时求解失败。",
+          "en": "It supports research on equilibrium computation, convergence and robustness to problem structure. Exploitability measures the gain available from switching to a best response against a fixed population distribution. Convergence curves and instance-wise comparisons expose solver progress and failures."
         },
         {
-          "zh": "这里的“博弈”是数学模型；结果用于分析群体决策求解器，不直接衡量电子游戏的通关或视觉操作能力。",
-          "en": "These are mathematical games: the results characterize population-game solvers rather than videogame completion or visual control."
+          "zh": "选型时需固定博弈类别、随机实例与求解预算；部分基线是精确或数值求解器，不能统称为深度强化学习。这里评价的是数学博弈中的群体决策，不是电子游戏的视觉操作或通关能力。",
+          "en": "Pin the game class, random instances and solver budget. Some baselines are exact or numerical solvers rather than deep RL. Outcomes concern mathematical population games, not videogame visual control or completion."
         }
       ],
       "sources": [
@@ -47173,19 +47173,24 @@
           "title": "Official implementation"
         }
       ],
-      "media": []
+      "media": [],
+      "sampleBatch": "pilot-10"
     },
     {
       "id": "balrog",
       "checkedAt": "2026-10-30",
       "paragraphs": [
         {
-          "zh": "BALROG 将 BabyAI、Crafter、TextWorld、Baba Is AI、MiniHack 和 NetHack 纳入共同评测框架，让语言模型或视觉语言模型根据当前观测连续选择游戏动作。不同环境覆盖指令执行、生存制作、解谜和地牢探索。",
-          "en": "BALROG brings BabyAI, Crafter, TextWorld, Baba Is AI, MiniHack and NetHack into a shared evaluation framework. Language and vision-language models choose actions over repeated interactions, spanning instructions, survival, puzzles and dungeon exploration."
+          "zh": "BALROG 将 BabyAI、Crafter、TextWorld、Baba Is AI、MiniHack 和 NetHack 纳入共同框架，让 LLM 或 VLM 根据观测反复选择动作。从执行指令、解决规则谜题到获取资源和探索地牢，不同环境形成难度与交互长度不同的任务。",
+          "en": "BALROG evaluates LLMs and VLMs through repeated observation–action interaction in BabyAI, Crafter, TextWorld, Baba Is AI, MiniHack and NetHack. Tasks range from following instructions and solving rule puzzles to gathering resources and exploring dungeons."
         },
         {
-          "zh": "它适合比较模型在不同任务复杂度下的持续决策表现，以及提示策略、观测模态和历史信息如何影响任务进展。成绩按环境的成功或进展定义解释；选型时应同时查看分环境结果与具体交互预算。",
-          "en": "It supports comparisons of sustained decision making across task complexities and studies of prompting, observation modality and history. Results follow each environment’s success or progress definition; inspect per-environment outcomes and interaction budgets together."
+          "zh": "它适合比较持续决策表现，并研究提示策略、历史窗口和观测模态对任务进展的影响。评测按环境计算成功或进展，再汇总为总体表现；分环境结果可帮助区分模型在哪类任务上停滞，避免只看一个平均分。",
+          "en": "It supports comparisons of sustained decision making and studies of prompting, history windows and observation modality. Evaluation uses environment-specific success or progress before aggregation. Per-environment results reveal where agents stall, beyond a single average."
+        },
+        {
+          "zh": "共同框架并不使所有游戏的难度与得分含义相同。实验应固定环境任务、预算与输入设置；多阶段任务表现同时受到探索、控制和记忆影响，不能将成绩差异单独归因于某一能力。",
+          "en": "A shared framework does not equalize game difficulty or score semantics. Fix tasks, budgets and inputs. Exploration, control and memory jointly affect multistage performance, so score differences do not isolate one capability."
         }
       ],
       "sources": [
@@ -47208,25 +47213,34 @@
           },
           "source": "https://balrogai.com/"
         }
-      ]
+      ],
+      "sampleBatch": "pilot-10"
     },
     {
       "id": "GAP-A4",
       "checkedAt": "2026-10-30",
       "paragraphs": [
         {
-          "zh": "TeamCraft 在 Minecraft 中评测多智能体协作。智能体根据多模态任务提示、视觉观测和物品信息，共同完成按蓝图建造、清除方块、耕作与冶炼任务；项目还提供程序生成的专家示范。",
-          "en": "TeamCraft evaluates collaboration in Minecraft. Agents use multimodal task prompts, visual observations and inventory information to build from blueprints, clear blocks, farm and smelt. The project also supplies procedurally generated expert demonstrations."
+          "zh": "TeamCraft 在 Minecraft 中提供按蓝图建造、清除方块、耕作和冶炼等多智能体任务。智能体结合语言与蓝图提示、各自的视觉观测及物品信息选择动作，共同把世界变成任务要求的状态；项目提供程序生成的专家示范。",
+          "en": "TeamCraft provides cooperative Minecraft tasks for blueprint building, clearing, farming and smelting. Agents use language and blueprint prompts, individual visual observations and inventory information to act toward a shared target state. Procedural expert demonstrations support learning."
         },
         {
-          "zh": "它适合研究视觉语言动作策略、模仿学习与多智能体任务分工，并比较对新目标、新场景和不同智能体数量的泛化。官方任务变体与评估划分应随实验一起固定，不能把某个建造任务的成功率视为全部协作能力。",
-          "en": "It supports research on vision-language-action policies, imitation learning and task allocation, with generalization to new goals, scenes and agent counts. Pin the task variants and evaluation split; success on one building task does not establish general collaboration ability."
+          "zh": "它适合研究多模态动作策略、模仿学习与任务分工，以及对新目标、新场景和智能体数量变化的泛化。官方同时报告子目标成功率与整项任务成功率，帮助区分局部操作已经学会、但整体协作仍未完成的情况。",
+          "en": "It supports multimodal policies, imitation learning, task allocation and generalization to new goals, scenes and agent counts. Subgoal and full-task success rates distinguish local competence from completion of the shared objective."
+        },
+        {
+          "zh": "应分别说明集中式或分布式控制、任务划分及队伍规模。团队结果由多个智能体共同产生，不能直接当作某个模型的独立能力；视觉任务与纯文本简化设置的成绩也应分开解释。",
+          "en": "Report centralized versus decentralized control, task splits and team size. Team outcomes do not identify one model’s independent ability; visual and simplified text-based settings require separate interpretation."
         }
       ],
       "sources": [
         {
           "url": "https://teamcraft-bench.github.io/",
-          "title": "TeamCraft official project"
+          "title": "TeamCraft · tasks, prompts and success metrics"
+        },
+        {
+          "url": "https://github.com/teamcraft-bench/teamcraft",
+          "title": "Official implementation"
         }
       ],
       "media": [
@@ -47248,25 +47262,34 @@
           },
           "source": "https://teamcraft-bench.github.io/"
         }
-      ]
+      ],
+      "sampleBatch": "pilot-10"
     },
     {
       "id": "GAB026",
       "checkedAt": "2026-10-30",
       "paragraphs": [
         {
-          "zh": "Crafter 是一个具有视觉输入的开放式生存环境。智能体在同一个世界中寻找资源、制作工具并维持生存，通过逐步解锁成就体现探索与技能进展。",
-          "en": "Crafter is an open-world survival environment with visual observations. Agents discover resources, craft tools and survive, unlocking achievements that reveal exploration and skill progress."
+          "zh": "Crafter 是一个像素视觉输入的开放式生存环境。智能体在随机生成的世界中寻找食物与材料、制作工具并保持生存；获得高级物品往往依赖先完成一系列资源与制作步骤。",
+          "en": "Crafter is an open-world survival environment with pixel observations and procedurally generated worlds. Agents find food and materials, craft tools and survive; advanced items require chains of resource and crafting prerequisites."
         },
         {
-          "zh": "它可用于比较奖励驱动和内在目标驱动的学习方法，并分析探索、技能组合及长期推理。评估采用有语义的成就达成情况，适合观察模型推进到了哪个阶段；具体分数汇总方式与单局预算仍需按所用协议固定。",
-          "en": "It supports comparisons of reward-driven and intrinsically motivated learning, including exploration, skill composition and long-term reasoning. Semantically meaningful achievements expose stages of progress; pin the score aggregation and episode budget for each experiment."
+          "zh": "它适合研究深度探索、技能组合和长期目标推进，也可比较奖励驱动与内在目标驱动的学习。评测统计各项成就的达成比例，并以成就成功率的几何平均形成 Crafter 分数，鼓励能力覆盖而非只反复完成容易的成就。",
+          "en": "It supports deep exploration, skill composition and sustained goal pursuit, including reward-driven and intrinsic learning. Evaluation measures achievement success rates and combines them geometrically into the Crafter score, rewarding breadth rather than repeated easy achievements."
+        },
+        {
+          "zh": "分析时应同时查看分成就表现、回报和交互预算；生存时间或单项成就不能替代完整的成就分布。固定环境版本、种子和奖励设置后再比较方法，成就进展也不能单独证明记忆或规划机制有效。",
+          "en": "Inspect per-achievement outcomes, return and interaction budgets. Survival duration or one achievement cannot replace the full profile. Fix versions, seeds and reward settings; achievement progress alone does not isolate memory or planning mechanisms."
         }
       ],
       "sources": [
         {
           "url": "https://danijar.com/project/crafter/",
           "title": "Crafter official project"
+        },
+        {
+          "url": "https://github.com/danijar/crafter",
+          "title": "Official README · score and achievements"
         }
       ],
       "media": [
@@ -47287,6 +47310,226 @@
             "en": "DreamerV2 behavior demonstrations"
           },
           "source": "https://danijar.com/project/crafter/"
+        }
+      ],
+      "sampleBatch": "pilot-10"
+    },
+    {
+      "id": "SUP-smac",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "pilot-10",
+      "paragraphs": [
+        {
+          "zh": "SMAC 基于《星际争霸 II》的小规模战斗构建合作式多智能体评测。每个智能体控制一个单位，只依据局部观测选择移动或攻击等动作，队伍需要协同击败内置敌军。不同场景改变兵种组合、数量与战斗难度。",
+          "en": "SMAC evaluates cooperative agents in small StarCraft II battles. Each agent controls one unit using local observations and movement or attack actions. Teams defeat built-in enemies across scenarios with different unit types, numbers and difficulty."
+        },
+        {
+          "zh": "它适合比较去中心化多智能体强化学习、信用分配和协作控制方法。核心评价是限定回合内的测试胜率，可结合训练步数观察学习效率；训练时的密集奖励应与最终胜率分别报告。",
+          "en": "It supports decentralized MARL, credit assignment and cooperative control. Test win rate within the episode limit is the key outcome, with training-step curves showing learning efficiency. Shaped training reward and final win rate should be reported separately."
+        },
+        {
+          "zh": "该基准聚焦战斗微操，不包含完整对局的经济、建造和科技发展。原版 SMAC 与 SMACv2 的场景分布也应区分；StarCraft II 版本、地图和评估设置会影响结果，不能直接比较不同版本的成绩。",
+          "en": "The benchmark targets combat micromanagement rather than full-game economy, construction or technology. Distinguish original SMAC from SMACv2 and fix the StarCraft II version, maps and evaluation settings before comparing results."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/oxwhirl/smac",
+          "title": "Official README · scope and version warning"
+        },
+        {
+          "url": "https://arxiv.org/abs/1902.04043",
+          "title": "SMAC paper"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/oxwhirl/smac/blob/master/docs/smac-official.png",
+          "title": {
+            "zh": "官方战斗场景图",
+            "en": "Official combat scenarios"
+          },
+          "source": "https://github.com/oxwhirl/smac"
+        }
+      ]
+    },
+    {
+      "id": "GAB042",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "pilot-10",
+      "paragraphs": [
+        {
+          "zh": "Katakomba 为 NetHack 提供离线数据、数据加载工具与学习基线，将任务分为不同角色配置。方法先从 AutoAscend 轨迹学习，再进入游戏执行策略；这使研究者能够检验离线行为数据能否转化为实际游玩表现。",
+          "en": "Katakomba supplies NetHack datasets, loaders and offline-learning baselines across character configurations. Policies learn from AutoAscend trajectories before online evaluation, testing whether logged behavior translates into gameplay competence."
+        },
+        {
+          "zh": "它适合研究离线强化学习、序列策略和数据利用。评测将各角色分数按对应 AutoAscend 平均分归一化，并采用中位数、四分位均值等统计量及性能分布，降低少数高分回合对结论的影响。",
+          "en": "It supports offline RL, sequential policies and data-use studies. Character scores are normalized against the corresponding AutoAscend mean. Medians, interquartile means and performance distributions address variability and occasional high-scoring episodes."
+        },
+        {
+          "zh": "“离线”指学习阶段，最终仍需在 NetHack 中运行评测。数据具有早期游戏偏向，得分提高不等于完成游戏；需固定角色、数据规模与运行预算，也不能仅凭序列模型成绩判断记忆能力。",
+          "en": "Offline describes training; final evaluation still runs NetHack. Data are biased toward early gameplay, and higher scores do not establish completion. Fix characters, dataset size and evaluation budgets; sequential-policy scores do not isolate memory."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2306.08772",
+          "title": "Katakomba · §§3–4 and limitations"
+        },
+        {
+          "url": "https://github.com/corl-team/katakomba",
+          "title": "Official code and data"
+        }
+      ],
+      "media": [],
+      "repo": "https://github.com/corl-team/katakomba"
+    },
+    {
+      "id": "GAB075",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "pilot-10",
+      "paragraphs": [
+        {
+          "zh": "CivRealm 基于 Freeciv-web 提供文明经营与竞争环境，支持张量 RL 和语言智能体接口。完整对局要求统筹探索、城市与单位发展、科技和外交；另有采用相同规则、较小地图和较少玩家的专项小游戏。",
+          "en": "CivRealm provides civilization management and competition in Freeciv-web, with tensor-RL and language-agent interfaces. Full games involve exploration, cities, units, technology and diplomacy; smaller minigames target particular skills under the same rules."
+        },
+        {
+          "zh": "它适合研究长期战略、资源取舍和层次化决策。完整游戏可观察人口、城市、科技、单位、探索范围与综合得分；建城选址等小游戏则使用任务专属目标和指标，便于检查某一环节的决策质量。",
+          "en": "It supports long-term strategy, resource trade-offs and hierarchical decisions. Full-game evaluation tracks population, cities, technologies, units, exploration and aggregate score. Minigames such as city-site selection use task-specific objectives and measures."
+        },
+        {
+          "zh": "介绍与结果必须区分完整对局和专项小游戏：建城资源得分不能代表完整文明经营能力。实验应说明地图、对手、初始局面、回合预算及接口；语言与张量输入的成绩也需要结合各自信息条件解释。",
+          "en": "Separate full games from minigames: a city-site resource score does not establish full-game competence. Report maps, opponents, initial states, turn budgets and interfaces, and interpret language and tensor results in light of their available information."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openreview.net/pdf?id=UBVNwD3hPN",
+          "title": "CivRealm · §3.1 full games / §3.2 minigames"
+        },
+        {
+          "url": "https://github.com/bigai-ai/civrealm",
+          "title": "Official implementation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/assets/punic_war_base.jpg",
+          "title": {
+            "zh": "官方 Freeciv-web 场景示意",
+            "en": "Official Freeciv-web scenario illustration"
+          },
+          "source": "https://github.com/bigai-ai/civrealm"
+        }
+      ]
+    },
+    {
+      "id": "collab-overcooked",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "pilot-10",
+      "paragraphs": [
+        {
+          "zh": "Collab-Overcooked 在 Overcooked-AI 上扩展菜谱、食材和任务，让两个智能体通过行动与自然语言交流共同完成订单。取料、加工与交付之间存在先后依赖，智能体需要分工并响应伙伴的进展。",
+          "en": "Collab-Overcooked extends Overcooked-AI with recipes, ingredients and tasks. Two agents act and communicate in natural language to complete orders, coordinating dependencies between gathering, processing and delivery."
+        },
+        {
+          "zh": "它适合研究 LLM 协作、任务分解和沟通对执行的帮助。结果指标包括任务成功率、成功轨迹的完成时间步；过程指标考察参考动作序列相似度或冗余，以及发起与响应协作的情况。",
+          "en": "It supports studies of LLM cooperation, task decomposition and communication. Outcomes include success rate and completion timesteps on successful trajectories; process measures examine reference-action similarity or redundancy and initiated/responded collaboration."
+        },
+        {
+          "zh": "这是修改后的研究环境，其菜谱和协议不能直接视为原版 Overcooked 或所有 Overcooked-AI 设置。固定任务、布局、伙伴和预算；完成时间步不等于实际运行延迟，团队分数也不直接识别单个模型的能力。",
+          "en": "This modified research environment has its own recipes and protocols. Fix tasks, layouts, partners and budgets. Timesteps are not wall-clock latency, and team scores do not identify an individual model’s ability; results do not transfer automatically to other Overcooked settings."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aclanthology.org/2025.emnlp-main.249/",
+          "title": "Official paper · task and collaboration measures"
+        },
+        {
+          "url": "https://github.com/YusaeMeow/Collab-Overcooked",
+          "title": "Official implementation · environment modifications"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "minigrid",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "pilot-10",
+      "paragraphs": [
+        {
+          "zh": "MiniGrid 提供可配置的网格世界任务，包括导航、取物、开门和记忆测试。智能体根据任务提示及局部观测转向、移动或操作物体；例如 Memory 任务要求先记住起点物体，再穿过走廊选择匹配的目标。",
+          "en": "MiniGrid provides configurable grid-world tasks for navigation, object retrieval, doors and memory. Agents turn, move and manipulate objects from mission text and local observations. In Memory, they retain an initial object cue and later choose the matching destination."
+        },
+        {
+          "zh": "它适合通过控制地图结构、可见范围和任务难度，研究部分可观测决策、记忆或目标执行。评价依具体环境而定；Memory 的成功奖励随耗时步数折减、失败为零，因此需结合成功情况与路径效率解释回报。",
+          "en": "It supports controlled studies of partial observability, memory and goal execution through map, visibility and difficulty settings. Metrics are environment-specific: Memory rewards success with a step-dependent discount and failure with zero, combining completion and efficiency."
+        },
+        {
+          "zh": "该档案还关联 MiniWorld，但以上任务例子来自 MiniGrid。默认网格编码不是 RGB 摄像机图像；包装器可改变输入和可观测性。应固定环境 ID、包装器与步数上限，单个 Memory 任务不能代表整套环境或一般记忆能力。",
+          "en": "This archive also links MiniWorld; the examples above concern MiniGrid. Default grid encodings are not RGB camera images, and wrappers change inputs and observability. Pin environment IDs, wrappers and episode limits; one Memory task does not represent the entire suite or general memory ability."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://github.com/Farama-Foundation/Minigrid",
+          "title": "Official MiniGrid README"
+        },
+        {
+          "url": "https://minigrid.farama.org/environments/minigrid/MemoryEnv/",
+          "title": "Memory · observations, task and rewards"
+        },
+        {
+          "url": "https://minigrid.farama.org/api/wrappers/",
+          "title": "Official wrapper documentation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "procgen",
+      "checkedAt": "2026-10-30",
+      "sampleBatch": "pilot-10",
+      "paragraphs": [
+        {
+          "zh": "Procgen 包含16个程序生成的视觉游戏环境，使用共同的像素观测与离散动作接口。以 CoinRun 的越障取币、Heist 的找钥匙开锁为例，目标和控制机制不同，同一个游戏中的地图与物体配置也会变化。",
+          "en": "Procgen contains sixteen procedurally generated visual games with shared pixel observations and discrete actions. CoinRun requires reaching a coin past obstacles, while Heist requires keys and locks; layouts and object configurations vary within each game."
+        },
+        {
+          "zh": "它适合比较强化学习的样本效率与对未见关卡的泛化。研究者可限制训练关卡集合，在独立关卡范围上测回报，并按官方协议归一化后跨游戏汇总；训练与测试的分游戏表现有助于识别过拟合。",
+          "en": "It supports RL sample-efficiency and held-out-level generalization studies. Limit training levels, evaluate returns on independent ranges and normalize under the chosen official protocol before aggregation. Per-game training and test results expose overfitting."
+        },
+        {
+          "zh": "需要固定训练和测试关卡、难度、环境版本及交互预算。原始16环境套件与后续竞赛协议的范围不同，不能混用总分；某个游戏的成功率也不能替代整个合集的多样性评测。",
+          "en": "Fix level splits, difficulty, versions and interaction budgets. The original sixteen-game suite differs from later competition protocols, so aggregate scores are not interchangeable. Success in one game cannot replace evaluation across the suite."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://openai.com/index/procgen-benchmark/",
+          "title": "Official project · design and train/test levels"
+        },
+        {
+          "url": "https://github.com/openai/procgen",
+          "title": "Official README · games and interface"
+        },
+        {
+          "url": "https://proceedings.mlr.press/v119/cobbe20a.html",
+          "title": "Original Procgen paper"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://raw.githubusercontent.com/openai/procgen/master/screenshots/procgen.gif",
+          "title": {
+            "zh": "官方16游戏合集动图",
+            "en": "Official sixteen-game montage"
+          },
+          "source": "https://github.com/openai/procgen"
         }
       ]
     }

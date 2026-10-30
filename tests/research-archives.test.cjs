@@ -76,7 +76,7 @@ for(const u of separated)for(const lang of ['zh','en']){
 }
 
 const enriched=model.entries.filter(a=>a.overview);
-assert.equal(enriched.length,4);
+assert.equal(enriched.length,10);
 for(const a of enriched){
  assert(a.overview.sources.length&&a.overview.checkedAt);
  assert(a.overview.paragraphs.every(p=>p.zh&&p.en));
@@ -85,7 +85,7 @@ for(const a of enriched){
 for(language of ['zh','en']){
  const bench=model.get('AX26-2602.12517');
  const html=ctx.window.AtlasResearchArchives.render(bench,{tab:'overview'});
- assert(html.includes(language==='zh'?'MF-Garnets 随机实例':'random MF-Garnet instances'));
+ assert(html.includes(language==='zh'?'可利用度':'random MF-Garnet instances'));
  assert.equal(bench.bibliography.repo,'https://github.com/lorenzomagnino/Bench-MFG');
  assert(!bench.missing.some(m=>m.field==='code'));
  const craft=ctx.window.AtlasResearchArchives.render(model.get('GAP-A4'),{tab:'overview'});
@@ -94,3 +94,17 @@ for(language of ['zh','en']){
  assert(!craft.includes('<iframe')&&!craft.includes('autoplay'));
 }
 console.log('Overviews: sourced bilingual descriptions, concrete task/metric previews and attributed official media links pass.');
+
+const sampleIds=['AX26-2602.12517','balrog','GAP-A4','GAB026','SUP-smac','GAB042','GAB075','collab-overcooked','minigrid','procgen'];
+assert.deepEqual(enriched.map(a=>a.id).sort(),sampleIds.sort());
+assert(enriched.every(a=>a.overview.sampleBatch==='pilot-10'&&a.overview.paragraphs.length===3));
+assert.equal(enriched.flatMap(a=>a.overview.media).length,8);
+for(language of ['zh','en']){
+ for(const a of enriched){const html=ctx.window.AtlasResearchArchives.render(a,{tab:'overview'});for(const para of a.overview.paragraphs)assert(html.includes(para[language].replace(/&/g,'&amp;')));}
+ const civ=ctx.window.AtlasResearchArchives.render(model.get('GAB075'),{tab:'overview'});
+ assert(civ.includes(language==='zh'?'完整对局':'Full games'));
+ const mini=ctx.window.AtlasResearchArchives.render(model.get('minigrid'),{tab:'overview'});
+ assert(mini.includes('MiniWorld'));
+}
+assert.equal(model.get('GAB042').bibliography.repo,'https://github.com/corl-team/katakomba');
+console.log('Pilot ten: resource-wide introductions, scoped examples, evaluation/boundaries, bilingual parity and eight sourced media links verified.');

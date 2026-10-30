@@ -27,3 +27,5 @@ for(const scope of ['resources','related','references','pending']){
 assert.equal(c.window.AtlasLibrary.filtered({scope:'references'}).length,3);
 assert(!c.window.AtlasLibrary.filtered({scope:'resources'}).some(r=>r.kind==='survey'));
 console.log('Directory scopes: default resources, independent related/reference/pending views, complete all-archive access.');
+
+assert.equal(browse({review:'overview-pilot'}).length,10,'pilot descriptions are directly discoverable');
