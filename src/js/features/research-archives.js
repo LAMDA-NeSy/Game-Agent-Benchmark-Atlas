@@ -22,9 +22,24 @@
   return section(t('智能体范式核验','Agent paradigm review'),`<p class="archive-review-status">${paradigmStatus(ar.status)} · ${esc(ar.checkedAt)}</p>${ar.claims.some(c=>tr(c.basis)===t(ar.noteZh,ar.noteEn))?'':p({zh:ar.noteZh,en:ar.noteEn})}${ar.claims.length?`<dl class="profile-fields paradigm-claims">${[...grouped.values()].map(c=>`<div><dt>${c.labels.map(l=>`<b>${esc(l.agent)}</b><span>${esc(paradigmRole(l.role))}</span>`).join('') }</dt><dd>${p(c.basis)}${c.sources.map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${t('依据','Source')} ${i+1} ↗</a>`).join(' · ')}</dd></div>`).join('')}</dl>`:''}${ar.evidence.map(e=>`<div class="paradigm-source"><a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title||e.url)} ↗</a><span>${esc(e.locator||'')}</span></div>`).join('')}${ar.missing.some(m=>tr(m.detail)!==t(ar.noteZh,ar.noteEn))?`<ul class="archive-missing">${ar.missing.filter(m=>tr(m.detail)!==t(ar.noteZh,ar.noteEn)).map(m=>`<li>${text(m.detail)}</li>`).join('')}</ul>`:''}<p class="editorial-caption">${t('LLM / VLM / VLA 描述模型类型，IL / RL 描述学习方式，标签可重叠。核验限于文中明确的角色；不代表全部兼容性或已独立运行。纯裁判、数据采集器及文献引用不据此计入。','LLM / VLM / VLA describe model types; IL / RL describe learning methods. Labels may overlap. Review is limited to documented roles, not exhaustive compatibility or independent execution. Judge-only, collection-only and cited-only uses do not qualify.')}</p>`);
  }
  function missingHTML(a){return a.missing.length?section(t('待补充信息','Information still needed'),`<ul class="archive-missing">${a.missing.map(m=>`<li>${text(m.detail)}</li>`).join('')}</ul>`):'';}
+ function overviewBody(a,summary){
+  if(a.overview?.paragraphs?.length)return a.overview.paragraphs.map(p).join('')+overviewSources(a.overview.sources);
+  const units=a.tasks.filter(u=>u.origin!=='arena-documented-candidate'),r=a.profile;
+  let html=p(summary);
+  const details=[];
+  for(const u of units.slice(0,2)){const task=tr(u.task);if(task&&task!==tr(summary)&&!details.includes(task))details.push(task);}
+  if(details.length)html+=`<div class="archive-overview-details"><strong>${t('任务示例','Task examples')}</strong>${details.map(v=>`<p>${esc(v)}</p>`).join('')}</div>`;
+  const metrics=[...new Set(units.slice(0,2).map(u=>tr(u.metrics)).filter(Boolean))];
+  if(metrics.length)html+=`<div class="archive-overview-details"><strong>${t('如何评价','Evaluation')}</strong>${metrics.map(v=>`<p>${esc(v)}</p>`).join('')}</div>`;
+  if(!units.length&&a.taskReview?.status==='not_applicable'&&t(a.taskReview.noteZh,a.taskReview.noteEn)!==tr(summary))html+=p({zh:a.taskReview.noteZh,en:a.taskReview.noteEn});
+  const sources=units.slice(0,2).flatMap(u=>u.evidence||[]);if(sources.length)html+=overviewSources(sources);
+  return html;
+ }
+ function overviewSources(sources){return `<div class="overview-sources">${[...new Map(sources.map(e=>[e.url,e])).values()].map(e=>`<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(e.title)} ↗</a>`).join(' · ')}</div>`;}
+ function overviewMedia(a){const media=a.overview?.media||[];return media.length?section(t('项目图示与演示','Project illustrations & demos'),`<ul class="archive-media-links">${media.map(m=>`<li><span>${m.kind==='video'?t('视频','Video'):t('图示','Image')}</span><a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${text(m.title)} ↗</a><a class="media-source" href="${esc(m.source)}" target="_blank" rel="noopener noreferrer">${t('官方来源','Official source')} ↗</a></li>`).join('')}</ul>`):'';}
  function overview(a){const b=a.bibliography,r=a.profile;
   const summary=b.scope||a.taskReview?.reviewedScope||(r.summary!==b.title&&r.summary!==b.name?r.summary:null)||r.zh;
-  let html=section(t('评测与研究概览','Evaluation & research overview'),p(summary));
+  let html=section(t('评测与研究概览','Evaluation & research overview'),overviewBody(a,summary))+overviewMedia(a);
   html+=`<dl class="detail-facts"><div><dt>${t('资源性质','Resource type')}</dt><dd>${typeName(b.kind)}</dd></div><div><dt>${t('已核验范式','Reviewed paradigms')}</dt><dd>${b.agents.map(esc).join(' / ')||paradigmStatus(b.agentReview?.status)}</dd></div><div><dt>${t('代码入口','Code availability')}</dt><dd>${b.repo?`<a href="${esc(b.repo)}" target="_blank" rel="noopener noreferrer">${t('已收录官方仓库','Official repository listed')} ↗</a>`:t('地址待核定','Repository URL unconfirmed')}</dd></div><div><dt>${t('独立运行验证','Independent execution')}</dt><dd>${a.executionVerified?t('部分任务已验证，见任务记录','Some tasks verified; see task records'):t('未验证','Not verified')}</dd></div></dl>`;
   if(r.research?.fit)html+=section(t('选型建议 · 编辑整理','Selection notes · Editorial'),p(r.research.fit));
   const linkedGames=a.gameLinks.filter(g=>!['non-game','unresolved'].includes(g.kind));
@@ -33,7 +48,6 @@
   const gameRows=games=>`<div class="archive-game-list">${games.map(g=>`<div><button class="text-button" data-game-open="${esc(g.id)}">${esc(gameName(g))} ↗</button><span>${g.roles.map(roleName).join(' · ')}</span></div>`).join('')}</div>`;
   if(linkedGames.length)html+=section(t('关联游戏与研究用途','Linked games & research uses'),gameRows(linkedGames.slice(0,12))+(linkedGames.length>12?`<details class="archive-more-games"><summary>${t(`其余 ${linkedGames.length-12} 个关联`,`${linkedGames.length-12} more linked games / environments`)}</summary>${gameRows(linkedGames.slice(12))}</details>`:''));
   html+=section(t('适用边界','Limitations'),p(b.limits||r.limit));
-  if(a.taskReview?.status==='not_applicable')html+=section(t('研究对象','Research scope'),p({zh:a.taskReview.noteZh,en:a.taskReview.noteEn}));
   if(a.tasks.length)html+=taskLink(a,t('查看任务、接口与评估指标','Inspect tasks, interfaces & metrics'));
   if(a.missing.length)html+=`<p class="archive-gap-link">${taskLink(a,t(`${a.missing.length} 项资料待补充`,`${a.missing.length} evidence gaps`))}</p>`;
   return html;

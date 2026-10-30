@@ -190645,7 +190645,7 @@ window.ATLAS_DATA = {
       "year": 2026,
       "venue": "arXiv 2026",
       "paper": "https://arxiv.org/abs/2602.12517",
-      "repoURL": null,
+      "repoURL": "https://github.com/lorenzomagnino/Bench-MFG",
       "kind": "Benchmark",
       "kinds": [
         "Benchmark"

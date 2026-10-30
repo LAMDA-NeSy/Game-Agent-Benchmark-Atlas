@@ -74,3 +74,23 @@ for(const u of separated)for(const lang of ['zh','en']){
  const parts=ctx.window.AtlasTaskCoverage.metricParts(u);
  assert.equal((parts.documented[lang]+parts.editorial[lang]).replace(/\s/g,''),u.metrics[lang].replace(/\s/g,''),'metric separation preserves source wording');
 }
+
+const enriched=model.entries.filter(a=>a.overview);
+assert.equal(enriched.length,4);
+for(const a of enriched){
+ assert(a.overview.sources.length&&a.overview.checkedAt);
+ assert(a.overview.paragraphs.every(p=>p.zh&&p.en));
+ for(const m of a.overview.media)assert(/^https:\/\//.test(m.url)&&/^https:\/\//.test(m.source)&&m.title.zh&&m.title.en);
+}
+for(language of ['zh','en']){
+ const bench=model.get('AX26-2602.12517');
+ const html=ctx.window.AtlasResearchArchives.render(bench,{tab:'overview'});
+ assert(html.includes(language==='zh'?'MF-Garnets 随机实例':'random MF-Garnet instances'));
+ assert.equal(bench.bibliography.repo,'https://github.com/lorenzomagnino/Bench-MFG');
+ assert(!bench.missing.some(m=>m.field==='code'));
+ const craft=ctx.window.AtlasResearchArchives.render(model.get('GAP-A4'),{tab:'overview'});
+ assert(craft.includes('https://teamcraft-bench.github.io/videos/main_web.mp4'));
+ assert(craft.includes('archive-media-links'));
+ assert(!craft.includes('<iframe')&&!craft.includes('autoplay'));
+}
+console.log('Overviews: sourced bilingual descriptions, concrete task/metric previews and attributed official media links pass.');

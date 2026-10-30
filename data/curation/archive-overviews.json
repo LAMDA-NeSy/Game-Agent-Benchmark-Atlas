@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "AX26-2602.12517",
+      "checkedAt": "2026-10-30",
+      "repo": "https://github.com/lorenzomagnino/Bench-MFG",
+      "paragraphs": [
+        {
+          "zh": "Bench-MFG 用于比较平稳平均场博弈的学习与求解算法。它研究大量个体的策略与群体分布如何相互影响，在离散时间、离散状态的设置下寻找均衡。",
+          "en": "Bench-MFG compares learning and solution algorithms for stationary mean-field games. It studies the interaction between individual policies and population distributions in discrete-time, discrete-state settings."
+        },
+        {
+          "zh": "研究者可在无交互、单调、势博弈及动力学耦合等问题类别中比较算法，并用 MF-Garnets 随机实例考察鲁棒性。评测关注可利用度、收敛和不同实例上的表现，适合研究均衡求解及算法失效条件。",
+          "en": "Researchers can compare algorithms across no-interaction, monotone, potential and dynamics-coupled problems, using random MF-Garnet instances for robustness tests. Evaluation examines exploitability, convergence and variation across instances."
+        },
+        {
+          "zh": "这里的“博弈”是数学模型；结果用于分析群体决策求解器，不直接衡量电子游戏的通关或视觉操作能力。",
+          "en": "These are mathematical games: the results characterize population-game solvers rather than videogame completion or visual control."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://arxiv.org/html/2602.12517",
+          "title": "Bench-MFG · §§2–6"
+        },
+        {
+          "url": "https://github.com/lorenzomagnino/Bench-MFG",
+          "title": "Official implementation"
+        }
+      ],
+      "media": []
+    },
+    {
+      "id": "balrog",
+      "checkedAt": "2026-10-30",
+      "paragraphs": [
+        {
+          "zh": "BALROG 将 BabyAI、Crafter、TextWorld、Baba Is AI、MiniHack 和 NetHack 纳入共同评测框架，让语言模型或视觉语言模型根据当前观测连续选择游戏动作。不同环境覆盖指令执行、生存制作、解谜和地牢探索。",
+          "en": "BALROG brings BabyAI, Crafter, TextWorld, Baba Is AI, MiniHack and NetHack into a shared evaluation framework. Language and vision-language models choose actions over repeated interactions, spanning instructions, survival, puzzles and dungeon exploration."
+        },
+        {
+          "zh": "它适合比较模型在不同任务复杂度下的持续决策表现，以及提示策略、观测模态和历史信息如何影响任务进展。成绩按环境的成功或进展定义解释；选型时应同时查看分环境结果与具体交互预算。",
+          "en": "It supports comparisons of sustained decision making across task complexities and studies of prompting, observation modality and history. Results follow each environment’s success or progress definition; inspect per-environment outcomes and interaction budgets together."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://balrogai.com/",
+          "title": "BALROG official project"
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md",
+          "title": "Evaluation documentation"
+        }
+      ],
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://balrogai.com/img/diagram.png",
+          "title": {
+            "zh": "环境与评测框架图",
+            "en": "Environments & evaluation diagram"
+          },
+          "source": "https://balrogai.com/"
+        }
+      ]
+    },
+    {
+      "id": "GAP-A4",
+      "checkedAt": "2026-10-30",
+      "paragraphs": [
+        {
+          "zh": "TeamCraft 在 Minecraft 中评测多智能体协作。智能体根据多模态任务提示、视觉观测和物品信息，共同完成按蓝图建造、清除方块、耕作与冶炼任务；项目还提供程序生成的专家示范。",
+          "en": "TeamCraft evaluates collaboration in Minecraft. Agents use multimodal task prompts, visual observations and inventory information to build from blueprints, clear blocks, farm and smelt. The project also supplies procedurally generated expert demonstrations."
+        },
+        {
+          "zh": "它适合研究视觉语言动作策略、模仿学习与多智能体任务分工，并比较对新目标、新场景和不同智能体数量的泛化。官方任务变体与评估划分应随实验一起固定，不能把某个建造任务的成功率视为全部协作能力。",
+          "en": "It supports research on vision-language-action policies, imitation learning and task allocation, with generalization to new goals, scenes and agent counts. Pin the task variants and evaluation split; success on one building task does not establish general collaboration ability."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://teamcraft-bench.github.io/",
+          "title": "TeamCraft official project"
+        }
+      ],
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://teamcraft-bench.github.io/videos/main_web.mp4",
+          "title": {
+            "zh": "任务演示视频",
+            "en": "Task demonstration video"
+          },
+          "source": "https://teamcraft-bench.github.io/"
+        },
+        {
+          "kind": "image",
+          "url": "https://teamcraft-bench.github.io/images/model_arch.png",
+          "title": {
+            "zh": "模型架构图",
+            "en": "Model architecture diagram"
+          },
+          "source": "https://teamcraft-bench.github.io/"
+        }
+      ]
+    },
+    {
+      "id": "GAB026",
+      "checkedAt": "2026-10-30",
+      "paragraphs": [
+        {
+          "zh": "Crafter 是一个具有视觉输入的开放式生存环境。智能体在同一个世界中寻找资源、制作工具并维持生存，通过逐步解锁成就体现探索与技能进展。",
+          "en": "Crafter is an open-world survival environment with visual observations. Agents discover resources, craft tools and survive, unlocking achievements that reveal exploration and skill progress."
+        },
+        {
+          "zh": "它可用于比较奖励驱动和内在目标驱动的学习方法，并分析探索、技能组合及长期推理。评估采用有语义的成就达成情况，适合观察模型推进到了哪个阶段；具体分数汇总方式与单局预算仍需按所用协议固定。",
+          "en": "It supports comparisons of reward-driven and intrinsically motivated learning, including exploration, skill composition and long-term reasoning. Semantically meaningful achievements expose stages of progress; pin the score aggregation and episode budget for each experiment."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://danijar.com/project/crafter/",
+          "title": "Crafter official project"
+        }
+      ],
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://youtu.be/2bALHna35os",
+          "title": {
+            "zh": "人类专家完整演示",
+            "en": "Human expert walkthrough"
+          },
+          "source": "https://danijar.com/project/crafter/"
+        },
+        {
+          "kind": "video",
+          "url": "https://youtu.be/fOn4mmgQ0vY",
+          "title": {
+            "zh": "DreamerV2 行为演示",
+            "en": "DreamerV2 behavior demonstrations"
+          },
+          "source": "https://danijar.com/project/crafter/"
+        }
+      ]
+    }
+  ]
+}

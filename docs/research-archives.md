@@ -24,3 +24,17 @@ verification or new research classification is inferred from this presentation c
 
 Validation: `npm run check`. Archive tests cover both languages, preserved identities,
 provenance partitioning, source text preservation and non-duplicated task rendering.
+
+## Overview descriptions and official media
+
+`data/curation/archive-overviews.json` stores bilingual editorial descriptions with
+primary sources and check dates. Links distinguish diagrams from demonstration
+videos and retain the official project page as provenance. They open externally;
+there is no automatic video loading. Source-informed interpretation does not add
+capability mappings or runtime verification.
+
+Other archives preview up to two already documented task descriptions and their
+metrics in the overview. Candidate Arena designs remain on the task tab and are
+not used to synthesize descriptions of original protocols. Source wording and
+protocol versions retain their original review scope. The archive export includes
+the curated overview and media metadata.

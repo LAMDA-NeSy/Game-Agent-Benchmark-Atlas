@@ -6,6 +6,7 @@
     {
       "id": "GAB083",
       "sourceId": "GAB083",
+      "overview": null,
       "bibliography": {
         "id": "GAB083",
         "name": "Cradle",
@@ -644,6 +645,7 @@
     {
       "id": "AX26-2606.00103",
       "sourceId": "AX26-2606.00103",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.00103",
         "name": "474 Executable Games",
@@ -917,6 +919,7 @@
     {
       "id": "AX26-2602.17594",
       "sourceId": "AX26-2602.17594",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2602.17594",
         "name": "AI GameStore",
@@ -1195,6 +1198,7 @@
     {
       "id": "AX26-2603.06656",
       "sourceId": "AX26-2603.06656",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2603.06656",
         "name": "GameVerse",
@@ -2526,6 +2530,7 @@
     {
       "id": "AX26-2604.07429",
       "sourceId": "AX26-2604.07429",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2604.07429",
         "name": "GameWorld",
@@ -5856,6 +5861,7 @@
     {
       "id": "AX26-2601.02427",
       "sourceId": "AX26-2601.02427",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2601.02427",
         "name": "NitroGen",
@@ -6207,6 +6213,7 @@
     {
       "id": "AX26-2606.09826",
       "sourceId": "AX26-2606.09826",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.09826",
         "name": "OmniGameArena",
@@ -7667,6 +7674,7 @@
     {
       "id": "GAB107",
       "sourceId": "GAB107",
+      "overview": null,
       "bibliography": {
         "id": "GAB107",
         "name": "Game-RL",
@@ -10510,6 +10518,7 @@
     {
       "id": "REC-2.3",
       "sourceId": "REC-2.3",
+      "overview": null,
       "bibliography": {
         "id": "REC-2.3",
         "name": "GameBoyWorlds",
@@ -11231,6 +11240,7 @@
     {
       "id": "REC-2.4",
       "sourceId": "REC-2.4",
+      "overview": null,
       "bibliography": {
         "id": "REC-2.4",
         "name": "GameHorizon Suite",
@@ -13218,6 +13228,7 @@
     {
       "id": "GAB105",
       "sourceId": "GAB105",
+      "overview": null,
       "bibliography": {
         "id": "GAB105",
         "name": "LMGame-Bench",
@@ -13760,6 +13771,7 @@
     {
       "id": "REC-3.5",
       "sourceId": "REC-3.5",
+      "overview": null,
       "bibliography": {
         "id": "REC-3.5",
         "name": "Modular Discovery of General Game-Playing Algorithms",
@@ -15458,6 +15470,7 @@
     {
       "id": "orak",
       "sourceId": "GAB106",
+      "overview": null,
       "bibliography": {
         "id": "GAB106",
         "name": "Orak",
@@ -16827,6 +16840,41 @@
     {
       "id": "balrog",
       "sourceId": "GAB080",
+      "overview": {
+        "id": "balrog",
+        "checkedAt": "2026-10-30",
+        "paragraphs": [
+          {
+            "zh": "BALROG 将 BabyAI、Crafter、TextWorld、Baba Is AI、MiniHack 和 NetHack 纳入共同评测框架，让语言模型或视觉语言模型根据当前观测连续选择游戏动作。不同环境覆盖指令执行、生存制作、解谜和地牢探索。",
+            "en": "BALROG brings BabyAI, Crafter, TextWorld, Baba Is AI, MiniHack and NetHack into a shared evaluation framework. Language and vision-language models choose actions over repeated interactions, spanning instructions, survival, puzzles and dungeon exploration."
+          },
+          {
+            "zh": "它适合比较模型在不同任务复杂度下的持续决策表现，以及提示策略、观测模态和历史信息如何影响任务进展。成绩按环境的成功或进展定义解释；选型时应同时查看分环境结果与具体交互预算。",
+            "en": "It supports comparisons of sustained decision making across task complexities and studies of prompting, observation modality and history. Results follow each environment’s success or progress definition; inspect per-environment outcomes and interaction budgets together."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://balrogai.com/",
+            "title": "BALROG official project"
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md",
+            "title": "Evaluation documentation"
+          }
+        ],
+        "media": [
+          {
+            "kind": "image",
+            "url": "https://balrogai.com/img/diagram.png",
+            "title": {
+              "zh": "环境与评测框架图",
+              "en": "Environments & evaluation diagram"
+            },
+            "source": "https://balrogai.com/"
+          }
+        ]
+      },
       "bibliography": {
         "id": "GAB080",
         "name": "BALROG",
@@ -17375,8 +17423,7 @@
         },
         {
           "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md",
-          "title": "Existing task documentation",
-          "excerpt": "Existing source-linked Arena candidate; proposed diagnostics and pending setup remain explicitly labeled."
+          "title": "Evaluation documentation"
         },
         {
           "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
@@ -17387,6 +17434,14 @@
           "url": "https://arxiv.org/html/2411.13543v1",
           "title": "BALROG author paper",
           "excerpt": "The study evaluates agents through long-horizon interaction with six game environments."
+        },
+        {
+          "url": "https://balrogai.com/",
+          "title": "BALROG official project"
+        },
+        {
+          "url": "https://balrogai.com/img/diagram.png",
+          "title": "Environments & evaluation diagram"
         }
       ],
       "executionVerified": false
@@ -17394,6 +17449,7 @@
     {
       "id": "GAB098",
       "sourceId": "GAB098",
+      "overview": null,
       "bibliography": {
         "id": "GAB098",
         "name": "GAMEBoT",
@@ -17992,6 +18048,7 @@
     {
       "id": "GAB058",
       "sourceId": "GAB058",
+      "overview": null,
       "bibliography": {
         "id": "GAB058",
         "name": "AgentBench",
@@ -18285,6 +18342,7 @@
     {
       "id": "GAP-A1",
       "sourceId": "GAP-A1",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A1",
         "name": "LMAct",
@@ -18599,6 +18657,7 @@
     {
       "id": "smartplay",
       "sourceId": "GAB057",
+      "overview": null,
       "bibliography": {
         "id": "GAB057",
         "name": "SmartPlay",
@@ -19298,6 +19357,7 @@
     {
       "id": "VLA-28",
       "sourceId": "VLA-28",
+      "overview": null,
       "bibliography": {
         "id": "VLA-28",
         "name": "CrossHA",
@@ -19624,6 +19684,7 @@
     {
       "id": "TOP-08",
       "sourceId": "TOP-08",
+      "overview": null,
       "bibliography": {
         "id": "TOP-08",
         "name": "DeepHA",
@@ -20006,6 +20067,7 @@
     {
       "id": "VLA-29",
       "sourceId": "VLA-29",
+      "overview": null,
       "bibliography": {
         "id": "VLA-29",
         "name": "Echo",
@@ -20336,6 +20398,7 @@
     {
       "id": "TOP-09",
       "sourceId": "TOP-09",
+      "overview": null,
       "bibliography": {
         "id": "TOP-09",
         "name": "OpenHA",
@@ -20628,6 +20691,7 @@
     {
       "id": "TOP-10",
       "sourceId": "TOP-10",
+      "overview": null,
       "bibliography": {
         "id": "TOP-10",
         "name": "XENON",
@@ -20885,6 +20949,7 @@
     {
       "id": "VLA-23",
       "sourceId": "VLA-23",
+      "overview": null,
       "bibliography": {
         "id": "VLA-23",
         "name": "ADAM",
@@ -21179,6 +21244,7 @@
     {
       "id": "VLA-18",
       "sourceId": "VLA-18",
+      "overview": null,
       "bibliography": {
         "id": "VLA-18",
         "name": "GROOT-2",
@@ -23551,6 +23617,7 @@
     {
       "id": "VLA-27",
       "sourceId": "VLA-27",
+      "overview": null,
       "bibliography": {
         "id": "VLA-27",
         "name": "JARVIS-1",
@@ -23861,6 +23928,7 @@
     {
       "id": "VLA-12",
       "sourceId": "VLA-12",
+      "overview": null,
       "bibliography": {
         "id": "VLA-12",
         "name": "JARVIS-VLA",
@@ -24191,6 +24259,7 @@
     {
       "id": "VLA-21",
       "sourceId": "VLA-21",
+      "overview": null,
       "bibliography": {
         "id": "VLA-21",
         "name": "MrSteve",
@@ -24535,6 +24604,7 @@
     {
       "id": "VLA-15",
       "sourceId": "VLA-15",
+      "overview": null,
       "bibliography": {
         "id": "VLA-15",
         "name": "Optimus-2",
@@ -24883,6 +24953,7 @@
     {
       "id": "VLA-14",
       "sourceId": "VLA-14",
+      "overview": null,
       "bibliography": {
         "id": "VLA-14",
         "name": "ROCKET-1",
@@ -25274,6 +25345,7 @@
     {
       "id": "TOP-07",
       "sourceId": "TOP-07",
+      "overview": null,
       "bibliography": {
         "id": "TOP-07",
         "name": "WALL-E",
@@ -25623,6 +25695,7 @@
     {
       "id": "VLA-07",
       "sourceId": "VLA-07",
+      "overview": null,
       "bibliography": {
         "id": "VLA-07",
         "name": "GROOT",
@@ -25938,6 +26011,7 @@
     {
       "id": "TOP-22",
       "sourceId": "TOP-22",
+      "overview": null,
       "bibliography": {
         "id": "TOP-22",
         "name": "Mars",
@@ -26209,6 +26283,7 @@
     {
       "id": "VLA-05",
       "sourceId": "VLA-05",
+      "overview": null,
       "bibliography": {
         "id": "VLA-05",
         "name": "MP5",
@@ -26523,6 +26598,7 @@
     {
       "id": "VLA-10",
       "sourceId": "VLA-10",
+      "overview": null,
       "bibliography": {
         "id": "VLA-10",
         "name": "OmniJARVIS",
@@ -26831,6 +26907,7 @@
     {
       "id": "VLA-09",
       "sourceId": "VLA-09",
+      "overview": null,
       "bibliography": {
         "id": "VLA-09",
         "name": "Optimus-1",
@@ -27142,6 +27219,7 @@
     {
       "id": "TOP-06",
       "sourceId": "TOP-06",
+      "overview": null,
       "bibliography": {
         "id": "TOP-06",
         "name": "RL-GPT",
@@ -27441,6 +27519,7 @@
     {
       "id": "TOP-05",
       "sourceId": "TOP-05",
+      "overview": null,
       "bibliography": {
         "id": "TOP-05",
         "name": "DECKARD",
@@ -27738,6 +27817,7 @@
     {
       "id": "VLA-03",
       "sourceId": "VLA-03",
+      "overview": null,
       "bibliography": {
         "id": "VLA-03",
         "name": "DEPS",
@@ -28096,6 +28176,7 @@
     {
       "id": "VLA-04",
       "sourceId": "VLA-04",
+      "overview": null,
       "bibliography": {
         "id": "VLA-04",
         "name": "SPRING",
@@ -28402,6 +28483,7 @@
     {
       "id": "VLA-02",
       "sourceId": "VLA-02",
+      "overview": null,
       "bibliography": {
         "id": "VLA-02",
         "name": "STEVE-1",
@@ -28657,6 +28739,7 @@
     {
       "id": "AX26-2606.08340",
       "sourceId": "AX26-2606.08340",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.08340",
         "name": "Alem",
@@ -28935,6 +29018,7 @@
     {
       "id": "AX26-2601.16690",
       "sourceId": "AX26-2601.16690",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2601.16690",
         "name": "EMemBench",
@@ -30188,6 +30272,7 @@
     {
       "id": "AX26-2605.30931",
       "sourceId": "AX26-2605.30931",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2605.30931",
         "name": "MineExplorer",
@@ -30436,6 +30521,7 @@
     {
       "id": "AX26-2607.29218",
       "sourceId": "AX26-2607.29218",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2607.29218",
         "name": "MirrorCraft",
@@ -30671,6 +30757,7 @@
     {
       "id": "AX26-2606.15684",
       "sourceId": "AX26-2606.15684",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.15684",
         "name": "TickingCollabBench",
@@ -31034,6 +31121,7 @@
     {
       "id": "GAB084",
       "sourceId": "GAB084",
+      "overview": null,
       "bibliography": {
         "id": "GAB084",
         "name": "Craftium",
@@ -31350,6 +31438,7 @@
     {
       "id": "GAB089",
       "sourceId": "GAB089",
+      "overview": null,
       "bibliography": {
         "id": "GAB089",
         "name": "EVAAA",
@@ -31595,6 +31684,7 @@
     {
       "id": "GAB087",
       "sourceId": "GAB087",
+      "overview": null,
       "bibliography": {
         "id": "GAB087",
         "name": "MineAnyBuild",
@@ -31801,6 +31891,7 @@
     {
       "id": "GAB097",
       "sourceId": "GAB097",
+      "overview": null,
       "bibliography": {
         "id": "GAB097",
         "name": "Minecraft Universe",
@@ -32113,6 +32204,7 @@
     {
       "id": "GAB059",
       "sourceId": "GAB059",
+      "overview": null,
       "bibliography": {
         "id": "GAB059",
         "name": "Craftax",
@@ -32458,6 +32550,7 @@
     {
       "id": "GAP-A10",
       "sourceId": "GAP-A10",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A10",
         "name": "MineNPC-Task",
@@ -32705,6 +32798,46 @@
     {
       "id": "GAP-A4",
       "sourceId": "GAP-A4",
+      "overview": {
+        "id": "GAP-A4",
+        "checkedAt": "2026-10-30",
+        "paragraphs": [
+          {
+            "zh": "TeamCraft 在 Minecraft 中评测多智能体协作。智能体根据多模态任务提示、视觉观测和物品信息，共同完成按蓝图建造、清除方块、耕作与冶炼任务；项目还提供程序生成的专家示范。",
+            "en": "TeamCraft evaluates collaboration in Minecraft. Agents use multimodal task prompts, visual observations and inventory information to build from blueprints, clear blocks, farm and smelt. The project also supplies procedurally generated expert demonstrations."
+          },
+          {
+            "zh": "它适合研究视觉语言动作策略、模仿学习与多智能体任务分工，并比较对新目标、新场景和不同智能体数量的泛化。官方任务变体与评估划分应随实验一起固定，不能把某个建造任务的成功率视为全部协作能力。",
+            "en": "It supports research on vision-language-action policies, imitation learning and task allocation, with generalization to new goals, scenes and agent counts. Pin the task variants and evaluation split; success on one building task does not establish general collaboration ability."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://teamcraft-bench.github.io/",
+            "title": "TeamCraft official project"
+          }
+        ],
+        "media": [
+          {
+            "kind": "video",
+            "url": "https://teamcraft-bench.github.io/videos/main_web.mp4",
+            "title": {
+              "zh": "任务演示视频",
+              "en": "Task demonstration video"
+            },
+            "source": "https://teamcraft-bench.github.io/"
+          },
+          {
+            "kind": "image",
+            "url": "https://teamcraft-bench.github.io/images/model_arch.png",
+            "title": {
+              "zh": "模型架构图",
+              "en": "Model architecture diagram"
+            },
+            "source": "https://teamcraft-bench.github.io/"
+          }
+        ]
+      },
       "bibliography": {
         "id": "GAP-A4",
         "name": "TeamCraft",
@@ -33022,6 +33155,18 @@
           "title": "TeamCraft — original paper",
           "locator": "Sections 3.6 and 4.1; Figure 4",
           "summary": "TeamCraft-VLA encodes goal images, language and stepwise visual observations to output actions, trains on expert demonstrations, and compares a GPT-4o multimodal baseline."
+        },
+        {
+          "url": "https://teamcraft-bench.github.io/",
+          "title": "TeamCraft official project"
+        },
+        {
+          "url": "https://teamcraft-bench.github.io/videos/main_web.mp4",
+          "title": "Task demonstration video"
+        },
+        {
+          "url": "https://teamcraft-bench.github.io/images/model_arch.png",
+          "title": "Model architecture diagram"
         }
       ],
       "executionVerified": false
@@ -33029,6 +33174,7 @@
     {
       "id": "GAB043",
       "sourceId": "GAB043",
+      "overview": null,
       "bibliography": {
         "id": "GAB043",
         "name": "BEDD",
@@ -33535,6 +33681,7 @@
     {
       "id": "GAB055",
       "sourceId": "GAB055",
+      "overview": null,
       "bibliography": {
         "id": "GAB055",
         "name": "IGLU 2022",
@@ -33794,6 +33941,7 @@
     {
       "id": "GAB042",
       "sourceId": "GAB042",
+      "overview": null,
       "bibliography": {
         "id": "GAB042",
         "name": "Katakomba",
@@ -34076,6 +34224,7 @@
     {
       "id": "GAB044",
       "sourceId": "GAB044",
+      "overview": null,
       "bibliography": {
         "id": "GAB044",
         "name": "Neural MMO 2.0",
@@ -34397,6 +34546,7 @@
     {
       "id": "GAB056",
       "sourceId": "GAB056",
+      "overview": null,
       "bibliography": {
         "id": "GAB056",
         "name": "Neural MMO Challenge",
@@ -34654,6 +34804,7 @@
     {
       "id": "GAB027",
       "sourceId": "GAB027",
+      "overview": null,
       "bibliography": {
         "id": "GAB027",
         "name": "Avalon",
@@ -34889,6 +35040,7 @@
     {
       "id": "GAB036",
       "sourceId": "GAB036",
+      "overview": null,
       "bibliography": {
         "id": "GAB036",
         "name": "BASALT",
@@ -35147,6 +35299,46 @@
     {
       "id": "GAB026",
       "sourceId": "GAB026",
+      "overview": {
+        "id": "GAB026",
+        "checkedAt": "2026-10-30",
+        "paragraphs": [
+          {
+            "zh": "Crafter 是一个具有视觉输入的开放式生存环境。智能体在同一个世界中寻找资源、制作工具并维持生存，通过逐步解锁成就体现探索与技能进展。",
+            "en": "Crafter is an open-world survival environment with visual observations. Agents discover resources, craft tools and survive, unlocking achievements that reveal exploration and skill progress."
+          },
+          {
+            "zh": "它可用于比较奖励驱动和内在目标驱动的学习方法，并分析探索、技能组合及长期推理。评估采用有语义的成就达成情况，适合观察模型推进到了哪个阶段；具体分数汇总方式与单局预算仍需按所用协议固定。",
+            "en": "It supports comparisons of reward-driven and intrinsically motivated learning, including exploration, skill composition and long-term reasoning. Semantically meaningful achievements expose stages of progress; pin the score aggregation and episode budget for each experiment."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://danijar.com/project/crafter/",
+            "title": "Crafter official project"
+          }
+        ],
+        "media": [
+          {
+            "kind": "video",
+            "url": "https://youtu.be/2bALHna35os",
+            "title": {
+              "zh": "人类专家完整演示",
+              "en": "Human expert walkthrough"
+            },
+            "source": "https://danijar.com/project/crafter/"
+          },
+          {
+            "kind": "video",
+            "url": "https://youtu.be/fOn4mmgQ0vY",
+            "title": {
+              "zh": "DreamerV2 行为演示",
+              "en": "DreamerV2 behavior demonstrations"
+            },
+            "source": "https://danijar.com/project/crafter/"
+          }
+        ]
+      },
       "bibliography": {
         "id": "GAB026",
         "name": "Crafter",
@@ -35432,6 +35624,18 @@
           "title": "Crafter — official documentation",
           "locator": "README: environment / training / baselines",
           "summary": "Crafter evaluates reinforcement-learning agents on survival and achievements."
+        },
+        {
+          "url": "https://danijar.com/project/crafter/",
+          "title": "Crafter official project"
+        },
+        {
+          "url": "https://youtu.be/2bALHna35os",
+          "title": "Human expert walkthrough"
+        },
+        {
+          "url": "https://youtu.be/fOn4mmgQ0vY",
+          "title": "DreamerV2 behavior demonstrations"
         }
       ],
       "executionVerified": false
@@ -35439,6 +35643,7 @@
     {
       "id": "GAB037",
       "sourceId": "GAB037",
+      "overview": null,
       "bibliography": {
         "id": "GAB037",
         "name": "IGLU 2021",
@@ -35686,6 +35891,7 @@
     {
       "id": "minedojo",
       "sourceId": "GAB028",
+      "overview": null,
       "bibliography": {
         "id": "GAB028",
         "name": "MineDojo",
@@ -36052,6 +36258,7 @@
     {
       "id": "GAB029",
       "sourceId": "GAB029",
+      "overview": null,
       "bibliography": {
         "id": "GAB029",
         "name": "NLD",
@@ -36334,6 +36541,7 @@
     {
       "id": "GAB015",
       "sourceId": "GAB015",
+      "overview": null,
       "bibliography": {
         "id": "GAB015",
         "name": "MiniHack",
@@ -36643,6 +36851,7 @@
     {
       "id": "GAB006",
       "sourceId": "GAB006",
+      "overview": null,
       "bibliography": {
         "id": "GAB006",
         "name": "Jelly Bean World",
@@ -36909,6 +37118,7 @@
     {
       "id": "nethack",
       "sourceId": "GAB004",
+      "overview": null,
       "bibliography": {
         "id": "GAB004",
         "name": "NLE",
@@ -37205,6 +37415,7 @@
     {
       "id": "VLA-13",
       "sourceId": "VLA-13",
+      "overview": null,
       "bibliography": {
         "id": "VLA-13",
         "name": "GameSense",
@@ -37711,6 +37922,7 @@
     {
       "id": "AX26-2608.09902",
       "sourceId": "AX26-2608.09902",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.09902",
         "name": "DSLE",
@@ -37958,6 +38170,7 @@
     {
       "id": "AX26-2607.06514",
       "sourceId": "AX26-2607.06514",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2607.06514",
         "name": "FootsiesGym",
@@ -38211,6 +38424,7 @@
     {
       "id": "AX26-2605.00347",
       "sourceId": "AX26-2605.00347",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2605.00347",
         "name": "Odysseus",
@@ -38525,6 +38739,7 @@
     {
       "id": "AX26-2604.08340",
       "sourceId": "AX26-2604.08340",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2604.08340",
         "name": "PokeGym",
@@ -38822,6 +39037,7 @@
     {
       "id": "REC-T08",
       "sourceId": "REC-T08",
+      "overview": null,
       "bibliography": {
         "id": "REC-T08",
         "name": "DashVMC",
@@ -39109,6 +39325,7 @@
     {
       "id": "REC-T09",
       "sourceId": "REC-T09",
+      "overview": null,
       "bibliography": {
         "id": "REC-T09",
         "name": "Pixels to Keys",
@@ -39339,6 +39556,7 @@
     {
       "id": "GAB095",
       "sourceId": "GAB095",
+      "overview": null,
       "bibliography": {
         "id": "GAB095",
         "name": "HASARD",
@@ -39619,6 +39837,7 @@
     {
       "id": "GAB094",
       "sourceId": "GAB094",
+      "overview": null,
       "bibliography": {
         "id": "GAB094",
         "name": "Kinetix",
@@ -39901,6 +40120,7 @@
     {
       "id": "GAB072",
       "sourceId": "GAB072",
+      "overview": null,
       "bibliography": {
         "id": "GAB072",
         "name": "Atari-PB",
@@ -43194,6 +43414,7 @@
     {
       "id": "GAB076",
       "sourceId": "GAB076",
+      "overview": null,
       "bibliography": {
         "id": "GAB076",
         "name": "FightLadder",
@@ -43449,6 +43670,7 @@
     {
       "id": "GAB071",
       "sourceId": "GAB071",
+      "overview": null,
       "bibliography": {
         "id": "GAB071",
         "name": "Gen-DGRL",
@@ -45345,6 +45567,7 @@
     {
       "id": "GAB074",
       "sourceId": "GAB074",
+      "overview": null,
       "bibliography": {
         "id": "GAB074",
         "name": "OCAtari",
@@ -45927,6 +46150,7 @@
     {
       "id": "GAP-A3",
       "sourceId": "GAP-A3",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A3",
         "name": "VideoGameBench",
@@ -46535,6 +46759,7 @@
     {
       "id": "GAB050",
       "sourceId": "GAB050",
+      "overview": null,
       "bibliography": {
         "id": "GAB050",
         "name": "COOM",
@@ -46810,6 +47035,7 @@
     {
       "id": "GAB034",
       "sourceId": "GAB034",
+      "overview": null,
       "bibliography": {
         "id": "GAB034",
         "name": "LevDoom",
@@ -47085,6 +47311,7 @@
     {
       "id": "GAB002",
       "sourceId": "GAB002",
+      "overview": null,
       "bibliography": {
         "id": "GAB002",
         "name": "Atari-HEAD",
@@ -49115,6 +49342,7 @@
     {
       "id": "procgen",
       "sourceId": "GAB001",
+      "overview": null,
       "bibliography": {
         "id": "GAB001",
         "name": "Procgen",
@@ -50477,6 +50705,7 @@
     {
       "id": "GAB005",
       "sourceId": "GAB005",
+      "overview": null,
       "bibliography": {
         "id": "GAB005",
         "name": "RL Unplugged",
@@ -56222,6 +56451,7 @@
     {
       "id": "TOP-04",
       "sourceId": "TOP-04",
+      "overview": null,
       "bibliography": {
         "id": "TOP-04",
         "name": "RLHG",
@@ -56490,6 +56720,7 @@
     {
       "id": "TOP-03",
       "sourceId": "TOP-03",
+      "overview": null,
       "bibliography": {
         "id": "TOP-03",
         "name": "Meta-Command Communication",
@@ -56747,6 +56978,7 @@
     {
       "id": "TOP-02",
       "sourceId": "TOP-02",
+      "overview": null,
       "bibliography": {
         "id": "TOP-02",
         "name": "Coach-Player MARL",
@@ -57133,6 +57365,7 @@
     {
       "id": "TOP-01",
       "sourceId": "TOP-01",
+      "overview": null,
       "bibliography": {
         "id": "TOP-01",
         "name": "SCC",
@@ -57393,6 +57626,7 @@
     {
       "id": "AX26-2606.24391",
       "sourceId": "AX26-2606.24391",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.24391",
         "name": "Age of LLM",
@@ -57630,6 +57864,7 @@
     {
       "id": "AX26-2604.07733",
       "sourceId": "AX26-2604.07733",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2604.07733",
         "name": "CivBench",
@@ -57865,6 +58100,7 @@
     {
       "id": "AX26-2608.18423",
       "sourceId": "AX26-2608.18423",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.18423",
         "name": "FM-Bench",
@@ -58140,6 +58376,7 @@
     {
       "id": "AX26-2606.18950",
       "sourceId": "AX26-2606.18950",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.18950",
         "name": "RTSGameBench",
@@ -58650,6 +58887,7 @@
     {
       "id": "REC-2.5",
       "sourceId": "REC-2.5",
+      "overview": null,
       "bibliography": {
         "id": "REC-2.5",
         "name": "CivBench-VI",
@@ -58893,6 +59131,7 @@
     {
       "id": "GAB110",
       "sourceId": "GAB110",
+      "overview": null,
       "bibliography": {
         "id": "GAB110",
         "name": "TowerMind",
@@ -59176,6 +59415,7 @@
     {
       "id": "fle",
       "sourceId": "GAB091",
+      "overview": null,
       "bibliography": {
         "id": "GAB091",
         "name": "Factorio Learning Environment",
@@ -59437,6 +59677,7 @@
     {
       "id": "GAB103",
       "sourceId": "GAB103",
+      "overview": null,
       "bibliography": {
         "id": "GAB103",
         "name": "Mini Honor of Kings",
@@ -59687,6 +59928,7 @@
     {
       "id": "GAB075",
       "sourceId": "GAB075",
+      "overview": null,
       "bibliography": {
         "id": "GAB075",
         "name": "CivRealm",
@@ -59965,6 +60207,7 @@
     {
       "id": "GAB067",
       "sourceId": "GAB067",
+      "overview": null,
       "bibliography": {
         "id": "GAB067",
         "name": "TextStarCraft II",
@@ -60262,6 +60505,7 @@
     {
       "id": "GAP-B5",
       "sourceId": "GAP-B5",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B5",
         "name": "WGSR-Bench",
@@ -60492,6 +60736,7 @@
     {
       "id": "GAB045",
       "sourceId": "GAB045",
+      "overview": null,
       "bibliography": {
         "id": "GAB045",
         "name": "Hokoff",
@@ -60806,6 +61051,7 @@
     {
       "id": "smacv2",
       "sourceId": "GAB040",
+      "overview": null,
       "bibliography": {
         "id": "GAB040",
         "name": "SMACv2",
@@ -61203,6 +61449,7 @@
     {
       "id": "GAB038",
       "sourceId": "GAB038",
+      "overview": null,
       "bibliography": {
         "id": "GAB038",
         "name": "Honor of Kings Arena",
@@ -61462,6 +61709,7 @@
     {
       "id": "GAB025",
       "sourceId": "GAB025",
+      "overview": null,
       "bibliography": {
         "id": "GAB025",
         "name": "Gym-μRTS",
@@ -61713,6 +61961,7 @@
     {
       "id": "AX26-2608.25419",
       "sourceId": "AX26-2608.25419",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.25419",
         "name": "BVR Sim",
@@ -61946,6 +62195,7 @@
     {
       "id": "AX26-2606.18786",
       "sourceId": "AX26-2606.18786",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.18786",
         "name": "R2D-RL",
@@ -62197,6 +62447,7 @@
     {
       "id": "AX26-2605.31529",
       "sourceId": "AX26-2605.31529",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2605.31529",
         "name": "SVI-Bench",
@@ -62414,6 +62665,7 @@
     {
       "id": "REC-3.3",
       "sourceId": "REC-3.3",
+      "overview": null,
       "bibliography": {
         "id": "REC-3.3",
         "name": "Faynt",
@@ -62709,6 +62961,7 @@
     {
       "id": "GAB109",
       "sourceId": "GAB109",
+      "overview": null,
       "bibliography": {
         "id": "GAB109",
         "name": "MMBench",
@@ -67683,6 +67936,7 @@
     {
       "id": "GAB088",
       "sourceId": "GAB088",
+      "overview": null,
       "bibliography": {
         "id": "GAB088",
         "name": "VolleyBots",
@@ -67939,6 +68193,7 @@
     {
       "id": "GAB069",
       "sourceId": "GAB069",
+      "overview": null,
       "bibliography": {
         "id": "GAB069",
         "name": "GRF-MARL",
@@ -68185,6 +68440,7 @@
     {
       "id": "GAP-A12",
       "sourceId": "GAP-A12",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A12",
         "name": "LM Fight Arena",
@@ -68429,6 +68685,7 @@
     {
       "id": "GAB047",
       "sourceId": "GAB047",
+      "overview": null,
       "bibliography": {
         "id": "GAB047",
         "name": "Memory Maze",
@@ -68694,6 +68951,7 @@
     {
       "id": "GAB030",
       "sourceId": "GAB030",
+      "overview": null,
       "bibliography": {
         "id": "GAB030",
         "name": "MATE",
@@ -69019,6 +69277,7 @@
     {
       "id": "alchemy",
       "sourceId": "GAB018",
+      "overview": null,
       "bibliography": {
         "id": "GAB018",
         "name": "Alchemy",
@@ -69278,6 +69537,7 @@
     {
       "id": "football",
       "sourceId": "GAB007",
+      "overview": null,
       "bibliography": {
         "id": "GAB007",
         "name": "Google Research Football",
@@ -69545,6 +69805,7 @@
     {
       "id": "GAB111",
       "sourceId": "GAB111",
+      "overview": null,
       "bibliography": {
         "id": "GAB111",
         "name": "Code World Models",
@@ -70488,6 +70749,7 @@
     {
       "id": "TOP-16",
       "sourceId": "TOP-16",
+      "overview": null,
       "bibliography": {
         "id": "TOP-16",
         "name": "MARSHAL",
@@ -71198,6 +71460,7 @@
     {
       "id": "TOP-15",
       "sourceId": "TOP-15",
+      "overview": null,
       "bibliography": {
         "id": "TOP-15",
         "name": "SPIRAL",
@@ -71554,6 +71817,7 @@
     {
       "id": "TOP-14",
       "sourceId": "TOP-14",
+      "overview": null,
       "bibliography": {
         "id": "TOP-14",
         "name": "Student of Games",
@@ -71851,6 +72115,7 @@
     {
       "id": "TOP-12",
       "sourceId": "TOP-12",
+      "overview": null,
       "bibliography": {
         "id": "TOP-12",
         "name": "AlphaHoldem",
@@ -72132,6 +72397,7 @@
     {
       "id": "TOP-13",
       "sourceId": "TOP-13",
+      "overview": null,
       "bibliography": {
         "id": "TOP-13",
         "name": "DeepNash",
@@ -72378,6 +72644,7 @@
     {
       "id": "TOP-11",
       "sourceId": "TOP-11",
+      "overview": null,
       "bibliography": {
         "id": "TOP-11",
         "name": "DouZero",
@@ -72625,6 +72892,7 @@
     {
       "id": "AX26-2602.13214",
       "sourceId": "AX26-2602.13214",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2602.13214",
         "name": "BotzoneBench",
@@ -73264,6 +73532,7 @@
     {
       "id": "AX26-2605.30100",
       "sourceId": "AX26-2605.30100",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2605.30100",
         "name": "Chess-World-Model",
@@ -73412,6 +73681,7 @@
     {
       "id": "AX26-2607.29577",
       "sourceId": "AX26-2607.29577",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2607.29577",
         "name": "DungeonBench",
@@ -73713,6 +73983,7 @@
     {
       "id": "AX26-2605.06066",
       "sourceId": "AX26-2605.06066",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2605.06066",
         "name": "MTG-Causal-RL",
@@ -73972,6 +74243,7 @@
     {
       "id": "AX26-2602.00676",
       "sourceId": "AX26-2602.00676",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2602.00676",
         "name": "OpenGuanDan",
@@ -74214,6 +74486,7 @@
     {
       "id": "AX26-2605.29653",
       "sourceId": "AX26-2605.29653",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2605.29653",
         "name": "PTCG-Bench",
@@ -74440,6 +74713,7 @@
     {
       "id": "AX26-2608.25832",
       "sourceId": "AX26-2608.25832",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.25832",
         "name": "Skill Issue",
@@ -75003,6 +75277,7 @@
     {
       "id": "AX26-2603.03252",
       "sourceId": "AX26-2603.03252",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2603.03252",
         "name": "Valet",
@@ -76108,6 +76383,7 @@
     {
       "id": "GAP-B9",
       "sourceId": "GAP-B9",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B9",
         "name": "Chess Prompt-Optimization Benchmark",
@@ -76357,6 +76633,7 @@
     {
       "id": "GAP-B1",
       "sourceId": "GAP-B1",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B1",
         "name": "Do You Get the Hint? / Concept",
@@ -76551,6 +76828,7 @@
     {
       "id": "GAB112",
       "sourceId": "GAB112",
+      "overview": null,
       "bibliography": {
         "id": "GAB112",
         "name": "DSGBench",
@@ -76858,6 +77136,7 @@
     {
       "id": "NEW-2026-LUDO",
       "sourceId": "NEW-2026-LUDO",
+      "overview": null,
       "bibliography": {
         "id": "NEW-2026-LUDO",
         "name": "LudoBench",
@@ -77086,6 +77365,7 @@
     {
       "id": "REC-3.1",
       "sourceId": "REC-3.1",
+      "overview": null,
       "bibliography": {
         "id": "REC-3.1",
         "name": "Turn-Based Combat Arena",
@@ -77306,6 +77586,7 @@
     {
       "id": "GAP-A2",
       "sourceId": "GAP-A2",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A2",
         "name": "ChessArena",
@@ -77572,6 +77853,7 @@
     {
       "id": "GAB081",
       "sourceId": "GAB081",
+      "overview": null,
       "bibliography": {
         "id": "GAB081",
         "name": "GAMA-Bench",
@@ -77866,6 +78148,7 @@
     {
       "id": "GAB090",
       "sourceId": "GAB090",
+      "overview": null,
       "bibliography": {
         "id": "GAB090",
         "name": "GUARD",
@@ -78044,6 +78327,7 @@
     {
       "id": "GAB093",
       "sourceId": "GAB093",
+      "overview": null,
       "bibliography": {
         "id": "GAB093",
         "name": "LLM4CardGame",
@@ -78807,6 +79091,7 @@
     {
       "id": "GAP-A6",
       "sourceId": "GAP-A6",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A6",
         "name": "Game Reasoning Arena（原 Board Game Arena）",
@@ -79129,6 +79414,7 @@
     {
       "id": "GAP-A5",
       "sourceId": "GAP-A5",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A5",
         "name": "GameBench",
@@ -79958,6 +80244,7 @@
     {
       "id": "GAB070",
       "sourceId": "GAB070",
+      "overview": null,
       "bibliography": {
         "id": "GAB070",
         "name": "GTBench",
@@ -80267,6 +80554,7 @@
     {
       "id": "GAP-B3",
       "sourceId": "GAP-B3",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B3",
         "name": "LLM CHESS",
@@ -80517,6 +80805,7 @@
     {
       "id": "GAP-B2",
       "sourceId": "GAP-B2",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B2",
         "name": "PokerBench",
@@ -80778,6 +81067,7 @@
     {
       "id": "GAP-B4",
       "sourceId": "GAP-B4",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B4",
         "name": "TMGBench",
@@ -80974,6 +81264,7 @@
     {
       "id": "GAB046",
       "sourceId": "GAB046",
+      "overview": null,
       "bibliography": {
         "id": "GAB046",
         "name": "Pgx",
@@ -81425,6 +81716,7 @@
     {
       "id": "hanabi",
       "sourceId": "GAB010",
+      "overview": null,
       "bibliography": {
         "id": "GAB010",
         "name": "Hanabi Challenge",
@@ -81692,6 +81984,7 @@
     {
       "id": "GAB012",
       "sourceId": "GAB012",
+      "overview": null,
       "bibliography": {
         "id": "GAB012",
         "name": "Ludii",
@@ -81917,6 +82210,7 @@
     {
       "id": "rlcard",
       "sourceId": "GAB011",
+      "overview": null,
       "bibliography": {
         "id": "GAB011",
         "name": "RLCard",
@@ -82729,6 +83023,7 @@
     {
       "id": "TOP-20",
       "sourceId": "TOP-20",
+      "overview": null,
       "bibliography": {
         "id": "TOP-20",
         "name": "MAgIC",
@@ -83287,6 +83582,7 @@
     {
       "id": "TOP-18",
       "sourceId": "TOP-18",
+      "overview": null,
       "bibliography": {
         "id": "TOP-18",
         "name": "Richelieu",
@@ -83536,6 +83832,7 @@
     {
       "id": "TOP-19",
       "sourceId": "TOP-19",
+      "overview": null,
       "bibliography": {
         "id": "TOP-19",
         "name": "Strategic Werewolf",
@@ -83830,6 +84127,7 @@
     {
       "id": "TOP-25",
       "sourceId": "TOP-25",
+      "overview": null,
       "bibliography": {
         "id": "TOP-25",
         "name": "Diverse Conventions",
@@ -84241,6 +84539,7 @@
     {
       "id": "TOP-21",
       "sourceId": "TOP-21",
+      "overview": null,
       "bibliography": {
         "id": "TOP-21",
         "name": "Generative Agents",
@@ -84403,6 +84702,7 @@
     {
       "id": "TOP-17",
       "sourceId": "TOP-17",
+      "overview": null,
       "bibliography": {
         "id": "TOP-17",
         "name": "CICERO",
@@ -84708,6 +85008,7 @@
     {
       "id": "TOP-24",
       "sourceId": "TOP-24",
+      "overview": null,
       "bibliography": {
         "id": "TOP-24",
         "name": "Fictitious Co-Play",
@@ -85025,6 +85326,7 @@
     {
       "id": "AX26-2605.04312",
       "sourceId": "AX26-2605.04312",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2605.04312",
         "name": "Agent Island",
@@ -85329,6 +85631,7 @@
     {
       "id": "AX26-2608.09638",
       "sourceId": "AX26-2608.09638",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.09638",
         "name": "Avalon-ToM-Bench",
@@ -85495,6 +85798,36 @@
     {
       "id": "AX26-2602.12517",
       "sourceId": "AX26-2602.12517",
+      "overview": {
+        "id": "AX26-2602.12517",
+        "checkedAt": "2026-10-30",
+        "repo": "https://github.com/lorenzomagnino/Bench-MFG",
+        "paragraphs": [
+          {
+            "zh": "Bench-MFG 用于比较平稳平均场博弈的学习与求解算法。它研究大量个体的策略与群体分布如何相互影响，在离散时间、离散状态的设置下寻找均衡。",
+            "en": "Bench-MFG compares learning and solution algorithms for stationary mean-field games. It studies the interaction between individual policies and population distributions in discrete-time, discrete-state settings."
+          },
+          {
+            "zh": "研究者可在无交互、单调、势博弈及动力学耦合等问题类别中比较算法，并用 MF-Garnets 随机实例考察鲁棒性。评测关注可利用度、收敛和不同实例上的表现，适合研究均衡求解及算法失效条件。",
+            "en": "Researchers can compare algorithms across no-interaction, monotone, potential and dynamics-coupled problems, using random MF-Garnet instances for robustness tests. Evaluation examines exploitability, convergence and variation across instances."
+          },
+          {
+            "zh": "这里的“博弈”是数学模型；结果用于分析群体决策求解器，不直接衡量电子游戏的通关或视觉操作能力。",
+            "en": "These are mathematical games: the results characterize population-game solvers rather than videogame completion or visual control."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://arxiv.org/html/2602.12517",
+            "title": "Bench-MFG · §§2–6"
+          },
+          {
+            "url": "https://github.com/lorenzomagnino/Bench-MFG",
+            "title": "Official implementation"
+          }
+        ],
+        "media": []
+      },
       "bibliography": {
         "id": "AX26-2602.12517",
         "name": "Bench-MFG",
@@ -85503,7 +85836,7 @@
         "year": 2026,
         "venue": "arXiv 2026",
         "paper": "https://arxiv.org/abs/2602.12517",
-        "repo": null,
+        "repo": "https://github.com/lorenzomagnino/Bench-MFG",
         "kind": "benchmark",
         "domain": "gameplay",
         "genres": [
@@ -85658,28 +85991,19 @@
           }
         }
       },
-      "missing": [
-        {
-          "field": "code",
-          "detail": {
-            "zh": "官方代码仓库地址尚未核定。",
-            "en": "The official code repository URL is not confirmed."
-          }
-        }
-      ],
+      "missing": [],
       "sources": [
         {
           "url": "https://arxiv.org/abs/2602.12517",
           "title": "https://arxiv.org/abs/2602.12517"
         },
         {
+          "url": "https://github.com/lorenzomagnino/Bench-MFG",
+          "title": "Official implementation"
+        },
+        {
           "url": "https://arxiv.org/html/2602.12517",
-          "title": "Bench-MFG: A Benchmark Suite for Learning in Stationary Mean Field Games",
-          "locator": "§1 Contributions; §2 Model; §3 Algorithms",
-          "summary": "Bench-MFG provides environments for RL/MFG learning and MDP policy evaluation; exact policy-iteration solvers are not all deep RL.",
-          "actualTitle": "Bench-MFG: A Benchmark Suite for Learningin Stationary Mean Field Games",
-          "retrieval": "200",
-          "sourceType": "html"
+          "title": "Bench-MFG · §§2–6"
         }
       ],
       "executionVerified": false
@@ -85687,6 +86011,7 @@
     {
       "id": "AX26-2606.28514",
       "sourceId": "AX26-2606.28514",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.28514",
         "name": "GPTNT",
@@ -85916,6 +86241,7 @@
     {
       "id": "AX26-2601.08462",
       "sourceId": "AX26-2601.08462",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2601.08462",
         "name": "M3-BENCH",
@@ -86220,6 +86546,7 @@
     {
       "id": "AX26-2605.29512",
       "sourceId": "AX26-2605.29512",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2605.29512",
         "name": "MINDGAMES",
@@ -86536,6 +86863,7 @@
     {
       "id": "AX26-2601.09017",
       "sourceId": "AX26-2601.09017",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2601.09017",
         "name": "Multicultural Spyfall",
@@ -86788,6 +87116,7 @@
     {
       "id": "AX26-2607.28146",
       "sourceId": "AX26-2607.28146",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2607.28146",
         "name": "ParliamentBench",
@@ -87078,6 +87407,7 @@
     {
       "id": "AX26-2608.09128",
       "sourceId": "AX26-2608.09128",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.09128",
         "name": "Social Gym / SPaRTan",
@@ -88961,6 +89291,7 @@
     {
       "id": "REC-4.2",
       "sourceId": "REC-4.2",
+      "overview": null,
       "bibliography": {
         "id": "REC-4.2",
         "name": "Convention Gap",
@@ -89171,6 +89502,7 @@
     {
       "id": "REC-4.3",
       "sourceId": "REC-4.3",
+      "overview": null,
       "bibliography": {
         "id": "REC-4.3",
         "name": "Corrupted Communication Protocol",
@@ -89453,6 +89785,7 @@
     {
       "id": "REC-2.1",
       "sourceId": "REC-2.1",
+      "overview": null,
       "bibliography": {
         "id": "REC-2.1",
         "name": "Game Arena",
@@ -89958,6 +90291,7 @@
     {
       "id": "REC-4.4",
       "sourceId": "REC-4.4",
+      "overview": null,
       "bibliography": {
         "id": "REC-4.4",
         "name": "MARBO",
@@ -90378,6 +90712,7 @@
     {
       "id": "REC-4.1",
       "sourceId": "REC-4.1",
+      "overview": null,
       "bibliography": {
         "id": "REC-4.1",
         "name": "Werewolf Belief-Shift Benchmark",
@@ -90546,6 +90881,7 @@
     {
       "id": "GAB092",
       "sourceId": "GAB092",
+      "overview": null,
       "bibliography": {
         "id": "GAB092",
         "name": "Among Us sandbox",
@@ -90793,6 +91129,7 @@
     {
       "id": "collab-overcooked",
       "sourceId": "GAB100",
+      "overview": null,
       "bibliography": {
         "id": "GAB100",
         "name": "Collab-Overcooked",
@@ -91224,6 +91561,7 @@
     {
       "id": "GAB099",
       "sourceId": "GAB099",
+      "overview": null,
       "bibliography": {
         "id": "GAB099",
         "name": "LLM-Coordination",
@@ -91741,6 +92079,7 @@
     {
       "id": "GAB101",
       "sourceId": "GAB101",
+      "overview": null,
       "bibliography": {
         "id": "GAB101",
         "name": "LLMsPark",
@@ -92249,6 +92588,7 @@
     {
       "id": "GAB102",
       "sourceId": "GAB102",
+      "overview": null,
       "bibliography": {
         "id": "GAB102",
         "name": "MultiAgentBench",
@@ -92591,6 +92931,7 @@
     {
       "id": "GAB062",
       "sourceId": "GAB062",
+      "overview": null,
       "bibliography": {
         "id": "GAB062",
         "name": "AdaSociety",
@@ -92856,6 +93197,7 @@
     {
       "id": "GAP-B8",
       "sourceId": "GAP-B8",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B8",
         "name": "AmongAgents",
@@ -93113,6 +93455,7 @@
     {
       "id": "GAP-A8",
       "sourceId": "GAP-A8",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A8",
         "name": "AvalonBench",
@@ -93347,6 +93690,7 @@
     {
       "id": "GAP-B6",
       "sourceId": "GAP-B6",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B6",
         "name": "Codenames as a Benchmark",
@@ -93602,6 +93946,7 @@
     {
       "id": "GAB077",
       "sourceId": "GAB077",
+      "overview": null,
       "bibliography": {
         "id": "GAB077",
         "name": "LLMArena",
@@ -93911,6 +94256,7 @@
     {
       "id": "GAB064",
       "sourceId": "GAB064",
+      "overview": null,
       "bibliography": {
         "id": "GAB064",
         "name": "Melting Pot Contest",
@@ -94287,6 +94633,7 @@
     {
       "id": "GAP-B7",
       "sourceId": "GAP-B7",
+      "overview": null,
       "bibliography": {
         "id": "GAP-B7",
         "name": "Multi-Agent Balderdash",
@@ -94516,6 +94863,7 @@
     {
       "id": "GAP-A9",
       "sourceId": "GAP-A9",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A9",
         "name": "Welfare Diplomacy",
@@ -94754,6 +95102,7 @@
     {
       "id": "zsc-eval",
       "sourceId": "GAB063",
+      "overview": null,
       "bibliography": {
         "id": "GAB063",
         "name": "ZSC-Eval",
@@ -95019,6 +95368,7 @@
     {
       "id": "GAB013",
       "sourceId": "GAB013",
+      "overview": null,
       "bibliography": {
         "id": "GAB013",
         "name": "Melting Pot",
@@ -95383,6 +95733,7 @@
     {
       "id": "GAB009",
       "sourceId": "GAB009",
+      "overview": null,
       "bibliography": {
         "id": "GAB009",
         "name": "Arena",
@@ -99332,6 +99683,7 @@
     {
       "id": "AX26-2606.24893",
       "sourceId": "AX26-2606.24893",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.24893",
         "name": "AgentOdyssey",
@@ -99800,6 +100152,7 @@
     {
       "id": "AX26-2603.24621",
       "sourceId": "AX26-2603.24621",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2603.24621",
         "name": "ARC-AGI-3",
@@ -100083,6 +100436,7 @@
     {
       "id": "AX26-2607.04293",
       "sourceId": "AX26-2607.04293",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2607.04293",
         "name": "CausalGame",
@@ -100397,6 +100751,7 @@
     {
       "id": "AX26-2607.05185",
       "sourceId": "AX26-2607.05185",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2607.05185",
         "name": "ClassicLogic",
@@ -100691,6 +101046,7 @@
     {
       "id": "AX26-2608.12593",
       "sourceId": "AX26-2608.12593",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.12593",
         "name": "DiG-bench",
@@ -100936,6 +101292,7 @@
     {
       "id": "AX26-2608.08160",
       "sourceId": "AX26-2608.08160",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.08160",
         "name": "NCP-Bench",
@@ -106750,6 +107107,7 @@
     {
       "id": "AX26-2606.19338",
       "sourceId": "AX26-2606.19338",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.19338",
         "name": "RNG-Bench",
@@ -107161,6 +107519,7 @@
     {
       "id": "AX26-2607.20767",
       "sourceId": "AX26-2607.20767",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2607.20767",
         "name": "Rushes",
@@ -107409,6 +107768,7 @@
     {
       "id": "GAB108",
       "sourceId": "GAB108",
+      "overview": null,
       "bibliography": {
         "id": "GAB108",
         "name": "ChronoPlay",
@@ -107722,6 +108082,7 @@
     {
       "id": "REC-2.6",
       "sourceId": "REC-2.6",
+      "overview": null,
       "bibliography": {
         "id": "REC-2.6",
         "name": "S³Gym",
@@ -108455,6 +108816,7 @@
     {
       "id": "GAB085",
       "sourceId": "GAB085",
+      "overview": null,
       "bibliography": {
         "id": "GAB085",
         "name": "FlashAdventure",
@@ -110194,6 +110556,7 @@
     {
       "id": "GAB066",
       "sourceId": "GAB066",
+      "overview": null,
       "bibliography": {
         "id": "GAB066",
         "name": "WhodunitBench",
@@ -110527,6 +110890,7 @@
     {
       "id": "GAB052",
       "sourceId": "GAB052",
+      "overview": null,
       "bibliography": {
         "id": "GAB052",
         "name": "clembench",
@@ -110834,6 +111198,7 @@
     {
       "id": "GAB053",
       "sourceId": "GAB053",
+      "overview": null,
       "bibliography": {
         "id": "GAB053",
         "name": "Machiavelli",
@@ -112365,6 +112730,7 @@
     {
       "id": "GAB032",
       "sourceId": "GAB032",
+      "overview": null,
       "bibliography": {
         "id": "GAB032",
         "name": "ScienceWorld",
@@ -112620,6 +112986,7 @@
     {
       "id": "GAB020",
       "sourceId": "GAB020",
+      "overview": null,
       "bibliography": {
         "id": "GAB020",
         "name": "ALFWorld",
@@ -112888,6 +113255,7 @@
     {
       "id": "GAB022",
       "sourceId": "GAB022",
+      "overview": null,
       "bibliography": {
         "id": "GAB022",
         "name": "JerichoWorld",
@@ -113057,6 +113425,7 @@
     {
       "id": "GAB021",
       "sourceId": "GAB021",
+      "overview": null,
       "bibliography": {
         "id": "GAB021",
         "name": "TextWorld Commonsense",
@@ -113307,6 +113676,7 @@
     {
       "id": "GAB008",
       "sourceId": "GAB008",
+      "overview": null,
       "bibliography": {
         "id": "GAB008",
         "name": "Jericho",
@@ -115013,6 +115383,7 @@
     {
       "id": "TOP-23",
       "sourceId": "TOP-23",
+      "overview": null,
       "bibliography": {
         "id": "TOP-23",
         "name": "Neurosymbolic Reasoners",
@@ -115615,6 +115986,7 @@
     {
       "id": "REC-2.7",
       "sourceId": "REC-2.7",
+      "overview": null,
       "bibliography": {
         "id": "REC-2.7",
         "name": "LongPuzzleBench",
@@ -116163,6 +116535,7 @@
     {
       "id": "REC-3.4",
       "sourceId": "REC-3.4",
+      "overview": null,
       "bibliography": {
         "id": "REC-3.4",
         "name": "VISTA",
@@ -121925,6 +122298,7 @@
     {
       "id": "REC-2.2",
       "sourceId": "REC-2.2",
+      "overview": null,
       "bibliography": {
         "id": "REC-2.2",
         "name": "WITNESS",
@@ -122562,6 +122936,7 @@
     {
       "id": "GAB082",
       "sourceId": "GAB082",
+      "overview": null,
       "bibliography": {
         "id": "GAB082",
         "name": "LVLM-Playground",
@@ -123450,6 +123825,7 @@
     {
       "id": "memory-gym",
       "sourceId": "GAB104",
+      "overview": null,
       "bibliography": {
         "id": "GAB104",
         "name": "Memory Gym Endless",
@@ -123691,6 +124067,7 @@
     {
       "id": "GAB096",
       "sourceId": "GAB096",
+      "overview": null,
       "bibliography": {
         "id": "GAB096",
         "name": "XLand-100B",
@@ -123963,6 +124340,7 @@
     {
       "id": "GAB078",
       "sourceId": "GAB078",
+      "overview": null,
       "bibliography": {
         "id": "GAB078",
         "name": "ChildPlay",
@@ -124549,6 +124927,7 @@
     {
       "id": "GAB065",
       "sourceId": "GAB065",
+      "overview": null,
       "bibliography": {
         "id": "GAB065",
         "name": "GameTraversalBenchmark",
@@ -124885,6 +125264,7 @@
     {
       "id": "GAB073",
       "sourceId": "GAB073",
+      "overview": null,
       "bibliography": {
         "id": "GAB073",
         "name": "PUZZLES",
@@ -130565,6 +130945,7 @@
     {
       "id": "GAB051",
       "sourceId": "GAB051",
+      "overview": null,
       "bibliography": {
         "id": "GAB051",
         "name": "CARL",
@@ -130862,6 +131243,7 @@
     {
       "id": "GAB049",
       "sourceId": "GAB049",
+      "overview": null,
       "bibliography": {
         "id": "GAB049",
         "name": "Memory Gym",
@@ -131196,6 +131578,7 @@
     {
       "id": "minigrid",
       "sourceId": "GAB041",
+      "overview": null,
       "bibliography": {
         "id": "GAB041",
         "name": "MiniGrid & MiniWorld",
@@ -131463,6 +131846,7 @@
     {
       "id": "GAB048",
       "sourceId": "GAB048",
+      "overview": null,
       "bibliography": {
         "id": "GAB048",
         "name": "POPGym",
@@ -131768,6 +132152,7 @@
     {
       "id": "GAB033",
       "sourceId": "GAB033",
+      "overview": null,
       "bibliography": {
         "id": "GAB033",
         "name": "GriddlyJS",
@@ -132089,6 +132474,7 @@
     {
       "id": "GAB016",
       "sourceId": "GAB016",
+      "overview": null,
       "bibliography": {
         "id": "GAB016",
         "name": "MESSENGER",
@@ -132324,6 +132710,7 @@
     {
       "id": "GAB017",
       "sourceId": "GAB017",
+      "overview": null,
       "bibliography": {
         "id": "GAB017",
         "name": "SILG",
@@ -133007,6 +133394,7 @@
     {
       "id": "GAB003",
       "sourceId": "GAB003",
+      "overview": null,
       "bibliography": {
         "id": "GAB003",
         "name": "bsuite",
@@ -133424,6 +133812,7 @@
     {
       "id": "AX26-2604.02330",
       "sourceId": "AX26-2604.02330",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2604.02330",
         "name": "ActionParty",
@@ -136437,6 +136826,7 @@
     {
       "id": "AX26-2608.11216",
       "sourceId": "AX26-2608.11216",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.11216",
         "name": "AutoWorldModel-Bench",
@@ -136980,6 +137370,7 @@
     {
       "id": "AX26-2608.24680",
       "sourceId": "AX26-2608.24680",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.24680",
         "name": "Game2World Engine",
@@ -137199,6 +137590,7 @@
     {
       "id": "AX26-2608.26200",
       "sourceId": "AX26-2608.26200",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.26200",
         "name": "GameWAM",
@@ -137606,6 +137998,7 @@
     {
       "id": "AX26-2604.02648",
       "sourceId": "AX26-2604.02648",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2604.02648",
         "name": "GBQA",
@@ -137849,6 +138242,7 @@
     {
       "id": "AX26-2608.19197",
       "sourceId": "AX26-2608.19197",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2608.19197",
         "name": "SPADE",
@@ -138408,6 +138802,7 @@
     {
       "id": "AX26-2606.11129",
       "sourceId": "AX26-2606.11129",
+      "overview": null,
       "bibliography": {
         "id": "AX26-2606.11129",
         "name": "WorldOlympiad",
@@ -138642,6 +139037,7 @@
     {
       "id": "REC-T05",
       "sourceId": "REC-T05",
+      "overview": null,
       "bibliography": {
         "id": "REC-T05",
         "name": "A2Z GameSpec-Bench",
@@ -138836,6 +139232,7 @@
     {
       "id": "REC-T03",
       "sourceId": "REC-T03",
+      "overview": null,
       "bibliography": {
         "id": "REC-T03",
         "name": "CraftBench-UE",
@@ -139030,6 +139427,7 @@
     {
       "id": "REC-T02",
       "sourceId": "REC-T02",
+      "overview": null,
       "bibliography": {
         "id": "REC-T02",
         "name": "GameASG-Bench",
@@ -141881,6 +142279,7 @@
     {
       "id": "REC-T01",
       "sourceId": "REC-T01",
+      "overview": null,
       "bibliography": {
         "id": "REC-T01",
         "name": "GameLogicBench",
@@ -145781,6 +146180,7 @@
     {
       "id": "REC-3.2",
       "sourceId": "REC-3.2",
+      "overview": null,
       "bibliography": {
         "id": "REC-3.2",
         "name": "GameReplica",
@@ -147546,6 +147946,7 @@
     {
       "id": "GAP-C3",
       "sourceId": "GAP-C3",
+      "overview": null,
       "bibliography": {
         "id": "GAP-C3",
         "name": "GameXpert-Bench",
@@ -149909,6 +150310,7 @@
     {
       "id": "REC-T07",
       "sourceId": "REC-T07",
+      "overview": null,
       "bibliography": {
         "id": "REC-T07",
         "name": "OPIS",
@@ -150184,6 +150586,7 @@
     {
       "id": "REC-2.8",
       "sourceId": "REC-2.8",
+      "overview": null,
       "bibliography": {
         "id": "REC-2.8",
         "name": "PlayTrain",
@@ -153438,6 +153841,7 @@
     {
       "id": "REC-T06",
       "sourceId": "REC-T06",
+      "overview": null,
       "bibliography": {
         "id": "REC-T06",
         "name": "ROWBench / PROWBench",
@@ -153851,6 +154255,7 @@
     {
       "id": "REC-T04",
       "sourceId": "REC-T04",
+      "overview": null,
       "bibliography": {
         "id": "REC-T04",
         "name": "SWE-Game",
@@ -156372,6 +156777,7 @@
     {
       "id": "GAP-A7",
       "sourceId": "GAP-A7",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A7",
         "name": "GVGAI-LLM",
@@ -156924,6 +157330,7 @@
     {
       "id": "GAP-C1",
       "sourceId": "GAP-C1",
+      "overview": null,
       "bibliography": {
         "id": "GAP-C1",
         "name": "RPGBench",
@@ -157266,6 +157673,7 @@
     {
       "id": "GAP-C2",
       "sourceId": "GAP-C2",
+      "overview": null,
       "bibliography": {
         "id": "GAP-C2",
         "name": "VideoGameQA-Bench",
@@ -158600,6 +159008,7 @@
     {
       "id": "GAB086",
       "sourceId": "GAB086",
+      "overview": null,
       "bibliography": {
         "id": "GAB086",
         "name": "Gymnasium",
@@ -158908,6 +159317,7 @@
     {
       "id": "GAB060",
       "sourceId": "GAB060",
+      "overview": null,
       "bibliography": {
         "id": "GAB060",
         "name": "BenchMARL",
@@ -159286,6 +159696,7 @@
     {
       "id": "GAB061",
       "sourceId": "GAB061",
+      "overview": null,
       "bibliography": {
         "id": "GAB061",
         "name": "JaxMARL",
@@ -159581,6 +159992,7 @@
     {
       "id": "GAB068",
       "sourceId": "GAB068",
+      "overview": null,
       "bibliography": {
         "id": "GAB068",
         "name": "Offline MARL protocol",
@@ -160021,6 +160433,7 @@
     {
       "id": "GAP-A11",
       "sourceId": "GAP-A11",
+      "overview": null,
       "bibliography": {
         "id": "GAP-A11",
         "name": "TextWorldExpress",
@@ -160358,6 +160771,7 @@
     {
       "id": "GAB079",
       "sourceId": "GAB079",
+      "overview": null,
       "bibliography": {
         "id": "GAB079",
         "name": "U3 / OpenXLand",
@@ -160608,6 +161022,7 @@
     {
       "id": "GAB054",
       "sourceId": "GAB054",
+      "overview": null,
       "bibliography": {
         "id": "GAB054",
         "name": "MARLlib",
@@ -160978,6 +161393,7 @@
     {
       "id": "GAB035",
       "sourceId": "GAB035",
+      "overview": null,
       "bibliography": {
         "id": "GAB035",
         "name": "CORA",
@@ -161818,6 +162234,7 @@
     {
       "id": "GAB031",
       "sourceId": "GAB031",
+      "overview": null,
       "bibliography": {
         "id": "GAB031",
         "name": "EnvPool",
@@ -162186,6 +162603,7 @@
     {
       "id": "GAB039",
       "sourceId": "GAB039",
+      "overview": null,
       "bibliography": {
         "id": "GAB039",
         "name": "MARL evaluation protocol",
@@ -162365,6 +162783,7 @@
     {
       "id": "GAB024",
       "sourceId": "GAB024",
+      "overview": null,
       "bibliography": {
         "id": "GAB024",
         "name": "EPyMARL benchmark",
@@ -162960,6 +163379,7 @@
     {
       "id": "GAB014",
       "sourceId": "GAB014",
+      "overview": null,
       "bibliography": {
         "id": "GAB014",
         "name": "PettingZoo",
@@ -163278,6 +163698,7 @@
     {
       "id": "GAB023",
       "sourceId": "GAB023",
+      "overview": null,
       "bibliography": {
         "id": "GAB023",
         "name": "rliable",
@@ -164628,6 +165049,7 @@
     {
       "id": "GAB019",
       "sourceId": "GAB019",
+      "overview": null,
       "bibliography": {
         "id": "GAB019",
         "name": "URLB",
@@ -165512,6 +165934,7 @@
     {
       "id": "S01",
       "sourceId": "S01",
+      "overview": null,
       "bibliography": {
         "id": "S01",
         "name": "EDELINE",
@@ -167373,6 +167796,7 @@
     {
       "id": "W01",
       "sourceId": "W01",
+      "overview": null,
       "bibliography": {
         "id": "W01",
         "name": "GameNGen",
@@ -167516,6 +167940,7 @@
     {
       "id": "W03",
       "sourceId": "W03",
+      "overview": null,
       "bibliography": {
         "id": "W03",
         "name": "StateSpaceDiffuser",
@@ -167695,6 +168120,7 @@
     {
       "id": "W02",
       "sourceId": "W02",
+      "overview": null,
       "bibliography": {
         "id": "W02",
         "name": "DIAMOND",
@@ -169085,6 +169511,7 @@
     {
       "id": "A01",
       "sourceId": "A01",
+      "overview": null,
       "bibliography": {
         "id": "A01",
         "name": "Genie",
@@ -169379,6 +169806,7 @@
     {
       "id": "T06",
       "sourceId": "T06",
+      "overview": null,
       "bibliography": {
         "id": "T06",
         "name": "FPS MAP Elites",
@@ -169559,6 +169987,7 @@
     {
       "id": "A04",
       "sourceId": "A04",
+      "overview": null,
       "bibliography": {
         "id": "A04",
         "name": "PCG Survey",
@@ -169729,6 +170158,7 @@
     {
       "id": "A03",
       "sourceId": "A03",
+      "overview": null,
       "bibliography": {
         "id": "A03",
         "name": "Hierarchical WFC",
@@ -169870,6 +170300,7 @@
     {
       "id": "A02",
       "sourceId": "A02",
+      "overview": null,
       "bibliography": {
         "id": "A02",
         "name": "MarioGPT",
@@ -170015,6 +170446,7 @@
     {
       "id": "A05",
       "sourceId": "A05",
+      "overview": null,
       "bibliography": {
         "id": "A05",
         "name": "CALM",
@@ -170217,6 +170649,7 @@
     {
       "id": "C07",
       "sourceId": "C07",
+      "overview": null,
       "bibliography": {
         "id": "C07",
         "name": "NeuralFieldLDM",
@@ -170363,6 +170796,7 @@
     {
       "id": "C10",
       "sourceId": "C10",
+      "overview": null,
       "bibliography": {
         "id": "C10",
         "name": "GAUDI",
@@ -170504,6 +170938,7 @@
     {
       "id": "C11",
       "sourceId": "C11",
+      "overview": null,
       "bibliography": {
         "id": "C11",
         "name": "Generative Scene Networks",
@@ -170650,6 +171085,7 @@
     {
       "id": "F07",
       "sourceId": "F07",
+      "overview": null,
       "bibliography": {
         "id": "F07",
         "name": "FACUL",
@@ -170845,6 +171281,7 @@
     {
       "id": "A07",
       "sourceId": "A07",
+      "overview": null,
       "bibliography": {
         "id": "A07",
         "name": "AnimeGamer",
@@ -171053,6 +171490,7 @@
     {
       "id": "A08",
       "sourceId": "A08",
+      "overview": null,
       "bibliography": {
         "id": "A08",
         "name": "MIMIC",
@@ -171363,6 +171801,7 @@
     {
       "id": "S04",
       "sourceId": "S04",
+      "overview": null,
       "bibliography": {
         "id": "S04",
         "name": "AMuCS",
@@ -171511,6 +171950,7 @@
     {
       "id": "S08",
       "sourceId": "S08",
+      "overview": null,
       "bibliography": {
         "id": "S08",
         "name": "X Ego",
@@ -171678,6 +172118,7 @@
     {
       "id": "A11",
       "sourceId": "A11",
+      "overview": null,
       "bibliography": {
         "id": "A11",
         "name": "AI Directors",
@@ -171840,6 +172281,7 @@
     {
       "id": "A09",
       "sourceId": "A09",
+      "overview": null,
       "bibliography": {
         "id": "A09",
         "name": "EnMatch",
@@ -172029,6 +172471,7 @@
     {
       "id": "A10",
       "sourceId": "A10",
+      "overview": null,
       "bibliography": {
         "id": "A10",
         "name": "Label-free PEM",
@@ -172170,6 +172613,7 @@
     {
       "id": "A12",
       "sourceId": "A12",
+      "overview": null,
       "bibliography": {
         "id": "A12",
         "name": "Beyond the Meta",
@@ -172314,6 +172758,7 @@
     {
       "id": "S03",
       "sourceId": "S03",
+      "overview": null,
       "bibliography": {
         "id": "S03",
         "name": "HAWK",
@@ -172459,6 +172904,7 @@
     {
       "id": "S02",
       "sourceId": "S02",
+      "overview": null,
       "bibliography": {
         "id": "S02",
         "name": "XGuardian",
@@ -172672,6 +173118,7 @@
     {
       "id": "C23",
       "sourceId": "C23",
+      "overview": null,
       "bibliography": {
         "id": "C23",
         "name": "游戏反作弊 SoK",
@@ -172840,6 +173287,7 @@
     {
       "id": "S06",
       "sourceId": "S06",
+      "overview": null,
       "bibliography": {
         "id": "S06",
         "name": "AntiCheatPT",
@@ -172985,6 +173433,7 @@
     {
       "id": "W05",
       "sourceId": "W05",
+      "overview": null,
       "bibliography": {
         "id": "W05",
         "name": "Invisibility Cloak",
@@ -173161,6 +173610,7 @@
     {
       "id": "W04",
       "sourceId": "W04",
+      "overview": null,
       "bibliography": {
         "id": "W04",
         "name": "BotScreen",
@@ -173302,6 +173752,7 @@
     {
       "id": "W06",
       "sourceId": "W06",
+      "overview": null,
       "bibliography": {
         "id": "W06",
         "name": "GAN Aimbots",
@@ -173468,6 +173919,7 @@
     {
       "id": "S07",
       "sourceId": "S07",
+      "overview": null,
       "bibliography": {
         "id": "S07",
         "name": "GameSR",
@@ -173705,6 +174157,7 @@
     {
       "id": "T05",
       "sourceId": "T05",
+      "overview": null,
       "bibliography": {
         "id": "T05",
         "name": "OLIVE",
@@ -173901,6 +174354,7 @@
     {
       "id": "S05",
       "sourceId": "S05",
+      "overview": null,
       "bibliography": {
         "id": "S05",
         "name": "SonicDoom",
@@ -174263,6 +174717,7 @@
     {
       "id": "B01",
       "sourceId": "B01",
+      "overview": null,
       "bibliography": {
         "id": "B01",
         "name": "C2PO",
@@ -174433,6 +174888,7 @@
     {
       "id": "B02",
       "sourceId": "B02",
+      "overview": null,
       "bibliography": {
         "id": "B02",
         "name": "MeInGame",
@@ -174601,6 +175057,7 @@
     {
       "id": "B03",
       "sourceId": "B03",
+      "overview": null,
       "bibliography": {
         "id": "B03",
         "name": "Playable Video Generation",
@@ -174747,6 +175204,7 @@
     {
       "id": "NATURE295",
       "sourceId": "NATURE295",
+      "overview": null,
       "bibliography": {
         "id": "NATURE295",
         "name": "DreamerV3",
@@ -175170,6 +175628,7 @@
     {
       "id": "NATURE296",
       "sourceId": "NATURE296",
+      "overview": null,
       "bibliography": {
         "id": "NATURE296",
         "name": "GT Sophy",
@@ -175459,6 +175918,7 @@
     {
       "id": "NATURE297",
       "sourceId": "NATURE297",
+      "overview": null,
       "bibliography": {
         "id": "NATURE297",
         "name": "WHAM / Muse",
@@ -175605,6 +176065,7 @@
     {
       "id": "NATURE298",
       "sourceId": "NATURE298",
+      "overview": null,
       "bibliography": {
         "id": "NATURE298",
         "name": "DiscoRL / Disco57 / Disco103",
@@ -176363,6 +176824,7 @@
     {
       "id": "NATURE299",
       "sourceId": "NATURE299",
+      "overview": null,
       "bibliography": {
         "id": "NATURE299",
         "name": "Intuitive Gamer",
@@ -177422,6 +177884,7 @@
     {
       "id": "NATURE300",
       "sourceId": "NATURE300",
+      "overview": null,
       "bibliography": {
         "id": "NATURE300",
         "name": "GPG / Goal Program Generator",
@@ -177606,6 +178069,7 @@
     {
       "id": "NATURE301",
       "sourceId": "NATURE301",
+      "overview": null,
       "bibliography": {
         "id": "NATURE301",
         "name": "Repeated games / SCoT",
@@ -178039,6 +178503,7 @@
     {
       "id": "CWM302",
       "sourceId": "CWM302",
+      "overview": null,
       "bibliography": {
         "id": "CWM302",
         "name": "CWM（Coding Agent as World Brain）",
@@ -178203,6 +178668,7 @@
     {
       "id": "BUILD303",
       "sourceId": "BUILD303",
+      "overview": null,
       "bibliography": {
         "id": "BUILD303",
         "name": "BuildArena",
@@ -178648,6 +179114,7 @@
     {
       "id": "OMIT304",
       "sourceId": "OMIT304",
+      "overview": null,
       "bibliography": {
         "id": "OMIT304",
         "name": "WorldCoder",
@@ -179233,6 +179700,7 @@
     {
       "id": "OMIT305",
       "sourceId": "OMIT305",
+      "overview": null,
       "bibliography": {
         "id": "OMIT305",
         "name": "GIF-MCTS / CWMB",
@@ -179784,6 +180252,7 @@
     {
       "id": "OMIT306",
       "sourceId": "OMIT306",
+      "overview": null,
       "bibliography": {
         "id": "OMIT306",
         "name": "IRIS",
@@ -182464,6 +182933,7 @@
     {
       "id": "OMIT307",
       "sourceId": "OMIT307",
+      "overview": null,
       "bibliography": {
         "id": "OMIT307",
         "name": "TWM",
@@ -185144,6 +185614,7 @@
     {
       "id": "OMIT308",
       "sourceId": "OMIT308",
+      "overview": null,
       "bibliography": {
         "id": "OMIT308",
         "name": "R2I / Recall to Imagine",
@@ -185710,6 +186181,7 @@
     {
       "id": "OMIT309",
       "sourceId": "OMIT309",
+      "overview": null,
       "bibliography": {
         "id": "OMIT309",
         "name": "STORM",
@@ -188390,6 +188862,7 @@
     {
       "id": "OMIT310",
       "sourceId": "OMIT310",
+      "overview": null,
       "bibliography": {
         "id": "OMIT310",
         "name": "GameGen-X",
@@ -188639,6 +189112,7 @@
     {
       "id": "OMIT311",
       "sourceId": "OMIT311",
+      "overview": null,
       "bibliography": {
         "id": "OMIT311",
         "name": "GameFactory",
@@ -188856,6 +189330,7 @@
     {
       "id": "OMIT312",
       "sourceId": "OMIT312",
+      "overview": null,
       "bibliography": {
         "id": "OMIT312",
         "name": "PoE-World",
@@ -189289,6 +189764,7 @@
     {
       "id": "OMIT313",
       "sourceId": "OMIT313",
+      "overview": null,
       "bibliography": {
         "id": "OMIT313",
         "name": "DiCode",
@@ -189619,6 +190095,7 @@
     {
       "id": "OMIT314",
       "sourceId": "OMIT314",
+      "overview": null,
       "bibliography": {
         "id": "OMIT314",
         "name": "Hunyuan-GameCraft-2",
@@ -189836,6 +190313,7 @@
     {
       "id": "OMIT315",
       "sourceId": "OMIT315",
+      "overview": null,
       "bibliography": {
         "id": "OMIT315",
         "name": "WorldPlay",
@@ -190035,6 +190513,7 @@
     {
       "id": "OMIT316",
       "sourceId": "OMIT316",
+      "overview": null,
       "bibliography": {
         "id": "OMIT316",
         "name": "Matrix-Game3.0",
@@ -190234,6 +190713,7 @@
     {
       "id": "OMIT317",
       "sourceId": "OMIT317",
+      "overview": null,
       "bibliography": {
         "id": "OMIT317",
         "name": "Mind-Studio",
@@ -190845,6 +191325,7 @@
     {
       "id": "OMIT318",
       "sourceId": "OMIT318",
+      "overview": null,
       "bibliography": {
         "id": "OMIT318",
         "name": "GameCWMDistillation",
@@ -192939,6 +193420,7 @@
     {
       "id": "OMIT319",
       "sourceId": "OMIT319",
+      "overview": null,
       "bibliography": {
         "id": "OMIT319",
         "name": "PlayAdequacy",
@@ -193854,6 +194336,7 @@
     {
       "id": "OMIT320",
       "sourceId": "OMIT320",
+      "overview": null,
       "bibliography": {
         "id": "OMIT320",
         "name": "ProgrammableWorldModel",
@@ -194290,6 +194773,7 @@
     {
       "id": "OMIT321",
       "sourceId": "OMIT321",
+      "overview": null,
       "bibliography": {
         "id": "OMIT321",
         "name": "Executable World Models for ARC-AGI-3",
@@ -196885,6 +197369,7 @@
     {
       "id": "OMIT322",
       "sourceId": "OMIT322",
+      "overview": null,
       "bibliography": {
         "id": "OMIT322",
         "name": "GameDevBench",
@@ -197105,6 +197590,7 @@
     {
       "id": "OMIT323",
       "sourceId": "OMIT323",
+      "overview": null,
       "bibliography": {
         "id": "OMIT323",
         "name": "BesiegeField",
@@ -197436,6 +197922,7 @@
     {
       "id": "OMIT324",
       "sourceId": "OMIT324",
+      "overview": null,
       "bibliography": {
         "id": "OMIT324",
         "name": "GameCraft-Bench",
@@ -197665,6 +198152,7 @@
     {
       "id": "OMIT325",
       "sourceId": "OMIT325",
+      "overview": null,
       "bibliography": {
         "id": "OMIT325",
         "name": "GameEngineBench",
@@ -197859,6 +198347,7 @@
     {
       "id": "OMIT326",
       "sourceId": "OMIT326",
+      "overview": null,
       "bibliography": {
         "id": "OMIT326",
         "name": "JAMER",
@@ -198058,6 +198547,7 @@
     {
       "id": "OMIT327",
       "sourceId": "OMIT327",
+      "overview": null,
       "bibliography": {
         "id": "OMIT327",
         "name": "WebGameBench",
@@ -198262,6 +198752,7 @@
     {
       "id": "OMIT328",
       "sourceId": "OMIT328",
+      "overview": null,
       "bibliography": {
         "id": "OMIT328",
         "name": "OpenGame",
@@ -198487,6 +198978,7 @@
     {
       "id": "OMIT329",
       "sourceId": "OMIT329",
+      "overview": null,
       "bibliography": {
         "id": "OMIT329",
         "name": "GAMEGO",
@@ -198711,6 +199203,7 @@
     {
       "id": "OMIT330",
       "sourceId": "OMIT330",
+      "overview": null,
       "bibliography": {
         "id": "OMIT330",
         "name": "Play2Code / PlaytestArena",
@@ -198943,6 +199436,7 @@
     {
       "id": "OMIT331",
       "sourceId": "OMIT331",
+      "overview": null,
       "bibliography": {
         "id": "OMIT331",
         "name": "CreativeGame",
@@ -199137,6 +199631,7 @@
     {
       "id": "OMIT332",
       "sourceId": "OMIT332",
+      "overview": null,
       "bibliography": {
         "id": "OMIT332",
         "name": "SciCrafter",
@@ -199456,6 +199951,7 @@
     {
       "id": "OMIT333",
       "sourceId": "OMIT333",
+      "overview": null,
       "bibliography": {
         "id": "OMIT333",
         "name": "WISE",
@@ -199881,6 +200377,7 @@
     {
       "id": "OMIT334",
       "sourceId": "OMIT334",
+      "overview": null,
       "bibliography": {
         "id": "OMIT334",
         "name": "Gated Coordination",
@@ -200179,6 +200676,7 @@
     {
       "id": "OMIT335",
       "sourceId": "OMIT335",
+      "overview": null,
       "bibliography": {
         "id": "OMIT335",
         "name": "DOOM 1.3M",
@@ -200482,6 +200980,7 @@
     {
       "id": "OMIT336",
       "sourceId": "OMIT336",
+      "overview": null,
       "bibliography": {
         "id": "OMIT336",
         "name": "Gemini4 Argon Minecraft team",
@@ -200788,6 +201287,7 @@
     {
       "id": "OMIT337",
       "sourceId": "OMIT337",
+      "overview": null,
       "bibliography": {
         "id": "OMIT337",
         "name": "CS2 Account Consistency",
@@ -200980,6 +201480,7 @@
     {
       "id": "OMIT338",
       "sourceId": "OMIT338",
+      "overview": null,
       "bibliography": {
         "id": "OMIT338",
         "name": "World2Minecraft",
@@ -201237,6 +201738,7 @@
     {
       "id": "OMIT339",
       "sourceId": "OMIT339",
+      "overview": null,
       "bibliography": {
         "id": "OMIT339",
         "name": "ReCAPA",
@@ -201624,6 +202126,7 @@
     {
       "id": "OMIT340",
       "sourceId": "OMIT340",
+      "overview": null,
       "bibliography": {
         "id": "OMIT340",
         "name": "MC-EvoBench",
@@ -202032,6 +202535,7 @@
     {
       "id": "OMIT341",
       "sourceId": "OMIT341",
+      "overview": null,
       "bibliography": {
         "id": "OMIT341",
         "name": "MultiWorldBench",
@@ -202229,6 +202733,7 @@
     {
       "id": "OMIT342",
       "sourceId": "OMIT342",
+      "overview": null,
       "bibliography": {
         "id": "OMIT342",
         "name": "NextBestPath / AiMDoom",
@@ -202458,6 +202963,7 @@
     {
       "id": "OMIT343",
       "sourceId": "OMIT343",
+      "overview": null,
       "bibliography": {
         "id": "OMIT343",
         "name": "Goal-Oriented Graphs / GoG",
@@ -202799,6 +203305,7 @@
     {
       "id": "OMIT344",
       "sourceId": "OMIT344",
+      "overview": null,
       "bibliography": {
         "id": "OMIT344",
         "name": "Expertise and planning depth",
@@ -203018,6 +203525,7 @@
     {
       "id": "OMIT345",
       "sourceId": "OMIT345",
+      "overview": null,
       "bibliography": {
         "id": "OMIT345",
         "name": "GraphNet social planner",
@@ -203247,6 +203755,7 @@
     {
       "id": "OMIT346",
       "sourceId": "OMIT346",
+      "overview": null,
       "bibliography": {
         "id": "OMIT346",
         "name": "Democratic AI / HCRM",
@@ -203468,6 +203977,7 @@
     {
       "id": "OMIT347",
       "sourceId": "OMIT347",
+      "overview": null,
       "bibliography": {
         "id": "OMIT347",
         "name": "Superhuman AI and human novelty",
@@ -203686,6 +204196,7 @@
     {
       "id": "OMIT348",
       "sourceId": "OMIT348",
+      "overview": null,
       "bibliography": {
         "id": "OMIT348",
         "name": "Maia-2",
@@ -203910,6 +204421,7 @@
     {
       "id": "OMIT349",
       "sourceId": "OMIT349",
+      "overview": null,
       "bibliography": {
         "id": "OMIT349",
         "name": "ChessBench / Grandmaster-Level Chess Without Search",
@@ -204246,6 +204758,7 @@
     {
       "id": "OMIT350",
       "sourceId": "OMIT350",
+      "overview": null,
       "bibliography": {
         "id": "OMIT350",
         "name": "Chessformer / Maia-3 / Leela-CF",
@@ -204572,6 +205085,7 @@
     {
       "id": "OMIT351",
       "sourceId": "OMIT351",
+      "overview": null,
       "bibliography": {
         "id": "OMIT351",
         "name": "DNN-guided human planning models",
@@ -204782,6 +205296,7 @@
     {
       "id": "OMIT352",
       "sourceId": "OMIT352",
+      "overview": null,
       "bibliography": {
         "id": "OMIT352",
         "name": "Mixed-Initiative Content Creation survey",
@@ -204968,6 +205483,7 @@
     {
       "id": "OMIT353",
       "sourceId": "OMIT353",
+      "overview": null,
       "bibliography": {
         "id": "OMIT353",
         "name": "Controllable3DPCGRL",
@@ -205186,6 +205702,7 @@
     {
       "id": "OMIT354",
       "sourceId": "OMIT354",
+      "overview": null,
       "bibliography": {
         "id": "OMIT354",
         "name": "SokobanDLcomparative study",
@@ -205401,6 +205918,7 @@
     {
       "id": "OMIT355",
       "sourceId": "OMIT355",
+      "overview": null,
       "bibliography": {
         "id": "OMIT355",
         "name": "Bad Vibrations",
@@ -205599,6 +206117,7 @@
     {
       "id": "OMIT356",
       "sourceId": "OMIT356",
+      "overview": null,
       "bibliography": {
         "id": "OMIT356",
         "name": "ASE",
@@ -205822,6 +206341,7 @@
     {
       "id": "OMIT357",
       "sourceId": "OMIT357",
+      "overview": null,
       "bibliography": {
         "id": "OMIT357",
         "name": "MaskedMimic",
@@ -206050,6 +206570,7 @@
     {
       "id": "OMIT358",
       "sourceId": "OMIT358",
+      "overview": null,
       "bibliography": {
         "id": "OMIT358",
         "name": "DeepPhase / Periodic Autoencoder",
@@ -206247,6 +206768,7 @@
     {
       "id": "OMIT359",
       "sourceId": "OMIT359",
+      "overview": null,
       "bibliography": {
         "id": "OMIT359",
         "name": "SuperPADL",
@@ -206463,6 +206985,7 @@
     {
       "id": "OMIT360",
       "sourceId": "OMIT360",
+      "overview": null,
       "bibliography": {
         "id": "OMIT360",
         "name": "CLoSD / DiP",
@@ -206686,6 +207209,7 @@
     {
       "id": "OMIT361",
       "sourceId": "OMIT361",
+      "overview": null,
       "bibliography": {
         "id": "OMIT361",
         "name": "DiffMimic",
@@ -206918,6 +207442,7 @@
     {
       "id": "OMIT362",
       "sourceId": "OMIT362",
+      "overview": null,
       "bibliography": {
         "id": "OMIT362",
         "name": "PHC",
@@ -207142,6 +207667,7 @@
     {
       "id": "OMIT363",
       "sourceId": "OMIT363",
+      "overview": null,
       "bibliography": {
         "id": "OMIT363",
         "name": "ArtifactArena",
@@ -207356,6 +207882,7 @@
     {
       "id": "SUP-ale",
       "sourceId": "SUP-ale",
+      "overview": null,
       "bibliography": {
         "id": "SUP-ale",
         "name": "Arcade Learning Environment (ALE)",
@@ -207757,6 +208284,7 @@
     {
       "id": "SUP-vizdoom",
       "sourceId": "SUP-vizdoom",
+      "overview": null,
       "bibliography": {
         "id": "SUP-vizdoom",
         "name": "ViZDoom",
@@ -208030,6 +208558,7 @@
     {
       "id": "SUP-smac",
       "sourceId": "SUP-smac",
+      "overview": null,
       "bibliography": {
         "id": "SUP-smac",
         "name": "SMAC",
@@ -208316,6 +208845,7 @@
     {
       "id": "SUP-sc2le",
       "sourceId": "SUP-sc2le",
+      "overview": null,
       "bibliography": {
         "id": "SUP-sc2le",
         "name": "SC2LE / PySC2",
@@ -208636,6 +209166,7 @@
     {
       "id": "SUP-textworld",
       "sourceId": "SUP-textworld",
+      "overview": null,
       "bibliography": {
         "id": "SUP-textworld",
         "name": "TextWorld",
@@ -208912,6 +209443,7 @@
     {
       "id": "SUP-babyai",
       "sourceId": "SUP-babyai",
+      "overview": null,
       "bibliography": {
         "id": "SUP-babyai",
         "name": "BabyAI",
@@ -209208,6 +209740,7 @@
     {
       "id": "SUP-openspiel",
       "sourceId": "SUP-openspiel",
+      "overview": null,
       "bibliography": {
         "id": "SUP-openspiel",
         "name": "OpenSpiel",
@@ -209545,6 +210078,7 @@
     {
       "id": "SUP-deepmind-lab",
       "sourceId": "SUP-deepmind-lab",
+      "overview": null,
       "bibliography": {
         "id": "SUP-deepmind-lab",
         "name": "DeepMind Lab",
@@ -209850,6 +210384,7 @@
     {
       "id": "SUP-gvgai",
       "sourceId": "SUP-gvgai",
+      "overview": null,
       "bibliography": {
         "id": "SUP-gvgai",
         "name": "GVGAI",
@@ -210144,6 +210679,7 @@
     {
       "id": "SUP-coinrun",
       "sourceId": "SUP-coinrun",
+      "overview": null,
       "bibliography": {
         "id": "SUP-coinrun",
         "name": "CoinRun",
@@ -210416,6 +210952,7 @@
     {
       "id": "SUP-obstacle-tower",
       "sourceId": "SUP-obstacle-tower",
+      "overview": null,
       "bibliography": {
         "id": "SUP-obstacle-tower",
         "name": "Obstacle Tower",
@@ -210725,6 +211262,7 @@
     {
       "id": "SUP-minerl-dataset",
       "sourceId": "SUP-minerl-dataset",
+      "overview": null,
       "bibliography": {
         "id": "SUP-minerl-dataset",
         "name": "MineRL dataset",
@@ -211102,6 +211640,7 @@
     {
       "id": "SUP-griddly",
       "sourceId": "SUP-griddly",
+      "overview": null,
       "bibliography": {
         "id": "SUP-griddly",
         "name": "Griddly",
@@ -211422,6 +211961,7 @@
     {
       "id": "SUP-elf",
       "sourceId": "SUP-elf",
+      "overview": null,
       "bibliography": {
         "id": "SUP-elf",
         "name": "ELF / MiniRTS",
@@ -211715,6 +212255,7 @@
     {
       "id": "SUP-malmo",
       "sourceId": "SUP-malmo",
+      "overview": null,
       "bibliography": {
         "id": "SUP-malmo",
         "name": "Project Malmo",
@@ -212033,6 +212574,7 @@
     {
       "id": "SUP-spirebench",
       "sourceId": "SUP-spirebench",
+      "overview": null,
       "bibliography": {
         "id": "SUP-spirebench",
         "name": "SpireBench",
@@ -212327,6 +212869,7 @@
     {
       "id": "SUP-pokeagent-challenge",
       "sourceId": "SUP-pokeagent-challenge",
+      "overview": null,
       "bibliography": {
         "id": "SUP-pokeagent-challenge",
         "name": "PokéAgent Challenge",
@@ -212810,6 +213353,7 @@
     {
       "id": "SUP-vgc-bench",
       "sourceId": "SUP-vgc-bench",
+      "overview": null,
       "bibliography": {
         "id": "SUP-vgc-bench",
         "name": "VGC-Bench",
@@ -213104,6 +213648,7 @@
     {
       "id": "SUP-gg-bench",
       "sourceId": "SUP-gg-bench",
+      "overview": null,
       "bibliography": {
         "id": "SUP-gg-bench",
         "name": "gg-bench",
@@ -213415,6 +213960,7 @@
     {
       "id": "SUP-comrad",
       "sourceId": "SUP-comrad",
+      "overview": null,
       "bibliography": {
         "id": "SUP-comrad",
         "name": "COMRAD",
@@ -213687,6 +214233,7 @@
     {
       "id": "SUP-agenticsts",
       "sourceId": "SUP-agenticsts",
+      "overview": null,
       "bibliography": {
         "id": "SUP-agenticsts",
         "name": "AgenticSTS",
@@ -214000,6 +214547,7 @@
     {
       "id": "SUP-darefightingice-llm-2026",
       "sourceId": "SUP-darefightingice-llm-2026",
+      "overview": null,
       "bibliography": {
         "id": "SUP-darefightingice-llm-2026",
         "name": "DareFightingICE LLM AI Competition 2026",

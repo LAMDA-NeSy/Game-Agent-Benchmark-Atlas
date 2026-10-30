@@ -124,6 +124,10 @@ def build():
  agent_summary=apply_library(unique)
  updated=max(['2026-10-18',agent_summary['checkedAt']]+[a['checkedAt'] for a in attribution_reviews.values()])
  payload=dict(version='full-index-'+updated,updated=updated,sourceRecords=len(raw),sourceHash=hashlib.sha256(SOURCE.read_bytes()).hexdigest(),records=unique,duplicates=duplicates,counts=dict(total=len(unique),added=sum(r['added'] for r in unique),review=dict(Counter(r['review'] for r in unique)),kind=dict(Counter(r['kind'] for r in unique))),method={'zh':'范式字段已逐条核验，附独立依据与核验状态；其余题录、能力分类、游戏关联及任务协议分别保留原有核验范围。题录初筛标签只用于检索，不自动证明任务覆盖或模型兼容性。未知不代表不支持。','en':'Agent paradigms have field-specific primary-source reviews and statuses. Other bibliography, capability, game-association and protocol fields retain their separate review scopes. Bibliographic screening aids discovery and does not establish task coverage or model compatibility. Unknown does not imply unsupported.'})
+ payload['archiveOverviews']=json.loads((CURATION/'archive-overviews.json').read_text())['entries']
+ for r in unique:
+  overview=next((o for o in payload['archiveOverviews'] if o['id'] in [r['id'],r.get('profileId')]),None)
+  if overview and overview.get('repo'):r['repo']=overview['repo']
  payload['agentParadigms']=agent_summary
  (ROOT/'dist/library-data.js').write_text('window.AtlasLibraryData='+json.dumps(payload,ensure_ascii=False,indent=2)+';\n')
  (ROOT/'dist/benchmark-library.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2))
