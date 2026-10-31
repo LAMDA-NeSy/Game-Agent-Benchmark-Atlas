@@ -20,7 +20,7 @@ for(const scope of [{},...d.facets.categories.map(category=>({category})),...d.g
  for(const a of c.axes){assert.equal(new Set(a.primary).size,a.primary.length);assert(a.primary.every(id=>!a.secondary.includes(id)));}
  for(const e of i.entries)if(e.state!=='mapped')assert(e.reason&&d.taskCoveragePolicy.reasons[e.reason]);
 }
-const overall=m.inventory({benchmarkIds:[...records.values()].filter(r=>r.incrementRound!=='v38').map(r=>r.id)});assert.equal(m.inventory().total,385);assert.equal(overall.total,324);assert.equal(overall.withProtocol,195+log.summary.incompleteProtocolsIntegrated+latest.summary.integrated);
+const overall=m.inventory({benchmarkIds:[...records.values()].filter(r=>r.incrementRound!=='v38').map(r=>r.id)});assert.equal(m.inventory().total,385);assert.equal(overall.total,324);assert.equal(overall.withProtocol,195+log.summary.incompleteProtocolsIntegrated+latest.summary.integrated+1);
 for(const r of records.values())assert(r.taskReview||m.units.some(u=>u.benchmark===r.id),'No omitted pipeline record '+r.id);
 assert(m.units.every(u=>u.executionVerified===false));
 // Filtering must apply to the same game, never combine one sibling's category with another's identity.

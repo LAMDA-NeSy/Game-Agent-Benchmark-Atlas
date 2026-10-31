@@ -3737,10 +3737,10 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "checked": "2026-10-18",
           "caps": [
-            "long-horizon",
-            "planning",
             "exploration",
-            "memory"
+            "long-horizon",
+            "memory",
+            "planning"
           ],
           "agents": [
             "LLM",
@@ -3750,7 +3750,60 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+                "title": "BALROG evaluation configuration",
+                "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+                "title": "BALROG crafter documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+                "title": "BALROG nethack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+                "title": "BALROG babyai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+                "title": "BALROG minihack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+                "title": "BALROG babaisai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+                "title": "BALROG TextWorld task construction",
+                "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+                "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+                "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-balrog-crafter",
             "existing-crafter-progress"
           ]
         },
@@ -4964,7 +5017,25 @@ window.ATLAS_DATA = {
             "cooperative"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/sjtu-marl/ZSC-Eval/blob/master/README.md",
+                "title": "ZSC-Eval toolkit and evaluation workflow",
+                "excerpt": "Behavior-preferring partners, BR-Div selection, BR-Prox measurement and policy pool configuration."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-zsc-overcooked",
             "existing-overcooked-zsc"
           ]
         },
@@ -5275,7 +5346,25 @@ window.ATLAS_DATA = {
             "cooperative"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/google-deepmind/hanabi-learning-environment/blob/master/hanabi_learning_environment/rl_env.py",
+                "title": "Hanabi learning environment API",
+                "excerpt": "Player-specific observations, legal moves, score differential reward, terminal state and make defaults."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-hanabi-full",
             "existing-hanabi-partner"
           ]
         },
@@ -5699,10 +5788,10 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "checked": "2026-10-18",
           "caps": [
-            "long-horizon",
-            "planning",
             "exploration",
-            "memory"
+            "long-horizon",
+            "memory",
+            "planning"
           ],
           "agents": [
             "LLM",
@@ -5711,7 +5800,62 @@ window.ATLAS_DATA = {
           "interactions": [
             "single"
           ],
-          "verification": "reviewed"
+          "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+                "title": "BALROG evaluation configuration",
+                "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+                "title": "BALROG crafter documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+                "title": "BALROG nethack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+                "title": "BALROG babyai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+                "title": "BALROG minihack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+                "title": "BALROG babaisai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+                "title": "BALROG TextWorld task construction",
+                "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+                "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+                "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-balrog-nethack"
+          ]
         },
         {
           "benchmark": "GAB042",
@@ -6113,8 +6257,8 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "checked": "2026-10-18",
           "caps": [
-            "planning",
-            "exploration"
+            "exploration",
+            "planning"
           ],
           "agents": [
             "LLM",
@@ -6123,7 +6267,62 @@ window.ATLAS_DATA = {
           "interactions": [
             "single"
           ],
-          "verification": "reviewed"
+          "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+                "title": "BALROG evaluation configuration",
+                "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+                "title": "BALROG crafter documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+                "title": "BALROG nethack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+                "title": "BALROG babyai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+                "title": "BALROG minihack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+                "title": "BALROG babaisai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+                "title": "BALROG TextWorld task construction",
+                "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+                "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+                "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-balrog-minihack"
+          ]
         },
         {
           "benchmark": "GAB015",
@@ -6200,9 +6399,9 @@ window.ATLAS_DATA = {
           "relation": "native",
           "checked": "2026-10-18",
           "caps": [
-            "planning",
+            "generalization",
             "memory",
-            "generalization"
+            "planning"
           ],
           "agents": [
             "RL"
@@ -6211,7 +6410,25 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/Farama-Foundation/Minigrid/blob/main/minigrid/envs/memory.py",
+                "title": "MiniGrid MemoryEnv",
+                "excerpt": "Mission, observation encoding, actions, shaped reward, max_steps and termination implemented in MemoryEnv."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-minigrid-memory",
             "existing-minigrid-memory"
           ]
         },
@@ -6412,7 +6629,62 @@ window.ATLAS_DATA = {
           "interactions": [
             "single"
           ],
-          "verification": "reviewed"
+          "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+                "title": "BALROG evaluation configuration",
+                "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+                "title": "BALROG crafter documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+                "title": "BALROG nethack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+                "title": "BALROG babyai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+                "title": "BALROG minihack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+                "title": "BALROG babaisai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+                "title": "BALROG TextWorld task construction",
+                "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+                "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+                "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-balrog-babyai"
+          ]
         },
         {
           "benchmark": "SUP-babyai",
@@ -6484,7 +6756,8 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "checked": "2026-10-18",
           "caps": [
-            "planning"
+            "planning",
+            "rule-reasoning"
           ],
           "agents": [
             "LLM",
@@ -6493,7 +6766,62 @@ window.ATLAS_DATA = {
           "interactions": [
             "single"
           ],
-          "verification": "reviewed"
+          "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+                "title": "BALROG evaluation configuration",
+                "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+                "title": "BALROG crafter documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+                "title": "BALROG nethack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+                "title": "BALROG babyai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+                "title": "BALROG minihack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+                "title": "BALROG babaisai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+                "title": "BALROG TextWorld task construction",
+                "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+                "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+                "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-balrog-babaisai"
+          ]
         }
       ],
       "kind": "environment"
@@ -6782,9 +7110,9 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "checked": "2026-10-18",
           "caps": [
-            "planning",
             "exploration",
-            "memory"
+            "memory",
+            "planning"
           ],
           "agents": [
             "LLM",
@@ -6793,7 +7121,64 @@ window.ATLAS_DATA = {
           "interactions": [
             "single"
           ],
-          "verification": "reviewed"
+          "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+                "title": "BALROG evaluation configuration",
+                "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+                "title": "BALROG crafter documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+                "title": "BALROG nethack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+                "title": "BALROG babyai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+                "title": "BALROG minihack documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+                "title": "BALROG babaisai documentation",
+                "excerpt": "Environment-specific task construction and language observation wrapper."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+                "title": "BALROG TextWorld task construction",
+                "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+              },
+              {
+                "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+                "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+                "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-balrog-textworld-treasure",
+            "p0-balrog-textworld-cooking",
+            "p0-balrog-textworld-coin"
+          ]
         },
         {
           "benchmark": "SUP-textworld",
@@ -6813,7 +7198,30 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/microsoft/TextWorld/blob/main/textworld/challenges/tw_cooking/cooking.py",
+                "title": "TextWorld cooking generator",
+                "excerpt": "Cooking goal, skills and food/preparation train/valid/test splits."
+              },
+              {
+                "url": "https://github.com/microsoft/TextWorld/blob/main/README.md",
+                "title": "TextWorld Gym interface",
+                "excerpt": "Text-command interface and max_episode_steps registration."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-textworld-cooking",
             "existing-textworld-cooking-dependencies"
           ]
         },
@@ -6946,9 +7354,9 @@ window.ATLAS_DATA = {
           "relation": "native",
           "checked": "2026-10-18",
           "caps": [
+            "control",
             "coordination",
-            "strategy",
-            "control"
+            "strategy"
           ],
           "agents": [
             "RL"
@@ -6957,7 +7365,30 @@ window.ATLAS_DATA = {
             "configurable"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/google-research/football/blob/master/gfootball/doc/scenarios.md",
+                "title": "GRF scenarios",
+                "excerpt": "Academy 3 vs. 1 with Keeper task."
+              },
+              {
+                "url": "https://github.com/google-research/football/blob/master/gfootball/doc/observation.md",
+                "title": "GRF observations and actions",
+                "excerpt": "Raw state, observation wrappers, controlled players and 19 default actions."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-football-academy",
             "existing-football-academy-3v1"
           ]
         },
@@ -7116,7 +7547,24 @@ window.ATLAS_DATA = {
           "interactions": [
             "single"
           ],
-          "verification": "reviewed"
+          "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          }
         },
         {
           "benchmark": "GAB071",
@@ -7771,8 +8219,8 @@ window.ATLAS_DATA = {
           "relation": "native",
           "checked": "2026-10-18",
           "caps": [
-            "memory",
-            "control"
+            "control",
+            "memory"
           ],
           "agents": [
             "RL"
@@ -7781,7 +8229,27 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/MarcoMeter/endless-memory-gym/blob/main/README.md",
+                "title": "Memory Gym endless tasks and reset parameters",
+                "excerpt": "Endless Mortar Mayhem, Mystery Path and Searing Spotlights mechanisms, rewards and termination parameters."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-memory-mortar",
+            "p0-memory-path",
+            "p0-memory-spotlights",
             "existing-memorygym-sequence"
           ]
         },
@@ -7858,7 +8326,26 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/google-deepmind/dm_alchemy/blob/master/docs/index.md",
+                "title": "Alchemy task, actions, observations and settings",
+                "excerpt": "Separate 3D and symbolic interfaces; randomized mapping task, observation fields and action repeats."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-alchemy-3d",
+            "p0-alchemy-symbolic",
             "existing-alchemy-discovery"
           ]
         }
@@ -7893,7 +8380,30 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://arxiv.org/html/2503.09617v1#S3.SS1",
+                "title": "FLE paper v1 §3.1",
+                "excerpt": "Open-play: maximum trajectory length 5000, eight independent runs, median Production Score and Milestones."
+              },
+              {
+                "url": "https://github.com/JackHopkins/factorio-learning-environment/blob/main/README.md",
+                "title": "FLE interaction loop",
+                "excerpt": "Python programs as actions and stdout/stderr as observations."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-fle-open",
             "existing-factorio-production"
           ]
         }
@@ -9764,7 +10274,25 @@ window.ATLAS_DATA = {
             "configurable"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/Farama-Foundation/ViZDoom/blob/main/scenarios/deadly_corridor.cfg",
+                "title": "ViZDoom deadly_corridor.cfg",
+                "excerpt": "Scenario path, skill, rendering, available buttons, death penalty and episode_timeout."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-vizdoom-corridor",
             "existing-vizdoom-deadly-corridor"
           ]
         },
@@ -9776,9 +10304,9 @@ window.ATLAS_DATA = {
           "relation": "native",
           "checked": "2026-10-18",
           "caps": [
+            "control",
             "coordination",
-            "generalization",
-            "control"
+            "generalization"
           ],
           "agents": [
             "RL"
@@ -9787,7 +10315,25 @@ window.ATLAS_DATA = {
             "cooperative"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/TTomilin/COMRAD/blob/main/docs/scenarios/ammo_carrier.md",
+                "title": "COMRAD Ammo Carrier scenario",
+                "excerpt": "Exact environment ID, observation, action heads, shared_reward, episode limit and true_objective."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-comrad-ammo",
             "existing-comrad-ammo-carrier"
           ]
         },
@@ -10808,8 +11354,8 @@ window.ATLAS_DATA = {
           "relation": "native",
           "checked": "2026-10-18",
           "caps": [
-            "generalization",
-            "control"
+            "control",
+            "generalization"
           ],
           "agents": [
             "RL"
@@ -10818,7 +11364,25 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/coinrun/blob/master/README.md",
+                "title": "CoinRun training and evaluation commands",
+                "excerpt": "500-level training example, set-seed, train-eval and test-eval episode formulas and sampling caveat."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-coinrun-original",
             "existing-coinrun-original-500"
           ]
         }
@@ -11125,9 +11689,9 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18",
           "caps": [
             "long-horizon",
-            "strategy",
+            "memory",
             "planning",
-            "memory"
+            "strategy"
           ],
           "agents": [
             "LLM"
@@ -11136,7 +11700,25 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://arxiv.org/html/2610.12596v1",
+                "title": "SpireBench paper v1, §2 and Appendix C",
+                "excerpt": "Complete game with text tool actions; A20 Ironclad and ten shared seeds."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-spire-a20",
             "existing-spirebench-a20-full-run"
           ]
         },
@@ -11303,8 +11885,8 @@ window.ATLAS_DATA = {
           "relation": "native",
           "checked": "2026-10-18",
           "caps": [
-            "strategy",
-            "generalization"
+            "generalization",
+            "strategy"
           ],
           "agents": [
             "LLM",
@@ -11315,7 +11897,30 @@ window.ATLAS_DATA = {
             "competitive"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/cameronangliss/vgc-bench/blob/main/vgc_bench/eval.py",
+                "title": "VGC-Bench evaluation code",
+                "excerpt": "cross_eval_all_agents: five runs, battle counts, payoff matrix and Alpha-Rank."
+              },
+              {
+                "url": "https://github.com/cameronangliss/vgc-bench/blob/main/README.md",
+                "title": "VGC-Bench setup and interfaces",
+                "excerpt": "Pinned Showdown submodule, RL/BC/LLM interfaces and evaluation workflow."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-vgc-crossplay",
             "existing-vgc-unseen-team-crossplay"
           ]
         }
@@ -12303,9 +12908,9 @@ window.ATLAS_DATA = {
           "relation": "native",
           "checked": "2026-10-18",
           "caps": [
-            "strategy",
             "long-horizon",
-            "planning"
+            "planning",
+            "strategy"
           ],
           "agents": [
             "LLM",
@@ -12315,7 +12920,31 @@ window.ATLAS_DATA = {
             "competitive"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/minigame_setting.md",
+                "title": "CivRealm mini-game settings",
+                "excerpt": "Fourteen task types, three difficulty levels, score threshold and round-limit termination."
+              },
+              {
+                "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/fullgame_observation.md",
+                "title": "CivRealm observation and available actions",
+                "excerpt": "map, unit, city and player observations; available actions under unit, city, diplomacy, government and technology."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-civrealm-development_build_city",
+            "p0-civrealm-battle_attack_city",
             "existing-civrealm-settler-build-city"
           ]
         }
@@ -14051,7 +14680,31 @@ window.ATLAS_DATA = {
             "competitive"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/wenzhe-li/FightLadder/blob/main/README.md",
+                "title": "FightLadder experiment commands",
+                "excerpt": "CPU, IPPO/league training and best-response exploiters; state, side, reset and combo options."
+              },
+              {
+                "url": "https://proceedings.mlr.press/v235/li24q.html",
+                "title": "FightLadder ICML 2024",
+                "excerpt": "Competitive visual MARL with performance and exploitability evaluation."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-fightladder-cpu",
+            "p0-fightladder-br",
             "existing-fightladder-ryu-mirror"
           ]
         }
@@ -14136,8 +14789,8 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "checked": "2026-10-18",
           "caps": [
-            "generalization",
-            "control"
+            "control",
+            "generalization"
           ],
           "agents": [
             "RL"
@@ -14146,7 +14799,25 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-procgen-coinrun",
             "existing-coinrun-heldout"
           ]
         },
@@ -14385,7 +15056,8 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "checked": "2026-10-18",
           "caps": [
-            "control"
+            "control",
+            "generalization"
           ],
           "agents": [
             "RL"
@@ -14394,7 +15066,25 @@ window.ATLAS_DATA = {
             "single"
           ],
           "verification": "reviewed",
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
           "taskUnitIds": [
+            "p0-procgen-dodgeball",
             "existing-dodgeball-control"
           ]
         },
@@ -14979,9 +15669,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-bigfish"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -15231,9 +15943,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-bossfight"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -15390,9 +16124,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-caveflyer"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -15549,9 +16305,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-chaser"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -15708,9 +16486,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-climber"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -15960,9 +16760,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-fruitbot"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -16212,9 +17034,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-heist"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -16371,9 +17215,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-jumper"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -16530,9 +17396,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-leaper"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -16689,9 +17577,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-maze"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -16848,9 +17758,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-miner"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -17007,9 +17939,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-ninja"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -17259,9 +18213,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-plunder"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -17418,9 +18394,31 @@ window.ATLAS_DATA = {
           "relation": "suite",
           "verification": "reviewed",
           "checked": "2026-10-18",
-          "caps": [],
+          "caps": [
+            "generalization"
+          ],
           "agents": [],
-          "interactions": []
+          "interactions": [],
+          "taskReview": {
+            "status": "partial",
+            "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+            "evidence": [
+              {
+                "url": "https://github.com/openai/procgen/blob/master/README.md",
+                "title": "Procgen environments and options",
+                "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+              }
+            ],
+            "checkedAt": "2026-10-31",
+            "reviewedScope": {
+              "zh": "以下列任务及所列官方文档版本为范围。",
+              "en": "Scoped to the tasks and official documentation versions below."
+            }
+          },
+          "taskUnitIds": [
+            "p0-procgen-starpilot"
+          ]
         },
         {
           "benchmark": "GAB071",
@@ -65754,61 +66752,29 @@ window.ATLAS_DATA = {
           "resourceKind": "platform",
           "taskReview": {
             "status": "partial",
-            "noteZh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-            "noteEn": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage.",
+            "noteZh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+            "noteEn": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping.",
             "evidence": [
               {
                 "url": "https://arxiv.org/abs/1905.05013",
                 "title": "Ludii – The Ludemic General Game System",
                 "excerpt": "Section 6 compares completed random playouts per second on listed games under fixed CPU/time/memory constraints; this is engine throughput, not agent playing strength."
+              },
+              {
+                "url": "https://github.com/Ludeme/LudiiExampleAI/blob/master/src/experiments/Tutorial.java",
+                "title": "Ludii official AI tutorial",
+                "excerpt": "Amazons example: RandomAI vs ExampleUCT, 10 games, 0.2 seconds per decision, terminal trial status; recommends seat rotation for fair comparison."
               }
             ],
-            "checkedAt": "2026-10-19",
+            "checkedAt": "2026-10-31",
             "reviewedScope": {
-              "zh": "原文 §6 随机完整对局吞吐量；尚无可接入的 Agent 表现协议。",
-              "en": "Original Section 6 completed-random-playout throughput; no agent-performance protocol yet."
-            },
-            "eligibility": {
-              "decision": "needs_protocol",
-              "reason": "infrastructure_only",
-              "policyVersion": "coverage-policy-v23",
-              "checkedAt": "2026-10-19",
-              "basis": {
-                "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-                "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
-              }
-            },
-            "protocolFollowup": {
-              "previousState": "missing",
-              "outcome": "still_missing",
-              "noteZh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-              "noteEn": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage.",
-              "missing": [
-                {
-                  "field": "agentPerformanceMetric",
-                  "detail": {
-                    "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-                    "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-                  }
-                },
-                {
-                  "field": "evaluationMatchup",
-                  "detail": {
-                    "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-                    "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
-                  }
-                }
-              ],
-              "sources": [
-                {
-                  "url": "https://arxiv.org/abs/1905.05013",
-                  "title": "Ludii – The Ludemic General Game System",
-                  "excerpt": "Section 6 compares completed random playouts per second on listed games under fixed CPU/time/memory constraints; this is engine throughput, not agent playing strength."
-                }
-              ],
-              "checkedAt": "2026-10-19"
+              "zh": "原论文吞吐量与官方对局教程分别标示。",
+              "en": "Original throughput evaluation and official match tutorial are distinguished."
             }
-          }
+          },
+          "taskUnitIds": [
+            "p0-ludii-amazons"
+          ]
         }
       ],
       "note": "此入口依据完整文献目录建立。历史题录关联未逐项复核；游戏机制、任务配置与接口以原始来源为准。"
@@ -159352,6 +160318,58 @@ window.ATLAS_DATA = {
         "source": "https://github.com/balrog-ai/BALROG"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+            "title": "BALROG evaluation configuration",
+            "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+            "title": "BALROG crafter documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+            "title": "BALROG nethack documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+            "title": "BALROG babyai documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+            "title": "BALROG minihack documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+            "title": "BALROG babaisai documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+            "title": "BALROG TextWorld task construction",
+            "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+            "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+            "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB080",
         "status": "confirmed",
@@ -160008,6 +161026,23 @@ window.ATLAS_DATA = {
         "source": "https://github.com/openai/procgen"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/openai/procgen/blob/master/README.md",
+            "title": "Procgen environments and options",
+            "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB001",
         "status": "confirmed",
@@ -160484,6 +161519,23 @@ window.ATLAS_DATA = {
         "source": "https://github.com/google-deepmind/hanabi-learning-environment"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/google-deepmind/hanabi-learning-environment/blob/master/hanabi_learning_environment/rl_env.py",
+            "title": "Hanabi learning environment API",
+            "excerpt": "Player-specific observations, legal moves, score differential reward, terminal state and make defaults."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB010",
         "status": "confirmed",
@@ -160618,6 +161670,28 @@ window.ATLAS_DATA = {
         "source": "https://github.com/google-research/football"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/google-research/football/blob/master/gfootball/doc/scenarios.md",
+            "title": "GRF scenarios",
+            "excerpt": "Academy 3 vs. 1 with Keeper task."
+          },
+          {
+            "url": "https://github.com/google-research/football/blob/master/gfootball/doc/observation.md",
+            "title": "GRF observations and actions",
+            "excerpt": "Raw state, observation wrappers, controlled players and 19 default actions."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB007",
         "status": "confirmed",
@@ -160897,6 +161971,23 @@ window.ATLAS_DATA = {
         "source": "https://github.com/Farama-Foundation/Minigrid"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/Farama-Foundation/Minigrid/blob/main/minigrid/envs/memory.py",
+            "title": "MiniGrid MemoryEnv",
+            "excerpt": "Mission, observation encoding, actions, shaped reward, max_steps and termination implemented in MemoryEnv."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB041",
         "status": "confirmed",
@@ -161014,6 +162105,23 @@ window.ATLAS_DATA = {
         "source": "https://github.com/MarcoMeter/endless-memory-gym"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/MarcoMeter/endless-memory-gym/blob/main/README.md",
+            "title": "Memory Gym endless tasks and reset parameters",
+            "excerpt": "Endless Mortar Mayhem, Mystery Path and Searing Spotlights mechanisms, rewards and termination parameters."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB104",
         "status": "confirmed",
@@ -161154,6 +162262,23 @@ window.ATLAS_DATA = {
         "source": "https://github.com/google-deepmind/dm_alchemy"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/google-deepmind/dm_alchemy/blob/master/docs/index.md",
+            "title": "Alchemy task, actions, observations and settings",
+            "excerpt": "Separate 3D and symbolic interfaces; randomized mapping task, observation fields and action repeats."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB018",
         "status": "confirmed",
@@ -161281,6 +162406,28 @@ window.ATLAS_DATA = {
         "source": "https://github.com/JackHopkins/factorio-learning-environment"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://arxiv.org/html/2503.09617v1#S3.SS1",
+            "title": "FLE paper v1 §3.1",
+            "excerpt": "Open-play: maximum trajectory length 5000, eight independent runs, median Production Score and Milestones."
+          },
+          {
+            "url": "https://github.com/JackHopkins/factorio-learning-environment/blob/main/README.md",
+            "title": "FLE interaction loop",
+            "excerpt": "Python programs as actions and stdout/stderr as observations."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB091",
         "status": "confirmed",
@@ -161412,6 +162559,23 @@ window.ATLAS_DATA = {
         "source": "https://github.com/sjtu-marl/ZSC-Eval"
       },
       "detailLevel": "profile",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/sjtu-marl/ZSC-Eval/blob/master/README.md",
+            "title": "ZSC-Eval toolkit and evaluation workflow",
+            "excerpt": "Behavior-preferring partners, BR-Div selection, BR-Prox measurement and policy pool configuration."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB063",
         "status": "confirmed",
@@ -162698,6 +163862,28 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18"
         }
       ],
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/wenzhe-li/FightLadder/blob/main/README.md",
+            "title": "FightLadder experiment commands",
+            "excerpt": "CPU, IPPO/league training and best-response exploiters; state, side, reset and combo options."
+          },
+          {
+            "url": "https://proceedings.mlr.press/v235/li24q.html",
+            "title": "FightLadder ICML 2024",
+            "excerpt": "Competitive visual MARL with performance and exploitability evaluation."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB076",
         "status": "confirmed",
@@ -163306,6 +164492,28 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18"
         }
       ],
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/minigame_setting.md",
+            "title": "CivRealm mini-game settings",
+            "excerpt": "Fourteen task types, three difficulty levels, score threshold and round-limit termination."
+          },
+          {
+            "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/fullgame_observation.md",
+            "title": "CivRealm observation and available actions",
+            "excerpt": "map, unit, city and player observations; available actions under unit, city, diplomacy, government and technology."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB075",
         "status": "confirmed",
@@ -164404,6 +165612,23 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18"
         }
       ],
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/Farama-Foundation/ViZDoom/blob/main/scenarios/deadly_corridor.cfg",
+            "title": "ViZDoom deadly_corridor.cfg",
+            "excerpt": "Scenario path, skill, rendering, available buttons, death penalty and episode_timeout."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-vizdoom",
         "status": "confirmed",
@@ -164892,6 +166117,28 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18"
         }
       ],
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/microsoft/TextWorld/blob/main/textworld/challenges/tw_cooking/cooking.py",
+            "title": "TextWorld cooking generator",
+            "excerpt": "Cooking goal, skills and food/preparation train/valid/test splits."
+          },
+          {
+            "url": "https://github.com/microsoft/TextWorld/blob/main/README.md",
+            "title": "TextWorld Gym interface",
+            "excerpt": "Text-command interface and max_episode_steps registration."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-textworld",
         "status": "confirmed",
@@ -165672,6 +166919,23 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18"
         }
       ],
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/openai/coinrun/blob/master/README.md",
+            "title": "CoinRun training and evaluation commands",
+            "excerpt": "500-level training example, set-seed, train-eval and test-eval episode formulas and sampling caveat."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-coinrun",
         "status": "confirmed",
@@ -166615,6 +167879,23 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18"
         }
       ],
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://arxiv.org/html/2610.12596v1",
+            "title": "SpireBench paper v1, §2 and Appendix C",
+            "excerpt": "Complete game with text tool actions; A20 Ironclad and ten shared seeds."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-spirebench",
         "status": "confirmed",
@@ -166975,6 +168256,28 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18"
         }
       ],
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/cameronangliss/vgc-bench/blob/main/vgc_bench/eval.py",
+            "title": "VGC-Bench evaluation code",
+            "excerpt": "cross_eval_all_agents: five runs, battle counts, payoff matrix and Alpha-Rank."
+          },
+          {
+            "url": "https://github.com/cameronangliss/vgc-bench/blob/main/README.md",
+            "title": "VGC-Bench setup and interfaces",
+            "excerpt": "Pinned Showdown submodule, RL/BC/LLM interfaces and evaluation workflow."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-vgc-bench",
         "status": "confirmed",
@@ -167305,6 +168608,23 @@ window.ATLAS_DATA = {
           "checked": "2026-10-18"
         }
       ],
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/TTomilin/COMRAD/blob/main/docs/scenarios/ammo_carrier.md",
+            "title": "COMRAD Ammo Carrier scenario",
+            "excerpt": "Exact environment ID, observation, action heads, shared_reward, episode limit and true_objective."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-comrad",
         "status": "confirmed",
@@ -189342,59 +190662,24 @@ window.ATLAS_DATA = {
       "resourceKind": "platform",
       "taskReview": {
         "status": "partial",
-        "noteZh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-        "noteEn": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage.",
+        "noteZh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+        "noteEn": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping.",
         "evidence": [
           {
             "url": "https://arxiv.org/abs/1905.05013",
             "title": "Ludii – The Ludemic General Game System",
             "excerpt": "Section 6 compares completed random playouts per second on listed games under fixed CPU/time/memory constraints; this is engine throughput, not agent playing strength."
+          },
+          {
+            "url": "https://github.com/Ludeme/LudiiExampleAI/blob/master/src/experiments/Tutorial.java",
+            "title": "Ludii official AI tutorial",
+            "excerpt": "Amazons example: RandomAI vs ExampleUCT, 10 games, 0.2 seconds per decision, terminal trial status; recommends seat rotation for fair comparison."
           }
         ],
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-31",
         "reviewedScope": {
-          "zh": "原文 §6 随机完整对局吞吐量；尚无可接入的 Agent 表现协议。",
-          "en": "Original Section 6 completed-random-playout throughput; no agent-performance protocol yet."
-        },
-        "eligibility": {
-          "decision": "needs_protocol",
-          "reason": "infrastructure_only",
-          "policyVersion": "coverage-policy-v23",
-          "checkedAt": "2026-10-19",
-          "basis": {
-            "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-            "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
-          }
-        },
-        "protocolFollowup": {
-          "previousState": "missing",
-          "outcome": "still_missing",
-          "noteZh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-          "noteEn": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage.",
-          "missing": [
-            {
-              "field": "agentPerformanceMetric",
-              "detail": {
-                "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-                "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-              }
-            },
-            {
-              "field": "evaluationMatchup",
-              "detail": {
-                "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-                "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
-              }
-            }
-          ],
-          "sources": [
-            {
-              "url": "https://arxiv.org/abs/1905.05013",
-              "title": "Ludii – The Ludemic General Game System",
-              "excerpt": "Section 6 compares completed random playouts per second on listed games under fixed CPU/time/memory constraints; this is engine throughput, not agent playing strength."
-            }
-          ],
-          "checkedAt": "2026-10-19"
+          "zh": "原论文吞吐量与官方对局教程分别标示。",
+          "en": "Original throughput evaluation and official match tutorial are distinguished."
         }
       },
       "agentReview": {
@@ -222549,6 +223834,66 @@ window.ATLAS_DATA = {
       "executionVerified": false
     },
     {
+      "id": "p0-ludii-amazons",
+      "gameIds": [
+        "ludii-games"
+      ],
+      "label": {
+        "zh": "Amazons：官方 Agent 对局示例",
+        "en": "Amazons: official agent-match example"
+      },
+      "task": {
+        "zh": "载入 Amazons.lud，运行 RandomAI 与 ExampleUCT 对局。",
+        "en": "Load Amazons.lud and play RandomAI against ExampleUCT."
+      },
+      "observation": {
+        "zh": "Java Context 的棋盘与当前状态。",
+        "en": "Board and current game state in Java Context."
+      },
+      "action": {
+        "zh": "从 game.moves(context) 的合法 Move 中选择并应用。",
+        "en": "Select and apply a legal Move from game.moves(context)."
+      },
+      "metrics": {
+        "zh": "读取终局 trial.status() 的对局结果。",
+        "en": "Read the match outcome from terminal trial.status()."
+      },
+      "controls": {
+        "zh": "教程运行 10 局，每次 selectAction 提供 0.2 秒思考预算；公平比较需轮换座位。",
+        "en": "Tutorial runs 10 games with 0.2 seconds per selectAction; fair comparison requires seat rotation."
+      },
+      "limits": {
+        "zh": "官方 API 示例，不是原论文棋力实验或统一标准测试集；原文吞吐量实验另行保留。",
+        "en": "Official API example, not the paper’s playing-strength experiment or a standardized test set; the original throughput experiment is separate."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Ludeme/LudiiExampleAI/blob/master/src/experiments/Tutorial.java",
+          "title": "Ludii official AI tutorial",
+          "excerpt": "Amazons example: RandomAI vs ExampleUCT, 10 games, 0.2 seconds per decision, terminal trial status; recommends seat rotation for fair comparison."
+        }
+      ],
+      "capabilities": [],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "教程示例：10 局、0.2 秒/决策。",
+          "en": "Tutorial example: 10 games, 0.2 seconds per decision."
+        },
+        "termination": {
+          "zh": "trial.over()，按 Amazons 规则终局。",
+          "en": "trial.over(), following Amazons terminal rules."
+        }
+      },
+      "benchmark": "GAB012",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
       "id": "TOP-20-hidden-role",
       "label": {
         "zh": "隐藏身份推理与欺骗",
@@ -235152,6 +236497,2963 @@ window.ATLAS_DATA = {
       "executionVerified": false
     },
     {
+      "id": "p0-balrog-crafter",
+      "gameIds": [
+        "crafter"
+      ],
+      "label": {
+        "zh": "Crafter：生存与成就",
+        "en": "Crafter: survival and achievements"
+      },
+      "task": {
+        "zh": "采集、合成和生存，在二维随机地图中逐步解锁成就。",
+        "en": "Gather, craft and survive while unlocking achievements in procedurally generated 2D worlds."
+      },
+      "observation": {
+        "zh": "SmartPlay 风格的局部场景和状态文字；VLM 模式可增加图像历史。",
+        "en": "SmartPlay-style local scene and state text; VLM mode can additionally use image history."
+      },
+      "action": {
+        "zh": "17 个文字动作映射到离散操作，包括移动、Do、Sleep、放置设施和制作工具或武器。",
+        "en": "17 text actions map to discrete controls: movement, Do, Sleep, placing facilities and crafting tools or weapons."
+      },
+      "metrics": {
+        "zh": "score 为已解锁的不同成就数；progression = score / 22。逐项 achievements 同时保留，用于区分资源、制作和战斗进展。",
+        "en": "score counts distinct unlocked achievements; progression = score / 22. The achievements dictionary is retained to separate resource, crafting and combat progress."
+      },
+      "controls": {
+        "zh": "当前配置每环境 10 局；地图 64×64，局部视野 9×9，图像 256×256；每局最多 2000 步。",
+        "en": "Current configuration: 10 episodes, 64×64 world, 9×9 view, 256×256 images and at most 2,000 steps per episode."
+      },
+      "limits": {
+        "zh": "此项采用 BALROG 包装与配置，不能直接等同原生环境的训练协议。",
+        "en": "This uses the BALROG wrapper and configuration, rather than the native environment training protocol."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+          "title": "BALROG evaluation configuration",
+          "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+          "title": "BALROG crafter documentation",
+          "excerpt": "Environment-specific task construction and language observation wrapper."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+          "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+          "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "long-horizon",
+          "role": "primary",
+          "basis": {
+            "zh": "资源获取与合成构成连续阶段，成就用于记录执行进展。",
+            "en": "Gathering and crafting form successive stages; achievements record progress."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "BALROG main 配置快照；参数取自 config.yaml，不将其默认值视为所有论文实验的设置。",
+          "en": "BALROG main configuration snapshot; config.yaml defaults are not asserted to be the settings of every paper experiment."
+        }
+      },
+      "benchmark": "balrog",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-balrog-nethack",
+      "gameIds": [
+        "nethack"
+      ],
+      "label": {
+        "zh": "NetHackChallenge-v0：地下城进展",
+        "en": "NetHackChallenge-v0: dungeon progression"
+      },
+      "task": {
+        "zh": "深入地牢、取得 Amulet of Yendor 并返回地表；未通关运行仍记录阶段进展。",
+        "en": "Descend, retrieve the Amulet of Yendor and ascend; incomplete runs retain progression measures."
+      },
+      "observation": {
+        "zh": "glyphs、状态、物品栏和终端信息转为文字；可启用图像。",
+        "en": "Glyphs, statistics, inventory and terminal information translated into text; optional images."
+      },
+      "action": {
+        "zh": "north、wait、apply 等命令映射到 NLE 离散动作。",
+        "en": "Commands such as north, wait and apply map to NLE actions."
+      },
+      "metrics": {
+        "zh": "以人类通关数据校准的地牢深度和经验等级进展取较大值，起点为 0%、ascension 为 100%；与原生游戏分数分开。",
+        "en": "Progress is the larger of human-calibrated dungeon-depth and experience-level progress; starting state is 0% and ascension 100%, distinct from native score."
+      },
+      "controls": {
+        "zh": "配置每环境 5 局；max_episode_steps=100000，no_progress_timeout=150。",
+        "en": "Configuration uses 5 episodes, max_episode_steps=100000 and no_progress_timeout=150."
+      },
+      "limits": {
+        "zh": "此项采用 BALROG 包装与配置，不能直接等同原生环境的训练协议。",
+        "en": "This uses the BALROG wrapper and configuration, rather than the native environment training protocol."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+          "title": "BALROG evaluation configuration",
+          "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+          "title": "BALROG nethack documentation",
+          "excerpt": "Environment-specific task construction and language observation wrapper."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "long-horizon",
+          "role": "primary",
+          "basis": {
+            "zh": "通关需持续推进多个地牢阶段，评价保留未完成时的进展。",
+            "en": "Completion spans multiple dungeon stages; evaluation retains incomplete-run progress."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "BALROG main 配置快照；参数取自 config.yaml，不将其默认值视为所有论文实验的设置。",
+          "en": "BALROG main configuration snapshot; config.yaml defaults are not asserted to be the settings of every paper experiment."
+        }
+      },
+      "benchmark": "balrog",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-balrog-babyai",
+      "gameIds": [
+        "babyai"
+      ],
+      "label": {
+        "zh": "BabyAI：五类语言指令",
+        "en": "BabyAI: five instruction families"
+      },
+      "task": {
+        "zh": "执行 goto、pickup、open、putnext 和 pick_up_seq_go_to 指令。",
+        "en": "Execute goto, pickup, open, putnext and pick_up_seq_go_to missions."
+      },
+      "observation": {
+        "zh": "可见物体、门状态和携带物体的模板化文字描述。",
+        "en": "Templated descriptions of visible objects, doors and carried objects."
+      },
+      "action": {
+        "zh": "转向、移动以及与物体交互的环境动作。",
+        "en": "Environment actions for turning, movement and object interaction."
+      },
+      "metrics": {
+        "zh": "分别记录任务是否完成及各指令类的完成比例。",
+        "en": "Record mission completion and completion rates by instruction family."
+      },
+      "controls": {
+        "zh": "配置每类任务 10 局，num_dists=0；步数上限沿用环境设置。",
+        "en": "Configuration uses 10 episodes per task and num_dists=0; step limits follow the environment."
+      },
+      "limits": {
+        "zh": "此项采用 BALROG 包装与配置，不能直接等同原生环境的训练协议。",
+        "en": "This uses the BALROG wrapper and configuration, rather than the native environment training protocol."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+          "title": "BALROG evaluation configuration",
+          "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+          "title": "BALROG babyai documentation",
+          "excerpt": "Environment-specific task construction and language observation wrapper."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "planning",
+          "role": "secondary",
+          "basis": {
+            "zh": "序列指令涉及先取物再导航的依赖；其他指令为基础操作。",
+            "en": "Sequence missions involve pickup-before-navigation dependencies; other families test basic operations."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "BALROG main 配置快照；参数取自 config.yaml，不将其默认值视为所有论文实验的设置。",
+          "en": "BALROG main configuration snapshot; config.yaml defaults are not asserted to be the settings of every paper experiment."
+        }
+      },
+      "benchmark": "balrog",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-balrog-minihack",
+      "gameIds": [
+        "minihack"
+      ],
+      "label": {
+        "zh": "MiniHack：导航、Quest 与 Boxoban",
+        "en": "MiniHack: navigation, Quest and Boxoban"
+      },
+      "task": {
+        "zh": "八个配置任务涵盖迷宫、走廊战斗、使用物品过熔岩及推四块石头到目标位置。",
+        "en": "Eight configured tasks cover mazes, corridor combat, object-mediated lava crossing and pushing four boulders onto targets."
+      },
+      "observation": {
+        "zh": "使用 NetHack Language Wrapper 描述位置、物体、物品栏与状态。",
+        "en": "NetHack Language Wrapper exposes positions, objects, inventory and state."
+      },
+      "action": {
+        "zh": "环境特定的方向、搜索、开门和物品使用动作。",
+        "en": "Task-specific movement, search, door and item-use actions."
+      },
+      "metrics": {
+        "zh": "分任务报告目标完成情况，避免将不同任务的奖励尺度直接相加。",
+        "en": "Report completion by task; task reward scales are not directly additive."
+      },
+      "controls": {
+        "zh": "每个任务 5 局；max_episode_steps=100，penalty_step=-0.01；任务 ID 清单见配置。",
+        "en": "Five episodes per task; max_episode_steps=100, penalty_step=-0.01; exact IDs are listed in the configuration."
+      },
+      "limits": {
+        "zh": "此项采用 BALROG 包装与配置，不能直接等同原生环境的训练协议。",
+        "en": "This uses the BALROG wrapper and configuration, rather than the native environment training protocol."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+          "title": "BALROG evaluation configuration",
+          "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+          "title": "BALROG minihack documentation",
+          "excerpt": "Environment-specific task construction and language observation wrapper."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "planning",
+          "role": "primary",
+          "basis": {
+            "zh": "Quest 的工具依赖与 Boxoban 的不可逆推箱动作要求行动顺序。",
+            "en": "Quest tool dependencies and irreversible Boxoban pushes require ordered actions."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "BALROG main 配置快照；参数取自 config.yaml，不将其默认值视为所有论文实验的设置。",
+          "en": "BALROG main configuration snapshot; config.yaml defaults are not asserted to be the settings of every paper experiment."
+        }
+      },
+      "benchmark": "balrog",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-balrog-babaisai",
+      "gameIds": [
+        "baba-is-ai"
+      ],
+      "label": {
+        "zh": "Baba Is AI：规则重组谜题",
+        "en": "Baba Is AI: rule-rewriting puzzles"
+      },
+      "task": {
+        "zh": "通过移动物体与文字规则块改变规则并满足胜利条件。",
+        "en": "Move objects and rule blocks to change rules and satisfy the win condition."
+      },
+      "observation": {
+        "zh": "激活规则及相对物体位置；文字模式不提供解法或网格边界。",
+        "en": "Active rules and relative object positions; text mode omits solutions and grid boundaries."
+      },
+      "action": {
+        "zh": "网格移动和推动文字、物体。",
+        "en": "Grid movement and pushing words or objects."
+      },
+      "metrics": {
+        "zh": "按关卡记录解谜成功，并汇总关卡完成比例。",
+        "en": "Record puzzle success by level and aggregate completion rates."
+      },
+      "controls": {
+        "zh": "40 个配置关卡，每关 3 局，add_ruleset=True；各关终止条件由环境决定。",
+        "en": "40 configured levels, 3 episodes each and add_ruleset=True; termination is environment-specific."
+      },
+      "limits": {
+        "zh": "此项采用 BALROG 包装与配置，不能直接等同原生环境的训练协议。",
+        "en": "This uses the BALROG wrapper and configuration, rather than the native environment training protocol."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+          "title": "BALROG evaluation configuration",
+          "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+          "title": "BALROG babaisai documentation",
+          "excerpt": "Environment-specific task construction and language observation wrapper."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "rule-reasoning",
+          "role": "primary",
+          "basis": {
+            "zh": "通过重组文字改变有效规则，直接涉及规则与约束推理。",
+            "en": "Rearranging words changes active rules and directly involves rule reasoning."
+          }
+        },
+        {
+          "id": "planning",
+          "role": "secondary",
+          "basis": {
+            "zh": "推块位置与后续可达性相互依赖。",
+            "en": "Block positions constrain subsequent reachability."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "BALROG main 配置快照；参数取自 config.yaml，不将其默认值视为所有论文实验的设置。",
+          "en": "BALROG main configuration snapshot; config.yaml defaults are not asserted to be the settings of every paper experiment."
+        }
+      },
+      "benchmark": "balrog",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-balrog-textworld-treasure",
+      "gameIds": [
+        "textworld"
+      ],
+      "label": {
+        "zh": "TextWorld：Treasure Hunter",
+        "en": "TextWorld: Treasure Hunter"
+      },
+      "task": {
+        "zh": "寻找目标宝物，操作门和容器。",
+        "en": "Find target treasure by manipulating doors and containers."
+      },
+      "observation": {
+        "zh": "场景反馈、目标和分数等文字信息。",
+        "en": "Textual scene feedback, objective and score information."
+      },
+      "action": {
+        "zh": "游戏解析器接受的文字命令。",
+        "en": "Text commands accepted by the game parser."
+      },
+      "metrics": {
+        "zh": "各实例游戏得分及是否获胜；归一化时保留 max_score。",
+        "en": "Per-instance score and win status, retaining max_score for normalization."
+      },
+      "controls": {
+        "zh": "20 个房间，难度 30，移除解法；过滤最优解不超过 20 步的实例。 配置每任务 10 局、每局最多 80 步。",
+        "en": "20 rooms, difficulty 30, no solution text; exclude instances solvable optimally in at most 20 steps. Configuration: 10 episodes per task and at most 80 steps per episode."
+      },
+      "limits": {
+        "zh": "这是 BALROG 选定的 TextWorld 设置，不代表所有 TextWorld 生成游戏。",
+        "en": "These are BALROG-selected TextWorld settings, not every generated TextWorld game."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+          "title": "BALROG evaluation configuration",
+          "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+          "title": "BALROG TextWorld task construction",
+          "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "planning",
+          "role": "primary",
+          "basis": {
+            "zh": "路径与物品操作需满足任务目标的先后依赖。",
+            "en": "Navigation and object actions must satisfy quest dependencies."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "每任务 10 局；每局上限 80 步。",
+          "en": "10 episodes per task; limit of 80 steps per episode."
+        }
+      },
+      "benchmark": "balrog",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-balrog-textworld-cooking",
+      "gameIds": [
+        "textworld"
+      ],
+      "label": {
+        "zh": "TextWorld：The Cooking Game",
+        "en": "TextWorld: The Cooking Game"
+      },
+      "task": {
+        "zh": "收集配方食材，依次切配、烹饪并完成餐食任务。",
+        "en": "Collect recipe ingredients, prepare and cook them in order, then complete the meal quest."
+      },
+      "observation": {
+        "zh": "场景反馈、目标和分数等文字信息。",
+        "en": "Textual scene feedback, objective and score information."
+      },
+      "action": {
+        "zh": "游戏解析器接受的文字命令。",
+        "en": "Text commands accepted by the game parser."
+      },
+      "metrics": {
+        "zh": "各实例游戏得分及是否获胜；归一化时保留 max_score。",
+        "en": "Per-instance score and win status, retaining max_score for normalization."
+      },
+      "controls": {
+        "zh": "13 个房间，最多 5 种食材，启用额外难度选项。 配置每任务 10 局、每局最多 80 步。",
+        "en": "13 rooms, up to 5 ingredients and additional difficulty options enabled. Configuration: 10 episodes per task and at most 80 steps per episode."
+      },
+      "limits": {
+        "zh": "这是 BALROG 选定的 TextWorld 设置，不代表所有 TextWorld 生成游戏。",
+        "en": "These are BALROG-selected TextWorld settings, not every generated TextWorld game."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+          "title": "BALROG evaluation configuration",
+          "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+          "title": "BALROG TextWorld task construction",
+          "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "planning",
+          "role": "primary",
+          "basis": {
+            "zh": "路径与物品操作需满足任务目标的先后依赖。",
+            "en": "Navigation and object actions must satisfy quest dependencies."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "每任务 10 局；每局上限 80 步。",
+          "en": "10 episodes per task; limit of 80 steps per episode."
+        }
+      },
+      "benchmark": "balrog",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-balrog-textworld-coin",
+      "gameIds": [
+        "textworld"
+      ],
+      "label": {
+        "zh": "TextWorld：Coin Collector",
+        "en": "TextWorld: Coin Collector"
+      },
+      "task": {
+        "zh": "在带干扰房间的地图中导航至目标硬币。",
+        "en": "Navigate a map with distractor rooms to the target coin."
+      },
+      "observation": {
+        "zh": "场景反馈、目标和分数等文字信息。",
+        "en": "Textual scene feedback, objective and score information."
+      },
+      "action": {
+        "zh": "游戏解析器接受的文字命令。",
+        "en": "Text commands accepted by the game parser."
+      },
+      "metrics": {
+        "zh": "各实例游戏得分及是否获胜；归一化时保留 max_score。",
+        "en": "Per-instance score and win status, retaining max_score for normalization."
+      },
+      "controls": {
+        "zh": "40 个房间，最优路径 20 步，移除解法描述。 配置每任务 10 局、每局最多 80 步。",
+        "en": "40 rooms, optimal path of 20 steps and no solution description. Configuration: 10 episodes per task and at most 80 steps per episode."
+      },
+      "limits": {
+        "zh": "这是 BALROG 选定的 TextWorld 设置，不代表所有 TextWorld 生成游戏。",
+        "en": "These are BALROG-selected TextWorld settings, not every generated TextWorld game."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+          "title": "BALROG evaluation configuration",
+          "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+        },
+        {
+          "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+          "title": "BALROG TextWorld task construction",
+          "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "planning",
+          "role": "primary",
+          "basis": {
+            "zh": "路径与物品操作需满足任务目标的先后依赖。",
+            "en": "Navigation and object actions must satisfy quest dependencies."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "每任务 10 局；每局上限 80 步。",
+          "en": "10 episodes per task; limit of 80 steps per episode."
+        }
+      },
+      "benchmark": "balrog",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-bigfish",
+      "gameIds": [
+        "procgen-bigfish"
+      ],
+      "label": {
+        "zh": "bigfish：程序生成关卡",
+        "en": "bigfish: procedurally generated levels"
+      },
+      "task": {
+        "zh": "吃较小的鱼以长大，避免被较大鱼吞食。",
+        "en": "Eat smaller fish to grow while avoiding larger fish."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-bossfight",
+      "gameIds": [
+        "procgen-bossfight"
+      ],
+      "label": {
+        "zh": "bossfight：程序生成关卡",
+        "en": "bossfight: procedurally generated levels"
+      },
+      "task": {
+        "zh": "躲避弹幕，在 Boss 护盾关闭时攻击并击败它。",
+        "en": "Dodge projectiles and attack the boss when its shield drops."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-caveflyer",
+      "gameIds": [
+        "procgen-caveflyer"
+      ],
+      "label": {
+        "zh": "caveflyer：程序生成关卡",
+        "en": "caveflyer: procedurally generated levels"
+      },
+      "task": {
+        "zh": "驾驶飞船穿越洞穴到达出口，可射击目标取得额外奖励。",
+        "en": "Fly through caves to the exit, optionally shooting reward targets."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-chaser",
+      "gameIds": [
+        "procgen-chaser"
+      ],
+      "label": {
+        "zh": "chaser：程序生成关卡",
+        "en": "chaser: procedurally generated levels"
+      },
+      "task": {
+        "zh": "在迷宫中收集全部绿球，并躲避或利用强化状态消灭敌人。",
+        "en": "Collect every orb in a maze while avoiding enemies or eating them during power-ups."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-climber",
+      "gameIds": [
+        "procgen-climber"
+      ],
+      "label": {
+        "zh": "climber：程序生成关卡",
+        "en": "climber: procedurally generated levels"
+      },
+      "task": {
+        "zh": "跳上平台收集所有星星并避开飞行怪物。",
+        "en": "Climb platforms to collect all stars while avoiding flying monsters."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-coinrun",
+      "gameIds": [
+        "procgen-coinrun"
+      ],
+      "label": {
+        "zh": "coinrun：程序生成关卡",
+        "en": "coinrun: procedurally generated levels"
+      },
+      "task": {
+        "zh": "跨越障碍与沟壑，取得关卡最右端的硬币。",
+        "en": "Cross obstacles and gaps to collect the coin at the right end."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-dodgeball",
+      "gameIds": [
+        "procgen-dodgeball"
+      ],
+      "label": {
+        "zh": "dodgeball：程序生成关卡",
+        "en": "dodgeball: procedurally generated levels"
+      },
+      "task": {
+        "zh": "避开墙和敌方投掷物，击中所有敌人后到达解锁平台。",
+        "en": "Avoid walls and projectiles, hit every enemy and reach the unlocked platform."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-fruitbot",
+      "gameIds": [
+        "procgen-fruitbot"
+      ],
+      "label": {
+        "zh": "fruitbot：程序生成关卡",
+        "en": "fruitbot: procedurally generated levels"
+      },
+      "task": {
+        "zh": "穿过墙间缝隙收集水果，避开非水果物体并到达终点。",
+        "en": "Navigate gaps, collect fruit, avoid non-fruit objects and reach the end."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-heist",
+      "gameIds": [
+        "procgen-heist"
+      ],
+      "label": {
+        "zh": "heist：程序生成关卡",
+        "en": "heist: procedurally generated levels"
+      },
+      "task": {
+        "zh": "收集相应颜色钥匙并打开锁，取得宝石。",
+        "en": "Collect colored keys, unlock matching locks and obtain the gem."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-jumper",
+      "gameIds": [
+        "procgen-jumper"
+      ],
+      "label": {
+        "zh": "jumper：程序生成关卡",
+        "en": "jumper: procedurally generated levels"
+      },
+      "task": {
+        "zh": "在平台地图中跳跃、躲避障碍并到达胡萝卜。",
+        "en": "Jump through platforms and hazards to reach the carrot."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-leaper",
+      "gameIds": [
+        "procgen-leaper"
+      ],
+      "label": {
+        "zh": "leaper：程序生成关卡",
+        "en": "leaper: procedurally generated levels"
+      },
+      "task": {
+        "zh": "穿越车流与河流，利用漂浮木头到达目标。",
+        "en": "Cross traffic and rivers using floating logs to reach the goal."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-maze",
+      "gameIds": [
+        "procgen-maze"
+      ],
+      "label": {
+        "zh": "maze：程序生成关卡",
+        "en": "maze: procedurally generated levels"
+      },
+      "task": {
+        "zh": "在迷宫中找到奶酪目标。",
+        "en": "Navigate the maze to the cheese."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-miner",
+      "gameIds": [
+        "procgen-miner"
+      ],
+      "label": {
+        "zh": "miner：程序生成关卡",
+        "en": "miner: procedurally generated levels"
+      },
+      "task": {
+        "zh": "挖开泥土，避开坠落石块，收集全部钻石后到达出口。",
+        "en": "Dig through dirt, avoid falling rocks, collect every diamond and reach the exit."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-ninja",
+      "gameIds": [
+        "procgen-ninja"
+      ],
+      "label": {
+        "zh": "ninja：程序生成关卡",
+        "en": "ninja: procedurally generated levels"
+      },
+      "task": {
+        "zh": "在窄平台上蓄力跳跃，避开炸弹，取得终点蘑菇。",
+        "en": "Charge jumps across narrow platforms, avoid bombs and collect the final mushroom."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-plunder",
+      "gameIds": [
+        "procgen-plunder"
+      ],
+      "label": {
+        "zh": "plunder：程序生成关卡",
+        "en": "plunder: procedurally generated levels"
+      },
+      "task": {
+        "zh": "按屏幕目标颜色射击敌船，避免友军并管理剩余时间。",
+        "en": "Shoot ships of the target color, avoid friendly ships and manage the timer."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-procgen-starpilot",
+      "gameIds": [
+        "procgen-starpilot"
+      ],
+      "label": {
+        "zh": "starpilot：程序生成关卡",
+        "en": "starpilot: procedurally generated levels"
+      },
+      "task": {
+        "zh": "驾驶飞船在横向卷轴中躲避弹幕、陨石并射击敌人。",
+        "en": "Pilot a ship through scrolling projectiles and meteors while shooting enemies."
+      },
+      "observation": {
+        "zh": "64×64×3 RGB；Gym3 接口以 rgb 字段返回。",
+        "en": "64×64×3 RGB, returned as rgb by the Gym3 interface."
+      },
+      "action": {
+        "zh": "Discrete(15) 按键组合；不同游戏使用其中不同操作。",
+        "en": "Discrete(15) button combinations; effective actions vary by game."
+      },
+      "metrics": {
+        "zh": "episode_return 为单局累计奖励；可用 prev_level_complete 记录关卡完成，奖励机制按本游戏定义。",
+        "en": "episode_return records cumulative reward; prev_level_complete records completion where applicable. Rewards follow this game’s rules."
+      },
+      "controls": {
+        "zh": "用 start_level 与 num_levels 定义关卡集合，报告训练/测试种子范围、distribution_mode 和训练预算；默认 hard，num_levels=0 表示无限关卡。",
+        "en": "Define level sets with start_level and num_levels; report train/test seed ranges, distribution_mode and training budget. Defaults are hard and num_levels=0 for unlimited levels."
+      },
+      "limits": {
+        "zh": "此处为 Procgen 版本；原版 CoinRun 单列。程序生成本身不等于已设定训练测试划分。",
+        "en": "This is the Procgen version; original CoinRun is separate. Procedural generation alone does not define a train/test split."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/procgen/blob/master/README.md",
+          "title": "Procgen environments and options",
+          "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "固定训练种子集合，并在不同种子生成的同游戏关卡上测试。",
+            "en": "Train on a fixed seed set and test on levels of the same game generated from different seeds."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练步数与评估局数由实验配置指定，不能从默认无限关卡设置推出。",
+          "en": "Training steps and evaluation episodes are experiment parameters, not implied by unlimited level generation."
+        }
+      },
+      "benchmark": "procgen",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-minigrid-memory",
+      "gameIds": [
+        "minigrid"
+      ],
+      "label": {
+        "zh": "Memory：延迟物体匹配",
+        "en": "Memory: delayed object matching"
+      },
+      "task": {
+        "zh": "观察起点物体，穿过走廊后选择相同物体所在分支。",
+        "en": "Observe an initial object, traverse a corridor and choose its matching branch."
+      },
+      "observation": {
+        "zh": "局部网格以物体、颜色、状态三元组编码；墙体遮挡可见范围。",
+        "en": "Local cells encode object, color and state; walls occlude visibility."
+      },
+      "action": {
+        "zh": "七类离散动作接口；实际导航使用转向与前进。",
+        "en": "Seven-action discrete interface, with turning and forward movement for navigation."
+      },
+      "metrics": {
+        "zh": "成功奖励 1−0.9×step_count/max_steps；失败为 0，不能把该奖励直接当成成功率。",
+        "en": "Success reward is 1−0.9×step_count/max_steps; failure yields 0. This shaped reward is distinct from success rate."
+      },
+      "controls": {
+        "zh": "选择 S11、S13 或 Random 变体；默认 max_steps=5×size²，报告 size、random_length 和种子。",
+        "en": "Select S11, S13 or Random variants; default max_steps=5×size². Report size, random_length and seeds."
+      },
+      "limits": {
+        "zh": "仅为 MiniGrid Memory，不代表 MiniWorld 或整个 MiniGrid 家族。",
+        "en": "Specific to MiniGrid Memory, not MiniWorld or the entire MiniGrid family."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Farama-Foundation/Minigrid/blob/main/minigrid/envs/memory.py",
+          "title": "MiniGrid MemoryEnv",
+          "excerpt": "Mission, observation encoding, actions, shaped reward, max_steps and termination implemented in MemoryEnv."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "memory",
+          "role": "primary",
+          "basis": {
+            "zh": "决策点已看不到起点物体，需保留早期信息。",
+            "en": "The initial object is no longer visible at the decision point."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "默认每局 5×size² 步；评估局数另行指定。",
+          "en": "Default episode limit: 5×size² steps; evaluation episode count is separate."
+        },
+        "termination": {
+          "zh": "到达正确或错误分支，或步数耗尽。",
+          "en": "Correct branch, incorrect branch or step timeout."
+        }
+      },
+      "benchmark": "minigrid",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-comrad-ammo",
+      "gameIds": [
+        "doom"
+      ],
+      "label": {
+        "zh": "Ammo Carrier：供弹与防守",
+        "en": "Ammo Carrier: resupply and defense"
+      },
+      "task": {
+        "zh": "固定一名不能移动的防守者与一名补给员，后者从补给站运送弹药。",
+        "en": "An immobile defender holds a hub while a runner carries ammunition from depots."
+      },
+      "observation": {
+        "zh": "每个 Agent 的 72×128×3 第一人称 RGB；additional_input=True 可增加测量向量。",
+        "en": "Per-agent 72×128×3 first-person RGB; additional_input=True enables measurements."
+      },
+      "action": {
+        "zh": "四个动作头：转向 3、前进 2、横移 3、攻击 2。",
+        "en": "Four action heads: turn 3, move 2, strafe 3 and attack 2."
+      },
+      "metrics": {
+        "zh": "报告 info[true_objective] 的存活步数；击杀、供弹等奖励仅为训练塑形信号。",
+        "en": "Report survival steps from info[true_objective]; kills and resupply rewards are training shaping signals."
+      },
+      "controls": {
+        "zh": "comrad/ammo_carrier-v0；2 个 Agent，2100 步上限，默认 shared_reward=0。",
+        "en": "comrad/ammo_carrier-v0; 2 agents, 2,100-step limit, shared_reward=0 by default."
+      },
+      "limits": {
+        "zh": "固定角色非对称协作；不能用训练奖励替代存活时间评分。",
+        "en": "Fixed asymmetric roles; shaped training rewards do not replace survival scoring."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/TTomilin/COMRAD/blob/main/docs/scenarios/ammo_carrier.md",
+          "title": "COMRAD Ammo Carrier scenario",
+          "excerpt": "Exact environment ID, observation, action heads, shared_reward, episode limit and true_objective."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "coordination",
+          "role": "primary",
+          "basis": {
+            "zh": "补给时机与防守持续性相互依赖。",
+            "en": "Resupply timing and sustained defense depend on each other."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "每局最多 2100 环境步。",
+          "en": "At most 2,100 environment steps per episode."
+        }
+      },
+      "benchmark": "SUP-comrad",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-vizdoom-corridor",
+      "gameIds": [
+        "doom"
+      ],
+      "label": {
+        "zh": "Deadly Corridor：走廊推进",
+        "en": "Deadly Corridor: corridor traversal"
+      },
+      "task": {
+        "zh": "在敌人火力下沿走廊推进至终点目标。",
+        "en": "Advance through an enemy-filled corridor to its end goal."
+      },
+      "observation": {
+        "zh": "320×240 屏幕，关闭 HUD 与屏幕闪烁；配置另暴露 HEALTH。",
+        "en": "320×240 screen with HUD and flashes disabled; HEALTH is also exposed by the config."
+      },
+      "action": {
+        "zh": "左右平移、前后移动、左右转向和攻击七个按钮，可组合输入。",
+        "en": "Seven buttons for strafing, movement, turning and attack, combinable as inputs."
+      },
+      "metrics": {
+        "zh": "记录场景累计奖励；配置给出 death_penalty=100。具体奖励由 WAD/场景逻辑定义。",
+        "en": "Record scenario return; configuration sets death_penalty=100. Reward logic is defined by the WAD/scenario."
+      },
+      "controls": {
+        "zh": "deadly_corridor.wad，doom_skill=5，PLAYER 模式；episode_timeout=2100 tics。",
+        "en": "deadly_corridor.wad, doom_skill=5, PLAYER mode; episode_timeout=2100 tics."
+      },
+      "limits": {
+        "zh": "tics 是游戏时钟单位；设置动作重复后不能直接称为 2100 次 Agent 决策。",
+        "en": "Tics are engine time units, not necessarily 2,100 agent decisions when actions repeat."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/Farama-Foundation/ViZDoom/blob/main/scenarios/deadly_corridor.cfg",
+          "title": "ViZDoom deadly_corridor.cfg",
+          "excerpt": "Scenario path, skill, rendering, available buttons, death penalty and episode_timeout."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "control",
+          "role": "primary",
+          "basis": {
+            "zh": "第一人称视觉下的移动、瞄准和攻击控制。",
+            "en": "First-person movement, aiming and attack control."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "2100 tics；动作重复数需单独记录。",
+          "en": "2,100 tics; record action repeat separately."
+        }
+      },
+      "benchmark": "SUP-vizdoom",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-coinrun-original",
+      "gameIds": [
+        "coinrun"
+      ],
+      "label": {
+        "zh": "原版 CoinRun：固定训练关卡与测试",
+        "en": "Original CoinRun: fixed training levels and testing"
+      },
+      "task": {
+        "zh": "在随机平台地图中穿越障碍取得终点硬币，比较训练关卡和新关卡的表现。",
+        "en": "Traverse randomized platform levels to collect a coin; compare training-level and new-level performance."
+      },
+      "observation": {
+        "zh": "原版 CoinRun 的像素观测。",
+        "en": "Pixel observations from original CoinRun."
+      },
+      "action": {
+        "zh": "通过 CoinRun 向量环境发送离散移动、跳跃操作。",
+        "en": "Discrete movement and jump inputs through the vectorized CoinRun environment."
+      },
+      "metrics": {
+        "zh": "分别评估训练关卡和高难度测试关卡上的回报/通关表现，不混合两个分布。",
+        "en": "Evaluate return/completion separately on training levels and high-difficulty test levels."
+      },
+      "controls": {
+        "zh": "训练示例 num-levels=500；set-seed 控制训练集。训练评估 N×K 局，测试 P×N×K 局。",
+        "en": "Example training uses num-levels=500; set-seed controls the set. Training evaluation uses N×K episodes and testing P×N×K."
+      },
+      "limits": {
+        "zh": "官方测试均匀采样高难度关卡，未显式剔除训练集碰撞；与 Procgen CoinRun 不同。",
+        "en": "Official testing samples high-difficulty levels without explicitly excluding training collisions; this differs from Procgen CoinRun."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/openai/coinrun/blob/master/README.md",
+          "title": "CoinRun training and evaluation commands",
+          "excerpt": "500-level training example, set-seed, train-eval and test-eval episode formulas and sampling caveat."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "generalization",
+          "role": "primary",
+          "basis": {
+            "zh": "同一策略在固定训练关卡和重新采样关卡上分别评价。",
+            "en": "The same policy is evaluated separately on training and newly sampled levels."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "评估局数由 P、N、K 决定；训练交互预算由训练配置给出。",
+          "en": "Evaluation episodes are determined by P, N and K; training interaction budget is set separately."
+        }
+      },
+      "benchmark": "SUP-coinrun",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-memory-mortar",
+      "gameIds": [
+        "memory-gym"
+      ],
+      "label": {
+        "zh": "Endless Mortar Mayhem：累积指令",
+        "en": "Endless Mortar Mayhem: cumulative commands"
+      },
+      "task": {
+        "zh": "每轮新增一条指令，按顺序执行本局至今的完整指令序列。",
+        "en": "Execute the complete accumulated command sequence after each newly displayed command."
+      },
+      "observation": {
+        "zh": "短暂显示新指令的视觉观测，执行阶段需记住先前指令。",
+        "en": "Visual display of each new command; earlier commands must be retained during execution."
+      },
+      "action": {
+        "zh": "通过环境移动动作控制角色。",
+        "en": "Control movement through the environment action space."
+      },
+      "metrics": {
+        "zh": "按正确执行指令给予奖励；默认 reward_command_success=0.1，reward_new_command_success=0。",
+        "en": "Rewards follow correctly executed commands; defaults are reward_command_success=0.1 and reward_new_command_success=0."
+      },
+      "controls": {
+        "zh": "默认 initial_command_count=1，allowed_commands=9，max_steps=-1；指令显示与爆炸时序可配置。",
+        "en": "Defaults: initial_command_count=1, allowed_commands=9, max_steps=-1; display and explosion timing are configurable."
+      },
+      "limits": {
+        "zh": "Endless 与有限长度变体分开评价；训练奖励随 reset 参数变化。",
+        "en": "Evaluate endless and finite variants separately; reward settings vary with reset parameters."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/MarcoMeter/endless-memory-gym/blob/main/README.md",
+          "title": "Memory Gym endless tasks and reset parameters",
+          "excerpt": "Endless Mortar Mayhem, Mystery Path and Searing Spotlights mechanisms, rewards and termination parameters."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "memory",
+          "role": "primary",
+          "basis": {
+            "zh": "当前行动需要利用之前短暂可见、当前不可直接获得的信息。",
+            "en": "Actions depend on previously visible information no longer directly available."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "termination": {
+          "zh": "执行错误导致失败；max_steps<1 时没有该参数施加的步数上限。",
+          "en": "Incorrect execution causes failure; max_steps<1 imposes no step limit through this parameter."
+        }
+      },
+      "benchmark": "memory-gym",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-memory-path",
+      "gameIds": [
+        "memory-gym"
+      ],
+      "label": {
+        "zh": "Endless Mystery Path：隐藏路径",
+        "en": "Endless Mystery Path: hidden path"
+      },
+      "task": {
+        "zh": "探索不断延伸的不可见路径，利用之前掉落位置修正移动。",
+        "en": "Explore an extending invisible path and use remembered falls to revise movement."
+      },
+      "observation": {
+        "zh": "路径可见性由 show_past_path 等参数控制，默认显示已走过路径。",
+        "en": "Path visibility is controlled by settings such as show_past_path, true by default."
+      },
+      "action": {
+        "zh": "通过环境移动动作控制角色。",
+        "en": "Control movement through the environment action space."
+      },
+      "metrics": {
+        "zh": "默认首次到达新路径格奖励 0.1；与对重复前进奖励的 dense 设置区分。",
+        "en": "Default reward is 0.1 for a newly reached tile; distinguish this from dense progress rewards."
+      },
+      "controls": {
+        "zh": "stamina_level=20，max_steps=-1；需记录 show_past_path 和 camera_offset_scale。",
+        "en": "stamina_level=20, max_steps=-1; report show_past_path and camera_offset_scale."
+      },
+      "limits": {
+        "zh": "Endless 与有限长度变体分开评价；训练奖励随 reset 参数变化。",
+        "en": "Evaluate endless and finite variants separately; reward settings vary with reset parameters."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/MarcoMeter/endless-memory-gym/blob/main/README.md",
+          "title": "Memory Gym endless tasks and reset parameters",
+          "excerpt": "Endless Mortar Mayhem, Mystery Path and Searing Spotlights mechanisms, rewards and termination parameters."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "memory",
+          "role": "primary",
+          "basis": {
+            "zh": "当前行动需要利用之前短暂可见、当前不可直接获得的信息。",
+            "en": "Actions depend on previously visible information no longer directly available."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "termination": {
+          "zh": "长期无进展、在最远进展之前掉落，或在相同位置再次掉落会终止。",
+          "en": "No progress, falling before the previous farthest progress, or repeating a fall location terminates the episode."
+        }
+      },
+      "benchmark": "memory-gym",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-memory-spotlights",
+      "gameIds": [
+        "memory-gym"
+      ],
+      "label": {
+        "zh": "Endless Searing Spotlights：隐藏目标收集",
+        "en": "Endless Searing Spotlights: hidden-target collection"
+      },
+      "task": {
+        "zh": "记住短暂显示的金币位置，在躲避探照灯时连续收集金币。",
+        "en": "Remember briefly revealed coins and collect them while avoiding spotlights."
+      },
+      "observation": {
+        "zh": "金币默认短暂显示 6 步，随后隐藏；Agent 默认也不持续可见。",
+        "en": "Coins are shown for 6 steps by default and then hidden; the agent is not continuously visible by default."
+      },
+      "action": {
+        "zh": "通过环境移动动作控制角色。",
+        "en": "Control movement through the environment action space."
+      },
+      "metrics": {
+        "zh": "按任务奖励记录金币收集表现，报告完成的收集次数及终止状态。",
+        "en": "Track coin-collection performance under task rewards, including completed collections and termination state."
+      },
+      "controls": {
+        "zh": "steps_per_coin=160，agent_health=10，max_steps=-1；灯光、显隐参数需固定。",
+        "en": "steps_per_coin=160, agent_health=10, max_steps=-1; pin spotlight and visibility settings."
+      },
+      "limits": {
+        "zh": "Endless 与有限长度变体分开评价；训练奖励随 reset 参数变化。",
+        "en": "Evaluate endless and finite variants separately; reward settings vary with reset parameters."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/MarcoMeter/endless-memory-gym/blob/main/README.md",
+          "title": "Memory Gym endless tasks and reset parameters",
+          "excerpt": "Endless Mortar Mayhem, Mystery Path and Searing Spotlights mechanisms, rewards and termination parameters."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "memory",
+          "role": "primary",
+          "basis": {
+            "zh": "当前行动需要利用之前短暂可见、当前不可直接获得的信息。",
+            "en": "Actions depend on previously visible information no longer directly available."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "termination": {
+          "zh": "每枚金币有时间限制；健康耗尽或未及时收集终止。",
+          "en": "Each coin has a time budget; depleted health or failure to collect in time terminates the episode."
+        }
+      },
+      "benchmark": "memory-gym",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-fle-open",
+      "gameIds": [
+        "factorio"
+      ],
+      "label": {
+        "zh": "Open-play：工厂扩张",
+        "en": "Open-play: factory expansion"
+      },
+      "task": {
+        "zh": "在程序生成地图上建设并扩张工厂。",
+        "en": "Build and expand a factory on a generated map."
+      },
+      "observation": {
+        "zh": "Python 程序返回的 stdout、stderr 和 API 查询结果。",
+        "en": "Program stdout, stderr and API query results."
+      },
+      "action": {
+        "zh": "生成 Python 程序调用建造与生产 API。",
+        "en": "Generate Python programs calling construction and production APIs."
+      },
+      "metrics": {
+        "zh": "Production Score 衡量产出价值，Milestones 记录生产与技术进展。",
+        "en": "Production Score measures production value; Milestones record production and technology progress."
+      },
+      "controls": {
+        "zh": "原文 v1：8 次独立运行，报告中位数，最大轨迹长度 5000。",
+        "en": "Paper v1: 8 independent runs, median reporting, maximum trajectory length 5,000."
+      },
+      "limits": {
+        "zh": "原文协议与后续 SDK 0.3.0 的视觉及多 Agent 接口分开记录。",
+        "en": "Keep this paper protocol separate from later SDK 0.3.0 visual and multi-agent interfaces."
+      },
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2503.09617v1#S3.SS1",
+          "title": "FLE paper v1 §3.1",
+          "excerpt": "Open-play: maximum trajectory length 5000, eight independent runs, median Production Score and Milestones."
+        },
+        {
+          "url": "https://github.com/JackHopkins/factorio-learning-environment/blob/main/README.md",
+          "title": "FLE interaction loop",
+          "excerpt": "Python programs as actions and stdout/stderr as observations."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "long-horizon",
+          "role": "primary",
+          "basis": {
+            "zh": "连续生产链扩张需要跨阶段推进。",
+            "en": "Expanding production chains requires progress across stages."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "arXiv:2503.09617v1 的 Open-play 实验。",
+          "en": "Open-play experiment in arXiv:2503.09617v1."
+        },
+        "budget": {
+          "zh": "原文上限 5000 个轨迹步骤，8 次运行。",
+          "en": "Paper limit: 5,000 trajectory steps, 8 runs."
+        }
+      },
+      "benchmark": "fle",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-civrealm-development_build_city",
+      "gameIds": [
+        "freeciv-web"
+      ],
+      "label": {
+        "zh": "建城选址",
+        "en": "City placement"
+      },
+      "task": {
+        "zh": "移动移民到适合区域并建立城市。",
+        "en": "Move a settler to a suitable area and establish a city."
+      },
+      "observation": {
+        "zh": "可见地图、单位、城市和玩家状态；info 包含可用动作。",
+        "en": "Visible map, unit, city and player state; info exposes available actions."
+      },
+      "action": {
+        "zh": "选择可用的单位或城市等主体动作。",
+        "en": "Choose available actions for units, cities and other actors."
+      },
+      "metrics": {
+        "zh": "以场景 goal score 判断 success/failure；回合未结束时状态为 unknown。",
+        "en": "Scenario goal score determines success/failure; unfinished games retain unknown status."
+      },
+      "controls": {
+        "zh": "固定 mini-game ID development_build_city、存档、easy/normal/hard 难度、目标分数及回合上限。",
+        "en": "Fix mini-game ID development_build_city, save state, easy/normal/hard difficulty, goal score and round limit."
+      },
+      "limits": {
+        "zh": "小任务评价不等同完整文明对局胜率。",
+        "en": "Mini-task evaluation is distinct from full-game victory rate."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/minigame_setting.md",
+          "title": "CivRealm mini-game settings",
+          "excerpt": "Fourteen task types, three difficulty levels, score threshold and round-limit termination."
+        },
+        {
+          "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/fullgame_observation.md",
+          "title": "CivRealm observation and available actions",
+          "excerpt": "map, unit, city and player observations; available actions under unit, city, diplomacy, government and technology."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "strategy",
+          "role": "primary",
+          "basis": {
+            "zh": "在单位与地图条件约束下完成局部战略目标。",
+            "en": "Complete a strategic objective under unit and terrain constraints."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "由所选存档/任务配置指定最大回合数；此处不指定统一常数。",
+          "en": "Maximum rounds come from the chosen save/task configuration; no universal constant is asserted."
+        },
+        "termination": {
+          "zh": "达到目标分数或最大回合数。",
+          "en": "Goal score reached or maximum rounds exhausted."
+        }
+      },
+      "benchmark": "GAB075",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-civrealm-battle_attack_city",
+      "gameIds": [
+        "freeciv-web"
+      ],
+      "label": {
+        "zh": "攻占敌方城市",
+        "en": "Capture an enemy city"
+      },
+      "task": {
+        "zh": "调动己方单位并攻占指定敌方城市。",
+        "en": "Maneuver units to capture an enemy city."
+      },
+      "observation": {
+        "zh": "可见地图、单位、城市和玩家状态；info 包含可用动作。",
+        "en": "Visible map, unit, city and player state; info exposes available actions."
+      },
+      "action": {
+        "zh": "选择可用的单位或城市等主体动作。",
+        "en": "Choose available actions for units, cities and other actors."
+      },
+      "metrics": {
+        "zh": "以场景 goal score 判断 success/failure；回合未结束时状态为 unknown。",
+        "en": "Scenario goal score determines success/failure; unfinished games retain unknown status."
+      },
+      "controls": {
+        "zh": "固定 mini-game ID battle_attack_city、存档、easy/normal/hard 难度、目标分数及回合上限。",
+        "en": "Fix mini-game ID battle_attack_city, save state, easy/normal/hard difficulty, goal score and round limit."
+      },
+      "limits": {
+        "zh": "小任务评价不等同完整文明对局胜率。",
+        "en": "Mini-task evaluation is distinct from full-game victory rate."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/minigame_setting.md",
+          "title": "CivRealm mini-game settings",
+          "excerpt": "Fourteen task types, three difficulty levels, score threshold and round-limit termination."
+        },
+        {
+          "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/fullgame_observation.md",
+          "title": "CivRealm observation and available actions",
+          "excerpt": "map, unit, city and player observations; available actions under unit, city, diplomacy, government and technology."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "strategy",
+          "role": "primary",
+          "basis": {
+            "zh": "在单位与地图条件约束下完成局部战略目标。",
+            "en": "Complete a strategic objective under unit and terrain constraints."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "由所选存档/任务配置指定最大回合数；此处不指定统一常数。",
+          "en": "Maximum rounds come from the chosen save/task configuration; no universal constant is asserted."
+        },
+        "termination": {
+          "zh": "达到目标分数或最大回合数。",
+          "en": "Goal score reached or maximum rounds exhausted."
+        }
+      },
+      "benchmark": "GAB075",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-alchemy-3d",
+      "gameIds": [
+        "alchemy"
+      ],
+      "label": {
+        "zh": "Alchemy：3d 接口",
+        "en": "Alchemy: 3d interface"
+      },
+      "task": {
+        "zh": "通过试用药水推断本局隐藏变换规则，改变石头属性并放入坩埚获取分数。",
+        "en": "Infer hidden transformations by trying potions, modify stones and place them in the cauldron for score."
+      },
+      "observation": {
+        "zh": "第一人称 RGB、手部状态、加速度和累计分数；默认图像 96×72。",
+        "en": "First-person RGB, hand state, acceleration and cumulative score; default image size 96×72."
+      },
+      "action": {
+        "zh": "连续移动、视角、手部旋转与抓取；未更新的动作分量保持原值。",
+        "en": "Continuous motion, view, hand rotation and grip; unmodified action components persist."
+      },
+      "metrics": {
+        "zh": "累计游戏分数；分别记录所选接口与任务分布下的结果。",
+        "en": "Cumulative game score, reported separately by interface and task distribution."
+      },
+      "controls": {
+        "zh": "固定 seed、随机映射与瓶颈任务分布；3D 的 num_action_repeats 默认 1，符号接口另设 trial 结束选项。",
+        "en": "Fix seed and randomized-mapping/bottleneck distribution; 3D num_action_repeats defaults to 1, while symbolic trial termination is separately configured."
+      },
+      "limits": {
+        "zh": "3D 包含感知运动负担，符号版本移除了这部分接口差异，不直接合并成绩。",
+        "en": "3D includes sensorimotor demands absent from the symbolic interface; do not merge their scores."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/google-deepmind/dm_alchemy/blob/master/docs/index.md",
+          "title": "Alchemy task, actions, observations and settings",
+          "excerpt": "Separate 3D and symbolic interfaces; randomized mapping task, observation fields and action repeats."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "exploration",
+          "role": "primary",
+          "basis": {
+            "zh": "试用药水产生关于未知变换的反馈，后续决策利用这些信息。",
+            "en": "Potion experiments reveal unknown transformations used in later decisions."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "需随实验报告 trial 数与交互上限；接口文档未指定统一评测局数。",
+          "en": "Report trial count and interaction limit with the experiment; the interface docs do not prescribe a universal evaluation episode count."
+        }
+      },
+      "benchmark": "alchemy",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-alchemy-symbolic",
+      "gameIds": [
+        "alchemy"
+      ],
+      "label": {
+        "zh": "Alchemy：symbolic 接口",
+        "en": "Alchemy: symbolic interface"
+      },
+      "task": {
+        "zh": "通过试用药水推断本局隐藏变换规则，改变石头属性并放入坩埚获取分数。",
+        "en": "Infer hidden transformations by trying potions, modify stones and place them in the cauldron for score."
+      },
+      "observation": {
+        "zh": "石头和药水特征的离散/二值向量，可选已使用标记。",
+        "en": "Discrete/binary stone and potion features with optional used-item flags."
+      },
+      "action": {
+        "zh": "整数动作：空操作、把石头放入药水或坩埚，可选提前结束 trial。",
+        "en": "Integer actions: no-op, stone–potion/cauldron interactions and optional trial termination."
+      },
+      "metrics": {
+        "zh": "累计游戏分数；分别记录所选接口与任务分布下的结果。",
+        "en": "Cumulative game score, reported separately by interface and task distribution."
+      },
+      "controls": {
+        "zh": "固定 seed、随机映射与瓶颈任务分布；3D 的 num_action_repeats 默认 1，符号接口另设 trial 结束选项。",
+        "en": "Fix seed and randomized-mapping/bottleneck distribution; 3D num_action_repeats defaults to 1, while symbolic trial termination is separately configured."
+      },
+      "limits": {
+        "zh": "3D 包含感知运动负担，符号版本移除了这部分接口差异，不直接合并成绩。",
+        "en": "3D includes sensorimotor demands absent from the symbolic interface; do not merge their scores."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/google-deepmind/dm_alchemy/blob/master/docs/index.md",
+          "title": "Alchemy task, actions, observations and settings",
+          "excerpt": "Separate 3D and symbolic interfaces; randomized mapping task, observation fields and action repeats."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "exploration",
+          "role": "primary",
+          "basis": {
+            "zh": "试用药水产生关于未知变换的反馈，后续决策利用这些信息。",
+            "en": "Potion experiments reveal unknown transformations used in later decisions."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "需随实验报告 trial 数与交互上限；接口文档未指定统一评测局数。",
+          "en": "Report trial count and interaction limit with the experiment; the interface docs do not prescribe a universal evaluation episode count."
+        }
+      },
+      "benchmark": "alchemy",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-football-academy",
+      "gameIds": [
+        "football"
+      ],
+      "label": {
+        "zh": "Academy 3 vs. 1 with Keeper",
+        "en": "Academy 3 vs. 1 with Keeper"
+      },
+      "task": {
+        "zh": "三名进攻球员配合突破一名防守球员并对守门员射门。",
+        "en": "Three attackers coordinate against one defender and a goalkeeper."
+      },
+      "observation": {
+        "zh": "可选 raw 状态、像素或状态编码包装；使用哪个表示需固定。",
+        "en": "Raw state, pixel or encoded observation wrappers; fix the chosen representation."
+      },
+      "action": {
+        "zh": "默认 19 个动作，包括移动、传球、射门、冲刺和盘带。",
+        "en": "Default 19 actions include movement, passing, shooting, sprinting and dribbling."
+      },
+      "metrics": {
+        "zh": "用场景进球结果评价；训练时的额外奖励配置单独记录。",
+        "en": "Evaluate scoring outcomes; record any additional training-reward configuration separately."
+      },
+      "controls": {
+        "zh": "academy_3_vs_1_with_keeper；固定控制球员数、动作集、表示方式与种子。",
+        "en": "academy_3_vs_1_with_keeper; fix controlled-player count, action set, representation and seeds."
+      },
+      "limits": {
+        "zh": "控制三个球员可由集中策略或多个 Agent 实现，必须说明控制主体。",
+        "en": "Three players can be controlled centrally or by multiple agents; specify the control arrangement."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/google-research/football/blob/master/gfootball/doc/scenarios.md",
+          "title": "GRF scenarios",
+          "excerpt": "Academy 3 vs. 1 with Keeper task."
+        },
+        {
+          "url": "https://github.com/google-research/football/blob/master/gfootball/doc/observation.md",
+          "title": "GRF observations and actions",
+          "excerpt": "Raw state, observation wrappers, controlled players and 19 default actions."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "coordination",
+          "role": "secondary",
+          "basis": {
+            "zh": "传接球依赖球员间配合；多 Agent 归因取决于控制方式。",
+            "en": "Passing requires coordination; multi-agent interpretation depends on the control arrangement."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        }
+      },
+      "benchmark": "football",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-hanabi-full",
+      "gameIds": [
+        "hanabi"
+      ],
+      "label": {
+        "zh": "Hanabi-Full：合作出牌",
+        "en": "Hanabi-Full: cooperative card play"
+      },
+      "task": {
+        "zh": "利用有限提示推断自己的隐藏手牌，按颜色与顺序共同构建烟花。",
+        "en": "Use limited hints to infer hidden own cards and cooperatively build ordered fireworks."
+      },
+      "observation": {
+        "zh": "玩家视角含其他人手牌、提示知识、烟花、生命和信息标记；自己的牌面隐藏。",
+        "en": "Player-specific observations include others’ hands, hints, fireworks, life and information tokens; own card faces are hidden."
+      },
+      "action": {
+        "zh": "从 legal_moves 中选择出牌、弃牌或提示。",
+        "en": "Choose play, discard or hint from legal_moves."
+      },
+      "metrics": {
+        "zh": "以游戏最终 score 计分；每步 reward 是 score 的差分，终局可能出现负差分。",
+        "en": "Final game score is the outcome; step reward is its difference and can be negative at termination."
+      },
+      "controls": {
+        "zh": "make 默认 Hanabi-Full、2 人；玩家数、生命与信息标记可配置，记录伙伴策略及种子。",
+        "en": "make defaults to Hanabi-Full with 2 players; player count and token limits are configurable. Record partners and seeds."
+      },
+      "limits": {
+        "zh": "观测字典同时包含多个玩家视角，Agent 只能读取其自身视角；同策略与陌生伙伴实验需分开。",
+        "en": "The returned dictionary contains multiple player views; each agent must receive only its own. Separate same-policy and unfamiliar-partner settings."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/google-deepmind/hanabi-learning-environment/blob/master/hanabi_learning_environment/rl_env.py",
+          "title": "Hanabi learning environment API",
+          "excerpt": "Player-specific observations, legal moves, score differential reward, terminal state and make defaults."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "coordination",
+          "role": "primary",
+          "basis": {
+            "zh": "所有玩家共享烟花目标并通过受限提示协作。",
+            "en": "Players share the firework objective and coordinate through restricted hints."
+          }
+        },
+        {
+          "id": "social",
+          "role": "secondary",
+          "basis": {
+            "zh": "提示需结合伙伴行为解释；具体伙伴分布由协议指定。",
+            "en": "Hints are interpreted with partner behavior; the protocol specifies the partner population."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "termination": {
+          "zh": "由游戏规则的 is_terminal 判定。",
+          "en": "Determined by the game’s is_terminal rules."
+        }
+      },
+      "benchmark": "hanabi",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-zsc-overcooked",
+      "gameIds": [
+        "overcooked"
+      ],
+      "label": {
+        "zh": "Overcooked：未共同训练伙伴评测",
+        "en": "Overcooked: evaluation with independently trained partners"
+      },
+      "task": {
+        "zh": "与行为偏好不同、未共同训练的伙伴合作烹饪并交付菜品。",
+        "en": "Cook and deliver dishes with behaviorally diverse partners not trained jointly with the evaluated agent."
+      },
+      "observation": {
+        "zh": "Overcooked 包装提供的厨房状态；保留具体布局和观测处理配置。",
+        "en": "Kitchen state from the Overcooked wrapper; retain layout and observation-processing configuration."
+      },
+      "action": {
+        "zh": "移动、停留及与厨房对象交互。",
+        "en": "Movement, waiting and kitchen-object interaction."
+      },
+      "metrics": {
+        "zh": "团队回报及 BR-Prox：相对同一伙伴的最佳响应表现衡量协调能力；BR-Div 用于伙伴选择。",
+        "en": "Team return and BR-Prox relative to best-response performance with the same partner; BR-Div is used to select partners."
+      },
+      "controls": {
+        "zh": "按布局生成行为偏好候选，选择评测伙伴，保存 policy_pool YAML 和相应最佳响应模型。",
+        "en": "Generate behavior-biased candidates by layout, select partners and retain policy_pool YAMLs and best-response models."
+      },
+      "limits": {
+        "zh": "伙伴生成、选择和评测是不同阶段；普通 self-play 分数不替代零样本伙伴评测。",
+        "en": "Partner generation, selection and evaluation are separate stages; self-play score does not substitute for zero-shot partner evaluation."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/sjtu-marl/ZSC-Eval/blob/master/README.md",
+          "title": "ZSC-Eval toolkit and evaluation workflow",
+          "excerpt": "Behavior-preferring partners, BR-Div selection, BR-Prox measurement and policy pool configuration."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "coordination",
+          "role": "primary",
+          "basis": {
+            "zh": "与未共同训练伙伴合作完成共享任务。",
+            "en": "Complete a shared task with independently trained partners."
+          }
+        },
+        {
+          "id": "generalization",
+          "role": "secondary",
+          "basis": {
+            "zh": "测试伙伴分布与训练时伙伴设置分离。",
+            "en": "Evaluation partners differ from the training arrangement."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "评估局数、轨迹长度与伙伴清单由布局对应 YAML/脚本指定。",
+          "en": "Episode count, trajectory length and partner list are specified by layout YAMLs/scripts."
+        }
+      },
+      "benchmark": "zsc-eval",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-fightladder-cpu",
+      "gameIds": [
+        "street-fighter-ii"
+      ],
+      "label": {
+        "zh": "对内置 CPU 的 Ryu 对战",
+        "en": "Ryu versus built-in CPU"
+      },
+      "task": {
+        "zh": "用 Ryu 对抗指定难度与侧别的内置 CPU。",
+        "en": "Control Ryu against a CPU configured by difficulty and side."
+      },
+      "observation": {
+        "zh": "游戏视觉画面，经 Gym Retro 包装处理。",
+        "en": "Game visual frames processed through the Gym Retro wrapper."
+      },
+      "action": {
+        "zh": "方向与攻击按键；连招和 transform-action 配置决定实际动作集合。",
+        "en": "Directional and attack inputs, with combo and transform-action settings defining the action set."
+      },
+      "metrics": {
+        "zh": "按 CPU 难度与侧别报告对战胜负表现。",
+        "en": "Report match outcomes by CPU difficulty and side."
+      },
+      "controls": {
+        "zh": "固定存档 state、left/right 侧别、reset=round、连招配置、种子和训练预算。",
+        "en": "Fix state file, left/right side, reset=round, combo settings, seeds and training budget."
+      },
+      "limits": {
+        "zh": "最佳响应训练预算影响可利用性估计；游戏 ROM 与存档需与实验配置对应。",
+        "en": "Best-response training budget affects exploitability estimates; ROM and state files must match the experiment."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/wenzhe-li/FightLadder/blob/main/README.md",
+          "title": "FightLadder experiment commands",
+          "excerpt": "CPU, IPPO/league training and best-response exploiters; state, side, reset and combo options."
+        },
+        {
+          "url": "https://proceedings.mlr.press/v235/li24q.html",
+          "title": "FightLadder ICML 2024",
+          "excerpt": "Competitive visual MARL with performance and exploitability evaluation."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "strategy",
+          "role": "primary",
+          "basis": {
+            "zh": "竞争动作选择需响应对手；最佳响应测试暴露策略弱点。",
+            "en": "Competitive actions respond to opponents; best-response tests expose weaknesses."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练示例 num-epoch=50；不将 epoch 直接换算成环境步或评估局数。",
+          "en": "Training examples use num-epoch=50; epochs are not automatically environment steps or evaluation episodes."
+        }
+      },
+      "benchmark": "GAB076",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-fightladder-br",
+      "gameIds": [
+        "street-fighter-ii"
+      ],
+      "label": {
+        "zh": "双 Agent 与最佳响应测试",
+        "en": "Two-agent and best-response tests"
+      },
+      "task": {
+        "zh": "训练竞争策略，再固定目标策略，训练另一侧最佳响应以寻找可利用弱点。",
+        "en": "Train competitive policies, freeze a target and train an opposing best response to probe exploitability."
+      },
+      "observation": {
+        "zh": "游戏视觉画面，经 Gym Retro 包装处理。",
+        "en": "Game visual frames processed through the Gym Retro wrapper."
+      },
+      "action": {
+        "zh": "方向与攻击按键；连招和 transform-action 配置决定实际动作集合。",
+        "en": "Directional and attack inputs, with combo and transform-action settings defining the action set."
+      },
+      "metrics": {
+        "zh": "策略交叉对战表现及训练所得最佳响应的对战表现。",
+        "en": "Cross-play outcomes and performance of trained best responses."
+      },
+      "controls": {
+        "zh": "固定存档 state、left/right 侧别、reset=round、连招配置、种子和训练预算。",
+        "en": "Fix state file, left/right side, reset=round, combo settings, seeds and training budget."
+      },
+      "limits": {
+        "zh": "最佳响应训练预算影响可利用性估计；游戏 ROM 与存档需与实验配置对应。",
+        "en": "Best-response training budget affects exploitability estimates; ROM and state files must match the experiment."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/wenzhe-li/FightLadder/blob/main/README.md",
+          "title": "FightLadder experiment commands",
+          "excerpt": "CPU, IPPO/league training and best-response exploiters; state, side, reset and combo options."
+        },
+        {
+          "url": "https://proceedings.mlr.press/v235/li24q.html",
+          "title": "FightLadder ICML 2024",
+          "excerpt": "Competitive visual MARL with performance and exploitability evaluation."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "strategy",
+          "role": "primary",
+          "basis": {
+            "zh": "竞争动作选择需响应对手；最佳响应测试暴露策略弱点。",
+            "en": "Competitive actions respond to opponents; best-response tests expose weaknesses."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "训练示例 num-epoch=50；不将 epoch 直接换算成环境步或评估局数。",
+          "en": "Training examples use num-epoch=50; epochs are not automatically environment steps or evaluation episodes."
+        }
+      },
+      "benchmark": "GAB076",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-textworld-cooking",
+      "gameIds": [
+        "textworld"
+      ],
+      "label": {
+        "zh": "Cooking：食材与加工依赖",
+        "en": "Cooking: ingredient and preparation dependencies"
+      },
+      "task": {
+        "zh": "找到厨房、阅读食谱、取得食材、按要求加工并制作、吃掉餐食。",
+        "en": "Find the kitchen, read the recipe, collect and prepare ingredients, make the meal and eat it."
+      },
+      "observation": {
+        "zh": "解析器返回的文字场景与动作反馈；额外信息由 EnvInfos 配置决定。",
+        "en": "Parser text and action feedback; additional information depends on EnvInfos."
+      },
+      "action": {
+        "zh": "文字导航、拿取、切配、烹饪和准备餐食命令。",
+        "en": "Text commands for navigation, taking, cutting, cooking and meal preparation."
+      },
+      "metrics": {
+        "zh": "游戏 score、max_score 与任务完成状态；不同配方按其目标集合评分。",
+        "en": "Game score, max_score and completion status; recipes are scored against their quest objectives."
+      },
+      "controls": {
+        "zh": "固定 recipe/take/cook/cut/open/drop/go 技能、游戏生成 seed 与食物及加工方式的 train/valid/test 划分。",
+        "en": "Fix recipe/take/cook/cut/open/drop/go skills, generation seeds and train/valid/test splits of foods and preparations."
+      },
+      "limits": {
+        "zh": "生成器提供实验空间，单个示例不代表固定官方完整测试集。",
+        "en": "The generator defines an experimental space; one example is not a fixed complete official test set."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/TextWorld/blob/main/textworld/challenges/tw_cooking/cooking.py",
+          "title": "TextWorld cooking generator",
+          "excerpt": "Cooking goal, skills and food/preparation train/valid/test splits."
+        },
+        {
+          "url": "https://github.com/microsoft/TextWorld/blob/main/README.md",
+          "title": "TextWorld Gym interface",
+          "excerpt": "Text-command interface and max_episode_steps registration."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "planning",
+          "role": "primary",
+          "basis": {
+            "zh": "原料取得、加工和制作存在前置依赖。",
+            "en": "Ingredient acquisition, processing and meal preparation have prerequisites."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "max_episode_steps 在注册环境时指定；README 的 50 步是接口示例，不是所有 Cooking 任务的上限。",
+          "en": "Set max_episode_steps at environment registration; the README’s 50-step example is not a universal Cooking limit."
+        }
+      },
+      "benchmark": "SUP-textworld",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-vgc-crossplay",
+      "gameIds": [
+        "pokemon-showdown"
+      ],
+      "label": {
+        "zh": "阵容条件下的交叉对战",
+        "en": "Cross-play across team configurations"
+      },
+      "task": {
+        "zh": "在指定 VGC 规则下选择招式、目标和换人，与多种策略对战。",
+        "en": "Select moves, targets and switches under a specified VGC regulation against multiple policies."
+      },
+      "observation": {
+        "zh": "poke-env 的对战观测与公开队表；RL 与 LLM 使用各自包装。",
+        "en": "poke-env battle observations and open team sheets, through separate RL and LLM wrappers."
+      },
+      "action": {
+        "zh": "选择合法招式/目标或换入宝可梦。",
+        "en": "Select legal move/target pairs or switch Pokémon."
+      },
+      "metrics": {
+        "zh": "cross_eval_all_agents 输出胜率收益矩阵，并通过 Alpha-Rank 分析策略群体。",
+        "en": "cross_eval_all_agents produces a win-rate payoff matrix and Alpha-Rank population analysis."
+      },
+      "controls": {
+        "zh": "代码聚合 5 个 run；固定 regulation、num_teams、检查点、num_battles 与 num_llm_battles；Showdown 子模块必须使用仓库指定版本。",
+        "en": "Code aggregates 5 runs; fix regulation, num_teams, checkpoints, num_battles and num_llm_battles. Use the repository-pinned Showdown submodule."
+      },
+      "limits": {
+        "zh": "交叉对战和未见阵容泛化是不同测试；矩阵表现取决于对手群体。",
+        "en": "Cross-play and unseen-team generalization are separate tests; matrix performance depends on the opponent population."
+      },
+      "evidence": [
+        {
+          "url": "https://github.com/cameronangliss/vgc-bench/blob/main/vgc_bench/eval.py",
+          "title": "VGC-Bench evaluation code",
+          "excerpt": "cross_eval_all_agents: five runs, battle counts, payoff matrix and Alpha-Rank."
+        },
+        {
+          "url": "https://github.com/cameronangliss/vgc-bench/blob/main/README.md",
+          "title": "VGC-Bench setup and interfaces",
+          "excerpt": "Pinned Showdown submodule, RL/BC/LLM interfaces and evaluation workflow."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "strategy",
+          "role": "primary",
+          "basis": {
+            "zh": "在规则与阵容条件下进行回合制对抗决策。",
+            "en": "Turn-based adversarial decisions under regulation and team constraints."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "官方文档快照（2026-10-31）；运行前需锁定仓库提交和依赖版本。",
+          "en": "Official documentation snapshot (2026-10-31); pin repository revision and dependencies for a run."
+        },
+        "budget": {
+          "zh": "非 LLM 配对每 run 使用 num_battles//5；LLM 配对使用 num_llm_battles//5。",
+          "en": "Per-run non-LLM matches use num_battles//5; LLM matches use num_llm_battles//5."
+        }
+      },
+      "benchmark": "SUP-vgc-bench",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
+      "id": "p0-spire-a20",
+      "gameIds": [
+        "slay-the-spire"
+      ],
+      "label": {
+        "zh": "A20 Ironclad：完整闯关",
+        "en": "A20 Ironclad: complete runs"
+      },
+      "task": {
+        "zh": "控制战斗、路线、选牌及事件决策，完成四幕闯关。",
+        "en": "Control combat, routing, deck choices and events across four acts."
+      },
+      "observation": {
+        "zh": "人类玩家可见信息的文字状态。",
+        "en": "Text state of information visible to a human player."
+      },
+      "action": {
+        "zh": "工具调用，可一次提交同回合的多个动作。",
+        "en": "Tool calls, including multiple actions for one turn."
+      },
+      "metrics": {
+        "zh": "通关及楼层/幕进展，并记录成本。",
+        "en": "Completion and floor/act progress, with cost reporting."
+      },
+      "controls": {
+        "zh": "A20 Ironclad，主实验使用相同 10 个种子。",
+        "en": "A20 Ironclad; main experiments use the same 10 seeds."
+      },
+      "limits": {
+        "zh": "不同 memory、reskin 和 harness 设置分别报告。",
+        "en": "Report memory, reskin and harness variants separately."
+      },
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2610.12596v1",
+          "title": "SpireBench paper v1, §2 and Appendix C",
+          "excerpt": "Complete game with text tool actions; A20 Ironclad and ten shared seeds."
+        }
+      ],
+      "capabilities": [
+        {
+          "id": "long-horizon",
+          "role": "primary",
+          "basis": {
+            "zh": "跨战斗与构筑的选择影响后续多幕进展。",
+            "en": "Combat and deck choices affect subsequent acts."
+          }
+        }
+      ],
+      "protocolDetails": {
+        "checkedAt": "2026-10-31",
+        "version": {
+          "zh": "arXiv:2610.12596v1。",
+          "en": "arXiv:2610.12596v1."
+        },
+        "budget": {
+          "zh": "主实验 10 个种子；具体调用限制见附录 C。",
+          "en": "10 main-experiment seeds; call limits are detailed in Appendix C."
+        }
+      },
+      "benchmark": "SUP-spirebench",
+      "origin": "protocol-review",
+      "executionVerified": false
+    },
+    {
       "id": "existing-crafter-progress",
       "benchmark": "balrog",
       "gameIds": [
@@ -239220,15 +243522,15 @@ window.ATLAS_DATA = {
     }
   ],
   "taskReviewStats": {
-    "reviewed": 302,
+    "reviewed": 319,
     "statuses": {
-      "partial": 98,
+      "partial": 115,
       "verified": 131,
       "not_applicable": 73
     },
-    "units": 417,
-    "benchmarks": 270,
-    "games": 517
+    "units": 462,
+    "benchmarks": 271,
+    "games": 519
   },
   "taskCoveragePolicy": {
     "version": "coverage-policy-v38",

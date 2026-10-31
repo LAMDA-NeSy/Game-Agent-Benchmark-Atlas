@@ -8,6 +8,46 @@ benchmarks. Facet counts are conditional on the selected view and other filters.
 Existing links with explicit kinds or searches and no view scope use the full archive.
 Clearing filters preserves the selected archive scope.
 
+## Shared research-theme discovery (P0)
+
+Research themes and the directory use `discovery-model.js` over the same 385
+archive identities. A theme is a capability filter, not a separate curated
+collection. Themes initially include all archive types; the resource/method/
+reference/pending tabs explicitly narrow that scope. Featured candidates retain
+their ordering without excluding other matches. Facets use OR within a facet and
+AND across facets. Both views search the documented task labels, goals and metrics.
+
+Discovery associations retain bibliographic screening, record-level associations
+and task-specific evidence separately. Original classification and task coverage
+are not mutated. Editorial Arena proposals never contribute discovery associations.
+The theme index links to records without any of its nine theme associations;
+other capability tags remain available in the directory.
+
+## Concrete tasks and protocols (P0)
+
+`data/curation/task-protocol-p0.json` adds 45 task protocols across 18 resources,
+with bilingual goals, observations, actions, scoring, configuration and scope.
+Each task includes direct paper, official documentation or code evidence.
+Configuration snapshots are distinguished from paper experiments; the Ludii
+Amazons tutorial is explicitly an official interface example, not a standardized
+benchmark. The previous audit files remain unchanged; the public protocol review
+merges the new records and replaces superseded missing-protocol decisions.
+
+`task-protocol-model.js` provides the structured task representation used in
+archives and `task-protocols.json`. A task has a stable ID, source resource,
+game associations, evidence and protocol type. Version, budget and termination
+fields are supplied where separately documented; null means no separately
+structured value, not unlimited budget or an inferred default. Existing prose
+configuration fields remain available. The export contains 462 views: 438
+documented tasks/examples and 24 separately identified editorial Arena proposals.
+No task is promoted to independently execution-verified.
+
+Task links use `detail=<resource>&archiveTab=protocol&task=<task-id>` and open the
+corresponding protocol directly. Archive-level generic interface descriptions are
+omitted when concrete protocols are available. Validation compares every theme
+with the same directory filter, checks all new source/game associations and tests
+that proposals cannot add capability evidence.
+
 Each archive has one overview, classification evidence, tasks and evaluation, and
 sources and citations. Full task descriptions appear only on the task tab;
 classification shows capability associations and sources. Detailed missing information

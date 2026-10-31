@@ -2071,6 +2071,58 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/config/config.yaml",
+            "title": "BALROG evaluation configuration",
+            "excerpt": "tasks, eval.num_episodes, max_steps_per_episode, envs kwargs and agent history settings; checked 2026-10-31. Configuration defaults differ from some prose documentation."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/crafter.md",
+            "title": "BALROG crafter documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/nle.md",
+            "title": "BALROG nethack documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babyai.md",
+            "title": "BALROG babyai documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/minihack.md",
+            "title": "BALROG minihack documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/babaisai.md",
+            "title": "BALROG babaisai documentation",
+            "excerpt": "Environment-specific task construction and language observation wrapper."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/docs/envs/textworld.md",
+            "title": "BALROG TextWorld task construction",
+            "excerpt": "Treasure Hunter, Cooking and Coin Collector generation settings."
+          },
+          {
+            "url": "https://github.com/balrog-ai/BALROG/blob/main/balrog/environments/crafter/env.py",
+            "title": "BALROG Crafter wrapper: ACTIONS, update_progress and get_stats",
+            "excerpt": "17 language actions; score counts achievements with positive counts; progression is score / 22."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB080",
         "status": "confirmed",
@@ -10698,6 +10750,28 @@
         "zh": "官方实现以指定 Genesis 版本为主；角色、动作变换、自博弈对手与评测配置需固定。",
         "en": "The official implementation centers on a specific Genesis version; pin characters, action transforms, self-play opponents and evaluation settings."
       },
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/wenzhe-li/FightLadder/blob/main/README.md",
+            "title": "FightLadder experiment commands",
+            "excerpt": "CPU, IPPO/league training and best-response exploiters; state, side, reset and combo options."
+          },
+          {
+            "url": "https://proceedings.mlr.press/v235/li24q.html",
+            "title": "FightLadder ICML 2024",
+            "excerpt": "Competitive visual MARL with performance and exploitability evaluation."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB076",
         "status": "confirmed",
@@ -11535,6 +11609,23 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/openai/procgen/blob/master/README.md",
+            "title": "Procgen environments and options",
+            "excerpt": "Per-game objectives, 64x64 RGB, Discrete(15), seed ranges and distribution_mode."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB001",
         "status": "confirmed",
@@ -12991,6 +13082,28 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://arxiv.org/html/2503.09617v1#S3.SS1",
+            "title": "FLE paper v1 §3.1",
+            "excerpt": "Open-play: maximum trajectory length 5000, eight independent runs, median Production Score and Milestones."
+          },
+          {
+            "url": "https://github.com/JackHopkins/factorio-learning-environment/blob/main/README.md",
+            "title": "FLE interaction loop",
+            "excerpt": "Python programs as actions and stdout/stderr as observations."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB091",
         "status": "confirmed",
@@ -13186,6 +13299,28 @@
       "limits": {
         "zh": "底层是 Freeciv-web，不是商业 Civilization；完整游戏与小游戏的成绩需分开。",
         "en": "Uses Freeciv-web, not the commercial Civilization game; separate full-game and minigame results."
+      },
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/minigame_setting.md",
+            "title": "CivRealm mini-game settings",
+            "excerpt": "Fourteen task types, three difficulty levels, score threshold and round-limit termination."
+          },
+          {
+            "url": "https://github.com/bigai-ai/civrealm/blob/dev/docs/advanced_materials/fullgame_observation.md",
+            "title": "CivRealm observation and available actions",
+            "excerpt": "map, unit, city and player observations; available actions under unit, city, diplomacy, government and technology."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
       },
       "agentReview": {
         "id": "GAB075",
@@ -15209,6 +15344,23 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/google-deepmind/dm_alchemy/blob/master/docs/index.md",
+            "title": "Alchemy task, actions, observations and settings",
+            "excerpt": "Separate 3D and symbolic interfaces; randomized mapping task, observation fields and action repeats."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB018",
         "status": "confirmed",
@@ -15279,6 +15431,28 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/google-research/football/blob/master/gfootball/doc/scenarios.md",
+            "title": "GRF scenarios",
+            "excerpt": "Academy 3 vs. 1 with Keeper task."
+          },
+          {
+            "url": "https://github.com/google-research/football/blob/master/gfootball/doc/observation.md",
+            "title": "GRF observations and actions",
+            "excerpt": "Raw state, observation wrappers, controlled players and 19 default actions."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB007",
         "status": "confirmed",
@@ -19127,6 +19301,23 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/google-deepmind/hanabi-learning-environment/blob/master/hanabi_learning_environment/rl_env.py",
+            "title": "Hanabi learning environment API",
+            "excerpt": "Player-specific observations, legal moves, score differential reward, terminal state and make defaults."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB010",
         "status": "confirmed",
@@ -19195,59 +19386,24 @@
       "limits": null,
       "taskReview": {
         "status": "partial",
-        "noteZh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-        "noteEn": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage.",
+        "noteZh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+        "noteEn": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping.",
         "evidence": [
           {
             "url": "https://arxiv.org/abs/1905.05013",
             "title": "Ludii – The Ludemic General Game System",
             "excerpt": "Section 6 compares completed random playouts per second on listed games under fixed CPU/time/memory constraints; this is engine throughput, not agent playing strength."
+          },
+          {
+            "url": "https://github.com/Ludeme/LudiiExampleAI/blob/master/src/experiments/Tutorial.java",
+            "title": "Ludii official AI tutorial",
+            "excerpt": "Amazons example: RandomAI vs ExampleUCT, 10 games, 0.2 seconds per decision, terminal trial status; recommends seat rotation for fair comparison."
           }
         ],
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-10-31",
         "reviewedScope": {
-          "zh": "原文 §6 随机完整对局吞吐量；尚无可接入的 Agent 表现协议。",
-          "en": "Original Section 6 completed-random-playout throughput; no agent-performance protocol yet."
-        },
-        "eligibility": {
-          "decision": "needs_protocol",
-          "reason": "infrastructure_only",
-          "policyVersion": "coverage-policy-v23",
-          "checkedAt": "2026-10-19",
-          "basis": {
-            "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-            "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
-          }
-        },
-        "protocolFollowup": {
-          "previousState": "missing",
-          "outcome": "still_missing",
-          "noteZh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-          "noteEn": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage.",
-          "missing": [
-            {
-              "field": "agentPerformanceMetric",
-              "detail": {
-                "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-                "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-              }
-            },
-            {
-              "field": "evaluationMatchup",
-              "detail": {
-                "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-                "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
-              }
-            }
-          ],
-          "sources": [
-            {
-              "url": "https://arxiv.org/abs/1905.05013",
-              "title": "Ludii – The Ludemic General Game System",
-              "excerpt": "Section 6 compares completed random playouts per second on listed games under fixed CPU/time/memory constraints; this is engine throughput, not agent playing strength."
-            }
-          ],
-          "checkedAt": "2026-10-19"
+          "zh": "原论文吞吐量与官方对局教程分别标示。",
+          "en": "Original throughput evaluation and official match tutorial are distinguished."
         }
       },
       "agentReview": {
@@ -23631,6 +23787,23 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/sjtu-marl/ZSC-Eval/blob/master/README.md",
+            "title": "ZSC-Eval toolkit and evaluation workflow",
+            "excerpt": "Behavior-preferring partners, BR-Div selection, BR-Prox measurement and policy pool configuration."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB063",
         "status": "confirmed",
@@ -27457,6 +27630,23 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/MarcoMeter/endless-memory-gym/blob/main/README.md",
+            "title": "Memory Gym endless tasks and reset parameters",
+            "excerpt": "Endless Mortar Mayhem, Mystery Path and Searing Spotlights mechanisms, rewards and termination parameters."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB104",
         "status": "confirmed",
@@ -28258,6 +28448,23 @@
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/Farama-Foundation/Minigrid/blob/main/minigrid/envs/memory.py",
+            "title": "MiniGrid MemoryEnv",
+            "excerpt": "Mission, observation encoding, actions, shaped reward, max_steps and termination implemented in MemoryEnv."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "GAB041",
         "status": "confirmed",
@@ -44654,6 +44861,23 @@
       "profileId": null,
       "review": "verified",
       "classification": "source-review",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/Farama-Foundation/ViZDoom/blob/main/scenarios/deadly_corridor.cfg",
+            "title": "ViZDoom deadly_corridor.cfg",
+            "excerpt": "Scenario path, skill, rendering, available buttons, death penalty and episode_timeout."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-vizdoom",
         "status": "confirmed",
@@ -45025,6 +45249,28 @@
       "profileId": null,
       "review": "verified",
       "classification": "source-review",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/microsoft/TextWorld/blob/main/textworld/challenges/tw_cooking/cooking.py",
+            "title": "TextWorld cooking generator",
+            "excerpt": "Cooking goal, skills and food/preparation train/valid/test splits."
+          },
+          {
+            "url": "https://github.com/microsoft/TextWorld/blob/main/README.md",
+            "title": "TextWorld Gym interface",
+            "excerpt": "Text-command interface and max_episode_steps registration."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-textworld",
         "status": "confirmed",
@@ -45624,6 +45870,23 @@
       "profileId": null,
       "review": "verified",
       "classification": "source-review",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/openai/coinrun/blob/master/README.md",
+            "title": "CoinRun training and evaluation commands",
+            "excerpt": "500-level training example, set-seed, train-eval and test-eval episode formulas and sampling caveat."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-coinrun",
         "status": "confirmed",
@@ -46308,6 +46571,23 @@
       "profileId": null,
       "review": "verified",
       "classification": "source-review",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://arxiv.org/html/2610.12596v1",
+            "title": "SpireBench paper v1, §2 and Appendix C",
+            "excerpt": "Complete game with text tool actions; A20 Ironclad and ten shared seeds."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-spirebench",
         "status": "confirmed",
@@ -46585,6 +46865,28 @@
       "profileId": null,
       "review": "verified",
       "classification": "source-review",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/cameronangliss/vgc-bench/blob/main/vgc_bench/eval.py",
+            "title": "VGC-Bench evaluation code",
+            "excerpt": "cross_eval_all_agents: five runs, battle counts, payoff matrix and Alpha-Rank."
+          },
+          {
+            "url": "https://github.com/cameronangliss/vgc-bench/blob/main/README.md",
+            "title": "VGC-Bench setup and interfaces",
+            "excerpt": "Pinned Showdown submodule, RL/BC/LLM interfaces and evaluation workflow."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-vgc-bench",
         "status": "confirmed",
@@ -46832,6 +47134,23 @@
       "profileId": null,
       "review": "verified",
       "classification": "source-review",
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+        "noteEn": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections.",
+        "evidence": [
+          {
+            "url": "https://github.com/TTomilin/COMRAD/blob/main/docs/scenarios/ammo_carrier.md",
+            "title": "COMRAD Ammo Carrier scenario",
+            "excerpt": "Exact environment ID, observation, action heads, shared_reward, episode limit and true_objective."
+          }
+        ],
+        "checkedAt": "2026-10-31",
+        "reviewedScope": {
+          "zh": "以下列任务及所列官方文档版本为范围。",
+          "en": "Scoped to the tasks and official documentation versions below."
+        }
+      },
       "agentReview": {
         "id": "SUP-comrad",
         "status": "confirmed",

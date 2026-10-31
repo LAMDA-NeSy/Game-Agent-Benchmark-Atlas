@@ -9,7 +9,7 @@
   if(['q','agent','capability','genre','interaction','kind','detail','compare','comparison','sort'].some(k=>params.has(k)))return 'explore';
   return 'themes';
  }
- function create(data,{gameRoles=null}={}){
+ function create(data,{gameRoles=null,discovery=null}={}){
   const byId=new Map([...data.records,...(data.gameCatalogRecords||[])].map(r=>[r.id,r]));
   const games=new Map(data.gameIndex.map(g=>[g.id,g]));
   const questions=new Map(data.questions.map(q=>[q.id,q]));
@@ -51,7 +51,7 @@
    return ['agents','caps','genres','interactions','kinds'].every(k=>ignore===k||!state[k]?.length||state[k].some(v=>p[k].includes(v)));
   }
   function priority(r,question){return Object.hasOwn(questions.get(question)?.candidates||{},r.id);}
-  function themeRecords(question){const q=questions.get(question);return q?data.records.filter(r=>r.caps.includes(q.cap)):[];}
+  function themeRecords(question){if(discovery)return discovery.themeRecords(question).map(r=>({...r,id:r.canonicalId}));const q=questions.get(question);return q?data.records.filter(r=>r.caps.includes(q.cap)):[];}
   return {byId,games,questions,projection,matches,priority,themeRecords,normalizeGenres,gameRoute,clearGameFilters,selectGame,hasGameFilters,gameScopeLink};
  }
  if(typeof module!=='undefined')module.exports={create,resolveView};else root.AtlasModel={create,resolveView};

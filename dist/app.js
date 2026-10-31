@@ -2,7 +2,7 @@
 (() => {
   const records = window.ATLAS_DATA.records;
   const gameRoles=window.AtlasGameRolesModel.create(window.ATLAS_DATA,window.ATLAS_GAME_ROLES);
-  const model=window.AtlasModel.create(window.ATLAS_DATA,{gameRoles});
+  const model=window.AtlasModel.create(window.ATLAS_DATA,{gameRoles,discovery:window.AtlasLibrary.discovery});
   const facets=window.ATLAS_DATA.facets;
   const interactionLabels={single:'单智能体',cooperative:'合作',competitive:'竞争',configurable:'取决于配置'};
   const gameRecords=[...records,...(window.ATLAS_DATA.gameCatalogRecords||[])];
@@ -101,18 +101,20 @@
   const sourceLink=e=>`<a class="evidence-link" href="${escape(e.source)}" target="_blank" rel="noopener noreferrer">${escape(e.locator)} ↗</a>`;
   function evidenceHTML(r,filterCap=null){if(r.detailLevel==='source')return `<article class="classification-evidence"><div class="evidence-heading"><h3>${filterCap?escape(capName(filterCap)):'分类依据'}</h3><span class="basis-label editorial">编辑归类</span></div><p>${escape(r.sourceRationale)}</p><p class="evidence-scope"><strong>适用范围</strong> ${escape(r.limit)}</p><div class="source-list">${r.sourceEvidence.map((url,i)=>`<a href="${escape(url)}" target="_blank" rel="noopener noreferrer">${i+1} · ${escape(url)} ↗</a>`).join('')}</div><small class="source-date">检查于 ${r.sourceChecked} · 未独立复现</small></article>`;return r.evidence.filter(e=>!filterCap||e.cap===filterCap).map(e=>`<article class="classification-evidence"><div class="evidence-heading"><h3>${escape(capName(e.cap))} <small data-no-i18n>${escape(capLabel(e.cap))}</small></h3><span class="basis-label ${e.basis==='编辑归类'?'editorial':''}">${escape(e.basis)}</span></div><p>${escape(e.mechanism)}</p><p class="evidence-scope"><strong>适用范围</strong> ${escape(e.scope)}</p>${sourceLink(e)}<small class="source-date">检查于 ${e.checked} · 未独立复现</small></article>`).join('');}
   function renderQuestions(){
-    $('#question-grid').innerHTML=`<p class="discovery-scope" data-no-i18n>${bilingual(`主题索引 · ${records.length} 篇精选文献`,`Theme index · ${records.length} selected papers`)}</p><table class="theme-table"><caption class="sr-only">研究主题、评估关注点、协议要素与相关条目</caption><thead><tr><th scope="col">研究主题</th><th scope="col">评估关注点</th><th scope="col">关键协议要素</th><th scope="col">条目</th></tr></thead><tbody>${questions.map(q=>`<tr class="${state.question===q.id?'active':''}"><th scope="row"><button data-question="${q.id}" aria-pressed="${state.question===q.id}"><span>${escape(q.label)}</span></button></th><td>${escape(q.description)}</td><td class="theme-checks">${q.checks.map(x=>`<span>${escape(x)}</span>`).join(' · ')}</td><td><button class="theme-count" data-question="${q.id}" aria-label="查看${escape(q.label)}的 ${model.themeRecords(q.id).length} 个相关条目">${model.themeRecords(q.id).length} <span aria-hidden="true">→</span></button></td></tr>`).join('')}</tbody></table>`;
+    $('#question-grid').innerHTML=`<p class="discovery-scope" data-no-i18n>${bilingual(`主题索引 · ${window.AtlasLibrary.discovery.records.length} 条研究档案`,`Theme index · ${window.AtlasLibrary.discovery.records.length} research archives`)}</p><p class="discovery-scope" data-no-i18n>${bilingual("与全部条目共用检索数据；各主题允许交叉。","Shares the full-directory search data; themes may overlap.")} <a href="?lang=${window.AtlasLanguage.current()}&view=explore&catalog=archives&libraryScope=all&libraryReview=theme-unmapped">${bilingual("尚无九个主题关联","No association with the nine themes")} · ${window.AtlasLibrary.discovery.unmapped.length} ↗</a></p><table class="theme-table"><caption class="sr-only">研究主题、评估关注点、协议要素与相关条目</caption><thead><tr><th scope="col">研究主题</th><th scope="col">评估关注点</th><th scope="col">关键协议要素</th><th scope="col">条目</th></tr></thead><tbody>${questions.map(q=>`<tr class="${state.question===q.id?'active':''}"><th scope="row"><button data-question="${q.id}" aria-pressed="${state.question===q.id}"><span>${escape(q.label)}</span></button></th><td>${escape(q.description)}</td><td class="theme-checks">${q.checks.map(x=>`<span>${escape(x)}</span>`).join(' · ')}</td><td><button class="theme-count" data-question="${q.id}" aria-label="查看${escape(q.label)}的 ${model.themeRecords(q.id).length} 个相关条目">${model.themeRecords(q.id).length} <span aria-hidden="true">→</span></button></td></tr>`).join('')}</tbody></table>`;
   }
   function renderResearchContext(){
     const q=currentQuestion();
     $('#research-context').innerHTML=q?`<section class="research-context"><div class="context-title"><h3>${escape(q.label)} </h3><button class="text-button" id="clear-question">移除主题筛选 ×</button></div><p><span>${escape(q.description)}</span> <span>关键协议要素</span>: ${q.checks.map(x=>`<span>${escape(x)}</span>`).join(" · ")}</p><p>${escape(q.decision)}</p><div class="context-bottom"><button class="text-button" data-question-basis="${q.cap}">分类定义与边界</button></div></section>`:'';
   }
-  function chooseQuestion(id){state.question=id;state.view='themes';state.q='';state.caps=[];state.detail=null;closeAll();writeURL(true);render();$('#collection').scrollIntoView({behavior:'auto'});}
+  function chooseQuestion(id){const url=new URL(location.href);for(const key of [...url.searchParams.keys()])if(key.startsWith('library'))url.searchParams.delete(key);history.replaceState({},'',url);state.question=id;state.view='themes';state.q='';state.caps=[];state.agents=[];state.genres=[];state.interactions=[];state.kinds=[];state.sort='curated';state.detail=null;closeAll();writeURL(true);render();$('#collection').scrollIntoView({behavior:'auto'});}
   function readURL(){
     window.AtlasArena.readURL();
     const p=new URLSearchParams(location.search);
     const valid=(key,values)=>(p.get(key)||'').split(',').filter(x=>values.includes(x));
     state={...state,catalog:'archives',view:window.AtlasModel.resolveView(p),q:p.get('q')||'',agents:valid('agent',['LLM','VLM','VLA','IL','RL']),caps:valid('capability',capabilities.map(c=>c.id)),genres:model.normalizeGenres((p.get('genre')||'').split(',')),interactions:valid('interaction',facets.interactions),kinds:valid('kind',window.ATLAS_DATA.gameFacets.kinds),sort:['newest','name'].includes(p.get('sort'))?p.get('sort'):'curated',detail:window.AtlasResearchArchives.canonical(p.get('detail'))};
+    detailTab=['overview','evidence','protocol','sources'].includes(p.get('archiveTab'))?p.get('archiveTab'):'overview';
+    state.task=p.get('task')||null;
     state.gameResource=p.get('gameResource')==='evaluation'?'evaluation':'all';
     state.gameReview=['reviewed','tasks'].includes(p.get('gameReview'))?p.get('gameReview'):'all';
     state.gameSearch=p.get('gameSearch')||'';
@@ -129,7 +131,7 @@
     const p=new URLSearchParams();
     p.set("lang",window.AtlasLanguage.current());
     p.set('view',state.view);
-    if(state.view==='explore'){const previous=new URLSearchParams(location.search);p.set('catalog','archives');for(const [key,value] of previous)if(key.startsWith('library'))p.set(key,value);if(!previous.has('question')&&(!previous.has('view')||previous.get('view')==='explore'))for(const [oldKey,newKey] of Object.entries({q:'libraryQ',agent:'libraryAgent',capability:'libraryCap',genre:'libraryGenre',interaction:'libraryInteraction',kind:'libraryKind',sort:'librarySort'}))if(previous.has(oldKey)&&!p.has(newKey))p.set(newKey,previous.get(oldKey));}
+    if(['explore','themes'].includes(state.view)){const previous=new URLSearchParams(location.search);p.set('catalog','archives');for(const [key,value] of previous)if(key.startsWith('library'))p.set(key,value);if(!previous.has('question')&&(!previous.has('view')||previous.get('view')==='explore'))for(const [oldKey,newKey] of Object.entries({q:'libraryQ',agent:'libraryAgent',capability:'libraryCap',genre:'libraryGenre',interaction:'libraryInteraction',kind:'libraryKind',sort:'librarySort'}))if(previous.has(oldKey)&&!p.has(newKey))p.set(newKey,previous.get(oldKey));}
     if(state.view==='arena')p.set('arenaPanel',window.AtlasArena.panel());
     if(state.view==='games'){p.set('category',state.gameCategory);p.set('game',state.game);if(state.gameResource==='evaluation')p.set('gameResource','evaluation');if(['reviewed','tasks'].includes(state.gameReview))p.set('gameReview',state.gameReview);if(state.gameSearch)p.set('gameSearch',state.gameSearch);if(state.gameUsage&&state.gameUsage!=='all')p.set('gameUsage',state.gameUsage);if(state.gameCapability){p.set('gameCapability',state.gameCapability);if(state.gameAssociation==='secondary')p.set('gameAssociation','secondary');}}
     if(state.view!=='explore'&&state.q)p.set('q',state.q);
@@ -141,7 +143,7 @@
     if(state.view!=='explore'&&state.kinds.length)p.set('kind',state.kinds.join(','));
     if(state.compareOpen){p.set('comparison','1');p.set('compare',selected.join(','));}
     if(state.view!=='explore'&&state.sort!=='curated')p.set('sort',state.sort);
-    if(state.detail)p.set('detail',state.detail);
+    if(state.detail){p.set('detail',state.detail);if(detailTab!=='overview')p.set('archiveTab',detailTab);if(state.task)p.set('task',state.task);}
     history[push?'pushState':'replaceState']({},'',location.pathname+(p.size?'?'+p.toString():''));
   }
   const norm=s=>s.normalize('NFKC').toLowerCase();
@@ -301,8 +303,8 @@
     const themes=state.view==='themes',results=showsResults();
     document.body.dataset.view=state.view;$('#questions').hidden=!themes;
     $('#collection').hidden=themes&&!currentQuestion();
-    const archiveView=state.view==='explore';
-    window.AtlasLibrary.show(archiveView,{selected});
+    const archiveView=state.view==='explore'||(themes&&!!currentQuestion());
+    window.AtlasLibrary.show(archiveView,{selected,question:themes?currentQuestion():null});
     $('#explorer').hidden=!results||archiveView;$('#topic-content').hidden=!['games','capabilities'].includes(state.view);
     $('#method-overview').hidden=state.view!=='capabilities';
     $('#arena-content').hidden=state.view!=='arena';
@@ -329,7 +331,7 @@
   function toggleCompare(id){
     if(selected.includes(id))selected=selected.filter(x=>x!==id);else {if(selected.length>=4){toast('Select up to 4 entries. Remove one to add another.');return;}selected.push(id);}
     try{localStorage.setItem('atlas-compare',JSON.stringify(selected));}catch{}
-    updateDock();if(state.view==='explore')window.AtlasLibrary.show(true,{selected});else if(showsResults())renderResults();else if(state.view==='games')renderGames();
+    updateDock();if(showsResults())window.AtlasLibrary.show(true,{selected,question:state.view==='themes'?currentQuestion():null});else if(state.view==='games')renderGames();
     if($('#compare-dialog').open){writeURL();renderCompare();}
     if($('#detail-dialog').open)renderDetail();
   }
@@ -345,7 +347,7 @@
   function closeAll(){ $$('dialog[open]').forEach(d=>d.close()); }
   function bibtex(r){const key=r.authors[0].split(' ').at(-1).replace(/[^a-zA-Z]/g,'').toLowerCase()+r.year+r.id.replace(/-/g,'');return `@misc{${key},\n  title = {${r.title}},\n  author = {${r.authors.join(' and ')}},\n  year = {${r.year}},\n  howpublished = {${r.venue}},\n  url = {${r.paper}}\n}`;}
   async function copyCitation(){const r=byId.get(state.detail);if(!r)return;const value=window.AtlasResearchArchives.citation(window.AtlasResearchArchives.get(state.detail));try{await navigator.clipboard.writeText(value);toast('Citation copied. Verify publisher fields before submission.');}catch{const area=document.createElement('textarea');area.value=value;area.style.position='fixed';area.style.opacity='0';$('#detail-dialog').append(area);area.select();const ok=document.execCommand('copy');area.remove();toast(ok?'Citation copied.':'Copy unavailable here. Select the citation in Sources.');}}
-  function openDetail(id,push=true){id=window.AtlasResearchArchives.canonical(id);if(!id)return;state.detail=id;detailTab='overview';if(push)writeURL(true);renderDetail();showDialog('detail-dialog');}
+  function openDetail(id,push=true){id=window.AtlasResearchArchives.canonical(id);if(!id)return;state.detail=id;const p=new URLSearchParams(location.search);detailTab=!push&&['overview','evidence','protocol','sources'].includes(p.get('archiveTab'))?p.get('archiveTab'):'overview';state.task=!push?p.get('task'):null;if(push)writeURL(true);renderDetail();showDialog('detail-dialog');if(state.task){const task=[...$('#detail-content').querySelectorAll('[data-task-unit]')].find(el=>el.dataset.taskUnit===state.task);if(task){task.open=true;task.scrollIntoView({block:'start'});}}}
   function renderDetail(){
     const archive=window.AtlasResearchArchives.get(state.detail);if(!archive)return;
     const scroll=$('#detail-dialog').scrollTop;
@@ -398,10 +400,10 @@
     if(el.dataset.topic){selectTopic(el.dataset.topic);return;}
     if(el.dataset.genre){const g=gameIndex.find(g=>g.categories.includes(el.dataset.genre));if(g)openGame(g.id,el.dataset.genre);return;}
     if(el.dataset.saveArchive){const a=window.AtlasResearchArchives.get(el.dataset.saveArchive);if(!a)return;const blob=new Blob([JSON.stringify(a,null,2)+'\n'],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=a.sourceId+'-research-archive.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);return;}
-    if(el.dataset.detail){openDetail(el.dataset.detail);if(el.dataset.archiveTab){detailTab=el.dataset.archiveTab;renderDetail();}return;}
+    if(el.dataset.detail){openDetail(el.dataset.detail);if(el.dataset.archiveTab){detailTab=el.dataset.archiveTab;state.task=null;writeURL();renderDetail();}return;}
     if(el.dataset.compare){toggleCompare(el.dataset.compare);return;}
     if(el.dataset.close){$('#'+el.dataset.close).close();return;}
-    if(el.dataset.detailTab){detailTab=el.dataset.detailTab;renderDetail();return;}
+    if(el.dataset.detailTab){detailTab=el.dataset.detailTab;state.task=null;writeURL();renderDetail();return;}
     if(el.hasAttribute('data-reset')){reset();$('#collection').scrollIntoView({behavior:'auto'});return;}
     if(el.dataset.removeFilter){const key=el.dataset.removeFilter;state[key]=state[key].filter(x=>x!==el.dataset.value);writeURL();render();return;}
     if(el.dataset.preset){state.agents=el.dataset.preset==='foundation'?['LLM','VLM']:el.dataset.preset==='rl'?['RL']:[];writeURL();render();return;}
@@ -411,7 +413,7 @@
     if(id==='clear-question'){state.question=null;writeURL();render();scrollPage();}
     if(id==='reset-filters'){state.q='';state.agents=[];state.caps=[];state.genres=[];state.interactions=[];state.kinds=[];state.sort='curated';writeURL();render();}
     if(id==='header-compare'||id==='open-compare')openCompare();
-    if(id==='clear-compare'){selected=[];try{localStorage.removeItem('atlas-compare');}catch{}updateDock();if(state.view==='explore')window.AtlasLibrary.show(true,{selected});else if(showsResults())renderResults();else if(state.view==='games')renderGames();}
+    if(id==='clear-compare'){selected=[];try{localStorage.removeItem('atlas-compare');}catch{}updateDock();if(showsResults())window.AtlasLibrary.show(true,{selected,question:state.view==='themes'?currentQuestion():null});else if(state.view==='games')renderGames();}
     if(id==='filter-mobile'){const open=$('#filters').classList.toggle('mobile-open');el.setAttribute('aria-expanded',open);}
     if(id==='export-button')exportSelection();
     if(id==='copy-citation')copyCitation();
@@ -426,7 +428,7 @@
   });
   document.addEventListener('input',e=>{if(e.target.id==='game-paper-search'){const pos=e.target.selectionStart;state.q=e.target.value;gameFiltersOpen=true;writeURL();renderGames();const field=$('#game-paper-search');field.focus();try{field.setSelectionRange(pos,pos);}catch{}return;}if(e.target.id==='game-index-search'){const pos=e.target.selectionStart;state.gameSearch=e.target.value;gameSearchLimit=30;writeURL();renderGames();const field=$('#game-index-search');field.focus();try{field.setSelectionRange(pos,pos);}catch{}}});
   $('#search').addEventListener('input',e=>{state.q=e.target.value;writeURL();if(state.view==='games')renderGames();else renderResults();});
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#game-more-filters')?.open){$('#game-more-filters').open=false;gameFiltersOpen=false;$('#game-more-filters>summary').focus();return;}if(e.target.dataset.detailTab&&['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const tabs=['overview','evidence','protocol','sources'];let i=tabs.indexOf(detailTab);i=e.key==='Home'?0:e.key==='End'?3:(i+(e.key==='ArrowRight'?1:3))%4;detailTab=tabs[i];renderDetail();document.querySelector('[data-detail-tab="'+detailTab+'"]').focus();return;}if(e.key==='/'&&!e.metaKey&&!e.ctrlKey&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)&&!$('dialog[open]')){e.preventDefault();if(!showsResults())setView('explore');$(state.view==='explore'?'#library-search':'#search').focus();}});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#game-more-filters')?.open){$('#game-more-filters').open=false;gameFiltersOpen=false;$('#game-more-filters>summary').focus();return;}if(e.target.dataset.detailTab&&['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const tabs=['overview','evidence','protocol','sources'];let i=tabs.indexOf(detailTab);i=e.key==='Home'?0:e.key==='End'?3:(i+(e.key==='ArrowRight'?1:3))%4;detailTab=tabs[i];state.task=null;writeURL();renderDetail();document.querySelector('[data-detail-tab="'+detailTab+'"]').focus();return;}if(e.key==='/'&&!e.metaKey&&!e.ctrlKey&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)&&!$('dialog[open]')){e.preventDefault();if(!showsResults())setView('explore');$('#library-search').focus();}});
   $$('dialog').forEach(d=>{
     d.addEventListener('click',e=>{if(e.target===d){const b=d.getBoundingClientRect();if(e.clientX<b.left||e.clientX>b.right||e.clientY<b.top||e.clientY>b.bottom)d.close();}});
     d.addEventListener('close',()=>{if(!document.querySelector('dialog[open]'))document.body.classList.remove('modal-open');if(d.id==='compare-dialog'&&state.compareOpen){state.compareOpen=false;writeURL();}if(d.id==='detail-dialog'&&state.detail){state.detail=null;writeURL();}});

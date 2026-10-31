@@ -1,6 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),crypto=require('node:crypto');
 const ctx={window:{}};vm.runInNewContext(fs.readFileSync('dist/data.js','utf8'),ctx);const d=JSON.parse(JSON.stringify(ctx.window.ATLAS_DATA));
 const m=require('../dist/task-coverage-model.js').create(d),log=JSON.parse(fs.readFileSync('data/curation/task-coverage-followup.json')),audit=JSON.parse(fs.readFileSync('data/curation/task-protocol-review.json'));
+const revised=new Set(JSON.parse(fs.readFileSync('data/curation/task-protocol-p0.json')).records.map(r=>r.id));
 const records=new Map([...d.records,...d.gameCatalogRecords].map(r=>[r.id,r])),rows=new Map(audit.records.map(r=>[r.id,r])),old=new Map(log.previousRecordStates.map(r=>[r.id,r]));
 assert.equal(log.records.length,54);assert.equal(new Set(log.records.map(r=>r.id)).size,54);
 assert.equal(log.records.filter(r=>r.previousState==='missing').length,51);assert.equal(log.records.filter(r=>r.previousState==='unmapped').length,3);
@@ -14,20 +15,20 @@ for(const r of log.records){
  assert.deepEqual(r.addedUnitIds,[...row.units.map(u=>u.id).filter(id=>!r.previousUnitIds.includes(id))].sort());
  for(const id of r.previousUnitIds)assert(row.units.some(u=>u.id===id),'no deleted task '+id);
  assert.equal(r.previousStatus,old.get(r.id).status);assert.equal(r.status,row.status);
- assert.deepEqual(rec.taskReview.protocolFollowup,f);
+ if(!revised.has(r.id))assert.deepEqual(rec.taskReview.protocolFollowup,f);else {assert.equal(r.id,'GAB012');assert.equal(e.state,'unmapped');assert(m.units.some(u=>u.benchmark===r.id&&u.id.startsWith('p0-')));}
  for(const gap of r.missing)assert(gap.field&&gap.detail.zh&&gap.detail.en);
  if(r.outcome==='integrated'){assert.equal(r.previousState,'missing');assert(row.units.length);assert(['mapped','unmapped'].includes(e.state));}
  else if(r.outcome==='mapped'){assert.equal(r.previousState,'unmapped');assert.equal(e.state,'mapped');}
- else if(r.outcome==='still_missing'){assert(r.missing.length);assert(['missing','unmapped'].includes(e.state));assert.deepEqual(e.missing,r.missing);}
+ else if(r.outcome==='still_missing'){assert(r.missing.length);assert(['missing','unmapped'].includes(e.state));if(!revised.has(r.id))assert.deepEqual(e.missing,r.missing);}
  else {assert.equal(r.outcome,'out_of_scope');assert.equal(e.state,'excluded');assert.equal(row.status,'not_applicable');}
 }
 const count=o=>log.records.filter(r=>r.outcome===o).length;
 assert.equal(log.summary.integrated,count('integrated'));assert.equal(log.summary.mapped,count('mapped'));assert.equal(log.summary.stillMissing,count('still_missing'));assert.equal(log.summary.outOfScope,count('out_of_scope'));
-assert.equal(overall.withProtocol,200+count('integrated'));assert.equal(overall.missing,51-count('integrated')-count('out_of_scope'));
+assert.equal(overall.withProtocol,201+count('integrated'));assert.equal(overall.missing,50-count('integrated')-count('out_of_scope'));
 assert.equal(overall.excluded,73+count('out_of_scope'));assert.equal(overall.total,324);
 assert(overall.entries.filter(e=>['missing','unmapped'].includes(e.state)).every(e=>e.missing.length));
 assert.equal(log.summary.addedUnits,log.records.reduce((n,r)=>n+r.addedUnitIds.length,0));
-assert.equal(d.documentedTasks.filter(u=>u.origin!=='collection-increment').length,326+log.summary.addedUnits);
+assert.equal(d.documentedTasks.filter(u=>u.origin!=='collection-increment'&&!u.id.startsWith('p0-')).length,326+log.summary.addedUnits);
 assert.deepEqual(d.taskCoverageFollowup,log.summary);assert.deepEqual(JSON.parse(fs.readFileSync('dist/task-coverage-followup.json')),log);
 // An added or changed unit must resolve to an actual source-game link and never leak to unrelated siblings.
 for(const r of log.records)for(const id of [...r.addedUnitIds,...r.updatedUnitIds]){
@@ -44,7 +45,7 @@ assert(simple.some(u=>u.capabilities.some(c=>c.id==='generalization')));
 assert.equal(m.select({gameId:'super-mario-bros',benchmarkIds:['AX26-2605.00347']}).length,0);
 assert(m.select({gameId:'super-mario-land',benchmarkIds:['AX26-2605.00347']}).length);
 const library=JSON.parse(fs.readFileSync('dist/benchmark-library.json'));
-for(const r of log.records){const entry=library.records.find(x=>(x.profileId||x.id)===r.id);assert.deepEqual(entry.taskReview.protocolFollowup,rows.get(r.id).protocolFollowup);}
+for(const r of log.records){const entry=library.records.find(x=>(x.profileId||x.id)===r.id);if(!revised.has(r.id))assert.deepEqual(entry.taskReview.protocolFollowup,rows.get(r.id).protocolFollowup);}
 assert.equal(crypto.createHash('sha256').update(fs.readFileSync('data/catalog.json')).digest('hex'),library.sourceHash);
 // Ensure the two earlier public review histories remain immutable.
 for(const file of ['task-coverage-integration.json','task-review-followup.json'])assert.deepEqual(JSON.parse(fs.readFileSync('dist/'+file)),JSON.parse(fs.readFileSync('data/curation/'+file)));

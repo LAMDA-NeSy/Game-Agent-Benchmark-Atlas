@@ -45,7 +45,7 @@ for(const rid of ['OMIT306','OMIT307','OMIT309']){
  assert(coverage.select({gameId:'atari-2600',benchmarkIds:[rid]}).length,'documented members roll up to their collection');
  assert(!coverage.select({gameId:'chess',benchmarkIds:[rid]}).length,'collection tasks never leak to unrelated games');
 }
-assert.equal(data.documentedTasks.length,417);
+assert.equal(data.documentedTasks.length,462);
 const total=coverage.inventory();assert.equal(total.total,385);assert.equal(total.total,total.withProtocol+total.excluded+total.missing);
 assert.equal(require('../dist/arena-data.js').tasks.length,24);assert(coverage.units.every(u=>u.executionVerified===false));
 function publicOnly(x){if(!x||typeof x!=='object')return;for(const [k,v]of Object.entries(x)){assert(!['notes','original_card','rewritten_card','ideas','pdf_file','original_beginner_explanations'].includes(k.toLowerCase()),'private field '+k);publicOnly(v);}}

@@ -54,16 +54,16 @@
   return html;
  }
  function protocol(a){const r=a.profile,b=a.bibliography;
-  let html='';
+  let html=`<p class="protocol-directory-link"><a href="./task-protocols.json" download>${t('下载结构化任务与协议','Download structured tasks & protocols')} ↓</a></p>`;
   if(a.taskReview)html+=`<p class="archive-review-status">${window.AtlasTaskCoverage.status(a.taskReview.status)}</p>`+p(a.taskReview.reviewedScope);
   const documented=a.tasks.filter(u=>u.origin!=='arena-documented-candidate'),proposals=a.tasks.filter(u=>u.origin==='arena-documented-candidate');
   if(documented.length)html+=section(t('文献任务与评估设置','Documented tasks & evaluation'),`<div class="archive-task-list">${documented.map(u=>window.AtlasTaskCoverage.unitDetail(u)).join('')}</div>`);
-  if(r.detailLevel==='profile')html+=section(t('条目级接口与评估设置','Entry-level interfaces & evaluation'),`<dl class="profile-fields">${fieldNames.map(([k,zh,en])=>`<div><dt>${t(zh,en)}</dt><dd>${p(r[k])}</dd></div>`).join('')}</dl>`);
-  if(b.metrics)html+=section(t('评估指标','Evaluation metrics'),p(b.metrics));
-  const gameProfiles=a.gameLinks.filter(g=>g.profile);
+  if(r.detailLevel==='profile'&&!documented.length)html+=section(t('条目级接口与评估设置','Entry-level interfaces & evaluation'),`<dl class="profile-fields">${fieldNames.map(([k,zh,en])=>`<div><dt>${t(zh,en)}</dt><dd>${p(r[k])}</dd></div>`).join('')}</dl>`);
+  if(b.metrics&&!documented.length)html+=section(t('评估指标','Evaluation metrics'),p(b.metrics));
+  const gameProfiles=a.gameLinks.filter(g=>g.profile&&!documented.some(u=>u.origin==='existing-game-profile'&&u.gameIds.includes(g.id)));
   if(gameProfiles.length)html+=section(t('游戏专属接入档案','Game-specific integration profiles'),gameProfiles.map(g=>`<details class="documented-task"><summary>${esc(gameName(g))}</summary><dl class="profile-fields">${[['environment','环境 / 适配层','Environment / adapter'],['scope','任务与设置','Task & setup'],['observation','观测接口','Observation'],['action','动作接口','Actions'],['metrics','原始指标','Original metrics'],['integration','接入方式','Integration'],['controls','对比条件','Comparison controls'],['unknown','待核验项','Unverified fields']].map(([key,zh,en])=>`<div><dt>${t(zh,en)}</dt><dd>${p(g.profile[key].text)}<a href="${esc(g.profile[key].source)}" target="_blank" rel="noopener noreferrer">${t('来源','Source')} ↗</a></dd></div>`).join('')}</dl></details>`).join(''));
   if(proposals.length)html+=section(t('Arena 候选设计 · 编辑建议','Arena candidate designs · Editorial'),`<p class="editorial-caption">${t('基于来源整理的选型方案；不作为已复现的原始协议。','Source-informed task selections; not reproduced original protocols.')}</p><div class="archive-task-list archive-proposals">${proposals.map(u=>window.AtlasTaskCoverage.unitDetail(u)).join('')}</div>`);
-  if(r.research)html+=section(t('选型与对比建议（编辑整理）','Selection & comparison notes (editorial)'),`<dl class="profile-fields">${[['metrics',t('建议关注的评估信息','Suggested evaluation information')],['controls',t('对比需控制的条件','Conditions to control')],['setup',t('接入边界','Integration limits')]].map(([key,label])=>`<div><dt>${label}</dt><dd>${p(r.research[key])}</dd></div>`).join('')}</dl>`);
+  if(r.research&&!documented.length)html+=section(t('选型与对比建议（编辑整理）','Selection & comparison notes (editorial)'),`<dl class="profile-fields">${[['metrics',t('建议关注的评估信息','Suggested evaluation information')],['controls',t('对比需控制的条件','Conditions to control')],['setup',t('接入边界','Integration limits')]].map(([key,label])=>`<div><dt>${label}</dt><dd>${p(r.research[key])}</dd></div>`).join('')}</dl>`);
   if(!a.tasks.length&&a.taskReview)html+=p({zh:a.taskReview.noteZh,en:a.taskReview.noteEn});
   return html+missingHTML(a);
  }

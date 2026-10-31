@@ -18,6 +18,18 @@ def validate_sources(sources, record_id):
 def integrate(payload):
     path=CURATION / 'task-protocol-review.json'
     audit=json.loads(path.read_text()) if path.exists() else {'records':[]}
+    # The P0 pass adds source-specific protocols without rewriting earlier audits.
+    supplement=json.loads((CURATION / 'task-protocol-p0.json').read_text())
+    merged={r['id']:r for r in audit['records']}
+    for row in supplement['records']:
+        previous=merged.get(row['id'])
+        if previous:
+            row={**previous,**row,'units':previous['units']+row['units']}
+            row['evidence']=previous['evidence']+row['evidence']
+            row.pop('protocolFollowup',None)
+            row.pop('eligibility',None)
+        merged[row['id']]=row
+    audit['records']=list(merged.values())
     games={g['id']:g for g in payload['gameIndex']}
     records={r['id']:r for r in payload['records']+payload['gameCatalogRecords']}
     legacy={r['legacyId']:r['id'] for r in records.values()}
@@ -180,5 +192,6 @@ def integrate(payload):
         followup=json.loads(followup_path.read_text())
         payload['taskReviewFollowup']=followup['summary']
         (ROOT/'dist/task-review-followup.json').write_bytes(followup_path.read_bytes())
-    if path.exists():(ROOT/'dist/task-protocol-review.json').write_bytes(path.read_bytes())
+    if path.exists():(ROOT/'dist/task-protocol-review.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'dist/task-protocol-p0.json').write_text(json.dumps(supplement,ensure_ascii=False,indent=2)+'\n')
     return payload

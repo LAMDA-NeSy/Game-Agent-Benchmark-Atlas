@@ -9,4 +9,7 @@ const roles=require('../dist/game-roles-model.js').create(data,ctx.window.ATLAS_
 const archives=require('../dist/research-archive-model.js').create(data,library,roles);
 const output={schemaVersion:'research-archives-v2',sourceHash:library.sourceHash,count:archives.entries.length,records:archives.entries};
 fs.writeFileSync('dist/research-archives.json',JSON.stringify(output,null,2)+'\n');
-console.log(`Saved ${output.count} research archives with ${output.records.reduce((n,r)=>n+r.tasks.length,0)} documented task units.`);
+console.log(`Saved ${output.count} research archives with ${output.records.reduce((n,r)=>n+r.tasks.length,0)} task units (documented protocols and separately tagged Arena proposals).`);
+
+const protocols=require('../dist/task-protocol-model.js').create(data);
+fs.writeFileSync('dist/task-protocols.json',JSON.stringify({schemaVersion:'task-protocols-v1',count:protocols.protocols.length,protocols:protocols.protocols},null,2)+'\n');

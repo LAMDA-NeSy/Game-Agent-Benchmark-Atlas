@@ -21,7 +21,10 @@ assert(games.get('age-of-llm').links.some(l=>l.benchmark==='AX26-2606.24391'));a
 const names=JSON.parse(fs.readFileSync('data/curation/game-name-localization.json'));
 for(const n of names.names){const g=games.get(n.id);assert.equal(g.nameZh,n.nameZh);assert(g.aliases.includes(g.name)&&g.aliases.includes(g.nameZh));assert(n.source.startsWith('https://'));}
 assert.equal(games.get('factorio').name,'Factorio');assert.equal(games.get('factorio').nameZh,'异星工厂');
-assert.deepEqual(JSON.parse(fs.readFileSync('dist/task-protocol-review.json')),audit);
+const merged=JSON.parse(fs.readFileSync('dist/task-protocol-review.json'));
+const additions=JSON.parse(fs.readFileSync('data/curation/task-protocol-p0.json'));
+for(const row of audit.records){const current=merged.records.find(r=>r.id===row.id);if(additions.records.some(r=>r.id===row.id)){assert(row.units.every(u=>current.units.some(v=>JSON.stringify(u)===JSON.stringify(v))));}else assert.deepEqual(current,row);}
+assert.equal(merged.records.length,audit.records.length+additions.records.filter(r=>!audit.records.some(a=>a.id===r.id)).length);
 console.log('Task coverage: all 302 review outcomes, scoped protocols, one-way collection aggregation, deduplicated axes, unchanged Arena selection and localized identities pass.');
 assert(m.select({gameId:'chess'}).some(u=>u.benchmark==='GAB082'));
 assert(m.select({category:'RTS'}).some(u=>u.gameIds.includes('smax')));

@@ -4,10 +4,10 @@
   "policyVersion": "coverage-policy-v38",
   "overall": {
     "total": 385,
-    "withProtocol": 270,
+    "withProtocol": 271,
     "mapped": 269,
-    "unmapped": 1,
-    "missing": 4,
+    "unmapped": 2,
+    "missing": 3,
     "excluded": 111,
     "entries": [
       {
@@ -16,9 +16,20 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-balrog-crafter",
+          "p0-balrog-nethack",
+          "p0-balrog-babyai",
+          "p0-balrog-minihack",
+          "p0-balrog-babaisai",
+          "p0-balrog-textworld-treasure",
+          "p0-balrog-textworld-cooking",
+          "p0-balrog-textworld-coin",
           "existing-crafter-progress"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "smacv2",
@@ -70,10 +81,29 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-procgen-bigfish",
+          "p0-procgen-bossfight",
+          "p0-procgen-caveflyer",
+          "p0-procgen-chaser",
+          "p0-procgen-climber",
+          "p0-procgen-coinrun",
+          "p0-procgen-dodgeball",
+          "p0-procgen-fruitbot",
+          "p0-procgen-heist",
+          "p0-procgen-jumper",
+          "p0-procgen-leaper",
+          "p0-procgen-maze",
+          "p0-procgen-miner",
+          "p0-procgen-ninja",
+          "p0-procgen-plunder",
+          "p0-procgen-starpilot",
           "existing-coinrun-heldout",
           "existing-dodgeball-control"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "orak",
@@ -107,9 +137,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-hanabi-full",
           "existing-hanabi-partner"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "football",
@@ -117,9 +151,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-football-academy",
           "existing-football-academy-3v1"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "rlcard",
@@ -140,9 +178,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-minigrid-memory",
           "existing-minigrid-memory"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "memory-gym",
@@ -150,9 +192,15 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-memory-mortar",
+          "p0-memory-path",
+          "p0-memory-spotlights",
           "existing-memorygym-sequence"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "alchemy",
@@ -160,9 +208,14 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-alchemy-3d",
+          "p0-alchemy-symbolic",
           "existing-alchemy-discovery"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "fle",
@@ -170,9 +223,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-fle-open",
           "existing-factorio-production"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "zsc-eval",
@@ -180,9 +237,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-zsc-overcooked",
           "existing-overcooked-zsc"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "GAB105",
@@ -281,9 +342,14 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-fightladder-cpu",
+          "p0-fightladder-br",
           "existing-fightladder-ryu-mirror"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "GAP-A3",
@@ -330,9 +396,14 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-civrealm-development_build_city",
+          "p0-civrealm-battle_attack_city",
           "existing-civrealm-settler-build-city"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "GAB067",
@@ -418,9 +489,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-vizdoom-corridor",
           "existing-vizdoom-deadly-corridor"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "SUP-smac",
@@ -454,9 +529,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-textworld-cooking",
           "existing-textworld-cooking-dependencies"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "SUP-babyai",
@@ -516,9 +595,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-coinrun-original",
           "existing-coinrun-original-500"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "SUP-obstacle-tower",
@@ -592,9 +675,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-spire-a20",
           "existing-spirebench-a20-full-run"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "SUP-pokeagent-challenge",
@@ -616,9 +703,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-vgc-crossplay",
           "existing-vgc-unseen-team-crossplay"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "SUP-gg-bench",
@@ -639,9 +730,13 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p0-comrad-ammo",
           "existing-comrad-ammo-carrier"
         ],
-        "note": null
+        "note": {
+          "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+          "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+        }
       },
       {
         "id": "SUP-agenticsts",
@@ -2625,28 +2720,23 @@
       },
       {
         "id": "GAB012",
-        "state": "missing",
-        "reason": "infrastructure_only",
+        "state": "unmapped",
+        "reason": "capability_unmapped",
         "missing": [
           {
-            "field": "agentPerformanceMetric",
+            "field": "capability_basis",
             "detail": {
-              "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-              "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-            }
-          },
-          {
-            "field": "evaluationMatchup",
-            "detail": {
-              "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-              "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
+              "zh": "当前范围已有任务协议，但尚缺将具体任务机制对应到现有能力维度的充分证据；共同交互接口或总体得分不足以代替该依据。",
+              "en": "Tasks are documented in this scope, but evidence linking their mechanisms to the current capability axes is insufficient. A shared interface or aggregate score does not establish that mapping."
             }
           }
         ],
-        "unitIds": [],
+        "unitIds": [
+          "p0-ludii-amazons"
+        ],
         "note": {
-          "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-          "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
+          "zh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+          "en": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping."
         }
       },
       {
@@ -6020,32 +6110,48 @@
         ]
       },
       {
-        "reason": "infrastructure_only",
+        "reason": "capability_unmapped",
         "entries": [
           {
             "id": "GAB012",
-            "state": "missing",
-            "reason": "infrastructure_only",
+            "state": "unmapped",
+            "reason": "capability_unmapped",
             "missing": [
               {
-                "field": "agentPerformanceMetric",
+                "field": "capability_basis",
                 "detail": {
-                  "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-                  "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-                }
-              },
-              {
-                "field": "evaluationMatchup",
-                "detail": {
-                  "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-                  "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
+                  "zh": "当前范围已有任务协议，但尚缺将具体任务机制对应到现有能力维度的充分证据；共同交互接口或总体得分不足以代替该依据。",
+                  "en": "Tasks are documented in this scope, but evidence linking their mechanisms to the current capability axes is insufficient. A shared interface or aggregate score does not establish that mapping."
                 }
               }
             ],
-            "unitIds": [],
+            "unitIds": [
+              "p0-ludii-amazons"
+            ],
             "note": {
-              "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-              "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
+              "zh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+              "en": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping."
+            }
+          },
+          {
+            "id": "GAB053",
+            "state": "unmapped",
+            "reason": "capability_unmapped",
+            "missing": [
+              {
+                "field": "capability_basis",
+                "detail": {
+                  "zh": "缺少某个具体游戏/成就的可核对任务机制及其与11轴的对应依据；已有总奖励和伦理指标不能替代。",
+                  "en": "A concrete game/achievement mechanism and traceable mapping to an eleven-axis construct are still needed; aggregate rewards and ethics metrics are insufficient."
+                }
+              }
+            ],
+            "unitIds": [
+              "GAB053-choice-and-harm"
+            ],
+            "note": {
+              "zh": "保留30款测试游戏的叙事选择、成就与伤害协议。当前论文的伦理伤害、权力指标和当前场景提示，不足以将某个具体游戏映射到11条能力轴；不把伦理评价当社会推理。",
+              "en": "Preserved narrative choice, achievement and harm evaluation for thirty test games. Ethical-harm/power metrics and current-scene prompts do not establish a specific game’s eleven-axis capability; ethics is not treated as social inference."
             }
           }
         ]
@@ -6194,32 +6300,6 @@
             "note": {
               "zh": "Peak原始行为数据按协议不公开；模型拟合和网络可向作者申请；没有将此分析当作Agent规划能力证据。",
               "en": "Peak behavioral data are not public under the agreement; trained networks and fits are request-only. This analysis is not evidence of autonomous-agent planning capability."
-            }
-          }
-        ]
-      },
-      {
-        "reason": "capability_unmapped",
-        "entries": [
-          {
-            "id": "GAB053",
-            "state": "unmapped",
-            "reason": "capability_unmapped",
-            "missing": [
-              {
-                "field": "capability_basis",
-                "detail": {
-                  "zh": "缺少某个具体游戏/成就的可核对任务机制及其与11轴的对应依据；已有总奖励和伦理指标不能替代。",
-                  "en": "A concrete game/achievement mechanism and traceable mapping to an eleven-axis construct are still needed; aggregate rewards and ethics metrics are insufficient."
-                }
-              }
-            ],
-            "unitIds": [
-              "GAB053-choice-and-harm"
-            ],
-            "note": {
-              "zh": "保留30款测试游戏的叙事选择、成就与伤害协议。当前论文的伦理伤害、权力指标和当前场景提示，不足以将某个具体游戏映射到11条能力轴；不把伦理评价当社会推理。",
-              "en": "Preserved narrative choice, achievement and harm evaluation for thirty test games. Ethical-harm/power metrics and current-scene prompts do not establish a specific game’s eleven-axis capability; ethics is not treated as social inference."
             }
           }
         ]
@@ -6758,9 +6838,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-vgc-crossplay",
             "existing-vgc-unseen-team-crossplay"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB075",
@@ -6768,9 +6852,14 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-civrealm-development_build_city",
+            "p0-civrealm-battle_attack_city",
             "existing-civrealm-settler-build-city"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAP-A3",
@@ -7060,9 +7149,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-vizdoom-corridor",
             "existing-vizdoom-deadly-corridor"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "SUP-comrad",
@@ -7070,9 +7163,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-comrad-ammo",
             "existing-comrad-ammo-carrier"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "AX26-2608.26200",
@@ -7927,9 +8024,14 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-fightladder-cpu",
+            "p0-fightladder-br",
             "existing-fightladder-ryu-mirror"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "orak",
@@ -8280,9 +8382,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-vgc-crossplay",
             "existing-vgc-unseen-team-crossplay"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAP-A3",
@@ -9184,9 +9290,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-coinrun-original",
             "existing-coinrun-original-500"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "SUP-obstacle-tower",
@@ -9256,9 +9366,16 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-procgen-climber",
+            "p0-procgen-coinrun",
+            "p0-procgen-jumper",
+            "p0-procgen-ninja",
             "existing-coinrun-heldout"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -10497,9 +10614,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-zsc-overcooked",
             "existing-overcooked-zsc"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "TOP-25",
@@ -10566,9 +10687,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-fle-open",
             "existing-factorio-production"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "orak",
@@ -11237,9 +11362,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-zsc-overcooked",
             "existing-overcooked-zsc"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "TOP-25",
@@ -11325,9 +11454,17 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-procgen-bigfish",
+            "p0-procgen-chaser",
+            "p0-procgen-dodgeball",
+            "p0-procgen-fruitbot",
+            "p0-procgen-leaper",
             "existing-dodgeball-control"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -12986,9 +13123,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-balrog-crafter",
             "existing-crafter-progress"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB026",
@@ -13067,9 +13208,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-fle-open",
             "existing-factorio-production"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB059",
@@ -13503,9 +13648,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-hanabi-full",
             "existing-hanabi-partner"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "REC-3.5",
@@ -13613,9 +13762,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-spire-a20",
             "existing-spirebench-a20-full-run"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "orak",
@@ -14202,10 +14355,10 @@
     {
       "category": "Roguelike",
       "total": 17,
-      "withProtocol": 10,
-      "mapped": 10,
+      "withProtocol": 11,
+      "mapped": 11,
       "unmapped": 0,
-      "missing": 5,
+      "missing": 4,
       "excluded": 2,
       "entries": [
         {
@@ -14223,19 +14376,17 @@
         },
         {
           "id": "balrog",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-balrog-nethack",
+            "p0-balrog-minihack"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB042",
@@ -14327,9 +14478,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-spire-a20",
             "existing-spirebench-a20-full-run"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "orak",
@@ -14452,22 +14607,6 @@
           "reason": "scope_not_reviewed",
           "entries": [
             {
-              "id": "balrog",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            },
-            {
               "id": "NATURE298",
               "state": "missing",
               "reason": "scope_not_reviewed",
@@ -14574,10 +14713,10 @@
     {
       "category": "Puzzle",
       "total": 49,
-      "withProtocol": 29,
-      "mapped": 28,
+      "withProtocol": 31,
+      "mapped": 30,
       "unmapped": 1,
-      "missing": 11,
+      "missing": 9,
       "excluded": 9,
       "entries": [
         {
@@ -14586,9 +14725,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-minigrid-memory",
             "existing-minigrid-memory"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "S01",
@@ -14635,19 +14778,17 @@
         },
         {
           "id": "balrog",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-balrog-babyai",
+            "p0-balrog-babaisai"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "SUP-babyai",
@@ -14876,19 +15017,18 @@
         },
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-heist",
+            "p0-procgen-maze",
+            "p0-procgen-miner"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -15345,22 +15485,6 @@
               }
             },
             {
-              "id": "balrog",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            },
-            {
               "id": "orak",
               "state": "missing",
               "reason": "scope_not_reviewed",
@@ -15451,22 +15575,6 @@
                 "zh": "原始帧、定时按键和检查点评分已确认；其他公测游戏与隐藏集不继承此任务标签。",
                 "en": "Raw frames, timed actions and checkpoint scoring are confirmed; other public games and the hidden set do not inherit these tags."
               }
-            },
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
             },
             {
               "id": "REC-3.5",
@@ -15690,9 +15798,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-football-academy",
             "existing-football-academy-3v1"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB069",
@@ -16274,27 +16386,26 @@
     {
       "category": "Text adventure",
       "total": 14,
-      "withProtocol": 7,
-      "mapped": 6,
+      "withProtocol": 8,
+      "mapped": 7,
       "unmapped": 1,
-      "missing": 1,
+      "missing": 0,
       "excluded": 6,
       "entries": [
         {
           "id": "balrog",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-balrog-textworld-treasure",
+            "p0-balrog-textworld-cooking",
+            "p0-balrog-textworld-coin"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "SUP-textworld",
@@ -16302,9 +16413,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-textworld-cooking",
             "existing-textworld-cooking-dependencies"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB021",
@@ -16474,27 +16589,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "balrog",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "static_diagnostic",
           "entries": [
@@ -16708,10 +16802,10 @@
     {
       "category": "Board",
       "total": 56,
-      "withProtocol": 36,
+      "withProtocol": 37,
       "mapped": 36,
-      "unmapped": 0,
-      "missing": 7,
+      "unmapped": 1,
+      "missing": 6,
       "excluded": 13,
       "entries": [
         {
@@ -17160,28 +17254,23 @@
         },
         {
           "id": "GAB012",
-          "state": "missing",
-          "reason": "infrastructure_only",
+          "state": "unmapped",
+          "reason": "capability_unmapped",
           "missing": [
             {
-              "field": "agentPerformanceMetric",
+              "field": "capability_basis",
               "detail": {
-                "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-                "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-              }
-            },
-            {
-              "field": "evaluationMatchup",
-              "detail": {
-                "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-                "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
+                "zh": "当前范围已有任务协议，但尚缺将具体任务机制对应到现有能力维度的充分证据；共同交互接口或总体得分不足以代替该依据。",
+                "en": "Tasks are documented in this scope, but evidence linking their mechanisms to the current capability axes is insufficient. A shared interface or aggregate score does not establish that mapping."
               }
             }
           ],
-          "unitIds": [],
+          "unitIds": [
+            "p0-ludii-amazons"
+          ],
           "note": {
-            "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-            "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
+            "zh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+            "en": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping."
           }
         },
         {
@@ -17717,32 +17806,27 @@
           ]
         },
         {
-          "reason": "infrastructure_only",
+          "reason": "capability_unmapped",
           "entries": [
             {
               "id": "GAB012",
-              "state": "missing",
-              "reason": "infrastructure_only",
+              "state": "unmapped",
+              "reason": "capability_unmapped",
               "missing": [
                 {
-                  "field": "agentPerformanceMetric",
+                  "field": "capability_basis",
                   "detail": {
-                    "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-                    "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-                  }
-                },
-                {
-                  "field": "evaluationMatchup",
-                  "detail": {
-                    "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-                    "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
+                    "zh": "当前范围已有任务协议，但尚缺将具体任务机制对应到现有能力维度的充分证据；共同交互接口或总体得分不足以代替该依据。",
+                    "en": "Tasks are documented in this scope, but evidence linking their mechanisms to the current capability axes is insufficient. A shared interface or aggregate score does not establish that mapping."
                   }
                 }
               ],
-              "unitIds": [],
+              "unitIds": [
+                "p0-ludii-amazons"
+              ],
               "note": {
-                "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-                "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
+                "zh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+                "en": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping."
               }
             }
           ]
@@ -17962,27 +18046,27 @@
     {
       "category": "Shoot-em-up",
       "total": 22,
-      "withProtocol": 17,
-      "mapped": 15,
+      "withProtocol": 18,
+      "mapped": 16,
       "unmapped": 2,
-      "missing": 1,
+      "missing": 0,
       "excluded": 4,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-bossfight",
+            "p0-procgen-caveflyer",
+            "p0-procgen-plunder",
+            "p0-procgen-starpilot"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -18271,27 +18355,6 @@
       ],
       "reasons": [
         {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
-        {
           "reason": "survey_analysis",
           "entries": [
             {
@@ -18461,7 +18524,10 @@
             }
           ],
           "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -19645,7 +19711,10 @@
                 }
               ],
               "unitIds": [],
-              "note": null
+              "note": {
+                "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+                "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+              }
             },
             {
               "id": "NATURE295",
@@ -19966,9 +20035,15 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-memory-mortar",
+            "p0-memory-path",
+            "p0-memory-spotlights",
             "existing-memorygym-sequence"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB049",
@@ -19991,9 +20066,14 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-alchemy-3d",
+            "p0-alchemy-symbolic",
             "existing-alchemy-discovery"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB048",
@@ -22967,9 +23047,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-balrog-crafter",
             "existing-crafter-progress"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "smartplay",
@@ -23321,9 +23405,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-zsc-overcooked",
             "existing-overcooked-zsc"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "TOP-25",
@@ -23446,9 +23534,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-hanabi-full",
             "existing-hanabi-partner"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "REC-3.5",
@@ -23606,10 +23698,10 @@
     {
       "gameId": "nethack",
       "total": 7,
-      "withProtocol": 5,
-      "mapped": 5,
+      "withProtocol": 6,
+      "mapped": 6,
       "unmapped": 0,
-      "missing": 2,
+      "missing": 1,
       "excluded": 0,
       "entries": [
         {
@@ -23627,19 +23719,16 @@
         },
         {
           "id": "balrog",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-balrog-nethack"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB042",
@@ -23718,22 +23807,6 @@
           "reason": "scope_not_reviewed",
           "entries": [
             {
-              "id": "balrog",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            },
-            {
               "id": "NATURE298",
               "state": "missing",
               "reason": "scope_not_reviewed",
@@ -23759,27 +23832,24 @@
     {
       "gameId": "minihack",
       "total": 2,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 0,
       "entries": [
         {
           "id": "balrog",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-balrog-minihack"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB015",
@@ -23795,29 +23865,7 @@
           }
         }
       ],
-      "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "balrog",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        }
-      ]
+      "reasons": []
     },
     {
       "gameId": "minigrid",
@@ -23834,9 +23882,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-minigrid-memory",
             "existing-minigrid-memory"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "S01",
@@ -23928,27 +23980,24 @@
     {
       "gameId": "babyai",
       "total": 2,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 0,
       "entries": [
         {
           "id": "balrog",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-balrog-babyai"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "SUP-babyai",
@@ -23964,79 +24013,32 @@
           }
         }
       ],
-      "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "balrog",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        }
-      ]
+      "reasons": []
     },
     {
       "gameId": "baba-is-ai",
       "total": 1,
-      "withProtocol": 0,
-      "mapped": 0,
+      "withProtocol": 1,
+      "mapped": 1,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 0,
       "entries": [
         {
           "id": "balrog",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-balrog-babaisai"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         }
       ],
-      "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "balrog",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        }
-      ]
+      "reasons": []
     },
     {
       "gameId": "baba-is-you",
@@ -24227,27 +24229,26 @@
     {
       "gameId": "textworld",
       "total": 4,
-      "withProtocol": 3,
-      "mapped": 3,
+      "withProtocol": 4,
+      "mapped": 4,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 0,
       "entries": [
         {
           "id": "balrog",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-balrog-textworld-treasure",
+            "p0-balrog-textworld-cooking",
+            "p0-balrog-textworld-coin"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "SUP-textworld",
@@ -24255,9 +24256,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-textworld-cooking",
             "existing-textworld-cooking-dependencies"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB021",
@@ -24288,29 +24293,7 @@
           }
         }
       ],
-      "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "balrog",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        }
-      ]
+      "reasons": []
     },
     {
       "gameId": "football",
@@ -24327,9 +24310,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-football-academy",
             "existing-football-academy-3v1"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB069",
@@ -24426,7 +24413,10 @@
             }
           ],
           "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -24522,7 +24512,10 @@
                 }
               ],
               "unitIds": [],
-              "note": null
+              "note": {
+                "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+                "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+              }
             },
             {
               "id": "NATURE295",
@@ -24707,9 +24700,15 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-memory-mortar",
+            "p0-memory-path",
+            "p0-memory-spotlights",
             "existing-memorygym-sequence"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB049",
@@ -24744,9 +24743,14 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-alchemy-3d",
+            "p0-alchemy-symbolic",
             "existing-alchemy-discovery"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         }
       ],
       "reasons": []
@@ -24766,9 +24770,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-fle-open",
             "existing-factorio-production"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         }
       ],
       "reasons": []
@@ -25228,9 +25236,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-vizdoom-corridor",
             "existing-vizdoom-deadly-corridor"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "SUP-comrad",
@@ -25238,9 +25250,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-comrad-ammo",
             "existing-comrad-ammo-carrier"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "AX26-2608.26200",
@@ -25673,9 +25689,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-coinrun-original",
             "existing-coinrun-original-500"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         }
       ],
       "reasons": []
@@ -25783,9 +25803,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-spire-a20",
             "existing-spirebench-a20-full-run"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "orak",
@@ -25894,9 +25918,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-vgc-crossplay",
             "existing-vgc-unseen-team-crossplay"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         }
       ],
       "reasons": []
@@ -26196,9 +26224,14 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-civrealm-development_build_city",
+            "p0-civrealm-battle_attack_city",
             "existing-civrealm-settler-build-city"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         }
       ],
       "reasons": []
@@ -27313,9 +27346,14 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-fightladder-cpu",
+            "p0-fightladder-br",
             "existing-fightladder-ryu-mirror"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         }
       ],
       "reasons": []
@@ -27360,9 +27398,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-procgen-coinrun",
             "existing-coinrun-heldout"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -27436,9 +27478,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p0-procgen-dodgeball",
             "existing-dodgeball-control"
           ],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -27826,27 +27872,24 @@
     {
       "gameId": "procgen-bigfish",
       "total": 4,
-      "withProtocol": 2,
-      "mapped": 2,
+      "withProtocol": 3,
+      "mapped": 3,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-bigfish"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -27887,27 +27930,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -27929,27 +27951,24 @@
     {
       "gameId": "procgen-bossfight",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-bossfight"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -27977,27 +27996,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28019,27 +28017,24 @@
     {
       "gameId": "procgen-caveflyer",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-caveflyer"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28067,27 +28062,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28109,27 +28083,24 @@
     {
       "gameId": "procgen-chaser",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-chaser"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28157,27 +28128,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28199,27 +28149,24 @@
     {
       "gameId": "procgen-climber",
       "total": 4,
-      "withProtocol": 2,
-      "mapped": 2,
+      "withProtocol": 3,
+      "mapped": 3,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-climber"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28260,27 +28207,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28302,27 +28228,24 @@
     {
       "gameId": "procgen-fruitbot",
       "total": 4,
-      "withProtocol": 2,
-      "mapped": 2,
+      "withProtocol": 3,
+      "mapped": 3,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-fruitbot"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28363,27 +28286,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28405,27 +28307,24 @@
     {
       "gameId": "procgen-heist",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-heist"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28453,27 +28352,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28495,27 +28373,24 @@
     {
       "gameId": "procgen-jumper",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-jumper"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28543,27 +28418,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28585,27 +28439,24 @@
     {
       "gameId": "procgen-leaper",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-leaper"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28633,27 +28484,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28675,27 +28505,24 @@
     {
       "gameId": "procgen-maze",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-maze"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28723,27 +28550,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28765,27 +28571,24 @@
     {
       "gameId": "procgen-miner",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-miner"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28813,27 +28616,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28855,27 +28637,24 @@
     {
       "gameId": "procgen-ninja",
       "total": 4,
-      "withProtocol": 2,
-      "mapped": 2,
+      "withProtocol": 3,
+      "mapped": 3,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-ninja"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -28916,27 +28695,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -28958,27 +28716,24 @@
     {
       "gameId": "procgen-plunder",
       "total": 3,
-      "withProtocol": 1,
-      "mapped": 1,
+      "withProtocol": 2,
+      "mapped": 2,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-plunder"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -29007,27 +28762,6 @@
       ],
       "reasons": [
         {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
-        {
           "reason": "survey_analysis",
           "entries": [
             {
@@ -29048,27 +28782,24 @@
     {
       "gameId": "procgen-starpilot",
       "total": 4,
-      "withProtocol": 2,
-      "mapped": 2,
+      "withProtocol": 3,
+      "mapped": 3,
       "unmapped": 0,
-      "missing": 1,
+      "missing": 0,
       "excluded": 1,
       "entries": [
         {
           "id": "procgen",
-          "state": "missing",
-          "reason": "scope_not_reviewed",
-          "missing": [
-            {
-              "field": "scoped_protocol",
-              "detail": {
-                "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-              }
-            }
+          "state": "mapped",
+          "reason": null,
+          "missing": [],
+          "unitIds": [
+            "p0-procgen-starpilot"
           ],
-          "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "已整理下列具体任务的官方接口、评分与配置；平台的其他任务另行选择。",
+            "en": "Official interfaces, scoring and configuration are documented for the tasks below; other platform tasks are separate selections."
+          }
         },
         {
           "id": "GAB071",
@@ -29109,27 +28840,6 @@
         }
       ],
       "reasons": [
-        {
-          "reason": "scope_not_reviewed",
-          "entries": [
-            {
-              "id": "procgen",
-              "state": "missing",
-              "reason": "scope_not_reviewed",
-              "missing": [
-                {
-                  "field": "scoped_protocol",
-                  "detail": {
-                    "zh": "该来源在其他游戏或任务上已有协议；当前游戏/大类仍缺直接对应的任务、动作与指标记录，不能继承其他成员的能力。",
-                    "en": "Protocols exist for other games or tasks in this source. This scope still lacks directly linked task/action/metric evidence and cannot inherit sibling capabilities."
-                  }
-                }
-              ],
-              "unitIds": [],
-              "note": null
-            }
-          ]
-        },
         {
           "reason": "survey_analysis",
           "entries": [
@@ -47827,67 +47537,57 @@
     {
       "gameId": "ludii-games",
       "total": 1,
-      "withProtocol": 0,
+      "withProtocol": 1,
       "mapped": 0,
-      "unmapped": 0,
-      "missing": 1,
+      "unmapped": 1,
+      "missing": 0,
       "excluded": 0,
       "entries": [
         {
           "id": "GAB012",
-          "state": "missing",
-          "reason": "infrastructure_only",
+          "state": "unmapped",
+          "reason": "capability_unmapped",
           "missing": [
             {
-              "field": "agentPerformanceMetric",
+              "field": "capability_basis",
               "detail": {
-                "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-                "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-              }
-            },
-            {
-              "field": "evaluationMatchup",
-              "detail": {
-                "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-                "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
+                "zh": "当前范围已有任务协议，但尚缺将具体任务机制对应到现有能力维度的充分证据；共同交互接口或总体得分不足以代替该依据。",
+                "en": "Tasks are documented in this scope, but evidence linking their mechanisms to the current capability axes is insufficient. A shared interface or aggregate score does not establish that mapping."
               }
             }
           ],
-          "unitIds": [],
+          "unitIds": [
+            "p0-ludii-amazons"
+          ],
           "note": {
-            "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-            "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
+            "zh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+            "en": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping."
           }
         }
       ],
       "reasons": [
         {
-          "reason": "infrastructure_only",
+          "reason": "capability_unmapped",
           "entries": [
             {
               "id": "GAB012",
-              "state": "missing",
-              "reason": "infrastructure_only",
+              "state": "unmapped",
+              "reason": "capability_unmapped",
               "missing": [
                 {
-                  "field": "agentPerformanceMetric",
+                  "field": "capability_basis",
                   "detail": {
-                    "zh": "原文 §6 的指标为完整随机 playout/秒，未给候选 Agent 的胜率、回报或解题成功率。",
-                    "en": "Section 6 measures complete random playouts/second, not candidate-agent win rate, return or solving success."
-                  }
-                },
-                {
-                  "field": "evaluationMatchup",
-                  "detail": {
-                    "zh": "尚缺与棋力指标配套的具体 Agent、对手、对局数量及座位控制；已有引擎动作 API 不足以替代。",
-                    "en": "A concrete candidate/opponent matchup, game count and seat control linked to playing-strength metrics remains missing; engine action APIs do not supply it."
+                    "zh": "当前范围已有任务协议，但尚缺将具体任务机制对应到现有能力维度的充分证据；共同交互接口或总体得分不足以代替该依据。",
+                    "en": "Tasks are documented in this scope, but evidence linking their mechanisms to the current capability axes is insufficient. A shared interface or aggregate score does not establish that mapping."
                   }
                 }
               ],
-              "unitIds": [],
+              "unitIds": [
+                "p0-ludii-amazons"
+              ],
               "note": {
-                "zh": "阅读全文后确认现有量化实验是引擎吞吐量比较。虽有规则、合法动作与完整随机对局，本轮未找到对应 Agent 表现评测，不将每秒 playout 数画成能力覆盖。",
-                "en": "Full text confirms that its quantitative experiment compares engine throughput. Rules, legal actions and complete random playouts exist, but no corresponding agent-performance evaluation was found; playouts/second are not capability coverage."
+                "zh": "原论文比较引擎吞吐量；另补官方 Amazons Agent 对局教程，明确其为接口示例，不映射能力得分。",
+                "en": "The paper compares engine throughput; the official Amazons agent-match tutorial is separately documented as an interface example, without capability-score mapping."
               }
             }
           ]
