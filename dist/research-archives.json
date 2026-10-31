@@ -30060,7 +30060,7 @@
           "Colossal Cave Adventure",
           "The Awakening",
           "Balances",
-          "Dragon!",
+          "Dragon Adventure",
           "Goldilocks is a FOX!",
           "The Jewel of Knowledge",
           "The Ludicorp Mystery",
@@ -30441,7 +30441,7 @@
         },
         {
           "id": "dragon-if",
-          "name": "Dragon!",
+          "name": "Dragon Adventure",
           "nameZh": null,
           "kind": "game",
           "categories": [

@@ -6365,7 +6365,7 @@ window.AtlasLibraryData={
         "Colossal Cave Adventure",
         "The Awakening",
         "Balances",
-        "Dragon!",
+        "Dragon Adventure",
         "Goldilocks is a FOX!",
         "The Jewel of Knowledge",
         "The Ludicorp Mystery",

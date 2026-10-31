@@ -37215,7 +37215,7 @@ window.ATLAS_DATA = {
     },
     {
       "id": "dragon-if",
-      "name": "Dragon!",
+      "name": "Dragon Adventure",
       "categories": [
         "Text adventure"
       ],
@@ -177817,7 +177817,7 @@ window.ATLAS_DATA = {
         "Colossal Cave Adventure",
         "The Awakening",
         "Balances",
-        "Dragon!",
+        "Dragon Adventure",
         "Goldilocks is a FOX!",
         "The Jewel of Knowledge",
         "The Ludicorp Mystery",

@@ -2015,14 +2015,14 @@
     },
     {
       "id": "dragon-if",
-      "name": "Dragon!",
+      "name": "Dragon Adventure",
       "kind": "game",
       "status": "described",
       "reason": null,
-      "source": "https://ifdb.org/viewgame?id=x3wcrapu08ztd061",
+      "source": "https://ifdb.org/viewgame?id=sjiyffz8n5patu8l",
       "associationCaveat": {
-        "zh": "Dragon! 为 Adam Thornton 的 2000 年作品；Jericho 另列的 Dragon Adventure 是 William Stott 的作品。论文标作 dragon.z5，但未提供 ROM 哈希，二者的文件对应仍需作者澄清。简介仅对应已确认的 Dragon! 作品。",
-        "en": "Dragon! is Adam Thornton’s 2000 work, distinct from William Stott’s Dragon Adventure in Jericho. The paper lists dragon.z5 without a ROM hash; that file association still needs clarification. This description concerns the identified Dragon! title only."
+        "zh": "按 EMemBench 发布的 dragon.z5 核实为 William Stott 的 Dragon Adventure（Release 2 / 040211）；文件与 Jericho 故事库逐字节一致。论文表19的 Dragon! 名称与角色描述不对应发布文件。",
+        "en": "The released ROM hash identifies William Stott’s Dragon Adventure (Release 2 / 040211), byte-identical to the Jericho archive. The Dragon! title and role description in paper Table 19 do not match the released file."
       }
     },
     {

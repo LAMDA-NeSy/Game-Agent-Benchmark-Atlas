@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "scope": "Explicit game-ID mappings only. Screenshots show named games or environments. Related implementations, historical versions and collection examples carry bilingual visible reference notes; they are not evidence of a reproduced benchmark run.",
   "entries": [
     {
@@ -3587,6 +3587,64 @@
       "licenseFile": null
     },
     {
+      "gameId": "gamebench-are-you-the-traitor",
+      "originalSha256": "9ee74136c3f9af91d174f80b2e698a5d76079a097162618d64e730b19c087879",
+      "frameSha256": "94bfb0cea48d73243de365bab4e01049497678bffcab81f6b08a336df33b84f6",
+      "frameTimeSeconds": 110,
+      "originalUrl": "https://www.youtube.com/watch?v=CoN48HmZyMs",
+      "sourceUrl": "https://www.youtube.com/watch?v=CoN48HmZyMs&t=110s",
+      "sourceType": "official-site",
+      "sourceLabel": "Andrew Looney · Are You The Traitor? Sample Game",
+      "credit": "Alex Bradley (filming/editing); Andrew Looney / Looney Labs",
+      "caption": {
+        "zh": "Are You the Traitor? · 官方示范对局 01:50",
+        "en": "Are You the Traitor? · official sample game at 01:50"
+      },
+      "alt": {
+        "zh": "Are You the Traitor? · 官方示范对局 01:50",
+        "en": "Are You the Traitor? · official sample game at 01:50"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "截自 Andrew Looney 发布、Looney Labs 官方产品页嵌入的 2009 年 Sample Game，显示真人讨论阶段；这是实体桌游示范，非 GameBench 的文本代理界面。原视频分辨率为 320×240。",
+        "en": "Frame from the 2009 Sample Game uploaded by Andrew Looney and embedded on the Looney Labs product page, showing live discussion. This is the physical tabletop game, not the GameBench text-agent interface. Original video resolution: 320×240."
+      },
+      "identityEvidence": {
+        "url": "https://www.looneylabs.com/games/are-you-traitor",
+        "locator": "Publisher product page embeds this named video as its game demonstration.",
+        "note": "Video title, uploader and visible rules match the named tabletop game."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Copyright remains with the credited creators. Sourced video frame used to illustrate the game; no open license asserted.",
+      "capture": {
+        "method": "video-frame",
+        "url": "https://www.youtube.com/watch?v=CoN48HmZyMs",
+        "seconds": 110,
+        "videoUploadDate": "20090805",
+        "title": "Are You The Traitor? Sample Game",
+        "uploader": "Andrew Looney"
+      },
+      "originalSize": [
+        320,
+        240
+      ],
+      "image": "game-gamebench-are-you-the-traitor.webp",
+      "width": 320,
+      "height": 240,
+      "sha256": {
+        "image": "4e7a63f908b17f320394305c9fd421b37f7bd00016e9bbb7cf00b33993a1bc29"
+      },
+      "processing": {
+        "frameIndex": null,
+        "frameTimeSeconds": 110,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "arena-breakout-infinite",
       "title": "Arena Breakout: Infinite",
       "sourceUrl": "https://store.steampowered.com/app/2073620/",
@@ -5657,6 +5715,81 @@
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
     },
     {
+      "gameId": "playadequacy-beacon",
+      "originalSha256": "d67dae0bdcc3550e316e7950a8f162c6dfdaf20a3e6fb05e2db5ec1fe5494b1b",
+      "rasterSha256": "9b4ab88ac49b4c980f52b0d91323bca0b114758cea596ebe473c28cbe9aec144",
+      "originalUrl": "https://raw.githubusercontent.com/JaviMaligno/code-world-models/5f1fa9f903cea92e89808087ed6e70ce49763633/src/cwm/groundtruth/beacon.py",
+      "sourceUrl": "https://github.com/JaviMaligno/code-world-models/blob/5f1fa9f903cea92e89808087ed6e70ce49763633/src/cwm/groundtruth/beacon.py",
+      "sourceType": "repository",
+      "repository": "JaviMaligno/code-world-models",
+      "commit": "5f1fa9f903cea92e89808087ed6e70ce49763633",
+      "originalPath": "src/cwm/groundtruth/beacon.py",
+      "originalBlob": "03b16ff3b866b3064ecde931f833a028fc834cd5",
+      "sourceLabel": "JaviMaligno/code-world-models · 5f1fa9f · original source / local viewer",
+      "credit": "JaviMaligno/code-world-models contributors · Atlas local state-viewer capture",
+      "caption": {
+        "zh": "Beacon · 原始环境的四步交互状态",
+        "en": "Beacon · four transitions in the original environment"
+      },
+      "alt": {
+        "zh": "Beacon · 原始环境的四步交互状态",
+        "en": "Beacon · four transitions in the original environment"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "运行作者固定提交的 Beacon，T=8、初始类型为 0 和 1，依次执行动作 0、1、1、0；画面显示玩家 1 的真实观察，隐藏玩家 2 的类型。界面是本地文本状态查看器，不是作者图形客户端。",
+        "en": "Runs the pinned author implementation with T=8 and initial types 0/1, executing actions 0, 1, 1, 0. The view shows player 1’s actual observation with player 2’s type masked. This is a local text-state viewer, not an author-published graphical client."
+      },
+      "identityEvidence": {
+        "url": "https://github.com/JaviMaligno/code-world-models/blob/5f1fa9f903cea92e89808087ed6e70ce49763633/src/cwm/groundtruth/beacon.py",
+        "locator": "make_beacon, initial_state_with, observation and apply_action execute directly from the pinned beacon.py.",
+        "note": "make_beacon, initial_state_with, observation and apply_action execute directly from the pinned beacon.py."
+      },
+      "captureMethod": "local-runtime-screenshot",
+      "capture": {
+        "method": "local-runtime-screenshot",
+        "parameters": {
+          "T": 8,
+          "initialTypes": [
+            0,
+            1
+          ]
+        },
+        "actions": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "stateSha256": "7d116c40257c85f0d0de0b5c2d8a5bba47ac908dfceee532cef183ad4404ffbf",
+        "viewerSha256": "fe80f95d3af42f2854e6d368629936a9040c05b920208c67c8440d388b33a89d"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "width": 1050,
+      "height": 492,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "rightsNote": "Original source retains its upstream license. The local viewer is clearly labelled and records actual source execution or original archived data; no game artwork is reconstructed.",
+      "originalSize": [
+        1050,
+        492
+      ],
+      "image": "game-playadequacy-beacon.webp",
+      "sha256": {
+        "image": "55bad8d1a4f195605660547e3fc0eaeb75b756fbcd3e3995099941ba0668b801"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": "image-license-JaviMaligno_code-world-models.txt",
+      "licenseLabel": "Apache-2.0"
+    },
+    {
       "gameId": "swe-game-beacon-relay",
       "title": "Beacon Relay (SWE-Game)",
       "originalUrl": "https://arxiv.org/html/2609.33678v3/casestudy3d.JPG",
@@ -5834,6 +5967,68 @@
       ],
       "referenceSourceUrl": "https://arxiv.org/html/1908.03568v3#S2.F3",
       "title": "Behaviour Suite"
+    },
+    {
+      "gameId": "collection-ax26-2602.12517",
+      "originalSha256": "ec43296cdb54dc572f591a8f8bd6b7931e84f5f973b7bf220ec75d99b608b906",
+      "originalUrl": "https://github.com/lorenzomagnino/Bench-MFG/blob/105bd14e13e779c0bc43e563d94d17f99a437237/src/benchmfg/envs/four_rooms_obstacles/four_rooms_obstacles.py",
+      "sourceUrl": "https://github.com/lorenzomagnino/Bench-MFG/blob/105bd14e13e779c0bc43e563d94d17f99a437237/src/benchmfg/envs/four_rooms_obstacles/four_rooms_obstacles.py",
+      "sourceType": "official-site",
+      "sourceLabel": "lorenzomagnino/Bench-MFG · pinned official environment",
+      "credit": "lorenzomagnino/Bench-MFG contributors · Atlas runtime-state viewer",
+      "sourceCommit": "105bd14e13e779c0bc43e563d94d17f99a437237",
+      "caption": {
+        "zh": "Bench-MFG / Four Rooms · 原始环境运行状态",
+        "en": "Bench-MFG / Four Rooms · runtime state of the original environment"
+      },
+      "alt": {
+        "zh": "选取官方 FourRoomsAversion2D 作为合集代表，直接执行五次状态转移。11×11 障碍图与路径由原实现返回的状态绘制；展示各步噪声为 stay、可通行格上的均匀均值场。本地查看器不是作者客户端，画面不表示已求得均衡。",
+        "en": "FourRoomsAversion2D represents the collection, with five direct calls to its official transition function. The 11×11 obstacle map and path are rendered from the original returned states, using realized stay noise and a uniform mean field over traversable cells. This local viewer is not an author-provided client or an equilibrium-solving result."
+      },
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "选取官方 FourRoomsAversion2D 作为合集代表，直接执行五次状态转移。11×11 障碍图与路径由原实现返回的状态绘制；展示各步噪声为 stay、可通行格上的均匀均值场。本地查看器不是作者客户端，画面不表示已求得均衡。",
+        "en": "FourRoomsAversion2D represents the collection, with five direct calls to its official transition function. The 11×11 obstacle map and path are rendered from the original returned states, using realized stay noise and a uniform mean field over traversable cells. This local viewer is not an author-provided client or an equilibrium-solving result."
+      },
+      "captureMethod": "local-runtime-screenshot",
+      "capture": {
+        "method": "local-runtime-screenshot",
+        "sourceUrl": "https://github.com/lorenzomagnino/Bench-MFG/blob/105bd14e13e779c0bc43e563d94d17f99a437237/src/benchmfg/envs/four_rooms_obstacles/four_rooms_obstacles.py",
+        "sourceCommit": "105bd14e13e779c0bc43e563d94d17f99a437237",
+        "sourcePath": "src/benchmfg/envs/four_rooms_obstacles/four_rooms_obstacles.py",
+        "sourceBlob": "7470dec4dcd6cad70217c51b65b6c495256bd88b",
+        "sourceSha256": "81008cf7299bf678a61608fd43b083de1f55c4bf4146d86035cab2e0a8f32e59",
+        "runtimeTraceSha256": "d6076dedce0448df1214a7ea8d2847f4005fb3d70eb31ff88602adda6e659ab6",
+        "viewerScriptSha256": "8509ed19a3d23d12d7feaa4341516431cc3db56bb01c49ded158aad9c970f304",
+        "pythonVersion": "3.12.14",
+        "presentation": "Local state viewer, not author-provided client"
+      },
+      "identityEvidence": {
+        "url": "https://github.com/lorenzomagnino/Bench-MFG/blob/105bd14e13e779c0bc43e563d94d17f99a437237/src/benchmfg/envs/four_rooms_obstacles/four_rooms_obstacles.py",
+        "locator": "src/benchmfg/envs/four_rooms_obstacles/four_rooms_obstacles.py",
+        "note": "FourRoomsAversion2D represents the collection, with five direct calls to its official transition function. The 11×11 obstacle map and path are rendered from the original returned states, using realized stay noise and a uniform mean field over traversable cells. This local viewer is not an author-provided client or an equilibrium-solving result."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "width": 1056,
+      "height": 646,
+      "rightsNote": "Original environment authors credited. Screenshot of an Atlas state viewer displaying directly executed official transition functions; no performance plot or unrelated game image is substituted.",
+      "originalSize": [
+        1056,
+        646
+      ],
+      "image": "game-collection-ax26-2602-12517.webp",
+      "sha256": {
+        "image": "a8c1d52edb7159fd537d81927faabe6eb1fb8d7489e5343e7def8feef2687539"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "benchmarl-envs",
@@ -6446,6 +6641,68 @@
         "encoding": "WebP quality 88"
       },
       "verifiedAt": "2026-10-29",
+      "licenseFile": null
+    },
+    {
+      "gameId": "blind-bandits",
+      "originalSha256": "3a4b3e49a1d2461c40f4117f6f9c12bbdc417db85a836daa78699771108d19e2",
+      "originalUrl": "https://github.com/Stanford-ILIAD/Diverse-Conventions/blob/d63b50b0ccfb4f140340b83b5a6bc41a0edc6ade/tree_env/tree_env.py",
+      "sourceUrl": "https://github.com/Stanford-ILIAD/Diverse-Conventions/blob/d63b50b0ccfb4f140340b83b5a6bc41a0edc6ade/tree_env/tree_env.py",
+      "sourceType": "official-site",
+      "sourceLabel": "Stanford-ILIAD/Diverse-Conventions · pinned official environment",
+      "credit": "Stanford-ILIAD/Diverse-Conventions contributors · Atlas runtime-state viewer",
+      "sourceCommit": "d63b50b0ccfb4f140340b83b5a6bc41a0edc6ade",
+      "caption": {
+        "zh": "Blind Bandits · 原始环境运行状态",
+        "en": "Blind Bandits · runtime state of the original environment"
+      },
+      "alt": {
+        "zh": "运行官方 toy 分支的原始 reset、n_step 与观察方法，动作序列为 1、0、0、0、0、1，终局状态 97、双方奖励均为 3。画面是本地诊断查看器，显示完整状态及双方私有状态；训练框架包装被跳过，不是玩家原生观察界面。",
+        "en": "Runs the original reset, n_step and observation methods from the official toy branch with actions 1, 0, 0, 0, 0, 1; terminal state 97 gives both players reward 3. This local diagnostic viewer shows full and private states; the training wrapper is bypassed, and it is not a native player-observation interface."
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "运行官方 toy 分支的原始 reset、n_step 与观察方法，动作序列为 1、0、0、0、0、1，终局状态 97、双方奖励均为 3。画面是本地诊断查看器，显示完整状态及双方私有状态；训练框架包装被跳过，不是玩家原生观察界面。",
+        "en": "Runs the original reset, n_step and observation methods from the official toy branch with actions 1, 0, 0, 0, 0, 1; terminal state 97 gives both players reward 3. This local diagnostic viewer shows full and private states; the training wrapper is bypassed, and it is not a native player-observation interface."
+      },
+      "captureMethod": "local-runtime-screenshot",
+      "capture": {
+        "method": "local-runtime-screenshot",
+        "sourceUrl": "https://github.com/Stanford-ILIAD/Diverse-Conventions/blob/d63b50b0ccfb4f140340b83b5a6bc41a0edc6ade/tree_env/tree_env.py",
+        "sourceCommit": "d63b50b0ccfb4f140340b83b5a6bc41a0edc6ade",
+        "sourcePath": "tree_env/tree_env.py",
+        "sourceBlob": "841dff40a079def0ff6a55453c88bdca4a0dcea9",
+        "sourceSha256": "c20e3a721c96f905b999913dab6fb54cc3e95dd337cd7448ce3c31e903276aad",
+        "runtimeTraceSha256": "9f7b21cd2401e09c3785d39a1011ae9bee10376e7ed7bc69b9de391c3ea0e9b9",
+        "viewerScriptSha256": "8509ed19a3d23d12d7feaa4341516431cc3db56bb01c49ded158aad9c970f304",
+        "pythonVersion": "3.12.14",
+        "presentation": "Local state viewer, not author-provided client"
+      },
+      "identityEvidence": {
+        "url": "https://github.com/Stanford-ILIAD/Diverse-Conventions/blob/d63b50b0ccfb4f140340b83b5a6bc41a0edc6ade/tree_env/tree_env.py",
+        "locator": "tree_env/tree_env.py",
+        "note": "Runs the original reset, n_step and observation methods from the official toy branch with actions 1, 0, 0, 0, 0, 1; terminal state 97 gives both players reward 3. This local diagnostic viewer shows full and private states; the training wrapper is bypassed, and it is not a native player-observation interface."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "width": 1056,
+      "height": 624,
+      "rightsNote": "Original environment authors credited. Screenshot of an Atlas state viewer displaying directly executed official transition functions; no performance plot or unrelated game image is substituted.",
+      "originalSize": [
+        1056,
+        624
+      ],
+      "image": "game-blind-bandits.webp",
+      "sha256": {
+        "image": "8f54e6402b6fbdd081d82428b3410598202143e077cae97b2b7e733a7481250e"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
       "licenseFile": null
     },
     {
@@ -13924,6 +14181,79 @@
       "licenseFile": null
     },
     {
+      "gameId": "dragon-if",
+      "originalSha256": "f3039d6467f794f9e4afe8c50b0ad3b877acac3c1babd686e5efbc12bbb2569b",
+      "originalUrl": "https://iplayif.com/?story=https://raw.githubusercontent.com/BYU-PCCL/z-machine-games/bfd7544aa1f50549fc327bd4eb3bc8144bfd80ea/jericho-game-suite/dragon.z5",
+      "sourceUrl": "https://github.com/BYU-PCCL/z-machine-games/blob/bfd7544aa1f50549fc327bd4eb3bc8144bfd80ea/jericho-game-suite/dragon.z5",
+      "sourceType": "official-site",
+      "sourceLabel": "Dragon Adventure · Jericho story archive / Parchment",
+      "credit": "Dragon Adventure original authors; Parchment project; Atlas runtime capture",
+      "caption": {
+        "zh": "Dragon Adventure · 实际文本交互",
+        "en": "Dragon Adventure · live text interaction"
+      },
+      "alt": {
+        "zh": "Dragon Adventure 的地点描述、inventory 命令与实际反馈",
+        "en": "Dragon Adventure location text, inventory command and actual response"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "EMemBench 发布的 dragon.z5 与图中运行文件逐字节一致，确认为 William Stott 的 Dragon Adventure，Release 2 / 040211。画面由 Parchment 浏览器解释器呈现，区别于 Jericho 的程序化文本接口。",
+        "en": "EMemBench’s released dragon.z5 is byte-identical to the pictured story: William Stott’s Dragon Adventure, Release 2 / 040211. Parchment provides the browser presentation rather than Jericho’s programmatic text interface."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Original story text remains with its respective authors and publishers; this screenshot records actual execution. The interpreter and story licenses are distinct.",
+      "captureMethod": "browser-screenshot",
+      "captureUrl": "https://iplayif.com/?story=https://raw.githubusercontent.com/BYU-PCCL/z-machine-games/bfd7544aa1f50549fc327bd4eb3bc8144bfd80ea/jericho-game-suite/dragon.z5",
+      "capture": {
+        "method": "browser-screenshot",
+        "url": "https://iplayif.com/?story=https://raw.githubusercontent.com/BYU-PCCL/z-machine-games/bfd7544aa1f50549fc327bd4eb3bc8144bfd80ea/jericho-game-suite/dragon.z5",
+        "capturedAt": "2026-10-31",
+        "interpreter": "Parchment at iplayif.com",
+        "storyCommit": "bfd7544aa1f50549fc327bd4eb3bc8144bfd80ea",
+        "storyPath": "jericho-game-suite/dragon.z5",
+        "storySha256": "9f7d54f7c18ce07ec1c6eab7d5c2176f3562d46ffd2357f6d6cfc48a6fa683a8",
+        "storyBlob": "56ebb471030dad92c3db5b715d5193fd0b4ae00f",
+        "release": 2,
+        "serial": "040211",
+        "zMachineVersion": 5,
+        "introKeys": 0,
+        "actions": [
+          "inventory"
+        ]
+      },
+      "identityEvidence": "EMemBench commit 8d38a655245934ff8c77bbad0bef4718224017e3 text_game/game_envs/dragon.z5 is byte-identical to Jericho archive dragon.z5: SHA256 9f7d54f7c18ce07ec1c6eab7d5c2176f3562d46ffd2357f6d6cfc48a6fa683a8, git blob 56ebb471030dad92c3db5b715d5193fd0b4ae00f. Live interpreter identifies Dragon Adventure Release 2 / 040211.",
+      "originalSize": [
+        1200,
+        900
+      ],
+      "image": "game-jericho-dragon.webp",
+      "width": 920,
+      "height": 900,
+      "sha256": {
+        "image": "5fc6c92fd4ade6218dd2064da6d42880e95387b834e2bc1d53b509be108a1a52"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          140,
+          0,
+          1060,
+          900
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null,
+      "referenceGameId": "jericho-dragon",
+      "relationshipSource": "https://github.com/InternLM/EMemBench/blob/8d38a655245934ff8c77bbad0bef4718224017e3/text_game/game_envs/dragon.z5",
+      "relationshipEvidence": "EMemBench commit 8d38a655245934ff8c77bbad0bef4718224017e3 text_game/game_envs/dragon.z5 is byte-identical to Jericho archive dragon.z5: SHA256 9f7d54f7c18ce07ec1c6eab7d5c2176f3562d46ffd2357f6d6cfc48a6fa683a8, git blob 56ebb471030dad92c3db5b715d5193fd0b4ae00f. Live interpreter identifies Dragon Adventure Release 2 / 040211.",
+      "referenceSourceUrl": "https://github.com/BYU-PCCL/z-machine-games/blob/bfd7544aa1f50549fc327bd4eb3bc8144bfd80ea/jericho-game-suite/dragon.z5",
+      "title": "Dragon Adventure"
+    },
+    {
       "gameId": "collection-gab112",
       "repository": "oxwhirl/smacv2",
       "commit": "577ab5a2cff2391f8df582da5731ea9cd6adf3c6",
@@ -17031,6 +17361,71 @@
         "encoding": "Lossless WebP"
       },
       "licenseFile": "image-license-tatham.txt"
+    },
+    {
+      "gameId": "collection-gab081",
+      "originalSha256": "40aa662eb67cca9ac43a49a33e19f1d26eabc4a6db34fa0b837c64634f41a131",
+      "rasterSha256": "e4842d6833b10a914305aeeddd8b63b755f81c67eec8815eb3092b6631a4ec76",
+      "originalUrl": "https://raw.githubusercontent.com/CUHK-ARISE/GAMABench/ca933aedcc55b29032c3fd37cf7f695abd2197cd/raw_results/bar_game_explicit/bar_game_explicit_v1.json",
+      "sourceUrl": "https://github.com/CUHK-ARISE/GAMABench/blob/ca933aedcc55b29032c3fd37cf7f695abd2197cd/raw_results/bar_game_explicit/bar_game_explicit_v1.json",
+      "sourceType": "repository",
+      "repository": "CUHK-ARISE/GAMABench",
+      "commit": "ca933aedcc55b29032c3fd37cf7f695abd2197cd",
+      "originalPath": "raw_results/bar_game_explicit/bar_game_explicit_v1.json",
+      "originalBlob": "46bce6b77bb5db50eb97b5be4b994746c64f8c6c",
+      "sourceLabel": "CUHK-ARISE/GAMABench · ca933ae · original source / local viewer",
+      "credit": "CUHK-ARISE/GAMABench contributors · Atlas local state-viewer capture",
+      "caption": {
+        "zh": "GAMA-Bench · Bar Game 原始单轮决策回放",
+        "en": "GAMA-Bench · original Bar Game round replay"
+      },
+      "alt": {
+        "zh": "GAMA-Bench · Bar Game 原始单轮决策回放",
+        "en": "GAMA-Bench · original Bar Game round replay"
+      },
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "选取作者发布的 bar_game_explicit_v1 第 1/20 轮作为合集代表：10 名玩家中 9 人选择去酒吧，超过 60% 容量。画面逐项读取原始 JSON 的决策与结果；界面为本地日志查看器，不是重新调用模型得到的对局。",
+        "en": "Representative round 1/20 from the authors’ bar_game_explicit_v1 record: 9 of 10 players attend the bar, exceeding its 60% capacity. Decisions and outcomes are read directly from the original JSON. This is a local log viewer, not a newly generated model episode."
+      },
+      "identityEvidence": {
+        "url": "https://github.com/CUHK-ARISE/GAMABench/blob/ca933aedcc55b29032c3fd37cf7f695abd2197cd/raw_results/bar_game_explicit/bar_game_explicit_v1.json",
+        "locator": "Original round_records[0] with responses, go_num=9, go_ratio=0.9, winner=stay and utility=0; all displayed decisions copied from the archived JSON.",
+        "note": "Original round_records[0] with responses, go_num=9, go_ratio=0.9, winner=stay and utility=0; all displayed decisions copied from the archived JSON."
+      },
+      "captureMethod": "local-log-replay-screenshot",
+      "capture": {
+        "method": "local-log-replay-screenshot",
+        "record": "round_records[0]",
+        "round": 1,
+        "totalRounds": 20,
+        "stateSha256": "533121975ed22b658d5010cec20d6b348c4732d83c55194ebb2ef9d83911de83",
+        "viewerSha256": "fe80f95d3af42f2854e6d368629936a9040c05b920208c67c8440d388b33a89d"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "width": 1050,
+      "height": 696,
+      "license": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "rightsNote": "Original source retains its upstream license. The local viewer is clearly labelled and records actual source execution or original archived data; no game artwork is reconstructed.",
+      "originalSize": [
+        1050,
+        696
+      ],
+      "image": "game-collection-gab081.webp",
+      "sha256": {
+        "image": "bc655b4a55e1efa7b2c73118ceb0f950d33c95067fd57d783ac29f80826080d3"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": "image-license-matteobettini_vmas-media.txt",
+      "licenseLabel": "GPL-3.0"
     },
     {
       "gameId": "flashadventure-game-cafe-escape",
@@ -29515,6 +29910,56 @@
       "title": "Misère K-in-a-row (Intuitive Gamer)"
     },
     {
+      "gameId": "modular-discovery-generated-games",
+      "originalSha256": "db1842dafbbeb3876319cd11aef498932043f54ba0c401076423a13a7b984aab",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/en/6/63/Ataxx_Arcade_Gameplay_Screenshot.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/File:Ataxx_Arcade_Gameplay_Screenshot.png",
+      "sourceType": "encyclopedia",
+      "sourceLabel": "Leland Corporation / Wikipedia",
+      "caption": {
+        "zh": "Ataxx · 街机版棋盘实景",
+        "en": "Ataxx · arcade gameplay"
+      },
+      "alt": {
+        "zh": "Ataxx · 街机版棋盘实景",
+        "en": "Ataxx · arcade gameplay"
+      },
+      "credit": "Leland Corporation / Wikipedia",
+      "rightsNote": "Copyright Leland Corporation; low-resolution screenshot published on English Wikipedia with a non-free use rationale. Attribution does not confer a free license.",
+      "imageMatch": "collection-example",
+      "identityEvidence": "Appendix G.2 Table12 Connection & Spatial Line Formation names 3D Tic-Tac-Toe, Achi, Abalone and Ataxx. Existing source-verified Ataxx arcade image is used as a related implementation, not as a captured synthesized engine.",
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "visualReview": "Inspected selected image at readable resolution; excludes logo, cover art, method charts and result plots.",
+      "imageNote": {
+        "zh": "附录 G.2 表12将 Ataxx 列为 360 个生成评测环境的规则来源之一。此处选用 Ataxx 街机版实际画面展示这一代表游戏；论文使用自动生成的 C++ 模拟器，界面、实现与截图中的街机版不同。",
+        "en": "Appendix G.2 Table 12 lists Ataxx among the rule sources for the 360 synthesized evaluation environments. This arcade Ataxx screenshot illustrates one representative game; the paper uses synthesized C++ simulators with a different implementation and interface."
+      },
+      "originalSize": [
+        320,
+        240
+      ],
+      "image": "game-ataxx.webp",
+      "width": 320,
+      "height": 240,
+      "sha256": {
+        "image": "ef6cdeafaf613efa20ecc05bc87ca6f680160fe44b796f5da57f6325c01a781c"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null,
+      "referenceGameId": "ataxx",
+      "relationshipSource": "https://arxiv.org/html/2609.33115v1#A7.SS2",
+      "relationshipEvidence": "Appendix G.2 Table12 Connection & Spatial Line Formation names 3D Tic-Tac-Toe, Achi, Abalone and Ataxx. Existing source-verified Ataxx arcade image is used as a related implementation, not as a captured synthesized engine.",
+      "referenceSourceUrl": "https://en.wikipedia.org/wiki/File:Ataxx_Arcade_Gameplay_Screenshot.png",
+      "title": "Modular Discovery generated games"
+    },
+    {
       "gameId": "monkey-mart",
       "sourceType": "repository",
       "originalUrl": "https://gameworld-project.github.io/static/figures/gameworld/games/game_20_monkey-mart_rand1.jpg",
@@ -31040,6 +31485,61 @@
         "resize": "Aspect-preserving; no upscaling",
         "encoding": "WebP quality 88"
       }
+    },
+    {
+      "gameId": "nullify",
+      "originalSha256": "abd033ecbf1852431ccf73c138503c4e6b26bdd08f9f239f6a0da29ec44f8354",
+      "rasterSha256": "0deb7a1132b68e0847e80bea165a6e1e8ca2f94021f31d701d36545489522dfd",
+      "originalUrl": "https://arxiv.org/pdf/2608.31100v1",
+      "sourceUrl": "https://arxiv.org/pdf/2608.31100v1#page=19",
+      "sourceType": "official-site",
+      "sourceLabel": "S³Gym original paper · page 19 · Nullify trajectory evidence",
+      "credit": "S³Gym authors · original paper excerpt",
+      "caption": {
+        "zh": "Nullify · 原论文交互轨迹摘录",
+        "en": "Nullify · paper-published interaction trace"
+      },
+      "alt": {
+        "zh": "原论文中 Nullify 的终局数值、动作与奖励记录",
+        "en": "Nullify terminal units, action and reward as recorded in the original paper"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "原论文第 19 页的 Gemini-3.5-Flash / Nullify 交互轨迹摘录：末尾数值为 -19 和 19，动作 0 1 获得奖励 1.0。图片保留作者的轨迹说明及该实验结果，是论文发表的文字记录，不是游戏图形界面或本地复现截图。",
+        "en": "Paper-published interaction-trace excerpt from page 19, Gemini-3.5-Flash / Nullify: terminal units -19 and 19, action 0 1, reward 1.0. The image preserves the authors’ trajectory account and experiment result; it is a published textual record, not a game GUI or local reproduction screenshot."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/pdf/2608.31100v1#page=19",
+        "locator": "Section 6.3, Successful summaries, Gemini-3.5-Flash / Nullify box on PDF page 19",
+        "note": "The author box explicitly labels Trajectory evidence and records terminal units -19 and 19, selected action 0 1 and reward 1.0; it is an observed experimental example, not an invented rule illustration."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Original author-published paper excerpt; rights remain with the authors. Cropped to the single named Nullify example with its context retained.",
+      "extractionNote": "Rendered original PDF page 19 at scale 3 and cropped one author text box; no rewriting or reconstructed game state.",
+      "originalSize": [
+        1836,
+        2376
+      ],
+      "image": "game-nullify.webp",
+      "width": 696,
+      "height": 329,
+      "sha256": {
+        "image": "c3b10e36e6ee21be72495a088bd8d0b038d02c15491df52a9ef7c9e735488432"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          930,
+          231,
+          1626,
+          560
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "longpuzzle-nut-and-bolt",
@@ -38392,6 +38892,89 @@
       "licenseFile": null
     },
     {
+      "gameId": "valet-scarto",
+      "originalSha256": "eadd16bf4a3ca0c9d22b4c5f886f07c59ca21752247a6b94a7660270ee6464f6",
+      "originalUrl": "https://github.com/mgoadric/cardstock/blob/546bf21cd8090ae2acd240030b1be4b889c268a9/CardStock/games/Valet/Scarto3.rcy",
+      "sourceUrl": "https://github.com/mgoadric/cardstock/blob/546bf21cd8090ae2acd240030b1be4b889c268a9/CardStock/games/Valet/Scarto3.rcy",
+      "sourceType": "official-site",
+      "sourceLabel": "Valet / CardStock · Scarto3.rcy · 546bf21",
+      "credit": "Mark Goadrich and CardStock contributors · Atlas runtime transcript capture",
+      "caption": {
+        "zh": "Scarto · 作者环境第一墩的实际状态",
+        "en": "Scarto · actual first-trick state from the author environment"
+      },
+      "alt": {
+        "zh": "Scarto 原始日志中的三次出牌：p1 圣杯八、p2 圣杯十、p3 圣杯 A，从 HAND 移到 TRICK。",
+        "en": "Three recorded Scarto plays: p1 eight of cups, p2 ten of cups, p3 ace of cups, moving from HAND to TRICK."
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "运行作者 CardStock 提交 546bf21 的 Valet/Scarto3.rcy，三名随机代理完成一局；截图逐字段展示原始日志事件 88、92、95。界面为本地日志查看器，非作者图形客户端；牌名、玩家与位置来自真实执行记录，未重建牌面。",
+        "en": "Executed Valet/Scarto3.rcy from author CardStock commit 546bf21 with three random agents for one complete game. The screenshot shows original log events 88, 92 and 95 field by field. This is a local transcript viewer, not an author graphical client; card names, players and locations come directly from execution records, without reconstructed card artwork."
+      },
+      "identityEvidence": {
+        "url": "https://mgoadric.github.io/valet/post/scarto.html",
+        "locator": "Valet explicitly links the CardStock engine and publishes Scarto3.rcy; the pinned CardStock file was executed successfully.",
+        "implementation": "https://github.com/mgoadric/cardstock/blob/546bf21cd8090ae2acd240030b1be4b889c268a9/CardStock/games/Valet/Scarto3.rcy"
+      },
+      "captureMethod": "local-runtime-screenshot",
+      "capture": {
+        "method": "local-runtime-screenshot",
+        "capturedAt": "2026-10-31",
+        "sourceCommit": "546bf21cd8090ae2acd240030b1be4b889c268a9",
+        "sourcePath": "CardStock/games/Valet/Scarto3.rcy",
+        "sourceBlob": "938e61e989191a819257b9632d4dad8319267894",
+        "runtime": ".NET SDK 10.0.403, macOS arm64",
+        "arguments": [
+          "Valet/Scarto",
+          "3",
+          "1",
+          "RRR",
+          "true",
+          "1",
+          "1"
+        ],
+        "traceSha256": "18ece9b35f2f4eee1d0d416a28b75218fd3e78f8a821fd8491f987a367758ea9",
+        "traceEventCount": 576,
+        "selectedEventIndices": [
+          88,
+          92,
+          95
+        ],
+        "viewer": "Local read-only rendering of original JSON events; no game mechanics modified"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Original CardStock implementation is GPL-3.0; screenshot presents actual execution data in a local transcript viewer.",
+      "license": "GPL-3.0",
+      "licenseUrl": "https://github.com/mgoadric/cardstock/blob/546bf21cd8090ae2acd240030b1be4b889c268a9/LICENSE.txt",
+      "repository": "mgoadric/cardstock",
+      "originalSize": [
+        1200,
+        820
+      ],
+      "image": "game-valet-scarto.webp",
+      "width": 1160,
+      "height": 695,
+      "sha256": {
+        "image": "785fe498c624075657b41fe3bf3075a879c3d802cda03a2f800cd243f1765b48"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          20,
+          20,
+          1180,
+          715
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": "image-license-matteobettini_vmas-media.txt",
+      "licenseLabel": "GPL-3.0"
+    },
+    {
       "gameId": "scene-investigators",
       "title": "Scene Investigators",
       "sourceUrl": "https://store.steampowered.com/app/1159830/",
@@ -39708,6 +40291,73 @@
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
     },
     {
+      "gameId": "valet-skitgubbe",
+      "originalSha256": "12ae55c1d989d1cdd53dc5d56880b71a8e4e41289c1dc5be4d5d5962ea63d940",
+      "originalUrl": "https://gathertoplay.com/play/skitgubbe/",
+      "sourceUrl": "https://www.gathertoplay.com/en/games/skitgubbe/",
+      "sourceType": "third-party",
+      "sourceLabel": "Gather to Play · Skitgubbe browser game",
+      "credit": "Robert Erlandsson / Gather to Play · Atlas runtime capture",
+      "caption": {
+        "zh": "Skitgubbe · 第一阶段实际对局",
+        "en": "Skitgubbe · live first-half game state"
+      },
+      "alt": {
+        "zh": "Skitgubbe 网页运行画面：三名玩家、牌堆与三张手牌。",
+        "en": "Running Skitgubbe browser game with three players, stock and three hand cards."
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "Gather to Play 网页版，2026-10-31 采集；三人对局、Normal 电脑难度，允许从牌堆直接出牌。已实际打出黑桃 A，并由电脑响应。此实现采用先收牌、后脱手的两阶段规则，用作 Valet 同名游戏的参考画面；并非 Valet/CardStock 客户端。",
+        "en": "Gather to Play web version captured on 2026-10-31: three players, Normal bots, and playing from the stock enabled. An Ace of Spades was played and the computer responded. This two-phase collect-then-shed implementation illustrates the game named in Valet; it is not the Valet/CardStock client."
+      },
+      "identityEvidence": {
+        "url": "https://mgoadric.github.io/valet/post/skittgube.html",
+        "locator": "Valet names Skitgubbe and describes two-card tricks followed by shedding; Gather to Play explicitly implements the corresponding two-phase game, not Turn Ten.",
+        "relatedSource": "https://www.gathertoplay.com/en/games/skitgubbe/"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Game interface copyright Robert Erlandsson / Gather to Play; captured as a sourced reference implementation, no open asset license asserted.",
+      "captureMethod": "browser-screenshot",
+      "captureUrl": "https://gathertoplay.com/play/skitgubbe/",
+      "capture": {
+        "method": "browser-screenshot",
+        "url": "https://gathertoplay.com/play/skitgubbe/",
+        "capturedAt": "2026-10-31",
+        "actions": [
+          "Start the game: 3 players, Normal bots, stock enabled",
+          "Dismiss rules",
+          "Play Ace of Spades",
+          "Computer responds with 9 of Clubs"
+        ],
+        "scope": "Visible actual game state; no reconstructed cards"
+      },
+      "originalSize": [
+        1100,
+        900
+      ],
+      "image": "game-valet-skitgubbe.webp",
+      "width": 989,
+      "height": 645,
+      "sha256": {
+        "image": "c0a4fc29848e4002889017753060e1676d5e435c648cb7a7faa3996b970837cb"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          55,
+          25,
+          1044,
+          670
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "skull",
       "originalSha256": "72323ec887f367c5ed76088355adfb32fd89b74c13f3cfec9a1b9034e0ac1d4e",
       "originalUrl": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2024/04/SKULL_RULES_ES.pdf",
@@ -40696,6 +41346,73 @@
       "sourceType": "repository",
       "identityEvidence": "Official per-game ALE documentation embeds this exact GIF and identifies its Atari environment.",
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
+    },
+    {
+      "gameId": "solitaire-unspecified",
+      "originalSha256": "cc95ef86c85c035c6b816d77888651e95486caee20e9db9f199d6c50c306f87b",
+      "originalUrl": "https://github.com/google-deepmind/open_spiel/blob/v2.0.2/open_spiel/games/solitaire/solitaire.h",
+      "sourceUrl": "https://github.com/google-deepmind/open_spiel/blob/v2.0.2/open_spiel/games/solitaire/solitaire.h",
+      "sourceType": "official-site",
+      "sourceLabel": "OpenSpiel 2.0.2 · Solitaire (K+ Klondike)",
+      "credit": "OpenSpiel contributors · Atlas local state capture",
+      "caption": {
+        "zh": "Solitaire · 原始环境走牌后的状态",
+        "en": "Solitaire · original engine state after a legal move"
+      },
+      "alt": {
+        "zh": "OpenSpiel 接龙状态：梅花 A 移至基础牌堆后的牌列、废牌及可移动牌",
+        "en": "OpenSpiel Solitaire state showing tableau, waste and movable cards after the ace of clubs moves to a foundation"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "运行 OpenSpiel 2.0.2 的 Solitaire（K+ Klondike），默认参数、seed 0，将梅花 A 移至基础牌堆。图中直接展示原引擎完整状态输出；本地查看器并非作者图形客户端，未复现论文的搜索策略。",
+        "en": "OpenSpiel 2.0.2 Solitaire (K+ Klondike), default parameters and seed 0, after moving the ace of clubs to a foundation. This local viewer shows the engine’s full state output; it is not an author graphical client or a reproduction of the paper’s search policy."
+      },
+      "captureMethod": "local-runtime-screenshot",
+      "capture": {
+        "method": "local-runtime-screenshot",
+        "capturedAt": "2026-10-31",
+        "engine": "OpenSpiel 2.0.2",
+        "game": "solitaire",
+        "seed": 0,
+        "action": 187,
+        "traceSha256": "003c0c9a27f15082b4905706956a007abf136a49afe0861e2227211c98fe3455",
+        "sourceSha256": "f4941228db50453ecdb2411535a56a3972193979f6f19c273a4527468ce20db9",
+        "parameters": {
+          "depth_limit": 150,
+          "is_colored": false,
+          "players": 1
+        }
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2609.33115v1#A6",
+        "locator": "Appendix F: Held-Out OpenSpiel Evaluation Suite, Table 11; official OpenSpiel docs/games.md identifies Solitaire (K+) as Klondike",
+        "officialRules": "https://github.com/google-deepmind/open_spiel/blob/v2.0.2/open_spiel/games/solitaire/solitaire.h"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "rightsNote": "Original engine output under OpenSpiel Apache-2.0; locally captured state viewer.",
+      "originalSize": [
+        1072,
+        633
+      ],
+      "image": "game-solitaire-unspecified.webp",
+      "width": 1072,
+      "height": 633,
+      "sha256": {
+        "image": "e89975d884e358c477fe0ff67f81c7bbed2bde8e26a3794b4d6cddf019fc6db6"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": "image-license-google-deepmind_dm_alchemy.txt",
+      "licenseLabel": "Apache-2.0"
     },
     {
       "gameId": "tatham-solo",
@@ -43456,6 +44173,95 @@
       "licenseLabel": "Repository code license: GPL-2.0. This does not assert a blanket license for underlying Atari game artwork."
     },
     {
+      "gameId": "social-gym-survivor",
+      "originalSha256": "34600b388dca221014590e39fea323ea9ac9174c6c48da9d1f2f5d92b9bfc571",
+      "rasterSha256": "d794489548b7388d21ee00a23d697edc33c4628da3728ced580e11e64b0f68fe",
+      "originalUrl": "https://raw.githubusercontent.com/Keyu-He/Social_Gym_Spartan/d87cd31673c0a9cbc789a5f2b8d14665226fa7dd/games/survivor/main.py",
+      "sourceUrl": "https://github.com/Keyu-He/Social_Gym_Spartan/blob/d87cd31673c0a9cbc789a5f2b8d14665226fa7dd/games/survivor/main.py",
+      "sourceType": "repository",
+      "repository": "Keyu-He/Social_Gym_Spartan",
+      "commit": "d87cd31673c0a9cbc789a5f2b8d14665226fa7dd",
+      "originalPath": "games/survivor/main.py",
+      "originalBlob": "29ae5d407d58be12728749926f5a6a853943992c",
+      "sourceLabel": "Keyu-He/Social_Gym_Spartan · d87cd31 · original source / local viewer",
+      "credit": "Keyu-He/Social_Gym_Spartan contributors · Atlas local state-viewer capture",
+      "caption": {
+        "zh": "Survivor · 原始规则执行器的计票与淘汰状态",
+        "en": "Survivor · vote counting and elimination in the original rule methods"
+      },
+      "alt": {
+        "zh": "Survivor · 原始规则执行器的计票与淘汰状态",
+        "en": "Survivor · vote counting and elimination in the original rule methods"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "从作者固定提交中直接执行未改写的投票解析、动作处理与淘汰方法；六个脚本化投票产生 Bob 被淘汰并加入陪审团的真实状态。截图为局部规则执行查看器，未运行 Redis 后端或 LLM 完整讨论回合。",
+        "en": "Runs the unmodified ballot parser, action handler and elimination methods from the pinned author source. Six scripted votes produce the actual state in which Bob is eliminated and joins the jury. The image is a partial rule-execution viewer; it does not run the Redis backend or a full LLM discussion episode."
+      },
+      "identityEvidence": {
+        "url": "https://github.com/Keyu-He/Social_Gym_Spartan/blob/d87cd31673c0a9cbc789a5f2b8d14665226fa7dd/games/survivor/main.py",
+        "locator": "Unmodified AST nodes read_ballot, SurvivorActionHandler, and SurvivorEnv._check_eliminations; six names from the original roster; scripted Vote fixture with Bob receiving five votes.",
+        "note": "Unmodified AST nodes read_ballot, SurvivorActionHandler, and SurvivorEnv._check_eliminations; six names from the original roster; scripted Vote fixture with Bob receiving five votes."
+      },
+      "captureMethod": "local-runtime-screenshot",
+      "capture": {
+        "method": "local-runtime-screenshot",
+        "executionScope": "Original ballot and elimination methods only; scripted Vote fixture; local storage/message adapters; no LLM or Redis episode",
+        "ballots": [
+          {
+            "player": "Alice",
+            "argument": "vote Bob"
+          },
+          {
+            "player": "Bob",
+            "argument": "vote Alice"
+          },
+          {
+            "player": "Charlie",
+            "argument": "vote Bob"
+          },
+          {
+            "player": "Diana",
+            "argument": "vote Bob"
+          },
+          {
+            "player": "Eve",
+            "argument": "vote Bob"
+          },
+          {
+            "player": "Frank",
+            "argument": "vote Bob"
+          }
+        ],
+        "stateSha256": "ebc7667ad1fb6efdf56d22f4214025f77254ad1933744ace6912a2a7943a2149",
+        "viewerSha256": "fe80f95d3af42f2854e6d368629936a9040c05b920208c67c8440d388b33a89d"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "width": 1050,
+      "height": 616,
+      "license": "MIT",
+      "licenseUrl": "https://opensource.org/license/mit",
+      "rightsNote": "Original source retains its upstream license. The local viewer is clearly labelled and records actual source execution or original archived data; no game artwork is reconstructed.",
+      "originalSize": [
+        1050,
+        616
+      ],
+      "image": "game-social-gym-survivor.webp",
+      "sha256": {
+        "image": "7a30f3ef1c6d08382a009a62ca2ec09bf35301b8ba9ece4fde79276157bd7569"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": "image-license-Keyu-He_Social_Gym_Spartan.txt",
+      "licenseLabel": "MIT"
+    },
+    {
       "gameId": "swe-game-reference",
       "title": "SWE-Game reference games",
       "originalUrl": "https://arxiv.org/html/2609.33678v3/casestudy2d.JPG",
@@ -46106,6 +46912,64 @@
       "licenseFile": null
     },
     {
+      "gameId": "gamebench-two-rooms-and-a-boom",
+      "originalSha256": "5f87f47a03edd86d8966eb39a19ce07136df6d5c33b2121c2005a7bdba06bd0a",
+      "frameSha256": "6da6dc8a5a4f912cb5583a9b953ae3ab5d87be5607f4a4fca135561f277fb19f",
+      "frameTimeSeconds": 78.5,
+      "originalUrl": "https://www.youtube.com/watch?v=K545LdLCLUM",
+      "sourceUrl": "https://www.youtube.com/watch?v=K545LdLCLUM&t=78s",
+      "sourceType": "official-site",
+      "sourceLabel": "Tuesday Knight Games · Teach It Tight - How to Play Two Rooms and a Boom",
+      "credit": "Tuesday Knight Games · Teach It Tight",
+      "caption": {
+        "zh": "Two Rooms and a Boom · 官方分房示范 01:18.5",
+        "en": "Two Rooms and a Boom · official room-division demonstration at 01:18.5"
+      },
+      "alt": {
+        "zh": "Two Rooms and a Boom · 官方分房示范 01:18.5",
+        "en": "Two Rooms and a Boom · official room-division demonstration at 01:18.5"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "截自 Tuesday Knight Games 2015 年 Teach It Tight 官方教学视频，展示玩家分到两个区域的实体游戏示范；虚线为原视频的分房标记。GameBench 使用文本交互与程序化规则，画面不是其客户端。",
+        "en": "Frame from Tuesday Knight Games’ 2015 Teach It Tight tutorial showing players divided into two physical play areas. The dashed divider is part of the original video. GameBench uses text interaction and programmatic rules rather than this filmed interface."
+      },
+      "identityEvidence": {
+        "url": "https://www.tuesdayknightgames.com/products/two-rooms-and-a-boom",
+        "locator": "Publisher product page embeds this named video as its game demonstration.",
+        "note": "Video title, uploader and visible rules match the named tabletop game."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Copyright remains with the credited creators. Sourced video frame used to illustrate the game; no open license asserted.",
+      "capture": {
+        "method": "video-frame",
+        "url": "https://www.youtube.com/watch?v=K545LdLCLUM",
+        "seconds": 78.5,
+        "videoUploadDate": "20150729",
+        "title": "Teach It Tight - How to Play Two Rooms and a Boom",
+        "uploader": "Tuesday Knight Games"
+      },
+      "originalSize": [
+        854,
+        480
+      ],
+      "image": "game-gamebench-two-rooms-and-a-boom.webp",
+      "width": 854,
+      "height": 480,
+      "sha256": {
+        "image": "556dc68767e603487ee5f0bc5949bba1332a0677d44746b711f0b97ad8630206"
+      },
+      "processing": {
+        "frameIndex": null,
+        "frameTimeSeconds": 78.5,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "ultimate-tic-tac-toe",
       "repository": "tongjingqi/Game-RL",
       "commit": "dc53ec4c83dd8e1e5328c99630e194a7fa6831bc",
@@ -46431,6 +47295,84 @@
         "encoding": "Lossless WebP"
       },
       "licenseFile": "image-license-tatham.txt"
+    },
+    {
+      "gameId": "universal-poker",
+      "originalSha256": "68e718b42922e9eded62c175d6fe54124b9dc439949553403b6cfe2d08ed7e38",
+      "rasterSha256": "126880b21af7e449826085ba380993fa6606ae0a53340de134531bd3eca05613",
+      "originalUrl": "https://raw.githubusercontent.com/google-deepmind/open_spiel/d7c4fc2dac825cb34b50131042a151b43c12edc5/open_spiel/canonical_game_strings.cc",
+      "sourceUrl": "https://github.com/google-deepmind/open_spiel/blob/d7c4fc2dac825cb34b50131042a151b43c12edc5/open_spiel/canonical_game_strings.cc",
+      "sourceType": "repository",
+      "repository": "google-deepmind/open_spiel",
+      "commit": "d7c4fc2dac825cb34b50131042a151b43c12edc5",
+      "originalPath": "open_spiel/canonical_game_strings.cc",
+      "originalBlob": "d5efad6760f305c6f4894d8cc1385eabdfe2d017",
+      "sourceLabel": "google-deepmind/open_spiel · d7c4fc2 · original source / local viewer",
+      "credit": "google-deepmind/open_spiel contributors · Atlas local state-viewer capture",
+      "caption": {
+        "zh": "Universal Poker · 双人无限注德州扑克运行状态",
+        "en": "Universal Poker · live heads-up no-limit Hold’em state"
+      },
+      "alt": {
+        "zh": "Universal Poker · 双人无限注德州扑克运行状态",
+        "en": "Universal Poker · live heads-up no-limit Hold’em state"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "使用 OpenSpiel 2.0.2 的官方 HUNL 配置，FCPA 动作抽象、盲注 100/50、筹码各 20000；执行两次 call 后到达翻牌轮，展示玩家 0 信息状态。发牌采用固定合法序列以便复现；这是本地文本查看器及一个代表配置，不表示论文固定了相同参数。",
+        "en": "Uses the canonical HUNL configuration in OpenSpiel 2.0.2: FCPA actions, blinds 100/50 and stacks of 20000. Two call actions reach the flop, shown as player 0’s information state. Chance deals follow a fixed legal sequence for reproducibility. This is a local text viewer and a representative configuration, not a claim that the paper uses identical parameters."
+      },
+      "identityEvidence": {
+        "url": "https://github.com/google-deepmind/open_spiel/blob/d7c4fc2dac825cb34b50131042a151b43c12edc5/open_spiel/canonical_game_strings.cc",
+        "locator": "HunlGameString in canonical_game_strings.cc; pyspiel.hunl_game_string(\"fcpa\") and original OpenSpiel 2.0.2 state transitions. Wheel source matches this pinned file byte-for-byte.",
+        "note": "HunlGameString in canonical_game_strings.cc; pyspiel.hunl_game_string(\"fcpa\") and original OpenSpiel 2.0.2 state transitions. Wheel source matches this pinned file byte-for-byte."
+      },
+      "captureMethod": "local-runtime-screenshot",
+      "capture": {
+        "method": "local-runtime-screenshot",
+        "environmentVersion": "open-spiel 2.0.2",
+        "configuration": "hunl_game_string(\"fcpa\")",
+        "wheelSha256": "648e0a998ee99ae74f2b6f176cb492e9966da0e9df6655f06c8ec003b39996af",
+        "actions": [
+          "player 1 call",
+          "player 0 call"
+        ],
+        "chanceActionIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "stateSha256": "c1deaad5c88e6550abeb390168c667f0e44a6f2eb3d90cf56100661cb771ac87",
+        "viewerSha256": "fe80f95d3af42f2854e6d368629936a9040c05b920208c67c8440d388b33a89d"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "width": 1050,
+      "height": 701,
+      "license": "Apache-2.0",
+      "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+      "rightsNote": "Original source retains its upstream license. The local viewer is clearly labelled and records actual source execution or original archived data; no game artwork is reconstructed.",
+      "originalSize": [
+        1050,
+        701
+      ],
+      "image": "game-universal-poker.webp",
+      "sha256": {
+        "image": "cf92f36f17e2b263752a96c4668fcf98288fcc0fcfb46397bcd28ac89b9bfb0c"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": "image-license-google-deepmind_dm_alchemy.txt",
+      "licenseLabel": "Apache-2.0"
     },
     {
       "gameId": "uno",

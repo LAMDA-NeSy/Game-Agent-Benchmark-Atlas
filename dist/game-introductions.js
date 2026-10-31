@@ -2603,16 +2603,16 @@ window.ATLAS_GAME_INTRODUCTIONS = {
       "ids": [
         "dragon-if"
       ],
-      "zh": "玩家扮演一条从新泽西飞到芝加哥的龙，通过简短的文字指令探索当前处境并采取行动。冒险围绕吃掉 Jarb 这一单一目标展开，需要找出能把故事推进到该结果的指令。",
-      "en": "Play a dragon traveling from New Jersey to Chicago and act through short text commands. The adventure centers on the single objective of eating Jarb, so examine the situation and work out which interactions will move the story toward that specific ending.",
-      "source": "https://ifdb.org/viewgame?id=x3wcrapu08ztd061",
-      "detailUrl": "https://ifdb.org/viewgame?id=x3wcrapu08ztd061",
+      "zh": "玩家以一名旅人的身份接受村民委托，从山路出发探索周围地点，寻找处理巨龙问题的线索。通过文字指令移动、检查物品并尝试组合和使用道具，逐步解决谜题；故事既提供武力路径，也留下解除魔法的线索。",
+      "en": "A traveler accepts a village quest and sets out from a mountain path to find a way to deal with a dragon. Move between locations, examine objects and use items through text commands to solve connected puzzles. The opening presents both a weapon-based approach and clues to breaking an enchantment.",
+      "source": "https://ifdb.org/viewgame?id=sjiyffz8n5patu8l",
+      "detailUrl": "https://ifdb.org/viewgame?id=sjiyffz8n5patu8l",
       "basis": "gameplay-followup-v34",
       "scope": "gameplay",
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-31",
       "associationCaveat": {
-        "zh": "Dragon! 为 Adam Thornton 的 2000 年作品；Jericho 另列的 Dragon Adventure 是 William Stott 的作品。论文标作 dragon.z5，但未提供 ROM 哈希，二者的文件对应仍需作者澄清。简介仅对应已确认的 Dragon! 作品。",
-        "en": "Dragon! is Adam Thornton’s 2000 work, distinct from William Stott’s Dragon Adventure in Jericho. The paper lists dragon.z5 without a ROM hash; that file association still needs clarification. This description concerns the identified Dragon! title only."
+        "zh": "按 EMemBench 发布的 dragon.z5 核实为 William Stott 的 Dragon Adventure（Release 2 / 040211）；文件与 Jericho 故事库逐字节一致。论文表19的 Dragon! 名称与角色描述不对应发布文件。",
+        "en": "The released ROM hash identifies William Stott’s Dragon Adventure (Release 2 / 040211), byte-identical to the Jericho archive. The Dragon! title and role description in paper Table 19 do not match the released file."
       },
       "copyEditedAt": "2026-10-26"
     },
