@@ -18,7 +18,7 @@ test('Screenshots retain explicit identities, source evidence and verified local
       assert(e.sourceUrl.includes('/blob/'+e.commit+'/'));
       assert(e.originalPath && e.originalBlob);
     }else{
-      assert(['official-store','official-site','encyclopedia'].includes(e.sourceType));
+      assert(['official-store','official-site','encyclopedia','third-party'].includes(e.sourceType));
       if(e.captureMethod==='browser-screenshot'){
         assert.match(e.captureUrl,/^https:\/\//);
         assert.equal(e.capture.method,'browser-screenshot');
@@ -28,7 +28,7 @@ test('Screenshots retain explicit identities, source evidence and verified local
     }
     assert.match(e.originalSha256,/^[a-f0-9]{64}$/);
     assert(e.credit && e.verifiedAt);
-    if(e.sourceType==='encyclopedia')assert(e.rightsNote,`Missing image rights attribution: ${e.gameId}`);
+    if(['encyclopedia','third-party'].includes(e.sourceType))assert(e.rightsNote,`Missing image rights attribution: ${e.gameId}`);
     assert(e.width>0 && e.height>0);
     for(const lang of ['zh','en']) assert(e.caption[lang]&&e.alt[lang]);
     assert.equal(e.thumbnail,undefined);

@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "scope": "Explicit game-ID mappings only. Screenshots show named games or environments. Related implementations, historical versions and collection examples carry bilingual visible reference notes; they are not evidence of a reproduced benchmark run.",
   "entries": [
     {
@@ -4451,6 +4451,59 @@
       "licenseFile": null
     },
     {
+      "gameId": "balance-beam",
+      "originalSha256": "23a984ed4568b659419dd9b14db2528075cc186faba53389d21407153b840924",
+      "originalUrl": "https://papers.nips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf",
+      "sourceUrl": "https://papers.nips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf#page=8",
+      "sourceType": "official-site",
+      "sourceLabel": "Sarkar, Shih and Sadigh · NeurIPS 2023 · Figure 6",
+      "caption": {
+        "zh": "Balance Beam · 双人移动与结果示意",
+        "en": "Balance Beam · two-player moves and outcomes"
+      },
+      "alt": {
+        "zh": "Balance Beam · 双人移动与结果示意",
+        "en": "Balance Beam · two-player moves and outcomes"
+      },
+      "credit": "Sarkar, Shih and Sadigh · NeurIPS 2023 · Figure 6",
+      "rightsNote": "Image or demonstration published by the cited authors; underlying artwork and source rights remain with their respective holders. Extraction and source are identified.",
+      "imageMatch": "exact",
+      "identityEvidence": {
+        "url": "https://papers.nips.cc/paper_files/paper/2023/file/4818263715b25dc137d393af8af6d2fc-Paper-Conference.pdf#page=8",
+        "locator": "Page 8 Figure 6 explicitly names the Balance Beam environment",
+        "note": "Page 8 Figure 6 explicitly names the Balance Beam environment"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "9d6bc55761f8ffb4a55576752a4d7e35a7e4bd382b1d095926d9e602fe15e89f",
+      "pdfExtraction": {
+        "locator": "Page 8 Figure 6 explicitly names the Balance Beam environment",
+        "method": "Embedded-image extraction"
+      },
+      "imageNote": {
+        "zh": "论文中的任务场景示意，展示两名玩家的位置、动作及其结果；不是运行界面截图。",
+        "en": "Task-scene illustration from the paper, showing two players, actions and outcomes; not a runtime screenshot."
+      },
+      "originalSize": [
+        960,
+        540
+      ],
+      "image": "game-balance-beam.webp",
+      "width": 960,
+      "height": 540,
+      "sha256": {
+        "image": "75de100e4adb34a845fbd98212825929705b8104dcd48a30f4cd22e16c86325a"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "balderdash",
       "sourceType": "encyclopedia",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Balderdash_board_game_and_pieces_01.jpg",
@@ -5037,6 +5090,83 @@
       "sourceType": "repository",
       "identityEvidence": "Official per-game ALE documentation embeds this exact GIF and identifies its Atari environment.",
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
+    },
+    {
+      "gameId": "bsuite",
+      "originalSha256": "a64551ca763b29cc640339448770e8410004eb9316c1afa5f4ff17fb1d4f1a9a",
+      "originalUrl": "https://arxiv.org/html/1908.03568v3/figures/deep_sea.png",
+      "sourceUrl": "https://arxiv.org/html/1908.03568v3#S2.F3",
+      "sourceType": "official-site",
+      "sourceLabel": "Osband et al. · Behaviour Suite · Figure 3",
+      "caption": {
+        "zh": "bsuite · Deep Sea 与 Memory Length 任务示例",
+        "en": "bsuite · Deep Sea and Memory Length task examples"
+      },
+      "alt": {
+        "zh": "bsuite · Deep Sea 与 Memory Length 任务示例",
+        "en": "bsuite · Deep Sea and Memory Length task examples"
+      },
+      "credit": "Osband et al. · Behaviour Suite · Figure 3",
+      "rightsNote": "Author-published research illustration; original paper and environment artwork rights remain with their respective holders. The source and any extraction are identified.",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "以论文的 Deep Sea 与 Memory Length 任务图展示合集中的探索与记忆任务；均为任务示意图。 论文任务网格示意，不是运行界面。",
+        "en": "Paper task diagrams for Deep Sea and Memory Length represent exploration and memory tasks in the suite; both are schematic illustrations. Paper task-grid illustration, not a runtime interface."
+      },
+      "identityEvidence": "Sections 2.1 and 2.2 explicitly introduce Memory Length and Deep Sea as example bsuite experiments.",
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1316,
+        1246
+      ],
+      "image": "game-bsuite-deep-sea.webp",
+      "width": 951,
+      "height": 900,
+      "sha256": {
+        "image": "f100b008ced8d2ab9d05b9c85f9ec9b200cf00a91dc2de50329d71215269aa1d"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null,
+      "referenceGameId": "bsuite-deep-sea",
+      "relationshipSource": "https://arxiv.org/html/1908.03568v3#S2",
+      "relationshipEvidence": "Sections 2.1 and 2.2 explicitly introduce Memory Length and Deep Sea as example bsuite experiments.",
+      "representatives": [
+        {
+          "referenceGameId": "bsuite-deep-sea",
+          "label": {
+            "zh": "Deep Sea · 探索",
+            "en": "Deep Sea · exploration"
+          },
+          "imageNote": {
+            "zh": "以论文的 Deep Sea 与 Memory Length 任务图展示合集中的探索与记忆任务；均为任务示意图。 论文任务网格示意，不是运行界面。",
+            "en": "Paper task diagrams for Deep Sea and Memory Length represent exploration and memory tasks in the suite; both are schematic illustrations. Paper task-grid illustration, not a runtime interface."
+          },
+          "relationshipSource": "https://arxiv.org/html/1908.03568v3#S2",
+          "relationshipEvidence": "Sections 2.1 and 2.2 explicitly introduce Memory Length and Deep Sea as example bsuite experiments."
+        },
+        {
+          "referenceGameId": "bsuite-memory-length",
+          "label": {
+            "zh": "Memory Length · 记忆",
+            "en": "Memory Length · memory"
+          },
+          "imageNote": {
+            "zh": "以论文的 Deep Sea 与 Memory Length 任务图展示合集中的探索与记忆任务；均为任务示意图。 论文中的颜色提示、延迟与选择示意。",
+            "en": "Paper task diagrams for Deep Sea and Memory Length represent exploration and memory tasks in the suite; both are schematic illustrations. Paper illustration of color cue, delay and choice."
+          },
+          "relationshipSource": "https://arxiv.org/html/1908.03568v3#S2",
+          "relationshipEvidence": "Sections 2.1 and 2.2 explicitly introduce Memory Length and Deep Sea as example bsuite experiments."
+        }
+      ],
+      "referenceSourceUrl": "https://arxiv.org/html/1908.03568v3#S2.F3",
+      "title": "Behaviour Suite"
     },
     {
       "gameId": "benchmarl-envs",
@@ -5739,6 +5869,55 @@
         "crop": null,
         "resize": "Aspect-preserving; no upscaling",
         "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "bomberman-quest",
+      "originalSha256": "40faade2e78246a8c14f51d7b07765bbacfb26c01798e42dba4dbf16b5a0acd5",
+      "originalUrl": "https://www.rpgfan.com/wp-content/uploads/2024/06/Bomberman-Quest-Screenshot-004.webp",
+      "sourceUrl": "https://www.rpgfan.com/gallery/bomberman-quest-screenshots/",
+      "sourceType": "third-party",
+      "sourceLabel": "RPGFan · Bomberman Quest screenshot 004",
+      "credit": "RPGFan · Bomberman Quest screenshot 004",
+      "caption": {
+        "zh": "Bomberman Quest · 炸弹战斗场景",
+        "en": "Bomberman Quest · bomb combat scene"
+      },
+      "alt": {
+        "zh": "Bomberman Quest · 炸弹战斗场景",
+        "en": "Bomberman Quest · bomb combat scene"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "RPGFan 图库中的 Game Boy Color 游戏画面，保留来源的显示滤镜；ROM 版本、模拟器和显示设置可能与评测配置不同。",
+        "en": "Game Boy Color gameplay from RPGFan, retaining the source display filter; ROM revision, emulator and display settings may differ from the evaluation configuration."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://www.rpgfan.com/gallery/bomberman-quest-screenshots/",
+        "locator": "The game-specific RPGFan gallery labels this asset Bomberman Quest Screenshot 004.",
+        "note": "The game-specific RPGFan gallery labels this asset Bomberman Quest Screenshot 004."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "pixelArt": true,
+      "originalSize": [
+        836,
+        752
+      ],
+      "image": "game-bomberman-quest.webp",
+      "width": 836,
+      "height": 752,
+      "sha256": {
+        "image": "6180df7449d239f8504538193dcfba35f33a8b65f818375741be67234ef2228d"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
       },
       "licenseFile": null
     },
@@ -6948,6 +7127,59 @@
       "licenseFile": "image-license-Farama-Foundation_Gymnasium.txt"
     },
     {
+      "gameId": "gbqa-castle",
+      "originalSha256": "4b13b416254bc504f5d33ee55b84cda0acda6b201f0e53709d691a4a7e6902ae",
+      "originalUrl": "https://arxiv.org/html/2604.02648v1/figures/collection.png",
+      "sourceUrl": "https://arxiv.org/html/2604.02648v1#A4",
+      "sourceType": "official-site",
+      "sourceLabel": "GBQA · Appendix D · Figure 7(a)",
+      "caption": {
+        "zh": "CASTLE · 文字冒险交互界面",
+        "en": "CASTLE · text-adventure interface"
+      },
+      "alt": {
+        "zh": "CASTLE · 文字冒险交互界面",
+        "en": "CASTLE · text-adventure interface"
+      },
+      "credit": "GBQA · Appendix D · Figure 7(a)",
+      "rightsNote": "Original scene published by the cited authors or project; source artwork rights remain with their respective holders. Cropping, frame extraction and version differences are identified.",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "GBQA 附录图 7(a)中的 CASTLE 界面，裁取合集左上方画面。",
+        "en": "CASTLE interface from GBQA Appendix Figure 7(a), cropped from the upper-left panel."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2604.02648v1#A4",
+        "locator": "Appendix D explicitly identifies CASTLE as Figure 7(a); interface title Dark Castle and hall/corridor inventory actions match the named case.",
+        "note": "Appendix D explicitly identifies CASTLE as Figure 7(a); interface title Dark Castle and hall/corridor inventory actions match the named case."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        7151,
+        3673
+      ],
+      "image": "game-gbqa-castle.webp",
+      "width": 885,
+      "height": 900,
+      "sha256": {
+        "image": "2c5638d3e9d2ee430c0e060e4971b1aff35fa80531dacc3e82b5afad40374baf"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          0,
+          0,
+          1515,
+          1540
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "collection-ax26-2607.04293",
       "originalSha256": "cef40aaccdcd1fbb1161cb1da84c274b88cfce41c84a69c1d78957453fed92bd",
       "originalUrl": "https://arxiv.org/html/2607.04293v1/figures/scene.jpg",
@@ -8000,6 +8232,59 @@
       "licenseFile": "image-license-mikelma_craftium.txt"
     },
     {
+      "gameId": "chores",
+      "originalSha256": "7f1dcd069e90021fe62185e3fe30bcbf3928e1955fcbc5a166938bf5b5a3125a",
+      "originalUrl": "https://proceedings.mlr.press/v199/powers22b/powers22b.pdf",
+      "sourceUrl": "https://proceedings.mlr.press/v199/powers22b/powers22b.pdf#page=5",
+      "sourceType": "official-site",
+      "sourceLabel": "Powers et al. · CoLLAs 2022 · Figure 1",
+      "caption": {
+        "zh": "CHORES · 厨房物体操作场景",
+        "en": "CHORES · kitchen manipulation scene"
+      },
+      "alt": {
+        "zh": "CHORES · 厨房物体操作场景",
+        "en": "CHORES · kitchen manipulation scene"
+      },
+      "credit": "Powers et al. · CoLLAs 2022 · Figure 1",
+      "rightsNote": "Image or demonstration published by the cited authors; underlying artwork and source rights remain with their respective holders. Extraction and source are identified.",
+      "imageMatch": "exact",
+      "identityEvidence": {
+        "url": "https://proceedings.mlr.press/v199/powers22b/powers22b.pdf#page=5",
+        "locator": "Page 5 Figure 1, left Gen-MultiTraj observation panel",
+        "note": "Page 5 Figure 1, left Gen-MultiTraj observation panel"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "f02075088e2e798d28130527bc12bc9585d689e8e77246457ecd0490fe3b54c8",
+      "pdfExtraction": {
+        "locator": "Page 5 Figure 1, left Gen-MultiTraj observation panel",
+        "method": "Embedded-image extraction"
+      },
+      "imageNote": {
+        "zh": "CORA 论文展示的 Gen-MultiTraj 场景之一，基于 AI2-THOR；不代表全部房间和任务序列。",
+        "en": "One Gen-MultiTraj scene shown in CORA, built on AI2-THOR; it represents neither every room nor every task sequence."
+      },
+      "originalSize": [
+        300,
+        300
+      ],
+      "image": "game-chores.webp",
+      "width": 300,
+      "height": 300,
+      "sha256": {
+        "image": "89712c6a67c0a1788a24e7d75440c86f9b45e769f75230e581fe85c4a68f15cd"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "chrome-dino",
       "sourceType": "repository",
       "originalUrl": "https://gameworld-project.github.io/static/figures/gameworld/games/game_07_chrome-dino_rand1.jpg",
@@ -8406,6 +8691,64 @@
       "referenceSourceUrl": "https://action-party.github.io/supplementary/index.html#clean_up"
     },
     {
+      "gameId": "collection-gab052",
+      "originalSha256": "b2c519f8360c40a2ec1e42146ee25d09827745e5a91d8541d3cfba8c3ef0d80a",
+      "originalUrl": "https://aclanthology.org/2023.emnlp-main.689.pdf",
+      "sourceUrl": "https://aclanthology.org/2023.emnlp-main.689.pdf#page=5",
+      "sourceType": "official-site",
+      "sourceLabel": "Chalamalasetti et al. · EMNLP 2023 · Figure 6",
+      "caption": {
+        "zh": "clembench · 指称游戏的网格示例",
+        "en": "clembench · reference-game example grids"
+      },
+      "alt": {
+        "zh": "clembench · 指称游戏的网格示例",
+        "en": "clembench · reference-game example grids"
+      },
+      "credit": "Chalamalasetti et al. · EMNLP 2023 · Figure 6",
+      "rightsNote": "Author-published research illustration; original paper and environment artwork rights remain with their respective holders. The source and any extraction are identified.",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "采用合集指称游戏中的三幅字符网格作为代表；玩家描述并识别目标网格，不代表其余对话游戏。",
+        "en": "Three character grids from the collection’s reference game; players describe and identify a target grid. These examples do not represent the other dialogue games."
+      },
+      "identityEvidence": {
+        "url": "https://aclanthology.org/2023.emnlp-main.689.pdf#page=5",
+        "locator": "PDF page 5, Figure 6 Sample grids for the reference game, associated Section 4.4.",
+        "note": "PDF page 5, Figure 6 Sample grids for the reference game, associated Section 4.4."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "25d4487a14da7aff5c52dc45bd436fc0547cbc850a977b88bc647d1174fcb186",
+      "pdfExtraction": {
+        "locator": "PDF page 5, Figure 6 Sample grids for the reference game, associated Section 4.4.",
+        "method": "Rasterization/extraction of source PDF figure without redrawing"
+      },
+      "originalSize": [
+        2546,
+        3600
+      ],
+      "image": "game-collection-gab052.webp",
+      "width": 656,
+      "height": 360,
+      "sha256": {
+        "image": "9e303394f29e6f18f6e250e06750b55c3d508a5443ec11f65bd4c104dcbaa8fd"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          1440,
+          2880,
+          2096,
+          3240
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "machiavelli-cliffhanger",
       "title": "Cliffhanger: Challenger of Tomorrow",
       "sourceUrl": "https://store.steampowered.com/app/1585050/",
@@ -8582,6 +8925,68 @@
         "encoding": "WebP quality 88"
       },
       "licenseFile": null
+    },
+    {
+      "gameId": "cwmb",
+      "repository": "Farama-Foundation/Gymnasium",
+      "commit": "d4ef1b64d0198985d42cb75ce8f8bad41cb9bb4c",
+      "originalPath": "docs/_static/videos/classic_control/cart_pole.gif",
+      "originalBlob": "459df5f4e64aa6e3b666023f453970d0553e24ad",
+      "originalSha256": "138970b88db6d95f452da3a9e8a1562215265e7dcaa71d9b7bb081b6bff275b4",
+      "sourceType": "repository",
+      "sourceUrl": "https://github.com/Farama-Foundation/Gymnasium/blob/d4ef1b64d0198985d42cb75ce8f8bad41cb9bb4c/docs/_static/videos/classic_control/cart_pole.gif",
+      "sourceLabel": "Farama-Foundation/Gymnasium",
+      "credit": "Farama-Foundation/Gymnasium contributors",
+      "licenseUrl": "https://github.com/Farama-Foundation/Gymnasium/blob/d4ef1b64d0198985d42cb75ce8f8bad41cb9bb4c/LICENSE",
+      "verifiedAt": "2026-10-29",
+      "rightsNote": "Repository source attribution; code license does not relicense third-party game artwork.",
+      "caption": {
+        "zh": "CWMB · CartPole 代表环境",
+        "en": "CWMB · representative CartPole environment"
+      },
+      "alt": {
+        "zh": "CartPole 小车保持倒立杆平衡",
+        "en": "CartPole cart balancing an inverted pole"
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2405.15383#A9.T9",
+        "locator": "Appendix I, Table 9 lists CartPole-v1 among the 18 CWMB environments; section 3 says implementations adapt Gymnasium.",
+        "note": "CartPole-v1 belongs to CWMB; image represents source environment, not generated code rendering."
+      },
+      "originalSize": [
+        600,
+        400
+      ],
+      "visuallyVerified": true,
+      "visualReview": "Inspected downloaded original/frame in contact.jpg: actual game renderer or replay interface, not a logo or result chart.",
+      "image": "game-gymnasium-cartpole-v1.webp",
+      "width": 600,
+      "height": 400,
+      "sha256": {
+        "image": "dcb36c6dc95de81917fbfc5b698dfa01b071e15ef36fbaab2b5f3aa2bfe6bfcd"
+      },
+      "processing": {
+        "frameIndex": 20,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": "image-license-Farama-Foundation_Gymnasium.txt",
+      "referenceGameId": "gymnasium-cartpole-v1",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "合集代表图：采用 Gymnasium CartPole 的官方画面。CWMB 对环境实现作了适配，以状态与轨迹评价代码世界模型，不以此图作为视觉输入。",
+        "en": "Collection representative: official Gymnasium CartPole view. CWMB adapts environment implementations and evaluates code world models on states and trajectories, rather than using this image as visual input."
+      },
+      "relationshipEvidence": {
+        "url": "https://arxiv.org/html/2405.15383#A9.T9",
+        "locator": "Appendix I, Table 9 lists CartPole-v1 among the 18 CWMB environments; section 3 says implementations adapt Gymnasium.",
+        "note": "CartPole-v1 belongs to CWMB; image represents source environment, not generated code rendering."
+      },
+      "relationshipSource": "https://arxiv.org/html/2405.15383#A9.T9",
+      "referenceSourceUrl": "https://github.com/Farama-Foundation/Gymnasium/blob/d4ef1b64d0198985d42cb75ce8f8bad41cb9bb4c/docs/_static/videos/classic_control/cart_pole.gif",
+      "title": "Code World Models Benchmark (CWMB)"
     },
     {
       "gameId": "codenames",
@@ -10625,6 +11030,60 @@
       "licenseFile": null
     },
     {
+      "gameId": "crossfire",
+      "originalSha256": "283bc1c42c3397595ef3f34bf6bdd17988712f5c4e7cbb8811219412d945de50",
+      "originalUrl": "https://i.ytimg.com/vi/6wJFPrGygXI/hqdefault.jpg",
+      "sourceUrl": "https://inviscloak.github.io/",
+      "sourceType": "official-site",
+      "sourceLabel": "Invisibility Cloak · USENIX Security 2024 · CF Competitive demo",
+      "credit": "Invisibility Cloak · USENIX Security 2024 · CF Competitive demo",
+      "caption": {
+        "zh": "穿越火线 · 论文项目竞技模式演示",
+        "en": "CrossFire · competitive-mode research demonstration"
+      },
+      "alt": {
+        "zh": "穿越火线 · 论文项目竞技模式演示",
+        "en": "CrossFire · competitive-mode research demonstration"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "Invisibility Cloak 官方项目所链接的 CF Competitive 视频预览，保留防护与视觉辅助对比标注；为论文使用的客户端场景，非当前版本的标准 UI 截图。",
+        "en": "Preview of the CF Competitive video linked by the official Invisibility Cloak project, retaining protection/visual-assistance comparison labels; this is the paper’s client scene rather than a current-version standard UI screenshot."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://inviscloak.github.io/",
+        "locator": "Official project HTML identifies https://www.youtube.com/embed/6wJFPrGygXI with the label CF Competitive; the thumbnail visibly shows the CrossFire match HUD.",
+        "note": "Official project HTML identifies https://www.youtube.com/embed/6wJFPrGygXI with the label CF Competitive; the thumbnail visibly shows the CrossFire match HUD."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "videoUrl": "https://www.youtube.com/watch?v=6wJFPrGygXI",
+      "originalSize": [
+        480,
+        360
+      ],
+      "image": "game-crossfire.webp",
+      "width": 480,
+      "height": 270,
+      "sha256": {
+        "image": "d7d1e4a2dd47924afe1b4af0646b99834b8c708de6c743f09cbad3648d6e805d"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          0,
+          45,
+          480,
+          315
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "arena-unity-crossroads",
       "sourceType": "official-site",
       "originalUrl": "https://arxiv.org/html/1905.08085v5/6s.png",
@@ -10929,6 +11388,54 @@
       "licenseFile": null
     },
     {
+      "gameId": "darefightingice",
+      "originalSha256": "75a336289f5a448dbbed7fcc02ef3fe6e2983883964dbca84298b53cb04cdcbf",
+      "originalUrl": "https://arxiv.org/html/2403.02687v1/image/Hadoken_2.png",
+      "sourceUrl": "https://arxiv.org/html/2403.02687v1#S3.F2",
+      "sourceType": "official-site",
+      "sourceLabel": "Enhanced DareFightingICE Competitions · 2024 · Figure 2",
+      "credit": "Enhanced DareFightingICE Competitions · 2024 · Figure 2",
+      "caption": {
+        "zh": "DareFightingICE · Unity 版火球动作",
+        "en": "DareFightingICE · fireball action in the Unity version"
+      },
+      "alt": {
+        "zh": "DareFightingICE · Unity 版火球动作",
+        "en": "DareFightingICE · fireball action in the Unity version"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "2024 年论文中 DareFightingICE-Unity 的 ZEN 动作场景；Java 版与其他赛事版本的画面、接口和音效配置有所不同。",
+        "en": "ZEN action scene from DareFightingICE-Unity in the 2024 paper; the Java platform and other competition versions differ in visuals, interfaces and sound configuration."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2403.02687v1#S3.F2",
+        "locator": "Figure 2 explicitly labels the top three panels as the ZEN fireball sequence in DareFightingICE-Unity; this is the second scene panel.",
+        "note": "Figure 2 explicitly labels the top three panels as the ZEN fireball sequence in DareFightingICE-Unity; this is the second scene panel."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        958,
+        636
+      ],
+      "image": "game-darefightingice.webp",
+      "width": 958,
+      "height": 636,
+      "sha256": {
+        "image": "235be5089117b32343362094734e2702f1f4fddccb2dfb6d9f178155d64b3858"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "dark-souls",
       "title": "Dark Souls",
       "originalSha256": "96e79f682434e2600152bdc00d8048ad3ea15a41c6a52c239a141d28e2c4bcca",
@@ -11195,6 +11702,54 @@
       },
       "verifiedAt": "2026-10-29",
       "sourceType": "official-store",
+      "licenseFile": null
+    },
+    {
+      "gameId": "bsuite-deep-sea",
+      "originalSha256": "a64551ca763b29cc640339448770e8410004eb9316c1afa5f4ff17fb1d4f1a9a",
+      "originalUrl": "https://arxiv.org/html/1908.03568v3/figures/deep_sea.png",
+      "sourceUrl": "https://arxiv.org/html/1908.03568v3#S2.F3",
+      "sourceType": "official-site",
+      "sourceLabel": "Osband et al. · Behaviour Suite · Figure 3",
+      "caption": {
+        "zh": "Deep Sea · 深度探索任务图",
+        "en": "Deep Sea · deep-exploration task diagram"
+      },
+      "alt": {
+        "zh": "Deep Sea · 深度探索任务图",
+        "en": "Deep Sea · deep-exploration task diagram"
+      },
+      "credit": "Osband et al. · Behaviour Suite · Figure 3",
+      "rightsNote": "Author-published research illustration; original paper and environment artwork rights remain with their respective holders. The source and any extraction are identified.",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "论文中的状态网格与转移示意图；船、潜水员和宝箱用于说明任务，不是游戏客户端截图。",
+        "en": "Paper state-grid and transition illustration; boat, diver and treasure depict the task rather than a game client."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/1908.03568v3#S2.F3",
+        "locator": "Figure 3 explicitly describes Deep-sea exploration.",
+        "note": "Figure 3 explicitly describes Deep-sea exploration."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1316,
+        1246
+      ],
+      "image": "game-bsuite-deep-sea.webp",
+      "width": 951,
+      "height": 900,
+      "sha256": {
+        "image": "f100b008ced8d2ab9d05b9c85f9ec9b200cf00a91dc2de50329d71215269aa1d"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
       "licenseFile": null
     },
     {
@@ -11517,6 +12072,64 @@
       "identityEvidence": "The target is explicitly a generalized K-in-a-row/Tic-Tac-Toe rule variant in its cited study. The standard board is shown only as a related-game illustration.",
       "referenceSourceUrl": "https://github.com/Farama-Foundation/PettingZoo/blob/b0fe02166d2106f8fcb6a6e0ca8125765699bdba/docs/environments/classic/classic_tictactoe.gif",
       "title": "Diagonal only (Intuitive Gamer)"
+    },
+    {
+      "gameId": "collection-ax26-2608.12593",
+      "originalSha256": "208236e42e6ad5b5d1f17348fabda1379c1142afe49155bef5604575304e0644",
+      "originalUrl": "https://arxiv.org/pdf/2608.12593v2",
+      "sourceUrl": "https://arxiv.org/html/2608.12593v2#S0.F2",
+      "sourceType": "official-site",
+      "sourceLabel": "Whittington · DiG-bench · Figure 2",
+      "caption": {
+        "zh": "DiG-bench · 文字游戏交互界面",
+        "en": "DiG-bench · text-game interaction interface"
+      },
+      "alt": {
+        "zh": "DiG-bench · 文字游戏交互界面",
+        "en": "DiG-bench · text-game interaction interface"
+      },
+      "credit": "Whittington · DiG-bench · Figure 2",
+      "rightsNote": "Author-published research illustration; original paper and environment artwork rights remain with their respective holders. The source and any extraction are identified.",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "截取论文图2中的人类玩家界面示例，展示动作、文本状态、生命、步数和历史；代表合集的交互方式。",
+        "en": "Human-player interface example cropped from Figure 2, showing actions, text state, lives, steps and history; representative of the collection interface."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2608.12593v2#S0.F2",
+        "locator": "PDF page 2, Figure 2 left Game Interface panel; platform interface, excluding server/harness architecture.",
+        "note": "PDF page 2, Figure 2 left Game Interface panel; platform interface, excluding server/harness architecture."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "5cea86baa53261fb45a09e37aa0ba766bad835a8358b778487cda481cd9676ef",
+      "pdfExtraction": {
+        "locator": "PDF page 2, Figure 2 left Game Interface panel; platform interface, excluding server/harness architecture.",
+        "method": "Rasterization/extraction of source PDF figure without redrawing"
+      },
+      "originalSize": [
+        2782,
+        3600
+      ],
+      "image": "game-collection-ax26-2608-12593.webp",
+      "width": 1032,
+      "height": 684,
+      "sha256": {
+        "image": "665b1a20c52f2db4fb467fb2ae4c6828ca1720ca7294ec525c6372cd20e867db"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          276,
+          276,
+          1308,
+          960
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "diplomacy",
@@ -13230,6 +13843,58 @@
       "title": "Euchre (Valet/CardStock variant)"
     },
     {
+      "gameId": "evaaa",
+      "originalSha256": "db12fc097b9daa288f334d8f3a97697658ac386ea2ebd627f2dc1a3347e5f20f",
+      "originalUrl": "https://raw.githubusercontent.com/cocoanlab/evaaa/d2c8c3a0b6a36c95b4b3ffa55d0938da9e5e8877/image/level-3-1.jpeg",
+      "sourceUrl": "https://github.com/cocoanlab/evaaa/blob/d2c8c3a0b6a36c95b4b3ffa55d0938da9e5e8877/README.md",
+      "sourceType": "official-site",
+      "sourceLabel": "cocoanlab · EVAAA official demonstration",
+      "caption": {
+        "zh": "EVAAA · 3-1 导航训练场景",
+        "en": "EVAAA · level 3-1 navigation training scene"
+      },
+      "alt": {
+        "zh": "EVAAA 训练场中的围墙、食物、水池与篝火",
+        "en": "Walls, food, pond and bonfires in the EVAAA training field"
+      },
+      "credit": "cocoanlab · EVAAA official demonstration",
+      "rightsNote": "Image or demonstration published by the cited authors; underlying artwork and source rights remain with their respective holders. Extraction and source are identified.",
+      "imageMatch": "exact",
+      "identityEvidence": {
+        "url": "https://github.com/cocoanlab/evaaa/blob/d2c8c3a0b6a36c95b4b3ffa55d0938da9e5e8877/README.md",
+        "locator": "README Emergent Behavior, Normal Foraging Behavior training cell embeds image/level-3-1.jpeg, labelled 3-1 Navigation.",
+        "note": "README Emergent Behavior, Normal Foraging Behavior training cell embeds image/level-3-1.jpeg, labelled 3-1 Navigation."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "imageNote": {
+        "zh": "官方 3-1 训练场景截图，文字与箭头为作者标注；用于展示地形导航，不代表测试关卡。",
+        "en": "Official level 3-1 training scene, with author labels and arrows; illustrates terrain navigation rather than a testing scenario."
+      },
+      "repository": "cocoanlab/evaaa",
+      "commit": "d2c8c3a0b6a36c95b4b3ffa55d0938da9e5e8877",
+      "licenseLabel": "CC BY-NC-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "originalSize": [
+        673,
+        425
+      ],
+      "image": "game-evaaa.webp",
+      "width": 673,
+      "height": 425,
+      "sha256": {
+        "image": "448f3feff0a9483e2834aa161b1952e6dcff0a5d9344b911603664045958425c"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "expeditions-a-mudrunner-game",
       "title": "Expeditions: A MudRunner Game",
       "sourceUrl": "https://store.steampowered.com/app/2477340/",
@@ -13491,6 +14156,59 @@
       },
       "verifiedAt": "2026-10-29",
       "sourceType": "official-store",
+      "licenseFile": null
+    },
+    {
+      "gameId": "farmquest",
+      "originalSha256": "160187952d32c891b5b138dea4400dd9198891fc3c35aeafc97c8c4a8129cb65",
+      "originalUrl": "https://arxiv.org/pdf/2410.03733",
+      "sourceUrl": "https://arxiv.org/pdf/2410.03733#page=3",
+      "sourceType": "official-site",
+      "sourceLabel": "Yu, Guzdial and Sturtevant · AIIDE 2024 · Figure 2",
+      "caption": {
+        "zh": "FarmQuest · 主关卡",
+        "en": "FarmQuest · main level"
+      },
+      "alt": {
+        "zh": "FarmQuest · 主关卡",
+        "en": "FarmQuest · main level"
+      },
+      "credit": "Yu, Guzdial and Sturtevant · AIIDE 2024 · Figure 2",
+      "rightsNote": "Image or demonstration published by the cited authors; underlying artwork and source rights remain with their respective holders. Extraction and source are identified.",
+      "imageMatch": "exact",
+      "identityEvidence": {
+        "url": "https://arxiv.org/pdf/2410.03733#page=3",
+        "locator": "Page 3 Figure 2 caption: An overview of the main level in FarmQuest",
+        "note": "Page 3 Figure 2 caption: An overview of the main level in FarmQuest"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "875e9151bd3a4825af2f6b3d0471348ac4c5eb32d5413d26318f52d525226d0f",
+      "pdfExtraction": {
+        "locator": "Page 3 Figure 2 caption: An overview of the main level in FarmQuest",
+        "method": "Embedded-image extraction"
+      },
+      "imageNote": {
+        "zh": "2024 年研究使用的 FarmQuest 主关卡；字母和黄色框为论文对采集区、农田、商店等位置的标注。",
+        "en": "Main level used in the 2024 study; letters and yellow boxes are paper annotations for gathering areas, crops, shop and other locations."
+      },
+      "originalSize": [
+        903,
+        598
+      ],
+      "image": "game-farmquest.webp",
+      "width": 903,
+      "height": 598,
+      "sha256": {
+        "image": "1d1c1ce1962d37a109c0cf608cdd7ce2c0288af6f700ae74703aecd48e00e6f1"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
       "licenseFile": null
     },
     {
@@ -14364,6 +15082,77 @@
       "processing": {
         "frameIndex": 15,
         "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "fm-bench-football-management",
+      "originalSha256": "a0437e1c2d53b77733ecd5474a7b63f63cf0740c3b6f45cf181caf1a9d29c8d3",
+      "originalUrl": "https://raw.githubusercontent.com/Analogy-AI/fm-bench/271323ba6b70f9295b4cbd30923c80b0202c71ce/web/fm_demo.html",
+      "sourceUrl": "https://github.com/Analogy-AI/fm-bench/blob/271323ba6b70f9295b4cbd30923c80b0202c71ce/web/fm_demo.html",
+      "sourceType": "repository",
+      "sourceLabel": "Analogy-AI/fm-bench · official Manager Demo",
+      "credit": "Analogy-AI/fm-bench · official Manager Demo",
+      "caption": {
+        "zh": "FM-Bench · 球队管理演示",
+        "en": "FM-Bench · club management demo"
+      },
+      "alt": {
+        "zh": "FM-Bench · 球队管理演示",
+        "en": "FM-Bench · club management demo"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "官方轻量浏览器演示，本地运行默认种子 42 后的首个决策停点；演示限定 5 个赛季，论文评测为 20 年管理过程。",
+        "en": "Official lightweight browser demo, captured at the first decision stop with default seed 42; the demo spans five seasons, while the paper evaluates twenty-year management careers."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://github.com/Analogy-AI/fm-bench/blob/271323ba6b70f9295b4cbd30923c80b0202c71ce/web/fm_demo.html",
+        "locator": "Exact official repository web/fm_demo.html at the cited commit; local browser execution, seed 42, Start career, first decision stop.",
+        "note": "Exact official repository web/fm_demo.html at the cited commit; local browser execution, seed 42, Start career, first decision stop."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "repository": "Analogy-AI/fm-bench",
+      "commit": "271323ba6b70f9295b4cbd30923c80b0202c71ce",
+      "originalPath": "web/fm_demo.html",
+      "originalBlob": "b52c0e0a8391a2c4e65149eefe684be38213c539",
+      "rasterSha256": "ea031c6af21e3f925d1dc17154b237ec5e4aefbf9a10527e1bd6bf14181b662a",
+      "capture": {
+        "method": "browser-screenshot",
+        "sourceUrl": "https://github.com/Analogy-AI/fm-bench/blob/271323ba6b70f9295b4cbd30923c80b0202c71ce/web/fm_demo.html",
+        "viewport": [
+          1440,
+          1000
+        ],
+        "seed": 42,
+        "state": "initial decision stop after Start career",
+        "url": "https://github.com/Analogy-AI/fm-bench/blob/271323ba6b70f9295b4cbd30923c80b0202c71ce/web/fm_demo.html"
+      },
+      "captureMethod": "browser-screenshot",
+      "captureUrl": "https://github.com/Analogy-AI/fm-bench/blob/271323ba6b70f9295b4cbd30923c80b0202c71ce/web/fm_demo.html",
+      "originalSize": [
+        1440,
+        1000
+      ],
+      "image": "game-fm-bench-football-management.webp",
+      "width": 1140,
+      "height": 897,
+      "sha256": {
+        "image": "d1b459e0f9fb5454b89ac8bb6d34021bc1f47338564b2c414d836d71866b2146"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          194,
+          16,
+          1334,
+          913
+        ],
         "resize": "Aspect-preserving; no upscaling",
         "encoding": "WebP quality 88"
       },
@@ -17077,6 +17866,55 @@
       "licenseFile": null
     },
     {
+      "gameId": "gamelogic-godot-open-rpg",
+      "originalSha256": "413553efd1d0f097e37a5b37868c7e45e3d2bf15c02d0960d578ade00ca4f1fe",
+      "originalUrl": "https://raw.githubusercontent.com/godotengine/godot-website/f0da05a19a507c766fd10a18cb97f5255d068304/storage/app/uploads/public/5bd/fd1/760/5bdfd17603e27744702536.png",
+      "sourceUrl": "https://godotengine.org/article/open-arpg-and-jrpg-demos-gdquest/",
+      "sourceType": "official-site",
+      "sourceLabel": "Nathan GDQuest · Godot Engine · 2018",
+      "caption": {
+        "zh": "Godot Open RPG · 早期回合制战斗演示",
+        "en": "Godot Open RPG · early turn-based combat demo"
+      },
+      "alt": {
+        "zh": "Godot Open RPG · 早期回合制战斗演示",
+        "en": "Godot Open RPG · early turn-based combat demo"
+      },
+      "credit": "Nathan GDQuest · Godot Engine · 2018",
+      "rightsNote": "Original scene published by the cited authors or project; source artwork rights remain with their respective holders. Cropping, frame extraction and version differences are identified.",
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "原项目 Godot 3.1 开发阶段的官方战斗演示（2018），用于说明基础环境；与 GameLogic 适配任务及后续 Godot 4 版本的素材、界面和逻辑不同。",
+        "en": "Official combat demonstration from the original project during Godot 3.1 development (2018), shown as a base-environment reference. Art, interface and logic differ from GameLogic adaptations and later Godot 4 versions."
+      },
+      "identityEvidence": {
+        "url": "https://godotengine.org/article/open-arpg-and-jrpg-demos-gdquest/",
+        "locator": "Official article section Turn-Based Combat in Godot 3.1 pairs godot-open-jrpg-project.png with github.com/GDquest/godot-turn-based-rpg, which redirects to gdquest-demos/godot-open-rpg.",
+        "note": "Official article section Turn-Based Combat in Godot 3.1 pairs godot-open-jrpg-project.png with github.com/GDquest/godot-turn-based-rpg, which redirects to gdquest-demos/godot-open-rpg."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "sourceRepositoryCommit": "f0da05a19a507c766fd10a18cb97f5255d068304",
+      "originalSize": [
+        1280,
+        720
+      ],
+      "image": "game-gamelogic-godot-open-rpg.webp",
+      "width": 1200,
+      "height": 675,
+      "sha256": {
+        "image": "a205d711a1cb8522efb856cd9d208b2e5d3fd2337d9607280c2b1f00dcb19cb8"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "gamelogic-godot-open-rts",
       "repository": "NJU-LINK/GameLogicBench-Tasks",
       "commit": "18c54e69cf962fd402e245811d4925d129f4b33c",
@@ -17608,6 +18446,143 @@
         "frameIndex": 0,
         "frameTimeSeconds": null,
         "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "collection-gab070",
+      "repository": "Farama-Foundation/PettingZoo",
+      "commit": "b0fe02166d2106f8fcb6a6e0ca8125765699bdba",
+      "originalPath": "docs/environments/classic/classic_connect_four.gif",
+      "originalBlob": "55a31b496f57ad27a7a21a726ff6f805b5521b84",
+      "originalSha256": "0e6e8dff3b66b3440ba448a66b0218de94b980690f3633ab719b8810c7046c04",
+      "caption": {
+        "zh": "GTBench · 四子棋与井字棋参考画面",
+        "en": "GTBench · Connect Four and Tic-Tac-Toe reference views"
+      },
+      "sourceUrl": "https://github.com/Farama-Foundation/PettingZoo/blob/b0fe02166d2106f8fcb6a6e0ca8125765699bdba/docs/environments/classic/classic_connect_four.gif",
+      "sourceLabel": "Farama-Foundation/PettingZoo",
+      "licenseUrl": "https://github.com/Farama-Foundation/PettingZoo/blob/b0fe02166d2106f8fcb6a6e0ca8125765699bdba/LICENSE",
+      "verifiedAt": "2026-10-31",
+      "originalSize": [
+        600,
+        522
+      ],
+      "processing": {
+        "frameIndex": 50,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "image": "game-connect-four.webp",
+      "width": 600,
+      "height": 522,
+      "sha256": {
+        "image": "88498b774015e17668d32ab0b7e7656d4a0aeed55f8149e32edcfcb54d98c856"
+      },
+      "credit": "Farama Foundation · PettingZoo",
+      "alt": {
+        "zh": "GTBench · 四子棋与井字棋参考画面",
+        "en": "GTBench · Connect Four and Tic-Tac-Toe reference views"
+      },
+      "licenseFile": "image-license-Farama-Foundation_PettingZoo-LICENSE.txt",
+      "rightsNote": "Source attribution identifies the supplied illustration; repository license does not relicense third-party game artwork.",
+      "sourceType": "repository",
+      "referenceGameId": "connect-four",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "以合集收录的四子棋与井字棋为代表。图示来自 PettingZoo 的可视化实现；GTBench 使用文本观测与动作接口，界面不同。 PettingZoo 环境参考图；GTBench 使用文本接口。",
+        "en": "Connect Four and Tic-Tac-Toe represent games included in the suite. Images show PettingZoo visualizations; GTBench uses text observations and actions, so the interface differs. PettingZoo environment reference; GTBench uses a text interface."
+      },
+      "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3191170938b6102e5c203b036b7c16dd-Paper-Conference.pdf#page=2",
+      "relationshipEvidence": "GTBench paper page 2 explicitly lists Tic-Tac-Toe and Connect-4 among its ten game-theoretic tasks.",
+      "representatives": [
+        {
+          "referenceGameId": "connect-four",
+          "label": {
+            "zh": "四子棋",
+            "en": "Connect Four"
+          },
+          "imageNote": {
+            "zh": "以合集收录的四子棋与井字棋为代表。图示来自 PettingZoo 的可视化实现；GTBench 使用文本观测与动作接口，界面不同。 PettingZoo 环境参考图；GTBench 使用文本接口。",
+            "en": "Connect Four and Tic-Tac-Toe represent games included in the suite. Images show PettingZoo visualizations; GTBench uses text observations and actions, so the interface differs. PettingZoo environment reference; GTBench uses a text interface."
+          },
+          "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3191170938b6102e5c203b036b7c16dd-Paper-Conference.pdf#page=2",
+          "relationshipEvidence": "GTBench paper page 2 explicitly lists Tic-Tac-Toe and Connect-4 among its ten game-theoretic tasks."
+        },
+        {
+          "referenceGameId": "tic-tac-toe",
+          "label": {
+            "zh": "井字棋",
+            "en": "Tic-Tac-Toe"
+          },
+          "imageNote": {
+            "zh": "以合集收录的四子棋与井字棋为代表。图示来自 PettingZoo 的可视化实现；GTBench 使用文本观测与动作接口，界面不同。 PettingZoo 环境参考图；GTBench 使用文本接口。",
+            "en": "Connect Four and Tic-Tac-Toe represent games included in the suite. Images show PettingZoo visualizations; GTBench uses text observations and actions, so the interface differs. PettingZoo environment reference; GTBench uses a text interface."
+          },
+          "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2024/file/3191170938b6102e5c203b036b7c16dd-Paper-Conference.pdf#page=2",
+          "relationshipEvidence": "GTBench paper page 2 explicitly lists Tic-Tac-Toe and Connect-4 among its ten game-theoretic tasks."
+        }
+      ],
+      "identityEvidence": "GTBench paper page 2 explicitly lists Tic-Tac-Toe and Connect-4 among its ten game-theoretic tasks.",
+      "referenceSourceUrl": "https://github.com/Farama-Foundation/PettingZoo/blob/b0fe02166d2106f8fcb6a6e0ca8125765699bdba/docs/environments/classic/classic_connect_four.gif",
+      "title": "GTBench"
+    },
+    {
+      "gameId": "guard-games",
+      "originalSha256": "c8491a7e51c7e670a9d6cf2935e5a2f81d783ba0337005fba0d0968a58ccb778",
+      "originalUrl": "https://proceedings.neurips.cc/paper_files/paper/2025/file/21d69b221567b8f9c839b3d94c00f16d-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2025/file/21d69b221567b8f9c839b3d94c00f16d-Paper-Datasets_and_Benchmarks_Track.pdf#page=7",
+      "sourceType": "official-site",
+      "sourceLabel": "Krever et al. · NeurIPS 2025 · Figure 2",
+      "caption": {
+        "zh": "GUARD · 反盗猎与基础设施保护场景",
+        "en": "GUARD · anti-poaching and infrastructure-protection scenarios"
+      },
+      "alt": {
+        "zh": "GUARD · 反盗猎与基础设施保护场景",
+        "en": "GUARD · anti-poaching and infrastructure-protection scenarios"
+      },
+      "credit": "Krever et al. · NeurIPS 2025 · Figure 2",
+      "rightsNote": "Image or demonstration published by the cited authors; underlying artwork and source rights remain with their respective holders. Extraction and source are identified.",
+      "imageMatch": "collection-example",
+      "identityEvidence": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/21d69b221567b8f9c839b3d94c00f16d-Paper-Datasets_and_Benchmarks_Track.pdf#page=7",
+        "locator": "Page 7 Figure 2: Lobéké elephant movements and GSG graph, Manhattan Chinatown and ISG graph",
+        "note": "Page 7 Figure 2: Lobéké elephant movements and GSG graph, Manhattan Chinatown and ISG graph"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "d8726d6e122417a53f96ec9bc2e209e173404ee7830ac86486faebe44c681480",
+      "pdfExtraction": {
+        "locator": "Page 7 Figure 2: Lobéké elephant movements and GSG graph, Manhattan Chinatown and ISG graph",
+        "method": "PDF page rendering and scene-only crop; no redraw"
+      },
+      "imageNote": {
+        "zh": "论文场景地图及对应博弈图结构，分别代表反盗猎和基础设施保护实例；不是电子游戏运行画面。",
+        "en": "Paper scenario maps and corresponding game graphs for anti-poaching and infrastructure protection; not a video-game runtime view."
+      },
+      "originalSize": [
+        1836,
+        2376
+      ],
+      "image": "game-guard-games.webp",
+      "width": 1165,
+      "height": 305,
+      "sha256": {
+        "image": "6ff5d312f1a16c340c85b916895d6c8df9518a145f7d7ed802b35b7652be09fe"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          338,
+          215,
+          1503,
+          520
+        ],
         "resize": "Aspect-preserving; no upscaling",
         "encoding": "WebP quality 88"
       },
@@ -18537,6 +19512,61 @@
       "verifiedAt": "2026-10-29",
       "sourceType": "official-store",
       "licenseFile": null
+    },
+    {
+      "gameId": "hex-11x11",
+      "originalSha256": "18fa67c4a7c728ea45ce6d38a8d66dcadc92fabd3aa10af4ffd2d1675d468fda",
+      "originalUrl": "https://raw.githubusercontent.com/sotetsuk/pgx/87278d2d6e677fd87248c457207b59cfa42e578d/docs/assets/hex_light.gif",
+      "sourceUrl": "https://github.com/sotetsuk/pgx/blob/87278d2d6e677fd87248c457207b59cfa42e578d/docs/assets/hex_light.gif",
+      "sourceType": "repository",
+      "sourceLabel": "Pgx authors · official environment visualization",
+      "caption": {
+        "zh": "Hex · Pgx 的 11×11 棋盘",
+        "en": "Hex · Pgx 11×11 board"
+      },
+      "alt": {
+        "zh": "Hex · Pgx 的 11×11 棋盘",
+        "en": "Hex · Pgx 11×11 board"
+      },
+      "credit": "Pgx authors · official environment visualization",
+      "rightsNote": "Original scene published by the cited authors or project; source artwork rights remain with their respective holders. Cropping, frame extraction and version differences are identified.",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "取自 Pgx 官方演示动画；官方实现默认棋盘为 11×11。",
+        "en": "Frame from the official Pgx demo; the implementation defaults to an 11×11 board."
+      },
+      "identityEvidence": {
+        "url": "https://github.com/sotetsuk/pgx/blob/87278d2d6e677fd87248c457207b59cfa42e578d/docs/assets/hex_light.gif",
+        "locator": "Official README Supported games explicitly associates the named game with this GIF; pgx/hex.py specifies size=11 for Hex.",
+        "note": "Official README Supported games explicitly associates the named game with this GIF; pgx/hex.py specifies size=11 for Hex."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "repository": "sotetsuk/pgx",
+      "commit": "87278d2d6e677fd87248c457207b59cfa42e578d",
+      "originalPath": "docs/assets/hex_light.gif",
+      "originalBlob": "4571ad8efcdd2604cf3f98b35bba30fa6c7c46a4",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/sotetsuk/pgx/blob/87278d2d6e677fd87248c457207b59cfa42e578d/LICENSE",
+      "originalSize": [
+        525,
+        316
+      ],
+      "image": "game-hex-11x11.webp",
+      "width": 525,
+      "height": 316,
+      "sha256": {
+        "image": "33f1f2c0083e20099d883166dfe09be6630bc8df546044cf50ff189e831142a5"
+      },
+      "processing": {
+        "frameIndex": 10,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": "image-license-tongjingqi_Game-RL.txt",
+      "licenseLabel": "Apache-2.0"
     },
     {
       "gameId": "hextris",
@@ -20759,6 +21789,61 @@
       "sourceType": "repository",
       "identityEvidence": "Official per-game ALE documentation embeds this exact GIF and identifies its Atari environment.",
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
+    },
+    {
+      "gameId": "kuhn-poker",
+      "originalSha256": "222ede99d3d8db9130aaa767690ab29ec8e94dfea4af6ae2a15d2b984f18046c",
+      "originalUrl": "https://raw.githubusercontent.com/sotetsuk/pgx/87278d2d6e677fd87248c457207b59cfa42e578d/docs/assets/kuhn_poker_light.gif",
+      "sourceUrl": "https://github.com/sotetsuk/pgx/blob/87278d2d6e677fd87248c457207b59cfa42e578d/docs/assets/kuhn_poker_light.gif",
+      "sourceType": "repository",
+      "sourceLabel": "Pgx authors · official environment visualization",
+      "caption": {
+        "zh": "Kuhn Poker · Pgx 状态可视化",
+        "en": "Kuhn Poker · Pgx state visualization"
+      },
+      "alt": {
+        "zh": "Kuhn Poker · Pgx 状态可视化",
+        "en": "Kuhn Poker · Pgx state visualization"
+      },
+      "credit": "Pgx authors · official environment visualization",
+      "rightsNote": "Original scene published by the cited authors or project; source artwork rights remain with their respective holders. Cropping, frame extraction and version differences are identified.",
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "使用 Pgx 官方 Kuhn Poker 演示作为规则参考；MARSHAL 等评测的交互接口与画面布局不同。图中展示双方手牌，属于全局状态可视化。",
+        "en": "Official Pgx Kuhn Poker demonstration used as a rules reference; MARSHAL and other evaluations use different interfaces and layouts. Both hands are visible in this full-state visualization."
+      },
+      "identityEvidence": {
+        "url": "https://github.com/sotetsuk/pgx/blob/87278d2d6e677fd87248c457207b59cfa42e578d/docs/assets/kuhn_poker_light.gif",
+        "locator": "Official README Supported games explicitly associates the named game with this GIF; pgx/hex.py specifies size=11 for Hex.",
+        "note": "Official README Supported games explicitly associates the named game with this GIF; pgx/hex.py specifies size=11 for Hex."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "repository": "sotetsuk/pgx",
+      "commit": "87278d2d6e677fd87248c457207b59cfa42e578d",
+      "originalPath": "docs/assets/kuhn_poker_light.gif",
+      "originalBlob": "5a99436695f4a29a4cd9a1bca9f8b0c40e855713",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/sotetsuk/pgx/blob/87278d2d6e677fd87248c457207b59cfa42e578d/LICENSE",
+      "originalSize": [
+        270,
+        270
+      ],
+      "image": "game-kuhn-poker.webp",
+      "width": 270,
+      "height": 270,
+      "sha256": {
+        "image": "6cdd71954007940fad90b9871f566b3a345be4eb77aaae416a44e718c5d614a3"
+      },
+      "processing": {
+        "frameIndex": 10,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": "image-license-tongjingqi_Game-RL.txt",
+      "licenseLabel": "Apache-2.0"
     },
     {
       "gameId": "machiavelli-kung-fu",
@@ -23457,6 +24542,54 @@
         "encoding": "WebP quality 88"
       },
       "licenseFile": "image-license-MarcoMeter_endless-memory-gym.txt"
+    },
+    {
+      "gameId": "bsuite-memory-length",
+      "originalSha256": "84bbb6385198e984d2f9a950aa0c93d45c674f55b12b84c15f8df9ffb9902019",
+      "originalUrl": "https://arxiv.org/html/1908.03568v3/figures/memory_len.png",
+      "sourceUrl": "https://arxiv.org/html/1908.03568v3#S2.F1",
+      "sourceType": "official-site",
+      "sourceLabel": "Osband et al. · Behaviour Suite · Figure 1",
+      "caption": {
+        "zh": "Memory Length · 提示、延迟与选择任务图",
+        "en": "Memory Length · cue, delay and choice task diagram"
+      },
+      "alt": {
+        "zh": "Memory Length · 提示、延迟与选择任务图",
+        "en": "Memory Length · cue, delay and choice task diagram"
+      },
+      "credit": "Osband et al. · Behaviour Suite · Figure 1",
+      "rightsNote": "Author-published research illustration; original paper and environment artwork rights remain with their respective holders. The source and any extraction are identified.",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "论文中的任务示意图，展示保留早期颜色提示并在延迟后作出选择；不是运行界面截图。",
+        "en": "Paper task illustration: retain an early color cue and choose after a delay; not a runtime screenshot."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/1908.03568v3#S2.F1",
+        "locator": "Figure 1 is explicitly titled the memory length environment.",
+        "note": "Figure 1 is explicitly titled the memory length environment."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        548,
+        216
+      ],
+      "image": "game-bsuite-memory-length.webp",
+      "width": 548,
+      "height": 216,
+      "sha256": {
+        "image": "c2785f5d7877181b34ec0ba0c5e22bbb0465925dadea7581a523d39291eafca5"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "memory-maze",
@@ -28475,6 +29608,60 @@
       "sourceType": "repository"
     },
     {
+      "gameId": "pocket-bomberman",
+      "originalSha256": "8fb0660ac92d99f9ef06a3e52dc118621885bf23a53138aa58c853fb71f8ad73",
+      "originalUrl": "https://livedoor.blogimg.jp/rosiaman520/imgs/b/9/b9fd4724.jpg",
+      "sourceUrl": "https://rosiaman520.livedoor.blog/archives/18391853.html",
+      "sourceType": "third-party",
+      "sourceLabel": "ゲームをしていたい人のブログ(仮) · Pocket Bomberman play capture",
+      "credit": "ゲームをしていたい人のブログ(仮) · Pocket Bomberman play capture",
+      "caption": {
+        "zh": "Pocket Bomberman · 日版平台关卡",
+        "en": "Pocket Bomberman · Japanese-version platform stage"
+      },
+      "alt": {
+        "zh": "Pocket Bomberman · 日版平台关卡",
+        "en": "Pocket Bomberman · Japanese-version platform stage"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "日版 Game Boy 游戏在 Retro Freak 上的游玩记录，使用 Super Game Boy 式边框和调色；与 GameBoyWorlds 的 ROM／模拟器版本不同。",
+        "en": "Japanese Game Boy gameplay captured on Retro Freak with Super Game Boy-style framing and palette; the ROM/emulator version differs from the GameBoyWorlds setup."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://rosiaman520.livedoor.blog/archives/18391853.html",
+        "locator": "The article is explicitly titled ポケットボンバーマン (GB), describes playing on Retro Freak, and embeds this image in its normal-game play account.",
+        "note": "The article is explicitly titled ポケットボンバーマン (GB), describes playing on Retro Freak, and embeds this image in its normal-game play account."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "pixelArt": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "image": "game-pocket-bomberman.webp",
+      "width": 824,
+      "height": 720,
+      "sha256": {
+        "image": "1b78c793e4affb9a008bcf966450f2b20ca1577d0979a764d75d960767e5e940"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          228,
+          0,
+          1052,
+          720
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "miniarcade-point-maze",
       "sourceType": "official-site",
       "originalUrl": "https://www.nicklashansen.com/NewtWM/videos/miniarcade/point-maze-var2.mp4",
@@ -32397,6 +33584,64 @@
         "frameIndex": 0,
         "frameTimeSeconds": null,
         "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "rtfm",
+      "originalSha256": "be26d07b3e10460d98bfd3bbed26b79b067434ef28d3b086cd8b6b4fe78b2122",
+      "originalUrl": "https://arxiv.org/pdf/1910.08210",
+      "sourceUrl": "https://arxiv.org/pdf/1910.08210#page=3",
+      "sourceType": "official-site",
+      "sourceLabel": "Zhong et al. · ICLR 2020 · Figure 1",
+      "caption": {
+        "zh": "RTFM · 阅读规则与战斗场景",
+        "en": "RTFM · rule-grounded combat scene"
+      },
+      "alt": {
+        "zh": "RTFM · 阅读规则与战斗场景",
+        "en": "RTFM · rule-grounded combat scene"
+      },
+      "credit": "Zhong et al. · ICLR 2020 · Figure 1",
+      "rightsNote": "Image or demonstration published by the cited authors; underlying artwork and source rights remain with their respective holders. Extraction and source are identified.",
+      "imageMatch": "different-version",
+      "identityEvidence": {
+        "url": "https://arxiv.org/pdf/1910.08210#page=3",
+        "locator": "PDF page 3 Figure 1, frame 1 of a trained-policy rollout",
+        "note": "PDF page 3 Figure 1, frame 1 of a trained-policy rollout"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "9d8025916ff0e4a185d17cc7eaf60e05d3d6ec69ff2b6883d51a91304dbfe4e6",
+      "pdfExtraction": {
+        "locator": "PDF page 3 Figure 1, frame 1 of a trained-policy rollout",
+        "method": "PDF page rendering and scene-only crop; no redraw"
+      },
+      "imageNote": {
+        "zh": "原始 RTFM 论文的游戏状态可视化；精灵仅用于展示，智能体接收文本。SILG 接口及 CWMB 的固定手册、静止怪物设置与此图不同。",
+        "en": "Original RTFM state visualization; sprites are for display and the agent observes text. SILG interfaces and CWMB’s fixed-manual, static-monster variant differ."
+      },
+      "originalSize": [
+        1836,
+        2376
+      ],
+      "image": "game-rtfm.webp",
+      "width": 390,
+      "height": 388,
+      "sha256": {
+        "image": "adff47113ebcde50a84b1929dbe1ff1ec7e09833a6bf1e161e3ba23b5e0a5a60"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          724,
+          248,
+          1114,
+          636
+        ],
         "resize": "Aspect-preserving; no upscaling",
         "encoding": "WebP quality 88"
       },
@@ -38078,6 +39323,55 @@
       "verifiedAt": "2026-10-29"
     },
     {
+      "gameId": "sword-of-hope-ii",
+      "originalSha256": "bde1208aac603a95094bc9169187899655127eb9dfd30c56102b59fd3e0ca07a",
+      "originalUrl": "https://www.nintendo.com/eu/media/images/migration/games_7/screenshots/nintendo_3ds_virtual_console/3dsvirtualconsole_theswordofhope2/RBVP_GB_TheSwordOfHope2_Screen1a_ALL_TM_Standard.jpg",
+      "sourceUrl": "https://www.nintendo.com/en-gb/Games/Virtual-Console-Nintendo-3DS-/The-Sword-of-Hope-II-523822.html",
+      "sourceType": "official-site",
+      "sourceLabel": "Nintendo · The Sword of Hope II · screenshot gallery",
+      "credit": "Nintendo · The Sword of Hope II · screenshot gallery",
+      "caption": {
+        "zh": "The Sword of Hope II · 林地探索",
+        "en": "The Sword of Hope II · exploring the woods"
+      },
+      "alt": {
+        "zh": "The Sword of Hope II · 林地探索",
+        "en": "The Sword of Hope II · exploring the woods"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "任天堂 3DS Virtual Console 页面展示的 Game Boy 游戏画面；边框、调色和模拟器配置与研究中的 ROM 运行环境可能不同。",
+        "en": "Game Boy gameplay shown on Nintendo’s 3DS Virtual Console page; framing, palette and emulator configuration may differ from the research ROM environment."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://www.nintendo.com/en-gb/Games/Virtual-Console-Nintendo-3DS-/The-Sword-of-Hope-II-523822.html",
+        "locator": "Official Nintendo game page screenshot Screen1a, carrying the text WOODS and an injured person.",
+        "note": "Official Nintendo game page screenshot Screen1a, carrying the text WOODS and an injured person."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "pixelArt": true,
+      "originalSize": [
+        225,
+        135
+      ],
+      "image": "game-sword-of-hope-ii.webp",
+      "width": 225,
+      "height": 135,
+      "sha256": {
+        "image": "dbedfa7960141123351b349bd86a4ec83543b11e22b873afbdc1dee5e021d2f9"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "witcher-3",
       "title": "The Witcher 3: Wild Hunt",
       "originalSha256": "05e2fed4f63c527cfbef1ff07b2fed1b010168e37388600333a27a681c00715d",
@@ -38262,6 +39556,58 @@
       "sourceType": "repository",
       "identityEvidence": "Official per-game ALE documentation embeds this exact GIF and identifies its Atari environment.",
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
+    },
+    {
+      "gameId": "touchdown",
+      "originalSha256": "3c45e614d16520480d86ed4ffe30478865887eac024092d2bd51456c0fe9c5bd",
+      "originalUrl": "https://raw.githubusercontent.com/lil-lab/touchdown/2ad8ef2664d1aa8ff1a8eebf88b9e88b2cb1d1c6/touchdown.gif",
+      "sourceUrl": "https://github.com/lil-lab/touchdown/blob/2ad8ef2664d1aa8ff1a8eebf88b9e88b2cb1d1c6/README.md",
+      "sourceType": "official-site",
+      "sourceLabel": "Cornell LIL · Touchdown official demonstration",
+      "caption": {
+        "zh": "Touchdown · 街景导航示例",
+        "en": "Touchdown · street-view navigation example"
+      },
+      "alt": {
+        "zh": "Touchdown · 街景导航示例",
+        "en": "Touchdown · street-view navigation example"
+      },
+      "credit": "Cornell LIL · Touchdown official demonstration",
+      "rightsNote": "Image or demonstration published by the cited authors; underlying artwork and source rights remain with their respective holders. Extraction and source are identified.",
+      "imageMatch": "different-version",
+      "identityEvidence": {
+        "url": "https://github.com/lil-lab/touchdown/blob/2ad8ef2664d1aa8ff1a8eebf88b9e88b2cb1d1c6/README.md",
+        "locator": "Official Touchdown README embeds touchdown.gif and explains the navigation and object-location task",
+        "note": "Official Touchdown README embeds touchdown.gif and explains the navigation and object-location task"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "imageNote": {
+        "zh": "Touchdown 原始街景版本的官方演示帧；SILG 使用符号化观测接口，图中街景不是该接口的输入格式。",
+        "en": "Frame from the original Touchdown street-view demonstration. SILG uses symbolic observations, so this scene is not its input representation."
+      },
+      "repository": "lil-lab/touchdown",
+      "commit": "2ad8ef2664d1aa8ff1a8eebf88b9e88b2cb1d1c6",
+      "licenseLabel": "CC BY 4.0 (dataset); Google Street View imagery retains its own rights",
+      "licenseUrl": "https://github.com/lil-lab/touchdown/blob/2ad8ef2664d1aa8ff1a8eebf88b9e88b2cb1d1c6/LICENSE.txt",
+      "originalSize": [
+        500,
+        317
+      ],
+      "image": "game-touchdown.webp",
+      "width": 500,
+      "height": 317,
+      "sha256": {
+        "image": "12ed3215a30eaf1819c3875583b75a22e4a966adfd3129e6844d51774de38b80"
+      },
+      "processing": {
+        "frameIndex": 40,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "machiavelli-tower-behind-the-moon",
@@ -40723,6 +42069,64 @@
       },
       "verifiedAt": "2026-10-29",
       "sourceType": "official-store",
+      "licenseFile": null
+    },
+    {
+      "gameId": "collection-gab066",
+      "originalSha256": "c38117573f6f71fd80b609a9316006d7f5fa8b88a4a5651879413011fd7b6e99",
+      "originalUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/file/9dd4533e7e4e5ed809344280609c5b05-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/file/9dd4533e7e4e5ed809344280609c5b05-Paper-Datasets_and_Benchmarks_Track.pdf#page=23",
+      "sourceType": "official-site",
+      "sourceLabel": "Xie et al. · NeurIPS 2024 · Appendix Figure 7",
+      "caption": {
+        "zh": "WhodunitBench · 谜案中的场景线索图",
+        "en": "WhodunitBench · scene-layout clue from a mystery"
+      },
+      "alt": {
+        "zh": "WhodunitBench · 谜案中的场景线索图",
+        "en": "WhodunitBench · scene-layout clue from a mystery"
+      },
+      "credit": "Xie et al. · NeurIPS 2024 · Appendix Figure 7",
+      "rightsNote": "Author-published research illustration; original paper and environment artwork rights remain with their respective holders. The source and any extraction are identified.",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "附录图7的视觉线索卡片：拍卖场与展厅平面图。它是剧本提供的推理材料，不是交互式游戏画面；仅代表其中一个谜案。",
+        "en": "Visual clue card from Appendix Figure 7: an auction-house and exhibition-hall floor plan. It is script-provided reasoning material, not an interactive game screenshot, and represents one mystery."
+      },
+      "identityEvidence": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/9dd4533e7e4e5ed809344280609c5b05-Paper-Datasets_and_Benchmarks_Track.pdf#page=23",
+        "locator": "PDF page 23, Figure 7 Image Clues strip, first clue card. Extracted from the original embedded image.",
+        "note": "PDF page 23, Figure 7 Image Clues strip, first clue card. Extracted from the original embedded image."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "b198220e109be243b91f76f2e01fabbd099a0bf8746059db2577926ada8ff924",
+      "pdfExtraction": {
+        "locator": "PDF page 23, Figure 7 Image Clues strip, first clue card. Extracted from the original embedded image.",
+        "method": "Rasterization/extraction of source PDF figure without redrawing"
+      },
+      "originalSize": [
+        4250,
+        5322
+      ],
+      "image": "game-collection-gab066.webp",
+      "width": 340,
+      "height": 490,
+      "sha256": {
+        "image": "516d671ee3eb592f9b543a3a045c3c7f97712c203868e0d541a01a2da42a442e"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          448,
+          4680,
+          788,
+          5170
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
       "licenseFile": null
     },
     {
