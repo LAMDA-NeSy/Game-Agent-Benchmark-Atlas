@@ -132,3 +132,20 @@ assert.equal(audit.records.length,206);
 assert.deepEqual(audit.records.map(a=>a.id).sort(),completion.map(a=>a.id).sort());
 assert(audit.records.every(a=>a.primaryIdentityConfirmed&&a.checkedUrls.length));
 console.log('Completion: all 236 resources have source-grounded bilingual sections, 206 audited additions, unchanged task/runtime identities.');
+
+const editorial=audit.editorialReview;
+assert.equal(editorial.reviewed,resources.length);
+assert.equal(editorial.records.length,resources.length);
+assert.deepEqual(editorial.records.map(r=>r.id).sort(),resources.map(r=>r.id).sort());
+assert.equal(editorial.revised,editorial.records.filter(r=>r.changed).length);
+assert.equal(editorial.retained,editorial.records.filter(r=>!r.changed).length);
+assert.equal(editorial.revised+editorial.retained,editorial.reviewed);
+for(const r of editorial.records){
+ assert(r.sourceBasis.length&&r.sourceBasis.every(u=>/^https:\/\//.test(u)));
+ if(r.changed)assert(r.issues.length,'revised overviews retain concrete review findings');
+}
+for(const a of enriched){
+ assert.deepEqual(a.overview.paragraphs,a.overview.sections.map(s=>s.body));
+ for(language of ['zh','en'])assert(ctx.window.AtlasResearchArchives.render(a,{tab:'sources'}).includes('./archive-overview-review.json'));
+}
+console.log('Editorial review: all evaluation resources accounted for, concrete findings and sources retained, bilingual sections/exports synchronized.');

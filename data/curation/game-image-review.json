@@ -1,81 +1,11 @@
 {
-  "verifiedAt": "2026-10-29",
-  "added": 62,
-  "totalWithImage": 643,
+  "verifiedAt": "2026-10-31",
+  "added": 182,
+  "totalWithImage": 825,
   "totalIndexEntries": 1289,
-  "notYetIllustrated": 646,
+  "notYetIllustrated": 464,
   "layout": "One detail screenshot per game; no list thumbnails.",
-  "reviewedNotSelected": [
-    {
-      "gameId": "bsuite",
-      "reason": "Official repository image files are result plots rather than environment renderings."
-    },
-    {
-      "gameId": "bsuite-deep-sea",
-      "reason": "No exact Deep Sea renderer screenshot verified; result plots excluded."
-    },
-    {
-      "gameId": "bsuite-memory-length",
-      "reason": "No exact Memory Length renderer screenshot verified; result plots excluded."
-    },
-    {
-      "gameId": "darefightingice",
-      "reason": "Repository GIF candidates E_GIF_09.gif and E_GIF_10.gif are Sustainable Development Goal graphics, not gameplay; no verified screenshot adopted."
-    },
-    {
-      "gameId": "griddly-escape-room",
-      "reason": "Reviewed repository has Grafter Escape Rooms trajectory/model assets but no verified exact EscapeRoom screenshot; general Griddly screen not inherited."
-    },
-    {
-      "gameId": "gvgai-aliens",
-      "reason": "No exact Aliens gameplay screenshot verified; family art not inherited."
-    },
-    {
-      "gameId": "gvgai-boulderdash",
-      "reason": "No exact Boulderdash gameplay screenshot verified; family art not inherited."
-    },
-    {
-      "gameId": "gvgai-escape",
-      "reason": "No exact Escape gameplay screenshot verified; family art not inherited."
-    },
-    {
-      "gameId": "gvgai-games",
-      "reason": "Official GVGAI repository reviewed; available artwork did not establish a verified complete gameplay screenshot."
-    },
-    {
-      "gameId": "gvgai-zelda",
-      "reason": "No exact GVGAI Zelda screenshot verified; commercial Zelda not reused."
-    },
-    {
-      "gameId": "messenger",
-      "reason": "Official messenger-emma repository has no game screenshot assets; source game can be played in terminal, but no new runtime rendering was produced."
-    },
-    {
-      "gameId": "pga-tour-2k23",
-      "reason": "All ten official Steam gallery images reviewed; golfer portraits and scenic views, one course editor but no representative golf-play interface selected."
-    },
-    {
-      "gameId": "pig",
-      "reason": "No exact Pig benchmark implementation screenshot verified; generic dice images not substituted."
-    },
-    {
-      "gameId": "textworld",
-      "reason": "Repository candidate docs/source/notes/images/TextWorld.png is an architecture diagram, not a game screenshot. The other visible screenshots show Zork rather than a generated TextWorld game; not reused."
-    },
-    {
-      "gameId": "overwatch-2",
-      "reason": "Reviewed current official Steam gallery (now titled Overwatch); images are cinematic/marketing viewpoints without clear first-person gameplay interface. A gameplay screenshot is still preferred."
-    },
-    {
-      "gameId": "incredible-machine",
-      "reason": "Reviewed specific 1993 game encyclopedia page, but only cover art is embedded; no gameplay screenshot accepted."
-    },
-    {
-      "gameId": "arena-unity-crawlerpush",
-      "reason": "Arena appendix table does not provide an unambiguous same-name image; mapping it from the separate PushBox row would be speculative.",
-      "evidence": "https://arxiv.org/html/1905.08085v5#Sx9"
-    }
-  ],
+  "reviewedNotSelected": [],
   "remainingScope": "Coverage is partial. Missing entries have not all been exhaustively searched. Reference images require explicit per-game relationships and visible version notes; no automatic family inheritance.",
   "history": [
     {
@@ -433,465 +363,509 @@
           "evidence": "https://arxiv.org/html/1905.08085v5#Sx9"
         }
       ]
+    },
+    {
+      "verifiedAt": "2026-10-29",
+      "added": 62,
+      "totalWithImage": 643,
+      "notYetIllustrated": 646
     }
   ],
-  "previousTotal": 581,
+  "previousTotal": 643,
   "batchCounts": {
-    "sources": 5,
-    "collections-references": 42,
-    "variants-references": 13,
-    "sources-references": 2
+    "commercial": 50,
+    "suites": 12,
+    "research": 31,
+    "owner": 3,
+    "commercial-references": 7,
+    "suites-references": 3,
+    "research-references": 20,
+    "owner-references": 1,
+    "v7-visual": 10,
+    "v7-suites": 2,
+    "v7-research": 33,
+    "v7-owner": 5,
+    "v7-visual-references": 0,
+    "v7-suites-references": 4,
+    "v7-research-references": 1,
+    "v7-owner-references": 0
   },
-  "resolvedPreviousExclusions": [
-    "ace-attorney",
-    "blackjack",
-    "bleeding-edge",
-    "bridge",
-    "counter-strike-2",
-    "dark-souls",
-    "dead-rising-2-off-the-record",
-    "forza-horizon-5",
-    "gamereplica-connect-four",
-    "gin-rummy",
-    "gta-v",
-    "gvgai-realsokoban",
-    "gvgai-sokoban",
-    "llmarena-hanabi-small",
-    "mahjong",
-    "marshal-mini-hanabi",
-    "marshal-simple-hanabi",
-    "plants-vs-zombies",
-    "pokemon-showdown",
-    "procgen-games",
-    "red-dead-redemption-2",
-    "riichi-mahjong",
-    "team-fortress-2",
-    "uno",
-    "valet-blackjack",
-    "valheim",
-    "watch-dogs-2",
-    "witcher-3",
-    "wuthering-waves"
-  ],
-  "duplicateCandidates": [
-    {
-      "gameId": "wolfenstein-3d",
-      "selected": "Official original-game Steam screenshot",
-      "notSelected": "GameWorld browser version screenshot; one picture retained per exact index ID."
-    }
-  ],
-  "uniqueImageAssets": 509,
-  "referenceImages": 160,
-  "duplicateCandidatesThisBatch": [],
+  "uniqueImageAssets": 659,
+  "referenceImages": 295,
   "referencePolicy": "User-approved related versions and implementations are permitted only with explicit per-game mappings and visible bilingual notes; no generic genre substitution or automatic image inheritance.",
-  "reviewedGroupsNotSelected": [
-    {
-      "scope": "GameASG, NCP and other generation-task specifications",
-      "reason": "No verified fixed-game screenshot selected this pass; architecture diagrams, movie posters, isolated sprites and unrelated namesake games are not substitutes."
-    }
+  "collectionGalleries": 49,
+  "multiSceneGalleries": 28,
+  "version": 7,
+  "replacedGameIds": [
+    "autoworld-asteroids",
+    "autoworld-breakout",
+    "autoworld-pong",
+    "autoworld-snake"
   ],
-  "pendingRepresentativeReview": [
-    {
-      "gameId": "textworld",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md#configuring-eval",
-        "https://arxiv.org/abs/1806.11532",
-        "https://ojs.aaai.org/index.php/AAAI/article/view/17090"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "gvgai-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/1802.10363"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "gg-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2505.07215"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "popgym",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://openreview.net/forum?id=chDrutUTs0K",
-        "https://arxiv.org/html/2403.04253"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2606.00103",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2606.00103"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2602.17594",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2602.17594",
-        "https://arxiv.org/html/2610.02200v1"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "nitrogen-evaluation-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2601.02427v1"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "modular-discovery-generated-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/pdf/2609.33115"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-gab058",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-gab081",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a46adbe2f0ca0e16ef8857e188991ad7-Abstract-Conference.html"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "guard-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.neurips.cc/paper_files/paper/2025/hash/21d69b221567b8f9c839b3d94c00f16d-Abstract-Datasets_and_Benchmarks_Track.html"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-gap-a5",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2406.06613"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-gab070",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3191170938b6102e5c203b036b7c16dd-Abstract-Conference.html"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-gap-b4",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2410.10479"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "ludii-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://doi.org/10.3233/FAIA200120"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2605.04312",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2605.04312"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2602.12517",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2602.12517"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2601.08462",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2601.08462"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2605.29512",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2605.29512"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "agentodyssey-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2606.24893v1"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "arc-agi-3",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2603.24621",
-        "https://arxiv.org/html/2610.02200v1",
-        "https://arxiv.org/html/2605.05138"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2607.04293",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2607.04293"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2608.12593",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2608.12593"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "ncp-narratives",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://raw.githubusercontent.com/NLP2CT/NCP-Bench/main/dataset/index.yaml"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-ax26-2606.19338",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/2606.19338"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "rushes-narratives",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2607.20767v1"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-gab066",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9dd4533e7e4e5ed809344280609c5b05-Abstract-Datasets_and_Benchmarks_Track.html"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "collection-gab052",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://aclanthology.org/2023.emnlp-main.689/"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "witness-puzzle-env",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2609.32208v1"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "gtb-grid-maps",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2410.07765#S2"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "carl-envs",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://openreview.net/forum?id=Y42xVBQusn"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "bsuite",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/abs/1908.03568",
-        "https://arxiv.org/html/2403.04253"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "game2world-videos",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2608.24680v1#S5"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "gbqa-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2604.02648v1"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "spade-synthetic-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2608.19197v3#S5.SS2"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "ogamedata-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2606.11129v2#S3.SS1.SSS1"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "gameasg-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://github.com/areal-project/GameASG-Bench/blob/main/category/results.md"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "gamexpert-gold-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2608.21833v1"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "prowbench-scenes",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2610.02205v2"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "swe-game-reference",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2609.33678v3"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "rpgbench-worlds",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2502.00595"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "multi-agent-particle",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.neurips.cc/paper_files/paper/2024/file/fc6247c33cff077a3910d0c28463f445-Paper-Datasets_and_Benchmarks_Track.pdf",
-        "https://github.com/uoe-agents/epymarl"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "multi-agent-mujoco",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.neurips.cc/paper_files/paper/2024/file/fc6247c33cff077a3910d0c28463f445-Paper-Datasets_and_Benchmarks_Track.pdf"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "xland",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/04c0c541d936f7cbfbb21085116236cd-Abstract-Datasets_and_Benchmarks_Track.html"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "chores",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.mlr.press/v199/powers22b.html"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "matrix-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://github.com/uoe-agents/epymarl"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "repeated-matrix-games",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12283376/"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "cwmb",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html"
-      ],
-      "status": "pending-representative-review"
-    },
-    {
-      "gameId": "combatstatebench",
-      "reason": "No explicit illustrated child-to-parent association selected in this bounded pass. This is pending representative-image review, not a claim that no image exists.",
-      "sources": [
-        "https://arxiv.org/html/2609.10540"
-      ],
-      "status": "pending-representative-review"
-    }
-  ],
-  "collectionGalleries": 42,
-  "multiSceneGalleries": 21
+  "unillustratedGameIds": [
+    "agent-island-elimination",
+    "amazons",
+    "animegamer-worlds",
+    "aquawar",
+    "arena-unity-crawlerpush",
+    "avalon-board",
+    "balance-beam",
+    "balances",
+    "bargaining",
+    "battle-of-the-sexes",
+    "blind-bandits",
+    "bomberman-quest",
+    "breakthrough",
+    "bsuite",
+    "bsuite-deep-sea",
+    "bsuite-memory-length",
+    "bvr-sim",
+    "causalgame-antenna-trap",
+    "centipede",
+    "chameleon",
+    "chicken",
+    "chores",
+    "clembench-taboo",
+    "collab-capture",
+    "collab-escape",
+    "collection-ax26-2601.08462",
+    "collection-ax26-2602.12517",
+    "collection-ax26-2602.17594",
+    "collection-ax26-2605.04312",
+    "collection-ax26-2606.00103",
+    "collection-ax26-2607.04293",
+    "collection-ax26-2608.12593",
+    "collection-gab052",
+    "collection-gab058",
+    "collection-gab066",
+    "collection-gab070",
+    "collection-gab081",
+    "collection-gap-b4",
+    "colonel-blotto",
+    "combatstatebench",
+    "copa-rescue",
+    "cost-sharing",
+    "coup",
+    "crossfire",
+    "cwm-converge",
+    "cwm-negotiation",
+    "cwmb",
+    "darefightingice",
+    "dark-hex",
+    "dead-last",
+    "democratic-ai-public-investment",
+    "dictator-game",
+    "dragon-if",
+    "einstein-wurfelt-nicht",
+    "evaaa",
+    "farmquest",
+    "first-price-auction",
+    "fm-bench-football-management",
+    "game2world-videos",
+    "gameasg-asmr-sparkle-shine",
+    "gameasg-astroman",
+    "gameasg-barbie-and-kens-puzzles",
+    "gameasg-barbies-pink-dream-wardrobe",
+    "gameasg-bikini-bottom-survivor",
+    "gameasg-capys-flight-adventure",
+    "gameasg-city-racer-x-neon-rush",
+    "gameasg-city-rider",
+    "gameasg-color-palette",
+    "gameasg-colossal-runner",
+    "gameasg-cupid-s-tie-dye-studio",
+    "gameasg-diner-dasher",
+    "gameasg-dirtbike",
+    "gameasg-dragon-ball-merge-heroes",
+    "gameasg-fast-food-tycoon",
+    "gameasg-frosting-frenzy",
+    "gameasg-fruit-smoothie-merge",
+    "gameasg-garden-gulp",
+    "gameasg-grand-theft-astro",
+    "gameasg-grow-a-fish",
+    "gameasg-gungategang",
+    "gameasg-impact-pong",
+    "gameasg-infinite-charms",
+    "gameasg-kick-skills",
+    "gameasg-knife-blitz-2",
+    "gameasg-lucky-tran-s-apartment-glow-up",
+    "gameasg-mini-tanks",
+    "gameasg-neon-flow-circuit-connect",
+    "gameasg-park-master",
+    "gameasg-park-pal",
+    "gameasg-penalty-king",
+    "gameasg-perfecto-shot",
+    "gameasg-slice-rush",
+    "gameasg-smash-the-dummy",
+    "gameasg-sortie",
+    "gameasg-spider-kid-s-halloween-haul",
+    "gameasg-stickman-anchor",
+    "gameasg-stickman-archer",
+    "gameasg-super-screw",
+    "gameasg-tadpol-io",
+    "gameasg-tankor-arena",
+    "gameasg-tap-tap-shots",
+    "gameasg-the-daughter-of-the-sea-before-the-foam",
+    "gameasg-turbo-smash-beast",
+    "gameasg-william-afton-life",
+    "gamebench-arctic-scavengers",
+    "gamebench-are-you-the-traitor",
+    "gamebench-pit",
+    "gamebench-two-rooms-and-a-boom",
+    "gamebot-negotiation-v2",
+    "gamelogic-atom-active-frames",
+    "gamelogic-atom-attack-cooldown",
+    "gamelogic-atom-boids",
+    "gamelogic-atom-death-trigger",
+    "gamelogic-atom-dice-read",
+    "gamelogic-atom-dodge-hold",
+    "gamelogic-atom-group-avoidance",
+    "gamelogic-atom-hitbox",
+    "gamelogic-atom-hitstun-recovery",
+    "gamelogic-atom-jump-landing",
+    "gamelogic-atom-keeper-arc",
+    "gamelogic-atom-light-occlusion",
+    "gamelogic-atom-move-navigation",
+    "gamelogic-atom-move-navigation-3d",
+    "gamelogic-atom-move-slide-3d",
+    "gamelogic-atom-patrol-edge",
+    "gamelogic-atom-plan-orchestrator",
+    "gamelogic-atom-platform-ride",
+    "gamelogic-atom-production-queue",
+    "gamelogic-atom-root-motion-3d",
+    "gamelogic-atom-target-selection",
+    "gamelogic-combo-alert-escalation-loop",
+    "gamelogic-combo-anim-events",
+    "gamelogic-combo-boss",
+    "gamelogic-combo-chaser",
+    "gamelogic-combo-corridor-deadlock",
+    "gamelogic-combo-crew-slots",
+    "gamelogic-combo-dualgrid-terrain",
+    "gamelogic-combo-duelist",
+    "gamelogic-combo-escort-tow",
+    "gamelogic-combo-formation-commit",
+    "gamelogic-combo-harvest-gate",
+    "gamelogic-combo-interest-ledger",
+    "gamelogic-combo-jump-reach-graph",
+    "gamelogic-combo-jump-x-platform-phase",
+    "gamelogic-combo-kite",
+    "gamelogic-combo-lane-deny",
+    "gamelogic-combo-magnus-roll-3d",
+    "gamelogic-combo-platform-guard",
+    "gamelogic-combo-push-commit",
+    "gamelogic-combo-reverse-dock",
+    "gamelogic-combo-search-last-known",
+    "gamelogic-combo-snake-forage",
+    "gamelogic-combo-squad",
+    "gamelogic-combo-supply-lines",
+    "gamelogic-combo-sweep-collision",
+    "gamelogic-combo-tactics-turn",
+    "gamelogic-combo-throw-tech",
+    "gamelogic-combo-wolfpack",
+    "gamelogic-eu-war",
+    "gamelogic-godot-open-rpg",
+    "gamelogic-repo-damage-control",
+    "gamelogic-repo-td-income",
+    "gamelogic-repo-watch-rotation",
+    "gamelogic-slay-the-robot",
+    "gamelogic-valley-claim",
+    "gamereplica-ball-sort",
+    "gamereplica-color-connect",
+    "gamereplica-leapfrog",
+    "gamereplica-loops",
+    "gamereplica-river-crossing",
+    "gamereplica-suguru",
+    "gamereplica-water-jug",
+    "gamexpert-gen-2d-aircraft-shooter",
+    "gamexpert-gen-2d-ant-colony-rts",
+    "gamexpert-gen-2d-castle-action",
+    "gamexpert-gen-2d-dungeon-roguelike",
+    "gamexpert-gen-2d-farm-management",
+    "gamexpert-gen-2d-hero-camp-idle",
+    "gamexpert-gen-2d-roguelike-deckbuilding",
+    "gamexpert-gen-2d-rule-horror-text-game",
+    "gamexpert-gen-2d-sandbox-building",
+    "gamexpert-gen-2d-turn-based-jrpg",
+    "gamexpert-gen-3d-ball-maze",
+    "gamexpert-gen-3d-desert-treasure-hunt",
+    "gamexpert-gen-3d-first-person-tower-defense",
+    "gamexpert-gen-3d-indoor-fps",
+    "gamexpert-gen-3d-knight-battle-cards",
+    "gamexpert-gen-3d-sandbox-building",
+    "gamexpert-gen-3d-steampunk-idle",
+    "gamexpert-gen-3d-style-switching-action",
+    "gamexpert-gen-3d-wuxia-action-rpg",
+    "gamexpert-gen-3d-zombie-survival-roguelike",
+    "gamexpert-opt-basketball",
+    "gamexpert-opt-deck-climb-roguelike",
+    "gamexpert-opt-deck-climb-roguelike-b",
+    "gamexpert-opt-hero-arena",
+    "gamexpert-opt-hot-potato",
+    "gamexpert-opt-kart-racer",
+    "gamexpert-opt-lane-battler",
+    "gamexpert-opt-marigold-dash",
+    "gamexpert-opt-mech-arena",
+    "gamexpert-opt-mythic-boss-fight",
+    "gamexpert-opt-neon-runner",
+    "gamexpert-opt-offering-scramble",
+    "gamexpert-opt-open-world-adventure",
+    "gamexpert-opt-paper-cut-stand",
+    "gamexpert-opt-pool-master",
+    "gamexpert-opt-street-racer",
+    "gamexpert-opt-tactical-fps",
+    "gbqa-castle",
+    "gg-games",
+    "goldilocks-is-a-fox",
+    "goofspiel",
+    "graphnet-network-cooperation",
+    "guandan",
+    "guard-games",
+    "guess-two-thirds-average",
+    "hand-of-war",
+    "havannah",
+    "hex-11x11",
+    "insider",
+    "iterated-prisoners-dilemma",
+    "jericho-acorncourt",
+    "jericho-adventureland",
+    "jericho-afflicted",
+    "jericho-anchor",
+    "jericho-awaken",
+    "jericho-balances",
+    "jericho-deephome",
+    "jericho-detective",
+    "jericho-dragon",
+    "jericho-gold",
+    "jericho-inhumane",
+    "jericho-jewel",
+    "jericho-karn",
+    "jericho-library",
+    "jericho-ludicorp",
+    "jericho-moonlit",
+    "jericho-omniquest",
+    "jericho-pentari",
+    "jericho-reverb",
+    "jericho-snacktime",
+    "jericho-spellbrkr",
+    "jericho-spirit",
+    "jericho-temple",
+    "jericho-tryst205",
+    "jericho-yomomma",
+    "jericho-zenon",
+    "jericho-ztuu",
+    "jewel-of-knowledge",
+    "kuhn-poker",
+    "ludicorp-mystery",
+    "matching-pennies",
+    "matrix-games",
+    "messenger",
+    "miaosuan-wargame",
+    "minority-game",
+    "modular-discovery-generated-games",
+    "moonlit-tower",
+    "multi-agent-mujoco",
+    "ncp-movie00",
+    "ncp-movie01",
+    "ncp-movie02",
+    "ncp-movie03",
+    "ncp-movie04",
+    "ncp-movie05",
+    "ncp-movie06",
+    "ncp-movie07",
+    "ncp-movie08",
+    "ncp-movie09",
+    "ncp-movie10",
+    "ncp-movie11",
+    "ncp-movie12",
+    "ncp-movie13",
+    "ncp-movie14",
+    "ncp-movie15",
+    "ncp-movie16",
+    "ncp-movie17",
+    "ncp-movie18",
+    "ncp-movie19",
+    "ncp-movie20",
+    "ncp-movie21",
+    "ncp-movie22",
+    "ncp-movie23",
+    "ncp-movie24",
+    "ncp-movie25",
+    "ncp-movie26",
+    "ncp-movie27",
+    "ncp-movie28",
+    "ncp-movie29",
+    "ncp-movie30",
+    "ncp-movie31",
+    "ncp-movie32",
+    "ncp-movie33",
+    "ncp-movie34",
+    "ncp-movie35",
+    "ncp-movie36",
+    "ncp-movie37",
+    "ncp-movie38",
+    "ncp-movie39",
+    "ncp-movie40",
+    "ncp-movie41",
+    "ncp-movie42",
+    "ncp-movie43",
+    "ncp-movie44",
+    "ncp-movie45",
+    "ncp-movie46",
+    "ncp-movie47",
+    "ncp-movie48",
+    "ncp-movie49",
+    "ncp-movie50",
+    "ncp-movie51",
+    "ncp-movie52",
+    "ncp-movie53",
+    "ncp-movie54",
+    "ncp-movie55",
+    "ncp-movie56",
+    "ncp-movie57",
+    "ncp-movie58",
+    "ncp-movie59",
+    "ncp-movie60",
+    "ncp-movie61",
+    "ncp-movie62",
+    "ncp-movie63",
+    "ncp-movie64",
+    "ncp-movie65",
+    "ncp-movie66",
+    "ncp-movie67",
+    "ncp-movie68",
+    "ncp-movie69",
+    "ncp-movie70",
+    "ncp-movie71",
+    "ncp-movie72",
+    "ncp-movie73",
+    "ncp-movie74",
+    "ncp-movie75",
+    "ncp-movie76",
+    "ncp-movie77",
+    "ncp-movie78",
+    "ncp-movie79",
+    "ncp-movie80",
+    "ncp-movie81",
+    "ncp-movie82",
+    "ncp-movie83",
+    "ncp-movie84",
+    "ncp-movie85",
+    "ncp-movie86",
+    "ncp-movie87",
+    "ncp-movie88",
+    "ncp-movie89",
+    "ncp-movie90",
+    "ncp-movie91",
+    "ncp-movie92",
+    "ncp-movie93",
+    "ncp-movie94",
+    "ncp-movie95",
+    "ncp-movie96",
+    "ncp-movie97",
+    "ncp-movie98",
+    "ncp-movie99",
+    "ncp-narratives",
+    "nitrogen-evaluation-games",
+    "nullify",
+    "ogamedata-games",
+    "oshi-zumo",
+    "pending-source-review",
+    "pentari",
+    "pig",
+    "playadequacy-army5x5a",
+    "playadequacy-army5x5a-material",
+    "playadequacy-beacon",
+    "playadequacy-trike",
+    "pocket-bomberman",
+    "prisoners-dilemma",
+    "project-arena",
+    "public-goods",
+    "quadranto",
+    "repeated-matrix-games",
+    "research-without-specific-game",
+    "resistance",
+    "reverberations",
+    "rtfm",
+    "rushes-narratives",
+    "secret-hitler",
+    "sheriff-of-nottingham",
+    "skull",
+    "sky-blocks",
+    "social-gym-survivor",
+    "solitaire-unspecified",
+    "spade-causal-inference",
+    "spade-logical-deduction",
+    "spade-mathematical-reasoning",
+    "spade-optimization",
+    "spade-pattern-recognition",
+    "spade-spatial-reasoning",
+    "spade-synthetic-games",
+    "spyfall",
+    "stag-hunt",
+    "swe-game-apex-circuit",
+    "swe-game-arc-wing",
+    "swe-game-ballast-yard",
+    "swe-game-bannerfall-tiny-kingdoms",
+    "swe-game-bush-522",
+    "swe-game-canopy-dash",
+    "swe-game-citycab-rush",
+    "swe-game-deepgrid",
+    "swe-game-don-t-stop",
+    "swe-game-dynamo",
+    "swe-game-ember-tide",
+    "swe-game-gunfire-dungeon",
+    "swe-game-harvest-ledger",
+    "swe-game-hazard-circuit",
+    "swe-game-hive-flight",
+    "swe-game-kindle-relay",
+    "swe-game-lantern-vigil",
+    "swe-game-last-cat-on-the-wall",
+    "swe-game-manifest-run",
+    "swe-game-neon-lockdown",
+    "swe-game-pixel-sabotage",
+    "swe-game-pulse-lane",
+    "swe-game-relic-runner",
+    "swe-game-sands-of-the-restless",
+    "swe-game-scrapline-siege",
+    "swe-game-shadow-walker",
+    "swe-game-soccer-course",
+    "swe-game-sprout-market",
+    "swe-game-super-dungeon-delve",
+    "swe-game-terraforge",
+    "swe-game-the-ember-key",
+    "swe-game-twin-holds",
+    "swe-game-vaultline",
+    "swe-game-volley-break",
+    "swe-game-where-the-dead-lie",
+    "swe-game-wizard-chase",
+    "sword-of-hope",
+    "sword-of-hope-ii",
+    "textworldexpress-arithmetic",
+    "textworldexpress-mapreader",
+    "textworldexpress-sorting",
+    "textworldexpress-twc",
+    "the-awakening",
+    "touchdown",
+    "trust-evolution",
+    "trust-game",
+    "turn-based-combat-arena",
+    "two-armed-bandit",
+    "undercover",
+    "universal-poker",
+    "valet-agram",
+    "valet-crazy-eights",
+    "valet-cuckoo",
+    "valet-go-fish",
+    "valet-golf-6",
+    "valet-goofspiel",
+    "valet-klaverjassen",
+    "valet-pitch",
+    "valet-scarto",
+    "valet-schwimmen",
+    "valet-scopa",
+    "valet-skitgubbe",
+    "valet-sueca",
+    "valet-whist",
+    "xland",
+    "yacht"
+  ]
 }

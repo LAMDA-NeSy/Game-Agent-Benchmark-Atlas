@@ -42,8 +42,8 @@ the curated overview and media metadata.
 ## Ten-archive editorial pilot
 
 The `pilot-10` batch covers Bench-MFG, BALROG, TeamCraft, Crafter, SMAC, Katakomba,
-CivRealm, Collab-Overcooked, MiniGrid & MiniWorld, and Procgen. Each has three
-bilingual paragraphs covering task mechanism, research use, evaluation and scope.
+CivRealm, Collab-Overcooked, MiniGrid & MiniWorld, and Procgen. Each has four
+bilingual sections covering task mechanism, research use, evaluation and scope.
 Examples are identified as subsets of the full resource. Eight media links retain
 official provenance and distinguish architecture diagrams from gameplay demos.
 Katakomba's official repository was confirmed from its paper; this updates code
@@ -64,10 +64,9 @@ and multi-agent games. Eleven additional media links point to official repositor
 assets or an author-linked video. Captions distinguish gameplay, environment
 illustrations, finite-task observations and example diagnostic results.
 
-`libraryReview=overview-structured` selects all 30 structured overviews;
-`libraryReview=overview-expansion` selects these 20 additions. The 236 evaluation
-resources retain their existing identities and task/capability reviews. Remaining
-resources keep their earlier summaries until subsequent editorial review.
+`libraryReview=overview-expansion` selects these 20 additions. Together with the
+pilot, they formed the first 30 structured overviews; the later completion batch
+extends `libraryReview=overview-structured` to all 236 evaluation resources.
 
 ## Completion of the evaluation-resource scope
 
@@ -83,3 +82,16 @@ under their actual research object, rather than inheriting gameplay claims.
 this pass. Detailed numerical protocol statements also use the existing source-linked
 reviews; completing descriptions does not promote task or runtime verification.
 Official illustrations and demos retain source captions and representative-task scope.
+
+## Full editorial review
+
+All 236 overviews were re-read in both languages for vague task descriptions,
+repeated sections, unexplained metrics, and resource/example confusion. Revisions
+explain the actual decision or artifact, the research question, measured outcomes
+and score meanings, and relevant task splits or versions. Budgets and interface
+details follow the metric rather than replacing its explanation. Already specific
+descriptions are retained. The existing `archive-overview-review.json` export adds
+an `editorialReview` object with one reviewed outcome per resource and its sources.
+Media, bibliographic identities, documented task text and runtime/capability status
+are preserved. The review refines descriptions rather than expanding verified task
+coverage or implying execution of the resources.

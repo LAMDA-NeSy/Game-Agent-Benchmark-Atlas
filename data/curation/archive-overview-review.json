@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "checkedAt": "2026-10-30",
   "records": [
     {
@@ -1558,8 +1558,7 @@
       ],
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
-        "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded."
+        "Primary page title and resource identity matched."
       ]
     },
     {
@@ -1572,7 +1571,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Crossroads has verified move/turn actions, team-arrival rewards and population rankings; only that race protocol is integrated.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1587,7 +1585,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "ARC-AGI-3 requires exploration of novel environments without explicit goals and scores relative to human action efficiency. Protocols below are verified only for their stated tasks and conditions. Routing review: This unit measures action efficiency on private novel environments; public examples do not substitute for the private leaderboard set.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1602,7 +1599,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Appendix C specifies interventions, tools and final validation on 1,000 drones. Added interactive experiment design for Antenna Trap; this is abstract simulation, not real-time piloting. Routing review: Route only the Antenna Trap family in Appendix C.2.1; deployment-zone and weather families do not inherit this unit.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1617,7 +1613,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "This pass includes a bounded task with explicit observations, actions and metrics; remaining configuration gaps are recorded in limits. Literature reviewed, not reproduced and not an Arena runnable claim.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1632,7 +1627,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "DiG-bench uses unknown string transformation rules and goals; 21 of 70 games are public, requiring split-specific reporting. Protocols below are verified only for their stated tasks and conditions. Routing review: Retain the shared discovery protocol over seventy string games; twenty-one public games do not represent the private remainder.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1647,7 +1641,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "NCP-Bench evaluates narrator commitment/fact consistency, not player task-completion ability. No additional independent capability unit is counted."
       ]
     },
@@ -1661,7 +1654,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "RNG-Bench separates forgetting from action-selection errors in Matching Pairs and 3D Maze, supporting memory diagnostics. Protocols below are verified only for their stated tasks and conditions. Routing review: Route the explicit Matching Pairs (RNG-Bench) environment in Section 3.3; sizes, patterns and observation modalities are controls, not separate games. Route the explicit 3D Maze (RNG-Bench) environment in Section 3.3; sizes, patterns and observation modalities are controls, not separate games.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1676,7 +1668,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Rushes predicts human interactive-narrative choices and personalized preferences, not agent task completion. No additional independent capability unit is counted."
       ]
     },
@@ -1690,7 +1681,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "ChronoPlay benchmarks game-domain RAG and information freshness, not gameplay control capabilities. No additional independent capability unit is counted."
       ]
     },
@@ -1704,7 +1694,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Preserved the 34-game protocol and added a Game Cafe Escape dependency-planning view; no planning label is propagated to the other games.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1719,7 +1708,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified the fifty-script arena’s role discussion, reasoning, voting and win rate, integrating interactive social inference while excluding perception/chain QA.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1734,7 +1722,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "The task description specifies three guesses, taboo-word validation and 100/n speed scoring. The added protocol is limited to this two-player game. Routing review: Route clembench’s constrained clue-and-guess dialogue variant, not all commercial Taboo rules or other dialogue games.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1749,7 +1736,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Preserved narrative choice, achievement and harm evaluation for thirty test games. Ethical-harm/power metrics and current-scene prompts do not establish a specific game’s eleven-axis capability; ethics is not treated as social inference.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1764,7 +1750,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "JerichoWorld is supervised observation-to-graph/valid-action data, not a full text-game completion benchmark. No additional independent capability unit is counted."
       ]
     },
@@ -1778,7 +1763,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "The full paper verifies object tidying, IN/OUT generalization splits, 100 training episodes, ten runs and a 50-step test limit.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1793,7 +1777,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "LongPuzzleBench organizes 114 levels into 16 objectives, testing future feasibility and sustained completion rather than interaction length alone. Protocols below are verified only for their stated tasks and conditions.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1808,7 +1791,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified hidden-rule path tasks and held-out-rule evaluation; a rule notebook alone does not establish memory competence. Routing review: Main results concern seventeen private test games, with eight public validation games; training/validation examples cannot replace private test members.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1823,7 +1805,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified six E2E games and opponent implementations; perception, QA and rule-following tracks are not counted as extra control tasks.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1837,8 +1818,7 @@
       ],
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
-        "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded."
+        "Primary page title and resource identity matched."
       ]
     },
     {
@@ -1851,7 +1831,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified in-context adaptation on XLand-MiniGrid; individual rules are not automatically planning or memory tests.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1866,7 +1845,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified three ASCII board tasks; Shapes and LCL are symbolic recognition/structure tasks and do not count as gameplay control. Battleship follows the paper-specific representation.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1881,7 +1859,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified sequential traversal of 150 Word2World maps with A* reference and GTB-Score; the collection and its task are not duplicated.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1896,7 +1873,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Rules, observations, actions and evaluation protocol are verified for all 40 tasks. Static constraint reasoning is not automatically labelled planning; size generalization is assigned only to the three tested puzzles.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1913,7 +1889,6 @@
       "retrieval": "canonical OpenReview browser challenge; live matching arXiv abstract and official repository README fallback",
       "sourceNotes": [
         "CARL title and authors matched through arXiv; official repository bibliography and README confirm the same resource.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "The full text distinguishes interpolation, distribution shift and extrapolation through context distributions. Retain the verified Mario-level experiment; friction/goal interventions in classical control do not automatically label Mario or every platform environment.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1928,7 +1903,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Section 4 evaluates each PPO checkpoint on 100 human-designed and 100 randomized levels. Added these controls to the bounded EscapeRoom case study; other Griddly games are excluded.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1943,7 +1917,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified three-stage delivery tasks and entity/dynamics splits; success requires obtaining and delivering the message using the manual.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1958,7 +1931,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified symbolic protocols in five environments; reported RTFM and Messenger results cover curriculum stage one, and NetHack uses Score/Gold/Scout subtasks.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -1973,7 +1945,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Coding agents improve a world model under fixed compute; held-out dynamics prediction is evaluated, not game completion."
       ]
     },
@@ -1987,7 +1958,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Bug discovery over 30 games and 124 validated bugs; detection rate measures software QA, not gameplay capability."
       ]
     },
@@ -2001,7 +1971,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Self-play synthesis of executable training environments; evaluation targets transfer to reasoning, code and tool use, not a fixed gameplay test suite."
       ]
     },
@@ -2015,7 +1984,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "End-to-end development from 100 long GDDs; dependency-aware contracts measure implementation fidelity."
       ]
     },
@@ -2029,7 +1997,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Seventy Unreal development tasks evaluated by build, asset and runtime assertion checks."
       ]
     },
@@ -2043,7 +2010,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Forty-seven browser-game generation tasks; L1/L2 pass rates and strict success assess software implementation."
       ]
     },
@@ -2057,7 +2023,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Godot logic implementation and repair evaluates program behaviour; character actions are outputs of the implemented software, not the evaluated model’s gameplay policy."
       ]
     },
@@ -2071,7 +2036,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "GameGen, GameFix and GameOpt assess creation, repair and iterative optimization fidelity, not player capabilities."
       ]
     },
@@ -2085,7 +2049,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "The paper samples a new training seed each episode and evaluates final checkpoints on eight held-out seeds. Three training seeds and twenty human participants are different statistical levels; retain the eight reviewed games without copying tags to other variants.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2100,7 +2063,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Checks generated-video logic/render alignment and event realization against executable records, not player control or memory.",
         "Current arXiv v2 title is PROWBench: Do Video Models Render What the Program Specifies? ROWBench retained only as associated catalog identity."
       ]
@@ -2115,7 +2077,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified textual interaction and behavior metrics across 118 games; the default per-step setup supplies no history and is not labelled a memory evaluation. Routing review: Route the six-game cross-model subset as distinct GVGAI implementations. The 118-game preliminary sweep is not equivalent cross-model coverage; the shared unit remains unlabelled, with box-pushing spatial planning extracted separately.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2130,7 +2091,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "LLMs act as RPG engines, creating worlds and simulating state updates; mechanics and content quality do not directly assess player planning or social skill."
       ]
     },
@@ -2144,7 +2104,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Image/video QA covers visual unit/regression tests, glitches and reports; there is no gameplay action loop."
       ]
     },
@@ -2158,7 +2117,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Added official CartPole-v1 balancing with concrete actions, state, return and termination; platform status is not an exclusion.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2173,7 +2131,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Integrated VMAS Navigation using the paper experiment and official task config; shared_rew=False is explicit rather than assuming shared rewards.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2188,7 +2145,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "The full paper checks MPE with 1,000 random rollouts and Hanabi with 10,000 trajectories; MABrax is not directly score-comparable to MAMuJoCo. Retain SMAX micromanagement; throughput benchmarks add no capability tags.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2203,7 +2159,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Section 4 uses 50k/100k/200k updates for MPE/SMACv1/MAMuJoCo, then 32 evaluation episodes across ten seeds. Added SMAC controls; online checkpoint-selection budget must not be hidden.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2218,7 +2173,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Verified the original CookingWorld, TWC and Coin Collector protocols; later library additions are kept separate.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2233,7 +2187,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "OpenXLand gives +1 on each step satisfying the goal, while trial length is user-configured. Six million-scale datasets are generated resources, not six completed capability measurements; retain the rule-exploration protocol with explicit configured budgets.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2248,7 +2201,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "The paper’s MPE Simple Spread example is executable and scored; integrated its landmark-coverage coordination without claiming platform-wide verification.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2263,7 +2215,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Rechecked CORA’s task sequences and metrics: forward/backward transfer concern transfer and forgetting across training, not within-episode working memory. Retain Procgen/MiniHack units; complete Atari/CHORES subtask configurations remain untranscribed. Routing review: Route only the six Procgen games actually trained sequentially in CORA, not all sixteen platform games.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2278,7 +2229,6 @@
       "retrieval": "live_primary_abstract_via_web; detailed protocol from previously reviewed primary-source evidence supplied in input",
       "sourceNotes": [
         "Primary page title and resource identity matched.",
-        "Initial urllib retrieval failed because shell DNS resolution was unavailable; web retrieval succeeded.",
         "Figure 6 reports actual PPO return on Pong in addition to throughput; integrated the control task while separating gameplay score from speed.",
         "Additional protocol source URLs were carried from supplied reviewed evidence; these additional URLs were not all re-fetched live."
       ]
@@ -2785,5 +2735,2959 @@
     "total": 236,
     "newMediaLinks": 17,
     "totalMediaLinks": 36
+  },
+  "editorialReview": {
+    "checkedAt": "2026-10-30",
+    "reviewed": 236,
+    "revised": 206,
+    "retained": 30,
+    "criteria": {
+      "zh": [
+        "任务说明实际输入、决策或产物及目标",
+        "研究用途说明可研究的问题",
+        "评价说明测量对象、指标含义和关键汇总条件",
+        "范围说明资源总体与实例、数据划分或版本边界"
+      ],
+      "en": [
+        "Tasks identify inputs, decisions or artifacts, and objectives",
+        "Research use states investigable questions",
+        "Evaluation explains measured outcomes, metric meanings and key aggregation conditions",
+        "Scope distinguishes the resource from examples, splits and versions"
+      ]
+    },
+    "records": [
+      {
+        "id": "AX26-2602.12517",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/html/2602.12517",
+          "https://github.com/lorenzomagnino/Bench-MFG"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "balrog",
+        "changed": true,
+        "issues": [
+          "原评价仅称成功或进展，补充具体计分对象。",
+          "范围段重复任务和能力标签，改为套件统一层与环境差异。"
+        ],
+        "sourceBasis": [
+          "https://balrogai.com/",
+          "https://github.com/balrog-ai/BALROG/blob/main/docs/evaluation.md"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAP-A4",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://teamcraft-bench.github.io/",
+          "https://github.com/teamcraft-bench/teamcraft",
+          "https://arxiv.org/html/2412.05255v1"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "GAB026",
+        "changed": true,
+        "issues": [
+          "任务补充动作形式和明确目标集合。",
+          "明确几何平均作用于跨回合成就达成率，并保留偏移定义。"
+        ],
+        "sourceBasis": [
+          "https://danijar.com/project/crafter/",
+          "https://github.com/danijar/crafter"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "SUP-smac",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://github.com/oxwhirl/smac",
+          "https://arxiv.org/abs/1902.04043"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "GAB042",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/html/2306.08772",
+          "https://github.com/corl-team/katakomba",
+          "https://proceedings.neurips.cc/paper_files/paper/2023/file/a5f596699d8d4637532f955c7f2860f4-Paper-Datasets_and_Benchmarks.pdf"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "GAB075",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://openreview.net/pdf?id=UBVNwD3hPN",
+          "https://github.com/bigai-ai/civrealm",
+          "https://bigai-ai.github.io/civrealm/advanced_materials/minigame_setting.html"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "collab-overcooked",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://aclanthology.org/2025.emnlp-main.249/",
+          "https://github.com/YusaeMeow/Collab-Overcooked",
+          "https://github.com/YusaeMeow/Collab-Overcooked/blob/main/src/eval_utils.py",
+          "https://github.com/YusaeMeow/Collab-Overcooked#install",
+          "https://github.com/YusaeMeow/Collab-Overcooked/blob/main/src/main.py"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "minigrid",
+        "changed": true,
+        "issues": [
+          "把指标与任务事件对应，而非仅称由环境定义。",
+          "去除“本概述／同一档案”叙述，直接说明两个环境的范围。"
+        ],
+        "sourceBasis": [
+          "https://github.com/Farama-Foundation/Minigrid",
+          "https://minigrid.farama.org/environments/minigrid/MemoryEnv/",
+          "https://minigrid.farama.org/api/wrappers/"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "procgen",
+        "changed": true,
+        "issues": [
+          "明确训练测试划分与平均回报的测量意义。"
+        ],
+        "sourceBasis": [
+          "https://openai.com/index/procgen-benchmark/",
+          "https://github.com/openai/procgen",
+          "https://proceedings.mlr.press/v119/cobbe20a.html",
+          "https://github.com/openai/procgen#environment-options",
+          "https://github.com/openai/procgen#environment-descriptions"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "minedojo",
+        "changed": true,
+        "issues": [
+          "Creative 与 Playthrough 原文使用“相应评价”而未说明判据，补充原论文评价对象。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/74a67268c5cc5910f64938cac4526a90-Abstract-Datasets_and_Benchmarks.html",
+          "https://github.com/MineDojo/MineDojo",
+          "https://github.com/MineDojo/MineDojo#benchmarking-suite",
+          "https://docs.minedojo.org/sections/getting_started/sim.html#basic-observation-and-action-spaces",
+          "https://arxiv.org/html/2206.08853"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "SUP-minerl-dataset",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1907.13440",
+          "https://github.com/minerllabs/minerl"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "GAB036",
+        "changed": true,
+        "issues": [
+          "移除档案叙述，直接交代竞赛版本和评价层级。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v176/shah22a.html",
+          "https://proceedings.mlr.press/v176/shah22a/shah22a.pdf"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB059",
+        "changed": true,
+        "issues": [
+          "澄清百分比的分母和版本归属。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v235/matthews24a.html",
+          "https://github.com/MichaelTMatthews/Craftax",
+          "https://raw.githubusercontent.com/MichaelTMatthews/Craftax/main/tutorial.md",
+          "https://raw.githubusercontent.com/MichaelTMatthews/Craftax/main/obs_description.md"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "nethack",
+        "changed": true,
+        "issues": [
+          "用具体奖励事件替换“评价随任务变化”。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper/2020/hash/569ff987c643b4bedf504efda8f786c2-Abstract.html",
+          "https://github.com/facebookresearch/nle",
+          "https://raw.githubusercontent.com/facebookresearch/nle/main/nle/env/tasks.py",
+          "https://raw.githubusercontent.com/facebookresearch/nle/main/nle/env/base.py"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB015",
+        "changed": true,
+        "issues": [
+          "评价段原泛指常见导航任务，改为与已介绍实例对应。"
+        ],
+        "sourceBasis": [
+          "https://openreview.net/forum?id=skFwlyefkWJ",
+          "https://github.com/NetHack-LE/minihack",
+          "https://raw.githubusercontent.com/NetHack-LE/minihack/main/minihack/envs/river.py",
+          "https://raw.githubusercontent.com/NetHack-LE/minihack/main/minihack/base.py"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "SUP-textworld",
+        "changed": true,
+        "issues": [
+          "评价先解释测量含义，再说明接口提供哪些数据。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1806.11532",
+          "https://github.com/microsoft/TextWorld",
+          "https://raw.githubusercontent.com/microsoft/TextWorld/main/textworld/core.py"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB008",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/6297",
+          "https://github.com/microsoft/jericho",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/6297/6153"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "GAB020",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://openreview.net/forum?id=0IOX0YcCdTn",
+          "https://github.com/alfworld/alfworld",
+          "https://arxiv.org/html/2010.03768"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "GAB032",
+        "changed": true,
+        "issues": [
+          "说明进度依据和成功与部分完成的差别。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2022.emnlp-main.775/",
+          "https://github.com/allenai/ScienceWorld",
+          "https://aclanthology.org/2022.emnlp-main.775.pdf"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "SUP-babyai",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1810.08272",
+          "https://github.com/mila-iqia/babyai"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "hanabi",
+        "changed": true,
+        "issues": [
+          "补充得分的具体对象和交叉对战含义。"
+        ],
+        "sourceBasis": [
+          "https://doi.org/10.1016/j.artint.2019.103216",
+          "https://github.com/google-deepmind/hanabi-learning-environment",
+          "https://arxiv.org/abs/1902.00506"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "football",
+        "changed": true,
+        "issues": [
+          "原段混合训练信号与评价，明确比赛结果和训练奖励。"
+        ],
+        "sourceBasis": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/5878",
+          "https://github.com/google-research/football",
+          "https://raw.githubusercontent.com/google-research/football/master/gfootball/doc/scenarios.md"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "SUP-openspiel",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1908.09453",
+          "https://github.com/google-deepmind/open_spiel"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "rlcard",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://www.ijcai.org/Proceedings/2020/764",
+          "https://github.com/datamllab/rlcard",
+          "https://rlcard.org/games.html"
+        ],
+        "notes": "四部分任务、用途、指标与范围已清楚；保留原文。"
+      },
+      {
+        "id": "GAB013",
+        "changed": true,
+        "issues": [
+          "用规则层和人群层的具体区别替代条件清单。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v139/leibo21a.html",
+          "https://github.com/google-deepmind/meltingpot",
+          "https://proceedings.mlr.press/v139/leibo21a/leibo21a.pdf",
+          "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/clean_up.py"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB049",
+        "changed": true,
+        "issues": [
+          "原评价合并三任务，未把成功指标对应到游戏。",
+          "保留有限／Endless版本区别，删除条目和当前项目的编目叙述。"
+        ],
+        "sourceBasis": [
+          "https://openreview.net/forum?id=jHc8dCx6DDr",
+          "https://github.com/MarcoMeter/endless-memory-gym"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB048",
+        "changed": true,
+        "issues": [
+          "补充具体回报事件，避免只称任务特定奖励。",
+          "把评价段的配对操作流程改为以累计回报领起。"
+        ],
+        "sourceBasis": [
+          "https://openreview.net/forum?id=chDrutUTs0K",
+          "https://github.com/proroklab/popgym",
+          "https://raw.githubusercontent.com/proroklab/popgym/master/popgym/envs/concentration.py"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB003",
+        "changed": true,
+        "issues": [
+          "将泛指诊断分数展开为两个已核对实验。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1908.03568",
+          "https://github.com/google-deepmind/bsuite",
+          "https://arxiv.org/html/1908.03568"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "alchemy",
+        "changed": true,
+        "issues": [
+          "补充奖励触发动作并把跨试次变化对应到信息利用。"
+        ],
+        "sourceBasis": [
+          "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/a3f390d88e4c41f2747bfa2f1b5f87db-Abstract-round2.html",
+          "https://github.com/google-deepmind/dm_alchemy"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "AX26-2606.00103",
+        "changed": true,
+        "issues": [
+          "原范围重复474游戏和交互流程，改为实例变化与实验范围。",
+          "评价先解释成功率和轮数，再列预算条件。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.00103",
+          "https://arxiv.org/html/2606.00103v1",
+          "https://arxiv.org/html/2606.00103"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "AX26-2602.17594",
+        "changed": true,
+        "issues": [
+          "将动作时序后移，评价先说明归一化成绩和汇总量。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2602.17594",
+          "https://aigamestore.org/games",
+          "https://arxiv.org/pdf/2602.17594"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "AX26-2604.07429",
+        "changed": true,
+        "issues": [
+          "解释两个指标分别测量什么，移除固定时长等过多执行细节。",
+          "澄清套件总量与当前协议实例的关系。",
+          "删除已展开协议表述，评价首先说明指标含义。",
+          "去除当前展开的编辑过程，保留套件与实例层级。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2604.07429",
+          "https://arxiv.org/html/2604.07429v1",
+          "https://arxiv.org/html/2604.07429",
+          "https://arxiv.org/html/2604.07429v1#S3.T4"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "AX26-2606.09826",
+        "changed": true,
+        "issues": [
+          "原评价罗列名词，补充归一化量和曲线横轴意义。",
+          "原范围重复游戏类型和曲线，改写为共享协议与留出测试。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.09826",
+          "https://arxiv.org/html/2606.09826v1"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB107",
+        "changed": true,
+        "issues": [
+          "原评价侧重实验清单，补充题目答案与迁移评测的两层对象。",
+          "删除来源数量重复和泛化范围复述，明确输出不是操作轨迹。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/3ad98e6306c5ed8a228b7240152f65af-Abstract-Conference.html",
+          "https://github.com/tongjingqi/Game-RL",
+          "https://github.com/tongjingqi/Game-RL/tree/main/src/minecraft"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "REC-2.3",
+        "changed": true,
+        "issues": [
+          "解释画面匹配的判分对象，避免把训练过程当评价。",
+          "评价以任务完成率和成功判据领起，存档与预算后置。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.32093",
+          "https://arxiv.org/html/2609.32093"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB105",
+        "changed": true,
+        "issues": [
+          "原任务含降低脆弱和污染等方法动机，改为输入输出流程。",
+          "用具体研究问题替代“综合能力”和模型数量。",
+          "明确三次运行和完成分数，并区分主评测与训练迁移。",
+          "删除当前细化记录，直接区分主评测与训练迁移。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2505.15146",
+          "https://github.com/lmgame-org/GamingAgent",
+          "https://arxiv.org/html/2505.15146v1",
+          "https://github.com/lmgame-org/GamingAgent#lmgame-bench"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "orak",
+        "changed": true,
+        "issues": [
+          "原研究段描述榜单呈现，改为可检验的模块研究问题。",
+          "原范围重复评价实例，明确平台统一层与实例覆盖。",
+          "直接说明两个游戏的评分，去除细化协议的编目说法。",
+          "删除已展开两个实例，保留游戏特定动作抽象。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/63506d49e90266a51f21ba8edbd49f46-Abstract-Conference.html",
+          "https://github.com/krafton-ai/Orak",
+          "https://github.com/krafton-ai/Orak#readme",
+          "https://github.com/krafton-ai/Orak/blob/release/docs/eval_metrics.md#starcraft-ii",
+          "https://github.com/krafton-ai/Orak/blob/release/docs/eval_metrics.md#minecraft",
+          "https://github.com/krafton-ai/Orak/blob/release/src/mcp_game_servers/minecraft/game/voyager_env.py",
+          "https://github.com/krafton-ai/Orak/blob/release/src/mcp_agent_client/configs/star_craft/config.yaml",
+          "https://github.com/krafton-ai/Orak/blob/release/src/mcp_game_servers/star_craft/game/star_craft_env.py"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB098",
+        "changed": true,
+        "issues": [
+          "先区分终局与过程指标，再说明先手平衡和输出限制。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2025.acl-long.378/",
+          "https://aclanthology.org/2025.acl-long.378.pdf"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB058",
+        "changed": true,
+        "issues": [
+          "解释组合分数分量，删除温度和重试次数等低层细节。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2024/hash/e9df36b21ff4ee211a8b71ee8b7e9f57-Abstract-Conference.html",
+          "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAP-A1",
+        "changed": true,
+        "issues": [
+          "从单一象棋例子扩展到套件评价关系，明确非法着法诊断。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v267/ruoss25a.html",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/ruoss25a/ruoss25a.pdf"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "smartplay",
+        "changed": true,
+        "issues": [
+          "补全评价对应的可观察任务事件，避免泛指完成情况。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2024/hash/063d1fadbde557466bf5bcffe814a64e-Abstract-Conference.html",
+          "https://github.com/microsoft/SmartPlay",
+          "https://github.com/microsoft/SmartPlay#smartplay",
+          "https://github.com/microsoft/SmartPlay#using-smartplay",
+          "https://arxiv.org/html/2310.01557v3#S3.SS4",
+          "https://arxiv.org/html/2310.01557v3#S3.SS2",
+          "https://arxiv.org/html/2310.01557v3#S3.SS7",
+          "https://arxiv.org/html/2310.01557v3#S4.SS2",
+          "https://arxiv.org/html/2310.01557v3#S4.SS1"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "AX26-2606.08340",
+        "changed": true,
+        "issues": [
+          "原评价混入观测动作，未解释三种百分比。",
+          "把接口和对照条件移到范围，减少任务类型复述。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.08340",
+          "https://arxiv.org/html/2606.08340v1"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "AX26-2601.16690",
+        "changed": true,
+        "issues": [
+          "原段未说明F1特定定义，现明确可回答性而非词元重合。",
+          "原范围复述交互轨迹，改为记忆材料、输出和对照。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2601.16690",
+          "https://arxiv.org/html/2601.16690v1",
+          "https://arxiv.org/html/2601.16690v2"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "AX26-2605.30931",
+        "changed": true,
+        "issues": [
+          "原研究段主要写任务合成流程，改为实际研究用途。",
+          "范围不再重复指标名，而明确依赖与时间窗口。",
+          "用论文协议替代当前交互协议。",
+          "将300步与历史配置留在范围，评价专写TSR/MSR含义。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.30931",
+          "https://arxiv.org/html/2605.30931v1"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "AX26-2607.29218",
+        "changed": true,
+        "issues": [
+          "明确指标含义与动作预算的一一对应，删除难懂缩写串联。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.29218",
+          "https://arxiv.org/html/2607.29218v1",
+          "https://arxiv.org/html/2607.29218"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "AX26-2606.15684",
+        "changed": true,
+        "issues": [
+          "原研究段为任务生成器实现，改为协作研究问题。",
+          "评价以团队结果领起，移除作为开头的高层动作接口。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.15684",
+          "https://arxiv.org/html/2606.15684v1",
+          "https://arxiv.org/html/2606.15684"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB084",
+        "changed": true,
+        "issues": [
+          "原任务介绍偏平台目标，补充策略的输入输出与示例。",
+          "去除“可用平衡”和论文展示等笼统用语。",
+          "范围原重复示例回报，改为固定协议与平台范围。",
+          "将操作接口细节移至任务范围，评价集中解释回报。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v267/malagon25a.html",
+          "https://arxiv.org/html/2407.03969",
+          "https://github.com/mikelma/craftium"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB089",
+        "changed": true,
+        "issues": [
+          "避免把当前资源选择和其他任务存活指标混为一个评分。",
+          "删除当前协议表述，用任务操纵因素区分平台范围。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/5a33bff12876849137064101232019f1-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/5a33bff12876849137064101232019f1-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB087",
+        "changed": true,
+        "issues": [
+          "原研究段只列数据数量和扩充流程，补充研究问题。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/8048e2b9b631b15e1158f36275d8fc11-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/8048e2b9b631b15e1158f36275d8fc11-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB097",
+        "changed": true,
+        "issues": [
+          "原评价只有实验设置，补全视频裁判和评分对象。",
+          "删除目录与实测规模重复，明确版本、接口和扩展范围。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v267/zheng25j.html",
+          "https://arxiv.org/html/2310.08367",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/zheng25j/zheng25j.pdf",
+          "https://sites.google.com/view/steve-1"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAP-A10",
+        "changed": true,
+        "issues": [
+          "把人数和代码审核等设置与实际计分流程区分。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2601.05215",
+          "https://arxiv.org/html/2601.05215"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB043",
+        "changed": true,
+        "issues": [
+          "先区分两类任务的评价方式，再交代执行输入。",
+          "最终复核进一步分离研究问题与数据、指标或配置，减少段间重复。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2023/hash/67a6726dcd555b982cabb3446ffac01d-Abstract-Datasets_and_Benchmarks.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2023/file/67a6726dcd555b982cabb3446ffac01d-Paper-Datasets_and_Benchmarks.pdf"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB055",
+        "changed": true,
+        "issues": [
+          "原研究段实际为观测动作说明，改为研究用途。",
+          "把原研究段的接口信息移入任务，说明操作对象与终点。",
+          "评价以F1判分领起，初始网格与结束条件后置。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v220/kiseleva23a.html",
+          "https://proceedings.mlr.press/v220/kiseleva23a/kiseleva23a.pdf"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB044",
+        "changed": true,
+        "issues": [
+          "原研究段介绍重写与兼容接口，改为研究问题。",
+          "明确位移不是累计路径长度，补充无人存活条件并与平台评价区分。",
+          "范围不再复述位移公式，明确观测与计分使用的信息不同。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2023/hash/9ca22870ae0ba55ee50ce3e2d269e5de-Abstract-Datasets_and_Benchmarks.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2023/file/9ca22870ae0ba55ee50ce3e2d269e5de-Paper-Datasets_and_Benchmarks.pdf",
+          "https://neuralmmo.github.io/_build/html/rst/api.html",
+          "https://raw.githubusercontent.com/NeuralMMO/environment/master/nmmo/core/action.py"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB056",
+        "changed": true,
+        "issues": [
+          "原评价段混入动作接口，突出PvE/PvP判分区别。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v220/liu23a.html",
+          "https://proceedings.mlr.press/v220/liu23a/liu23a.pdf"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB027",
+        "changed": true,
+        "issues": [
+          "把高维接口信息移出评价，说明归一化和测试划分。",
+          "范围避免重复三个实验名称，容纳输入输出条件。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/539f1f7dd156cfe1222b0be83f247d35-Abstract-Datasets_and_Benchmarks.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/539f1f7dd156cfe1222b0be83f247d35-Paper-Datasets_and_Benchmarks.pdf"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB037",
+        "changed": true,
+        "issues": [
+          "评价先说明三种结果量，再列结构和终止设置。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v176/kiseleva22a.html",
+          "https://proceedings.mlr.press/v176/kiseleva22a/kiseleva22a.pdf"
+        ],
+        "notes": "依据原始来源与既有任务协议复审四部分；直接说明任务、指标和范围，保留版本与实例区别。"
+      },
+      {
+        "id": "GAB029",
+        "changed": true,
+        "issues": [
+          "明确训练种子和评测回合两层重复，并补充在线执行对象。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/9d9258fd703057246cb341e615426e2d-Abstract-Datasets_and_Benchmarks.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/9d9258fd703057246cb341e615426e2d-Paper-Datasets_and_Benchmarks.pdf"
+        ],
+        "notes": "四部分已逐项核对，优化任务与计分对象并分离范围、研究问题和执行细节。"
+      },
+      {
+        "id": "GAB006",
+        "changed": true,
+        "issues": [
+          "评价段先列接口和预算，奖励率的具体含义不够突出；范围段重复任务和平台扩展。",
+          "去除档案整理过程用语，直接命名实验与接口。",
+          "最终复核进一步分离研究问题与数据、指标或配置，减少段间重复。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2002.06306",
+          "https://openreview.net/forum?id=Byx_YAVYPH",
+          "https://arxiv.org/pdf/2002.06306",
+          "https://arxiv.org/html/2002.06306",
+          "https://github.com/eaplatanios/jelly-bean-world"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "AX26-2608.09902",
+        "changed": true,
+        "issues": [
+          "评价段先给战斗结果，接口和固定配置移至范围；去除“细化协议”。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.09902",
+          "https://arxiv.org/html/2608.09902"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "AX26-2607.06514",
+        "changed": true,
+        "issues": [
+          "评价方式仅列训练设置，没有说明胜率、胜负平与近似可利用性的关系。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.06514",
+          "https://arxiv.org/html/2607.06514"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB095",
+        "changed": true,
+        "issues": [
+          "代表任务与整个套件的层级不够清楚，研究用途带有不必要的对比性措辞。",
+          "HASARD评价先明确收益与成本，范围直接描述命名实例。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2503.08241",
+          "https://github.com/TTomilin/HASARD",
+          "https://arxiv.org/html/2503.08241v1"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB094",
+        "changed": true,
+        "issues": [
+          "评价段先解释留出关卡解决率，状态与训练规模另列。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2410.23208",
+          "https://github.com/FLAIROx/Kinetix",
+          "https://arxiv.org/html/2410.23208v1"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "GAB076",
+        "changed": true,
+        "issues": [
+          "评价段只笼统写对手池比较，未交代评级和可利用性诊断。",
+          "去除“本档案细化”的编辑过程表述。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v235/li24q.html",
+          "https://github.com/wenzhe-li/FightLadder",
+          "https://arxiv.org/html/2406.02081v1"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB074",
+        "changed": true,
+        "issues": [
+          "游玩分数、对象提取与效率的评价职责需分开，预算不应先于指标。"
+        ],
+        "sourceBasis": [
+          "https://rlj.cs.umass.edu/2024/papers/Paper46.html",
+          "https://arxiv.org/pdf/2306.08649",
+          "https://arxiv.org/abs/2306.08649"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "GAP-A3",
+        "changed": true,
+        "issues": [
+          "评价段未直接解释检查点得分的含义；范围段重复游戏数量说明。",
+          "评价段先说明检查点比例，动作接口移至任务。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2505.18134",
+          "https://github.com/alexzhang13/videogamebench",
+          "https://arxiv.org/html/2505.18134v1"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB050",
+        "changed": true,
+        "issues": [
+          "评价段罗列遗忘与迁移指标，未明确它们比较什么；范围段重复八任务序列。",
+          "评价段先说明任务表现、遗忘和迁移，范围去除已细化用语。"
+        ],
+        "sourceBasis": [
+          "https://papers.nips.cc/paper_files/paper/2023/hash/d61d9f4fe4357296cb658795fd7999f0-Abstract-Datasets_and_Benchmarks.html",
+          "https://github.com/TTomilin/COOM"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB034",
+        "changed": true,
+        "issues": [
+          "评价段先给击杀/存活指标，图像变换与训练等级归入范围。"
+        ],
+        "sourceBasis": [
+          "https://ieee-cog.org/2022/assets/papers/paper_30.pdf",
+          "https://github.com/TTomilin/LevDoom"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "GAB002",
+        "changed": true,
+        "issues": [
+          "数据集概述的评价段偏重单个在线实验设置，动作/注视预测与游戏控制的对应关系不清。",
+          "去除“已细化在线协议/控制接口”，将采样设置归入范围。"
+        ],
+        "sourceBasis": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/6161",
+          "https://ojs.aaai.org/index.php/AAAI/article/download/6161/6017"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB005",
+        "changed": true,
+        "issues": [
+          "评价方式混合了数据规模、选择协议和最终汇总，归一化参照不够易读。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2020/hash/51200d29d1fc15f5a71c1dab4bb54f7c-Abstract.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2020/file/51200d29d1fc15f5a71c1dab4bb54f7c-Paper.pdf",
+          "https://raw.githubusercontent.com/google-deepmind/deepmind-research/master/rl_unplugged/atari.py"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "AX26-2606.24391",
+        "changed": true,
+        "issues": [
+          "先说明胜负、非法率和局长的含义，再给观察条件。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.24391",
+          "https://arxiv.org/html/2606.24391v1"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "AX26-2604.07733",
+        "changed": true,
+        "issues": [
+          "学习式获胜概率、过程位置与实际终局结果的区别需要集中说明。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2604.07733",
+          "https://arxiv.org/html/2604.07733v1"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "AX26-2608.18423",
+        "changed": true,
+        "issues": [
+          "评价段没有先说明总分衡量的经营结果；记忆接口与评价条件混写。",
+          "最终复核进一步分离研究问题与数据、指标或配置，减少段间重复。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.18423",
+          "https://arxiv.org/html/2608.18423v1",
+          "https://arxiv.org/html/2608.18423"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "AX26-2606.18950",
+        "changed": true,
+        "issues": [
+          "去除“已细化”，将各指标直接对应诊断任务目标。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.18950",
+          "https://arxiv.org/html/2606.18950v1",
+          "https://arxiv.org/html/2606.18950"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "REC-2.5",
+        "changed": true,
+        "issues": [
+          "PMR与RAG@10应在评价段直接解释，范围段无需再次重复指标名称。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.02459",
+          "https://arxiv.org/html/2609.02459v1",
+          "https://arxiv.org/html/2609.02459"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB110",
+        "changed": true,
+        "issues": [
+          "得分与动作合法率的对应意义放在范围段，评价段应先说明。"
+        ],
+        "sourceBasis": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/39818",
+          "https://ojs.aaai.org/index.php/AAAI/article/download/39818/43779"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "fle",
+        "changed": true,
+        "issues": [
+          "Open-play与Lab-play在研究和范围中重复，评价对象与预算应集中。",
+          "去除“本档案已展开”并保持两个轨道的区别。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/75f3a62e55187bc3e5e5961fa2a46bcf-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://github.com/JackHopkins/factorio-learning-environment"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB103",
+        "changed": true,
+        "issues": [
+          "累计伤害与学习曲线先于接口描述，七种配置移至范围。"
+        ],
+        "sourceBasis": [
+          "https://doi.org/10.1109/TG.2025.3546252",
+          "https://arxiv.org/html/2406.03978v1",
+          "https://arxiv.org/abs/2406.03978"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "GAB067",
+        "changed": true,
+        "issues": [
+          "评价段与范围段均重复Protoss对Zerg设置，调用开销与胜率应区分。",
+          "去除“已细化任务”并直接命名比赛。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2312.11865",
+          "https://arxiv.org/html/2312.11865v1"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAP-B5",
+        "changed": true,
+        "issues": [
+          "三子基准的评分不清，策略生成部分遗漏了rubric与LLM裁判。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2506.10264",
+          "https://arxiv.org/html/2506.10264",
+          "https://arxiv.org/html/2506.10264v1"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。本轮重新阅读原论文全文的任务与评价部分，补齐评分类型。"
+      },
+      {
+        "id": "GAB045",
+        "changed": true,
+        "issues": [
+          "在线胜率评价应先于策略输入和训练阶段叙述。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2023/hash/464fefa022aaefc85d901317bbf13f85-Abstract-Datasets_and_Benchmarks.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2023/file/464fefa022aaefc85d901317bbf13f85-Paper-Datasets_and_Benchmarks.pdf"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "smacv2",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2023/file/764c18ad230f9e7bf6a77ffc2312c55e-Paper-Datasets_and_Benchmarks.pdf",
+          "https://github.com/oxwhirl/smacv2",
+          "https://github.com/oxwhirl/smacv2#introduction",
+          "https://github.com/oxwhirl/smacv2#differences-to-smac"
+        ],
+        "notes": "现有概述已明确资源任务、研究用途、结果指标和适用配置；本轮保留。"
+      },
+      {
+        "id": "GAB038",
+        "changed": true,
+        "issues": [
+          "评价段中各指标作用混合，范围与任务均重复英雄配置。",
+          "评价先解释胜率与过程指标，范围直接命名貂蝉迁移实验。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/4dbb61cb68671edc4ca3712d70083b9f-Abstract-Datasets_and_Benchmarks.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/4dbb61cb68671edc4ca3712d70083b9f-Paper-Datasets_and_Benchmarks.pdf"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB025",
+        "changed": true,
+        "issues": [
+          "评价段主要列接口和训练预算，结果与效率指标可以更清楚。",
+          "范围直接命名完全观察实验，去除编辑过程措辞。"
+        ],
+        "sourceBasis": [
+          "https://doi.org/10.1109/CoG52621.2021.9619076",
+          "https://arxiv.org/pdf/2105.13807",
+          "https://arxiv.org/abs/2105.13807"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "AX26-2608.25419",
+        "changed": true,
+        "issues": [
+          "迁移实验先给胜率所测对象，去除reviewed表述。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.25419",
+          "https://arxiv.org/html/2608.25419v1"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "AX26-2606.18786",
+        "changed": true,
+        "issues": [
+          "评价段先说明进球率与汇总方式，范围直接列场景。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.18786",
+          "https://arxiv.org/html/2606.18786"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "AX26-2605.31529",
+        "changed": true,
+        "issues": [
+          "评价方式没有任何具体评分指标；需按九任务输出区分理解、检索、生成与工具分析。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.31529",
+          "https://eccv.ecva.net/virtual/2026/poster/3718",
+          "https://arxiv.org/html/2605.31529v1",
+          "https://svi-bench.github.io/"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。本轮重新阅读原论文全文的任务与评价部分，补齐评分类型。"
+      },
+      {
+        "id": "GAB109",
+        "changed": true,
+        "issues": [
+          "Atari代表子集与200任务套件的范围说明重复，归一化分数含义应集中。",
+          "评价段先说总回报和归一化，接口移至范围并去除已细化。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/092359ce5cf60a80e882378944bf1be4-Abstract-Conference.html",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/092359ce5cf60a80e882378944bf1be4-Paper-Conference.pdf",
+          "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py",
+          "https://arxiv.org/html/2511.19584v1"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB088",
+        "changed": true,
+        "issues": [
+          "评价段的四阶段均值应说明它是部分完成度，而非只计完整成功。",
+          "直接命名Easy任务，去除已细化。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/39f7f65b5a0c3a82cacdffd68955d829-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/39f7f65b5a0c3a82cacdffd68955d829-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB069",
+        "changed": true,
+        "issues": [
+          "学院进攻先说明胜率和诊断，去除已登记。"
+        ],
+        "sourceBasis": [
+          "https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p1772.pdf"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "GAP-A12",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2510.08928",
+          "https://arxiv.org/html/2510.08928"
+        ],
+        "notes": "现有概述已明确资源任务、研究用途、结果指标和适用配置；本轮保留。"
+      },
+      {
+        "id": "GAB047",
+        "changed": true,
+        "issues": [
+          "累计目标到达数先于视觉接口与预算。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2210.13383",
+          "https://github.com/jurgisp/memory-maze"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "GAB030",
+        "changed": true,
+        "issues": [
+          "摄像机覆盖率与运输奖励的意义在评价和范围段重复。",
+          "去除“已细化实例”，让指标对应队伍目标。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/b2a1c152f14a4b842a9ddb3bd84c62a1-Abstract-Datasets_and_Benchmarks.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/b2a1c152f14a4b842a9ddb3bd84c62a1-Paper-Datasets_and_Benchmarks.pdf"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "AX26-2602.13214",
+        "changed": true,
+        "issues": [
+          "先说明游戏成绩，再列重复次数与位置控制。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2602.13214",
+          "https://arxiv.org/html/2602.13214",
+          "https://arxiv.org/html/2602.13214v1"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "AX26-2605.30100",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.30100",
+          "https://arxiv.org/html/2605.30100"
+        ],
+        "notes": "现有概述已明确资源任务、研究用途、结果指标和适用配置；本轮保留。"
+      },
+      {
+        "id": "AX26-2607.29577",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.29577",
+          "https://arxiv.org/html/2607.29577"
+        ],
+        "notes": "现有概述已明确资源任务、研究用途、结果指标和适用配置；本轮保留。"
+      },
+      {
+        "id": "AX26-2605.06066",
+        "changed": true,
+        "issues": [
+          "实际运行规模与建议完整协议的区别应避免重复罗列。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.06066",
+          "https://arxiv.org/html/2605.06066"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "AX26-2602.00676",
+        "changed": true,
+        "issues": [
+          "去除核验与登记过程用语，将奖励分布和比赛胜率先呈现。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2602.00676",
+          "https://arxiv.org/html/2602.00676"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "AX26-2605.29653",
+        "changed": true,
+        "issues": [
+          "先说明评级与执行指标，再列固定牌组轨道，去除已登记。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.29653",
+          "https://arxiv.org/html/2605.29653"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "AX26-2603.03252",
+        "changed": true,
+        "issues": [
+          "评价段混合搜索预算和得分，分数分布的跨游戏意义应明确。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2603.03252",
+          "https://arxiv.org/html/2603.03252"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAP-B9",
+        "changed": true,
+        "issues": [
+          "centipawn regret需要解释为相对引擎最佳选择的局面损失，指标先于设置。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2610.00416",
+          "https://arxiv.org/html/2610.00416"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "GAP-B1",
+        "changed": true,
+        "issues": [
+          "“所谓动态线索”不够学术直接，评价方式未明确它是回放式信息更新。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2026.findings-acl.1219/",
+          "https://aclanthology.org/2026.findings-acl.1219.pdf"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB112",
+        "changed": true,
+        "issues": [
+          "RPM、EER、SUR和TCR等过程指标只列名，含义未在概述中展开。",
+          "过程指标先于局数，宏动作放到范围；去除已细化/已展开。"
+        ],
+        "sourceBasis": [
+          "https://doi.org/10.1109/ICASSP55912.2026.11460704",
+          "https://arxiv.org/html/2503.06047",
+          "https://arxiv.org/abs/2503.06047"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "NEW-2026-LUDO",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2604.05681",
+          "https://arxiv.org/html/2604.05681"
+        ],
+        "notes": "现有概述已明确资源任务、研究用途、结果指标和适用配置；本轮保留。"
+      },
+      {
+        "id": "GAP-A2",
+        "changed": true,
+        "issues": [
+          "评价段先给比赛结果和评级，观察模式与重试协议归入范围。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2026.acl-long.360/",
+          "https://aclanthology.org/2026.acl-long.360.pdf"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "GAB081",
+        "changed": true,
+        "issues": [
+          "猜均值的任务得分方向不够直观，范围段重复均衡偏离说明。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/a46adbe2f0ca0e16ef8857e188991ad7-Abstract-Conference.html",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/file/a46adbe2f0ca0e16ef8857e188991ad7-Paper-Conference.pdf"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。 本轮重读ICLR论文§3.1与附录E，核对平均偏离与归一化得分方向。"
+      },
+      {
+        "id": "GAB090",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/21d69b221567b8f9c839b3d94c00f16d-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/21d69b221567b8f9c839b3d94c00f16d-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "notes": "现有概述已明确资源任务、研究用途、结果指标和适用配置；本轮保留。"
+      },
+      {
+        "id": "GAP-A6",
+        "changed": true,
+        "issues": [
+          "评价段未给井字棋任务目标，范围“七游戏运行展示”过于抽象。",
+          "去除已细化与档案过程表述，先说引擎结果再描述井字棋接口。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2508.03368",
+          "https://arxiv.org/html/2508.03368"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAP-A5",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2406.06613",
+          "https://arxiv.org/html/2406.06613"
+        ],
+        "notes": "现有概述已明确资源任务、研究用途、结果指标和适用配置；本轮保留。"
+      },
+      {
+        "id": "GAB070",
+        "changed": true,
+        "issues": [
+          "NRA缩写与累计收益的关系未说明；范围段重复任务分类。",
+          "去除已核验过程表述，先说累计收益与相对优势。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3191170938b6102e5c203b036b7c16dd-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/3191170938b6102e5c203b036b7c16dd-Paper-Conference.pdf"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAP-B3",
+        "changed": true,
+        "issues": [
+          "评价段的胜负归一分和错误致负含义不够明确。",
+          "评价先给胜负差、违规负局和动作质量，再列测试数量。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2512.01992",
+          "https://arxiv.org/html/2512.01992"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAP-B2",
+        "changed": true,
+        "issues": [
+          "Action Accuracy与Exact Match的区别可以用直白语言说明。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2501.08328",
+          "https://arxiv.org/html/2501.08328"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAP-B4",
+        "changed": true,
+        "issues": [
+          "任务段没有写明模型输出；评价和范围均重复经典/故事/组合形式。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2410.10479",
+          "https://arxiv.org/html/2410.10479"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB046",
+        "changed": true,
+        "issues": [
+          "策略评级和引擎吞吐两个评价对象可更清楚，范围段与评价重复。",
+          "BayesElo与吞吐指标先于训练预算。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2023/hash/8f153093758af93861a74a1305dfdc18-Abstract.html",
+          "https://arxiv.org/abs/2303.17503"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "GAB012",
+        "changed": true,
+        "issues": [
+          "引擎效率的评价方式缺少随机完整推演这一操作与指标的对应解释。",
+          "先给单位时间推演数，再说明引擎比较操作。"
+        ],
+        "sourceBasis": [
+          "https://doi.org/10.3233/FAIA200120",
+          "https://arxiv.org/abs/1905.05013",
+          "https://arxiv.org/html/1905.05013#S6",
+          "https://github.com/Ludeme/LudiiAI"
+        ],
+        "notes": "逐条核对四部分职责、任务流程与评价对象；措辞修订基于现有已审阅任务协议和来源，未变更运行或能力核验状态。"
+      },
+      {
+        "id": "TOP-20",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://aclanthology.org/2024.emnlp-main.416/",
+          "https://aclanthology.org/2024.emnlp-main.416.pdf",
+          "https://github.com/cathyxl/MAgIC"
+        ],
+        "notes": "现有概述已明确资源任务、研究用途、结果指标和适用配置；本轮保留。"
+      },
+      {
+        "id": "AX26-2605.04312",
+        "changed": true,
+        "issues": [
+          "技能排名指标先于对局规模。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.04312",
+          "https://arxiv.org/html/2605.04312"
+        ],
+        "notes": "逐条核对任务、指标与来源；本轮精修概述，保留原任务及运行核验状态。"
+      },
+      {
+        "id": "AX26-2608.09638",
+        "changed": true,
+        "issues": [
+          "用二乘二术语代替具体研究分解；任务与范围重复离线定位。",
+          "评价先说明正确判断及分类指标，再交代样本量。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.09638",
+          "https://arxiv.org/html/2608.09638"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2606.28514",
+        "changed": true,
+        "issues": [
+          "pass@1未说明含义；评价段难度配置遮蔽结果指标。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.28514",
+          "https://arxiv.org/html/2606.28514"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2601.08462",
+        "changed": true,
+        "issues": [
+          "以示例名称替代已细化等整理过程，并把行为统计置于规则前。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2601.08462",
+          "https://arxiv.org/html/2601.08462",
+          "https://arxiv.org/html/2601.08462v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2605.29512",
+        "changed": true,
+        "issues": [
+          "去掉英文reviewed framing并将胜负和排名含义前置。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.29512",
+          "https://arxiv.org/html/2605.29512",
+          "https://arxiv.org/html/2605.29512v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2601.09017",
+        "changed": true,
+        "issues": [
+          "将分角色胜率和评级置于阶段接口之前。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2601.09017",
+          "https://arxiv.org/pdf/2601.09017"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2607.28146",
+        "changed": true,
+        "issues": [
+          "去掉已登记配置，并区分主胜率和辅助行为指标。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.28146",
+          "https://arxiv.org/html/2607.28146",
+          "https://arxiv.org/html/2607.28146v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2608.09128",
+        "changed": true,
+        "issues": [
+          "评价段未解释Elo所评价的对象，存在整理过程措辞。",
+          "评价先交代角色胜率和相对评级，再补轮次接口。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.09128",
+          "https://arxiv.org/html/2608.09128",
+          "https://arxiv.org/html/2608.09128v1",
+          "https://arxiv.org/html/2608.09128v1#S3.SS2",
+          "https://arxiv.org/html/2608.09128v1#A4"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-4.2",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.11489",
+          "https://arxiv.org/html/2609.11489"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Final prose pass: task/example and metric wording already direct; retained."
+      },
+      {
+        "id": "REC-2.1",
+        "changed": true,
+        "issues": [
+          "BB/100、GTE缩写未解释；不同游戏统计单位混在一串数值中。",
+          "三游戏先解释各自主指标，再交代配对样本量。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.31473",
+          "https://arxiv.org/html/2609.31473",
+          "https://arxiv.org/html/2609.31473v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-4.1",
+        "changed": true,
+        "issues": [
+          "评价段将信念变化而非数据规模作为首要对象。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.12446",
+          "https://arxiv.org/html/2609.12446"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB092",
+        "changed": true,
+        "issues": [
+          "AUROC仅列缩写，未说明检测器与对局指标的区别。",
+          "先解释对局和探针指标，再说明人数及步数。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/105c4de1195135fae4974aa8c5e27bbf-Abstract-Conference.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2025/file/105c4de1195135fae4974aa8c5e27bbf-Paper-Conference.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB099",
+        "changed": true,
+        "issues": [
+          "去掉已细化表述，指标先于布局和重复次数。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2025.findings-naacl.448/",
+          "https://aclanthology.org/2025.findings-naacl.448.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB101",
+        "changed": true,
+        "issues": [
+          "研究用途段实际描述Nim流程；评价段混入界面和评分常数。",
+          "将相对表现主指标前置，合法性检查作为计分机制。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2025.findings-emnlp.12/",
+          "https://aclanthology.org/2025.findings-emnlp.12.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB102",
+        "changed": true,
+        "issues": [
+          "评价段主要列预算而未解释方块命中率；用途段示例可移至任务段。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2025.acl-long.421/",
+          "https://aclanthology.org/2025.acl-long.421.pdf",
+          "https://arxiv.org/html/2503.01935v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB062",
+        "changed": true,
+        "issues": [
+          "任务、评价和范围反复介绍Contract；cN和T未解释。",
+          "评价先说明收益及公平性，再描述产生指标的行动阶段。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3e4d8407cb468850f2f8f4a949e64bf0-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/3e4d8407cb468850f2f8f4a949e64bf0-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAP-B8",
+        "changed": true,
+        "issues": [
+          "评价段将结果、任务进度和发言分析先于实验条件。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2407.16521",
+          "https://arxiv.org/html/2407.16521",
+          "https://arxiv.org/html/2407.16521v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAP-A8",
+        "changed": true,
+        "issues": [
+          "胜率先于观察和动作接口。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2310.05036",
+          "https://arxiv.org/html/2310.05036"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAP-B6",
+        "changed": true,
+        "issues": [
+          "去掉已登记/Reviewed competition，将胜率和失败条件前置。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2412.11373",
+          "https://arxiv.org/html/2412.11373",
+          "https://arxiv.org/html/2412.11373v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB077",
+        "changed": true,
+        "issues": [
+          "评价段几乎全为牌组配置，未解释团队分数；含登记过程措辞。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2024.acl-long.705/",
+          "https://aclanthology.org/2024.acl-long.705.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB064",
+        "changed": true,
+        "issues": [
+          "范围段使用当前核验状态代替实验范围；评价对象可更明确。",
+          "焦点回报先于Clean Up玩法和观察。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/1d3ea22480873b389a3365d711eb1e91-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://github.com/rstrivedi/Melting-Pot-Contest-2023",
+          "https://openreview.net/pdf?id=slqbOc67W8",
+          "https://raw.githubusercontent.com/google-deepmind/meltingpot/main/meltingpot/configs/substrates/clean_up.py"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAP-B7",
+        "changed": true,
+        "issues": [
+          "欺骗和识别指标只列名称，任务结果含义不够直观。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2411.10422",
+          "https://arxiv.org/html/2411.10422"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAP-A9",
+        "changed": true,
+        "issues": [
+          "福利主指标先于固定年限及配对条件。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2310.08901",
+          "https://arxiv.org/html/2310.08901"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "zsc-eval",
+        "changed": true,
+        "issues": [
+          "评价指标仅有名称且重复配置，最佳回应参照意义需说明。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/54a7139c548c88e288aa0fcd2bcbeceb-Abstract-Datasets_and_Benchmarks_Track.html"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB009",
+        "changed": true,
+        "issues": [
+          "范围段保留文献整理口径说明，未直接描述平台范围。",
+          "回合得分和排名先于Crossroads动作。"
+        ],
+        "sourceBasis": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/6216",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/6216/6072"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2603.24621",
+        "changed": true,
+        "issues": [
+          "RHAE缩写未解释，动作接口错放在评价方式。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2603.24621",
+          "https://arxiv.org/html/2603.24621"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2607.04293",
+        "changed": true,
+        "issues": [
+          "评价与范围重复具体任务设置；来源核验过程语言影响直接性。",
+          "最终生存率先于提交动作。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.04293",
+          "https://arxiv.org/html/2607.04293v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2607.05185",
+        "changed": true,
+        "issues": [
+          "数独评价只称困难任务成功率，缺少完成对象。",
+          "Hard成功率先于数独接口，并去掉范围段审阅措辞。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.05185",
+          "https://arxiv.org/html/2607.05185v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2608.12593",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.12593",
+          "https://arxiv.org/html/2608.12593"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Final prose pass: task/example and metric wording already direct; retained."
+      },
+      {
+        "id": "AX26-2608.08160",
+        "changed": true,
+        "issues": [
+          "评价仅泛称自动检查，未交代审计器、终止规则和具体指标。",
+          "评价先列冲突、进度和存活含义，再交代LLM审计与终止。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.08160",
+          "https://arxiv.org/html/2608.08160"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Primary full text freshly checked for the clarified metric or protocol: https://arxiv.org/html/2608.08160"
+      },
+      {
+        "id": "AX26-2606.19338",
+        "changed": true,
+        "issues": [
+          "Memory Gap缺少具体对照含义，配对与导航指标混列。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.19338",
+          "https://arxiv.org/html/2606.19338"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Primary full text freshly checked for the clarified metric or protocol: https://arxiv.org/html/2606.19338"
+      },
+      {
+        "id": "AX26-2607.20767",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.20767"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Final prose pass: task/example and metric wording already direct; retained."
+      },
+      {
+        "id": "GAB108",
+        "changed": true,
+        "issues": [
+          "评价方式没有具体指标或检索与回答的区分；四部分重复双动态定位。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/78abb5f1206ca54c375084223de9c2ef-Abstract-Conference.html",
+          "https://proceedings.iclr.cc/paper_files/paper/2026/file/78abb5f1206ca54c375084223de9c2ef-Paper-Conference.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Primary full text freshly checked for the clarified metric or protocol: https://proceedings.iclr.cc/paper_files/paper/2026/file/78abb5f1206ca54c375084223de9c2ef-Paper-Conference.pdf"
+      },
+      {
+        "id": "GAB085",
+        "changed": true,
+        "issues": [
+          "评价段连续与离散任务区分清楚但例子分散；范围段版本信息可更直接。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2025.emnlp-main.1192/",
+          "https://aclanthology.org/2025.emnlp-main.1192.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB066",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/9dd4533e7e4e5ed809344280609c5b05-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/9dd4533e7e4e5ed809344280609c5b05-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "https://github.com/jun0wanan/WhodunitBench-Murder_Mystery_Games"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Final prose pass: task/example and metric wording already direct; retained."
+      },
+      {
+        "id": "GAB052",
+        "changed": true,
+        "issues": [
+          "clemscore仅列构成未解释合法互动与达成效率的分工。",
+          "clemscore构成先于规则校验流程。"
+        ],
+        "sourceBasis": [
+          "https://aclanthology.org/2023.emnlp-main.689/",
+          "https://aclanthology.org/2023.emnlp-main.689.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB053",
+        "changed": true,
+        "issues": [
+          "评价含核验过程语言，奖励与伤害各自衡量对象可更直接。",
+          "去除范围段审阅/Reviewed framing，保留30款子集界限。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v202/pan23a.html",
+          "https://proceedings.mlr.press/v202/pan23a/pan23a.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB022",
+        "changed": true,
+        "issues": [
+          "评价段只有数据量，未写图谱和动作的评分方式。"
+        ],
+        "sourceBasis": [
+          "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/1f0e3dad99908345f7439f8ffabdffc4-Abstract-round1.html",
+          "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/1f0e3dad99908345f7439f8ffabdffc4-Paper-round1.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Primary full text freshly checked for the clarified metric or protocol: https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/1f0e3dad99908345f7439f8ffabdffc4-Paper-round1.pdf"
+      },
+      {
+        "id": "GAB021",
+        "changed": true,
+        "issues": [
+          "去除审阅协议过程语言，保持归一化对象及步数条件。"
+        ],
+        "sourceBasis": [
+          "https://ojs.aaai.org/index.php/AAAI/article/view/17090",
+          "https://ojs.aaai.org/index.php/AAAI/article/view/17090/16897"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-2.7",
+        "changed": true,
+        "issues": [
+          "范围段将完整系统等泛化提示作为结论；平台条件可具体说明。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.34769",
+          "https://arxiv.org/html/2609.34769"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-2.2",
+        "changed": true,
+        "issues": [
+          "RHAE-L5/L20缩写未解释，且人类与最优行动参照合并导致混淆。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.32208",
+          "https://arxiv.org/html/2609.32208v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Primary full text freshly checked for the clarified metric or protocol: https://arxiv.org/html/2609.32208v1"
+      },
+      {
+        "id": "GAB082",
+        "changed": true,
+        "issues": [
+          "评价段仅称游戏专属分数，没有解释复合分和胜率区别。",
+          "端到端复合分含义先于游戏规模与对手配置。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/27881a19f100fdbf57f0ba1c3d499b08-Abstract-Conference.html",
+          "https://proceedings.iclr.cc/paper_files/paper/2025/file/27881a19f100fdbf57f0ba1c3d499b08-Paper-Conference.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "memory-gym",
+        "changed": true,
+        "issues": [
+          "评价段含目录代表单元等整理过程措辞；完成长度含义需直述。",
+          "正确指令序列长度先于示例流程。"
+        ],
+        "sourceBasis": [
+          "https://www.jmlr.org/papers/v26/24-0043.html"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB096",
+        "changed": true,
+        "issues": [
+          "评价段未说明回报为何随上下文变化，范围与数据构造重复。",
+          "随上下文变化的回报先于输入和动作接口。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/b0a34e3c64f7e842f20ec10479c32b35-Abstract-Conference.html",
+          "https://arxiv.org/html/2406.08973"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB078",
+        "changed": true,
+        "issues": [
+          "评价末句以各自结构判断概括其他任务过于笼统，现有证据仅细化棋盘可明确范围。",
+          "局部战术/合法性/胜负指标前置，并去掉英文reviewed措辞。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2407.11068",
+          "https://arxiv.org/html/2407.11068"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB065",
+        "changed": true,
+        "issues": [
+          "GTB-Score等缩写未说明计分对象，误差容忍与格式错误混列。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/3852c8254bc6d904c09db9921157f59b-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://arxiv.org/html/2410.07765"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB073",
+        "changed": true,
+        "issues": [
+          "评价把最优步数上界写作抽象参照，尺寸实验范围易被忽略。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/e5d1eaadeed651ba1021c09149db4b92-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/e5d1eaadeed651ba1021c09149db4b92-Paper-Datasets_and_Benchmarks_Track.pdf",
+          "https://github.com/ETH-DISCO/rlp"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB051",
+        "changed": true,
+        "issues": [
+          "评价只描述前进距离，接口与生成噪声条件可区分说明。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2202.04500",
+          "https://github.com/automl/CARL",
+          "https://arxiv.org/html/2202.04500"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB033",
+        "changed": true,
+        "issues": [
+          "研究用途段写案例动作，评价段才交代平台数据接口，四部分分工可改善。",
+          "解题率及关卡分布先于GDY接口。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/611b896d447df43c898062358df4c114-Abstract.html",
+          "https://arxiv.org/html/2207.06105",
+          "https://arxiv.org/html/2207.06105v1"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB016",
+        "changed": true,
+        "issues": [
+          "胜率和泛化划分先于动作列表。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v139/hanjie21a.html",
+          "https://proceedings.mlr.press/v139/hanjie21a/hanjie21a.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAB017",
+        "changed": true,
+        "issues": [
+          "评价只列阈值任务名称，未解释Score/Gold/Scout；局部样本范围可更直接。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2021/hash/b3e3e393c77e35a4a3f3cbd1e429b5dc-Abstract.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2021/file/b3e3e393c77e35a4a3f3cbd1e429b5dc-Paper.pdf"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2608.11216",
+        "changed": true,
+        "issues": [
+          "预测质量太笼统，未说明指标、预测时距和验证/测试分工。",
+          "先解释预测指标含义，再说明验证选择和保留测试。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.11216",
+          "https://arxiv.org/html/2608.11216"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Primary full text freshly checked for the clarified metric or protocol: https://arxiv.org/html/2608.11216"
+      },
+      {
+        "id": "AX26-2604.02648",
+        "changed": true,
+        "issues": [
+          "评价重复任务定位，缺陷发现率需说明分母和证据。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2604.02648"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "AX26-2608.19197",
+        "changed": true,
+        "issues": [
+          "评价段主要描述训练数据，不含具体迁移指标；范围与方法定位重复。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.19197",
+          "https://arxiv.org/html/2608.19197"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged. Primary full text freshly checked for the clarified metric or protocol: https://arxiv.org/html/2608.19197"
+      },
+      {
+        "id": "REC-T05",
+        "changed": true,
+        "issues": [
+          "GDD Fidelity只列英文名，未解释与需求证据的关系。",
+          "设计保真度含义先于证据采集工具。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.39564"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-T03",
+        "changed": true,
+        "issues": [
+          "研究段使用避免将等否定说明；评价只说揭示差异，指标含义可明确。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.23142"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-T02",
+        "changed": true,
+        "issues": [
+          "L1/L2未展开层次意义，严格成功与检查通过率分散。",
+          "严格成功与部分完成含义先于L1/L2工具链。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.21293"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-T01",
+        "changed": true,
+        "issues": [
+          "研究与评价反复叙述逐帧验证，任务解决率的分工不够突出。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.21562"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "GAP-C3",
+        "changed": true,
+        "issues": [
+          "评价列工具与规模但未说明三轨评价结果分别是什么。",
+          "以具体发布层级替代来源中单独记录等编辑过程表述。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.21833"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-2.8",
+        "changed": true,
+        "issues": [
+          "评价句叠加训练、测试和系统指标，统计层次不易分辨。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.09059",
+          "https://arxiv.org/html/2609.09059v2"
+        ],
+        "notes": "Reviewed four sections against stored source-linked task/evidence records; task/capability/runtime data unchanged."
+      },
+      {
+        "id": "REC-T06",
+        "changed": true,
+        "issues": [
+          "评价段未区分两项VLM指标的判定对象，研究段偏向复述实现。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2610.02205",
+          "https://arxiv.org/html/2610.02205"
+        ],
+        "notes": "Reviewed all four sections against existing source-linked task protocols and resource documentation. Fresh full-text checks are included where metric definitions were expanded."
+      },
+      {
+        "id": "GAP-A7",
+        "changed": true,
+        "issues": [
+          "评价仅列指标，研究用途与范围重复介绍推箱子。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2508.08501",
+          "https://arxiv.org/html/2508.08501"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAP-C1",
+        "changed": true,
+        "issues": [
+          "研究用途主要重复机制，任务范围未突出模型角色。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2502.00595"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAP-C2",
+        "changed": true,
+        "issues": [
+          "评价方式只提参考答案，未说明异常识别、定位与报告的计分对象。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2505.15952",
+          "https://arxiv.org/html/2505.15952"
+        ],
+        "notes": "Reviewed all four sections against existing source-linked task protocols and resource documentation. Fresh full-text checks are included where metric definitions were expanded."
+      },
+      {
+        "id": "GAB086",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2025/hash/d7ff1795e8527f6443371c3933bdb52b-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://gymnasium.farama.org/environments/classic_control/cart_pole/"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB060",
+        "changed": true,
+        "issues": [
+          "概述使用“已核验”过程用语，导航回报与套件统计含义不清。"
+        ],
+        "sourceBasis": [
+          "https://www.jmlr.org/papers/v25/23-1612.html",
+          "https://www.jmlr.org/papers/volume25/23-1612/23-1612.pdf",
+          "https://raw.githubusercontent.com/proroklab/VectorizedMultiAgentSimulator/main/vmas/scenarios/navigation.py",
+          "https://raw.githubusercontent.com/facebookresearch/BenchMARL/main/benchmarl/conf/task/vmas/navigation.yaml"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB061",
+        "changed": true,
+        "issues": [
+          "研究用途集中在介绍SMAX，未解释平台比较目的。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/5aee125f052c90e326dcf6f380df94f6-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://arxiv.org/html/2311.10090"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB068",
+        "changed": true,
+        "issues": [
+          "评价段给出种子和预算却未先说明回报与胜率的含义。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/fc6247c33cff077a3910d0c28463f445-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/fc6247c33cff077a3910d0c28463f445-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAP-A11",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2208.01174",
+          "https://github.com/cognitiveailab/TextWorldExpress"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB079",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/04c0c541d936f7cbfbb21085116236cd-Abstract-Datasets_and_Benchmarks_Track.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2024/file/04c0c541d936f7cbfbb21085116236cd-Paper-Datasets_and_Benchmarks_Track.pdf"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB054",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://www.jmlr.org/papers/v24/23-0378.html",
+          "https://www.jmlr.org/papers/volume24/23-0378/23-0378.pdf",
+          "https://raw.githubusercontent.com/openai/multiagent-particle-envs/master/multiagent/scenarios/simple_spread.py",
+          "https://mpe2.farama.org/environments/simple_spread/"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB035",
+        "changed": true,
+        "issues": [
+          "评价段只列英文指标名称，未解释遗忘和迁移的评价对象。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v199/powers22b.html",
+          "https://proceedings.mlr.press/v199/powers22b/powers22b.pdf"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB031",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/8caaf08e49ddbad6694fae067442ee21-Abstract-Datasets_and_Benchmarks.html",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/8caaf08e49ddbad6694fae067442ee21-Paper-Datasets_and_Benchmarks.pdf",
+          "https://envpool.readthedocs.io/en/latest/env/atari.html",
+          "https://ale.farama.org/environments/pong/"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB039",
+        "changed": true,
+        "issues": [
+          "任务过于概括、评价段缺少统计对象且与研究用途重复。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2022/hash/249f73e01f0a2bb6c8d971b565f159a7-Abstract-Conference.html"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB024",
+        "changed": true,
+        "issues": [
+          "任务未解释合作如何发生，评价和范围缺少具体任务差异。"
+        ],
+        "sourceBasis": [
+          "https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/a8baa56554f96369ab93e4f3bb068c22-Abstract-round1.html"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB014",
+        "changed": true,
+        "issues": [
+          "平台概述未给出交互单位，Pistonball评价缺少奖励含义。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2021/hash/803f7c4c3ff61b71be53a0c803bfb57f-Abstract.html"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB023",
+        "changed": true,
+        "issues": [
+          "指标缩写和统计术语未解释，输入在任务与范围中重复。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "GAB019",
+        "changed": true,
+        "issues": [
+          "任务未写控制接口，范围重复两阶段训练而未给出任务规模。"
+        ],
+        "sourceBasis": [
+          "https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/091d584fced301b442654dd8c23b3fc9-Abstract-round2.html"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "BUILD303",
+        "changed": false,
+        "issues": [],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v306/xia26d.html",
+          "https://github.com/AI4Science-WestlakeU/BuildArena/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT305",
+        "changed": true,
+        "issues": [
+          "任务、指标过于简短，代码预测和后续规划混在一起。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/6f479ea488e0908ac8b1b37b27fd134c-Abstract-Conference.html",
+          "https://github.com/nicoladainese96/code-world-models/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT310",
+        "changed": true,
+        "issues": [
+          "任务像数据来源备注，评价只列缩写，未解释被测输出。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/5d2e24df9cfaad3189833b819c40b392-Abstract-Conference.html",
+          "https://github.com/GameGen-X/GameGen-X/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT311",
+        "changed": true,
+        "issues": [
+          "任务没有明确输入输出，指标未解释控制与视觉质量的差异。"
+        ],
+        "sourceBasis": [
+          "https://openaccess.thecvf.com/content/ICCV2025/papers/Yu_GameFactory_Creating_New_Games_with_Generative_Interactive_Videos_ICCV_2025_paper.pdf",
+          "https://arxiv.org/abs/2501.08325"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT314",
+        "changed": true,
+        "issues": [
+          "任务段像资源标签，InterBench和视频指标没有解释。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2511.23429"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT318",
+        "changed": true,
+        "issues": [
+          "“模糊”误译fuzzing，四级验证与通过率的含义不清。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.24375",
+          "https://arxiv.org/html/2605.24375"
+        ],
+        "notes": "Reviewed all four sections against existing source-linked task protocols and resource documentation. Fresh full-text checks are included where metric definitions were expanded."
+      },
+      {
+        "id": "OMIT319",
+        "changed": true,
+        "issues": [
+          "任务缺少模型如何进入对局，指标名没有实际含义。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.14169",
+          "https://github.com/JaviMaligno/code-world-models/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT320",
+        "changed": true,
+        "issues": [
+          "任务和范围重复同一句，状态一致性指标对象不清。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2609.10540",
+          "https://github.com/AlayaLab/PWM/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT322",
+        "changed": true,
+        "issues": [
+          "任务/研究段重复分类名称，评价只有一句测试通过率。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v306/chi26a.html",
+          "https://github.com/waynchi/gamedevbench/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT323",
+        "changed": true,
+        "issues": [
+          "研究段重复机器程序表示，指标有效样本分母表达生硬。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2510.14980",
+          "https://github.com/Godheritage/BesiegeField/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT324",
+        "changed": true,
+        "issues": [
+          "任务缺少输入到产物流程，评价rubric未说明证据来源。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.17861",
+          "https://github.com/FreedomIntelligence/gamecraft-bench/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT325",
+        "changed": true,
+        "issues": [
+          "评价只写pass@1，任务与范围重复规模。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.03525"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT326",
+        "changed": true,
+        "issues": [
+          "任务偏数据规模罗列，SCS/BAS只列缩写。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2606.19830"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT327",
+        "changed": true,
+        "issues": [
+          "评价标签未解释，可用与需求完整实现容易混淆。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.17637"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT329",
+        "changed": true,
+        "issues": [
+          "任务混合数据、基线和测试集，指标英文名称未解释。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2610.06910",
+          "https://github.com/Haoyue-Yang/GameGo/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT330",
+        "changed": true,
+        "issues": [
+          "研究与任务重复迭代流程，评价未说明评委与试玩器的关系。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2605.28258"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT332",
+        "changed": true,
+        "issues": [
+          "任务没有写观察与操作，评价段消融与结果指标混排。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2604.24697",
+          "https://github.com/scicrafter-bench/scicraft-bench/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT337",
+        "changed": true,
+        "issues": [
+          "任务/范围重复，ROC AUC未解释识别对象。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2608.24893"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT338",
+        "changed": true,
+        "issues": [
+          "任务混排数据集与应用，评价未说明预测目标。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2026/hash/69c754f571806bf15add18556ff39b4f-Abstract-Conference.html",
+          "https://github.com/Nepenthes-zlc/World2Minecraft/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT340",
+        "changed": true,
+        "issues": [
+          "TSR/WGP/VMP未释义，任务写成目录元信息，研究与范围重复迁移探针。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2610.13829",
+          "https://github.com/xzw-ustc/mc-bench-open-source/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT341",
+        "changed": true,
+        "issues": [
+          "评价段把套件规模当指标，缺少十项能力如何测量。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2610.11723",
+          "https://arxiv.org/html/2610.11723v1"
+        ],
+        "notes": "Reviewed all four sections against existing source-linked task protocols and resource documentation. Fresh full-text checks are included where metric definitions were expanded."
+      },
+      {
+        "id": "OMIT342",
+        "changed": true,
+        "issues": [
+          "任务未明确决策对象，评价只有两个指标名。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.iclr.cc/paper_files/paper/2025/hash/7b75a7339dfb256ee4b4bec028a6890b-Abstract-Conference.html",
+          "https://github.com/shiyao-li/NextBestPath/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT349",
+        "changed": true,
+        "issues": [
+          "任务没有解释输入输出，离线预测/棋题/比赛指标混排。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.neurips.cc/paper_files/paper/2024/hash/78f0db30c39c850de728c769f42fc903-Abstract-Conference.html",
+          "https://github.com/google-deepmind/searchless_chess/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "OMIT363",
+        "changed": true,
+        "issues": [
+          "任务简短，研究/范围重复联合设计，Elo和资格测试关系未说清。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/html/2610.06511v1",
+          "https://github.com/ArtifactArena/harness-public/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-ale",
+        "changed": true,
+        "issues": [
+          "评价太泛化，未区分原始论文和后续常用协议。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1207.4708",
+          "https://github.com/Farama-Foundation/Arcade-Learning-Environment/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-vizdoom",
+        "changed": true,
+        "issues": [
+          "任务目标和评价形式均过于概括，缺少具体例子。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1605.02097",
+          "https://github.com/Farama-Foundation/ViZDoom/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-sc2le",
+        "changed": true,
+        "issues": [
+          "评价示例只列BuildMarines名称，平台任务差异未展开。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1708.04782",
+          "https://github.com/google-deepmind/pysc2/blob/master/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-deepmind-lab",
+        "changed": true,
+        "issues": [
+          "评价段“可观察探索进展”含糊，任务与范围均只罗列功能。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1612.03801",
+          "https://github.com/google-deepmind/lab/blob/master/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-gvgai",
+        "changed": true,
+        "issues": [
+          "任务描述未说明前向模型用途，评价与范围重复赛道概念。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1802.10363",
+          "https://github.com/GAIGResearch/GVGAI/blob/master/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-coinrun",
+        "changed": true,
+        "issues": [
+          "任务只有一句类型标签，没有任何玩法与交互说明。"
+        ],
+        "sourceBasis": [
+          "https://proceedings.mlr.press/v97/cobbe19a.html",
+          "https://github.com/openai/coinrun/blob/master/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-obstacle-tower",
+        "changed": true,
+        "issues": [
+          "任务只描述环境类型，没有玩家目标和操作。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1902.01378",
+          "https://github.com/Unity-Technologies/obstacle-tower-source/blob/master/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-griddly",
+        "changed": true,
+        "issues": [
+          "任务只是引擎功能标签，研究与范围重复“可配置”。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2011.06363",
+          "https://github.com/Bam4d/Griddly/blob/develop/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-elf",
+        "changed": true,
+        "issues": [
+          "任务没有输入决策和胜利目标，研究与范围重复环境列表。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/1707.01067",
+          "https://github.com/facebookresearch/ELF/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-malmo",
+        "changed": true,
+        "issues": [
+          "任务只有平台标签，未说明如何定义并执行实验。"
+        ],
+        "sourceBasis": [
+          "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/johnson-malmo-platform-camera-ready.pdf",
+          "https://github.com/microsoft/malmo/blob/master/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-spirebench",
+        "changed": true,
+        "issues": [
+          "任务缺少接口和具体目标，研究与任务重复记忆消融，指标列表无解释。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2610.12596"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-pokeagent-challenge",
+        "changed": true,
+        "issues": [
+          "速通目标范围未说清，评级缩写与排序关系未解释。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2603.15563",
+          "https://github.com/sethkarten/continual-harness/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-vgc-bench",
+        "changed": true,
+        "issues": [
+          "把双打写作智能体协作，评价只列Alpha-Rank和可利用性名称。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2506.10326",
+          "https://github.com/cameronangliss/vgc-bench/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-gg-bench",
+        "changed": true,
+        "issues": [
+          "task/scope重复，指标未说明游戏数和汇总单位。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2505.07215",
+          "https://github.com/vivek3141/gg-bench/blob/master/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-comrad",
+        "changed": true,
+        "issues": [
+          "任务只有场景标签，评价没有说明得分和留出地图的对应关系。"
+        ],
+        "sourceBasis": [
+          "https://openreview.net/forum?id=0x7G2k0Hh7",
+          "https://github.com/TTomilin/COMRAD/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-agenticsts",
+        "changed": true,
+        "issues": [
+          "任务主要描述记忆层而非游戏流程，指标及样本范围未解释。"
+        ],
+        "sourceBasis": [
+          "https://arxiv.org/abs/2607.02255",
+          "https://github.com/AlayaLab/AgenticSTS/blob/main/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      },
+      {
+        "id": "SUP-darefightingice-llm-2026",
+        "changed": true,
+        "issues": [
+          "任务没有动作流程，参考代理记录和正式赛事计分容易混淆。"
+        ],
+        "sourceBasis": [
+          "https://github.com/TeamFightingICE/FightingICE/blob/master/README.md"
+        ],
+        "notes": "Reviewed against the existing sourced overview, primary documentation and task-specific evidence; retained concrete settings and separated metric meanings from experiment conditions."
+      }
+    ]
   }
 }

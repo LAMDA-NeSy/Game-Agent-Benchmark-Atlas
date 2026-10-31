@@ -179,3 +179,16 @@ test('New official environment images preserve exact variants and real rollout p
     if(e.processing?.frameTimeSeconds!=null)assert.match(e.frameSha256,/^[a-f0-9]{64}$/);
   }
 });
+
+
+test('Missing-image reasons stay outside the published site',()=>{
+  for(const file of ['game-image-missing.html','game-image-missing.csv','game-image-review.json']) {
+    assert(!fs.existsSync('dist/'+file),file);
+    assert(!fs.readFileSync('dist/app.js','utf8').includes(file),file);
+  }
+  const audit=JSON.parse(fs.readFileSync('data/curation/game-image-review.json'));
+  assert.equal(audit.fullMissingReview,undefined);
+  assert.equal(audit.reviewedNotSelected.length,0);
+  assert.equal(audit.unillustratedGameIds.length,audit.notYetIllustrated);
+  for(const id of audit.unillustratedGameIds)assert(!ui.get(id),id);
+});
