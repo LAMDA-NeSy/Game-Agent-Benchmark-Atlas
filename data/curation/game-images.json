@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "scope": "Explicit game-ID mappings only. Screenshots show named games or environments. Related implementations, historical versions and collection examples carry bilingual visible reference notes; they are not evidence of a reproduced benchmark run.",
   "entries": [
     {
@@ -627,6 +627,60 @@
         "encoding": "WebP quality 88"
       },
       "licenseFile": null
+    },
+    {
+      "gameId": "collection-gab058",
+      "originalSha256": "1823df1e4236706d7236e9c96e06772902c150c114c13ef4487a0aae6d1f3ab2",
+      "originalUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf#page=2",
+      "sourceType": "official-site",
+      "sourceLabel": "Liu et al. · AgentBench, ICLR 2024 Figure 2",
+      "caption": {
+        "zh": "AgentBench · Aquawar 代表场景",
+        "en": "AgentBench · representative Aquawar scene"
+      },
+      "alt": {
+        "zh": "AgentBench 中 Aquawar 的数字卡牌对战界面",
+        "en": "Aquawar digital-card battle interface in AgentBench"
+      },
+      "credit": "Liu et al. · AgentBench, ICLR 2024 Figure 2",
+      "rightsNote": "Figure or demonstration published by the cited authors; artwork and source rights remain with their respective holders. Source and any extraction are identified.",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "以合集中的 Aquawar 数字卡牌环境为代表；不代表其余七类任务。图示为 GUI，评测交互接口为文本。",
+        "en": "Aquawar is one representative environment from the collection, not the other seven task domains. The GUI is shown while evaluation uses a text interface."
+      },
+      "identityEvidence": "AgentBench Section 3 Digital Card Game explicitly identifies Aquawar as one of the eight evaluated environments.",
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "a00d64c7cef90ab5e32dea23f83c730d71afe90a14c5be6e749896c0dacc8643",
+      "pdfExtraction": {
+        "locator": "Page 2, Figure 2, Digital Card Game panel; Section 3 names the framework Aquawar",
+        "method": "Embedded image extraction without re-drawing"
+      },
+      "originalSize": [
+        1366,
+        764
+      ],
+      "image": "game-aquawar.webp",
+      "width": 1200,
+      "height": 671,
+      "sha256": {
+        "image": "dab66881b743ab6951b5d4a847708e2473fcf7bb7d3d5c2686e4a7639270dfc4"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null,
+      "referenceGameId": "aquawar",
+      "relationshipSource": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf#page=5",
+      "relationshipEvidence": "AgentBench Section 3 Digital Card Game explicitly identifies Aquawar as one of the eight evaluated environments.",
+      "referenceSourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf#page=2",
+      "title": "AgentBench"
     },
     {
       "gameId": "agentodyssey-games",
@@ -1496,6 +1550,56 @@
       "licenseFile": null
     },
     {
+      "gameId": "animegamer-worlds",
+      "originalUrl": "https://arxiv.org/html/2504.01014v1/images/Main_Fig/Ours-Video/3_1_1.png",
+      "originalSha256": "37df3fda68cb68971c2ac9c8cb3907f9d9f92ca7a7b259de1ecf11ecd45360ba",
+      "sourceUrl": "https://arxiv.org/html/2504.01014v1#S4.F5",
+      "sourceType": "official-site",
+      "sourceLabel": "AnimeGamer · Figure 5, Ours-Video first scenario",
+      "credit": "AnimeGamer authors; original game artwork remains with its respective owners",
+      "rightsNote": "Excerpt from the cited paper, retaining attribution. Underlying game or animation artwork retains its original rights.",
+      "caption": {
+        "zh": "AnimeGamer · 论文生成场景示例",
+        "en": "AnimeGamer · paper-reported generated scene"
+      },
+      "alt": {
+        "zh": "AnimeGamer · 论文生成场景示例",
+        "en": "AnimeGamer · paper-reported generated scene"
+      },
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "论文图 5 的 AnimeGamer 输出帧，用于展示其动画世界生成结果；这是论文模型生成的场景，不是商业游戏客户端截图。",
+        "en": "An AnimeGamer output frame from Figure 5 illustrating the paper’s generated animation world. This is a model-generated scene reported in the paper, not a commercial-game client screenshot."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2504.01014v1#S4.F5",
+        "locator": "AnimeGamer · Figure 5, Ours-Video first scenario",
+        "note": "Visually checked the identified scene panel against the paper caption and the indexed collection scope."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageKind": "paper-scene",
+      "licenseLabel": "CC BY 4.0 (paper)",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "originalSize": [
+        480,
+        320
+      ],
+      "image": "game-animegamer-worlds.webp",
+      "width": 480,
+      "height": 320,
+      "sha256": {
+        "image": "016ef03a48a9c07fad5b2425756cbec48854ab7a5ba3bfc86c8ca996fae77654"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "another-gentlemans-adventure",
       "sourceType": "repository",
       "originalUrl": "https://gameworld-project.github.io/static/figures/gameworld/games/game_02_another-gentlemans-adventure_rand1.jpg",
@@ -1604,6 +1708,61 @@
       "title": "Another Gentleman’s Adventure (SWE-Game)"
     },
     {
+      "gameId": "causalgame-antenna-trap",
+      "originalSha256": "cef40aaccdcd1fbb1161cb1da84c274b88cfce41c84a69c1d78957453fed92bd",
+      "originalUrl": "https://arxiv.org/html/2607.04293v1/figures/scene.jpg",
+      "sourceUrl": "https://arxiv.org/html/2607.04293v1#S3.F4",
+      "sourceType": "official-site",
+      "sourceLabel": "CausalGame paper · Figure 4, left panel",
+      "credit": "Zhenhao Chen et al.",
+      "rightsNote": "Author-published paper image; original image rights and paper license remain applicable.",
+      "caption": {
+        "zh": "CausalGame · Antenna Trap 任务场景示意",
+        "en": "CausalGame · Antenna Trap scenario illustration"
+      },
+      "alt": {
+        "zh": "CausalGame · Antenna Trap 任务场景示意",
+        "en": "CausalGame · Antenna Trap scenario illustration"
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2607.04293v1#S3.F4",
+        "locator": "Figure 4 left panel is explicitly labelled ANTENNA TRAP and illustrates how a functional antenna increases enemy detection.",
+        "note": "Figure 4 left panel is explicitly labelled ANTENNA TRAP and illustrates how a functional antenna increases enemy detection."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "作者绘制的 Antenna Trap 场景示意，展示天线、敌方探测与存活之间的关系；不是运行界面截图。",
+        "en": "Author-created Antenna Trap scenario illustration showing the relation between the antenna, enemy detection and survival; not a runtime interface screenshot."
+      },
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "originalSize": [
+        4800,
+        3584
+      ],
+      "image": "game-causalgame-antenna-trap.webp",
+      "width": 600,
+      "height": 900,
+      "sha256": {
+        "image": "8a2ebdc9961ac9a6d5d783f6a02f2e0cc4a152e3c3de703ffaf43bc67d6d19de"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          0,
+          0,
+          2390,
+          3584
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null,
+      "licenseLabel": "CC BY-SA 4.0"
+    },
+    {
       "gameId": "apex-legends",
       "title": "Apex Legends™",
       "sourceUrl": "https://store.steampowered.com/app/1172470/",
@@ -1643,6 +1802,59 @@
       },
       "verifiedAt": "2026-10-29",
       "sourceType": "official-store",
+      "licenseFile": null
+    },
+    {
+      "gameId": "aquawar",
+      "originalSha256": "1823df1e4236706d7236e9c96e06772902c150c114c13ef4487a0aae6d1f3ab2",
+      "originalUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf",
+      "sourceUrl": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf#page=2",
+      "sourceType": "official-site",
+      "sourceLabel": "Liu et al. · AgentBench, ICLR 2024 Figure 2",
+      "caption": {
+        "zh": "Aquawar · 数字卡牌对战界面",
+        "en": "Aquawar · digital-card battle interface"
+      },
+      "alt": {
+        "zh": "Aquawar · 数字卡牌对战界面",
+        "en": "Aquawar · digital-card battle interface"
+      },
+      "credit": "Liu et al. · AgentBench, ICLR 2024 Figure 2",
+      "rightsNote": "Figure or demonstration published by the cited authors; artwork and source rights remain with their respective holders. Source and any extraction are identified.",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "从 AgentBench 论文图2中提取的 Aquawar 原始嵌入截图；图示为游戏 GUI，论文评测使用文本动作接口。",
+        "en": "Original embedded Aquawar screenshot extracted from AgentBench Figure 2. The image shows the game GUI; the paper evaluates a text-action interface."
+      },
+      "identityEvidence": {
+        "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/e9df36b21ff4ee211a8b71ee8b7e9f57-Paper-Conference.pdf#page=2",
+        "locator": "Page 2, Figure 2, Digital Card Game panel; Section 3 names the framework Aquawar",
+        "note": "Page 2, Figure 2, Digital Card Game panel; Section 3 names the framework Aquawar"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "a00d64c7cef90ab5e32dea23f83c730d71afe90a14c5be6e749896c0dacc8643",
+      "pdfExtraction": {
+        "locator": "Page 2, Figure 2, Digital Card Game panel; Section 3 names the framework Aquawar",
+        "method": "Embedded image extraction without re-drawing"
+      },
+      "originalSize": [
+        1366,
+        764
+      ],
+      "image": "game-aquawar.webp",
+      "width": 1200,
+      "height": 671,
+      "sha256": {
+        "image": "dab66881b743ab6951b5d4a847708e2473fcf7bb7d3d5c2686e4a7639270dfc4"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
       "licenseFile": null
     },
     {
@@ -6222,6 +6434,53 @@
       "licenseFile": "image-license-tatham.txt"
     },
     {
+      "gameId": "bvr-sim",
+      "originalSha256": "ab1f763bc6dc5d48e1ae7846e90cb5ec372d012d6a88e4ce2268c739fd5ee1ae",
+      "originalUrl": "https://arxiv.org/html/2608.25419v1/figures/game-mode.png",
+      "sourceUrl": "https://arxiv.org/html/2608.25419v1#S7.F2",
+      "sourceType": "official-site",
+      "sourceLabel": "BVR Sim paper · Figure 2",
+      "credit": "Haocheng Sun and Mulai Tan",
+      "rightsNote": "Author-published paper image; original image rights and paper license remain applicable.",
+      "caption": {
+        "zh": "BVR Sim · 运行中的空战原生可视化",
+        "en": "BVR Sim · native visualization of a running engagement"
+      },
+      "alt": {
+        "zh": "BVR Sim · 运行中的空战原生可视化",
+        "en": "BVR Sim · native visualization of a running engagement"
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2608.25419v1#S7.F2",
+        "locator": "Figure 2 explicitly identifies native visualization of a running BVR Sim engagement.",
+        "note": "Figure 2 explicitly identifies native visualization of a running BVR Sim engagement."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "论文中的可选原生渲染视图；训练与评测也可采用无图形模式。",
+        "en": "Optional native rendering view reproduced from the paper; training and evaluation also support headless simulation."
+      },
+      "originalSize": [
+        1276,
+        766
+      ],
+      "image": "game-bvr-sim.webp",
+      "width": 1200,
+      "height": 720,
+      "sha256": {
+        "image": "e56caef2484cefcb0391a68f499fa8020c7b5c7d0919d32c4eaad2a70fcb9710"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "caliber",
       "title": "Caliber",
       "sourceUrl": "https://store.steampowered.com/app/307950/",
@@ -6687,6 +6946,62 @@
         "encoding": "WebP quality 88"
       },
       "licenseFile": "image-license-Farama-Foundation_Gymnasium.txt"
+    },
+    {
+      "gameId": "collection-ax26-2607.04293",
+      "originalSha256": "cef40aaccdcd1fbb1161cb1da84c274b88cfce41c84a69c1d78957453fed92bd",
+      "originalUrl": "https://arxiv.org/html/2607.04293v1/figures/scene.jpg",
+      "sourceUrl": "https://arxiv.org/html/2607.04293v1#S3.F4",
+      "sourceType": "official-site",
+      "sourceLabel": "CausalGame paper · Figure 4, left panel",
+      "credit": "Zhenhao Chen et al.",
+      "rightsNote": "Author-published paper image; original image rights and paper license remain applicable.",
+      "caption": {
+        "zh": "CausalGame · Antenna Trap 任务场景示意",
+        "en": "CausalGame · Antenna Trap scenario illustration"
+      },
+      "alt": {
+        "zh": "CausalGame · Antenna Trap 任务场景示意",
+        "en": "CausalGame · Antenna Trap scenario illustration"
+      },
+      "identityEvidence": "CausalGame Figure 4 names Antenna Trap and Deployment Zone Trap as its two scenario families; the displayed representative is Antenna Trap only.",
+      "verifiedAt": "2026-10-31",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "合集代表任务：Antenna Trap。作者场景示意，不是运行截图；此图不覆盖 Deployment Zone Trap 的另一类机制。",
+        "en": "Collection representative: Antenna Trap. Author-created scenario illustration, not a runtime screenshot; it does not depict the other Deployment Zone Trap mechanism."
+      },
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "originalSize": [
+        4800,
+        3584
+      ],
+      "image": "game-causalgame-antenna-trap.webp",
+      "width": 600,
+      "height": 900,
+      "sha256": {
+        "image": "8a2ebdc9961ac9a6d5d783f6a02f2e0cc4a152e3c3de703ffaf43bc67d6d19de"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          0,
+          0,
+          2390,
+          3584
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null,
+      "licenseLabel": "CC BY-SA 4.0",
+      "referenceGameId": "causalgame-antenna-trap",
+      "relationshipSource": "https://arxiv.org/html/2607.04293v1#S3.F4",
+      "relationshipEvidence": "CausalGame Figure 4 names Antenna Trap and Deployment Zone Trap as its two scenario families; the displayed representative is Antenna Trap only.",
+      "referenceSourceUrl": "https://arxiv.org/html/2607.04293v1#S3.F4",
+      "title": "CausalGame"
     },
     {
       "gameId": "playtrain-caveflyer",
@@ -8604,6 +8919,122 @@
       "licenseFile": null
     },
     {
+      "gameId": "collab-capture",
+      "originalSha256": "0990537c9643c4057464000e85509949d75266b06359d99f18732883fa6d222d",
+      "originalUrl": "https://aclanthology.org/2025.findings-naacl.448.pdf",
+      "sourceUrl": "https://aclanthology.org/2025.findings-naacl.448.pdf#page=20",
+      "sourceType": "official-site",
+      "sourceLabel": "LLM Coordination Benchmark authors · NAACL 2025",
+      "caption": {
+        "zh": "协作捕获 · 论文地图布局",
+        "en": "Collab Capture · paper map layout"
+      },
+      "alt": {
+        "zh": "协作捕获 · 论文地图布局",
+        "en": "Collab Capture · paper map layout"
+      },
+      "credit": "LLM Coordination Benchmark authors · NAACL 2025",
+      "rightsNote": "Figure or demonstration published by the cited authors; artwork and source rights remain with their respective holders. Source and any extraction are identified.",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "论文附录给出的场景布局示意，显示房间、角色与交互对象；不是运行界面截图。",
+        "en": "Environment layout from the paper appendix, showing rooms, characters and interactive objects; this is a layout illustration rather than a runtime screenshot."
+      },
+      "identityEvidence": {
+        "url": "https://aclanthology.org/2025.findings-naacl.448.pdf#page=20",
+        "locator": "PDF page 20 (printed page 8072), Figure 5: Map layout for CollabCapture",
+        "note": "PDF page 20 (printed page 8072), Figure 5: Map layout for CollabCapture"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "34fbe5b033992d2fd4b449b81c97efd952d1a1be93adfed9afbe901b6708eae5",
+      "pdfExtraction": {
+        "locator": "PDF page 20 (printed page 8072), Figure 5: Map layout for CollabCapture",
+        "method": "PDF page rasterization and figure crop"
+      },
+      "originalSize": [
+        1191,
+        1684
+      ],
+      "image": "game-collab-capture.webp",
+      "width": 809,
+      "height": 430,
+      "sha256": {
+        "image": "6505f95e8e3b672073563e667f70cfdb33a73737eea563d3f4324cfcbdfb1471"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          166,
+          265,
+          975,
+          695
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "collab-escape",
+      "originalSha256": "0990537c9643c4057464000e85509949d75266b06359d99f18732883fa6d222d",
+      "originalUrl": "https://aclanthology.org/2025.findings-naacl.448.pdf",
+      "sourceUrl": "https://aclanthology.org/2025.findings-naacl.448.pdf#page=20",
+      "sourceType": "official-site",
+      "sourceLabel": "LLM Coordination Benchmark authors · NAACL 2025",
+      "caption": {
+        "zh": "协作逃脱 · 论文地图布局",
+        "en": "Collab Escape · paper map layout"
+      },
+      "alt": {
+        "zh": "协作逃脱 · 论文地图布局",
+        "en": "Collab Escape · paper map layout"
+      },
+      "credit": "LLM Coordination Benchmark authors · NAACL 2025",
+      "rightsNote": "Figure or demonstration published by the cited authors; artwork and source rights remain with their respective holders. Source and any extraction are identified.",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "论文附录给出的场景布局示意，显示房间、角色与交互对象；不是运行界面截图。",
+        "en": "Environment layout from the paper appendix, showing rooms, characters and interactive objects; this is a layout illustration rather than a runtime screenshot."
+      },
+      "identityEvidence": {
+        "url": "https://aclanthology.org/2025.findings-naacl.448.pdf#page=20",
+        "locator": "PDF page 20 (printed page 8072), Figure 6: Map layout for CollabEscape",
+        "note": "PDF page 20 (printed page 8072), Figure 6: Map layout for CollabEscape"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "34fbe5b033992d2fd4b449b81c97efd952d1a1be93adfed9afbe901b6708eae5",
+      "pdfExtraction": {
+        "locator": "PDF page 20 (printed page 8072), Figure 6: Map layout for CollabEscape",
+        "method": "PDF page rasterization and figure crop"
+      },
+      "originalSize": [
+        1191,
+        1684
+      ],
+      "image": "game-collab-escape.webp",
+      "width": 817,
+      "height": 463,
+      "sha256": {
+        "image": "49371c35c0d15303c6cf8ef9cbd756177975edb046cc2eb46775548827149a08"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          164,
+          947,
+          981,
+          1410
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "actionparty-collaborative-cooking-asymmetric",
       "title": "Collaborative Cooking: Asymmetric (ActionParty)",
       "sourceType": "official-site",
@@ -9082,6 +9513,61 @@
         "encoding": "WebP quality 88"
       },
       "licenseFile": null
+    },
+    {
+      "gameId": "combatstatebench",
+      "originalSha256": "698aad6be4a8663b5b8d157755cdc1f9d3a69d03fac22c643e2d60bff4e138f3",
+      "originalUrl": "https://arxiv.org/html/2609.10540v2/figures/qualitative_death_comparison.png",
+      "sourceUrl": "https://arxiv.org/html/2609.10540v2#S5.F4",
+      "sourceType": "official-site",
+      "sourceLabel": "Programmable World Model · Figure 4(a)",
+      "credit": "Zheng-Hui Huang et al.",
+      "rightsNote": "Author-published paper image; original image rights and paper license remain applicable.",
+      "caption": {
+        "zh": "CombatStateBench · 论文中的生成场景示例",
+        "en": "CombatStateBench · generated scene example from the paper"
+      },
+      "alt": {
+        "zh": "CombatStateBench · 论文中的生成场景示例",
+        "en": "CombatStateBench · generated scene example from the paper"
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2609.10540v2#S5.F4",
+        "locator": "Section 5.1 evaluates 50 CombatStateBench clips; Figure 4(a), Ours row, fourth frame depicts an entity-death interaction under a static camera.",
+        "note": "Section 5.1 evaluates 50 CombatStateBench clips; Figure 4(a), Ours row, fourth frame depicts an entity-death interaction under a static camera."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "裁取自图 4(a) 的 Ours 行第 4 帧，是模型生成的场景样例，用于展示实体状态评测；不是原始游戏录像或真实参考帧。",
+        "en": "Cropped from the fourth frame of the Ours row in Figure 4(a). This model-generated scene illustrates entity-state evaluation; it is not original game footage or a ground-truth reference frame."
+      },
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "originalSize": [
+        1650,
+        1554
+      ],
+      "image": "game-combatstatebench.webp",
+      "width": 312,
+      "height": 178,
+      "sha256": {
+        "image": "72d05f3c7289d869d8fffb1f9742ee7c9b0c7635c6a9f15b6d2e8cb2760c01bc"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          1008,
+          590,
+          1320,
+          768
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null,
+      "licenseLabel": "CC BY 4.0"
     },
     {
       "gameId": "command-conquer-3-tiberium-wars",
@@ -9950,6 +10436,54 @@
       "sourceType": "repository",
       "identityEvidence": "Official project asset path and accompanying documentation identify the environment shown in the caption.",
       "licenseFile": "image-license-mikelma_craftium.txt"
+    },
+    {
+      "gameId": "arena-unity-crawlerpush",
+      "originalSha256": "b1778b6e58a767b5f61dfff23e353eeb6c2e99c6e040e46a776c1932d4cda8dc",
+      "originalUrl": "https://i.ytimg.com/vi/tzFaVU5axTI/maxresdefault.jpg",
+      "sourceUrl": "https://www.youtube.com/watch?v=tzFaVU5axTI",
+      "sourceType": "official-site",
+      "sourceLabel": "Yuhang Song · official ArenaCrawlerPush demonstration",
+      "caption": {
+        "zh": "CrawlerPush · 官方 Unity 演示",
+        "en": "CrawlerPush · official Unity demonstration"
+      },
+      "alt": {
+        "zh": "CrawlerPush · 官方 Unity 演示",
+        "en": "CrawlerPush · official Unity demonstration"
+      },
+      "credit": "Yuhang Song · official ArenaCrawlerPush demonstration",
+      "rightsNote": "Figure or demonstration published by the cited authors; artwork and source rights remain with their respective holders. Source and any extraction are identified.",
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "官方演示视频预览中的 Unity 编辑器实景，可见推箱任务和机器人视角；界面来自早期演示版本。",
+        "en": "Actual Unity editor scene from the official demonstration preview, showing the pushing task and robot perspective; the interface is from the early demonstration version."
+      },
+      "identityEvidence": {
+        "url": "https://www.youtube.com/watch?v=tzFaVU5axTI",
+        "locator": "Official Arena Learning Environments page embeds video tzFaVU5axTI under ArenaCrawlerPush; YouTube oEmbed title independently confirms ArenaCrawlerPush",
+        "note": "Official Arena Learning Environments page embeds video tzFaVU5axTI under ArenaCrawlerPush; YouTube oEmbed title independently confirms ArenaCrawlerPush"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "image": "game-arena-unity-crawlerpush.webp",
+      "width": 1200,
+      "height": 675,
+      "sha256": {
+        "image": "aebff40cd4284ee25f5af34f1e837ef7d991b9cf3adfa651d1012b6bfe218501"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "atari-crazy-climber",
@@ -14880,6 +15414,59 @@
       "relationshipEvidence": "Figure 11 documents the common human interface; the benchmark separates Game Creation and Game Simulation tasks.",
       "referenceSourceUrl": "https://arxiv.org/html/2502.00595v1",
       "title": "Game Simulation (RPGBench)"
+    },
+    {
+      "gameId": "game2world-videos",
+      "originalUrl": "https://arxiv.org/html/2608.24680v1/AAAI27_dataset_figure_with_UI_statistics.png",
+      "originalSha256": "1e169f9a1f270cc2824a3905d34fb71d8a3c9222d59fa53f6c9971d4a887dd95",
+      "sourceUrl": "https://arxiv.org/html/2608.24680v1#S4.F3",
+      "sourceType": "official-site",
+      "sourceLabel": "Game2World · Figure 3, source-video panel",
+      "credit": "Game2World authors; original game artwork remains with its respective owners",
+      "rightsNote": "Excerpt from the cited paper, retaining attribution. Underlying game or animation artwork retains its original rights.",
+      "caption": {
+        "zh": "Game2World-W · 带 HUD 标注的原始视频帧",
+        "en": "Game2World-W · annotated source-video frame"
+      },
+      "alt": {
+        "zh": "Game2World-W · 带 HUD 标注的原始视频帧",
+        "en": "Game2World-W · annotated source-video frame"
+      },
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "裁取自论文图 3 的 Video Source with Annotation 面板，保留作者的 HUD 标注框；展示源视频，不是去除 UI 后的模型输出。",
+        "en": "Cropped from the Video Source with Annotation panel in Figure 3, retaining the authors’ HUD boxes. This is a source-video frame, not a UI-removal model output."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2608.24680v1#S4.F3",
+        "locator": "Game2World · Figure 3, source-video panel",
+        "note": "Visually checked the identified scene panel against the paper caption and the indexed collection scope."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageKind": "paper-scene",
+      "originalSize": [
+        2037,
+        880
+      ],
+      "image": "game-game2world-videos.webp",
+      "width": 419,
+      "height": 237,
+      "sha256": {
+        "image": "ea73744b8d72bad551f16f6f50bcb4e1da81b3d6131f2a994f1846e65c13b502"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          25,
+          68,
+          444,
+          305
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "gameasg-games",
@@ -22912,6 +23499,59 @@
       "licenseFile": null
     },
     {
+      "gameId": "messenger",
+      "originalSha256": "b58925035ba0f8f35f645a523f0f711408c7875b078a6153500962dd42a95fcf",
+      "originalUrl": "https://proceedings.mlr.press/v139/hanjie21a/hanjie21a.pdf",
+      "sourceUrl": "https://proceedings.mlr.press/v139/hanjie21a/hanjie21a.pdf#page=2",
+      "sourceType": "official-site",
+      "sourceLabel": "Hanjie, Zhong and Narasimhan · ICML 2021 Figure 1",
+      "caption": {
+        "zh": "Messenger · 两个游戏场景",
+        "en": "Messenger · two game scenes"
+      },
+      "alt": {
+        "zh": "Messenger · 两个游戏场景",
+        "en": "Messenger · two game scenes"
+      },
+      "credit": "Hanjie, Zhong and Narasimhan · ICML 2021 Figure 1",
+      "rightsNote": "Figure or demonstration published by the cited authors; artwork and source rights remain with their respective holders. Source and any extraction are identified.",
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "论文图1中的游戏画面，虚线路径和半透明角色为作者标注。",
+        "en": "Game views from Figure 1; dashed trajectories and translucent entities are author annotations."
+      },
+      "identityEvidence": {
+        "url": "https://proceedings.mlr.press/v139/hanjie21a/hanjie21a.pdf#page=2",
+        "locator": "Page 2, Figure 1, two named Messenger game-state panels",
+        "note": "Page 2, Figure 1, two named Messenger game-state panels"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "dc1a382edc2bab07c869f39c2224dedb7d07b6ea299b8753e206294751d63b3b",
+      "pdfExtraction": {
+        "locator": "Page 2, Figure 1, two named Messenger game-state panels",
+        "method": "Embedded image extraction without re-drawing"
+      },
+      "originalSize": [
+        682,
+        344
+      ],
+      "image": "game-messenger.webp",
+      "width": 682,
+      "height": 344,
+      "sha256": {
+        "image": "25c106ba3cdb14015fe7821ad3e03ea075fc0d44e12a32313c31542c30308b16"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "machiavelli-metahuman-inc",
       "title": "MetaHuman Inc.",
       "sourceUrl": "https://store.steampowered.com/app/426330/",
@@ -22951,6 +23591,60 @@
       },
       "verifiedAt": "2026-10-29",
       "sourceType": "official-store",
+      "licenseFile": null
+    },
+    {
+      "gameId": "miaosuan-wargame",
+      "originalSha256": "49357fbdf8d02447b56adf3571bb620b2cf41fd5befb4b77f52d3fba904b975f",
+      "originalUrl": "https://ieee-cog.org/2022/assets/papers/paper_128.pdf",
+      "rasterSha256": "29631ca91ddb6e1ab6207fea83fa9cf902a70c72751035e77408b4c4c5a2dabb",
+      "sourceUrl": "https://ieee-cog.org/2022/assets/papers/paper_128.pdf#page=4",
+      "sourceType": "official-site",
+      "sourceLabel": "MiaoSuan platform paper · CoG 2022 · Figure 2",
+      "credit": "Jiale Xu, Jian Hu, Shixian Wang, Xuyang Yang and Wancheng Ni",
+      "rightsNote": "Author-published conference paper figure; original image rights remain with the paper authors and publisher.",
+      "caption": {
+        "zh": "妙算 · 陆战兵棋图形界面",
+        "en": "MiaoSuan · land-wargame graphical interface"
+      },
+      "alt": {
+        "zh": "六角网格战场、双方单位、分数与行动面板",
+        "en": "Hex-grid battlefield, opposing units, scores and action panels"
+      },
+      "identityEvidence": {
+        "url": "https://ieee-cog.org/2022/assets/papers/paper_128.pdf#page=4",
+        "locator": "Page 4, Figure 2: The graphical user interface of the land wargame. Section III-A explicitly describes each UI region.",
+        "note": "Original MiaoSuan platform paper identifies this as the platform graphical interface."
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "来自妙算平台原始论文（CoG 2022）的界面截图；与 WGSR-Bench 采用的具体场景、客户端版本和界面配置可能不同。",
+        "en": "Interface screenshot from the original MiaoSuan platform paper (CoG 2022); scenario, client version and interface configuration may differ from those used by WGSR-Bench."
+      },
+      "verifiedAt": "2026-10-31",
+      "pdfPage": 4,
+      "originalSize": [
+        1697,
+        2400
+      ],
+      "image": "game-miaosuan-wargame.webp",
+      "width": 704,
+      "height": 339,
+      "sha256": {
+        "image": "128783b492b168e6b21420937e3b5eb14fa61fe7cd81a5e3c870a4a75bb75c9b"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          874,
+          417,
+          1578,
+          756
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
       "licenseFile": null
     },
     {
@@ -24419,6 +25113,54 @@
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
     },
     {
+      "gameId": "multi-agent-mujoco",
+      "originalSha256": "bc6f838e8639beea8a057efcdbf102c6d75c3db96d20c61d482d669d3b4a6a22",
+      "originalUrl": "https://gymnasium.farama.org/_images/ant.gif",
+      "sourceUrl": "https://robotics.farama.org/envs/MaMuJoCo/ma_ant/",
+      "sourceType": "official-site",
+      "sourceLabel": "Farama Foundation · Gymnasium Robotics MaMuJoCo documentation",
+      "caption": {
+        "zh": "Multi-Agent MuJoCo · Ant 环境参考画面",
+        "en": "Multi-Agent MuJoCo · Ant environment reference"
+      },
+      "alt": {
+        "zh": "Multi-Agent MuJoCo · Ant 环境参考画面",
+        "en": "Multi-Agent MuJoCo · Ant environment reference"
+      },
+      "credit": "Farama Foundation · Gymnasium Robotics MaMuJoCo documentation",
+      "rightsNote": "Figure or demonstration published by the cited authors; artwork and source rights remain with their respective holders. Source and any extraction are identified.",
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "采用 MaMuJoCo 官方文档展示的 Ant 基础环境画面；多智能体的关节分工不直接显示在渲染中，版本和控制划分依评测配置而定。",
+        "en": "Ant base-environment view shown in the official MaMuJoCo documentation. Multi-agent joint partitions are not visually marked; simulator versions and control partitions depend on the evaluation configuration."
+      },
+      "identityEvidence": {
+        "url": "https://robotics.farama.org/envs/MaMuJoCo/ma_ant/",
+        "locator": "MaMuJoCo Ant page embeds the Gymnasium Ant animation above its multi-agent action partition definitions",
+        "note": "MaMuJoCo Ant page embeds the Gymnasium Ant animation above its multi-agent action partition definitions"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        480,
+        480
+      ],
+      "image": "game-multi-agent-mujoco.webp",
+      "width": 480,
+      "height": 480,
+      "sha256": {
+        "image": "9f20a598eb94f3b19ff9dfdb14725a26e0d76795334f5cb112239a5782b3efe4"
+      },
+      "processing": {
+        "frameIndex": 10,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "multi-agent-particle",
       "repository": "Farama-Foundation/MPE2",
       "commit": "e1ff2491c0f75876e6f53f7a14cd2868b825b587",
@@ -25313,6 +26055,61 @@
       "sourceType": "repository"
     },
     {
+      "gameId": "nitrogen-evaluation-games",
+      "originalUrl": "https://arxiv.org/html/2601.02427v1/sections/assets/rollouts_figure-min.png",
+      "originalSha256": "89b798ae3ca80bc69531a434cc2d5839e231f96aebfb73b0784744671ec2bf30",
+      "sourceUrl": "https://arxiv.org/html/2601.02427v1#S2.F4",
+      "sourceType": "official-site",
+      "sourceLabel": "NitroGen · Figure 4, row 1",
+      "credit": "NitroGen authors; original game artwork remains with its respective owners",
+      "rightsNote": "Excerpt from the cited paper, retaining attribution. Underlying game or animation artwork retains its original rights.",
+      "caption": {
+        "zh": "NitroGen · 游戏内敌营战斗场景",
+        "en": "NitroGen · enemy-camp combat rollout"
+      },
+      "alt": {
+        "zh": "NitroGen · 游戏内敌营战斗场景",
+        "en": "NitroGen · enemy-camp combat rollout"
+      },
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "论文图 4 第一行的实际游戏轨迹片段，作为跨游戏评测的代表场景；只展示该次演示的客户端画面。",
+        "en": "Actual in-game rollout from the first row of Figure 4, used as a representative scene for the multi-game evaluation; depicts the client in that demonstration."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2601.02427v1#S2.F4",
+        "locator": "NitroGen · Figure 4, row 1",
+        "note": "Visually checked the identified scene panel against the paper caption and the indexed collection scope."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageKind": "paper-scene",
+      "licenseLabel": "CC BY-SA 4.0 (paper)",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "originalSize": [
+        3840,
+        3071
+      ],
+      "image": "game-nitrogen-evaluation-games.webp",
+      "width": 624,
+      "height": 350,
+      "sha256": {
+        "image": "0bf9fe76e6de368cf1a797b21045d3b44fb7e9986d635b21167a60a169a1ccaf"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          0,
+          55,
+          624,
+          405
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "no-limit-holdem",
       "repository": "Farama-Foundation/PettingZoo",
       "commit": "b0fe02166d2106f8fcb6a6e0ca8125765699bdba",
@@ -25738,6 +26535,61 @@
         "frameIndex": 0,
         "frameTimeSeconds": null,
         "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "ogamedata-games",
+      "originalUrl": "https://arxiv.org/html/2606.11129v2/dataOverview.png",
+      "originalSha256": "5d8a526aa219162957d000bd0daba3ee647e16eda9383131c66d27d34e5366b6",
+      "sourceUrl": "https://arxiv.org/html/2606.11129v2#S3.F2",
+      "sourceType": "official-site",
+      "sourceLabel": "WorldOlympiad · Figure 2 and Section 3.1.1",
+      "credit": "WorldOlympiad authors; original game artwork remains with its respective owners",
+      "rightsNote": "Excerpt from the cited paper, retaining attribution. Underlying game or animation artwork retains its original rights.",
+      "caption": {
+        "zh": "OGameData · 论文中的游戏视频场景",
+        "en": "OGameData · gameplay-video scene from the paper"
+      },
+      "alt": {
+        "zh": "OGameData · 论文中的游戏视频场景",
+        "en": "OGameData · gameplay-video scene from the paper"
+      },
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "裁取自 WorldOlympiad 图 2 的 gaming data 面板；该论文从 OGameData_50K 采样游戏视频，本图作为该数据合集的场景示例。",
+        "en": "Cropped from the gaming-data panel in WorldOlympiad Figure 2. The paper samples gameplay videos from OGameData_50K; this panel illustrates that collection."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2606.11129v2#S3.F2",
+        "locator": "WorldOlympiad · Figure 2 and Section 3.1.1",
+        "note": "Visually checked the identified scene panel against the paper caption and the indexed collection scope."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageKind": "paper-scene",
+      "licenseLabel": "CC BY-NC-SA 4.0 (paper)",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "originalSize": [
+        2048,
+        1018
+      ],
+      "image": "game-ogamedata-games.webp",
+      "width": 416,
+      "height": 230,
+      "sha256": {
+        "image": "3ffdf42aae576be8fd00161e62dee6e357879f1a917b4f5b6089a7efc56f8cb9"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          641,
+          667,
+          1057,
+          897
+        ],
         "resize": "Aspect-preserving; no upscaling",
         "encoding": "WebP quality 88"
       },
@@ -28829,6 +29681,57 @@
       "identityEvidence": "Game-index source association explicitly links procgen-coinrun to procgen-games via GAB071. Scoped evidence: Gen-DGRL正式发布的Procgen离线数据环境。",
       "referenceSourceUrl": "https://github.com/openai/procgen/blob/37b521dbb530f0734fd82f72d921f5e0e715c0d1/screenshots/coinrun.png",
       "title": "Procgen games"
+    },
+    {
+      "gameId": "project-arena",
+      "originalSha256": "481248830e13abff638a3146ed5065e98cc663406492dab322cb5387c380dcee",
+      "originalUrl": "https://raw.githubusercontent.com/MarcoBallabio/ProjectArena/9952b628284f866db53f6b57169fea0022f99803/Presentation/Images/Game.png",
+      "sourceUrl": "https://github.com/MarcoBallabio/ProjectArena/blob/9952b628284f866db53f6b57169fea0022f99803/Presentation/Images/Game.png",
+      "sourceType": "repository",
+      "sourceLabel": "Project Arena official repository · Game.png",
+      "credit": "Marco Ballabio / Project Arena contributors",
+      "rightsNote": "Author-published paper image; original image rights and paper license remain applicable.",
+      "caption": {
+        "zh": "Project Arena · 第一人称场景与武器界面",
+        "en": "Project Arena · first-person scene and weapon interface"
+      },
+      "alt": {
+        "zh": "Project Arena · 第一人称场景与武器界面",
+        "en": "Project Arena · first-person scene and weapon interface"
+      },
+      "identityEvidence": {
+        "url": "https://github.com/MarcoBallabio/ProjectArena/blob/9952b628284f866db53f6b57169fea0022f99803/Presentation/Images/Game.png",
+        "locator": "The paper §3 cites MarcoBallabio/ProjectArena as the Project Arena environment; official repository Presentation/Images/Game.png is an actual first-person scene.",
+        "note": "The paper §3 cites MarcoBallabio/ProjectArena as the Project Arena environment; official repository Presentation/Images/Game.png is an actual first-person scene."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "画面来自论文引用的 Project Arena 原始项目演示；地图布局与论文生成实验中的关卡不同。",
+        "en": "Screenshot from the original Project Arena project cited by the paper; its map layout differs from the levels generated in the paper’s experiments."
+      },
+      "repository": "MarcoBallabio/ProjectArena",
+      "commit": "9952b628284f866db53f6b57169fea0022f99803",
+      "originalPath": "Presentation/Images/Game.png",
+      "originalBlob": "fce2fa5c3779a8c21f82dd9ae66cd83405d80c26",
+      "originalSize": [
+        1920,
+        1080
+      ],
+      "image": "game-project-arena.webp",
+      "width": 1200,
+      "height": 675,
+      "sha256": {
+        "image": "8f74b4d53fea3b99e5b8fb6c6c5214e8e4ec2b77f8f531ee05e4d8685b29ead6"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "prowbench-scenes",
@@ -37871,6 +38774,49 @@
       "licenseFile": null
     },
     {
+      "gameId": "turn-based-combat-arena",
+      "originalSha256": "ed413a2e46ba20de3afe4d2384b66a4b6cfed0372f6594b36257c8fd86381b40",
+      "originalUrl": "https://arxiv.org/html/2609.03122v1/game_screenshot2.png",
+      "sourceUrl": "https://arxiv.org/html/2609.03122v1#S2.F1",
+      "sourceType": "official-site",
+      "sourceLabel": "TBCA paper · Figure 1",
+      "credit": "V. M. Vasyuta et al.",
+      "rightsNote": "Author-published paper image; original image rights and paper license remain applicable.",
+      "caption": {
+        "zh": "Turn-Based Combat Arena · 双方单位与格网战场",
+        "en": "Turn-Based Combat Arena · grid battlefield with opposing units"
+      },
+      "alt": {
+        "zh": "Turn-Based Combat Arena · 双方单位与格网战场",
+        "en": "Turn-Based Combat Arena · grid battlefield with opposing units"
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2609.03122v1#S2.F1",
+        "locator": "Figure 1 explicitly identifies a TBCA UI screenshot and enumerates the blue and red units by grid location.",
+        "note": "Figure 1 explicitly identifies a TBCA UI screenshot and enumerates the blue and red units by grid location."
+      },
+      "verifiedAt": "2026-10-31",
+      "imageMatch": "exact",
+      "originalSize": [
+        1007,
+        1007
+      ],
+      "image": "game-turn-based-combat-arena.webp",
+      "width": 900,
+      "height": 900,
+      "sha256": {
+        "image": "63ca0826ad4338d4928ccd9d4a7fc825cffe3432210b9ecc89d3a9baa1d80b88"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "atari-tutankham",
       "repository": "Farama-Foundation/Arcade-Learning-Environment",
       "commit": "816fd1591f1b73133c269fe753f10a0490ab4a63",
@@ -40334,6 +41280,59 @@
         "encoding": "WebP quality 88"
       },
       "verifiedAt": "2026-10-29",
+      "licenseFile": null
+    },
+    {
+      "gameId": "xland",
+      "originalSha256": "ffe643785f7469845d53d3d2d913143f83403905d2ab5e40b84f0e8deee47fb2",
+      "originalUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/file/04c0c541d936f7cbfbb21085116236cd-Paper-Datasets_and_Benchmarks_Track.pdf",
+      "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/2024/file/04c0c541d936f7cbfbb21085116236cd-Paper-Datasets_and_Benchmarks_Track.pdf#page=2",
+      "sourceType": "official-site",
+      "sourceLabel": "United Unity Universe authors · NeurIPS 2024 Figure 2",
+      "caption": {
+        "zh": "OpenXLand · 第一人称场景",
+        "en": "OpenXLand · first-person scene"
+      },
+      "alt": {
+        "zh": "OpenXLand · 第一人称场景",
+        "en": "OpenXLand · first-person scene"
+      },
+      "credit": "United Unity Universe authors · NeurIPS 2024 Figure 2",
+      "rightsNote": "Figure or demonstration published by the cited authors; artwork and source rights remain with their respective holders. Source and any extraction are identified.",
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "画面为 U3 论文中的 OpenXLand 开源实现，展示初始视角；不是 DeepMind 原始 XLand 的截图。",
+        "en": "The initial first-person view of the open-source OpenXLand implementation in the U3 paper; not the original DeepMind XLand implementation."
+      },
+      "identityEvidence": {
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/04c0c541d936f7cbfbb21085116236cd-Paper-Datasets_and_Benchmarks_Track.pdf#page=2",
+        "locator": "Page 2, Figure 2, top-left inset explicitly described as the agent perspective at initialization",
+        "note": "Page 2, Figure 2, top-left inset explicitly described as the agent perspective at initialization"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "9a1a080d1a1933d9d941c2dddd5d48f1d6f0b6b869e0c74d2b046668a683ef90",
+      "pdfExtraction": {
+        "locator": "Page 2, Figure 2, top-left inset explicitly described as the agent perspective at initialization",
+        "method": "Embedded image extraction without re-drawing"
+      },
+      "originalSize": [
+        1420,
+        918
+      ],
+      "image": "game-xland.webp",
+      "width": 1200,
+      "height": 776,
+      "sha256": {
+        "image": "fc9532db7841e16cf54c2291639ec39d2b43e97bf658a99c51124a21871d766b"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
       "licenseFile": null
     },
     {
