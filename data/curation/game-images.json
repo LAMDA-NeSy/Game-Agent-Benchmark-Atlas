@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "scope": "Explicit game-ID mappings only. Screenshots show named games or environments. Related implementations, historical versions and collection examples carry bilingual visible reference notes; they are not evidence of a reproduced benchmark run.",
   "entries": [
     {
@@ -722,6 +722,61 @@
         "frameIndex": 0,
         "frameTimeSeconds": null,
         "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "gameId": "collection-ax26-2602.17594",
+      "originalSha256": "310735ad7bb4e3a4032cf556ea1d1696cf72bb57ff79b250320d7c6e18e73a0d",
+      "originalUrl": "https://arxiv.org/pdf/2602.17594",
+      "sourceUrl": "https://arxiv.org/abs/2602.17594",
+      "sourceType": "official-site",
+      "sourceLabel": "AI GameStore paper, Figure 4 (page 8)",
+      "caption": {
+        "zh": "AI GameStore 的 Angry Birds 改编游戏示例",
+        "en": "Angry Birds adaptation in AI GameStore"
+      },
+      "alt": {
+        "zh": "AI GameStore 的 Angry Birds 改编游戏示例",
+        "en": "Angry Birds adaptation in AI GameStore"
+      },
+      "credit": "AI GameStore paper, Figure 4 (page 8)",
+      "rightsNote": "Image copyright remains with the credited author or publisher; reproduced as a sourced research-reference illustration.",
+      "imageMatch": "collection-example",
+      "imageNote": {
+        "zh": "选取合集中的 Angry Birds 改编环境作为代表；图为论文发布的 AI GameStore 版本，界面、物理参数和关卡与原版商业游戏不同。",
+        "en": "Representative AI GameStore adaptation of Angry Birds, as published in the paper. Its interface, physics parameters and levels differ from the original commercial game."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/abs/2602.17594",
+        "locator": "PDF page 8, Figure 4, Game 2, right-hand panel labeled AI Gamestore Version",
+        "note": "The figure pairs four original commercial games with their corresponding AI GameStore adaptations. Only the right-hand adapted Angry Birds runtime panel is selected."
+      },
+      "rasterSha256": "c40320bc7c0f1f4e78ce1962ef5ea19fd6052aed0eb8ab98e96417b0a0699304",
+      "extractionNote": "Extracted PDF page 8 image Im4 losslessly with pypdf; cropped the AI GameStore adaptation panel, excluding original commercial screenshots and charts.",
+      "originalSize": [
+        2256,
+        1496
+      ],
+      "image": "game-collection-ax26-2602-17594.webp",
+      "width": 477,
+      "height": 264,
+      "sha256": {
+        "image": "e9939e7fd1acd3998e17b717a5a9b7f69c45d13be54d406f0da45e2e1b908814"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          1724,
+          104,
+          2201,
+          368
+        ],
         "resize": "Aspect-preserving; no upscaling",
         "encoding": "WebP quality 88"
       },
@@ -4543,6 +4598,54 @@
       "height": 247,
       "sha256": {
         "image": "78f73a603b860bdd2d5dfae513c949ace19b935cf1d40aee1397b284090c2da8"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "gameId": "gamereplica-ball-sort",
+      "originalSha256": "5ff305bc8b788ef9062e5e9b6753b4c3564d228ae1518cc10a59ab77f9bc7254",
+      "originalUrl": "https://play-lh.googleusercontent.com/YT2RDly_Qmo5Xt9Vkx5hCFpS6od9Qahh3ZXRyIViGSd5MrLXgtrRqQoa92AqOrixlg=w526-h296",
+      "sourceUrl": "https://play.google.com/store/apps/details?id=ball.sort.puzzle.color.sorting.bubble.games",
+      "sourceType": "official-store",
+      "sourceLabel": "Guru Puzzle Game / Google Play",
+      "caption": {
+        "zh": "Ball Sort：Guru Puzzle Game 版本的彩球分类关卡",
+        "en": "Ball Sort: color-sorting level in the Guru Puzzle Game version"
+      },
+      "alt": {
+        "zh": "Ball Sort：Guru Puzzle Game 版本的彩球分类关卡",
+        "en": "Ball Sort: color-sorting level in the Guru Puzzle Game version"
+      },
+      "credit": "Guru Puzzle Game / Google Play",
+      "rightsNote": "Image copyright remains with the credited author or publisher; reproduced as a sourced research-reference illustration.",
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "同名彩球分类谜题的商业移动版参考图；GameReplica 使用独立浏览器实现，关卡配置、界面和辅助操作不同。",
+        "en": "Reference screenshot from a commercial mobile implementation of the same named ball-sorting puzzle. GameReplica uses an independent browser implementation with different level configurations, UI and assistance actions."
+      },
+      "identityEvidence": {
+        "url": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+        "locator": "families key plan: Game15 Ball Sort; Google Play developer listing, How to Play and screenshots; ballsort.com gameplay image",
+        "note": "GameReplica explicitly names Game15 Ball Sort among state-space planning puzzles. The developer listing describes moving the top ball to an empty or same-color tube and grouping each color; its actual named-game screenshot is used only as a different-implementation reference."
+      },
+      "originalSize": [
+        166,
+        296
+      ],
+      "image": "game-gamereplica-ball-sort.webp",
+      "width": 166,
+      "height": 296,
+      "sha256": {
+        "image": "e09f15c916cc1e1a6d1b6d5b95e36ad6f5eca949a59c35197b5f0afb623eee21"
       },
       "processing": {
         "frameIndex": 0,
@@ -10674,6 +10777,54 @@
       "referenceSourceUrl": "https://store.steampowered.com/app/730/"
     },
     {
+      "gameId": "coup",
+      "originalSha256": "9bff16e0fc62bc282d4b0508eafc4c2e23211ccab2240035aae5df4b17158548",
+      "originalUrl": "https://indieboardsandcards.com/wp-content/uploads/2019/10/MG_8582.jpg",
+      "sourceUrl": "https://indieboardsandcards.com/our-games/coup/",
+      "sourceType": "official-site",
+      "sourceLabel": "Indie Boards & Cards · Coup · official gallery",
+      "credit": "Indie Boards & Cards · Coup · official gallery",
+      "caption": {
+        "zh": "Coup · 角色行动表与金币",
+        "en": "Coup · character actions and coins"
+      },
+      "alt": {
+        "zh": "Coup · 角色行动表与金币",
+        "en": "Coup · character actions and coins"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "原实体版的角色行动表与金币；研究实现使用结构化动作、隐藏影响力和质疑机制，界面与牌面版本不同。",
+        "en": "Action reference and coins from the physical edition; research implementations use structured actions, hidden influence and challenges with different interfaces and card artwork."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://indieboardsandcards.com/our-games/coup/",
+        "locator": "Indie Boards & Cards · Coup · official gallery",
+        "note": "Indie Boards & Cards · Coup · official gallery"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1500,
+        1000
+      ],
+      "image": "game-coup.webp",
+      "width": 1200,
+      "height": 800,
+      "sha256": {
+        "image": "dc96d114443a4af1d7aa90b3ae24c4acec73994c512e457822664476f0674b99"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "miniarcade-cowboy",
       "sourceType": "official-site",
       "originalUrl": "https://www.nicklashansen.com/NewtWM/videos/miniarcade/cowboy.mp4",
@@ -10938,6 +11089,59 @@
       "sourceType": "repository",
       "identityEvidence": "Official per-game ALE documentation embeds this exact GIF and identifies its Atari environment.",
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
+    },
+    {
+      "gameId": "valet-crazy-eights",
+      "originalSha256": "04d6c84390945220679a07e5861dac92ace2773448a3a6ac03b37fa5d611f23b",
+      "originalUrl": "https://www.mobilityware.com/wp-content/uploads/2024/09/crazy_eights_screenshot_ios_5_5inch_02_1242x2208.jpg",
+      "sourceUrl": "https://www.mobilityware.com/crazy-eights/",
+      "sourceType": "official-site",
+      "sourceLabel": "MobilityWare · Crazy Eights official screenshot",
+      "credit": "MobilityWare · Crazy Eights official screenshot",
+      "caption": {
+        "zh": "Crazy Eights · MobilityWare 牌局",
+        "en": "Crazy Eights · MobilityWare gameplay"
+      },
+      "alt": {
+        "zh": "Crazy Eights · MobilityWare 牌局",
+        "en": "Crazy Eights · MobilityWare gameplay"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "图为同名游戏的独立实现，用于说明牌局；Valet/CardStock 通过结构化状态与动作评测，界面与具体规则配置不同。 原图底部宣传文案已裁去。",
+        "en": "An independent implementation of the same card game illustrates play. Valet/CardStock evaluates structured states and actions; its interface and rule configuration differ. The promotional text below the gameplay has been cropped out."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://www.mobilityware.com/crazy-eights/",
+        "locator": "Official Crazy Eights page gallery, iOS screenshot 02; visible player hand, stock and discard.",
+        "note": "Official Crazy Eights page gallery, iOS screenshot 02; visible player hand, stock and discard."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1242,
+        2208
+      ],
+      "image": "game-valet-crazy-eights.webp",
+      "width": 653,
+      "height": 900,
+      "sha256": {
+        "image": "e714e5f0fdd0547ef97ebccd503016135aadfcad505624fea18b725e3142d733"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          0,
+          0,
+          1242,
+          1712
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "valet-cribbage",
@@ -13285,6 +13489,57 @@
         "resize": "Aspect-preserving; no upscaling",
         "encoding": "WebP quality 88"
       }
+    },
+    {
+      "gameId": "einstein-wurfelt-nicht",
+      "originalSha256": "c347b3b7201c51a3ae7e1df150e33b495e8aba295025bd469ca1ea7eedd2b45a",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/EinStein_w%C3%BCrfelt_nicht_3D.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:EinStein_w%C3%BCrfelt_nicht_3D.png",
+      "sourceType": "encyclopedia",
+      "sourceLabel": "Wikimedia Commons · RokerHRO",
+      "credit": "RokerHRO · Wikimedia Commons",
+      "caption": {
+        "zh": "EinStein würfelt nicht! · 棋盘与编号棋子示意",
+        "en": "EinStein würfelt nicht! · board and numbered pieces"
+      },
+      "alt": {
+        "zh": "EinStein würfelt nicht! · 棋盘与编号棋子示意",
+        "en": "EinStein würfelt nicht! · board and numbered pieces"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "百科收录的原游戏三维棋盘示意图，由 RokerHRO 于 2011 年制作；研究实现的界面和初始排列另有定义。",
+        "en": "A 2011 board illustration by RokerHRO from the encyclopedia; research implementations define their own interfaces and starting arrangements."
+      },
+      "rightsNote": "RokerHRO · Wikimedia Commons; CC0 1.0. Image resized or cropped for display; the credited image license applies to the resulting image.",
+      "identityEvidence": {
+        "url": "https://commons.wikimedia.org/wiki/File:EinStein_w%C3%BCrfelt_nicht_3D.png",
+        "locator": "File description identifies the EinStein würfelt nicht board and pieces; CC0 licensing section.",
+        "note": "File description identifies the EinStein würfelt nicht board and pieces; CC0 licensing section."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "CC0 1.0",
+      "licenseLabel": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "originalSize": [
+        1902,
+        927
+      ],
+      "image": "game-einstein-wurfelt-nicht.webp",
+      "width": 1200,
+      "height": 585,
+      "sha256": {
+        "image": "f67133a0503eca36ee766bc3b796d0af5f5b038f7dcf0f96310adda18c21f376"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "elden-ring",
@@ -17766,6 +18021,54 @@
       "title": "Go (9×9)"
     },
     {
+      "gameId": "valet-go-fish",
+      "originalSha256": "47dfb15aa070886e542e3d8eb1daa71314e1aab0ca08710cb9db54822e45b00a",
+      "originalUrl": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/2043620704597/original/B-yEnrTHrTZjfXIrcqzjxcKtapYDwsivxg.png?1747234587",
+      "sourceUrl": "https://support.arkadium.com/support/solutions/articles/44002621455--go-fish-the-game-main-menu-how-to-play",
+      "sourceType": "official-site",
+      "sourceLabel": "Arkadium · Go Fish official help",
+      "credit": "Arkadium · Go Fish official help",
+      "caption": {
+        "zh": "Go Fish · Arkadium 四人牌局",
+        "en": "Go Fish · Arkadium four-player game"
+      },
+      "alt": {
+        "zh": "Go Fish · Arkadium 四人牌局",
+        "en": "Go Fish · Arkadium four-player game"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "图为同名游戏的独立实现，用于说明牌局；Valet/CardStock 通过结构化状态与动作评测，界面与具体规则配置不同。",
+        "en": "An independent implementation of the same card game illustrates play. Valet/CardStock evaluates structured states and actions; its interface and rule configuration differ."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://support.arkadium.com/support/solutions/articles/44002621455--go-fish-the-game-main-menu-how-to-play",
+        "locator": "Official Arkadium Go Fish support article: full table with three opponents, draw pile and the player hand.",
+        "note": "Official Arkadium Go Fish support article: full table with three opponents, draw pile and the player hand."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1336,
+        945
+      ],
+      "image": "game-valet-go-fish.webp",
+      "width": 1200,
+      "height": 849,
+      "sha256": {
+        "image": "6c21e4a10f2e97e6206f118c35d174b145a30253910c54cc10fcf109ec9a0783"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "arena-unity-gobang",
       "sourceType": "official-site",
       "originalUrl": "https://arxiv.org/html/1905.08085v5/34s.png",
@@ -17962,6 +18265,57 @@
       "licenseFile": "image-license-NJU-LINK_GameLogicBench-Tasks.txt"
     },
     {
+      "gameId": "valet-golf-6",
+      "originalSha256": "469f51578d9a01d26157a23d9dcfa6bd93f0c9b931b41f348052b134457ccde3",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Golf_card_game.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golf_card_game.jpg",
+      "sourceType": "encyclopedia",
+      "sourceLabel": "Lord Belbury / Wikimedia Commons",
+      "credit": "Lord Belbury / Wikimedia Commons",
+      "caption": {
+        "zh": "Six-card Golf · 六张牌局面",
+        "en": "Six-card Golf · a six-card layout"
+      },
+      "alt": {
+        "zh": "Six-card Golf · 六张牌局面",
+        "en": "Six-card Golf · a six-card layout"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "实体 Six-card Golf 的两行三列牌局照片；Valet/CardStock 使用该游戏的结构化状态与动作，具体计分和翻牌规则以评测实现为准。",
+        "en": "Physical six-card Golf laid out in two rows of three. Valet/CardStock uses structured states and actions with its own scoring and reveal rules."
+      },
+      "rightsNote": "Lord Belbury, Golf card game photograph (2019), CC BY-SA 4.0 via Wikimedia Commons.",
+      "identityEvidence": {
+        "url": "https://commons.wikimedia.org/wiki/File:Golf_card_game.jpg",
+        "locator": "Commons description explicitly states “Card layout for six card golf”, photographed on 27 November 2019.",
+        "note": "Commons description explicitly states “Card layout for six card golf”, photographed on 27 November 2019."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "CC BY-SA 4.0",
+      "licenseLabel": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "originalSize": [
+        3297,
+        3058
+      ],
+      "image": "game-valet-golf-6.webp",
+      "width": 970,
+      "height": 900,
+      "sha256": {
+        "image": "ebe99efcbe53bfce8c07eff66cc7c6fb7f319e79a532b7cc3a7c363617946f23"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "gomoku",
       "sourceType": "official-site",
       "sourceUrl": "https://qqqqqqby.github.io/GameReplica/assets/demos/Game25/L1/original.html",
@@ -18066,6 +18420,57 @@
       "height": 900,
       "sha256": {
         "image": "b01005d3ab7a99523cad9f94d724142003af89ebf207a531f2fdb589aa461f31"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "goofspiel",
+      "originalSha256": "64581246b3b83a261b393f737bb4421c8751ec73afa78b09015bd9aace38279e",
+      "originalUrl": "https://mgoadric.github.io/valet/assets/images/post/goofspiel.jpg",
+      "sourceUrl": "https://mgoadric.github.io/valet/post/goofspiel.html",
+      "sourceType": "official-site",
+      "sourceLabel": "Mark Goadrich · Valet Traditional Card Game Testbed",
+      "credit": "Mark Goadrich · Valet",
+      "caption": {
+        "zh": "Goofspiel · 争夺方块奖励牌",
+        "en": "Goofspiel · bidding for a diamond prize card"
+      },
+      "alt": {
+        "zh": "Goofspiel · 争夺方块奖励牌",
+        "en": "Goofspiel · bidding for a diamond prize card"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "Valet 项目展示的实体 Goofspiel 同时出价示例；研究版本可改变牌数、奖励顺序、平局处理和信息可见性。",
+        "en": "Physical simultaneous-bid example from the Valet project; research variants can change deck size, prize order, tie handling and information visibility."
+      },
+      "rightsNote": "Mark Goadrich · Valet; Public domain. Image resized or cropped for display; the credited image license applies to the resulting image.",
+      "identityEvidence": {
+        "url": "https://mgoadric.github.io/valet/post/goofspiel.html",
+        "locator": "Goofspiel image caption credits Mark Goadrich and explicitly states Public Domain; rules identify the center diamond prize and opposing bid suits.",
+        "note": "Goofspiel image caption credits Mark Goadrich and explicitly states Public Domain; rules identify the center diamond prize and opposing bid suits."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "Public domain",
+      "licenseLabel": "Public domain",
+      "licenseUrl": "https://mgoadric.github.io/valet/post/goofspiel.html",
+      "originalSize": [
+        4000,
+        2235
+      ],
+      "image": "game-goofspiel.webp",
+      "width": 1200,
+      "height": 671,
+      "sha256": {
+        "image": "195f3db7417388d61eba84c1c2c782949292af1677da6b5606e0b3fb96f18436"
       },
       "processing": {
         "frameIndex": 0,
@@ -18529,6 +18934,57 @@
       "identityEvidence": "GTBench paper page 2 explicitly lists Tic-Tac-Toe and Connect-4 among its ten game-theoretic tasks.",
       "referenceSourceUrl": "https://github.com/Farama-Foundation/PettingZoo/blob/b0fe02166d2106f8fcb6a6e0ca8125765699bdba/docs/environments/classic/classic_connect_four.gif",
       "title": "GTBench"
+    },
+    {
+      "gameId": "guandan",
+      "originalSha256": "2edff5285401332378de27f1466ed0436161cbb8782acac997b955fc6df50f94",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/People_gathering_together_to_play_Guandan.jpeg?download=1",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:People_gathering_together_to_play_Guandan.jpeg",
+      "sourceType": "encyclopedia",
+      "sourceLabel": "Wikimedia Commons · Hard to choose a name",
+      "credit": "Hard to choose a name · Wikimedia Commons",
+      "caption": {
+        "zh": "掼蛋 · 实体牌局照片",
+        "en": "Guandan · physical card-game photograph"
+      },
+      "alt": {
+        "zh": "掼蛋 · 实体牌局照片",
+        "en": "Guandan · physical card-game photograph"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "百科收录的掼蛋实体牌局参考照片；研究环境通过程序化出牌和计分接口实现规则，不使用照片中的场地或人物。",
+        "en": "An encyclopedia photograph of physical Guandan play; research environments implement card actions and scoring programmatically rather than the photographed setting."
+      },
+      "rightsNote": "Hard to choose a name · Wikimedia Commons; CC BY-SA 4.0. Image resized or cropped for display; the credited image license applies to the resulting image.",
+      "identityEvidence": {
+        "url": "https://commons.wikimedia.org/wiki/File:People_gathering_together_to_play_Guandan.jpeg",
+        "locator": "File title identifies Guandan; photo by Hard to choose a name, 20 July 2019; choose CC BY-SA 4.0 from dual licensing.",
+        "note": "File title identifies Guandan; photo by Hard to choose a name, 20 July 2019; choose CC BY-SA 4.0 from dual licensing."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "CC BY-SA 4.0",
+      "licenseLabel": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "originalSize": [
+        1080,
+        1440
+      ],
+      "image": "game-guandan.webp",
+      "width": 675,
+      "height": 900,
+      "sha256": {
+        "image": "09f4e1722c3879456758af45bdc7ea52dfadd8a05ddf8e2c4010ea437f8a5e66"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "guard-games",
@@ -19158,6 +19614,58 @@
       "relationshipEvidence": "GameReplica official families array identifies this exact puzzle; source game has the same named core puzzle rules, with implementation and difficulty deliberately distinguished.",
       "relationshipSource": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
       "referenceSourceUrl": "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/bridges.html"
+    },
+    {
+      "gameId": "havannah",
+      "originalSha256": "4706d4d1535146fc99c933736c8e129023d65a16887bbf76ee00d6167981594c",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Havannah_winning_structures.svg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Havannah_winning_structures.svg",
+      "sourceType": "encyclopedia",
+      "sourceLabel": "Wikimedia Commons · Fritzlein / Mysid",
+      "credit": "Fritzlein; SVG by Mysid · Wikimedia Commons",
+      "caption": {
+        "zh": "Havannah · 三种获胜连接结构",
+        "en": "Havannah · three winning connection structures"
+      },
+      "alt": {
+        "zh": "Havannah · 三种获胜连接结构",
+        "en": "Havannah · three winning connection structures"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "原游戏规则示意图以三种颜色分别表示 fork、ring 与 bridge；颜色用于并列说明获胜结构，非三方对局。",
+        "en": "Rule illustration showing fork, ring and bridge in three colors; these colors distinguish winning structures rather than three players."
+      },
+      "rightsNote": "Fritzlein; SVG by Mysid · Wikimedia Commons; Public domain. Image resized or cropped for display; the credited image license applies to the resulting image.",
+      "identityEvidence": {
+        "url": "https://commons.wikimedia.org/wiki/File:Havannah_winning_structures.svg",
+        "locator": "Description: Three ways to win in Havannah. Author Fritzlein / Mysid; public-domain release.",
+        "note": "Description: Three ways to win in Havannah. Author Fritzlein / Mysid; public-domain release."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "Public domain",
+      "licenseLabel": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Havannah_winning_structures.svg",
+      "rasterSha256": "e9b63652d5898f845f02b80dc59ade42f13cbf76f9ef38fee1e8e22a922cd02f",
+      "originalSize": [
+        780,
+        900
+      ],
+      "image": "game-havannah.webp",
+      "width": 780,
+      "height": 900,
+      "sha256": {
+        "image": "b9bdbfd44e3985e0ce0c04923c8a992033384044ca5f4a3d33fa810ab81af853"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "valet-hearts",
@@ -20224,6 +20732,54 @@
       "title": "Infinite-board K-in-a-row (Intuitive Gamer)"
     },
     {
+      "gameId": "insider",
+      "originalSha256": "fe51f806da9c022e4d3ef12863316c6a8486db887a1a3c86cfd8c98764379416",
+      "originalUrl": "https://oinkgames.com/images/description/insider/image03.jpg",
+      "sourceUrl": "https://oinkgames.com/en/games/analog/insider/",
+      "sourceType": "official-site",
+      "sourceLabel": "Oink Games · Insider · official gameplay photographs",
+      "credit": "Oink Games · Insider · official gameplay photographs",
+      "caption": {
+        "zh": "Insider · 抽取秘密词",
+        "en": "Insider · selecting the secret word"
+      },
+      "alt": {
+        "zh": "Insider · 抽取秘密词",
+        "en": "Insider · selecting the secret word"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "Oink Games 实体版的秘密词卡、身份卡与沙漏；文本研究环境的词库、计时和问答接口与实体操作不同。",
+        "en": "Secret-word card, role card and timer in Oink Games’ physical edition; text research environments differ in vocabulary, timing and question-answer interfaces."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://oinkgames.com/en/games/analog/insider/",
+        "locator": "Oink Games · Insider · official gameplay photographs",
+        "note": "Oink Games · Insider · official gameplay photographs"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1280,
+        854
+      ],
+      "image": "game-insider.webp",
+      "width": 1200,
+      "height": 801,
+      "sha256": {
+        "image": "ee8fee5e6d19df8867a5acfb9cca0ff655f4eb0e0c6276685e74e48ea5aa65ce"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "intuitive-gamer-board",
       "repository": "Farama-Foundation/PettingZoo",
       "commit": "b0fe02166d2106f8fcb6a6e0ca8125765699bdba",
@@ -20849,6 +21405,56 @@
       "licenseFile": null
     },
     {
+      "gameId": "jericho-acorncourt",
+      "originalSha256": "52dfcc28e1801d6209fb898f0f87df6acfbf265bb65b60251fb328d8aa085bb3",
+      "originalUrl": "https://www.amigapd.com/uploads/5/5/0/1/5501110/3394655.png",
+      "sourceUrl": "https://www.amigapd.com/amiga-pd-games-a.html",
+      "sourceLabel": "AmigaPD · The Acorn Court screenshot",
+      "sourceType": "third-party",
+      "credit": "AmigaPD · The Acorn Court screenshot",
+      "caption": {
+        "zh": "The Acorn Court · 文本交互界面",
+        "en": "The Acorn Court · text interaction interface"
+      },
+      "alt": {
+        "zh": "The Acorn Court · 文本交互界面",
+        "en": "The Acorn Court · text interaction interface"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "Amiga Frotz 1.01 解释器中的实际文本游戏界面；字体、窗口和输入显示与 Jericho 的程序接口不同。",
+        "en": "Actual text-game interface in the Amiga Frotz 1.01 interpreter; fonts, window and input presentation differ from the Jericho programmatic interface."
+      },
+      "identityEvidence": {
+        "url": "https://www.amigapd.com/amiga-pd-games-a.html",
+        "locator": "The Acorn Court heading and named screenshot",
+        "note": "The screenshot visibly names The Acorn Court and credits Todd S. Murchison; the interpreter window includes actual room descriptions and a command prompt."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Game artwork and published images remain with their respective rights holders; source attribution does not imply an open image license.",
+      "pixelArt": true,
+      "smallPreview": true,
+      "originalSize": [
+        250,
+        200
+      ],
+      "image": "game-jericho-acorncourt.webp",
+      "width": 250,
+      "height": 200,
+      "sha256": {
+        "image": "afc4783d9ecba0752d012db6cd1718eda162a367e54f5558d0fcac32008e3ee1"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "jericho-advent",
       "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Colossal_Cave_Adventure_on_VT100_terminal.jpg/960px-Colossal_Cave_Adventure_on_VT100_terminal.jpg",
       "sourceUrl": "https://en.wikipedia.org/wiki/File:Colossal_Cave_Adventure_on_VT100_terminal.jpg",
@@ -20908,6 +21514,117 @@
       },
       "referenceSourceUrl": "https://en.wikipedia.org/wiki/File:Colossal_Cave_Adventure_on_VT100_terminal.jpg",
       "title": "Jericho: advent"
+    },
+    {
+      "gameId": "jericho-awaken",
+      "originalSha256": "7efef5a66ba4370980999a5398e25d496a6c0400096d0d0dddfc662e88df11c7",
+      "originalUrl": "https://www.amigapd.com/uploads/5/5/0/1/5501110/1543427.png",
+      "sourceUrl": "https://www.amigapd.com/amiga-pd-games-a.html",
+      "sourceLabel": "AmigaPD · The Awakening screenshot",
+      "sourceType": "third-party",
+      "credit": "AmigaPD · The Awakening screenshot",
+      "caption": {
+        "zh": "The Awakening · 文本交互界面",
+        "en": "The Awakening · text interaction interface"
+      },
+      "alt": {
+        "zh": "The Awakening · 文本交互界面",
+        "en": "The Awakening · text interaction interface"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "Amiga Frotz 1.01 解释器中的实际文本游戏界面；字体、窗口和输入显示与 Jericho 的程序接口不同。",
+        "en": "Actual text-game interface in the Amiga Frotz 1.01 interpreter; fonts, window and input presentation differ from the Jericho programmatic interface."
+      },
+      "identityEvidence": "IFWiki identifies The Awakening by Dennis Matheson (1998, Z-code 5) and the file awaken.z5. The screenshot names the same title and author; the Amiga interpreter differs from Jericho.",
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Game artwork and published images remain with their respective rights holders; source attribution does not imply an open image license.",
+      "pixelArt": true,
+      "smallPreview": true,
+      "originalSize": [
+        250,
+        200
+      ],
+      "image": "game-the-awakening.webp",
+      "width": 250,
+      "height": 200,
+      "sha256": {
+        "image": "d6ecc1aea3755f997f9a5787549035dfed4c6f938c00d777998e9e7ffeb4e6b1"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null,
+      "referenceGameId": "the-awakening",
+      "relationshipSource": "https://www.ifwiki.org/The_Awakening",
+      "relationshipEvidence": "IFWiki identifies The Awakening by Dennis Matheson (1998, Z-code 5) and the file awaken.z5. The screenshot names the same title and author; the Amiga interpreter differs from Jericho.",
+      "referenceSourceUrl": "https://www.amigapd.com/amiga-pd-games-a.html",
+      "title": "Jericho: awaken"
+    },
+    {
+      "gameId": "jericho-detective",
+      "originalSha256": "b6c48ee5190a5a0071b14aa65cd63639fcd525dd6a490491ca0955f2120e8682",
+      "originalUrl": "https://arxiv.org/pdf/2509.07945v1",
+      "sourceUrl": "https://arxiv.org/html/2509.07945v1#A4.F12",
+      "sourceLabel": "ScaleZero authors · Appendix D, Figure 12(b), page 30",
+      "sourceType": "official-site",
+      "credit": "ScaleZero authors · Appendix D, Figure 12(b), page 30",
+      "caption": {
+        "zh": "Detective · 论文中的五步交互轨迹",
+        "en": "Detective · five-step interaction trace from the paper"
+      },
+      "alt": {
+        "zh": "Detective · 论文中的五步交互轨迹",
+        "en": "Detective · five-step interaction trace from the paper"
+      },
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "论文按观察、动作和奖励排版的真实交互轨迹，包含读取线索与物品栏操作；这是文本任务示例，不是图形客户端截图。",
+        "en": "A paper-formatted interaction trace with observations, actions and rewards, including reading a clue and checking inventory. This is a text-task example, not a graphical-client screenshot."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2509.07945v1#A4.F12",
+        "locator": "Appendix D, Figure 12(b), Detective",
+        "note": "The caption identifies the first five expert interaction steps for Detective. The panel names Matt Barringer and Stuart Moore and reports the valid actions and rewards."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Game artwork and published images remain with their respective rights holders; source attribution does not imply an open image license.",
+      "rasterSha256": "ea3542bd6714580253e63644268a1b15734f567d24a9a1bb414d9e2ea6ab2014",
+      "capture": {
+        "type": "paper-task-trace",
+        "page": 30,
+        "figure": "12(b)",
+        "renderScale": 4
+      },
+      "originalSize": [
+        2448,
+        3168
+      ],
+      "image": "game-jericho-detective.webp",
+      "width": 782,
+      "height": 840,
+      "sha256": {
+        "image": "6a0ebfeb5bb532d630256ba42628c99482c117f049cbac3dc818aa83130628d2"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          1236,
+          364,
+          2018,
+          1204
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "jericho-enchanter",
@@ -21541,6 +22258,54 @@
         "encoding": "Lossless WebP"
       },
       "verifiedAt": "2026-10-29",
+      "licenseFile": null
+    },
+    {
+      "gameId": "valet-klaverjassen",
+      "originalSha256": "51a03ad922ddb9d4e4c3dd0b987aa2fa5710a9919ed9b097bcebeae74e1e4303",
+      "originalUrl": "https://www.klaverjassen-op-de-pc.nl/image/klaverjassen_scherm1.gif",
+      "sourceUrl": "https://www.klaverjassen-op-de-pc.nl/en/jass_screenshots.php",
+      "sourceType": "official-site",
+      "sourceLabel": "M-Klaver · official Klaverjassen screenshots",
+      "credit": "M-Klaver · official Klaverjassen screenshots",
+      "caption": {
+        "zh": "Klaverjassen · M-Klaver 牌局",
+        "en": "Klaverjassen · M-Klaver gameplay"
+      },
+      "alt": {
+        "zh": "Klaverjassen · M-Klaver 牌局",
+        "en": "Klaverjassen · M-Klaver gameplay"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "图为同名游戏的独立实现，用于说明牌局；Valet/CardStock 通过结构化状态与动作评测，界面与具体规则配置不同。 图中采用 Rotterdam 规则。",
+        "en": "An independent implementation of the same card game illustrates play. Valet/CardStock evaluates structured states and actions; its interface and rule configuration differ. The screenshot uses Rotterdam rules."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://www.klaverjassen-op-de-pc.nl/en/jass_screenshots.php",
+        "locator": "Developer screenshot page labels the image Play Klaverjas with M-Klaver against the computer; screenshot visibly says Rotterdams.",
+        "note": "Developer screenshot page labels the image Play Klaverjas with M-Klaver against the computer; screenshot visibly says Rotterdams."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        512,
+        384
+      ],
+      "image": "game-valet-klaverjassen.webp",
+      "width": 512,
+      "height": 384,
+      "sha256": {
+        "image": "3a7af670ed310892cd6b63ecb5f16e843e79951be567b0af6743da0ef9cf7c63"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
       "licenseFile": null
     },
     {
@@ -27848,6 +28613,55 @@
       "title": "OpenSpiel games"
     },
     {
+      "gameId": "oshi-zumo",
+      "originalSha256": "74fd69026d41ffb4e8d23e0a211f6bccd69a1b1fdbcf55fc0ca3c6f3620c6e4f",
+      "originalUrl": "https://skatgame.net/mburo/ps/sumo.pdf",
+      "sourceUrl": "https://skatgame.net/mburo/ps/sumo.pdf#page=2",
+      "sourceType": "official-site",
+      "sourceLabel": "Michael Buro · Solving the Oshi-Zumo Game · Figure 1",
+      "credit": "Michael Buro · Solving the Oshi-Zumo Game · Figure 1",
+      "caption": {
+        "zh": "Oshi-Zumo · 初始状态与一次同时出价后的状态",
+        "en": "Oshi-Zumo · initial state and state after simultaneous bids"
+      },
+      "alt": {
+        "zh": "Oshi-Zumo · 初始状态与一次同时出价后的状态",
+        "en": "Oshi-Zumo · initial state and state after simultaneous bids"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "Buro 论文的原始场景图：双方初始 50 枚筹码、九格场地，出价 (4,2) 后位置右移。研究实现可采用其他筹码数、场地长度和最小出价。",
+        "en": "Original scene diagram from Buro’s paper: 50 coins per player on a nine-position field, followed by bids (4,2). Research variants can use other budgets, field lengths and minimum bids."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://skatgame.net/mburo/ps/sumo.pdf#page=2",
+        "locator": "Figure 1 on PDF page 2: Oshi-Zumo positions and their triple representation.",
+        "note": "Figure 1 on PDF page 2: Oshi-Zumo positions and their triple representation."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "cbe18925e0e232b4fde81a82a0c5a2b8e78bb402df2ea999dab3e063062a4c3a",
+      "originalSize": [
+        540,
+        230
+      ],
+      "image": "game-oshi-zumo.webp",
+      "width": 540,
+      "height": 230,
+      "sha256": {
+        "image": "9f27602046f3af4e3d974600030032e1e0ccd131f54b0c82ff233ee6071c5054"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "atari-othello",
       "repository": "Farama-Foundation/Arcade-Learning-Environment",
       "commit": "816fd1591f1b73133c269fe753f10a0490ab4a63",
@@ -29082,6 +29896,55 @@
       "licenseFile": null
     },
     {
+      "gameId": "pig",
+      "originalSha256": "7debced01340f91b4ceb697d8fb476a2faf1c9bbb806bdd5bbb9ccdc27a21265",
+      "originalUrl": "https://cs.gettysburg.edu/~tneller/papers/talks/eaai12.pdf",
+      "sourceUrl": "https://cs.gettysburg.edu/~tneller/papers/talks/eaai12.pdf#page=4",
+      "sourceType": "official-site",
+      "sourceLabel": "Todd Neller · Gettysburg College · Pig demonstration",
+      "credit": "Todd Neller · Gettysburg College · Pig demonstration",
+      "caption": {
+        "zh": "Pig · 回合累计与停止掷骰界面",
+        "en": "Pig · turn total and hold decision interface"
+      },
+      "alt": {
+        "zh": "Pig · 回合累计与停止掷骰界面",
+        "en": "Pig · turn total and hold decision interface"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "Todd Neller 教学演示中的单骰 Pig 程序截图，显示累计分数、HOLD 操作和获胜概率；不是其他研究实现的运行截图。",
+        "en": "Screenshot of Todd Neller’s single-die Pig program, showing scores, HOLD and win probability; this is a reference implementation rather than a run of other research implementations."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://cs.gettysburg.edu/~tneller/papers/talks/eaai12.pdf#page=4",
+        "locator": "Solving the Dice Game Pig talk, PDF page 4, embedded screenshot of The Game of Pig.",
+        "note": "Solving the Dice Game Pig talk, PDF page 4, embedded screenshot of The Game of Pig."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "a1d5649c752cb8c70f5fdcda1dd69d44a2811cadba1bdca24727569385c9b21b",
+      "originalSize": [
+        540,
+        270
+      ],
+      "image": "game-pig.webp",
+      "width": 540,
+      "height": 270,
+      "sha256": {
+        "image": "0d34eee8a39506945e445283e75f03e961e29ffa3692d002b2f4843803fa9bed"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "arena-unity-pingpong",
       "sourceType": "official-site",
       "originalUrl": "https://arxiv.org/html/1905.08085v5/15s.png",
@@ -29168,6 +30031,58 @@
       },
       "sourceType": "repository",
       "licenseFile": "image-license-Farama-Foundation_PettingZoo-LICENSE.txt"
+    },
+    {
+      "gameId": "gamebench-pit",
+      "originalSha256": "56191043e72d535c96dff8e80881fa89a7d3426e191e020f8618f39c8f661489",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/People_playing_Pit.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:People_playing_Pit.jpg",
+      "sourceType": "encyclopedia",
+      "sourceLabel": "Evil Erin / Wikimedia Commons (Flickr)",
+      "credit": "Evil Erin / Wikimedia Commons (Flickr)",
+      "caption": {
+        "zh": "Pit · 实体换牌对局",
+        "en": "Pit · physical card-trading game"
+      },
+      "alt": {
+        "zh": "Pit · 实体换牌对局",
+        "en": "Pit · physical card-trading game"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "实体 Pit 玩家围桌换牌的照片；GameBench 采用程序化代理与文本交互，沟通方式和运行协议不同。",
+        "en": "People trading cards in physical Pit. GameBench uses programmatic agents and textual interaction, with a different communication and execution protocol."
+      },
+      "rightsNote": "Evil Erin, People playing Pit, Flickr photograph 3426077673, CC BY 2.0 via Wikimedia Commons; EXIF orientation normalized.",
+      "identityEvidence": {
+        "url": "https://commons.wikimedia.org/wiki/File:People_playing_Pit.jpg",
+        "locator": "Commons identifies the photograph as People playing Pit; Pit-branded cards are visible on the table.",
+        "note": "Commons identifies the photograph as People playing Pit; Pit-branded cards are visible on the table."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "CC BY 2.0",
+      "licenseLabel": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "rasterSha256": "c5e00be571f0946ab01cc7b111f4b0dee68b6fbbfb2847aefe78c3ab1af27a40",
+      "originalSize": [
+        2000,
+        3008
+      ],
+      "image": "game-gamebench-pit.webp",
+      "width": 598,
+      "height": 900,
+      "sha256": {
+        "image": "ed62aa1728353e76fca8b05bf911977f74a25d8c916553114f5057cf03df97fe"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "atari-pitfall",
@@ -34406,6 +35321,57 @@
       "licenseFile": null
     },
     {
+      "gameId": "valet-scopa",
+      "originalSha256": "606d17ee3c74042c862a0fa74041e174bf6d5ab8b94aa7473dcba235585327d8",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Scopa_01.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scopa_01.png",
+      "sourceType": "encyclopedia",
+      "sourceLabel": "Dave Bernazzani · ScopaFree v1.06 / Wikimedia Commons",
+      "credit": "Dave Bernazzani · ScopaFree v1.06 / Wikimedia Commons",
+      "caption": {
+        "zh": "Scopa · ScopaFree 对局界面",
+        "en": "Scopa · ScopaFree game interface"
+      },
+      "alt": {
+        "zh": "Scopa · ScopaFree 对局界面",
+        "en": "Scopa · ScopaFree game interface"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "图为同名游戏的独立实现，用于说明牌局；Valet/CardStock 通过结构化状态与动作评测，界面与具体规则配置不同。",
+        "en": "An independent implementation of the same card game illustrates play. Valet/CardStock evaluates structured states and actions; its interface and rule configuration differ."
+      },
+      "rightsNote": "Dave Bernazzani, ScopaFree v1.06 screenshot; CC BY-SA 3.0 via Wikimedia Commons. Permission is recorded in Commons VRT ticket 2009060110071948.",
+      "identityEvidence": {
+        "url": "https://commons.wikimedia.org/wiki/File:Scopa_01.png",
+        "locator": "Commons description identifies ScopaFree v1.06 for Windows, initial setting.",
+        "note": "Commons description identifies ScopaFree v1.06 for Windows, initial setting."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "CC BY-SA 3.0",
+      "licenseLabel": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "originalSize": [
+        800,
+        600
+      ],
+      "image": "game-valet-scopa.webp",
+      "width": 800,
+      "height": 600,
+      "sha256": {
+        "image": "fc568fa17abc5ac0fec06eb862a68b978ba88bc5e0fa25a151e717203c795697"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "gamebench-sea-battle",
       "originalSha256": "b579645acb89fed722cda66fa789f8a92232c178b71201d4b0f3662d8f3da563",
       "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Hra_n%C3%A1mo%C5%99n%C3%AD_bitva_%281%29.jpg/1280px-Hra_n%C3%A1mo%C5%99n%C3%AD_bitva_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
@@ -34836,6 +35802,55 @@
       },
       "verifiedAt": "2026-10-29",
       "sourceType": "official-store",
+      "licenseFile": null
+    },
+    {
+      "gameId": "sheriff-of-nottingham",
+      "originalSha256": "2d3e19b9db8166355cbd80b23bdd9b4a229b52fc39f5a9a352ebf6453d0a92cf",
+      "originalUrl": "https://cdn.1j1ju.com/medias/d3/7f/61-sheriff-of-nottingham-rulebook.pdf",
+      "sourceUrl": "https://cdn.1j1ju.com/medias/d3/7f/61-sheriff-of-nottingham-rulebook.pdf#page=5",
+      "sourceType": "third-party",
+      "sourceLabel": "CMON / Arcane Wonders · Sheriff of Nottingham · rulebook",
+      "credit": "CMON / Arcane Wonders · rulebook mirrored by 1jour-1jeu",
+      "caption": {
+        "zh": "Sheriff of Nottingham · 五人初始布局",
+        "en": "Sheriff of Nottingham · five-player initial setup"
+      },
+      "alt": {
+        "zh": "Sheriff of Nottingham · 五人初始布局",
+        "en": "Sheriff of Nottingham · five-player initial setup"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "第一版规则册中的五人商品、钱币与商人袋布局；研究实现通常简化实体组件，商品集合、谈判和检查规则应按具体任务区分。",
+        "en": "Five-player goods, coins and merchant-bag setup from the first-edition rulebook; research implementations can simplify components and use task-specific goods, negotiation and inspection rules."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://cdn.1j1ju.com/medias/d3/7f/61-sheriff-of-nottingham-rulebook.pdf#page=5",
+        "locator": "PDF page 5 (printed page 3), Setting up the Game, illustrated initial setup.",
+        "note": "PDF page 5 (printed page 3), Setting up the Game, illustrated initial setup."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "ebbb67ddb99665ab54a4046ba78c45ac29da298b4bbf8a2a5ed5a8a4d04001dc",
+      "originalSize": [
+        585,
+        580
+      ],
+      "image": "game-sheriff-of-nottingham.webp",
+      "width": 585,
+      "height": 580,
+      "sha256": {
+        "image": "48ade8bedfdf066b36b83efb7edcab389845a892799e9c460e367ba67002177b"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
       "licenseFile": null
     },
     {
@@ -35381,6 +36396,55 @@
       "sourceType": "repository",
       "identityEvidence": "Official per-game ALE documentation embeds this exact GIF and identifies its Atari environment.",
       "licenseFile": "image-license-Farama-Foundation_Arcade-Learning-Environment.txt"
+    },
+    {
+      "gameId": "skull",
+      "originalSha256": "72323ec887f367c5ed76088355adfb32fd89b74c13f3cfec9a1b9034e0ac1d4e",
+      "originalUrl": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2024/04/SKULL_RULES_ES.pdf",
+      "sourceUrl": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2024/04/SKULL_RULES_ES.pdf#page=7",
+      "sourceType": "official-site",
+      "sourceLabel": "Space Cowboys / Asmodee · Skull · official rules",
+      "credit": "Space Cowboys / Asmodee · Skull · official rules",
+      "caption": {
+        "zh": "Skull · 翻开花朵圆片的挑战示例",
+        "en": "Skull · revealing flower discs during a challenge"
+      },
+      "alt": {
+        "zh": "Skull · 翻开花朵圆片的挑战示例",
+        "en": "Skull · revealing flower discs during a challenge"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "2024 年西班牙语官方规则册中的挑战结算图；实体版花朵与骷髅圆片对应研究环境的隐藏选择，界面与计分表示不同。",
+        "en": "Challenge-resolution illustration from the 2024 Spanish official rulebook; physical flower and skull discs correspond to hidden choices in research environments with different interfaces and score representations."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://cdn.svc.asmodee.net/production-asmodeees/uploads/2024/04/SKULL_RULES_ES.pdf#page=7",
+        "locator": "Official Spanish rules page 7, Resolver la apuesta / Éxito, four-player disc layout.",
+        "note": "Official Spanish rules page 7, Resolver la apuesta / Éxito, four-player disc layout."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "3c72ae34c06e04b87d558ee10826fc24fa8e6c4a4fffc743f5f9dcd37144a0a4",
+      "originalSize": [
+        335,
+        535
+      ],
+      "image": "game-skull.webp",
+      "width": 335,
+      "height": 535,
+      "sha256": {
+        "image": "c3757e8b808cb7ace2e3b1346585223621efbb08c0851426d458d53ff34bb3a7"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "omnigamearena-skyduel",
@@ -36969,6 +38033,54 @@
       "title": "SPRING"
     },
     {
+      "gameId": "spyfall",
+      "originalSha256": "c302053394252ad688280f0a2a06af60f5e8908cfa0e5b45d4712e522cb41b27",
+      "originalUrl": "https://hobbyworldint.com/wp-content/uploads/2019/05/SPY_cards.jpg",
+      "sourceUrl": "https://hobbyworldint.com/portfolio-item/spyfall/",
+      "sourceType": "official-site",
+      "sourceLabel": "Hobby World · Spyfall · official card gallery",
+      "credit": "Hobby World · Spyfall · official card gallery",
+      "caption": {
+        "zh": "Spyfall · 地点卡与间谍身份卡",
+        "en": "Spyfall · location cards and spy-role card"
+      },
+      "alt": {
+        "zh": "Spyfall · 地点卡与间谍身份卡",
+        "en": "Spyfall · location cards and spy-role card"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "Hobby World 原版地点与角色卡参考图；研究任务中的地点集合、角色描述和对话回合由各评测协议定义。",
+        "en": "Location and role cards from Hobby World’s edition; benchmark protocols define their own location sets, role descriptions and dialogue rounds."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://hobbyworldint.com/portfolio-item/spyfall/",
+        "locator": "Hobby World · Spyfall · official card gallery",
+        "note": "Hobby World · Spyfall · official card gallery"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1000,
+        886
+      ],
+      "image": "game-spyfall.webp",
+      "width": 1000,
+      "height": 886,
+      "sha256": {
+        "image": "d62fa42337033d50ab42aa7e6d5c6057241055ae882b356cb524939a5cff328c"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "intuitive-gamer-simple-win",
       "repository": "Farama-Foundation/PettingZoo",
       "commit": "b0fe02166d2106f8fcb6a6e0ca8125765699bdba",
@@ -37736,6 +38848,60 @@
       "verifiedAt": "2026-10-29"
     },
     {
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "gameId": "gamexpert-opt-street-racer",
+      "originalSha256": "d60a18781718fcdc9dd0a2baaf74020428e917e212753c70d4ba5e608e68583d",
+      "originalUrl": "https://arxiv.org/html/2608.21833v1/gameopt_cases.png",
+      "sourceUrl": "https://arxiv.org/html/2608.21833v1#S6.F14",
+      "sourceType": "official-site",
+      "sourceLabel": "GameXpert-Bench paper, Figure 14(b)",
+      "caption": {
+        "zh": "Street Racer 的 Kimi-K3 优化结果：运行中画面",
+        "en": "Street Racer: runtime after Kimi-K3 optimization"
+      },
+      "alt": {
+        "zh": "Street Racer 的 Kimi-K3 优化结果：运行中画面",
+        "en": "Street Racer: runtime after Kimi-K3 optimization"
+      },
+      "credit": "GameXpert-Bench paper, Figure 14(b)",
+      "rightsNote": "Image copyright remains with the credited author or publisher; reproduced as a sourced research-reference illustration.",
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "图为论文展示的 Kimi-K3 首轮界面优化结果；对应 Street Racer v0001 请求链，不是初始参考工程画面。",
+        "en": "Paper-reported Kimi-K3 output after the first UI-optimization turn for the Street Racer v0001 chain, rather than the initial reference project."
+      },
+      "identityEvidence": {
+        "url": "https://arxiv.org/html/2608.21833v1#A3.T20",
+        "locator": "Appendix C.2, Table 20 Street Racer turn 1; Figure 14 case-study request and 39/39 criteria",
+        "note": "Table 20 identifies Street Racer v0001 and its unique first-turn arcade-interface request covering menu, car-selection, runtime HUD and results, with 39 total criteria. Figure 14 repeats this request, shows all four states, and reports 39/39 for Kimi-K3. Selected panel (b) is the runtime state of that optimized chain."
+      },
+      "originalSize": [
+        852,
+        471
+      ],
+      "smallPreview": true,
+      "image": "game-gamexpert-opt-street-racer.webp",
+      "width": 206,
+      "height": 116,
+      "sha256": {
+        "image": "9da0994545d84621926a8fc11b390faed5a124cc3f09ad04703f03a244006737"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          237,
+          126,
+          443,
+          242
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "collection-top-14",
       "repository": "Farama-Foundation/PettingZoo",
       "commit": "b0fe02166d2106f8fcb6a6e0ca8125765699bdba",
@@ -37900,6 +39066,102 @@
       },
       "sourceType": "repository",
       "licenseFile": "image-license-tongjingqi_Game-RL.txt"
+    },
+    {
+      "gameId": "valet-sueca",
+      "originalSha256": "b59f17277348996bd9ae56ea273bc1039357cc46ac0272a2b611e936995f0dd2",
+      "originalUrl": "https://apps.jogatina.com/assets/img/games/sueca/sueca-screenshot-1-en.jpg",
+      "sourceUrl": "https://apps.jogatina.com/en/sueca/",
+      "sourceType": "official-site",
+      "sourceLabel": "Jogatina / Gazeus Games · Sueca official gallery",
+      "credit": "Jogatina / Gazeus Games · Sueca official gallery",
+      "caption": {
+        "zh": "Sueca · Jogatina 四人牌局",
+        "en": "Sueca · Jogatina four-player game"
+      },
+      "alt": {
+        "zh": "Sueca · Jogatina 四人牌局",
+        "en": "Sueca · Jogatina four-player game"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "图为同名游戏的独立实现，用于说明牌局；Valet/CardStock 通过结构化状态与动作评测，界面与具体规则配置不同。",
+        "en": "An independent implementation of the same card game illustrates play. Valet/CardStock evaluates structured states and actions; its interface and rule configuration differ."
+      },
+      "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
+      "identityEvidence": {
+        "url": "https://apps.jogatina.com/en/sueca/",
+        "locator": "Developer page Sueca Jogatina, Images Gallery screenshot 1, with four players, trump and player hand.",
+        "note": "Developer page Sueca Jogatina, Images Gallery screenshot 1, with four players, trump and player hand."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        450,
+        769
+      ],
+      "image": "game-valet-sueca.webp",
+      "width": 450,
+      "height": 769,
+      "sha256": {
+        "image": "662be953d6258e564b39b16c68a839f944a78e85fbd49b46f718d6c47c6aaad5"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "gameId": "gamereplica-suguru",
+      "originalSha256": "1d8e56db50f83479b2128b92337de3eeecdbb5dba9da71e2d73248dca5ba3086",
+      "originalUrl": "https://pzl.org.uk/images/suguru_1.png",
+      "sourceUrl": "https://pzl.org.uk/suguru.html",
+      "sourceType": "official-site",
+      "sourceLabel": "PZL Suguru developer documentation",
+      "caption": {
+        "zh": "Suguru：PZL 实现的 6×6 数字区域谜题",
+        "en": "Suguru: 6×6 region puzzle in the PZL implementation"
+      },
+      "alt": {
+        "zh": "Suguru：PZL 实现的 6×6 数字区域谜题",
+        "en": "Suguru: 6×6 region puzzle in the PZL implementation"
+      },
+      "credit": "PZL Suguru developer documentation",
+      "rightsNote": "Image copyright remains with the credited author or publisher; reproduced as a sourced research-reference illustration.",
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "同名谜题的 PZL 实现参考图。GameReplica 采用独立浏览器版本；配色、候选数字界面、关卡规模和辅助功能不同。",
+        "en": "Reference screenshot of the same named Suguru puzzle in PZL. GameReplica uses an independent browser implementation with different styling, candidate-number UI, level sizes and assistance features."
+      },
+      "identityEvidence": {
+        "url": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
+        "locator": "families key fill: Game18 Suguru; https://pzl.org.uk/suguru.html Introduction, Rules and Suguru Example",
+        "note": "GameReplica explicitly names Game18 Suguru in its logic-grid-fill family. PZL names the pictured game Suguru and describes filling every size-N region with 1..N without equal orthogonal or diagonal neighbors. The screenshot is identified as a PZL implementation reference, not a GameReplica scene."
+      },
+      "originalSize": [
+        358,
+        446
+      ],
+      "image": "game-gamereplica-suguru.webp",
+      "width": 358,
+      "height": 446,
+      "sha256": {
+        "image": "3fda9909b3a6665477b648655aa6001a3348ff7b2ae4d77cf1fb8a4fd167efb1"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "arena-unity-sumo",
@@ -38438,6 +39700,60 @@
       },
       "verifiedAt": "2026-10-29",
       "sourceType": "official-store",
+      "licenseFile": null
+    },
+    {
+      "gameId": "clembench-taboo",
+      "originalSha256": "b2c519f8360c40a2ec1e42146ee25d09827745e5a91d8541d3cfba8c3ef0d80a",
+      "originalUrl": "https://aclanthology.org/2023.emnlp-main.689.pdf",
+      "sourceUrl": "https://aclanthology.org/2023.emnlp-main.689/",
+      "sourceType": "official-site",
+      "sourceLabel": "Chalamalasetti et al. · clembench · Figure 1",
+      "credit": "Chalamalasetti et al. · clembench · Figure 1",
+      "caption": {
+        "zh": "Taboo · 描述、猜词与裁判反馈",
+        "en": "Taboo · clues, guesses and game-master feedback"
+      },
+      "alt": {
+        "zh": "Taboo · 描述、猜词与裁判反馈",
+        "en": "Taboo · clues, guesses and game-master feedback"
+      },
+      "imageMatch": "exact",
+      "imageNote": {
+        "zh": "原论文 Figure 1 的任务回合记录：两位代理围绕 expedition 进行描述与猜词，Game Master 检查禁词和答案；这是文本游戏实例，不是图形客户端。",
+        "en": "Figure 1 records an episode in which two agents describe and guess expedition while the game master checks forbidden words and answers; this is a text-game example rather than a graphical client."
+      },
+      "rightsNote": "Figure extracted from the author-published clembench paper in the ACL Anthology; copyright belongs to the respective authors and ACL.",
+      "identityEvidence": {
+        "url": "https://aclanthology.org/2023.emnlp-main.689/",
+        "locator": "Paper page 11174, Figure 1: An episode of the taboo word game.",
+        "note": "Paper page 11174, Figure 1: An episode of the taboo word game."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "6209838146192a19ade3a247f0ad688059abe51e43f114f52704f0332965016e",
+      "originalSize": [
+        2122,
+        3000
+      ],
+      "image": "game-clembench-taboo.webp",
+      "width": 739,
+      "height": 900,
+      "sha256": {
+        "image": "5c96c0176108afc406ec2e81d586f33d14f69ee41afacf9b4082fbac9a284bda"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": [
+          1082,
+          750,
+          1846,
+          1680
+        ],
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
       "licenseFile": null
     },
     {
@@ -39138,6 +40454,107 @@
       "licenseFile": null
     },
     {
+      "gameId": "the-awakening",
+      "originalSha256": "7efef5a66ba4370980999a5398e25d496a6c0400096d0d0dddfc662e88df11c7",
+      "originalUrl": "https://www.amigapd.com/uploads/5/5/0/1/5501110/1543427.png",
+      "sourceUrl": "https://www.amigapd.com/amiga-pd-games-a.html",
+      "sourceLabel": "AmigaPD · The Awakening screenshot",
+      "sourceType": "third-party",
+      "credit": "AmigaPD · The Awakening screenshot",
+      "caption": {
+        "zh": "The Awakening · 文本交互界面",
+        "en": "The Awakening · text interaction interface"
+      },
+      "alt": {
+        "zh": "The Awakening · 文本交互界面",
+        "en": "The Awakening · text interaction interface"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "Amiga Frotz 1.01 解释器中的实际文本游戏界面；字体、窗口和输入显示与 Jericho 的程序接口不同。",
+        "en": "Actual text-game interface in the Amiga Frotz 1.01 interpreter; fonts, window and input presentation differ from the Jericho programmatic interface."
+      },
+      "identityEvidence": {
+        "url": "https://www.amigapd.com/amiga-pd-games-a.html",
+        "locator": "The Awakening heading and named screenshot",
+        "note": "The screenshot visibly names The Awakening and credits Dennis Matheson; the interpreter window includes actual room descriptions and a command prompt."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Game artwork and published images remain with their respective rights holders; source attribution does not imply an open image license.",
+      "pixelArt": true,
+      "smallPreview": true,
+      "originalSize": [
+        250,
+        200
+      ],
+      "image": "game-the-awakening.webp",
+      "width": 250,
+      "height": 200,
+      "sha256": {
+        "image": "d6ecc1aea3755f997f9a5787549035dfed4c6f938c00d777998e9e7ffeb4e6b1"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "chameleon",
+      "originalSha256": "c977ab8899d7462bfc579c67762dafef99b6eb54e64b578ae67d7c8cc3c38b99",
+      "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_Chameleon_party_game_box%2C_rules%2C_and_cards_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Chameleon_party_game_box,_rules,_and_cards_02.jpg",
+      "sourceType": "encyclopedia",
+      "sourceLabel": "Wikimedia Commons · Harrison Keely",
+      "credit": "Harrison Keely · Wikimedia Commons",
+      "caption": {
+        "zh": "The Chameleon · 主题卡、代码卡与骰子",
+        "en": "The Chameleon · topic cards, code cards and dice"
+      },
+      "alt": {
+        "zh": "The Chameleon · 主题卡、代码卡与骰子",
+        "en": "The Chameleon · topic cards, code cards and dice"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "实体英文版主题词与代码卡参考图；语言智能体评测通常用文本传递秘密词和线索，词表、人数与计分按具体协议设定。",
+        "en": "Physical English-edition topic and code cards; language-agent evaluations typically transmit secret words and clues as text, with protocol-specific vocabularies, player counts and scoring."
+      },
+      "rightsNote": "Harrison Keely · Wikimedia Commons; CC BY 4.0. Image resized or cropped for display; the credited image license applies to the resulting image.",
+      "identityEvidence": {
+        "url": "https://commons.wikimedia.org/wiki/File:The_Chameleon_party_game_box,_rules,_and_cards_02.jpg",
+        "locator": "The Chameleon party game box, rules, and cards, 17 June 2024; photographer Harrison Keely; CC BY 4.0.",
+        "note": "The Chameleon party game box, rules, and cards, 17 June 2024; photographer Harrison Keely; CC BY 4.0."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "license": "CC BY 4.0",
+      "licenseLabel": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "originalSize": [
+        5712,
+        4284
+      ],
+      "image": "game-chameleon.webp",
+      "width": 1200,
+      "height": 900,
+      "sha256": {
+        "image": "d7e6ce03a97b8c9fd253eb52ab577c43e6f610ae7df3427ea911dd9b166660a8"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
       "gameId": "incredible-machine",
       "originalSha256": "d704e6fa14ea90ef25a3707da0ff02cb1c81a097e55ffb6da76641b1fe408773",
       "originalUrl": "https://upload.wikimedia.org/wikipedia/en/c/c4/The_Incredible_Machine_3.png",
@@ -39321,6 +40738,152 @@
       },
       "licenseFile": null,
       "verifiedAt": "2026-10-29"
+    },
+    {
+      "gameId": "resistance",
+      "originalSha256": "f32bf8d324023c53c7126b4745ef7df48c9b96033b906af66413c4af4dce2ebc",
+      "originalUrl": "https://indieboardsandcards.com/wp-content/uploads/2019/10/MG_8695.jpg",
+      "sourceUrl": "https://indieboardsandcards.com/our-games/the-resistance/",
+      "sourceType": "official-site",
+      "sourceLabel": "Indie Boards & Cards · The Resistance · official gallery",
+      "credit": "Indie Boards & Cards · The Resistance · official gallery",
+      "caption": {
+        "zh": "The Resistance · 任务轨道与投票牌局",
+        "en": "The Resistance · mission track and voting layout"
+      },
+      "alt": {
+        "zh": "The Resistance · 任务轨道与投票牌局",
+        "en": "The Resistance · mission track and voting layout"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "出版方展示的七人实体牌局；不同研究实现的人数、附加角色及对话协议可另行配置。",
+        "en": "Publisher photograph of a seven-player physical game; research implementations can configure other player counts, optional roles and dialogue protocols."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://indieboardsandcards.com/our-games/the-resistance/",
+        "locator": "Indie Boards & Cards · The Resistance · official gallery",
+        "note": "Indie Boards & Cards · The Resistance · official gallery"
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "originalSize": [
+        1500,
+        1000
+      ],
+      "image": "game-resistance.webp",
+      "width": 1200,
+      "height": 800,
+      "sha256": {
+        "image": "881bf9c2f06162e54e8dc90e041b421ec41e415e60ffc826b851edb3d6988f5f"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "avalon-board",
+      "originalSha256": "94a34e8d57b1a5f8c0901f0962dac3bd5ffb8a3eb89aaa02b7721b0d012515dd",
+      "originalUrl": "https://cdn.1j1ju.com/medias/a6/dc/c1-the-resistance-avalon-rulebook.pdf",
+      "sourceUrl": "https://cdn.1j1ju.com/medias/a6/dc/c1-the-resistance-avalon-rulebook.pdf#page=4",
+      "sourceType": "third-party",
+      "sourceLabel": "Indie Boards & Cards · The Resistance: Avalon · rulebook",
+      "credit": "Indie Boards & Cards · rulebook mirrored by 1jour-1jeu",
+      "caption": {
+        "zh": "阿瓦隆 · 队伍表决示例",
+        "en": "The Resistance: Avalon · team-vote example"
+      },
+      "alt": {
+        "zh": "阿瓦隆 · 队伍表决示例",
+        "en": "The Resistance: Avalon · team-vote example"
+      },
+      "imageMatch": "related-environment",
+      "imageNote": {
+        "zh": "原版规则册中的五人队伍表决示例；实体卡牌说明任务流程，研究实现的角色组合和交流轮次以其协议为准。",
+        "en": "A five-player team-vote example from the original rulebook; physical cards illustrate the procedure, while research protocols specify role combinations and discussion rounds."
+      },
+      "rightsNote": "Images reproduced from the credited source for research indexing; game artwork remains with the respective rights holders. No open image license is implied unless separately specified.",
+      "identityEvidence": {
+        "url": "https://cdn.1j1ju.com/medias/a6/dc/c1-the-resistance-avalon-rulebook.pdf#page=4",
+        "locator": "Rulebook PDF page 4, Team Vote example; crop contains the five-player voting layout.",
+        "note": "Rulebook PDF page 4, Team Vote example; crop contains the five-player voting layout."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rasterSha256": "68dae84d35346b2223d1a8df628c34719a1a6390d35e313faf4db74773159ba4",
+      "originalSize": [
+        700,
+        345
+      ],
+      "image": "game-avalon-board.webp",
+      "width": 700,
+      "height": 345,
+      "sha256": {
+        "image": "d33e7b55e44b9cb0929fccef1288ad84194dd920327a7fd874cb337000cb30e5"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "WebP quality 88"
+      },
+      "licenseFile": null
+    },
+    {
+      "gameId": "sword-of-hope",
+      "originalSha256": "79f3175a6bd238b337fba41abe8b98fc6b87b0bd3aff8dd57f4de9b9c6edce8e",
+      "originalUrl": "https://i0.wp.com/thekingofgrabs.com/wp-content/uploads/2024/03/the-sword-of-hope-game-boy-006.png",
+      "sourceUrl": "https://thekingofgrabs.com/2024/03/11/the-sword-of-hope-game-boy/",
+      "sourceLabel": "Mallo / The King of Grabs · The Sword of Hope, image 006",
+      "sourceType": "third-party",
+      "credit": "Mallo / The King of Grabs · The Sword of Hope, image 006",
+      "caption": {
+        "zh": "The Sword of Hope · 森林探索与文字事件",
+        "en": "The Sword of Hope · forest exploration and text event"
+      },
+      "alt": {
+        "zh": "The Sword of Hope · 森林探索与文字事件",
+        "en": "The Sword of Hope · forest exploration and text event"
+      },
+      "imageMatch": "different-version",
+      "imageNote": {
+        "zh": "原版 Game Boy 游戏实景，取自署名游戏图库；模拟器、显示配色及 ROM 修订版与 GameBoyWorlds 配置可能不同。",
+        "en": "Original Game Boy gameplay from a credited gallery; emulator, palette and ROM revision may differ from the GameBoyWorlds setup."
+      },
+      "identityEvidence": {
+        "url": "https://thekingofgrabs.com/2024/03/11/the-sword-of-hope-game-boy/",
+        "locator": "Named game gallery, image 006",
+        "note": "The gallery names The Sword of Hope (Game Boy); the inspected image displays the woodland exploration interface."
+      },
+      "verifiedAt": "2026-10-31",
+      "visuallyVerified": true,
+      "rightsNote": "Game artwork and published images remain with their respective rights holders; source attribution does not imply an open image license.",
+      "pixelArt": true,
+      "originalSize": [
+        640,
+        576
+      ],
+      "image": "game-sword-of-hope.webp",
+      "width": 640,
+      "height": 576,
+      "sha256": {
+        "image": "f369dedc3c082765e00062ce95874774e32f381023fbe35f4c734625d4cbc54b"
+      },
+      "processing": {
+        "frameIndex": 0,
+        "frameTimeSeconds": null,
+        "crop": null,
+        "resize": "Aspect-preserving; no upscaling",
+        "encoding": "Lossless WebP"
+      },
+      "licenseFile": null
     },
     {
       "gameId": "sword-of-hope-ii",
