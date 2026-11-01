@@ -1,0 +1,6824 @@
+{
+  "capturedAt": "2026-11-01T14:18:31+00:00",
+  "tables": [
+    {
+      "source": {
+        "url": "https://balrogai.com/",
+        "pageSha256": "9d14a3ad953686cc3ce03ef5b73e8bdcbc5dc4f464299449556d1107cd99deec",
+        "pageUpdatedAt": null
+      },
+      "table": {
+        "id": "leaderboard-table-LLM",
+        "rows": [
+          {
+            "attrs": {},
+            "cells": [
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "Agent",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "% Progress",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "BabyAI",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "Crafter",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "TextWorld",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "BabaIsAI",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "MiniHack",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "NetHack",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "Date",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Claude-Opus-5-Max&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥈 🕹️ Claude-Opus-5-Max",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "63.397667959098726"
+                },
+                "text": "63.4 ± 1.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "100.0"
+                },
+                "text": "100.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "68.18181818181817"
+                },
+                "text": "68.2 ± 3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "71.56862745098039"
+                },
+                "text": "71.6 ± 6.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "95.83333333333334"
+                },
+                "text": "95.8 ± 1.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "37.5"
+                },
+                "text": "37.5 ± 7.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.302228788460449"
+                },
+                "text": "7.3 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-09-20"
+                },
+                "text": "2026-09-20",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Claude-Opus-4.5&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Claude-Opus-4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "43.54618446646006"
+                },
+                "text": "43.5 ± 2.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "80.0"
+                },
+                "text": "80.0 ± 5.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "49.54545454545454"
+                },
+                "text": "49.5 ± 3.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "51.372549019607824"
+                },
+                "text": "51.4 ± 8.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.83333333333333"
+                },
+                "text": "50.8 ± 4.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.500000000000004"
+                },
+                "text": "27.5 ± 7.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.02576990036468"
+                },
+                "text": "2.0 ± 0.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-02-24"
+                },
+                "text": "2026-02-24",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.3-70B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.3-70B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "23.03203437290035"
+                },
+                "text": "23.0 ± 1.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "66.0"
+                },
+                "text": "66.0 ± 6.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "28.636363636363633"
+                },
+                "text": "28.6 ± 4.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "9.019607843137255"
+                },
+                "text": "9.0 ± 2.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.166666666666668"
+                },
+                "text": "29.2 ± 4.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.36956809123452017"
+                },
+                "text": "0.4 ± 0.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-12-09"
+                },
+                "text": "2024-12-09",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-4o-2024-05-13&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ GPT-4o-2024-05-13",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.34"
+                },
+                "text": "32.3 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "77.6"
+                },
+                "text": "77.6 ± 3.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.1"
+                },
+                "text": "33.1 ± 2.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "39.31"
+                },
+                "text": "39.3 ± 5.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.66"
+                },
+                "text": "33.7 ± 3.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "10.0"
+                },
+                "text": "10.0 ± 4.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.37"
+                },
+                "text": "0.4 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-1.5-Pro-002&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-1.5-Pro-002",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "21.0"
+                },
+                "text": "21.0 ± 1.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "58.4"
+                },
+                "text": "58.4 ± 4.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "30.21"
+                },
+                "text": "30.2 ± 2.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.02"
+                },
+                "text": "32.0 ± 3.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.37"
+                },
+                "text": "0.4 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.2-11B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.2-11B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.825"
+                },
+                "text": "16.8 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 7.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "26.19"
+                },
+                "text": "26.2 ± 3.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.66"
+                },
+                "text": "6.7 ± 2.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.6"
+                },
+                "text": "15.6 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Grok-4&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Grok-4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "43.55037625935449"
+                },
+                "text": "43.6 ± 2.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "76.0"
+                },
+                "text": "76.0 ± 6.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "57.272727272727266"
+                },
+                "text": "57.3 ± 3.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "62.941176470588225"
+                },
+                "text": "62.9 ± 7.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "45.83333333333333"
+                },
+                "text": "45.8 ± 4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "17.5"
+                },
+                "text": "17.5 ± 6.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.7550204794781488"
+                },
+                "text": "1.8 ± 0.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-07-23"
+                },
+                "text": "2025-07-23",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.2-1B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.2-1B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.648989898989899"
+                },
+                "text": "6.6 ± 1.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "8.0"
+                },
+                "text": "8.0 ± 3.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.727272727272727"
+                },
+                "text": "12.7 ± 1.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.3333333333333335"
+                },
+                "text": "3.3 ± 0.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "10.833333333333334"
+                },
+                "text": "10.8 ± 2.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Claude-Opus-4.5-Thinking&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Claude-Opus-4.5-Thinking",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "42.980482737201726"
+                },
+                "text": "43.0 ± 2.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "72.0"
+                },
+                "text": "72.0 ± 6.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "48.63636363636363"
+                },
+                "text": "48.6 ± 3.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "59.019607843137244"
+                },
+                "text": "59.0 ± 8.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "45.83333333333333"
+                },
+                "text": "45.8 ± 4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "30.0"
+                },
+                "text": "30.0 ± 7.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.3935916103761268"
+                },
+                "text": "2.4 ± 0.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-02-24"
+                },
+                "text": "2026-02-24",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-5.6-Terra-Max&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ GPT-5.6-Terra-Max",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "53.197719927265794"
+                },
+                "text": "53.2 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "98.0"
+                },
+                "text": "98.0 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "55.00000000000001"
+                },
+                "text": "55.0 ± 4.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.84313725490196"
+                },
+                "text": "27.8 ± 7.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "97.5"
+                },
+                "text": "97.5 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "37.5"
+                },
+                "text": "37.5 ± 7.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.3431823086928034"
+                },
+                "text": "3.3 ± 1.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-09-20"
+                },
+                "text": "2026-09-20",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=DeepSeek-R1&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ DeepSeek-R1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "34.89071895962323"
+                },
+                "text": "34.9 ± 2.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "74.0"
+                },
+                "text": "74.0 ± 6.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "36.36363636363637"
+                },
+                "text": "36.4 ± 3.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "21.764705882352942"
+                },
+                "text": "21.8 ± 6.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.83333333333333"
+                },
+                "text": "50.8 ± 4.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "25.0"
+                },
+                "text": "25.0 ± 6.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.3826381784167503"
+                },
+                "text": "1.4 ± 0.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-04-10"
+                },
+                "text": "2025-04-10",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Claude-3.5-Sonnet-2024-10-22&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Claude-3.5-Sonnet-2024-10-22",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.64471266283788"
+                },
+                "text": "32.6 ± 1.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "68.0"
+                },
+                "text": "68.0 ± 6.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.72727272727273"
+                },
+                "text": "32.7 ± 3.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "42.05882352941177"
+                },
+                "text": "42.1 ± 5.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "37.5"
+                },
+                "text": "37.5 ± 4.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.0"
+                },
+                "text": "15.0 ± 5.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.5821797203427749"
+                },
+                "text": "0.6 ± 0.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-6-Astra-Max&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥇 🕹️ GPT-6-Astra-Max",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "68.26067146003166"
+                },
+                "text": "68.3 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "100.0"
+                },
+                "text": "100.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "76.81818181818183"
+                },
+                "text": "76.8 ± 3.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "54.509803921568626"
+                },
+                "text": "54.5 ± 7.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "100.0"
+                },
+                "text": "100.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "65.0"
+                },
+                "text": "65.0 ± 7.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.2360430204395"
+                },
+                "text": "13.2 ± 2.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-09-18"
+                },
+                "text": "2026-09-18",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-4o-mini-2024-07-18&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ GPT-4o-mini-2024-07-18",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "17.36"
+                },
+                "text": "17.4 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.4"
+                },
+                "text": "50.4 ± 4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.9"
+                },
+                "text": "15.9 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.25"
+                },
+                "text": "12.2 ± 3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.6"
+                },
+                "text": "15.6 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "10.0"
+                },
+                "text": "10.0 ± 4.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Reka-Flash-3&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Reka-Flash-3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.19233586394863"
+                },
+                "text": "29.2 ± 1.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "76.0"
+                },
+                "text": "76.0 ± 6.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.63636363636363"
+                },
+                "text": "33.6 ± 3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "11.568627450980392"
+                },
+                "text": "11.6 ± 4.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "43.333333333333336"
+                },
+                "text": "43.3 ± 4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "10.0"
+                },
+                "text": "10.0 ± 4.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.6156907630144469"
+                },
+                "text": "0.6 ± 0.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-03-13"
+                },
+                "text": "2025-03-13",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-2.5-Flash&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-2.5-Flash",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.48363979929569"
+                },
+                "text": "33.5 ± 2.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "68.0"
+                },
+                "text": "68.0 ± 6.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "40.0"
+                },
+                "text": "40.0 ± 4.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.607843137254903"
+                },
+                "text": "29.6 ± 7.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 4.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.5"
+                },
+                "text": "12.5 ± 5.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.7939956585192304"
+                },
+                "text": "0.8 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-07-22"
+                },
+                "text": "2025-07-22",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-3.1-Pro-Thinking&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-3.1-Pro-Thinking",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "57.02049703308491"
+                },
+                "text": "57.0 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "98.0"
+                },
+                "text": "98.0 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "54.99999999999999"
+                },
+                "text": "55.0 ± 6.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "75.68627450980391"
+                },
+                "text": "75.7 ± 6.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "83.33333333333334"
+                },
+                "text": "83.3 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.500000000000004"
+                },
+                "text": "27.5 ± 7.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.6033743553721593"
+                },
+                "text": "2.6 ± 0.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-02-25"
+                },
+                "text": "2026-02-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.1-70B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.1-70B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.876666666666665"
+                },
+                "text": "27.9 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "73.2"
+                },
+                "text": "73.2 ± 4.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "31.21"
+                },
+                "text": "31.2 ± 2.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.0"
+                },
+                "text": "15.0 ± 4.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "40.0"
+                },
+                "text": "40.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.5"
+                },
+                "text": "7.5 ± 4.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.35"
+                },
+                "text": "0.3 ± 0.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-5.6-Luna-Max&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ GPT-5.6-Luna-Max",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "45.56872168447204"
+                },
+                "text": "45.6 ± 1.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "98.0"
+                },
+                "text": "98.0 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "55.454545454545446"
+                },
+                "text": "55.5 ± 4.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.235294117647058"
+                },
+                "text": "18.2 ± 5.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "77.5"
+                },
+                "text": "77.5 ± 3.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "22.5"
+                },
+                "text": "22.5 ± 6.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.7224905346397403"
+                },
+                "text": "1.7 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-09-18"
+                },
+                "text": "2026-09-18",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Microsoft-Phi-4&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Microsoft-Phi-4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "11.642008318478906"
+                },
+                "text": "11.6 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.0"
+                },
+                "text": "32.0 ± 6.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.636363636363635"
+                },
+                "text": "13.6 ± 2.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5490196078431375"
+                },
+                "text": "2.5 ± 0.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.666666666666664"
+                },
+                "text": "16.7 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-01-13"
+                },
+                "text": "2025-01-13",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=DeepSeek-R1-Distill-Qwen-32B&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ DeepSeek-R1-Distill-Qwen-32B",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "19.471228579431113"
+                },
+                "text": "19.5 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "48.0"
+                },
+                "text": "48.0 ± 7.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.999999999999996"
+                },
+                "text": "15.0 ± 2.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "10.588235294117649"
+                },
+                "text": "10.6 ± 3.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "40.0"
+                },
+                "text": "40.0 ± 4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.7391361824690403"
+                },
+                "text": "0.7 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-01-26"
+                },
+                "text": "2025-01-26",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-3.1-Pro&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-3.1-Pro",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "56.886176240183914"
+                },
+                "text": "56.9 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "100.0"
+                },
+                "text": "100.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "46.81818181818181"
+                },
+                "text": "46.8 ± 4.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "66.47058823529412"
+                },
+                "text": "66.5 ± 7.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "90.0"
+                },
+                "text": "90.0 ± 2.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "35.0"
+                },
+                "text": "35.0 ± 7.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.0282873876275773"
+                },
+                "text": "3.0 ± 0.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-02-21"
+                },
+                "text": "2026-02-21",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Claude-3.5-Haiku-2024-10-22&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Claude-3.5-Haiku-2024-10-22",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "19.31525904701802"
+                },
+                "text": "19.3 ± 1.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "52.0"
+                },
+                "text": "52.0 ± 7.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "26.36363636363636"
+                },
+                "text": "26.4 ± 2.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.03921568627451"
+                },
+                "text": "18.0 ± 5.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "8.333333333333332"
+                },
+                "text": "8.3 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "10.0"
+                },
+                "text": "10.0 ± 4.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.1553688988639115"
+                },
+                "text": "1.2 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-12-11"
+                },
+                "text": "2024-12-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Qwen2.5-72B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Qwen2.5-72B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.18"
+                },
+                "text": "16.2 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "34.0"
+                },
+                "text": "34.0 ± 6.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.272727272727277"
+                },
+                "text": "27.3 ± 3.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "11.176470588235295"
+                },
+                "text": "11.2 ± 3.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "19.327731092436977"
+                },
+                "text": "19.3 ± 3.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.30784538150722346"
+                },
+                "text": "0.3 ± 0.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-25"
+                },
+                "text": "2024-11-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-5.6-Sol-Max&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥉 🕹️ GPT-5.6-Sol-Max",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "59.97091057399736"
+                },
+                "text": "60.0 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "98.0"
+                },
+                "text": "98.0 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "55.9090909090909"
+                },
+                "text": "55.9 ± 4.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "63.52941176470588"
+                },
+                "text": "63.5 ± 7.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "96.66666666666667"
+                },
+                "text": "96.7 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "42.5"
+                },
+                "text": "42.5 ± 7.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.2202941035206685"
+                },
+                "text": "3.2 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-09-18"
+                },
+                "text": "2026-09-18",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Qwen-2.5-7B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Qwen-2.5-7B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.797534165181225"
+                },
+                "text": "7.8 ± 1.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.000000000000002"
+                },
+                "text": "14.0 ± 4.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.363636363636363"
+                },
+                "text": "16.4 ± 3.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.9215686274509802"
+                },
+                "text": "3.9 ± 1.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.5"
+                },
+                "text": "12.5 ± 3.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-25"
+                },
+                "text": "2024-11-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-3-Flash&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-3-Flash",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "48.08088119335723"
+                },
+                "text": "48.1 ± 2.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "86.0"
+                },
+                "text": "86.0 ± 4.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "45.0"
+                },
+                "text": "45.0 ± 6.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.19607843137255"
+                },
+                "text": "50.2 ± 8.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "73.33333333333333"
+                },
+                "text": "73.3 ± 4.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "30.0"
+                },
+                "text": "30.0 ± 7.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.9558753954374732"
+                },
+                "text": "4.0 ± 0.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-02-13"
+                },
+                "text": "2026-02-13",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-2.5-Pro-Exp-03-25&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-2.5-Pro-Exp-03-25",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "43.346016457403294"
+                },
+                "text": "43.3 ± 2.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "80.0"
+                },
+                "text": "80.0 ± 5.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "55.00000000000001"
+                },
+                "text": "55.0 ± 6.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "49.2156862745098"
+                },
+                "text": "49.2 ± 8.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "56.666666666666664"
+                },
+                "text": "56.7 ± 4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "17.5"
+                },
+                "text": "17.5 ± 6.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.6937458032433108"
+                },
+                "text": "1.7 ± 0.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-04-25"
+                },
+                "text": "2025-04-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Qwen2-VL-7B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Qwen2-VL-7B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.665881504116798"
+                },
+                "text": "3.7 ± 0.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.0"
+                },
+                "text": "4.0 ± 2.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.363636363636363"
+                },
+                "text": "6.4 ± 1.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.5686274509803921"
+                },
+                "text": "1.6 ± 0.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.563025210084033"
+                },
+                "text": "7.6 ± 2.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-25"
+                },
+                "text": "2024-11-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.1-8B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.1-8B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.144385026737966"
+                },
+                "text": "15.1 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "36.0"
+                },
+                "text": "36.0 ± 6.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "25.454545454545453"
+                },
+                "text": "25.5 ± 3.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.07843137254902"
+                },
+                "text": "6.1 ± 2.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.333333333333332"
+                },
+                "text": "18.3 ± 3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Mistral-Nemo-it-2407&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Mistral-Nemo-it-2407",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "17.646375893946985"
+                },
+                "text": "17.6 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 7.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.727272727272727"
+                },
+                "text": "27.7 ± 2.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.509803921568627"
+                },
+                "text": "4.5 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.833333333333336"
+                },
+                "text": "20.8 ± 3.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.30784538150722346"
+                },
+                "text": "0.3 ± 0.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-12-09"
+                },
+                "text": "2024-12-09",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Qwen2-VL-72B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Qwen2-VL-72B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.75"
+                },
+                "text": "12.8 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "24.0"
+                },
+                "text": "24.0 ± 6.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "22.72"
+                },
+                "text": "22.7 ± 2.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.47"
+                },
+                "text": "16.5 ± 5.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "10.83"
+                },
+                "text": "10.8 ± 2.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-25"
+                },
+                "text": "2024-11-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.2-3B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.2-3B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "10.133689839572192"
+                },
+                "text": "10.1 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 5.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "17.27272727272727"
+                },
+                "text": "17.3 ± 2.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.5294117647058822"
+                },
+                "text": "3.5 ± 1.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "17.5"
+                },
+                "text": "17.5 ± 3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Claude-Haiku-4.5&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Claude-Haiku-4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "31.240641711229948"
+                },
+                "text": "31.2 ± 2.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "66.0"
+                },
+                "text": "66.0 ± 6.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "24.09090909090909"
+                },
+                "text": "24.1 ± 3.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "49.01960784313725"
+                },
+                "text": "49.0 ± 7.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.33333333333333"
+                },
+                "text": "33.3 ± 4.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.0"
+                },
+                "text": "15.0 ± 5.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-02-24"
+                },
+                "text": "2026-02-24",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-1.5-Flash-002&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-1.5-Flash-002",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.633333333333333"
+                },
+                "text": "14.6 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 7.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.8"
+                },
+                "text": "12.8 ± 2.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-5-minimal-think&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ GPT-5-minimal-think",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.806020394338006"
+                },
+                "text": "32.8 ± 2.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "80.0"
+                },
+                "text": "80.0 ± 5.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "39.09090909090909"
+                },
+                "text": "39.1 ± 4.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "30.588235294117645"
+                },
+                "text": "30.6 ± 7.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "25.833333333333336"
+                },
+                "text": "25.8 ± 4.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 7.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.3236446476679857"
+                },
+                "text": "1.3 ± 0.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-08-19"
+                },
+                "text": "2025-08-19",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-3-Pro&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-3-Pro",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "58.09553788130927"
+                },
+                "text": "58.1 ± 2.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "96.0"
+                },
+                "text": "96.0 ± 2.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "57.272727272727266"
+                },
+                "text": "57.3 ± 4.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "60.196078431372555"
+                },
+                "text": "60.2 ± 7.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "88.33333333333333"
+                },
+                "text": "88.3 ± 2.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "40.0"
+                },
+                "text": "40.0 ± 7.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.771088250422433"
+                },
+                "text": "6.8 ± 3.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2026-02-03"
+                },
+                "text": "2026-02-03",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.2-90B-it&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.2-90B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.293333333333337"
+                },
+                "text": "27.3 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "72.0"
+                },
+                "text": "72.0 ± 6.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "31.68"
+                },
+                "text": "31.7 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "11.18"
+                },
+                "text": "11.2 ± 3.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "43.9"
+                },
+                "text": "43.9 ± 3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Grok-3-beta&leaderboard=LLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Grok-3-beta",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.503487428508553"
+                },
+                "text": "29.5 ± 2.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "62.0"
+                },
+                "text": "62.0 ± 6.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "25.000000000000007"
+                },
+                "text": "25.0 ± 4.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.549019607843135"
+                },
+                "text": "32.5 ± 6.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.33333333333333"
+                },
+                "text": "33.3 ± 4.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "22.5"
+                },
+                "text": "22.5 ± 6.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.638571629874851"
+                },
+                "text": "1.6 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-04-25"
+                },
+                "text": "2025-04-25",
+                "links": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "url": "https://balrogai.com/",
+        "pageSha256": "9d14a3ad953686cc3ce03ef5b73e8bdcbc5dc4f464299449556d1107cd99deec",
+        "pageUpdatedAt": null
+      },
+      "table": {
+        "id": "leaderboard-table-VLM",
+        "rows": [
+          {
+            "attrs": {},
+            "cells": [
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "Agent",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "% Progress",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "BabyAI",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "Crafter",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "BabaIsAI",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "MiniHack",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "NetHack",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {},
+                "text": "Date",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-1.5-Pro-002&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥉 🕹️ ✔️ Gemini-1.5-Pro-002",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "25.7568"
+                },
+                "text": "25.8 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "58.4"
+                },
+                "text": "58.4 ± 4.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.5"
+                },
+                "text": "33.5 ± 2.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "31.4"
+                },
+                "text": "31.4 ± 3.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.484"
+                },
+                "text": "0.5 ± 0.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.2-11B-it&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.2-11B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "8.434"
+                },
+                "text": "8.4 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.0"
+                },
+                "text": "18.0 ± 5.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.91"
+                },
+                "text": "15.9 ± 1.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.76"
+                },
+                "text": "5.8 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Claude-3.5-Sonnet-2024-10-22&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥈 🕹️ ✔️ Claude-3.5-Sonnet-2024-10-22",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "35.47637553683924"
+                },
+                "text": "35.5 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "82.0"
+                },
+                "text": "82.0 ± 5.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "37.272727272727266"
+                },
+                "text": "37.3 ± 3.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "34.45378151260504"
+                },
+                "text": "34.5 ± 4.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "22.5"
+                },
+                "text": "22.5 ± 6.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.1553688988639113"
+                },
+                "text": "1.2 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-4o-2024-05-13&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ GPT-4o-2024-05-13",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "22.560000000000002"
+                },
+                "text": "22.6 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "62.0"
+                },
+                "text": "62.0 ± 4.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "26.81"
+                },
+                "text": "26.8 ± 3.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.62"
+                },
+                "text": "18.6 ± 2.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.37"
+                },
+                "text": "0.4 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-2.5-Pro-Exp-03-25&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥇 🕹️ ✔️ Gemini-2.5-Pro-Exp-03-25",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "35.74892644718709"
+                },
+                "text": "35.7 ± 2.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "74.0"
+                },
+                "text": "74.0 ± 6.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "37.27272727272727"
+                },
+                "text": "37.3 ± 4.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "53.333333333333336"
+                },
+                "text": "53.3 ± 4.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.5"
+                },
+                "text": "12.5 ± 5.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.638571629874851"
+                },
+                "text": "1.6 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2025-04-25"
+                },
+                "text": "2025-04-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Qwen2-VL-7B-it&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Qwen2-VL-7B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.3799560913219935"
+                },
+                "text": "4.4 ± 0.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.0"
+                },
+                "text": "2.0 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.454545454545454"
+                },
+                "text": "5.5 ± 0.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "11.864406779661017"
+                },
+                "text": "11.9 ± 3.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-25"
+                },
+                "text": "2024-11-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=GPT-4o-mini-2024-07-18&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ GPT-4o-mini-2024-07-18",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.3632"
+                },
+                "text": "15.4 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "38.0"
+                },
+                "text": "38.0 ± 4.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "19.906"
+                },
+                "text": "19.9 ± 3.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.41"
+                },
+                "text": "16.4 ± 2.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Qwen2-VL-72B-it&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Qwen2-VL-72B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.212"
+                },
+                "text": "12.2 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "34.0"
+                },
+                "text": "34.0 ± 6.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.63"
+                },
+                "text": "18.6 ± 2.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.93"
+                },
+                "text": "5.9 ± 2.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-25"
+                },
+                "text": "2024-11-25",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Gemini-1.5-Flash-002&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Gemini-1.5-Flash-002",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.940000000000001"
+                },
+                "text": "14.9 ± 1.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "43.2"
+                },
+                "text": "43.2 ± 4.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.7"
+                },
+                "text": "20.7 ± 4.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "8.3"
+                },
+                "text": "8.3 ± 1.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "onclick": "window.location.href='viewer.html?model=Llama-3.2-90B-it&leaderboard=VLM'",
+              "style": "cursor: pointer;"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🕹️ ✔️ Llama-3.2-90B-it",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.988"
+                },
+                "text": "21.0 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "66.0"
+                },
+                "text": "66.0 ± 6.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.54"
+                },
+                "text": "14.5 ± 1.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "21.9"
+                },
+                "text": "21.9 ± 2.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.5"
+                },
+                "text": "2.5 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2024-11-11"
+                },
+                "text": "2024-11-11",
+                "links": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "url": "https://krafton-ai.github.io/orak-leaderboard/",
+        "pageSha256": "3ada8f0f812ba3876e5d80ac053b79531cd463f4cfae57c9ef45c834b5fb0953",
+        "pageUpdatedAt": "2025-06-09"
+      },
+      "table": {
+        "id": "performance-table-leaderboard",
+        "rows": [
+          {
+            "attrs": {},
+            "cells": [
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    Agent\n                  : activate to sort column ascending",
+                  "style": "width: 284.458px;"
+                },
+                "text": "Model (Agentic Strategy)",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting sorting_desc",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-sort": "ascending",
+                  "aria-label": "\n                    Avg.Rank\n                  : activate to sort column ascending",
+                  "style": "width: 78.9271px;"
+                },
+                "text": "Avg.Rank",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    StreetFighterIII\n                  : activate to sort column ascending",
+                  "style": "width: 284.458px;"
+                },
+                "text": "StreetFighterIII",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    Supermario\n                  : activate to sort column descending",
+                  "style": "width: 52.6458px;"
+                },
+                "text": "Supermario",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    AceAttorney\n                  : activate to sort column descending",
+                  "style": "width: 52.6458px;"
+                },
+                "text": "AceAttorney",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    HerStory\n                  : activate to sort column descending",
+                  "style": "width: 52.6458px;"
+                },
+                "text": "HerStory",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    Pokémon\n                  : activate to sort column descending",
+                  "style": "width: 76.3021px;"
+                },
+                "text": "Pokémon",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    DarkestDungeon\n                  : activate to sort column descending",
+                  "style": "width: 64.6979px;"
+                },
+                "text": "DarkestDun",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    MineCraft\n                  : activate to sort column descending",
+                  "style": "width: 69.5833px;"
+                },
+                "text": "MineCraft",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    StardewValley\n                  : activate to sort column descending",
+                  "style": "width: 63.7708px;"
+                },
+                "text": "StardewValley",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    StarCraftII\n                  : activate to sort column descending",
+                  "style": "width: 63.7708px;"
+                },
+                "text": "StarCraftII",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    SlayTheSpire\n                  : activate to sort column descending",
+                  "style": "width: 63.7708px;"
+                },
+                "text": "SlayTheSpire",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    BabaIsYou\n                  : activate to sort column descending",
+                  "style": "width: 63.7708px;"
+                },
+                "text": "BabaIsYou",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-leaderboard",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    2048\n                  : activate to sort column descending",
+                  "style": "width: 63.7708px;"
+                },
+                "text": "2048",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Llama-3.2-1B-it (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "17.8",
+                  "class": "sorting_1"
+                },
+                "text": "17.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.7"
+                },
+                "text": "18.7 ± 8.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.3"
+                },
+                "text": "1.3 ± 2.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2.1"
+                },
+                "text": "2.1 ± 1.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.7"
+                },
+                "text": "6.7 ± 11.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.1",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Llama-3.2-3B-it (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.6",
+                  "class": "sorting_1"
+                },
+                "text": "14.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.3"
+                },
+                "text": "13.3 ± 5.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "31.8"
+                },
+                "text": "31.8 ± 10.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.6"
+                },
+                "text": "4.6 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.2"
+                },
+                "text": "4.2 ± 1.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "47.5"
+                },
+                "text": "47.5 ± 39.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.3"
+                },
+                "text": "0.3 ± 0.2",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Qwen-2.5-3B-it (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.8",
+                  "class": "sorting_1"
+                },
+                "text": "15.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "23.4"
+                },
+                "text": "23.4 ± 14.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 17.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.2"
+                },
+                "text": "1.2 ± 1.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "44.8"
+                },
+                "text": "44.8 ± 22.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.3"
+                },
+                "text": "13.3 ± 11.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.1"
+                },
+                "text": "0.1 ± 0.1",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Qwen-2.5-7B-it (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.9",
+                  "class": "sorting_1"
+                },
+                "text": "12.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.7"
+                },
+                "text": "16.7 ± 11.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.2"
+                },
+                "text": "27.2 ± 9.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "9.3"
+                },
+                "text": "9.3 ± 0.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "8.5"
+                },
+                "text": "8.5 ± 1.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "88.8"
+                },
+                "text": "88.8 ± 2.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.0"
+                },
+                "text": "5.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.6"
+                },
+                "text": "0.6 ± 0.4",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Minitron-4B-it (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.9",
+                  "class": "sorting_1"
+                },
+                "text": "14.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.7"
+                },
+                "text": "16.7 ± 11.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "24.4"
+                },
+                "text": "24.4 ± 6.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "35.7"
+                },
+                "text": "35.7 ± 4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.5"
+                },
+                "text": "4.5 ± 2.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.1"
+                },
+                "text": "0.1 ± 0.0",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Minitron-8B-it (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "12.5",
+                  "class": "sorting_1"
+                },
+                "text": "12.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "23.3"
+                },
+                "text": "23.3 ± 5.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "31.3"
+                },
+                "text": "31.3 ± 12.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.9"
+                },
+                "text": "29.9 ± 3.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "8.2"
+                },
+                "text": "8.2 ± 1.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "63.8"
+                },
+                "text": "63.8 ± 30.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.7"
+                },
+                "text": "0.7 ± 0.7",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️GPT-4o-mini-2025-04-16 (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "11.2",
+                  "class": "sorting_1"
+                },
+                "text": "11.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.7"
+                },
+                "text": "16.7 ± 11.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "28.8"
+                },
+                "text": "28.8 ± 8.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "28.4"
+                },
+                "text": "28.4 ± 2.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "21.1"
+                },
+                "text": "21.1 ± 5.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "81.3"
+                },
+                "text": "81.3 ± 5.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "46.0"
+                },
+                "text": "46.0 ± 7.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.9"
+                },
+                "text": "18.9 ± 32.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "75.0"
+                },
+                "text": "75.0 ± 50.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.3"
+                },
+                "text": "3.3 ± 2.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.3"
+                },
+                "text": "13.3 ± 11.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.1"
+                },
+                "text": "1.1 ± 1.0",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥈✔️GPT-4o-2024-08-06 (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.3",
+                  "class": "sorting_1"
+                },
+                "text": "4.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.7"
+                },
+                "text": "29.7 ± 14.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "34.1"
+                },
+                "text": "34.1 ± 14.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "85.3"
+                },
+                "text": "85.3 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "64.0"
+                },
+                "text": "64.0 ± 5.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "38.9"
+                },
+                "text": "38.9 ± 9.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "93.4"
+                },
+                "text": "93.4 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "71.0"
+                },
+                "text": "71.0 ± 7.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "95.7"
+                },
+                "text": "95.7 ± 5.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "100.0"
+                },
+                "text": "100.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "23.6"
+                },
+                "text": "23.6 ± 22.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.6"
+                },
+                "text": "5.6 ± 1.5",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥉✔️o3-mini-2025-01-31 (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.6",
+                  "class": "sorting_1"
+                },
+                "text": "4.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.3"
+                },
+                "text": "33.3 ± 15.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "34.9"
+                },
+                "text": "34.9 ± 14.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "91.7"
+                },
+                "text": "91.7 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "66.3"
+                },
+                "text": "66.3 ± 3.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "89.0"
+                },
+                "text": "89.0 ± 2.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "75.0"
+                },
+                "text": "75.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "64.7"
+                },
+                "text": "64.7 ± 18.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "25.0"
+                },
+                "text": "25.0 ± 50.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.0"
+                },
+                "text": "15.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "73.3"
+                },
+                "text": "73.3 ± 46.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "25.3"
+                },
+                "text": "25.3 ± 7.3",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "🥇✔️Gemini-2.5-pro-preview-03-25 (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.9",
+                  "class": "sorting_1"
+                },
+                "text": "3.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.3"
+                },
+                "text": "13.3 ± 11.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "38.0"
+                },
+                "text": "38.0 ± 14.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "55.7"
+                },
+                "text": "55.7 ± 3.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "67.3"
+                },
+                "text": "67.3 ± 3.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "83.3"
+                },
+                "text": "83.3 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "93.7"
+                },
+                "text": "93.7 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "75.0"
+                },
+                "text": "75.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "69.6"
+                },
+                "text": "69.6 ± 11.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "100.0"
+                },
+                "text": "100.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "51.9"
+                },
+                "text": "51.9 ± 31.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "73.3"
+                },
+                "text": "73.3 ± 46.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.1"
+                },
+                "text": "5.1 ± 2.5",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Claude-3.7-sonnet (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.3",
+                  "class": "sorting_1"
+                },
+                "text": "6.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.7"
+                },
+                "text": "16.7 ± 11.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "31.7"
+                },
+                "text": "31.7 ± 8.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "81.9"
+                },
+                "text": "81.9 ± 1.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "62.6"
+                },
+                "text": "62.6 ± 2.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "63.9"
+                },
+                "text": "63.9 ± 19.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "89.9"
+                },
+                "text": "89.9 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "75.0"
+                },
+                "text": "75.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "63.0"
+                },
+                "text": "63.0 ± 24.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 57.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.0"
+                },
+                "text": "15.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "46.7"
+                },
+                "text": "46.7 ± 46.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.3"
+                },
+                "text": "5.3 ± 2.7",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Deepseek-R1-2025-01-20 (default)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.4",
+                  "class": "sorting_1"
+                },
+                "text": "6.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "28.7"
+                },
+                "text": "28.7 ± 13.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "83.3"
+                },
+                "text": "83.3 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "66.9"
+                },
+                "text": "66.9 ± 3.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "75.0"
+                },
+                "text": "75.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "91.7"
+                },
+                "text": "91.7 ± 1.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "41.7"
+                },
+                "text": "41.7 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "77.7"
+                },
+                "text": "77.7 ± 13.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 57.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "24.9"
+                },
+                "text": "24.9 ± 17.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "11.5"
+                },
+                "text": "11.5 ± 3.4",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Llama-3.2-3B-it (zeroshot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "15.4",
+                  "class": "sorting_1"
+                },
+                "text": "15.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.3"
+                },
+                "text": "13.3 ± 5.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "21.2"
+                },
+                "text": "21.2 ± 8.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.7"
+                },
+                "text": "5.7 ± 3.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.2"
+                },
+                "text": "4.2 ± 1.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "47.5"
+                },
+                "text": "47.5 ± 39.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.3"
+                },
+                "text": "0.3 ± 0.2",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Llama-3.2-3B-it (reflection)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.6",
+                  "class": "sorting_1"
+                },
+                "text": "13.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "30.0"
+                },
+                "text": "30.0 ± 17.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.4"
+                },
+                "text": "32.4 ± 8.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.6"
+                },
+                "text": "4.6 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.4"
+                },
+                "text": "4.4 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "47.3"
+                },
+                "text": "47.3 ± 39.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Llama-3.2-3B-it (planning)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.5",
+                  "class": "sorting_1"
+                },
+                "text": "14.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "27.0"
+                },
+                "text": "27.0 ± 8.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.6"
+                },
+                "text": "4.6 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.1"
+                },
+                "text": "5.1 ± 1.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "56.3"
+                },
+                "text": "56.3 ± 23.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.1"
+                },
+                "text": "0.1 ± 0.1",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Llama-3.2-3B-it (ref-plan)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "14.1",
+                  "class": "sorting_1"
+                },
+                "text": "14.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "16.7"
+                },
+                "text": "16.7 ± 20.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "31.8"
+                },
+                "text": "31.8 ± 10.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.8"
+                },
+                "text": "3.8 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.4"
+                },
+                "text": "5.4 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "57.0"
+                },
+                "text": "57.0 ± 31.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.1"
+                },
+                "text": "0.1 ± 0.2",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️GPT-4o-2024-08-06 (zeroshot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.5",
+                  "class": "sorting_1"
+                },
+                "text": "7.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.7"
+                },
+                "text": "29.7 ± 14.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.6"
+                },
+                "text": "29.6 ± 9.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "49.9"
+                },
+                "text": "49.9 ± 1.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "64.0"
+                },
+                "text": "64.0 ± 5.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.3"
+                },
+                "text": "33.3 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "93.4"
+                },
+                "text": "93.4 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "40.5"
+                },
+                "text": "40.5 ± 35.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 57.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "24.7"
+                },
+                "text": "24.7 ± 9.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "5.6"
+                },
+                "text": "5.6 ± 1.5",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️GPT-4o-2024-08-06 (reflection)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.5",
+                  "class": "sorting_1"
+                },
+                "text": "7.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "23.3"
+                },
+                "text": "23.3 ± 20.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "32.3"
+                },
+                "text": "32.3 ± 15.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "85.3"
+                },
+                "text": "85.3 ± 1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "61.3"
+                },
+                "text": "61.3 ± 0.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "36.1"
+                },
+                "text": "36.1 ± 4.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "85.2"
+                },
+                "text": "85.2 ± 10.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "18.3"
+                },
+                "text": "18.3 ± 5.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "0.0"
+                },
+                "text": "0.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "41.3"
+                },
+                "text": "41.3 ± 19.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.5"
+                },
+                "text": "3.5 ± 2.9",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️GPT-4o-2024-08-06 (planning)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.3",
+                  "class": "sorting_1"
+                },
+                "text": "7.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "30.0"
+                },
+                "text": "30.0 ± 26.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "29.4"
+                },
+                "text": "29.4 ± 12.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "52.7"
+                },
+                "text": "52.7 ± 0.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "59.2"
+                },
+                "text": "59.2 ± 5.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "33.3"
+                },
+                "text": "33.3 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "82.0"
+                },
+                "text": "82.0 ± 8.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "13.0"
+                },
+                "text": "13.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "64.6"
+                },
+                "text": "64.6 ± 23.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 57.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "35.3"
+                },
+                "text": "35.3 ± 9.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.0"
+                },
+                "text": "6.0 ± 5.5",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "even"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️GPT-4o-2024-08-06 (ref-plan)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.8",
+                  "class": "sorting_1"
+                },
+                "text": "4.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "23.3"
+                },
+                "text": "23.3 ± 20.8",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "34.1"
+                },
+                "text": "34.1 ± 14.2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "52.8"
+                },
+                "text": "52.8 ± 0.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "61.8"
+                },
+                "text": "61.8 ± 4.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "38.9"
+                },
+                "text": "38.9 ± 9.6",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "91.6"
+                },
+                "text": "91.6 ± 2.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "50.0"
+                },
+                "text": "50.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "95.7"
+                },
+                "text": "95.7 ± 5.7",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "100.0"
+                },
+                "text": "100.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "36.0"
+                },
+                "text": "36.0 ± 25.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "20.0"
+                },
+                "text": "20.0 ± 0.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.0"
+                },
+                "text": "7.0 ± 5.7",
+                "links": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "url": "https://krafton-ai.github.io/orak-leaderboard/",
+        "pageSha256": "3ada8f0f812ba3876e5d80ac053b79531cd463f4cfae57c9ef45c834b5fb0953",
+        "pageUpdatedAt": "2025-06-09"
+      },
+      "table": {
+        "id": "performance-table-arena",
+        "rows": [
+          {
+            "attrs": {},
+            "cells": [
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-arena",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    Agent\n                  : activate to sort column ascending",
+                  "style": "width: 0px;"
+                },
+                "text": "Agent",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting sorting_desc",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-arena",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-sort": "ascending",
+                  "aria-label": "\n                    Avg.Rank\n                  : activate to sort column ascending",
+                  "style": "width: 0px;"
+                },
+                "text": "Avg.Rank",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-arena",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    StreetFighterIII\n                  : activate to sort column descending",
+                  "style": "width: 0px;"
+                },
+                "text": "Elo in StreetFighterIII",
+                "links": []
+              },
+              {
+                "tag": "th",
+                "attrs": {
+                  "class": "sorting",
+                  "tabindex": "0",
+                  "aria-controls": "performance-table-arena",
+                  "rowspan": "1",
+                  "colspan": "1",
+                  "aria-label": "\n                    StarCraftII\n                  : activate to sort column descending",
+                  "style": "width: 0px;"
+                },
+                "text": "Elo in StarCraftII",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Llama-3.2-3B-it (zero-shot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "7.5",
+                  "class": "sorting_1"
+                },
+                "text": "7.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1358.4"
+                },
+                "text": "1358.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1424.9"
+                },
+                "text": "1424.9",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "even"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Qwen-2.5-7B-it (zero-shot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "6.5",
+                  "class": "sorting_1"
+                },
+                "text": "6.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1415.4"
+                },
+                "text": "1415.4",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1680.1"
+                },
+                "text": "1445.2",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Minitron-8B-it (zero-shot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1.5",
+                  "class": "sorting_1"
+                },
+                "text": "1.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1680.1"
+                },
+                "text": "1680.1",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1525.0"
+                },
+                "text": "1525.0",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️GPT-4o-mini-2025-04-16 (zero-shot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "4.5",
+                  "class": "sorting_1"
+                },
+                "text": "4.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1453.0"
+                },
+                "text": "1453.0",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1500.0"
+                },
+                "text": "1500.0",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️GPT-4o-2024-08-06 (zero-shot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3",
+                  "class": "sorting_1"
+                },
+                "text": "3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1602.9"
+                },
+                "text": "1602.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1525.0"
+                },
+                "text": "1525.0",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️o3-mini-2025-01-31 (zero-shot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "2",
+                  "class": "sorting_1"
+                },
+                "text": "2",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1602.9"
+                },
+                "text": "1602.9",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1500.0"
+                },
+                "text": "1500.0",
+                "links": []
+              }
+            ]
+          },
+          {
+            "attrs": {
+              "style": "cursor: pointer;",
+              "class": "odd"
+            },
+            "cells": [
+              {
+                "tag": "td",
+                "attrs": {},
+                "text": "✔️Claude-3.7-sonnet (zero-shot)",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "3.5",
+                  "class": "sorting_1"
+                },
+                "text": "3.5",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1434.3"
+                },
+                "text": "1434.3",
+                "links": []
+              },
+              {
+                "tag": "td",
+                "attrs": {
+                  "data-order": "1550.1"
+                },
+                "text": "1550.1",
+                "links": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
