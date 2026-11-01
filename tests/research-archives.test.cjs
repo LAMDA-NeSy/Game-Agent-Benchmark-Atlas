@@ -17,7 +17,7 @@ assert.equal(model.get('GAB083').tasks.length,4,'former citations expose reviewe
 assert.equal(model.get('GAB083').taskReview.status,'partial','uniform archives do not imply complete evidence');
 assert.equal(model.get('balrog').profile.research.scope,data.records.find(r=>r.id==='balrog').research.scope);
 assert.equal(model.get('balrog').profile.evidence.length,4);
-assert.equal(model.entries.reduce((n,a)=>n+a.tasks.length,0),462);
+assert.equal(model.entries.reduce((n,a)=>n+a.tasks.length,0),464);
 assert(model.entries.every(a=>a.executionVerified===false),'archive conversion does not verify runtime execution');
 for(const a of model.entries){
  const b=library.records.find(b=>b.id===a.sourceId);
@@ -45,7 +45,7 @@ for(language of ['zh','en'])for(const a of ctx.window.AtlasResearchArchives.entr
  assert(!html.includes('[object Object]'),a.id+': '+tab);
  assert(!html.includes('href="undefined"'),a.id+': '+tab);
 }
-console.log('Research archives: 385 saved identities, original deep profiles, 462 scoped tasks, source status, aliases, uses and public-only fields preserved.');
+console.log('Research archives: 385 saved identities, original deep profiles, 464 scoped tasks, source status, aliases, uses and public-only fields preserved.');
 
 assert.equal(model.get('SUP-generalist-game-players-survey'),undefined,'withdrawn survey must not remain in public archives');
 

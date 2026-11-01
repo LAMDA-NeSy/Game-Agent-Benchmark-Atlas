@@ -58,11 +58,16 @@
         "reason": null,
         "missing": [],
         "unitIds": [
+          "p1-smartplay-hanoi",
+          "p1-smartplay-bandit",
           "existing-hanoi-order",
           "existing-bandit-learning",
           "profile-minecraft-smartplay"
         ],
-        "note": null
+        "note": {
+          "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+          "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+        }
       },
       {
         "id": "collab-overcooked",
@@ -12424,7 +12429,10 @@
           "unitIds": [
             "profile-minecraft-smartplay"
           ],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         },
         {
           "id": "orak",
@@ -14838,9 +14846,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p1-smartplay-hanoi",
             "existing-hanoi-order"
           ],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         },
         {
           "id": "GAB016",
@@ -20006,9 +20018,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p1-smartplay-bandit",
             "existing-bandit-learning"
           ],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         },
         {
           "id": "AX26-2608.09128",
@@ -22191,7 +22207,10 @@
           "unitIds": [
             "profile-minecraft-smartplay"
           ],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         },
         {
           "id": "orak",
@@ -23069,7 +23088,10 @@
             }
           ],
           "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         },
         {
           "id": "GAB026",
@@ -23161,7 +23183,10 @@
                 }
               ],
               "unitIds": [],
-              "note": null
+              "note": {
+                "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+                "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+              }
             }
           ]
         },
@@ -24143,9 +24168,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p1-smartplay-hanoi",
             "existing-hanoi-order"
           ],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         }
       ],
       "reasons": []
@@ -24173,7 +24202,10 @@
             }
           ],
           "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         },
         {
           "id": "GAB016",
@@ -24220,7 +24252,10 @@
                 }
               ],
               "unitIds": [],
-              "note": null
+              "note": {
+                "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+                "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+              }
             }
           ]
         }
@@ -24598,7 +24633,10 @@
             }
           ],
           "unitIds": [],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         },
         {
           "id": "AX26-2608.09128",
@@ -24638,7 +24676,10 @@
                 }
               ],
               "unitIds": [],
-              "note": null
+              "note": {
+                "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+                "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+              }
             },
             {
               "id": "AX26-2608.09128",
@@ -24678,9 +24719,13 @@
           "reason": null,
           "missing": [],
           "unitIds": [
+            "p1-smartplay-bandit",
             "existing-bandit-learning"
           ],
-          "note": null
+          "note": {
+            "zh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+            "en": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile."
+          }
         }
       ],
       "reasons": []

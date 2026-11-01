@@ -1,0 +1,937 @@
+{
+  "schemaVersion": "atlas-evaluation-design-v1",
+  "checkedAt": "2026-11-01",
+  "bindings": [
+    {
+      "id": "crafter-progress",
+      "protocolId": "p0-balrog-crafter",
+      "mechanism": "survival-crafting",
+      "track": "language",
+      "primary": "long-horizon",
+      "question": {
+        "zh": "长程目标分解能否改善制作进展？",
+        "en": "Does goal decomposition improve sustained crafting progress?"
+      },
+      "mechanismLabel": {
+        "zh": "资源与制作阶段",
+        "en": "Resource and crafting stages"
+      },
+      "confounds": {
+        "zh": "生存、地图探索和既有技能也影响成就进展。",
+        "en": "Survival, map exploration and prior skills also affect achievements."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "factorio-production",
+      "protocolId": "p0-fle-open",
+      "mechanism": "production-network",
+      "track": "language",
+      "primary": "long-horizon",
+      "question": {
+        "zh": "Agent 能否持续扩展并修复生产链？",
+        "en": "Can an agent extend and repair a production chain?"
+      },
+      "mechanismLabel": {
+        "zh": "持续生产网络",
+        "en": "Persistent production networks"
+      },
+      "confounds": {
+        "zh": "代码执行能力、工具抽象和资源初始状态。",
+        "en": "Code execution, tool abstractions and initial resources."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "hanoi-order",
+      "protocolId": "p1-smartplay-hanoi",
+      "mechanism": "symbolic-dependency",
+      "track": "language",
+      "primary": "planning",
+      "question": {
+        "zh": "显式计划能否减少依赖顺序错误？",
+        "en": "Does explicit planning reduce dependency-order errors?"
+      },
+      "mechanismLabel": {
+        "zh": "离散依赖顺序",
+        "en": "Discrete dependency ordering"
+      },
+      "confounds": {
+        "zh": "盘数、状态描述和历史窗口。",
+        "en": "Disc count, state descriptions and history window."
+      },
+      "design": {
+        "zh": "采用 Hanoi3Disk 的官方 10×30 设置。",
+        "en": "Use the official Hanoi3Disk 10×30 setting."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "overcooked-team",
+      "protocolId": "profile-overcooked-collab-overcooked",
+      "mechanism": "communication-division",
+      "track": "language",
+      "primary": "coordination",
+      "question": {
+        "zh": "通信如何影响分工及协作完成率？",
+        "en": "How does communication affect division of work and completion?"
+      },
+      "mechanismLabel": {
+        "zh": "语言分工与协作",
+        "en": "Language-based division of work"
+      },
+      "confounds": {
+        "zh": "扩展菜谱、技能接口、布局与伙伴模型。",
+        "en": "Extended recipes, skill interface, layouts and partner models."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "overcooked-zsc",
+      "protocolId": "p0-zsc-overcooked",
+      "mechanism": "unseen-partners",
+      "track": "structured",
+      "primary": "coordination",
+      "question": {
+        "zh": "策略能否与未共同训练的伙伴协作？",
+        "en": "Can a policy coordinate with independently trained partners?"
+      },
+      "mechanismLabel": {
+        "zh": "陌生伙伴适应",
+        "en": "Adaptation to unfamiliar partners"
+      },
+      "confounds": {
+        "zh": "伙伴池及 best-response 参考策略。",
+        "en": "Partner population and best-response reference policies."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "sc2-match",
+      "protocolId": "profile-starcraft-ii-orak",
+      "mechanism": "full-rts",
+      "track": "language",
+      "primary": "strategy",
+      "question": {
+        "zh": "Agent 能否统筹运营、科技与攻防？",
+        "en": "Can an agent coordinate economy, technology and combat?"
+      },
+      "mechanismLabel": {
+        "zh": "完整 RTS 决策",
+        "en": "Full-match RTS decisions"
+      },
+      "confounds": {
+        "zh": "高层技能、游戏 AI 难度和实时决策频率。",
+        "en": "High-level skills, built-in AI difficulty and decision cadence."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "memorygym-sequence",
+      "protocolId": "p0-memory-mortar",
+      "mechanism": "cumulative-memory",
+      "track": "visual",
+      "primary": "memory",
+      "question": {
+        "zh": "记忆机制能否支持不断增长的指令序列？",
+        "en": "Can memory support progressively longer command sequences?"
+      },
+      "mechanismLabel": {
+        "zh": "累积序列复现",
+        "en": "Cumulative sequence recall"
+      },
+      "confounds": {
+        "zh": "视觉解码、移动精度与命令执行节奏。",
+        "en": "Visual decoding, movement precision and command timing."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "bandit-learning",
+      "protocolId": "p1-smartplay-bandit",
+      "mechanism": "stationary-bandit",
+      "track": "language",
+      "primary": "exploration",
+      "question": {
+        "zh": "交互反馈能否改善收益分布判断？",
+        "en": "Does interaction feedback improve payout-distribution decisions?"
+      },
+      "mechanismLabel": {
+        "zh": "平稳反馈学习",
+        "en": "Stationary feedback learning"
+      },
+      "confounds": {
+        "zh": "随机性、奖励差异和历史窗口。",
+        "en": "Randomness, reward gaps and history."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "alchemy-discovery",
+      "protocolId": "p0-alchemy-symbolic",
+      "mechanism": "hidden-transformations",
+      "track": "structured",
+      "primary": "exploration",
+      "question": {
+        "zh": "试探性操作能否帮助发现隐藏变换规则？",
+        "en": "Can interventions reveal hidden transformation rules?"
+      },
+      "mechanismLabel": {
+        "zh": "隐藏规则实验",
+        "en": "Hidden-rule experimentation"
+      },
+      "confounds": {
+        "zh": "符号接口与规则复用范围。",
+        "en": "Symbolic interface and rule persistence across trials."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "coinrun-heldout",
+      "protocolId": "p0-procgen-coinrun",
+      "mechanism": "unseen-levels",
+      "track": "visual",
+      "primary": "generalization",
+      "question": {
+        "zh": "固定训练分布下能否迁移到未见关卡？",
+        "en": "Can a fixed training distribution transfer to unseen levels?"
+      },
+      "mechanismLabel": {
+        "zh": "未见关卡泛化",
+        "en": "Unseen-level generalization"
+      },
+      "confounds": {
+        "zh": "训练量、种子划分和难度模式。",
+        "en": "Training budget, seed split and difficulty."
+      },
+      "design": {
+        "zh": "固定互不重叠的训练/测试种子和相同训练预算；划分由本方案指定。",
+        "en": "Specify disjoint train/test seeds and a matched training budget in this plan."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "hanabi-partner",
+      "protocolId": "p0-hanabi-full",
+      "mechanism": "hidden-information",
+      "track": "structured",
+      "primary": "social",
+      "question": {
+        "zh": "Agent 能否利用有限提示进行隐藏信息协作？",
+        "en": "Can agents use limited hints to coordinate under hidden information?"
+      },
+      "mechanismLabel": {
+        "zh": "隐藏信息与提示",
+        "en": "Hidden information and hints"
+      },
+      "confounds": {
+        "zh": "约定习惯、配对方式和信息可见性。",
+        "en": "Conventions, partner matching and information access."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "dodgeball-control",
+      "protocolId": "p0-procgen-dodgeball",
+      "mechanism": "aim-movement",
+      "track": "visual",
+      "primary": "control",
+      "question": {
+        "zh": "视觉反馈能否支持移动与投掷决策？",
+        "en": "Can visual feedback support movement and throwing?"
+      },
+      "mechanismLabel": {
+        "zh": "移动与投掷",
+        "en": "Movement and throwing"
+      },
+      "confounds": {
+        "zh": "动作重复、关卡难度和时延。",
+        "en": "Action repeat, level difficulty and latency."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "vizdoom-deadly-corridor",
+      "protocolId": "p0-vizdoom-corridor",
+      "mechanism": "fps-corridor",
+      "track": "visual",
+      "primary": "control",
+      "question": {
+        "zh": "Agent 能否在火力压力下控制推进与射击？",
+        "en": "Can an agent advance and shoot under enemy fire?"
+      },
+      "mechanismLabel": {
+        "zh": "第一人称推进",
+        "en": "First-person corridor traversal"
+      },
+      "confounds": {
+        "zh": "帧跳跃、敌人难度和奖励塑形。",
+        "en": "Frame skip, enemy skill and reward shaping."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "textworld-cooking-dependencies",
+      "protocolId": "p0-textworld-cooking",
+      "mechanism": "recipe-dependency",
+      "track": "language",
+      "primary": "planning",
+      "question": {
+        "zh": "Agent 能否执行多食材食谱的前置依赖？",
+        "en": "Can an agent execute multi-ingredient recipe prerequisites?"
+      },
+      "mechanismLabel": {
+        "zh": "文字食谱依赖",
+        "en": "Textual recipe dependencies"
+      },
+      "confounds": {
+        "zh": "解析器、房间搜索和食材处理配置。",
+        "en": "Parser, room search and preparation settings."
+      },
+      "design": {
+        "zh": "拟选 3 种食材、6 房间及 100 步；生成游戏后固定 seed 与处理技能。",
+        "en": "Propose 3 ingredients, 6 rooms and 100 steps; pin seeds and preparation skills after generation."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "football-academy-3v1",
+      "protocolId": "p0-football-academy",
+      "mechanism": "multi-controller-football",
+      "track": "structured",
+      "primary": "coordination",
+      "question": {
+        "zh": "独立球员控制下如何形成传跑协作？",
+        "en": "How does passing coordination emerge with independent player control?"
+      },
+      "mechanismLabel": {
+        "zh": "多控制器传跑",
+        "en": "Multi-controller passing"
+      },
+      "confounds": {
+        "zh": "集中控制与分散控制必须分别记录。",
+        "en": "Centralized and decentralized control must be recorded separately."
+      },
+      "design": {
+        "zh": "仅在三名球员由独立 Agent 控制时作为协作任务；集中控制另列。",
+        "en": "Treat as coordination only with three independently controlled players; keep centralized control separate."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "spirebench-a20-full-run",
+      "protocolId": "p0-spire-a20",
+      "mechanism": "deck-long-run",
+      "track": "language",
+      "primary": "long-horizon",
+      "question": {
+        "zh": "跨战斗构筑决策能否改善完整闯关？",
+        "en": "Do cross-combat deck decisions improve complete runs?"
+      },
+      "mechanismLabel": {
+        "zh": "跨战斗构筑",
+        "en": "Cross-combat deck construction"
+      },
+      "confounds": {
+        "zh": "游戏知识、种子与 harness 配置。",
+        "en": "Game knowledge, seeds and harness configuration."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "vgc-unseen-team-crossplay",
+      "protocolId": "p0-vgc-crossplay",
+      "mechanism": "population-crossplay",
+      "track": "structured",
+      "primary": "strategy",
+      "question": {
+        "zh": "策略对不同对手与阵容的表现如何变化？",
+        "en": "How does performance vary across opponents and teams?"
+      },
+      "mechanismLabel": {
+        "zh": "策略群体交叉对战",
+        "en": "Population cross-play"
+      },
+      "confounds": {
+        "zh": "交叉对战本身不建立未见阵容划分。",
+        "en": "Cross-play alone does not establish held-out team splits."
+      },
+      "design": {
+        "zh": "先运行官方交叉对战；研究泛化时另外固定训练/测试阵容划分。",
+        "en": "Use official cross-play; add an explicit train/test team split for generalization research."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "comrad-ammo-carrier",
+      "protocolId": "p0-comrad-ammo",
+      "mechanism": "asymmetric-resupply",
+      "track": "visual",
+      "primary": "coordination",
+      "question": {
+        "zh": "非对称角色如何维持补给与防守？",
+        "en": "How do asymmetric roles sustain resupply and defense?"
+      },
+      "mechanismLabel": {
+        "zh": "非对称补给协作",
+        "en": "Asymmetric resupply coordination"
+      },
+      "confounds": {
+        "zh": "射击控制、角色分配和奖励共享。",
+        "en": "Shooting control, role assignment and reward sharing."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "civrealm-settler-build-city",
+      "protocolId": "p0-civrealm-development_build_city",
+      "mechanism": "city-placement",
+      "track": "language",
+      "primary": "strategy",
+      "question": {
+        "zh": "Agent 能否权衡地块产出选择建城位置？",
+        "en": "Can an agent trade off tile yields when placing a city?"
+      },
+      "mechanismLabel": {
+        "zh": "资源选址",
+        "en": "Resource-aware city placement"
+      },
+      "confounds": {
+        "zh": "地图、难度和产出阈值。",
+        "en": "Map, difficulty and yield threshold."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "fightladder-ryu-mirror",
+      "protocolId": "p0-fightladder-br",
+      "mechanism": "adversarial-control",
+      "track": "visual",
+      "primary": "control",
+      "question": {
+        "zh": "策略在不同格斗对手下是否可被利用？",
+        "en": "Can fighting policies be exploited by different opponents?"
+      },
+      "mechanismLabel": {
+        "zh": "对抗控制",
+        "en": "Adversarial control"
+      },
+      "confounds": {
+        "zh": "对手池、座位、动作组合与训练预算。",
+        "en": "Opponent pool, side, action combinations and training budget."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "minecraft-crafting",
+      "protocolId": "profile-minecraft-orak",
+      "mechanism": "crafting-prerequisites",
+      "track": "language",
+      "primary": "planning",
+      "question": {
+        "zh": "技能调用能否正确执行物品合成依赖？",
+        "en": "Can skill calls execute crafting prerequisites?"
+      },
+      "mechanismLabel": {
+        "zh": "技能化合成依赖",
+        "en": "Skill-mediated crafting dependencies"
+      },
+      "confounds": {
+        "zh": "技能库、目标物品和初始资源。",
+        "en": "Skill library, target item and initial resources."
+      },
+      "design": {
+        "zh": "拟选石镐目标；与 Orak 全部 8 目标的汇总分数分开。",
+        "en": "Propose the stone-pickaxe target, separately from Orak’s eight-target aggregate."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "smac-team",
+      "protocolId": "profile-starcraft-ii-smacv2",
+      "mechanism": "decentralized-micro",
+      "track": "structured",
+      "primary": "coordination",
+      "question": {
+        "zh": "局部观测策略能否形成团队微操？",
+        "en": "Can local-observation policies coordinate micromanagement?"
+      },
+      "mechanismLabel": {
+        "zh": "去中心化微操",
+        "en": "Decentralized micromanagement"
+      },
+      "confounds": {
+        "zh": "单位构成、出生分布与训练条件。",
+        "en": "Unit composition, spawn distribution and training regime."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "minigrid-memory",
+      "protocolId": "p0-minigrid-memory",
+      "mechanism": "delayed-matching",
+      "track": "structured",
+      "primary": "memory",
+      "question": {
+        "zh": "Agent 能否保留早期线索完成延迟匹配？",
+        "en": "Can an agent retain an early cue for delayed matching?"
+      },
+      "mechanismLabel": {
+        "zh": "延迟线索匹配",
+        "en": "Delayed cue matching"
+      },
+      "confounds": {
+        "zh": "走廊长度、观测包装和导航错误。",
+        "en": "Corridor length, observation wrapper and navigation errors."
+      },
+      "design": {
+        "zh": "选 MemoryS13-v0，固定观测包装；分别报告成功率与原始回报。",
+        "en": "Select MemoryS13-v0 and pin the observation wrapper; report success and native reward separately."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    },
+    {
+      "id": "coinrun-original-500",
+      "protocolId": "p0-coinrun-original",
+      "mechanism": "unseen-levels",
+      "track": "visual",
+      "primary": "generalization",
+      "question": {
+        "zh": "原版 CoinRun 中训练关卡过拟合有多大？",
+        "en": "How much does a policy overfit original CoinRun training levels?"
+      },
+      "mechanismLabel": {
+        "zh": "未见关卡泛化",
+        "en": "Unseen-level generalization"
+      },
+      "confounds": {
+        "zh": "与 Procgen 的实现和训练协议不同。",
+        "en": "Implementation and training protocol differ from Procgen."
+      },
+      "design": {
+        "zh": "在原协议范围内固定场景、接口、种子和评测预算。",
+        "en": "Pin scenario, interface, seeds and evaluation budget within the source protocol."
+      },
+      "diagnostic": {
+        "zh": "在相同任务与协议内比较方法变化，保留原始指标及失败轨迹。",
+        "en": "Compare method changes within the same task and protocol, retaining native metrics and failure traces."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "memory",
+      "tasks": [
+        "minigrid-memory",
+        "memorygym-sequence"
+      ],
+      "type": "complementary",
+      "basis": "editorial-source-analysis",
+      "summary": {
+        "zh": "延迟线索匹配与累积指令复现互补。",
+        "en": "Delayed cue matching complements cumulative command recall."
+      },
+      "shared": {
+        "zh": "都要求利用当前不可见的历史信息。",
+        "en": "Both require information no longer present in the current observation."
+      },
+      "difference": {
+        "zh": "MiniGrid 保留一个早期物体线索；Mortar Mayhem 累积更长指令序列，并伴随视觉动作控制。",
+        "en": "MiniGrid retains an early object cue; Mortar Mayhem grows a command sequence and adds visual motor control."
+      },
+      "recommendation": {
+        "zh": "先用 MiniGrid 诊断线索保持，再用 Memory Gym 检验负荷增长；分别报告导航和动作错误。",
+        "en": "Use MiniGrid for cue retention, then Memory Gym for increasing load; report navigation and motor errors separately."
+      },
+      "protocolIds": [
+        "p0-minigrid-memory",
+        "p0-memory-mortar"
+      ]
+    },
+    {
+      "id": "partners",
+      "tasks": [
+        "overcooked-team",
+        "overcooked-zsc"
+      ],
+      "type": "complementary",
+      "basis": "editorial-source-analysis",
+      "summary": {
+        "zh": "协作过程分析与陌生伙伴评测回答不同问题。",
+        "en": "Collaboration-process analysis and unfamiliar-partner evaluation answer different questions."
+      },
+      "shared": {
+        "zh": "都依赖厨师间分工与时序协调。",
+        "en": "Both involve division of work and temporal coordination."
+      },
+      "difference": {
+        "zh": "Collab 使用扩展菜谱及语言技能；ZSC-Eval 使用伙伴池和 BR-Prox。环境与接口也不同。",
+        "en": "Collab uses extended recipes and language skills; ZSC-Eval uses partner populations and BR-Prox. Environments and interfaces also differ."
+      },
+      "recommendation": {
+        "zh": "同时选用可拓展协作研究，但不能把分数差解释为纯伙伴适应效应。",
+        "en": "Combining them broadens coordination research; score differences do not isolate partner adaptation."
+      },
+      "protocolIds": [
+        "profile-overcooked-collab-overcooked",
+        "p0-zsc-overcooked"
+      ]
+    },
+    {
+      "id": "coinrun",
+      "tasks": [
+        "coinrun-heldout",
+        "coinrun-original-500"
+      ],
+      "type": "alternative",
+      "basis": "editorial-source-analysis",
+      "summary": {
+        "zh": "问题高度重叠，但不是同一个实现或等价测试集。",
+        "en": "The research questions overlap strongly, but implementations and test sets are not equivalent."
+      },
+      "shared": {
+        "zh": "都研究平台跳跃策略的训练关卡过拟合。",
+        "en": "Both study overfitting to platformer training levels."
+      },
+      "difference": {
+        "zh": "Procgen 与原版 CoinRun 的环境、难度及训练设置分别定义；500 关是原版示例设置。",
+        "en": "Procgen and original CoinRun define separate environments, difficulty and training setups; 500 levels is an original example setting."
+      },
+      "recommendation": {
+        "zh": "通常选一个；研究跨实现稳健性时保留两个，并分别固定种子和预算，不重复宣称新增机制。",
+        "en": "Usually choose one. Retain both for cross-implementation robustness, pin seeds/budgets separately and count the shared mechanism once."
+      },
+      "protocolIds": [
+        "p0-procgen-coinrun",
+        "p0-coinrun-original"
+      ]
+    },
+    {
+      "id": "longrun",
+      "tasks": [
+        "crafter-progress",
+        "factorio-production"
+      ],
+      "type": "complementary",
+      "basis": "editorial-source-analysis",
+      "summary": {
+        "zh": "生存制作与生产网络提供不同的长程执行压力。",
+        "en": "Survival crafting and production networks impose different long-run execution demands."
+      },
+      "shared": {
+        "zh": "都存在多阶段资源依赖和持续进展。",
+        "en": "Both involve multi-stage resource dependencies and sustained progress."
+      },
+      "difference": {
+        "zh": "Crafter 以成就与生存进展为结果；FLE 以生产价值及里程碑记录工厂发展。",
+        "en": "Crafter measures achievement/survival progress; FLE records factory development through production value and milestones."
+      },
+      "recommendation": {
+        "zh": "同时保留可观察不同失败机制；分别报告原始指标，控制工具抽象与预算。",
+        "en": "Retain both to expose different failures; report native metrics separately and control tool abstraction and budget."
+      },
+      "protocolIds": [
+        "p0-balrog-crafter",
+        "p0-fle-open"
+      ]
+    },
+    {
+      "id": "sc2",
+      "tasks": [
+        "sc2-match",
+        "smac-team"
+      ],
+      "type": "complementary",
+      "basis": "editorial-source-analysis",
+      "summary": {
+        "zh": "完整 RTS 决策与局部团队微操互补。",
+        "en": "Full RTS decisions complement local team micromanagement."
+      },
+      "shared": {
+        "zh": "都发生在 StarCraft II 环境背景中。",
+        "en": "Both use a StarCraft II environment context."
+      },
+      "difference": {
+        "zh": "Orak 完整对局包含经济、科技和攻防；SMACv2 固定战斗范围并采用单位级局部观测。",
+        "en": "Orak full matches include economy, technology and combat; SMACv2 restricts play to battles with unit-local observations."
+      },
+      "recommendation": {
+        "zh": "战略研究优先完整对局，协作控制研究优先 SMACv2；组合时按两个问题报告。",
+        "en": "Prefer full matches for strategy and SMACv2 for coordinated control; report the two questions separately when combined."
+      },
+      "protocolIds": [
+        "profile-starcraft-ii-orak",
+        "profile-starcraft-ii-smacv2"
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": "planning",
+      "label": {
+        "zh": "规划与长时程执行",
+        "en": "Planning & sustained execution"
+      },
+      "tasks": [
+        "hanoi-order",
+        "textworld-cooking-dependencies",
+        "crafter-progress",
+        "factorio-production"
+      ],
+      "roles": {
+        "hanoi-order": {
+          "zh": "基础依赖",
+          "en": "Dependency baseline"
+        },
+        "textworld-cooking-dependencies": {
+          "zh": "语言任务扩展",
+          "en": "Language-task extension"
+        },
+        "crafter-progress": {
+          "zh": "生存制作扩展",
+          "en": "Survival-crafting extension"
+        },
+        "factorio-production": {
+          "zh": "生产网络扩展",
+          "en": "Production-network extension"
+        }
+      },
+      "targetCapabilities": [
+        "planning",
+        "long-horizon"
+      ]
+    },
+    {
+      "id": "memory",
+      "label": {
+        "zh": "记忆与探索",
+        "en": "Memory & exploration"
+      },
+      "tasks": [
+        "minigrid-memory",
+        "memorygym-sequence",
+        "bandit-learning",
+        "alchemy-discovery"
+      ],
+      "roles": {
+        "minigrid-memory": {
+          "zh": "线索保持基础",
+          "en": "Cue-retention baseline"
+        },
+        "memorygym-sequence": {
+          "zh": "累积负荷扩展",
+          "en": "Cumulative-load extension"
+        },
+        "bandit-learning": {
+          "zh": "反馈学习基础",
+          "en": "Feedback-learning baseline"
+        },
+        "alchemy-discovery": {
+          "zh": "规则发现扩展",
+          "en": "Rule-discovery extension"
+        }
+      },
+      "targetCapabilities": [
+        "memory",
+        "exploration"
+      ]
+    },
+    {
+      "id": "coordination",
+      "label": {
+        "zh": "协作与伙伴适应",
+        "en": "Coordination & partner adaptation"
+      },
+      "tasks": [
+        "overcooked-team",
+        "overcooked-zsc",
+        "hanabi-partner",
+        "comrad-ammo-carrier"
+      ],
+      "roles": {
+        "overcooked-team": {
+          "zh": "协作过程",
+          "en": "Collaboration process"
+        },
+        "overcooked-zsc": {
+          "zh": "伙伴分布扩展",
+          "en": "Partner-distribution extension"
+        },
+        "hanabi-partner": {
+          "zh": "隐藏信息扩展",
+          "en": "Hidden-information extension"
+        },
+        "comrad-ammo-carrier": {
+          "zh": "非对称角色扩展",
+          "en": "Asymmetric-role extension"
+        }
+      },
+      "targetCapabilities": [
+        "coordination",
+        "social"
+      ]
+    },
+    {
+      "id": "generalization",
+      "label": {
+        "zh": "泛化与分布迁移",
+        "en": "Generalization & distribution shift"
+      },
+      "tasks": [
+        "coinrun-heldout",
+        "overcooked-zsc",
+        "vgc-unseen-team-crossplay"
+      ],
+      "roles": {
+        "coinrun-heldout": {
+          "zh": "未见关卡",
+          "en": "Unseen levels"
+        },
+        "overcooked-zsc": {
+          "zh": "未见伙伴",
+          "en": "Unseen partners"
+        },
+        "vgc-unseen-team-crossplay": {
+          "zh": "阵容划分扩展（需配置）",
+          "en": "Team-split extension (configure)"
+        }
+      },
+      "targetCapabilities": [
+        "generalization"
+      ]
+    }
+  ]
+}

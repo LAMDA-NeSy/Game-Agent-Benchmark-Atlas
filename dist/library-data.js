@@ -2621,6 +2621,38 @@ window.AtlasLibraryData={
       "scope": null,
       "metrics": null,
       "limits": null,
+      "taskReview": {
+        "status": "partial",
+        "noteZh": "新增汉诺塔与双臂老虎机的具体代码协议；保留已有 Minecraft 档案。",
+        "noteEn": "Adds source-code protocols for Hanoi and the bandit, retaining the Minecraft profile.",
+        "evidence": [
+          {
+            "url": "https://github.com/microsoft/SmartPlay/blob/main/src/smartplay/hanoi/hanoi_env.py",
+            "title": "HanoiEnv step, score, completed and Hanoi3Disk",
+            "excerpt": "info[\"score\"] = len(self.disks_on_peg(2)); info[\"completed\"] = 0 if not self.done else 1. The constructor passes max_steps to HistoryTracker."
+          },
+          {
+            "url": "https://github.com/microsoft/SmartPlay/blob/main/src/smartplay/hanoi/evaluation.yml",
+            "title": "Hanoi3Disk recorded evaluation settings",
+            "excerpt": "Hanoi3Disk: iter: 10; steps: 30; human score: 3; min score: 0."
+          },
+          {
+            "url": "https://github.com/microsoft/SmartPlay/blob/main/src/smartplay/bandits/bandit.py",
+            "title": "BanditEnv score_tracker, reward, reset and HighLow variant",
+            "excerpt": "self.score_tracker+=int(action == self.optimal); info[\"score\"] exposes score_tracker. step returns reward and done=False separately."
+          },
+          {
+            "url": "https://github.com/microsoft/SmartPlay/blob/main/src/smartplay/bandits/evaluation.yml",
+            "title": "BanditTwoArmedHighLowFixed recorded settings",
+            "excerpt": "BanditTwoArmedHighLowFixed: iter: 20; steps: 50; human score: 45; min score: 0."
+          }
+        ],
+        "checkedAt": "2026-11-01",
+        "reviewedScope": {
+          "zh": "Hanoi3Disk 与 BanditTwoArmedHighLowFixed。",
+          "en": "Hanoi3Disk and BanditTwoArmedHighLowFixed."
+        }
+      },
       "agentReview": {
         "id": "GAB057",
         "status": "confirmed",

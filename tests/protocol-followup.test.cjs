@@ -28,7 +28,7 @@ assert.equal(overall.withProtocol,201+count('integrated'));assert.equal(overall.
 assert.equal(overall.excluded,73+count('out_of_scope'));assert.equal(overall.total,324);
 assert(overall.entries.filter(e=>['missing','unmapped'].includes(e.state)).every(e=>e.missing.length));
 assert.equal(log.summary.addedUnits,log.records.reduce((n,r)=>n+r.addedUnitIds.length,0));
-assert.equal(d.documentedTasks.filter(u=>u.origin!=='collection-increment'&&!u.id.startsWith('p0-')).length,326+log.summary.addedUnits);
+assert.equal(d.documentedTasks.filter(u=>u.origin!=='collection-increment'&&!u.id.startsWith('p0-')&&!u.id.startsWith('p1-')).length,326+log.summary.addedUnits);
 assert.deepEqual(d.taskCoverageFollowup,log.summary);assert.deepEqual(JSON.parse(fs.readFileSync('dist/task-coverage-followup.json')),log);
 // An added or changed unit must resolve to an actual source-game link and never leak to unrelated siblings.
 for(const r of log.records)for(const id of [...r.addedUnitIds,...r.updatedUnitIds]){

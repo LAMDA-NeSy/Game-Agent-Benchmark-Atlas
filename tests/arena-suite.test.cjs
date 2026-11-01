@@ -60,16 +60,18 @@ console.log('Genre maps: catalog taxonomy, overlapping genres, empty groups, sel
 
 // Category charts render without Arena initialization and preserve real task scope.
 let lang='zh';
-const viewContext={window:{ArenaCatalog:data,ATLAS_DATA:atlas,ArenaSuiteModel:require('../dist/arena-model.js'),AtlasLanguage:{current:()=>lang}},location:{search:''},URLSearchParams,localStorage:{getItem:()=>null}};
+const design=JSON.parse(fs.readFileSync('data/curation/evaluation-design.json'));
+const evaluation=require('../dist/evaluation-model.js').create(atlas,data,design);
+const viewContext={window:{AtlasEvaluation:evaluation,AtlasEvaluationDesign:design,ArenaCatalog:data,ATLAS_DATA:atlas,ArenaSuiteModel:require('../dist/arena-model.js'),AtlasLanguage:{current:()=>lang}},location:{search:'',href:'http://localhost/?view=themes'},history:{replaceState(){}},URL,URLSearchParams,localStorage:{getItem:()=>null}};
 vm.runInNewContext(fs.readFileSync('dist/arena-suite.js','utf8'),viewContext);
 const view=viewContext.window.AtlasArena;
 for(const category of atlas.facets.categories.filter(c=>!['Unresolved','Related research'].includes(c))){
  const html=view.categoryMap(category);
  assert(html.includes('data-category-map="'+category+'"'));
  assert(html.includes('任务与能力覆盖'));
- assert(html.includes('<table'));
+ if(model.genreCoverage(data.tasks.map(t=>t.id),atlas).find(g=>g.genre===category).selected.length)assert(html.includes('<table'));
  const expected=model.genreCoverage(data.tasks.map(t=>t.id),atlas).find(g=>g.genre===category).selected;
- for(const task of data.tasks)assert.equal(html.includes('data-arena-task="'+task.id+'"'),expected.some(t=>t.id===task.id));
+ for(const task of data.tasks)assert.equal(html.includes('data-plan-active="'+task.id+'"'),expected.some(t=>t.id===task.id));
 }
 assert(view.categoryMap('Racing').includes('尚未选入 Arena 候选任务'));
 lang='en';assert(view.categoryMap('RTS').includes('Tasks & capability coverage'));
@@ -85,10 +87,14 @@ assert.equal(data.tasks.find(t=>t.id==='coinrun-heldout').game,'procgen-coinrun'
 assert.equal(model.coverage(data.tasks.map(t=>t.id)).selected.length,24);
 assert.equal(model.coverage(data.tasks.map(t=>t.id)).benchmarks.length,21);
 for(const t of data.tasks.filter(t=>t.curationRound==='v17'))assert(t.evidence.length>0);
-// Existing users with the old default set receive new recommendations; custom sets remain intact.
-for(const [stored,expected] of [[data.previousDefaults,true],[['sc2-match'],false]]){
- const c={...viewContext,window:{...viewContext.window},localStorage:{getItem:k=>k==='atlas-arena-suite-v2'?JSON.stringify({ids:stored}):null}};
+console.log('Arena category maps share canonical task references; all candidate game scopes verified.');
+
+// Default historical recommendations do not become a user-authored plan.
+// Customized v2/v3 selections survive the workspace migration.
+for(const version of ['v2','v3'])for(const [stored,expected] of [[data.tasks.filter(t=>t.core).map(t=>t.id),[]],[data.previousDefaults,[]],[['sc2-match'],['sc2-match']]]){
+ let saved;
+ const c={...viewContext,window:{...viewContext.window},localStorage:{getItem:k=>k==='atlas-arena-suite-'+version?JSON.stringify({ids:stored}):null,setItem:(k,v)=>{saved=JSON.parse(v);}}};
  vm.runInNewContext(fs.readFileSync('dist/arena-suite.js','utf8'),c);
- assert.equal(c.window.AtlasArena.categoryMap('FPS').includes('ViZDoom · Selected'),expected);
+ c.window.AtlasArena.openTask('sc2-match');
+ assert.deepEqual(saved.ids,expected);
 }
-console.log('Expansion: 9 source-traceable tasks, 20 recommended, 24 total, new-genre coverage and preference migration pass.');

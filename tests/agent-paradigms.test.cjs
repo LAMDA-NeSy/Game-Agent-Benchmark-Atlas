@@ -23,7 +23,7 @@ for(const r of audit.records){
 }
 const priority=audit.records.filter(r=>r.reviewBatch==='priority50');assert.equal(priority.length,50);assert.equal(priority.filter(r=>r.status==='confirmed').length,49);assert.equal(priority.filter(r=>r.status==='not_applicable').length,1);
 for(const a of labels)assert.equal(library.agentParadigms.labels[a],library.records.filter(r=>r.agents.includes(a)).length);
-assert.equal(data.documentedTasks.length,462);
+assert.equal(data.documentedTasks.length,464);
 assert.equal(data.gameIndex.length,1289);
 assert.equal(data.gameIndex.reduce((n,g)=>n+g.links.length,0),1992);
 assert(!data.documentedTasks.some(t=>t.executionVerified),'field review must not imply execution');

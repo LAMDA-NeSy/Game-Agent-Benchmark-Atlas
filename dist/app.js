@@ -34,7 +34,7 @@
   const namedGame=label=>gameIndex.find(g=>g.name===label);
   const gameSearchTerms=r=>gameIndex.filter(g=>g.links.some(x=>x.benchmark===r.id)).flatMap(g=>[g.name,g.nameZh||'',...(g.aliases||[])]);
   const gameLink=r=>currentGame()?.links.find(x=>x.benchmark===r.id);
-  let differencesOnly=false,gameFiltersOpen=false,gameSearchLimit=30;
+  let gameFiltersOpen=false,gameSearchLimit=30;
   const openProfiles=new Set();
   const $ = s => document.querySelector(s);
   const $$ = s => [...document.querySelectorAll(s)];
@@ -132,7 +132,7 @@
     p.set("lang",window.AtlasLanguage.current());
     p.set('view',state.view);
     if(['explore','themes'].includes(state.view)){const previous=new URLSearchParams(location.search);p.set('catalog','archives');for(const [key,value] of previous)if(key.startsWith('library'))p.set(key,value);if(!previous.has('question')&&(!previous.has('view')||previous.get('view')==='explore'))for(const [oldKey,newKey] of Object.entries({q:'libraryQ',agent:'libraryAgent',capability:'libraryCap',genre:'libraryGenre',interaction:'libraryInteraction',kind:'libraryKind',sort:'librarySort'}))if(previous.has(oldKey)&&!p.has(newKey))p.set(newKey,previous.get(oldKey));}
-    if(state.view==='arena')p.set('arenaPanel',window.AtlasArena.panel());
+    if(state.view==='arena'){p.set('arenaPanel',window.AtlasArena.panel());const old=new URLSearchParams(location.search);if(old.has('arenaPlan'))p.set('arenaPlan',old.get('arenaPlan'));}
     if(state.view==='games'){p.set('category',state.gameCategory);p.set('game',state.game);if(state.gameResource==='evaluation')p.set('gameResource','evaluation');if(['reviewed','tasks'].includes(state.gameReview))p.set('gameReview',state.gameReview);if(state.gameSearch)p.set('gameSearch',state.gameSearch);if(state.gameUsage&&state.gameUsage!=='all')p.set('gameUsage',state.gameUsage);if(state.gameCapability){p.set('gameCapability',state.gameCapability);if(state.gameAssociation==='secondary')p.set('gameAssociation','secondary');}}
     if(state.view!=='explore'&&state.q)p.set('q',state.q);
     if(state.view!=='explore'&&state.question)p.set('question',state.question);
@@ -141,7 +141,7 @@
     if(state.view!=='explore'&&state.genres.length)p.set('genre',state.genres.join(','));
     if(state.view!=='explore'&&state.interactions.length)p.set('interaction',state.interactions.join(','));
     if(state.view!=='explore'&&state.kinds.length)p.set('kind',state.kinds.join(','));
-    if(state.compareOpen){p.set('comparison','1');p.set('compare',selected.join(','));}
+    if(state.compareOpen){p.set('comparison','1');p.set('compare',selected.join(','));const old=new URLSearchParams(location.search);for(const key of ['compareMode','compareTasks','compareExtras','compareDiff'])if(old.has(key))p.set(key,old.get(key));}
     if(state.view!=='explore'&&state.sort!=='curated')p.set('sort',state.sort);
     if(state.detail){p.set('detail',state.detail);if(detailTab!=='overview')p.set('archiveTab',detailTab);if(state.task)p.set('task',state.task);}
     history[push?'pushState':'replaceState']({},'',location.pathname+(p.size?'?'+p.toString():''));
@@ -339,8 +339,8 @@
     $('#compare-count').textContent=selected.length;$('#compare-dock').hidden=!selected.length||state.view==='arena';
     $('#dock-count').textContent=`${selected.length} selected`;
     $('#dock-names').textContent=selected.map(id=>byId.get(id).name).join(' · ');
-    $('#open-compare').disabled=selected.length<2;
-    $('#open-compare').title=selected.length<2?'Select at least 2 entries to compare':'';
+    $('#open-compare').disabled=selected.length<1;
+    $('#open-compare').title=selected.length<1?'Select an entry to compare resources or tasks':'';
   }
   function toast(message){clearTimeout(toastTimer);$('#toast').textContent=message;$('#toast').classList.add('visible');toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),3000);}
   function showDialog(id){const d=$('#'+id);if(!d.open)d.showModal();document.body.classList.add('modal-open');}
@@ -355,23 +355,7 @@
     $('#detail-dialog').scrollTop=scroll;
   }
   function renderCompare(){
-    if(selected.length<2){$('#compare-content').innerHTML=`<button class="modal-close" data-close="compare-dialog" aria-label="Close comparison">×</button>${window.AtlasLanguage.picker()}<h2 id="compare-title">Benchmark 对照表</h2><p class="dialog-intro">从目录中选择 2–4 个条目，比较任务范围、智能体接口、评估条件及证据。</p>`;return;}
-    const unknownValue=bilingual('尚无已核验的条目级信息，见任务档案。','No reviewed entry-level value; consult the task archive.');
-    const rs=selected.map(id=>{const r=byId.get(id),a=window.AtlasResearchArchives.get(id),values=key=>[...new Set(a.tasks.map(u=>u[key]?.[window.AtlasLanguage.current()]||u[key]?.en).filter(Boolean))].join('；')||unknownValue;return {...r,research:r.research||{fit:bilingual(a.bibliography.scope?.zh||unknownValue,a.bibliography.scope?.en||unknownValue),scope:values('task'),metrics:values('metrics'),controls:values('controls'),setup:values('limits')},observation:r.observation||values('observation'),action:r.action||values('action')};}),g=state.view==='games'?currentGame():null,q=g?null:currentQuestion();
-    const unknown='仅有条目级说明；本游戏字段尚未核验。';
-    const gameValue=(r,key)=>gameLink(r)?.profile?.[key]?.text||(key==='scope'?gameLink(r)?.scope:null)||unknown;
-    const rows=g?[
-      ['任务与设置',r=>gameValue(r,'scope'),'scope'],['环境 / 适配层',r=>gameValue(r,'environment'),'environment'],
-      ['观测接口',r=>gameValue(r,'observation'),'observation'],['动作接口',r=>gameValue(r,'action'),'action'],
-      ['官方评估指标',r=>gameValue(r,'metrics'),'metrics'],['接入方式',r=>gameValue(r,'integration'),'integration'],
-      ['必须对齐的条件',r=>gameValue(r,'controls'),'controls'],['待核验信息',r=>gameValue(r,'unknown'),'unknown']
-    ]:[
-      ['研究关联',r=>q?relevance(r):r.research.fit],['任务范围',r=>r.research.scope],['条目性质',r=>r.kind],
-      ['已记录的 Agent 使用',r=>r.agents.join(' / ')],['观测',r=>r.observation],['动作',r=>r.action],
-      ['评估信息 / 编辑建议',r=>r.research.metrics],['需控制的实验条件',r=>r.research.controls],['接入与资源限制',r=>r.research.setup]
-    ];
-    const visibleRows=rows.filter(([,fn])=>!differencesOnly||new Set(rs.map(fn)).size>1);
-    $('#compare-content').innerHTML=`<button class="modal-close" data-close="compare-dialog" aria-label="Close comparison">×</button>${window.AtlasLanguage.picker()}<div class="eyebrow">COMPARATIVE OVERVIEW / ${rs.length} ENTRIES</div><h2 id="compare-title">Benchmark 对照表</h2><p class="dialog-intro">${g?`<span data-no-i18n>${escape(gameTitleText(g))}</span> · <span>本游戏的任务档案</span>`:q?`研究主题：${escape(q.label)}`:'先比较研究适用性，再确定任务与评估协议。'}</p><div class="comparison-callout">${g?escape(g.comparisonNote||'同游戏比较仍需控制任务、观测、动作、预算及评价指标。'):q?escape(q.decision):'以下列出范围、接口与协议差异。选择同类任务后，再比较模型结果。'}<p>${g?'任务档案采用本游戏字段；没有核验的字段不使用整套 Benchmark 的信息代填。':'建议指标与控制条件属于编辑的研究设计提示。'}</p></div><div class="compare-toolbar"><label><input type="checkbox" id="differences-only" ${differencesOnly?'checked':''}> 仅显示不同项</label><button class="text-button" id="share-compare">复制对比链接</button></div><input class="compare-share-url" id="compare-link" aria-label="对比链接" readonly hidden value="${escape(location.href)}"><div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>比较维度</th>${rs.map(r=>`<th><span data-no-i18n>${escape(r.name)}</span><span class="compare-venue">${escape(r.venue)}</span><button data-compare="${r.id}">移出对比 ×</button></th>`).join('')}</tr></thead><tbody>${visibleRows.map(([label,fn,key])=>`<tr><th scope="row">${label}</th>${rs.map(r=>`<td><p>${escape(fn(r))}</p>${g&&gameLink(r)?.profile?.[key]?`<a class="compare-field-source" href="${escape(gameLink(r).profile[key].source)}" target="_blank" rel="noopener noreferrer">文档来源 ↗</a>`:''}</td>`).join('')}</tr>`).join('')}<tr><th scope="row">核验状态</th>${rs.map(r=>`<td>${window.AtlasTaskCoverage.status(window.AtlasResearchArchives.get(r.id).taskReview?.status)}<br>${bilingual('运行状态未验证','Runtime not verified')}</td>`).join('')}</tr><tr><th scope="row">论文与实现</th>${rs.map(r=>`<td><a href="${escape(r.paper)}" target="_blank" rel="noopener noreferrer">论文 ↗</a><br>${codeLink(r,'GitHub ↗')}</td>`).join('')}</tr></tbody></table></div><details class="compare-extra"><summary>分类依据</summary>${rs.map(r=>`<h3 data-no-i18n>${escape(r.name)}</h3>${window.AtlasResearchArchives.evidence(window.AtlasResearchArchives.get(r.id))}`).join('')}</details>`;
+    $('#compare-content').innerHTML=window.AtlasComparison.render(selected,{question:currentQuestion(),gameId:state.view==='games'?state.game:null});
   }
   function openCompare(){state.compareOpen=true;writeURL();renderCompare();showDialog('compare-dialog');}
   function exportSelection(){
@@ -401,6 +385,7 @@
     if(el.dataset.genre){const g=gameIndex.find(g=>g.categories.includes(el.dataset.genre));if(g)openGame(g.id,el.dataset.genre);return;}
     if(el.dataset.saveArchive){const a=window.AtlasResearchArchives.get(el.dataset.saveArchive);if(!a)return;const blob=new Blob([JSON.stringify(a,null,2)+'\n'],{type:'application/json'}),url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=a.sourceId+'-research-archive.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);return;}
     if(el.dataset.detail){openDetail(el.dataset.detail);if(el.dataset.archiveTab){detailTab=el.dataset.archiveTab;state.task=null;writeURL();renderDetail();}return;}
+    if(el.dataset.arenaAddProtocol){window.AtlasArena.addProtocol(el.dataset.arenaAddProtocol);setView('arena');return;}
     if(el.dataset.compare){toggleCompare(el.dataset.compare);return;}
     if(el.dataset.close){$('#'+el.dataset.close).close();return;}
     if(el.dataset.detailTab){detailTab=el.dataset.detailTab;state.task=null;writeURL();renderDetail();return;}
@@ -422,7 +407,6 @@
   document.addEventListener('change',e=>{
     if(e.target.id==='game-capability-filter'||e.target.id==='game-association-filter'){const id=e.target.id;if(id==='game-capability-filter'){state.gameCapability=e.target.value||null;state.question=null;state.caps=[];}else state.gameAssociation=e.target.value;gameFiltersOpen=true;writeURL();renderGames();$('#'+id)?.focus({preventScroll:true});return;}
     if(e.target.id==='game-resource'||e.target.id==='game-review'){state[e.target.id==='game-resource'?'gameResource':'gameReview']=e.target.value;writeURL();renderGames();return;}
-    if(e.target.id==='differences-only'){differencesOnly=e.target.checked;renderCompare();}
     if(e.target.dataset.filter){const key=e.target.dataset.filter;const value=e.target.value;state[key]=e.target.checked?[...state[key],value]:state[key].filter(v=>v!==value);writeURL();if(state.view==='games')renderGames();else renderResults();}
     if(e.target.id==='sort'){state.sort=e.target.value;writeURL();if(state.view==='games')renderGames();else renderResults();}
   });

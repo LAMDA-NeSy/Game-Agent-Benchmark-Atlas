@@ -75,6 +75,10 @@ the repository's `/Game-Agent-Benchmark-Atlas/` URL prefix without a custom doma
 
 ## Build sequence and boundaries
 
+The task comparison and Arena workspace use a shared protocol model. See
+[evaluation-workspace.md](evaluation-workspace.md) for task bindings, curated
+relationships, templates and plan exports.
+
 1. Copy browser code, styles and static assets from `src/` into `dist/`.
 2. Assemble curated profiles and the bibliography; integrate game associations,
    collection members, task protocols and agent-paradigm reviews.

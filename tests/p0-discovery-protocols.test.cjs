@@ -34,7 +34,7 @@ assert.equal(added.length,45);assert.equal(new Set(added.map(u=>u.id)).size,45);
 const protocols=require('../dist/task-protocol-model.js').create(data);
 const saved=JSON.parse(fs.readFileSync('dist/task-protocols.json'));
 assert.deepEqual(saved.protocols,protocols.protocols);
-assert.equal(saved.count,462);
+assert.equal(saved.count,464);
 assert.equal(saved.protocols.filter(p=>p.protocolType==='editorial-proposal').length,24);
 for(const row of supplement.records)for(const u of row.units){
  const p=protocols.get(u.id);assert(p&&p.benchmark===row.id);

@@ -20,6 +20,7 @@ def integrate(payload):
     audit=json.loads(path.read_text()) if path.exists() else {'records':[]}
     # The P0 pass adds source-specific protocols without rewriting earlier audits.
     supplement=json.loads((CURATION / 'task-protocol-p0.json').read_text())
+    supplement['records'] += json.loads((CURATION / 'task-protocol-p1.json').read_text())['records']
     merged={r['id']:r for r in audit['records']}
     for row in supplement['records']:
         previous=merged.get(row['id'])
@@ -193,5 +194,6 @@ def integrate(payload):
         payload['taskReviewFollowup']=followup['summary']
         (ROOT/'dist/task-review-followup.json').write_bytes(followup_path.read_bytes())
     if path.exists():(ROOT/'dist/task-protocol-review.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
-    (ROOT/'dist/task-protocol-p0.json').write_text(json.dumps(supplement,ensure_ascii=False,indent=2)+'\n')
+    for name in ['task-protocol-p0.json','task-protocol-p1.json']:
+        (ROOT/'dist'/name).write_bytes((CURATION/name).read_bytes())
     return payload

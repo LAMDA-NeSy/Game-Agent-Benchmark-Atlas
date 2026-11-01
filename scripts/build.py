@@ -20,6 +20,9 @@ def main():
     # Browser models are copied before the Node exporters reuse their counting rules.
     from atlas.build_data import build
     build()
+    design = json.loads((CURATION / 'evaluation-design.json').read_text())
+    (DIST / 'evaluation-design.json').write_text(json.dumps(design, ensure_ascii=False, indent=2)+'\n')
+    (DIST / 'evaluation-design.js').write_text('window.AtlasEvaluationDesign = '+json.dumps(design, ensure_ascii=False)+';\n')
     images = json.loads((CURATION / 'game-images.json').read_text())
     ids = [entry['gameId'] for entry in images['entries']]
     if len(ids) != len(set(ids)):
