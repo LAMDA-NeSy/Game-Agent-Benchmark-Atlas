@@ -88,7 +88,7 @@ body:not([data-view=arena]) .library-count strong { font: 600 17px var(--font); 
 body:not([data-view=arena]) .archive-filter-note { color: #777e6f; line-height: 1.8; }
 body:not([data-view=arena]) .directory-table { min-width: 790px; border-top: 1px solid #abb2a2; }
 body:not([data-view=arena]) .directory-table thead th { background: #efefe8; font-size: 11px; font-weight: 500; padding-block: 13px; color: #65705c; }
-body:not([data-view=arena]) .directory-table :is(th,td) { border-bottom: 1px solid var(--line); padding: 22px 13px; }
+body:not([data-view=arena]) .directory-table :is(th,td) { border-bottom: 1px solid var(--line); padding: 17px 13px; }
 body:not([data-view=arena]) .directory-table tbody tr:hover { background: #fffefa; }
 body:not([data-view=arena]) .directory-table .title-button { color: var(--ink); font-size: 17px; font-weight: 650; letter-spacing: -.2px; }
 body:not([data-view=arena]) .directory-table .title-button:hover { color: var(--accent); }
@@ -115,7 +115,7 @@ body:not([data-view=arena]) .game-category-nav>button { border-radius: 0 4px 4px
 body:not([data-view=arena]) .game-category-nav>button[aria-pressed=true] { background: #ecebe2; border-color: var(--accent); }
 body:not([data-view=arena]) .game-index-search input { background: #fffefa; border: 1px solid #cfd2c7; border-radius: 6px; font-size: 14px; }
 body:not([data-view=arena]) .game-selector { gap: 0 12px; scrollbar-color: #bec3b4 transparent; }
-body:not([data-view=arena]) .game-selector>.game-index-item { padding: 12px 10px; border-top-color: var(--line); }
+body:not([data-view=arena]) .game-selector>.game-index-item { padding: 9px 10px; border-top-color: var(--line); }
 body:not([data-view=arena]) .game-selector>.game-index-item:hover { background: #efefe7; }
 body:not([data-view=arena]) .game-selector>.game-index-item[aria-pressed=true] { background: #eeebe2; border-left-color: var(--accent); }
 body:not([data-view=arena]) .game-dossier { margin-top: 28px; }
@@ -126,8 +126,8 @@ body:not([data-view=arena]) .game-usage-filters>button[aria-pressed=true] { colo
 body:not([data-view=arena]) dialog { background: #fffefa; border: 1px solid #d1d3c8; border-radius: 10px; box-shadow: 0 24px 90px #24291d2b; }
 body:not([data-view=arena]) dialog::backdrop { background: #252b2659; backdrop-filter: blur(3px); }
 body:not([data-view=arena]) .detail-dialog { width: min(1100px,94vw); max-width: 1100px; }
-body:not([data-view=arena]) .detail-hero { background: none; border: 0; height: 0; min-height: 0; }
-body:not([data-view=arena]) .detail-main { padding: 36px 50px 48px; }
+body:not([data-view=arena]) .detail-hero { position: sticky; top: 0; z-index: 8; background: none; border: 0; height: 0; min-height: 0; }
+body:not([data-view=arena]) .detail-main { padding: 28px 40px 32px; }
 body:not([data-view=arena]) .detail-main h2 { font: 600 38px/1.2 var(--atlas-serif); color: var(--ink); margin-block: 14px; padding-right: 32px; }
 body:not([data-view=arena]) .detail-overline { color: #7d836f; font-size: 11px; }
 body:not([data-view=arena]) .detail-paper-title { font-size: 16px; color: #626b57; line-height: 1.65; max-width: 850px; }
@@ -135,13 +135,13 @@ body:not([data-view=arena]) .detail-authors { font-size: 12px; color: #7a816e; }
 body:not([data-view=arena]) .button { border-radius: 5px; font-size: 12px; }
 body:not([data-view=arena]) .button.dark { background: #343e30; border-color: #343e30; }
 body:not([data-view=arena]) .button.light { border-color: #d0d6c4; background: transparent; color: #56624b; }
-body:not([data-view=arena]) .detail-tabs { position: sticky; top: -1px; z-index: 3; background: #fffefa; margin-top: 24px; gap: 28px; border-color: var(--line); }
-body:not([data-view=arena]) .detail-tabs button { padding-block: 16px; font-size: 13px; }
-body:not([data-view=arena]) .detail-section { padding-top: 24px; border-color: var(--line); }
+body:not([data-view=arena]) .detail-tabs { position: sticky; top: -1px; z-index: 3; background: #fffefa; margin-top: 16px; gap: 24px; border-color: var(--line); }
+body:not([data-view=arena]) .detail-tabs button { padding-block: 12px; font-size: 13px; }
+body:not([data-view=arena]) .detail-section { margin-block: 16px; padding-top: 12px; border-color: var(--line); }
 body:not([data-view=arena]) .detail-section h3 { font-size: 16px; color: #3c4536; margin-bottom: 14px; }
-body:not([data-view=arena]) .archive-overview-sections>section { display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 24px; padding-block: 18px; margin: 0; border-bottom: 1px solid #e8e9e1; }
+body:not([data-view=arena]) .archive-overview-sections>section { display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 20px; padding-block: 12px; margin: 0; border-bottom: 1px solid #e8e9e1; }
 body:not([data-view=arena]) .archive-overview-sections h4 { font-size: 12px; color: #79816e; padding-top: 3px; }
-body:not([data-view=arena]) .archive-overview-sections p { color: #424b3a; font-size: 14px; line-height: 1.95; }
+body:not([data-view=arena]) .archive-overview-sections p { color: #424b3a; font-size: 14px; line-height: 1.8; }
 body:not([data-view=arena]) .modal-close { position: sticky; float: right; top: 14px; margin: 14px 14px 0 0; z-index: 8; width: 32px; height: 32px; border: 1px solid var(--line); border-radius: 50%; background: #fffefa; color: #606a54; }
 body:not([data-view=arena]) .detail-hero .modal-close { position: absolute; right: 0; top: 0; }
 body:not([data-view=arena]) .compare-dialog { width: min(1440px,96vw); max-width: 1440px; padding: 30px 34px 40px; }
@@ -150,7 +150,7 @@ body:not([data-view=arena]) .comparison-controls { position: sticky; top: -30px;
 body:not([data-view=arena]) .comparison-controls button { font-size: 13px; }
 body:not([data-view=arena]) .comparison-controls label { font-size: 12px; color: #6b755e; }
 body:not([data-view=arena]) .compare-table { border: 1px solid var(--line); }
-body:not([data-view=arena]) .compare-table :is(th,td) { padding: 17px 18px; border-color: var(--line); background: transparent; }
+body:not([data-view=arena]) .compare-table :is(th,td) { padding: 13px 16px; border-color: var(--line); background: transparent; }
 body:not([data-view=arena]) .compare-table thead th { background: #f0f1e9; color: #46503d; }
 body:not([data-view=arena]) .compare-table tbody th { background: #f7f7f0; color: #727c66; font-size: 12px; width: 145px; }
 body:not([data-view=arena]) .compare-table tbody tr:nth-child(even) { background: #f8f8f2; }
@@ -178,3 +178,9 @@ body:not([data-view=arena]) :is(button,a,input,select,summary,textarea):focus-vi
 
 /* Reserve the status region for interaction feedback. */
 .plan-status:empty { display: none; }
+
+/* Keep source links readable without widening the archive or creating empty rows. */
+body:not([data-view=arena]) .archive-media-links li { display: grid; grid-template-columns: 36px minmax(0,1fr) auto; gap: 8px 16px; padding-block: 10px; }
+body:not([data-view=arena]) .archive-media-links li>a { min-width: 0; overflow-wrap: anywhere; }
+body:not([data-view=arena]) .archive-media-links .media-source { margin-left: 0; white-space: nowrap; }
+body:not([data-view=arena]) .detail-facts { padding-block: 16px; gap: 14px 24px; margin-block: 16px; }
