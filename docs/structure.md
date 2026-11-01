@@ -59,6 +59,9 @@ the repository's `/Game-Agent-Benchmark-Atlas/` URL prefix without a custom doma
 - **UI and behavior:** edit `src/`. The build flattens source asset paths into
   `dist/`, preserving existing page URLs and script ordering. Asset basenames
   must be unique. `src/index.html` uses the deployed filenames.
+  `editorial-ui.css` is the final visual layer for the shared header, research
+  index, directory, game pages, archives and comparison. It uses system fonts
+  and local styles only. Arena's task workspace retains its existing layout.
 - **Bibliography:** edit `data/catalog.json`. Keep it public-only; do not add
   private reading notes, local document paths or credentials.
 - **Evidence and reviews:** edit the relevant files in `data/curation/`.
