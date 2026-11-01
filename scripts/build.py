@@ -24,6 +24,12 @@ def main():
     (DIST / 'evaluation-design.json').write_text(json.dumps(design, ensure_ascii=False, indent=2)+'\n')
     (DIST / 'evaluation-design.js').write_text('window.AtlasEvaluationDesign = '+json.dumps(design, ensure_ascii=False)+';\n')
     leaderboards = json.loads((CURATION / 'official-leaderboards.json').read_text())
+    expansion = json.loads((CURATION / 'official-leaderboard-expansion.json').read_text())
+    leaderboards['sourceSnapshots'] = [leaderboards['sourceSnapshot'], expansion['sourceSnapshot']]
+    leaderboards['boards'].extend(expansion['boards'])
+    leaderboards['capturedAt'] = max(b['source']['snapshotAt'] for b in leaderboards['boards'])
+    if len({b['id'] for b in leaderboards['boards']}) != len(leaderboards['boards']):
+        raise ValueError('Official leaderboard IDs must be unique.')
     (DIST / 'official-leaderboards.json').write_text(json.dumps(leaderboards, ensure_ascii=False, indent=2)+'\n')
     (DIST / 'official-leaderboards-data.js').write_text('window.AtlasOfficialLeaderboardsData = '+json.dumps(leaderboards, ensure_ascii=False)+';\n')
     images = json.loads((CURATION / 'game-images.json').read_text())
