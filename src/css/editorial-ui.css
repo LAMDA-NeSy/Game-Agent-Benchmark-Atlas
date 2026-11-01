@@ -175,3 +175,6 @@ body:not([data-view=arena]) :is(button,a,input,select,summary,textarea):focus-vi
 @media (prefers-reduced-motion: no-preference) {
   body:not([data-view=arena]) :is(button,a,input,select) { transition: color .14s, background-color .14s, border-color .14s; }
 }
+
+/* Reserve the status region for interaction feedback. */
+.plan-status:empty { display: none; }
