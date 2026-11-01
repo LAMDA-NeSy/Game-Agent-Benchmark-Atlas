@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./arena-suite.css?v=27">
   <script src="./data.js?v=63" defer></script>
   <script src="./translations.js?v=48" defer></script>
-  <script src="./i18n.js?v=25" defer></script>
+  <script src="./i18n.js?v=69" defer></script>
   <script src="./game-roles-data.js?v=63" defer></script>
   <script src="./game-roles-model.js?v=62" defer></script>
   <script src="./discovery-model.js?v=62" defer></script>
@@ -24,9 +24,9 @@
   <script src="./task-coverage.js?v=62" defer></script>
   <script src="./library-data.js?v=63" defer></script>
   <script src="./research-archive-model.js?v=62" defer></script>
-  <script src="./research-archives.js?v=66" defer></script>
-  <script src="./library.js?v=66" defer></script>
-  <link rel="stylesheet" href="./library.css?v=53">
+  <script src="./research-archives.js?v=69" defer></script>
+  <script src="./library.js?v=69" defer></script>
+  <link rel="stylesheet" href="./library.css?v=69">
   <script src="./game-introductions.js?v=61" defer></script>
   <link rel="stylesheet" href="./game-images.css?v=7">
   <script src="./game-images-data.js?v=63" defer></script>
@@ -37,8 +37,8 @@
   <script src="./arena-suite.js?v=66" defer></script>
   <script src="./benchmark-comparison.js?v=66" defer></script>
   <link rel="stylesheet" href="./evaluation-workspace.css?v=63">
-  <link rel="stylesheet" href="./editorial-ui.css?v=68">
-  <script src="./app.js?v=66" defer></script>
+  <link rel="stylesheet" href="./editorial-ui.css?v=69">
+  <script src="./app.js?v=69" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#collection">Skip to collection</a>
@@ -46,7 +46,7 @@
     <div class="header-inner">
       <a class="brand" href="./" aria-label="Game Agent Benchmark Atlas home"><span class="wordmark"><span class="brand-prefix">Game Agent</span> <b>Benchmark Atlas</b></span></a>
       <nav aria-label="Main navigation">
-        <button class="nav-link" data-view="explore">全部条目</button>
+        <button class="nav-link" data-view="explore">资源目录</button>
         <button class="nav-link" data-view="themes">研究主题</button>
         <button class="nav-link" data-view="games">游戏索引</button>
         <button class="nav-link nav-arena" data-view="arena" data-no-i18n>Game Arena</button>
@@ -57,7 +57,7 @@
   </header>
   <main>
     <section class="wrap question-section" id="questions" aria-labelledby="question-title">
-      <div class="question-heading"><div><h2 id="question-title">研究主题</h2></div><button class="text-button" data-view="explore">全部条目 →</button></div>
+      <div class="question-heading"><div><h2 id="question-title">研究主题</h2></div><button class="text-button" data-view="explore">资源目录 →</button></div>
       <p class="theme-page-intro">按研究问题查找评测任务，比较协议与适用边界。</p>
       <div id="question-grid" class="question-grid"></div>
 
@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div id="method-overview" class="method-overview" hidden><div class="about-points"><section><span>01</span><div><h3>收录对象</h3><p>The indexed entries include benchmark suites, individual benchmarks, environment families and research platforms. Each record keeps its original paper and authors.</p></div></section><section><span>02</span><div><h3>分类依据分层展示</h3><p>“官方定位”对应项目明确的研究目标；“任务文档”对应具体任务机制；“编辑归类”是根据机制整理的研究视角。它们都不自动证明某项能力被独立测量。</p><p>目录按条目检索；游戏页面按本游戏的关联与任务档案筛选。</p></div></section><section><span>03</span><div><h3>来源与核查状态</h3><p>All entries use one research archive structure. Each archive distinguishes bibliographic metadata, reviewed tasks and missing evidence. Inclusion and code availability do not imply installation or reproduction.</p><p>文献核验不代表独立复现；任务的版本、预算与限制在协议中列示。</p></div></section><section><span>04</span><div><h3>使用边界</h3><p>研究路径是编辑整理的候选清单，不提供自动适配或质量排名。对比中的建议指标、控制条件属于研究设计提示；各条目的结果不能直接跨协议合并。</p></div></section></div></div>
+      <div id="method-overview" class="method-overview" hidden><div class="about-points"><section><span>01</span><div><h3>收录对象</h3><p>The indexed entries include benchmark suites, individual benchmarks, environment families and research platforms. Each record keeps its original paper and authors.</p></div></section><section><span>02</span><div><h3>分类依据分层展示</h3><p>“官方定位”对应项目明确的研究目标；“任务文档”对应具体任务机制；“编辑归类”是根据机制整理的研究视角。它们都不自动证明某项能力被独立测量。</p><p>目录按条目检索；游戏页面按本游戏的关联与任务档案筛选。</p></div></section><section><span>03</span><div><h3>来源与核查状态</h3><p>所有条目采用统一的研究档案结构，分别记录文献信息、已核验任务和证据缺项。收录条目或提供代码链接不代表已完成安装或复现。</p><p>文献核验不代表独立复现；任务的版本、预算与限制在协议中列示。</p></div></section><section><span>04</span><div><h3>使用边界</h3><p>研究路径是编辑整理的候选清单，不提供自动适配或质量排名。对比中的建议指标、控制条件属于研究设计提示；各条目的结果不能直接跨协议合并。</p></div></section></div></div>
       <div id="topic-content" hidden></div>
       <div id="arena-content" data-no-i18n hidden></div>
     </section>

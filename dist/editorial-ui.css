@@ -184,3 +184,87 @@ body:not([data-view=arena]) .archive-media-links li { display: grid; grid-templa
 body:not([data-view=arena]) .archive-media-links li>a { min-width: 0; overflow-wrap: anywhere; }
 body:not([data-view=arena]) .archive-media-links .media-source { margin-left: 0; white-space: nowrap; }
 body:not([data-view=arena]) .detail-facts { padding-block: 16px; gap: 14px 24px; margin-block: 16px; }
+
+/* Shared research UI tokens. Arena keeps its existing workspace styles. */
+body:not([data-view=arena]) {
+  --atlas-muted: #626862;
+  --muted: var(--atlas-muted);
+  --atlas-link: #315c63;
+  --atlas-selected: #f1e8e7;
+  --atlas-control-border: #b9c0b8;
+  --atlas-control-height: 40px;
+  --green: var(--atlas-link);
+}
+body:not([data-view=arena]) :is(.section-heading>p,.theme-page-intro,.detail-paper-title,.detail-authors,.paper-authors,.archive-scope-preview,.game-introduction p,.profile-fields dd,.classification-evidence p,.detail-section p,.compare-table td) { color: var(--ink); }
+body:not([data-view=arena]) :is(.archive-directory .paper-title,.archive-directory .paper-authors,.game-benchmark-table .paper-authors,.filter-option,.theme-table tbody td,.theme-table .theme-checks) { color: var(--muted); }
+body:not([data-view=arena]) :is(.detail-section h3,.game-table-heading h3,.game-usage-heading h3,.game-category-heading h3,.taxonomy-card h3) { font: 600 18px/1.45 var(--font); color: var(--ink); }
+body:not([data-view=arena]) :is(.directory-table .title-button,.game-benchmark-table .title-button) { font-size: 16px; font-weight: 600; }
+body:not([data-view=arena]) :is(.detail-facts dt,.detail-overline,.source-date,.theme-number,.profile-fields dt) { font-family: var(--font); }
+body:not([data-view=arena]) :is(.detail-facts dt,.detail-facts dd,.detail-overline,.detail-authors,.paper-authors,.archive-row-status,.entry-kind,.agent-badge,.filter-group legend,.filter-option .count,.theme-table thead th,.theme-table .theme-checks,.theme-number,.archive-summary,.archive-review-status,.archive-filter-note,.paradigm-filter-note,.paradigm-source,.paradigm-claims dt span,.overview-sources,.editorial-caption,.source-date,.source-unavailable,.evidence-scope,.game-usage-note,.game-usage-heading>span,.game-screenshot figcaption,.game-screenshot figcaption small,.game-screenshot-caption,.game-screenshot-note,.game-screenshot-choices,.game-screenshot-open>span,.game-name-original,.game-name-source,.game-original-name,.game-index-counts,.game-index-counts span,.game-category-count,.game-sort-note,.game-category-heading p,.game-full-index,.game-use-gap-status,.game-run-status,.game-use-missing small,.game-relation,.game-total,.profile-fields dt,.archive-media-links li>span,.archive-media-links .media-source,.comparison-unspecified,.protocol-comparison th small) { font-size: 12px; line-height: 1.65; color: var(--muted); }
+body:not([data-view=arena]) :is(.detail-facts dd,.game-use-gap-status,.game-run-status,.archive-review-status) { color: var(--ink); }
+body:not([data-view=arena]) :is(.detail-section p,.archive-overview-sections p,.profile-fields dd,.classification-evidence p,.game-scope>p,.archive-scope-preview) { font-size: 14px; line-height: 1.8; }
+body:not([data-view=arena]) :is(.archive-overview-sections h4,.filter-heading strong,.game-category-nav h3,.game-table-heading button) { font-size: 13px; color: var(--ink); }
+body:not([data-view=arena]) :is(.game-selector>.game-index-item .game-original-name,.game-selector .game-index-counts,.game-selector>button>small,.game-name-context) { font-size: 12px; color: var(--muted); }
+body:not([data-view=arena]) :is(a,.text-button,.evidence-button,.evidence-link,.resource-cell a,.resource-cell button,.game-actions button,.profile-route,.source-list a,.game-screenshot figcaption a,.overview-sources a,.archive-media-links a,.game-use-review-download a,.protocol-comparison thead th>a,.protocol-comparison thead th>button,.taxonomy-card button) { color: var(--atlas-link); }
+body:not([data-view=arena]) :is(.text-button,.evidence-button,.evidence-link,.resource-cell a,.resource-cell button,.game-actions button,.source-list a,.overview-sources a,.archive-media-links a,.game-screenshot figcaption a,.protocol-comparison thead th>a,.protocol-comparison thead th>button) { font-size: 12px; line-height: 1.65; }
+body:not([data-view=arena]) :is(a,.text-button,.evidence-button,.resource-cell button,.game-actions button):hover { text-decoration: underline; text-underline-offset: 3px; }
+body:not([data-view=arena]) :is(.agent-badge,.entry-kind,.game-usage-tags>span,.basis-label) { background: #efefea; border: 1px solid var(--line); color: var(--muted); border-radius: 3px; font-size: 12px; line-height: 1.5; padding: 2px 5px; }
+body:not([data-view=arena]) .card-tags .tag { background: none; color: var(--atlas-link); font-size: 12px; text-decoration: underline; text-underline-offset: 3px; border: 0; }
+body:not([data-view=arena]) :is(.card-tags,.agent-badges) { gap: 6px; flex-wrap: wrap; }
+body:not([data-view=arena]) :is(input[type=search],select,.sort-box select,.game-index-search input,.game-paper-search input,.comparison-task-picker select) { height: var(--atlas-control-height); min-width: 0; border: 1px solid var(--atlas-control-border); border-radius: 5px; padding: 8px 12px; background: var(--atlas-panel); color: var(--ink); font: 14px/1.4 var(--font); }
+body:not([data-view=arena]) .search-box { height: var(--atlas-control-height); border-color: var(--atlas-control-border); border-radius: 5px; }
+body:not([data-view=arena]) .search-box input { height: 100%; border: 0; background: none; padding: 0; }
+body:not([data-view=arena]) .search-box:focus-within { border-color: var(--accent); box-shadow: 0 0 0 2px #7c353b18; }
+body:not([data-view=arena]) :is(input[type=checkbox],.filter-option input) { width: 16px; height: 16px; accent-color: var(--accent); }
+body:not([data-view=arena]) :is(.button,.library-pagination button) { min-height: 36px; padding: 7px 12px; border-radius: 5px; font: 500 13px/1.5 var(--font); }
+body:not([data-view=arena]) .button.dark { background: var(--accent); border-color: var(--accent); color: #fff; }
+body:not([data-view=arena]) .button.light { color: var(--atlas-link); border-color: var(--atlas-control-border); background: var(--atlas-panel); }
+body:not([data-view=arena]) :is(.detail-tabs button,.archive-scope-tabs button,.comparison-controls button) { min-height: 40px; padding-block: 10px; font-size: 13px; }
+body:not([data-view=arena]) :is(.detail-tabs button.active,.archive-scope-tabs button.active,.comparison-controls button.active) { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+body:not([data-view=arena]) :is(.game-selector>.game-index-item[aria-pressed=true],.game-category-nav>button[aria-pressed=true],.active-filter) { color: var(--accent); background: var(--atlas-selected); border-color: var(--accent); }
+body:not([data-view=arena]) .game-usage-filters>button[aria-pressed=true] { color: var(--accent); border-color: var(--accent); }
+body:not([data-view=arena]) .compare-toggle.selected { color: #fff; background: var(--accent); border-color: var(--accent); }
+body:not([data-view=arena]) :is(button,a,input,select,summary):focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+body:not([data-view=arena]) :is(button,input,select):disabled { cursor: not-allowed; opacity: .5; }
+body:not([data-view=arena]) .language-picker button { font-size: 12px; }
+body:not([data-view=arena]) :is(.filter-group,.section-heading) { margin-bottom: 24px; }
+body:not([data-view=arena]) .filter-group legend { margin-bottom: 12px; }
+body:not([data-view=arena]) .archive-scope-tabs { display: flex; flex-wrap: wrap; gap: 0 20px; }
+body:not([data-view=arena]) .archive-scope-tabs button>span { font-size: 12px; color: var(--muted); }
+body:not([data-view=arena]) .library-count { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; padding-block: 12px; font-size: 12px; }
+body:not([data-view=arena]) :is(.library-count-main,.library-result-actions) { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 20px; }
+body:not([data-view=arena]) .library-count-main b { color: var(--ink); font-size: 13px; }
+body:not([data-view=arena]) .library-count strong { font: 600 14px var(--font); }
+body:not([data-view=arena]) .active-filters:empty { display: none; }
+body:not([data-view=arena]) .game-index-search-area { margin-bottom: 12px; }
+body:not([data-view=arena]) .game-index-summary { margin: 0 0 20px; padding-block: 0 16px; }
+body:not([data-view=arena]) .game-index-summary>div { display: flex; gap: 12px 24px; align-items: center; flex-wrap: wrap; }
+body:not([data-view=arena]) .game-index-summary label { font-size: 12px; gap: 12px; }
+body:not([data-view=arena]) .game-browser { border-block: 1px solid var(--line); margin-block: 16px 24px; scroll-margin-top: 8px; }
+body:not([data-view=arena]) .game-browser>summary { cursor: pointer; padding: 12px 0; color: var(--atlas-link); font-size: 13px; }
+body:not([data-view=arena]) .game-browser>summary>span { margin-left: 20px; font-size: 12px; color: var(--muted); }
+body:not([data-view=arena]) .game-browser[open]>summary>span { display: none; }
+body:not([data-view=arena]) .game-browser .game-selector { margin: 0; border-bottom: 0; max-height: 320px; }
+body:not([data-view=arena]) .game-heading-actions { display: flex; align-items: flex-end; flex-direction: column; gap: 8px; flex-shrink: 0; }
+body:not([data-view=arena]) #game-title { scroll-margin-top: 8px; }
+body:not([data-view=arena]) .game-dossier { margin-top: 0; }
+body:not([data-view=arena]) .game-total b { font: 500 24px/1.2 var(--font); color: var(--ink); }
+body:not([data-view=arena]) .game-screenshot-open { color: var(--ink); }
+body:not([data-view=arena]) .game-screenshot-open:hover { text-decoration: none; }
+body:not([data-view=arena]) .brand { color: var(--ink); }
+body:not([data-view=arena]) .brand:hover { text-decoration: none; }
+body:not([data-view=arena]) :is(.reset-button,.library-count span,.directory-table thead th,.footer,.footer span,.archive-game-list>div>span,.game-introduction>a,.game-usage-method>summary,.game-usage-evidence>summary,.game-use-missing dt,.game-use-missing dd,.about-points section>span,.about-points p+p,.taxonomy-axes span,.evidence-legend>span,.taxonomy-card .eyebrow,.matrix th,.matrix td,.matrix-caption,.matrix-evidence,.topic-intro) { font-size: 12px; color: var(--muted); }
+body:not([data-view=arena]) :is(.reset-button,.game-introduction>a,.game-usage-method>summary,.game-usage-evidence>summary) { color: var(--atlas-link); }
+body:not([data-view=arena]) .library-count { margin-block: 12px; }
+body:not([data-view=arena]) .about-points p { font-size: 14px; color: var(--ink); }
+body:not([data-view=arena]) :is(.taxonomy-axes b,.about-points h3) { color: var(--ink); }
+body:not([data-view=arena]) .about-points h3 { font-size: 16px; }
+body:not([data-view=arena]) .game-use-gap-status { font-size: 12px; color: var(--ink); }
+
+body:not([data-view=arena]) #compare-count { font-size: 12px; color: var(--muted); }
+body:not([data-view=arena]) #topic-content details>summary { color: var(--atlas-link); }
+/* Override the legacy caption !important only in research pages. */
+body:not([data-view=arena]) .editorial-caption { font-size: 12px !important; color: var(--muted); }
+body:not([data-view=arena]) .archive-capability-summary h4 small { font-size: 12px; color: var(--muted); }
+body:not([data-view=arena]) :is(.matrix button,.game-interaction,.game-interaction span,.profile-more) { font-size: 12px; color: var(--muted); }
+body:not([data-view=arena]) .matrix button { color: var(--atlas-link); }
