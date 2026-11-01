@@ -121,7 +121,7 @@ body:not([data-view=arena]) .game-selector>.game-index-item[aria-pressed=true] {
 body:not([data-view=arena]) .game-dossier { margin-top: 28px; }
 body:not([data-view=arena]) .game-dossier h2 { color: var(--ink); font-family: var(--atlas-serif); font-weight: 600; }
 body:not([data-view=arena]) .game-introduction p { font-size: 14px; line-height: 1.9; color: #555e4c; }
-body:not([data-view=arena]) .game-screenshot-open { border: 1px solid #d7dbcc; background: #eeeee6; border-radius: 6px; overflow: hidden; }
+body:not([data-view=arena]) .game-screenshot-open { border: 1px solid #d7dbcc; border-radius: 6px; overflow: hidden; }
 body:not([data-view=arena]) .game-usage-filters>button[aria-pressed=true] { color: var(--accent); border-color: var(--accent); }
 body:not([data-view=arena]) dialog { background: #fffefa; border: 1px solid #d1d3c8; border-radius: 10px; box-shadow: 0 24px 90px #24291d2b; }
 body:not([data-view=arena]) dialog::backdrop { background: #252b2659; backdrop-filter: blur(3px); }

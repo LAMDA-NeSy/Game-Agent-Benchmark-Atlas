@@ -14,8 +14,9 @@
 .game-screenshot-choices button[aria-pressed="true"]{background:#f4f0e9;border-color:#9a7761;color:#634c3c}
 .game-screenshot-choices button:hover{border-color:#9a7761}
 .game-screenshot-choices button:focus-visible{outline:2px solid #74553f;outline-offset:2px}
-.game-screenshot-open{display:block;position:relative;background:#f4f3ef;border:1px solid #dedbd5;text-decoration:none}
-.game-screenshot-open>img{display:block;width:100%;height:250px;object-fit:contain}
+.game-screenshot-open{display:block;position:relative;width:fit-content;max-width:100%;border:1px solid #dedbd5;text-decoration:none}
+/* Fit the frame to the image, preserving the complete scene and native ratio. */
+.game-screenshot-open>img{display:block;width:auto;height:auto;max-width:100%;max-height:420px}
 .game-screenshot.pixel-art img{image-rendering:pixelated}
 .game-screenshot.small-preview img{object-fit:scale-down}
 .game-screenshot-open>span{position:absolute;right:7px;bottom:7px;background:#fffef4ee;color:#444;font-size:10px;padding:3px 6px;opacity:0;transition:opacity .12s}
