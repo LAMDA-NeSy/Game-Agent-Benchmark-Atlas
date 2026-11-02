@@ -20,6 +20,9 @@ def main():
     # Browser models are copied before the Node exporters reuse their counting rules.
     from atlas.build_data import build
     build()
+    schedule = json.loads((CURATION / 'update-schedule.json').read_text())
+    (DIST / 'update-schedule.json').write_text(json.dumps(schedule, ensure_ascii=False, indent=2)+'\n')
+    (DIST / 'update-schedule-data.js').write_text('window.AtlasUpdateSchedule = '+json.dumps(schedule, ensure_ascii=False)+';\n')
     design = json.loads((CURATION / 'evaluation-design.json').read_text())
     (DIST / 'evaluation-design.json').write_text(json.dumps(design, ensure_ascii=False, indent=2)+'\n')
     (DIST / 'evaluation-design.js').write_text('window.AtlasEvaluationDesign = '+json.dumps(design, ensure_ascii=False)+';\n')

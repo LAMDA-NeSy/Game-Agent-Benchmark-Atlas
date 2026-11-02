@@ -1,0 +1,16 @@
+body[data-view] .atlas-update-status {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+  margin: 0 0 20px;
+  color: var(--muted);
+  font: 400 12px/1.6 var(--font);
+}
+body[data-view] .atlas-update-status .update-countdown {
+  color: var(--green);
+  font-weight: 550;
+  font-variant-numeric: tabular-nums;
+}
+body[data-view] .atlas-update-status .update-countdown[data-pending] { color: var(--accent); }
+body[data-view] .atlas-update-status .update-completed { margin-left: auto; }

@@ -317,7 +317,7 @@
     const titles=window.AtlasLanguage.current()==='en'?{themes:'Research themes',games:'Game index',explore:'Resource directory',capabilities:'Methods',arena:'Game Arena'}:{themes:'研究主题',games:'游戏索引',explore:'资源目录',capabilities:'分类方法',arena:'Game Arena'};
     document.title=titles[state.view]+' · Game Agent Benchmark Atlas';
     if(results&&!archiveView)renderResults();else if(['games','capabilities'].includes(state.view))renderTopics();
-    updateDock();decorate();
+    updateDock();decorate();window.AtlasUpdates.mount();
   }
   function setView(view){
     if(view==='games'&&state.view!=='games'){state=model.clearGameFilters(state);gameFiltersOpen=false;gameListOpen=true;}
