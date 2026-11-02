@@ -567,3 +567,7 @@ body[data-view=games] #game-usage-hint { margin:8px 0 0; font-size:12px; line-he
 body[data-view=capabilities] #method-uses { scroll-margin-top:100px; }
 body[data-view=capabilities] .method-review-download { margin-top:16px; font-size:13px; }
 body[data-view=capabilities] .method-review-download a { display:inline-block; margin-top:10px; }
+
+.archive-review-record { margin:20px 0; font-size:13px; }
+.archive-review-record>summary { color:var(--atlas-muted); }
+.comparison-field-note { font-size:12px; line-height:1.6; color:var(--atlas-muted); margin:16px 0; }

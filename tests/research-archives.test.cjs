@@ -56,6 +56,14 @@ for(language of ['zh','en'])for(const a of ctx.window.AtlasResearchArchives.entr
  assert(!evidence.includes('data-task-unit='),'classification must not repeat full protocols');
  assert(!overview.includes('class="archive-missing"'),'missing details have one home');
  assert.equal(a.taskGroups.documented.length+a.taskGroups.arenaProposals.length,a.tasks.length);
+ for(const g of a.gameLinks.filter(g=>g.profile)){
+  const escape=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  for(const key of ['environment','integration']){
+   const raw=g.profile[key].text;const translated=language==='en'?ctx.window.ATLAS_TRANSLATIONS?.[raw]||raw:raw;
+   assert(protocol.includes(escape(translated)),g.id+' retains '+key+' after moving game profiles into archives');
+   assert(protocol.includes(escape(g.profile[key].source)));
+  }
+ }
  for(const u of a.tasks){assert.equal(protocol.split('data-task-unit="'+u.id+'"').length-1,1);}
  if(a.taskGroups.arenaProposals.length)assert(protocol.includes('archive-proposals'));
 }
