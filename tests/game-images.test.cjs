@@ -124,10 +124,12 @@ test('Collection scene selection switches one image together with its source and
   assert.notEqual(replaced,domContext.window.AtlasGameImages.figure('procgen-games','en',0));
 });
 
-test('Each game has one detail image, with no repeated list thumbnail or data changes',()=>{
+test('Game thumbnails reuse the sourced detail asset without changing research data',()=>{
   const app=fs.readFileSync('src/js/app.js','utf8');
-  assert(!app.includes('AtlasGameImages.thumbnail'));
-  assert.equal(ui.thumbnail,undefined);
+  assert(app.includes('AtlasGameImages.thumbnail'));
+  assert.match(ui.thumbnail('minecraft'),/src=".\/game-minecraft.webp"/);
+  assert.match(ui.thumbnail('minecraft'),/alt=""/);
+  assert.equal(ui.thumbnail('missing-game'), '');
   assert.equal((ui.figure('minecraft').match(/<img /g)||[]).length,1);
   assert.equal(fs.readdirSync('dist').filter(p=>/^game-.*-thumb\.webp$/.test(p)).length,0);
   assert.match(app,/AtlasGameImages.figure\(g.id/);

@@ -31,7 +31,7 @@
     const choices = samples.length > 1 ? `<div class="game-screenshot-choices" role="group" aria-label="${lang === 'zh' ? '代表场景' : 'Representative scenes'}"><span>${lang === 'zh' ? '代表场景' : 'Representative scenes'} · ${selected + 1}/${samples.length}</span><div>${samples.map((item, index) => `<button type="button" data-image-sample="${index}" aria-pressed="${index === selected}">${escape(text(item.label, lang))}</button>`).join('')}</div></div>` : '';
     return `<figure class="game-screenshot${entry.pixelArt ? ' pixel-art' : ''}${entry.smallPreview ? ' small-preview' : ''}${entry.height > entry.width * 1.15 ? ' tall-preview' : entry.width <= entry.height * 1.15 ? ' square-preview' : ''}" data-game-image-id="${escape(id)}" data-image-lang="${escape(lang)}" data-no-i18n>
       ${choices}
-      <a class="game-screenshot-open" href="${escape(localAsset(entry.image))}" target="_blank" rel="noopener noreferrer" aria-label="${escape(open + ' · ' + caption)}"><img data-game-image src="${escape(localAsset(entry.image))}" width="${entry.width}" height="${entry.height}" alt="${escape(text(entry.alt, lang))}" loading="lazy" decoding="async"><span>${open} ↗</span></a>
+      <a class="game-screenshot-open" href="${escape(localAsset(entry.image))}" target="_blank" rel="noopener noreferrer" aria-label="${escape(open + ' · ' + caption)}"><img data-game-image src="${escape(localAsset(entry.image))}" width="${entry.width}" height="${entry.height}" alt="${escape(text(entry.alt, lang))}" loading="lazy" decoding="async"><span>${window.AtlasUI?.icon("expand")||''}${open}</span></a>
       <figcaption><span class="game-screenshot-caption">${escape(caption)}</span>${note}<a href="${escape(safeSource(entry.sourceUrl))}" target="_blank" rel="noopener noreferrer">${source} · ${escape(entry.sourceLabel)} ↗</a><small>${escape(entry.credit)}</small>${license}</figcaption>
     </figure>`;
   }
@@ -54,5 +54,9 @@
     image.closest('.game-overview')?.classList.remove('has-game-image');
     image.closest('.game-screenshot')?.remove();
   }, true);
-  window.AtlasGameImages = { get, figure };
+  function thumbnail(id){
+    const entry=get(id);if(!entry||!localAsset(entry.image))return '';
+    return `<img class="game-index-thumbnail" src="${escape(localAsset(entry.image))}" alt="" width="48" height="36" loading="lazy" decoding="async">`;
+  }
+  window.AtlasGameImages = { get, figure, thumbnail };
 })();
