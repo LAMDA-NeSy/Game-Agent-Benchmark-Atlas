@@ -44,3 +44,21 @@ console.log('P1: 24 canonical bindings, 440 documented tasks, five sourced relat
 
 ui.location.search=ui.location.search.replace('compareMode=tasks','compareMode=resources');
 const resources=ui.window.AtlasComparison.render(['balrog']);assert.equal((resources.match(/<strong>BALROG<\/strong>/g)||[]).length,1,'resource mode deduplicates extra task columns');
+
+// Presentation deduplication must retain protocol content and reviewed relationships.
+const archiveBefore=JSON.stringify(archives.entries);
+ui.location.search='?compareMode=tasks';
+for(lang of ['zh','en']){
+ const html=ui.window.AtlasComparison.render(['minedojo','GAB026']);
+ assert(!html.includes(lang==='zh'?'按任务目标确定研究问题':'Define the question from the task objective'),'generic fallback is not presented as a research question');
+ assert(!html.includes('class="comparison-conclusions"'),'unreviewed pairs do not present a conclusion');
+ assert(html.includes(lang==='zh'?'适用范围 / 主要干扰因素':'Scope / Principal confounds'),'identical rows retain both field labels');
+ for(const id of ['minedojo','GAB026']){
+  const task=archives.get(id).tasks.find(p=>p.origin!=='arena-documented-candidate');
+  for(const field of ['task','metrics','limits'])assert(html.includes(task[field][lang]),`${id}: preserve ${field}`);
+ }
+ const reviewed=ui.window.AtlasComparison.render(['minigrid','memory-gym']);
+ assert(reviewed.includes('class="comparison-conclusions"'));
+ assert(reviewed.includes(model.relationTypes.complementary[lang]));
+}
+assert.equal(JSON.stringify(archives.entries),archiveBefore,'display changes do not modify protocol data');

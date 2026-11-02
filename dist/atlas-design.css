@@ -397,3 +397,149 @@ body[data-view=capabilities] .section-heading .eyebrow { display:none; }
  body[data-view=arena] .lb-main { padding:18px; }
 }
 @media(prefers-reduced-motion:reduce) { body[data-view] :is(button,a,input,select) { transition:none; } }
+
+/* Consistent reading density, navigation and disclosure hierarchy. */
+body[data-view] { --atlas-muted:#607380; --atlas-small:12px; --atlas-control:13px; }
+body[data-view] .site-header { position:sticky; top:0; z-index:50; }
+body[data-view] :is(#questions,#collection,#game-title,#game-browser,#game-results-toolbar,.library-count,.taxonomy-card,.lb-protocol,#method-overview,#method-paradigms,#method-evidence) { scroll-margin-top:96px; }
+body[data-view] :is(.filter-group legend,.paradigm-filter-note,.paper-authors,.archive-row-status,.entry-kind,.agent-badge,.evidence-button,.resource-cell a,.resource-cell button,.theme-table thead th,.theme-checks,.game-category-count,.game-full-index,.game-usage-note,.game-screenshot figcaption,.game-screenshot figcaption small,.game-name-source,.overview-sources,.detail-facts dt,.archive-key-facts .detail-facts dt,.archive-game-list>div>span,.comparison-column-actions button,.lb-source-line,.lb-source-line a,.lb-source-line button,.lb-table thead th,.lb-table-meta,.lb-controls label,.lb-protocol dt,.lb-result-date>span) { font-size:var(--atlas-small); color:var(--atlas-muted); }
+body[data-view] :is(.resource-cell a,.resource-cell button,.evidence-button,.overview-sources a,.lb-source-line a,.lb-source-line button) { color:var(--atlas-link); }
+body[data-view] :is(input[type=search],select,textarea) { font-family:var(--font); font-size:var(--atlas-control); border:1px solid #d5e1e9; border-radius:6px; background:#fff; color:#344e5d; }
+body[data-view] :is(input[type=search],select) { min-height:38px; }
+body[data-view] input[type=checkbox] { accent-color:var(--atlas-accent); }
+body[data-view] :is(summary,.text-button) { font-size:13px; }
+body[data-view] .language-picker button { min-height:28px; }
+body[data-view] .atlas-update-status { color:#607380; }
+
+/* A selected theme becomes an in-place selector rather than a second page. */
+body.theme-results-active #question-grid,body.theme-results-active .theme-page-intro,body.theme-results-active #collection>.section-heading { display:none; }
+body.theme-results-active .question-section { padding-bottom:0; }
+body.theme-results-active .question-heading { margin-bottom:0; }
+body.theme-results-active .collection { padding-top:20px; }
+.theme-selection { border:1px solid var(--atlas-rule); border-radius:8px; padding:16px 20px; margin-bottom:20px; background:#fff; }
+.theme-selection-top { display:flex; align-items:center; gap:16px; }
+.theme-selection-top label { font-size:13px; color:var(--atlas-muted); }
+.theme-selection-top select { width:330px; padding:7px 34px 7px 10px; font-weight:600; }
+.theme-selection-count { font-size:12px; color:var(--atlas-muted); }
+.theme-selection-top>button { margin-left:auto; }
+.theme-selection>p { margin:10px 0 8px; font-size:14px; color:#425968; line-height:1.65; }
+.theme-selection-notes summary { color:#607380; font-size:12px; }
+.theme-selection-notes p { font-size:13px; line-height:1.8; margin:10px 0; }
+.theme-selection-notes :is(button,a) { font-size:12px; margin-right:22px; }
+
+/* Both densities preserve the full paper title and author line. */
+.directory-density { display:flex; border:1px solid #dce6ed; border-radius:5px; padding:2px; gap:2px; }
+.directory-density button { font-size:12px; padding:3px 8px; border-radius:3px; color:#607380; }
+.directory-density button[aria-pressed=true] { background:#e5eef4; color:#28566a; }
+body:is([data-view=explore],[data-view=themes]) .library-result-actions { font-size:12px; gap:12px; flex-wrap:wrap; }
+body:is([data-view=explore],[data-view=themes]) .directory-table .paper-title { font-size:12px; line-height:1.5; margin:5px 0; }
+body:is([data-view=explore],[data-view=themes]) .directory-table .paper-authors { font-size:12px; line-height:1.5; margin:5px 0; }
+body:is([data-view=explore],[data-view=themes]) .directory-table .entry-kind { font-size:12px; background:transparent; border:0; padding:0; }
+body:is([data-view=explore],[data-view=themes]) .directory-table .archive-row-status { font-size:12px; line-height:1.6; }
+body:is([data-view=explore],[data-view=themes]) .directory-table :is(.resource-cell a,.resource-cell button,.evidence-button) { font-size:12px; }
+body:is([data-view=explore],[data-view=themes]) #library-content[data-density=compact] .directory-table :is(th,td) { padding:12px 10px; }
+body:is([data-view=explore],[data-view=themes]) #library-content[data-density=compact] .archive-scope-preview { line-height:1.65; }
+body:is([data-view=explore],[data-view=themes]) #library-content[data-density=compact] .relevance-note { margin:6px 0; line-height:1.65; }
+body:is([data-view=explore],[data-view=themes]) #library-content[data-density=comfortable] .directory-table :is(th,td) { padding:22px 12px; }
+
+/* Game introduction leads directly into research resources. */
+body[data-view=games] .game-index-controls { margin-bottom:16px; padding-bottom:16px; }
+body[data-view=games] .game-category-heading { margin-bottom:4px; }
+body[data-view=games] .game-category-heading p { font-size:12px; }
+body[data-view=games] .game-navigation-tools { margin:8px 0 16px; }
+body[data-view=games] .game-navigation-tools>details>summary { padding:10px 0; }
+body[data-view=games] .game-overview { padding:20px 22px; margin-bottom:16px; }
+body[data-view=games] .game-overview.has-game-image { grid-template-columns:minmax(0,1fr) min(32%,300px); gap:26px; }
+body[data-view=games] .game-overview.has-game-image:has(.square-preview) { grid-template-columns:minmax(0,1fr) min(28%,240px); }
+body[data-view=games] .game-heading-actions { border:0; padding:0; margin-top:10px; }
+body[data-view=games] .game-heading-actions .game-total { font-size:12px; gap:6px; }
+body[data-view=games] .game-heading-actions .game-total b { font-size:16px; }
+body[data-view=games] .game-introduction { margin-top:12px; }
+body[data-view=games] .game-introduction p { line-height:1.75; }
+body[data-view=games] .game-introduction>a { margin-top:8px; }
+body[data-view=games] .game-screenshot figcaption { font-size:12px; line-height:1.5; }
+body[data-view=games] .game-screenshot figcaption small { font-size:11px; }
+body[data-view=games] .game-usage-summary { padding:0; margin:0; border:0; }
+body[data-view=games] .game-usage-heading { margin:0; }
+body[data-view=games] .game-usage-heading h3 { font-size:18px; }
+body[data-view=games] .game-usage-method { margin:6px 0 0; }
+body[data-view=games] .game-usage-method>summary { font-size:12px; }
+body[data-view=games] .game-usage-note { margin:8px 0; }
+body[data-view=games] .game-execution-status { font-size:12px; color:#607380; }
+body[data-view=games] .game-results-toolbar { margin:8px 0; padding:8px 0; }
+body[data-view=games] .game-table-heading { margin:12px 0; }
+body[data-view=games] .game-context-details { margin-top:24px; border-top:1px solid var(--atlas-rule); padding-top:16px; }
+body[data-view=games] .game-context-details>summary { font-size:13px; color:#28566a; }
+body[data-view=games] .game-selector .game-index-item .game-name { font-size:13px; }
+body[data-view=games] .game-selector .game-index-item :is(.game-original-name,.game-index-counts) { font-size:11px; }
+
+/* One task navigation path and one linked-game rail in an archive. */
+body[data-view] .detail-buttons { margin:12px 0; }
+body[data-view] .archive-context-image { margin:12px 0; }
+body[data-view] .archive-reading-aside .detail-section { margin-top:20px; padding-top:16px; }
+body[data-view] .archive-reading-aside .detail-section:first-of-type { margin-top:0; }
+body[data-view] .archive-task-list .documented-task { margin:0 0 14px; border:1px solid var(--atlas-rule); border-radius:7px; padding:0 18px; }
+body[data-view] .archive-task-list .documented-task>summary { padding:16px 0; }
+body[data-view] .archive-task-list .documented-task[open]>.task-preview { display:none; }
+body[data-view] .archive-task-list .documented-task dl>div { padding:12px 0; }
+body[data-view] .task-protocol-reference { border-top:1px solid var(--atlas-rule); padding:10px 0; margin-top:12px; }
+body[data-view] .task-protocol-reference summary { font-size:12px; color:#607380; }
+body[data-view] .task-protocol-reference .task-protocol-meta { margin:12px 0; }
+
+/* No large conclusion panel for task pairs that have not been analysed. */
+body[data-view] .comparison-controls { background:#fff; }
+body[data-view] .comparison-pending-summary { margin:0 0 18px; border-bottom:1px solid var(--atlas-rule); padding:0 0 14px; font-size:13px; line-height:1.75; color:#607380; }
+body[data-view] .comparison-pending-summary summary { font-size:13px; }
+body[data-view] .compare-table-wrap { max-height:none; }
+body[data-view] .compare-table td { line-height:1.7; }
+body[data-view] .compare-table :is(th,td) { padding:14px 16px; }
+
+/* Leaderboard controls share one compact band; scheduled sync stays secondary. */
+body[data-view=arena] .collection { position:relative; }
+body[data-view=arena]:has(.official-leaderboards) #section-description { display:none; }
+body[data-view=arena] #arena-content>.atlas-update-status { position:absolute; top:31px; right:44px; max-width:440px; margin:0; justify-content:flex-end; font-size:11px; gap:2px 12px; }
+body[data-view=arena] #arena-content>.atlas-update-status .update-cadence { flex-basis:100%; text-align:right; }
+body[data-view=arena] .lb-toolbar { display:flex; align-items:center; gap:20px; border-bottom:1px solid var(--atlas-rule); margin-bottom:18px; }
+body[data-view=arena] .lb-filter-row { flex:1; border:0; margin:0; }
+body[data-view=arena] .lb-secondary-filters { margin:0; padding:0; position:relative; }
+body[data-view=arena] .lb-direction>label { position:absolute; top:30px; right:0; z-index:5; background:#fff; padding:10px; border:1px solid var(--atlas-rule); border-radius:6px; box-shadow:0 5px 20px #173b5215; }
+body[data-view=arena] .lb-direction>summary { font-size:12px; }
+body[data-view=arena] .lb-source-count { font-size:12px; }
+body[data-view=arena] .lb-nav { top:96px; max-height:calc(100vh - 112px); overflow-y:auto; }
+body[data-view=arena] .lb-main { padding:20px 22px; }
+body[data-view=arena] .lb-source-line { font-size:12px; }
+body[data-view=arena] .lb-controls { padding-top:12px; }
+body[data-view=arena] .lb-heading .lb-conditions { margin:6px 0; }
+body[data-view=arena] .lb-table thead th { font-size:12px; }
+#arena-content :is(#plan-search,#plan-track,.plan-config textarea) { border:1px solid #d5e1e9; border-radius:6px; background:#fff; color:#344e5d; font:13px var(--font); padding:9px 12px; }
+#arena-content .plan-list-heading { font-size:12px; }
+#arena-content .plan-task { font-size:14px; line-height:1.7; }
+
+/* Methodology remains a document with direct section navigation. */
+body[data-view=capabilities] .method-page-nav { display:flex; flex-wrap:wrap; gap:12px 24px; margin:0 0 22px; padding:12px 0; border-block:1px solid var(--atlas-rule); font-size:13px; }
+body[data-view=capabilities] .about-points { gap:24px 40px; }
+body[data-view=capabilities] .about-points section { padding-bottom:20px; }
+body[data-view=capabilities] .about-points p { font-size:14px; line-height:1.85; }
+body[data-view=capabilities] .taxonomy-grid { gap:24px; }
+body[data-view=capabilities] .taxonomy-card { background:#fff; border:1px solid var(--atlas-rule); border-radius:8px; padding:24px; }
+@media(max-width:1200px) {
+ body[data-view=arena] #arena-content>.atlas-update-status { right:28px; }
+ .theme-selection-top { gap:12px; flex-wrap:wrap; }
+ body:is([data-view=explore],[data-view=themes]) .library-count-main { gap:8px; }
+}
+html { scroll-padding-top:88px; }
+body[data-view] :is(#questions,#collection,#game-title,#game-browser,#game-results-toolbar,.library-count,.taxonomy-card,.lb-protocol,#method-overview,#method-paradigms,#method-evidence) { scroll-margin-top:12px; }
+body[data-view] :is(#library-content,#arena-content,.research-archive,.game-category-coverage) :is(a,button,input,select,summary):focus-visible { outline:2px solid #39768f; outline-offset:3px; }
+body[data-view] #library-content .search-box input { border:0; background:transparent; border-radius:0; min-height:0; }
+body[data-view] #library-content .search-box input:focus-visible { outline:none; }
+body[data-view] #library-content .search-box:focus-within { outline:2px solid #39768f; outline-offset:2px; }
+body[data-view=games] .game-overview .game-context-details { border:0; margin-top:10px; padding:0; }
+body[data-view=games] .game-overview .game-context-details>summary { font-size:12px; }
+body[data-view=games] .game-usage-heading>button { font-size:12px; }
+body[data-view=games] .game-results-toolbar { min-height:44px; margin:4px 0 12px; padding:6px 0; }
+body[data-view] .protocol-reading-group { padding:16px 0 4px; }
+body[data-view] .protocol-reading-group h4 { font-size:15px; font-weight:600; color:#28566a; margin:0 0 4px; }
+body[data-view] .protocol-reading-group dl { margin:0; }
+body[data-view] .protocol-reading-group dl>div { display:grid; grid-template-columns:160px minmax(0,1fr); gap:16px; }
+body[data-view] .protocol-reading-group dt { font-size:12px; color:#607380; }
+body[data-view] .protocol-reading-group dd { font-size:14px; line-height:1.8; margin:0; }
