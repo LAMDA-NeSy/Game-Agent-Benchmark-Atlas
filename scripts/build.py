@@ -28,6 +28,9 @@ def main():
     leaderboards['sourceSnapshots'] = [leaderboards['sourceSnapshot'], expansion['sourceSnapshot']]
     leaderboards['boards'].extend(expansion['boards'])
     leaderboards['capturedAt'] = max(b['source']['snapshotAt'] for b in leaderboards['boards'])
+    leaderboards['boardMetadata'] = json.loads((CURATION / 'official-leaderboard-metadata.json').read_text())
+    if set(leaderboards['boardMetadata']) != {b['id'] for b in leaderboards['boards']}:
+        raise ValueError('Every official leaderboard must have explicit status and date provenance.')
     if len({b['id'] for b in leaderboards['boards']}) != len(leaderboards['boards']):
         raise ValueError('Official leaderboard IDs must be unique.')
     (DIST / 'official-leaderboards.json').write_text(json.dumps(leaderboards, ensure_ascii=False, indent=2)+'\n')

@@ -1,0 +1,162 @@
+{
+  "balrog-llm": {
+    "kind": "open",
+    "dateKind": "latestSubmission",
+    "reason": {
+      "zh": "官方接受评测日志与元数据提交，经审核后加入对应赛道。",
+      "en": "The official submission process accepts evaluation logs and metadata for review and inclusion in the relevant track."
+    },
+    "evidenceUrl": "https://balrogai.com/submit.html",
+    "reviewedAt": "2026-11-02"
+  },
+  "balrog-vlm": {
+    "kind": "open",
+    "dateKind": "latestSubmission",
+    "reason": {
+      "zh": "官方接受评测日志与元数据提交，经审核后加入对应赛道。",
+      "en": "The official submission process accepts evaluation logs and metadata for review and inclusion in the relevant track."
+    },
+    "evidenceUrl": "https://balrogai.com/submit.html",
+    "reviewedAt": "2026-11-02"
+  },
+  "orak-performance": {
+    "kind": "open",
+    "dateKind": "pageUpdated",
+    "reason": {
+      "zh": "官方榜单提供模型成绩提交入口；成绩按游戏表现与对战赛道分别展示。",
+      "en": "The official board provides a submission route, with separate game-performance and battle tracks."
+    },
+    "evidenceUrl": "https://krafton-ai.github.io/orak-leaderboard/",
+    "reviewedAt": "2026-11-02"
+  },
+  "orak-arena": {
+    "kind": "open",
+    "dateKind": "pageUpdated",
+    "reason": {
+      "zh": "官方榜单提供模型成绩提交入口；成绩按游戏表现与对战赛道分别展示。",
+      "en": "The official board provides a submission route, with separate game-performance and battle tracks."
+    },
+    "evidenceUrl": "https://krafton-ai.github.io/orak-leaderboard/",
+    "reviewedAt": "2026-11-02"
+  },
+  "lmgame-model": {
+    "kind": "fixed",
+    "dateKind": "unknown",
+    "reason": {
+      "zh": "收录作者发布的单模型评测结果批次，采用统一游戏接口与模型配置。",
+      "en": "This view contains the authors’ published single-model evaluation batch under the shared game interface and model configuration."
+    },
+    "evidenceUrl": "https://github.com/lmgame-org/GamingAgent#single-model-performance",
+    "reviewedAt": "2026-11-02"
+  },
+  "videogamebench-full": {
+    "kind": "open",
+    "dateKind": "unknown",
+    "reason": {
+      "zh": "官方说明接受新提交，并由作者运行三个未公开的测试游戏；此处展示 Full 实时赛道。",
+      "en": "The official repository describes new submissions evaluated by the authors on three hidden test games. This view covers the Full real-time track."
+    },
+    "evidenceUrl": "https://github.com/alexzhang13/videogamebench/#videogamebench-test-set-games",
+    "reviewedAt": "2026-11-02"
+  },
+  "gamebot": {
+    "kind": "fixed",
+    "dateKind": "unknown",
+    "reason": {
+      "zh": "收录项目页的聚合实验结果表；后续成对比较结果属于另一组实验。",
+      "en": "This view contains the aggregate experimental results table on the project page; later pairwise comparisons form a separate experiment."
+    },
+    "evidenceUrl": "https://visual-ai.github.io/gamebot/",
+    "reviewedAt": "2026-11-02"
+  },
+  "procgen-2020-generalization": {
+    "kind": "historical",
+    "dateKind": "latestSubmission",
+    "reason": {
+      "zh": "收录指定年份与轮次的竞赛成绩，保留原赛制、指标与参考基线。",
+      "en": "This view contains results from the specified competition year and round, preserving the original protocol, metrics and reference baselines."
+    },
+    "evidenceUrl": "https://www.aicrowd.com/challenges/neurips-2020-procgen-competition/leaderboards?challenge_leaderboard_extra_id=469&challenge_round_id=662",
+    "reviewedAt": "2026-11-02"
+  },
+  "nethack-2021-overall": {
+    "kind": "historical",
+    "dateKind": "latestSubmission",
+    "reason": {
+      "zh": "收录指定年份与轮次的竞赛成绩，保留原赛制、指标与参考基线。",
+      "en": "This view contains results from the specified competition year and round, preserving the original protocol, metrics and reference baselines."
+    },
+    "evidenceUrl": "https://www.aicrowd.com/challenges/neurips-2021-the-nethack-challenge/leaderboards?challenge_leaderboard_extra_id=969&challenge_round_id=911",
+    "reviewedAt": "2026-11-02"
+  },
+  "meltingpot-2023-generalization": {
+    "kind": "historical",
+    "dateKind": "latestSubmission",
+    "reason": {
+      "zh": "收录指定年份与轮次的竞赛成绩，保留原赛制、指标与参考基线。",
+      "en": "This view contains results from the specified competition year and round, preserving the original protocol, metrics and reference baselines."
+    },
+    "evidenceUrl": "https://www.aicrowd.com/challenges/meltingpot-challenge-2023/leaderboards?challenge_leaderboard_extra_id=1319&challenge_round_id=1295",
+    "reviewedAt": "2026-11-02"
+  },
+  "minerl-2021-research": {
+    "kind": "historical",
+    "dateKind": "latestSubmission",
+    "reason": {
+      "zh": "收录指定年份与轮次的竞赛成绩，保留原赛制、指标与参考基线。",
+      "en": "This view contains results from the specified competition year and round, preserving the original protocol, metrics and reference baselines."
+    },
+    "evidenceUrl": "https://www.aicrowd.com/challenges/neurips-2021-minerl-diamond-competition/leaderboards?challenge_leaderboard_extra_id=788&challenge_round_id=956",
+    "reviewedAt": "2026-11-02"
+  },
+  "textarena-balanced": {
+    "kind": "historical",
+    "dateKind": "unknown",
+    "reason": {
+      "zh": "收录 Balanced Subset 的非活跃模型成绩批次；此分类仅指该批次，不代表 TextArena 整体关闭。",
+      "en": "This view contains inactive-model records from Balanced Subset. The classification applies to this batch, not to TextArena as a whole."
+    },
+    "evidenceUrl": "https://www.textarena.ai/leaderboard",
+    "reviewedAt": "2026-11-02"
+  },
+  "pgg-trueskill": {
+    "kind": "fixed",
+    "dateKind": "unknown",
+    "reason": {
+      "zh": "收录作者组织的多轮公共物品博弈实验及其 TrueSkill 排名。",
+      "en": "This view contains the authors’ multi-pass public-goods-game experiment and its TrueSkill ranking."
+    },
+    "evidenceUrl": "https://github.com/lechmazur/pgg_bench#multi-pass-trueskill-leaderboard",
+    "reviewedAt": "2026-11-02"
+  },
+  "pokeagent-2025-gen1ou": {
+    "kind": "historical",
+    "dateKind": "dataUpdated",
+    "reason": {
+      "zh": "收录 2025 年赛事的指定资格赛窗口结果，保留对应赛制与日期。",
+      "en": "This view contains the specified 2025 qualifying window, with its format and dates preserved."
+    },
+    "evidenceUrl": "https://pokeagent.github.io/leaderboard.html",
+    "reviewedAt": "2026-11-02"
+  },
+  "pokeagent-2025-gen9ou": {
+    "kind": "historical",
+    "dateKind": "dataUpdated",
+    "reason": {
+      "zh": "收录 2025 年赛事的指定资格赛窗口结果，保留对应赛制与日期。",
+      "en": "This view contains the specified 2025 qualifying window, with its format and dates preserved."
+    },
+    "evidenceUrl": "https://pokeagent.github.io/leaderboard.html",
+    "reviewedAt": "2026-11-02"
+  },
+  "pokeagent-2025-speedrun": {
+    "kind": "historical",
+    "dateKind": "recordUpdated",
+    "reason": {
+      "zh": "收录 2025 年赛事的速通结果。",
+      "en": "This view contains the 2025 competition speedrunning results."
+    },
+    "evidenceUrl": "https://pokeagent.github.io/leaderboard.html",
+    "reviewedAt": "2026-11-02"
+  }
+}
