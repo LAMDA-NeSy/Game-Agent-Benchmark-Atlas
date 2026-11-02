@@ -43,8 +43,9 @@
   const view=document.body.dataset.view;
   for(const [id,visible] of [['theme-update-status',view==='themes'],['collection-update-status',['explore','games'].includes(view)]]){
    const el=document.getElementById(id);if(!el)continue;
-   el.hidden=!visible;el.innerHTML=visible?html('benchmarks'):'';
+   el.hidden=true;el.innerHTML='';
   }
+  const footer=document.querySelector('.footer');if(footer){let status=document.getElementById('footer-update-status');if(!status){status=document.createElement('div');status.id='footer-update-status';footer.append(status);}status.innerHTML=html(view==='arena'?'leaderboards':'benchmarks');}
  }
  function tick(){
   if(!valid(data))return;

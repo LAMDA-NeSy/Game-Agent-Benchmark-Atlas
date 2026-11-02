@@ -334,7 +334,7 @@
     $('#section-title').textContent={themes:'主题相关条目',explore:'资源目录',capabilities:'分类方法',games:'游戏索引',arena:'Game Arena'}[state.view];
     $('#section-eyebrow').textContent={themes:'THEME RESULTS',explore:'BENCHMARK INDEX',capabilities:'TAXONOMY & EVIDENCE',games:'GAME CATEGORIES',arena:'GAME ARENA'}[state.view];
     $('#section-description').textContent={themes:'重点候选 · 关联依据 · 实验条件',explore:bilingual('研究档案 · 任务与评估 · 分类依据与来源','Research archives · Tasks & evaluation · Evidence & sources'),capabilities:'收录规则 · 分类定义 · 证据来源与核验',games:'按具体游戏定位评估任务，再查看其研究侧重与分类依据。',arena:window.AtlasLanguage.current()==='zh'?'外部榜单 · 评测协议':'External leaderboards · Evaluation protocols'}[state.view];
-    $('.skip-link').setAttribute('href',themes?'#questions':'#collection');
+    $('.skip-link').setAttribute('href',themes&&!state.question?'#questions':'#collection');
     renderQuestions();
     $$('.nav-link,.nav-secondary').forEach(b=>{const active=b.dataset.view===state.view;b.classList.toggle('active',active);if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
     const titles=window.AtlasLanguage.current()==='en'?{themes:'Research themes',games:'Game index',explore:'Resource directory',capabilities:'Methods',arena:'Game Arena'}:{themes:'研究主题',games:'游戏索引',explore:'资源目录',capabilities:'分类方法',arena:'Game Arena'};
