@@ -462,8 +462,6 @@ body[data-view=games] .game-screenshot figcaption small { font-size:11px; }
 body[data-view=games] .game-usage-summary { padding:0; margin:0; border:0; }
 body[data-view=games] .game-usage-heading { margin:0; }
 body[data-view=games] .game-usage-heading h3 { font-size:18px; }
-body[data-view=games] .game-usage-method { margin:6px 0 0; }
-body[data-view=games] .game-usage-method>summary { font-size:12px; }
 body[data-view=games] .game-usage-note { margin:8px 0; }
 body[data-view=games] .game-execution-status { font-size:12px; color:#607380; }
 body[data-view=games] .game-results-toolbar { margin:8px 0; padding:8px 0; }
@@ -564,3 +562,8 @@ body[data-view=games] .game-benchmark-table .select-cell { padding-inline:10px; 
 body[data-view=games] .game-benchmark-table tr:has(input:checked) { background:#edf5f8; }
 body[data-view=games] .game-benchmark-table .paper-title { font-size:12px; line-height:1.7; color:#435966; margin:6px 0; }
 #compare-game:disabled { color:#7e909b; cursor:default; opacity:.7; }
+
+body[data-view=games] #game-usage-hint { margin:8px 0 0; font-size:12px; line-height:1.6; color:var(--atlas-muted); }
+body[data-view=capabilities] #method-uses { scroll-margin-top:100px; }
+body[data-view=capabilities] .method-review-download { margin-top:16px; font-size:13px; }
+body[data-view=capabilities] .method-review-download a { display:inline-block; margin-top:10px; }
