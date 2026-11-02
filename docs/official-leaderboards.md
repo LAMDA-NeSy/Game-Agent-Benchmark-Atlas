@@ -45,7 +45,7 @@ The expansion passed 35 automated checks and browser checks of all 16 boards in 
 
 ### Maintained-source curation (2026-11-02)
 
-The index is organized by **source**, with tracks selected in the detail panel. Eight selected sources appear by default; all 19 sources remain accessible through the collection selector. The original 16 tracks and 344 records are unchanged. Seven new tracks add 58 score records, bringing the export to 23 tracks and 402 records.
+The index is organized by **source**, with tracks selected in the detail panel. All 19 sources appear in the compact index, with the eight selected sources ordered first. The original 16 tracks and 344 records are unchanged. Seven new tracks add 58 score records, bringing the export to 23 tracks and 402 records.
 
 | Selected source | Classification | Date provenance | Presentation |
 | --- | --- | --- | --- |
@@ -68,4 +68,12 @@ ScienceWorld is connected as a TALES framework metric, with a reciprocal link fr
 
 The prominent date retains source semantics (results, page update, submission, or version release); missing date verification is distinguished from a date not published by the source. A community-view sync time, season deadline, paper date, code commit, and Atlas retrieval date never substitute for the score date. Collection dates remain secondary.
 
-Validation: 43 automated checks; browser checks at 1366×768, 1440×900 and 1200×900 in Chinese and English. All eight selected entries fit without clipping. Verified source/type/direction filters, empty results, track selection, search and ranking, language/reload persistence, ScienceWorld archive navigation, retained legacy scores and evaluation tools.
+Validation: 44 automated checks; browser checks at 1366×768, 1440×900 and 1200×900 in Chinese and English. All eight selected entries fit without clipping. Verified source/type/direction filters, empty results, track selection, search and ranking, language/reload persistence, ScienceWorld archive navigation, retained legacy scores and evaluation tools.
+
+### Navigation refinement (2026-11-02)
+
+Board type is a horizontal filter above the list/detail layout. Research direction is collapsed by default; its active condition remains visible as a removable chip. There is one source count (matching / 19), and no collection selector or repeated per-source status label. Existing `arenaCollection` links are accepted with the complete source scope; the obsolete parameter is removed on the next interaction.
+
+Changing filters preserves the selected track, metric and agent search. If the selected track is excluded, the detail pane asks the user to choose a matching source or clear filters; it does not silently select another track or display out-of-filter scores. A source with mixed track types remains selectable via its matching track. Explicit selection, filters and metric/search values persist across language changes and reload. With no explicit source in an incoming link, the first matching source is selected.
+
+The Arena header scrolls with the document instead of overlapping the page title. The source list retains its own 16 px sticky offset once the header has scrolled away. The 19-row index fits 1366×768 and larger tested desktop viewports without an inner scroll region. Original score data, protocols, historical tracks and evaluation tools are preserved.

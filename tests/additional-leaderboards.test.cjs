@@ -38,7 +38,7 @@ test('bilingual leaderboard rendering handles new tracks, context, missing value
   const ctx={window:{AtlasOfficialLeaderboardsData:full,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search:'?arenaBoard='+b.id},URLSearchParams};
   vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);
   const html=ctx.window.AtlasLeaderboards.render();assert.ok(html.includes(b.title[lang]));assert.ok(!html.includes('undefined'));assert.ok(!html.includes('Official check'));assert.ok(!html.includes('官方核验'));
-  assert.equal((html.match(/class="lb-nav-kind"/g)||[]).length,19);
+  assert.equal((html.match(/data-source=/g)||[]).length,19);
   if(b.id==='pokeagent-2025-speedrun'){assert.ok(html.includes(lang==='zh'?'累计用时':'Cumulative runtime'));assert.ok(!html.includes('<option value="runtime"'));}
   if(!b.benchmarkId)assert.ok(!html.includes('detail=null'));
  }

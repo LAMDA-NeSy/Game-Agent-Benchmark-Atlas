@@ -20,5 +20,5 @@ test('prominent dates retain their meaning and never fall back to Atlas collecti
  const modified=JSON.parse(JSON.stringify(data));modified.boards.forEach(b=>{b.source.snapshotAt='2099-12-31T00:00:00Z';});for(const b of modified.boards)assert.equal(date(render(b.id,'en',modified)),date(render(b.id,'en')));
 });
 test('bilingual labels and dates preserve the compact index and all result details',()=>{
- for(const lang of ['zh','en'])for(const b of data.boards){const html=render(b.id,lang);assert.equal((html.match(/class="lb-nav-kind"/g)||[]).length,data.sources.find(s=>s.boardIds.includes(b.id)).featured?8:19);assert.match(html,lang==='zh'?/分类依据/:/Classification source/);assert.match(html,lang==='zh'?/本站采集/:/Collected by Atlas/);assert.ok(!html.includes('undefined'));assert.equal((html.match(/data-score-detail=/g)||[]).length,rank(b).length);}
+ for(const lang of ['zh','en'])for(const b of data.boards){const html=render(b.id,lang);assert.equal((html.match(/data-source=/g)||[]).length,19);assert.match(html,lang==='zh'?/分类依据/:/Classification source/);assert.match(html,lang==='zh'?/本站采集/:/Collected by Atlas/);assert.ok(!html.includes('undefined'));assert.equal((html.match(/data-score-detail=/g)||[]).length,rank(b).length);}
 });

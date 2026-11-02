@@ -24,9 +24,9 @@ test('ChessBench records configurations and preserves cost, time and rating unit
 });
 test('source index, status filters and external-only boards never imply zero results',()=>{
  for(const lang of ['zh','en']){
-  const def=render('',lang);assert.equal((def.match(/class="lb-nav-kind"/g)||[]).length,8);assert.match(def,/Kaggle Game Arena/);
-  const hist=render('?arenaBoard=procgen-2020-generalization',lang);assert.equal((hist.match(/class="lb-nav-kind"/g)||[]).length,19);
-  const filtered=render('?arenaBoard=sc2-ai-arena&arenaStatus=seasonal',lang);assert.equal((filtered.match(/class="lb-nav-kind"/g)||[]).length,2);
+  const def=render('',lang);assert.equal((def.match(/data-source=/g)||[]).length,19);assert.match(def,/Kaggle Game Arena/);
+  const hist=render('?arenaBoard=procgen-2020-generalization',lang);assert.equal((hist.match(/data-source=/g)||[]).length,19);
+  const filtered=render('?arenaBoard=sc2-ai-arena&arenaStatus=seasonal',lang);assert.equal((filtered.match(/data-source=/g)||[]).length,2);
   for(const b of curated.boards){const h=render('?arenaBoard='+b.id,lang);assert.ok(!h.includes('undefined'));assert.ok(h.includes(b.maintainer));
    if(b.displayMode==='external'){assert.match(h,/lb-external-results/);assert.doesNotMatch(h,/class="lb-table"|id="leaderboard-search"|没有匹配的 Agent/);}
   }
@@ -36,6 +36,15 @@ test('source index, status filters and external-only boards never imply zero res
 });
 
 test('shared filters select a matching source and preserve empty combinations',()=>{
- const seasonal=render('?arenaStatus=seasonal');assert.equal((seasonal.match(/class="lb-nav-kind"/g)||[]).length,2);assert.match(seasonal,/<h2>SC2 AI Arena<\/h2>/);
+ const seasonal=render('?arenaStatus=seasonal');assert.equal((seasonal.match(/data-source=/g)||[]).length,2);assert.match(seasonal,/<h2>SC2 AI Arena<\/h2>/);
  const empty=render('?arenaBoard=sc2-ai-arena&arenaStatus=seasonal&arenaGroup=cooperation');assert.doesNotMatch(empty,/class="lb-heading"/);assert.match(empty,/data-reset-filters/);
+});
+
+test('filtering retains an explicit selection and asks the user when it is excluded',()=>{
+ const h=render('?arenaBoard=chessbench-best&arenaStatus=reference&arenaMetric=cost&arenaQuery=Muse');
+ assert.match(h,/lb-selection-prompt/);assert.match(h,/ChessBench/);assert.doesNotMatch(h,/class="lb-heading"|class="lb-table"/);
+ assert.match(h,/显示 7 \/ 19 个来源/);assert.doesNotMatch(h,/leaderboard-collection|lb-nav-kind|id="leaderboard-status"/);
+ const mixed=render('?arenaBoard=balrog-llm&arenaStatus=reference');assert.match(mixed,/data-source="balrog" data-leaderboard="balrog-vlm" aria-pressed="false"/);assert.match(mixed,/lb-selection-prompt/);
+ const retained=render('?arenaBoard=chessbench-best&arenaStatus=continuous&arenaMetric=cost&arenaQuery=Muse');assert.match(retained,/value="cost" selected/);assert.match(retained,/value="Muse"/);assert.match(retained,/class="lb-heading"/);
+ const legacy=render('?arenaCollection=featured');assert.equal((legacy.match(/data-source=/g)||[]).length,19);assert.match(legacy,/id="leaderboard-direction" >/);
 });
