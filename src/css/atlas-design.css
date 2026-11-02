@@ -543,3 +543,25 @@ body[data-view] .protocol-reading-group dl { margin:0; }
 body[data-view] .protocol-reading-group dl>div { display:grid; grid-template-columns:160px minmax(0,1fr); gap:16px; }
 body[data-view] .protocol-reading-group dt { font-size:12px; color:#607380; }
 body[data-view] .protocol-reading-group dd { font-size:14px; line-height:1.8; margin:0; }
+
+/* Selection workflow: explicit comparisons and task-first discovery. */
+.filter-logic-note { margin:0 0 18px; color:#647c8c; font-size:12px; line-height:1.65; }
+.filter-match-mode { display:flex; align-items:center; justify-content:space-between; gap:8px; margin:0 0 10px; font-size:12px; color:#647c8c; }
+.filter-match-mode select { min-width:104px; min-height:30px; border:1px solid #d5e0e6; border-radius:4px; padding:3px 7px; background:#fff; color:#344854; font-size:12px; }
+.task-selection-preview { text-align:left; }
+.task-selection-title { color:#28566a; font-size:13px; font-weight:600; line-height:1.6; text-align:left; padding:0; }
+.task-selection-preview p { margin:7px 0; font-size:12px; line-height:1.7; color:#435966; }
+.task-selection-preview p b { color:#344854; font-weight:600; margin-right:4px; }
+.task-protocol-count { color:#647c8c; font-size:12px; padding:2px 0; text-align:left; }
+.task-selection-title:hover,.task-protocol-count:hover { text-decoration:underline; }
+body input.compare-toggle { appearance:auto; accent-color:#28566a; width:17px!important; height:17px!important; margin:4px 0; cursor:pointer; border-radius:3px; }
+body[data-view=games] .game-benchmark-table thead th:nth-child(1) { width:40px; }
+body[data-view=games] .game-benchmark-table thead th:nth-child(2) { width:27%; }
+body[data-view=games] .game-benchmark-table thead th:nth-child(3) { width:21%; }
+body[data-view=games] .game-benchmark-table thead th:nth-child(4) { width:39%; }
+body[data-view=games] .game-benchmark-table thead th:nth-child(5) { width:13%; }
+body[data-view=games] .game-benchmark-table tbody th { width:auto; }
+body[data-view=games] .game-benchmark-table .select-cell { padding-inline:10px; }
+body[data-view=games] .game-benchmark-table tr:has(input:checked) { background:#edf5f8; }
+body[data-view=games] .game-benchmark-table .paper-title { font-size:12px; line-height:1.7; color:#435966; margin:6px 0; }
+#compare-game:disabled { color:#7e909b; cursor:default; opacity:.7; }

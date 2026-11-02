@@ -53,3 +53,23 @@ assert.equal(protocols.get('p0-ludii-amazons').protocolType,'official-example');
 assert.equal(protocols.get('p0-ludii-amazons').capabilities.length,0);
 assert(ctx.window.AtlasLibrary.filtered({scope:'all',q:'Ammo Carrier'}).some(r=>r.id==='SUP-comrad'),'specific tasks are searchable');
 console.log('P0: all nine themes/full-library scopes agree; 18 resources / 45 sourced task protocols, original evidence and proposal boundaries verified.');
+
+// Multi-select semantics must be explicit, orthogonal to scope and other facets.
+const rows=discovery.records.filter(r=>discovery.scopeOf(r)==='resources');
+for(const mode of ['any','all']){
+ const match=values=>mode==='all'?values.every(Boolean):values.some(Boolean);
+ assert.deepEqual(ids(ctx.window.AtlasLibrary.filtered({scope:'resources',agent:'LLM,RL',agentMatch:mode})),ids(rows.filter(r=>match(['LLM','RL'].map(a=>r.agents.includes(a))))));
+ assert.deepEqual(ids(ctx.window.AtlasLibrary.filtered({scope:'resources',cap:'planning,memory',capMatch:mode})),ids(rows.filter(r=>match(['planning','memory'].map(c=>r.caps.includes(c))))));
+}
+assert.deepEqual(ids(ctx.window.AtlasLibrary.filtered({scope:'resources',agent:'LLM,RL',agentMatch:'all',genre:'Sandbox'})),ids(rows.filter(r=>r.agents.includes('LLM')&&r.agents.includes('RL')&&r.genres.includes('Sandbox'))));
+// A source-level game or theme link cannot turn unrelated/proposed tasks into a match.
+ctx.window.AtlasResearchArchives={get:()=>({tasks:[
+ {id:'unrelated',origin:'paper',gameIds:['other-game'],capabilities:[{id:'planning',role:'primary'}]},
+ {id:'proposal',origin:'arena-documented-candidate',gameIds:['target'],capabilities:[{id:'memory',role:'primary'}]},
+ {id:'related',origin:'paper',gameIds:['target'],capabilities:[{id:'memory',role:'primary'}],label:{zh:'已确认任务',en:'Documented task'},task:{zh:'完成目标',en:'Reach goal'},metrics:{zh:'任务成功率',en:'Success rate'}}
+]})};
+assert.deepEqual(Array.from(ctx.window.AtlasLibrary.matchingTasks('x',{cap:'memory',gameId:'target'}),u=>u.id),['related']);
+assert.equal(ctx.window.AtlasLibrary.taskPreview('x',{gameId:'absent'}),'');
+const preview=ctx.window.AtlasLibrary.taskPreview('x',{cap:'memory'});
+assert(preview.includes('data-task="related"')&&preview.includes('任务成功率'));
+assert(!preview.includes('proposal')&&!preview.includes('unrelated'));
