@@ -92,3 +92,45 @@ body[data-view="arena"] #arena-content .lb-filter-chip{padding:1px 7px;backgroun
 .lb-selection-prompt p{font-size:14px;color:#686b64;margin:0 0 16px}
 body[data-view="arena"] .lb-selection-prompt button{font-size:13px;padding:6px 12px;color:#315c63;border:1px solid #cdd0c7;background:#fffefa;border-radius:4px}
 .lb-toolbar button:focus-visible,.lb-nav-list button:focus-visible,.lb-track-switch button:focus-visible{outline:2px solid #315c63;outline-offset:2px}
+
+/* Results-first detail: a short source header, one control row, then native scores. */
+.lb-heading{margin-bottom:12px}
+.lb-heading-top{align-items:center;margin-bottom:6px}
+.lb-heading-top>div:first-child{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.lb-heading .lb-heading-top h2{margin:0!important;font-size:24px!important;line-height:1.25}
+.lb-result-date{gap:2px;padding:0}
+.lb-result-date time{font-size:16px}
+.lb-result-date .lb-date-unknown{font-size:12px}
+.lb-heading .lb-research-use{font-size:14px;line-height:1.6;margin:6px 0;color:#454941}
+.lb-source-line{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 16px;font-size:12px;line-height:1.6;color:#73766f}
+.lb-source-line a{color:#315c63}
+body[data-view="arena"] .lb-source-line button{border:0;background:none;color:#315c63;padding:0;font-size:12px;line-height:1.6}
+.lb-heading .lb-conditions{font-size:12px;line-height:1.5;margin:8px 0 0;color:#686b64}
+.lb-controls{padding-top:12px;gap:14px;align-items:end;flex-wrap:nowrap}
+.lb-controls label{gap:5px;min-width:0;flex:0 1 auto}
+.lb-controls label:nth-child(2){flex:0 1 auto}
+.lb-controls .lb-search-label{flex:1;min-width:140px}
+.lb-controls select{min-width:140px;max-width:240px}
+.lb-controls input,.lb-controls select{height:34px!important;font-size:13px!important;padding:4px 8px!important}
+.lb-table-meta{display:flex;justify-content:space-between;gap:16px;margin:10px 0 7px;font-size:11px;line-height:1.6;color:#73766f;font-variant-numeric:tabular-nums}
+.lb-table th,.lb-table td{padding:9px 12px}
+.lb-table thead th{font-size:11px}
+.lb-table tbody th{min-width:140px;font-size:13px;font-weight:500}
+.lb-table .lb-score,.lb-table .lb-secondary-score,.lb-table .lb-numeric-heading{text-align:right}
+.lb-table .lb-score{color:#292b28;font-weight:650;font-size:14px}
+.lb-secondary-score{font-variant-numeric:tabular-nums;white-space:nowrap;font-size:12px;color:#686b64}
+.lb-interval{display:block;font-size:10px;font-weight:400;color:#73766f;line-height:1.3;margin-top:2px}
+.lb-configuration{font-size:12px;color:#686b64;max-width:140px;overflow-wrap:anywhere}
+.lb-rank{width:36px;font-size:12px}
+.lb-reference{font-size:10px}
+.lb-table .lb-reference-heading th{padding-top:10px;padding-bottom:10px}
+.lb-pagination{display:flex;align-items:center;justify-content:flex-end;gap:10px;margin-top:12px;font-size:12px;color:#686b64;font-variant-numeric:tabular-nums}
+.lb-pagination>span{margin-right:auto}
+body[data-view="arena"] .lb-pagination button{border:1px solid #dcded5;border-radius:3px;padding:5px 10px;background:#fffefa;color:#315c63;font-size:12px}
+body[data-view="arena"] .lb-pagination button:disabled{opacity:.4;cursor:default}
+.lb-protocol{scroll-margin-top:20px}
+.lb-protocol dd{overflow-wrap:anywhere}
+.lb-protocol dl>div{grid-template-columns:120px minmax(0,1fr)}
+.lb-scores{grid-template-columns:repeat(3,minmax(0,1fr))}
+.lb-scores dd{overflow-wrap:anywhere}
+.lb-source-line button:focus-visible,.lb-pagination button:focus-visible{outline:2px solid #315c63;outline-offset:2px}

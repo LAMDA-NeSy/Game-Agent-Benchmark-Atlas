@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data dictionary — DuelLab GameBench 2</title>
+  <meta
+    name="description"
+    content="Field definitions, identities, status enums, null semantics, units, joins, and cost evidence for DuelLab public benchmark downloads."
+  />
+  <link rel="canonical" href="https://benchmarks.duellab.org/data-dictionary" />
+  <link rel="alternate" type="application/rss+xml" title="DuelLab updates" href="https://duellab.org/feed.xml" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131415" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf9f7" />
+  <meta name="color-scheme" content="light dark" />
+  <script src="site-shell.589a2e5730f1.js"></script>
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:site_name" content="DuelLab GameBench 2" />
+  <meta property="og:title" content="Data dictionary — DuelLab GameBench 2" />
+  <meta property="og:description" content="Field definitions, identities, status enums, null semantics, units, joins, and cost evidence for DuelLab public benchmark downloads." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://benchmarks.duellab.org/data-dictionary" />
+  <meta property="og:image" content="https://benchmarks.duellab.org/og-image.a1eea5e39f51.png" />
+  <meta property="og:image:alt" content="DuelLab GameBench 2 — AI model rankings" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@DuelLab_" />
+  <meta name="twitter:title" content="Data dictionary — DuelLab GameBench 2" />
+  <meta name="twitter:description" content="Field definitions, identities, status enums, null semantics, units, joins, and cost evidence for DuelLab public benchmark downloads." />
+  <meta name="twitter:image" content="https://benchmarks.duellab.org/og-image.a1eea5e39f51.png" />
+  <meta name="twitter:image:alt" content="DuelLab GameBench 2 — AI model rankings" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="favicon.a99740e70b6b.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.170f1b98aab8.png" sizes="180x180" />
+  <link rel="mask-icon" href="safari-mask-icon.svg" color="#081019" />
+  <link rel="preload" href="fonts/inter-400.8909904ab6c8.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="fonts/inter-700.6f56409fd3d6.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="styles.5475d0aae6d6.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"DuelLab GameBench 2","publisher":{"@id":"https://duellab.org/#organization","@type":"Organization","name":"DuelLab","url":"https://duellab.org/"},"url":"https://benchmarks.duellab.org/"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","description":"Field definitions, identities, status enums, null semantics, units, joins, and cost evidence for DuelLab public benchmark downloads.","isPartOf":{"@type":"WebSite","name":"DuelLab GameBench 2","url":"https://benchmarks.duellab.org/"},"name":"Data dictionary — DuelLab GameBench 2","url":"https://benchmarks.duellab.org/data-dictionary"}</script>
+  <script id="duellab-dataset-metadata" type="application/ld+json">{"@context":"https://schema.org","@id":"https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/#dataset","@type":"Dataset","citation":"https://duellab.org/citation","creator":{"@id":"https://duellab.org/#organization","@type":"Organization","name":"DuelLab","url":"https://duellab.org/"},"dateModified":"2026-11-01T08:00:50Z","description":"DuelLab GameBench 2 evaluates AI-generated game-playing programs through deterministic head-to-head matches. Match outcomes, not human or AI judges, produce the ratings. Public standings, methodology, and release data are available; the evaluator, engine implementation, and unpublished operational artifacts remain private.","distribution":[{"@type":"DataDownload","contentUrl":"https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/charts_data.json","encodingFormat":"application/json","name":"Benchmark chart payload"},{"@type":"DataDownload","contentUrl":"https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/leaderboard.json","encodingFormat":"application/json","name":"Public leaderboard JSON index"},{"@type":"DataDownload","contentUrl":"https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/leaderboard.csv","encodingFormat":"text/csv","name":"Public leaderboard CSV"},{"@type":"DataDownload","contentUrl":"https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/leaderboard.parquet","encodingFormat":"application/vnd.apache.parquet","name":"Public leaderboard Parquet"},{"@type":"DataDownload","contentUrl":"https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/entrants.json","encodingFormat":"application/json","name":"Public player-program details"}],"identifier":"gb2-20261101-00b883bd2c89","isAccessibleForFree":true,"license":"https://creativecommons.org/licenses/by/4.0/","measurementTechnique":"Deterministic head-to-head execution of compiled AI-generated game-playing programs, with ratings derived from match outcomes rather than human or AI judges","name":"DuelLab GameBench 2 public release gb2-20261101-00b883bd2c89","publisher":{"@id":"https://duellab.org/#organization","@type":"Organization","name":"DuelLab","url":"https://duellab.org/"},"sameAs":["https://benchmarks.duellab.org/","https://duellab.org/citation","https://huggingface.co/datasets/DuelLab/gamebench-2-results"],"subjectOf":{"@type":"CreativeWork","name":"DuelLab GameBench 2 data dictionary","url":"https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/data-dictionary"},"url":"https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/","version":"2-known8-r3"}</script>
+  <meta name="duellab-public-release-id" content="gb2-20261101-00b883bd2c89" />
+  <meta name="duellab-generated-at" content="2026-11-01T08:00:50Z" />
+  <meta name="duellab-benchmark-line" content="gamebench2" />
+  <meta name="duellab-benchmark-version" content="2-known8-r3" />
+  <meta name="duellab-source-commit" content="9106584652435b1da7c38ebecdf00cf45df668de" />
+</head>
+<body>
+  <nav class="skip-links" aria-label="Skip links">
+    <a class="skip-link" href="#main">Skip to main content</a>
+  </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="DuelLab GameBench 2 home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-lockup"><span class="brand-name">DuelLab</span><span class="brand-sep" aria-hidden="true">·</span><span class="brand-tag">GameBench 2</span></span></a>
+      <nav class="site-nav site-nav--desktop" aria-label="Benchmark navigation">
+        <a class="site-nav-link" href="/">Benchmarks</a>
+        <a class="site-nav-link" href="charts">Charts</a>
+        <a class="site-nav-link" href="model-inspector">Model results</a>
+        <a class="site-nav-link" href="games">Games</a>
+        <a class="site-nav-link" href="methodology">Methodology</a>
+        <a class="site-nav-link" href="archive">Archive</a>
+        <span class="site-nav-sep" aria-hidden="true"></span>
+        <a class="site-nav-link" href="https://duellab.org/">Main site</a>
+      </nav>
+      <div class="header-actions">
+        <div class="theme-switcher" role="group" aria-label="Theme">
+          <button type="button" class="theme-switcher-btn is-active" data-theme-choice-button="system" aria-pressed="true">System</button>
+          <button type="button" class="theme-switcher-btn" data-theme-choice-button="light" aria-pressed="false">Light</button>
+          <button type="button" class="theme-switcher-btn" data-theme-choice-button="dark" aria-pressed="false">Dark</button>
+        </div>
+        <details class="mobile-site-nav" data-dismissible>
+          <summary>Menu</summary>
+          <nav class="mobile-site-nav__panel" aria-label="Benchmark navigation">
+            <a class="site-nav-link" href="/">Benchmarks</a>
+            <a class="site-nav-link" href="charts">Charts</a>
+            <a class="site-nav-link" href="model-inspector">Model results</a>
+            <a class="site-nav-link" href="games">Games</a>
+            <a class="site-nav-link" href="methodology">Methodology</a>
+            <a class="site-nav-link" href="archive">Archive</a>
+            <span class="site-nav-sep" aria-hidden="true"></span>
+            <a class="site-nav-link" href="https://duellab.org/">Main site</a>
+          </nav>
+        </details>
+      </div>
+    </div>
+  </header>
+  <div class="page"><div class="container">
+      <div class="page-header">
+        <div class="page-header__main">
+          <p class="page-header__label">GameBench 2 — Public data</p>
+          <h1 class="page-title">Data dictionary</h1>
+          <p class="page-header__summary">Definitions for leaderboard JSON, CSV, Parquet, Charts, summary, and release-manifest fields. Contract versions are explicit so historical releases remain interpretable.</p>
+        </div>
+      </div>
+
+      <main id="main" class="content-stack">
+        <section class="card"><h2>Files and versions</h2>
+          <ul>
+            <li><a href="leaderboard.json">leaderboard.json</a> (<a href="leaderboard_data.schema.json">v12 schema</a>): Index of the <code>leaderboard/</code> part files, with row counts and SHA-256 checksums. Releases before v12 carry every row in this one file.</li>
+            <li><code>leaderboard/&lt;leaderboard&gt;.json</code> and <code>leaderboard/&lt;leaderboard&gt;/&lt;game&gt;.json</code> (<a href="leaderboard_data.schema.json">v12 schema</a>): Canonical track rows for one leaderboard, and its per-game rows for one game. Concatenating the parts in index order gives the full ordered row list.</li>
+            <li><a href="leaderboard.csv">leaderboard.csv</a> (v12 projection): Flat projection of the same ordered rows in one file. Numbers are rounded to six decimal places.</li>
+            <li><a href="leaderboard.spreadsheet.csv">leaderboard.spreadsheet.csv</a> (Spreadsheet view): The same rows for opening in a spreadsheet. Cells beginning with formula markers or tab/newline controls receive an apostrophe so they import as text, including negative numbers. Use JSON or Parquet for full precision, or the canonical CSV above (six decimal places).</li>
+            <li><a href="leaderboard.parquet">leaderboard.parquet</a> (v12 metadata): Arrow-typed identity, status, rank, eligibility, score, and lossless row JSON in one Snappy-compressed file.</li>
+            <li><code>publication_readiness.json</code> (v3 block): Earned evidence states: <code>preliminary</code> (every draw at the 48-draw checkpoint is a complete two-seat pairing; no precision claim) and <code>interval_validated</code> (a 95% interval from a method validated across programs, not guaranteed for each program; it describes the target-weighted pairing score from 0 to 1, not the 0–100 score; <code>precision_target_met</code> says whether its half-width is within 0.05; published only for an interval method the release's state policy qualifies; a state carried forward from an earlier target with another method is published as <code>preliminary</code> when its interval came from the preliminary checkpoint, and not at all otherwise). When the state policy qualifies a method, <code>interval_validation</code> records its validation: the analysis and its SHA-256 (<code>qualification_evidence</code>), the date (<code>validated_on</code>), the evidence it ran on (<code>validation_evidence_commit_sequence</code>, <code>validation_evidence_versions</code>), and <code>carry_over</code>: the validation carries over across engine and SDK upgrades, so it applies to results pooled across versions. Every state carries the <code>population_revision</code> (SHA-256 of the target population), the <code>evidence_commit_sequence</code>, and the <code>earned_report_sha256</code> and <code>earned_state_policy_sha256</code> it was earned under; a row state also carries its <code>target_revision</code> (SHA-256 of the row's whole target, including its own program weights). <code>counts.target_excluded_programs</code> is the number of programs that cannot be scored reliably (quarantined by the benchmark worker; a crash or illegal move counts as the faulting program's loss instead) and so leave every target; <code>target_exclusion_policy</code> names the list's rule (<code>readiness_target_exclusions_v2</code>). <code>current_state</code> marks a state carried forward from an earlier target and gives its state under the current target. Programs are keyed by <code>E-</code> ID and appear only beside rated rows; model/setting rows by pooled model key, <code>request_mode</code> and <code>effective_request_value</code>, with per-game states keyed by public game alias. An absent key means no earned state: not yet earned, target undefined, an unrated row, or no single matching public row.</li>
+            <li><a href="charts_data.json">charts_data.json</a> (<a href="charts_data.schema.json">v2 schema</a>): Overall rank, status, reasons, match, game, cost, and chart series.</li>
+            <li><a href="benchmark-summary.json">benchmark-summary.json</a> (<a href="benchmark_summary.schema.json">v4 schema</a>): Release-bound population counts and ranked Reasoning Variants leaders.</li>
+            <li><a href="release-manifest.json">release-manifest.json</a> (<a href="release_manifest.schema.json">v6 schema</a>): Release identity, counts, hashes, citation, and immutable URLs.</li>
+            <li>route-inventory.json, in the prepared release pair (<a href="route_inventory.schema.json">v1 schema</a>): Canonical-to-physical mappings, aliases, hashes, and per-route release evidence.</li>
+          </ul>
+        </section>
+        <section class="card"><h2>Row identity and joins</h2>
+          <p><code>canonical_public_row_identity</code> is the public key for one row in one benchmark view of this release. Reasoning Variants identities bind the model to an evaluated-setting tuple; equal-looking setting labels (Baseline, Balanced, Intensive) are never a join key. Join JSON, CSV, and Parquet on this field. Join Charts to Overall rows with its same identity. Across releases, reference a result by <code>public_release_id</code> together with this key (see <a href="#importing">Importing results</a>).</p>
+          <p><code>evaluated_setting_identity</code> is <code>evaluated_setting_identity.v1</code>: canonical provider route and model, request mode and effective request value, prompt and prompt-profile identities, output mode, reasoning policy and catalog identity, plus <code>resolution_status</code>. <code>exact</code> means the complete tuple was retained; <code>opaque_historical</code> preserves older evidence without inventing missing request details.</p>
+        </section>
+        <section class="card" id="reasoning-settings"><h2>Reasoning settings</h2>
+          <p>On Reasoning Variants rows (track <code>full_freedom/mixed</code>, “Model + reasoning setting” on the site), the provider request is recorded in <code>evaluated_setting_identity</code>: <code>request_mode</code> and <code>effective_request_value</code>. Classify a row from those two fields, never from its label.</p>
+          <ul>
+            <li><code>resolution_status</code> describes the whole identity: route, model, request, prompt, output mode, policy and catalog. <code>opaque_historical</code> means at least one of them was not retained, often the prompt or output identity. It does not mean the effort is unknown.</li>
+            <li><code>reasoning_setting</code> is the release's public setting key, such as <code>historical-provider-setting-intensive</code>, with <code>-variant-N</code> when a model has several requests in one group; variant numbers follow position within the release. <code>reasoning_provenance.requested_reasoning_effort</code>, <code>provider_reasoning_params.requested_effort</code> and the CSV column <code>requested_reasoning_effort</code> hold the same key. None of them is the literal request. In <a href="entrants.json">entrants.json</a>, <code>reasoning_setting</code> is each program's recorded value.</li>
+            <li>On these rows, <code>evidence_status</code> and <code>bracket_eligible</code> in <code>provider_reasoning_params</code> follow <code>resolution_status</code>: while no row's identity is <code>exact</code>, they read <code>retained_literal_legacy</code> and <code>false</code> on every row and say nothing about whether the request is recorded. On the Baseline, Balanced and Intensive leaderboards they tell whether a group's setting is the model's documented one.</li>
+            <li><code>reasoning_level</code> is the display label: the current capability catalog's wording for the recorded value, so its text can change between releases. <code>reasoning_bracket</code> is the group, and is null for a shared budget. Neither is a join key.</li>
+            <li>The Baseline, Balanced and Intensive leaderboards have one row per model and group. A row there can pool several requests of its group, so it is not one setting; use Reasoning Variants rows for single settings.</li>
+          </ul>
+          <p>Request classes, by <code>request_mode</code> and <code>effective_request_value</code>:</p>
+          <ul>
+            <li><code>literal_effort</code>: <code>effort</code> with a level such as <code>low</code> or <code>xhigh</code>. A recorded effort level. <strong>183 rows in this release, 168 ranked.</strong></li>
+            <li><code>disabled</code>: <code>none</code> under <code>effort</code> or <code>toggle</code>. Reasoning turned off. <strong>53 rows in this release, 43 ranked.</strong></li>
+            <li><code>enabled_without_levels</code>: <code>toggle</code> with <code>enabled</code>. Reasoning turned on; the model has no levels to choose. <strong>19 rows in this release, 14 ranked.</strong></li>
+            <li><code>field_omitted</code>: <code>omitted</code> with <code>none</code>. No reasoning field was sent. Not the same as disabled. <strong>4 rows in this release, 3 ranked.</strong></li>
+            <li><code>provider_default</code>: <code>omitted</code> with <code>default</code>. The model offers no reasoning control; the provider default applied. <strong>2 rows in this release, 2 ranked.</strong></li>
+            <li><code>shared_budget</code>: <code>budget</code>. One historical thinking budget that served more than one reasoning group; the row has no group. <strong>1 row in this release, 1 ranked.</strong></li>
+            <li><code>other_recorded_value</code>: any other recorded value. A recorded request outside the classes above. <strong>0 rows in this release, 0 ranked.</strong></li>
+            <li><code>unresolved</code>: an <code>effective_request_value</code> of <code>historical-…</code> or <code>unknown_legacy</code>. No row-level request value. Unknown is not zero, disabled, low or the provider default. <strong>0 rows in this release, 0 ranked.</strong></li>
+          </ul>
+          </section>
+        <section class="card" id="importing"><h2>Importing results</h2>
+          <ol>
+            <li><strong>Pin one release.</strong> Use <code>public_release_id</code> from <a href="release-manifest.json">release-manifest.json</a> and cite the immutable <code>releases/&lt;public_release_id&gt;/</code> copy. Check <code>leaderboard.json</code> against the manifest's <code>artifact_sha256</code>, and each part's size and SHA-256 against the index. On rows, <code>results_cut_id</code> equals <code>public_release_id</code>; <code>snapshot_id</code> and <code>comparability_tuples[].results_cut_id</code> carry an internal build identifier; cite the release ID instead.</li>
+            <li><strong>Choose the view.</strong> <code>overall</code> has one row per model. A row with an official rank scores the mean of the model's three group scores; a model with results for fewer groups is listed without a rank, and its score averages only the groups it has. <code>full_freedom/mixed</code> (Reasoning Variants) has one row per evaluated request; use it for single settings. The Baseline, Balanced and Intensive leaderboards have one row per model and group, which can pool several requests.</li>
+            <li><strong>Select eligible rows.</strong> For fully eligible results, keep <code>ranking_status</code> <code>ranked</code> with <code>eligibility_flag</code> <code>true</code>. A rank alone is not enough: partial Overall rows carry official ranks with incomplete evidence. After this filter the source ranks have gaps; keep them, or label positions you number yourself as yours. Provisional rows have no rank, and their scores rest on incomplete evidence; never sort them among ranked rows.</li>
+            <li><strong>Keep Overall, single settings and best settings apart.</strong> A ranked Overall score is DuelLab's mean over a model's three groups. A “best setting” is your own statistic over Reasoning Variants rows: say which rows it chose from and how it breaks ties, keep the chosen row's key, and do not call it Overall.</li>
+            <li><strong>Map settings by class.</strong> Use the classes under <a href="#reasoning-settings">Reasoning settings</a>. Do not map an unresolved value to a standard effort name, and do not treat unknown as zero, disabled, low or the provider default.</li>
+            <li><strong>Keep the source identity.</strong> <code>model_slug</code> identifies the model in a release; dated versions have their own slugs (a <code>-0902</code> suffix, for example) and separate rows and scores. <code>model_display_name</code> is for display and need not be unique. On Reasoning Variants rows, <code>evaluated_setting_identity.provider_model</code> is the provider's model identifier. Store these beside your own catalog ID.</li>
+            <li><strong>Reference a result by release and key.</strong> <code>canonical_public_row_identity</code> identifies a row within one release. Reference an imported result as <code>public_release_id</code> plus that key. A key can change between releases without any change in the result: Overall keys include the reasoning catalog's digest, and variant numbers are positional. Establish any cross-release match explicitly.</li>
+            <li><strong>Keep the precision.</strong> JSON and Parquet carry full double precision; the CSV is rounded to six decimal places. Consecutive releases can differ by less than a displayed digit, so a rounded value does not identify its release on its own. Compare at half a displayed unit.</li>
+            <li><strong>Attribute.</strong> The data is published under the manifest's <code>data_license</code> (<code>data_license_url</code>), with its citation (<code>citation_url</code>). Link the immutable release and state your selection rule.</li>
+          </ol>
+        </section>
+        <section class="card" id="import-examples"><h2>Examples</h2>
+          <p>Rows of release <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/"><code>gb2-20261026-cb69502a12d9</code></a>, with their fields copied from its immutable files. Each row key links to the part file that holds the whole row.</p>
+          <ul>
+            <li><strong>GPT-6 Astra</strong> (Reasoning Variants), <code>reasoning_level</code> XHigh; request <code>effort</code> / <code>xhigh</code>; ranked, rank 2; class <code>literal_effort</code>. A recorded effort level. The identity is opaque_historical only because the prompt and output identity were not retained; the effort is known. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/reasoning-variants.json"><code>publication-row.v1:mixed:gpt-6-astra:af89b97f9d676a8c</code></a></li>
+            <li><strong>Pareto 26.10</strong> (Reasoning Variants), <code>reasoning_level</code> Provider default (reasoning controls unavailable); request <code>omitted</code> / <code>default</code>; ranked, rank 7; class <code>provider_default</code>. The model offers no reasoning control, so the provider default applied. It is not disabled and not a low effort. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/reasoning-variants.json"><code>publication-row.v1:mixed:unbiased-pareto-26-10:cede2d03a653c56c</code></a></li>
+            <li><strong>Glimpse</strong> (Reasoning Variants), <code>reasoning_level</code> Reasoning enabled; request <code>toggle</code> / <code>enabled</code>; ranked, rank 49; class <code>enabled_without_levels</code>. Reasoning switched on by a toggle with no levels; there is no effort value to map. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/reasoning-variants.json"><code>publication-row.v1:mixed:elorian-glimpse:d613dad94964ec86</code></a></li>
+            <li><strong>Claude Opus 4.5</strong> (Reasoning Variants), <code>reasoning_level</code> Medium effort + 16,000 thinking tokens; request <code>effort</code> / <code>medium</code>; ranked, rank 93; class <code>literal_effort</code>. Recorded effort medium. The thinking budget in the label is the capability catalogue's wording for this setting; no download field records it. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/reasoning-variants.json"><code>publication-row.v1:mixed:claude-opus-4-5:e2ff6744eb1bb7c6</code></a></li>
+            <li><strong>Claude Opus 4.5</strong> (Reasoning Variants), <code>reasoning_level</code> Thinking field omitted; request <code>omitted</code> / <code>none</code>; ranked, rank 115; class <code>field_omitted</code>. No reasoning field was sent. Not the same as disabled. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/reasoning-variants.json"><code>publication-row.v1:mixed:claude-opus-4-5:959db58a0f4d59b9</code></a></li>
+            <li><strong>GLM-5.2</strong> (Reasoning Variants), <code>reasoning_level</code> Reasoning disabled (historical request variant 1); request <code>effort</code> / <code>none</code>; ranked, rank 124; class <code>disabled</code>. Reasoning off through the effort parameter. Variant 1 only separates it from the model's other row in the same group; variant numbers are positional within a release. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/reasoning-variants.json"><code>publication-row.v1:mixed:z-ai-glm-5-2:5ea14bc9644b6a2b</code></a></li>
+            <li><strong>GLM-5.2</strong> (Reasoning Variants), <code>reasoning_level</code> Reasoning disabled (historical request variant 2); request <code>toggle</code> / <code>none</code>; ranked, rank 173; class <code>disabled</code>. Also reasoning off, but through a toggle: a different request with its own row and score. Keyed by model and effort alone, these two rows would collide. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/reasoning-variants.json"><code>publication-row.v1:mixed:z-ai-glm-5-2:184634950256ca6a</code></a></li>
+            <li><strong>Claude Opus 4.5</strong> (Reasoning Variants), <code>reasoning_level</code> Historical thinking-budget setting; request <code>budget</code> / <code>legacy_shared_thinking_budget</code>; ranked, rank 126; class <code>shared_budget</code>. One historical thinking budget served more than one reasoning group, so the row has no group (reasoning_bracket is null). Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/reasoning-variants.json"><code>publication-row.v1:mixed:claude-opus-4-5:1f51e395856c1899</code></a></li>
+            <li><strong>Kimi K3.1 Pro</strong> (Overall), <code>reasoning_level</code> Overall Models; request —; partial, rank 6, not eligible. Partial: an official Overall rank with incomplete evidence (eligibility_flag false). Selecting ranking_status=ranked and eligibility_flag=true leaves it out, and the rows after it keep their source ranks. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/overall.json"><code>publication-row.v1:overall:moonshotai-kimi-k3-1-pro:282499765e15824a</code></a></li>
+            <li><strong>Pareto 26.10</strong> (Overall), <code>reasoning_level</code> Overall Models; request —; provisional, not eligible. Provisional: no rank. Its score averages fewer than three settings, so it is not comparable with ranked rows and must not be sorted among them. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/overall.json"><code>publication-row.v1:overall:unbiased-pareto-26-10:597e25e7df4b3ed3</code></a></li>
+            <li><strong>Qwen3.8 Max 0902</strong> (Overall), <code>reasoning_level</code> Overall Models; request —; ranked, rank 24. A dated model version. Its slug and provider model differ from the undated Qwen3.8 Max below; both are separate results. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/overall.json"><code>publication-row.v1:overall:qwen-qwen3-8-max-0902:8a79f157db205041</code></a></li>
+            <li><strong>Qwen3.8 Max</strong> (Overall), <code>reasoning_level</code> Overall Models; request —; ranked, rank 36. The undated version, with its own score. A shared catalogue name is not a join key. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/overall.json"><code>publication-row.v1:overall:qwen-qwen3-8-max:28f20064a86160e5</code></a></li>
+            <li><strong>DeepSeek V4 Pro 0813</strong> (Overall), <code>reasoning_level</code> Overall Models; request —; ranked, rank 46. A dated model version, separate from the undated DeepSeek V4 Pro below. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/overall.json"><code>publication-row.v1:overall:deepseek-deepseek-v4-pro-0813:9ff71329b8b2ecbf</code></a></li>
+            <li><strong>DeepSeek V4 Pro</strong> (Overall), <code>reasoning_level</code> Overall Models; request —; ranked, rank 47. The undated version, with its own score. Row: <a href="https://benchmarks.duellab.org/releases/gb2-20261026-cb69502a12d9/leaderboard/overall.json"><code>publication-row.v1:overall:deepseek-deepseek-v4-pro:b44807291d543f40</code></a></li>
+          </ul>
+        </section>
+        <section class="card"><h2>Ranking, eligibility, and nulls</h2>
+          <p><code>ranking_status</code> is <code>ranked</code>, <code>provisional</code>, <code>partial</code>, or <code>not_applicable</code>. Overall rows with <code>ranked</code> or <code>partial</code> status share one score-ordered official rank sequence. A partial row keeps <code>eligibility_flag=false</code> and its reason codes because its evidence is incomplete. Reasoning Variants rows with <code>provisional</code> status remain unranked. A null <code>rank</code>/<code>official_rank</code> means no official rank, not zero or tied-last.</p>
+          <p>Reason codes are <code>missing_bracket_scores</code>, <code>unknown_capability_evidence</code>, <code>missing_or_non_distinct_settings</code>, <code>untested_or_ineligible_settings</code>, <code>missing_generation_quality</code>, <code>generation_incomplete</code>, <code>below_generation_quality_threshold</code>, <code>fixed_coverage_incomplete</code>, and <code>grouped_stability_incomplete</code>. Current official-qualification rows distinguish an unfinished generation cohort, an actual generation-quality failure after completion, incomplete fixed opponent-and-seat coverage, and grouped rating evidence that is not yet stable. Historical rows without an official-qualification marker retain the generation-only compatibility reason. A <strong>Partial 3/3</strong> row has all three score values but fails at least one other eligibility condition named by these codes.</p>
+          <p>Other null numeric fields mean the measurement is unavailable or not applicable. They never mean zero. Empty arrays mean no observations of that kind were retained.</p>
+        </section>
+        <section class="card"><h2>Measures and units</h2>
+          <ul><li><code>score</code> and min/max displays use the documented public 0–100 scale. No uncertainty is published or displayed (<code>uncertainty</code> is <code>null</code>).</li><li><code>headline_games</code> on a track row (JSON and Parquet row JSON; <code>headline_games_json</code> in CSV) gives each game's headline value, keyed by public game alias: <code>score</code> (the working programs' scores weighted by the attempts that produced them, plus 0 for each model-caused failed generation attempt, divided by those attempts), <code>playable</code> (the working programs' attempt-weighted mean), <code>attempts</code> and <code>failed_attempts</code>. A row's <code>score</code> is the mean of its games' <code>score</code>. Overall is the exception: its <code>score</code> is the mean of the setting scores, and its game values are each game's mean over the settings, so they need not average to it. Game rows (<code>row_kind</code> <code>game</code>) and the Charts series <code>per_game_tracks</code> and <code>per_game_all</code> are <strong>working-program strength</strong>: they leave failed attempts out, so they do not reproduce the headline. Charts carries the headline values as <code>headline_games_tracks</code> and <code>headline_games_all</code>; its per-game charts read their <code>score</code> (headline score) or <code>playable</code> (working-program strength). Since 24 October 2026 a setting's game rows and <code>per_game_tracks</code> equal its <code>playable</code> values (they pool every working program of the row, weighted by attempts); <code>per_game_all</code> is the mean over the three settings and has a value only where all three do. Charts model rows also carry diagnostics: <code>working_program_strength</code> (a setting's value equals that leaderboard row's <code>conditional_success_score</code>; <code>all</code> is the mean of the settings), <code>program_outcomes</code> (generation outcomes and <code>success_rate</code>, the row's <code>plugin_success_rate</code>), <code>official_rank_by_reasoning</code> and <code>economics_best_value</code>.</li><li><strong>Game rows with several programs</strong> (from 25 October 2026): a game row (<code>row_kind</code> <code>game</code>) stands for all of a model's programs in that game and setting. <code>score</code> is their working-program strength, weighted by attempts; <code>raw_elo</code> is the attempt-weighted mean of the working programs' raw ratings, weighted like working-program strength (a failed attempt has no program and no rating); <code>wins</code>, <code>losses</code>, <code>draws</code> and <code>rated_matches</code> are the programs' <strong>combined record</strong>, which measures evidence volume, not strength; <code>contributing_entrants</code> counts the programs, and a track row's <code>entry_count</code> (the Players column) counts the programs of its game rows (Overall: of its settings). Added fields: <code>working_attempts</code> and <code>counted_attempts</code> (“N working of M attempts”: counted attempts are the working ones plus those that failed in model-written code; too-slow programs and provider, API or test-machine faults are not counted) and <code>program_raw_elo_low</code> and <code>program_raw_elo_high</code> (the lowest and highest program rating, only for rows with two or more rated programs; a description of the programs, not a confidence interval). CSV carries the four after <code>headline_games_json</code>; they are absent on track rows and earlier releases. On the Intensive, Balanced and Baseline leaderboards a model row's wins, draws and losses are the sum of its game rows' records (Reasoning Variants rows already were), and Charts' per-game match totals equal the game rows'. Charts model rows carry <code>game_gaps</code>: per view and game without a working-program strength, why it has none: <code>failed</code> (every counted attempt failed, a recorded 0 in the headline), <code>too_slow</code> (rejected by the speed check, not counted), <code>infra_excluded</code> (lost to a provider, API or test-machine fault, not counted), <code>unrated</code> (a working program not rated yet) or <code>untested</code> (no attempt recorded).</li><li><code>conditional_success_score</code> on a track row keeps its field name for compatibility. It is <strong>working-program strength</strong>, the leaderboard's column of that name (called Playable before 24 October 2026): the mean score of the working programs across games, with failed generation attempts left out. <code>plugin_success_rate</code> is the program success rate (working programs over counted attempts).</li><li><code>raw_elo</code> and <code>raw_elo_rating</code> keep their names for compatibility. In this release they hold the B1 rating (a Bradley–Terry fit, points around 1500 with the game's programs centred) described on the Methodology page. They compare player programs within the same game, not with releases rated otherwise. No rating uncertainty is published.</li><li>Match counts are integer participant results; for model-setting rows, <code>rated_matches = wins + losses + draws</code>.</li><li><strong>Opponents played</strong> (an optional leaderboard column, hidden by default) is <code>Σ played ÷ Σ owed</code> over the row's player programs, shown as a whole percentage rounded down. For each program in the Reasoning Variants data of <a href="entrants.json">entrants.json</a>, <code>owed_seat_pairings = 2 × (programs in the game − 1)</code>: the full matrix owes one rated match against every other program of the game, once with each moving first. <code>played_seat_pairings</code> counts those with at least one completed rated match. Overall rows pool the model's programs from the Baseline, Balanced and Intensive views; other rows pool the programs of their own view. Releases whose data was produced before October 8, 2026 lack both fields; they instead owe each other program once (<code>programs in the game − 1</code>) and count <code>distinct_rated_opponents</code> as played.</li><li>Rates are fractions from 0 to 1 in data, even when the site displays percentages.</li><li>Token counts are tokens; latency is milliseconds; generation time is seconds; USD fields are US dollars.</li></ul>
+        </section>
+        <section class="card"><h2>Cost evidence</h2>
+          <p>Cost is an equal-weight mean across unique model/game/evaluated-setting cells. <code>evidence_basis</code>, <code>cost_basis_counts</code>, and <code>pricing_table_versions</code> disclose whether values are billed, provider-reported, versioned standard-list estimates, legacy, or combined. Exact zero is <code>0</code>; a positive sub-cent value remains positive and must not be rounded to a displayed zero.</p>
+          <p>Example: a row with mean <code>0.0042</code>, evidence basis “Standard list-price estimate,” and pricing revision <code>pricing-v3</code> means an estimated 0.42 cents per unique cell under that revision—not a provider invoice.</p>
+        </section>
+        <section class="card"><h2>Population counts</h2>
+          <p><code>model_family_count</code> counts unique model families. Model-setting counts separate total, ranked, and provisional reasoning settings. <code>ranked_overall_model_count</code> keeps its compatibility meaning of complete-evidence Overall rows; the total number of official Overall ranks is <code>ranked_overall_model_count + partial_overall_model_count</code>. <code>unique_code_entrant_count</code> deduplicates public code identities across the suite; <code>per_game_unique_entrant_counts</code> gives the corresponding count for each public game alias. <code>model_count</code> and <code>reasoning_variant_count</code> are temporary compatibility aliases.</p>
+        </section>
+      </main>
+    </div></div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>
+        GameBench 2 evaluates model-generated game-playing programs after
+        compilation and execution on an evolving set of public benchmark games.
+        Compiled programs play head-to-head, and the public methodology explains
+        how those results become current standings.
+      </p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/">Benchmarks</a>
+        <a href="methodology">Methodology</a>
+        <a href="https://duellab.org/">Main site</a>
+        <a href="https://duellab.org/privacy">Privacy</a>
+        <a href="https://duellab.org/terms">Terms</a>
+        <a href="https://duellab.org/legal-contact">Legal contact</a>
+        <a href="https://duellab.org/blog/">Blog</a>
+        <a href="https://duellab.org/citation">Citation &amp; data</a>
+        <a href="https://duellab.org/feed.xml">RSS</a>
+      </nav>
+    </div>
+        <p class="container release-identity">Public release <a href="https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/"><code>gb2-20261101-00b883bd2c89</code></a> · Generated <time datetime="2026-11-01T08:00:50Z">2026-11-01</time></p>
+  </footer>
+</body>
+</html>

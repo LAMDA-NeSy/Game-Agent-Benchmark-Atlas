@@ -1,0 +1,298 @@
+{
+  "MODELS": {
+    "astra": {
+      "name": "GPT-6 Astra",
+      "lab": "openai",
+      "color": "#1F1F1F"
+    },
+    "sol": {
+      "name": "GPT-6.1 Sol",
+      "lab": "openai",
+      "color": "#1F1F1F"
+    },
+    "luna": {
+      "name": "GPT-6 Luna",
+      "lab": "openai",
+      "color": "#1F1F1F"
+    },
+    "opus": {
+      "name": "Claude Opus 5.5",
+      "lab": "claude",
+      "color": "#D4785F"
+    },
+    "fable": {
+      "name": "Claude Fable 5.1",
+      "lab": "claude",
+      "color": "#D4785F"
+    },
+    "sonnet": {
+      "name": "Claude Sonnet 5.5",
+      "lab": "claude",
+      "color": "#D4785F"
+    },
+    "haiku": {
+      "name": "Claude Haiku 5.5",
+      "lab": "claude",
+      "color": "#D4785F"
+    },
+    "argon": {
+      "name": "Gemini 4 Argon",
+      "lab": "gemini",
+      "color": "#34A853"
+    },
+    "muse": {
+      "name": "Muse Wonder Full",
+      "lab": "meta",
+      "color": "#0A7CFF"
+    }
+  },
+  "SCORES": [
+    {
+      "k": "astra",
+      "score": 57.26
+    },
+    {
+      "k": "sol",
+      "score": 45.81
+    },
+    {
+      "k": "argon",
+      "score": 39.3
+    },
+    {
+      "k": "opus",
+      "score": 38.63
+    },
+    {
+      "k": "fable",
+      "score": 37.18
+    },
+    {
+      "k": "sonnet",
+      "score": 25.81
+    },
+    {
+      "k": "muse",
+      "score": 21.41
+    },
+    {
+      "k": "haiku",
+      "score": 21.03
+    },
+    {
+      "k": "luna",
+      "score": 13.08
+    }
+  ],
+  "COSTS": {
+    "astra": 18.07,
+    "sol": 2.02,
+    "argon": 3.63,
+    "opus": 5.12,
+    "fable": 7.78,
+    "sonnet": 2.38,
+    "muse": 5.87,
+    "haiku": 0.98,
+    "luna": 0.57
+  },
+  "RUNS": {
+    "astra": [
+      61.97,
+      58.12,
+      57.69,
+      55.98,
+      52.56
+    ],
+    "sol": [
+      51.28,
+      50,
+      49.15,
+      40.17,
+      38.46
+    ],
+    "argon": [
+      50,
+      40.52,
+      39.74,
+      33.76,
+      32.48
+    ],
+    "opus": [
+      42.74,
+      41.03,
+      38.03,
+      36.32,
+      35.04
+    ],
+    "fable": [
+      41.45,
+      38.03,
+      37.18,
+      35.47,
+      33.76
+    ],
+    "sonnet": [
+      32.91,
+      32.05,
+      29.06,
+      22.22,
+      12.82
+    ],
+    "muse": [
+      26.07,
+      21.79,
+      21.37,
+      19.66,
+      18.18
+    ],
+    "haiku": [
+      31.62,
+      20.09,
+      19.66,
+      17.52,
+      16.24
+    ],
+    "luna": [
+      19.23,
+      17.52,
+      14.1,
+      8.12,
+      6.41
+    ]
+  },
+  "VS_TOP": {
+    "astra": {
+      "stardust": [
+        6,
+        90
+      ],
+      "purplewave": [
+        9,
+        90
+      ],
+      "bananabrain": [
+        4,
+        90
+      ]
+    },
+    "sol": {
+      "stardust": [
+        0,
+        90
+      ],
+      "purplewave": [
+        4,
+        90
+      ],
+      "bananabrain": [
+        4,
+        90
+      ]
+    },
+    "argon": {
+      "stardust": [
+        0,
+        90
+      ],
+      "purplewave": [
+        5,
+        88
+      ],
+      "bananabrain": [
+        0,
+        90
+      ]
+    },
+    "opus": {
+      "stardust": [
+        0,
+        90
+      ],
+      "purplewave": [
+        1,
+        90
+      ],
+      "bananabrain": [
+        0,
+        90
+      ]
+    },
+    "fable": {
+      "stardust": [
+        0,
+        90
+      ],
+      "purplewave": [
+        1,
+        90
+      ],
+      "bananabrain": [
+        0,
+        90
+      ]
+    },
+    "sonnet": {
+      "stardust": [
+        0,
+        90
+      ],
+      "purplewave": [
+        4,
+        90
+      ],
+      "bananabrain": [
+        0,
+        90
+      ]
+    },
+    "muse": {
+      "stardust": [
+        0,
+        90
+      ],
+      "purplewave": [
+        2,
+        87
+      ],
+      "bananabrain": [
+        0,
+        90
+      ]
+    },
+    "haiku": {
+      "stardust": [
+        0,
+        90
+      ],
+      "purplewave": [
+        4,
+        90
+      ],
+      "bananabrain": [
+        2,
+        90
+      ]
+    },
+    "luna": {
+      "stardust": [
+        0,
+        90
+      ],
+      "purplewave": [
+        0,
+        90
+      ],
+      "bananabrain": [
+        0,
+        90
+      ]
+    }
+  },
+  "STATS": {
+    "bots": 45,
+    "opponents": 13,
+    "games": 10530,
+    "gamesPerPair": 18,
+    "gamesPerBot": 234
+  }
+}

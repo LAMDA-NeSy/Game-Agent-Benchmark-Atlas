@@ -4,7 +4,7 @@ const {rank}=require('../src/js/models/official-leaderboard-model.js');
 const render=(search='',lang='zh')=>{const ctx={window:{AtlasOfficialLeaderboardsData:data,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search},URLSearchParams};vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();};
 test('eight selected sources own tracks exactly once and retain all historical records',()=>{
  assert.equal(data.sources.filter(s=>s.featured).length,8);assert.equal(data.sources.length,19);
- const ids=data.sources.flatMap(s=>s.boardIds);assert.equal(new Set(ids).size,23);assert.deepEqual([...ids].sort(),data.boards.map(b=>b.id).sort());
+ const ids=data.sources.flatMap(s=>s.boardIds);assert.equal(new Set(ids).size,37);assert.deepEqual([...ids].sort(),data.boards.map(b=>b.id).sort());
  assert.deepEqual(data.boards.slice(16),curated.boards);
  assert.equal(data.boards.slice(0,16).reduce((n,b)=>n+b.entries.length,0),344);
  assert.equal(data.boardMetadata['balrog-llm'].kind,'continuous');assert.equal(data.boardMetadata['balrog-vlm'].kind,'reference');
@@ -31,7 +31,7 @@ test('source index, status filters and external-only boards never imply zero res
    if(b.displayMode==='external'){assert.match(h,/lb-external-results/);assert.doesNotMatch(h,/class="lb-table"|id="leaderboard-search"|没有匹配的 Agent/);}
   }
  }
- const kaggle=render('?arenaBoard=kaggle-game-arena');const date=kaggle.match(/<div class="lb-result-date">([\s\S]*?)<\/div>/)[1];assert.doesNotMatch(date,/2026-10-19/);assert.match(kaggle,/围棋[\s\S]*2026-10-19/);
+ const kaggle=render('?arenaBoard=kaggle-game-arena');const date=kaggle.match(/<div class="lb-result-date">([\s\S]*?)<\/div>/)[1];assert.match(date,/2026-10-19/);assert.match(kaggle,/value="kaggle-go"/);
  const sc2=render('?arenaBoard=sc2-ai-arena');assert.doesNotMatch(sc2.match(/<div class="lb-result-date">([\s\S]*?)<\/div>/)[1],/<time/);
 });
 

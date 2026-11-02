@@ -13,8 +13,8 @@
     const rows=board.entries.filter(e=>Number.isFinite(e.scores[metric.id]?.sortValue))
       .map(e=>({...e,metric:metric.id})).sort((a,b)=>Number(!!a.reference)-Number(!!b.reference)||compare(a,b)||a.sourceRow-b.sourceRow);
     let previous,position=0,index=0;
-    rows.forEach(row=>{if(row.reference){row.rank=null;return;}index++;if(!previous||compare(row,previous)!==0)position=index;row.rank=position;previous=row;});
-    const q=query.trim().toLowerCase();return rows.filter(e=>e.agent.toLowerCase().includes(q));
+    rows.forEach(row=>{if(row.reference){row.rank=null;return;}index++;if(!previous||compare(row,previous)!==0)position=index;row.rank=metric.id==='overall'&&Number.isFinite(row.officialRank)?row.officialRank:position;previous=row;});
+    const q=query.trim().toLowerCase();return rows.filter(e=>[e.agent,e.configuration?.zh,e.configuration?.en,typeof e.configuration==='string'?e.configuration:''].filter(Boolean).join(' ').toLowerCase().includes(q));
   }
   return {rank};
 });

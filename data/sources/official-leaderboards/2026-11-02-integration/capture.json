@@ -1,0 +1,35 @@
+{
+  "capturedAt": "2026-11-02T05:30:26.055908+00:00",
+  "duellab": {
+    "url": "https://benchmarks.duellab.org/leaderboard.csv",
+    "sha256": "414feae586e17d74ae218e8e2233d91f66264da6558d800af3bf9adad8db527a"
+  },
+  "chessbench": {
+    "url": "https://chessbench.org/data/leaderboard.json"
+  },
+  "starskirmish": {
+    "url": "https://starskirmish.com/bench/v0-2/data.js?v=967d33a"
+  },
+  "sc2": {
+    "url": "https://aiarenarecap.com/api/ladder.json",
+    "season": "2026 Season 2",
+    "mirrorSyncedAt": "2026-11-02T05:24:12Z"
+  },
+  "kaggle": {
+    "url": "https://www.kaggle.com/benchmarks/kaggle/game-arena",
+    "api": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 31
+        }
+      }
+    }
+  },
+  "arc": {
+    "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/leaderboard",
+    "api": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
+    "rawResponseSha256": "5e52137f33ba09be0622ed644235e3809523c707b99cb12b625a4dac7e0ee07e",
+    "projection": "Public leaderboard plus teamId, teamName, submissionCount, lastSubmissionDate; member profiles omitted"
+  }
+}
