@@ -31,7 +31,7 @@
   const kind=metadata(b).dateKind;
   const labels={pageUpdated:['来源页面更新','Source page updated'],dataUpdated:['成绩数据更新','Results data updated'],recordUpdated:['最近成绩更新','Latest result update'],latestSubmission:['最近提交 · 收录成绩','Latest submission · collected results'],unknown:['成绩更新时间','Results updated']};
   const value=['pageUpdated','dataUpdated'].includes(kind)?b.source.pageUpdatedAt:['recordUpdated','latestSubmission'].includes(kind)?b.entries.map(e=>e.submissionDate).filter(Boolean).sort().at(-1):null;
-  return `<div class="lb-result-date"><span>${metadata(b).dateLabel?esc(tr(metadata(b).dateLabel)):t(...labels[kind])}</span>${value?`<time datetime="${esc(value)}">${esc(value.slice(0,10))}</time>`:`<strong class="lb-date-unknown">${metadata(b).dateMissingLabel?esc(tr(metadata(b).dateMissingLabel)):t('来源未公布','Not published by source')}</strong>`}</div>`;
+  return `<div class="lb-result-date"><span>${metadata(b).dateLabel?esc(tr(metadata(b).dateLabel)):t(...labels[kind])}</span>${value?`<time datetime="${esc(value)}">${esc(value.slice(0,10))}${value.includes('T')&&value.endsWith('Z')?' <small>UTC</small>':''}</time>`:`<strong class="lb-date-unknown">${metadata(b).dateMissingLabel?esc(tr(metadata(b).dateMissingLabel)):t('来源未公布','Not published by source')}</strong>`}</div>`;
  }
  const rankedColumns=b=>b.columns.filter(c=>c.rankable!==false&&(!b.entries.length||b.entries.some(e=>Number.isFinite(e.scores[c.id]?.sortValue))));
  let boardId=data.sources[0].boardIds[0],metricId='overall',query='',expanded=null,navGroup='all',navStatus='all',directionOpen=false,pageNumber=1;

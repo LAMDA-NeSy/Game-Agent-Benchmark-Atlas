@@ -20905,7 +20905,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Score",
+          "displayScale": 1,
+          "displayDigits": 1
         },
         {
           "id": "metric-5919",
@@ -20915,7 +20919,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": false
+          "rankable": false,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Matches Played",
+          "displayScale": 1,
+          "displayDigits": 0
         },
         {
           "id": "metric-5920",
@@ -20925,7 +20933,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": false
+          "rankable": false,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Games Covered",
+          "displayScale": 1,
+          "displayDigits": 0
         }
       ],
       "entries": [
@@ -229769,8 +229781,8 @@
         "en": "5 text-interaction frameworks · includes ScienceWorld"
       },
       "researchUse": {
-        "zh": "比较文字环境中的多步规划、任务执行与科学实验推理；ScienceWorld 可单独排序。",
-        "en": "Compare multi-step planning, task execution and scientific reasoning in text environments; rank ScienceWorld separately."
+        "zh": "比较语言模型在五类文字交互环境中的规划、探索与科学实验推理。",
+        "en": "Compare planning, exploration and scientific reasoning across five text-interaction frameworks."
       },
       "source": {
         "url": "https://microsoft.github.io/tale-suite/",
@@ -309838,7 +309850,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Score",
+          "displayScale": 1,
+          "displayDigits": 1
         },
         {
           "id": "metric-1892",
@@ -309848,7 +309864,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": false
+          "rankable": false,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Avg. Tokens/Turn",
+          "displayScale": 1,
+          "displayDigits": 0
         },
         {
           "id": "metric-1891",
@@ -309856,9 +309876,13 @@
             "zh": "每步成本",
             "en": "Cost / turn"
           },
-          "unit": "USD",
+          "unit": "¢",
           "direction": "asc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "CENTS",
+          "sourceTaskName": "Avg. Cost/Turn",
+          "displayScale": 1,
+          "displayDigits": 2
         }
       ],
       "entries": [
@@ -309878,13 +309902,13 @@
             "metric-1892": {
               "value": 11167.0,
               "sortValue": 11167.0,
-              "display": "11167.0",
+              "display": "11,167",
               "sourceValue": 11167
             },
             "metric-1891": {
               "value": 4.0828952486678505,
               "sortValue": 4.0828952486678505,
-              "display": "4.0829",
+              "display": "4.08",
               "sourceValue": 4.0828952486678505
             }
           },
@@ -309922,13 +309946,13 @@
             "metric-1892": {
               "value": 6546.0,
               "sortValue": 6546.0,
-              "display": "6546.0",
+              "display": "6,546",
               "sourceValue": 6546
             },
             "metric-1891": {
               "value": 30.011987898014336,
               "sortValue": 30.011987898014336,
-              "display": "30.0120",
+              "display": "30.01",
               "sourceValue": 30.011987898014336
             }
           },
@@ -309966,13 +309990,13 @@
             "metric-1892": {
               "value": 3436.0,
               "sortValue": 3436.0,
-              "display": "3436.0",
+              "display": "3,436",
               "sourceValue": 3436
             },
             "metric-1891": {
               "value": 1.18638181780709,
               "sortValue": 1.18638181780709,
-              "display": "1.1864",
+              "display": "1.19",
               "sourceValue": 1.18638181780709
             }
           },
@@ -310014,13 +310038,13 @@
             "metric-1892": {
               "value": 2903.0,
               "sortValue": 2903.0,
-              "display": "2903.0",
+              "display": "2,903",
               "sourceValue": 2903
             },
             "metric-1891": {
               "value": 2.614701056293217,
               "sortValue": 2.614701056293217,
-              "display": "2.6147",
+              "display": "2.61",
               "sourceValue": 2.614701056293217
             }
           },
@@ -310058,13 +310082,13 @@
             "metric-1892": {
               "value": 4032.0,
               "sortValue": 4032.0,
-              "display": "4032.0",
+              "display": "4,032",
               "sourceValue": 4032
             },
             "metric-1891": {
               "value": 3.368641674519753,
               "sortValue": 3.368641674519753,
-              "display": "3.3686",
+              "display": "3.37",
               "sourceValue": 3.368641674519753
             }
           },
@@ -310106,13 +310130,13 @@
             "metric-1892": {
               "value": 9041.0,
               "sortValue": 9041.0,
-              "display": "9041.0",
+              "display": "9,041",
               "sourceValue": 9041
             },
             "metric-1891": {
               "value": 10.512418434492242,
               "sortValue": 10.512418434492242,
-              "display": "10.5124",
+              "display": "10.51",
               "sourceValue": 10.512418434492242
             }
           },
@@ -310150,13 +310174,13 @@
             "metric-1892": {
               "value": 13385.0,
               "sortValue": 13385.0,
-              "display": "13385.0",
+              "display": "13,385",
               "sourceValue": 13385
             },
             "metric-1891": {
               "value": 39.288399560048674,
               "sortValue": 39.288399560048674,
-              "display": "39.2884",
+              "display": "39.29",
               "sourceValue": 39.288399560048674
             }
           },
@@ -310194,13 +310218,13 @@
             "metric-1892": {
               "value": 5806.0,
               "sortValue": 5806.0,
-              "display": "5806.0",
+              "display": "5,806",
               "sourceValue": 5806
             },
             "metric-1891": {
               "value": 2.0743385807192043,
               "sortValue": 2.0743385807192043,
-              "display": "2.0743",
+              "display": "2.07",
               "sourceValue": 2.0743385807192043
             }
           },
@@ -310238,13 +310262,13 @@
             "metric-1892": {
               "value": 5302.0,
               "sortValue": 5302.0,
-              "display": "5302.0",
+              "display": "5,302",
               "sourceValue": 5302
             },
             "metric-1891": {
               "value": 4.750612251198466,
               "sortValue": 4.750612251198466,
-              "display": "4.7506",
+              "display": "4.75",
               "sourceValue": 4.750612251198466
             }
           },
@@ -310282,13 +310306,13 @@
             "metric-1892": {
               "value": 8782.0,
               "sortValue": 8782.0,
-              "display": "8782.0",
+              "display": "8,782",
               "sourceValue": 8782
             },
             "metric-1891": {
               "value": 2.549251634263173,
               "sortValue": 2.549251634263173,
-              "display": "2.5493",
+              "display": "2.55",
               "sourceValue": 2.549251634263173
             }
           },
@@ -310326,13 +310350,13 @@
             "metric-1892": {
               "value": 6111.0,
               "sortValue": 6111.0,
-              "display": "6111.0",
+              "display": "6,111",
               "sourceValue": 6111
             },
             "metric-1891": {
               "value": 14.077932985447534,
               "sortValue": 14.077932985447534,
-              "display": "14.0779",
+              "display": "14.08",
               "sourceValue": 14.077932985447534
             }
           },
@@ -310370,13 +310394,13 @@
             "metric-1892": {
               "value": 4893.0,
               "sortValue": 4893.0,
-              "display": "4893.0",
+              "display": "4,893",
               "sourceValue": 4893
             },
             "metric-1891": {
               "value": 4.321054691511388,
               "sortValue": 4.321054691511388,
-              "display": "4.3211",
+              "display": "4.32",
               "sourceValue": 4.321054691511388
             }
           },
@@ -310414,13 +310438,13 @@
             "metric-1892": {
               "value": 1519.0,
               "sortValue": 1519.0,
-              "display": "1519.0",
+              "display": "1,519",
               "sourceValue": 1519
             },
             "metric-1891": {
               "value": 2.270286353297953,
               "sortValue": 2.270286353297953,
-              "display": "2.2703",
+              "display": "2.27",
               "sourceValue": 2.270286353297953
             }
           },
@@ -310458,13 +310482,13 @@
             "metric-1892": {
               "value": 18572.0,
               "sortValue": 18572.0,
-              "display": "18572.0",
+              "display": "18,572",
               "sourceValue": 18572
             },
             "metric-1891": {
               "value": 14.637172514147132,
               "sortValue": 14.637172514147132,
-              "display": "14.6372",
+              "display": "14.64",
               "sourceValue": 14.637172514147132
             }
           },
@@ -310506,13 +310530,13 @@
             "metric-1892": {
               "value": 10088.0,
               "sortValue": 10088.0,
-              "display": "10088.0",
+              "display": "10,088",
               "sourceValue": 10088
             },
             "metric-1891": {
               "value": 14.692236021655933,
               "sortValue": 14.692236021655933,
-              "display": "14.6922",
+              "display": "14.69",
               "sourceValue": 14.692236021655933
             }
           },
@@ -310550,13 +310574,13 @@
             "metric-1892": {
               "value": 30422.0,
               "sortValue": 30422.0,
-              "display": "30422.0",
+              "display": "30,422",
               "sourceValue": 30422
             },
             "metric-1891": {
               "value": 17.41884771528565,
               "sortValue": 17.41884771528565,
-              "display": "17.4188",
+              "display": "17.42",
               "sourceValue": 17.41884771528565
             }
           },
@@ -310594,13 +310618,13 @@
             "metric-1892": {
               "value": 11576.0,
               "sortValue": 11576.0,
-              "display": "11576.0",
+              "display": "11,576",
               "sourceValue": 11576
             },
             "metric-1891": {
               "value": 15.756675075528701,
               "sortValue": 15.756675075528701,
-              "display": "15.7567",
+              "display": "15.76",
               "sourceValue": 15.756675075528701
             }
           },
@@ -310638,13 +310662,13 @@
             "metric-1892": {
               "value": 14654.0,
               "sortValue": 14654.0,
-              "display": "14654.0",
+              "display": "14,654",
               "sourceValue": 14654
             },
             "metric-1891": {
               "value": 8.551357028357542,
               "sortValue": 8.551357028357542,
-              "display": "8.5514",
+              "display": "8.55",
               "sourceValue": 8.551357028357542
             }
           },
@@ -310682,13 +310706,13 @@
             "metric-1892": {
               "value": 1873.0,
               "sortValue": 1873.0,
-              "display": "1873.0",
+              "display": "1,873",
               "sourceValue": 1873
             },
             "metric-1891": {
               "value": 1.4824087155703864,
               "sortValue": 1.4824087155703864,
-              "display": "1.4824",
+              "display": "1.48",
               "sourceValue": 1.4824087155703864
             }
           },
@@ -310726,13 +310750,13 @@
             "metric-1892": {
               "value": 3111.0,
               "sortValue": 3111.0,
-              "display": "3111.0",
+              "display": "3,111",
               "sourceValue": 3111
             },
             "metric-1891": {
               "value": 13.669077644827585,
               "sortValue": 13.669077644827585,
-              "display": "13.6691",
+              "display": "13.67",
               "sourceValue": 13.669077644827585
             }
           },
@@ -310770,13 +310794,13 @@
             "metric-1892": {
               "value": 24688.0,
               "sortValue": 24688.0,
-              "display": "24688.0",
+              "display": "24,688",
               "sourceValue": 24688
             },
             "metric-1891": {
               "value": 35.623729486760375,
               "sortValue": 35.623729486760375,
-              "display": "35.6237",
+              "display": "35.62",
               "sourceValue": 35.623729486760375
             }
           },
@@ -310818,13 +310842,13 @@
             "metric-1892": {
               "value": 3777.0,
               "sortValue": 3777.0,
-              "display": "3777.0",
+              "display": "3,777",
               "sourceValue": 3777
             },
             "metric-1891": {
               "value": 4.567301026511174,
               "sortValue": 4.567301026511174,
-              "display": "4.5673",
+              "display": "4.57",
               "sourceValue": 4.567301026511174
             }
           },
@@ -310862,13 +310886,13 @@
             "metric-1892": {
               "value": 7169.0,
               "sortValue": 7169.0,
-              "display": "7169.0",
+              "display": "7,169",
               "sourceValue": 7169
             },
             "metric-1891": {
               "value": 3.1052526084337355,
               "sortValue": 3.1052526084337355,
-              "display": "3.1053",
+              "display": "3.11",
               "sourceValue": 3.1052526084337355
             }
           },
@@ -310906,13 +310930,13 @@
             "metric-1892": {
               "value": 6389.0,
               "sortValue": 6389.0,
-              "display": "6389.0",
+              "display": "6,389",
               "sourceValue": 6389
             },
             "metric-1891": {
               "value": 15.033363685196754,
               "sortValue": 15.033363685196754,
-              "display": "15.0334",
+              "display": "15.03",
               "sourceValue": 15.033363685196754
             }
           },
@@ -310950,13 +310974,13 @@
             "metric-1892": {
               "value": 9249.0,
               "sortValue": 9249.0,
-              "display": "9249.0",
+              "display": "9,249",
               "sourceValue": 9249
             },
             "metric-1891": {
               "value": 3.2027027016956713,
               "sortValue": 3.2027027016956713,
-              "display": "3.2027",
+              "display": "3.20",
               "sourceValue": 3.2027027016956713
             }
           },
@@ -310998,13 +311022,13 @@
             "metric-1892": {
               "value": 15161.0,
               "sortValue": 15161.0,
-              "display": "15161.0",
+              "display": "15,161",
               "sourceValue": 15161
             },
             "metric-1891": {
               "value": 8.867518665988179,
               "sortValue": 8.867518665988179,
-              "display": "8.8675",
+              "display": "8.87",
               "sourceValue": 8.867518665988179
             }
           },
@@ -311042,13 +311066,13 @@
             "metric-1892": {
               "value": 7342.0,
               "sortValue": 7342.0,
-              "display": "7342.0",
+              "display": "7,342",
               "sourceValue": 7342
             },
             "metric-1891": {
               "value": 17.445712081861625,
               "sortValue": 17.445712081861625,
-              "display": "17.4457",
+              "display": "17.45",
               "sourceValue": 17.445712081861625
             }
           },
@@ -311086,13 +311110,13 @@
             "metric-1892": {
               "value": 11371.0,
               "sortValue": 11371.0,
-              "display": "11371.0",
+              "display": "11,371",
               "sourceValue": 11371
             },
             "metric-1891": {
               "value": 0.5346768269230768,
               "sortValue": 0.5346768269230768,
-              "display": "0.5347",
+              "display": "0.53",
               "sourceValue": 0.5346768269230768
             }
           },
@@ -311134,13 +311158,13 @@
             "metric-1892": {
               "value": 4587.0,
               "sortValue": 4587.0,
-              "display": "4587.0",
+              "display": "4,587",
               "sourceValue": 4587
             },
             "metric-1891": {
               "value": 0.21067378875387666,
               "sortValue": 0.21067378875387666,
-              "display": "0.2107",
+              "display": "0.21",
               "sourceValue": 0.21067378875387666
             }
           },
@@ -311178,13 +311202,13 @@
             "metric-1892": {
               "value": 11105.0,
               "sortValue": 11105.0,
-              "display": "11105.0",
+              "display": "11,105",
               "sourceValue": 11105
             },
             "metric-1891": {
               "value": 2.691471593282529,
               "sortValue": 2.691471593282529,
-              "display": "2.6915",
+              "display": "2.69",
               "sourceValue": 2.691471593282529
             }
           },
@@ -311222,13 +311246,13 @@
             "metric-1892": {
               "value": 10440.0,
               "sortValue": 10440.0,
-              "display": "10440.0",
+              "display": "10,440",
               "sourceValue": 10440
             },
             "metric-1891": {
               "value": 10.167606369398323,
               "sortValue": 10.167606369398323,
-              "display": "10.1676",
+              "display": "10.17",
               "sourceValue": 10.167606369398323
             }
           },
@@ -311266,13 +311290,13 @@
             "metric-1892": {
               "value": 14975.0,
               "sortValue": 14975.0,
-              "display": "14975.0",
+              "display": "14,975",
               "sourceValue": 14975
             },
             "metric-1891": {
               "value": 2.932732822863832,
               "sortValue": 2.932732822863832,
-              "display": "2.9327",
+              "display": "2.93",
               "sourceValue": 2.932732822863832
             }
           },
@@ -311314,13 +311338,13 @@
             "metric-1892": {
               "value": 5104.0,
               "sortValue": 5104.0,
-              "display": "5104.0",
+              "display": "5,104",
               "sourceValue": 5104
             },
             "metric-1891": {
               "value": 0.2275081718712563,
               "sortValue": 0.2275081718712563,
-              "display": "0.2275",
+              "display": "0.23",
               "sourceValue": 0.2275081718712563
             }
           },
@@ -311358,13 +311382,13 @@
             "metric-1892": {
               "value": 15833.0,
               "sortValue": 15833.0,
-              "display": "15833.0",
+              "display": "15,833",
               "sourceValue": 15833
             },
             "metric-1891": {
               "value": 6.995114545800998,
               "sortValue": 6.995114545800998,
-              "display": "6.9951",
+              "display": "7.00",
               "sourceValue": 6.995114545800998
             }
           },
@@ -311402,13 +311426,13 @@
             "metric-1892": {
               "value": 7153.0,
               "sortValue": 7153.0,
-              "display": "7153.0",
+              "display": "7,153",
               "sourceValue": 7153
             },
             "metric-1891": {
               "value": 17.060172373279624,
               "sortValue": 17.060172373279624,
-              "display": "17.0602",
+              "display": "17.06",
               "sourceValue": 17.060172373279624
             }
           },
@@ -311446,13 +311470,13 @@
             "metric-1892": {
               "value": 10259.0,
               "sortValue": 10259.0,
-              "display": "10259.0",
+              "display": "10,259",
               "sourceValue": 10259
             },
             "metric-1891": {
               "value": 14.859787573673872,
               "sortValue": 14.859787573673872,
-              "display": "14.8598",
+              "display": "14.86",
               "sourceValue": 14.859787573673872
             }
           },
@@ -311490,13 +311514,13 @@
             "metric-1892": {
               "value": 2109.0,
               "sortValue": 2109.0,
-              "display": "2109.0",
+              "display": "2,109",
               "sourceValue": 2109
             },
             "metric-1891": {
               "value": 0.32462485954692555,
               "sortValue": 0.32462485954692555,
-              "display": "0.3246",
+              "display": "0.32",
               "sourceValue": 0.32462485954692555
             }
           },
@@ -311538,13 +311562,13 @@
             "metric-1892": {
               "value": 6106.0,
               "sortValue": 6106.0,
-              "display": "6106.0",
+              "display": "6,106",
               "sourceValue": 6106
             },
             "metric-1891": {
               "value": 14.444170103092786,
               "sortValue": 14.444170103092786,
-              "display": "14.4442",
+              "display": "14.44",
               "sourceValue": 14.444170103092786
             }
           },
@@ -311582,13 +311606,13 @@
             "metric-1892": {
               "value": 7243.0,
               "sortValue": 7243.0,
-              "display": "7243.0",
+              "display": "7,243",
               "sourceValue": 7243
             },
             "metric-1891": {
               "value": 10.336354584949573,
               "sortValue": 10.336354584949573,
-              "display": "10.3364",
+              "display": "10.34",
               "sourceValue": 10.336354584949573
             }
           },
@@ -311746,7 +311770,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Score",
+          "displayScale": 1,
+          "displayDigits": 1
         },
         {
           "id": "metric-38798",
@@ -311756,7 +311784,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": false
+          "rankable": false,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Avg. Tokens/Turn",
+          "displayScale": 1,
+          "displayDigits": 0
         },
         {
           "id": "metric-38799",
@@ -311764,9 +311796,13 @@
             "zh": "每步成本",
             "en": "Cost / turn"
           },
-          "unit": "USD",
+          "unit": "¢",
           "direction": "asc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "CENTS",
+          "sourceTaskName": "Avg. Cost/Turn",
+          "displayScale": 1,
+          "displayDigits": 2
         }
       ],
       "entries": [
@@ -311786,13 +311822,13 @@
             "metric-38798": {
               "value": 8454.0,
               "sortValue": 8454.0,
-              "display": "8454.0",
+              "display": "8,454",
               "sourceValue": 8454
             },
             "metric-38799": {
               "value": 31.346534316575468,
               "sortValue": 31.346534316575468,
-              "display": "31.3465",
+              "display": "31.35",
               "sourceValue": 31.346534316575468
             }
           },
@@ -311830,13 +311866,13 @@
             "metric-38798": {
               "value": 11261.0,
               "sortValue": 11261.0,
-              "display": "11261.0",
+              "display": "11,261",
               "sourceValue": 11261
             },
             "metric-38799": {
               "value": 9.225292439487866,
               "sortValue": 9.225292439487866,
-              "display": "9.2253",
+              "display": "9.23",
               "sourceValue": 9.225292439487866
             }
           },
@@ -311874,13 +311910,13 @@
             "metric-38798": {
               "value": 11395.0,
               "sortValue": 11395.0,
-              "display": "11395.0",
+              "display": "11,395",
               "sourceValue": 11395
             },
             "metric-38799": {
               "value": 43.462933687769315,
               "sortValue": 43.462933687769315,
-              "display": "43.4629",
+              "display": "43.46",
               "sourceValue": 43.462933687769315
             }
           },
@@ -311918,13 +311954,13 @@
             "metric-38798": {
               "value": 16813.0,
               "sortValue": 16813.0,
-              "display": "16813.0",
+              "display": "16,813",
               "sourceValue": 16813
             },
             "metric-38799": {
               "value": 35.33858540741422,
               "sortValue": 35.33858540741422,
-              "display": "35.3386",
+              "display": "35.34",
               "sourceValue": 35.33858540741422
             }
           },
@@ -311962,13 +311998,13 @@
             "metric-38798": {
               "value": 7028.0,
               "sortValue": 7028.0,
-              "display": "7028.0",
+              "display": "7,028",
               "sourceValue": 7028
             },
             "metric-38799": {
               "value": 8.71266870934926,
               "sortValue": 8.71266870934926,
-              "display": "8.7127",
+              "display": "8.71",
               "sourceValue": 8.71266870934926
             }
           },
@@ -312006,13 +312042,13 @@
             "metric-38798": {
               "value": 8781.0,
               "sortValue": 8781.0,
-              "display": "8781.0",
+              "display": "8,781",
               "sourceValue": 8781
             },
             "metric-38799": {
               "value": 6.095323708635595,
               "sortValue": 6.095323708635595,
-              "display": "6.0953",
+              "display": "6.10",
               "sourceValue": 6.095323708635595
             }
           },
@@ -312050,13 +312086,13 @@
             "metric-38798": {
               "value": 7931.0,
               "sortValue": 7931.0,
-              "display": "7931.0",
+              "display": "7,931",
               "sourceValue": 7931
             },
             "metric-38799": {
               "value": 5.75044679933665,
               "sortValue": 5.75044679933665,
-              "display": "5.7504",
+              "display": "5.75",
               "sourceValue": 5.75044679933665
             }
           },
@@ -312094,13 +312130,13 @@
             "metric-38798": {
               "value": 23675.0,
               "sortValue": 23675.0,
-              "display": "23675.0",
+              "display": "23,675",
               "sourceValue": 23675
             },
             "metric-38799": {
               "value": 8.135419738270414,
               "sortValue": 8.135419738270414,
-              "display": "8.1354",
+              "display": "8.14",
               "sourceValue": 8.135419738270414
             }
           },
@@ -312138,13 +312174,13 @@
             "metric-38798": {
               "value": 15896.0,
               "sortValue": 15896.0,
-              "display": "15896.0",
+              "display": "15,896",
               "sourceValue": 15896
             },
             "metric-38799": {
               "value": 16.5684028415046,
               "sortValue": 16.5684028415046,
-              "display": "16.5684",
+              "display": "16.57",
               "sourceValue": 16.5684028415046
             }
           },
@@ -312182,13 +312218,13 @@
             "metric-38798": {
               "value": 27968.0,
               "sortValue": 27968.0,
-              "display": "27968.0",
+              "display": "27,968",
               "sourceValue": 27968
             },
             "metric-38799": {
               "value": 25.33980001247113,
               "sortValue": 25.33980001247113,
-              "display": "25.3398",
+              "display": "25.34",
               "sourceValue": 25.33980001247113
             }
           },
@@ -312226,13 +312262,13 @@
             "metric-38798": {
               "value": 20056.0,
               "sortValue": 20056.0,
-              "display": "20056.0",
+              "display": "20,056",
               "sourceValue": 20056
             },
             "metric-38799": {
               "value": 43.49554428423783,
               "sortValue": 43.49554428423783,
-              "display": "43.4955",
+              "display": "43.50",
               "sourceValue": 43.49554428423783
             }
           },
@@ -312270,13 +312306,13 @@
             "metric-38798": {
               "value": 16802.0,
               "sortValue": 16802.0,
-              "display": "16802.0",
+              "display": "16,802",
               "sourceValue": 16802
             },
             "metric-38799": {
               "value": 0.7034231487792889,
               "sortValue": 0.7034231487792889,
-              "display": "0.7034",
+              "display": "0.70",
               "sourceValue": 0.7034231487792889
             }
           },
@@ -312314,13 +312350,13 @@
             "metric-38798": {
               "value": 25987.0,
               "sortValue": 25987.0,
-              "display": "25987.0",
+              "display": "25,987",
               "sourceValue": 25987
             },
             "metric-38799": {
               "value": 14.522406096679092,
               "sortValue": 14.522406096679092,
-              "display": "14.5224",
+              "display": "14.52",
               "sourceValue": 14.522406096679092
             }
           },
@@ -312358,13 +312394,13 @@
             "metric-38798": {
               "value": 10409.0,
               "sortValue": 10409.0,
-              "display": "10409.0",
+              "display": "10,409",
               "sourceValue": 10409
             },
             "metric-38799": {
               "value": 19.631087050150555,
               "sortValue": 19.631087050150555,
-              "display": "19.6311",
+              "display": "19.63",
               "sourceValue": 19.631087050150555
             }
           },
@@ -312402,13 +312438,13 @@
             "metric-38798": {
               "value": 34183.0,
               "sortValue": 34183.0,
-              "display": "34183.0",
+              "display": "34,183",
               "sourceValue": 34183
             },
             "metric-38799": {
               "value": 18.863004371724404,
               "sortValue": 18.863004371724404,
-              "display": "18.8630",
+              "display": "18.86",
               "sourceValue": 18.863004371724404
             }
           },
@@ -312446,13 +312482,13 @@
             "metric-38798": {
               "value": 11797.0,
               "sortValue": 11797.0,
-              "display": "11797.0",
+              "display": "11,797",
               "sourceValue": 11797
             },
             "metric-38799": {
               "value": 3.685944742887146,
               "sortValue": 3.685944742887146,
-              "display": "3.6859",
+              "display": "3.69",
               "sourceValue": 3.685944742887146
             }
           },
@@ -312494,13 +312530,13 @@
             "metric-38798": {
               "value": 17471.0,
               "sortValue": 17471.0,
-              "display": "17471.0",
+              "display": "17,471",
               "sourceValue": 17471
             },
             "metric-38799": {
               "value": 46.334353411437995,
               "sortValue": 46.334353411437995,
-              "display": "46.3344",
+              "display": "46.33",
               "sourceValue": 46.334353411437995
             }
           },
@@ -312538,13 +312574,13 @@
             "metric-38798": {
               "value": 23668.0,
               "sortValue": 23668.0,
-              "display": "23668.0",
+              "display": "23,668",
               "sourceValue": 23668
             },
             "metric-38799": {
               "value": 13.133219029230977,
               "sortValue": 13.133219029230977,
-              "display": "13.1332",
+              "display": "13.13",
               "sourceValue": 13.133219029230977
             }
           },
@@ -312582,13 +312618,13 @@
             "metric-38798": {
               "value": 8119.0,
               "sortValue": 8119.0,
-              "display": "8119.0",
+              "display": "8,119",
               "sourceValue": 8119
             },
             "metric-38799": {
               "value": 5.965985442991478,
               "sortValue": 5.965985442991478,
-              "display": "5.9660",
+              "display": "5.97",
               "sourceValue": 5.965985442991478
             }
           },
@@ -312626,13 +312662,13 @@
             "metric-38798": {
               "value": 22272.0,
               "sortValue": 22272.0,
-              "display": "22272.0",
+              "display": "22,272",
               "sourceValue": 22272
             },
             "metric-38799": {
               "value": 30.327895016354777,
               "sortValue": 30.327895016354777,
-              "display": "30.3279",
+              "display": "30.33",
               "sourceValue": 30.327895016354777
             }
           },
@@ -312670,13 +312706,13 @@
             "metric-38798": {
               "value": 11700.0,
               "sortValue": 11700.0,
-              "display": "11700.0",
+              "display": "11,700",
               "sourceValue": 11700
             },
             "metric-38799": {
               "value": 8.662394940625141,
               "sortValue": 8.662394940625141,
-              "display": "8.6624",
+              "display": "8.66",
               "sourceValue": 8.662394940625141
             }
           },
@@ -312718,13 +312754,13 @@
             "metric-38798": {
               "value": 11372.0,
               "sortValue": 11372.0,
-              "display": "11372.0",
+              "display": "11,372",
               "sourceValue": 11372
             },
             "metric-38799": {
               "value": 3.531749011943293,
               "sortValue": 3.531749011943293,
-              "display": "3.5317",
+              "display": "3.53",
               "sourceValue": 3.531749011943293
             }
           },
@@ -312762,13 +312798,13 @@
             "metric-38798": {
               "value": 17516.0,
               "sortValue": 17516.0,
-              "display": "17516.0",
+              "display": "17,516",
               "sourceValue": 17516
             },
             "metric-38799": {
               "value": 38.421029287674074,
               "sortValue": 38.421029287674074,
-              "display": "38.4210",
+              "display": "38.42",
               "sourceValue": 38.421029287674074
             }
           },
@@ -312806,13 +312842,13 @@
             "metric-38798": {
               "value": 17619.0,
               "sortValue": 17619.0,
-              "display": "17619.0",
+              "display": "17,619",
               "sourceValue": 17619
             },
             "metric-38799": {
               "value": 21.644881278773084,
               "sortValue": 21.644881278773084,
-              "display": "21.6449",
+              "display": "21.64",
               "sourceValue": 21.644881278773084
             }
           },
@@ -312850,13 +312886,13 @@
             "metric-38798": {
               "value": 22508.0,
               "sortValue": 22508.0,
-              "display": "22508.0",
+              "display": "22,508",
               "sourceValue": 22508
             },
             "metric-38799": {
               "value": 16.54083063471067,
               "sortValue": 16.54083063471067,
-              "display": "16.5408",
+              "display": "16.54",
               "sourceValue": 16.54083063471067
             }
           },
@@ -312898,13 +312934,13 @@
             "metric-38798": {
               "value": 7491.0,
               "sortValue": 7491.0,
-              "display": "7491.0",
+              "display": "7,491",
               "sourceValue": 7491
             },
             "metric-38799": {
               "value": 6.961673700918408,
               "sortValue": 6.961673700918408,
-              "display": "6.9617",
+              "display": "6.96",
               "sourceValue": 6.961673700918408
             }
           },
@@ -312942,13 +312978,13 @@
             "metric-38798": {
               "value": 17730.0,
               "sortValue": 17730.0,
-              "display": "17730.0",
+              "display": "17,730",
               "sourceValue": 17730
             },
             "metric-38799": {
               "value": 37.95323159943621,
               "sortValue": 37.95323159943621,
-              "display": "37.9532",
+              "display": "37.95",
               "sourceValue": 37.95323159943621
             }
           },
@@ -312986,13 +313022,13 @@
             "metric-38798": {
               "value": 21540.0,
               "sortValue": 21540.0,
-              "display": "21540.0",
+              "display": "21,540",
               "sourceValue": 21540
             },
             "metric-38799": {
               "value": 5.844862618348025,
               "sortValue": 5.844862618348025,
-              "display": "5.8449",
+              "display": "5.84",
               "sourceValue": 5.844862618348025
             }
           },
@@ -313030,13 +313066,13 @@
             "metric-38798": {
               "value": 8233.0,
               "sortValue": 8233.0,
-              "display": "8233.0",
+              "display": "8,233",
               "sourceValue": 8233
             },
             "metric-38799": {
               "value": 0.3007427730027129,
               "sortValue": 0.3007427730027129,
-              "display": "0.3007",
+              "display": "0.30",
               "sourceValue": 0.3007427730027129
             }
           },
@@ -313074,13 +313110,13 @@
             "metric-38798": {
               "value": 12578.0,
               "sortValue": 12578.0,
-              "display": "12578.0",
+              "display": "12,578",
               "sourceValue": 12578
             },
             "metric-38799": {
               "value": 2.754813161857429,
               "sortValue": 2.754813161857429,
-              "display": "2.7548",
+              "display": "2.75",
               "sourceValue": 2.754813161857429
             }
           },
@@ -313122,13 +313158,13 @@
             "metric-38798": {
               "value": 11544.0,
               "sortValue": 11544.0,
-              "display": "11544.0",
+              "display": "11,544",
               "sourceValue": 11544
             },
             "metric-38799": {
               "value": 3.137670739777908,
               "sortValue": 3.137670739777908,
-              "display": "3.1377",
+              "display": "3.14",
               "sourceValue": 3.137670739777908
             }
           },
@@ -313166,13 +313202,13 @@
             "metric-38798": {
               "value": 10923.0,
               "sortValue": 10923.0,
-              "display": "10923.0",
+              "display": "10,923",
               "sourceValue": 10923
             },
             "metric-38799": {
               "value": 12.879483078033891,
               "sortValue": 12.879483078033891,
-              "display": "12.8795",
+              "display": "12.88",
               "sourceValue": 12.879483078033891
             }
           },
@@ -313214,13 +313250,13 @@
             "metric-38798": {
               "value": 14016.0,
               "sortValue": 14016.0,
-              "display": "14016.0",
+              "display": "14,016",
               "sourceValue": 14016
             },
             "metric-38799": {
               "value": 17.953585005687106,
               "sortValue": 17.953585005687106,
-              "display": "17.9536",
+              "display": "17.95",
               "sourceValue": 17.953585005687106
             }
           },
@@ -313258,13 +313294,13 @@
             "metric-38798": {
               "value": 9208.0,
               "sortValue": 9208.0,
-              "display": "9208.0",
+              "display": "9,208",
               "sourceValue": 9208
             },
             "metric-38799": {
               "value": 1.9731578584593872,
               "sortValue": 1.9731578584593872,
-              "display": "1.9732",
+              "display": "1.97",
               "sourceValue": 1.9731578584593872
             }
           },
@@ -313302,13 +313338,13 @@
             "metric-38798": {
               "value": 24116.0,
               "sortValue": 24116.0,
-              "display": "24116.0",
+              "display": "24,116",
               "sourceValue": 24116
             },
             "metric-38799": {
               "value": 9.955190763332958,
               "sortValue": 9.955190763332958,
-              "display": "9.9552",
+              "display": "9.96",
               "sourceValue": 9.955190763332958
             }
           },
@@ -313346,13 +313382,13 @@
             "metric-38798": {
               "value": 11560.0,
               "sortValue": 11560.0,
-              "display": "11560.0",
+              "display": "11,560",
               "sourceValue": 11560
             },
             "metric-38799": {
               "value": 1.8909871366311555,
               "sortValue": 1.8909871366311555,
-              "display": "1.8910",
+              "display": "1.89",
               "sourceValue": 1.8909871366311555
             }
           },
@@ -313510,7 +313546,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Mean BB/100",
+          "displayScale": 1,
+          "displayDigits": 1
         },
         {
           "id": "metric-1189",
@@ -313520,7 +313560,11 @@
           },
           "unit": "",
           "direction": "desc",
-          "rankable": false
+          "rankable": false,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Avg. Tokens/Turn",
+          "displayScale": 1,
+          "displayDigits": 0
         },
         {
           "id": "metric-1190",
@@ -313528,9 +313572,13 @@
             "zh": "每步成本",
             "en": "Cost / turn"
           },
-          "unit": "USD",
+          "unit": "¢",
           "direction": "asc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "CENTS",
+          "sourceTaskName": "Avg. Cost/Turn",
+          "displayScale": 1,
+          "displayDigits": 2
         }
       ],
       "entries": [
@@ -313550,13 +313598,13 @@
             "metric-1189": {
               "value": 13756.0,
               "sortValue": 13756.0,
-              "display": "13756.0",
+              "display": "13,756",
               "sourceValue": 13756
             },
             "metric-1190": {
               "value": 11.2661968641174,
               "sortValue": 11.2661968641174,
-              "display": "11.2662",
+              "display": "11.27",
               "sourceValue": 11.2661968641174
             }
           },
@@ -313594,13 +313642,13 @@
             "metric-1189": {
               "value": 15675.0,
               "sortValue": 15675.0,
-              "display": "15675.0",
+              "display": "15,675",
               "sourceValue": 15675
             },
             "metric-1190": {
               "value": 15.023278997446143,
               "sortValue": 15.023278997446143,
-              "display": "15.0233",
+              "display": "15.02",
               "sourceValue": 15.023278997446143
             }
           },
@@ -313638,13 +313686,13 @@
             "metric-1189": {
               "value": 13268.0,
               "sortValue": 13268.0,
-              "display": "13268.0",
+              "display": "13,268",
               "sourceValue": 13268
             },
             "metric-1190": {
               "value": 21.65065102059448,
               "sortValue": 21.65065102059448,
-              "display": "21.6507",
+              "display": "21.65",
               "sourceValue": 21.65065102059448
             }
           },
@@ -313682,13 +313730,13 @@
             "metric-1189": {
               "value": 18823.0,
               "sortValue": 18823.0,
-              "display": "18823.0",
+              "display": "18,823",
               "sourceValue": 18823
             },
             "metric-1190": {
               "value": 26.33238924793217,
               "sortValue": 26.33238924793217,
-              "display": "26.3324",
+              "display": "26.33",
               "sourceValue": 26.33238924793217
             }
           },
@@ -313726,13 +313774,13 @@
             "metric-1189": {
               "value": 15180.0,
               "sortValue": 15180.0,
-              "display": "15180.0",
+              "display": "15,180",
               "sourceValue": 15180
             },
             "metric-1190": {
               "value": 8.115789887142219,
               "sortValue": 8.115789887142219,
-              "display": "8.1158",
+              "display": "8.12",
               "sourceValue": 8.115789887142219
             }
           },
@@ -313774,13 +313822,13 @@
             "metric-1189": {
               "value": 18544.0,
               "sortValue": 18544.0,
-              "display": "18544.0",
+              "display": "18,544",
               "sourceValue": 18544
             },
             "metric-1190": {
               "value": 12.614247612205185,
               "sortValue": 12.614247612205185,
-              "display": "12.6142",
+              "display": "12.61",
               "sourceValue": 12.614247612205185
             }
           },
@@ -313818,13 +313866,13 @@
             "metric-1189": {
               "value": 12673.0,
               "sortValue": 12673.0,
-              "display": "12673.0",
+              "display": "12,673",
               "sourceValue": 12673
             },
             "metric-1190": {
               "value": 4.358374242326461,
               "sortValue": 4.358374242326461,
-              "display": "4.3584",
+              "display": "4.36",
               "sourceValue": 4.358374242326461
             }
           },
@@ -313862,13 +313910,13 @@
             "metric-1189": {
               "value": 13065.0,
               "sortValue": 13065.0,
-              "display": "13065.0",
+              "display": "13,065",
               "sourceValue": 13065
             },
             "metric-1190": {
               "value": 1.3873646276559606,
               "sortValue": 1.3873646276559606,
-              "display": "1.3874",
+              "display": "1.39",
               "sourceValue": 1.3873646276559606
             }
           },
@@ -313910,13 +313958,13 @@
             "metric-1189": {
               "value": 13902.0,
               "sortValue": 13902.0,
-              "display": "13902.0",
+              "display": "13,902",
               "sourceValue": 13902
             },
             "metric-1190": {
               "value": 3.819658452156786,
               "sortValue": 3.819658452156786,
-              "display": "3.8197",
+              "display": "3.82",
               "sourceValue": 3.819658452156786
             }
           },
@@ -313954,13 +314002,13 @@
             "metric-1189": {
               "value": 14308.0,
               "sortValue": 14308.0,
-              "display": "14308.0",
+              "display": "14,308",
               "sourceValue": 14308
             },
             "metric-1190": {
               "value": 2.1891072640908664,
               "sortValue": 2.1891072640908664,
-              "display": "2.1891",
+              "display": "2.19",
               "sourceValue": 2.1891072640908664
             }
           },
@@ -313998,13 +314046,13 @@
             "metric-1189": {
               "value": 15452.0,
               "sortValue": 15452.0,
-              "display": "15452.0",
+              "display": "15,452",
               "sourceValue": 15452
             },
             "metric-1190": {
               "value": 2.3025585973004725,
               "sortValue": 2.3025585973004725,
-              "display": "2.3026",
+              "display": "2.30",
               "sourceValue": 2.3025585973004725
             }
           },
@@ -314042,13 +314090,13 @@
             "metric-1189": {
               "value": 13352.0,
               "sortValue": 13352.0,
-              "display": "13352.0",
+              "display": "13,352",
               "sourceValue": 13352
             },
             "metric-1190": {
               "value": 1.2059249075115117,
               "sortValue": 1.2059249075115117,
-              "display": "1.2059",
+              "display": "1.21",
               "sourceValue": 1.2059249075115117
             }
           },
@@ -314086,13 +314134,13 @@
             "metric-1189": {
               "value": 16013.0,
               "sortValue": 16013.0,
-              "display": "16013.0",
+              "display": "16,013",
               "sourceValue": 16013
             },
             "metric-1190": {
               "value": 7.831281027855286,
               "sortValue": 7.831281027855286,
-              "display": "7.8313",
+              "display": "7.83",
               "sourceValue": 7.831281027855286
             }
           },
@@ -314130,13 +314178,13 @@
             "metric-1189": {
               "value": 14638.0,
               "sortValue": 14638.0,
-              "display": "14638.0",
+              "display": "14,638",
               "sourceValue": 14638
             },
             "metric-1190": {
               "value": 3.613227806251728,
               "sortValue": 3.613227806251728,
-              "display": "3.6132",
+              "display": "3.61",
               "sourceValue": 3.613227806251728
             }
           },
@@ -314178,13 +314226,13 @@
             "metric-1189": {
               "value": 13947.0,
               "sortValue": 13947.0,
-              "display": "13947.0",
+              "display": "13,947",
               "sourceValue": 13947
             },
             "metric-1190": {
               "value": 3.8941343673719797,
               "sortValue": 3.8941343673719797,
-              "display": "3.8941",
+              "display": "3.89",
               "sourceValue": 3.8941343673719797
             }
           },
@@ -314222,13 +314270,13 @@
             "metric-1189": {
               "value": 17502.0,
               "sortValue": 17502.0,
-              "display": "17502.0",
+              "display": "17,502",
               "sourceValue": 17502
             },
             "metric-1190": {
               "value": 3.0633996543805515,
               "sortValue": 3.0633996543805515,
-              "display": "3.0634",
+              "display": "3.06",
               "sourceValue": 3.0633996543805515
             }
           },
@@ -314266,13 +314314,13 @@
             "metric-1189": {
               "value": 16176.0,
               "sortValue": 16176.0,
-              "display": "16176.0",
+              "display": "16,176",
               "sourceValue": 16176
             },
             "metric-1190": {
               "value": 8.727192064860075,
               "sortValue": 8.727192064860075,
-              "display": "8.7272",
+              "display": "8.73",
               "sourceValue": 8.727192064860075
             }
           },
@@ -314314,13 +314362,13 @@
             "metric-1189": {
               "value": 12525.0,
               "sortValue": 12525.0,
-              "display": "12525.0",
+              "display": "12,525",
               "sourceValue": 12525
             },
             "metric-1190": {
               "value": 3.1103596738612143,
               "sortValue": 3.1103596738612143,
-              "display": "3.1104",
+              "display": "3.11",
               "sourceValue": 3.1103596738612143
             }
           },
@@ -314358,13 +314406,13 @@
             "metric-1189": {
               "value": 14766.0,
               "sortValue": 14766.0,
-              "display": "14766.0",
+              "display": "14,766",
               "sourceValue": 14766
             },
             "metric-1190": {
               "value": 10.69972408548849,
               "sortValue": 10.69972408548849,
-              "display": "10.6997",
+              "display": "10.70",
               "sourceValue": 10.69972408548849
             }
           },
@@ -314402,13 +314450,13 @@
             "metric-1189": {
               "value": 14149.0,
               "sortValue": 14149.0,
-              "display": "14149.0",
+              "display": "14,149",
               "sourceValue": 14149
             },
             "metric-1190": {
               "value": 1.2505852977199512,
               "sortValue": 1.2505852977199512,
-              "display": "1.2506",
+              "display": "1.25",
               "sourceValue": 1.2505852977199512
             }
           },
@@ -314446,13 +314494,13 @@
             "metric-1189": {
               "value": 18415.0,
               "sortValue": 18415.0,
-              "display": "18415.0",
+              "display": "18,415",
               "sourceValue": 18415
             },
             "metric-1190": {
               "value": 12.125213159188874,
               "sortValue": 12.125213159188874,
-              "display": "12.1252",
+              "display": "12.13",
               "sourceValue": 12.125213159188874
             }
           },
@@ -314490,13 +314538,13 @@
             "metric-1189": {
               "value": 17317.0,
               "sortValue": 17317.0,
-              "display": "17317.0",
+              "display": "17,317",
               "sourceValue": 17317
             },
             "metric-1190": {
               "value": 9.833285536320648,
               "sortValue": 9.833285536320648,
-              "display": "9.8333",
+              "display": "9.83",
               "sourceValue": 9.833285536320648
             }
           },
@@ -314534,13 +314582,13 @@
             "metric-1189": {
               "value": 20426.0,
               "sortValue": 20426.0,
-              "display": "20426.0",
+              "display": "20,426",
               "sourceValue": 20426
             },
             "metric-1190": {
               "value": 7.328010732371605,
               "sortValue": 7.328010732371605,
-              "display": "7.3280",
+              "display": "7.33",
               "sourceValue": 7.328010732371605
             }
           },
@@ -314578,13 +314626,13 @@
             "metric-1189": {
               "value": 12546.0,
               "sortValue": 12546.0,
-              "display": "12546.0",
+              "display": "12,546",
               "sourceValue": 12546
             },
             "metric-1190": {
               "value": 4.4470652425115285,
               "sortValue": 4.4470652425115285,
-              "display": "4.4471",
+              "display": "4.45",
               "sourceValue": 4.4470652425115285
             }
           },
@@ -314622,13 +314670,13 @@
             "metric-1189": {
               "value": 12387.0,
               "sortValue": 12387.0,
-              "display": "12387.0",
+              "display": "12,387",
               "sourceValue": 12387
             },
             "metric-1190": {
               "value": 1.4281831660885547,
               "sortValue": 1.4281831660885547,
-              "display": "1.4282",
+              "display": "1.43",
               "sourceValue": 1.4281831660885547
             }
           },
@@ -314666,13 +314714,13 @@
             "metric-1189": {
               "value": 11505.0,
               "sortValue": 11505.0,
-              "display": "11505.0",
+              "display": "11,505",
               "sourceValue": 11505
             },
             "metric-1190": {
               "value": 0.40116662271360337,
               "sortValue": 0.40116662271360337,
-              "display": "0.4012",
+              "display": "0.40",
               "sourceValue": 0.40116662271360337
             }
           },
@@ -314714,13 +314762,13 @@
             "metric-1189": {
               "value": 14299.0,
               "sortValue": 14299.0,
-              "display": "14299.0",
+              "display": "14,299",
               "sourceValue": 14299
             },
             "metric-1190": {
               "value": 0.32594837340019794,
               "sortValue": 0.32594837340019794,
-              "display": "0.3259",
+              "display": "0.33",
               "sourceValue": 0.32594837340019794
             }
           },
@@ -314762,13 +314810,13 @@
             "metric-1189": {
               "value": 15705.0,
               "sortValue": 15705.0,
-              "display": "15705.0",
+              "display": "15,705",
               "sourceValue": 15705
             },
             "metric-1190": {
               "value": 8.088403779269765,
               "sortValue": 8.088403779269765,
-              "display": "8.0884",
+              "display": "8.09",
               "sourceValue": 8.088403779269765
             }
           },
@@ -314806,13 +314854,13 @@
             "metric-1189": {
               "value": 12912.0,
               "sortValue": 12912.0,
-              "display": "12912.0",
+              "display": "12,912",
               "sourceValue": 12912
             },
             "metric-1190": {
               "value": 1.6100127989010549,
               "sortValue": 1.6100127989010549,
-              "display": "1.6100",
+              "display": "1.61",
               "sourceValue": 1.6100127989010549
             }
           },
@@ -314854,13 +314902,13 @@
             "metric-1189": {
               "value": 13347.0,
               "sortValue": 13347.0,
-              "display": "13347.0",
+              "display": "13,347",
               "sourceValue": 13347
             },
             "metric-1190": {
               "value": 2.9378977513743574,
               "sortValue": 2.9378977513743574,
-              "display": "2.9379",
+              "display": "2.94",
               "sourceValue": 2.9378977513743574
             }
           },
@@ -314902,13 +314950,13 @@
             "metric-1189": {
               "value": 18328.0,
               "sortValue": 18328.0,
-              "display": "18328.0",
+              "display": "18,328",
               "sourceValue": 18328
             },
             "metric-1190": {
               "value": 1.5826029244051427,
               "sortValue": 1.5826029244051427,
-              "display": "1.5826",
+              "display": "1.58",
               "sourceValue": 1.5826029244051427
             }
           },
@@ -315021,8 +315069,8 @@
           "en": "Polarix equilibrium rating, representing asymmetric roles and non-transitive performance; not an Elo score."
         },
         "variation": {
-          "zh": "保留来源的版本、赛道与模型配置。",
-          "en": "Retain the source version, track and model configuration."
+          "zh": "评级与区间按原榜换算为百分比，费用保留美分。原榜列名为每步 tokens / 费用，导出任务名含 per game；本站沿用展示列名并保留原始字段。",
+          "en": "Ratings and intervals use the source percentage display; costs remain in cents. The visible columns say per turn while export task names say per game; Atlas retains the display labels and original fields."
         },
         "verification": {
           "zh": "Kaggle 公开成绩接口的完整模型表，包含已停用模型版本；保留原榜名次和置信区间。",
@@ -315064,29 +315112,41 @@
             "zh": "均衡评级",
             "en": "Equilibrium rating"
           },
-          "unit": "",
+          "unit": "%",
           "direction": "desc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "PERCENTAGES",
+          "sourceTaskName": "Equilibrium Rating",
+          "displayScale": 100,
+          "displayDigits": 2
         },
         {
           "id": "metric-14049",
           "label": {
-            "zh": "每局输出 tokens",
-            "en": "Output tokens / game"
+            "zh": "每步 tokens",
+            "en": "Tokens / turn"
           },
           "unit": "",
           "direction": "desc",
-          "rankable": false
+          "rankable": false,
+          "sourceDisplayType": "COUNTS",
+          "sourceTaskName": "Average Output Tokens per Game",
+          "displayScale": 1,
+          "displayDigits": 0
         },
         {
           "id": "metric-2689",
           "label": {
-            "zh": "每局推理成本",
-            "en": "Inference cost / game"
+            "zh": "每步成本",
+            "en": "Cost / turn"
           },
-          "unit": "USD",
+          "unit": "¢",
           "direction": "asc",
-          "rankable": true
+          "rankable": true,
+          "sourceDisplayType": "CENTS",
+          "sourceTaskName": "Average Inference Cost per Game",
+          "displayScale": 1,
+          "displayDigits": 2
         }
       ],
       "entries": [
@@ -315097,22 +315157,22 @@
           "officialRank": 1,
           "scores": {
             "overall": {
-              "value": 0.0007799265441,
-              "sortValue": 0.0007799265441,
-              "display": "0.0",
+              "value": 0.07799265441,
+              "sortValue": 0.07799265441,
+              "display": "0.08",
               "sourceValue": 0.0007799265441,
-              "interval": "±0.0006605549715"
+              "interval": "±0.07"
             },
             "metric-14049": {
               "value": 6599.0,
               "sortValue": 6599.0,
-              "display": "6599.0",
+              "display": "6,599",
               "sourceValue": 6599
             },
             "metric-2689": {
               "value": 4.3771903192842805,
               "sortValue": 4.3771903192842805,
-              "display": "4.3772",
+              "display": "4.38",
               "sourceValue": 4.3771903192842805
             }
           },
@@ -315141,22 +315201,22 @@
           "officialRank": 2,
           "scores": {
             "overall": {
-              "value": -0.003776320489,
-              "sortValue": -0.003776320489,
-              "display": "-0.0",
+              "value": -0.3776320489,
+              "sortValue": -0.3776320489,
+              "display": "-0.38",
               "sourceValue": -0.003776320489,
-              "interval": "±0.003134602914"
+              "interval": "±0.31"
             },
             "metric-14049": {
               "value": 5866.0,
               "sortValue": 5866.0,
-              "display": "5866.0",
+              "display": "5,866",
               "sourceValue": 5866
             },
             "metric-2689": {
               "value": 2.5859891825093073,
               "sortValue": 2.5859891825093073,
-              "display": "2.5860",
+              "display": "2.59",
               "sourceValue": 2.5859891825093073
             }
           },
@@ -315185,22 +315245,22 @@
           "officialRank": 3,
           "scores": {
             "overall": {
-              "value": -0.01147399656,
-              "sortValue": -0.01147399656,
-              "display": "-0.0",
+              "value": -1.147399656,
+              "sortValue": -1.147399656,
+              "display": "-1.15",
               "sourceValue": -0.01147399656,
-              "interval": "±0.004264757503"
+              "interval": "±0.43"
             },
             "metric-14049": {
               "value": 5827.0,
               "sortValue": 5827.0,
-              "display": "5827.0",
+              "display": "5,827",
               "sourceValue": 5827
             },
             "metric-2689": {
               "value": 0.6662082240465022,
               "sortValue": 0.6662082240465022,
-              "display": "0.6662",
+              "display": "0.67",
               "sourceValue": 0.6662082240465022
             }
           },
@@ -315229,22 +315289,22 @@
           "officialRank": 4,
           "scores": {
             "overall": {
-              "value": -0.01246015076,
-              "sortValue": -0.01246015076,
-              "display": "-0.0",
+              "value": -1.246015076,
+              "sortValue": -1.246015076,
+              "display": "-1.25",
               "sourceValue": -0.01246015076,
-              "interval": "±0.005934268236"
+              "interval": "±0.59"
             },
             "metric-14049": {
               "value": 6416.0,
               "sortValue": 6416.0,
-              "display": "6416.0",
+              "display": "6,416",
               "sourceValue": 6416
             },
             "metric-2689": {
               "value": 4.216943999136869,
               "sortValue": 4.216943999136869,
-              "display": "4.2169",
+              "display": "4.22",
               "sourceValue": 4.216943999136869
             }
           },
@@ -315273,22 +315333,22 @@
           "officialRank": 5,
           "scores": {
             "overall": {
-              "value": -0.0214818269,
-              "sortValue": -0.0214818269,
-              "display": "-0.0",
+              "value": -2.14818269,
+              "sortValue": -2.14818269,
+              "display": "-2.15",
               "sourceValue": -0.0214818269,
-              "interval": "±0.005888930522"
+              "interval": "±0.59"
             },
             "metric-14049": {
               "value": 6054.0,
               "sortValue": 6054.0,
-              "display": "6054.0",
+              "display": "6,054",
               "sourceValue": 6054
             },
             "metric-2689": {
               "value": 2.371931864833006,
               "sortValue": 2.371931864833006,
-              "display": "2.3719",
+              "display": "2.37",
               "sourceValue": 2.371931864833006
             }
           },
@@ -315317,22 +315377,22 @@
           "officialRank": 6,
           "scores": {
             "overall": {
-              "value": -0.05553551763,
-              "sortValue": -0.05553551763,
-              "display": "-0.1",
+              "value": -5.553551763000001,
+              "sortValue": -5.553551763000001,
+              "display": "-5.55",
               "sourceValue": -0.05553551763,
-              "interval": "±0.006342930254"
+              "interval": "±0.63"
             },
             "metric-14049": {
               "value": 6110.0,
               "sortValue": 6110.0,
-              "display": "6110.0",
+              "display": "6,110",
               "sourceValue": 6110
             },
             "metric-2689": {
               "value": 1.3012664155131266,
               "sortValue": 1.3012664155131266,
-              "display": "1.3013",
+              "display": "1.30",
               "sourceValue": 1.3012664155131266
             }
           },
@@ -315361,22 +315421,22 @@
           "officialRank": 7,
           "scores": {
             "overall": {
-              "value": -0.06082448363,
-              "sortValue": -0.06082448363,
-              "display": "-0.1",
+              "value": -6.082448363,
+              "sortValue": -6.082448363,
+              "display": "-6.08",
               "sourceValue": -0.06082448363,
-              "interval": "±0.006450071"
+              "interval": "±0.65"
             },
             "metric-14049": {
               "value": 4939.0,
               "sortValue": 4939.0,
-              "display": "4939.0",
+              "display": "4,939",
               "sourceValue": 4939
             },
             "metric-2689": {
               "value": 0.12249096080968416,
               "sortValue": 0.12249096080968416,
-              "display": "0.1225",
+              "display": "0.12",
               "sourceValue": 0.12249096080968416
             }
           },
@@ -315409,22 +315469,22 @@
           "officialRank": 8,
           "scores": {
             "overall": {
-              "value": -0.06401050091,
-              "sortValue": -0.06401050091,
-              "display": "-0.1",
+              "value": -6.401050091,
+              "sortValue": -6.401050091,
+              "display": "-6.40",
               "sourceValue": -0.06401050091,
-              "interval": "±0.006788357627"
+              "interval": "±0.68"
             },
             "metric-14049": {
               "value": 5678.0,
               "sortValue": 5678.0,
-              "display": "5678.0",
+              "display": "5,678",
               "sourceValue": 5678
             },
             "metric-2689": {
               "value": 2.805945006323362,
               "sortValue": 2.805945006323362,
-              "display": "2.8059",
+              "display": "2.81",
               "sourceValue": 2.805945006323362
             }
           },

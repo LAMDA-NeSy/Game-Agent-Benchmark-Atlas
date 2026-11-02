@@ -20,7 +20,6 @@ def score(v, digits=2, unit='', source=None):
     if v is None or v == '': return None
     n = float(v)
     return dict(value=n, sortValue=n, display=(f'{n:,.0f}' if digits==0 else f'{n:.{digits}f}')+unit, sourceValue=v if source is None else source)
-def tr_name(label): return label['en']
 def context(zh,en,value): return dict(label=bi(zh,en),value=value)
 def set_score(e, k, v, **kw):
     s=score(v,**kw)
@@ -144,14 +143,17 @@ def integrate(boards, metadata, sources):
           'werewolf':('Polarix equilibrium rating，保留角色非对称与非传递对战关系；不解释为 Elo。','Polarix equilibrium rating, representing asymmetric roles and non-transitive performance; not an Elo score.')
         }[slug])
         if slug=='chess-text':b['protocol']['control']=bi('FEN 棋盘与 PGN 历史，不提供合法着法列表；输出 SAN 着法。','FEN board and PGN history, without a legal-move list; outputs SAN moves.')
+        if slug=='werewolf':b['protocol']['variation']=bi('评级与区间按原榜换算为百分比，费用保留美分。原榜列名为每步 tokens / 费用，导出任务名含 per game；本站沿用展示列名并保留原始字段。','Ratings and intervals use the source percentage display; costs remain in cents. The visible columns say per turn while export task names say per game; Atlas retains the display labels and original fields.')
         if slug=='werewolf':b['protocol']['budget']=bi('8 人：2 狼人、1 预言家、1 医生、4 村民；最多 3 次输出重试。','Eight players: two werewolves, one seer, one doctor, four villagers; up to three output retries.')
         headers=raw['taskVersionHeaders'];primary=meta['version']['taskVersion']['id'];mapping={}
         labels={'Score':('评分','Score'),'Matches Played':('对局数','Matches played'),'Games Covered':('参与游戏数','Games covered'),'Avg. Tokens/Turn':('每步 tokens','Tokens / turn'),'Avg. Cost/Turn':('每步成本','Cost / turn'),'Mean BB/100':('Mean BB/100','Mean BB/100'),'Equilibrium Rating':('均衡评级','Equilibrium rating'),'Average Output Tokens per Game':('每局输出 tokens','Output tokens / game'),'Average Inference Cost per Game':('每局推理成本','Inference cost / game')}
         b['columns']=[]
         for h in headers:
-            task=h['taskVersion'];name=task['name'];k='overall' if task['id']==primary else 'metric-'+str(task['id']);mapping[task['id']]=k
+            task=h['taskVersion'];display=h.get('taskVersionMapping',{});name=display.get('columnName') or task['name'];dtype=display.get('displayType') or task.get('displayType');k='overall' if task['id']==primary else 'metric-'+str(task['id']);mapping[task['id']]=k
             iscost='Cost' in name;iscount='Tokens' in name or name in ['Matches Played','Games Covered'];label=labels.get(name,(name,name))
-            b['columns'].append(col(k,*label,unit='USD' if iscost else '',direction='asc' if iscost else 'desc',rankable=not iscount))
+            c=col(k,*label,unit='¢' if dtype=='CENTS' else '%' if dtype=='PERCENTAGES' else '',direction='asc' if iscost else 'desc',rankable=not iscount)
+            c.update(sourceDisplayType=dtype,sourceTaskName=task['name'],displayScale=100 if dtype=='PERCENTAGES' else 1,displayDigits=2 if dtype in ['CENTS','PERCENTAGES'] else 0 if iscount else 1)
+            b['columns'].append(c)
         b['columns'].sort(key=lambda c:c['id']!='overall');b['tableMetrics']=[c['id'] for c in b['columns'][1:]]
         lookup={};dates=[]
         for r in raw['entries']:
@@ -167,10 +169,10 @@ def integrate(boards, metadata, sources):
                 n=lookup.get((m['id'],task))
                 if n is None:continue
                 # Protobuf JSON omits a numeric zero; a present numericResult is an observation.
-                v=n.get('value',0);c=next(c for c in b['columns'] if c['id']==k);set_score(e,k,v,digits=4 if c['unit']=='USD' else 0 if tr_name(c['label']) in ['Matches played','Games covered'] else 1)
+                v=n.get('value',0);c=next(c for c in b['columns'] if c['id']==k);scale=c['displayScale'];digits=c['displayDigits'];set_score(e,k,v*scale,digits=digits,source=v)
                 ci=n.get('unevenConfidenceInterval')
-                if ci:e['scores'][k]['interval']=f"−{ci.get('minus',0):.1f} / +{ci.get('plus',0):.1f}"
-                if n.get('confidenceInterval') is not None:e['scores'][k]['interval']='±'+str(n['confidenceInterval'])
+                if ci:e['scores'][k]['interval']=f"−{ci.get('minus',0)*scale:.{digits}f} / +{ci.get('plus',0)*scale:.{digits}f}"
+                if n.get('confidenceInterval') is not None:e['scores'][k]['interval']=f"±{n['confidenceInterval']*scale:.{digits}f}"
             b['entries'].append(e)
 
     b=byid['arc-agi3-2026'];raw=read('arc-public.json.gz');teams={t['teamId']:t for t in raw['teams']};snapshot(b,'arc-public.json.gz')
@@ -189,5 +191,6 @@ def integrate(boards, metadata, sources):
 
     for b in boards:
         if b['id']=='tales':
+            b['researchUse']=bi('比较语言模型在五类文字交互环境中的规划、探索与科学实验推理。','Compare planning, exploration and scientific reasoning across five text-interaction frameworks.')
             b['protocolKey']=bi('文字观察与动作 · 5 个框架 · 含 ScienceWorld','Text observations and actions · 5 frameworks · Includes ScienceWorld')
             for e in b['entries']:e['agentLabel'],e['configuration']=e['agent'].rsplit(' · ',1)
