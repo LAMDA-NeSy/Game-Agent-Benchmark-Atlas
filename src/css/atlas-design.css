@@ -626,3 +626,25 @@ body[data-view=arena] .shared-filter-tag .lb-type-filters button { display:flex;
 body[data-view=arena] .shared-filter-tag .lb-type-filters b { font-size:11px; font-weight:400; color:var(--atlas-muted); }
 body[data-view=arena] .lb-controls { align-items:flex-start; }
 body[data-view=arena] .lb-controls>.shared-filter-tag { min-width:220px; }
+
+/* Horizontal filters overlay the results instead of moving them down. */
+.shared-filter-tag { overflow:visible; position:relative; }
+.shared-filter-tag .filter-tag-body { position:absolute; top:calc(100% + 6px); left:0; z-index:120; width:310px; max-height:360px; overflow:auto; background:#fff; border:1px solid #b9cedb; border-radius:8px; box-shadow:0 8px 28px #203c521c; padding:12px; }
+.shared-filter-tag:not([open])>.filter-tag-body { display:none; }
+.filter-choice-group { min-width:0; margin:0; padding:0; border:0; }
+.filter-choice-group+ .filter-choice-group { margin-top:12px; border-top:1px solid #e4ebf0; padding-top:10px; }
+.filter-choice-group>legend { font-size:11px; color:#647c8c; padding-bottom:5px; }
+.filter-choice-group:only-child>legend { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+.shared-filter-tag .filter-choice,.shared-filter-tag .filter-option { display:flex; align-items:center; gap:9px; min-height:32px; padding:6px 4px!important; margin:0!important; }
+.shared-filter-tag input[type=radio],.shared-filter-tag input[type=checkbox] { flex:0 0 auto; accent-color:#315f73; }
+.shared-filter-tag .filter-choice:has(input:checked) { background:#edf5f9; border-radius:4px; }
+.shared-filter-tag .filter-choice:has(input:disabled) { opacity:.45; }
+.shared-filter-tag .filter-choice:hover { background:#f3f7fa; }
+body[data-view=games] .shared-filter-tag .game-usage-filters button,body[data-view=arena] .shared-filter-tag .lb-type-filters button { min-height:32px; padding:7px 8px!important; }
+.game-active-filters,.lb-active-filters { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0; }
+.game-active-filters .active-filter,.lb-active-filters .active-filter { border:1px solid #cbdce6; border-radius:5px; padding:5px 9px; background:#edf5f9; color:#315f73; font-size:12px; line-height:1.4; }
+.lb-matching-sources { display:flex; flex-wrap:wrap; gap:8px; margin-top:20px; }
+.lb-matching-sources button { border:1px solid #cbdce6; border-radius:5px; padding:9px 12px; }
+.scope-total { font-size:12px; color:#647c8c; }
+
+.filter-choice-group>select[hidden] { display:none!important; }

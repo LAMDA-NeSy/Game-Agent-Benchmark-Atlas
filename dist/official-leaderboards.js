@@ -55,15 +55,22 @@
   const activeGroup=groups.find(([key])=>key===navGroup);
   const types=`<div class="lb-type-filters" role="group" aria-label="${t('榜单类型','Board type')}">${[['all',['全部','All']],...Object.entries(kinds)].map(([key,label])=>`<button data-board-type="${key}" aria-pressed="${navStatus===key}"><span>${t(...label)}</span><b>${sourceCount(key)}</b></button>`).join('')}</div>`;
   const directions=`<label><span class="sr-only">${t('研究方向','Research direction')}</span><select id="leaderboard-group"><option value="all">${t('全部研究方向','All research directions')} · ${sourceCount(navStatus,'all')}</option>${groups.map(([key,zh,en])=>`<option value="${key}" ${navGroup===key?'selected':''}>${t(zh,en)} · ${sourceCount(navStatus,key)}</option>`).join('')}</select></label>`;
-  return `<div class="lb-toolbar shared-filter-row" data-no-i18n>${window.AtlasFilterTags.tag('lb-type',t('榜单类型','Board type'),navStatus==='all'?[]:[t(...kinds[navStatus])],types)}${window.AtlasFilterTags.tag('lb-direction',t('研究方向','Research direction'),activeGroup?[t(activeGroup[1],activeGroup[2])]:[],directions)}<span class="lb-source-count" role="status" aria-live="polite">${t('显示','Showing')} ${navSources().length} / ${data.sources.length} ${t('个来源','sources')}</span>${navGroup!=='all'||navStatus!=='all'?`<button class="lb-filter-reset" data-reset-filters>${t('清除筛选','Clear filters')}</button>`:''}</div>`;
+  return `<div class="lb-toolbar shared-filter-row" data-no-i18n>${window.AtlasFilterTags.tag('lb-type',t('榜单类型','Board type'),navStatus==='all'?[]:[t(...kinds[navStatus])],types)}${window.AtlasFilterTags.tag('lb-direction',t('研究方向','Research direction'),activeGroup?[t(activeGroup[1],activeGroup[2])]:[],directions)}<span class="lb-source-count" title="${t('按来源去重；同一来源可含多种类型的赛道','Unique sources; a source may include tracks of multiple types')}" role="status" aria-live="polite">${t('显示','Showing')} ${navSources().length} / ${data.sources.length} ${t('个来源','sources')}</span>${navGroup!=='all'||navStatus!=='all'||query?`<button class="lb-filter-reset" data-reset-filters>${t('清除筛选','Clear filters')}</button>`:''}</div>${filterChips()}`;
+ }
+ function filterChips(){
+  const items=[];
+  if(navStatus!=='all')items.push(['type',t(...kinds[navStatus])]);
+  const direction=groups.find(([key])=>key===navGroup);if(direction)items.push(['direction',t(direction[1],direction[2])]);
+  if(query)items.push(['query',query]);
+  return items.length?`<div class="active-filters lb-active-filters" data-no-i18n>${items.map(([key,label])=>`<button class="active-filter" data-lb-remove="${key}">${esc(label)} ×</button>`).join('')}</div>`:'';
  }
  function navigation(){
   const src=sourceFor(boardId),visible=selectionVisible();
-  return `<aside class="lb-nav"><h3>${t('榜单来源','Leaderboard sources')}</h3><nav class="lb-nav-list" aria-label="${t('选择榜单来源','Select leaderboard source')}">${navSources().map(x=>{const selected=visible&&x.id===src.id,target=selected?board():matchingBoards(x)[0];return `<button data-source="${x.id}" data-leaderboard="${target.id}" aria-pressed="${selected}" title="${esc(x.title)}"><span>${esc(x.title)}</span></button>`;}).join('')}${navSources().length?'':`<p class="lb-nav-empty">${t('没有匹配来源。','No matching sources.')}</p>`}</nav></aside>`;
+  return `<aside class="lb-nav"><h3>${t('榜单来源','Leaderboard sources')}</h3><nav class="lb-nav-list" aria-label="${t('选择榜单来源','Select leaderboard source')}">${navSources().map(x=>{const selected=visible&&x.id===src.id,target=selected?board():matchingBoards(x)[0];return `<button data-source="${x.id}" data-leaderboard="${target.id}" aria-pressed="${selected}" title="${esc(x.title)}"><span>${esc(x.title)}</span></button>`;}).join('')}</nav></aside>`;
  }
  function selectionPrompt(){
   const any=navSources().length>0;
-  return `<div class="lb-selection-prompt" role="status"><h2>${any?t('请选择符合条件的榜单','Select a matching leaderboard'):t('没有符合条件的来源','No sources match these filters')}</h2><p>${any?t('当前所选的','Your selected leaderboard, '):''}${any?` <strong>${esc(tr(board().title))}</strong> `:''}${any?t('不在筛选结果中。请从左侧选择，或清除筛选返回。','is outside these filters. Select a source on the left, or clear the filters to return.'):t('请调整榜单类型或研究方向。','Adjust the board type or research direction.')}</p><button data-reset-filters>${t('清除筛选','Clear filters')}</button></div>`;
+  return `<div class="lb-selection-prompt" role="status"><h2>${any?t('请选择符合条件的榜单','Select a matching leaderboard'):t('没有符合条件的来源','No sources match these filters')}</h2><p>${any?t('当前所选的','Your selected leaderboard, '):''}${any?` <strong>${esc(tr(board().title))}</strong> `:''}${any?t('不在筛选结果中。请选择以下来源。','is outside these filters. Choose a source below.'):t('请调整榜单类型或研究方向。','Adjust the board type or research direction.')}</p>${any?`<div class="lb-matching-sources">${navSources().map(x=>`<button data-leaderboard="${matchingBoards(x)[0].id}">${esc(x.title)} →</button>`).join('')}</div>`:''}</div>`;
  }
  const extraColumns=(b,c)=>b.columns.filter(x=>x.id!==c.id&&(b.tableMetrics||[b.summaryMetric]).includes(x.id));
  const hasConfig=b=>b.entries.some(e=>e.configuration);
@@ -106,13 +113,14 @@ ${protocol(b)}</div></section>`;
   const redraw=()=>refresh();
   root.addEventListener('click',e=>{
    const b=e.target.closest('button');if(!b)return;let focus=null;
+   if(b.dataset.lbRemove){if(b.dataset.lbRemove==='type')navStatus='all';if(b.dataset.lbRemove==='direction')navGroup='all';if(b.dataset.lbRemove==='query'){query='';pageNumber=1;}save();redraw();root.querySelector('#filter-tag-lb-type')?.focus({preventScroll:true});return;}
    if('protocolToggle'in b.dataset){const panel=root.querySelector('#leaderboard-protocol');panel.open=true;panel.scrollIntoView({block:'start',behavior:'smooth'});return;}
    else if(b.dataset.resultPage){pageNumber=Math.max(1,Number(b.dataset.resultPage));expanded=null;save();redraw();root.querySelector('.lb-controls')?.scrollIntoView({block:'start'});root.querySelector('.lb-pagination button:not(:disabled)')?.focus({preventScroll:true});return;}
    else if(b.dataset.leaderboard){selectBoard(b.dataset.leaderboard);focus=`[data-leaderboard="${boardId}"]`;}
    else if(b.dataset.boardType){navStatus=b.dataset.boardType;focus=`[data-board-type="${navStatus}"]`;}
    else if('clearGroup'in b.dataset){navGroup='all';focus='#filter-tag-lb-direction';}
    else if(b.dataset.gameMetric){metricId=b.dataset.gameMetric;query='';expanded=null;}
-   else if('resetFilters'in b.dataset){navGroup='all';navStatus='all';focus='#filter-tag-lb-type';}
+   else if('resetFilters'in b.dataset){navGroup='all';navStatus='all';query='';pageNumber=1;focus='#filter-tag-lb-type';}
    else if(b.dataset.scoreDetail){expanded=expanded===b.dataset.scoreDetail?null:b.dataset.scoreDetail;focus=`[data-score-detail="${b.dataset.scoreDetail}"]`;}
    else if('leaderboardClear'in b.dataset){query='';pageNumber=1;focus='#leaderboard-search';}else return;
    save();redraw();if(focus)root.querySelector(focus)?.focus({preventScroll:true});
