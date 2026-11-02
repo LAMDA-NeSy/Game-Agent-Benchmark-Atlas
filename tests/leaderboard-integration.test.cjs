@@ -3,7 +3,7 @@ const data=require('../dist/official-leaderboards.json'),{rank}=require('../src/
 const dir='data/sources/official-leaderboards/2026-11-02-integration/';
 const raw=name=>JSON.parse(name.endsWith('.gz')?zlib.gunzipSync(fs.readFileSync(dir+name)):fs.readFileSync(dir+name,'utf8'));
 const board=id=>data.boards.find(b=>b.id===id);
-function render(search,lang='zh'){const ctx={window:{AtlasOfficialLeaderboardsData:data,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search},URLSearchParams};vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();}
+function render(search,lang='zh'){const ctx={window:{AtlasOfficialLeaderboardsData:data,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search},URLSearchParams};vm.runInNewContext(fs.readFileSync('src/js/features/filter-tags.js','utf8'),ctx);vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();}
 test('DuelLab CSV matches its release and preserves ranked versus provisional populations',()=>{
  const csv=zlib.gunzipSync(fs.readFileSync(dir+'duellab.csv.gz')),manifest=raw('duellab-release.json');assert.equal(crypto.createHash('sha256').update(csv).digest('hex'),manifest.artifact_sha256['benchmark/leaderboard.csv']);
  const bs=data.sources.find(s=>s.id==='duellab').boardIds.map(board);assert.deepEqual(bs.map(b=>b.entries.length),[97,262,94,88,71]);assert.equal(bs.flatMap(b=>b.entries).filter(e=>!e.reference).length,513);

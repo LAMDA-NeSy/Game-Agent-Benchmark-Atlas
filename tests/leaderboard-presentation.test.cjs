@@ -3,7 +3,7 @@ const data=require('../dist/official-leaderboards.json'),metadata={...require('.
 const {rank}=require('../src/js/models/official-leaderboard-model.js');
 function render(id,lang='zh',input=data){
  const ctx={window:{AtlasOfficialLeaderboardsData:input,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search:'?arenaBoard='+id},URLSearchParams};
- vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();
+ vm.runInNewContext(fs.readFileSync('src/js/features/filter-tags.js','utf8'),ctx);vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();
 }
 function date(html){return html.match(/<div class="lb-result-date">([\s\S]*?)<\/div>/)[1];}
 test('every track has a sourced classification independent of its score snapshot',()=>{

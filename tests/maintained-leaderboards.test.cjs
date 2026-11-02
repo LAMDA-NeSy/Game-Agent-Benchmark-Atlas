@@ -1,7 +1,7 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const data=require('../dist/official-leaderboards.json'),curated=require('../data/curation/maintained-leaderboards.json');
 const {rank}=require('../src/js/models/official-leaderboard-model.js');
-const render=(search='',lang='zh')=>{const ctx={window:{AtlasOfficialLeaderboardsData:data,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search},URLSearchParams};vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();};
+const render=(search='',lang='zh')=>{const ctx={window:{AtlasOfficialLeaderboardsData:data,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search},URLSearchParams};vm.runInNewContext(fs.readFileSync('src/js/features/filter-tags.js','utf8'),ctx);vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();};
 test('eight selected sources own tracks exactly once and retain all historical records',()=>{
  assert.equal(data.sources.filter(s=>s.featured).length,8);assert.equal(data.sources.length,19);
  const ids=data.sources.flatMap(s=>s.boardIds);assert.equal(new Set(ids).size,37);assert.deepEqual([...ids].sort(),data.boards.map(b=>b.id).sort());
@@ -46,5 +46,5 @@ test('filtering retains an explicit selection and asks the user when it is exclu
  assert.match(h,/显示 7 \/ 19 个来源/);assert.doesNotMatch(h,/leaderboard-collection|lb-nav-kind|id="leaderboard-status"/);
  const mixed=render('?arenaBoard=balrog-llm&arenaStatus=reference');assert.match(mixed,/data-source="balrog" data-leaderboard="balrog-vlm" aria-pressed="false"/);assert.match(mixed,/lb-selection-prompt/);
  const retained=render('?arenaBoard=chessbench-best&arenaStatus=continuous&arenaMetric=cost&arenaQuery=Muse');assert.match(retained,/value="cost" selected/);assert.match(retained,/value="Muse"/);assert.match(retained,/class="lb-heading"/);
- const legacy=render('?arenaCollection=featured');assert.equal((legacy.match(/data-source=/g)||[]).length,19);assert.match(legacy,/id="leaderboard-direction" >/);
+ const legacy=render('?arenaCollection=featured');assert.equal((legacy.match(/data-source=/g)||[]).length,19);assert.match(legacy,/data-shared-filter="lb-direction"  data-no-i18n/);
 });

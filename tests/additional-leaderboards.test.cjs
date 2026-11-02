@@ -36,7 +36,7 @@ test('bilingual leaderboard rendering handles new tracks, context, missing value
  const full=require('../dist/official-leaderboards.json');assert.equal(full.boards.length,37);
  for(const lang of ['zh','en'])for(const b of boards){
   const ctx={window:{AtlasOfficialLeaderboardsData:full,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search:'?arenaBoard='+b.id},URLSearchParams};
-  vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);
+  vm.runInNewContext(fs.readFileSync('src/js/features/filter-tags.js','utf8'),ctx);vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);
   const html=ctx.window.AtlasLeaderboards.render();assert.ok(html.includes(full.sources.find(s=>s.boardIds.includes(b.id)).title));assert.ok(!html.includes('undefined'));assert.ok(!html.includes('Official check'));assert.ok(!html.includes('官方核验'));
   assert.equal((html.match(/data-source=/g)||[]).length,19);
   if(b.id==='pokeagent-2025-speedrun'){assert.ok(html.includes(lang==='zh'?'累计用时':'Cumulative runtime'));assert.ok(!html.includes('<option value="runtime"'));}

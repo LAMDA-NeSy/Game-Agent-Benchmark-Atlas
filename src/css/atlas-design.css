@@ -595,3 +595,34 @@ body:is([data-view=explore],[data-view=themes]) .filter-category .filter-match-m
 .filter-help { margin:15px 0; font-size:12px; color:#647c8c; }
 .filter-help>summary { cursor:pointer; }
 .filter-help .filter-logic-note { margin:9px 0 0; }
+
+/* The same category controls serve game and leaderboard discovery. */
+.shared-filter-row { display:flex; flex-wrap:wrap; align-items:flex-start; gap:10px; }
+.shared-filter-tag { border:1px solid #d9e3e9; border-radius:7px; background:#fff; min-width:180px; width:220px; overflow:hidden; align-self:flex-start; }
+.shared-filter-tag>summary { display:flex; align-items:center; flex-wrap:wrap; gap:7px; list-style:none; padding:11px 12px; color:#435c6c; font-size:13px; line-height:1.5; cursor:pointer; }
+.shared-filter-tag>summary::-webkit-details-marker { display:none; }
+.shared-filter-tag:is([open],.has-selection) { border-color:#91b3c5; }
+.shared-filter-tag>summary:hover,.shared-filter-tag[open]>summary { background:#edf5f9; }
+.filter-tag-body { padding:12px; }
+.filter-tag-body select,.filter-tag-body input[type=search] { width:100%; min-width:0; max-width:100%!important; border:1px solid #d9e3e9; border-radius:5px; background:white; padding:8px; font-size:12px; }
+.filter-tag-body label { display:block; font-size:12px; }
+.filter-tag-body .filter-group { margin:0; padding:0; border:0; }
+.filter-tag-body .filter-group>legend { display:none; }
+.filter-tag-body .filter-option { display:flex; align-items:center; gap:7px; padding:7px 0; font-size:12px; }
+.filter-tag-body .filter-option .count { margin-left:auto; }
+body[data-view=games] .game-index-controls { align-items:start; }
+body[data-view=games] .game-index-summary { display:flex; }
+body[data-view=games] .game-results-toolbar { display:block; }
+body[data-view=games] .game-filter-tags { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); align-items:start; margin-top:14px; }
+body[data-view=games] .game-filter-tags .shared-filter-tag { width:100%; min-width:0; }
+body[data-view=games] .game-capability-controls { display:grid; grid-template-columns:1fr; gap:10px; }
+body[data-view=games] .game-usage-summary>.shared-filter-tag { width:280px; }
+body[data-view=games] .shared-filter-tag .game-usage-filters { display:flex; flex-direction:column; align-items:stretch; border:0; }
+body[data-view=games] .shared-filter-tag .game-usage-filters button { display:flex; justify-content:space-between; margin:0; padding:8px; }
+body[data-view=arena] .lb-toolbar.shared-filter-row { align-items:flex-start; padding-bottom:16px; gap:10px; }
+body[data-view=arena] .lb-source-count { padding-top:12px; }
+body[data-view=arena] .shared-filter-tag .lb-type-filters { display:grid; gap:4px; }
+body[data-view=arena] .shared-filter-tag .lb-type-filters button { display:flex; justify-content:space-between; gap:14px; width:100%; padding:8px; text-align:left; white-space:normal; }
+body[data-view=arena] .shared-filter-tag .lb-type-filters b { font-size:11px; font-weight:400; color:var(--atlas-muted); }
+body[data-view=arena] .lb-controls { align-items:flex-start; }
+body[data-view=arena] .lb-controls>.shared-filter-tag { min-width:220px; }
