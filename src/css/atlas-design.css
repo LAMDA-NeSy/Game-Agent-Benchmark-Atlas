@@ -552,8 +552,7 @@ body[data-view] .protocol-reading-group dd { font-size:14px; line-height:1.8; ma
 .task-selection-title { color:#28566a; font-size:13px; font-weight:600; line-height:1.6; text-align:left; padding:0; }
 .task-selection-preview p { margin:7px 0; font-size:12px; line-height:1.7; color:#435966; }
 .task-selection-preview p b { color:#344854; font-weight:600; margin-right:4px; }
-.task-protocol-count { color:#647c8c; font-size:12px; padding:2px 0; text-align:left; }
-.task-selection-title:hover,.task-protocol-count:hover { text-decoration:underline; }
+.task-selection-title:hover { text-decoration:underline; }
 body input.compare-toggle { appearance:auto; accent-color:#28566a; width:17px!important; height:17px!important; margin:4px 0; cursor:pointer; border-radius:3px; }
 body[data-view=games] .game-benchmark-table thead th:nth-child(1) { width:40px; }
 body[data-view=games] .game-benchmark-table thead th:nth-child(2) { width:27%; }
