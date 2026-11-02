@@ -1,46 +1,46 @@
 {
   "balrog-llm": {
-    "kind": "open",
+    "kind": "continuous",
     "dateKind": "latestSubmission",
     "reason": {
-      "zh": "官方接受评测日志与元数据提交，经审核后加入对应赛道。",
-      "en": "The official submission process accepts evaluation logs and metadata for review and inclusion in the relevant track."
+      "zh": "接受评测日志提交；已收录 2026-09-20 的新成绩。LLM 与 VLM 按赛道分别记录更新。",
+      "en": "Accepts evaluation-log submissions, with new results dated 2026-09-20. LLM and VLM updates are tracked separately."
     },
     "evidenceUrl": "https://balrogai.com/submit.html",
     "reviewedAt": "2026-11-02"
   },
   "balrog-vlm": {
-    "kind": "open",
+    "kind": "reference",
     "dateKind": "latestSubmission",
     "reason": {
-      "zh": "官方接受评测日志与元数据提交，经审核后加入对应赛道。",
-      "en": "The official submission process accepts evaluation logs and metadata for review and inclusion in the relevant track."
+      "zh": "保留 VLM 研究参考成绩，最近收录提交为 2025-04-25；不继承 LLM 赛道的更新状态。",
+      "en": "VLM research reference results, with the latest collected submission dated 2025-04-25; activity is not inherited from the LLM track."
     },
     "evidenceUrl": "https://balrogai.com/submit.html",
     "reviewedAt": "2026-11-02"
   },
   "orak-performance": {
-    "kind": "open",
+    "kind": "reference",
     "dateKind": "pageUpdated",
     "reason": {
-      "zh": "官方榜单提供模型成绩提交入口；成绩按游戏表现与对战赛道分别展示。",
-      "en": "The official board provides a submission route, with separate game-performance and battle tracks."
+      "zh": "官方榜单提供模型成绩提交入口；成绩按游戏表现与对战赛道分别展示。 尚未确认近期新增成绩，暂列研究参考。",
+      "en": "The official board provides a submission route, with separate game-performance and battle tracks. Recent new results are not confirmed; retained as research references."
     },
     "evidenceUrl": "https://krafton-ai.github.io/orak-leaderboard/",
     "reviewedAt": "2026-11-02"
   },
   "orak-arena": {
-    "kind": "open",
+    "kind": "reference",
     "dateKind": "pageUpdated",
     "reason": {
-      "zh": "官方榜单提供模型成绩提交入口；成绩按游戏表现与对战赛道分别展示。",
-      "en": "The official board provides a submission route, with separate game-performance and battle tracks."
+      "zh": "官方榜单提供模型成绩提交入口；成绩按游戏表现与对战赛道分别展示。 尚未确认近期新增成绩，暂列研究参考。",
+      "en": "The official board provides a submission route, with separate game-performance and battle tracks. Recent new results are not confirmed; retained as research references."
     },
     "evidenceUrl": "https://krafton-ai.github.io/orak-leaderboard/",
     "reviewedAt": "2026-11-02"
   },
   "lmgame-model": {
-    "kind": "fixed",
+    "kind": "reference",
     "dateKind": "unknown",
     "reason": {
       "zh": "收录作者发布的单模型评测结果批次，采用统一游戏接口与模型配置。",
@@ -50,17 +50,17 @@
     "reviewedAt": "2026-11-02"
   },
   "videogamebench-full": {
-    "kind": "open",
+    "kind": "reference",
     "dateKind": "unknown",
     "reason": {
-      "zh": "官方说明接受新提交，并由作者运行三个未公开的测试游戏；此处展示 Full 实时赛道。",
-      "en": "The official repository describes new submissions evaluated by the authors on three hidden test games. This view covers the Full real-time track."
+      "zh": "官方说明接受新提交，并由作者运行三个未公开的测试游戏；此处展示 Full 实时赛道。 尚未确认近期新增成绩，暂列研究参考。",
+      "en": "The official repository describes new submissions evaluated by the authors on three hidden test games. This view covers the Full real-time track. Recent new results are not confirmed; retained as research references."
     },
     "evidenceUrl": "https://github.com/alexzhang13/videogamebench/#videogamebench-test-set-games",
     "reviewedAt": "2026-11-02"
   },
   "gamebot": {
-    "kind": "fixed",
+    "kind": "reference",
     "dateKind": "unknown",
     "reason": {
       "zh": "收录项目页的聚合实验结果表；后续成对比较结果属于另一组实验。",
@@ -120,7 +120,7 @@
     "reviewedAt": "2026-11-02"
   },
   "pgg-trueskill": {
-    "kind": "fixed",
+    "kind": "reference",
     "dateKind": "unknown",
     "reason": {
       "zh": "收录作者组织的多轮公共物品博弈实验及其 TrueSkill 排名。",

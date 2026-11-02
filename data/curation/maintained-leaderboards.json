@@ -1,0 +1,4241 @@
+{
+  "reviewedAt": "2026-11-02",
+  "sources": [
+    {
+      "id": "kaggle",
+      "title": "Kaggle Game Arena",
+      "boardIds": [
+        "kaggle-game-arena"
+      ],
+      "featured": true
+    },
+    {
+      "id": "duellab",
+      "title": "DuelLab GameBench 2",
+      "boardIds": [
+        "duellab-gamebench2"
+      ],
+      "featured": true
+    },
+    {
+      "id": "chessbench",
+      "title": "ChessBench",
+      "boardIds": [
+        "chessbench-best"
+      ],
+      "featured": true
+    },
+    {
+      "id": "starskirmish",
+      "title": "StarSkirmish",
+      "boardIds": [
+        "starskirmish-v02"
+      ],
+      "featured": true
+    },
+    {
+      "id": "sc2",
+      "title": "SC2 AI Arena",
+      "boardIds": [
+        "sc2-ai-arena"
+      ],
+      "featured": true
+    },
+    {
+      "id": "arc",
+      "title": "ARC-AGI-3",
+      "boardIds": [
+        "arc-agi3-2026"
+      ],
+      "featured": true
+    },
+    {
+      "id": "balrog",
+      "title": "BALROG",
+      "boardIds": [
+        "balrog-llm",
+        "balrog-vlm"
+      ],
+      "featured": true
+    },
+    {
+      "id": "tales",
+      "title": "TALES",
+      "boardIds": [
+        "tales"
+      ],
+      "featured": true
+    },
+    {
+      "id": "orak",
+      "title": "Orak",
+      "boardIds": [
+        "orak-performance",
+        "orak-arena"
+      ],
+      "featured": false
+    },
+    {
+      "id": "lmgame",
+      "title": "LMGame-Bench",
+      "boardIds": [
+        "lmgame-model"
+      ],
+      "featured": false
+    },
+    {
+      "id": "videogamebench",
+      "title": "VideoGameBench",
+      "boardIds": [
+        "videogamebench-full"
+      ],
+      "featured": false
+    },
+    {
+      "id": "gamebot",
+      "title": "GAMEBoT",
+      "boardIds": [
+        "gamebot"
+      ],
+      "featured": false
+    },
+    {
+      "id": "procgen",
+      "title": "Procgen 2020",
+      "boardIds": [
+        "procgen-2020-generalization"
+      ],
+      "featured": false
+    },
+    {
+      "id": "nethack",
+      "title": "NetHack 2021",
+      "boardIds": [
+        "nethack-2021-overall"
+      ],
+      "featured": false
+    },
+    {
+      "id": "minerl",
+      "title": "MineRL 2021",
+      "boardIds": [
+        "minerl-2021-research"
+      ],
+      "featured": false
+    },
+    {
+      "id": "meltingpot",
+      "title": "Melting Pot 2023",
+      "boardIds": [
+        "meltingpot-2023-generalization"
+      ],
+      "featured": false
+    },
+    {
+      "id": "textarena",
+      "title": "TextArena · Balanced",
+      "boardIds": [
+        "textarena-balanced"
+      ],
+      "featured": false
+    },
+    {
+      "id": "pgg",
+      "title": "PGG",
+      "boardIds": [
+        "pgg-trueskill"
+      ],
+      "featured": false
+    },
+    {
+      "id": "pokeagent",
+      "title": "PokéAgent 2025",
+      "boardIds": [
+        "pokeagent-2025-gen1ou",
+        "pokeagent-2025-gen9ou",
+        "pokeagent-2025-speedrun"
+      ],
+      "featured": false
+    }
+  ],
+  "boards": [
+    {
+      "id": "kaggle-game-arena",
+      "title": {
+        "zh": "Kaggle Game Arena",
+        "en": "Kaggle Game Arena"
+      },
+      "group": "general",
+      "coverageLabel": {
+        "zh": "国际象棋、围棋、扑克、狼人杀",
+        "en": "Chess, Go, poker and Werewolf"
+      },
+      "researchUse": {
+        "zh": "比较完全信息、不完全信息与社会推理场景中的逐步决策。",
+        "en": "Compare step-by-step decisions under perfect information, hidden information and social reasoning."
+      },
+      "source": {
+        "url": "https://www.kaggle.com/benchmarks/kaggle/game-arena",
+        "snapshotAt": "2026-11-02",
+        "pageUpdatedAt": null
+      },
+      "protocol": {
+        "scope": {
+          "zh": "平台持续评测模型；总榜与各游戏榜分别保留原始协议。",
+          "en": "Platform-run model evaluations; the unified board and game-specific boards retain their respective protocols."
+        },
+        "scoring": {
+          "zh": "总榜使用来源汇总口径；单项保留原站评级与置信区间，不与其他平台的 Elo 混排。",
+          "en": "Use the source aggregation for the unified board and native ratings and intervals for each game; ratings are not pooled across platforms."
+        },
+        "variation": {
+          "zh": "保留来源的版本、赛道与模型配置。",
+          "en": "Retain the source version, track and model configuration."
+        },
+        "verification": {
+          "zh": "成绩由维护方发布；本站提供来源索引。",
+          "en": "Results are published by the maintainer; Atlas indexes the source."
+        },
+        "dates": {
+          "zh": "成绩日期取自来源；本站采集日期单独记录。",
+          "en": "Result dates come from the source; the Atlas retrieval date is recorded separately."
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "评测协议",
+              "en": "Evaluation protocol"
+            },
+            "url": "https://www.kaggle.com/blog/unified-game-arena-leaderboard"
+          },
+          {
+            "label": {
+              "zh": "围棋协议与成绩日期",
+              "en": "Go protocol and result date"
+            },
+            "url": "https://www.kaggle.com/benchmarks/kaggle/go"
+          }
+        ],
+        "control": {
+          "zh": "模型通过各游戏 harness 逐步行动。",
+          "en": "Models act step by step through each game harness."
+        },
+        "budget": {
+          "zh": "输入、重试和回合预算按各单项协议查看。",
+          "en": "Inputs, retries and turn budgets are specified by each game protocol."
+        }
+      },
+      "columns": [
+        {
+          "id": "overall",
+          "label": {
+            "zh": "来源指标",
+            "en": "Source metric"
+          },
+          "direction": "desc"
+        }
+      ],
+      "entries": [],
+      "displayMode": "external",
+      "maintainer": "Kaggle / Google DeepMind",
+      "externalTracks": [
+        {
+          "label": {
+            "zh": "综合榜",
+            "en": "Unified"
+          },
+          "url": "https://www.kaggle.com/benchmarks/kaggle/game-arena"
+        },
+        {
+          "label": {
+            "zh": "国际象棋 · 文字",
+            "en": "Chess · Text"
+          },
+          "url": "https://www.kaggle.com/benchmarks/kaggle/chess-text"
+        },
+        {
+          "label": {
+            "zh": "围棋",
+            "en": "Go"
+          },
+          "url": "https://www.kaggle.com/benchmarks/kaggle/go",
+          "resultsUpdatedAt": "2026-10-19"
+        },
+        {
+          "label": {
+            "zh": "扑克 · 单挑",
+            "en": "Poker · Heads-up"
+          },
+          "url": "https://www.kaggle.com/benchmarks/kaggle/poker-heads-up"
+        },
+        {
+          "label": {
+            "zh": "狼人杀",
+            "en": "Werewolf"
+          },
+          "url": "https://www.kaggle.com/benchmarks/kaggle/werewolf"
+        }
+      ]
+    },
+    {
+      "id": "duellab-gamebench2",
+      "title": {
+        "zh": "DuelLab GameBench 2",
+        "en": "DuelLab GameBench 2"
+      },
+      "group": "strategy",
+      "coverageLabel": {
+        "zh": "8 个公开游戏",
+        "en": "8 public games"
+      },
+      "researchUse": {
+        "zh": "研究从规则理解到策略代码生成的可靠性与对战能力。",
+        "en": "Study rule-to-code reliability and the competitive strength of generated policies."
+      },
+      "source": {
+        "url": "https://benchmarks.duellab.org/",
+        "snapshotAt": "2026-11-02",
+        "pageUpdatedAt": "2026-11-01"
+      },
+      "protocol": {
+        "scope": {
+          "zh": "模型生成可执行玩家程序，由游戏引擎组织对战。",
+          "en": "Models generate executable player programs that compete through the game engine."
+        },
+        "scoring": {
+          "zh": "B1（Bradley–Terry）转换为相对固定参考群体的 0–100 分。主分数计入生成失败的零分；可运行程序强度另列。",
+          "en": "B1 (Bradley–Terry) yields a 0–100 score against a fixed reference field. The headline includes failed generation attempts as zero; working-program strength is separate."
+        },
+        "variation": {
+          "zh": "保留来源的版本、赛道与模型配置。",
+          "en": "Retain the source version, track and model configuration."
+        },
+        "verification": {
+          "zh": "成绩由维护方发布；本站提供来源索引。",
+          "en": "Results are published by the maintainer; Atlas indexes the source."
+        },
+        "dates": {
+          "zh": "成绩日期取自来源；本站采集日期单独记录。",
+          "en": "Result dates come from the source; the Atlas retrieval date is recorded separately."
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "评测协议",
+              "en": "Evaluation protocol"
+            },
+            "url": "https://benchmarks.duellab.org/methodology"
+          }
+        ],
+        "control": {
+          "zh": "模型写策略程序；对局时执行程序。",
+          "en": "Models write policies; compiled programs play the games."
+        },
+        "budget": {
+          "zh": "按来源游戏 SDK、生成与修复预算评测；推理档位不表示跨厂商等量计算。",
+          "en": "Use the source SDK and generation/repair budgets; reasoning levels do not imply equal compute across providers."
+        }
+      },
+      "columns": [
+        {
+          "id": "overall",
+          "label": {
+            "zh": "来源指标",
+            "en": "Source metric"
+          },
+          "direction": "desc"
+        }
+      ],
+      "entries": [],
+      "displayMode": "external",
+      "maintainer": "DuelLab",
+      "externalTracks": [
+        {
+          "label": {
+            "zh": "当前成绩",
+            "en": "Current standings"
+          },
+          "url": "https://benchmarks.duellab.org/"
+        },
+        {
+          "label": {
+            "zh": "版本档案",
+            "en": "Release archive"
+          },
+          "url": "https://benchmarks.duellab.org/archive"
+        }
+      ]
+    },
+    {
+      "id": "chessbench-best",
+      "title": {
+        "zh": "ChessBench · Best",
+        "en": "ChessBench · Best"
+      },
+      "group": "strategy",
+      "coverageLabel": {
+        "zh": "国际象棋 · LLM 对战",
+        "en": "Chess · LLM vs LLM"
+      },
+      "researchUse": {
+        "zh": "比较逐步棋局规划、合法行动、推理成本和响应时间。",
+        "en": "Compare move planning, legal actions, reasoning cost and response time."
+      },
+      "source": {
+        "url": "https://chessbench.org/",
+        "snapshotAt": "2026-11-02",
+        "pageUpdatedAt": "2026-10-26",
+        "evidenceFile": "data/sources/official-leaderboards/2026-11-02-chessbench.json"
+      },
+      "protocol": {
+        "scope": {
+          "zh": "chessbench-v3 的 Best 视图，每个模型保留来源选出的推理配置。",
+          "en": "The chessbench-v3 Best view, retaining the thinking setup selected by the source for each model."
+        },
+        "scoring": {
+          "zh": "来源界面称 Elo Rating，方法为 Glicko-2。评级仅针对该 LLM 对战池；每种推理配置独立计分。",
+          "en": "The UI labels ratings Elo Rating; the method is Glicko-2. Ratings apply to this LLM pool, with thinking setups rated separately."
+        },
+        "variation": {
+          "zh": "保留来源的版本、赛道与模型配置。",
+          "en": "Retain the source version, track and model configuration."
+        },
+        "verification": {
+          "zh": "完整收录原站 Best 表的 18 行；全部推理配置与逐局记录可在原站查看。",
+          "en": "All 18 rows of the source Best table are retained. All thinking setups and individual matches remain available at the source."
+        },
+        "dates": {
+          "zh": "成绩日期取自来源；本站采集日期单独记录。",
+          "en": "Result dates come from the source; the Atlas retrieval date is recorded separately."
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "评测协议",
+              "en": "Evaluation protocol"
+            },
+            "url": "https://chessbench.org/data"
+          }
+        ],
+        "control": {
+          "zh": "模型接收棋盘、棋子、合法着法与历史，逐步选招；Stockfish 分析仅供观众查看。",
+          "en": "Models receive the board, pieces, legal moves and history, then select moves. Stockfish analysis is viewer-only."
+        },
+        "budget": {
+          "zh": "按实际推理配置分组；成本为完整计价对局的美元均值，用时为每步模型请求时间。",
+          "en": "Group by thinking setup; cost is USD per fully priced completed game, and time is model request time per move."
+        }
+      },
+      "columns": [
+        {
+          "id": "overall",
+          "label": {
+            "zh": "Glicko-2 评级",
+            "en": "Glicko-2 rating"
+          },
+          "direction": "desc",
+          "unit": ""
+        },
+        {
+          "id": "cost",
+          "label": {
+            "zh": "平均每局成本",
+            "en": "Mean cost / game"
+          },
+          "direction": "asc",
+          "unit": "USD"
+        },
+        {
+          "id": "time",
+          "label": {
+            "zh": "平均每步用时",
+            "en": "Mean time / move"
+          },
+          "direction": "asc",
+          "unit": "s"
+        },
+        {
+          "id": "illegal",
+          "label": {
+            "zh": "非法着法比例",
+            "en": "Illegal move rate"
+          },
+          "direction": "asc",
+          "unit": "%"
+        }
+      ],
+      "entries": [
+        {
+          "id": "chessbench-1",
+          "agent": "Gemini 4 Argon · Medium",
+          "sourceRow": 0,
+          "scores": {
+            "overall": {
+              "display": "2170",
+              "value": 2170.0,
+              "sortValue": 2170.0,
+              "sourceValue": "2170"
+            },
+            "cost": {
+              "display": "$0.407",
+              "value": 0.407,
+              "sortValue": 0.407,
+              "sourceValue": "$0.407"
+            },
+            "time": {
+              "display": "9.3s",
+              "value": 9.3,
+              "sortValue": 9.3,
+              "sourceValue": "9.3s"
+            },
+            "illegal": {
+              "display": "0.16%",
+              "value": 0.16,
+              "sortValue": 0.16,
+              "sourceValue": "0.16%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "Medium"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "93% / 1% / 6%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-2",
+          "agent": "Claude Opus 5.5 · xHigh",
+          "sourceRow": 1,
+          "scores": {
+            "overall": {
+              "display": "2102",
+              "value": 2102.0,
+              "sortValue": 2102.0,
+              "sourceValue": "2102"
+            },
+            "cost": {
+              "display": "$1.783",
+              "value": 1.783,
+              "sortValue": 1.783,
+              "sourceValue": "$1.783"
+            },
+            "time": {
+              "display": "23.0s",
+              "value": 23.0,
+              "sortValue": 23.0,
+              "sourceValue": "23.0s"
+            },
+            "illegal": {
+              "display": "0.56%",
+              "value": 0.56,
+              "sortValue": 0.56,
+              "sourceValue": "0.56%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "89% / 4% / 7%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-3",
+          "agent": "Claude Sonnet 5.5 · xHigh",
+          "sourceRow": 2,
+          "scores": {
+            "overall": {
+              "display": "2089",
+              "value": 2089.0,
+              "sortValue": 2089.0,
+              "sourceValue": "2089"
+            },
+            "cost": {
+              "display": "$2.228",
+              "value": 2.228,
+              "sortValue": 2.228,
+              "sourceValue": "$2.228"
+            },
+            "time": {
+              "display": "37.5s",
+              "value": 37.5,
+              "sortValue": 37.5,
+              "sourceValue": "37.5s"
+            },
+            "illegal": {
+              "display": "1.00%",
+              "value": 1.0,
+              "sortValue": 1.0,
+              "sourceValue": "1.00%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "88% / 0% / 12%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-4",
+          "agent": "GPT-6 Astra · xHigh",
+          "sourceRow": 3,
+          "scores": {
+            "overall": {
+              "display": "2022",
+              "value": 2022.0,
+              "sortValue": 2022.0,
+              "sourceValue": "2022"
+            },
+            "cost": {
+              "display": "$1.452",
+              "value": 1.452,
+              "sortValue": 1.452,
+              "sourceValue": "$1.452"
+            },
+            "time": {
+              "display": "14.4s",
+              "value": 14.4,
+              "sortValue": 14.4,
+              "sourceValue": "14.4s"
+            },
+            "illegal": {
+              "display": "0.02%",
+              "value": 0.02,
+              "sortValue": 0.02,
+              "sourceValue": "0.02%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "85% / 1% / 14%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-5",
+          "agent": "Claude Fable 5.1 · xHigh",
+          "sourceRow": 4,
+          "scores": {
+            "overall": {
+              "display": "1891",
+              "value": 1891.0,
+              "sortValue": 1891.0,
+              "sourceValue": "1891"
+            },
+            "cost": {
+              "display": "$8.315",
+              "value": 8.315,
+              "sortValue": 8.315,
+              "sourceValue": "$8.315"
+            },
+            "time": {
+              "display": "35.3s",
+              "value": 35.3,
+              "sortValue": 35.3,
+              "sourceValue": "35.3s"
+            },
+            "illegal": {
+              "display": "1.61%",
+              "value": 1.61,
+              "sortValue": 1.61,
+              "sourceValue": "1.61%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "71% / 6% / 23%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-6",
+          "agent": "GPT-6.1 SOL · xHigh",
+          "sourceRow": 5,
+          "scores": {
+            "overall": {
+              "display": "1840",
+              "value": 1840.0,
+              "sortValue": 1840.0,
+              "sourceValue": "1840"
+            },
+            "cost": {
+              "display": "$0.365",
+              "value": 0.365,
+              "sortValue": 0.365,
+              "sourceValue": "$0.365"
+            },
+            "time": {
+              "display": "18.6s",
+              "value": 18.6,
+              "sortValue": 18.6,
+              "sourceValue": "18.6s"
+            },
+            "illegal": {
+              "display": "0.00%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.00%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "69% / 4% / 27%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-7",
+          "agent": "Claude Haiku 5.5 · xHigh",
+          "sourceRow": 6,
+          "scores": {
+            "overall": {
+              "display": "1796",
+              "value": 1796.0,
+              "sortValue": 1796.0,
+              "sourceValue": "1796"
+            },
+            "cost": {
+              "display": "$0.276",
+              "value": 0.276,
+              "sortValue": 0.276,
+              "sourceValue": "$0.276"
+            },
+            "time": {
+              "display": "21.8s",
+              "value": 21.8,
+              "sortValue": 21.8,
+              "sourceValue": "21.8s"
+            },
+            "illegal": {
+              "display": "0.58%",
+              "value": 0.58,
+              "sortValue": 0.58,
+              "sourceValue": "0.58%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "63% / 8% / 29%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-8",
+          "agent": "DeepSeek V4.1 Flash (1017) · Max",
+          "sourceRow": 7,
+          "scores": {
+            "overall": {
+              "display": "1687",
+              "value": 1687.0,
+              "sortValue": 1687.0,
+              "sourceValue": "1687"
+            },
+            "cost": {
+              "display": "$0.201",
+              "value": 0.201,
+              "sortValue": 0.201,
+              "sourceValue": "$0.201"
+            },
+            "time": {
+              "display": "36.9s",
+              "value": 36.9,
+              "sortValue": 36.9,
+              "sourceValue": "36.9s"
+            },
+            "illegal": {
+              "display": "0.32%",
+              "value": 0.32,
+              "sortValue": 0.32,
+              "sourceValue": "0.32%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "Max"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "52% / 9% / 39%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-9",
+          "agent": "GPT-6.1 Terra · xHigh",
+          "sourceRow": 8,
+          "scores": {
+            "overall": {
+              "display": "1621",
+              "value": 1621.0,
+              "sortValue": 1621.0,
+              "sourceValue": "1621"
+            },
+            "cost": {
+              "display": "$0.109",
+              "value": 0.109,
+              "sortValue": 0.109,
+              "sourceValue": "$0.109"
+            },
+            "time": {
+              "display": "5.7s",
+              "value": 5.7,
+              "sortValue": 5.7,
+              "sourceValue": "5.7s"
+            },
+            "illegal": {
+              "display": "0.08%",
+              "value": 0.08,
+              "sortValue": 0.08,
+              "sourceValue": "0.08%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "48% / 8% / 44%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-10",
+          "agent": "Grok 4.7 · xHigh",
+          "sourceRow": 9,
+          "scores": {
+            "overall": {
+              "display": "1549",
+              "value": 1549.0,
+              "sortValue": 1549.0,
+              "sourceValue": "1549"
+            },
+            "cost": {
+              "display": "$3.615",
+              "value": 3.615,
+              "sortValue": 3.615,
+              "sourceValue": "$3.615"
+            },
+            "time": {
+              "display": "48.5s",
+              "value": 48.5,
+              "sortValue": 48.5,
+              "sourceValue": "48.5s"
+            },
+            "illegal": {
+              "display": "0.39%",
+              "value": 0.39,
+              "sortValue": 0.39,
+              "sourceValue": "0.39%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "40% / 23% / 37%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-11",
+          "agent": "Muse Spark 1.3 · Medium",
+          "sourceRow": 10,
+          "scores": {
+            "overall": {
+              "display": "1506",
+              "value": 1506.0,
+              "sortValue": 1506.0,
+              "sourceValue": "1506"
+            },
+            "cost": {
+              "display": "$0.029",
+              "value": 0.029,
+              "sortValue": 0.029,
+              "sourceValue": "$0.029"
+            },
+            "time": {
+              "display": "19.1s",
+              "value": 19.1,
+              "sortValue": 19.1,
+              "sourceValue": "19.1s"
+            },
+            "illegal": {
+              "display": "0.33%",
+              "value": 0.33,
+              "sortValue": 0.33,
+              "sourceValue": "0.33%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "Medium"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "35% / 26% / 39%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-12",
+          "agent": "GLM 5.3 · High",
+          "sourceRow": 11,
+          "scores": {
+            "overall": {
+              "display": "1501",
+              "value": 1501.0,
+              "sortValue": 1501.0,
+              "sourceValue": "1501"
+            },
+            "cost": {
+              "display": "$2.133",
+              "value": 2.133,
+              "sortValue": 2.133,
+              "sourceValue": "$2.133"
+            },
+            "time": {
+              "display": "60.6s",
+              "value": 60.6,
+              "sortValue": 60.6,
+              "sourceValue": "60.6s"
+            },
+            "illegal": {
+              "display": "1.76%",
+              "value": 1.76,
+              "sortValue": 1.76,
+              "sourceValue": "1.76%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "High"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "38% / 14% / 48%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-13",
+          "agent": "GPT-6 Luna · xHigh",
+          "sourceRow": 12,
+          "scores": {
+            "overall": {
+              "display": "1421",
+              "value": 1421.0,
+              "sortValue": 1421.0,
+              "sourceValue": "1421"
+            },
+            "cost": {
+              "display": "$0.054",
+              "value": 0.054,
+              "sortValue": 0.054,
+              "sourceValue": "$0.054"
+            },
+            "time": {
+              "display": "29.1s",
+              "value": 29.1,
+              "sortValue": 29.1,
+              "sourceValue": "29.1s"
+            },
+            "illegal": {
+              "display": "0.39%",
+              "value": 0.39,
+              "sortValue": 0.39,
+              "sourceValue": "0.39%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "22% / 29% / 49%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-14",
+          "agent": "MiniMax M3.1 Flash · xHigh",
+          "sourceRow": 13,
+          "scores": {
+            "overall": {
+              "display": "1386",
+              "value": 1386.0,
+              "sortValue": 1386.0,
+              "sourceValue": "1386"
+            },
+            "cost": {
+              "display": "$0.274",
+              "value": 0.274,
+              "sortValue": 0.274,
+              "sourceValue": "$0.274"
+            },
+            "time": {
+              "display": "31.9s",
+              "value": 31.9,
+              "sortValue": 31.9,
+              "sourceValue": "31.9s"
+            },
+            "illegal": {
+              "display": "5.60%",
+              "value": 5.6,
+              "sortValue": 5.6,
+              "sourceValue": "5.60%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "xHigh"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "24% / 10% / 66%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-15",
+          "agent": "MiMo V2.6 Flash · Thinking",
+          "sourceRow": 14,
+          "scores": {
+            "overall": {
+              "display": "1345",
+              "value": 1345.0,
+              "sortValue": 1345.0,
+              "sourceValue": "1345"
+            },
+            "cost": {
+              "display": "$0.056",
+              "value": 0.056,
+              "sortValue": 0.056,
+              "sourceValue": "$0.056"
+            },
+            "time": {
+              "display": "44.3s",
+              "value": 44.3,
+              "sortValue": 44.3,
+              "sourceValue": "44.3s"
+            },
+            "illegal": {
+              "display": "4.53%",
+              "value": 4.53,
+              "sortValue": 4.53,
+              "sourceValue": "4.53%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "Thinking"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "21% / 21% / 58%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-16",
+          "agent": "GLM 5.3 Flash · High",
+          "sourceRow": 15,
+          "scores": {
+            "overall": {
+              "display": "1327",
+              "value": 1327.0,
+              "sortValue": 1327.0,
+              "sourceValue": "1327"
+            },
+            "cost": {
+              "display": "$0.106",
+              "value": 0.106,
+              "sortValue": 0.106,
+              "sourceValue": "$0.106"
+            },
+            "time": {
+              "display": "76.0s",
+              "value": 76.0,
+              "sortValue": 76.0,
+              "sourceValue": "76.0s"
+            },
+            "illegal": {
+              "display": "4.31%",
+              "value": 4.31,
+              "sortValue": 4.31,
+              "sourceValue": "4.31%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "High"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "20% / 24% / 56%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-17",
+          "agent": "MiniMax M3 · Thinking",
+          "sourceRow": 16,
+          "scores": {
+            "overall": {
+              "display": "1261",
+              "value": 1261.0,
+              "sortValue": 1261.0,
+              "sourceValue": "1261"
+            },
+            "cost": {
+              "display": "$0.541",
+              "value": 0.541,
+              "sortValue": 0.541,
+              "sourceValue": "$0.541"
+            },
+            "time": {
+              "display": "33.7s",
+              "value": 33.7,
+              "sortValue": 33.7,
+              "sourceValue": "33.7s"
+            },
+            "illegal": {
+              "display": "3.72%",
+              "value": 3.72,
+              "sortValue": 3.72,
+              "sourceValue": "3.72%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "Thinking"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "13% / 27% / 60%"
+            }
+          ]
+        },
+        {
+          "id": "chessbench-18",
+          "agent": "Qwen3.7 Plus · Thinking",
+          "sourceRow": 17,
+          "scores": {
+            "overall": {
+              "display": "1075",
+              "value": 1075.0,
+              "sortValue": 1075.0,
+              "sourceValue": "1075"
+            },
+            "cost": {
+              "display": "$0.072",
+              "value": 0.072,
+              "sortValue": 0.072,
+              "sourceValue": "$0.072"
+            },
+            "time": {
+              "display": "8.3s",
+              "value": 8.3,
+              "sortValue": 8.3,
+              "sourceValue": "8.3s"
+            },
+            "illegal": {
+              "display": "1.30%",
+              "value": 1.3,
+              "sortValue": 1.3,
+              "sourceValue": "1.30%"
+            }
+          },
+          "resultUrl": "https://chessbench.org/previous-matches",
+          "context": [
+            {
+              "label": {
+                "zh": "推理配置",
+                "en": "Thinking setup"
+              },
+              "value": "Thinking"
+            },
+            {
+              "label": {
+                "zh": "胜 / 和 / 负",
+                "en": "Win / draw / loss"
+              },
+              "value": "4% / 33% / 63%"
+            }
+          ]
+        }
+      ],
+      "displayMode": "snapshot",
+      "maintainer": "MadeByLupu",
+      "externalTracks": [],
+      "snapshotLabel": {
+        "zh": "Best 视图 · 18 个模型配置",
+        "en": "Best view · 18 model configurations"
+      }
+    },
+    {
+      "id": "starskirmish-v02",
+      "title": {
+        "zh": "StarSkirmish · v0.2",
+        "en": "StarSkirmish · v0.2"
+      },
+      "group": "strategy",
+      "coverageLabel": {
+        "zh": "StarCraft: Brood War · Protoss",
+        "en": "StarCraft: Brood War · Protoss"
+      },
+      "researchUse": {
+        "zh": "研究限时策略开发、练习反馈利用和长期编码迭代。",
+        "en": "Study time-bounded policy development, practice feedback and long-horizon coding iteration."
+      },
+      "source": {
+        "url": "https://starskirmish.com/bench/v0-2/",
+        "snapshotAt": "2026-11-02",
+        "pageUpdatedAt": "2026-10-15"
+      },
+      "protocol": {
+        "scope": {
+          "zh": "按版本发布评测，v0.2 使用各模型厂商的 CLI harness。",
+          "en": "Versioned evaluations; v0.2 uses each provider’s CLI harness."
+        },
+        "scoring": {
+          "zh": "每个模型 5 次独立开发，最终 Bot 对 13 个固定对手，在 3 张地图各交战 6 次；报告平均胜率。v0.1 的缩放 Elo 不与此分数混合。",
+          "en": "Five development runs per model; each final bot faces 13 fixed opponents six times on each of three maps. Reported scores are mean win rates, separate from v0.1 scaled Elo."
+        },
+        "variation": {
+          "zh": "保留来源的版本、赛道与模型配置。",
+          "en": "Retain the source version, track and model configuration."
+        },
+        "verification": {
+          "zh": "成绩由维护方发布；本站提供来源索引。",
+          "en": "Results are published by the maintainer; Atlas indexes the source."
+        },
+        "dates": {
+          "zh": "成绩日期取自来源；本站采集日期单独记录。",
+          "en": "Result dates come from the source; the Atlas retrieval date is recorded separately."
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "评测协议",
+              "en": "Evaluation protocol"
+            },
+            "url": "https://starskirmish.com/bench/v0-2/"
+          }
+        ],
+        "control": {
+          "zh": "生成 C++ Bot，BWAPI 4.4.0 / OpenBW；不是模型逐帧操作。",
+          "en": "Generate C++ bots for BWAPI 4.4.0 / OpenBW, rather than frame-by-frame model control."
+        },
+        "budget": {
+          "zh": "每次开发 1 小时，可编译、练习、读日志；对局上限 60 分钟。",
+          "en": "One hour per development run, with compilation, practice and logs; match limit 60 minutes."
+        }
+      },
+      "columns": [
+        {
+          "id": "overall",
+          "label": {
+            "zh": "来源指标",
+            "en": "Source metric"
+          },
+          "direction": "desc"
+        }
+      ],
+      "entries": [],
+      "displayMode": "external",
+      "maintainer": "Kai McPheeters",
+      "externalTracks": [
+        {
+          "label": {
+            "zh": "v0.2 · 平均胜率",
+            "en": "v0.2 · Mean win rate"
+          },
+          "url": "https://starskirmish.com/bench/v0-2/"
+        },
+        {
+          "label": {
+            "zh": "v0.1 · 缩放 Elo",
+            "en": "v0.1 · Scaled Elo"
+          },
+          "url": "https://starskirmish.com/bench/v0-1/"
+        }
+      ],
+      "cadence": {
+        "zh": "按版本更新",
+        "en": "Versioned updates"
+      }
+    },
+    {
+      "id": "sc2-ai-arena",
+      "title": {
+        "zh": "SC2 AI Arena",
+        "en": "SC2 AI Arena"
+      },
+      "group": "strategy",
+      "coverageLabel": {
+        "zh": "StarCraft II · Melee",
+        "en": "StarCraft II · Melee"
+      },
+      "researchUse": {
+        "zh": "比较长期策略开发、资源调度与完整 RTS Bot 的竞技表现。",
+        "en": "Compare sustained policy development, resource management and full RTS bot performance."
+      },
+      "source": {
+        "url": "https://aiarena.net/",
+        "snapshotAt": "2026-11-02",
+        "pageUpdatedAt": null
+      },
+      "protocol": {
+        "scope": {
+          "zh": "2026 Season 2；完整 Bot 在所属分区循环对战。",
+          "en": "2026 Season 2; full bots play round-robin matches within their division."
+        },
+        "scoring": {
+          "zh": "赛季 Melee ladder 使用 Elo，初始 1600、K=16；成绩按赛季与分区阅读。Micro ladder 为独立的非赛季协议。",
+          "en": "The seasonal Melee ladder uses Elo with initial rating 1600 and K=16. Read scores within season and division; Micro is a separate non-seasonal protocol."
+        },
+        "variation": {
+          "zh": "保留来源的版本、赛道与模型配置。",
+          "en": "Retain the source version, track and model configuration."
+        },
+        "verification": {
+          "zh": "成绩由维护方发布；本站提供来源索引。",
+          "en": "Results are published by the maintainer; Atlas indexes the source."
+        },
+        "dates": {
+          "zh": "成绩日期取自来源；本站采集日期单独记录。",
+          "en": "Result dates come from the source; the Atlas retrieval date is recorded separately."
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "评测协议",
+              "en": "Evaluation protocol"
+            },
+            "url": "https://aiarena.net/wiki/ladders/"
+          }
+        ],
+        "control": {
+          "zh": "参赛者提交完整 Bot；模型厂商不等于 Bot 提交团队。",
+          "en": "Participants submit complete bots; model vendors are distinct from bot authors."
+        },
+        "budget": {
+          "zh": "地图与 Bot 版本按赛季固定；新赛季需重新激活。",
+          "en": "Maps and bot versions follow the season; bots must be reactivated for a new season."
+        }
+      },
+      "columns": [
+        {
+          "id": "overall",
+          "label": {
+            "zh": "来源指标",
+            "en": "Source metric"
+          },
+          "direction": "desc"
+        }
+      ],
+      "entries": [],
+      "displayMode": "external",
+      "maintainer": "AI Arena community",
+      "externalTracks": [
+        {
+          "label": {
+            "zh": "官方成绩与对局",
+            "en": "Official standings and matches"
+          },
+          "url": "https://aiarena.net/"
+        },
+        {
+          "label": {
+            "zh": "社区成绩视图 · AI Arena Recap",
+            "en": "Community view · AI Arena Recap"
+          },
+          "url": "https://aiarenarecap.com/"
+        }
+      ]
+    },
+    {
+      "id": "arc-agi3-2026",
+      "title": {
+        "zh": "ARC-AGI-3 · 2026",
+        "en": "ARC-AGI-3 · 2026"
+      },
+      "group": "exploration",
+      "coverageLabel": {
+        "zh": "交互式未知规则环境",
+        "en": "Interactive environments with unknown rules"
+      },
+      "researchUse": {
+        "zh": "研究规则发现、主动探索、状态建模与行动效率。",
+        "en": "Study rule discovery, active exploration, state modeling and action efficiency."
+      },
+      "source": {
+        "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/leaderboard",
+        "snapshotAt": "2026-11-02",
+        "pageUpdatedAt": null
+      },
+      "protocol": {
+        "scope": {
+          "zh": "2026 竞赛赛道；与官方 Verified 榜和 Developer Preview 分开。",
+          "en": "The 2026 competition track, separate from the Verified board and Developer Preview."
+        },
+        "scoring": {
+          "zh": "使用本届竞赛的官方评分与私有测试协议，保留公开榜 / 最终榜区分；不混入社区展示分数。",
+          "en": "Use this competition’s official scoring and private evaluation protocol; public and final standings remain distinct from community showcase scores."
+        },
+        "variation": {
+          "zh": "保留来源的版本、赛道与模型配置。",
+          "en": "Retain the source version, track and model configuration."
+        },
+        "verification": {
+          "zh": "成绩由维护方发布；本站提供来源索引。",
+          "en": "Results are published by the maintainer; Atlas indexes the source."
+        },
+        "dates": {
+          "zh": "成绩日期取自来源；本站采集日期单独记录。",
+          "en": "Result dates come from the source; the Atlas retrieval date is recorded separately."
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "评测协议",
+              "en": "Evaluation protocol"
+            },
+            "url": "https://arcprize.org/competitions/2026/arc-agi-3"
+          }
+        ],
+        "control": {
+          "zh": "提交能够与新环境交互的 Agent，评测期间无网络访问。",
+          "en": "Submit an agent that interacts with novel environments; evaluation has no internet access."
+        },
+        "budget": {
+          "zh": "本届提交截止 2026-11-02 (UTC)；计算与行动预算以竞赛规则为准。",
+          "en": "Submission deadline: 2026-11-02 (UTC). Compute and action budgets follow competition rules."
+        }
+      },
+      "columns": [
+        {
+          "id": "overall",
+          "label": {
+            "zh": "来源指标",
+            "en": "Source metric"
+          },
+          "direction": "desc"
+        }
+      ],
+      "entries": [],
+      "displayMode": "external",
+      "maintainer": "ARC Prize Foundation / Kaggle",
+      "externalTracks": [
+        {
+          "label": {
+            "zh": "2026 竞赛成绩",
+            "en": "2026 competition standings"
+          },
+          "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/leaderboard"
+        },
+        {
+          "label": {
+            "zh": "赛制与时间表",
+            "en": "Rules and timeline"
+          },
+          "url": "https://arcprize.org/competitions/2026"
+        }
+      ],
+      "seasonDeadline": "2026-11-02"
+    },
+    {
+      "id": "tales",
+      "title": {
+        "zh": "TALES",
+        "en": "TALES"
+      },
+      "group": "general",
+      "coverageLabel": {
+        "zh": "5 个文字交互框架 · 含 ScienceWorld",
+        "en": "5 text-interaction frameworks · includes ScienceWorld"
+      },
+      "researchUse": {
+        "zh": "比较文字环境中的多步规划、任务执行与科学实验推理；ScienceWorld 可单独排序。",
+        "en": "Compare multi-step planning, task execution and scientific reasoning in text environments; rank ScienceWorld separately."
+      },
+      "source": {
+        "url": "https://microsoft.github.io/tale-suite/",
+        "snapshotAt": "2026-11-02",
+        "pageUpdatedAt": null,
+        "evidenceFile": "data/sources/official-leaderboards/2026-11-02-tales.json",
+        "pageSha256": "a10bfec916317babfbdbb2e0fc740931f5bf4b21190b8de0be62bc8ae6fc8424"
+      },
+      "protocol": {
+        "scope": {
+          "zh": "同一 TALES 协议下的框架分项和总分，保留来源全部 40 个模型配置。",
+          "en": "Framework scores and overall scores under the TALES protocol, retaining all 40 source model configurations."
+        },
+        "scoring": {
+          "zh": "保留原站 TALES 总分及五个框架的百分比分数，不重新平均框架得分。ScienceWorld 分数仅代表 TALES 使用的任务与设置。",
+          "en": "Retain the source TALES overall score and percentages for five frameworks without re-averaging them. ScienceWorld scores apply to the tasks and setup used by TALES."
+        },
+        "variation": {
+          "zh": "保留来源的版本、赛道与模型配置。",
+          "en": "Retain the source version, track and model configuration."
+        },
+        "verification": {
+          "zh": "来源为 TALES 官方网页的完整结果表；模型提供方不代表独立提交团队。",
+          "en": "Source: the full results table on the official TALES site; model providers are not independent submitting teams."
+        },
+        "dates": {
+          "zh": "成绩日期取自来源；本站采集日期单独记录。",
+          "en": "Result dates come from the source; the Atlas retrieval date is recorded separately."
+        },
+        "links": [
+          {
+            "label": {
+              "zh": "评测协议",
+              "en": "Evaluation protocol"
+            },
+            "url": "https://github.com/microsoft/tale-suite"
+          }
+        ],
+        "control": {
+          "zh": "文字观察与文字动作；ALFWorld 仅使用文字模态。",
+          "en": "Text observations and actions; ALFWorld uses only its text modality."
+        },
+        "budget": {
+          "zh": "具体任务、动作预算与模型提示见 TALES 配置；原站表格未逐行列出运行预算。",
+          "en": "Tasks, action budgets and prompts follow TALES configurations; the source table does not list per-row run budgets."
+        }
+      },
+      "columns": [
+        {
+          "id": "overall",
+          "label": {
+            "zh": "TALES score",
+            "en": "TALES score"
+          },
+          "direction": "desc",
+          "unit": "%"
+        },
+        {
+          "id": "textworld",
+          "label": {
+            "zh": "TextWorld",
+            "en": "TextWorld"
+          },
+          "direction": "desc",
+          "unit": "%"
+        },
+        {
+          "id": "textworld-express",
+          "label": {
+            "zh": "TextWorld Express",
+            "en": "TextWorld Express"
+          },
+          "direction": "desc",
+          "unit": "%"
+        },
+        {
+          "id": "alfworld",
+          "label": {
+            "zh": "ALFWorld",
+            "en": "ALFWorld"
+          },
+          "direction": "desc",
+          "unit": "%"
+        },
+        {
+          "id": "scienceworld",
+          "label": {
+            "zh": "ScienceWorld",
+            "en": "ScienceWorld"
+          },
+          "direction": "desc",
+          "unit": "%"
+        },
+        {
+          "id": "jericho",
+          "label": {
+            "zh": "Jericho",
+            "en": "Jericho"
+          },
+          "direction": "desc",
+          "unit": "%"
+        }
+      ],
+      "entries": [
+        {
+          "id": "tales-1",
+          "agent": "o3 (medium) · Reasoning",
+          "sourceRow": 0,
+          "scores": {
+            "overall": {
+              "display": "58.7%",
+              "value": 58.7,
+              "sortValue": 58.7,
+              "sourceValue": "58.7%"
+            },
+            "textworld": {
+              "display": "100.0%",
+              "value": 100.0,
+              "sortValue": 100.0,
+              "sourceValue": "100.0%"
+            },
+            "textworld-express": {
+              "display": "91.9%",
+              "value": 91.9,
+              "sortValue": 91.9,
+              "sourceValue": "91.9%"
+            },
+            "alfworld": {
+              "display": "88.3%",
+              "value": 88.3,
+              "sortValue": 88.3,
+              "sourceValue": "88.3%"
+            },
+            "scienceworld": {
+              "display": "93.0%",
+              "value": 93.0,
+              "sortValue": 93.0,
+              "sourceValue": "93.0%"
+            },
+            "jericho": {
+              "display": "15.7%",
+              "value": 15.7,
+              "sortValue": 15.7,
+              "sourceValue": "15.7%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-2",
+          "agent": "o3 (high) · Reasoning",
+          "sourceRow": 1,
+          "scores": {
+            "overall": {
+              "display": "58.0%",
+              "value": 58.0,
+              "sortValue": 58.0,
+              "sourceValue": "58.0%"
+            },
+            "textworld": {
+              "display": "100.0%",
+              "value": 100.0,
+              "sortValue": 100.0,
+              "sourceValue": "100.0%"
+            },
+            "textworld-express": {
+              "display": "89.6%",
+              "value": 89.6,
+              "sortValue": 89.6,
+              "sourceValue": "89.6%"
+            },
+            "alfworld": {
+              "display": "81.7%",
+              "value": 81.7,
+              "sortValue": 81.7,
+              "sourceValue": "81.7%"
+            },
+            "scienceworld": {
+              "display": "93.1%",
+              "value": 93.1,
+              "sortValue": 93.1,
+              "sourceValue": "93.1%"
+            },
+            "jericho": {
+              "display": "16.1%",
+              "value": 16.1,
+              "sortValue": 16.1,
+              "sourceValue": "16.1%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-3",
+          "agent": "o3 (low) · Reasoning",
+          "sourceRow": 2,
+          "scores": {
+            "overall": {
+              "display": "54.8%",
+              "value": 54.8,
+              "sortValue": 54.8,
+              "sourceValue": "54.8%"
+            },
+            "textworld": {
+              "display": "99.1%",
+              "value": 99.1,
+              "sortValue": 99.1,
+              "sourceValue": "99.1%"
+            },
+            "textworld-express": {
+              "display": "89.8%",
+              "value": 89.8,
+              "sortValue": 89.8,
+              "sourceValue": "89.8%"
+            },
+            "alfworld": {
+              "display": "70.0%",
+              "value": 70.0,
+              "sortValue": 70.0,
+              "sourceValue": "70.0%"
+            },
+            "scienceworld": {
+              "display": "88.3%",
+              "value": 88.3,
+              "sortValue": 88.3,
+              "sourceValue": "88.3%"
+            },
+            "jericho": {
+              "display": "14.2%",
+              "value": 14.2,
+              "sortValue": 14.2,
+              "sourceValue": "14.2%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-4",
+          "agent": "claude-3.7-sonnet · Reasoning",
+          "sourceRow": 3,
+          "scores": {
+            "overall": {
+              "display": "52.5%",
+              "value": 52.5,
+              "sortValue": 52.5,
+              "sourceValue": "52.5%"
+            },
+            "textworld": {
+              "display": "97.3%",
+              "value": 97.3,
+              "sortValue": 97.3,
+              "sourceValue": "97.3%"
+            },
+            "textworld-express": {
+              "display": "91.3%",
+              "value": 91.3,
+              "sortValue": 91.3,
+              "sourceValue": "91.3%"
+            },
+            "alfworld": {
+              "display": "83.3%",
+              "value": 83.3,
+              "sortValue": 83.3,
+              "sourceValue": "83.3%"
+            },
+            "scienceworld": {
+              "display": "76.5%",
+              "value": 76.5,
+              "sortValue": 76.5,
+              "sourceValue": "76.5%"
+            },
+            "jericho": {
+              "display": "12.5%",
+              "value": 12.5,
+              "sortValue": 12.5,
+              "sourceValue": "12.5%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Anthropic"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-5",
+          "agent": "claude-3.7-sonnet · Non-reasoning",
+          "sourceRow": 4,
+          "scores": {
+            "overall": {
+              "display": "52.1%",
+              "value": 52.1,
+              "sortValue": 52.1,
+              "sourceValue": "52.1%"
+            },
+            "textworld": {
+              "display": "97.3%",
+              "value": 97.3,
+              "sortValue": 97.3,
+              "sourceValue": "97.3%"
+            },
+            "textworld-express": {
+              "display": "95.8%",
+              "value": 95.8,
+              "sortValue": 95.8,
+              "sourceValue": "95.8%"
+            },
+            "alfworld": {
+              "display": "81.7%",
+              "value": 81.7,
+              "sortValue": 81.7,
+              "sourceValue": "81.7%"
+            },
+            "scienceworld": {
+              "display": "72.4%",
+              "value": 72.4,
+              "sortValue": 72.4,
+              "sourceValue": "72.4%"
+            },
+            "jericho": {
+              "display": "13.0%",
+              "value": 13.0,
+              "sortValue": 13.0,
+              "sourceValue": "13.0%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Anthropic"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-6",
+          "agent": "claude-3.5-sonnet-latest · Non-reasoning",
+          "sourceRow": 5,
+          "scores": {
+            "overall": {
+              "display": "50.4%",
+              "value": 50.4,
+              "sortValue": 50.4,
+              "sourceValue": "50.4%"
+            },
+            "textworld": {
+              "display": "95.5%",
+              "value": 95.5,
+              "sortValue": 95.5,
+              "sourceValue": "95.5%"
+            },
+            "textworld-express": {
+              "display": "81.6%",
+              "value": 81.6,
+              "sortValue": 81.6,
+              "sourceValue": "81.6%"
+            },
+            "alfworld": {
+              "display": "75.0%",
+              "value": 75.0,
+              "sortValue": 75.0,
+              "sourceValue": "75.0%"
+            },
+            "scienceworld": {
+              "display": "82.3%",
+              "value": 82.3,
+              "sortValue": 82.3,
+              "sourceValue": "82.3%"
+            },
+            "jericho": {
+              "display": "9.6%",
+              "value": 9.6,
+              "sortValue": 9.6,
+              "sourceValue": "9.6%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Anthropic"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-7",
+          "agent": "gpt-4.1 · Non-reasoning",
+          "sourceRow": 6,
+          "scores": {
+            "overall": {
+              "display": "49.9%",
+              "value": 49.9,
+              "sortValue": 49.9,
+              "sourceValue": "49.9%"
+            },
+            "textworld": {
+              "display": "95.3%",
+              "value": 95.3,
+              "sortValue": 95.3,
+              "sourceValue": "95.3%"
+            },
+            "textworld-express": {
+              "display": "92.5%",
+              "value": 92.5,
+              "sortValue": 92.5,
+              "sourceValue": "92.5%"
+            },
+            "alfworld": {
+              "display": "83.3%",
+              "value": 83.3,
+              "sortValue": 83.3,
+              "sourceValue": "83.3%"
+            },
+            "scienceworld": {
+              "display": "76.1%",
+              "value": 76.1,
+              "sortValue": 76.1,
+              "sourceValue": "76.1%"
+            },
+            "jericho": {
+              "display": "6.8%",
+              "value": 6.8,
+              "sortValue": 6.8,
+              "sourceValue": "6.8%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-8",
+          "agent": "o1 · Reasoning",
+          "sourceRow": 7,
+          "scores": {
+            "overall": {
+              "display": "44.2%",
+              "value": 44.2,
+              "sortValue": 44.2,
+              "sourceValue": "44.2%"
+            },
+            "textworld": {
+              "display": "97.8%",
+              "value": 97.8,
+              "sortValue": 97.8,
+              "sourceValue": "97.8%"
+            },
+            "textworld-express": {
+              "display": "70.2%",
+              "value": 70.2,
+              "sortValue": 70.2,
+              "sourceValue": "70.2%"
+            },
+            "alfworld": {
+              "display": "28.3%",
+              "value": 28.3,
+              "sortValue": 28.3,
+              "sourceValue": "28.3%"
+            },
+            "scienceworld": {
+              "display": "80.1%",
+              "value": 80.1,
+              "sortValue": 80.1,
+              "sourceValue": "80.1%"
+            },
+            "jericho": {
+              "display": "10.3%",
+              "value": 10.3,
+              "sortValue": 10.3,
+              "sourceValue": "10.3%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-9",
+          "agent": "gpt-4o · Non-reasoning",
+          "sourceRow": 8,
+          "scores": {
+            "overall": {
+              "display": "40.6%",
+              "value": 40.6,
+              "sortValue": 40.6,
+              "sourceValue": "40.6%"
+            },
+            "textworld": {
+              "display": "83.6%",
+              "value": 83.6,
+              "sortValue": 83.6,
+              "sourceValue": "83.6%"
+            },
+            "textworld-express": {
+              "display": "80.6%",
+              "value": 80.6,
+              "sortValue": 80.6,
+              "sourceValue": "80.6%"
+            },
+            "alfworld": {
+              "display": "56.7%",
+              "value": 56.7,
+              "sortValue": 56.7,
+              "sourceValue": "56.7%"
+            },
+            "scienceworld": {
+              "display": "61.4%",
+              "value": 61.4,
+              "sortValue": 61.4,
+              "sourceValue": "61.4%"
+            },
+            "jericho": {
+              "display": "5.6%",
+              "value": 5.6,
+              "sortValue": 5.6,
+              "sourceValue": "5.6%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-10",
+          "agent": "claude-3.5-haiku · Non-reasoning",
+          "sourceRow": 9,
+          "scores": {
+            "overall": {
+              "display": "39.6%",
+              "value": 39.6,
+              "sortValue": 39.6,
+              "sourceValue": "39.6%"
+            },
+            "textworld": {
+              "display": "94.9%",
+              "value": 94.9,
+              "sortValue": 94.9,
+              "sourceValue": "94.9%"
+            },
+            "textworld-express": {
+              "display": "79.8%",
+              "value": 79.8,
+              "sortValue": 79.8,
+              "sourceValue": "79.8%"
+            },
+            "alfworld": {
+              "display": "26.7%",
+              "value": 26.7,
+              "sortValue": 26.7,
+              "sourceValue": "26.7%"
+            },
+            "scienceworld": {
+              "display": "67.3%",
+              "value": 67.3,
+              "sortValue": 67.3,
+              "sourceValue": "67.3%"
+            },
+            "jericho": {
+              "display": "5.0%",
+              "value": 5.0,
+              "sortValue": 5.0,
+              "sourceValue": "5.0%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Anthropic"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-11",
+          "agent": "Llama-3.1-405B-Instruct · Non-reasoning",
+          "sourceRow": 10,
+          "scores": {
+            "overall": {
+              "display": "36.4%",
+              "value": 36.4,
+              "sortValue": 36.4,
+              "sourceValue": "36.4%"
+            },
+            "textworld": {
+              "display": "90.9%",
+              "value": 90.9,
+              "sortValue": 90.9,
+              "sourceValue": "90.9%"
+            },
+            "textworld-express": {
+              "display": "79.2%",
+              "value": 79.2,
+              "sortValue": 79.2,
+              "sourceValue": "79.2%"
+            },
+            "alfworld": {
+              "display": "31.7%",
+              "value": 31.7,
+              "sortValue": 31.7,
+              "sourceValue": "31.7%"
+            },
+            "scienceworld": {
+              "display": "51.8%",
+              "value": 51.8,
+              "sortValue": 51.8,
+              "sourceValue": "51.8%"
+            },
+            "jericho": {
+              "display": "6.1%",
+              "value": 6.1,
+              "sortValue": 6.1,
+              "sourceValue": "6.1%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Meta"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-12",
+          "agent": "gemini-2.0-flash · Non-reasoning",
+          "sourceRow": 11,
+          "scores": {
+            "overall": {
+              "display": "35.0%",
+              "value": 35.0,
+              "sortValue": 35.0,
+              "sourceValue": "35.0%"
+            },
+            "textworld": {
+              "display": "80.8%",
+              "value": 80.8,
+              "sortValue": 80.8,
+              "sourceValue": "80.8%"
+            },
+            "textworld-express": {
+              "display": "76.1%",
+              "value": 76.1,
+              "sortValue": 76.1,
+              "sourceValue": "76.1%"
+            },
+            "alfworld": {
+              "display": "20.0%",
+              "value": 20.0,
+              "sortValue": 20.0,
+              "sourceValue": "20.0%"
+            },
+            "scienceworld": {
+              "display": "57.1%",
+              "value": 57.1,
+              "sortValue": 57.1,
+              "sourceValue": "57.1%"
+            },
+            "jericho": {
+              "display": "5.4%",
+              "value": 5.4,
+              "sortValue": 5.4,
+              "sourceValue": "5.4%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Google"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-13",
+          "agent": "Qwen3-32B · Reasoning",
+          "sourceRow": 12,
+          "scores": {
+            "overall": {
+              "display": "34.3%",
+              "value": 34.3,
+              "sortValue": 34.3,
+              "sourceValue": "34.3%"
+            },
+            "textworld": {
+              "display": "79.5%",
+              "value": 79.5,
+              "sortValue": 79.5,
+              "sourceValue": "79.5%"
+            },
+            "textworld-express": {
+              "display": "68.9%",
+              "value": 68.9,
+              "sortValue": 68.9,
+              "sourceValue": "68.9%"
+            },
+            "alfworld": {
+              "display": "48.3%",
+              "value": 48.3,
+              "sortValue": 48.3,
+              "sourceValue": "48.3%"
+            },
+            "scienceworld": {
+              "display": "49.8%",
+              "value": 49.8,
+              "sortValue": 49.8,
+              "sourceValue": "49.8%"
+            },
+            "jericho": {
+              "display": "4.0%",
+              "value": 4.0,
+              "sortValue": 4.0,
+              "sourceValue": "4.0%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Alibaba (Qwen)"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-14",
+          "agent": "Llama-3.3-70B-Instruct · Non-reasoning",
+          "sourceRow": 13,
+          "scores": {
+            "overall": {
+              "display": "32.8%",
+              "value": 32.8,
+              "sortValue": 32.8,
+              "sourceValue": "32.8%"
+            },
+            "textworld": {
+              "display": "69.6%",
+              "value": 69.6,
+              "sortValue": 69.6,
+              "sourceValue": "69.6%"
+            },
+            "textworld-express": {
+              "display": "77.2%",
+              "value": 77.2,
+              "sortValue": 77.2,
+              "sourceValue": "77.2%"
+            },
+            "alfworld": {
+              "display": "15.0%",
+              "value": 15.0,
+              "sortValue": 15.0,
+              "sourceValue": "15.0%"
+            },
+            "scienceworld": {
+              "display": "55.1%",
+              "value": 55.1,
+              "sortValue": 55.1,
+              "sourceValue": "55.1%"
+            },
+            "jericho": {
+              "display": "4.5%",
+              "value": 4.5,
+              "sortValue": 4.5,
+              "sourceValue": "4.5%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Meta"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-15",
+          "agent": "Llama-3.1-70B-Instruct · Non-reasoning",
+          "sourceRow": 14,
+          "scores": {
+            "overall": {
+              "display": "32.0%",
+              "value": 32.0,
+              "sortValue": 32.0,
+              "sourceValue": "32.0%"
+            },
+            "textworld": {
+              "display": "65.6%",
+              "value": 65.6,
+              "sortValue": 65.6,
+              "sourceValue": "65.6%"
+            },
+            "textworld-express": {
+              "display": "81.9%",
+              "value": 81.9,
+              "sortValue": 81.9,
+              "sourceValue": "81.9%"
+            },
+            "alfworld": {
+              "display": "8.3%",
+              "value": 8.3,
+              "sortValue": 8.3,
+              "sourceValue": "8.3%"
+            },
+            "scienceworld": {
+              "display": "51.9%",
+              "value": 51.9,
+              "sortValue": 51.9,
+              "sourceValue": "51.9%"
+            },
+            "jericho": {
+              "display": "5.3%",
+              "value": 5.3,
+              "sortValue": 5.3,
+              "sourceValue": "5.3%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Meta"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-16",
+          "agent": "Qwen2.5-72B-Instruct · Non-reasoning",
+          "sourceRow": 15,
+          "scores": {
+            "overall": {
+              "display": "30.7%",
+              "value": 30.7,
+              "sortValue": 30.7,
+              "sourceValue": "30.7%"
+            },
+            "textworld": {
+              "display": "76.5%",
+              "value": 76.5,
+              "sortValue": 76.5,
+              "sourceValue": "76.5%"
+            },
+            "textworld-express": {
+              "display": "83.8%",
+              "value": 83.8,
+              "sortValue": 83.8,
+              "sourceValue": "83.8%"
+            },
+            "alfworld": {
+              "display": "36.7%",
+              "value": 36.7,
+              "sortValue": 36.7,
+              "sourceValue": "36.7%"
+            },
+            "scienceworld": {
+              "display": "35.0%",
+              "value": 35.0,
+              "sortValue": 35.0,
+              "sourceValue": "35.0%"
+            },
+            "jericho": {
+              "display": "2.9%",
+              "value": 2.9,
+              "sortValue": 2.9,
+              "sourceValue": "2.9%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Alibaba (Qwen)"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-17",
+          "agent": "Mistral-Large-Instruct-2407 · Non-reasoning",
+          "sourceRow": 16,
+          "scores": {
+            "overall": {
+              "display": "30.3%",
+              "value": 30.3,
+              "sortValue": 30.3,
+              "sourceValue": "30.3%"
+            },
+            "textworld": {
+              "display": "82.4%",
+              "value": 82.4,
+              "sortValue": 82.4,
+              "sourceValue": "82.4%"
+            },
+            "textworld-express": {
+              "display": "68.3%",
+              "value": 68.3,
+              "sortValue": 68.3,
+              "sourceValue": "68.3%"
+            },
+            "alfworld": {
+              "display": "6.7%",
+              "value": 6.7,
+              "sortValue": 6.7,
+              "sourceValue": "6.7%"
+            },
+            "scienceworld": {
+              "display": "46.1%",
+              "value": 46.1,
+              "sortValue": 46.1,
+              "sourceValue": "46.1%"
+            },
+            "jericho": {
+              "display": "5.8%",
+              "value": 5.8,
+              "sortValue": 5.8,
+              "sourceValue": "5.8%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Mistral AI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-18",
+          "agent": "gpt-4.1-mini · Non-reasoning",
+          "sourceRow": 17,
+          "scores": {
+            "overall": {
+              "display": "27.1%",
+              "value": 27.1,
+              "sortValue": 27.1,
+              "sourceValue": "27.1%"
+            },
+            "textworld": {
+              "display": "62.1%",
+              "value": 62.1,
+              "sortValue": 62.1,
+              "sourceValue": "62.1%"
+            },
+            "textworld-express": {
+              "display": "74.5%",
+              "value": 74.5,
+              "sortValue": 74.5,
+              "sourceValue": "74.5%"
+            },
+            "alfworld": {
+              "display": "5.0%",
+              "value": 5.0,
+              "sortValue": 5.0,
+              "sourceValue": "5.0%"
+            },
+            "scienceworld": {
+              "display": "41.9%",
+              "value": 41.9,
+              "sortValue": 41.9,
+              "sourceValue": "41.9%"
+            },
+            "jericho": {
+              "display": "3.4%",
+              "value": 3.4,
+              "sortValue": 3.4,
+              "sourceValue": "3.4%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-19",
+          "agent": "gpt-4o-mini · Non-reasoning",
+          "sourceRow": 18,
+          "scores": {
+            "overall": {
+              "display": "21.8%",
+              "value": 21.8,
+              "sortValue": 21.8,
+              "sourceValue": "21.8%"
+            },
+            "textworld": {
+              "display": "56.5%",
+              "value": 56.5,
+              "sortValue": 56.5,
+              "sourceValue": "56.5%"
+            },
+            "textworld-express": {
+              "display": "73.6%",
+              "value": 73.6,
+              "sortValue": 73.6,
+              "sourceValue": "73.6%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "27.2%",
+              "value": 27.2,
+              "sortValue": 27.2,
+              "sourceValue": "27.2%"
+            },
+            "jericho": {
+              "display": "1.8%",
+              "value": 1.8,
+              "sortValue": 1.8,
+              "sourceValue": "1.8%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-20",
+          "agent": "Llama-4-Scout-17B-16E-Instruct · Non-reasoning",
+          "sourceRow": 19,
+          "scores": {
+            "overall": {
+              "display": "19.8%",
+              "value": 19.8,
+              "sortValue": 19.8,
+              "sourceValue": "19.8%"
+            },
+            "textworld": {
+              "display": "41.1%",
+              "value": 41.1,
+              "sortValue": 41.1,
+              "sourceValue": "41.1%"
+            },
+            "textworld-express": {
+              "display": "68.4%",
+              "value": 68.4,
+              "sortValue": 68.4,
+              "sourceValue": "68.4%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "27.0%",
+              "value": 27.0,
+              "sortValue": 27.0,
+              "sourceValue": "27.0%"
+            },
+            "jericho": {
+              "display": "1.8%",
+              "value": 1.8,
+              "sortValue": 1.8,
+              "sourceValue": "1.8%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Meta"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-21",
+          "agent": "Llama-4-Maverick-17B-128E-Instruct · Non-reasoning",
+          "sourceRow": 20,
+          "scores": {
+            "overall": {
+              "display": "15.5%",
+              "value": 15.5,
+              "sortValue": 15.5,
+              "sourceValue": "15.5%"
+            },
+            "textworld": {
+              "display": "43.5%",
+              "value": 43.5,
+              "sortValue": 43.5,
+              "sourceValue": "43.5%"
+            },
+            "textworld-express": {
+              "display": "56.1%",
+              "value": 56.1,
+              "sortValue": 56.1,
+              "sourceValue": "56.1%"
+            },
+            "alfworld": {
+              "display": "8.3%",
+              "value": 8.3,
+              "sortValue": 8.3,
+              "sourceValue": "8.3%"
+            },
+            "scienceworld": {
+              "display": "11.5%",
+              "value": 11.5,
+              "sortValue": 11.5,
+              "sourceValue": "11.5%"
+            },
+            "jericho": {
+              "display": "2.0%",
+              "value": 2.0,
+              "sortValue": 2.0,
+              "sourceValue": "2.0%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Meta"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-22",
+          "agent": "Mistral-Small-Instruct-2409 · Non-reasoning",
+          "sourceRow": 21,
+          "scores": {
+            "overall": {
+              "display": "14.8%",
+              "value": 14.8,
+              "sortValue": 14.8,
+              "sourceValue": "14.8%"
+            },
+            "textworld": {
+              "display": "56.1%",
+              "value": 56.1,
+              "sortValue": 56.1,
+              "sourceValue": "56.1%"
+            },
+            "textworld-express": {
+              "display": "27.3%",
+              "value": 27.3,
+              "sortValue": 27.3,
+              "sourceValue": "27.3%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "24.4%",
+              "value": 24.4,
+              "sortValue": 24.4,
+              "sourceValue": "24.4%"
+            },
+            "jericho": {
+              "display": "1.4%",
+              "value": 1.4,
+              "sortValue": 1.4,
+              "sourceValue": "1.4%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Mistral AI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-23",
+          "agent": "Llama-3.1-8B-Instruct · Non-reasoning",
+          "sourceRow": 22,
+          "scores": {
+            "overall": {
+              "display": "13.9%",
+              "value": 13.9,
+              "sortValue": 13.9,
+              "sourceValue": "13.9%"
+            },
+            "textworld": {
+              "display": "29.7%",
+              "value": 29.7,
+              "sortValue": 29.7,
+              "sourceValue": "29.7%"
+            },
+            "textworld-express": {
+              "display": "50.3%",
+              "value": 50.3,
+              "sortValue": 50.3,
+              "sourceValue": "50.3%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "15.7%",
+              "value": 15.7,
+              "sortValue": 15.7,
+              "sourceValue": "15.7%"
+            },
+            "jericho": {
+              "display": "2.3%",
+              "value": 2.3,
+              "sortValue": 2.3,
+              "sourceValue": "2.3%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Meta"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-24",
+          "agent": "DeepSeek-R1 · Reasoning",
+          "sourceRow": 23,
+          "scores": {
+            "overall": {
+              "display": "12.4%",
+              "value": 12.4,
+              "sortValue": 12.4,
+              "sourceValue": "12.4%"
+            },
+            "textworld": {
+              "display": "37.1%",
+              "value": 37.1,
+              "sortValue": 37.1,
+              "sourceValue": "37.1%"
+            },
+            "textworld-express": {
+              "display": "38.6%",
+              "value": 38.6,
+              "sortValue": 38.6,
+              "sourceValue": "38.6%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "15.8%",
+              "value": 15.8,
+              "sortValue": 15.8,
+              "sourceValue": "15.8%"
+            },
+            "jericho": {
+              "display": "1.0%",
+              "value": 1.0,
+              "sortValue": 1.0,
+              "sourceValue": "1.0%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "DeepSeek"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-25",
+          "agent": "Qwen2.5-7B-Instruct · Non-reasoning",
+          "sourceRow": 24,
+          "scores": {
+            "overall": {
+              "display": "11.7%",
+              "value": 11.7,
+              "sortValue": 11.7,
+              "sourceValue": "11.7%"
+            },
+            "textworld": {
+              "display": "27.7%",
+              "value": 27.7,
+              "sortValue": 27.7,
+              "sourceValue": "27.7%"
+            },
+            "textworld-express": {
+              "display": "45.6%",
+              "value": 45.6,
+              "sortValue": 45.6,
+              "sourceValue": "45.6%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "12.6%",
+              "value": 12.6,
+              "sortValue": 12.6,
+              "sourceValue": "12.6%"
+            },
+            "jericho": {
+              "display": "0.7%",
+              "value": 0.7,
+              "sortValue": 0.7,
+              "sourceValue": "0.7%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Alibaba (Qwen)"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-26",
+          "agent": "Llama-3.2-3B-Instruct · Non-reasoning",
+          "sourceRow": 25,
+          "scores": {
+            "overall": {
+              "display": "10.4%",
+              "value": 10.4,
+              "sortValue": 10.4,
+              "sourceValue": "10.4%"
+            },
+            "textworld": {
+              "display": "21.4%",
+              "value": 21.4,
+              "sortValue": 21.4,
+              "sourceValue": "21.4%"
+            },
+            "textworld-express": {
+              "display": "42.0%",
+              "value": 42.0,
+              "sortValue": 42.0,
+              "sourceValue": "42.0%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "10.0%",
+              "value": 10.0,
+              "sortValue": 10.0,
+              "sourceValue": "10.0%"
+            },
+            "jericho": {
+              "display": "1.5%",
+              "value": 1.5,
+              "sortValue": 1.5,
+              "sourceValue": "1.5%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Meta"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-27",
+          "agent": "phi-4 · Non-reasoning",
+          "sourceRow": 26,
+          "scores": {
+            "overall": {
+              "display": "10.3%",
+              "value": 10.3,
+              "sortValue": 10.3,
+              "sourceValue": "10.3%"
+            },
+            "textworld": {
+              "display": "20.8%",
+              "value": 20.8,
+              "sortValue": 20.8,
+              "sourceValue": "20.8%"
+            },
+            "textworld-express": {
+              "display": "43.8%",
+              "value": 43.8,
+              "sortValue": 43.8,
+              "sourceValue": "43.8%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "8.9%",
+              "value": 8.9,
+              "sortValue": 8.9,
+              "sourceValue": "8.9%"
+            },
+            "jericho": {
+              "display": "1.6%",
+              "value": 1.6,
+              "sortValue": 1.6,
+              "sourceValue": "1.6%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Microsoft"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-28",
+          "agent": "gpt-4.1-nano · Non-reasoning",
+          "sourceRow": 27,
+          "scores": {
+            "overall": {
+              "display": "10.0%",
+              "value": 10.0,
+              "sortValue": 10.0,
+              "sourceValue": "10.0%"
+            },
+            "textworld": {
+              "display": "12.8%",
+              "value": 12.8,
+              "sortValue": 12.8,
+              "sourceValue": "12.8%"
+            },
+            "textworld-express": {
+              "display": "38.7%",
+              "value": 38.7,
+              "sortValue": 38.7,
+              "sourceValue": "38.7%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "9.4%",
+              "value": 9.4,
+              "sortValue": 9.4,
+              "sourceValue": "9.4%"
+            },
+            "jericho": {
+              "display": "3.6%",
+              "value": 3.6,
+              "sortValue": 3.6,
+              "sourceValue": "3.6%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "OpenAI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-29",
+          "agent": "Mistral-Small-24B-Instruct-2501 · Non-reasoning",
+          "sourceRow": 28,
+          "scores": {
+            "overall": {
+              "display": "8.8%",
+              "value": 8.8,
+              "sortValue": 8.8,
+              "sourceValue": "8.8%"
+            },
+            "textworld": {
+              "display": "15.8%",
+              "value": 15.8,
+              "sortValue": 15.8,
+              "sourceValue": "15.8%"
+            },
+            "textworld-express": {
+              "display": "23.0%",
+              "value": 23.0,
+              "sortValue": 23.0,
+              "sourceValue": "23.0%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "15.8%",
+              "value": 15.8,
+              "sortValue": 15.8,
+              "sourceValue": "15.8%"
+            },
+            "jericho": {
+              "display": "1.4%",
+              "value": 1.4,
+              "sortValue": 1.4,
+              "sourceValue": "1.4%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Mistral AI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-30",
+          "agent": "DeepSeek-R1-Distill-Llama-70B · Reasoning",
+          "sourceRow": 29,
+          "scores": {
+            "overall": {
+              "display": "8.4%",
+              "value": 8.4,
+              "sortValue": 8.4,
+              "sourceValue": "8.4%"
+            },
+            "textworld": {
+              "display": "8.7%",
+              "value": 8.7,
+              "sortValue": 8.7,
+              "sourceValue": "8.7%"
+            },
+            "textworld-express": {
+              "display": "39.8%",
+              "value": 39.8,
+              "sortValue": 39.8,
+              "sourceValue": "39.8%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "7.7%",
+              "value": 7.7,
+              "sortValue": 7.7,
+              "sourceValue": "7.7%"
+            },
+            "jericho": {
+              "display": "1.3%",
+              "value": 1.3,
+              "sortValue": 1.3,
+              "sourceValue": "1.3%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "DeepSeek"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-31",
+          "agent": "Ministral-8B-Instruct-2410 · Non-reasoning",
+          "sourceRow": 30,
+          "scores": {
+            "overall": {
+              "display": "4.6%",
+              "value": 4.6,
+              "sortValue": 4.6,
+              "sourceValue": "4.6%"
+            },
+            "textworld": {
+              "display": "10.9%",
+              "value": 10.9,
+              "sortValue": 10.9,
+              "sourceValue": "10.9%"
+            },
+            "textworld-express": {
+              "display": "22.8%",
+              "value": 22.8,
+              "sortValue": 22.8,
+              "sourceValue": "22.8%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "2.3%",
+              "value": 2.3,
+              "sortValue": 2.3,
+              "sourceValue": "2.3%"
+            },
+            "jericho": {
+              "display": "0.4%",
+              "value": 0.4,
+              "sortValue": 0.4,
+              "sourceValue": "0.4%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Mistral AI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-32",
+          "agent": "Mistral-Small-3.1-24B-Instruct-2503 · Non-reasoning",
+          "sourceRow": 31,
+          "scores": {
+            "overall": {
+              "display": "4.5%",
+              "value": 4.5,
+              "sortValue": 4.5,
+              "sourceValue": "4.5%"
+            },
+            "textworld": {
+              "display": "2.5%",
+              "value": 2.5,
+              "sortValue": 2.5,
+              "sourceValue": "2.5%"
+            },
+            "textworld-express": {
+              "display": "10.3%",
+              "value": 10.3,
+              "sortValue": 10.3,
+              "sourceValue": "10.3%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "10.5%",
+              "value": 10.5,
+              "sortValue": 10.5,
+              "sourceValue": "10.5%"
+            },
+            "jericho": {
+              "display": "0.8%",
+              "value": 0.8,
+              "sortValue": 0.8,
+              "sourceValue": "0.8%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Mistral AI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-33",
+          "agent": "Mixtral-8x22B-Instruct-v0.1 · Non-reasoning",
+          "sourceRow": 32,
+          "scores": {
+            "overall": {
+              "display": "3.7%",
+              "value": 3.7,
+              "sortValue": 3.7,
+              "sourceValue": "3.7%"
+            },
+            "textworld": {
+              "display": "17.1%",
+              "value": 17.1,
+              "sortValue": 17.1,
+              "sourceValue": "17.1%"
+            },
+            "textworld-express": {
+              "display": "8.4%",
+              "value": 8.4,
+              "sortValue": 8.4,
+              "sourceValue": "8.4%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "4.0%",
+              "value": 4.0,
+              "sortValue": 4.0,
+              "sourceValue": "4.0%"
+            },
+            "jericho": {
+              "display": "0.4%",
+              "value": 0.4,
+              "sortValue": 0.4,
+              "sourceValue": "0.4%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Mistral AI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-34",
+          "agent": "Llama-3.2-1B-Instruct · Non-reasoning",
+          "sourceRow": 33,
+          "scores": {
+            "overall": {
+              "display": "3.3%",
+              "value": 3.3,
+              "sortValue": 3.3,
+              "sourceValue": "3.3%"
+            },
+            "textworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "textworld-express": {
+              "display": "19.0%",
+              "value": 19.0,
+              "sortValue": 19.0,
+              "sourceValue": "19.0%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "2.4%",
+              "value": 2.4,
+              "sortValue": 2.4,
+              "sourceValue": "2.4%"
+            },
+            "jericho": {
+              "display": "0.6%",
+              "value": 0.6,
+              "sortValue": 0.6,
+              "sourceValue": "0.6%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Meta"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-35",
+          "agent": "Phi-3-mini-128k-instruct · Non-reasoning",
+          "sourceRow": 34,
+          "scores": {
+            "overall": {
+              "display": "2.2%",
+              "value": 2.2,
+              "sortValue": 2.2,
+              "sourceValue": "2.2%"
+            },
+            "textworld": {
+              "display": "2.7%",
+              "value": 2.7,
+              "sortValue": 2.7,
+              "sourceValue": "2.7%"
+            },
+            "textworld-express": {
+              "display": "9.4%",
+              "value": 9.4,
+              "sortValue": 9.4,
+              "sourceValue": "9.4%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "2.4%",
+              "value": 2.4,
+              "sortValue": 2.4,
+              "sourceValue": "2.4%"
+            },
+            "jericho": {
+              "display": "0.3%",
+              "value": 0.3,
+              "sortValue": 0.3,
+              "sourceValue": "0.3%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Microsoft"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-36",
+          "agent": "Phi-3.5-MoE-instruct · Non-reasoning",
+          "sourceRow": 35,
+          "scores": {
+            "overall": {
+              "display": "1.7%",
+              "value": 1.7,
+              "sortValue": 1.7,
+              "sourceValue": "1.7%"
+            },
+            "textworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "textworld-express": {
+              "display": "7.0%",
+              "value": 7.0,
+              "sortValue": 7.0,
+              "sourceValue": "7.0%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "2.3%",
+              "value": 2.3,
+              "sortValue": 2.3,
+              "sourceValue": "2.3%"
+            },
+            "jericho": {
+              "display": "0.4%",
+              "value": 0.4,
+              "sortValue": 0.4,
+              "sourceValue": "0.4%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Microsoft"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-37",
+          "agent": "Phi-4-mini-instruct · Non-reasoning",
+          "sourceRow": 36,
+          "scores": {
+            "overall": {
+              "display": "1.5%",
+              "value": 1.5,
+              "sortValue": 1.5,
+              "sourceValue": "1.5%"
+            },
+            "textworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "textworld-express": {
+              "display": "5.5%",
+              "value": 5.5,
+              "sortValue": 5.5,
+              "sourceValue": "5.5%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "2.3%",
+              "value": 2.3,
+              "sortValue": 2.3,
+              "sourceValue": "2.3%"
+            },
+            "jericho": {
+              "display": "0.5%",
+              "value": 0.5,
+              "sortValue": 0.5,
+              "sourceValue": "0.5%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Microsoft"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-38",
+          "agent": "Mixtral-8x7B-Instruct-v0.1 · Non-reasoning",
+          "sourceRow": 37,
+          "scores": {
+            "overall": {
+              "display": "1.3%",
+              "value": 1.3,
+              "sortValue": 1.3,
+              "sourceValue": "1.3%"
+            },
+            "textworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "textworld-express": {
+              "display": "1.6%",
+              "value": 1.6,
+              "sortValue": 1.6,
+              "sourceValue": "1.6%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "4.0%",
+              "value": 4.0,
+              "sortValue": 4.0,
+              "sourceValue": "4.0%"
+            },
+            "jericho": {
+              "display": "0.3%",
+              "value": 0.3,
+              "sortValue": 0.3,
+              "sourceValue": "0.3%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Mistral AI"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-39",
+          "agent": "Phi-3.5-mini-instruct · Non-reasoning",
+          "sourceRow": 38,
+          "scores": {
+            "overall": {
+              "display": "1.0%",
+              "value": 1.0,
+              "sortValue": 1.0,
+              "sourceValue": "1.0%"
+            },
+            "textworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "textworld-express": {
+              "display": "2.0%",
+              "value": 2.0,
+              "sortValue": 2.0,
+              "sourceValue": "2.0%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "2.4%",
+              "value": 2.4,
+              "sortValue": 2.4,
+              "sourceValue": "2.4%"
+            },
+            "jericho": {
+              "display": "0.5%",
+              "value": 0.5,
+              "sortValue": 0.5,
+              "sourceValue": "0.5%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Microsoft"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        },
+        {
+          "id": "tales-40",
+          "agent": "Phi-3-medium-128k-instruct · Non-reasoning",
+          "sourceRow": 39,
+          "scores": {
+            "overall": {
+              "display": "0.7%",
+              "value": 0.7,
+              "sortValue": 0.7,
+              "sourceValue": "0.7%"
+            },
+            "textworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "textworld-express": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "alfworld": {
+              "display": "0.0%",
+              "value": 0.0,
+              "sortValue": 0.0,
+              "sourceValue": "0.0%"
+            },
+            "scienceworld": {
+              "display": "2.3%",
+              "value": 2.3,
+              "sortValue": 2.3,
+              "sourceValue": "2.3%"
+            },
+            "jericho": {
+              "display": "0.3%",
+              "value": 0.3,
+              "sortValue": 0.3,
+              "sourceValue": "0.3%"
+            }
+          },
+          "resultUrl": "https://microsoft.github.io/tale-suite/",
+          "context": [
+            {
+              "label": {
+                "zh": "模型提供方",
+                "en": "Model provider"
+              },
+              "value": "Microsoft"
+            },
+            {
+              "label": {
+                "zh": "配置",
+                "en": "Configuration"
+              },
+              "value": "Non-reasoning"
+            }
+          ]
+        }
+      ],
+      "displayMode": "snapshot",
+      "maintainer": "Microsoft · TALES authors",
+      "externalTracks": [],
+      "snapshotLabel": {
+        "zh": "40 个模型配置 · 五个框架分项",
+        "en": "40 model configurations · five framework scores"
+      },
+      "gameLinks": [
+        {
+          "gameId": "scienceworld",
+          "benchmarkId": "GAB032",
+          "metricId": "scienceworld",
+          "label": "ScienceWorld"
+        }
+      ]
+    }
+  ],
+  "boardMetadata": {
+    "kaggle-game-arena": {
+      "kind": "continuous",
+      "dateKind": "unknown",
+      "reason": {
+        "zh": "原站持续加入模型与游戏；围棋榜报告 2026-10-19 更新。该日期仅适用于围棋赛道。",
+        "en": "The platform adds model and game evaluations; Go reports an update on 2026-10-19, applying only to that track."
+      },
+      "evidenceUrl": "https://www.kaggle.com/blog/unified-game-arena-leaderboard",
+      "reviewedAt": "2026-11-02",
+      "dateMissingLabel": {
+        "zh": "总榜日期未核实；单项见下方",
+        "en": "Unified date unverified; game dates below"
+      }
+    },
+    "duellab-gamebench2": {
+      "kind": "continuous",
+      "dateKind": "pageUpdated",
+      "reason": {
+        "zh": "维护方持续添加模型、游戏与对局证据；GameBench 1 为冻结历史版本。",
+        "en": "The maintainer adds models, games and match evidence; GameBench 1 is a frozen historical version."
+      },
+      "evidenceUrl": "https://benchmarks.duellab.org/methodology",
+      "reviewedAt": "2026-11-02",
+      "dateLabel": {
+        "zh": "榜单页面更新",
+        "en": "Leaderboard page updated"
+      }
+    },
+    "chessbench-best": {
+      "kind": "continuous",
+      "dateKind": "dataUpdated",
+      "reason": {
+        "zh": "chessbench-v3 的 Best 视图，每个模型保留来源选出的推理配置。",
+        "en": "The chessbench-v3 Best view, retaining the thinking setup selected by the source for each model."
+      },
+      "evidenceUrl": "https://chessbench.org/data",
+      "reviewedAt": "2026-11-02"
+    },
+    "starskirmish-v02": {
+      "kind": "continuous",
+      "dateKind": "dataUpdated",
+      "reason": {
+        "zh": "v0.1（2026-09-26）后发布 v0.2（2026-10-15）；属于按版本更新的独立评测。",
+        "en": "v0.2 (2026-10-15) follows v0.1 (2026-09-26): independent evaluations updated by release."
+      },
+      "evidenceUrl": "https://starskirmish.com/bench/v0-2/",
+      "reviewedAt": "2026-11-02",
+      "dateLabel": {
+        "zh": "v0.2 成绩发布",
+        "en": "v0.2 results published"
+      }
+    },
+    "sc2-ai-arena": {
+      "kind": "seasonal",
+      "dateKind": "unknown",
+      "reason": {
+        "zh": "Melee 以赛季和分区组织轮赛；社区 Recap 读取官方数据，其同步时间不等于最近对局时间。",
+        "en": "Melee organizes round-robin play by season and division; the community Recap reads official data, and its sync time is not the latest match time."
+      },
+      "evidenceUrl": "https://aiarena.net/wiki/ladders/",
+      "reviewedAt": "2026-11-02",
+      "dateMissingLabel": {
+        "zh": "最近对局时间待核实",
+        "en": "Latest match date unverified"
+      }
+    },
+    "arc-agi3-2026": {
+      "kind": "seasonal",
+      "dateKind": "unknown",
+      "reason": {
+        "zh": "按年度竞赛收录，提交截止日不是成绩更新时间。",
+        "en": "Indexed as an annual competition; the submission deadline is not a score update date."
+      },
+      "evidenceUrl": "https://arcprize.org/competitions/2026/arc-agi-3",
+      "reviewedAt": "2026-11-02",
+      "dateMissingLabel": {
+        "zh": "最近提交时间待核实",
+        "en": "Latest submission date unverified"
+      }
+    },
+    "tales": {
+      "kind": "reference",
+      "dateKind": "unknown",
+      "reason": {
+        "zh": "作者发布的研究结果表，未公布成绩更新日期；未确认持续接收新的外部评测。",
+        "en": "An author-published research results table with no score update date; ongoing external evaluation intake is unconfirmed."
+      },
+      "evidenceUrl": "https://github.com/microsoft/tale-suite",
+      "reviewedAt": "2026-11-02"
+    }
+  }
+}

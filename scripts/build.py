@@ -29,6 +29,15 @@ def main():
     leaderboards['boards'].extend(expansion['boards'])
     leaderboards['capturedAt'] = max(b['source']['snapshotAt'] for b in leaderboards['boards'])
     leaderboards['boardMetadata'] = json.loads((CURATION / 'official-leaderboard-metadata.json').read_text())
+    maintained = json.loads((CURATION / 'maintained-leaderboards.json').read_text())
+    leaderboards['boards'].extend(maintained['boards'])
+    leaderboards['boardMetadata'].update(maintained['boardMetadata'])
+    leaderboards['sources'] = maintained['sources']
+    source_board_ids = [bid for source in maintained['sources'] for bid in source['boardIds']]
+    if len(source_board_ids) != len(set(source_board_ids)) or set(source_board_ids) != {b['id'] for b in leaderboards['boards']}:
+        raise ValueError('Every leaderboard track must belong to exactly one source.')
+    leaderboards['capturedAt'] = max(b['source']['snapshotAt'] for b in leaderboards['boards'])
+    leaderboards['sourceSnapshots'].extend(b['source']['evidenceFile'] for b in maintained['boards'] if b['source'].get('evidenceFile'))
     if set(leaderboards['boardMetadata']) != {b['id'] for b in leaderboards['boards']}:
         raise ValueError('Every official leaderboard must have explicit status and date provenance.')
     if len({b['id'] for b in leaderboards['boards']}) != len(leaderboards['boards']):

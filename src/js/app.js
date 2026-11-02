@@ -131,7 +131,7 @@
     p.set("lang",window.AtlasLanguage.current());
     p.set('view',state.view);
     if(['explore','themes'].includes(state.view)){const previous=new URLSearchParams(location.search);p.set('catalog','archives');for(const [key,value] of previous)if(key.startsWith('library'))p.set(key,value);if(!previous.has('question')&&(!previous.has('view')||previous.get('view')==='explore'))for(const [oldKey,newKey] of Object.entries({q:'libraryQ',agent:'libraryAgent',capability:'libraryCap',genre:'libraryGenre',interaction:'libraryInteraction',kind:'libraryKind',sort:'librarySort'}))if(previous.has(oldKey)&&!p.has(newKey))p.set(newKey,previous.get(oldKey));}
-    if(state.view==='arena'){p.set('arenaPanel',window.AtlasArena.panel());const old=new URLSearchParams(location.search);for(const key of ['arenaPlan','arenaBoard','arenaMetric','arenaQuery','arenaGroup'])if(old.has(key))p.set(key,old.get(key));}
+    if(state.view==='arena'){p.set('arenaPanel',window.AtlasArena.panel());const old=new URLSearchParams(location.search);for(const key of ['arenaPlan','arenaBoard','arenaMetric','arenaQuery','arenaGroup','arenaCollection','arenaStatus'])if(old.has(key))p.set(key,old.get(key));}
     if(state.view==='games'){p.set('category',state.gameCategory);p.set('game',state.game);if(state.gameResource==='evaluation')p.set('gameResource','evaluation');if(['reviewed','tasks'].includes(state.gameReview))p.set('gameReview',state.gameReview);if(state.gameSearch)p.set('gameSearch',state.gameSearch);if(state.gameUsage&&state.gameUsage!=='all')p.set('gameUsage',state.gameUsage);if(state.gameCapability){p.set('gameCapability',state.gameCapability);if(state.gameAssociation==='secondary')p.set('gameAssociation','secondary');}}
     if(state.view!=='explore'&&state.q)p.set('q',state.q);
     if(state.view!=='explore'&&state.question)p.set('question',state.question);
@@ -310,7 +310,7 @@
     window.AtlasArena.show(state.view==='arena');
     $('#section-title').textContent={themes:'主题相关条目',explore:'资源目录',capabilities:'分类方法',games:'游戏索引',arena:'Game Arena'}[state.view];
     $('#section-eyebrow').textContent={themes:'THEME RESULTS',explore:'BENCHMARK INDEX',capabilities:'TAXONOMY & EVIDENCE',games:'GAME CATEGORIES',arena:'GAME ARENA'}[state.view];
-    $('#section-description').textContent={themes:'重点候选 · 关联依据 · 实验条件',explore:bilingual('研究档案 · 任务与评估 · 分类依据与来源','Research archives · Tasks & evaluation · Evidence & sources'),capabilities:'收录规则 · 分类定义 · 证据来源与核验',games:'按具体游戏定位评估任务，再查看其研究侧重与分类依据。',arena:window.AtlasLanguage.current()==='zh'?'官方成绩 · 评测协议':'Official results · Evaluation protocols'}[state.view];
+    $('#section-description').textContent={themes:'重点候选 · 关联依据 · 实验条件',explore:bilingual('研究档案 · 任务与评估 · 分类依据与来源','Research archives · Tasks & evaluation · Evidence & sources'),capabilities:'收录规则 · 分类定义 · 证据来源与核验',games:'按具体游戏定位评估任务，再查看其研究侧重与分类依据。',arena:window.AtlasLanguage.current()==='zh'?'外部榜单 · 评测协议':'External leaderboards · Evaluation protocols'}[state.view];
     $('.skip-link').setAttribute('href',themes?'#questions':'#collection');
     renderQuestions();
     $$('.nav-link,.nav-secondary').forEach(b=>{const active=b.dataset.view===state.view;b.classList.toggle('active',active);if(active)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});

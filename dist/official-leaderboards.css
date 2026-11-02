@@ -56,3 +56,24 @@ body[data-view="arena"] #arena-content .official-leaderboards .lb-nav-list butto
  body[data-view="arena"] #arena-content .official-leaderboards .lb-nav-list button{height:30px;min-height:30px}
  .lb-nav h3{margin-bottom:6px}.lb-direction{margin-bottom:6px}
 }
+/* Source-level navigation keeps related tracks in one compact row. */
+.lb-nav-kind[data-kind="continuous"]{color:#35665a}
+.lb-nav-kind[data-kind="seasonal"]{color:#5e5778}
+.lb-kind[data-kind="continuous"]{color:#315f52;background:#edf2ed;border-color:#d5e0d5}
+.lb-kind[data-kind="seasonal"]{color:#5e5778;background:#f0edf4;border-color:#dcd5e6}
+.lb-kind[data-kind="reference"]{color:#795a39;background:#f5f0e8;border-color:#e5dccd}
+.lb-track-switch{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+body[data-view="arena"] .lb-track-switch button{font-size:12px;padding:5px 10px;border:1px solid #dcded5;border-radius:4px;color:#686b64;background:none}
+body[data-view="arena"] .lb-track-switch button[aria-pressed="true"]{color:#315c63;border-color:#9baea5;background:#edf2ed}
+.lb-heading .lb-maintainer{font-size:12px;color:#454941;margin:10px 0}
+.lb-protocol-summary{margin:16px 0;padding:12px 0;border-top:1px solid #dcded5;border-bottom:1px solid #dcded5;font-size:13px;line-height:1.7}
+.lb-protocol-summary>div{display:grid;grid-template-columns:105px minmax(0,1fr);gap:16px;margin:6px 0}
+.lb-protocol-summary dt{color:#686b64}.lb-protocol-summary dd{margin:0;color:#454941;max-width:900px}
+.lb-external-results{border-top:1px solid #dcded5;padding-top:16px}
+.lb-external-results h3{font-size:16px;margin:0 0 6px;font-weight:600}
+.lb-external-results p{font-size:13px;color:#686b64;margin:6px 0 12px}
+.lb-external-tracks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+.lb-external-tracks>div{display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:12px 0;border-bottom:1px solid #e6e5df;font-size:14px}
+.lb-external-tracks span{font-size:11px;color:#686b64;white-space:nowrap}
+body[data-view="arena"] .lb-game-link button{border:0;background:none;padding:0;color:#315c63;font-size:13px}
+.lb-game-link a{margin-left:16px;font-size:12px}.lb-nav-empty{font-size:12px;line-height:1.7;color:#686b64}

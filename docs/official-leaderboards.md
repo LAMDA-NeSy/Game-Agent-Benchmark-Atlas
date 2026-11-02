@@ -43,10 +43,29 @@ Arena presents published results within each source's metric and protocol. It do
 
 The expansion passed 35 automated checks and browser checks of all 16 boards in both languages, every selectable metric, missing ratings, reference sections, search-rank stability, detailed results, and retained evaluation-tool navigation. Desktop widths of 1200 and 1440 pixels were checked. Both existing data exports and the original four source tables are preserved.
 
-### Board status and date hierarchy (2026-11-02)
+### Maintained-source curation (2026-11-02)
 
-`data/curation/official-leaderboard-metadata.json` classifies each imported **track or result batch**, independently of the score records. Five tracks are open boards (BALROG LLM/VLM, Orak performance/battles, VideoGameBench Full); eight are historical competition rounds or archived model batches; three are fixed author-published result batches (LMGame model, GAMEBoT aggregate, PGG multi-pass). “Open” requires an official submission route or an explicit statement accepting new submissions; it does not promise continuous updates or live synchronization. VideoGameBench explicitly describes author-run hidden tests for new submissions in its repository. “Fixed” describes the collected experimental batch, not a claim that its project will never publish further results. TextArena's historical designation applies only to the imported inactive Balanced Subset records, not the entire service. Per-track bilingual reasons and evidence links appear under protocol/provenance.
+The index is organized by **source**, with tracks selected in the detail panel. Eight selected sources appear by default; all 19 sources remain accessible through the collection selector. The original 16 tracks and 344 records are unchanged. Seven new tracks add 58 score records, bringing the export to 23 tracks and 402 records.
 
-The prominent date preserves the source field's semantics: source-page update (Orak), score-data update (PokéAgent qualifying JSON), latest record update (PokéAgent speedrun), or latest submission among collected records (BALROG and the four AIcrowd rounds). Missing update dates are explicitly shown as unpublished, without inferring a date from paper publication, code commits, or Atlas collection. The collection date remains secondary below source links. No score, ranking, reference baseline, evaluation protocol, or snapshot capture time is altered by this presentation metadata.
+| Selected source | Classification | Date provenance | Presentation |
+| --- | --- | --- | --- |
+| Kaggle Game Arena | Maintained | Go results: 2026-10-19; unified date unverified | Source links for unified/chess/Go/poker/Werewolf boards |
+| DuelLab GameBench 2 | Maintained | Leaderboard page: 2026-11-01 | Source standings and release archive |
+| ChessBench | Maintained | Results: 2026-10-26 | Complete Best view, 18 model configurations |
+| StarSkirmish | Maintained, versioned | v0.2 results: 2026-10-15 | v0.2 mean win rate and separate v0.1 link |
+| SC2 AI Arena | Seasonal | Latest match date unverified | Official ladder and attributed community Recap |
+| ARC-AGI-3 2026 | Seasonal | Latest submission date unverified | Official competition board; deadline is separate |
+| BALROG | LLM maintained; VLM research reference | Latest collected submissions: 2026-09-20 / 2025-04-25 | Existing LLM and VLM result snapshots |
+| TALES | Research reference | Source table has no results-update date | Complete 40-configuration table, including ScienceWorld |
 
-The left index retains its existing 30/32 px rows, with short textual status labels; environment counts remain in the detail panel. Full track names and status remain available in button tooltips and accessible names. Typography uses the existing local font stack and tabular numerals, with the score date emphasized separately from collection metadata.
+“Maintained” describes the external source's evidenced updates, not automatic Atlas synchronization. StarSkirmish updates by release. Submission availability alone is insufficient: Orak and VideoGameBench remain research references until recent scores are confirmed. Old competitions and the inactive TextArena batch remain historical; the classification applies to the collected track, not the entire service.
+
+`data/curation/maintained-leaderboards.json` contains the source index, seven new tracks, bilingual protocols, maintainer identity and sourced classification metadata. `python3 scripts/import_maintained_leaderboards.py` regenerates it offline from the two committed source-table extracts and curated primary-source notes. The two evidence files are `data/sources/official-leaderboards/2026-11-02-{chessbench,tales}.json`. ChessBench preserves the displayed Best view, not all thinking variants; TALES retains each framework score and the source overall score without recomputing the aggregation. Two TALES naming discrepancies between overview and framework tables are normalized only for row matching; source rows remain intact.
+
+Five sources use explicitly labeled external-result panels, not empty local tables. Their zero local records mean that results are accessed at the source, not that the competition has no submissions. This avoids implying that a partial or stale snapshot is a live board. Public pages were verified through the web reader; several endpoints reject direct programmatic fetching. No fabricated score rows, refresh dates, or cross-source rankings are introduced.
+
+ScienceWorld is connected as a TALES framework metric, with a reciprocal link from archive GAB032. It is not a new standalone ScienceWorld ranking, and the score scope is TALES's tasks and configuration. Model providers are distinguished from evaluating or submitting organizations.
+
+The prominent date retains source semantics (results, page update, submission, or version release); missing date verification is distinguished from a date not published by the source. A community-view sync time, season deadline, paper date, code commit, and Atlas retrieval date never substitute for the score date. Collection dates remain secondary.
+
+Validation: 43 automated checks; browser checks at 1366×768, 1440×900 and 1200×900 in Chinese and English. All eight selected entries fit without clipping. Verified source/type/direction filters, empty results, track selection, search and ranking, language/reload persistence, ScienceWorld archive navigation, retained legacy scores and evaluation tools.

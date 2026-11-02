@@ -16,7 +16,7 @@ test('every imported result preserves source table cells, order, dates and flags
  }
  const built=require('../dist/official-leaderboards.json');
  assert.deepEqual(built.boards.slice(0,4),data.boards);
- assert.deepEqual(built.boards.slice(4),require('../data/curation/official-leaderboard-expansion.json').boards);
+ assert.deepEqual(built.boards.slice(4,16),require('../data/curation/official-leaderboard-expansion.json').boards);
 });
 test('native ranking respects direction, exact precision, ties, missing scores and search scope',()=>{
  const board={columns:[{id:'overall',direction:'asc'},{id:'game',direction:'desc'}],entries:[
