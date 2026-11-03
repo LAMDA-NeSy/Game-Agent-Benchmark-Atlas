@@ -15,22 +15,23 @@
  // Image links retain the original-file fallback and modifier-click behavior.
  let returnFocus=null;
  document.addEventListener('click',event=>{
-  const link=event.target.closest?.('.game-screenshot-open');
+  const link=event.target.closest?.('.game-screenshot-open, [data-image-preview]');
   if(!link||event.ctrlKey||event.metaKey||event.shiftKey||event.altKey||event.button!==0)return;
   const dialog=document.getElementById('image-dialog'),figure=link.closest('figure');
-  if(!dialog||!figure)return;
+  if(!dialog||!figure?.querySelector('img')||!figure.querySelector('figcaption'))return;
   event.preventDefault();returnFocus=link;
-  const image=figure.querySelector('img').cloneNode();image.removeAttribute('loading');image.removeAttribute('data-game-image');
+  const image=figure.querySelector('img').cloneNode();image.removeAttribute('loading');image.removeAttribute('data-game-image');image.removeAttribute('data-library-image');
   const caption=figure.querySelector('figcaption').cloneNode(true);
   const content=dialog.querySelector('.image-lightbox-content');content.replaceChildren(image,caption);
   const en=window.AtlasLanguage.current()==='en';
-  dialog.querySelector('button').setAttribute('aria-label',en?'Close image':'关闭图片');
-  document.body.classList.add('modal-open');dialog.showModal();
+  const close=dialog.querySelector('button');close.textContent=en?'Close ×':'关闭 ×';close.setAttribute('aria-label',en?'Close image':'关闭图片');
+  dialog.setAttribute('aria-label',en?'Image preview':'图片预览');
+  document.body.classList.add('modal-open');if(!dialog.open)dialog.showModal();
  });
  document.addEventListener('DOMContentLoaded',()=>{
   const dialog=document.getElementById('image-dialog');if(!dialog)return;
   dialog.querySelector('button').addEventListener('click',()=>dialog.close());
   dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
-  dialog.addEventListener('close',()=>{returnFocus?.focus({preventScroll:true});returnFocus=null;});
+  dialog.addEventListener('close',()=>{if(!document.querySelector('dialog[open]'))document.body.classList.remove('modal-open');returnFocus?.focus({preventScroll:true});returnFocus=null;});
  });
 })();

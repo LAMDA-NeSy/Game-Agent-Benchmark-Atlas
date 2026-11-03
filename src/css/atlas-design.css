@@ -241,7 +241,7 @@ body[data-view] .research-archive .detail-section h3 { color:#2e4b5d; }
 .image-lightbox-content>img { display:block; max-width:calc(90vw - 40px); max-height:70vh; width:auto; height:auto; margin:auto; object-fit:contain; }
 .image-lightbox-content figcaption { margin-top:14px; color:#607b8c; font-size:12px; line-height:1.7; max-width:850px; }
 .image-lightbox-content figcaption small { display:block; font-size:11px; }
-.image-lightbox-close { position:sticky; top:0; float:right; z-index:1; background:#fff; border:1px solid #dce5eb; border-radius:50%; font-size:24px; line-height:30px; width:32px; height:32px; margin:-8px -8px 8px 8px; color:#28566a; }
+.image-lightbox-close { position:sticky; top:0; float:right; z-index:1; background:#fff; border:1px solid #dce5eb; border-radius:5px; font-size:14px; line-height:32px; width:auto; min-width:76px; height:34px; padding:0 12px; margin:-8px -8px 12px 8px; color:#28566a; cursor:pointer; }
 /* Research themes use the same readable index surface as the full directory. */
 body[data-view=themes] .question-section { position:relative; padding-top:32px; }
 body[data-view=themes] .question-heading { align-items:center; justify-content:flex-start; gap:24px; }
