@@ -903,8 +903,8 @@
       "sourceType": "official-site",
       "sourceLabel": "AI GameStore paper, Figure 4 (page 8)",
       "caption": {
-        "zh": "AI GameStore 的 Angry Birds 改编游戏示例",
-        "en": "Angry Birds adaptation in AI GameStore"
+        "zh": "Angry Birds · AI GameStore 改编版",
+        "en": "Angry Birds · AI GameStore adaptation"
       },
       "alt": {
         "zh": "AI GameStore 的 Angry Birds 改编游戏示例",
@@ -914,8 +914,8 @@
       "rightsNote": "Image copyright remains with the credited author or publisher; reproduced as a sourced research-reference illustration.",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "选取合集中的 Angry Birds 改编环境作为代表；图为论文发布的 AI GameStore 版本，界面、物理参数和关卡与原版商业游戏不同。",
-        "en": "Representative AI GameStore adaptation of Angry Birds, as published in the paper. Its interface, physics parameters and levels differ from the original commercial game."
+        "zh": "界面、物理参数与关卡不同于原版。",
+        "en": "Interface, physics and levels differ from the original game."
       },
       "identityEvidence": {
         "url": "https://arxiv.org/abs/2602.17594",
@@ -3729,8 +3729,8 @@
       "licenseFile": null,
       "referenceGameId": "arena-unity-minipubg-forest",
       "imageNote": {
-        "zh": "合集代表场景：MiniPUBG-Forest (Arena Unity)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: MiniPUBG-Forest (Arena Unity). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：MiniPUBG-Forest (Arena Unity)。",
+        "en": "Collection example: MiniPUBG-Forest (Arena Unity)."
       },
       "relationshipEvidence": "Game-index source association explicitly links arena-unity-minipubg-forest to arena-unity-games via GAB009. Scoped evidence: 论文图 1 列出的 Unity 环境；同系列场景保留原名称。",
       "relationshipSource": "https://arxiv.org/pdf/1905.08085",
@@ -3742,8 +3742,8 @@
             "en": "MiniPUBG-Forest (Arena Unity)"
           },
           "imageNote": {
-            "zh": "合集代表场景：MiniPUBG-Forest (Arena Unity)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: MiniPUBG-Forest (Arena Unity). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：MiniPUBG-Forest (Arena Unity)。",
+            "en": "Collection example: MiniPUBG-Forest (Arena Unity)."
           },
           "relationshipEvidence": "Game-index source association explicitly links arena-unity-minipubg-forest to arena-unity-games via GAB009. Scoped evidence: 论文图 1 列出的 Unity 环境；同系列场景保留原名称。",
           "relationshipSource": "https://arxiv.org/pdf/1905.08085"
@@ -3755,8 +3755,8 @@
             "en": "Soccers (Arena Unity)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Soccers (Arena Unity)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Soccers (Arena Unity). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Soccers (Arena Unity)。",
+            "en": "Collection example: Soccers (Arena Unity)."
           },
           "relationshipEvidence": "Game-index source association explicitly links arena-unity-soccers to arena-unity-games via GAB009. Scoped evidence: 论文图 1 列出的 Unity 环境；同系列场景保留原名称。",
           "relationshipSource": "https://arxiv.org/pdf/1905.08085"
@@ -3768,8 +3768,8 @@
             "en": "PushBox (Arena Unity)"
           },
           "imageNote": {
-            "zh": "合集代表场景：PushBox (Arena Unity)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: PushBox (Arena Unity). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：PushBox (Arena Unity)。",
+            "en": "Collection example: PushBox (Arena Unity)."
           },
           "relationshipEvidence": "Game-index source association explicitly links arena-unity-pushbox to arena-unity-games via GAB009. Scoped evidence: 论文图 1 列出的 Unity 环境；同系列场景保留原名称。",
           "relationshipSource": "https://arxiv.org/pdf/1905.08085"
@@ -3797,8 +3797,8 @@
       },
       "imageMatch": "exact",
       "imageNote": {
-        "zh": "TextWorldExpress 1.1.0 官方 PyWebIO 界面的本地运行截图；train 划分、seed 0、默认任务参数。取起并阅读算术题后，环境显示“22 除以 11”，要求将与答案数量相同的物品放入箱子。 画面记录单个演示回合中的局部交互，论文完整评测协议另行定义。",
-        "en": "Local run of the official TextWorldExpress 1.1.0 PyWebIO interface, with the train split, seed 0 and default task parameters. After taking and reading the math problem, the environment asks for 22 divided by 11 and an item whose quantity matches the answer. The image records partial interaction in one demonstration episode; the full paper evaluation protocol is separate."
+        "zh": "TextWorldExpress 1.1.0 官方 PyWebIO 界面的本地运行截图；train 划分、seed 0、默认任务参数。取起并阅读算术题后，环境显示“22 除以 11”，要求将与答案数量相同的物品放入箱子。",
+        "en": "Local run of the official TextWorldExpress 1.1.0 PyWebIO interface, with the train split, seed 0 and default task parameters. After taking and reading the math problem, the environment asks for 22 divided by 11 and an item whose quantity matches the answer."
       },
       "captureMethod": "local-runtime-screenshot",
       "capture": {
@@ -4546,8 +4546,8 @@
       "referenceGameId": "atari-pong",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Pong (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Pong (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Pong (Atari 2600)。",
+        "en": "Collection example: Pong (Atari 2600)."
       },
       "relationshipEvidence": "Game-index source association explicitly links atari-pong to atari-2600 via GAB109. Scoped evidence: MMBench训练配置中的pong；连续动作映射与固定1000步回合。",
       "relationshipSource": "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py",
@@ -4559,8 +4559,8 @@
             "en": "Pong (Atari 2600)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Pong (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Pong (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Pong (Atari 2600)。",
+            "en": "Collection example: Pong (Atari 2600)."
           },
           "relationshipEvidence": "Game-index source association explicitly links atari-pong to atari-2600 via GAB109. Scoped evidence: MMBench训练配置中的pong；连续动作映射与固定1000步回合。",
           "relationshipSource": "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py"
@@ -4572,8 +4572,8 @@
             "en": "Montezuma’s Revenge (Atari 2600)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Montezuma’s Revenge (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Montezuma’s Revenge (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Montezuma’s Revenge (Atari 2600)。",
+            "en": "Collection example: Montezuma’s Revenge (Atari 2600)."
           },
           "relationshipEvidence": "Game-index source association explicitly links atari-montezumas-revenge to atari-2600 via GAB072. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://arxiv.org/html/2406.06037"
@@ -4585,8 +4585,8 @@
             "en": "Seaquest (Atari 2600)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Seaquest (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Seaquest (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Seaquest (Atari 2600)。",
+            "en": "Collection example: Seaquest (Atari 2600)."
           },
           "relationshipEvidence": "Game-index source association explicitly links atari-seaquest to atari-2600 via GAB109. Scoped evidence: MMBench训练配置中的seaquest；连续动作映射与固定1000步回合。",
           "relationshipSource": "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py"
@@ -5910,8 +5910,8 @@
       "rightsNote": "Author-published research illustration; original paper and environment artwork rights remain with their respective holders. The source and any extraction are identified.",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "以论文的 Deep Sea 与 Memory Length 任务图展示合集中的探索与记忆任务；均为任务示意图。 论文任务网格示意，不是运行界面。",
-        "en": "Paper task diagrams for Deep Sea and Memory Length represent exploration and memory tasks in the suite; both are schematic illustrations. Paper task-grid illustration, not a runtime interface."
+        "zh": "Deep Sea 与 Memory Length 任务示意图，非运行截图。",
+        "en": "Task diagrams for Deep Sea and Memory Length, not runtime screenshots."
       },
       "identityEvidence": "Sections 2.1 and 2.2 explicitly introduce Memory Length and Deep Sea as example bsuite experiments.",
       "verifiedAt": "2026-10-31",
@@ -5945,8 +5945,8 @@
             "en": "Deep Sea · exploration"
           },
           "imageNote": {
-            "zh": "以论文的 Deep Sea 与 Memory Length 任务图展示合集中的探索与记忆任务；均为任务示意图。 论文任务网格示意，不是运行界面。",
-            "en": "Paper task diagrams for Deep Sea and Memory Length represent exploration and memory tasks in the suite; both are schematic illustrations. Paper task-grid illustration, not a runtime interface."
+            "zh": "Deep Sea 与 Memory Length 任务示意图，非运行截图。",
+            "en": "Task diagrams for Deep Sea and Memory Length, not runtime screenshots."
           },
           "relationshipSource": "https://arxiv.org/html/1908.03568v3#S2",
           "relationshipEvidence": "Sections 2.1 and 2.2 explicitly introduce Memory Length and Deep Sea as example bsuite experiments."
@@ -6076,8 +6076,8 @@
       "referenceGameId": "vmas-navigation",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Navigation (VMAS)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Navigation (VMAS). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Navigation (VMAS)。",
+        "en": "Collection example: Navigation (VMAS)."
       },
       "relationshipEvidence": "Game-index source association explicitly links vmas-navigation to benchmarl-envs via GAB060. Scoped evidence: 仅关联本轮核验的明确平台任务。",
       "relationshipSource": "https://www.jmlr.org/papers/volume25/23-1612/23-1612.pdf",
@@ -6089,8 +6089,8 @@
             "en": "Navigation (VMAS)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Navigation (VMAS)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Navigation (VMAS). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Navigation (VMAS)。",
+            "en": "Collection example: Navigation (VMAS)."
           },
           "relationshipEvidence": "Game-index source association explicitly links vmas-navigation to benchmarl-envs via GAB060. Scoped evidence: 仅关联本轮核验的明确平台任务。",
           "relationshipSource": "https://www.jmlr.org/papers/volume25/23-1612/23-1612.pdf"
@@ -6566,8 +6566,8 @@
       },
       "imageMatch": "related-environment",
       "imageNote": {
-        "zh": "采用 Gymnasium Blackjack-v1 作为 Blackjack 玩法参考；不是 Valet/CardStock 的实现或实验截图，动作、规则与观测接口可能不同。",
-        "en": "Gymnasium Blackjack-v1 illustrates the same card game; it is not the Valet/CardStock implementation or an experiment screenshot. Actions, rules and observation interfaces may differ."
+        "zh": "Gymnasium Blackjack-v1 参考画面，非 Valet/CardStock 实现。",
+        "en": "Gymnasium Blackjack-v1 reference, not the Valet/CardStock implementation."
       },
       "identityEvidence": "The index explicitly names this target Blackjack (Valet/CardStock variant); the source depicts the Blackjack hit/stick game and is explicitly labeled as another implementation.",
       "rightsNote": "Official Farama environment media; source credit retained, no claim that all third-party art is relicensed.",
@@ -7940,8 +7940,8 @@
       "rightsNote": "Official Nintendo game screenshot. Nintendo retains copyright; no open license asserted.",
       "imageMatch": "related-environment",
       "imageNote": {
-        "zh": "图示任天堂原版《Super Mario Bros.》。CARLMario 使用研究复刻环境和 TOAD-GAN 生成关卡；不是图中原作关卡，物理参数和观测接口亦可不同。",
-        "en": "Nintendo original Super Mario Bros. reference. CARLMario uses a research clone and TOAD-GAN-generated levels; its levels, physics contexts and observation interface may differ."
+        "zh": "原版 Super Mario Bros. 画面；CARLMario 使用复刻环境与生成关卡。",
+        "en": "Original Super Mario Bros.; CARLMario uses a reimplementation and generated levels."
       },
       "pixelArt": true,
       "originalSize": [
@@ -9542,8 +9542,8 @@
       "referenceGameId": "sudoku",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：数独。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：GameQA 的数独数据集盘面；仅说明数独玩法，不代表其他 benchmark 的交互界面。",
-        "en": "Collection example: Sudoku. This illustrates one example, not every game or an evaluation run of the collection. Reference: a Sudoku board from the GameQA dataset; illustrates Sudoku, not another benchmark interface."
+        "zh": "合集代表：GameQA 数独盘面，非评测运行截图。",
+        "en": "Collection example: a GameQA Sudoku board, not an evaluation run."
       },
       "relationshipEvidence": "Game-index source association explicitly links sudoku to collection-ax26-2607.05185 via AX26-2607.05185. Scoped evidence: 仅关联本次核实的实际交互评测子集，保留父合集。",
       "relationshipSource": "https://arxiv.org/html/2607.05185v1",
@@ -9557,8 +9557,8 @@
             "en": "Sudoku"
           },
           "imageNote": {
-            "zh": "合集代表场景：数独。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：GameQA 的数独数据集盘面；仅说明数独玩法，不代表其他 benchmark 的交互界面。",
-            "en": "Collection example: Sudoku. This illustrates one example, not every game or an evaluation run of the collection. Reference: a Sudoku board from the GameQA dataset; illustrates Sudoku, not another benchmark interface."
+            "zh": "合集代表：GameQA 数独盘面，非评测运行截图。",
+            "en": "Collection example: a GameQA Sudoku board, not an evaluation run."
           },
           "relationshipEvidence": "Game-index source association explicitly links sudoku to collection-ax26-2607.05185 via AX26-2607.05185. Scoped evidence: 仅关联本次核实的实际交互评测子集，保留父合集。",
           "relationshipSource": "https://arxiv.org/html/2607.05185v1"
@@ -9956,8 +9956,8 @@
       "referenceGameId": "gymnasium-cartpole-v1",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表图：采用 Gymnasium CartPole 的官方画面。CWMB 对环境实现作了适配，以状态与轨迹评价代码世界模型，不以此图作为视觉输入。",
-        "en": "Collection representative: official Gymnasium CartPole view. CWMB adapts environment implementations and evaluates code world models on states and trajectories, rather than using this image as visual input."
+        "zh": "Gymnasium CartPole 参考画面；CWMB 使用适配后的状态与轨迹。",
+        "en": "Gymnasium CartPole reference; CWMB evaluates adapted states and trajectories."
       },
       "relationshipEvidence": {
         "url": "https://arxiv.org/html/2405.15383#A9.T9",
@@ -11985,8 +11985,8 @@
       },
       "imageMatch": "different-version",
       "imageNote": {
-        "zh": "图为同名游戏的独立实现，用于说明牌局；Valet/CardStock 通过结构化状态与动作评测，界面与具体规则配置不同。 原图底部宣传文案已裁去。",
-        "en": "An independent implementation of the same card game illustrates play. Valet/CardStock evaluates structured states and actions; its interface and rule configuration differ. The promotional text below the gameplay has been cropped out."
+        "zh": "同名游戏的独立实现；Valet/CardStock 使用结构化状态接口。",
+        "en": "Independent implementation; Valet/CardStock uses structured state inputs."
       },
       "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
       "identityEvidence": {
@@ -12128,8 +12128,8 @@
       },
       "imageMatch": "different-version",
       "imageNote": {
-        "zh": "Invisibility Cloak 官方项目所链接的 CF Competitive 视频预览，保留防护与视觉辅助对比标注；为论文使用的客户端场景，非当前版本的标准 UI 截图。",
-        "en": "Preview of the CF Competitive video linked by the official Invisibility Cloak project, retaining protection/visual-assistance comparison labels; this is the paper’s client scene rather than a current-version standard UI screenshot."
+        "zh": "论文所用客户端演示，含防护与视觉辅助标注。",
+        "en": "Paper client demo with defense and visual-assistance annotations."
       },
       "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
       "identityEvidence": {
@@ -12359,8 +12359,8 @@
       },
       "imageMatch": "related-environment",
       "imageNote": {
-        "zh": "Valet 项目在该游戏专页发布的实体国王拒绝换牌示例，用于说明玩法；CardStock 的研究接口使用结构化状态与动作，并非图中的实体呈现。",
-        "en": "Physical king blocking a swap published on the named Valet game page to illustrate play; the CardStock research interface uses structured states and actions rather than this physical presentation."
+        "zh": "官方实体牌局示例；CardStock 使用结构化状态接口。",
+        "en": "Official physical-card example; CardStock uses structured state inputs."
       },
       "identityEvidence": {
         "url": "https://mgoadric.github.io/valet/post/cuckoo.html",
@@ -12537,8 +12537,8 @@
       },
       "imageMatch": "different-version",
       "imageNote": {
-        "zh": "2024 年论文中 DareFightingICE-Unity 的 ZEN 动作场景；Java 版与其他赛事版本的画面、接口和音效配置有所不同。",
-        "en": "ZEN action scene from DareFightingICE-Unity in the 2024 paper; the Java platform and other competition versions differ in visuals, interfaces and sound configuration."
+        "zh": "DareFightingICE-Unity 2024 版；与 Java 版及其他赛季配置不同。",
+        "en": "DareFightingICE-Unity (2024); differs from Java and other season configurations."
       },
       "rightsNote": "Images are reproduced from the credited source for research indexing. Game artwork remains with the respective rights holders; this attribution does not imply an open image license.",
       "identityEvidence": {
@@ -13787,8 +13787,8 @@
       "referenceGameId": "doom",
       "imageMatch": "related-environment",
       "imageNote": {
-        "zh": "图示 ViZDoom 官方演示中的 DOOM 环境。GameSense 论文中的 DOOM 具体发行版本尚未确认；此图不代表其实际界面、关卡或执行接口。",
-        "en": "DOOM environment from an official ViZDoom demonstration. The precise DOOM edition used by GameSense is unconfirmed; this image does not establish its actual interface, level or control setup."
+        "zh": "ViZDoom 演示画面；GameSense 使用的 DOOM 版本未确认。",
+        "en": "ViZDoom demo; the DOOM version used by GameSense is unconfirmed."
       },
       "relationshipEvidence": "GameSense Section 4 and Figure 3 name DOOM, while the existing verified catalog explicitly retains unknown edition. The reference source is independently verified as an actual ViZDoom DOOM environment.",
       "relationshipSource": "https://aclanthology.org/2025.acl-long.643/",
@@ -14295,8 +14295,8 @@
       "referenceGameId": "starcraft-ii",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：星际争霸II。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: StarCraft II. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：星际争霸II。 版本与评测实现可能不同。",
+        "en": "Collection example: StarCraft II. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links starcraft-ii to collection-gab112 via GAB112. Scoped evidence: 全文表2及附录E明确StarCraft II宏观策略子协议。",
       "relationshipSource": "https://arxiv.org/html/2503.06047",
@@ -14308,8 +14308,8 @@
             "en": "StarCraft II"
           },
           "imageNote": {
-            "zh": "合集代表场景：星际争霸II。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: StarCraft II. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：星际争霸II。 版本与评测实现可能不同。",
+            "en": "Collection example: StarCraft II. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links starcraft-ii to collection-gab112 via GAB112. Scoped evidence: 全文表2及附录E明确StarCraft II宏观策略子协议。",
           "relationshipSource": "https://arxiv.org/html/2503.06047"
@@ -14927,8 +14927,8 @@
       "referenceGameId": "atari-pong",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Pong (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Pong (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Pong (Atari 2600)。 版本与评测实现可能不同。",
+        "en": "Collection example: Pong (Atari 2600). The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links atari-pong to envpool-envs via GAB031. Scoped evidence: EnvPool 论文图6实际PPO学习评测的Pong；仅该具体控制任务，不声明已核验整套环境。",
       "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8caaf08e49ddbad6694fae067442ee21-Paper-Datasets_and_Benchmarks.pdf",
@@ -14940,8 +14940,8 @@
             "en": "Pong (Atari 2600)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Pong (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Pong (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Pong (Atari 2600)。 版本与评测实现可能不同。",
+            "en": "Collection example: Pong (Atari 2600). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links atari-pong to envpool-envs via GAB031. Scoped evidence: EnvPool 论文图6实际PPO学习评测的Pong；仅该具体控制任务，不声明已核验整套环境。",
           "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2022/file/8caaf08e49ddbad6694fae067442ee21-Paper-Datasets_and_Benchmarks.pdf"
@@ -16284,8 +16284,8 @@
       "licenseFile": null,
       "referenceGameId": "flashadventure-machine-room-escape",
       "imageNote": {
-        "zh": "合集代表场景：Machine Room Escape。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Machine Room Escape. This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Machine Room Escape。",
+        "en": "Collection example: Machine Room Escape."
       },
       "relationshipEvidence": "Game-index source association explicitly links flashadventure-machine-room-escape to collection-gab085 via GAB085. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
       "relationshipSource": "https://aclanthology.org/2025.emnlp-main.1192.pdf",
@@ -16297,8 +16297,8 @@
             "en": "Machine Room Escape"
           },
           "imageNote": {
-            "zh": "合集代表场景：Machine Room Escape。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Machine Room Escape. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Machine Room Escape。",
+            "en": "Collection example: Machine Room Escape."
           },
           "relationshipEvidence": "Game-index source association explicitly links flashadventure-machine-room-escape to collection-gab085 via GAB085. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://aclanthology.org/2025.emnlp-main.1192.pdf"
@@ -16310,8 +16310,8 @@
             "en": "Space Museum Escape"
           },
           "imageNote": {
-            "zh": "合集代表场景：Space Museum Escape。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Space Museum Escape. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Space Museum Escape。",
+            "en": "Collection example: Space Museum Escape."
           },
           "relationshipEvidence": "Game-index source association explicitly links flashadventure-space-museum-escape to collection-gab085 via GAB085. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://aclanthology.org/2025.emnlp-main.1192.pdf"
@@ -16323,8 +16323,8 @@
             "en": "Sort the Court"
           },
           "imageNote": {
-            "zh": "合集代表场景：Sort the Court。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Sort the Court. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Sort the Court。",
+            "en": "Collection example: Sort the Court."
           },
           "relationshipEvidence": "Game-index source association explicitly links flashadventure-sort-the-court to collection-gab085 via GAB085. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://aclanthology.org/2025.emnlp-main.1192.pdf"
@@ -17561,8 +17561,8 @@
       "referenceGameId": "tic-tac-toe",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：井字棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Tic-Tac-Toe. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：井字棋。 版本与评测实现可能不同。",
+        "en": "Collection example: Tic-Tac-Toe. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links tic-tac-toe to collection-gap-a6 via GAP-A6. Scoped evidence: 只关联该单位明确的OpenSpiel井字棋对局，不扩展到框架注册的其他游戏。",
       "relationshipSource": "https://arxiv.org/html/2508.03368",
@@ -17574,8 +17574,8 @@
             "en": "Tic-Tac-Toe"
           },
           "imageNote": {
-            "zh": "合集代表场景：井字棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Tic-Tac-Toe. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：井字棋。 版本与评测实现可能不同。",
+            "en": "Collection example: Tic-Tac-Toe. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links tic-tac-toe to collection-gap-a6 via GAP-A6. Scoped evidence: 只关联该单位明确的OpenSpiel井字棋对局，不扩展到框架注册的其他游戏。",
           "relationshipSource": "https://arxiv.org/html/2508.03368"
@@ -17654,8 +17654,8 @@
       },
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "裁取自论文图 3 的 Video Source with Annotation 面板，保留作者的 HUD 标注框；展示源视频，不是去除 UI 后的模型输出。",
-        "en": "Cropped from the Video Source with Annotation panel in Figure 3, retaining the authors’ HUD boxes. This is a source-video frame, not a UI-removal model output."
+        "zh": "论文图 3 源视频画面，保留 HUD 标注；非模型输出。",
+        "en": "Source video from Fig. 3 with HUD annotations, not model output."
       },
       "identityEvidence": {
         "url": "https://arxiv.org/html/2608.24680v1#S4.F3",
@@ -17938,8 +17938,8 @@
       "referenceGameId": "connect-four",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：四子连线。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Connect Four. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：四子连线。 版本与评测实现可能不同。",
+        "en": "Collection example: Connect Four. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links connect-four to collection-gab098 via GAB098. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
       "relationshipSource": "https://aclanthology.org/2025.acl-long.378.pdf",
@@ -17951,8 +17951,8 @@
             "en": "Connect Four"
           },
           "imageNote": {
-            "zh": "合集代表场景：四子连线。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Connect Four. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：四子连线。 版本与评测实现可能不同。",
+            "en": "Collection example: Connect Four. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links connect-four to collection-gab098 via GAB098. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://aclanthology.org/2025.acl-long.378.pdf"
@@ -17964,8 +17964,8 @@
             "en": "Pong (GAMEBoT text environment)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Pong (GAMEBoT text environment)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：Atari 2600 Pong；GAMEBoT 采用文字环境，本图不代表其观测或交互界面。",
-            "en": "Collection example: Pong (GAMEBoT text environment). This illustrates one example, not every game or an evaluation run of the collection. Reference: Atari 2600 Pong; GAMEBoT uses a text environment and this is not its observation or interaction interface."
+            "zh": "合集代表场景：Pong (GAMEBoT text environment)。 参考画面：Atari 2600 Pong；GAMEBoT 采用文字环境，本图不代表其观测或交互界面。",
+            "en": "Collection example: Pong (GAMEBoT text environment). Reference: Atari 2600 Pong; GAMEBoT uses a text environment and this is not its observation or interaction interface."
           },
           "relationshipEvidence": "Game-index source association explicitly links gamebot-pong to collection-gab098 via GAB098. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://aclanthology.org/2025.acl-long.378.pdf"
@@ -17977,8 +17977,8 @@
             "en": "Texas Hold’em"
           },
           "imageNote": {
-            "zh": "合集代表场景：德州扑克。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Texas Hold’em. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：德州扑克。 版本与评测实现可能不同。",
+            "en": "Collection example: Texas Hold’em. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links texas-holdem to collection-gab098 via GAB098. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://aclanthology.org/2025.acl-long.378.pdf"
@@ -18033,8 +18033,8 @@
       "referenceGameId": "pokemon-red",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Pokémon Red。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Pokémon Red. This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Pokémon Red。",
+        "en": "Collection example: Pokémon Red."
       },
       "relationshipEvidence": "Game-index source association explicitly links pokemon-red to collection-rec-2.3 via REC-2.3. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
       "relationshipSource": "https://arxiv.org/html/2609.32093",
@@ -18046,8 +18046,8 @@
             "en": "Pokémon Red"
           },
           "imageNote": {
-            "zh": "合集代表场景：Pokémon Red。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Pokémon Red. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Pokémon Red。",
+            "en": "Collection example: Pokémon Red."
           },
           "relationshipEvidence": "Game-index source association explicitly links pokemon-red to collection-rec-2.3 via REC-2.3. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://arxiv.org/html/2609.32093"
@@ -18059,8 +18059,8 @@
             "en": "The Legend of Zelda: Oracle of Seasons"
           },
           "imageNote": {
-            "zh": "合集代表场景：The Legend of Zelda: Oracle of Seasons。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: The Legend of Zelda: Oracle of Seasons. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：The Legend of Zelda: Oracle of Seasons。",
+            "en": "Collection example: The Legend of Zelda: Oracle of Seasons."
           },
           "relationshipEvidence": "Game-index source association explicitly links zelda-oracle-of-seasons to collection-rec-2.3 via REC-2.3. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://arxiv.org/html/2609.32093"
@@ -18072,8 +18072,8 @@
             "en": "Link’s Awakening (GameBoyWorlds; edition unspecified)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Link’s Awakening (GameBoyWorlds; edition unspecified)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：《塞尔达传说 织梦岛 DX》日文版；GameBoyWorlds 未明确版本，本图不证明其使用 DX 版。",
-            "en": "Collection example: Link’s Awakening (GameBoyWorlds; edition unspecified). This illustrates one example, not every game or an evaluation run of the collection. Reference: Japanese The Legend of Zelda: Link’s Awakening DX; GameBoyWorlds does not specify the edition, so this image does not establish that it uses DX."
+            "zh": "合集代表场景：Link’s Awakening (GameBoyWorlds; edition unspecified)。 参考画面：《塞尔达传说 织梦岛 DX》日文版；GameBoyWorlds 未明确版本，本图不证明其使用 DX 版。",
+            "en": "Collection example: Link’s Awakening (GameBoyWorlds; edition unspecified). Reference: Japanese The Legend of Zelda: Link’s Awakening DX; GameBoyWorlds does not specify the edition, so this image does not establish that it uses DX."
           },
           "relationshipEvidence": "Game-index source association explicitly links gameboyworlds-links-awakening to collection-rec-2.3 via REC-2.3. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://arxiv.org/html/2609.32093"
@@ -18126,8 +18126,8 @@
       "referenceGameId": "gamelogic-godot-open-rts",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Godot Open RTS (GameLogic adaptation)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Godot Open RTS (GameLogic adaptation). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Godot Open RTS (GameLogic adaptation)。",
+        "en": "Collection example: Godot Open RTS (GameLogic adaptation)."
       },
       "relationshipEvidence": "Game-index source association explicitly links gamelogic-godot-open-rts to gamelogic-godot-games via REC-T01. Scoped evidence: GameLogic 的项目适配版本；对应任务：repo_rts_engagement_chain, repo_rts_harvest_engine。",
       "relationshipSource": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_rts_engagement_chain/game/README.md",
@@ -18139,8 +18139,8 @@
             "en": "Godot Open RTS (GameLogic adaptation)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Godot Open RTS (GameLogic adaptation)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Godot Open RTS (GameLogic adaptation). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Godot Open RTS (GameLogic adaptation)。",
+            "en": "Collection example: Godot Open RTS (GameLogic adaptation)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gamelogic-godot-open-rts to gamelogic-godot-games via REC-T01. Scoped evidence: GameLogic 的项目适配版本；对应任务：repo_rts_engagement_chain, repo_rts_harvest_engine。",
           "relationshipSource": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_rts_engagement_chain/game/README.md"
@@ -18152,8 +18152,8 @@
             "en": "WorldWarII (Fischer-Zhang) (GameLogic adaptation)"
           },
           "imageNote": {
-            "zh": "合集代表场景：WorldWarII (Fischer-Zhang) (GameLogic adaptation)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: WorldWarII (Fischer-Zhang) (GameLogic adaptation). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：WorldWarII (Fischer-Zhang) (GameLogic adaptation)。",
+            "en": "Collection example: WorldWarII (Fischer-Zhang) (GameLogic adaptation)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gamelogic-worldwarii-fischer-zhang to gamelogic-godot-games via REC-T01. Scoped evidence: GameLogic 的项目适配版本；对应任务：repo_worldwarii_conquest, repo_wwii_battle_doctrine。",
           "relationshipSource": "https://github.com/NJU-LINK/GameLogicBench-Tasks/blob/main/repo_worldwarii_conquest/game/README.md"
@@ -18216,8 +18216,8 @@
       "licenseFile": null,
       "referenceGameId": "gamereplica-sokoban",
       "imageNote": {
-        "zh": "合集代表场景：推箱子（GameReplica）。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Sokoban (GameReplica). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：推箱子（GameReplica）。",
+        "en": "Collection example: Sokoban (GameReplica)."
       },
       "relationshipEvidence": "Game-index source association explicitly links gamereplica-sokoban to gamereplica-games via REC-3.2. Scoped evidence: GameReplica Game01 的独立浏览器参考版本，包含 L1–L5 五档难度。",
       "relationshipSource": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9",
@@ -18229,8 +18229,8 @@
             "en": "Sokoban (GameReplica)"
           },
           "imageNote": {
-            "zh": "合集代表场景：推箱子（GameReplica）。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Sokoban (GameReplica). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：推箱子（GameReplica）。",
+            "en": "Collection example: Sokoban (GameReplica)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gamereplica-sokoban to gamereplica-games via REC-3.2. Scoped evidence: GameReplica Game01 的独立浏览器参考版本，包含 L1–L5 五档难度。",
           "relationshipSource": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9"
@@ -18242,8 +18242,8 @@
             "en": "Hanoi (GameReplica)"
           },
           "imageNote": {
-            "zh": "合集代表场景：汉诺塔（GameReplica）。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Hanoi (GameReplica). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：汉诺塔（GameReplica）。",
+            "en": "Collection example: Hanoi (GameReplica)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gamereplica-hanoi to gamereplica-games via REC-3.2. Scoped evidence: GameReplica Game13 的独立浏览器参考版本，包含 L1–L5 五档难度。",
           "relationshipSource": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9"
@@ -18255,8 +18255,8 @@
             "en": "Gomoku (GameReplica)"
           },
           "imageNote": {
-            "zh": "合集代表场景：五子棋（GameReplica）。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Gomoku (GameReplica). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：五子棋（GameReplica）。",
+            "en": "Collection example: Gomoku (GameReplica)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gamereplica-gomoku to gamereplica-games via REC-3.2. Scoped evidence: GameReplica Game25 的独立浏览器参考版本，包含 L1–L5 五档难度。",
           "relationshipSource": "https://qqqqqqby.github.io/GameReplica/assets/data.js?v=9"
@@ -18366,8 +18366,8 @@
       "referenceGameId": "gameworld-mario",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Mario Game (browser clone)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Mario Game (browser clone). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Mario Game (browser clone)。",
+        "en": "Collection example: Mario Game (browser clone)."
       },
       "relationshipEvidence": "Game-index source association explicitly links gameworld-mario to gameworld-games via REC-3.4. Scoped evidence: VISTA 明确评测 GameWorld 全部 170 个任务，覆盖该游戏；名称和版本沿用原目录。",
       "relationshipSource": "https://arxiv.org/html/2610.02200v1",
@@ -18379,8 +18379,8 @@
             "en": "Mario Game (browser clone)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Mario Game (browser clone)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Mario Game (browser clone). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Mario Game (browser clone)。",
+            "en": "Collection example: Mario Game (browser clone)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gameworld-mario to gameworld-games via REC-3.4. Scoped evidence: VISTA 明确评测 GameWorld 全部 170 个任务，覆盖该游戏；名称和版本沿用原目录。",
           "relationshipSource": "https://arxiv.org/html/2610.02200v1"
@@ -18392,8 +18392,8 @@
             "en": "2048"
           },
           "imageNote": {
-            "zh": "合集代表场景：2048。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: 2048. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：2048。",
+            "en": "Collection example: 2048."
           },
           "relationshipEvidence": "Game-index source association explicitly links 2048 to gameworld-games via REC-3.4. Scoped evidence: VISTA 明确评测 GameWorld 全部 170 个任务，覆盖该游戏；名称和版本沿用原目录。",
           "relationshipSource": "https://arxiv.org/html/2610.02200v1"
@@ -18405,8 +18405,8 @@
             "en": "Minecraft Clone (GameWorld)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Minecraft Clone (GameWorld)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Minecraft Clone (GameWorld). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Minecraft Clone (GameWorld)。",
+            "en": "Collection example: Minecraft Clone (GameWorld)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gameworld-minecraft-clone to gameworld-games via REC-3.4. Scoped evidence: VISTA 明确评测 GameWorld 全部 170 个任务，覆盖该游戏；名称和版本沿用原目录。",
           "relationshipSource": "https://arxiv.org/html/2610.02200v1"
@@ -19100,8 +19100,8 @@
       },
       "imageMatch": "related-environment",
       "imageNote": {
-        "zh": "采用 2008 年 Xbox Live Arcade 游戏版作为玩法参考；不是 RLCard 的渲染界面，也不据此认定具体研究使用的变体规则。",
-        "en": "Reference from the 2008 Xbox Live Arcade game; not the RLCard renderer and not evidence of a study's particular rule variant."
+        "zh": "Xbox Live Arcade 2008 版，非 RLCard 界面。",
+        "en": "Xbox Live Arcade (2008), not the RLCard interface."
       },
       "identityEvidence": "The Gin Rummy video-game article identifies a digital adaptation of the card game and embeds this gameplay image; file description gives screenshot source GamesRadar and the Gin Rummy XBLA identity.",
       "rightsNote": "Wikipedia describes this as a low-resolution non-free game screenshot. Copyright remains with the game publisher/developer; no Creative Commons or other open-image license is claimed.",
@@ -20615,8 +20615,8 @@
       "referenceGameId": "gvgai-sokoban",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Sokoban (procedural levels) (GVGAI)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：Griddly Sokoban 的 Sprite2D 关卡；不是 GVGAI 的程序生成关卡或 XSokoban 测试布局。",
-        "en": "Collection example: Sokoban (procedural levels) (GVGAI). This illustrates one example, not every game or an evaluation run of the collection. Reference: a Sprite2D level from Griddly Sokoban; not a GVGAI procedural level or XSokoban test layout."
+        "zh": "合集代表场景：Sokoban (procedural levels) (GVGAI)。 参考画面：Griddly Sokoban 的 Sprite2D 关卡；不是 GVGAI 的程序生成关卡或 XSokoban 测试布局。",
+        "en": "Collection example: Sokoban (procedural levels) (GVGAI). Reference: a Sprite2D level from Griddly Sokoban; not a GVGAI procedural level or XSokoban test layout."
       },
       "relationshipEvidence": "Game-index source association explicitly links gvgai-sokoban to collection-gap-a7 via GAP-A7. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
       "relationshipSource": "https://arxiv.org/html/2508.08501",
@@ -20630,8 +20630,8 @@
             "en": "Sokoban (procedural levels) (GVGAI)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Sokoban (procedural levels) (GVGAI)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：Griddly Sokoban 的 Sprite2D 关卡；不是 GVGAI 的程序生成关卡或 XSokoban 测试布局。",
-            "en": "Collection example: Sokoban (procedural levels) (GVGAI). This illustrates one example, not every game or an evaluation run of the collection. Reference: a Sprite2D level from Griddly Sokoban; not a GVGAI procedural level or XSokoban test layout."
+            "zh": "合集代表场景：Sokoban (procedural levels) (GVGAI)。 参考画面：Griddly Sokoban 的 Sprite2D 关卡；不是 GVGAI 的程序生成关卡或 XSokoban 测试布局。",
+            "en": "Collection example: Sokoban (procedural levels) (GVGAI). Reference: a Sprite2D level from Griddly Sokoban; not a GVGAI procedural level or XSokoban test layout."
           },
           "relationshipEvidence": "Game-index source association explicitly links gvgai-sokoban to collection-gap-a7 via GAP-A7. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://arxiv.org/html/2508.08501"
@@ -20684,8 +20684,8 @@
       "referenceGameId": "gymnasium-cartpole-v1",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：CartPole-v1 (Gymnasium)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: CartPole-v1 (Gymnasium). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：CartPole-v1 (Gymnasium)。",
+        "en": "Collection example: CartPole-v1 (Gymnasium)."
       },
       "relationshipEvidence": "Game-index source association explicitly links gymnasium-cartpole-v1 to gymnasium-envs via GAB086. Scoped evidence: 仅关联本轮核验的明确平台任务。",
       "relationshipSource": "https://gymnasium.farama.org/environments/classic_control/cart_pole/",
@@ -20697,8 +20697,8 @@
             "en": "CartPole-v1 (Gymnasium)"
           },
           "imageNote": {
-            "zh": "合集代表场景：CartPole-v1 (Gymnasium)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: CartPole-v1 (Gymnasium). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：CartPole-v1 (Gymnasium)。",
+            "en": "Collection example: CartPole-v1 (Gymnasium)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gymnasium-cartpole-v1 to gymnasium-envs via GAB086. Scoped evidence: 仅关联本轮核验的明确平台任务。",
           "relationshipSource": "https://gymnasium.farama.org/environments/classic_control/cart_pole/"
@@ -22199,8 +22199,8 @@
       "referenceGameId": "intuitive-gamer-simple-win",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Square-board K-in-a-row (Intuitive Gamer)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 的标准 3×3 井字棋；不是 Square-board K-in-a-row (Intuitive Gamer) 的棋盘尺寸、连子规则或可见性设置。",
-        "en": "Collection example: Square-board K-in-a-row (Intuitive Gamer). This illustrates one example, not every game or an evaluation run of the collection. Reference: standard 3×3 Tic-Tac-Toe in PettingZoo; does not depict the board size, winning rules or visibility of Square-board K-in-a-row (Intuitive Gamer)."
+        "zh": "合集代表场景：Square-board K-in-a-row (Intuitive Gamer)。 参考画面：PettingZoo 的标准 3×3 井字棋；不是 Square-board K-in-a-row (Intuitive Gamer) 的棋盘尺寸、连子规则或可见性设置。",
+        "en": "Collection example: Square-board K-in-a-row (Intuitive Gamer). Reference: standard 3×3 Tic-Tac-Toe in PettingZoo; does not depict the board size, winning rules or visibility of Square-board K-in-a-row (Intuitive Gamer)."
       },
       "relationshipEvidence": "Game-index source association explicitly links intuitive-gamer-simple-win to intuitive-gamer-board via NATURE299. Scoped evidence: simple-win：21 配置；正方棋盘连 K，不是独立发行游戏。",
       "relationshipSource": "https://raw.githubusercontent.com/collinskatie/intuitive-game-reasoning/main/stimuli/cogsci_just_think_stimuli.csv",
@@ -22215,8 +22215,8 @@
             "en": "Square-board K-in-a-row (Intuitive Gamer)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Square-board K-in-a-row (Intuitive Gamer)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 的标准 3×3 井字棋；不是 Square-board K-in-a-row (Intuitive Gamer) 的棋盘尺寸、连子规则或可见性设置。",
-            "en": "Collection example: Square-board K-in-a-row (Intuitive Gamer). This illustrates one example, not every game or an evaluation run of the collection. Reference: standard 3×3 Tic-Tac-Toe in PettingZoo; does not depict the board size, winning rules or visibility of Square-board K-in-a-row (Intuitive Gamer)."
+            "zh": "合集代表场景：Square-board K-in-a-row (Intuitive Gamer)。 参考画面：PettingZoo 的标准 3×3 井字棋；不是 Square-board K-in-a-row (Intuitive Gamer) 的棋盘尺寸、连子规则或可见性设置。",
+            "en": "Collection example: Square-board K-in-a-row (Intuitive Gamer). Reference: standard 3×3 Tic-Tac-Toe in PettingZoo; does not depict the board size, winning rules or visibility of Square-board K-in-a-row (Intuitive Gamer)."
           },
           "relationshipEvidence": "Game-index source association explicitly links intuitive-gamer-simple-win to intuitive-gamer-board via NATURE299. Scoped evidence: simple-win：21 配置；正方棋盘连 K，不是独立发行游戏。",
           "relationshipSource": "https://raw.githubusercontent.com/collinskatie/intuitive-game-reasoning/main/stimuli/cogsci_just_think_stimuli.csv"
@@ -22529,8 +22529,8 @@
       "referenceGameId": "minecraft",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：我的世界。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Minecraft. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：我的世界。 版本与评测实现可能不同。",
+        "en": "Collection example: Minecraft. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links minecraft to collection-vla-12 via VLA-12. Scoped evidence: 仅关联本次核实的实际交互评测子集，保留父合集。",
       "relationshipSource": "https://aclanthology.org/2025.findings-acl.920.pdf",
@@ -22542,8 +22542,8 @@
             "en": "Minecraft"
           },
           "imageNote": {
-            "zh": "合集代表场景：我的世界。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Minecraft. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：我的世界。 版本与评测实现可能不同。",
+            "en": "Collection example: Minecraft. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links minecraft to collection-vla-12 via VLA-12. Scoped evidence: 仅关联本次核实的实际交互评测子集，保留父合集。",
           "relationshipSource": "https://aclanthology.org/2025.findings-acl.920.pdf"
@@ -22599,8 +22599,8 @@
       "referenceGameId": "smax",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：SMAX (JaxMARL)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: SMAX (JaxMARL). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：SMAX (JaxMARL)。",
+        "en": "Collection example: SMAX (JaxMARL)."
       },
       "relationshipEvidence": "Game-index source association explicitly links smax to jaxmarl-envs via GAB061. Scoped evidence: 分散控制多个单位击败敌队 奖励尺度与SMAC不同；不覆盖建造、经济或完整RTS对局",
       "relationshipSource": "https://arxiv.org/html/2311.10090",
@@ -22612,8 +22612,8 @@
             "en": "SMAX (JaxMARL)"
           },
           "imageNote": {
-            "zh": "合集代表场景：SMAX (JaxMARL)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: SMAX (JaxMARL). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：SMAX (JaxMARL)。",
+            "en": "Collection example: SMAX (JaxMARL)."
           },
           "relationshipEvidence": "Game-index source association explicitly links smax to jaxmarl-envs via GAB061. Scoped evidence: 分散控制多个单位击败敌队 奖励尺度与SMAC不同；不覆盖建造、经济或完整RTS对局",
           "relationshipSource": "https://arxiv.org/html/2311.10090"
@@ -22711,8 +22711,8 @@
       "referenceGameId": "zork-i",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Zork I: The Great Underground Empire。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Zork I: The Great Underground Empire. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Zork I: The Great Underground Empire。 版本与评测实现可能不同。",
+        "en": "Collection example: Zork I: The Great Underground Empire. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links zork-i to jericho-games via GAB008. Scoped evidence: 表1实际结果行，使用原文ROM标识以免将同名作品错误合并；单游戏训练协议。",
       "relationshipSource": "https://ojs.aaai.org/index.php/AAAI/article/view/6297/6153",
@@ -22724,8 +22724,8 @@
             "en": "Zork I: The Great Underground Empire"
           },
           "imageNote": {
-            "zh": "合集代表场景：Zork I: The Great Underground Empire。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Zork I: The Great Underground Empire. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Zork I: The Great Underground Empire。 版本与评测实现可能不同。",
+            "en": "Collection example: Zork I: The Great Underground Empire. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links zork-i to jericho-games via GAB008. Scoped evidence: 表1实际结果行，使用原文ROM标识以免将同名作品错误合并；单游戏训练协议。",
           "relationshipSource": "https://ojs.aaai.org/index.php/AAAI/article/view/6297/6153"
@@ -26654,8 +26654,8 @@
       "referenceGameId": "doudizhu",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：斗地主。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Dou Dizhu. This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：斗地主。",
+        "en": "Collection example: Dou Dizhu."
       },
       "relationshipEvidence": "Game-index source association explicitly links doudizhu to collection-gab093 via GAB093. Scoped evidence: 原文八种评测游戏之一；立直麻将保留具体规则身份。",
       "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2341b14df6b4f684a30eb4e99807bea6-Abstract-Conference.html",
@@ -26667,8 +26667,8 @@
             "en": "Dou Dizhu"
           },
           "imageNote": {
-            "zh": "合集代表场景：斗地主。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Dou Dizhu. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：斗地主。",
+            "en": "Collection example: Dou Dizhu."
           },
           "relationshipEvidence": "Game-index source association explicitly links doudizhu to collection-gab093 via GAB093. Scoped evidence: 原文八种评测游戏之一；立直麻将保留具体规则身份。",
           "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2341b14df6b4f684a30eb4e99807bea6-Abstract-Conference.html"
@@ -26680,8 +26680,8 @@
             "en": "Leduc Hold’em"
           },
           "imageNote": {
-            "zh": "合集代表场景：Leduc 扑克。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Leduc Hold’em. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Leduc 扑克。 版本与评测实现可能不同。",
+            "en": "Collection example: Leduc Hold’em. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links leduc-holdem to collection-gab093 via GAB093. Scoped evidence: 原文八种评测游戏之一；立直麻将保留具体规则身份。",
           "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2341b14df6b4f684a30eb4e99807bea6-Abstract-Conference.html"
@@ -26693,8 +26693,8 @@
             "en": "UNO"
           },
           "imageNote": {
-            "zh": "合集代表场景：UNO。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 图片为 Ubisoft 电子游戏版 UNO，非 RLCard 等研究实现；仅用于说明对应牌类游戏，界面与规则选项可能不同。",
-            "en": "Collection example: UNO. This illustrates one example, not every game or an evaluation run of the collection. Shows Ubisoft’s digital UNO adaptation, not RLCard or other research implementations; illustrates the card game, with potentially different UI and rule options."
+            "zh": "合集代表场景：UNO。 图片为 Ubisoft 电子游戏版 UNO，非 RLCard 等研究实现；仅用于说明对应牌类游戏，界面与规则选项可能不同。",
+            "en": "Collection example: UNO. Shows Ubisoft’s digital UNO adaptation, not RLCard or other research implementations; illustrates the card game, with potentially different UI and rule options."
           },
           "relationshipEvidence": "Game-index source association explicitly links uno to collection-gab093 via GAB093. Scoped evidence: 原文八种评测游戏之一；立直麻将保留具体规则身份。",
           "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/2341b14df6b4f684a30eb4e99807bea6-Abstract-Conference.html"
@@ -26745,8 +26745,8 @@
       "referenceGameId": "llmarena-hanabi-small",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Hanabi Small (LLMArena)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 的 Hanabi 环境；不是本条目的缩小版牌色、点数、手牌或令牌配置。",
-        "en": "Collection example: Hanabi Small (LLMArena). This illustrates one example, not every game or an evaluation run of the collection. Reference: Hanabi in PettingZoo; not the reduced colours, ranks, hand size or token configuration of this entry."
+        "zh": "合集代表场景：Hanabi Small (LLMArena)。 参考画面：PettingZoo 的 Hanabi 环境；不是本条目的缩小版牌色、点数、手牌或令牌配置。",
+        "en": "Collection example: Hanabi Small (LLMArena). Reference: Hanabi in PettingZoo; not the reduced colours, ranks, hand size or token configuration of this entry."
       },
       "relationshipEvidence": "Game-index source association explicitly links llmarena-hanabi-small to collection-gab077 via GAB077. Scoped evidence: 附录A.7明确两人、两色、每手两张牌与三个信息令牌，单列缩小版，不能与标准Hanabi成绩混算；原提示的生命令牌描述不一致。",
       "relationshipSource": "https://aclanthology.org/2024.acl-long.705.pdf",
@@ -26761,8 +26761,8 @@
             "en": "Hanabi Small (LLMArena)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Hanabi Small (LLMArena)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 的 Hanabi 环境；不是本条目的缩小版牌色、点数、手牌或令牌配置。",
-            "en": "Collection example: Hanabi Small (LLMArena). This illustrates one example, not every game or an evaluation run of the collection. Reference: Hanabi in PettingZoo; not the reduced colours, ranks, hand size or token configuration of this entry."
+            "zh": "合集代表场景：Hanabi Small (LLMArena)。 参考画面：PettingZoo 的 Hanabi 环境；不是本条目的缩小版牌色、点数、手牌或令牌配置。",
+            "en": "Collection example: Hanabi Small (LLMArena). Reference: Hanabi in PettingZoo; not the reduced colours, ranks, hand size or token configuration of this entry."
           },
           "relationshipEvidence": "Game-index source association explicitly links llmarena-hanabi-small to collection-gab077 via GAB077. Scoped evidence: 附录A.7明确两人、两色、每手两张牌与三个信息令牌，单列缩小版，不能与标准Hanabi成绩混算；原提示的生命令牌描述不一致。",
           "relationshipSource": "https://aclanthology.org/2024.acl-long.705.pdf"
@@ -26811,8 +26811,8 @@
       "referenceGameId": "chess",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：国际象棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Chess. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：国际象棋。 版本与评测实现可能不同。",
+        "en": "Collection example: Chess. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links chess to collection-gap-a1 via GAP-A1. Scoped evidence: LMAct全文明确标准国际象棋对抗Stockfish，限本文上下文模仿子协议。",
       "relationshipSource": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/ruoss25a/ruoss25a.pdf",
@@ -26824,8 +26824,8 @@
             "en": "Chess"
           },
           "imageNote": {
-            "zh": "合集代表场景：国际象棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Chess. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：国际象棋。 版本与评测实现可能不同。",
+            "en": "Collection example: Chess. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links chess to collection-gap-a1 via GAP-A1. Scoped evidence: LMAct全文明确标准国际象棋对抗Stockfish，限本文上下文模仿子协议。",
           "relationshipSource": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/ruoss25a/ruoss25a.pdf"
@@ -27108,8 +27108,8 @@
       "referenceGameId": "chess",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：国际象棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Chess. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：国际象棋。 版本与评测实现可能不同。",
+        "en": "Collection example: Chess. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links chess to collection-gab082 via GAB082. Scoped evidence: 根据当前棋盘选择下一合法操作并完成游戏 复合分数不是纯胜率；数独和扫雷不强行映射为九维中的规划",
       "relationshipSource": "https://proceedings.iclr.cc/paper_files/paper/2025/file/27881a19f100fdbf57f0ba1c3d499b08-Paper-Conference.pdf",
@@ -27121,8 +27121,8 @@
             "en": "Chess"
           },
           "imageNote": {
-            "zh": "合集代表场景：国际象棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Chess. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：国际象棋。 版本与评测实现可能不同。",
+            "en": "Collection example: Chess. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links chess to collection-gab082 via GAB082. Scoped evidence: 根据当前棋盘选择下一合法操作并完成游戏 复合分数不是纯胜率；数独和扫雷不强行映射为九维中的规划",
           "relationshipSource": "https://proceedings.iclr.cc/paper_files/paper/2025/file/27881a19f100fdbf57f0ba1c3d499b08-Paper-Conference.pdf"
@@ -27134,8 +27134,8 @@
             "en": "Minesweeper"
           },
           "imageNote": {
-            "zh": "合集代表场景：扫雷。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Minesweeper. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：扫雷。",
+            "en": "Collection example: Minesweeper."
           },
           "relationshipEvidence": "Game-index source association explicitly links minesweeper to collection-gab082 via GAB082. Scoped evidence: 根据当前棋盘选择下一合法操作并完成游戏 复合分数不是纯胜率；数独和扫雷不强行映射为九维中的规划",
           "relationshipSource": "https://proceedings.iclr.cc/paper_files/paper/2025/file/27881a19f100fdbf57f0ba1c3d499b08-Paper-Conference.pdf"
@@ -27147,8 +27147,8 @@
             "en": "Tic-Tac-Toe"
           },
           "imageNote": {
-            "zh": "合集代表场景：井字棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Tic-Tac-Toe. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：井字棋。 版本与评测实现可能不同。",
+            "en": "Collection example: Tic-Tac-Toe. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links tic-tac-toe to collection-gab082 via GAB082. Scoped evidence: 根据当前棋盘选择下一合法操作并完成游戏 复合分数不是纯胜率；数独和扫雷不强行映射为九维中的规划",
           "relationshipSource": "https://proceedings.iclr.cc/paper_files/paper/2025/file/27881a19f100fdbf57f0ba1c3d499b08-Paper-Conference.pdf"
@@ -27202,8 +27202,8 @@
       "referenceGameId": "machiavelli-avatar-of-the-wolf",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Avatar Of The Wolf (Machiavelli)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Avatar Of The Wolf (Machiavelli). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Avatar Of The Wolf (Machiavelli)。 版本与评测实现可能不同。",
+        "en": "Collection example: Avatar Of The Wolf (Machiavelli). The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links machiavelli-avatar-of-the-wolf to machiavelli-games via GAB053. Scoped evidence: 附录G的30游戏测试集成员；成就/伤害结果不单独证明规划、社交或道德能力。",
       "relationshipSource": "https://proceedings.mlr.press/v202/pan23a/pan23a.pdf",
@@ -27215,8 +27215,8 @@
             "en": "Avatar Of The Wolf (Machiavelli)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Avatar Of The Wolf (Machiavelli)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Avatar Of The Wolf (Machiavelli). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Avatar Of The Wolf (Machiavelli)。 版本与评测实现可能不同。",
+            "en": "Collection example: Avatar Of The Wolf (Machiavelli). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links machiavelli-avatar-of-the-wolf to machiavelli-games via GAB053. Scoped evidence: 附录G的30游戏测试集成员；成就/伤害结果不单独证明规划、社交或道德能力。",
           "relationshipSource": "https://proceedings.mlr.press/v202/pan23a/pan23a.pdf"
@@ -27228,8 +27228,8 @@
             "en": "I Cyborg (Machiavelli)"
           },
           "imageNote": {
-            "zh": "合集代表场景：I Cyborg (Machiavelli)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: I Cyborg (Machiavelli). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：I Cyborg (Machiavelli)。 版本与评测实现可能不同。",
+            "en": "Collection example: I Cyborg (Machiavelli). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links machiavelli-i-cyborg to machiavelli-games via GAB053. Scoped evidence: 附录G的30游戏测试集成员；成就/伤害结果不单独证明规划、社交或道德能力。",
           "relationshipSource": "https://proceedings.mlr.press/v202/pan23a/pan23a.pdf"
@@ -27241,8 +27241,8 @@
             "en": "Hollywood Visionary (Machiavelli)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Hollywood Visionary (Machiavelli)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Hollywood Visionary (Machiavelli). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Hollywood Visionary (Machiavelli)。 版本与评测实现可能不同。",
+            "en": "Collection example: Hollywood Visionary (Machiavelli). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links machiavelli-hollywood-visionary to machiavelli-games via GAB053. Scoped evidence: 附录G的30游戏测试集成员；成就/伤害结果不单独证明规划、社交或道德能力。",
           "relationshipSource": "https://proceedings.mlr.press/v202/pan23a/pan23a.pdf"
@@ -27504,8 +27504,8 @@
       },
       "imageMatch": "exact",
       "imageNote": {
-        "zh": "TextWorldExpress 1.1.0 官方 PyWebIO 界面的本地运行截图；train 划分、seed 0、默认任务参数。读取地图后，环境列出 15 个房间之间的连通关系，保留当前位置和动作选择器。 画面记录单个演示回合中的局部交互，论文完整评测协议另行定义。",
-        "en": "Local run of the official TextWorldExpress 1.1.0 PyWebIO interface, with the train split, seed 0 and default task parameters. Reading the map reveals connectivity among 15 rooms, with the current location and action selector retained. The image records partial interaction in one demonstration episode; the full paper evaluation protocol is separate."
+        "zh": "TextWorldExpress 1.1.0 官方 PyWebIO 界面的本地运行截图；train 划分、seed 0、默认任务参数。读取地图后，环境列出 15 个房间之间的连通关系，保留当前位置和动作选择器。",
+        "en": "Local run of the official TextWorldExpress 1.1.0 PyWebIO interface, with the train split, seed 0 and default task parameters. Reading the map reveals connectivity among 15 rooms, with the current location and action selector retained."
       },
       "captureMethod": "local-runtime-screenshot",
       "capture": {
@@ -27603,8 +27603,8 @@
       "referenceGameId": "marbo-among-us",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Among Us (MARBO text adaptation)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：Among Us 商业原作；MARBO 是文字交互改编，本图不是其评测界面。",
-        "en": "Collection example: Among Us (MARBO text adaptation). This illustrates one example, not every game or an evaluation run of the collection. Reference: the commercial Among Us game; MARBO is a text adaptation and this is not its evaluation interface."
+        "zh": "合集代表场景：Among Us (MARBO text adaptation)。 参考画面：Among Us 商业原作；MARBO 是文字交互改编，本图不是其评测界面。",
+        "en": "Collection example: Among Us (MARBO text adaptation). Reference: the commercial Among Us game; MARBO is a text adaptation and this is not its evaluation interface."
       },
       "relationshipEvidence": "Game-index source association explicitly links marbo-among-us to collection-rec-4.4 via REC-4.4. Scoped evidence: MARBO 论文明确的文字交互改编协议。",
       "relationshipSource": "https://arxiv.org/html/2609.06563",
@@ -27617,8 +27617,8 @@
             "en": "Among Us (MARBO text adaptation)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Among Us (MARBO text adaptation)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：Among Us 商业原作；MARBO 是文字交互改编，本图不是其评测界面。",
-            "en": "Collection example: Among Us (MARBO text adaptation). This illustrates one example, not every game or an evaluation run of the collection. Reference: the commercial Among Us game; MARBO is a text adaptation and this is not its evaluation interface."
+            "zh": "合集代表场景：Among Us (MARBO text adaptation)。 参考画面：Among Us 商业原作；MARBO 是文字交互改编，本图不是其评测界面。",
+            "en": "Collection example: Among Us (MARBO text adaptation). Reference: the commercial Among Us game; MARBO is a text adaptation and this is not its evaluation interface."
           },
           "relationshipEvidence": "Game-index source association explicitly links marbo-among-us to collection-rec-4.4 via REC-4.4. Scoped evidence: MARBO 论文明确的文字交互改编协议。",
           "relationshipSource": "https://arxiv.org/html/2609.06563"
@@ -27768,8 +27768,8 @@
       "referenceGameId": "mpe-simple-spread",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Simple Spread (MPE)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Simple Spread (MPE). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Simple Spread (MPE)。 版本与评测实现可能不同。",
+        "en": "Collection example: Simple Spread (MPE). The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links mpe-simple-spread to marllib-envs via GAB054. Scoped evidence: 仅关联本轮核验的明确平台任务。",
       "relationshipSource": "https://www.jmlr.org/papers/volume24/23-0378/23-0378.pdf",
@@ -27781,8 +27781,8 @@
             "en": "Simple Spread (MPE)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Simple Spread (MPE)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Simple Spread (MPE). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Simple Spread (MPE)。 版本与评测实现可能不同。",
+            "en": "Collection example: Simple Spread (MPE). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links mpe-simple-spread to marllib-envs via GAB054. Scoped evidence: 仅关联本轮核验的明确平台任务。",
           "relationshipSource": "https://www.jmlr.org/papers/volume24/23-0378/23-0378.pdf"
@@ -28396,8 +28396,8 @@
       "referenceGameId": "actionparty-clean-up",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Clean Up (ActionParty)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Clean Up (ActionParty). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Clean Up (ActionParty)。",
+        "en": "Collection example: Clean Up (ActionParty)."
       },
       "relationshipEvidence": "Game-index source association explicitly links actionparty-clean-up to melting-pot via AX26-2604.02330. Scoped evidence: ActionParty 实际视频评测使用的 Melting Pot 16×16 适配地图。",
       "relationshipSource": "https://action-party.github.io/supplementary/index.html",
@@ -28409,8 +28409,8 @@
             "en": "Clean Up (ActionParty)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Clean Up (ActionParty)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Clean Up (ActionParty). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Clean Up (ActionParty)。",
+            "en": "Collection example: Clean Up (ActionParty)."
           },
           "relationshipEvidence": "Game-index source association explicitly links actionparty-clean-up to melting-pot via AX26-2604.02330. Scoped evidence: ActionParty 实际视频评测使用的 Melting Pot 16×16 适配地图。",
           "relationshipSource": "https://action-party.github.io/supplementary/index.html"
@@ -28422,8 +28422,8 @@
             "en": "Collaborative Cooking: Cramped (ActionParty)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Collaborative Cooking: Cramped (ActionParty)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Collaborative Cooking: Cramped (ActionParty). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Collaborative Cooking: Cramped (ActionParty)。",
+            "en": "Collection example: Collaborative Cooking: Cramped (ActionParty)."
           },
           "relationshipEvidence": "Game-index source association explicitly links actionparty-collaborative-cooking-cramped to melting-pot via AX26-2604.02330. Scoped evidence: ActionParty 实际视频评测使用的 Melting Pot 16×16 适配地图。",
           "relationshipSource": "https://action-party.github.io/supplementary/index.html"
@@ -28435,8 +28435,8 @@
             "en": "Paintball: Capture The Flag (ActionParty)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Paintball: Capture The Flag (ActionParty)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Paintball: Capture The Flag (ActionParty). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Paintball: Capture The Flag (ActionParty)。",
+            "en": "Collection example: Paintball: Capture The Flag (ActionParty)."
           },
           "relationshipEvidence": "Game-index source association explicitly links actionparty-paintball-capture-the-flag to melting-pot via AX26-2604.02330. Scoped evidence: ActionParty 实际视频评测使用的 Melting Pot 16×16 适配地图。",
           "relationshipSource": "https://action-party.github.io/supplementary/index.html"
@@ -29408,8 +29408,8 @@
       "referenceGameId": "miniarcade-coinrun",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Coinrun (MiniArcade)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Coinrun (MiniArcade). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Coinrun (MiniArcade)。",
+        "en": "Collection example: Coinrun (MiniArcade)."
       },
       "relationshipEvidence": "Game-index source association explicitly links miniarcade-coinrun to miniarcade via GAB109. Scoped evidence: MiniArcade正式训练任务：coinrun；同源目标变体归并为一个环境。",
       "relationshipSource": "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py",
@@ -29421,8 +29421,8 @@
             "en": "Coinrun (MiniArcade)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Coinrun (MiniArcade)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Coinrun (MiniArcade). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Coinrun (MiniArcade)。",
+            "en": "Collection example: Coinrun (MiniArcade)."
           },
           "relationshipEvidence": "Game-index source association explicitly links miniarcade-coinrun to miniarcade via GAB109. Scoped evidence: MiniArcade正式训练任务：coinrun；同源目标变体归并为一个环境。",
           "relationshipSource": "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py"
@@ -29434,8 +29434,8 @@
             "en": "Pong (MiniArcade)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Pong (MiniArcade)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Pong (MiniArcade). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Pong (MiniArcade)。",
+            "en": "Collection example: Pong (MiniArcade)."
           },
           "relationshipEvidence": "Game-index source association explicitly links miniarcade-pong to miniarcade via GAB109. Scoped evidence: MiniArcade正式训练任务：pong；同源目标变体归并为一个环境。",
           "relationshipSource": "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py"
@@ -29447,8 +29447,8 @@
             "en": "Point Maze (MiniArcade)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Point Maze (MiniArcade)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Point Maze (MiniArcade). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Point Maze (MiniArcade)。",
+            "en": "Collection example: Point Maze (MiniArcade)."
           },
           "relationshipEvidence": "Game-index source association explicitly links miniarcade-point-maze to miniarcade via GAB109. Scoped evidence: MiniArcade正式训练任务：var1, var2, var3；同源目标变体归并为一个环境。",
           "relationshipSource": "https://raw.githubusercontent.com/nicklashansen/newt/main/tdmpc2/common/__init__.py"
@@ -31762,8 +31762,8 @@
       "referenceGameId": "super-mario-land",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Super Mario Land。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Super Mario Land. This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Super Mario Land。",
+        "en": "Collection example: Super Mario Land."
       },
       "relationshipEvidence": "Game-index source association explicitly links super-mario-land to collection-ax26-2605.00347 via AX26-2605.00347. Scoped evidence: 原文实验为 Super Mario Land；不是 Super Mario Bros.。",
       "relationshipSource": "https://arxiv.org/abs/2605.00347",
@@ -31775,8 +31775,8 @@
             "en": "Super Mario Land"
           },
           "imageNote": {
-            "zh": "合集代表场景：Super Mario Land。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Super Mario Land. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Super Mario Land。",
+            "en": "Collection example: Super Mario Land."
           },
           "relationshipEvidence": "Game-index source association explicitly links super-mario-land to collection-ax26-2605.00347 via AX26-2605.00347. Scoped evidence: 原文实验为 Super Mario Land；不是 Super Mario Bros.。",
           "relationshipSource": "https://arxiv.org/abs/2605.00347"
@@ -31980,8 +31980,8 @@
       "referenceGameId": "leduc-holdem",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Leduc 扑克。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Leduc Hold’em. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Leduc 扑克。 版本与评测实现可能不同。",
+        "en": "Collection example: Leduc Hold’em. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links leduc-holdem to openspiel-games via SUP-openspiel. Scoped evidence: 论文图 3–4 明确使用双人 Leduc poker；挂接现有 Leduc 节点。",
       "relationshipSource": "https://arxiv.org/abs/1908.09453",
@@ -31993,8 +31993,8 @@
             "en": "Leduc Hold’em"
           },
           "imageNote": {
-            "zh": "合集代表场景：Leduc 扑克。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Leduc Hold’em. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Leduc 扑克。 版本与评测实现可能不同。",
+            "en": "Collection example: Leduc Hold’em. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links leduc-holdem to openspiel-games via SUP-openspiel. Scoped evidence: 论文图 3–4 明确使用双人 Leduc poker；挂接现有 Leduc 节点。",
           "relationshipSource": "https://arxiv.org/abs/1908.09453"
@@ -32994,8 +32994,8 @@
       "referenceGameId": "pettingzoo-pistonball-v6",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Pistonball-v6 (PettingZoo)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Pistonball-v6 (PettingZoo). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Pistonball-v6 (PettingZoo)。 版本与评测实现可能不同。",
+        "en": "Collection example: Pistonball-v6 (PettingZoo). The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links pettingzoo-pistonball-v6 to pettingzoo-games via GAB014. Scoped evidence: 明确区分研究任务/版本，不扩展到平台所有游戏。",
       "relationshipSource": "https://pettingzoo.farama.org/environments/butterfly/pistonball/",
@@ -33007,8 +33007,8 @@
             "en": "Pistonball-v6 (PettingZoo)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Pistonball-v6 (PettingZoo)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Pistonball-v6 (PettingZoo). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Pistonball-v6 (PettingZoo)。 版本与评测实现可能不同。",
+            "en": "Collection example: Pistonball-v6 (PettingZoo). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links pettingzoo-pistonball-v6 to pettingzoo-games via GAB014. Scoped evidence: 明确区分研究任务/版本，不扩展到平台所有游戏。",
           "relationshipSource": "https://pettingzoo.farama.org/environments/butterfly/pistonball/"
@@ -33020,8 +33020,8 @@
             "en": "Chess"
           },
           "imageNote": {
-            "zh": "合集代表场景：国际象棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Chess. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：国际象棋。 版本与评测实现可能不同。",
+            "en": "Collection example: Chess. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links chess to pettingzoo-games via GAB014. Scoped evidence: Official PettingZoo documentation supplies this named environment rendering.",
           "relationshipSource": "https://github.com/Farama-Foundation/PettingZoo/blob/b0fe02166d2106f8fcb6a6e0ca8125765699bdba/docs/environments/classic/classic_chess.gif"
@@ -33033,8 +33033,8 @@
             "en": "Hanabi"
           },
           "imageNote": {
-            "zh": "合集代表场景：Hanabi。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Hanabi. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Hanabi。 版本与评测实现可能不同。",
+            "en": "Collection example: Hanabi. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links hanabi to pettingzoo-games via GAB014. Scoped evidence: Official PettingZoo documentation supplies this named environment rendering.",
           "relationshipSource": "https://github.com/Farama-Foundation/PettingZoo/blob/b0fe02166d2106f8fcb6a6e0ca8125765699bdba/docs/environments/classic/classic_hanabi.gif"
@@ -33138,8 +33138,8 @@
       "referenceGameId": "gardner-chess",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Gardner Chess (5×5)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 的标准国际象棋；不是 Gardner Chess (5×5) 的特殊棋盘、隐藏信息或状态预测任务。",
-        "en": "Collection example: Gardner Chess (5×5). This illustrates one example, not every game or an evaluation run of the collection. Reference: standard chess in PettingZoo; not the special board, hidden-information rules or state-prediction task of Gardner Chess (5×5)."
+        "zh": "合集代表场景：Gardner Chess (5×5)。 参考画面：PettingZoo 的标准国际象棋；不是 Gardner Chess (5×5) 的特殊棋盘、隐藏信息或状态预测任务。",
+        "en": "Collection example: Gardner Chess (5×5). Reference: standard chess in PettingZoo; not the special board, hidden-information rules or state-prediction task of Gardner Chess (5×5)."
       },
       "relationshipEvidence": "Game-index source association explicitly links gardner-chess to pgx-games via GAB046. Scoped evidence: 原文实际 AlphaZero 评测的指定棋盘规则；不继承整个平台。",
       "relationshipSource": "https://arxiv.org/abs/2303.17503",
@@ -33154,8 +33154,8 @@
             "en": "Gardner Chess (5×5)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Gardner Chess (5×5)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 的标准国际象棋；不是 Gardner Chess (5×5) 的特殊棋盘、隐藏信息或状态预测任务。",
-            "en": "Collection example: Gardner Chess (5×5). This illustrates one example, not every game or an evaluation run of the collection. Reference: standard chess in PettingZoo; not the special board, hidden-information rules or state-prediction task of Gardner Chess (5×5)."
+            "zh": "合集代表场景：Gardner Chess (5×5)。 参考画面：PettingZoo 的标准国际象棋；不是 Gardner Chess (5×5) 的特殊棋盘、隐藏信息或状态预测任务。",
+            "en": "Collection example: Gardner Chess (5×5). Reference: standard chess in PettingZoo; not the special board, hidden-information rules or state-prediction task of Gardner Chess (5×5)."
           },
           "relationshipEvidence": "Game-index source association explicitly links gardner-chess to pgx-games via GAB046. Scoped evidence: 原文实际 AlphaZero 评测的指定棋盘规则；不继承整个平台。",
           "relationshipSource": "https://arxiv.org/abs/2303.17503"
@@ -33167,8 +33167,8 @@
             "en": "Go (9×9)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Go (9×9)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 围棋渲染；仅说明围棋环境，不代表本研究的指定棋盘尺寸、隐藏信息规则或历史对局。",
-            "en": "Collection example: Go (9×9). This illustrates one example, not every game or an evaluation run of the collection. Reference: PettingZoo Go rendering; does not identify this study’s required board size, hidden-information rules or historical match."
+            "zh": "合集代表场景：Go (9×9)。 参考画面：PettingZoo 围棋渲染；仅说明围棋环境，不代表本研究的指定棋盘尺寸、隐藏信息规则或历史对局。",
+            "en": "Collection example: Go (9×9). Reference: PettingZoo Go rendering; does not identify this study’s required board size, hidden-information rules or historical match."
           },
           "relationshipEvidence": "Game-index source association explicitly links go-9x9 to pgx-games via GAB046. Scoped evidence: 原文实际 AlphaZero 评测的指定棋盘规则；不继承整个平台。",
           "relationshipSource": "https://arxiv.org/abs/2303.17503"
@@ -33897,8 +33897,8 @@
       "referenceGameId": "playtrain-coinrun",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：coinrun (PlayTrain JS clone)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：Procgen 的 coinrun 原环境；不是 PlayTrain JavaScript 复刻版或其评测运行。",
-        "en": "Collection example: coinrun (PlayTrain JS clone). This illustrates one example, not every game or an evaluation run of the collection. Reference: original Procgen coinrun environment, not the PlayTrain JavaScript clone or an evaluation rollout."
+        "zh": "合集代表场景：coinrun (PlayTrain JS clone)。 参考画面：Procgen 的 coinrun 原环境；不是 PlayTrain JavaScript 复刻版或其评测运行。",
+        "en": "Collection example: coinrun (PlayTrain JS clone). Reference: original Procgen coinrun environment, not the PlayTrain JavaScript clone or an evaluation rollout."
       },
       "relationshipEvidence": "Game-index source association explicitly links playtrain-coinrun to playtrain-js-clones via REC-2.8. Scoped evidence: 表 10 中的 JS 复刻，不能与原版成绩混同。",
       "relationshipSource": "https://arxiv.org/html/2609.09059v2",
@@ -33913,8 +33913,8 @@
             "en": "coinrun (PlayTrain JS clone)"
           },
           "imageNote": {
-            "zh": "合集代表场景：coinrun (PlayTrain JS clone)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：Procgen 的 coinrun 原环境；不是 PlayTrain JavaScript 复刻版或其评测运行。",
-            "en": "Collection example: coinrun (PlayTrain JS clone). This illustrates one example, not every game or an evaluation run of the collection. Reference: original Procgen coinrun environment, not the PlayTrain JavaScript clone or an evaluation rollout."
+            "zh": "合集代表场景：coinrun (PlayTrain JS clone)。 参考画面：Procgen 的 coinrun 原环境；不是 PlayTrain JavaScript 复刻版或其评测运行。",
+            "en": "Collection example: coinrun (PlayTrain JS clone). Reference: original Procgen coinrun environment, not the PlayTrain JavaScript clone or an evaluation rollout."
           },
           "relationshipEvidence": "Game-index source association explicitly links playtrain-coinrun to playtrain-js-clones via REC-2.8. Scoped evidence: 表 10 中的 JS 复刻，不能与原版成绩混同。",
           "relationshipSource": "https://arxiv.org/html/2609.09059v2"
@@ -33926,8 +33926,8 @@
             "en": "pong (PlayTrain JS clone)"
           },
           "imageNote": {
-            "zh": "合集代表场景：pong (PlayTrain JS clone)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：Atari 2600 pong，来自 ALE 官方环境文档；不是 PlayTrain JavaScript 复刻版。",
-            "en": "Collection example: pong (PlayTrain JS clone). This illustrates one example, not every game or an evaluation run of the collection. Reference: Atari 2600 pong from official ALE documentation; not the PlayTrain JavaScript clone."
+            "zh": "合集代表场景：pong (PlayTrain JS clone)。 参考画面：Atari 2600 pong，来自 ALE 官方环境文档；不是 PlayTrain JavaScript 复刻版。",
+            "en": "Collection example: pong (PlayTrain JS clone). Reference: Atari 2600 pong from official ALE documentation; not the PlayTrain JavaScript clone."
           },
           "relationshipEvidence": "Game-index source association explicitly links playtrain-pong to playtrain-js-clones via REC-2.8. Scoped evidence: 表 10 中的 JS 复刻，不能与原版成绩混同。",
           "relationshipSource": "https://arxiv.org/html/2609.09059v2"
@@ -33939,8 +33939,8 @@
             "en": "flappy_bird (PlayTrain)"
           },
           "imageNote": {
-            "zh": "合集代表场景：flappy_bird (PlayTrain)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：GameWorld 收录的 Flappy Bird 浏览器版本；不是 PlayTrain 的实现，也不展示其 hoop 变体规则。",
-            "en": "Collection example: flappy_bird (PlayTrain). This illustrates one example, not every game or an evaluation run of the collection. Reference: the Flappy Bird browser version catalogued by GameWorld; not the PlayTrain implementation or its hoop variant."
+            "zh": "合集代表场景：flappy_bird (PlayTrain)。 参考画面：GameWorld 收录的 Flappy Bird 浏览器版本；不是 PlayTrain 的实现，也不展示其 hoop 变体规则。",
+            "en": "Collection example: flappy_bird (PlayTrain). Reference: the Flappy Bird browser version catalogued by GameWorld; not the PlayTrain implementation or its hoop variant."
           },
           "relationshipEvidence": "Game-index source association explicitly links playtrain-flappy-bird to playtrain-js-clones via REC-2.8. Scoped evidence: 独立 JS 版本或变体；training/human play",
           "relationshipSource": "https://arxiv.org/html/2609.09059v2"
@@ -35250,8 +35250,8 @@
       "referenceGameId": "procgen-coinrun",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：CoinRun (Procgen)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: CoinRun (Procgen). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：CoinRun (Procgen)。",
+        "en": "Collection example: CoinRun (Procgen)."
       },
       "relationshipEvidence": "Game-index source association explicitly links procgen-coinrun to procgen-games via GAB071. Scoped evidence: Gen-DGRL正式发布的Procgen离线数据环境。",
       "relationshipSource": "https://github.com/facebookresearch/gen_dgrl/blob/main/procgen/download.py",
@@ -35263,8 +35263,8 @@
             "en": "CoinRun (Procgen)"
           },
           "imageNote": {
-            "zh": "合集代表场景：CoinRun (Procgen)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: CoinRun (Procgen). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：CoinRun (Procgen)。",
+            "en": "Collection example: CoinRun (Procgen)."
           },
           "relationshipEvidence": "Game-index source association explicitly links procgen-coinrun to procgen-games via GAB071. Scoped evidence: Gen-DGRL正式发布的Procgen离线数据环境。",
           "relationshipSource": "https://github.com/facebookresearch/gen_dgrl/blob/main/procgen/download.py"
@@ -35276,8 +35276,8 @@
             "en": "Bigfish (Procgen)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Bigfish (Procgen)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Bigfish (Procgen). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Bigfish (Procgen)。",
+            "en": "Collection example: Bigfish (Procgen)."
           },
           "relationshipEvidence": "Game-index source association explicitly links procgen-bigfish to procgen-games via GAB071. Scoped evidence: Gen-DGRL正式发布的Procgen离线数据环境。",
           "relationshipSource": "https://github.com/facebookresearch/gen_dgrl/blob/main/procgen/download.py"
@@ -35289,8 +35289,8 @@
             "en": "Starpilot (Procgen)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Starpilot (Procgen)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Starpilot (Procgen). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Starpilot (Procgen)。",
+            "en": "Collection example: Starpilot (Procgen)."
           },
           "relationshipEvidence": "Game-index source association explicitly links procgen-starpilot to procgen-games via GAB071. Scoped evidence: Gen-DGRL正式发布的Procgen离线数据环境。",
           "relationshipSource": "https://github.com/facebookresearch/gen_dgrl/blob/main/procgen/download.py"
@@ -37530,8 +37530,8 @@
       "referenceGameId": "atari-pong",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Pong (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Pong (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Pong (Atari 2600)。 版本与评测实现可能不同。",
+        "en": "Collection example: Pong (Atari 2600). The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links atari-pong to collection-gab005 via GAB005. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
       "relationshipSource": "https://raw.githubusercontent.com/google-deepmind/deepmind-research/master/rl_unplugged/atari.py",
@@ -37543,8 +37543,8 @@
             "en": "Pong (Atari 2600)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Pong (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Pong (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Pong (Atari 2600)。 版本与评测实现可能不同。",
+            "en": "Collection example: Pong (Atari 2600). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links atari-pong to collection-gab005 via GAB005. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://raw.githubusercontent.com/google-deepmind/deepmind-research/master/rl_unplugged/atari.py"
@@ -37556,8 +37556,8 @@
             "en": "Seaquest (Atari 2600)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Seaquest (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Seaquest (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Seaquest (Atari 2600)。 版本与评测实现可能不同。",
+            "en": "Collection example: Seaquest (Atari 2600). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links atari-seaquest to collection-gab005 via GAB005. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://raw.githubusercontent.com/google-deepmind/deepmind-research/master/rl_unplugged/atari.py"
@@ -37569,8 +37569,8 @@
             "en": "Ms. Pac-Man (Atari 2600)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Ms. Pac-Man (Atari 2600)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Ms. Pac-Man (Atari 2600). This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Ms. Pac-Man (Atari 2600)。 版本与评测实现可能不同。",
+            "en": "Collection example: Ms. Pac-Man (Atari 2600). The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links atari-ms-pacman to collection-gab005 via GAB005. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://raw.githubusercontent.com/google-deepmind/deepmind-research/master/rl_unplugged/atari.py"
@@ -37626,8 +37626,8 @@
       "referenceGameId": "doudizhu",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：斗地主。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Dou Dizhu. This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：斗地主。",
+        "en": "Collection example: Dou Dizhu."
       },
       "relationshipEvidence": "Game-index source association explicitly links doudizhu to rlcard-games via rlcard. Scoped evidence: 官方游戏清单收录此子游戏；任务设置、能力归因与接口需按子游戏文档确认，不继承整个套件的能力标签。",
       "relationshipSource": "https://github.com/datamllab/rlcard#available-environments",
@@ -37639,8 +37639,8 @@
             "en": "Dou Dizhu"
           },
           "imageNote": {
-            "zh": "合集代表场景：斗地主。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Dou Dizhu. This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：斗地主。",
+            "en": "Collection example: Dou Dizhu."
           },
           "relationshipEvidence": "Game-index source association explicitly links doudizhu to rlcard-games via rlcard. Scoped evidence: 官方游戏清单收录此子游戏；任务设置、能力归因与接口需按子游戏文档确认，不继承整个套件的能力标签。",
           "relationshipSource": "https://github.com/datamllab/rlcard#available-environments"
@@ -37652,8 +37652,8 @@
             "en": "Limit Texas Hold’em"
           },
           "imageNote": {
-            "zh": "合集代表场景：限注德州扑克。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Limit Texas Hold’em. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：限注德州扑克。 版本与评测实现可能不同。",
+            "en": "Collection example: Limit Texas Hold’em. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links limit-holdem to rlcard-games via rlcard. Scoped evidence: 官方游戏清单收录此子游戏；任务设置、能力归因与接口需按子游戏文档确认，不继承整个套件的能力标签。",
           "relationshipSource": "https://github.com/datamllab/rlcard#available-environments"
@@ -37665,8 +37665,8 @@
             "en": "No-limit Texas Hold’em"
           },
           "imageNote": {
-            "zh": "合集代表场景：无限注德州扑克。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: No-limit Texas Hold’em. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：无限注德州扑克。 版本与评测实现可能不同。",
+            "en": "Collection example: No-limit Texas Hold’em. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links no-limit-holdem to rlcard-games via rlcard. Scoped evidence: 官方游戏清单收录此子游戏；任务设置、能力归因与接口需按子游戏文档确认，不继承整个套件的能力标签。",
           "relationshipSource": "https://github.com/datamllab/rlcard#available-environments"
@@ -39914,8 +39914,8 @@
       "referenceGameId": "tatham-bridges",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Bridges (Simon Tatham)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-        "en": "Collection example: Bridges (Simon Tatham). This illustrates one example, not every game or an evaluation run of the collection."
+        "zh": "合集代表场景：Bridges (Simon Tatham)。",
+        "en": "Collection example: Bridges (Simon Tatham)."
       },
       "relationshipEvidence": "Game-index source association explicitly links tatham-bridges to simon-tatham-puzzles via GAB073. Scoped evidence: PUZZLES 实际支持并评测的 Simon Tatham 谜题实现。",
       "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e5d1eaadeed651ba1021c09149db4b92-Paper-Datasets_and_Benchmarks_Track.pdf",
@@ -39927,8 +39927,8 @@
             "en": "Bridges (Simon Tatham)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Bridges (Simon Tatham)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Bridges (Simon Tatham). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Bridges (Simon Tatham)。",
+            "en": "Collection example: Bridges (Simon Tatham)."
           },
           "relationshipEvidence": "Game-index source association explicitly links tatham-bridges to simon-tatham-puzzles via GAB073. Scoped evidence: PUZZLES 实际支持并评测的 Simon Tatham 谜题实现。",
           "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e5d1eaadeed651ba1021c09149db4b92-Paper-Datasets_and_Benchmarks_Track.pdf"
@@ -39940,8 +39940,8 @@
             "en": "Net (Simon Tatham)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Net (Simon Tatham)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Net (Simon Tatham). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：Net (Simon Tatham)。",
+            "en": "Collection example: Net (Simon Tatham)."
           },
           "relationshipEvidence": "Game-index source association explicitly links tatham-net to simon-tatham-puzzles via GAB073. Scoped evidence: PUZZLES 实际支持并评测的 Simon Tatham 谜题实现。",
           "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e5d1eaadeed651ba1021c09149db4b92-Paper-Datasets_and_Benchmarks_Track.pdf"
@@ -39953,8 +39953,8 @@
             "en": "Pattern (Simon Tatham)"
           },
           "imageNote": {
-            "zh": "合集代表场景：数织（Simon Tatham）。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。",
-            "en": "Collection example: Pattern (Simon Tatham). This illustrates one example, not every game or an evaluation run of the collection."
+            "zh": "合集代表场景：数织（Simon Tatham）。",
+            "en": "Collection example: Pattern (Simon Tatham)."
           },
           "relationshipEvidence": "Game-index source association explicitly links tatham-pattern to simon-tatham-puzzles via GAB073. Scoped evidence: PUZZLES 实际支持并评测的 Simon Tatham 谜题实现。",
           "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e5d1eaadeed651ba1021c09149db4b92-Paper-Datasets_and_Benchmarks_Track.pdf"
@@ -41607,8 +41607,8 @@
       },
       "imageMatch": "exact",
       "imageNote": {
-        "zh": "TextWorldExpress 1.1.0 官方 PyWebIO 界面的本地运行截图；train 划分、seed 0、默认任务参数。场景包含不同质量与单位的物品；取起 25g 橡木并放入箱子后，环境分数为 0.25。 画面记录单个演示回合中的局部交互，论文完整评测协议另行定义。",
-        "en": "Local run of the official TextWorldExpress 1.1.0 PyWebIO interface, with the train split, seed 0 and default task parameters. The scene contains objects with different masses and units; taking 25g of oak and putting it in the box yields a score of 0.25. The image records partial interaction in one demonstration episode; the full paper evaluation protocol is separate."
+        "zh": "TextWorldExpress 1.1.0 官方 PyWebIO 界面的本地运行截图；train 划分、seed 0、默认任务参数。场景包含不同质量与单位的物品；取起 25g 橡木并放入箱子后，环境分数为 0.25。",
+        "en": "Local run of the official TextWorldExpress 1.1.0 PyWebIO interface, with the train split, seed 0 and default task parameters. The scene contains objects with different masses and units; taking 25g of oak and putting it in the box yields a score of 0.25."
       },
       "captureMethod": "local-runtime-screenshot",
       "capture": {
@@ -42557,8 +42557,8 @@
       "referenceGameId": "tic-tac-toe",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：井字棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Tic-Tac-Toe. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：井字棋。 版本与评测实现可能不同。",
+        "en": "Collection example: Tic-Tac-Toe. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links tic-tac-toe to collection-top-15 via TOP-15. Scoped evidence: 论文表 4–5 明确评测该游戏；仅补此已确认子游戏。",
       "relationshipSource": "https://arxiv.org/abs/2506.24119",
@@ -42570,8 +42570,8 @@
             "en": "Tic-Tac-Toe"
           },
           "imageNote": {
-            "zh": "合集代表场景：井字棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Tic-Tac-Toe. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：井字棋。 版本与评测实现可能不同。",
+            "en": "Collection example: Tic-Tac-Toe. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links tic-tac-toe to collection-top-15 via TOP-15. Scoped evidence: 论文表 4–5 明确评测该游戏；仅补此已确认子游戏。",
           "relationshipSource": "https://arxiv.org/abs/2506.24119"
@@ -42623,8 +42623,8 @@
       "referenceGameId": "crafter",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Crafter。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Crafter. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Crafter。 版本与评测实现可能不同。",
+        "en": "Collection example: Crafter. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links crafter to collection-vla-04 via VLA-04. Scoped evidence: 仅为本轮明确任务添加游戏关联；保留父级。",
       "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/46c2a9a6f2b2be68682013eb1173c801-Abstract-Conference.html",
@@ -42636,8 +42636,8 @@
             "en": "Crafter"
           },
           "imageNote": {
-            "zh": "合集代表场景：Crafter。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Crafter. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Crafter。 版本与评测实现可能不同。",
+            "en": "Collection example: Crafter. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links crafter to collection-vla-04 via VLA-04. Scoped evidence: 仅为本轮明确任务添加游戏关联；保留父级。",
           "relationshipSource": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/46c2a9a6f2b2be68682013eb1173c801-Abstract-Conference.html"
@@ -43558,8 +43558,8 @@
       "referenceGameId": "chess",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：国际象棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Chess. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：国际象棋。 版本与评测实现可能不同。",
+        "en": "Collection example: Chess. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links chess to collection-top-14 via TOP-14. Scoped evidence: 原文明确评测标准国际象棋，补到现有 Chess 节点。",
       "relationshipSource": "https://arxiv.org/abs/2112.03178",
@@ -43571,8 +43571,8 @@
             "en": "Chess"
           },
           "imageNote": {
-            "zh": "合集代表场景：国际象棋。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Chess. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：国际象棋。 版本与评测实现可能不同。",
+            "en": "Collection example: Chess. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links chess to collection-top-14 via TOP-14. Scoped evidence: 原文明确评测标准国际象棋，补到现有 Chess 节点。",
           "relationshipSource": "https://arxiv.org/abs/2112.03178"
@@ -45134,8 +45134,8 @@
       },
       "imageMatch": "exact",
       "imageNote": {
-        "zh": "TextWorldExpress 1.1.0 官方 PyWebIO 界面的本地运行截图；train 划分、seed 0、默认任务参数。卧室场景中取起干净的蓝色袜子后，环境反馈物品已拿起，分数为 0.125，并提供后续收纳动作。 画面记录单个演示回合中的局部交互，论文完整评测协议另行定义。",
-        "en": "Local run of the official TextWorldExpress 1.1.0 PyWebIO interface, with the train split, seed 0 and default task parameters. Taking clean blue socks in the bedroom yields a score of 0.125 and enables subsequent object-placement actions. The image records partial interaction in one demonstration episode; the full paper evaluation protocol is separate."
+        "zh": "TextWorldExpress 1.1.0 官方 PyWebIO 界面的本地运行截图；train 划分、seed 0、默认任务参数。卧室场景中取起干净的蓝色袜子后，环境反馈物品已拿起，分数为 0.125，并提供后续收纳动作。",
+        "en": "Local run of the official TextWorldExpress 1.1.0 PyWebIO interface, with the train split, seed 0 and default task parameters. Taking clean blue socks in the bedroom yields a score of 0.125 and enables subsequent object-placement actions."
       },
       "captureMethod": "local-runtime-screenshot",
       "capture": {
@@ -47655,8 +47655,8 @@
       "referenceGameId": "valet-leduc-hold-em",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Leduc Hold’em (Valet/CardStock variant)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 的 Leduc Hold’em；不是 Valet/CardStock 的规则配置或文字交互界面。",
-        "en": "Collection example: Leduc Hold’em (Valet/CardStock variant). This illustrates one example, not every game or an evaluation run of the collection. Reference: PettingZoo Leduc Hold’em; not the Valet/CardStock rules configuration or text interface."
+        "zh": "合集代表场景：Leduc Hold’em (Valet/CardStock variant)。 参考画面：PettingZoo 的 Leduc Hold’em；不是 Valet/CardStock 的规则配置或文字交互界面。",
+        "en": "Collection example: Leduc Hold’em (Valet/CardStock variant). Reference: PettingZoo Leduc Hold’em; not the Valet/CardStock rules configuration or text interface."
       },
       "relationshipEvidence": "Game-index source association explicitly links valet-leduc-hold-em to collection-ax26-2603.03252 via AX26-2603.03252. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
       "relationshipSource": "https://arxiv.org/html/2603.03252",
@@ -47671,8 +47671,8 @@
             "en": "Leduc Hold’em (Valet/CardStock variant)"
           },
           "imageNote": {
-            "zh": "合集代表场景：Leduc Hold’em (Valet/CardStock variant)。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 参考画面：PettingZoo 的 Leduc Hold’em；不是 Valet/CardStock 的规则配置或文字交互界面。",
-            "en": "Collection example: Leduc Hold’em (Valet/CardStock variant). This illustrates one example, not every game or an evaluation run of the collection. Reference: PettingZoo Leduc Hold’em; not the Valet/CardStock rules configuration or text interface."
+            "zh": "合集代表场景：Leduc Hold’em (Valet/CardStock variant)。 参考画面：PettingZoo 的 Leduc Hold’em；不是 Valet/CardStock 的规则配置或文字交互界面。",
+            "en": "Collection example: Leduc Hold’em (Valet/CardStock variant). Reference: PettingZoo Leduc Hold’em; not the Valet/CardStock rules configuration or text interface."
           },
           "relationshipEvidence": "Game-index source association explicitly links valet-leduc-hold-em to collection-ax26-2603.03252 via AX26-2603.03252. Scoped evidence: 来源明确列入该任务的实际评测范围；只关联本协议，不继承其他任务能力。",
           "relationshipSource": "https://arxiv.org/html/2603.03252"
@@ -48129,8 +48129,8 @@
       "referenceGameId": "age-of-empires-ii-definitive-edition",
       "imageMatch": "collection-example",
       "imageNote": {
-        "zh": "合集代表场景：Age of Empires II: Definitive Edition。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-        "en": "Collection example: Age of Empires II: Definitive Edition. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+        "zh": "合集代表场景：Age of Empires II: Definitive Edition。 版本与评测实现可能不同。",
+        "en": "Collection example: Age of Empires II: Definitive Edition. The pictured version may differ from the evaluation implementation."
       },
       "relationshipEvidence": "Game-index source association explicitly links age-of-empires-ii-definitive-edition to videogameqa-media via GAP-C2. Scoped evidence: test 行 media_source=813780；仅截图 QA 来源。",
       "relationshipSource": "https://huggingface.co/datasets/taesiri/VideoGameQA-Bench",
@@ -48142,8 +48142,8 @@
             "en": "Age of Empires II: Definitive Edition"
           },
           "imageNote": {
-            "zh": "合集代表场景：Age of Empires II: Definitive Edition。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Age of Empires II: Definitive Edition. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：Age of Empires II: Definitive Edition。 版本与评测实现可能不同。",
+            "en": "Collection example: Age of Empires II: Definitive Edition. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links age-of-empires-ii-definitive-edition to videogameqa-media via GAP-C2. Scoped evidence: test 行 media_source=813780；仅截图 QA 来源。",
           "relationshipSource": "https://huggingface.co/datasets/taesiri/VideoGameQA-Bench"
@@ -48155,8 +48155,8 @@
             "en": "Construction Simulator"
           },
           "imageNote": {
-            "zh": "合集代表场景：建筑模拟器。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Construction Simulator. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：建筑模拟器。 版本与评测实现可能不同。",
+            "en": "Collection example: Construction Simulator. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links construction-simulator to videogameqa-media via GAP-C2. Scoped evidence: test 行 media_source=1273400；仅截图 QA 来源。",
           "relationshipSource": "https://huggingface.co/datasets/taesiri/VideoGameQA-Bench"
@@ -48168,8 +48168,8 @@
             "en": "Valheim"
           },
           "imageNote": {
-            "zh": "合集代表场景：英灵神殿。图片仅用于说明这一示例，不代表合集全部游戏或其评测运行。 画面来源与版本以图注为准，不据此认定合集使用相同接口或数据片段。",
-            "en": "Collection example: Valheim. This illustrates one example, not every game or an evaluation run of the collection. See the caption for the pictured source/version; the collection interface or data sample is not established by this image."
+            "zh": "合集代表场景：英灵神殿。 版本与评测实现可能不同。",
+            "en": "Collection example: Valheim. The pictured version may differ from the evaluation implementation."
           },
           "relationshipEvidence": "Game-index source association explicitly links valheim to videogameqa-media via GAP-C2. Scoped evidence: test 行 media_source=892970；仅截图 QA 来源。",
           "relationshipSource": "https://huggingface.co/datasets/taesiri/VideoGameQA-Bench"

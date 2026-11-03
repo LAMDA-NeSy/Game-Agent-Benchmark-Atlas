@@ -239,3 +239,5 @@ body[data-view] #library-content:is([data-entry-layout=sample],[data-entry-layou
 #game-picker-dialog {padding:0}
 #game-picker-content {padding:26px}
 .game-picker-dialog .game-picker-grid .game-index-thumbnail {width:108px;height:68px;object-fit:cover}
+
+.image-lightbox-content .reading-image-note { display:block; margin-top:3px; }

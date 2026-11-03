@@ -94,14 +94,14 @@
    const entry=representative?window.AtlasGameImages.get(representative.referenceGameId):base;
    if(!/^game-[a-z0-9-]+\.webp$/.test(entry.image||'')||!/^https:\/\//.test(entry.sourceUrl||''))continue;
    const notes=[representative?.imageNote,entry.imageNote].map(tr).filter(Boolean);
-   return {...entry,gameId,previewCaption:t(u?'任务环境示例 · ':'关联游戏示例 · ',u?'Task environment example · ':'Related game example · ')+tr(entry.caption),previewNote:[...new Set(notes)].join(' ')};
+   return {...entry,gameId,previewCaption:tr(entry.caption),previewNote:[...new Set(notes)].join(' ')};
   }
   return generatedEntryImage(r);
  }
  function generatedEntryImage(r){const specific=r&&specificVisual(r);if(specific?.kind==='ai-generated-concept')return {...specific,generated:true,previewCaption:tr(specific.caption)};return {generated:true,image:'benchmark-concept-ai-v1.jpg',width:640,height:426,alt:{zh:'通用游戏探索与评测概念插画（AI 生成）',en:'Concept illustration of game exploration and evaluation (AI-generated)'},previewCaption:t('AI 生成示意图','AI-generated illustration')};}
  function entryFigure(image,id,name){
   const visual=`<img data-library-image ${image.generated?'data-generated="true"':''} src="./${esc(image.image)}" width="${image.width}" height="${image.height}" alt="${esc(tr(image.alt))}" loading="lazy" decoding="async">`;
-  return `<figure class="reading-image ${image.generated?'generated-illustration':''}"><a class="reading-image-open" data-image-preview href="./${esc(image.image)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('查看图示：','View illustration: ')+name)}">${visual}</a><figcaption>${esc(image.previewCaption)}${image.previewNote?`<span class="reading-image-note">${esc(image.previewNote)}</span>`:''}${image.generated?'':`<a href="${esc(image.sourceUrl)}" target="_blank" rel="noopener noreferrer">${t('来源：','Source: ')}${esc(image.sourceLabel)} ↗</a>`}</figcaption></figure>`;
+  return `<figure class="reading-image ${image.generated?'generated-illustration':''}"><a class="reading-image-open" data-image-preview href="./${esc(image.image)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(t('查看图示：','View illustration: ')+name)}">${visual}</a><figcaption>${esc(image.previewCaption)}${image.previewNote?`<span class="reading-image-note">${esc(image.previewNote)}</span>`:''}${image.generated?'':`<a href="${esc(image.sourceUrl)}" target="_blank" rel="noopener noreferrer" title="${esc(image.sourceLabel)}" aria-label="${esc(t('来源：','Source: ')+image.sourceLabel)}">${t('来源','Source')} ↗</a>`}</figcaption></figure>`;
  }
  function readingRow(r,{id,author,authorCount,isSelected}){
   const u=matchingTasks(id,{cap:theme?.cap})[0];
