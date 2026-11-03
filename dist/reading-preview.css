@@ -220,3 +220,22 @@ body[data-view] #library-content:is([data-entry-layout=sample],[data-entry-layou
 
 #library-content:is([data-entry-layout=sample],[data-entry-layout=reading]) .reading-image-open { display:block; width:100%; padding:0; border:0; background:none; text-align:left; cursor:pointer; }
 #library-content:is([data-entry-layout=sample],[data-entry-layout=reading]) .reading-image figcaption>a { display:block; margin-top:3px; color:#315a78; }
+
+/* Game switching panel. */
+.game-picker-dialog {width:min(900px,90vw);max-height:82vh;padding:28px;border:1px solid #d9ded4;border-radius:6px;background:#fff;color:#30392b;overflow:auto}
+.game-picker-dialog::backdrop {background:#15201966}
+.game-picker-dialog header {display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+.game-picker-dialog h2 {font-size:24px;margin:0}
+.game-picker-controls {display:grid;grid-template-columns:1fr 1.5fr;gap:18px}
+.game-picker-controls label {display:grid;gap:6px;font-size:13px;color:#68725e}
+.game-picker-controls select,.game-picker-controls input {padding:10px;border:1px solid #cfd5c9;border-radius:3px;background:#fff;font:inherit;width:100%}
+.game-picker-count {font-size:12px;color:#7b8472;margin:16px 0}
+.game-picker-grid {display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.game-picker-grid>button {display:flex;align-items:center;gap:14px;text-align:left;padding:12px;border:1px solid #e2e6dd;background:#fff;border-radius:3px;cursor:pointer;color:inherit;min-width:0}
+.game-picker-grid>button:hover {background:#f3f5ef}.game-picker-grid>button[aria-pressed=true] {border-color:#69805d;background:#eef2e9}
+.game-picker-grid .game-index-thumbnail {display:block;width:108px;height:68px;object-fit:cover;flex-shrink:0;border-radius:2px}
+.game-picker-grid .game-name {display:block;font-size:15px;font-weight:600;line-height:1.4}
+.game-picker-grid small {display:block;font-size:12px;color:#7c8573;margin-top:5px;font-weight:400}
+#game-picker-dialog {padding:0}
+#game-picker-content {padding:26px}
+.game-picker-dialog .game-picker-grid .game-index-thumbnail {width:108px;height:68px;object-fit:cover}
