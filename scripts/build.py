@@ -58,6 +58,13 @@ def main():
                 raise ValueError(f'Game image asset mismatch: {entry["gameId"]} / {kind}')
     (DIST / 'game-images-data.js').write_text(
         'window.ATLAS_GAME_IMAGES = ' + json.dumps(images, ensure_ascii=False) + ';\n')
+    visuals = json.loads((CURATION / 'benchmark-visuals.json').read_text())
+    for entry in visuals['entries']:
+        asset = DIST / entry['image']
+        if asset.parent != DIST or hashlib.sha256(asset.read_bytes()).hexdigest() != entry['sha256']:
+            raise ValueError(f'Benchmark visual asset mismatch: {entry["id"]}')
+    (DIST / 'benchmark-visuals-data.js').write_text(
+        'window.AtlasBenchmarkVisuals = ' + json.dumps(visuals, ensure_ascii=False) + ';\n')
     print(f'Built site in {DIST.name}/ from {len(sources)} browser source files.')
 
 

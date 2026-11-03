@@ -1,0 +1,11 @@
+{
+  "asset": "benchmark-concept-ai-v1.jpg",
+  "kind": "ai-generated-concept",
+  "tool": "built-in image_gen",
+  "purpose": "Shared fallback for catalogue entries without a suitable sourced environment image. Not a depiction of a particular benchmark.",
+  "displayLabel": {
+    "zh": "AI 生成示意图",
+    "en": "AI-generated illustration"
+  },
+  "prompt": "Use case: stylized-concept. Create a refined editorial illustration for a scholarly Game Agent benchmark catalogue, used as a generic fallback thumbnail when no actual project screenshot exists. Landscape 3:2 composition. A small isometric game world assembled from a geometric puzzle board, a winding exploration path, a few abstract playing pieces and resource blocks. Subtle paper grain and matte surfaces, restrained muted slate blue, forest green, warm ivory and terracotta accents. Clear readable silhouettes at a 200 pixel thumbnail width. Professional scientific publication illustration, quiet and composed, not glossy marketing art. The scene is deliberately conceptual and does not imitate any particular existing video game or benchmark interface. No robots, no human figures, no letters, no text, no numbers, no labels, no logos, no watermark, no interface panels. Fill the frame naturally with no decorative border. Opaque ivory background."
+}
