@@ -112,7 +112,7 @@
     ${r.title?.trim().toLowerCase()!==r.name?.trim().toLowerCase()?`<p class="paper-full-title" lang="en">${esc(r.title)}</p>`:''}
     <p class="paper-citation">${esc(author)}${authorCount>1?' et al.':''} · ${esc(window.AtlasLanguage.text?.(String(r.venue||r.year))||r.venue||r.year)}</p>
    </header>
-   <p class="reading-summary">${u?`<strong>${t('任务：','Task: ')}</strong>${esc(tr(u.label))} — ${esc(tr(u.task))} <strong>${t('评价：','Evaluation: ')}</strong>${esc(tr(u.metrics))}`:esc(scopeText(r))}</p>
+   <p class="reading-summary">${u?`<strong>${t('任务：','Task: ')}</strong>${esc(tr(u.label))} — ${esc(tr(u.task))}<br><strong>${t('评价：','Evaluation: ')}</strong>${esc(tr(u.metrics))}`:esc(scopeText(r))}</p>
    </div>${entryFigure(image,id,r.name)}
    <div class="reading-bottom">${metadata.length?`<p class="reading-attributes">${metadata.map(esc).join(' <span aria-hidden="true">·</span> ')}</p>`:''}
    <footer class="reading-actions">
