@@ -36,7 +36,7 @@
   return html;
  }
  function overviewSources(sources){return `<div class="overview-sources">${[...new Map(sources.map(e=>[e.url,e])).values()].map(e=>`<a href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">${esc(window.AtlasLanguage.text?.(tr(e.title))||tr(e.title))} ↗</a>`).join(' · ')}</div>`;}
- function overviewMedia(a){const media=a.overview?.media||[];return media.length?section(t('项目图示与演示','Project illustrations & demos'),`<ul class="archive-media-links">${media.map(m=>`<li><span>${m.kind==='video'?t('视频','Video'):t('图示','Image')}</span><a href="${esc(m.url)}" target="_blank" rel="noopener noreferrer">${text(m.title)} ↗</a>${m.source!==m.url?`<a class="media-source" href="${esc(m.source)}" target="_blank" rel="noopener noreferrer">${t('官方来源','Official source')} ↗</a>`:''}</li>`).join('')}</ul>`):'';}
+ function overviewMedia(a){const media=a.overview?.media||[];return media.length?section(t('项目图示与演示','Project illustrations & demos'),`<ul class="archive-media-links">${media.map(m=>`<li><span>${m.kind==='video'?t('视频','Video'):t('图示','Image')}</span><a href="${esc(m.url)}" ${window.AtlasUI?.mediaPreview?.(m)||''} target="_blank" rel="noopener noreferrer">${text(m.title)} ${m.kind==='image'?'':'↗'}</a>${m.source!==m.url?`<a class="media-source" href="${esc(m.source)}" target="_blank" rel="noopener noreferrer">${t('官方来源','Official source')} ↗</a>`:''}</li>`).join('')}</ul>`):'';}
  function overview(a){const b=a.bibliography,r=a.profile;
   const summary=b.scope||a.taskReview?.reviewedScope||(r.summary!==b.title&&r.summary!==b.name?r.summary:null)||r.zh;
   const linkedGames=a.gameLinks.filter(g=>!['non-game','unresolved'].includes(g.kind));

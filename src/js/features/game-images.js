@@ -23,7 +23,7 @@
     }
     if (!entry || !localAsset(entry.image)) return '';
     const caption = text(entry.caption, lang);
-    const open = lang === 'zh' ? '查看原图' : 'View image';
+    const open = lang === 'zh' ? '预览图片' : 'Preview image';
     const source = lang === 'zh' ? '图片来源' : 'Image source';
     const reference = entry.imageMatch && entry.imageMatch !== 'exact';
     const note = reference && entry.imageNote ? `<span class="game-screenshot-note"><b>${lang === 'zh' ? '参考画面' : 'Reference image'}</b> · ${escape(text(entry.imageNote, lang))}</span>` : '';
@@ -31,7 +31,7 @@
     const choices = samples.length > 1 ? `<div class="game-screenshot-choices" role="group" aria-label="${lang === 'zh' ? '代表场景' : 'Representative scenes'}"><span>${lang === 'zh' ? '代表场景' : 'Representative scenes'} · ${selected + 1}/${samples.length}</span><div>${samples.map((item, index) => `<button type="button" data-image-sample="${index}" aria-pressed="${index === selected}">${escape(text(item.label, lang))}</button>`).join('')}</div></div>` : '';
     return `<figure class="game-screenshot${entry.pixelArt ? ' pixel-art' : ''}${entry.smallPreview ? ' small-preview' : ''}${entry.height > entry.width * 1.15 ? ' tall-preview' : entry.width <= entry.height * 1.15 ? ' square-preview' : ''}" data-game-image-id="${escape(id)}" data-image-lang="${escape(lang)}" data-no-i18n>
       ${choices}
-      <a class="game-screenshot-open" href="${escape(localAsset(entry.image))}" target="_blank" rel="noopener noreferrer" aria-label="${escape(open + ' · ' + caption)}"><img data-game-image src="${escape(localAsset(entry.image))}" width="${entry.width}" height="${entry.height}" alt="${escape(text(entry.alt, lang))}" loading="lazy" decoding="async"><span>${window.AtlasUI?.icon("expand")||''}${open}</span></a>
+      <a class="game-screenshot-open" data-image-preview href="${escape(localAsset(entry.image))}" target="_blank" rel="noopener noreferrer" aria-label="${escape(open + ' · ' + caption)}"><img data-game-image src="${escape(localAsset(entry.image))}" width="${entry.width}" height="${entry.height}" alt="${escape(text(entry.alt, lang))}" loading="lazy" decoding="async"><span>${window.AtlasUI?.icon("expand")||''}${open}</span></a>
       <figcaption><span class="game-screenshot-caption">${escape(caption)}</span>${note}<a href="${escape(safeSource(entry.sourceUrl))}" target="_blank" rel="noopener noreferrer">${source} · ${escape(entry.sourceLabel)} ↗</a><small>${escape(entry.credit)}</small>${license}</figcaption>
     </figure>`;
   }
