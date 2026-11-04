@@ -1,137 +1,60 @@
-# Research archive presentation
+# Research archives
 
-The default directory shows evaluation resources: benchmarks, environments, platforms,
-datasets, competitions and protocols. Separate views retain related methods, surveys
-and references, and records whose type still needs review. All-archive access and
-existing record identities are preserved. View counts describe records, not runnable
-benchmarks. Facet counts are conditional on the selected view and other filters.
-Existing links with explicit kinds or searches and no view scope use the full archive.
-Clearing filters preserves the selected archive scope.
+## Discovery and filtering
 
-## Shared research-theme discovery (P0)
+Research themes and the resource directory share `discovery-model.js` and the same
+archive identities. A theme applies a capability filter. Scope tabs distinguish
+evaluation resources, related methods, references and records awaiting review.
+Counts represent research records, not runnable benchmarks.
 
-Research themes and the directory use `discovery-model.js` over the same 385
-archive identities. A theme is a capability filter, not a separate curated
-collection. Themes initially include all archive types; the resource/method/
-reference/pending tabs explicitly narrow that scope. Featured candidates retain
-their ordering without excluding other matches. Facets use OR within a facet and
-AND across facets. Both views search the documented task labels, goals and metrics.
+Different facets combine with AND. Within a facet, choices use OR by default;
+agent and capability filters also support matching all selected values. Facet
+counts apply the other active filters. Clearing conditions preserves the selected
+archive scope. Search includes titles, authors, documented tasks, goals and metrics.
 
-Discovery associations retain bibliographic screening, record-level associations
-and task-specific evidence separately. Original classification and task coverage
-are not mutated. Editorial Arena proposals never contribute discovery associations.
-The theme index links to records without any of its nine theme associations;
-other capability tags remain available in the directory.
+Discovery associations distinguish bibliographic screening, record-level
+associations and task-specific evidence. Editorial Arena proposals do not add
+capability evidence. The original classification and source records are retained.
 
-## Concrete tasks and protocols (P0)
+## Tasks and protocols
 
-`data/curation/task-protocol-p0.json` adds 45 task protocols across 18 resources,
-with bilingual goals, observations, actions, scoring, configuration and scope.
-Each task includes direct paper, official documentation or code evidence.
-Configuration snapshots are distinguished from paper experiments; the Ludii
-Amazons tutorial is explicitly an official interface example, not a standardized
-benchmark. The previous audit files remain unchanged; the public protocol review
-merges the new records and replaces superseded missing-protocol decisions.
+`task-protocol-model.js` supplies the shared task representation. Curated protocols
+are stored in `data/curation/task-protocol-p0.json` and the other source-linked task
+reviews. Each task has a stable ID, resource and game associations, evidence and a
+protocol type. Goals, observations, actions, metrics and configuration are bilingual.
+Version, budget and termination fields remain empty where not separately documented.
 
-`task-protocol-model.js` provides the structured task representation used in
-archives and `task-protocols.json`. A task has a stable ID, source resource,
-game associations, evidence and protocol type. Version, budget and termination
-fields are supplied where separately documented; null means no separately
-structured value, not unlimited budget or an inferred default. Existing prose
-configuration fields remain available. The export contains 462 views: 438
-documented tasks/examples and 24 separately identified editorial Arena proposals.
-No task is promoted to independently execution-verified.
+Task links use `detail=<resource>&archiveTab=protocol&task=<task-id>`.
+Full protocols appear on the task tab; the overview previews relevant tasks and
+metrics. Generic interface descriptions are omitted when concrete protocols exist.
+Code availability and independently verified execution remain separate fields.
 
-Task links use `detail=<resource>&archiveTab=protocol&task=<task-id>` and open the
-corresponding protocol directly. Archive-level generic interface descriptions are
-omitted when concrete protocols are available. Validation compares every theme
-with the same directory filter, checks all new source/game associations and tests
-that proposals cannot add capability evidence.
+The archive JSON export separates `taskGroups.documented` from
+`taskGroups.arenaProposals`, using existing task IDs. Tasks with origin
+`arena-documented-candidate` are editorial selections. Their proposed evaluation
+settings must remain distinct from original published protocols.
 
-Each archive has one overview, classification evidence, tasks and evaluation, and
-sources and citations. Full task descriptions appear only on the task tab;
-classification shows capability associations and sources. Detailed missing information
-also lives on the task tab. The overview links there and separately states code and
-independent-execution status.
+## Overviews and media
 
-The v2 JSON export adds `taskGroups.documented` and `taskGroups.arenaProposals`, both
-lists of existing task IDs. Original task text and provenance are retained. The 24
-`arena-documented-candidate` views are editorial selections rather than reproduced
-original protocols. Thirteen candidate metric descriptions contain explicit source /
-editorial boundaries, rendered separately without rewriting their content; remaining
-candidate evaluation descriptions retain an explicit mixed-plan label. No runtime
-verification or new research classification is inferred from this presentation change.
+`data/curation/archive-overviews.json` stores bilingual descriptions in four sections:
 
-Validation: `npm run check`. Archive tests cover both languages, preserved identities,
-provenance partitioning, source text preservation and non-duplicated task rendering.
+- Tasks and environment: the agent's decisions, observations and task progression.
+- Research use: the research questions the resource supports.
+- Evaluation: measured outcomes, metrics and score meanings.
+- Evaluation scope: versions, splits and the settings covered by the protocol.
 
-## Overview descriptions and official media
+Primary sources and check dates accompany each overview. Editorial review evidence
+lives in `data/curation/archive-overview-review.json`. Batch metadata is retained
+for traceability; it does not define a separate public catalog.
 
-`data/curation/archive-overviews.json` stores bilingual editorial descriptions with
-primary sources and check dates. Links distinguish diagrams from demonstration
-videos and retain the official project page as provenance. They open externally;
-there is no automatic video loading. Source-informed interpretation does not add
-capability mappings or runtime verification.
+Official media retain source links and captions distinguishing gameplay, diagrams
+and representative examples. Videos are external links and do not autoplay.
+Generated illustrations are labeled separately. Updating an overview or its media
+does not change task coverage or execution-verification status.
 
-Other archives preview up to two already documented task descriptions and their
-metrics in the overview. Candidate Arena designs remain on the task tab and are
-not used to synthesize descriptions of original protocols. Source wording and
-protocol versions retain their original review scope. The archive export includes
-the curated overview and media metadata.
+## Validation
 
-## Ten-archive editorial pilot
-
-The `pilot-10` batch covers Bench-MFG, BALROG, TeamCraft, Crafter, SMAC, Katakomba,
-CivRealm, Collab-Overcooked, MiniGrid & MiniWorld, and Procgen. Each has four
-bilingual sections covering task mechanism, research use, evaluation and scope.
-Examples are identified as subsets of the full resource. Eight media links retain
-official provenance and distinguish architecture diagrams from gameplay demos.
-Katakomba's official repository was confirmed from its paper; this updates code
-availability without changing task, capability or independent-execution reviews.
-
-The pilot is discoverable through `libraryReview=overview-pilot` in the archive directory.
-
-Pilot overviews use four parallel sections: tasks/environment, research use, evaluation,
-and evaluation scope. Scope is descriptive rather than prescriptive; code and runtime
-review statuses remain in their structured fields. The overview omits redundant
-selection/limitation blocks when these four sections are available.
-
-## First expansion batch
-
-Twenty further resources have source-reviewed four-section descriptions in both
-languages, covering Minecraft learning, language interaction, memory/exploration,
-and multi-agent games. Eleven additional media links point to official repository
-assets or an author-linked video. Captions distinguish gameplay, environment
-illustrations, finite-task observations and example diagnostic results.
-
-`libraryReview=overview-expansion` selects these 20 additions. Together with the
-pilot, they formed the first 30 structured overviews; the later completion batch
-extends `libraryReview=overview-structured` to all 236 evaluation resources.
-
-## Completion of the evaluation-resource scope
-
-All 236 current evaluation resources have bilingual sections for task/environment,
-research use, evaluation and scope. The `completion-206` batch preserves the previous
-30 edited overviews and adds the remaining 206. This includes datasets, diagnostic
-evaluations, statistical protocols, development/world-model resources and platforms
-under their actual research object, rather than inheriting gameplay claims.
-
-`libraryReview=overview-structured` selects all 236;
-`libraryReview=overview-completion` selects the new 206.
-`archive-overview-review.json` records the primary identities and source checks for
-this pass. Detailed numerical protocol statements also use the existing source-linked
-reviews; completing descriptions does not promote task or runtime verification.
-Official illustrations and demos retain source captions and representative-task scope.
-
-## Full editorial review
-
-All 236 overviews were re-read in both languages for vague task descriptions,
-repeated sections, unexplained metrics, and resource/example confusion. Revisions
-explain the actual decision or artifact, the research question, measured outcomes
-and score meanings, and relevant task splits or versions. Budgets and interface
-details follow the metric rather than replacing its explanation. Already specific
-descriptions are retained. The existing `archive-overview-review.json` export adds
-an `editorialReview` object with one reviewed outcome per resource and its sources.
-Media, bibliographic identities, documented task text and runtime/capability status
-are preserved. The review refines descriptions rather than expanding verified task
-coverage or implying execution of the resources.
+Run `npm run check` after changes. Checks cover bilingual descriptions, archive
+identities, source preservation, discovery consistency, filtering, task links and
+the distinction between documented protocols and editorial proposals. Rebuild and
+commit generated `dist/` exports with their source changes.

@@ -23,7 +23,6 @@ scripts/
   build_coverage_audit.cjs    Coverage export using the browser model
   build_research_archives.cjs Archive export using the browser model
 tests/                       Data, filtering, navigation and coverage checks
-prototypes/grid-courier/     Isolated historical prototype; not deployed
 dist/                        Generated site, ready for static hosting
 output/                      Local build reports; ignored by Git
 ```
@@ -59,9 +58,9 @@ the repository's `/Game-Agent-Benchmark-Atlas/` URL prefix without a custom doma
 - **UI and behavior:** edit `src/`. The build flattens source asset paths into
   `dist/`, preserving existing page URLs and script ordering. Asset basenames
   must be unique. `src/index.html` uses the deployed filenames.
-  `editorial-ui.css` is the final visual layer for the shared header, research
-  index, directory, game pages, archives and comparison. It uses system fonts
-  and local styles only. Arena's task workspace retains its existing layout.
+  Shared styles and feature overrides load in the order declared in `src/index.html`.
+  `atlas-design.css` supplies shared visual styles; `reading-preview.css` contains
+  the current directory layout, despite its historical filename.
 - **Bibliography:** edit `data/catalog.json`. Keep it public-only; do not add
   private reading notes, local document paths or credentials.
 - **Evidence and reviews:** edit the relevant files in `data/curation/`.

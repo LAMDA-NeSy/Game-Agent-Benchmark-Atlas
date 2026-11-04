@@ -1,9 +1,7 @@
 'use strict';
 (()=>{
  const discovery=window.AtlasDiscoveryModel.create(window.ATLAS_DATA,window.AtlasLibraryData);
- const previewMode=typeof location!=='undefined'&&typeof URLSearchParams!=='undefined'&&new URLSearchParams(location.search).get('libraryEntryLayout')==='sample';
- const previewIds=['GAB026','GAB028','GAB080'];
- const data={...window.AtlasLibraryData,records:previewMode?previewIds.map(id=>discovery.records.find(r=>r.id===id)).filter(Boolean):discovery.records};
+ const data={...window.AtlasLibraryData,records:discovery.records};
  let theme=null;
  const t=(zh,en)=>window.AtlasLanguage.current()==='zh'?zh:en;
  const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -123,7 +121,6 @@
    </footer></div>
   </article>`;
  }
- function themeRelevance(r){const claims=r.discoveryAssociations[theme.cap]||[];return claims.every(c=>c.kind==='screened')?t('题录主题关联；相关任务协议待核验','Bibliographic association; matching task protocols unverified'):t('文献主题关联；相关任务协议待补充','Research association; matching task protocols not yet documented');}
  function matchingTasks(id,{cap,gameId}={}){return (window.AtlasResearchArchives.get(id)?.tasks||[]).filter(u=>u.origin!=='arena-documented-candidate'&&(!gameId||u.gameIds?.includes(gameId))&&(!cap||u.capabilities.some(c=>c.id===cap))).sort((a,b)=>Number(b.capabilities.some(c=>c.id===cap&&c.role==='primary'))-Number(a.capabilities.some(c=>c.id===cap&&c.role==='primary')));}
  function taskPreview(id,context={}){const units=matchingTasks(id,context),u=units[0];if(!u)return '';return `<div class="task-selection-preview"><button class="task-selection-title" data-detail="${esc(id)}" data-archive-tab="protocol" data-task="${esc(u.id)}">${esc(tr(u.label))} ↗</button><p><b>${t('任务','Task')}</b> ${esc(tr(u.task))}</p><p><b>${t('指标','Metrics')}</b> ${esc(tr(u.metrics))}</p></div>`;}
  function themeHeader(){return theme?`<section class="theme-selection editorial-topic" data-no-i18n>
@@ -137,8 +134,8 @@
  function render(){if(!visible||!root)return;for(const panel of root.querySelectorAll('[data-filter-group]')){if(panel.open)openGroups.add(panel.dataset.filterGroup);else openGroups.delete(panel.dataset.filterGroup);}saveGroups();const active=document.activeElement,focus=root.contains(active)?active.id:null,focusFilter=root.contains(active)?active.dataset.libraryFilter:null,focusValue=active?.value,focusScope=root.contains(active)?active.dataset.libraryScope:null,sidebarTop=root.querySelector('.archive-sidebar')?.scrollTop||0;const matches=filtered(),pages=Math.max(1,Math.ceil(matches.length/20));s.page=Math.min(s.page,pages);const start=(s.page-1)*20,gs=groups(),groupMap=new Map(gs.map(g=>[g.key,g]));
  const chips=Object.keys(params).filter(key=>!['scope','q','sort','page','agentMatch','capMatch'].includes(key)).flatMap(key=>tokens(s[key]).map(value=>`<button class="active-filter" data-library-remove="${key}" data-value="${esc(value)}">${esc(groupMap.get(key)?.options.find(([id])=>id===value)?.[1]||value)} ×</button>`)).join('');
  root.dataset.density=density;
- root.dataset.entryLayout=previewMode?"sample":"reading";
- root.innerHTML=`${previewMode?`<div class="reading-preview-note"><span>${t('版式预览 · 3 条真实记录','Layout preview · 3 real records')}</span><a href="?lang=${window.AtlasLanguage.current()}&view=explore&catalog=archives">${t('返回完整目录','Back to full directory')} →</a></div>`:''}${themeHeader()}<div class="explorer-layout archive-explorer">
+ root.dataset.entryLayout="reading";
+ root.innerHTML=`${themeHeader()}<div class="explorer-layout archive-explorer">
  <aside class="filters archive-sidebar" aria-label="${t('筛选研究档案','Filter research archives')}"><div class="filter-heading"><strong>${uiIcon("filter")}${t('筛选条件','Filters')}</strong><button class="reset-button" id="library-reset">${t('清除筛选','Clear filters')}</button></div><div class="filter-categories">${gs.map(groupHTML).join('')}</div><details class="filter-help" data-filter-group="help" ${openGroups.has('help')?'open':''}><summary id="filter-category-help">${t('筛选规则','Filter logic')}</summary><p class="filter-logic-note">${t('不同筛选组同时满足；同组多选默认满足任一。切换主题保留条件。','Filter groups combine with AND; selections within a group default to OR. Theme changes retain filters.')}</p></details></aside>
  <div class="results-area archive-results"><div class="search-toolbar"><label class="search-box">${uiIcon("search")}<input id="library-search" type="search" value="${esc(s.q)}" placeholder="${t('搜索名称、游戏、作者、论文…','Search names, games, authors, papers…')}" aria-label="${t('搜索研究档案','Search research archives')}"><kbd>/</kbd></label><label class="sort-box"><span class="sr-only">${t('排序','Sort')}</span><select id="library-sort" data-library-sort>${[['curated',t('目录顺序','Catalog order')],['newest',t('最新发表','Newest first')],['name',t('名称 A–Z','Name A–Z')],...(s.sort==='verified'?[['verified',t('来源状态','Source status')]]:[])].map(([id,name])=>`<option value="${id}" ${id===s.sort?'selected':''}>${name}</option>`).join('')}</select></label></div>
  <div class="explorer-top"><div class="preset-tabs archive-scope-tabs" aria-label="${t('档案范围','Archive scope')}">${['all','resources','related','references','pending'].map(id=>{const names=scopes[id];return `<button data-library-scope="${id}" aria-pressed="${s.scope===id}" class="${s.scope===id?'active':''}">${t(...names)} <span title="${t('该范围总量，不含其他筛选条件','Scope total before other filters')}">${scopeCount(id)}</span></button>`;}).join('')}</div></div>

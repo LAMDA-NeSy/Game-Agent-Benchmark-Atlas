@@ -1,12 +1,15 @@
 # Game screenshots
 
-The site shows **one sourced image at a time in each illustrated detail**. Collections may offer a small selector of named representative scenes. The four-column game index remains text-only; there are no repeated thumbnails.
+The game index and game details use locally hosted screenshots with source links.
+Collections may offer a selector of named representative scenes; selecting a scene
+updates its image, caption, credit and version note together.
 
 ## Coverage and review
 
-643 of 1289 game-index entries currently have an image, using 509 local image files. This batch adds 62 illustrated entries to the previous 581. 160 entries explicitly identify reference imagery from a related implementation, another version or a collection example. Coverage remains partial: 646 entries have no image. This is not an exhaustive-search claim. See `data/curation/game-image-review.json` for counts, exclusions and retained earlier review history.
-
-This batch prioritizes collection examples and same-game variants. 42 collection entries have explicit representative scenes; 21 offer two or three named choices. Only one image is displayed and loaded at a time. Selecting a scene updates its image, source, credit, license and difference note together. These representative scenes do not imply complete collection coverage. Existing FlashAdventure start-menu captions and original-game/implementation boundaries are preserved.
+Image assignments live in `data/curation/game-images.json`; source checks and
+remaining gaps live in `data/curation/game-image-review.json`. Use these records
+and the generated game index for coverage counts instead of historical batch totals.
+Representative scenes illustrate selected collection members, not every task.
 
 ## Identity and version notes
 

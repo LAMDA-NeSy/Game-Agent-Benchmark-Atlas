@@ -35,3 +35,11 @@ assert.equal(browse({review:'overview-structured'}).length,236);
 assert.equal(browse({review:'overview-expansion'}).length,20);
 
 assert.equal(browse({review:'overview-completion'}).length,206);
+
+// Old layout-preview URLs must resolve to the full catalog, not a three-record subset.
+const legacy={window:{AtlasLibraryData:d,AtlasLanguage:{current:()=>language}},URLSearchParams,location:{search:'?libraryEntryLayout=sample'}};
+vm.runInNewContext(fs.readFileSync('dist/data.js','utf8'),legacy);
+legacy.window.AtlasDiscoveryModel=require('../dist/discovery-model.js');
+vm.runInNewContext(fs.readFileSync('dist/library.js','utf8'),legacy);
+assert.deepEqual(ids(legacy.window.AtlasLibrary.filtered({scope:'all'})),ids(results));
+assert.deepEqual(ids(legacy.window.AtlasLibrary.filtered({scope:'all',q:'BALROG'})),ids(browse({q:'BALROG'})));
