@@ -31,18 +31,20 @@ body[data-view] .editorial-topic .topic-description { font-size:16px; line-heigh
 body:is([data-view=explore],[data-view=themes]) .archive-explorer { display:grid; grid-template-columns:208px minmax(0,1fr); gap:48px; }
 body:is([data-view=explore],[data-view=themes]) .archive-sidebar { grid-column:1; grid-row:1; padding:0 20px 0 0; border:0; position:sticky; top:104px; max-height:calc(100vh - 124px); }
 body:is([data-view=explore],[data-view=themes]) .archive-results { grid-column:2; grid-row:1; border:0; border-radius:0; padding:0; box-shadow:none; background:none; width:auto; min-width:0; }
-body:is([data-view=explore],[data-view=themes]) .archive-sidebar .filter-heading { padding:7px 0 14px; margin-bottom:0; border-bottom:1px solid #d6dad2; }
+body:is([data-view=explore],[data-view=themes]) .archive-sidebar .filter-heading { padding:4px 0 9px; margin-bottom:0; border-bottom:1px solid #d6dad2; }
 body:is([data-view=explore],[data-view=themes]) .filter-heading strong { font-size:14px; color:#3e473e; }
 body:is([data-view=explore],[data-view=themes]) .filter-heading .atlas-icon { display:none; }
 body:is([data-view=explore],[data-view=themes]) .reset-button { font-size:11px; color:#777d73; }
 body:is([data-view=explore],[data-view=themes]) .filter-categories { gap:0; }
 body:is([data-view=explore],[data-view=themes]) .filter-category { border:0; border-bottom:1px solid #e5e7e0; border-radius:0; background:none; }
-body:is([data-view=explore],[data-view=themes]) .filter-category>summary { padding:14px 0; font-size:13px; color:#3f493f; background:none; }
+body:is([data-view=explore],[data-view=themes]) .filter-category>summary { padding:10px 0; font-size:13px; color:#3f493f; background:none; }
 body:is([data-view=explore],[data-view=themes]) .filter-category[open]>summary,body:is([data-view=explore],[data-view=themes]) .filter-category>summary:hover { background:none; color:#8a4034; }
-body:is([data-view=explore],[data-view=themes]) .filter-category .filter-group { padding:0 0 12px; }
-body:is([data-view=explore],[data-view=themes]) .filter-category .filter-option { font-size:13px; color:#4c554b; padding:7px 0; }
+body:is([data-view=explore],[data-view=themes]) .filter-category .filter-group { padding:0 0 8px; margin:0; }
+body:is([data-view=explore],[data-view=themes]) .filter-category .filter-option { display:flex; align-items:center; min-height:29px; font-size:13px; line-height:1.5; color:#4c554b; padding:4px 3px; margin:0; gap:8px; }
+body:is([data-view=explore],[data-view=themes]) .filter-category .filter-match-mode { margin:0 0 5px; }
+body:is([data-view=explore],[data-view=themes]) .filter-category .filter-match-mode select { height:30px; min-height:30px; padding:3px 28px 3px 9px; font-size:12px; line-height:1.5; }
 body:is([data-view=explore],[data-view=themes]) .filter-option:has(input:checked) { background:none; color:#8a4034; font-weight:600; }
-body:is([data-view=explore],[data-view=themes]) .filter-option input { accent-color:#8a4034; }
+body:is([data-view=explore],[data-view=themes]) .filter-option input { accent-color:#8a4034; margin:0; flex-shrink:0; }
 body:is([data-view=explore],[data-view=themes]) .filter-option .count { color:#7b8176; font-variant-numeric:tabular-nums; }
 body:is([data-view=explore],[data-view=themes]) .filter-selected-count { color:#8a4034; background:#f5ede9; }
 body:is([data-view=explore],[data-view=themes]) .filter-selected-summary { color:#6b7166; }
