@@ -1,0 +1,346 @@
+{
+  "checkedAt": "2026-11-10T02:54:01.356826+00:00",
+  "scope": "Kaggle Game Arena five tracks and TextArena Balanced Subset; not the entire weekly stream",
+  "status": "complete",
+  "sources": [
+    {
+      "source": "game-arena",
+      "checkedAt": "2026-11-10T02:54:01.356826+00:00",
+      "status": "unchanged",
+      "changed": false,
+      "rows": 41,
+      "cellsCrossChecked": 123,
+      "resultUpdatedAt": "2026-11-09T19:58:59.7418071Z",
+      "evidence": [
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+          "request": {
+            "benchmarkIdentifier": {
+              "slugIdentifier": {
+                "ownerSlug": "kaggle",
+                "benchmarkSlug": "game-arena"
+              }
+            },
+            "versionIdentifier": {
+              "latestVisibleSelector": {
+                "parentBenchmarkIdentifier": {
+                  "slugIdentifier": {
+                    "ownerSlug": "kaggle",
+                    "benchmarkSlug": "game-arena"
+                  }
+                }
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:50.657Z",
+          "decodedJsonSha256": "0268d5087d9d99dbb240c45ec76ae6255782233e79df2e62c503a3b06bec6271"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+          "request": {
+            "versionIdentifier": {
+              "versionIdSelector": {
+                "id": 31
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:50.944Z",
+          "decodedJsonSha256": "cd849cc62459cce0b0d0440d215265f804c3310661109c8b342a8edd8c30050c"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+          "request": {
+            "benchmarkVersionIdentifier": {
+              "versionIdSelector": {
+                "id": 31
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:51.211Z",
+          "decodedJsonSha256": "ed27fe6b5ddb1c8551bf5d9526b31d286a4e7619593bb6ebf2ac3b4625fba3b3"
+        },
+        {
+          "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/game-arena/leaderboard",
+          "request": null,
+          "capturedAt": "2026-11-10T02:53:51.641Z",
+          "decodedJsonSha256": "4421e4a3016d19654b3dafb9da5f30c05f5104602307a95be68da6b074a08bd5"
+        }
+      ]
+    },
+    {
+      "source": "chess-text",
+      "checkedAt": "2026-11-10T02:54:01.356826+00:00",
+      "status": "unchanged",
+      "changed": false,
+      "rows": 41,
+      "cellsCrossChecked": 123,
+      "resultUpdatedAt": "2026-11-09T19:57:11.749663Z",
+      "evidence": [
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+          "request": {
+            "benchmarkIdentifier": {
+              "slugIdentifier": {
+                "ownerSlug": "kaggle",
+                "benchmarkSlug": "chess-text"
+              }
+            },
+            "versionIdentifier": {
+              "latestVisibleSelector": {
+                "parentBenchmarkIdentifier": {
+                  "slugIdentifier": {
+                    "ownerSlug": "kaggle",
+                    "benchmarkSlug": "chess-text"
+                  }
+                }
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:52.255Z",
+          "decodedJsonSha256": "3f1f8d21377b602b0c1705e3d488ea0385664b85da461857c6b0bd751397a99f"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+          "request": {
+            "versionIdentifier": {
+              "versionIdSelector": {
+                "id": 349
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:52.523Z",
+          "decodedJsonSha256": "639fe0eca06939bd24c115427dfbd2c426160f31e3c3aa4cc94a1827cb176380"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+          "request": {
+            "benchmarkVersionIdentifier": {
+              "versionIdSelector": {
+                "id": 349
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:52.789Z",
+          "decodedJsonSha256": "ea28132fb8c20434fc7beb3ca9d83a24fc6a4d4e69b6a653872f99966d6cfbcd"
+        },
+        {
+          "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/chess-text/leaderboard",
+          "request": null,
+          "capturedAt": "2026-11-10T02:53:53.075Z",
+          "decodedJsonSha256": "30ce2ad21545fdc1ca17864dc45e9e8befff1ecb167f3de671f5ad247bf41391"
+        }
+      ]
+    },
+    {
+      "source": "go",
+      "checkedAt": "2026-11-10T02:54:01.356826+00:00",
+      "status": "unchanged",
+      "changed": false,
+      "rows": 38,
+      "cellsCrossChecked": 114,
+      "resultUpdatedAt": "2026-11-09T19:53:23.15179Z",
+      "evidence": [
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+          "request": {
+            "benchmarkIdentifier": {
+              "slugIdentifier": {
+                "ownerSlug": "kaggle",
+                "benchmarkSlug": "go"
+              }
+            },
+            "versionIdentifier": {
+              "latestVisibleSelector": {
+                "parentBenchmarkIdentifier": {
+                  "slugIdentifier": {
+                    "ownerSlug": "kaggle",
+                    "benchmarkSlug": "go"
+                  }
+                }
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:53.474Z",
+          "decodedJsonSha256": "d77e8eb5fc900ebf2148a83038695242a7143c98b2f59993888e8a7fc00fb191"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+          "request": {
+            "versionIdentifier": {
+              "versionIdSelector": {
+                "id": 6258
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:53.754Z",
+          "decodedJsonSha256": "bff69be4e54930bdb33e16544de597b624fe4b532308065614fb61b1960d84ea"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+          "request": {
+            "benchmarkVersionIdentifier": {
+              "versionIdSelector": {
+                "id": 6258
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:54.035Z",
+          "decodedJsonSha256": "fb5a3c7319a2d2ece4457d1a921d56a66a293278fe25341e5274f07b5dddfbe6"
+        },
+        {
+          "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/go/leaderboard",
+          "request": null,
+          "capturedAt": "2026-11-10T02:53:54.313Z",
+          "decodedJsonSha256": "b06de5c4655067e250cd4614fdada2642232d05770a5ed9d87888ff5f735264a"
+        }
+      ]
+    },
+    {
+      "source": "poker-heads-up",
+      "checkedAt": "2026-11-10T02:54:01.356826+00:00",
+      "status": "unchanged",
+      "changed": false,
+      "rows": 31,
+      "cellsCrossChecked": 93,
+      "resultUpdatedAt": "2026-10-08T17:19:03.888717700Z",
+      "evidence": [
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+          "request": {
+            "benchmarkIdentifier": {
+              "slugIdentifier": {
+                "ownerSlug": "kaggle",
+                "benchmarkSlug": "poker-heads-up"
+              }
+            },
+            "versionIdentifier": {
+              "latestVisibleSelector": {
+                "parentBenchmarkIdentifier": {
+                  "slugIdentifier": {
+                    "ownerSlug": "kaggle",
+                    "benchmarkSlug": "poker-heads-up"
+                  }
+                }
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:54.675Z",
+          "decodedJsonSha256": "3a84aaa043b853539c14a982787a71660e5a78f0d67e8e65e32fcb67877515e5"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+          "request": {
+            "versionIdentifier": {
+              "versionIdSelector": {
+                "id": 180
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:54.935Z",
+          "decodedJsonSha256": "6f91cdf07578b3aa99add5db204bb1da2a4d49705e430ab6cc040d3a33228bdf"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+          "request": {
+            "benchmarkVersionIdentifier": {
+              "versionIdSelector": {
+                "id": 180
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:55.203Z",
+          "decodedJsonSha256": "abcdbcff7c8577d8e9b03461387967a5f0a048c90e3f5f3835f91d292342697c"
+        },
+        {
+          "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/poker-heads-up/leaderboard",
+          "request": null,
+          "capturedAt": "2026-11-10T02:53:55.482Z",
+          "decodedJsonSha256": "85effd58854ca60c0142b139b5147d45933ebc06f840c1a858bc392ec7b009e2"
+        }
+      ]
+    },
+    {
+      "source": "werewolf",
+      "checkedAt": "2026-11-10T02:54:01.356826+00:00",
+      "status": "unchanged",
+      "changed": false,
+      "rows": 8,
+      "cellsCrossChecked": 24,
+      "resultUpdatedAt": "2026-06-12T20:27:26.299960500Z",
+      "evidence": [
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+          "request": {
+            "benchmarkIdentifier": {
+              "slugIdentifier": {
+                "ownerSlug": "kaggle",
+                "benchmarkSlug": "werewolf"
+              }
+            },
+            "versionIdentifier": {
+              "latestVisibleSelector": {
+                "parentBenchmarkIdentifier": {
+                  "slugIdentifier": {
+                    "ownerSlug": "kaggle",
+                    "benchmarkSlug": "werewolf"
+                  }
+                }
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:55.809Z",
+          "decodedJsonSha256": "8a6dc74a97766360a5d4aff82b714a3ddb6bfa30d948544967090f541703565f"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+          "request": {
+            "versionIdentifier": {
+              "versionIdSelector": {
+                "id": 443
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:56.099Z",
+          "decodedJsonSha256": "e60e620328f7c9d1673a0f8cfdf96bfd72754235b6ee8484150eac5d0ca846c2"
+        },
+        {
+          "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+          "request": {
+            "benchmarkVersionIdentifier": {
+              "versionIdSelector": {
+                "id": 443
+              }
+            }
+          },
+          "capturedAt": "2026-11-10T02:53:56.367Z",
+          "decodedJsonSha256": "2fdc6a16dae60d43a2ff059e49fce66e3c4033335730346cff4e6567e898447b"
+        },
+        {
+          "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/werewolf/leaderboard",
+          "request": null,
+          "capturedAt": "2026-11-10T02:53:56.637Z",
+          "decodedJsonSha256": "608383dd8624103ddf060b673ddea137183dd56a68a92b5c633a6c3b2a499519"
+        }
+      ]
+    },
+    {
+      "source": "textarena",
+      "checkedAt": "2026-11-10T02:54:01.356826+00:00",
+      "status": "unchanged",
+      "changed": false,
+      "rows": 21,
+      "activeModels": 0,
+      "resultUpdatedAt": null,
+      "evidence": [
+        {
+          "url": "https://fvorekucgyfzxckhamrh.supabase.co/rest/v1/rpc/get_leaderboard_from_mv_trueskill_humans_models",
+          "request": {
+            "skill_subset": "Balanced Subset"
+          },
+          "capturedAt": "2026-11-10T02:54:00.339Z",
+          "decodedJsonSha256": "8b15f98b8e5d8c5c3858a152480eb6d7bfe253b8f4c13df8ebb9624666cf493f"
+        }
+      ]
+    }
+  ]
+}

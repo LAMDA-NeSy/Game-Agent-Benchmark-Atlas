@@ -43,3 +43,47 @@ that deadline and never advances the deadline by itself. It refreshes published
 metadata every five minutes and on returning to the tab; offline copies retain
 their bundled schedule. Countdown text is bilingual and uses the same UTC+8
 schedule regardless of the viewer's time zone.
+
+## Kaggle and TextArena collection
+
+Before reviewing the remaining leaderboard sources, run:
+
+```sh
+npm run refresh:public-leaderboards
+```
+
+Requires Node/npm, Python 3 and a Playwright CLI browser. The command reuses an
+installed CLI from PATH or the npm cache, falling back to
+`npx --yes --package @playwright/cli playwright-cli`; an installed executable can
+be passed with `-- --browser-cli /absolute/path/to/playwright-cli`. Use a fresh,
+signed-out session. The local scheduler still needs this machine and network access.
+
+This command checks Game Arena's unified, Chess, Go, Poker and Werewolf tracks,
+plus TextArena's Balanced Subset. Kaggle's public JSON download is cross-checked
+against native page responses for model identities, task versions, every numeric
+cell and confidence interval. Benchmark versions, metric mappings and published
+protocol pages must match the accepted protocol; changes require review before
+automatic replacement. TextArena is read from the official page's own public RPC
+response; no browser key or credential is extracted, copied or committed. Only
+standard-model Balanced Subset rows are imported; activity flags remain explicit.
+
+- Unchanged scores retain the accepted capture, scores and result date byte for
+  byte. A new check time and response hashes are recorded only in the audit.
+- Changed scores use explicit source evaluation dates. Missing dates remain
+  unknown; retrieval time, page edits and run end times are never substitutes.
+- Empty/incomplete data, inconsistent export values, invalid numbers, protocol
+  changes, large row-count drops, unavailable pages and importer failures retain
+  the previous accepted source. Successful independent tracks can still update.
+- Captures and imports are staged and validated before promotion. Unrelated
+  boards are preserved. Concurrent invocations are locked. No refresh runs as
+  part of the offline site build or in visitors' browsers.
+- Exit status 1 and a `partial` audit mean at least one source is unresolved.
+  Do not advance the weekly leaderboard completion record until those failures
+  and the other required sources have been checked. A successful six-track check
+  alone does not complete the entire weekly stream or the Benchmark stream.
+
+Audit reports: `data/sources/weekly-updates/YYYY-MM-DD/public-interfaces-*.json`.
+Changed, accepted evidence: `data/sources/official-leaderboards/weekly-*/`.
+Run `npm run check` after collecting; review the diff, then publish using the
+normal workflow and verify the deployment. Never rerun old snapshot imports and
+call that a live source check.

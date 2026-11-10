@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "refresh:public-leaderboards": "python3 scripts/refresh_public_leaderboards.py",
     "build": "python3 scripts/build.py",
     "test": "node --test tests/*.test.cjs",
     "check": "npm run build && npm test",

@@ -86,7 +86,11 @@ for i,r in enumerate(RAW['textarena-results']['data'],1):
  e=entry(b,i,r['model_name']);e['sourceRecordId']=r['model_id']
  for k,field,factor in [('overall','trueskill',1),('uncertainty','trueskill_sd',1),('win-rate','win_rate',100),('games','games_played',1)]:
   v=r[field]*factor;e['scores'][k]=score(r[field],v,str(v) if k=='games' else f'{v:.2f}')
- e['context']=[{'label':bi('状态','Status'),'value':bi('非活跃','Inactive')},{'label':bi('胜 / 平 / 负','Wins / draws / losses'),'value':f'{r["wins"]} / {r["draws"]} / {r["losses"]}'}];b['entries'].append(e)
+ e['context']=[{'label':bi('状态','Status'),'value':bi('活跃','Active') if r['is_active'] else bi('非活跃','Inactive')},{'label':bi('胜 / 平 / 负','Wins / draws / losses'),'value':f'{r["wins"]} / {r["draws"]} / {r["losses"]}'}];b['entries'].append(e)
+textarena_active=sum(r['is_active'] for r in RAW['textarena-results']['data'])
+textarena_count=len(b['entries'])
+b['protocol']['scope']=bi(f'官方 Balanced Subset 的 {textarena_count} 个标准模型成绩，其中 {textarena_active} 个标记为活跃。',f'Official Balanced Subset results for {textarena_count} standard models, of which {textarena_active} are marked active.')
+if textarena_active:b['statusLabel']=bi('公开成绩 · 含活跃模型','Public results · active models included')
 b['protocol']['variation']=bi('排名保留来源 μ 的完整精度，表格显示两位小数；σ 单独展示。','Ranking uses full source precision for μ; the table shows two decimals. σ is displayed separately.')
 
 b=board('pgg-trueskill','pgg','PGG-Bench · TrueSkill','PGG-Bench · TrueSkill','cooperation',('公共物品与惩罚博弈','Public goods and punishment'),'作者发布结果','Author-published results','五名 LLM 进行十轮公共物品博弈，每轮包含公开交流、贡献与惩罚。','Five LLMs play ten rounds of a public-goods game with public messages, contributions and punishment.','研究个体收益、合作、搭便车与惩罚机制的相互作用。','Study interactions between individual payoffs, cooperation, free-riding and punishment.','根据最终代币余额的相对名次更新 TrueSkill；200 次随机重排对局并重新拟合，报告 μ 与 σ 的中位数。高评级表示相对收益更高，而非合作更多。','TrueSkill is updated from relative final-token ranks. The published μ and σ are medians over 200 random-order refits. A higher rating indicates higher relative payoffs, not more cooperation.',[('实验与计分协议','Experiment and scoring protocol','https://github.com/lechmazur/pgg_bench')])

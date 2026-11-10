@@ -11321,8 +11321,8 @@
       },
       "protocol": {
         "scope": {
-          "zh": "官方 Balanced Subset 的标准模型成绩；本次来源返回的 21 个模型均已标记为非活跃，作为历史比较保留。",
-          "en": "Standard-model results for the official Balanced Subset. All 21 returned models are marked inactive and retained for historical comparison."
+          "zh": "官方 Balanced Subset 的 21 个标准模型成绩，其中 0 个标记为活跃。",
+          "en": "Official Balanced Subset results for 21 standard models, of which 0 are marked active."
         },
         "scoring": {
           "zh": "以 TrueSkill μ 排序，σ 表示评级不确定性；另报告胜率和对局数。评级与对手池相关，胜率不包含平局为胜。",

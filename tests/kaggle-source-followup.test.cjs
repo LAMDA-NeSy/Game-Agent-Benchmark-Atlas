@@ -21,10 +21,10 @@ test('Kaggle imports all numeric cells and intervals consistently with official 
   for(const e of native.entries){const run=e.runs[0],result=run.result||run.results[0];const model=native.modelVersionHeaders.find(h=>h.modelVersion.id===e.modelVersionId).modelVersion;const header=native.taskVersionHeaders.find(h=>h.taskVersion.id===e.taskVersionId);const name=header.taskVersionMapping?.columnName||header.taskVersion.name;const exported=download.rows.find(r=>r.modelVersionSlug===model.slug).taskResults.find(t=>t.benchmarkTaskName===name);const date=result.evaluationDate||exported.result.evaluationDate;if(date)dates.push(date);}
   assert.equal(b.source.pageUpdatedAt,dates.sort().at(-1));assert.notEqual(b.source.pageUpdatedAt,b.source.snapshotAt);
  }
- assert.equal(checked,477);
+ assert.equal(checked,tracks.reduce((sum,[slug])=>sum+read(slug+'-download.json').rows.reduce((n,r)=>n+r.taskResults.length,0),0));
 });
-test('TextArena fresh confirmation does not turn inactive historical results into an active board',()=>{
+test('TextArena classification follows activity and does not invent result dates',()=>{
  const b=data.boards.find(b=>b.id==='textarena-balanced'),source=read('textarena-results');
- assert.equal(source.data.length,21);assert.ok(source.data.every(r=>r.is_standard&&!r.is_active));assert.equal(data.boardMetadata[b.id].kind,'historical');assert.equal(b.source.pageUpdatedAt,null);assert.equal(b.source.snapshotAt,source.capture.capturedAt);
+ assert.equal(b.entries.length,source.data.length);assert.ok(source.data.every(r=>r.is_standard));assert.equal(data.boardMetadata[b.id].kind,source.data.some(r=>r.is_active)?'continuous':'historical');assert.equal(b.source.pageUpdatedAt,null);assert.equal(b.source.snapshotAt,source.capture.capturedAt);
  b.entries.forEach((e,i)=>{assert.equal(e.sourceRecordId,source.data[i].model_id);assert.equal(e.scores.overall.value,source.data[i].trueskill);assert.equal(e.scores.games.value,source.data[i].games_played);});
 });
