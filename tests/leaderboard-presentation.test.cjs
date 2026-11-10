@@ -9,7 +9,7 @@ function date(html){return html.match(/<div class="lb-result-date">([\s\S]*?)<\/
 test('every track has a sourced classification independent of its score snapshot',()=>{
  assert.deepEqual(data.boardMetadata,metadata);assert.deepEqual(Object.keys(metadata).sort(),data.boards.map(b=>b.id).sort());
  const counts={};for(const m of Object.values(metadata)){counts[m.kind]=(counts[m.kind]||0)+1;assert.ok(['continuous','seasonal','historical','reference'].includes(m.kind));assert.match(m.evidenceUrl,/^https:\/\//);assert.ok(m.reason.zh&&m.reason.en);assert.equal(m.reviewedAt,'2026-11-02');}
- assert.deepEqual(counts,{continuous:14,reference:8,historical:8,seasonal:7});assert.equal(metadata['textarena-balanced'].kind,'historical');assert.match(metadata['textarena-balanced'].reason.en,/not to TextArena as a whole/);
+ assert.deepEqual(counts,{continuous:14,reference:8,historical:8,seasonal:8});assert.equal(metadata['textarena-balanced'].kind,'historical');assert.match(metadata['textarena-balanced'].reason.en,/not to TextArena as a whole/);
 });
 test('prominent dates retain their meaning and never fall back to Atlas collection dates',()=>{
  assert.match(date(render('balrog-llm')),/最近提交/);assert.match(date(render('balrog-llm')),/2026-09-20/);assert.doesNotMatch(date(render('balrog-llm')),/2026-11-01/);

@@ -1,0 +1,1120 @@
+[
+  {
+    "url": "https://balrogai.com/",
+    "boards": [
+      "balrog-llm",
+      "balrog-vlm"
+    ],
+    "startedAt": "2026-11-10T01:42:22.212480+00:00",
+    "status": 200,
+    "finalUrl": "https://balrogai.com/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Sun, 20 Sep 2026 20:36:32 GMT",
+    "sha256": "9d14a3ad953686cc3ce03ef5b73e8bdcbc5dc4f464299449556d1107cd99deec",
+    "bytes": 145105,
+    "retrievedAt": "2026-11-10T01:42:23.637173+00:00"
+  },
+  {
+    "url": "https://balrogai.com/submit.html",
+    "boards": [
+      "balrog-llm",
+      "balrog-vlm"
+    ],
+    "startedAt": "2026-11-10T01:42:22.213168+00:00",
+    "status": 200,
+    "finalUrl": "https://balrogai.com/submit.html",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Sun, 20 Sep 2026 20:36:32 GMT",
+    "sha256": "930b1b6a68b43a7f7d48cd0275a0183ee03e2d7404fb97c4e0ce513030675a03",
+    "bytes": 16211,
+    "retrievedAt": "2026-11-10T01:42:23.538918+00:00"
+  },
+  {
+    "url": "https://github.com/balrog-ai/BALROG",
+    "boards": [
+      "balrog-llm",
+      "balrog-vlm"
+    ],
+    "startedAt": "2026-11-10T01:42:22.213306+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/balrog-ai/BALROG",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "81c0b3a50ce4e087c29d50c3e4536de3a5b6b075ef115f804f419c2647612198",
+    "bytes": 253645,
+    "retrievedAt": "2026-11-10T01:42:23.708501+00:00"
+  },
+  {
+    "url": "https://github.com/balrog-ai/experiments",
+    "boards": [
+      "balrog-llm",
+      "balrog-vlm"
+    ],
+    "startedAt": "2026-11-10T01:42:22.213449+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/balrog-ai/experiments",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "92fb5f482703ba584e50142dab31c3fd3768e4cf63fbd016ca50fc1d0a84f103",
+    "bytes": 227246,
+    "retrievedAt": "2026-11-10T01:42:23.945199+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2411.13543",
+    "boards": [
+      "balrog-llm",
+      "balrog-vlm"
+    ],
+    "startedAt": "2026-11-10T01:42:22.213530+00:00",
+    "status": 200,
+    "finalUrl": "https://arxiv.org/abs/2411.13543",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Mon, 24 Aug 2026 19:56:35 GMT",
+    "sha256": "98537c5367505d1e6e187ff827dadf5f68e989253290fd557b4ac314b0bedb69",
+    "bytes": 44268,
+    "retrievedAt": "2026-11-10T01:42:22.962139+00:00"
+  },
+  {
+    "url": "https://krafton-ai.github.io/orak-leaderboard/",
+    "boards": [
+      "orak-arena",
+      "orak-performance"
+    ],
+    "startedAt": "2026-11-10T01:42:22.213627+00:00",
+    "status": 200,
+    "finalUrl": "https://krafton-ai.github.io/orak-leaderboard/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Tue, 17 Jun 2025 01:26:32 GMT",
+    "sha256": "3ada8f0f812ba3876e5d80ac053b79531cd463f4cfae57c9ef45c834b5fb0953",
+    "bytes": 85889,
+    "retrievedAt": "2026-11-10T01:42:23.279132+00:00"
+  },
+  {
+    "url": "https://github.com/krafton-ai/Orak/blob/release/docs/submission_guideline.md",
+    "boards": [
+      "orak-arena",
+      "orak-performance"
+    ],
+    "startedAt": "2026-11-10T01:42:22.213705+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/krafton-ai/Orak/blob/release/docs/submission_guideline.md",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "1261700639431e460e8f5f6e12959e2d10cc59790e233cdd3fec063dd8450660",
+    "bytes": 196656,
+    "retrievedAt": "2026-11-10T01:42:23.686097+00:00"
+  },
+  {
+    "url": "https://github.com/krafton-ai/Orak",
+    "boards": [
+      "orak-arena",
+      "orak-performance"
+    ],
+    "startedAt": "2026-11-10T01:42:22.213780+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/krafton-ai/Orak",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "4ecc1f3d3d8251d3e8fd2aafecfe31c8cdd075a9433087b1ab1735447d1bc39e",
+    "bytes": 301953,
+    "retrievedAt": "2026-11-10T01:42:23.697005+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2506.03610",
+    "boards": [
+      "orak-arena",
+      "orak-performance"
+    ],
+    "startedAt": "2026-11-10T01:42:22.962206+00:00",
+    "status": 200,
+    "finalUrl": "https://arxiv.org/abs/2506.03610",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Mon, 24 Aug 2026 19:47:52 GMT",
+    "sha256": "c0afabd615b2f7513eb3283796955a522e5cf86973deda9d0c9130e17a4d7f45",
+    "bytes": 43432,
+    "retrievedAt": "2026-11-10T01:42:23.431254+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/benchmarks/kaggle/game-arena",
+    "boards": [
+      "kaggle-game-arena"
+    ],
+    "startedAt": "2026-11-10T01:42:23.279195+00:00",
+    "status": 200,
+    "finalUrl": "https://www.kaggle.com/benchmarks/kaggle/game-arena",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "ba74b33af78dde454de20b4d0b0397d20872ab5315f69c8c08e2e386a29e8161",
+    "bytes": 5966,
+    "retrievedAt": "2026-11-10T01:42:23.742514+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/game-arena-faq",
+    "boards": [
+      "kaggle-chess",
+      "kaggle-game-arena",
+      "kaggle-go",
+      "kaggle-poker",
+      "kaggle-werewolf"
+    ],
+    "startedAt": "2026-11-10T01:42:23.431312+00:00",
+    "status": 200,
+    "finalUrl": "https://www.kaggle.com/game-arena-faq",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "a555acfb833824475646cb686f2f52e16fcb1b7524f878d1e91fc76894d0f577",
+    "bytes": 5371,
+    "retrievedAt": "2026-11-10T01:42:23.777314+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/",
+    "boards": [
+      "duellab-balanced",
+      "duellab-baseline",
+      "duellab-gamebench2",
+      "duellab-intensive",
+      "duellab-variants"
+    ],
+    "startedAt": "2026-11-10T01:42:23.538974+00:00",
+    "status": 200,
+    "finalUrl": "https://benchmarks.duellab.org/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "a24b31e1b4d154d4b78905cc464bf71170c2552fa02ccd9173e3d780bbdae9b4",
+    "bytes": 643237,
+    "retrievedAt": "2026-11-10T01:42:24.443892+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/leaderboard.csv",
+    "boards": [
+      "duellab-balanced",
+      "duellab-baseline",
+      "duellab-gamebench2",
+      "duellab-intensive",
+      "duellab-variants"
+    ],
+    "startedAt": "2026-11-10T01:42:23.637258+00:00",
+    "status": 200,
+    "finalUrl": "https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/leaderboard.csv",
+    "contentType": "text/csv; charset=utf-8",
+    "lastModified": null,
+    "sha256": "414feae586e17d74ae218e8e2233d91f66264da6558d800af3bf9adad8db527a",
+    "bytes": 6775343,
+    "retrievedAt": "2026-11-10T01:42:25.284943+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/methodology",
+    "boards": [
+      "duellab-balanced",
+      "duellab-baseline",
+      "duellab-gamebench2",
+      "duellab-intensive",
+      "duellab-variants"
+    ],
+    "startedAt": "2026-11-10T01:42:23.686172+00:00",
+    "status": 200,
+    "finalUrl": "https://benchmarks.duellab.org/methodology",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "ce153358c258de8982c0e99afedadd510fa35b1b5039850ea94ddd916833b207",
+    "bytes": 42865,
+    "retrievedAt": "2026-11-10T01:42:24.083738+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/data-dictionary",
+    "boards": [
+      "duellab-balanced",
+      "duellab-baseline",
+      "duellab-gamebench2",
+      "duellab-intensive",
+      "duellab-variants"
+    ],
+    "startedAt": "2026-11-10T01:42:23.697082+00:00",
+    "status": 200,
+    "finalUrl": "https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/data-dictionary",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "6a879ce3979c03f1b9ad1aa9123788ad35443b499b5a5eb3f44434040bdbbe6c",
+    "bytes": 42227,
+    "retrievedAt": "2026-11-10T01:42:24.348551+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/",
+    "boards": [
+      "duellab-balanced",
+      "duellab-baseline",
+      "duellab-gamebench2",
+      "duellab-intensive",
+      "duellab-variants"
+    ],
+    "startedAt": "2026-11-10T01:42:23.708607+00:00",
+    "status": 200,
+    "finalUrl": "https://benchmarks.duellab.org/releases/gb2-20261101-00b883bd2c89/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "a29aaaca39f16b421578cccf4a925e9f7cb6d3e01f53090c6563d75c6904f896",
+    "bytes": 9376,
+    "retrievedAt": "2026-11-10T01:42:24.393548+00:00"
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "boards": [
+      "duellab-balanced",
+      "duellab-baseline",
+      "duellab-gamebench2",
+      "duellab-intensive",
+      "duellab-variants"
+    ],
+    "startedAt": "2026-11-10T01:42:23.742590+00:00",
+    "status": 200,
+    "finalUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "contentType": "text/html",
+    "lastModified": "Thu, 01 Oct 2026 17:09:56 GMT",
+    "sha256": "8dda1ccec4be91fc80821d4e4fd5c568072b9a3a74b2fdc07c249a27e920ef01",
+    "bytes": 31950,
+    "retrievedAt": "2026-11-10T01:42:23.956333+00:00"
+  },
+  {
+    "url": "https://chessbench.org/",
+    "boards": [
+      "chessbench-all",
+      "chessbench-best"
+    ],
+    "startedAt": "2026-11-10T01:42:23.777370+00:00",
+    "status": 200,
+    "finalUrl": "https://chessbench.org/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "c9d74332622365fe0991c721f1b9a39129e00e553be23adfa34fd88dc6c3bf21",
+    "bytes": 112821,
+    "retrievedAt": "2026-11-10T01:42:25.978902+00:00"
+  },
+  {
+    "url": "https://chessbench.org/data",
+    "boards": [
+      "chessbench-all",
+      "chessbench-best"
+    ],
+    "startedAt": "2026-11-10T01:42:23.945270+00:00",
+    "status": 200,
+    "finalUrl": "https://chessbench.org/data",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "d22ff8ded664a6157a9a6d11f39d94a5b71006312dc5462e5a37587ab3a5adff",
+    "bytes": 39887,
+    "retrievedAt": "2026-11-10T01:42:25.917766+00:00"
+  },
+  {
+    "url": "https://starskirmish.com/bench/v0-2/",
+    "boards": [
+      "starskirmish-v02"
+    ],
+    "startedAt": "2026-11-10T01:42:23.956400+00:00",
+    "status": 200,
+    "finalUrl": "https://starskirmish.com/bench/v0-2/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "6f96785ce02e64a6eda52496a8694a6737b47d50f21d3c2a490b0c5d7cf473b0",
+    "bytes": 21944,
+    "retrievedAt": "2026-11-10T01:42:24.667714+00:00"
+  },
+  {
+    "url": "https://starskirmish.com/bench/v0-2/data.js?v=967d33a",
+    "boards": [
+      "starskirmish-v02"
+    ],
+    "startedAt": "2026-11-10T01:42:24.083854+00:00",
+    "status": 200,
+    "finalUrl": "https://starskirmish.com/bench/v0-2/data.js?v=967d33a",
+    "contentType": "application/javascript",
+    "lastModified": null,
+    "sha256": "2744d315ce7e0840ebc28bf2b7ce75617c102e11ae83c13152a10b2d22e4fa9b",
+    "bytes": 7701,
+    "retrievedAt": "2026-11-10T01:42:24.596982+00:00"
+  },
+  {
+    "url": "https://aiarena.net/",
+    "boards": [
+      "sc2-ai-arena",
+      "sc2-division-2",
+      "sc2-division-3",
+      "sc2-division-4",
+      "sc2-division-5",
+      "sc2-division-6"
+    ],
+    "startedAt": "2026-11-10T01:42:24.348645+00:00",
+    "status": 200,
+    "finalUrl": "https://aiarena.net/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "f2ce5fa14e26f3295d8b195b9f5a4a093003e0f1f98683015a48215f8f79ad29",
+    "bytes": 4249,
+    "retrievedAt": "2026-11-10T01:42:25.431556+00:00"
+  },
+  {
+    "url": "https://aiarenarecap.com/api/ladder.json",
+    "boards": [
+      "sc2-ai-arena",
+      "sc2-division-2",
+      "sc2-division-3",
+      "sc2-division-4",
+      "sc2-division-5",
+      "sc2-division-6"
+    ],
+    "startedAt": "2026-11-10T01:42:24.393607+00:00",
+    "status": 200,
+    "finalUrl": "https://aiarenarecap.com/api/ladder.json",
+    "contentType": "application/json",
+    "lastModified": null,
+    "sha256": "e3fca54e63101335ed36c0d7aedff3fe8a01517c628a9788d4d2df7a6a0ece77",
+    "bytes": 47944,
+    "retrievedAt": "2026-11-10T01:42:25.794708+00:00"
+  },
+  {
+    "url": "https://aiarena.net/wiki/ladders/",
+    "boards": [
+      "sc2-ai-arena",
+      "sc2-division-2",
+      "sc2-division-3",
+      "sc2-division-4",
+      "sc2-division-5",
+      "sc2-division-6"
+    ],
+    "startedAt": "2026-11-10T01:42:24.443985+00:00",
+    "status": 200,
+    "finalUrl": "https://aiarena.net/wiki/ladders/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "28b1f21da1a8d899ec3f1145ba60aa8b57fd8c8344778e310c031b7aeec689e9",
+    "bytes": 9584,
+    "retrievedAt": "2026-11-10T01:42:25.976819+00:00"
+  },
+  {
+    "url": "https://aiarenarecap.com/",
+    "boards": [
+      "sc2-ai-arena",
+      "sc2-division-2",
+      "sc2-division-3",
+      "sc2-division-4",
+      "sc2-division-5",
+      "sc2-division-6"
+    ],
+    "startedAt": "2026-11-10T01:42:24.597067+00:00",
+    "status": 200,
+    "finalUrl": "https://aiarenarecap.com/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "46171537f67e1258684677237b22c0fcacc391ea59a25a5ea9d066ae402e8c9a",
+    "bytes": 12008,
+    "retrievedAt": "2026-11-10T01:42:25.324671+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/leaderboard",
+    "boards": [
+      "arc-agi3-2026"
+    ],
+    "startedAt": "2026-11-10T01:42:24.667817+00:00",
+    "status": 200,
+    "finalUrl": "https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3/leaderboard",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "9d1bd00e78f4ab5a384d7b0a56f9e585afdd5086f3200e817e92c6fe928b12fc",
+    "bytes": 5642,
+    "retrievedAt": "2026-11-10T01:42:25.021084+00:00"
+  },
+  {
+    "url": "https://arcprize.org/competitions/2026/arc-agi-3",
+    "boards": [
+      "arc-agi3-2026"
+    ],
+    "startedAt": "2026-11-10T01:42:25.021216+00:00",
+    "status": 200,
+    "finalUrl": "https://arcprize.org/competitions/2026/arc-agi-3",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "96fe2895d54c2d366c0094639637607ee21e9f2b178812574bb9944f7e7149b1",
+    "bytes": 46154,
+    "retrievedAt": "2026-11-10T01:42:26.266559+00:00"
+  },
+  {
+    "url": "https://microsoft.github.io/tale-suite/",
+    "boards": [
+      "tales"
+    ],
+    "startedAt": "2026-11-10T01:42:25.285403+00:00",
+    "status": 200,
+    "finalUrl": "https://microsoft.github.io/tale-suite/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Fri, 30 Oct 2026 15:08:12 GMT",
+    "sha256": "a10bfec916317babfbdbb2e0fc740931f5bf4b21190b8de0be62bc8ae6fc8424",
+    "bytes": 36788,
+    "retrievedAt": "2026-11-10T01:42:25.760177+00:00"
+  },
+  {
+    "url": "https://github.com/microsoft/tale-suite",
+    "boards": [
+      "tales"
+    ],
+    "startedAt": "2026-11-10T01:42:25.324776+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/microsoft/tale-suite",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "762e850d43f0532d75855ad105f46d5b788fa02e5a813506d1b83ed7c71c897e",
+    "bytes": 351746,
+    "retrievedAt": "2026-11-10T01:42:26.469423+00:00"
+  },
+  {
+    "url": "https://chessbench.org/data/leaderboard.json",
+    "boards": [
+      "chessbench-all",
+      "live-discovery"
+    ],
+    "startedAt": "2026-11-10T01:42:25.431658+00:00",
+    "status": 200,
+    "finalUrl": "https://chessbench.org/data/leaderboard.json",
+    "contentType": "application/json; charset=utf-8",
+    "lastModified": null,
+    "sha256": "0a822f595fb99a1a887ad113408d4a801c5ffbc2ce13f80ec12b43204dfc6dc1",
+    "bytes": 24377,
+    "retrievedAt": "2026-11-10T01:42:26.129628+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/benchmarks/kaggle/chess-text",
+    "boards": [
+      "kaggle-chess"
+    ],
+    "startedAt": "2026-11-10T01:42:25.760296+00:00",
+    "status": 200,
+    "finalUrl": "https://www.kaggle.com/benchmarks/kaggle/chess-text",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "aac5329f8126a3413056162db038f50f18b5373042b30d58701e16ecd9331c21",
+    "bytes": 5845,
+    "retrievedAt": "2026-11-10T01:42:26.182041+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/benchmarks/kaggle/go",
+    "boards": [
+      "kaggle-go"
+    ],
+    "startedAt": "2026-11-10T01:42:25.794881+00:00",
+    "status": 200,
+    "finalUrl": "https://www.kaggle.com/benchmarks/kaggle/go",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "c86291e7985795c77d5e638ea85e8653cc9ebecd6418e9e86070577bcd54d6f9",
+    "bytes": 5748,
+    "retrievedAt": "2026-11-10T01:42:26.157170+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/benchmarks/kaggle/poker-heads-up",
+    "boards": [
+      "kaggle-poker"
+    ],
+    "startedAt": "2026-11-10T01:42:25.917878+00:00",
+    "status": 200,
+    "finalUrl": "https://www.kaggle.com/benchmarks/kaggle/poker-heads-up",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "2ee0b7549305d4a19bb48935d9fc970ab0bcf74856b3c871dc513f106b4f89a3",
+    "bytes": 6120,
+    "retrievedAt": "2026-11-10T01:42:26.323762+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/benchmarks/kaggle/werewolf",
+    "boards": [
+      "kaggle-werewolf"
+    ],
+    "startedAt": "2026-11-10T01:42:25.976929+00:00",
+    "status": 200,
+    "finalUrl": "https://www.kaggle.com/benchmarks/kaggle/werewolf",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "4f9a7b80b75a17bf4fbb4a94c374fc5ced1b10c3e9f4fe10fca4ae49c72668b4",
+    "bytes": 6124,
+    "retrievedAt": "2026-11-10T01:42:26.365943+00:00"
+  },
+  {
+    "url": "https://lmgame-lmgame-bench.hf.space/",
+    "boards": [
+      "lmgame-model"
+    ],
+    "startedAt": "2026-11-10T01:42:25.978977+00:00",
+    "status": 200,
+    "finalUrl": "https://lmgame-lmgame-bench.hf.space/",
+    "contentType": "text/html",
+    "lastModified": null,
+    "sha256": "66d22d18dd65a2aa1ede00ea2be5bc5514fbe20a8b7b116effe5363010976bda",
+    "bytes": 227918,
+    "retrievedAt": "2026-11-10T01:42:28.090940+00:00"
+  },
+  {
+    "url": "https://huggingface.co/spaces/lmgame/lmgame_bench/blob/main/leaderboard_utils.py",
+    "boards": [
+      "lmgame-model"
+    ],
+    "startedAt": "2026-11-10T01:42:26.129711+00:00",
+    "status": 200,
+    "finalUrl": "https://huggingface.co/spaces/lmgame/lmgame_bench/blob/main/leaderboard_utils.py",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "17c5bd76252f6f025c93ac5bb89884c085fdbb2ace2d65aef6f2c56fe4416cd3",
+    "bytes": 160933,
+    "retrievedAt": "2026-11-10T01:42:26.848359+00:00"
+  },
+  {
+    "url": "https://github.com/lmgame-org/GamingAgent",
+    "boards": [
+      "lmgame-model"
+    ],
+    "startedAt": "2026-11-10T01:42:26.157257+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/lmgame-org/GamingAgent",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "e9191140bb63189d5d3d799feb5614122b3fe85b55b54d566b068287c0e22759",
+    "bytes": 301984,
+    "retrievedAt": "2026-11-10T01:42:27.013214+00:00"
+  },
+  {
+    "url": "https://antimlabs.com/vgbench",
+    "boards": [
+      "videogamebench-full"
+    ],
+    "startedAt": "2026-11-10T01:42:26.182103+00:00",
+    "status": 200,
+    "finalUrl": "https://antimlabs.com/vgbench",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "424ca428cdd1c950579905d63b8ac129c701dff1a01ecb741b1a8bf2160f6897",
+    "bytes": 43710,
+    "retrievedAt": "2026-11-10T01:42:27.674607+00:00"
+  },
+  {
+    "url": "https://visual-ai.github.io/gamebot/",
+    "boards": [
+      "gamebot"
+    ],
+    "startedAt": "2026-11-10T01:42:26.266632+00:00",
+    "status": 200,
+    "finalUrl": "https://visual-ai.github.io/gamebot/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Fri, 06 Nov 2026 06:28:29 GMT",
+    "sha256": "83d03900190eaff54964bbecf0307f3209287af2a87ffecc483f36e045871db0",
+    "bytes": 53978,
+    "retrievedAt": "2026-11-10T01:42:26.775430+00:00"
+  },
+  {
+    "url": "https://aclanthology.org/2025.acl-long.378/",
+    "boards": [
+      "gamebot"
+    ],
+    "startedAt": "2026-11-10T01:42:26.323828+00:00",
+    "status": 200,
+    "finalUrl": "https://aclanthology.org/2025.acl-long.378/",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Mon, 09 Nov 2026 16:09:41 GMT",
+    "sha256": "6ccb89bbde319f497f36b4c081c6c08f4286d83622ef713945053f61bfa19ecf",
+    "bytes": 45910,
+    "retrievedAt": "2026-11-10T01:42:27.622301+00:00"
+  },
+  {
+    "url": "https://github.com/Visual-AI/GAMEBoT",
+    "boards": [
+      "gamebot"
+    ],
+    "startedAt": "2026-11-10T01:42:26.366060+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/Visual-AI/GAMEBoT",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "27003ff5dfd7e24a9404a2a66b0bac7ae71408773454842d2d024ead21e7ecc2",
+    "bytes": 296675,
+    "retrievedAt": "2026-11-10T01:42:27.487629+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/neurips-2020-procgen-competition/leaderboards?challenge_leaderboard_extra_id=469&challenge_round_id=662",
+    "boards": [
+      "procgen-2020-generalization"
+    ],
+    "startedAt": "2026-11-10T01:42:26.469545+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/neurips-2020-procgen-competition/leaderboards?challenge_leaderboard_extra_id=469&challenge_round_id=662",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "519e35f763e390f786b42870f171e267308e43ec031b430801b6ab8872a5c3fc",
+    "bytes": 86638,
+    "retrievedAt": "2026-11-10T01:42:28.091572+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/neurips-2020-procgen-competition",
+    "boards": [
+      "procgen-2020-generalization"
+    ],
+    "startedAt": "2026-11-10T01:42:26.775542+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/neurips-2020-procgen-competition",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "7ba340f9bccccfabd21b99e8d33fcc2e23344d13959fcc25245ac3fca96730b3",
+    "bytes": 90875,
+    "retrievedAt": "2026-11-10T01:42:28.630191+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/neurips-2021-the-nethack-challenge/leaderboards?challenge_leaderboard_extra_id=969&challenge_round_id=911",
+    "boards": [
+      "nethack-2021-overall"
+    ],
+    "startedAt": "2026-11-10T01:42:26.848467+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/neurips-2021-the-nethack-challenge/leaderboards?challenge_leaderboard_extra_id=969&challenge_round_id=911",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "187f7ce2f8bd27efdb1f943a9b571561e68222668eb2b47d657811e903709f24",
+    "bytes": 138281,
+    "retrievedAt": "2026-11-10T01:42:28.394020+00:00"
+  },
+  {
+    "url": "https://nethackchallenge.com/report.html",
+    "boards": [
+      "nethack-2021-overall"
+    ],
+    "startedAt": "2026-11-10T01:42:27.013343+00:00",
+    "status": 200,
+    "finalUrl": "https://nethackchallenge.com/report.html",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Tue, 14 Dec 2021 15:09:02 GMT",
+    "sha256": "82fb5c5663683fd294accf2d255e2a8a5e3f4a79998bd2fd3ef798a127e4ef02",
+    "bytes": 21397,
+    "retrievedAt": "2026-11-10T01:42:27.923440+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/neurips-2021-the-nethack-challenge",
+    "boards": [
+      "nethack-2021-overall"
+    ],
+    "startedAt": "2026-11-10T01:42:27.487756+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/neurips-2021-the-nethack-challenge",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "0bca1142977cadf0db9f2a63100ffbff69f5cc7919dcafc5df359857482063a2",
+    "bytes": 75290,
+    "retrievedAt": "2026-11-10T01:42:29.574294+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/meltingpot-challenge-2023/leaderboards?challenge_leaderboard_extra_id=1319&challenge_round_id=1295",
+    "boards": [
+      "meltingpot-2023-generalization"
+    ],
+    "startedAt": "2026-11-10T01:42:27.622416+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/meltingpot-challenge-2023/leaderboards?challenge_leaderboard_extra_id=1319&challenge_round_id=1295",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "5160588b5d3745e20c61f6c1853f5df17cacbbb55739e0a378f55ae8c942ee88",
+    "bytes": 180929,
+    "retrievedAt": "2026-11-10T01:42:29.362769+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/meltingpot-challenge-2023",
+    "boards": [
+      "meltingpot-2023-generalization"
+    ],
+    "startedAt": "2026-11-10T01:42:27.674777+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/meltingpot-challenge-2023",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "cec81abf6d4d02465aa7c583f81c84fb57dbcf690245037c6a5769968005e268",
+    "bytes": 88742,
+    "retrievedAt": "2026-11-10T01:42:29.407119+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/neurips-2021-minerl-diamond-competition/leaderboards?challenge_leaderboard_extra_id=788&challenge_round_id=956",
+    "boards": [
+      "minerl-2021-research"
+    ],
+    "startedAt": "2026-11-10T01:42:27.923565+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/neurips-2021-minerl-diamond-competition/leaderboards?challenge_leaderboard_extra_id=788&challenge_round_id=956",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "88da45c3c1846e1dbb57a3908d2706e9fc19094ac01e16669930e56d2a090bc8",
+    "bytes": 96704,
+    "retrievedAt": "2026-11-10T01:42:29.418120+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/neurips-2021-minerl-diamond-competition/leaderboards",
+    "boards": [
+      "minerl-2021-research"
+    ],
+    "startedAt": "2026-11-10T01:42:28.091085+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/neurips-2021-minerl-diamond-competition/leaderboards",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "6086add8676896df201d09fe6c313eabbe3f0e7b34d529c0be49db7aade2b290",
+    "bytes": 96638,
+    "retrievedAt": "2026-11-10T01:42:29.756022+00:00"
+  },
+  {
+    "url": "https://www.aicrowd.com/challenges/neurips-2021-minerl-diamond-competition",
+    "boards": [
+      "minerl-2021-research"
+    ],
+    "startedAt": "2026-11-10T01:42:28.091670+00:00",
+    "status": 200,
+    "finalUrl": "https://www.aicrowd.com/challenges/neurips-2021-minerl-diamond-competition",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "35837ab7f87c17bd568a626f6fe1a690cabbe2e61192d5dcea357a9cdd3950f6",
+    "bytes": 80446,
+    "retrievedAt": "2026-11-10T01:42:30.045722+00:00"
+  },
+  {
+    "url": "https://www.textarena.ai/leaderboard",
+    "boards": [
+      "textarena-balanced"
+    ],
+    "startedAt": "2026-11-10T01:42:28.394129+00:00",
+    "status": 200,
+    "finalUrl": "https://www.textarena.ai/leaderboard",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "9a072cfd7d536dccc32d3a4d7f25730aea4bb732eaa69a793439e1f0dada776b",
+    "bytes": 29218,
+    "retrievedAt": "2026-11-10T01:42:29.792151+00:00"
+  },
+  {
+    "url": "https://www.textarena.ai/docs/overview",
+    "boards": [
+      "textarena-balanced"
+    ],
+    "startedAt": "2026-11-10T01:42:28.630326+00:00",
+    "status": 200,
+    "finalUrl": "https://www.textarena.ai/docs/overview",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "fe72d3d0081733579413e8f006c91947cc7c865f70b73304925b993dc5da01e5",
+    "bytes": 32374,
+    "retrievedAt": "2026-11-10T01:42:29.805891+00:00"
+  },
+  {
+    "url": "https://github.com/TextArena/TextArena",
+    "boards": [
+      "textarena-balanced"
+    ],
+    "startedAt": "2026-11-10T01:42:29.362885+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/TextArena/TextArena",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "64f0c2d4b12134d15d349a3c48c456a7be9dccd971792e4076b21e008e4c3b91",
+    "bytes": 291298,
+    "retrievedAt": "2026-11-10T01:42:30.353815+00:00"
+  },
+  {
+    "url": "https://github.com/lechmazur/pgg_bench",
+    "boards": [
+      "pgg-trueskill"
+    ],
+    "startedAt": "2026-11-10T01:42:29.407238+00:00",
+    "status": 200,
+    "finalUrl": "https://github.com/lechmazur/pgg_bench",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": null,
+    "sha256": "20e0fdaedd57a43f258ed71649040f1fdf4ca3b18d6ac8bfd6237d30f38d81a2",
+    "bytes": 381433,
+    "retrievedAt": "2026-11-10T01:42:30.538933+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/lechmazur/pgg_bench/main/README.md",
+    "boards": [
+      "pgg-trueskill"
+    ],
+    "startedAt": "2026-11-10T01:42:29.418220+00:00",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/lechmazur/pgg_bench/main/README.md",
+    "contentType": "text/plain; charset=utf-8",
+    "lastModified": null,
+    "sha256": "865184383e0ea5bd2cc1c4b640427043a728f855421a3f1047b7bfa5c2b48f7f",
+    "bytes": 42316,
+    "retrievedAt": "2026-11-10T01:42:29.974131+00:00"
+  },
+  {
+    "url": "https://pokeagent.github.io/leaderboard.html",
+    "boards": [
+      "pokeagent-2025-gen1ou",
+      "pokeagent-2025-gen9ou",
+      "pokeagent-2025-speedrun"
+    ],
+    "startedAt": "2026-11-10T01:42:29.574431+00:00",
+    "status": 200,
+    "finalUrl": "https://pokeagent.github.io/leaderboard.html",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Mon, 08 Dec 2025 03:15:55 GMT",
+    "sha256": "3a2a22ccdfa340eace45ae698cc3c4474c730cf4ebc16f05976c014d36326647",
+    "bytes": 76359,
+    "retrievedAt": "2026-11-10T01:42:30.078397+00:00"
+  },
+  {
+    "url": "https://pokeagent.github.io/leaderboard/track1_qualifying.json",
+    "boards": [
+      "pokeagent-2025-gen1ou",
+      "pokeagent-2025-gen9ou"
+    ],
+    "startedAt": "2026-11-10T01:42:29.756422+00:00",
+    "status": 200,
+    "finalUrl": "https://pokeagent.github.io/leaderboard/track1_qualifying.json",
+    "contentType": "application/json; charset=utf-8",
+    "lastModified": "Mon, 08 Dec 2025 03:15:54 GMT",
+    "sha256": "06dbadf75322ea32ac58c9202df2297667bb46420498669410985022d5d3677d",
+    "bytes": 63828,
+    "retrievedAt": "2026-11-10T01:42:30.400904+00:00"
+  },
+  {
+    "url": "https://pokeagent.github.io/track1.html",
+    "boards": [
+      "pokeagent-2025-gen1ou",
+      "pokeagent-2025-gen9ou"
+    ],
+    "startedAt": "2026-11-10T01:42:29.792274+00:00",
+    "status": 200,
+    "finalUrl": "https://pokeagent.github.io/track1.html",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Mon, 08 Dec 2025 03:15:55 GMT",
+    "sha256": "a264b6c77bb924d5552f2abfd9d23c53897b3fddd241560f37f6ab758149822d",
+    "bytes": 39328,
+    "retrievedAt": "2026-11-10T01:42:30.276919+00:00"
+  },
+  {
+    "url": "https://replays.pokeagentshowdown.com/",
+    "boards": [
+      "pokeagent-2025-gen1ou",
+      "pokeagent-2025-gen9ou"
+    ],
+    "startedAt": "2026-11-10T01:42:29.805993+00:00",
+    "status": "failed",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)>",
+    "retrievedAt": "2026-11-10T01:42:37.408527+00:00"
+  },
+  {
+    "url": "https://pokeagent.github.io/leaderboard/speedrunning.json",
+    "boards": [
+      "pokeagent-2025-speedrun"
+    ],
+    "startedAt": "2026-11-10T01:42:29.974354+00:00",
+    "status": 200,
+    "finalUrl": "https://pokeagent.github.io/leaderboard/speedrunning.json",
+    "contentType": "application/json; charset=utf-8",
+    "lastModified": "Mon, 08 Dec 2025 03:15:54 GMT",
+    "sha256": "52d9620c26725249683727bba00f3faaa250fe224dc9d5d89566d56ef0e8ff65",
+    "bytes": 38118,
+    "retrievedAt": "2026-11-10T01:42:30.424450+00:00"
+  },
+  {
+    "url": "https://pokeagent.github.io/track2.html",
+    "boards": [
+      "pokeagent-2025-speedrun"
+    ],
+    "startedAt": "2026-11-10T01:42:30.045905+00:00",
+    "status": 200,
+    "finalUrl": "https://pokeagent.github.io/track2.html",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Mon, 08 Dec 2025 03:15:54 GMT",
+    "sha256": "3febbc53bcee86be3b9e540346e7b593e32a078031e60b4477c49dcc60dd84fd",
+    "bytes": 24723,
+    "retrievedAt": "2026-11-10T01:42:30.524521+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/leaderboard.csv",
+    "boards": [
+      "live-discovery"
+    ],
+    "startedAt": "2026-11-10T01:42:30.078507+00:00",
+    "status": 200,
+    "finalUrl": "https://benchmarks.duellab.org/leaderboard.csv",
+    "contentType": "text/csv; charset=utf-8",
+    "lastModified": null,
+    "sha256": "de21f04fab1f48b8f64c336d72fc51019f9f2d7b8a6a90870cd710e571706bc2",
+    "bytes": 7260276,
+    "retrievedAt": "2026-11-10T01:42:31.751893+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/releases/index.json",
+    "boards": [
+      "live-discovery"
+    ],
+    "startedAt": "2026-11-10T01:42:30.277036+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "retrievedAt": "2026-11-10T01:42:30.519451+00:00"
+  },
+  {
+    "url": "https://arxiv.org/abs/2605.09965",
+    "boards": [
+      "live-discovery"
+    ],
+    "startedAt": "2026-11-10T01:42:30.353958+00:00",
+    "status": 200,
+    "finalUrl": "https://arxiv.org/abs/2605.09965",
+    "contentType": "text/html; charset=utf-8",
+    "lastModified": "Tue, 27 Oct 2026 01:50:06 GMT",
+    "sha256": "1240858c6e4b58d14798c81ce2fb543a868629d19825f5d1cb6946a3e630b1a0",
+    "bytes": 44507,
+    "retrievedAt": "2026-11-10T01:42:30.596839+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/releases/gb2-20261107-a12a38c1543d/release-manifest.json",
+    "request": null,
+    "startedAt": "2026-11-10T01:44:43.721933+00:00",
+    "status": 200,
+    "sha256": "b18c1055945b80c20f34201b7e75db79eab9935c2e3780eb1d726e5147a54817",
+    "contentType": "application/json",
+    "bytes": 234281,
+    "retrievedAt": "2026-11-10T01:44:44.593832+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/releases/gb2-20261107-a12a38c1543d/leaderboard.csv",
+    "request": null,
+    "startedAt": "2026-11-10T01:44:43.722474+00:00",
+    "status": 200,
+    "sha256": "de21f04fab1f48b8f64c336d72fc51019f9f2d7b8a6a90870cd710e571706bc2",
+    "contentType": "text/csv; charset=utf-8",
+    "bytes": 7260276,
+    "retrievedAt": "2026-11-10T01:44:45.004679+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/releases/gb2-20261107-a12a38c1543d/data-dictionary",
+    "request": null,
+    "startedAt": "2026-11-10T01:44:43.722621+00:00",
+    "status": 200,
+    "sha256": "657638c683466c7b9cb128ddbe063cc8ebdde86788a1e340f0949ad5da14b2b5",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 74571,
+    "retrievedAt": "2026-11-10T01:44:44.662126+00:00"
+  },
+  {
+    "url": "https://benchmarks.duellab.org/leaderboard.json",
+    "request": null,
+    "startedAt": "2026-11-10T01:44:43.722716+00:00",
+    "status": 200,
+    "sha256": "7b221a0ee7f5def017cb0a0c5954c5254afe0fb1efe23580bb80661401ae5d13",
+    "contentType": "application/json",
+    "bytes": 11826,
+    "retrievedAt": "2026-11-10T01:44:44.454634+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 31
+        }
+      }
+    },
+    "startedAt": "2026-11-10T01:44:43.722804+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "retrievedAt": "2026-11-10T01:44:44.372228+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 349
+        }
+      }
+    },
+    "startedAt": "2026-11-10T01:44:43.722885+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "retrievedAt": "2026-11-10T01:44:44.372514+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 6258
+        }
+      }
+    },
+    "startedAt": "2026-11-10T01:44:44.372358+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "retrievedAt": "2026-11-10T01:44:44.703682+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 180
+        }
+      }
+    },
+    "startedAt": "2026-11-10T01:44:44.372547+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "retrievedAt": "2026-11-10T01:44:44.771342+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 443
+        }
+      }
+    },
+    "startedAt": "2026-11-10T01:44:44.454721+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "retrievedAt": "2026-11-10T01:44:44.796842+00:00"
+  },
+  {
+    "url": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
+    "request": {
+      "competitionId": 133468,
+      "leaderboardType": "public"
+    },
+    "startedAt": "2026-11-10T01:44:44.593914+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found",
+    "retrievedAt": "2026-11-10T01:44:44.997273+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Farama-Foundation/Minigrid/master/README.md",
+    "request": null,
+    "startedAt": "2026-11-10T01:44:44.662188+00:00",
+    "status": 200,
+    "sha256": "29c9ac0e91b859739bb267c1f8906803bab45311b1b4cbecfeb7d37196886876",
+    "contentType": "text/plain; charset=utf-8",
+    "bytes": 5583,
+    "retrievedAt": "2026-11-10T01:44:45.097050+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/danijar/crafter/main/README.md",
+    "request": null,
+    "startedAt": "2026-11-10T01:44:44.703728+00:00",
+    "status": 200,
+    "sha256": "cc09873f584c2bcfcface362f0eb386121b1bb14d02d13b0ec67ba8bb0bf8c47",
+    "contentType": "text/plain; charset=utf-8",
+    "bytes": 7317,
+    "retrievedAt": "2026-11-10T01:44:45.185438+00:00"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/allenai/ScienceWorld/main/README.md",
+    "request": null,
+    "startedAt": "2026-11-10T01:44:44.771435+00:00",
+    "status": 200,
+    "sha256": "2cdb71716ca2b4b6a34bdadf67f4673b511e489bb2c4143fe0b6be6a5aef7d73",
+    "contentType": "text/plain; charset=utf-8",
+    "bytes": 8936,
+    "retrievedAt": "2026-11-10T01:44:45.227858+00:00"
+  }
+]

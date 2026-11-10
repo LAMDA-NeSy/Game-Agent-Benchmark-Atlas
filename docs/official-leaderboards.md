@@ -27,15 +27,15 @@ The merged export contains native score tables by source and track. Records can 
 
 | Source | Native tables | Records | Source/date semantics |
 | --- | --- | ---: | --- |
-| DuelLab GameBench 2 | Overall, reasoning variants, baseline, balanced, intensive | 612 | Release `gb2-20261101-00b883bd2c89`, generated 2026-11-01; 513 ranked and 99 provisional/partial reference rows |
+| DuelLab GameBench 2 | Overall, reasoning variants, baseline, balanced, intensive | 642 | Release `gb2-20261107-a12a38c1543d`, generated 2026-11-07; 566 ranked and 76 provisional/partial reference rows |
 | ChessBench | Existing Best view plus all thinking setups | 18 + 32 | `chessbench-v3`, results 2026-10-26; each setup has its own rating |
 | StarSkirmish | v0.2 mean win rates and development cost | 9 | Official chart payload, published 2026-10-15; five run scores retained in details |
-| SC2 AI Arena | Six divisions of 2026 Season 2 | 132 | Official match data through the attributed AI Arena Recap community mirror; sync time is not a result-update date |
+| SC2 AI Arena | Seven divisions of 2026 Season 2 | 156 | Official match data through the attributed AI Arena Recap community mirror; sync time is not a result-update date |
 | Kaggle Game Arena | Unified, Chess, Go, Heads-up Poker, Werewolf | 39 + 39 + 36 + 31 + 8 | Complete public model tables, including deprecated versions; dates from result evaluation timestamps |
 | ARC-AGI-3 2026 | Public competition leaderboard | 5,041 | 5,038 ranked teams and three unranked records; team latest-submission date is not the best-score date |
 | TALES | Overall and five framework metrics | 40 | Author-published research results; no published result-update date; includes ScienceWorld |
 
-DuelLab uses its source headline score, including model-caused generation failures. Aggregate-table game metrics come directly from `headline_games_json`. Its full CSV evidence includes 4,257 aggregate and per-game records; the UI imports the 612 aggregate-table records and their native game scores. Per-game CSV rows are not treated as additional models. The downloaded CSV SHA-256 matches the official release manifest. Credit: DuelLab, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); Atlas reformats fields and rounds display values, retaining source precision for sorting.
+DuelLab uses its source headline score, including model-caused generation failures. Aggregate-table game metrics come directly from `headline_games_json`. Its full CSV evidence includes 4,553 aggregate and per-game records; the UI imports the 642 aggregate-table records and their native game scores. Per-game CSV rows are not treated as additional models. The downloaded CSV SHA-256 matches the official release manifest. Credit: DuelLab, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); Atlas reformats fields and rounds display values, retaining source precision for sorting.
 
 Kaggle game metrics remain distinct: pooled Bradley–Terry score for the unified board, game-specific ratings for chess/Go, Mean BB/100 for poker, and Polarix equilibrium rating for Werewolf. Numeric zero omitted by protobuf JSON is decoded as zero only when a `numericResult` object exists. An absent result remains missing. Source confidence intervals and model deprecation status are retained. Kaggle `CENTS` values remain cents (¢), not USD. `PERCENTAGES` values and intervals are multiplied by 100 for display. Display-column mappings take precedence over task-internal labels; Werewolf’s per-turn visible labels versus per-game task names are documented in its protocol details.
 
@@ -62,3 +62,5 @@ Changing filters preserves the selected track, metric and agent search. If the s
 The Arena header scrolls with the document instead of overlapping the page title. The source list retains its own 16 px sticky offset once the header has scrolled away. The 19-row index fits 1366×768 and larger tested desktop viewports without an inner scroll region. Original score data, protocols, historical tracks and evaluation tools are preserved.
 
 Validation for this integration: 50 automated checks; all 37 tracks rendered in both languages at 1366×768, with focused 1200×900 and 1440×900 checks. No horizontal overflow or JavaScript errors were observed. Verified track/metric changes, whole-track search, original-rank persistence, pagination, entry details, protocol access, filter exclusion/restoration, language/reload persistence, ScienceWorld and evaluation-tool navigation.
+
+Weekly source updates use `data/sources/official-leaderboards/current-overrides.json` to select a dated capture per file. The 2026-11-10 captures update DuelLab and SC2 only; other capture dates remain unchanged. The weekly audit records unresolved live checks separately.

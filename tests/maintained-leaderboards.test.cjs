@@ -4,7 +4,7 @@ const {rank}=require('../src/js/models/official-leaderboard-model.js');
 const render=(search='',lang='zh')=>{const ctx={window:{AtlasOfficialLeaderboardsData:data,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search},URLSearchParams};vm.runInNewContext(fs.readFileSync('src/js/features/filter-tags.js','utf8'),ctx);vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();};
 test('eight selected sources own tracks exactly once and retain all historical records',()=>{
  assert.equal(data.sources.filter(s=>s.featured).length,8);assert.equal(data.sources.length,19);
- const ids=data.sources.flatMap(s=>s.boardIds);assert.equal(new Set(ids).size,37);assert.deepEqual([...ids].sort(),data.boards.map(b=>b.id).sort());
+ const ids=data.sources.flatMap(s=>s.boardIds);assert.equal(new Set(ids).size,38);assert.deepEqual([...ids].sort(),data.boards.map(b=>b.id).sort());
  assert.deepEqual(data.boards.slice(16),curated.boards);
  assert.equal(data.boards.slice(0,16).reduce((n,b)=>n+b.entries.length,0),344);
  assert.equal(data.boardMetadata['balrog-llm'].kind,'continuous');assert.equal(data.boardMetadata['balrog-vlm'].kind,'reference');

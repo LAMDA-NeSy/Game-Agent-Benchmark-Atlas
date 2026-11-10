@@ -1,0 +1,66 @@
+{
+  "status": "partial",
+  "updated": [
+    {
+      "source": "DuelLab",
+      "release": "gb2-20261107-a12a38c1543d",
+      "resultUpdatedAt": "2026-11-07T10:05:57Z",
+      "aggregateRowsBefore": 612,
+      "aggregateRowsAfter": 642,
+      "rankedRows": 566,
+      "referenceRows": 76,
+      "csvRows": 4553,
+      "protocol": "2-known8-r3; recorded_request_aliases_official_qualification_v19; bradley_terry_newton (unchanged)"
+    },
+    {
+      "source": "SC2 AI Arena via AI Arena Recap",
+      "season": "2026 Season 2",
+      "divisionsBefore": 6,
+      "divisionsAfter": 7,
+      "rowsBefore": 132,
+      "rowsAfter": 156,
+      "mirrorSyncedAt": "2026-11-10T01:39:12Z",
+      "resultUpdatedAt": null
+    }
+  ],
+  "unchanged": [
+    "BALROG",
+    "Orak",
+    "TALES",
+    "GAMEBoT",
+    "LMGame-Bench",
+    "VideoGameBench",
+    "PGG",
+    "Procgen historical standings",
+    "NetHack historical standings",
+    "Melting Pot historical standings",
+    "MineRL historical standings",
+    "PokeAgent qualifying and speedrunning scores",
+    "ChessBench setups and scores (retrieval timestamp excluded)",
+    "StarSkirmish"
+  ],
+  "unresolved": [
+    {
+      "source": "Kaggle Game Arena (overall, chess, go, poker, werewolf)",
+      "reason": "Five public score API requests returned HTTP 404; landing pages alone do not establish current scores. Previous captures retained."
+    },
+    {
+      "source": "ARC-AGI-3 Kaggle competition",
+      "reason": "Public standings API returned HTTP 404. Previous capture retained."
+    },
+    {
+      "source": "TextArena historical results",
+      "reason": "Public site/documentation checked, but no fresh score payload obtained. Previous capture retained."
+    },
+    {
+      "source": "PokeAgent replay archive",
+      "reason": "Supplementary replay host returned SSL EOF. Score endpoints were retrieved separately; replay verification incomplete."
+    }
+  ],
+  "resolvedDiscoveryErrors": [
+    {
+      "url": "https://benchmarks.duellab.org/releases/index.json",
+      "resolution": "404 discovery guess replaced by the fixed release linked from the official homepage."
+    }
+  ]
+}

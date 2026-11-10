@@ -1,0 +1,38 @@
+{
+  "scheduledAt": "2026-11-09T02:00:00Z",
+  "checkedOn": "2026-11-10",
+  "streams": {
+    "benchmarks": {
+      "status": "complete",
+      "report": "benchmark-checks.json",
+      "completedAt": "2026-11-10T02:04:09.536581+00:00"
+    },
+    "leaderboards": {
+      "status": "partial",
+      "report": "leaderboard-checks.json",
+      "deadlineAdvanced": false
+    }
+  },
+  "evidence": [
+    "retrievals.json",
+    "score-table-checks.json",
+    "../../official-leaderboards/current-overrides.json"
+  ],
+  "validation": {
+    "status": "passed",
+    "command": "npm run check",
+    "tests": 60,
+    "failed": 0,
+    "browserChecks": [
+      "DuelLab Chinese: release date 2026-11-07, 101 aggregate model rows, 50 rows on page 1",
+      "SC2 English: division 7 selected, 23 rows, no horizontal overflow",
+      "ScienceWorld archive: bilingual environment 1.3.0 compatibility note; source link retained"
+    ],
+    "note": "Initial local preview server dropped asset connections; retried with a larger request queue and complete page load succeeded."
+  },
+  "publication": {
+    "target": "GitHub Pages",
+    "workflow": ".github/workflows/pages.yml",
+    "verification": "Verify the push workflow and live artifacts for the commit containing this report."
+  }
+}

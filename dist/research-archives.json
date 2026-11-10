@@ -176503,8 +176503,8 @@
             "en": "Paper RL baselines use matched training budgets, 100-step cap, and held-out test variations."
           },
           "limits": {
-            "zh": "进度分包含子目标奖励；规范示范不是全部有效解法。",
-            "en": "Progress includes subgoal rewards; canonical demonstrations do not enumerate every valid solution."
+            "zh": "进度分包含子目标奖励；规范示范不是全部有效解法。 官方 1.3.0 改为按 UUID 确定性枚举对象，可能改变 1.2.x 的物理轨迹、歧义动作解析、示范路径和观察顺序；跨版本比较需固定环境版本。",
+            "en": "Progress includes subgoal rewards; canonical demonstrations do not enumerate every valid solution. Official 1.3.0 enumerates objects deterministically by UUID, potentially changing physics trajectories, ambiguous action resolution, gold paths and observation ordering relative to 1.2.x; comparisons must specify the environment version."
           },
           "capabilities": [
             {
@@ -176529,6 +176529,11 @@
               "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
               "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
               "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+            },
+            {
+              "url": "https://github.com/allenai/ScienceWorld#readme",
+              "title": "ScienceWorld official README · 1.3.0 release note",
+              "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
             }
           ],
           "evaluationMode": "interactive",
@@ -176537,7 +176542,7 @@
           "executionVerified": false,
           "resourceName": "ScienceWorld",
           "protocolType": "documented",
-          "checkedAt": "2026-10-19",
+          "checkedAt": "2026-11-10",
           "fields": [
             {
               "key": "task",
@@ -176554,6 +176559,11 @@
                   "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
                   "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
                   "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+                },
+                {
+                  "url": "https://github.com/allenai/ScienceWorld#readme",
+                  "title": "ScienceWorld official README · 1.3.0 release note",
+                  "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
                 }
               ]
             },
@@ -176572,6 +176582,11 @@
                   "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
                   "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
                   "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+                },
+                {
+                  "url": "https://github.com/allenai/ScienceWorld#readme",
+                  "title": "ScienceWorld official README · 1.3.0 release note",
+                  "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
                 }
               ]
             },
@@ -176590,6 +176605,11 @@
                   "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
                   "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
                   "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+                },
+                {
+                  "url": "https://github.com/allenai/ScienceWorld#readme",
+                  "title": "ScienceWorld official README · 1.3.0 release note",
+                  "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
                 }
               ]
             },
@@ -176608,6 +176628,11 @@
                   "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
                   "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
                   "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+                },
+                {
+                  "url": "https://github.com/allenai/ScienceWorld#readme",
+                  "title": "ScienceWorld official README · 1.3.0 release note",
+                  "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
                 }
               ]
             },
@@ -176626,6 +176651,11 @@
                   "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
                   "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
                   "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+                },
+                {
+                  "url": "https://github.com/allenai/ScienceWorld#readme",
+                  "title": "ScienceWorld official README · 1.3.0 release note",
+                  "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
                 }
               ]
             },
@@ -176636,14 +176666,19 @@
                 "en": "Scope"
               },
               "value": {
-                "zh": "进度分包含子目标奖励；规范示范不是全部有效解法。",
-                "en": "Progress includes subgoal rewards; canonical demonstrations do not enumerate every valid solution."
+                "zh": "进度分包含子目标奖励；规范示范不是全部有效解法。 官方 1.3.0 改为按 UUID 确定性枚举对象，可能改变 1.2.x 的物理轨迹、歧义动作解析、示范路径和观察顺序；跨版本比较需固定环境版本。",
+                "en": "Progress includes subgoal rewards; canonical demonstrations do not enumerate every valid solution. Official 1.3.0 enumerates objects deterministically by UUID, potentially changing physics trajectories, ambiguous action resolution, gold paths and observation ordering relative to 1.2.x; comparisons must specify the environment version."
               },
               "sources": [
                 {
                   "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
                   "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
                   "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+                },
+                {
+                  "url": "https://github.com/allenai/ScienceWorld#readme",
+                  "title": "ScienceWorld official README · 1.3.0 release note",
+                  "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
                 }
               ]
             }
@@ -176657,7 +176692,7 @@
       ],
       "overview": {
         "id": "GAB032",
-        "checkedAt": "2026-10-30",
+        "checkedAt": "2026-11-10",
         "sampleBatch": "expansion-20",
         "sections": [
           {
@@ -176684,8 +176719,8 @@
           {
             "key": "scope",
             "body": {
-              "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。",
-              "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually."
+              "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。 1.3.0 的确定性对象枚举可能改变旧版轨迹与观察顺序，实验应记录环境版本。",
+              "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually. Deterministic object enumeration in 1.3.0 can change earlier trajectories and observation ordering, so experiments should record the environment version."
             }
           }
         ],
@@ -176703,8 +176738,8 @@
             "en": "Each scientific task decomposes its objective into detectable object states and subgoals, assigning progress scores to completed steps. Completion rates or normalized progress are aggregated by task type and variation, separating final success from partially completed experimental procedures."
           },
           {
-            "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。",
-            "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually."
+            "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。 1.3.0 的确定性对象枚举可能改变旧版轨迹与观察顺序，实验应记录环境版本。",
+            "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually. Deterministic object enumeration in 1.3.0 can change earlier trajectories and observation ordering, so experiments should record the environment version."
           }
         ],
         "sources": [
@@ -176715,6 +176750,10 @@
           {
             "url": "https://github.com/allenai/ScienceWorld",
             "title": "Official repository · tasks and evaluation"
+          },
+          {
+            "url": "https://github.com/allenai/ScienceWorld#readme",
+            "title": "ScienceWorld official README · 1.3.0 release note"
           }
         ],
         "media": [
@@ -176856,8 +176895,8 @@
             "en": "Paper RL baselines use matched training budgets, 100-step cap, and held-out test variations."
           },
           "limits": {
-            "zh": "进度分包含子目标奖励；规范示范不是全部有效解法。",
-            "en": "Progress includes subgoal rewards; canonical demonstrations do not enumerate every valid solution."
+            "zh": "进度分包含子目标奖励；规范示范不是全部有效解法。 官方 1.3.0 改为按 UUID 确定性枚举对象，可能改变 1.2.x 的物理轨迹、歧义动作解析、示范路径和观察顺序；跨版本比较需固定环境版本。",
+            "en": "Progress includes subgoal rewards; canonical demonstrations do not enumerate every valid solution. Official 1.3.0 enumerates objects deterministically by UUID, potentially changing physics trajectories, ambiguous action resolution, gold paths and observation ordering relative to 1.2.x; comparisons must specify the environment version."
           },
           "capabilities": [
             {
@@ -176882,6 +176921,11 @@
               "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
               "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
               "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+            },
+            {
+              "url": "https://github.com/allenai/ScienceWorld#readme",
+              "title": "ScienceWorld official README · 1.3.0 release note",
+              "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
             }
           ],
           "evaluationMode": "interactive",
@@ -176926,6 +176970,11 @@
                   "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
                   "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
                   "excerpt": "Execute experiments and target state changes across 30 task types and variants. Metrics: Per-subtask progress normalized to 0–1."
+                },
+                {
+                  "url": "https://github.com/allenai/ScienceWorld#readme",
+                  "title": "ScienceWorld official README · 1.3.0 release note",
+                  "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
                 }
               ],
               "memberScope": false
@@ -176946,9 +176995,14 @@
             "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
             "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
             "excerpt": "ScienceWorld includes multistep experiments and state changes; task score and held-out-environment generalization differ."
+          },
+          {
+            "url": "https://github.com/allenai/ScienceWorld#readme",
+            "title": "ScienceWorld official README · 1.3.0 release note",
+            "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
           }
         ],
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-11-10",
         "eligibility": {
           "decision": "eligible",
           "reason": null,
@@ -176975,6 +177029,10 @@
           "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
           "locator": "§4 evaluated architectures; Appendix C",
           "summary": "ScienceWorld evaluates interactive RL agents and demonstration-trained language-model policies."
+        },
+        {
+          "url": "https://github.com/allenai/ScienceWorld#readme",
+          "title": "ScienceWorld official README · 1.3.0 release note"
         },
         {
           "url": "https://github.com/allenai/ScienceWorld/blob/main/media/scienceworld_environment.png",

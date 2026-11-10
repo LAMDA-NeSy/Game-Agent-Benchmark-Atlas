@@ -33,7 +33,7 @@ test('references do not displace competitors and speedruns use progress then run
  const p=get('procgen-2020-generalization');assert.equal(rank(p).filter(e=>!e.reference).length,10);assert.equal(rank(p).at(-1).agent,'Baseline Impala');
 });
 test('bilingual leaderboard rendering handles new tracks, context, missing values and references',()=>{
- const full=require('../dist/official-leaderboards.json');assert.equal(full.boards.length,37);
+ const full=require('../dist/official-leaderboards.json');assert.equal(full.boards.length,38);
  for(const lang of ['zh','en'])for(const b of boards){
   const ctx={window:{AtlasOfficialLeaderboardsData:full,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search:'?arenaBoard='+b.id},URLSearchParams};
   vm.runInNewContext(fs.readFileSync('src/js/features/filter-tags.js','utf8'),ctx);vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);

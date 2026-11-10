@@ -1,14 +1,16 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),zlib=require('node:zlib'),crypto=require('node:crypto'),vm=require('node:vm');
 const data=require('../dist/official-leaderboards.json'),{rank}=require('../src/js/models/official-leaderboard-model.js');
 const dir='data/sources/official-leaderboards/2026-11-02-integration/';
-const raw=name=>JSON.parse(name.endsWith('.gz')?zlib.gunzipSync(fs.readFileSync(dir+name)):fs.readFileSync(dir+name,'utf8'));
+const overrides=require('../data/sources/official-leaderboards/current-overrides.json');
+const evidence=name=>overrides[name]?.path||dir+name;
+const raw=name=>JSON.parse(name.endsWith('.gz')?zlib.gunzipSync(fs.readFileSync(evidence(name))):fs.readFileSync(evidence(name),'utf8'));
 const board=id=>data.boards.find(b=>b.id===id);
 function render(search,lang='zh'){const ctx={window:{AtlasOfficialLeaderboardsData:data,AtlasLeaderboardModel:{rank},AtlasLanguage:{current:()=>lang}},location:{search},URLSearchParams};vm.runInNewContext(fs.readFileSync('src/js/features/filter-tags.js','utf8'),ctx);vm.runInNewContext(fs.readFileSync('src/js/features/official-leaderboards.js','utf8'),ctx);return ctx.window.AtlasLeaderboards.render();}
 test('DuelLab CSV matches its release and preserves ranked versus provisional populations',()=>{
- const csv=zlib.gunzipSync(fs.readFileSync(dir+'duellab.csv.gz')),manifest=raw('duellab-release.json');assert.equal(crypto.createHash('sha256').update(csv).digest('hex'),manifest.artifact_sha256['benchmark/leaderboard.csv']);
- const bs=data.sources.find(s=>s.id==='duellab').boardIds.map(board);assert.deepEqual(bs.map(b=>b.entries.length),[97,262,94,88,71]);assert.equal(bs.flatMap(b=>b.entries).filter(e=>!e.reference).length,513);
+ const csv=zlib.gunzipSync(fs.readFileSync(evidence('duellab.csv.gz'))),manifest=raw('duellab-release.json');assert.equal(crypto.createHash('sha256').update(csv).digest('hex'),manifest.artifact_sha256['benchmark/leaderboard.csv']);
+ const bs=data.sources.find(s=>s.id==='duellab').boardIds.map(board);assert.deepEqual(bs.map(b=>b.entries.length),[101,275,98,93,75]);assert.equal(bs.flatMap(b=>b.entries).filter(e=>!e.reference).length,566);
  for(const b of bs){assert.equal(b.source.releaseId,manifest.public_release_id);assert.equal(b.source.pageUpdatedAt,manifest.generated_at);assert.equal(new Set(b.entries.map(e=>e.sourceIdentity)).size,b.entries.length);for(const e of b.entries){assert.equal(!!e.reference,!e.eligibilityFlag);if(e.referenceLabel?.en.includes('partial'))assert.ok(Number.isFinite(e.officialRank));}}
- assert.equal(board('duellab-variants').entries[0].scores.overall.value,95.231061);
+ assert.equal(board('duellab-variants').entries[0].scores.overall.value,94.869818);
 });
 test('ChessBench imports every setup with exact rating and correct time conversion',()=>{
  const b=board('chessbench-all'),r=raw('chessbench.json'),setups=r.models.flatMap(m=>m.setups);assert.equal(b.entries.length,32);assert.equal(data.sources.find(s=>s.id==='chessbench').boardIds[0],b.id);
@@ -17,7 +19,7 @@ test('ChessBench imports every setup with exact rating and correct time conversi
 });
 test('StarSkirmish uses chart payload values and SC2 keeps divisions separate',()=>{
  const r=raw('starskirmish.json'),b=board('starskirmish-v02');assert.equal(b.entries.length,r.SCORES.length);b.entries.forEach((e,i)=>{assert.equal(e.scores.overall.value,r.SCORES[i].score);assert.equal(e.scores.cost.value,r.COSTS[r.SCORES[i].k]);});
- const sc2=raw('sc2-recap.json'),bs=data.sources.find(s=>s.id==='sc2').boardIds.map(board);assert.equal(bs.length,6);assert.equal(bs.flatMap(b=>b.entries).length,sc2.data.length);for(const b of bs){assert.equal(b.entries.length,22);assert.equal(data.boardMetadata[b.id].dateKind,'unknown');for(const e of b.entries){const r=sc2.data.find(r=>'sc2-bot-'+r.bot_id===e.id);assert.equal(e.scores.overall.value,r.elo);assert.equal(e.officialRank,r.rank);}}
+ const sc2=raw('sc2-recap.json'),bs=data.sources.find(s=>s.id==='sc2').boardIds.map(board);assert.equal(bs.length,7);assert.equal(bs.flatMap(b=>b.entries).length,sc2.data.length);for(const b of bs){assert.ok([22,23].includes(b.entries.length));assert.equal(data.boardMetadata[b.id].dateKind,'unknown');for(const e of b.entries){const r=sc2.data.find(r=>'sc2-bot-'+r.bot_id===e.id);assert.equal(e.scores.overall.value,r.elo);assert.equal(e.officialRank,r.rank);}}
 });
 test('Kaggle imports complete models, exact source scores and native confidence intervals',()=>{
  const ids=['kaggle-game-arena','kaggle-chess','kaggle-go','kaggle-poker','kaggle-werewolf'];const files=['kaggle-unified.json','chess-text-scores.json','go-scores.json','poker-heads-up-scores.json','werewolf-scores.json'];

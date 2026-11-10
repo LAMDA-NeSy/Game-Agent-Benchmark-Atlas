@@ -9,10 +9,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EVIDENCE = Path('data/sources/official-leaderboards/2026-11-02-integration')
+OVERRIDES_FILE = ROOT / 'data/sources/official-leaderboards/current-overrides.json'
+OVERRIDES = json.loads(OVERRIDES_FILE.read_text()) if OVERRIDES_FILE.exists() else {}
+
+def evidence_path(name):
+    return Path(OVERRIDES[name]['path']) if name in OVERRIDES else EVIDENCE / name
 
 def bi(zh, en): return {'zh': zh, 'en': en}
 def read(name):
-    p = ROOT / EVIDENCE / name
+    p = ROOT / evidence_path(name)
     return json.loads(gzip.decompress(p.read_bytes()) if name.endswith('.gz') else p.read_text())
 def col(id, zh, en, unit='', direction='desc', rankable=True):
     return dict(id=id, label=bi(zh,en), unit=unit, direction=direction, rankable=rankable)
@@ -30,7 +35,7 @@ def integrate(boards, metadata, sources):
     byid={b['id']:b for b in boards}
     def snapshot(b,file,date=None):
         b.update(displayMode='snapshot',entries=[])
-        b['source'].update(evidenceFile=str(EVIDENCE/file),snapshotAt=capture['capturedAt'])
+        b['source'].update(evidenceFile=str(evidence_path(file)),snapshotAt=OVERRIDES.get(file,{}).get('capturedAt',capture['capturedAt']))
         if date:
             b['source']['pageUpdatedAt']=date
             metadata[b['id']].update(dateKind='dataUpdated')
@@ -44,7 +49,7 @@ def integrate(boards, metadata, sources):
 
     # Five aggregate tables; native per-game headline scores remain separate metrics.
     base=byid['duellab-gamebench2'];manifest=read('duellab-release.json')
-    raw=gzip.decompress((ROOT/EVIDENCE/'duellab.csv.gz').read_bytes())
+    raw=gzip.decompress((ROOT/evidence_path('duellab.csv.gz')).read_bytes())
     assert hashlib.sha256(raw).hexdigest()==manifest['artifact_sha256']['benchmark/leaderboard.csv']
     rows=list(csv.DictReader(io.StringIO(raw.decode())))
     assert {r['results_cut_id'] for r in rows}=={manifest['public_release_id']}
@@ -105,7 +110,7 @@ def integrate(boards, metadata, sources):
         id=base['id'] if division==1 else 'sc2-division-'+str(division)
         b=base if division==1 else extend(base,id,bi(f'分区 {division}',f'Division {division}'))
         snapshot(b,'sc2-recap.json');b['trackLabel']=bi(f'分区 {division}',f'Division {division}')
-        b['source'].update(dataUrl=capture['sc2']['url'],mirrorSyncedAt=capture['sc2']['mirrorSyncedAt'])
+        b['source'].update(dataUrl=capture['sc2']['url'],mirrorSyncedAt=OVERRIDES.get('sc2-recap.json',{}).get('mirrorSyncedAt',capture['sc2']['mirrorSyncedAt']))
         b['protocolKey']=bi(f'2026 Season 2 · 分区 {division} · 完整 Bot 对战',f'2026 Season 2 · Division {division} · Full-bot matches')
         b['protocol']['verification']=bi('AI Arena 官方对局数据，经社区 AI Arena Recap 汇总。本站按分区展示并保留 Recap 原榜名次；镜像同步时间单独记录。','Official AI Arena match data aggregated by the community AI Arena Recap. Atlas separates divisions and retains Recap ranks; mirror sync time is recorded separately.')
         b['protocol']['links'].append(dict(label=bi('社区数据镜像 · AI Arena Recap','Community data mirror · AI Arena Recap'),url='https://aiarenarecap.com/'))

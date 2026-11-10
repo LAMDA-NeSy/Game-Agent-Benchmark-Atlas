@@ -1,0 +1,21 @@
+{
+  "duellab.csv.gz": {
+    "path": "data/sources/official-leaderboards/2026-11-10/duellab.csv.gz",
+    "capturedAt": "2026-11-10T01:44:45.004679+00:00",
+    "url": "https://benchmarks.duellab.org/releases/gb2-20261107-a12a38c1543d/leaderboard.csv",
+    "sourceSha256": "de21f04fab1f48b8f64c336d72fc51019f9f2d7b8a6a90870cd710e571706bc2"
+  },
+  "duellab-release.json": {
+    "path": "data/sources/official-leaderboards/2026-11-10/duellab-release.json",
+    "capturedAt": "2026-11-10T01:44:44.593832+00:00",
+    "url": "https://benchmarks.duellab.org/releases/gb2-20261107-a12a38c1543d/release-manifest.json",
+    "sourceSha256": "b18c1055945b80c20f34201b7e75db79eab9935c2e3780eb1d726e5147a54817"
+  },
+  "sc2-recap.json": {
+    "path": "data/sources/official-leaderboards/2026-11-10/sc2-recap.json",
+    "capturedAt": "2026-11-10T01:42:25.794708+00:00",
+    "url": "https://aiarenarecap.com/api/ladder.json",
+    "sourceSha256": "e3fca54e63101335ed36c0d7aedff3fe8a01517c628a9788d4d2df7a6a0ece77",
+    "mirrorSyncedAt": "2026-11-10T01:39:12Z"
+  }
+}

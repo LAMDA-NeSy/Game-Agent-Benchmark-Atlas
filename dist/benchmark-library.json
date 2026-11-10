@@ -26292,9 +26292,14 @@
             "url": "https://aclanthology.org/2022.emnlp-main.775.pdf",
             "title": "ScienceWorld: Is Your Agent Smarter Than a 5th Grader?",
             "excerpt": "ScienceWorld includes multistep experiments and state changes; task score and held-out-environment generalization differ."
+          },
+          {
+            "url": "https://github.com/allenai/ScienceWorld#readme",
+            "title": "ScienceWorld official README · 1.3.0 release note",
+            "excerpt": "Object enumeration is deterministic by UUID in 1.3.0; task generation for a given variation is otherwise unchanged."
           }
         ],
-        "checkedAt": "2026-10-19",
+        "checkedAt": "2026-11-10",
         "eligibility": {
           "decision": "eligible",
           "reason": null,
@@ -48859,7 +48864,7 @@
     },
     {
       "id": "GAB032",
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-11-10",
       "sampleBatch": "expansion-20",
       "sections": [
         {
@@ -48886,8 +48891,8 @@
         {
           "key": "scope",
           "body": {
-            "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。",
-            "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually."
+            "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。 1.3.0 的确定性对象枚举可能改变旧版轨迹与观察顺序，实验应记录环境版本。",
+            "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually. Deterministic object enumeration in 1.3.0 can change earlier trajectories and observation ordering, so experiments should record the environment version."
           }
         }
       ],
@@ -48905,8 +48910,8 @@
           "en": "Each scientific task decomposes its objective into detectable object states and subgoals, assigning progress scores to completed steps. Completion rates or normalized progress are aggregated by task type and variation, separating final success from partially completed experimental procedures."
         },
         {
-          "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。",
-          "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually."
+          "zh": "评测对应具体任务变体、可用动作辅助、环境简化选项和步数预算。环境采用文字模拟的科学过程与对象状态。 1.3.0 的确定性对象枚举可能改变旧版轨迹与观察顺序，实验应记录环境版本。",
+          "en": "Evaluation specifies task variations, action aids, simplification options and step budgets. The environment simulates scientific processes and object states textually. Deterministic object enumeration in 1.3.0 can change earlier trajectories and observation ordering, so experiments should record the environment version."
         }
       ],
       "sources": [
@@ -48917,6 +48922,10 @@
         {
           "url": "https://github.com/allenai/ScienceWorld",
           "title": "Official repository · tasks and evaluation"
+        },
+        {
+          "url": "https://github.com/allenai/ScienceWorld#readme",
+          "title": "ScienceWorld official README · 1.3.0 release note"
         }
       ],
       "media": [

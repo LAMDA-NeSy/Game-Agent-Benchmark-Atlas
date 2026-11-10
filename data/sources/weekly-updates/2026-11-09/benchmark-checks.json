@@ -1,0 +1,34 @@
+{
+  "collectionSha256": "4e2bf8bad0f14de92b3b112826b3df364c7ac1f8c16829d3941184f7874d0277",
+  "collectionRecords": 364,
+  "publicCatalogRecords": 363,
+  "sharedRecords": 363,
+  "changedBibliographicRecords": [],
+  "newEvaluationResources": 0,
+  "excluded": [
+    {
+      "id": "SURVEY364",
+      "title": "Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse",
+      "source": "https://arxiv.org/abs/2605.09965",
+      "reason": "Official abstract identifies a survey of foundation-model game agents, not a new evaluation resource."
+    }
+  ],
+  "protocolChecks": [
+    {
+      "id": "MiniGrid",
+      "source": "https://raw.githubusercontent.com/Farama-Foundation/Minigrid/master/README.md",
+      "result": "Gymnasium environment with mission observations and discrete actions; no catalog correction identified."
+    },
+    {
+      "id": "Crafter",
+      "source": "https://raw.githubusercontent.com/danijar/crafter/main/README.md",
+      "result": "Gym-style reset/step interface and achievement-based geometric-mean score confirmed; reward and reporting score remain distinct."
+    },
+    {
+      "id": "ScienceWorld",
+      "source": "https://raw.githubusercontent.com/allenai/ScienceWorld/main/README.md",
+      "result": "1.3.0 deterministic object enumeration changes version comparability. Added bilingual version boundary to GAB032 protocol and archive; TALES results and protocol were not reassigned to a newer environment version."
+    }
+  ],
+  "runtimeEvaluationExecuted": false
+}
