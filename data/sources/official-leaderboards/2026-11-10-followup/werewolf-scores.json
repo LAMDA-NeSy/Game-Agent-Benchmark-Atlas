@@ -1,0 +1,1568 @@
+{
+  "taskVersionHeaders": [
+    {
+      "taskVersion": {
+        "id": 1908,
+        "taskId": 1251,
+        "versionNumber": 1,
+        "name": "Equilibrium Rating",
+        "description": "",
+        "ownerUser": {
+          "displayName": "Chiamaka Chukwuka",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/15667974-kg.png?t=2025-03-26-20-16-17",
+          "url": "/chiamakachukwuka",
+          "userName": "chiamakachukwuka",
+          "tier": "STAFF",
+          "id": 15667974,
+          "profileUrl": "/chiamakachukwuka",
+          "performanceTier": "STAFF",
+          "userId": 15667974,
+          "progressionOptOut": false
+        },
+        "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+        "isPublic": true,
+        "displayType": "PERCENTAGES",
+        "slug": "werewolf",
+        "createTime": "2026-01-13T21:44:32.386666700Z",
+        "precision": 2,
+        "sortOrder": "DESCENDING",
+        "source": "WEB",
+        "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+        "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+        "numAttempts": 1,
+        "updateTime": "2026-01-13T21:44:32.386666700Z"
+      },
+      "taskVersionMapping": {
+        "parentTaskVersionId": 1908,
+        "childTaskVersionId": 1908,
+        "type": "BENCHMARK_TASK_VERSION_MAPPING_TYPE_PRINCIPAL",
+        "priority": 2147483647,
+        "displayType": "PERCENTAGES",
+        "precision": 2,
+        "sortOrder": "DESCENDING"
+      }
+    },
+    {
+      "taskVersion": {
+        "id": 14049,
+        "taskId": 9345,
+        "versionNumber": 1,
+        "name": "Average Output Tokens per Game",
+        "ownerUser": {
+          "displayName": "Chiamaka Chukwuka",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/15667974-kg.png?t=2025-03-26-20-16-17",
+          "url": "/chiamakachukwuka",
+          "userName": "chiamakachukwuka",
+          "tier": "STAFF",
+          "id": 15667974,
+          "profileUrl": "/chiamakachukwuka",
+          "performanceTier": "STAFF",
+          "userId": 15667974,
+          "progressionOptOut": false
+        },
+        "isPublic": true,
+        "displayType": "COUNTS",
+        "createTime": "2026-04-02T00:22:20.550Z",
+        "precision": 1,
+        "sortOrder": "DESCENDING",
+        "source": "WEB",
+        "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+        "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+        "numAttempts": 1,
+        "updateTime": "2026-04-02T00:22:20.550Z"
+      },
+      "taskVersionMapping": {
+        "id": 7262,
+        "parentTaskVersionId": 1908,
+        "childTaskVersionId": 14049,
+        "type": "BENCHMARK_TASK_VERSION_MAPPING_TYPE_PRINCIPAL",
+        "priority": 20,
+        "columnName": "Avg. Tokens/Turn",
+        "displayType": "COUNTS",
+        "precision": 1,
+        "sortOrder": "DESCENDING"
+      }
+    },
+    {
+      "taskVersion": {
+        "id": 2689,
+        "taskId": 1848,
+        "versionNumber": 1,
+        "name": "Average Inference Cost per Game",
+        "description": "Average model cost per game in cents",
+        "ownerUser": {
+          "displayName": "Jon Lipovetz",
+          "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+          "url": "/jonlipovetz",
+          "userName": "jonlipovetz",
+          "tier": "STAFF",
+          "id": 8184143,
+          "profileUrl": "/jonlipovetz",
+          "performanceTier": "STAFF",
+          "userId": 8184143,
+          "progressionOptOut": false
+        },
+        "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+        "isPublic": true,
+        "displayType": "CENTS",
+        "slug": "werewolf-cost",
+        "createTime": "2026-01-26T21:40:06.923333300Z",
+        "precision": 1,
+        "sortOrder": "ASCENDING",
+        "source": "WEB",
+        "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+        "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+        "numAttempts": 1,
+        "updateTime": "2026-01-26T21:40:06.923333300Z"
+      },
+      "taskVersionMapping": {
+        "id": 1418,
+        "parentTaskVersionId": 1908,
+        "childTaskVersionId": 2689,
+        "type": "BENCHMARK_TASK_VERSION_MAPPING_TYPE_PRINCIPAL",
+        "columnName": "Avg. Cost/Turn",
+        "displayType": "CENTS",
+        "precision": 1,
+        "sortOrder": "ASCENDING"
+      }
+    }
+  ],
+  "modelVersionHeaders": [
+    {
+      "modelVersion": {
+        "id": 133,
+        "benchmarkModelId": 135,
+        "slug": "gpt-5.4-2026-03-05",
+        "externalUrl": "https://developers.openai.com/api/docs/models/gpt-5.4",
+        "knowledgeCutoff": "2025-08-31T04:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "openai/gpt-5.4-2026-03-05",
+        "displayName": "GPT-5.4",
+        "organization": {
+          "name": "OpenAI",
+          "id": 5089,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5089/thumbnail.png?t=2025-08-14-19-21-59",
+          "slug": "openai"
+        },
+        "name": "GPT-5.4",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "gpt-5.4",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-03-05T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13540,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 133,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "medal": "GOLD",
+      "rank": 1
+    },
+    {
+      "modelVersion": {
+        "id": 100,
+        "benchmarkModelId": 102,
+        "slug": "gemini-3.1-pro-preview",
+        "externalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+        "knowledgeCutoff": "2025-01-31T08:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "google/gemini-3.1-pro-preview",
+        "displayName": "Gemini 3.1 Pro Preview",
+        "organization": {
+          "name": "Google",
+          "id": 855,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/855/thumbnail.png",
+          "slug": "google"
+        },
+        "name": "Gemini 3.1 Pro Preview",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "importanceLevel": "CORE",
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE",
+          "MODALITY_VIDEO",
+          "MODALITY_AUDIO"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "gemini-3.1-pro-preview",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-02-19T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13536,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 100,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "medal": "SILVER",
+      "rank": 2
+    },
+    {
+      "modelVersion": {
+        "id": 87,
+        "benchmarkModelId": 83,
+        "slug": "gemini-3-flash-preview",
+        "externalUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "google/gemini-3-flash-preview",
+        "displayName": "Gemini 3 Flash Preview",
+        "organization": {
+          "name": "Google",
+          "id": 855,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/855/thumbnail.png",
+          "slug": "google"
+        },
+        "name": "Gemini 3 Flash Preview",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE",
+          "MODALITY_VIDEO",
+          "MODALITY_AUDIO"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "gemini-3-flash-preview",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2025-12-17T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 5539,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 87,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-01-13T21:52:50.873333300Z"
+      },
+      "medal": "BRONZE",
+      "rank": 3
+    },
+    {
+      "modelVersion": {
+        "id": 98,
+        "benchmarkModelId": 100,
+        "slug": "claude-opus-4-6-default",
+        "externalUrl": "https://www.anthropic.com/news/claude-opus-4-6",
+        "knowledgeCutoff": "2025-08-31T04:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "anthropic/claude-opus-4-6@default",
+        "displayName": "Claude Opus 4.6",
+        "organization": {
+          "name": "Anthropic",
+          "id": 5088,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5088/thumbnail.jpg?t=2025-02-25-19-08-55",
+          "slug": "anthropic"
+        },
+        "name": "Claude Opus 4.6",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "claude-opus-4-6",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-02-05T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13538,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 98,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "rank": 4
+    },
+    {
+      "modelVersion": {
+        "id": 99,
+        "benchmarkModelId": 101,
+        "slug": "claude-sonnet-4-6-default",
+        "externalUrl": "https://www.anthropic.com/news/claude-sonnet-4-6",
+        "knowledgeCutoff": "2025-08-30T07:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "anthropic/claude-sonnet-4-6@default",
+        "displayName": "Claude Sonnet 4.6",
+        "organization": {
+          "name": "Anthropic",
+          "id": 5088,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5088/thumbnail.jpg?t=2025-02-25-19-08-55",
+          "slug": "anthropic"
+        },
+        "name": "Claude Sonnet 4.6",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "claude-sonnet-4-6",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-02-17T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13537,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 99,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "rank": 5
+    },
+    {
+      "modelVersion": {
+        "id": 136,
+        "benchmarkModelId": 138,
+        "slug": "gpt-5.4-mini-2026-03-17",
+        "externalUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+        "knowledgeCutoff": "2025-08-31T04:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "openai/gpt-5.4-mini-2026-03-17",
+        "displayName": "GPT-5.4 mini",
+        "organization": {
+          "name": "OpenAI",
+          "id": 5089,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5089/thumbnail.png?t=2025-08-14-19-21-59",
+          "slug": "openai"
+        },
+        "name": "GPT-5.4 mini",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "gpt-5.4-mini",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-03-17T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13539,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 136,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "rank": 6
+    },
+    {
+      "modelVersion": {
+        "id": 84,
+        "benchmarkModelId": 80,
+        "slug": "grok-4.1-fast-reasoning",
+        "externalUrl": "https://x.ai/news/grok-4-1-fast",
+        "isDefault": true,
+        "published": true,
+        "modelProxySlug": "xai/grok-4-1-fast-reasoning",
+        "displayName": "Grok 4.1 Fast Reasoning",
+        "organization": {
+          "name": "xAI",
+          "id": 3986,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/3986/thumbnail.png?t=2025-02-25-17-16-11",
+          "slug": "xai"
+        },
+        "name": "Grok 4.1 Fast Reasoning",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "deprecationTime": "2026-05-15T04:00:00Z",
+        "benchmarkModelSlug": "grok-4.1-fast-reasoning",
+        "supportsReasoningEffort": true
+      },
+      "modelVersionMapping": {
+        "id": 5536,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 84,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-01-13T21:52:50.873333300Z"
+      },
+      "rank": 7
+    },
+    {
+      "modelVersion": {
+        "id": 57,
+        "benchmarkModelId": 55,
+        "slug": "grok-4-0709",
+        "externalUrl": "https://x.ai/news/grok-4",
+        "knowledgeCutoff": "2024-11-01T06:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "modelProxySlug": "xai/grok-4-0709",
+        "displayName": "Grok 4",
+        "organization": {
+          "name": "xAI",
+          "id": 3986,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/3986/thumbnail.png?t=2025-02-25-17-16-11",
+          "slug": "xai"
+        },
+        "name": "Grok 4",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "deprecationTime": "2026-05-15T04:00:00Z",
+        "benchmarkModelSlug": "grok-4",
+        "supportsReasoningEffort": true
+      },
+      "modelVersionMapping": {
+        "id": 5532,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 57,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-01-13T21:52:50.873333300Z"
+      },
+      "rank": 8
+    }
+  ],
+  "entries": [
+    {
+      "modelVersionId": 136,
+      "taskVersionId": 2689,
+      "runs": [
+        {
+          "id": 305597,
+          "taskVersion": {
+            "id": 2689
+          },
+          "modelVersion": {
+            "id": 136
+          },
+          "result": {
+            "numericResult": {
+              "value": 1.3012664155131266
+            },
+            "evaluationDate": "2026-06-12T20:27:26.299960500Z",
+            "taskVersionId": 2689
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 1.3012664155131266
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 133,
+      "taskVersionId": 2689,
+      "runs": [
+        {
+          "id": 305596,
+          "taskVersion": {
+            "id": 2689
+          },
+          "modelVersion": {
+            "id": 133
+          },
+          "result": {
+            "numericResult": {
+              "value": 4.3771903192842805
+            },
+            "evaluationDate": "2026-06-12T20:27:26.299960200Z",
+            "taskVersionId": 2689
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 4.3771903192842805
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 100,
+      "taskVersionId": 2689,
+      "runs": [
+        {
+          "id": 305595,
+          "taskVersion": {
+            "id": 2689
+          },
+          "modelVersion": {
+            "id": 100
+          },
+          "result": {
+            "numericResult": {
+              "value": 2.5859891825093073
+            },
+            "evaluationDate": "2026-06-12T20:27:26.299959800Z",
+            "taskVersionId": 2689
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 2.5859891825093073
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 98,
+      "taskVersionId": 2689,
+      "runs": [
+        {
+          "id": 305594,
+          "taskVersion": {
+            "id": 2689
+          },
+          "modelVersion": {
+            "id": 98
+          },
+          "result": {
+            "numericResult": {
+              "value": 4.216943999136869
+            },
+            "evaluationDate": "2026-06-12T20:27:26.299959300Z",
+            "taskVersionId": 2689
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 4.216943999136869
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 87,
+      "taskVersionId": 2689,
+      "runs": [
+        {
+          "id": 305593,
+          "taskVersion": {
+            "id": 2689
+          },
+          "modelVersion": {
+            "id": 87
+          },
+          "result": {
+            "numericResult": {
+              "value": 0.6662082240465022
+            },
+            "evaluationDate": "2026-06-12T20:27:26.299959Z",
+            "taskVersionId": 2689
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 0.6662082240465022
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 84,
+      "taskVersionId": 2689,
+      "runs": [
+        {
+          "id": 305592,
+          "taskVersion": {
+            "id": 2689
+          },
+          "modelVersion": {
+            "id": 84
+          },
+          "result": {
+            "numericResult": {
+              "value": 0.12249096080968416
+            },
+            "evaluationDate": "2026-06-12T20:27:26.299956700Z",
+            "taskVersionId": 2689
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 0.12249096080968416
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 57,
+      "taskVersionId": 2689,
+      "runs": [
+        {
+          "id": 305591,
+          "taskVersion": {
+            "id": 2689
+          },
+          "modelVersion": {
+            "id": 57
+          },
+          "result": {
+            "numericResult": {
+              "value": 2.805945006323362
+            },
+            "evaluationDate": "2026-06-12T20:27:26.299948900Z",
+            "taskVersionId": 2689
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 2.805945006323362
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 99,
+      "taskVersionId": 2689,
+      "runs": [
+        {
+          "id": 305590,
+          "taskVersion": {
+            "id": 2689
+          },
+          "modelVersion": {
+            "id": 99
+          },
+          "result": {
+            "numericResult": {
+              "value": 2.371931864833006
+            },
+            "evaluationDate": "2026-06-12T20:27:26.299947100Z",
+            "taskVersionId": 2689
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 2.371931864833006
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 136,
+      "taskVersionId": 14049,
+      "runs": [
+        {
+          "id": 305589,
+          "taskVersion": {
+            "id": 14049
+          },
+          "modelVersion": {
+            "id": 136
+          },
+          "result": {
+            "numericResult": {
+              "value": 6110
+            },
+            "evaluationDate": "2026-06-12T20:27:26.035748300Z",
+            "taskVersionId": 14049
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 6110
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 133,
+      "taskVersionId": 14049,
+      "runs": [
+        {
+          "id": 305588,
+          "taskVersion": {
+            "id": 14049
+          },
+          "modelVersion": {
+            "id": 133
+          },
+          "result": {
+            "numericResult": {
+              "value": 6599
+            },
+            "evaluationDate": "2026-06-12T20:27:26.035748Z",
+            "taskVersionId": 14049
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 6599
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 100,
+      "taskVersionId": 14049,
+      "runs": [
+        {
+          "id": 305587,
+          "taskVersion": {
+            "id": 14049
+          },
+          "modelVersion": {
+            "id": 100
+          },
+          "result": {
+            "numericResult": {
+              "value": 5866
+            },
+            "evaluationDate": "2026-06-12T20:27:26.035747700Z",
+            "taskVersionId": 14049
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 5866
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 98,
+      "taskVersionId": 14049,
+      "runs": [
+        {
+          "id": 305586,
+          "taskVersion": {
+            "id": 14049
+          },
+          "modelVersion": {
+            "id": 98
+          },
+          "result": {
+            "numericResult": {
+              "value": 6416
+            },
+            "evaluationDate": "2026-06-12T20:27:26.035747200Z",
+            "taskVersionId": 14049
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 6416
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 87,
+      "taskVersionId": 14049,
+      "runs": [
+        {
+          "id": 305585,
+          "taskVersion": {
+            "id": 14049
+          },
+          "modelVersion": {
+            "id": 87
+          },
+          "result": {
+            "numericResult": {
+              "value": 5827
+            },
+            "evaluationDate": "2026-06-12T20:27:26.035746900Z",
+            "taskVersionId": 14049
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 5827
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 84,
+      "taskVersionId": 14049,
+      "runs": [
+        {
+          "id": 305584,
+          "taskVersion": {
+            "id": 14049
+          },
+          "modelVersion": {
+            "id": 84
+          },
+          "result": {
+            "numericResult": {
+              "value": 4939
+            },
+            "evaluationDate": "2026-06-12T20:27:26.035746500Z",
+            "taskVersionId": 14049
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 4939
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 57,
+      "taskVersionId": 14049,
+      "runs": [
+        {
+          "id": 305583,
+          "taskVersion": {
+            "id": 14049
+          },
+          "modelVersion": {
+            "id": 57
+          },
+          "result": {
+            "numericResult": {
+              "value": 5678
+            },
+            "evaluationDate": "2026-06-12T20:27:26.035746200Z",
+            "taskVersionId": 14049
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 5678
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 99,
+      "taskVersionId": 14049,
+      "runs": [
+        {
+          "id": 305582,
+          "taskVersion": {
+            "id": 14049
+          },
+          "modelVersion": {
+            "id": 99
+          },
+          "result": {
+            "numericResult": {
+              "value": 6054
+            },
+            "evaluationDate": "2026-06-12T20:27:26.035743800Z",
+            "taskVersionId": 14049
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 6054
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 84,
+      "taskVersionId": 1908,
+      "runs": [
+        {
+          "id": 93778,
+          "taskVersion": {
+            "id": 1908
+          },
+          "modelVersion": {
+            "id": 84
+          },
+          "result": {
+            "numericResult": {
+              "value": -0.06082448363,
+              "confidenceInterval": 0.006450071
+            },
+            "evaluationDate": "2026-03-31T00:00:00Z",
+            "taskVersionId": 1908
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": -0.06082448363,
+                "confidenceInterval": 0.006450071
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 57,
+      "taskVersionId": 1908,
+      "runs": [
+        {
+          "id": 93777,
+          "taskVersion": {
+            "id": 1908
+          },
+          "modelVersion": {
+            "id": 57
+          },
+          "result": {
+            "numericResult": {
+              "value": -0.06401050091,
+              "confidenceInterval": 0.006788357627
+            },
+            "evaluationDate": "2026-03-31T00:00:00Z",
+            "taskVersionId": 1908
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": -0.06401050091,
+                "confidenceInterval": 0.006788357627
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 100,
+      "taskVersionId": 1908,
+      "runs": [
+        {
+          "id": 93776,
+          "taskVersion": {
+            "id": 1908
+          },
+          "modelVersion": {
+            "id": 100
+          },
+          "result": {
+            "numericResult": {
+              "value": -0.003776320489,
+              "confidenceInterval": 0.003134602914
+            },
+            "evaluationDate": "2026-03-31T00:00:00Z",
+            "taskVersionId": 1908
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": -0.003776320489,
+                "confidenceInterval": 0.003134602914
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 87,
+      "taskVersionId": 1908,
+      "runs": [
+        {
+          "id": 93775,
+          "taskVersion": {
+            "id": 1908
+          },
+          "modelVersion": {
+            "id": 87
+          },
+          "result": {
+            "numericResult": {
+              "value": -0.01147399656,
+              "confidenceInterval": 0.004264757503
+            },
+            "evaluationDate": "2026-03-31T00:00:00Z",
+            "taskVersionId": 1908
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": -0.01147399656,
+                "confidenceInterval": 0.004264757503
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 136,
+      "taskVersionId": 1908,
+      "runs": [
+        {
+          "id": 93774,
+          "taskVersion": {
+            "id": 1908
+          },
+          "modelVersion": {
+            "id": 136
+          },
+          "result": {
+            "numericResult": {
+              "value": -0.05553551763,
+              "confidenceInterval": 0.006342930254
+            },
+            "evaluationDate": "2026-03-31T00:00:00Z",
+            "taskVersionId": 1908
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": -0.05553551763,
+                "confidenceInterval": 0.006342930254
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 133,
+      "taskVersionId": 1908,
+      "runs": [
+        {
+          "id": 93773,
+          "taskVersion": {
+            "id": 1908
+          },
+          "modelVersion": {
+            "id": 133
+          },
+          "result": {
+            "numericResult": {
+              "value": 0.0007799265441,
+              "confidenceInterval": 0.0006605549715
+            },
+            "evaluationDate": "2026-03-31T00:00:00Z",
+            "taskVersionId": 1908
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": 0.0007799265441,
+                "confidenceInterval": 0.0006605549715
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 99,
+      "taskVersionId": 1908,
+      "runs": [
+        {
+          "id": 93772,
+          "taskVersion": {
+            "id": 1908
+          },
+          "modelVersion": {
+            "id": 99
+          },
+          "result": {
+            "numericResult": {
+              "value": -0.0214818269,
+              "confidenceInterval": 0.005888930522
+            },
+            "evaluationDate": "2026-03-31T00:00:00Z",
+            "taskVersionId": 1908
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": -0.0214818269,
+                "confidenceInterval": 0.005888930522
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelVersionId": 98,
+      "taskVersionId": 1908,
+      "runs": [
+        {
+          "id": 93771,
+          "taskVersion": {
+            "id": 1908
+          },
+          "modelVersion": {
+            "id": 98
+          },
+          "result": {
+            "numericResult": {
+              "value": -0.01246015076,
+              "confidenceInterval": 0.005934268236
+            },
+            "evaluationDate": "2026-03-31T00:00:00Z",
+            "taskVersionId": 1908
+          },
+          "results": [
+            {
+              "numericResult": {
+                "value": -0.01246015076,
+                "confidenceInterval": 0.005934268236
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "candidateHeaders": [
+    {
+      "candidateClass": "BENCHMARK_CANDIDATE_CLASS_MODEL_VERSION",
+      "modelVersion": {
+        "id": 133,
+        "benchmarkModelId": 135,
+        "slug": "gpt-5.4-2026-03-05",
+        "externalUrl": "https://developers.openai.com/api/docs/models/gpt-5.4",
+        "knowledgeCutoff": "2025-08-31T04:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "openai/gpt-5.4-2026-03-05",
+        "displayName": "GPT-5.4",
+        "organization": {
+          "name": "OpenAI",
+          "id": 5089,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5089/thumbnail.png?t=2025-08-14-19-21-59",
+          "slug": "openai"
+        },
+        "name": "GPT-5.4",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "gpt-5.4",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-03-05T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13540,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 133,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "medal": "GOLD",
+      "rank": 1
+    },
+    {
+      "candidateClass": "BENCHMARK_CANDIDATE_CLASS_MODEL_VERSION",
+      "modelVersion": {
+        "id": 100,
+        "benchmarkModelId": 102,
+        "slug": "gemini-3.1-pro-preview",
+        "externalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+        "knowledgeCutoff": "2025-01-31T08:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "google/gemini-3.1-pro-preview",
+        "displayName": "Gemini 3.1 Pro Preview",
+        "organization": {
+          "name": "Google",
+          "id": 855,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/855/thumbnail.png",
+          "slug": "google"
+        },
+        "name": "Gemini 3.1 Pro Preview",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "importanceLevel": "CORE",
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE",
+          "MODALITY_VIDEO",
+          "MODALITY_AUDIO"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "gemini-3.1-pro-preview",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-02-19T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13536,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 100,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "medal": "SILVER",
+      "rank": 2
+    },
+    {
+      "candidateClass": "BENCHMARK_CANDIDATE_CLASS_MODEL_VERSION",
+      "modelVersion": {
+        "id": 87,
+        "benchmarkModelId": 83,
+        "slug": "gemini-3-flash-preview",
+        "externalUrl": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "google/gemini-3-flash-preview",
+        "displayName": "Gemini 3 Flash Preview",
+        "organization": {
+          "name": "Google",
+          "id": 855,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/855/thumbnail.png",
+          "slug": "google"
+        },
+        "name": "Gemini 3 Flash Preview",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE",
+          "MODALITY_VIDEO",
+          "MODALITY_AUDIO"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "gemini-3-flash-preview",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2025-12-17T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 5539,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 87,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-01-13T21:52:50.873333300Z"
+      },
+      "medal": "BRONZE",
+      "rank": 3
+    },
+    {
+      "candidateClass": "BENCHMARK_CANDIDATE_CLASS_MODEL_VERSION",
+      "modelVersion": {
+        "id": 98,
+        "benchmarkModelId": 100,
+        "slug": "claude-opus-4-6-default",
+        "externalUrl": "https://www.anthropic.com/news/claude-opus-4-6",
+        "knowledgeCutoff": "2025-08-31T04:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "anthropic/claude-opus-4-6@default",
+        "displayName": "Claude Opus 4.6",
+        "organization": {
+          "name": "Anthropic",
+          "id": 5088,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5088/thumbnail.jpg?t=2025-02-25-19-08-55",
+          "slug": "anthropic"
+        },
+        "name": "Claude Opus 4.6",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "claude-opus-4-6",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-02-05T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13538,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 98,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "rank": 4
+    },
+    {
+      "candidateClass": "BENCHMARK_CANDIDATE_CLASS_MODEL_VERSION",
+      "modelVersion": {
+        "id": 99,
+        "benchmarkModelId": 101,
+        "slug": "claude-sonnet-4-6-default",
+        "externalUrl": "https://www.anthropic.com/news/claude-sonnet-4-6",
+        "knowledgeCutoff": "2025-08-30T07:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "anthropic/claude-sonnet-4-6@default",
+        "displayName": "Claude Sonnet 4.6",
+        "organization": {
+          "name": "Anthropic",
+          "id": 5088,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5088/thumbnail.jpg?t=2025-02-25-19-08-55",
+          "slug": "anthropic"
+        },
+        "name": "Claude Sonnet 4.6",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "claude-sonnet-4-6",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-02-17T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13537,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 99,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "rank": 5
+    },
+    {
+      "candidateClass": "BENCHMARK_CANDIDATE_CLASS_MODEL_VERSION",
+      "modelVersion": {
+        "id": 136,
+        "benchmarkModelId": 138,
+        "slug": "gpt-5.4-mini-2026-03-17",
+        "externalUrl": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+        "knowledgeCutoff": "2025-08-31T04:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "allowModelProxy": true,
+        "modelProxySlug": "openai/gpt-5.4-mini-2026-03-17",
+        "displayName": "GPT-5.4 mini",
+        "organization": {
+          "name": "OpenAI",
+          "id": 5089,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/5089/thumbnail.png?t=2025-08-14-19-21-59",
+          "slug": "openai"
+        },
+        "name": "GPT-5.4 mini",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "benchmarkModelSlug": "gpt-5.4-mini",
+        "supportsReasoningEffort": true,
+        "releaseDate": "2026-03-17T00:00:00Z"
+      },
+      "modelVersionMapping": {
+        "id": 13539,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 136,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-04-01T21:20:26.100Z"
+      },
+      "rank": 6
+    },
+    {
+      "candidateClass": "BENCHMARK_CANDIDATE_CLASS_MODEL_VERSION",
+      "modelVersion": {
+        "id": 84,
+        "benchmarkModelId": 80,
+        "slug": "grok-4.1-fast-reasoning",
+        "externalUrl": "https://x.ai/news/grok-4-1-fast",
+        "isDefault": true,
+        "published": true,
+        "modelProxySlug": "xai/grok-4-1-fast-reasoning",
+        "displayName": "Grok 4.1 Fast Reasoning",
+        "organization": {
+          "name": "xAI",
+          "id": 3986,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/3986/thumbnail.png?t=2025-02-25-17-16-11",
+          "slug": "xai"
+        },
+        "name": "Grok 4.1 Fast Reasoning",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "deprecationTime": "2026-05-15T04:00:00Z",
+        "benchmarkModelSlug": "grok-4.1-fast-reasoning",
+        "supportsReasoningEffort": true
+      },
+      "modelVersionMapping": {
+        "id": 5536,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 84,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-01-13T21:52:50.873333300Z"
+      },
+      "rank": 7
+    },
+    {
+      "candidateClass": "BENCHMARK_CANDIDATE_CLASS_MODEL_VERSION",
+      "modelVersion": {
+        "id": 57,
+        "benchmarkModelId": 55,
+        "slug": "grok-4-0709",
+        "externalUrl": "https://x.ai/news/grok-4",
+        "knowledgeCutoff": "2024-11-01T06:00:00Z",
+        "isDefault": true,
+        "published": true,
+        "modelProxySlug": "xai/grok-4-0709",
+        "displayName": "Grok 4",
+        "organization": {
+          "name": "xAI",
+          "id": 3986,
+          "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/3986/thumbnail.png?t=2025-02-25-17-16-11",
+          "slug": "xai"
+        },
+        "name": "Grok 4",
+        "license": {
+          "id": 50,
+          "name": "Proprietary",
+          "agreementRequired": false
+        },
+        "inputModalities": [
+          "MODALITY_TEXT",
+          "MODALITY_IMAGE"
+        ],
+        "outputModalities": [
+          "MODALITY_TEXT"
+        ],
+        "deprecationTime": "2026-05-15T04:00:00Z",
+        "benchmarkModelSlug": "grok-4",
+        "supportsReasoningEffort": true
+      },
+      "modelVersionMapping": {
+        "id": 5532,
+        "parentBenchmarkVersionId": 443,
+        "childBenchmarkModelVersionId": 57,
+        "type": "BENCHMARK_VERSION_MODEL_MAPPING_TYPE_PRINCIPAL",
+        "createTime": "2026-01-13T21:52:50.873333300Z"
+      },
+      "rank": 8
+    }
+  ]
+}

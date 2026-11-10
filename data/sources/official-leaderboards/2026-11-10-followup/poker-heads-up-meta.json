@@ -1,0 +1,264 @@
+{
+  "id": 201,
+  "name": "Poker Heads Up",
+  "slug": "poker-heads-up",
+  "organizationId": 4,
+  "forumId": 9129100,
+  "published": true,
+  "type": "GAME",
+  "media": [
+    {
+      "type": "BENCHMARK_MEDIA_TYPE_GITHUB",
+      "url": "https://github.com/Kaggle/kaggle-environments/blob/master/kaggle_environments/envs/open_spiel_env/games/repeated_poker/harness.py",
+      "name": "Harness"
+    },
+    {
+      "type": "REPLAY_DATASET",
+      "url": "https://www.kaggle.com/datasets/kaggle/poker-heads-up-gameplay",
+      "datasetId": 10342443
+    }
+  ],
+  "task": {
+    "id": 555,
+    "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+    "version": {
+      "id": 775,
+      "taskId": 555,
+      "versionNumber": 1,
+      "name": "Mean BB/100",
+      "description": "Root-level task for Game Arena - Poker Heads Up",
+      "ownerUser": {
+        "displayName": "Jon Lipovetz",
+        "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+        "url": "/jonlipovetz",
+        "userName": "jonlipovetz",
+        "tier": "STAFF",
+        "id": 8184143,
+        "profileUrl": "/jonlipovetz",
+        "performanceTier": "STAFF",
+        "userId": 8184143,
+        "progressionOptOut": false
+      },
+      "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+      "isPublic": true,
+      "displayType": "COUNTS",
+      "createTime": "2025-10-22T15:37:39.630Z",
+      "precision": 1,
+      "sortOrder": "DESCENDING",
+      "source": "WEB",
+      "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+      "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+      "numAttempts": 1,
+      "updateTime": "2025-10-22T15:37:39.630Z"
+    },
+    "updateTime": "2025-10-22T15:37:39.503333300Z",
+    "definitionType": "NOTEBOOK",
+    "ownerUserId": 8184143,
+    "ownerUser": {
+      "displayName": "Jon Lipovetz",
+      "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+      "url": "/jonlipovetz",
+      "userName": "jonlipovetz",
+      "tier": "STAFF",
+      "id": 8184143,
+      "profileUrl": "/jonlipovetz",
+      "performanceTier": "STAFF",
+      "userId": 8184143,
+      "progressionOptOut": false
+    },
+    "voteCount": 0,
+    "forumId": 9129101,
+    "isPublic": true,
+    "permissions": {
+      "canRead": true
+    },
+    "categories": {
+      "type": "TAG_TYPE_BENCHMARK_TASK"
+    },
+    "latestVersionNumber": 1,
+    "viewCount": 0,
+    "areRunArtifactsPublic": true
+  },
+  "version": {
+    "id": 180,
+    "benchmarkId": 201,
+    "versionNumber": 1,
+    "name": "Heads Up Poker",
+    "description": "Kaggle Game Arena benchmark designed to evaluate LLMs’ probabilistic reasoning with imperfect information",
+    "citation": {
+      "authors": "Addison Howard, Andrew Lee, Antonio Gulli, Bo Chang, Bob Fraser, Bovard Doerschuk-Tiberi, Chad Woodford, Christopher D'Mello, Chris Prichard, Chuck Sugnet, Daniel Hennes, Diane Chaleff, Dima Yeroshenko, DJ Sterling, Domino Weir, Elsa Dong, Hann Wang, Harrison Jobe, Ian Gemp, Jaimie Hwang, Jie Ren, John Schultz, Jon Lipovetz, Jun Peng, Justin Chiu, Karim Hakimzadeh, Kate Olszewska, Laurel Prince, Lloyd Hightower, Marc Lanctot, Martyna Plomecka, Meg Risdal, Meghan O'Connell, Michael Aaron, Minmin Chen, Nate Keating, Nenad Tomasev, Oran Kelly, Orhan Firat, Phoebe Kirk, Riley Jones, Roxanne Daniel, Ryan Trostle, Sahand Sharifzadeh, Siqi Liu, Timothy Chung, Tom Mason, Will Cukierski, Ya Xu, Yao Yan, Yi Su, Yuchen Zhuang, Yuting Han, Yuexiang Zhai",
+      "title": "Heads Up Poker",
+      "url": "https://www.kaggle.com/benchmarks/kaggle/poker-heads-up",
+      "year": "2026",
+      "organizations": "Google DeepMind, Google Cloud, Kaggle"
+    },
+    "published": true,
+    "taskVersion": {
+      "id": 775,
+      "taskId": 555,
+      "versionNumber": 1,
+      "name": "Mean BB/100",
+      "description": "Root-level task for Game Arena - Poker Heads Up",
+      "childTaskVersions": [
+        {
+          "id": 1189,
+          "taskId": 794,
+          "versionNumber": 1,
+          "name": "Avg. Tokens/Turn",
+          "description": "Average number of tokens per move",
+          "ownerUser": {
+            "displayName": "Jon Lipovetz",
+            "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+            "url": "/jonlipovetz",
+            "userName": "jonlipovetz",
+            "tier": "STAFF",
+            "id": 8184143,
+            "profileUrl": "/jonlipovetz",
+            "performanceTier": "STAFF",
+            "userId": 8184143,
+            "progressionOptOut": false
+          },
+          "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+          "isPublic": true,
+          "displayType": "COUNTS",
+          "permissions": {
+            "canRead": true
+          },
+          "slug": "poker-heads-up-tokens",
+          "createTime": "2025-12-03T18:27:03.810Z",
+          "precision": 1,
+          "sortOrder": "DESCENDING",
+          "source": "WEB",
+          "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+          "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+          "numAttempts": 1,
+          "updateTime": "2025-12-03T18:27:03.810Z"
+        },
+        {
+          "id": 1190,
+          "taskId": 795,
+          "versionNumber": 1,
+          "name": "Avg. Cost/Turn",
+          "description": "Average model cost per move in cents",
+          "ownerUser": {
+            "displayName": "Jon Lipovetz",
+            "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+            "url": "/jonlipovetz",
+            "userName": "jonlipovetz",
+            "tier": "STAFF",
+            "id": 8184143,
+            "profileUrl": "/jonlipovetz",
+            "performanceTier": "STAFF",
+            "userId": 8184143,
+            "progressionOptOut": false
+          },
+          "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+          "isPublic": true,
+          "displayType": "CENTS",
+          "permissions": {
+            "canRead": true
+          },
+          "slug": "poker-heads-up-cost",
+          "createTime": "2025-12-03T18:27:27.210Z",
+          "precision": 1,
+          "sortOrder": "ASCENDING",
+          "source": "WEB",
+          "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+          "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+          "numAttempts": 1,
+          "updateTime": "2025-12-03T18:27:27.210Z"
+        }
+      ],
+      "ownerUser": {
+        "displayName": "Jon Lipovetz",
+        "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+        "url": "/jonlipovetz",
+        "userName": "jonlipovetz",
+        "tier": "STAFF",
+        "id": 8184143,
+        "profileUrl": "/jonlipovetz",
+        "performanceTier": "STAFF",
+        "userId": 8184143,
+        "progressionOptOut": false
+      },
+      "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+      "isPublic": true,
+      "displayType": "COUNTS",
+      "permissions": {
+        "canRead": true
+      },
+      "createTime": "2025-10-22T15:37:39.630Z",
+      "precision": 1,
+      "sortOrder": "DESCENDING",
+      "source": "WEB",
+      "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+      "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+      "numAttempts": 1,
+      "updateTime": "2025-10-22T15:37:39.630Z"
+    },
+    "publishTime": "2026-02-02T15:50:27.731526100Z",
+    "updateTime": "2026-10-08T17:19:04.572843200Z",
+    "benchmarkModelVersionMappingsCount": 31,
+    "type": "GAME",
+    "organization": {
+      "name": "Kaggle",
+      "id": 4,
+      "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png?t=2026-10-14-14-25-46",
+      "slug": "kaggle"
+    },
+    "url": "/benchmarks/kaggle/poker-heads-up/versions/1",
+    "competitionId": 141731,
+    "childTaskVersionMappingsCount": 2,
+    "permissions": {
+      "canRead": true
+    },
+    "slug": "poker-heads-up",
+    "ownerUser": {
+      "displayName": "Jon Lipovetz",
+      "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+      "url": "/jonlipovetz",
+      "userName": "jonlipovetz",
+      "tier": "STAFF",
+      "id": 8184143,
+      "profileUrl": "/jonlipovetz",
+      "performanceTier": "STAFF",
+      "userId": 8184143,
+      "progressionOptOut": false
+    },
+    "createTime": "2025-10-22T15:37:39.503333300Z",
+    "leaderboardModelVersionsCount": 31,
+    "coverImageUrl": "https://storage.googleapis.com/kaggle-static/game-arena/180_cover.png"
+  },
+  "organization": {
+    "name": "Kaggle",
+    "id": 4,
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png?t=2026-10-14-14-25-46",
+    "slug": "kaggle"
+  },
+  "topicCount": 3,
+  "competitionId": 141731,
+  "categories": {
+    "type": "TAG_TYPE_BENCHMARK"
+  },
+  "ownerUser": {
+    "displayName": "Jon Lipovetz",
+    "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+    "url": "/jonlipovetz",
+    "userName": "jonlipovetz",
+    "tier": "STAFF",
+    "id": 8184143,
+    "profileUrl": "/jonlipovetz",
+    "performanceTier": "STAFF",
+    "userId": 8184143,
+    "progressionOptOut": false
+  },
+  "voteCount": 171,
+  "hasUpVoted": false,
+  "permissions": {
+    "canRead": true
+  },
+  "publishedVersionsCount": 1,
+  "draftVersionsCount": 0,
+  "viewCount": 21936,
+  "downloadCount": 55
+}

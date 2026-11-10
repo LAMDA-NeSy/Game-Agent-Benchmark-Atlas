@@ -1,0 +1,268 @@
+{
+  "id": 147,
+  "name": "Chess",
+  "slug": "chess-text",
+  "organizationId": 4,
+  "forumId": 8475947,
+  "published": true,
+  "type": "GAME",
+  "media": [
+    {
+      "type": "YOUTUBE",
+      "url": "https://www.youtube.com/@kaggle"
+    },
+    {
+      "type": "BENCHMARK_MEDIA_TYPE_GITHUB",
+      "url": "https://github.com/Kaggle/kaggle-environments/blob/master/kaggle_environments/envs/open_spiel_env/games/chess/harness.py",
+      "name": "Harness"
+    },
+    {
+      "type": "REPLAY_DATASET",
+      "url": "https://www.kaggle.com/datasets/kaggle/chess-text-gameplay",
+      "datasetId": 10351681
+    }
+  ],
+  "task": {
+    "id": 301,
+    "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+    "version": {
+      "id": 1446,
+      "taskId": 301,
+      "versionNumber": 1,
+      "name": "Score",
+      "description": "Root level task for v2 of Game Arena - Chess Text",
+      "ownerUser": {
+        "displayName": "Jon Lipovetz",
+        "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+        "url": "/jonlipovetz",
+        "userName": "jonlipovetz",
+        "tier": "STAFF",
+        "id": 8184143,
+        "profileUrl": "/jonlipovetz",
+        "performanceTier": "STAFF",
+        "userId": 8184143,
+        "progressionOptOut": false
+      },
+      "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+      "isPublic": true,
+      "displayType": "COUNTS",
+      "createTime": "2025-12-16T23:15:31.026666700Z",
+      "precision": 1,
+      "sortOrder": "DESCENDING",
+      "source": "WEB",
+      "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+      "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+      "numAttempts": 1,
+      "updateTime": "2025-12-16T23:15:31.026666700Z"
+    },
+    "updateTime": "2025-07-29T14:08:05.453333300Z",
+    "definitionType": "NOTEBOOK",
+    "ownerUserId": 8184143,
+    "ownerUser": {
+      "displayName": "Jon Lipovetz",
+      "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+      "url": "/jonlipovetz",
+      "userName": "jonlipovetz",
+      "tier": "STAFF",
+      "id": 8184143,
+      "profileUrl": "/jonlipovetz",
+      "performanceTier": "STAFF",
+      "userId": 8184143,
+      "progressionOptOut": false
+    },
+    "voteCount": 0,
+    "forumId": 8751506,
+    "isPublic": true,
+    "permissions": {
+      "canRead": true
+    },
+    "categories": {
+      "type": "TAG_TYPE_BENCHMARK_TASK"
+    },
+    "latestVersionNumber": 1,
+    "viewCount": 0,
+    "areRunArtifactsPublic": true
+  },
+  "version": {
+    "id": 349,
+    "benchmarkId": 147,
+    "versionNumber": 2,
+    "name": "Chess",
+    "description": "Chess with the board represented in FEN/PGN formats",
+    "citation": {
+      "authors": "Addison Howard, Andrew Lee, Antonio Gulli, Bo Chang, Bob Fraser, Bovard Doerschuk-Tiberi, Chad Woodford, Christopher D'Mello, Chris Prichard, Chuck Sugnet, Daniel Hennes, Diane Chaleff, Dima Yeroshenko, DJ Sterling, Domino Weir, Elsa Dong, Hann Wang, Harrison Jobe, Ian Gemp, Jaimie Hwang, Jie Ren, John Schultz, Jon Lipovetz, Jun Peng, Justin Chiu, Karim Hakimzadeh, Kate Olszewska, Laurel Prince, Lloyd Hightower, Marc Lanctot, Martyna Plomecka, Meg Risdal, Meghan O'Connell, Michael Aaron, Minmin Chen, Nate Keating, Nenad Tomasev, Oran Kelly, Orhan Firat, Phoebe Kirk, Riley Jones, Roxanne Daniel, Ryan Trostle, Sahand Sharifzadeh, Siqi Liu, Timothy Chung, Tom Mason, Will Cukierski, Ya Xu, Yao Yan, Yi Su, Yuchen Zhuang, Yuting Han, Yuexiang Zhai",
+      "title": "Chess",
+      "url": "https://www.kaggle.com/benchmarks/kaggle/chess-text",
+      "year": "2026",
+      "organizations": "Google DeepMind, Google Cloud, Kaggle"
+    },
+    "published": true,
+    "taskVersion": {
+      "id": 1446,
+      "taskId": 301,
+      "versionNumber": 1,
+      "name": "Score",
+      "description": "Root level task for v2 of Game Arena - Chess Text",
+      "childTaskVersions": [
+        {
+          "id": 1891,
+          "taskId": 1239,
+          "versionNumber": 1,
+          "name": "Avg. Cost/Turn",
+          "description": "Average model cost per move in cents",
+          "ownerUser": {
+            "displayName": "Jon Lipovetz",
+            "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+            "url": "/jonlipovetz",
+            "userName": "jonlipovetz",
+            "tier": "STAFF",
+            "id": 8184143,
+            "profileUrl": "/jonlipovetz",
+            "performanceTier": "STAFF",
+            "userId": 8184143,
+            "progressionOptOut": false
+          },
+          "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+          "isPublic": true,
+          "displayType": "CENTS",
+          "permissions": {
+            "canRead": true
+          },
+          "slug": "chess-text-v2-cost",
+          "createTime": "2026-01-13T20:16:59.226666700Z",
+          "precision": 1,
+          "sortOrder": "ASCENDING",
+          "source": "WEB",
+          "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+          "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+          "numAttempts": 1,
+          "updateTime": "2026-01-13T20:16:59.226666700Z"
+        },
+        {
+          "id": 1892,
+          "taskId": 1240,
+          "versionNumber": 1,
+          "name": "Avg. Tokens/Turn",
+          "description": "Average number of tokens per move",
+          "ownerUser": {
+            "displayName": "Jon Lipovetz",
+            "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+            "url": "/jonlipovetz",
+            "userName": "jonlipovetz",
+            "tier": "STAFF",
+            "id": 8184143,
+            "profileUrl": "/jonlipovetz",
+            "performanceTier": "STAFF",
+            "userId": 8184143,
+            "progressionOptOut": false
+          },
+          "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+          "isPublic": true,
+          "displayType": "COUNTS",
+          "permissions": {
+            "canRead": true
+          },
+          "slug": "chess-text-v2-tokens",
+          "createTime": "2026-01-13T20:17:23.096666700Z",
+          "precision": 1,
+          "sortOrder": "DESCENDING",
+          "source": "WEB",
+          "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+          "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+          "numAttempts": 1,
+          "updateTime": "2026-01-13T20:17:23.096666700Z"
+        }
+      ],
+      "ownerUser": {
+        "displayName": "Jon Lipovetz",
+        "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+        "url": "/jonlipovetz",
+        "userName": "jonlipovetz",
+        "tier": "STAFF",
+        "id": 8184143,
+        "profileUrl": "/jonlipovetz",
+        "performanceTier": "STAFF",
+        "userId": 8184143,
+        "progressionOptOut": false
+      },
+      "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+      "isPublic": true,
+      "displayType": "COUNTS",
+      "permissions": {
+        "canRead": true
+      },
+      "createTime": "2025-12-16T23:15:31.026666700Z",
+      "precision": 1,
+      "sortOrder": "DESCENDING",
+      "source": "WEB",
+      "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+      "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+      "numAttempts": 1,
+      "updateTime": "2025-12-16T23:15:31.026666700Z"
+    },
+    "publishTime": "2026-02-02T15:46:19.333333900Z",
+    "updateTime": "2026-11-09T19:57:11.749663Z",
+    "benchmarkModelVersionMappingsCount": 41,
+    "type": "GAME",
+    "organization": {
+      "name": "Kaggle",
+      "id": 4,
+      "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png?t=2026-10-14-14-25-46",
+      "slug": "kaggle"
+    },
+    "url": "/benchmarks/kaggle/chess-text/versions/2",
+    "competitionId": 140489,
+    "childTaskVersionMappingsCount": 2,
+    "permissions": {
+      "canRead": true
+    },
+    "slug": "chess-text",
+    "ownerUser": {
+      "displayName": "Jon Lipovetz",
+      "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+      "url": "/jonlipovetz",
+      "userName": "jonlipovetz",
+      "tier": "STAFF",
+      "id": 8184143,
+      "profileUrl": "/jonlipovetz",
+      "performanceTier": "STAFF",
+      "userId": 8184143,
+      "progressionOptOut": false
+    },
+    "createTime": "2025-12-16T23:15:31.120Z",
+    "leaderboardModelVersionsCount": 41,
+    "coverImageUrl": "https://storage.googleapis.com/kaggle-static/game-arena/349_cover.png"
+  },
+  "organization": {
+    "name": "Kaggle",
+    "id": 4,
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png?t=2026-10-14-14-25-46",
+    "slug": "kaggle"
+  },
+  "topicCount": 32,
+  "competitionId": 140489,
+  "categories": {
+    "type": "TAG_TYPE_BENCHMARK"
+  },
+  "ownerUser": {
+    "displayName": "Jon Lipovetz",
+    "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+    "url": "/jonlipovetz",
+    "userName": "jonlipovetz",
+    "tier": "STAFF",
+    "id": 8184143,
+    "profileUrl": "/jonlipovetz",
+    "performanceTier": "STAFF",
+    "userId": 8184143,
+    "progressionOptOut": false
+  },
+  "voteCount": 195,
+  "hasUpVoted": false,
+  "permissions": {
+    "canRead": true
+  },
+  "publishedVersionsCount": 2,
+  "draftVersionsCount": 0,
+  "viewCount": 17313,
+  "downloadCount": 49
+}

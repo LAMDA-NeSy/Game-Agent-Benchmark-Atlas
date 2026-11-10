@@ -1,0 +1,350 @@
+{
+  "checkedAt": "2026-11-10T02:29:43.727784+00:00",
+  "status": "complete",
+  "scope": "Follow-up to the 2026-11-09 weekly leaderboard cycle: Kaggle Game Arena, Kaggle ARC public standings and TextArena. Other source checks remain in report.json and leaderboard-checks.json.",
+  "priorReport": "report.json",
+  "access": {
+    "kaggle": "Official unauthenticated public JSON downloads and a fresh signed-out browser session reading the same public page APIs. Direct non-browser POSTs returned 404; page requests returned 200. No account login used.",
+    "textarena": "Official shipped browser client and its anonymous read-only RPC; no keys or browser session data are committed."
+  },
+  "kaggle": [
+    {
+      "slug": "game-arena",
+      "models": 41,
+      "cellsCrossChecked": 123,
+      "versionId": 31,
+      "versionNumber": 1,
+      "metricSchema": [
+        {
+          "id": 115,
+          "name": "Score",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 5919,
+          "name": "Matches Played",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 5920,
+          "name": "Games Covered",
+          "version": 1,
+          "display": "COUNTS"
+        }
+      ],
+      "descriptionUnchanged": true,
+      "latestExportResultDate": "2026-11-09T19:58:59.7418071Z",
+      "endTimeVsExportDateDifferences": 0,
+      "resultField": "result preferred; otherwise exactly one results entry",
+      "datePolicy": "Use explicit native evaluationDate; otherwise explicit public-download evaluationDate. Never infer from collection time."
+    },
+    {
+      "slug": "chess-text",
+      "models": 41,
+      "cellsCrossChecked": 123,
+      "versionId": 349,
+      "versionNumber": 2,
+      "metricSchema": [
+        {
+          "id": 1446,
+          "name": "Score",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 1892,
+          "name": "Avg. Tokens/Turn",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 1891,
+          "name": "Avg. Cost/Turn",
+          "version": 1,
+          "display": "CENTS"
+        }
+      ],
+      "descriptionUnchanged": true,
+      "latestExportResultDate": "2026-11-09T19:57:11.749663Z",
+      "endTimeVsExportDateDifferences": 0,
+      "resultField": "result preferred; otherwise exactly one results entry",
+      "datePolicy": "Use explicit native evaluationDate; otherwise explicit public-download evaluationDate. Never infer from collection time."
+    },
+    {
+      "slug": "go",
+      "models": 38,
+      "cellsCrossChecked": 114,
+      "versionId": 6258,
+      "versionNumber": 1,
+      "metricSchema": [
+        {
+          "id": 38797,
+          "name": "Score",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 38798,
+          "name": "Avg. Tokens/Turn",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 38799,
+          "name": "Avg. Cost/Turn",
+          "version": 1,
+          "display": "CENTS"
+        }
+      ],
+      "descriptionUnchanged": true,
+      "latestExportResultDate": "2026-11-09T19:53:23.15179Z",
+      "endTimeVsExportDateDifferences": 0,
+      "resultField": "result preferred; otherwise exactly one results entry",
+      "datePolicy": "Use explicit native evaluationDate; otherwise explicit public-download evaluationDate. Never infer from collection time."
+    },
+    {
+      "slug": "poker-heads-up",
+      "models": 31,
+      "cellsCrossChecked": 93,
+      "versionId": 180,
+      "versionNumber": 1,
+      "metricSchema": [
+        {
+          "id": 775,
+          "name": "Mean BB/100",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 1189,
+          "name": "Avg. Tokens/Turn",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 1190,
+          "name": "Avg. Cost/Turn",
+          "version": 1,
+          "display": "CENTS"
+        }
+      ],
+      "descriptionUnchanged": true,
+      "latestExportResultDate": "2026-10-08T17:19:04.5728432Z",
+      "endTimeVsExportDateDifferences": 93,
+      "resultField": "result preferred; otherwise exactly one results entry",
+      "datePolicy": "Use explicit native evaluationDate; otherwise explicit public-download evaluationDate. Never infer from collection time."
+    },
+    {
+      "slug": "werewolf",
+      "models": 8,
+      "cellsCrossChecked": 24,
+      "versionId": 443,
+      "versionNumber": 1,
+      "metricSchema": [
+        {
+          "id": 1908,
+          "name": "Equilibrium Rating",
+          "version": 1,
+          "display": "PERCENTAGES"
+        },
+        {
+          "id": 14049,
+          "name": "Average Output Tokens per Game",
+          "version": 1,
+          "display": "COUNTS"
+        },
+        {
+          "id": 2689,
+          "name": "Average Inference Cost per Game",
+          "version": 1,
+          "display": "CENTS"
+        }
+      ],
+      "descriptionUnchanged": true,
+      "latestExportResultDate": null,
+      "endTimeVsExportDateDifferences": 24,
+      "resultField": "result preferred; otherwise exactly one results entry",
+      "datePolicy": "Use explicit native evaluationDate; otherwise explicit public-download evaluationDate. Never infer from collection time."
+    }
+  ],
+  "protocolChecks": [
+    {
+      "slug": "game-arena",
+      "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+      "request": {
+        "benchmarkVersionIdentifier": {
+          "versionIdSelector": {
+            "id": 31
+          }
+        }
+      },
+      "retrievedAt": "2026-11-10T02:27:33.181Z",
+      "protocolContentUnchanged": true,
+      "pageCount": 2,
+      "changedPageIds": []
+    },
+    {
+      "slug": "chess-text",
+      "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+      "request": {
+        "benchmarkVersionIdentifier": {
+          "versionIdSelector": {
+            "id": 349
+          }
+        }
+      },
+      "retrievedAt": "2026-11-10T02:27:33.447Z",
+      "protocolContentUnchanged": true,
+      "pageCount": 5,
+      "changedPageIds": []
+    },
+    {
+      "slug": "go",
+      "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+      "request": {
+        "benchmarkVersionIdentifier": {
+          "versionIdSelector": {
+            "id": 6258
+          }
+        }
+      },
+      "retrievedAt": "2026-11-10T02:27:33.706Z",
+      "protocolContentUnchanged": true,
+      "pageCount": 3,
+      "changedPageIds": []
+    },
+    {
+      "slug": "poker-heads-up",
+      "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+      "request": {
+        "benchmarkVersionIdentifier": {
+          "versionIdSelector": {
+            "id": 180
+          }
+        }
+      },
+      "retrievedAt": "2026-11-10T02:27:33.978Z",
+      "protocolContentUnchanged": true,
+      "pageCount": 4,
+      "changedPageIds": []
+    },
+    {
+      "slug": "werewolf",
+      "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+      "request": {
+        "benchmarkVersionIdentifier": {
+          "versionIdSelector": {
+            "id": 443
+          }
+        }
+      },
+      "retrievedAt": "2026-11-10T02:27:34.437Z",
+      "protocolContentUnchanged": true,
+      "pageCount": 4,
+      "changedPageIds": []
+    }
+  ],
+  "textarena": {
+    "captures": [
+      {
+        "url": "https://fvorekucgyfzxckhamrh.supabase.co/rest/v1/rpc/get_leaderboard_from_mv_trueskill_humans_models",
+        "request": {
+          "skill_subset": "Balanced Subset"
+        },
+        "sha256": "bc93786a486bd8d98cc26a7fb9fb927ee181b9963c9f47e83ec63a635f6db9d2",
+        "retrievedAt": "2026-11-10T02:14:19.270719+00:00",
+        "rows": 21,
+        "standard": 21,
+        "active": 0,
+        "activeStandard": 0,
+        "keys": [
+          "model_id",
+          "model_name",
+          "human_id",
+          "human_name",
+          "is_standard",
+          "trueskill",
+          "trueskill_sd",
+          "games_played",
+          "win_rate",
+          "wins",
+          "draws",
+          "losses",
+          "avg_time",
+          "is_active",
+          "small_category"
+        ]
+      },
+      {
+        "url": "https://fvorekucgyfzxckhamrh.supabase.co/rest/v1/rpc/get_leaderboard_from_mv_trueskill_humans_models",
+        "request": {
+          "skill_subset": "All"
+        },
+        "sha256": "edb13e799d727445c462c216739cf92e908dad45b9213005531177ffcc5af08d",
+        "retrievedAt": "2026-11-10T02:14:20.537887+00:00",
+        "rows": 860,
+        "standard": 55,
+        "active": 0,
+        "activeStandard": 0,
+        "keys": [
+          "model_id",
+          "model_name",
+          "human_id",
+          "human_name",
+          "is_standard",
+          "trueskill",
+          "trueskill_sd",
+          "games_played",
+          "win_rate",
+          "wins",
+          "draws",
+          "losses",
+          "avg_time",
+          "is_active",
+          "small_category"
+        ]
+      }
+    ],
+    "balancedScoresUnchanged": true,
+    "classification": "historical",
+    "sourceResultDate": null,
+    "decision": "Retain 21 standard Balanced Subset model records; refresh retrieval and review times only. The All response does not establish a currently active score pool; no custom/human records added to the website.",
+    "activityRuleSource": "https://www.textarena.ai/leaderboard",
+    "activityRule": "Most environments: fewer than five games in the last fourteen days means inactive. NeurIPS environments use their 2025 competition-window thresholds."
+  },
+  "arc": {
+    "rows": 4926,
+    "ranked": 4923,
+    "unranked": 3,
+    "source": {
+      "url": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
+      "request": {
+        "competitionId": 133468,
+        "leaderboardType": "public"
+      },
+      "retrievedAt": "2026-11-10T02:18:31.620Z",
+      "rawResponseSha256": "a39cd9590c5251d5eb97e28a88132a971f1601f2f7bc3d34475f3ed6c19fb492",
+      "projection": "Public leaderboard and teamId, teamName, submissionCount, lastSubmissionDate; member profiles and other boards omitted"
+    },
+    "decision": "Replace current public standings using official ranks; retain previous dated evidence. Public standings are separate from the final private-test leaderboard."
+  },
+  "nonblockingSupplementaryIssue": {
+    "url": "https://replays.pokeagentshowdown.com/",
+    "result": "SSL unexpected EOF on retry",
+    "impact": "Only the optional replay viewer is unavailable. PokeAgent official score JSON and protocol pages were checked in the earlier cycle; no score/protocol evidence remains unresolved."
+  },
+  "evidenceDirectory": "../../official-leaderboards/2026-11-10-followup/",
+  "validation": {
+    "command": "npm run check",
+    "status": "passed",
+    "tests": 62,
+    "numericCellsCrossChecked": 477,
+    "ui": "Kaggle total, track switching, TextArena historical classification, ARC pagination; see final deployment receipt."
+  },
+  "publication": {
+    "target": "GitHub Pages",
+    "workflow": ".github/workflows/pages.yml"
+  }
+}

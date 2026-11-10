@@ -19,6 +19,14 @@ def bi(zh, en): return {'zh': zh, 'en': en}
 def read(name):
     p = ROOT / evidence_path(name)
     return json.loads(gzip.decompress(p.read_bytes()) if name.endswith('.gz') else p.read_text())
+
+def kaggle_result(run):
+    """Kaggle serves both legacy singular results and the newer results array."""
+    if 'result' in run:
+        return run['result']
+    results = run.get('results', [])
+    assert len(results) == 1, 'Expected one result per published Kaggle run'
+    return results[0]
 def col(id, zh, en, unit='', direction='desc', rankable=True):
     return dict(id=id, label=bi(zh,en), unit=unit, direction=direction, rankable=rankable)
 def score(v, digits=2, unit='', source=None):
@@ -128,6 +136,17 @@ def integrate(boards, metadata, sources):
         filename=slug+'-scores.json' if slug else 'kaggle-unified.json';raw=read(filename);meta=read(slug+'-meta.json' if slug else 'kaggle-meta.json')
         snapshot(b,filename);b['trackLabel']=bi(zh,en);b['source']['url']='https://www.kaggle.com/benchmarks/kaggle/'+(slug or 'game-arena')
         b['source']['request']=capture['kaggle']['api'];b['source']['versionId']=meta['version']['id']
+        export_name=(slug or 'game-arena')+'-download.json'
+        exported=read(export_name) if export_name in OVERRIDES else None
+        export_dates={}
+        if exported:
+            b['source'].update(dataUrl=OVERRIDES[export_name]['url'],publicDownloadFile=str(evidence_path(export_name)),metadataEvidenceFile=str(evidence_path(slug+'-meta.json' if slug else 'kaggle-meta.json')))
+            protocol_name=slug+'-pages.json' if slug else 'kaggle-protocol.json'
+            if protocol_name in OVERRIDES:b['source']['protocolEvidenceFile']=str(evidence_path(protocol_name))
+            metadata[id]['reviewedAt']=OVERRIDES[filename]['capturedAt'][:10]
+            for row in exported['rows']:
+                for result in row['taskResults']:
+                    export_dates[(row['modelVersionSlug'],result['benchmarkTaskName'],result['taskVersion'])]=result['result'].get('evaluationDate')
         b['protocolKey']=bi('Game Arena · '+zh+' · 官方模型版本','Game Arena · '+en+' · Published model versions')
         if slug:b['coverageLabel']=bi(zh,en)
         b['protocol']['links']=[dict(label=bi('游戏协议与官方成绩','Game protocol & official results'),url=b['source']['url']),dict(label=bi('Game Arena 评测方法','Game Arena methodology'),url='https://www.kaggle.com/game-arena-faq')]
@@ -157,15 +176,19 @@ def integrate(boards, metadata, sources):
             task=h['taskVersion'];display=h.get('taskVersionMapping',{});name=display.get('columnName') or task['name'];dtype=display.get('displayType') or task.get('displayType');k='overall' if task['id']==primary else 'metric-'+str(task['id']);mapping[task['id']]=k
             iscost='Cost' in name;iscount='Tokens' in name or name in ['Matches Played','Games Covered'];label=labels.get(name,(name,name))
             c=col(k,*label,unit='¢' if dtype=='CENTS' else '%' if dtype=='PERCENTAGES' else '',direction='asc' if iscost else 'desc',rankable=not iscount)
-            c.update(sourceDisplayType=dtype,sourceTaskName=task['name'],displayScale=100 if dtype=='PERCENTAGES' else 1,displayDigits=2 if dtype in ['CENTS','PERCENTAGES'] else 0 if iscount else 1)
+            c.update(sourceDisplayName=name,sourceDisplayType=dtype,sourceTaskName=task['name'],displayScale=100 if dtype=='PERCENTAGES' else 1,displayDigits=2 if dtype in ['CENTS','PERCENTAGES'] else 0 if iscount else 1)
             b['columns'].append(c)
         b['columns'].sort(key=lambda c:c['id']!='overall');b['tableMetrics']=[c['id'] for c in b['columns'][1:]]
         lookup={};dates=[]
+        models={h['modelVersion']['id']:h['modelVersion'] for h in raw['modelVersionHeaders']}
+        tasks={h['taskVersion']['id']:h for h in headers}
         for r in raw['entries']:
             assert len(r['runs'])==1
-            run=r['runs'][0];num=run['result'].get('numericResult');lookup[(r['modelVersionId'],r['taskVersionId'])]=num
-            if run['result'].get('evaluationDate'):dates.append(run['result']['evaluationDate'])
-        b['source']['pageUpdatedAt']=max(dates);metadata[id].update(dateKind='dataUpdated');metadata[id].pop('dateMissingLabel',None)
+            run=r['runs'][0];result=kaggle_result(run);num=result.get('numericResult');lookup[(r['modelVersionId'],r['taskVersionId'])]=num
+            h=tasks[r['taskVersionId']];task=h['taskVersion'];name=h.get('taskVersionMapping',{}).get('columnName') or task['name']
+            date=result.get('evaluationDate') or export_dates.get((models[r['modelVersionId']]['slug'],name,task['versionNumber']))
+            if date:dates.append(date)
+        b['source']['pageUpdatedAt']=max(dates) if dates else None;metadata[id].update(dateKind='dataUpdated' if dates else 'unknown');metadata[id].pop('dateMissingLabel',None)
         for i,h in enumerate(raw['modelVersionHeaders']):
             m=h['modelVersion'];e=dict(id=id+'-'+str(m['id']),agent=m['displayName'],sourceRow=i,officialRank=h.get('rank'),scores={},resultUrl=b['source']['url'],context=[context('模型版本','Model version',m['slug']),context('提供方','Provider',m['organization']['name'])])
             if m.get('deprecationTime'):e['entryNote']=bi('已停用版本','Deprecated version')
@@ -181,13 +204,15 @@ def integrate(boards, metadata, sources):
             b['entries'].append(e)
 
     b=byid['arc-agi3-2026'];raw=read('arc-public.json.gz');teams={t['teamId']:t for t in raw['teams']};snapshot(b,'arc-public.json.gz')
+    if 'arc-public.json.gz' in OVERRIDES:metadata[b['id']]['reviewedAt']=OVERRIDES['arc-public.json.gz']['capturedAt'][:10]
     b['protocolKey']=bi('2026 赛季 · Public leaderboard · 公开测试部分','2026 season · Public leaderboard · Public test split')
     b['agentLabel']=bi('参赛团队','Team');b['dateLabel']=bi('团队最近提交','Latest team submission');b['hideRowDates']=True
     metadata[b['id']].update(dateKind='latestSubmission',dateLabel=bi('最近团队提交','Latest team submission'));metadata[b['id']].pop('dateMissingLabel',None)
     b['columns']=[col('overall','公开榜成绩','Public score'),col('submissions','提交次数','Submissions',rankable=False)]
     b['protocol']['scope']=bi('2026 比赛期间公开榜；不是最终私有测试榜。','Public standings during the 2026 competition, not the final private-test leaderboard.')
     b['protocol']['scoring']=bi('ARC-AGI-3 Metric，越高越好。公开榜基于约 50% 测试数据；最终榜使用其余部分。','ARC-AGI-3 Metric, higher is better. The public board uses approximately 50% of test data; final standings use the remainder.')
-    b['protocol']['verification']=bi('Kaggle 公开榜完整响应，按 teamId 关联团队；保留 5,038 个排名团队及 3 条未排名记录。','Full Kaggle public leaderboard response, joined by teamId; 5,038 ranked teams and three unranked records.')
+    ranked=sum(bool(r.get('rank')) for r in raw['publicLeaderboard']);unranked=len(raw['publicLeaderboard'])-ranked
+    b['protocol']['verification']=bi(f'Kaggle 公开榜完整响应，按 teamId 关联团队；保留 {ranked:,} 个排名团队及 {unranked} 条未排名记录。',f'Full Kaggle public leaderboard response, joined by teamId; {ranked:,} ranked teams and {unranked} unranked records.')
     b['protocol']['dates']=bi('显示团队最近提交时间，不代表该队最佳成绩的产生时间。','Dates identify the team’s latest submission, not when its best score was achieved.')
     for i,r in enumerate(raw['publicLeaderboard']):
         t=teams[r['teamId']];e=dict(id='arc-team-'+str(r['teamId']),agent=t['teamName'],sourceRow=i,officialRank=r.get('rank'),submissionDate=t.get('lastSubmissionDate'),scores={},resultUrl=b['source']['url'],context=[context('团队 ID','Team ID',str(r['teamId'])),context('对应提交 ID','Score submission ID',str(r['submissionId']))])

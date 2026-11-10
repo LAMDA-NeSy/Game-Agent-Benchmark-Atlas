@@ -1,5 +1,8 @@
 {
   "sourceSnapshot": "data/sources/official-leaderboards/2026-11-01-expansion.json",
+  "sourceOverrides": {
+    "textarena-results": "data/sources/official-leaderboards/2026-11-10-followup/textarena-results.json"
+  },
   "boards": [
     {
       "id": "lmgame-model",
@@ -5478,11 +5481,12 @@
         "url": "https://www.textarena.ai/leaderboard",
         "dataUrl": "https://fvorekucgyfzxckhamrh.supabase.co/rest/v1/rpc/get_leaderboard_from_mv_trueskill_humans_models",
         "pageSha256": "bc93786a486bd8d98cc26a7fb9fb927ee181b9963c9f47e83ec63a635f6db9d2",
-        "snapshotAt": "2026-11-01T14:40:12.180719+00:00",
+        "snapshotAt": "2026-11-10T02:14:19.270719+00:00",
         "pageUpdatedAt": null,
         "request": {
           "skill_subset": "Balanced Subset"
-        }
+        },
+        "evidenceFile": "data/sources/official-leaderboards/2026-11-10-followup/textarena-results.json"
       },
       "protocol": {
         "scope": {

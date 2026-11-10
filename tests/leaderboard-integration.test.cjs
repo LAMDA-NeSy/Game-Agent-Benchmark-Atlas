@@ -23,19 +23,19 @@ test('StarSkirmish uses chart payload values and SC2 keeps divisions separate',(
 });
 test('Kaggle imports complete models, exact source scores and native confidence intervals',()=>{
  const ids=['kaggle-game-arena','kaggle-chess','kaggle-go','kaggle-poker','kaggle-werewolf'];const files=['kaggle-unified.json','chess-text-scores.json','go-scores.json','poker-heads-up-scores.json','werewolf-scores.json'];
- assert.deepEqual(ids.map(id=>board(id).entries.length),[39,39,36,31,8]);
- ids.forEach((id,i)=>{const b=board(id),r=raw(files[i]);assert.equal(b.entries.length,r.modelVersionHeaders.length);b.entries.forEach((e,j)=>{const h=r.modelVersionHeaders[j];assert.equal(e.agent,h.modelVersion.displayName);assert.equal(e.officialRank,h.rank);const result=r.entries.find(x=>x.modelVersionId===h.modelVersion.id&&x.taskVersionId===r.taskVersionHeaders[0].taskVersion.id).runs[0].result;assert.equal(e.scores.overall.value,(result.numericResult.value??0)*(id==='kaggle-werewolf'?100:1));});});
+ assert.deepEqual(ids.map(id=>board(id).entries.length),[41,41,38,31,8]);
+ ids.forEach((id,i)=>{const b=board(id),r=raw(files[i]);assert.equal(b.entries.length,r.modelVersionHeaders.length);b.entries.forEach((e,j)=>{const h=r.modelVersionHeaders[j];assert.equal(e.agent,h.modelVersion.displayName);assert.equal(e.officialRank,h.rank);const run=r.entries.find(x=>x.modelVersionId===h.modelVersion.id&&x.taskVersionId===r.taskVersionHeaders[0].taskVersion.id).runs[0];const result=run.result||run.results[0];assert.equal(e.scores.overall.value,(result.numericResult.value??0)*(id==='kaggle-werewolf'?100:1));});});
  assert.match(board('kaggle-werewolf').protocol.scoring.en,/Polarix/);const wolf=board('kaggle-werewolf');assert.equal(wolf.entries[0].scores.overall.display,'0.08');assert.equal(wolf.entries[0].scores.overall.interval,'±0.07');assert.equal(wolf.columns[0].unit,'%');assert.equal(wolf.columns.find(c=>c.id==='metric-2689').unit,'¢');assert.equal(wolf.entries[0].scores['metric-2689'].display,'4.38');assert.equal(wolf.columns.find(c=>c.id==='metric-2689').label.en,'Cost / turn');assert.match(board('kaggle-poker').protocol.scoring.en,/BB\/100/);
 });
 test('ARC public standings are complete, team-linked and retain original ranks after search',()=>{
- const b=board('arc-agi3-2026'),r=raw('arc-public.json.gz');assert.equal(b.entries.length,5041);assert.equal(b.entries.filter(e=>e.reference).length,3);assert.match(b.protocol.scope.en,/not the final/);
+ const b=board('arc-agi3-2026'),r=raw('arc-public.json.gz');assert.equal(b.entries.length,4926);assert.equal(b.entries.filter(e=>e.reference).length,3);assert.match(b.protocol.scope.en,/not the final/);
  b.entries.forEach((e,i)=>{const sr=r.publicLeaderboard[i],team=r.teams.find(t=>t.teamId===sr.teamId);assert.equal(e.scores.overall.display,sr.displayScore);assert.equal(e.agent,team.teamName);assert.equal(e.submissionDate,team.lastSubmissionDate);assert.equal(e.officialRank,sr.rank??null);});
  const e=b.entries.find(e=>e.officialRank===1000);assert.equal(rank(b,'overall',e.agent).find(x=>x.id===e.id).rank,1000);
 });
 test('results precede folded protocols, pagination covers all rows and alternate metrics use sort labels',()=>{
  for(const lang of ['zh','en'])for(const b of data.boards){const h=render('?arenaBoard='+b.id,lang);assert.ok(h.indexOf('class="lb-table"')<h.indexOf('id="leaderboard-protocol"'));assert.doesNotMatch(h,/id="leaderboard-protocol" open/);assert.ok(!h.includes('undefined'));}
  const b=board('arc-agi3-2026'),ids=[];for(let page=1;page<=Math.ceil(b.entries.length/50);page++){const h=render('?arenaBoard='+b.id+'&arenaPage='+page);ids.push(...[...h.matchAll(/data-score-detail="([^"]+)"/g)].map(m=>m[1]));}
- assert.equal(ids.length,5041);assert.equal(new Set(ids).size,5041);assert.deepEqual(new Set(ids),new Set(b.entries.map(e=>e.id)));
+ assert.equal(ids.length,4926);assert.equal(new Set(ids).size,4926);assert.deepEqual(new Set(ids),new Set(b.entries.map(e=>e.id)));
  const h=render('?arenaBoard=chessbench-all&arenaMetric=cost');assert.match(h,/>排序<\/th>/);assert.doesNotMatch(h,/>原榜名次<\/th>/);
  const source=render('?arenaBoard=chessbench-all');assert.match(source,/>原榜名次<\/th>/);
  assert.doesNotMatch(render('?arenaBoard=duellab-gamebench2'),/<option value="playable"/);

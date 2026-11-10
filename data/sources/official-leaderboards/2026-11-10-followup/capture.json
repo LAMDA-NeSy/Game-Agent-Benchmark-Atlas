@@ -1,0 +1,352 @@
+[
+  {
+    "name": "kaggle-meta.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+    "request": {
+      "benchmarkIdentifier": {
+        "slugIdentifier": {
+          "ownerSlug": "kaggle",
+          "benchmarkSlug": "game-arena"
+        }
+      },
+      "versionIdentifier": {
+        "latestVisibleSelector": {
+          "parentBenchmarkIdentifier": {
+            "slugIdentifier": {
+              "ownerSlug": "kaggle",
+              "benchmarkSlug": "game-arena"
+            }
+          }
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:08.369Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/kaggle-meta.json",
+    "sourceSha256": "62f4e5c8d0115d0a6472c3598eaba4314a2a4e09e4a9fb90e1415c2888e4a7b7",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "kaggle-unified.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 31
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:08.687Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/kaggle-unified.json",
+    "sourceSha256": "cd849cc62459cce0b0d0440d215265f804c3310661109c8b342a8edd8c30050c",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "chess-text-meta.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+    "request": {
+      "benchmarkIdentifier": {
+        "slugIdentifier": {
+          "ownerSlug": "kaggle",
+          "benchmarkSlug": "chess-text"
+        }
+      },
+      "versionIdentifier": {
+        "latestVisibleSelector": {
+          "parentBenchmarkIdentifier": {
+            "slugIdentifier": {
+              "ownerSlug": "kaggle",
+              "benchmarkSlug": "chess-text"
+            }
+          }
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:08.963Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/chess-text-meta.json",
+    "sourceSha256": "44ee6f2d5f0860b8f3a4bb0b71e5887f4caa6c9129daac1d208391602394d139",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "chess-text-scores.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 349
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:09.252Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/chess-text-scores.json",
+    "sourceSha256": "639fe0eca06939bd24c115427dfbd2c426160f31e3c3aa4cc94a1827cb176380",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "go-meta.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+    "request": {
+      "benchmarkIdentifier": {
+        "slugIdentifier": {
+          "ownerSlug": "kaggle",
+          "benchmarkSlug": "go"
+        }
+      },
+      "versionIdentifier": {
+        "latestVisibleSelector": {
+          "parentBenchmarkIdentifier": {
+            "slugIdentifier": {
+              "ownerSlug": "kaggle",
+              "benchmarkSlug": "go"
+            }
+          }
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:09.531Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/go-meta.json",
+    "sourceSha256": "d77e8eb5fc900ebf2148a83038695242a7143c98b2f59993888e8a7fc00fb191",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "go-scores.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 6258
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:09.814Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/go-scores.json",
+    "sourceSha256": "bff69be4e54930bdb33e16544de597b624fe4b532308065614fb61b1960d84ea",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "poker-heads-up-meta.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+    "request": {
+      "benchmarkIdentifier": {
+        "slugIdentifier": {
+          "ownerSlug": "kaggle",
+          "benchmarkSlug": "poker-heads-up"
+        }
+      },
+      "versionIdentifier": {
+        "latestVisibleSelector": {
+          "parentBenchmarkIdentifier": {
+            "slugIdentifier": {
+              "ownerSlug": "kaggle",
+              "benchmarkSlug": "poker-heads-up"
+            }
+          }
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:10.101Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/poker-heads-up-meta.json",
+    "sourceSha256": "3a84aaa043b853539c14a982787a71660e5a78f0d67e8e65e32fcb67877515e5",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "poker-heads-up-scores.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 180
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:10.398Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/poker-heads-up-scores.json",
+    "sourceSha256": "6f91cdf07578b3aa99add5db204bb1da2a4d49705e430ab6cc040d3a33228bdf",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "werewolf-meta.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetBenchmark",
+    "request": {
+      "benchmarkIdentifier": {
+        "slugIdentifier": {
+          "ownerSlug": "kaggle",
+          "benchmarkSlug": "werewolf"
+        }
+      },
+      "versionIdentifier": {
+        "latestVisibleSelector": {
+          "parentBenchmarkIdentifier": {
+            "slugIdentifier": {
+              "ownerSlug": "kaggle",
+              "benchmarkSlug": "werewolf"
+            }
+          }
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:10.691Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/werewolf-meta.json",
+    "sourceSha256": "8a6dc74a97766360a5d4aff82b714a3ddb6bfa30d948544967090f541703565f",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "werewolf-scores.json",
+    "url": "https://www.kaggle.com/api/i/benchmarks.BenchmarkService/GetUnifiedBenchmarkLeaderboard",
+    "request": {
+      "versionIdentifier": {
+        "versionIdSelector": {
+          "id": 443
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:18:10.967Z",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/werewolf-scores.json",
+    "sourceSha256": "e60e620328f7c9d1673a0f8cfdf96bfd72754235b6ee8484150eac5d0ca846c2",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "game-arena-download.json",
+    "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/game-arena/leaderboard",
+    "capturedAt": "2026-11-10T02:15:50.508921+00:00",
+    "rawDownloadSha256": "52cc84e5aca930f2f243030d5a640515280ac8abd9c1ee7f4ea54477eddd3fd2",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/game-arena-download.json",
+    "sourceSha256": "698be7f5617f47ffcf5e6fe935ec944181c564d9c252cd5f4f9e00d850e5b1a2",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "chess-text-download.json",
+    "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/chess-text/leaderboard",
+    "capturedAt": "2026-11-10T02:15:50.527337+00:00",
+    "rawDownloadSha256": "03ac5ae19ca708f20ee53645f3c54669b4747a55382f56ae6a0b9796789ed98d",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/chess-text-download.json",
+    "sourceSha256": "0dbcbbce136b0865b71b3f5108cdfef0900a6729d67601b9a41d7004cf93b3c6",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "go-download.json",
+    "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/go/leaderboard",
+    "capturedAt": "2026-11-10T02:15:50.543048+00:00",
+    "rawDownloadSha256": "4d4aa69e70b62367e315b16ae6c877b6601711fcc72b7d97635965fc38de6123",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/go-download.json",
+    "sourceSha256": "1dd36f7450e17b7e94ed6881d7aa29d861d921721119933a8a40a26270e2c146",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "poker-heads-up-download.json",
+    "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/poker-heads-up/leaderboard",
+    "capturedAt": "2026-11-10T02:15:50.354038+00:00",
+    "rawDownloadSha256": "0d31f8adc7093cf97061083afad4e14d8bca98ee85dff7021d39ca621226b06a",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/poker-heads-up-download.json",
+    "sourceSha256": "735d368bc2f2c278c974a18bbe98af6461ac7f5900e9acbd18a24282d3676e66",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "werewolf-download.json",
+    "url": "https://www.kaggle.com/api/v1/benchmarks/kaggle/werewolf/leaderboard",
+    "capturedAt": "2026-11-10T02:15:50.153462+00:00",
+    "rawDownloadSha256": "cdafb2f4700330077bd96308047d1a4b298442c720dbc5e54b7785a8b29fed8e",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/werewolf-download.json",
+    "sourceSha256": "f62eda72ca0676cadc8dd8f88972b91b2f3abb864b1af42a7c1466eb442b793d",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "arc-public.json.gz",
+    "url": "https://www.kaggle.com/api/i/competitions.LeaderboardService/GetLeaderboard",
+    "capturedAt": "2026-11-10T02:18:31.620Z",
+    "request": {
+      "competitionId": 133468,
+      "leaderboardType": "public"
+    },
+    "rawResponseSha256": "a39cd9590c5251d5eb97e28a88132a971f1601f2f7bc3d34475f3ed6c19fb492",
+    "projection": "Public leaderboard and teamId, teamName, submissionCount, lastSubmissionDate; member profiles and other boards omitted",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/arc-public.json.gz",
+    "sourceSha256": "8cd8d8a943c6feeeda9dead8ff4a30e1fc6784ba6c9b6aff38a88edb73c2992b",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "textarena-results.json",
+    "url": "https://fvorekucgyfzxckhamrh.supabase.co/rest/v1/rpc/get_leaderboard_from_mv_trueskill_humans_models",
+    "capturedAt": "2026-11-10T02:14:19.270719+00:00",
+    "request": {
+      "skill_subset": "Balanced Subset"
+    },
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/textarena-results.json",
+    "sourceSha256": "839d1aefd43e0af7f6a212a1c69b1eeeb275594dac722c5058da879a7eae8c20",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "kaggle-protocol.json",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/kaggle-protocol.json",
+    "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+    "request": {
+      "benchmarkVersionIdentifier": {
+        "versionIdSelector": {
+          "id": 31
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:27:33.181Z",
+    "sourceSha256": "ed27fe6b5ddb1c8551bf5d9526b31d286a4e7619593bb6ebf2ac3b4625fba3b3",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "chess-text-pages.json",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/chess-text-pages.json",
+    "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+    "request": {
+      "benchmarkVersionIdentifier": {
+        "versionIdSelector": {
+          "id": 349
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:27:33.447Z",
+    "sourceSha256": "ea28132fb8c20434fc7beb3ca9d83a24fc6a4d4e69b6a653872f99966d6cfbcd",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "go-pages.json",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/go-pages.json",
+    "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+    "request": {
+      "benchmarkVersionIdentifier": {
+        "versionIdSelector": {
+          "id": 6258
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:27:33.706Z",
+    "sourceSha256": "fb5a3c7319a2d2ece4457d1a921d56a66a293278fe25341e5274f07b5dddfbe6",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "poker-heads-up-pages.json",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/poker-heads-up-pages.json",
+    "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+    "request": {
+      "benchmarkVersionIdentifier": {
+        "versionIdSelector": {
+          "id": 180
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:27:33.978Z",
+    "sourceSha256": "abcdbcff7c8577d8e9b03461387967a5f0a048c90e3f5f3835f91d292342697c",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  },
+  {
+    "name": "werewolf-pages.json",
+    "path": "data/sources/official-leaderboards/2026-11-10-followup/werewolf-pages.json",
+    "url": "https://www.kaggle.com/api/i/competitions.PageService/ListPages",
+    "request": {
+      "benchmarkVersionIdentifier": {
+        "versionIdSelector": {
+          "id": 443
+        }
+      }
+    },
+    "capturedAt": "2026-11-10T02:27:34.437Z",
+    "sourceSha256": "2fdc6a16dae60d43a2ff059e49fce66e3c4033335730346cff4e6567e898447b",
+    "serialization": "Decoded public JSON serialized with two-space indentation"
+  }
+]

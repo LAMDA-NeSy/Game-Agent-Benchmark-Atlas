@@ -12,6 +12,11 @@ from email.utils import parsedate_to_datetime
 ROOT=Path(__file__).resolve().parents[1]
 SNAPSHOT='data/sources/official-leaderboards/2026-11-01-expansion.json'
 RAW=json.loads((ROOT/SNAPSHOT).read_text())['sources']
+OVERRIDES_PATH=ROOT/'data/sources/official-leaderboards/current-overrides.json'
+OVERRIDES=json.loads(OVERRIDES_PATH.read_text()) if OVERRIDES_PATH.exists() else {}
+SOURCE_OVERRIDES={key:value['path'] for key,value in OVERRIDES.items() if key in RAW}
+for key,path in SOURCE_OVERRIDES.items():
+ RAW[key]=json.loads((ROOT/path).read_text())
 BOARDS=[]
 def bi(zh,en): return {'zh':zh,'en':en}
 def col(key,zh,en,source=None,unit='',rankable=True,direction='desc'):
@@ -75,6 +80,7 @@ b['columns']=[col('overall','平均回合奖励','Mean episode reward',3)];table
 
 b=board('textarena-balanced','textarena-results','TextArena · Balanced Subset','TextArena · Balanced Subset','strategy',('多游戏文字对战','Multi-game text competition'),'历史成绩 · 含非活跃模型','Historical results · inactive models included','官方 Balanced Subset 的标准模型成绩；本次来源返回的 21 个模型均已标记为非活跃，作为历史比较保留。','Standard-model results for the official Balanced Subset. All 21 returned models are marked inactive and retained for historical comparison.','比较模型通过文字规则、状态与行动进行多游戏对战的能力。','Compare multi-game competition through textual rules, states and actions.','以 TrueSkill μ 排序，σ 表示评级不确定性；另报告胜率和对局数。评级与对手池相关，胜率不包含平局为胜。','Ranked by TrueSkill μ, with σ describing rating uncertainty. Win rate and game counts are also retained. Ratings depend on the opponent pool; draws are not wins.',[('评测框架','Evaluation framework','https://www.textarena.ai/docs/overview'),('官方实现','Official implementation','https://github.com/TextArena/TextArena')])
 b['source']['url']='https://www.textarena.ai/leaderboard';b['source']['request']=RAW['textarena-results']['capture']['request']
+if 'textarena-results' in SOURCE_OVERRIDES:b['source']['evidenceFile']=SOURCE_OVERRIDES['textarena-results']
 b['columns']=[col('overall','TrueSkill μ','TrueSkill μ'),col('uncertainty','TrueSkill σ','TrueSkill σ',rankable=False),col('win-rate','胜率','Win rate',unit='%'),col('games','对局数','Games played',rankable=False)]
 for i,r in enumerate(RAW['textarena-results']['data'],1):
  e=entry(b,i,r['model_name']);e['sourceRecordId']=r['model_id']
@@ -129,7 +135,7 @@ b['protocol']['dates']=bi('行日期为官方记录更新时间；用时按官�
 b['protocol']['variation']=bi('进度由已完成里程碑数除以 26 计算；用时保留至秒。','Progress is completed milestones divided by 26; runtime is retained to the second.')
 
 assert len(BOARDS)==12
-out={'sourceSnapshot':SNAPSHOT,'boards':BOARDS}
+out={'sourceSnapshot':SNAPSHOT,'sourceOverrides':SOURCE_OVERRIDES,'boards':BOARDS}
 (ROOT/'data/curation/official-leaderboard-expansion.json').write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n')
 print('Imported',len(BOARDS),'additional boards,',sum(len(b['entries']) for b in BOARDS),'results.')
 for b in BOARDS:print(b['id'],len(b['entries']))

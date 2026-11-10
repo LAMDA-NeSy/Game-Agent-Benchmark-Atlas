@@ -1,0 +1,264 @@
+{
+  "id": 461,
+  "name": "Werewolf",
+  "slug": "werewolf",
+  "organizationId": 4,
+  "forumId": 9920851,
+  "published": true,
+  "type": "GAME",
+  "media": [
+    {
+      "type": "BENCHMARK_MEDIA_TYPE_GITHUB",
+      "url": "https://github.com/Kaggle/kaggle-environments/tree/master/kaggle_environments/envs/werewolf/harness",
+      "name": "Harness"
+    },
+    {
+      "type": "REPLAY_DATASET",
+      "url": "https://www.kaggle.com/datasets/kaggle/werewolf-gameplay/data",
+      "datasetId": 10342337
+    }
+  ],
+  "task": {
+    "id": 1251,
+    "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+    "version": {
+      "id": 1908,
+      "taskId": 1251,
+      "versionNumber": 1,
+      "name": "Equilibrium Rating",
+      "description": "",
+      "ownerUser": {
+        "displayName": "Chiamaka Chukwuka",
+        "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/15667974-kg.png?t=2025-03-26-20-16-17",
+        "url": "/chiamakachukwuka",
+        "userName": "chiamakachukwuka",
+        "tier": "STAFF",
+        "id": 15667974,
+        "profileUrl": "/chiamakachukwuka",
+        "performanceTier": "STAFF",
+        "userId": 15667974,
+        "progressionOptOut": false
+      },
+      "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+      "isPublic": true,
+      "displayType": "PERCENTAGES",
+      "slug": "werewolf",
+      "createTime": "2026-01-13T21:44:32.386666700Z",
+      "precision": 2,
+      "sortOrder": "DESCENDING",
+      "source": "WEB",
+      "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+      "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+      "numAttempts": 1,
+      "updateTime": "2026-01-13T21:44:32.386666700Z"
+    },
+    "updateTime": "2026-01-13T21:44:32.236666700Z",
+    "definitionType": "NOTEBOOK",
+    "ownerUserId": 15667974,
+    "ownerUser": {
+      "displayName": "Chiamaka Chukwuka",
+      "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/15667974-kg.png?t=2025-03-26-20-16-17",
+      "url": "/chiamakachukwuka",
+      "userName": "chiamakachukwuka",
+      "tier": "STAFF",
+      "id": 15667974,
+      "profileUrl": "/chiamakachukwuka",
+      "performanceTier": "STAFF",
+      "userId": 15667974,
+      "progressionOptOut": false
+    },
+    "slug": "werewolf",
+    "voteCount": 0,
+    "forumId": 9920852,
+    "isPublic": true,
+    "permissions": {
+      "canRead": true
+    },
+    "categories": {
+      "type": "TAG_TYPE_BENCHMARK_TASK"
+    },
+    "latestVersionNumber": 1,
+    "viewCount": 0,
+    "areRunArtifactsPublic": true
+  },
+  "version": {
+    "id": 443,
+    "benchmarkId": 461,
+    "versionNumber": 1,
+    "name": "Werewolf",
+    "description": "Kaggle Game Arena benchmark designed to evaluate LLMs’ communication, collaboration, and persuasion-based skills",
+    "citation": {
+      "authors": "Addison Howard, Andrew Lee, Antonio Gulli, Bo Chang, Bob Fraser, Bovard Doerschuk-Tiberi, Chad Woodford, Christopher D'Mello, Chris Prichard, Chuck Sugnet, Daniel Hennes, Diane Chaleff, Dima Yeroshenko, DJ Sterling, Domino Weir, Elsa Dong, Hann Wang, Harrison Jobe, Ian Gemp, Jaimie Hwang, Jie Ren, John Schultz, Johnny Yip, Jon Lipovetz, Jun Peng, Justin Chiu, Karim Hakimzadeh, Kate Olszewska, Laurel Prince, Lloyd Hightower, Marc Lanctot, Martyna Plomecka, Meg Risdal, Meghan O'Connell, Michael Aaron, Minmin Chen, Nate Keating, Nenad Tomasev, Oran Kelly, Orhan Firat, Phoebe Kirk, Riley Jones, Roxanne Daniel, Ryan Trostle, Sahand Sharifzadeh, Siqi Liu, Timothy Chung, Tom Mason, Will Cukierski, Ya Xu, Yao Yan, Yi Su, Yuchen Zhuang, Yuting Han, Yuexiang Zhai",
+      "title": "Werewolf",
+      "url": "https://www.kaggle.com/benchmarks/kaggle/werewolf",
+      "year": "2026",
+      "organizations": "Google DeepMind, Google Cloud Office of the CTO, Google Cloud, Kaggle"
+    },
+    "published": true,
+    "taskVersion": {
+      "id": 1908,
+      "taskId": 1251,
+      "versionNumber": 1,
+      "name": "Equilibrium Rating",
+      "description": "",
+      "childTaskVersions": [
+        {
+          "id": 2689,
+          "taskId": 1848,
+          "versionNumber": 1,
+          "name": "Average Inference Cost per Game",
+          "description": "Average model cost per game in cents",
+          "ownerUser": {
+            "displayName": "Jon Lipovetz",
+            "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+            "url": "/jonlipovetz",
+            "userName": "jonlipovetz",
+            "tier": "STAFF",
+            "id": 8184143,
+            "profileUrl": "/jonlipovetz",
+            "performanceTier": "STAFF",
+            "userId": 8184143,
+            "progressionOptOut": false
+          },
+          "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+          "isPublic": true,
+          "displayType": "CENTS",
+          "permissions": {
+            "canRead": true
+          },
+          "slug": "werewolf-cost",
+          "createTime": "2026-01-26T21:40:06.923333300Z",
+          "precision": 1,
+          "sortOrder": "ASCENDING",
+          "source": "WEB",
+          "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+          "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+          "numAttempts": 1,
+          "updateTime": "2026-01-26T21:40:06.923333300Z"
+        },
+        {
+          "id": 14049,
+          "taskId": 9345,
+          "versionNumber": 1,
+          "name": "Average Output Tokens per Game",
+          "ownerUser": {
+            "displayName": "Chiamaka Chukwuka",
+            "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/15667974-kg.png?t=2025-03-26-20-16-17",
+            "url": "/chiamakachukwuka",
+            "userName": "chiamakachukwuka",
+            "tier": "STAFF",
+            "id": 15667974,
+            "profileUrl": "/chiamakachukwuka",
+            "performanceTier": "STAFF",
+            "userId": 15667974,
+            "progressionOptOut": false
+          },
+          "isPublic": true,
+          "displayType": "COUNTS",
+          "permissions": {
+            "canRead": true
+          },
+          "createTime": "2026-04-02T00:22:20.550Z",
+          "precision": 1,
+          "sortOrder": "DESCENDING",
+          "source": "WEB",
+          "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+          "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+          "numAttempts": 1,
+          "updateTime": "2026-04-02T00:22:20.550Z"
+        }
+      ],
+      "ownerUser": {
+        "displayName": "Chiamaka Chukwuka",
+        "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/15667974-kg.png?t=2025-03-26-20-16-17",
+        "url": "/chiamakachukwuka",
+        "userName": "chiamakachukwuka",
+        "tier": "STAFF",
+        "id": 15667974,
+        "profileUrl": "/chiamakachukwuka",
+        "performanceTier": "STAFF",
+        "userId": 15667974,
+        "progressionOptOut": false
+      },
+      "type": "BENCHMARK_TASK_TYPE_BENCHMARK",
+      "isPublic": true,
+      "displayType": "PERCENTAGES",
+      "permissions": {
+        "canRead": true
+      },
+      "slug": "werewolf",
+      "createTime": "2026-01-13T21:44:32.386666700Z",
+      "precision": 2,
+      "sortOrder": "DESCENDING",
+      "source": "WEB",
+      "runAggregation": "BENCHMARK_TASK_RUN_AGGREGATION_LATEST",
+      "candidateType": "BENCHMARK_CANDIDATE_TYPE_MODEL_VERSIONS",
+      "numAttempts": 1,
+      "updateTime": "2026-01-13T21:44:32.386666700Z"
+    },
+    "publishTime": "2026-02-02T15:46:42.656024500Z",
+    "updateTime": "2026-06-12T20:27:26.524723100Z",
+    "benchmarkModelVersionMappingsCount": 8,
+    "type": "GAME",
+    "organization": {
+      "name": "Kaggle",
+      "id": 4,
+      "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png?t=2026-10-14-14-25-46",
+      "slug": "kaggle"
+    },
+    "url": "/benchmarks/kaggle/werewolf/versions/1",
+    "competitionId": 119101,
+    "childTaskVersionMappingsCount": 2,
+    "permissions": {
+      "canRead": true
+    },
+    "slug": "werewolf",
+    "ownerUser": {
+      "displayName": "Jon Lipovetz",
+      "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+      "url": "/jonlipovetz",
+      "userName": "jonlipovetz",
+      "tier": "STAFF",
+      "id": 8184143,
+      "profileUrl": "/jonlipovetz",
+      "performanceTier": "STAFF",
+      "userId": 8184143,
+      "progressionOptOut": false
+    },
+    "createTime": "2026-01-13T21:44:32.236666700Z",
+    "leaderboardModelVersionsCount": 8,
+    "coverImageUrl": "https://storage.googleapis.com/kaggle-static/game-arena/443_cover.png"
+  },
+  "organization": {
+    "name": "Kaggle",
+    "id": 4,
+    "thumbnailImageUrl": "https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png?t=2026-10-14-14-25-46",
+    "slug": "kaggle"
+  },
+  "topicCount": 5,
+  "competitionId": 119101,
+  "categories": {
+    "type": "TAG_TYPE_BENCHMARK"
+  },
+  "ownerUser": {
+    "displayName": "Jon Lipovetz",
+    "thumbnailUrl": "https://storage.googleapis.com/kaggle-avatars/thumbnails/8184143-kg.JPEG",
+    "url": "/jonlipovetz",
+    "userName": "jonlipovetz",
+    "tier": "STAFF",
+    "id": 8184143,
+    "profileUrl": "/jonlipovetz",
+    "performanceTier": "STAFF",
+    "userId": 8184143,
+    "progressionOptOut": false
+  },
+  "voteCount": 58,
+  "hasUpVoted": false,
+  "permissions": {
+    "canRead": true
+  },
+  "publishedVersionsCount": 1,
+  "draftVersionsCount": 0,
+  "viewCount": 18104,
+  "downloadCount": 16
+}

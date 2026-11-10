@@ -117,7 +117,7 @@
       "en": "This view contains inactive-model records from Balanced Subset. The classification applies to this batch, not to TextArena as a whole."
     },
     "evidenceUrl": "https://www.textarena.ai/leaderboard",
-    "reviewedAt": "2026-11-02"
+    "reviewedAt": "2026-11-10"
   },
   "pgg-trueskill": {
     "kind": "reference",

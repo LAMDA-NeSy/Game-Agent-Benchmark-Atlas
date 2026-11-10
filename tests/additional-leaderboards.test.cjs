@@ -1,5 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const expansion=require('../data/curation/official-leaderboard-expansion.json'),raw=require('../'+expansion.sourceSnapshot).sources;
+for(const [key,path] of Object.entries(expansion.sourceOverrides||{}))raw[key]=require('../'+path);
 const {rank}=require('../src/js/models/official-leaderboard-model.js'),boards=expansion.boards;
 const get=id=>boards.find(b=>b.id===id);
 test('twelve additional official tracks retain native table values and capture provenance',()=>{

@@ -1,0 +1,5020 @@
+{
+  "rows": [
+    {
+      "modelVersionName": "Gemini 4 Carbon",
+      "modelVersionSlug": "gemini-4-carbon",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1814.297399342351,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 42.504479263925305,
+                "minus": 38.97367608209129
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1814.297399342351,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 42.504479263925305,
+                "minus": 38.97367608209129
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 36017.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 36017.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 33.992976107130346,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 33.992976107130346,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6 Astra",
+      "modelVersionSlug": "gpt-6-astra",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1748.0937419741786,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 33.626833061933894,
+                "minus": 35.862461202762915
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1748.0937419741786,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 33.626833061933894,
+                "minus": 35.862461202762915
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8633.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8633.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 32.26009688057733,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 32.26009688057733,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 4 Argon",
+      "modelVersionSlug": "gemini-4-argon",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1698.090605767428,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 40.49341251836313,
+                "minus": 44.39417662657161
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1698.090605767428,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 40.49341251836313,
+                "minus": 44.39417662657161
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11524.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11524.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9.497924503862661,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9.497924503862661,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Fable 5.1",
+      "modelVersionSlug": "claude-fable-5-1-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1610.5332320882962,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 38.344199706632025,
+                "minus": 43.8990151433095
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1610.5332320882962,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 38.344199706632025,
+                "minus": 43.8990151433095
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11632.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11632.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 44.65242368147989,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 44.65242368147989,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 5",
+      "modelVersionSlug": "claude-opus-5-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1568.5078526378938,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 44.638402011816424,
+                "minus": 55.588032524728305
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1568.5078526378938,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 44.638402011816424,
+                "minus": 55.588032524728305
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 16905.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 16905.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 35.569681319583054,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 35.569681319583054,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 5.5",
+      "modelVersionSlug": "claude-opus-5-5-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1552.4679663453192,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 38.32462576298144,
+                "minus": 48.13481079460939
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1552.4679663453192,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 38.32462576298144,
+                "minus": 48.13481079460939
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7074.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7074.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8.79946723278172,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8.79946723278172,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6.1 Sol",
+      "modelVersionSlug": "gpt-6.1-sol",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1450.522346673678,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 48.32661966132355,
+                "minus": 53.294233988520546
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1450.522346673678,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 48.32661966132355,
+                "minus": 53.294233988520546
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7996.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7996.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 5.815249849373597,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 5.815249849373597,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Sonnet 5.5",
+      "modelVersionSlug": "claude-sonnet-5-5-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1448.8720672617364,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 46.33957736940829,
+                "minus": 54.72705846480403
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1448.8720672617364,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 46.33957736940829,
+                "minus": 54.72705846480403
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8873.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8873.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6.179514734955028,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6.179514734955028,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6.1 Terra",
+      "modelVersionSlug": "gpt-6.1-terra",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1203.339252535367,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 44.39627820322676,
+                "minus": 60.28359377845936
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1203.339252535367,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 44.39627820322676,
+                "minus": 60.28359377845936
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6681.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6681.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 2.227203941273514,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 2.227203941273514,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.8 Flash",
+      "modelVersionSlug": "gemini-3.8-flash",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1168.950019621456,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 44.947621835129894,
+                "minus": 61.506111542766575
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1168.950019621456,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 44.947621835129894,
+                "minus": 61.506111542766575
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 23939.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 23939.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8.231585072134004,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8.231585072134004,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.1 Pro Preview",
+      "modelVersionSlug": "gemini-3.1-pro-preview",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1147.846397025476,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 47.834740107944526,
+                "minus": 61.8797222463636
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1147.846397025476,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 47.834740107944526,
+                "minus": 61.8797222463636
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15919.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15919.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 16.594222853247555,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 16.594222853247555,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Sonnet 5",
+      "modelVersionSlug": "claude-sonnet-5-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1119.4325975295742,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 41.38696764082397,
+                "minus": 62.35942687649299
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1119.4325975295742,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 41.38696764082397,
+                "minus": 62.35942687649299
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 28171.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 28171.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 25.538848199871605,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 25.538848199871605,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 4.8",
+      "modelVersionSlug": "claude-opus-4-8-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1116.8177654488682,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 41.907577224215856,
+                "minus": 63.244370597868055
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1116.8177654488682,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 41.907577224215856,
+                "minus": 63.244370597868055
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 20757.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 20757.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 45.24697946383364,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 45.24697946383364,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Haiku 5.5",
+      "modelVersionSlug": "claude-haiku-5-5",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1077.680830966594,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 42.30215120053663,
+                "minus": 66.90326054745765
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1077.680830966594,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 42.30215120053663,
+                "minus": 66.90326054745765
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 16837.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 16837.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 0.7049631942346145,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 0.7049631942346145,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.6",
+      "modelVersionSlug": "grok-4.6",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1023.630683716316,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 42.207808779253696,
+                "minus": 62.64330488441885
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1023.630683716316,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 42.207808779253696,
+                "minus": 62.64330488441885
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 26873.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 26873.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.05154205449483,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.05154205449483,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.7 Flash",
+      "modelVersionSlug": "gemini-3.7-flash",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1006.3415550353823,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 49.170343951079076,
+                "minus": 63.45769060007649
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1006.3415550353823,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 49.170343951079076,
+                "minus": 63.45769060007649
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11797.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11797.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 3.685944742887146,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 3.685944742887146,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.6 Sol",
+      "modelVersionSlug": "gpt-5.6-sol",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1005.8546738064396,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 44.66508044445743,
+                "minus": 67.5124166998462
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1005.8546738064396,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 44.66508044445743,
+                "minus": 67.5124166998462
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10486.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10486.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 19.502699548110822,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 19.502699548110822,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.7",
+      "modelVersionSlug": "grok-4.7",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1003.929037223546,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 43.840625508852554,
+                "minus": 65.82685328535013
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 1003.929037223546,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 43.840625508852554,
+                "minus": 65.82685328535013
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 33473.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 33473.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 18.478308897936596,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 18.478308897936596,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.5",
+      "modelVersionSlug": "gpt-5.5-2026-04-23",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 997.4119964213635,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 40.802204153168304,
+                "minus": 56.67663586620165
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 997.4119964213635,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 40.802204153168304,
+                "minus": 56.67663586620165
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 17620.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 17620.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 46.76242857958066,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 46.76242857958066,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.5",
+      "modelVersionSlug": "grok-4.5-0708",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 903.801894214316,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 52.111900744325,
+                "minus": 63.50747693216272
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 903.801894214316,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 52.111900744325,
+                "minus": 63.50747693216272
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 23712.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 23712.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 13.156460623144875,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 13.156460623144875,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6 Sol",
+      "modelVersionSlug": "gpt-6-sol",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 900.7875065803091,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 50.55795185671582,
+                "minus": 70.09324266744522
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 900.7875065803091,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 50.55795185671582,
+                "minus": 70.09324266744522
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8208.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8208.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6.0529479132754265,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6.0529479132754265,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.4",
+      "modelVersionSlug": "gpt-5.4-2026-03-05",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 856.9807267164765,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 47.47364492182453,
+                "minus": 63.350953682670024
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 856.9807267164765,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 47.47364492182453,
+                "minus": 63.350953682670024
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 22424.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 22424.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 30.55097427479184,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 30.55097427479184,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.5 Flash",
+      "modelVersionSlug": "gemini-3.5-flash",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 756.5577077549331,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 55.559191104404135,
+                "minus": 74.70002557281964
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 756.5577077549331,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 55.559191104404135,
+                "minus": 74.70002557281964
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11700.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11700.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8.662394940625141,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8.662394940625141,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.6 Flash",
+      "modelVersionSlug": "gemini-3.6-flash",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 712.0380145918252,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 54.725676296080906,
+                "minus": 77.7840802982389
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 712.0380145918252,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 54.725676296080906,
+                "minus": 77.7840802982389
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11388.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11388.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 3.5382359601256956,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 3.5382359601256956,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 4.6",
+      "modelVersionSlug": "claude-opus-4-6-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 569.7997663940212,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 54.93079798352119,
+                "minus": 71.07992826908185
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 569.7997663940212,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 54.93079798352119,
+                "minus": 71.07992826908185
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 17563.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 17563.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 38.5393170774123,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 38.5393170774123,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.2",
+      "modelVersionSlug": "gpt-5.2-2025-12-11",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 560.0644486802225,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 56.582659738265534,
+                "minus": 67.98214966856233
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 560.0644486802225,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 56.582659738265534,
+                "minus": 67.98214966856233
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 17907.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 17907.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 22.0414010321917,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 22.0414010321917,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "o3",
+      "modelVersionSlug": "o3-2025-04-16",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 554.603603310899,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 50.27623511639581,
+                "minus": 74.45180666292663
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 554.603603310899,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 50.27623511639581,
+                "minus": 74.45180666292663
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 22508.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 22508.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 16.54083063471067,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 16.54083063471067,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.6 Terra",
+      "modelVersionSlug": "gpt-5.6-terra",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 512.1773518247198,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 49.275911366282,
+                "minus": 75.14547889861308
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 512.1773518247198,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 49.275911366282,
+                "minus": 75.14547889861308
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7532.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7532.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6.990719138211593,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6.990719138211593,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 4.7",
+      "modelVersionSlug": "claude-opus-4-7-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 510.03684377346326,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 56.274175395169095,
+                "minus": 79.75017580292399
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 510.03684377346326,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 56.274175395169095,
+                "minus": 79.75017580292399
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 18056.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 18056.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 38.76720326765823,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 38.76720326765823,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3 Flash Preview",
+      "modelVersionSlug": "gemini-3-flash-preview",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 497.0485930591817,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 54.562400062880215,
+                "minus": 71.7489817103853
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 497.0485930591817,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 54.562400062880215,
+                "minus": 71.7489817103853
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 21587.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 21587.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 5.858495176744633,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 5.858495176744633,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6 Luna",
+      "modelVersionSlug": "gpt-6-luna",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 474.0544152029847,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 60.92109710906118,
+                "minus": 78.99504418817531
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 474.0544152029847,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 60.92109710906118,
+                "minus": 78.99504418817531
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8331.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8331.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 0.30544550730065423,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 0.30544550730065423,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.20 Reasoning",
+      "modelVersionSlug": "grok-4.20-0309-reasoning",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 470.5955734604936,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 52.66128955157751,
+                "minus": 75.85025275836063
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 470.5955734604936,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 52.66128955157751,
+                "minus": 75.85025275836063
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 12578.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 12578.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 2.754813161857429,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 2.754813161857429,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.6 Luna",
+      "modelVersionSlug": "gpt-5.6-luna",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 445.97782660358325,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 49.7546430492244,
+                "minus": 74.85964170537056
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 445.97782660358325,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 49.7546430492244,
+                "minus": 74.85964170537056
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11571.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11571.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 3.084602415329363,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 3.084602415329363,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Sonnet 4.5",
+      "modelVersionSlug": "claude-sonnet-4-5-20250929",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 325.43319270298775,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 57.87742312189306,
+                "minus": 78.73064013779111
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 325.43319270298775,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 57.87742312189306,
+                "minus": 78.73064013779111
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10923.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10923.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 12.879483078033891,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 12.879483078033891,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Sonnet 4.6",
+      "modelVersionSlug": "claude-sonnet-4-6-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 295.8429718676698,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 55.0374541506676,
+                "minus": 86.66052082683672
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 295.8429718676698,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 55.0374541506676,
+                "minus": 86.66052082683672
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 14029.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 14029.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 17.974568681050478,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 17.974568681050478,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.3",
+      "modelVersionSlug": "grok-4.3",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 129.61265902160903,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 68.34143990608732,
+                "minus": 103.03869663979569
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 129.61265902160903,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 68.34143990608732,
+                "minus": 103.03869663979569
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9790.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9790.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 2.119540331716156,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 2.119540331716156,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.4 mini",
+      "modelVersionSlug": "gpt-5.4-mini-2026-03-17",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 120.38859411090607,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 76.88578846136187,
+                "minus": 89.83073167816555
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 120.38859411090607,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 76.88578846136187,
+                "minus": 89.83073167816555
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 24303.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 24303.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10.036759327388893,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10.036759327388893,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5 mini",
+      "modelVersionSlug": "gpt-5-mini-2025-08-07",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 0.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 82.94641670070098,
+                "minus": 109.54470090630409
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 0.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 82.94641670070098,
+                "minus": 109.54470090630409
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.3626168Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Tokens/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11560.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11560.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:22.8052391Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Avg. Cost/Turn",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 1.8909871366311555,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 1.8909871366311555,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:53:23.15179Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "cents"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    }
+  ]
+}

@@ -1,0 +1,5416 @@
+{
+  "rows": [
+    {
+      "modelVersionName": "Gemini 4 Carbon",
+      "modelVersionSlug": "gemini-4-carbon",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 626.8455458505098,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.953505909905289,
+                "minus": 7.031930231021306
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 626.8455458505098,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.953505909905289,
+                "minus": 7.031930231021306
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 5883.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 5883.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 4 Argon",
+      "modelVersionSlug": "gemini-4-argon",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 529.3924718840237,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.497390057141274,
+                "minus": 6.413480360605263
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 529.3924718840237,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.497390057141274,
+                "minus": 6.413480360605263
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7883.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7883.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6 Astra",
+      "modelVersionSlug": "gpt-6-astra",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 487.00811775352895,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.3107538543739565,
+                "minus": 5.622429948708373
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 487.00811775352895,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.3107538543739565,
+                "minus": 5.622429948708373
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7120.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7120.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6.1 Sol",
+      "modelVersionSlug": "gpt-6.1-sol",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 433.68276838786664,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.92475295283441,
+                "minus": 6.048010049285153
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 433.68276838786664,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.92475295283441,
+                "minus": 6.048010049285153
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8240.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8240.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 5",
+      "modelVersionSlug": "claude-opus-5-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 431.80142242802424,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.548686046408079,
+                "minus": 6.272900421860754
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 431.80142242802424,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.548686046408079,
+                "minus": 6.272900421860754
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8906.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8906.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 14.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 14.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.8 Flash",
+      "modelVersionSlug": "gemini-3.8-flash",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 424.9286100938118,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.961966080982279,
+                "minus": 6.135711530805224
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 424.9286100938118,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.961966080982279,
+                "minus": 6.135711530805224
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8711.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8711.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Fable 5.1",
+      "modelVersionSlug": "claude-fable-5-1-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 415.7550182809845,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.929465692772965,
+                "minus": 6.673373273983998
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 415.7550182809845,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.929465692772965,
+                "minus": 6.673373273983998
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7888.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7888.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 12.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 12.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.5",
+      "modelVersionSlug": "gpt-5.5-2026-04-23",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 404.87273763617554,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.862161414983063,
+                "minus": 5.78118143942271
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 404.87273763617554,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.862161414983063,
+                "minus": 5.78118143942271
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9650.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9650.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 5.5",
+      "modelVersionSlug": "claude-opus-5-5-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 393.2882006424069,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.16301263720726,
+                "minus": 6.592021896061283
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 393.2882006424069,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.16301263720726,
+                "minus": 6.592021896061283
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7002.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7002.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 13.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 13.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.1 Pro Preview",
+      "modelVersionSlug": "gemini-3.1-pro-preview",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 377.00556532377857,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.643644326134904,
+                "minus": 6.271047399416375
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 377.00556532377857,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.643644326134904,
+                "minus": 6.271047399416375
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11509.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11509.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.7 Flash",
+      "modelVersionSlug": "gemini-3.7-flash",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 365.73888141886584,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.978768643282251,
+                "minus": 6.605470249050768
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 365.73888141886584,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.978768643282251,
+                "minus": 6.605470249050768
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8314.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8314.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6.1 Terra",
+      "modelVersionSlug": "gpt-6.1-terra",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 364.9823390504706,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.9281671539066565,
+                "minus": 6.354324960323197
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 364.9823390504706,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.9281671539066565,
+                "minus": 6.354324960323197
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9321.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9321.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.6 Sol",
+      "modelVersionSlug": "gpt-5.6-sol",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 348.7608978342697,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.6800064445315,
+                "minus": 6.01909421779925
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 348.7608978342697,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.6800064445315,
+                "minus": 6.01909421779925
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10721.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10721.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.4",
+      "modelVersionSlug": "gpt-5.4-2026-03-05",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 348.71963259113704,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.354879072495805,
+                "minus": 5.747293101912419
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 348.71963259113704,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.354879072495805,
+                "minus": 5.747293101912419
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11967.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11967.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.7",
+      "modelVersionSlug": "grok-4.7",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 332.39001504256373,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.7061894022444335,
+                "minus": 5.881141847258846
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 332.39001504256373,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.7061894022444335,
+                "minus": 5.881141847258846
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10781.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10781.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6 Sol",
+      "modelVersionSlug": "gpt-6-sol",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 328.4788781725259,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.6229334197686285,
+                "minus": 6.1616687281900795
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 328.4788781725259,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.6229334197686285,
+                "minus": 6.1616687281900795
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9493.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9493.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Sonnet 5.5",
+      "modelVersionSlug": "claude-sonnet-5-5-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 323.37637326639674,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.4289508418753485,
+                "minus": 6.059072217865776
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 323.37637326639674,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.4289508418753485,
+                "minus": 6.059072217865776
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7478.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7478.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 13.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 13.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.6 Flash",
+      "modelVersionSlug": "gemini-3.6-flash",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 320.58539014811765,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.629244823760132,
+                "minus": 6.697182223618711
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 320.58539014811765,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.629244823760132,
+                "minus": 6.697182223618711
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9431.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9431.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 4.8",
+      "modelVersionSlug": "claude-opus-4-8-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 320.46627846619435,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.181954637657441,
+                "minus": 5.96557922067052
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 320.46627846619435,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.181954637657441,
+                "minus": 5.96557922067052
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10169.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10169.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3.5 Flash",
+      "modelVersionSlug": "gemini-3.5-flash",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 318.6123523049001,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.246392079554653,
+                "minus": 6.472129527794891
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 318.6123523049001,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.246392079554653,
+                "minus": 6.472129527794891
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8087.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8087.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.6",
+      "modelVersionSlug": "grok-4.6",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 315.81391133921863,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.921092931237354,
+                "minus": 6.469306261654879
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 315.81391133921863,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.921092931237354,
+                "minus": 6.469306261654879
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10910.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10910.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.2",
+      "modelVersionSlug": "gpt-5.2-2025-12-11",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 282.03060846321637,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.768966474062836,
+                "minus": 5.812377316906122
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 282.03060846321637,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.768966474062836,
+                "minus": 5.812377316906122
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11169.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11169.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Gemini 3 Flash Preview",
+      "modelVersionSlug": "gemini-3-flash-preview",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 277.2963368585471,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.620446144083871,
+                "minus": 5.735884649467721
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 277.2963368585471,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.620446144083871,
+                "minus": 5.735884649467721
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10550.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10550.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "o3",
+      "modelVersionSlug": "o3-2025-04-16",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 266.15713260923474,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.899332484500746,
+                "minus": 6.130948479774361
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 266.15713260923474,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.899332484500746,
+                "minus": 6.130948479774361
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10422.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 10422.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 4.6",
+      "modelVersionSlug": "claude-opus-4-6-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 258.51072358995793,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.719563616179357,
+                "minus": 6.844282538965302
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 258.51072358995793,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.719563616179357,
+                "minus": 6.844282538965302
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9786.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9786.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.5",
+      "modelVersionSlug": "grok-4.5-0708",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 256.3331461376662,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.618083758538887,
+                "minus": 5.568874149577368
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 256.3331461376662,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.618083758538887,
+                "minus": 5.568874149577368
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11776.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 11776.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Sonnet 5",
+      "modelVersionSlug": "claude-sonnet-5-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 254.05922174696786,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.749835772349684,
+                "minus": 5.923697595779714
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 254.05922174696786,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 5.749835772349684,
+                "minus": 5.923697595779714
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9657.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9657.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Haiku 5.5",
+      "modelVersionSlug": "claude-haiku-5-5",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 250.77622675748398,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.8083714759350755,
+                "minus": 6.113538111075513
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 250.77622675748398,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.8083714759350755,
+                "minus": 6.113538111075513
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9265.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9265.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Opus 4.7",
+      "modelVersionSlug": "claude-opus-4-7-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 214.31982270240383,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.19037482100066,
+                "minus": 6.514117351906634
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 214.31982270240383,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.19037482100066,
+                "minus": 6.514117351906634
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8802.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8802.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Sonnet 4.6",
+      "modelVersionSlug": "claude-sonnet-4-6-default",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 197.68541443515483,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.114576066381687,
+                "minus": 6.656369749409436
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 197.68541443515483,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.114576066381687,
+                "minus": 6.656369749409436
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7776.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7776.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.6 Terra",
+      "modelVersionSlug": "gpt-5.6-terra",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 192.14861890582642,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.507999878524686,
+                "minus": 7.372986997675298
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 192.14861890582642,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.507999878524686,
+                "minus": 7.372986997675298
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8965.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8965.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.20 Reasoning",
+      "modelVersionSlug": "grok-4.20-0309-reasoning",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 188.39390754721433,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.637875901283849,
+                "minus": 6.79563654917925
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 188.39390754721433,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.637875901283849,
+                "minus": 6.79563654917925
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8471.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8471.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4",
+      "modelVersionSlug": "grok-4-0709",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 180.22688536206886,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 22.54252073299145,
+                "minus": 23.991266760121903
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 180.22688536206886,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 22.54252073299145,
+                "minus": 23.991266760121903
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 694.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 694.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 3.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 3.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Claude Sonnet 4.5",
+      "modelVersionSlug": "claude-sonnet-4-5-20250929",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 172.10329486088506,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.396774401678414,
+                "minus": 6.796808469492589
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 172.10329486088506,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.396774401678414,
+                "minus": 6.796808469492589
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7568.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7568.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-6 Luna",
+      "modelVersionSlug": "gpt-6-luna",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 165.83145974642298,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.419735653645972,
+                "minus": 6.3217291333942285
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 165.83145974642298,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.419735653645972,
+                "minus": 6.3217291333942285
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8218.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 8218.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.6 Luna",
+      "modelVersionSlug": "gpt-5.6-luna",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 163.02740357335688,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.598890195660715,
+                "minus": 7.104015008314093
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 163.02740357335688,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.598890195660715,
+                "minus": 7.104015008314093
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9315.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 9315.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5 mini",
+      "modelVersionSlug": "gpt-5-mini-2025-08-07",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 152.8674976876349,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.473385853155833,
+                "minus": 7.334270559350273
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 152.8674976876349,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.473385853155833,
+                "minus": 7.334270559350273
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7748.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7748.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.3",
+      "modelVersionSlug": "grok-4.3",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 146.61747997956775,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.585762045664012,
+                "minus": 7.47893858572013
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 146.61747997956775,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 6.585762045664012,
+                "minus": 7.47893858572013
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7029.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7029.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "GPT-5.4 mini",
+      "modelVersionSlug": "gpt-5.4-mini-2026-03-17",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 138.29802355664015,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.153368489784668,
+                "minus": 8.079095884511332
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 138.29802355664015,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 7.153368489784668,
+                "minus": 8.079095884511332
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7725.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 7725.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 15.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "Grok 4.1 Fast Reasoning",
+      "modelVersionSlug": "grok-4.1-fast-reasoning",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 133.85053469592503,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 20.951740370580666,
+                "minus": 19.944740170417603
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 133.85053469592503,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 20.951740370580666,
+                "minus": 19.944740170417603
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 876.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 876.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 5.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 5.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    },
+    {
+      "modelVersionName": "DeepSeek V3.2",
+      "modelVersionSlug": "deepseek-v3.2",
+      "taskResults": [
+        {
+          "benchmarkTaskName": "Score",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 0.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 27.092650596494845,
+                "minus": 32.277424563209166
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": true,
+              "value": 0.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "unevenConfidenceInterval": {
+                "plus": 27.092650596494845,
+                "minus": 32.277424563209166
+              },
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Matches Played",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 438.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 438.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        },
+        {
+          "benchmarkTaskName": "Games Covered",
+          "benchmarkTaskSlug": "",
+          "taskVersion": 1,
+          "result": {
+            "hasNumericResult": true,
+            "numericResultNullable": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "hasNumericResultPrivate": false,
+            "hasNumericResultPublic": false,
+            "hasEvaluationDate": true,
+            "taskVersionId": 0,
+            "hasTaskVersionId": false,
+            "numericResult": {
+              "hasUnevenConfidenceInterval": false,
+              "value": 6.0,
+              "confidenceInterval": 0.0,
+              "hasConfidenceInterval": false,
+              "standardDeviation": 0.0,
+              "hasStandardDeviation": false
+            },
+            "booleanResult": false,
+            "hasBooleanResult": false,
+            "customAdditionalResults": [],
+            "evaluationDate": "2026-11-09T19:58:59.7418071Z",
+            "resultCase": "numericResult"
+          },
+          "displayType": "counts"
+        }
+      ],
+      "candidateClass": "modelVersion",
+      "modelVersionConfigName": "",
+      "hasModelVersionConfigName": false,
+      "modelVersionConfigSlug": "",
+      "hasModelVersionConfigSlug": false,
+      "agentName": "",
+      "hasAgentName": false,
+      "agentSlug": "",
+      "hasAgentSlug": false,
+      "harnessName": "",
+      "hasHarnessName": false,
+      "harnessSlug": "",
+      "hasHarnessSlug": false
+    }
+  ]
+}

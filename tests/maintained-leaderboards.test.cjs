@@ -31,7 +31,7 @@ test('source index, status filters and external-only boards never imply zero res
    if(b.displayMode==='external'){assert.match(h,/lb-external-results/);assert.doesNotMatch(h,/class="lb-table"|id="leaderboard-search"|没有匹配的 Agent/);}
   }
  }
- const kaggle=render('?arenaBoard=kaggle-game-arena');const date=kaggle.match(/<div class="lb-result-date">([\s\S]*?)<\/div>/)[1];assert.match(date,/2026-10-19/);assert.match(kaggle,/value="kaggle-go"/);
+ const kaggle=render('?arenaBoard=kaggle-game-arena');const date=kaggle.match(/<div class="lb-result-date">([\s\S]*?)<\/div>/)[1];assert.match(date,/2026-11-09/);assert.match(kaggle,/value="kaggle-go"/);
  const sc2=render('?arenaBoard=sc2-ai-arena');assert.doesNotMatch(sc2.match(/<div class="lb-result-date">([\s\S]*?)<\/div>/)[1],/<time/);
 });
 
